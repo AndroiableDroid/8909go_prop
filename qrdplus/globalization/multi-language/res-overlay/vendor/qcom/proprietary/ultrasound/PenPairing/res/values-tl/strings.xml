@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Pagpapares ng SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Pagpapares ng Digital Pen ng Snapdragon"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Mga setting"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"OK"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"Piliin ang posisyon ng pen na ipapakita"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"Piliin ang numero ng serye ng bagong pen"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"Piliin ang uri ng pen na gusto mong gamitin"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"Simulan ang Pagpapares"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"Hawakan ang pen orthogonally sa loob ng bilog upang masimulan ang proseso ng pagpapares"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"Manu-manong Pagpapares"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"Semi-Automatic na Pagpapares"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"Pumili ng paraan ng pagpapares"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"Magpares ng Bagong Pen"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"Pamahalaan ang Mga Nakapares na Pen"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"Pag-calibrate ng SW"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"Hawakan ang pen nang orthogonal sa loob ng bilog upang simulan ang proseso ng pagpapares.\nSa sandaling matagumpay nang nakumpleto, magsisimula ang proseso ng pag-calibrate."</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"Service Center Tester"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"Hawakan ang pen nang orthogonal sa loob ng bilog upang simulan ang proseso ng pagpapares.\nSa sandaling matagumpay nang nakumpleto, magsisimula ang proseso ng pagsubok."</string></resources>

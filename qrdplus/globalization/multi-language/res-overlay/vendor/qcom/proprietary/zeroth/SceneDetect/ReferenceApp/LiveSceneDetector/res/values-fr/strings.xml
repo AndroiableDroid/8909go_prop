@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Détection de scène QC en direct"</string>
+    <add-resource type="string" name="app_description"/>
+    <string name="app_description">"Application de référence de détection de scène en direct"</string>
+    <!-- camera pane -->
+    <add-resource type="string" name="switch_camera"/>
+    <string name="switch_camera">"Basculer entre appareil photo arrière/avant"</string></resources>

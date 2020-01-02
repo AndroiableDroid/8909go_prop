@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK စမ်းသပ်ကိရိယာ"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Snapdragon ဒီဂျစ်တယ် ဖောင်တိန် SDK စမ်းသပ်ကိရိယာ"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"ဆက်တင်များ"</string>
+    <add-resource type="string" name="off_screen_mode_header"/>
+    <string name="off_screen_mode_header">"အပိတ်-ဖန်သားပြင် အနေအထား"</string>
+    <add-resource type="string" name="offscreen_mode_choice_duplicate"/>
+    <string name="offscreen_mode_choice_duplicate">"သဏ္ဍာန်တူ"</string>
+    <add-resource type="string" name="offscreen_mode_choice_extend"/>
+    <string name="offscreen_mode_choice_extend">"တိုးချဲ့ပါ"</string>
+    <add-resource type="string" name="offscreen_mode_choice_disable"/>
+    <string name="offscreen_mode_choice_disable">"အလုပ်မလုပ်ခြင်း"</string>
+    <add-resource type="string" name="apply_configuration_button_text"/>
+    <string name="apply_configuration_button_text">"သီးခြားစီစဉ်ထားရှိမှု ကျင့်သုံးပါ"</string>
+    <add-resource type="string" name="configuration_items_header"/>
+    <string name="configuration_items_header">"သီးခြားစီစဉ်ထားရှိမှု အရာဝတ္ထုများ"</string>
+    <add-resource type="string" name="header_side_channel_listeners"/>
+    <string name="header_side_channel_listeners">"ဘေး-ချန်နယ် နားထောင်သူများ"</string>
+    <add-resource type="string" name="label_on_screen_side_channel"/>
+    <string name="label_on_screen_side_channel">"အဖွင့်-ဖန်သားပြင်- "</string>
+    <add-resource type="string" name="label_off_screen_side_channel"/>
+    <string name="label_off_screen_side_channel">"အပိတ်-ဖန်သားပြင်- "</string>
+    <add-resource type="string" name="label_all_side_channel"/>
+    <string name="label_all_side_channel">"အားလုံး- "</string>
+    <add-resource type="string" name="checkbox_text_off_screen_side_channel_enable"/>
+    <string name="checkbox_text_off_screen_side_channel_enable">"အပိတ်-ဖန်သားပြင် ဘေး-ချန်နယ် ဒေတာဖွင့်ပါ"</string>
+    <add-resource type="string" name="placeholder"/>
+    <string name="placeholder">"&lt;placeholder for dynamic text&gt;"</string>
+    <add-resource type="string" name="side_channel_off"/>
+    <string name="side_channel_off">"ပိတ်သည်"</string>
+    <add-resource type="string" name="side_channel_scaled"/>
+    <string name="side_channel_scaled">"တိုင်းတာထားသည်"</string>
+    <add-resource type="string" name="side_channel_raw"/>
+    <string name="side_channel_raw">"အကြမ်း"</string>
+    <!-- Hover -->
+    <add-resource type="string" name="label_on_screen_hover"/>
+    <string name="label_on_screen_hover">"အဖွင့်-ဖန်သားပြင် ရစ်ဝဲမှု-"</string>
+    <add-resource type="string" name="label_off_screen_hover"/>
+    <string name="label_off_screen_hover">"အပိတ်-ဖန်သားပြင် ရစ်ဝဲမှု-"</string>
+    <add-resource type="string" name="hover_choice_off"/>
+    <string name="hover_choice_off">"ပိတ်သည်"</string>
+    <add-resource type="string" name="hover_choice_enable"/>
+    <string name="hover_choice_enable">"ဖွင့်"</string>
+    <add-resource type="string" name="hover_choice_enable_custom"/>
+    <string name="hover_choice_enable_custom">"စိတ်ကြိုက် ဖွင့်ထားသည် "</string>
+    <!-- Eraser -->
+    <add-resource type="string" name="label_eraser_bypass"/>
+    <string name="label_eraser_bypass">"ကြားခံ ခဲဖျက်"</string>
+    <add-resource type="string" name="label_eraser_bypass_off"/>
+    <string name="label_eraser_bypass_off">"ပိတ်သည်"</string>
+    <add-resource type="string" name="label_eraser_bypass_enable"/>
+    <string name="label_eraser_bypass_enable">"ဖွင့်"</string>
+    <!-- Motion event -->
+    <add-resource type="string" name="label_motion_event_info"/>
+    <string name="label_motion_event_info">"လှုပ်ရှားမှု ဖြစ်ရပ်-"</string>
+    <add-resource type="string" name="placeholder_motion"/>
+    <string name="placeholder_motion">"&lt;placeholder for motion event dynamic text&gt;"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"ထည့်သွင်းမှု အမျိုးအစား"</string>
+    <add-resource type="string" name="input_type_choice_stylus"/>
+    <string name="input_type_choice_stylus">"ကလောင်"</string>
+    <add-resource type="string" name="input_type_choice_mouse"/>
+    <string name="input_type_choice_mouse">"ကြွက်"</string>
+    <add-resource type="string" name="input_type_choice_joystick"/>
+    <string name="input_type_choice_joystick">"အထိန်းကိရိယာ"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"မောက်စ် သိရှိနိုင်စွမ်း-"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"နှေးနှေး"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"အလယ်အလတ်"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"မြန်မြန်"</string></resources>

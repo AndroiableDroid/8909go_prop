@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"QC Detekcia scén z galérie"</string>
+    <add-resource type="string" name="app_description"/>
+    <string name="app_description">"Automatická detekcia scén v obrázkoch."</string>
+    <add-resource type="string" name="settings_menu"/>
+    <string name="settings_menu">"Nastavenia"</string>
+    <add-resource type="string" name="about_menu"/>
+    <string name="about_menu">"Informácie"</string>
+    <add-resource type="string" name="clearassetdatabase_menu"/>
+    <string name="clearassetdatabase_menu">"Vymazať databázu"</string>
+    <add-resource type="string" name="resetapp_menu"/>
+    <string name="resetapp_menu">"Obnoviť aplikáciu"</string>
+    <add-resource type="string" name="imageview_description"/>
+    <string name="imageview_description">"Miniatúra obrázka"</string>
+    <!--  filter UI -->
+    <add-resource type="string" name="filter_filter_header_text"/>
+    <string name="filter_filter_header_text">"Filtrovať"</string>
+    <add-resource type="string" name="reset_filter_button_text"/>
+    <string name="reset_filter_button_text">"Vymazať"</string>
+    <add-resource type="string" name="udc_add_dialog_title"/>
+    <string name="udc_add_dialog_title">"Pridať novú koncepciu"</string>
+    <add-resource type="string" name="udc_add_dialog_ok"/>
+    <string name="udc_add_dialog_ok">"Pridať"</string>
+    <add-resource type="string" name="udc_add_dialog_cancel"/>
+    <string name="udc_add_dialog_cancel">"Zrušiť"</string>
+    <!-- gallery mode processing -->
+    <add-resource type="string" name="engine_notification_title"/>
+    <string name="engine_notification_title">"Qualcomm Technologies Inc, Zeroth SceneDetect"</string>
+    <add-resource type="string" name="engine_notification_scanning"/>
+    <string name="engine_notification_scanning">"Detekcia scén prehľadáva vaše zariadenie\u2026"</string>
+    <add-resource type="string" name="engine_notification_analyzing"/>
+    <string name="engine_notification_analyzing">"Detekcia scén analyzuje vaše fotografie\u2026"</string>
+    <add-resource type="string" name="engine_notification_training"/>
+    <string name="engine_notification_training">"Detekcia scén aktualizuje vaše modely\u2026"</string>
+    <add-resource type="string" name="engine_notification_storing"/>
+    <string name="engine_notification_storing">"Výsledky klasifikácie sa ukladajú do databázy..."</string>
+    <!--  first part: number, second part: already formatted minutes or seconds -->
+    <add-resource type="string" name="engine_notification_togo"/>
+    <string name="engine_notification_togo">"Detekcia scén analyzuje vaše fotografie: ešte %1$d, zostáva %2$s."</string>
+    <add-resource type="string" name="engine_notification_togo_minutes"/>
+    <string name="engine_notification_togo_minutes">"%1$d min."</string>
+    <add-resource type="string" name="engine_notification_togo_minute"/>
+    <string name="engine_notification_togo_minute">"1 min"</string>
+    <add-resource type="string" name="engine_notification_togo_seconds"/>
+    <string name="engine_notification_togo_seconds">"%1$d sek."</string>
+    <add-resource type="string" name="loading_notification"/>
+    <string name="loading_notification">"Prebieha načítavanie"</string>
+    <!-- used in parsing preference values for threshold file -->
+    <add-resource type="string" name="asset_prefix"/>
+    <string name="asset_prefix">"assets://"</string>
+    <add-resource type="string" name="sdcard_prefix"/>
+    <string name="sdcard_prefix">"sdcard://"</string>
+    <add-resource type="string" name="splash_screen_logo_image"/>
+    <string name="splash_screen_logo_image">"Obrázok loga na úvodnej obrazovke."</string>
+    <add-resource type="string" name="all_photos"/>
+    <string name="all_photos">"Všetky fotografie"</string>
+    <add-resource type="string" name="all_videos"/>
+    <string name="all_videos">"Všetky videá"</string>
+    <add-resource type="string" name="all_media"/>
+    <string name="all_media">"Všetky médiá"</string>
+    <add-resource type="string" name="album_title"/>
+    <string name="album_title">"Album"</string>
+    <!-- not used for some reason
+    <string name="gallery_bic_tab_title">Filter</string> -->
+    <add-resource type="string" name="gallery_udc_tab_title"/>
+    <string name="gallery_udc_tab_title">"Osobné"</string>
+    <add-resource type="string" name="positive_example_desc"/>
+    <string name="positive_example_desc">"Obrázok použitý pri výuke ako pozitívny príklad"</string>
+    <add-resource type="string" name="negative_example_desc"/>
+    <string name="negative_example_desc">"Obrázok použitý pri výuke ako negatívny príklad"</string>
+    <add-resource type="string" name="video_notification"/>
+    <string name="video_notification">"VIDEO"</string>
+    <add-resource type="string" name="create_udc_action_title"/>
+    <string name="create_udc_action_title">"Vytvoriť koncepciu"</string>
+    <add-resource type="string" name="add_positive_training_example_title"/>
+    <string name="add_positive_training_example_title">"Pridať pozitívny"</string>
+    <add-resource type="string" name="add_negative_training_example_title"/>
+    <string name="add_negative_training_example_title">"Pridať negatívny"</string>
+    <add-resource type="string" name="train_udc_multiselect_title"/>
+    <string name="train_udc_multiselect_title">"Výuková koncepcia"</string>
+    <add-resource type="string" name="create_udc_multiselect_title"/>
+    <string name="create_udc_multiselect_title">"Vytvoriť koncepciu"</string>
+    <add-resource type="string" name="multiselect_num_selected_suffix"/>
+    <string name="multiselect_num_selected_suffix">"Bola vybratá položka"</string></resources>

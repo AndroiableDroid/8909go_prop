@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string-array name="sessionType">
+        <item>"ການ​ຖ່າຍຮູບ​ດຽວ"</item>
+        <item>"​ແທຣັກ​ແອັບ"</item>
+    </string-array>
+    <string-array name="sessionTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="apiType">
+        <item>"Android API"</item>
+        <item>"API ທີ່​ຕັ້ງ"</item>
+        <item>"ການ​ບໍລິການ GPL"</item>
+        <item>"ການ​ບໍລິການ QPL"</item>
+    </string-array>
+    <string-array name="apiTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="locProviderType">
+        <item>"GPS"</item>
+        <item>"ເຄືອຂ່າຍ"</item>
+        <item>"Passive"</item>
+    </string-array>
+    <string-array name="locProviderTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="accuracyLevelType">
+        <item>"ສູງ"</item>
+        <item>"ປານກາງ"</item>
+        <item>"ຕໍ່າ"</item>
+    </string-array>
+    <string-array name="accuracyLevelTypeValues">
+        <item>"High"</item>
+        <item>"Medium"</item>
+        <item>"Low"</item>
+    </string-array>
+    <string-array name="opModeType">
+        <item>"ຢູ່ດ່ຽວ"</item>
+        <item>"ມີ​ການ​ຊ່ວຍ​ເຫຼືອ MS"</item>
+        <item>"ອີງ​ໃສ່ MS"</item>
+        <item>"ຄວາມ​ໄວ​ທີ່​ປັບ​ໃຫ້​ເໝາະ​ສົມ"</item>
+        <item>"ຂໍ້ມູນທີ່ປັບໃຫ້ເໝາະສົມ"</item>
+        <item>"ຄວາມ​ຖືກຕ້ອງ​ທີ່​ປັບ​ໃຫ້​ເໝາະ​ສົມ"</item>
+        <item>"Cell ID"</item>
+        <item>"ມາດຕະຖານ"</item>
+    </string-array>
+    <string-array name="opModeTypeValues">
+        <item>"Standalone"</item>
+        <item>"MS-Assisted"</item>
+        <item>"MS-Based"</item>
+        <item>"Speed Optimal"</item>
+        <item>"Data Optimal"</item>
+        <item>"Accuracy Optimal"</item>
+        <item>"Cell ID"</item>
+        <item>"Default"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyType">
+        <item>"ບໍ່​ມີ​ຂໍ້​ກຳນົດ"</item>
+        <item>"ຕໍ່າ"</item>
+        <item>"ສູງ"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyType">
+        <item>"ບໍ່​ມີ​ຂໍ້​ກຳນົດ"</item>
+        <item>"ຕໍ່າ"</item>
+        <item>"ປານກາງ"</item>
+        <item>"ສູງ"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="powerRequirementType">
+        <item>"ບໍ່​ມີ​ຂໍ້​ກຳນົດ"</item>
+        <item>"ຕໍ່າ"</item>
+        <item>"ປານກາງ"</item>
+        <item>"ສູງ"</item>
+    </string-array>
+    <string-array name="powerRequirementValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityType">
+        <item>"ບໍ່​ໄດ້​ຕັ້ງ"</item>
+        <item>"ຕໍ່າຫຼາຍ"</item>
+        <item>"ຕໍ່າ"</item>
+        <item>"ປານກາງ"</item>
+        <item>"ສູງ"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityValues">
+        <item>"Not Set"</item>
+        <item>"Very Low"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="lppModeType">
+        <item>"ປິດໃຊ້ງານ"</item>
+        <item>"ລະດັບ​ຜູ້​ໃຊ້"</item>
+        <item>"ລະດັບ​ການ​ຄວບ​ຄຸມ"</item>
+    </string-array>
+    <string-array name="lppModeValues">
+        <item>"Disable"</item>
+         <item>"User Plane"</item>
+        <item>"Control Plane"</item>
+    </string-array>
+    <string-array name="wbiqGLOR1Chan">
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="gplsPriorityType">
+        <item>"ຄວາມ​ຖືກຕ້ອງ​ສູງ"</item>
+        <item>"ຄວາມ​ຖືກຕ້ອງ​ຂອງ​ພະ​ລັງງານ​ແບບ​ດຸນ​ດ່ຽງ"</item>
+        <item>"ພະ​ລັງງານ​ຕໍ່າ"</item>
+        <item>"ບໍ່​ມີ​ພະລັງງານ"</item>
+    </string-array>
+    <string-array name="gplsPriorityTypeValues">
+        <item>100</item>
+        <item>102</item>
+        <item>104</item>
+        <item>105</item>
+    </string-array>
+    <string-array name="geofenceReportType">
+        <item>"ລະ​ເມີດ"</item>
+        <item>"​ເປັນ​ຊຸດ"</item>
+        <item>"ຄວາມໃກ້ຄຽງ"</item>
+        <item>"ລະ​ເມີດ + ຄວາມ​ໃກ້​ຄຽງ"</item>
+        <item>"​ເປັນ​ຊຸດ + ຄວາມ​ໃກ້​ຄຽງ"</item>
+    </string-array>
+    <string-array name="geofenceReportTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array></resources>

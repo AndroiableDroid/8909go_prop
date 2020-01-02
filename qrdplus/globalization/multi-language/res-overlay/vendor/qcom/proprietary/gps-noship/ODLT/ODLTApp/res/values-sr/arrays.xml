@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string-array name="sessionType">
+        <item>"Један снимак"</item>
+        <item>"Праћење апликације"</item>
+    </string-array>
+    <string-array name="sessionTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="apiType">
+        <item>"Android API"</item>
+        <item>"Loc API"</item>
+        <item>"GPL услуга"</item>
+        <item>"QPL услуга"</item>
+    </string-array>
+    <string-array name="apiTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="locProviderType">
+        <item>"GPS"</item>
+        <item>"Мрежа"</item>
+        <item>"Пасивно"</item>
+    </string-array>
+    <string-array name="locProviderTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="accuracyLevelType">
+        <item>"Висок"</item>
+        <item>"Средњи"</item>
+        <item>"Низак"</item>
+    </string-array>
+    <string-array name="accuracyLevelTypeValues">
+        <item>"High"</item>
+        <item>"Medium"</item>
+        <item>"Low"</item>
+    </string-array>
+    <string-array name="opModeType">
+        <item>"Самостално"</item>
+        <item>"Помоћни MS"</item>
+        <item>"Засновано на MS-у"</item>
+        <item>"Оптимална брзина"</item>
+        <item>"Оптимални подаци"</item>
+        <item>"Оптимална прецизност"</item>
+        <item>"ID ћелије"</item>
+        <item>"Подразумевано"</item>
+    </string-array>
+    <string-array name="opModeTypeValues">
+        <item>"Standalone"</item>
+        <item>"MS-Assisted"</item>
+        <item>"MS-Based"</item>
+        <item>"Speed Optimal"</item>
+        <item>"Data Optimal"</item>
+        <item>"Accuracy Optimal"</item>
+        <item>"Cell ID"</item>
+        <item>"Default"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyType">
+        <item>"Нема услова"</item>
+        <item>"Ниска"</item>
+        <item>"Висока"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyType">
+        <item>"Нема услова"</item>
+        <item>"Ниска"</item>
+        <item>"Средња"</item>
+        <item>"Висока"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="powerRequirementType">
+        <item>"Нема услова"</item>
+        <item>"Ниска"</item>
+        <item>"Средња"</item>
+        <item>"Висок"</item>
+    </string-array>
+    <string-array name="powerRequirementValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityType">
+        <item>"Није подешено"</item>
+        <item>"Веома ниска"</item>
+        <item>"Ниска"</item>
+        <item>"Средња"</item>
+        <item>"Висока"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityValues">
+        <item>"Not Set"</item>
+        <item>"Very Low"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="lppModeType">
+        <item>"Онемогући"</item>
+        <item>"Корисничка раван"</item>
+        <item>"Контролна раван"</item>
+    </string-array>
+    <string-array name="lppModeValues">
+        <item>"Disable"</item>
+         <item>"User Plane"</item>
+        <item>"Control Plane"</item>
+    </string-array>
+    <string-array name="wbiqGLOR1Chan">
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="gplsPriorityType">
+        <item>"Велика прецизност"</item>
+        <item>"Прецизност при балансираном напајању"</item>
+        <item>"Слабо напајање"</item>
+        <item>"Нема напајања"</item>
+    </string-array>
+    <string-array name="gplsPriorityTypeValues">
+        <item>100</item>
+        <item>102</item>
+        <item>104</item>
+        <item>105</item>
+    </string-array>
+    <string-array name="geofenceReportType">
+        <item>"Кршење"</item>
+        <item>"Пакетно"</item>
+        <item>"Близина"</item>
+        <item>"Кршење + близина"</item>
+        <item>"Пакетно + близина"</item>
+    </string-array>
+    <string-array name="geofenceReportTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array></resources>

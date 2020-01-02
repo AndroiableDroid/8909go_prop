@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"MDTP صارف ایپ: بنیادی اسکرین"</string>
+    <string name="config_app">"MDTP صارف ایپ: تشکیل"</string>
+    <string name="server_app">"SMTP سرور: بنیادی اسکرین"</string>
+    <string name="action_settings">"ترتیبات"</string>
+    <string name="label_1_1">"MDTP حالت:"</string>
+    <string name="state_deactivated">"غیر فعال کردہ"</string>
+    <string name="state_activated">"فعال کردہ"</string>
+    <string name="configuration">"تشکیل (صرف فعال سے پہلے)"</string>
+    <string name="service_activate">"MDTP خدمات سے MDTP فعالی کی درخواست کریں"</string>
+    <string name="service_deactivate">"MDTP خدمات سے MDTP غیرفعالی کی درخواست کریں"</string>
+    <string name="local_deactivate">"مقامی MDTP غیرفعالی (PIN استعمال کرتے ہوئے)"</string>
+    <string name="service_console">"MDTP خدمات کنسول"</string>
+    <string name="title_activity_configuration">"صارف تشکیل"</string>
+    <string name="label_2_1">"مقامی PIN استعال کریں:"</string>
+    <string name="label_2_2">"PIN:"</string>
+    <string name="gen_rand_pin">"بے ترتیب  PIN تخلیق کریں"</string>
+    <string name="label_2_3">"تصدیق کا تناسب:"</string>
+    <string name="label_2_5">"SIM مقفل کو اہل بنائیں:"</string>
+    <string name="label_2_6">"تصدیق کرنے کے لئے اضافی فائلیں/ڈائریکٹریز:"</string>
+    <string name="reset">"ڈیفالٹ پر پھر سیٹ کریں"</string>
+    <string name="label_3_1">"سرور سے آلہ کو احکامات بھیجیں:"</string>
+    <string name="activate">"فعال کریں"</string>
+    <string name="deactivate">"غیر فعال کریں"</string>
+    <string name="locksim">"مقفل سم"</string>
+    <string name="unlocksim">"سم غیرمقفل"</string>
+    <string name="killfunc">"فعالیت کو ماریں"</string>
+    <string name="restorefunc">"فعالیت کو بحال کریں"</string>
+    <string name="label_3_2">"MDTP غیرفعالیت کے لئے درخواستیں:"</string>
+    <string name="notallowed">"اجازت نہیں ہے"</string>
+    <string name="allowed">"اجازت شدہ۔"</string>
+    <string name="label_3_3">"سیٹ اپ وزرڈ غیرمسدود کرنے کے لئے درخواستیں:"</string>
+    <string name="label_3_4">"سروس لاگ:"</string>
+    <string name="wizard_app_loading_title">"MDTP سیٹ اپ وزرڈ: شروع کر رہا ہے..."</string>
+    <string name="label_4_1">"سیٹ اپ وزرڈ بلاک ہے کیونکہ MDTP حالت فعال ہے"</string>
+    <string name="label_4_2">"اختیار A: MDTP کو فعال رکھیں، لیکن سرور مجاز دہی کی درخواست کریں"</string>
+    <string name="wiz_unblock">"MDTP خدمات سے سیٹ اپ وزرڈ غیرمسدود کرنے کی درخواست کریں"</string>
+    <string name="wiz_cont">"جاری رکھیں (سرور کی طرف سے مجاز دہی)"</string>
+    <string name="label_4_3">"اختیار B: MDTP کو غیرفعال کریں (سیٹ اپ وزرڈ مقفل کاری کو ہٹا دے گا)"</string>
+    <string name="wiz_remote">"بعید MDTP غیرفعالی کی درخواست کریں"</string>
+    <string name="wiz_local">"مقامی MDTP غیرفعال کردہ"</string>
+    <string name="label_4_4">"سیٹ اپ وزرڈ کو جاری رکھنے کی اجازت ہے کیونکہ MDTP حالت فعال نہیں ہے"</string>
+    <string name="wiz_complete">"سیٹ اپ وزرڈ کو مکمل کریں (MDTP حالت فعال نہیں ہے)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"سیٹ اپ وزرڈ"</string>
+    <string name="label_signup_message">"MDTP فی الحال فعال کردہ نہیں ہے.\nکیا آپ اسے فعال کرنا چاہیں گے؟"</string>
+    <string name="label_signup_message_activated">"MDTP کو کامیابی سے فعال کیا!"</string>
+    <string name="skip_activation">"فعالیت کو چھوڑیں؟"</string>
+    <string name="emergency_dialer">"ہنگامی ڈائلر"</string>
+    <string name="wiz_title_sign_up">"MDTP سیٹ اپ وزرڈ - سائن اپ کریں"</string>
+    <string name="wiz_title_reset_prot">"MDTP سیٹ اپ وزرڈ - فیکٹری پھر سیٹ تحفظ"</string>
+    <string name="wiz_title_boot_block">"MDTP سیٹ اپ وزرڈ - آلہ مقفل کردہ ہے"</string>
+    <string name="block_boot_warning_text">"داخلی نقص کی وجہ سے MDTP نے اس آلہ کو مسدود کر دیا ہے۔\n\nبراہ مہربانی آلہ کو پھر بوٹ کریں۔"</string>
+    <string name="start_wifi_wizard">"WiFi کو سیٹ اپ کریں"</string>
+    <string name="default_pin_hint">"طے شدہ PIN ہے 11111"</string>
+    <string name="pin_dialog_title">"MDTP مقامی غیرفعالی PIN مطلوب ہے"</string>
+    <string name="pin_input_validation_warning">"ان پٹ لازماً 5 عددی یا ہندسی ہونی چاہئیے"</string></resources>

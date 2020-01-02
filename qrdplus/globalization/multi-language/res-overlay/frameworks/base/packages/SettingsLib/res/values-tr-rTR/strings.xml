@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+**
+** Copyright 2015 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Toast message when Wi-Fi cannot scan for networks -->
+    <string name="wifi_fail_to_scan">"Ağlar taranamıyor"</string>
+    <!-- Do not translate.  Concise terminology for wifi with WEP security -->
+    <string name="wifi_security_short_wep">WEP</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA security -->
+    <string name="wifi_security_short_wpa">WPA</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_short_eap">802.1x</string>
+    <!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
+    <string name="wifi_security_none">"Yok"</string>
+    <!-- Do not translate.  Terminology for wifi with WEP security -->
+    <string name="wifi_security_wep">WEP</string>
+    <!-- Do not translate.  Terminology for wifi with WPA security -->
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <!-- Do not translate.  Terminology for wifi with WPA2 security -->
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_eap">802.1x EAP</string>
+    <!-- Do not translate.  Concise terminology for Passpoint network -->
+    <string name="wifi_security_passpoint">Passpoint</string>
+    <!-- Summary for the remembered network. -->
+    <string name="wifi_remembered">"Kaydedildi"</string>
+    <!-- Status for networks disabled for unknown reason -->
+    <string name="wifi_disabled_generic">"Devre dışı"</string>
+    <!-- Status for networked disabled from a DNS or DHCP failure -->
+    <string name="wifi_disabled_network_failure">"IP Yapılandırması Hatası"</string>
+    <!-- Status for networked disabled from a wifi association failure -->
+    <string name="wifi_disabled_wifi_failure">"Kablosuz Bağlantı Hatası"</string>
+    <!-- Status for networks disabled from authentication failure (wrong password
+         or certificate). -->
+    <string name="wifi_disabled_password_failure">"Kimlik doğrulama sorunu"</string>
+    <!-- Summary for the remembered network but currently not in range. -->
+    <string name="wifi_not_in_range">"Kapsama alanı dışında"</string>
+    <!-- Summary for the remembered network but no internet connection was detected. -->
+    <string name="wifi_no_internet">"İnternet Erişimi algılanmadı, otomatik olarak tekrar bağlanmayacak."</string>
+    <!-- Summary for saved networks -->
+    <string name="saved_network">"<xliff:g id="NAME">%1$s</xliff:g> tarafından kaydedildi"</string>
+    <!-- Status message of Wi-Fi when it is connected by a Wi-Fi assistant application. [CHAR LIMIT=NONE] -->
+    <string name="connected_via_wfa">"Kablosuz bağlantı yardımcısıyla bağlandı"</string>
+    <!-- Status message of Wi-Fi when it is connected by Passpoint configuration. [CHAR LIMIT=NONE] -->
+    <string name="connected_via_passpoint">"%1$s üzerinden bağlı"</string>
+    <!-- Status message of Wi-Fi when network has matching passpoint credentials. [CHAR LIMIT=NONE] -->
+    <string name="available_via_passpoint">"%1$s üzerinden kullanılabilir"</string>
+    <!-- Summary for Connected wifi network without internet -->
+    <string name="wifi_connected_no_internet">"Bağlı, İnternet yok"</string>
+    <!-- Text when wrong password entered for psk networks -->
+    <string name="wifi_auth_password_wrong">"Şifre yanlış olabilir"</string>
+    <!-- Bluetooth settings.  Message when a device is disconnected -->
+    <string name="bluetooth_disconnected">"Bağlantı kesildi"</string>
+    <!-- Bluetooth settings.  Message when disconnecting from a device -->
+    <string name="bluetooth_disconnecting">"Bağlantı kesiliyor\u2026"</string>
+     <!-- Bluetooth settings.  Message when connecting to a device -->
+    <string name="bluetooth_connecting">"Bağlanıyor\u2026"</string>
+    <!-- Bluetooth settings.  Message when connected to a device. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected">"Bağlandı"</string>
+    <!--Bluetooth settings screen, summary text under individual Bluetooth devices when pairing -->
+    <string name="bluetooth_pairing">"Eşleştiriliyor\u2026"</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for phone audio. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_headset">"Bağlandı (telefon yok)"</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for media audio. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_a2dp">"Bağlandı (medya yok)"</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for map. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_map">"Bağlı (mesaj erişimi yok)"</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for phone/media audio. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_headset_no_a2dp">"Bağlandı (telefon veya medya yok)"</string>
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the A2DP profile. -->
+    <string name="bluetooth_profile_a2dp">"Medya sesi"</string>
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the headset or handsfree profile. -->
+    <string name="bluetooth_profile_headset">"Telefon sesi"</string>
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the OPP profile. -->
+    <string name="bluetooth_profile_opp">"Dosya aktarımı"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the HID profile. -->
+    <string name="bluetooth_profile_hid">"Giriş cihazı"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the PAN profile (accessing Internet through remote device). [CHAR LIMIT=40] -->
+    <string name="bluetooth_profile_pan">"İnternet erişimi"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the PBAP profile. [CHAR LIMIT=40] -->
+    <string name="bluetooth_profile_pbap">"Kişi paylaşma"</string>
+    <!-- Bluetooth settings. The user-visible summary string that is used whenever referring to the PBAP profile (sharing contacts). [CHAR LIMIT=60] -->
+    <string name="bluetooth_profile_pbap_summary">"Kişi paylaşmak için kullan"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the PAN profile (sharing this device's Internet connection). [CHAR LIMIT=40] -->
+    <string name="bluetooth_profile_pan_nap">"İnternet bağlantısı paylaşımı"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the map profile. -->
+    <string name="bluetooth_profile_map">"Mesaj Erişimi"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the SAP profile (sharing SIM card). -->
+    <string name="bluetooth_profile_sap">"SIM Erişimi"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the dun profile. -->
+    <string name="bluetooth_profile_dun">"Çevirmeli Ağ Erişimi"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference when A2DP is connected. -->
+    <string name="bluetooth_a2dp_profile_summary_connected">"Medya sesine bağlanıldı"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference when headset is connected. -->
+    <string name="bluetooth_headset_profile_summary_connected">"Telefon sesine bağlandı"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is connected. -->
+    <string name="bluetooth_opp_profile_summary_connected">"Dosya aktarım sunucusuna bağlandı"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the map checkbox preference when map is connected. -->
+    <string name="bluetooth_map_profile_summary_connected">"MAP\'ye bağlı"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the sap checkbox preference when SAP is connected. -->
+    <string name="bluetooth_sap_profile_summary_connected">"SAP\'ye bağlı"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is not connected. -->
+    <string name="bluetooth_opp_profile_summary_not_connected">"Dosya aktarım sunucusuna bağlanmadı"</string>
+    <!-- Bluetooth settings. Connection options screen. The summary for the HID checkbox preference when HID is connected. -->
+    <string name="bluetooth_hid_profile_summary_connected">"Giriş cihazına bağlı"</string>
+    <!-- Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (user role). [CHAR LIMIT=25]-->
+    <string name="bluetooth_pan_user_profile_summary_connected">"İnternet erişimi için cihaza bağlandı"</string>
+    <!-- Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (NAP role). [CHAR LIMIT=25]-->
+    <string name="bluetooth_pan_nap_profile_summary_connected">"Cihazla yerel Intrnt bağlantısını paylaşıyor"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference when DUN is connected. -->
+    <string name="bluetooth_dun_profile_summary_connected">"Dun Sunucusuna Bağlanıldı"</string>
+    <!-- Bluetooth settings. Connection options screen. The summary
+         for the PAN checkbox preference that describes how checking it
+         will set the PAN profile as preferred. -->
+    <string name="bluetooth_pan_profile_summary_use_for">"İnternet erişimi için kullan"</string>
+    <!-- Bluetooth settings. Connection options screen.  The summary for the map checkbox preference that describes how checking it will set the map profile as preferred. -->
+    <string name="bluetooth_map_profile_summary_use_for">"MAP için kullan"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the sap checkbox preference that describes how checking it will set the sap profile as preferred. -->
+    <string name="bluetooth_sap_profile_summary_use_for">"SIM erişimi için kullan"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference that describes how checking it will set the A2DP profile as preferred. -->
+    <string name="bluetooth_a2dp_profile_summary_use_for">"Medya sesi için kullan"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference that describes how checking it will set the headset profile as preferred. -->
+    <string name="bluetooth_headset_profile_summary_use_for">"Telefon sesi için kullan"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference that describes how checking it will set the OPP profile as preferred. -->
+    <string name="bluetooth_opp_profile_summary_use_for">"Dosya aktarımı için kullan"</string>
+    <!-- Bluetooth settings. Connection options screen. The summary
+         for the HID checkbox preference that describes how checking it
+         will set the HID profile as preferred. -->
+    <string name="bluetooth_hid_profile_summary_use_for">"Giriş için kullan"</string>
+    <!-- Bluetooth settings. Connection options screen.  The summary for the dun checkbox preference that describes how checking it will set the dun profile as preferred. -->
+    <string name="bluetooth_dun_profile_summary_use_for">"Çevirmeli Ağ erişimi için kullanın"</string>
+    <!-- Button text for accepting an incoming pairing request. [CHAR LIMIT=20] -->
+    <string name="bluetooth_pairing_accept">"Eşleştir"</string>
+    <!-- Button text for accepting an incoming pairing request in all caps. [CHAR LIMIT=20] -->
+    <string name="bluetooth_pairing_accept_all_caps">"EŞLEŞTİR"</string>
+    <!-- Button text for declining an incoming pairing request. [CHAR LIMIT=20] -->
+    <string name="bluetooth_pairing_decline">"İptal"</string>
+    <!-- Message in pairing dialogs.  [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_pairing_will_share_phonebook">"Eşleme işlemi, bağlantı kurulduğunda kişilerinize ve çağrı geçmişine erişim izni verir."</string>
+    <!-- Message for the error dialog when BT pairing fails generically. -->
+    <string name="bluetooth_pairing_error_message">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ile eşleştirilemedi."</string>
+    <!-- Message for the error dialog when BT pairing fails because the PIN /
+    Passkey entered is incorrect. -->
+    <string name="bluetooth_pairing_pin_error_message">"PIN veya parola yanlış olduğundan <xliff:g id="DEVICE_NAME">%1$s</xliff:g> ile eşleştirilemedi"</string>
+    <!-- Message for the error dialog when BT pairing fails because the other device is down. -->
+    <string name="bluetooth_pairing_device_down_error_message">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ile iletişim kurulamıyor."</string>
+    <!-- Message for the error dialog when BT pairing fails because the other device rejected the pairing. -->
+    <string name="bluetooth_pairing_rejected_error_message">"Eşleştirme <xliff:g id="DEVICE_NAME">%1$s</xliff:g> tarafından reddedildi."</string>
+    <!-- Content description of the WIFI signal when WIFI is disabled for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_off">"Kablosuz kapalı."</string>
+    <!-- Content description of the WIFI signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_wifi">"Kablosuz bağlantı kesildi."</string>
+    <!-- Content description of the WIFI signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_one_bar">"Kablosuz sinyal gücü tek çubuk."</string>
+    <!-- Content description of the WIFI signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_two_bars">"Kablosuz sinyal gücü iki çubuk."</string>
+    <!-- Content description of the WIFI signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_three_bars">"Kablosuz sinyal gücü üç çubuk."</string>
+    <!-- Content description of the WIFI signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_signal_full">"Kablosuz sinyal gücü tam."</string></resources>

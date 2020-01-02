@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">EmbmsTestApp</string>
+    <string name="embms_test_app">"Aplicație test MBMS"</string>
+    <string name="bind_service">"Asociați serviciul"</string>
+    <string name="unbind_service">"Anulați asocierea serviciului"</string>
+    <string name="kill_process">"Opriți procesul"</string>
+    <string name="register">"Înregistrați apelările inverse"</string>
+    <string name="deregister">"Anulați înregistrarea apelărilor inverse"</string>
+    <string name="enable">"Se activează eMBMS"</string>
+    <string name="disable">"Se dezactivează eMBMS"</string>
+    <string name="activate">"Se activează TMGI"</string>
+    <string name="deactivate">"Se dezactivează TMGI"</string>
+    <string name="enter_Tmgi">"Introduceți TMGI în zecimale"</string>
+    <string name="get_active">"Obțineți lista Act"</string>
+    <string name="get_available">"Obțineți lista Avl"</string>
+    <string name="get_coverage">"Obțineți starea Cov"</string>
+    <string name="get_log_packet_id">"Obțineți ID-urile pachetului de jurnale"</string>
+    <string name="deliver_log_packet">"Livrați pachetul de jurnale"</string>
+    <string name="get_e911_state">"Obțineți starea E911"</string></resources>

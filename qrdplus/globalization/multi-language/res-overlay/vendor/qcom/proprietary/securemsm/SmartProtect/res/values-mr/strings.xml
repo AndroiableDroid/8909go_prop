@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtect"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"अनुप्रयोगाची माहिती"</string>
+    <string name="title_trusted">"विश्वसनीय अनुप्रयोग"</string>
+    <string name="title_about">"याविषयी"</string>
+    <string name="title_settings">"सेटिंग्ज"</string>
+    <string name="drawer_open_title">"Snapdragon Smart Protect"</string>
+<string name="service_status_on">"चालू"</string>
+    <string name="service_status_off">"बंद"</string>
+    <string name="err_title">"अनुप्रयोग त्रुटी"</string>
+    <string name="err_msg_init">"QSSP लायब्ररी आरंभ करण्यास Snapdragon Smart Protect सक्षम नाही. सेवा थांबवत आहे"</string>
+    <string name="err_msg_load_model">"मॉडेल लोड करण्यास Snapdragon Smart Protect सक्षम नाही. सेवा थांबवत आहे"</string>
+    <string name="err_msg_malicious_alert">"दुर्भावनापूर्ण अलर्ट्ससाठी नोंदणी करण्यास Snapdragon Smart Protect सक्षम नाही. सेवा थांबवत आहे"</string>
+    <string name="err_msg_benign_alert">"चांगल्या अलर्ट्ससाठी नोंदणी करण्यास Snapdragon Smart Protect सक्षम नाही. सेवा थांबवत आहे"</string>
+    <string name="err_msg_service_not_up">"यापुढे सेवा शोधण्यास Snapdragon Smart Protect सक्षम नाही."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"सर्व अधिकार आरक्षित केले."</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ Smart Protect हे Qualcomm Technologies, Inc-चे एक उत्पादन आहे."</string>
+    <string name="about_information_line2">"युनायटेड स्टेट्स व इतर देशांमध्ये नोंदणी केलेली Qualcomm आणि Snapdragon ही Qualcomm Incorporated-ची व्यवसायचिन्हे आहेत, जी परवानगी असल्यास वापरली जाऊ शकतात."</string>
+    <string name="btn_restore_default">"डिफॉल्ट सेटिंग्‍स पुनर्स्थापित करा"</string>
+    <string name="btn_clear_history">"SMART PROTECT इतिहास साफ करा"</string>
+    <string name="trusted_btn">"विश्वसनीय अनुप्रयोगांच्या सूचीमध्ये जोडा"</string>
+    <string name="uninstall_btn">"अनइन्‍स्टॉल करा"</string>
+    <string name="details_btn">"तपशील"</string>
+    <string name="done_btn">"झाले"</string>
+    <string name="remove_trusted_btn">"विश्वसनीय अनुप्रयोगांच्या सूचीमधून काढा"</string>
+    <string name="uninstall_confirm_message">"आपण हा अॅप विस्थापित करू इच्छिता?"</string>
+    <string name="uninstall_success">"पॅकेज यशस्वीरित्या अनइन्‍स्टॉल केले"</string>
+    <string name="uninstall_failed">"पॅकेज अनइन्‍स्टॉल करणे अयशस्वी झाले"</string>
+    <string name="clear_history_done">"इतिहास यशस्वीरित्या साफ केला"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon Smart Protect"</string>
+    <string name="drawer_threats">"धोके शोधले (%1$s)"</string>
+    <string name="drawer_threat_null">"रियल टाइम, उपकरणावर गोपनीयता संरक्षण आणि मालवेअर शोध"</string>
+    <string name="drawer_option_dashboard">"डॅशबोर्ड"</string>
+    <string name="drawer_option_trusted_apps">"विश्वसनीय अनुप्रयोग"</string>
+    <string name="drawer_option_settings">"सेटिंग्ज"</string>
+    <string name="drawer_option_about">"याविषयी"</string>
+    <string name="dashboard_list_title">"Snapdragon Smart Protect तपशील आणि शिफारसी पाहण्यासाठी एक अनुप्रयोग निवडा."</string>
+    <string name="dashboard_list_empty">"कोणतेही अनुप्रयोग मॉनिटर केले जात नाहीत."</string>
+    <string name="app_info_recommend">"शिफारस:"</string>
+    <string name="app_info_version">"आवृत्ती"</string>
+    <string name="app_uninstalled">"आता उपकरणावर अनुप्रयोग नाही. क्विट करण्यासाठी ठीक दाबा."</string>
+    <string name="malicious_item_threat">"Snapdragon Smart Protect-ने शोधले:"</string>
+    <string name="malicious_item_confidence">"विश्‍वास स्‍तर:"</string>
+    <string name="malicious_item_analysis">"विश्लेषण"</string>
+    <string name="malicious_recommend">"विस्थापित करा"</string>
+    <string name="good_threat">"धोके शोधले नाहीत."</string>
+    <string name="good_recommend">"पूर्ण झाले निवडा, जेणेकरून Snapdragon Smart Protect या अनुप्रयोगाला मॉनिटर करणे सुरु ठेवेल."</string>
+    <string name="good_title">"चांगले"</string>
+    <string name="trusted_item_title">"Snapdragon Smart Protect %1$s-चे क्रियाकलाप मॉनिटर करत नाही कारण ते आपल्या विश्वसनीय अनुप्रयोग सूचीमध्ये आहे.\n\nजर आपण या अनुप्रयोगाच्या सुरक्षिततेबद्दल सुनिश्चित नसाल, तर विश्वसनीय अनुप्रयोग सूचीमधून त्यास काढा."</string>
+    <string name="trusted_list_title">"Snapdragon Smart Protect या सूचीमधील अनुप्रयोग मॉनिटर करत नाही."</string>
+    <string name="trusted_list_subtitle">"जर आपण या अनुप्रयोगाच्या सुरक्षिततेबद्दल सुनिश्चित नसाल, तर विश्वसनीय अनुप्रयोग सूचीमधून त्यास काढा."</string>
+    <string name="trusted_list_empty">"आपल्या विश्वसनीय अनुप्रयोग सूचीमध्ये अनुप्रयोग नाहीत."</string>
+    <string name="trusted_list_empty_desc">"हे आपणांस अधिकतम संरक्षण प्रदान करते, कारण Snapdragon Smart Protect आपल्या सर्व अनुप्रयोगांना मॉनिटर करत आहे."</string>
+    <string name="trusted_confirm_message">"आपण हा अनुप्रयोग आपल्या विश्वसनीय अनुप्रयोग सूचीमध्ये जोडू इच्छिता?\n\nजर आपण या अनुप्रयोगाच्या सुरक्षिततेबद्दल सुनिश्चित नसाल, तर रद्द करा निवडा."</string>
+    <string name="malicious_ntf_message">"Snapdragon Smart Protect-ने %1$s-मध्ये दुर्भावनापूर्ण क्रियाकलाप शोधली."</string>
+    <string name="malicious_ntf_recommend">"शिफारस: अनइन्‍स्टॉल करा"</string>
+    <string name="malicious_dialog_title">"दुर्भावनापूर्ण"</string>
+    <string name="malicious_text">"दुर्भावनापूर्ण"</string>
+    <string name="malware_ntf_message">"Snapdragon Smart Protect-ने %1$s-मध्ये मालवेअर शोधले."</string>
+    <string name="malware_dialog_title">"मालवेअर शोधले"</string>
+    <string name="malware_title">"मालवेअर"</string>
+    <string name="spyware_ntf_message">"Snapdragon Smart Protect-ने %1$s-मध्ये स्पायवेअर शोधले."</string>
+    <string name="spyware_dialog_title">"स्पायवेअर शोधले"</string>
+    <string name="spyware_title">"स्पायवेअर"</string>
+    <string name="adware_ntf_message">"Snapdragon Smart Protect-ने %1$s-मध्ये अॅडवेअर शोधले."</string>
+    <string name="adware_dialog_title">"अॅडवेअर शोधले"</string>
+    <string name="adware_title">"अॅडवेअर"</string>
+<string name="err_no_app_dashborad">"डॅशबोर्ड अनुप्रयोग सूची रिक्त आहे"</string>
+    <string name="analysis_title">"%1$s खालील कारणांमुळे दुर्भावनापूर्ण असू शकते:"</string>
+    <string name="service_label">"Sphinx सेवा"</string>
+    <string name="unknown_code">" कोड - %1$d"</string>
+    <string name="default_code_detail">"अनुप्रयोग दुर्भावनापूर्ण क्रियाकलाप करण्याचा प्रयत्न करत आहे."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"आपल्या उपकरणावर हानीकारक क्रियाकलाप करत असल्याची शक्यता आहे."</item>
+        <item>"स्तर 1 मालवेअर: प्रयोक्‍ता सामग्री, अनुप्रयोग आणि उपकरणावर हानीकारक क्रियाकलाप करते."</item>
+        <item>"स्तर 2 मालवेअर: अशा प्रकारचे क्रियाकलाप करते ज्यामुळे प्रयोक्‍त्याचे पैसे खर्च होऊ शकतात."</item>
+        <item>"Level 3 स्पायवेअर: सामग्री लीक करणे/चोरणे आणि सक्रियपणे प्रयोक्‍त्यांवर चोरून नजर ठेवणे."</item>
+        <item>"Level 4 स्पायवेअर: मेटा प्रयोक्‍त्याची माहिती लीक करणे/चोरणे."</item>
+        <item>"Level 5 स्पायवेअर: उपकरण संवेदनशील माहिती लीक करणे/चोरणे."</item>
+        <item>"स्तर 6 अनॉयवेअर: आक्रमक अॅडवेअर आणि/किंवा अनिष्ट अनुप्रयोग."</item>
+    </string-array>
+    <string name="setting_level1_title">"स्तर 1 मालवेअर"</string>
+    <string name="setting_level2_title">"स्तर 2 मालवेअर"</string>
+    <string name="setting_level3_title">"स्तर 3 स्पायवेअर"</string>
+    <string name="setting_level4_title">"स्तर 4 स्पायवेअर"</string>
+    <string name="setting_level5_title">"स्तर 5 स्पायवेअर"</string>
+    <string name="setting_level6_title">"स्तर 6 अॅडवेअर"</string>
+    <string name="setting_mode_title">"मोड"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"पॉप अप आणि मानक अलर्ट"</item>
+        <item>"मानक अलर्ट"</item>
+        <item>"अलर्ट्स नाहीत"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"सामान्य मोड"</item>
+        <item>"मूक मोड"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array></resources>

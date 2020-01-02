@@ -1,0 +1,249 @@
+<?xml version="1.0" standalone="no"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SVA 2.0"</string>
+    <add-resource type="string" name="dialog_cancel"/>
+    <string name="dialog_cancel">"Prekliči"</string>
+    <add-resource type="string" name="dialog_save"/>
+    <string name="dialog_save">"Shrani"</string>
+    <add-resource type="string" name="dialog_ok"/>
+    <string name="dialog_ok">"V redu"</string>
+    <add-resource type="string" name="dialog_delete"/>
+    <string name="dialog_delete">"Izbriši"</string>
+    <string name="none"/>
+    <add-resource type="string" name="detection_menu_voicerequests"/>
+    <string name="detection_menu_voicerequests">"Glasovne zahteve"</string>
+    <add-resource type="string" name="detection_menu_settings"/>
+    <string name="detection_menu_settings">"Nastavitve"</string>
+    <add-resource type="string" name="detection_menu_version"/>
+    <string name="detection_menu_version">"Številka različice"</string>
+    <add-resource type="string" name="detection_menu_testone"/>
+    <string name="detection_menu_testone">"Test glasovnih zahtev"</string>
+    <add-resource type="string" name="home_menu_query"/>
+    <string name="home_menu_query">"Poizvedba"</string>
+    <add-resource type="string" name="home_soundmodel"/>
+    <string name="home_soundmodel">"Zvočni model"</string>
+    <add-resource type="string" name="home_startvoiceactivation"/>
+    <string name="home_startvoiceactivation">"Začni zaznavanje"</string>
+    <add-resource type="string" name="home_stopvoiceactivation"/>
+    <string name="home_stopvoiceactivation">"Ustavi zaznavanje"</string>
+    <add-resource type="string" name="home_advanceddetail"/>
+    <string name="home_advanceddetail">"NAPREDNE PODROBNOSTI"</string>
+    <add-resource type="string" name="detection_advanceddetail_keyworduser"/>
+    <string name="detection_advanceddetail_keyworduser">"Ključne besede:"</string>
+    <add-resource type="string" name="home_advanceddetail_user"/>
+    <string name="home_advanceddetail_user">"Uporabnik:"</string>
+    <add-resource type="string" name="detection_advanceddetail_detections"/>
+    <string name="detection_advanceddetail_detections">"Zaznano:"</string>
+    <add-resource type="string" name="detection_advanceddetail_keyphrase"/>
+    <string name="detection_advanceddetail_keyphrase">"Besedna zveza:"</string>
+    <add-resource type="string" name="detection_advanceddetail_user"/>
+    <string name="detection_advanceddetail_user">"Uporabnik:"</string>
+    <add-resource type="string" name="detection_advanceddetail_voicerequests"/>
+    <string name="detection_advanceddetail_voicerequests">"Glasovne zahteve:"</string>
+    <add-resource type="string" name="detection_advanceddetail_initialdetections"/>
+    <string name="detection_advanceddetail_initialdetections">0</string>
+    <add-resource type="string" name="detection_advanceddetail_initialscore"/>
+    <string name="detection_advanceddetail_initialscore">0</string>
+    <add-resource type="string" name="detection_advanceddetail_initialvoicerequests"/>
+    <string name="detection_advanceddetail_initialvoicerequests">0</string>
+    <add-resource type="string" name="detection_advanceddetail_scorepossible"/>
+    <string name="detection_advanceddetail_scorepossible">/100</string>
+    <add-resource type="string" name="home_dialog_startingvoiceactivation"/>
+    <string name="home_dialog_startingvoiceactivation">"Začetek glasovnega vklopa"</string>
+    <add-resource type="string" name="home_dialog_stoppingvoiceactivation"/>
+    <string name="home_dialog_stoppingvoiceactivation">"Zaustavljanje glasovnega vklopa"</string>
+    <add-resource type="string" name="home_dialog_pleasewait"/>
+    <string name="home_dialog_pleasewait">"Počakajte... "</string>
+    <add-resource type="string" name="home_dialog_badlibs_title"/>
+    <string name="home_dialog_badlibs_title">"Manjkajoče/nezdružljive knjižnice za poslušanje"</string>
+    <add-resource type="string" name="home_dialog_badlibs_message"/>
+    <string name="home_dialog_badlibs_message">"Ni mogoče nadaljevati. Kliknite V redu in zaprite aplikacijo."</string>
+    <add-resource type="string" name="soundmodels_top_title"/>
+    <string name="soundmodels_top_title">"Zvočni modeli"</string>
+    <add-resource type="string" name="soundmodels_dialog_createyourown"/>
+    <string name="soundmodels_dialog_createyourown">"Ustvari svojo..."</string>
+    <add-resource type="string" name="soundmodels_dialog_invalidselection"/>
+    <string name="soundmodels_dialog_invalidselection">"Neveljavna izbira"</string>
+    <add-resource type="string" name="soundmodels_dialog_createyourownmultiselecterror"/>
+    <string name="soundmodels_dialog_createyourownmultiselecterror">"Če želite ustvariti svojo besedno zvezo, izberite možnost \"Ustvari svojo ...\"."</string>
+    <add-resource type="string" name="soundmodels_dialog_namekeyphrase_title"/>
+    <string name="soundmodels_dialog_namekeyphrase_title">"Ime nove besedne zveze"</string>
+    <add-resource type="string" name="soundmodels_dialog_namekeyphrase_message"/>
+    <string name="soundmodels_dialog_namekeyphrase_message">"Vnesite ime za novo ključno besedno zvezo:"</string>
+    <add-resource type="string" name="soundmodels_dialog_namesoundmodel_title"/>
+    <string name="soundmodels_dialog_namesoundmodel_title">"Ime novega zvočnega modela"</string>
+    <add-resource type="string" name="soundmodels_dialog_namesoundmodel_message"/>
+    <string name="soundmodels_dialog_namesoundmodel_message">"Vnesite ime za novo "</string>
+    <add-resource type="string" name="soundmodels_dialog_adduser_title"/>
+    <string name="soundmodels_dialog_adduser_title">"Dodaj novega uporabnika"</string>
+    <add-resource type="string" name="soundmodels_dialog_adduser_message"/>
+    <string name="soundmodels_dialog_adduser_message">"Vnesite ime uporabnika za usposabljanje:"</string>
+    <add-resource type="string" name="soundmodels_dialog_adduser_starttrainging"/>
+    <string name="soundmodels_dialog_adduser_starttrainging">"Začni usposabljanje"</string>
+    <add-resource type="string" name="soundmodels_dialog_deletesoundmodel_title"/>
+    <string name="soundmodels_dialog_deletesoundmodel_title">"Izbriši zvočni model"</string>
+    <add-resource type="string" name="soundmodels_dialog_train_title"/>
+    <string name="soundmodels_dialog_train_title">"Usposobi zvočni model"</string>
+    <add-resource type="string" name="soundmodels_dialog_train_content"/>
+    <string name="soundmodels_dialog_train_content">"Usposabljanje je potrebno za ustvarjanje zvočnega modela za tega uporabnika."</string>
+    <add-resource type="string" name="soundmodels_dialog_option_deletesoundmodel"/>
+    <string name="soundmodels_dialog_option_deletesoundmodel">"Izbriši zvočni model"</string>
+    <add-resource type="string" name="soundmodels_dialog_option_starttrain"/>
+    <string name="soundmodels_dialog_option_starttrain">"Začni usposabljanje"</string>
+    <add-resource type="string" name="soundmodels_dialog_selectakeyphrase_title"/>
+    <string name="soundmodels_dialog_selectakeyphrase_title">"Izberite ključne besedne zveze"</string>
+    <add-resource type="string" name="soundmodels_dialog_duplicate_title"/>
+    <string name="soundmodels_dialog_duplicate_title">"Zvočni model že obstaja"</string>
+    <add-resource type="string" name="soundmodels_dialog_duplicate_message"/>
+    <string name="soundmodels_dialog_duplicate_message">"Ime zvočnega modela je že zasedeno. Poskusite znova."</string>
+    <add-resource type="string" name="soundmodels_dialog_invalidsm_title"/>
+    <string name="soundmodels_dialog_invalidsm_title">"Neveljavno ime zvočnega modela"</string>
+    <add-resource type="string" name="soundmodels_dialog_invalidsm_message"/>
+    <string name="soundmodels_dialog_invalidsm_message">"Ime zvočnega modela ne more biti prazno."</string>
+    <add-resource type="string" name="soundmodel_listitem_name"/>
+    <string name="soundmodel_listitem_name">"Ime zvočnega modela"</string>
+    <add-resource type="string" name="soundmodel_listitem_sessions"/>
+    <string name="soundmodel_listitem_sessions">"Seje:"</string>
+    <add-resource type="string" name="soundmodeldetails_top_title"/>
+    <string name="soundmodeldetails_top_title">"Podrobnosti zvočnega modela"</string>
+    <add-resource type="string" name="soundmodeldetails_smtype"/>
+    <string name="soundmodeldetails_smtype">"Odvisno od uporabnika"</string>
+    <add-resource type="string" name="soundmodeldetails_adduser"/>
+    <string name="soundmodeldetails_adduser">"Dodaj uporabnika..."</string>
+    <add-resource type="string" name="soundmodeldetails_dialog_setconfidencelevel_title"/>
+    <string name="soundmodeldetails_dialog_setconfidencelevel_title">"Nastavite stopnjo zaupanja"</string>
+    <string name="soundmodeldetails_dialog_setconfidencelevel_message"/>
+    <add-resource type="string" name="soundmodeldetails_dialog_duplicateuser_title"/>
+    <string name="soundmodeldetails_dialog_duplicateuser_title">"Uporabnik že usposobljen"</string>
+    <add-resource type="string" name="soundmodeldetails_dialog_duplicateuser_message"/>
+    <string name="soundmodeldetails_dialog_duplicateuser_message">"Podatki o usposabljanju uporabnika s tem imenom že obstajajo. Izberite drugega uporabnika."</string>
+    <add-resource type="string" name="soundmodels_dialog_invaliduser_title"/>
+    <string name="soundmodels_dialog_invaliduser_title">"Neveljavno ime uporabnika"</string>
+    <add-resource type="string" name="soundmodels_dialog_invaliduser_message"/>
+    <string name="soundmodels_dialog_invaliduser_message">"Ime uporabnika ne sme biti prazno."</string>
+    <add-resource type="string" name="soundmodeldetails_dialog_selectsession_title"/>
+    <string name="soundmodeldetails_dialog_selectsession_title">"Izberite seje"</string>
+    <add-resource type="string" name="soundmodeldetails_popup_copy"/>
+    <string name="soundmodeldetails_popup_copy">"Kopiraj zvočni model"</string>
+    <add-resource type="string" name="soundmodeldetails_popup_merge"/>
+    <string name="soundmodeldetails_popup_merge">"Združi zvočni model"</string>
+    <add-resource type="string" name="soundmodels_dialog_selectsm_title"/>
+    <string name="soundmodels_dialog_selectsm_title">"Izberi zvočni model"</string>
+    <add-resource type="string" name="soundmodeldetails_popup_delete"/>
+    <string name="soundmodeldetails_popup_delete">"Izbriši zvočni model"</string>
+    <add-resource type="string" name="training_welcome_unkownuser"/>
+    <string name="training_welcome_unkownuser">"Neznan uporabnik"</string>
+    <add-resource type="string" name="training_welcome_notice"/>
+    <string name="training_welcome_notice">"Za lažje prepoznavanje vašega glasu petkrat izgovorite ključno besedo in se pri tem posnemite."</string>
+    <add-resource type="string" name="training_welcome_recording_tip_title"/>
+    <string name="training_welcome_recording_tip_title">"NAMIGI ZA SNEMANJE"</string>
+    <add-resource type="string" name="training_welcome_recording_tip"/>
+    <string name="training_welcome_recording_tip">"1. Telefon držite s stegnjeno roko pred sabo. \n2. Snemajte v tihem okolju s čimmanj hrupa v ozadju. \n3. Govorite jasno, glasno in v ukazovalnem stilu."</string>
+    <add-resource type="string" name="training_recording_recording"/>
+    <string name="training_recording_recording">"SNEMANJE..."</string>
+    <add-resource type="string" name="training_recording_processing"/>
+    <string name="training_recording_processing">"OBDELAVA..."</string>
+    <add-resource type="string" name="training_recording_complete"/>
+    <string name="training_recording_complete">"KONČANO!"</string>
+    <add-resource type="string" name="training_recording_notice_good"/>
+    <string name="training_recording_notice_good">"Odlično!\nŠe naprej tako izgovarjajte!"</string>
+    <add-resource type="string" name="training_recording_notice_bad"/>
+    <string name="training_recording_notice_bad">"Prišlo je do težave z vašim posnetkom. Poskusite znova."</string>
+    <add-resource type="string" name="training_recording_continue"/>
+    <string name="training_recording_continue">"Naprej"</string>
+    <add-resource type="string" name="training_dialog_createsoundmodel"/>
+    <string name="training_dialog_createsoundmodel">"Ustvarjanje svojega osebnega zvočnega modela."</string>
+    <add-resource type="string" name="training_dialog_close_title"/>
+    <string name="training_dialog_close_title">"Ali ste prepričani, da želite zapreti?"</string>
+    <add-resource type="string" name="training_dialog_close_message"/>
+    <string name="training_dialog_close_message">"Vsi trenutki vadbeni posnetki bodo izbrisani."</string>
+    <add-resource type="string" name="training_dialog_smcreatefailed_title"/>
+    <string name="training_dialog_smcreatefailed_title">"Ustvarjanje zvočnega modela ni uspelo"</string>
+    <add-resource type="string" name="training_dialog_smcreatefailed_message"/>
+    <string name="training_dialog_smcreatefailed_message">"Vašega osebnega zvočnega modela ni bilo mogoče ustvariti. Poskusite znova."</string>
+    <!-- new training -->
+    <add-resource type="string" name="training_welcome_recording_tip1"/>
+    <string name="training_welcome_recording_tip1">" Telefon držite pred seboj z iztegnjeno roko."</string>
+    <add-resource type="string" name="training_welcome_recording_tip2"/>
+    <string name="training_welcome_recording_tip2">" Snemajte v tihem okolju z minimalnimi šumi v ozadju."</string>
+    <add-resource type="string" name="training_welcome_recording_tip3"/>
+    <string name="training_welcome_recording_tip3">" Izgovarjajte jasno, glasno in odločno."</string>
+    <add-resource type="string" name="training_tapMic"/>
+    <string name="training_tapMic">"Za začetek tapnite gumb mikrofona"</string>
+    <add-resource type="string" name="home_keyphrase_message"/>
+    <string name="home_keyphrase_message">"Hey Snapdragon"</string>
+    <add-resource type="string" name="training_one"/>
+    <string name="training_one">1.</string>
+    <add-resource type="string" name="training_two"/>
+    <string name="training_two">2.</string>
+    <add-resource type="string" name="training_three"/>
+    <string name="training_three">3.</string>
+    <add-resource type="string" name="training_unknownuser"/>
+    <string name="training_unknownuser">"Neznan uporabnik"</string>
+    <add-resource type="string" name="training_welcomenotice"/>
+    <string name="training_welcomenotice">"Za lažje prepoznavanje vašega glasu petkrat izgovorite ključno besedno zvezo in se pri tem posnemite."</string>
+    <!-- end new training -->
+	<add-resource type="string" name="voicerequests_title"/>
+    <string name="voicerequests_title">"Glasovne zahteve"</string>
+    <add-resource type="string" name="voicerequests_menu_refresh"/>
+    <string name="voicerequests_menu_refresh">"Osveži seznam"</string>
+    <add-resource type="string" name="voicerequests_menu_deleteall"/>
+    <string name="voicerequests_menu_deleteall">"Izbriši vse"</string>
+    <add-resource type="string" name="voicerequests_dialog_deleteall_title"/>
+    <string name="voicerequests_dialog_deleteall_title">"Potrdi brisanje"</string>
+    <add-resource type="string" name="settings_top_title"/>
+    <string name="settings_top_title">"Nastavitve"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels"/>
+    <string name="settings_defaultconfidencelevels">"PRIVZETE STOPNJE ZAUPANJA"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels_keyphrase"/>
+    <string name="settings_defaultconfidencelevels_keyphrase">"Privzeta stopnja zaupanja ključne besedne zveze"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels_user"/>
+    <string name="settings_defaultconfidencelevels_user">"Privzeta stopnja zaupanja uporabnika"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels_training"/>
+    <string name="settings_defaultconfidencelevels_training">"Privzeta stopnja zaupanja usposabljanja"</string>
+    <add-resource type="string" name="settings_options"/>
+    <string name="settings_options">"MOŽNOSTI"</string>
+    <add-resource type="string" name="settings_options_listen"/>
+    <string name="settings_options_listen">"Poslušaj"</string>
+    <add-resource type="string" name="settings_options_listen_desc"/>
+    <string name="settings_options_listen_desc">"Omogoči/onemogoči poslušanje"</string>
+    <add-resource type="string" name="settings_options_voiceactivation"/>
+    <string name="settings_options_voiceactivation">"Glasovni vklop"</string>
+    <add-resource type="string" name="settings_options_voiceactivation_desc"/>
+    <string name="settings_options_voiceactivation_desc">"Omogoči/onemogoči glasovni vklop"</string>
+    <add-resource type="string" name="settings_options_detectiontone"/>
+    <string name="settings_options_detectiontone">"Ton zaznavanja"</string>
+    <add-resource type="string" name="settings_options_detectiontone_desc"/>
+    <string name="settings_options_detectiontone_desc">"Omogoči/onemogoči ton za zaznave"</string>
+    <add-resource type="string" name="settings_options_advanced"/>
+    <string name="settings_options_advanced">"Napredne podrobnosti"</string>
+    <add-resource type="string" name="settings_options_advanced_desc"/>
+    <string name="settings_options_advanced_desc">"Več podrobnosti"</string>
+    <add-resource type="string" name="settings_registrationoptions"/>
+    <string name="settings_registrationoptions">"MOŽNOSTI REGISTRACIJE"</string>
+    <add-resource type="string" name="settings_registrationoptions_description"/>
+    <string name="settings_registrationoptions_description">"Spremembe bodo stopile v veljavo ob naslednji registraciji."</string>
+    <add-resource type="string" name="settings_registrationoptions_userverification"/>
+    <string name="settings_registrationoptions_userverification">"Preverjanje uporabnika"</string>
+    <add-resource type="string" name="settings_registrationoptions_userverification_desc"/>
+    <string name="settings_registrationoptions_userverification_desc">"Omogoči/onemogoči preverjanje uporabnika"</string>
+    <add-resource type="string" name="settings_registrationoptions_voicerequests"/>
+    <string name="settings_registrationoptions_voicerequests">"Glasovne zahteve"</string>
+    <add-resource type="string" name="settings_registrationoptions_voicerequests_desc"/>
+    <string name="settings_registrationoptions_voicerequests_desc">"Omogoči glasovne zahteve po ključni besedni zvezi"</string>
+    <add-resource type="string" name="settings_registrationoptions_voicerequestlength"/>
+    <string name="settings_registrationoptions_voicerequestlength">"Dolžina (v sekundah) glasovne zahteve"</string>
+    <add-resource type="string" name="settings_registrationoptions_failurefeedback"/>
+    <string name="settings_registrationoptions_failurefeedback">"Povratne informacije o nezaznavanju"</string>
+    <add-resource type="string" name="settings_registrationoptions_failurefeedback_desc"/>
+    <string name="settings_registrationoptions_failurefeedback_desc">"Omogoči/onemogoči povratne informacije o napačnem zaznavanju"</string>
+    <add-resource type="string" name="settings_toast_smdependentcheckbox"/>
+    <string name="settings_toast_smdependentcheckbox">"Ta sprememba ne bo veljavna, dokler ni registriran naslednji zvočni model."</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Nastavitve"</string></resources>

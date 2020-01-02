@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"CarrierLoadService"</string>
+    <string name="edit_title">"Aktivirane vrednosti"</string>
+    <string name="trigger_on_off_title">"Aktivacija ponudnika"</string>
+    <string name="trigger_path_title">"Poišči ponudnika na poti:"</string>
+    <string name="trigger_brand_title">"Poišči ponudnika po imenu:"</string>
+    <string name="trigger_target_title">"Poišči ponudnika po mestu:"</string>
+    <string name="trigger_path_hint">"Shranjena pot ponudnikov"</string>
+    <string name="trigger_brand_hint">"Ime"</string>
+    <string name="trigger_target_hint">"Mesto"</string>
+    <string name="trigger_start">"Zaženi v ozadju"</string>
+    <string name="trigger_exit">"Shrani in zapri"</string>
+    <string name="toast_trigger_enabled">"Aktivacija omogočena"</string>
+    <string name="toast_trigger_disabled">"Aktivacija onemogočena"</string>
+    <string name="toast_trigger_start">"Vsili aktivacijo v ozadju"</string>
+    <string name="toast_filebased_switch_enabled">"Gumb za ponudnika datoteke je omogočen"</string>
+    <string name="toast_filebased_switch_disabled">"Če je gumb za ponudnika datoteke onemogočen, omogočite gumb za blokiranje."</string>
+    <string name="toast_blockbased_switch_enabled">"Gumb za ponudnika blokiranja je omogočen"</string>
+    <string name="toast_blockbased_switch_disabled">"Gumb za ponudnika blokiranja je onemogočen"</string></resources>

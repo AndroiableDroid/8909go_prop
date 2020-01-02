@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string-array name="sessionType">
+        <item>"Einzelne Aufnahme"</item>
+        <item>"App-Verfolgung"</item>
+    </string-array>
+    <string-array name="sessionTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="apiType">
+        <item>"Android-API"</item>
+        <item>"Loc-API"</item>
+        <item>"GPL-Dienst"</item>
+        <item>"QPL-Dienst"</item>
+    </string-array>
+    <string-array name="apiTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="locProviderType">
+        <item>"GPS"</item>
+        <item>"Netzwerk"</item>
+        <item>"Passiv"</item>
+    </string-array>
+    <string-array name="locProviderTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="accuracyLevelType">
+        <item>"Hoch"</item>
+        <item>"Mittel"</item>
+        <item>"Niedrig"</item>
+    </string-array>
+    <string-array name="accuracyLevelTypeValues">
+        <item>"High"</item>
+        <item>"Medium"</item>
+        <item>"Low"</item>
+    </string-array>
+    <string-array name="opModeType">
+        <item>"Unabhängig"</item>
+        <item>"MS-assistiert"</item>
+        <item>"MS-basiert"</item>
+        <item>"Optimiert für Geschwindigkeit"</item>
+        <item>"Optimiert für Daten"</item>
+        <item>"Optimiert für Präzision"</item>
+        <item>"Zellen-ID"</item>
+        <item>"Standard"</item>
+    </string-array>
+    <string-array name="opModeTypeValues">
+        <item>"Standalone"</item>
+        <item>"MS-Assisted"</item>
+        <item>"MS-Based"</item>
+        <item>"Speed Optimal"</item>
+        <item>"Data Optimal"</item>
+        <item>"Accuracy Optimal"</item>
+        <item>"Cell ID"</item>
+        <item>"Default"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyType">
+        <item>"Keine Anforderung"</item>
+        <item>"Niedrig"</item>
+        <item>"Hoch"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyType">
+        <item>"Keine Anforderung"</item>
+        <item>"Niedrig"</item>
+        <item>"Mittel"</item>
+        <item>"Hoch"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="powerRequirementType">
+        <item>"Keine Anforderung"</item>
+        <item>"Niedrig"</item>
+        <item>"Mittel"</item>
+        <item>"Hoch"</item>
+    </string-array>
+    <string-array name="powerRequirementValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityType">
+        <item>"Nicht festgelegt"</item>
+        <item>"Sehr niedrig"</item>
+        <item>"Niedrig"</item>
+        <item>"Mittel"</item>
+        <item>"Hoch"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityValues">
+        <item>"Not Set"</item>
+        <item>"Very Low"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="lppModeType">
+        <item>"Deaktivieren"</item>
+        <item>"Benutzerebene"</item>
+        <item>"Steuerungsebene"</item>
+    </string-array>
+    <string-array name="lppModeValues">
+        <item>"Disable"</item>
+         <item>"User Plane"</item>
+        <item>"Control Plane"</item>
+    </string-array>
+    <string-array name="wbiqGLOR1Chan">
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="gplsPriorityType">
+        <item>"Hohe Genauigkeit"</item>
+        <item>"Ausgeglichene Energiepräzision"</item>
+        <item>"Geringe Energie"</item>
+        <item>"Keine Energie"</item>
+    </string-array>
+    <string-array name="gplsPriorityTypeValues">
+        <item>100</item>
+        <item>102</item>
+        <item>104</item>
+        <item>105</item>
+    </string-array>
+    <string-array name="geofenceReportType">
+        <item>"Durchbruch"</item>
+        <item>"Als Batch"</item>
+        <item>"Näherung"</item>
+        <item>"Durchbruch + Näherung"</item>
+        <item>"Als Batch + Näherung"</item>
+    </string-array>
+    <string-array name="geofenceReportTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array></resources>

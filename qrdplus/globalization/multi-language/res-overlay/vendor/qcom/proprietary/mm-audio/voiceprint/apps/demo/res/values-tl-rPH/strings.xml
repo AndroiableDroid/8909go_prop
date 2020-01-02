@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"May beinte-quatro oras sa isang araw"</string>
+    <string name="hi_snapdragon">"Kumusta Snapdragon"</string>
+    <string name="hey_snapdragon">"Hey Snapdragon"</string>
+    <string name="my_voice">"Ang boses ko ang aking password"</string>
+    <string name="make_my_day">"Gawin ang araw ko"</string>
+    <string name="tomorrow_is_another">"Bukas ay isang araw"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"Welcome sa San Diego"</string>
+    <string name="okay_google">"Okay Google"</string>
+    <string name="open_my_email">"Buksan ang aking Email"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"Print ng Boses"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"Mga setting"</string>
+    <string name="action_add">"Idagdag"</string>
+    <string name="title_activity_main_with_fragment">"MainWithFragmentActivity"</string>
+    <string name="tap_mic_start">"I-tap ang Mic para Magsimula"</string>
+    <string name="tap_mic_stop">"I-tap ang Mic para Huminto"</string>
+    <string name="say_key_phrase">"Sabihin\"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"Sabihin ang pariralang \"&lt;b&gt;%1$s&lt;/b&gt;\" ng isa pang beses."</string>
+    <string name="say_one_of_key_phrases">"Sabihin ang isa sa Mga Susing Parirala"</string>
+    <string name="phrase_recognized">"Ang pariralang \"&lt;b&gt;%1$s&lt;/b&gt;\" ay nakilala "</string>
+    <string name="recording_length_exceeded">"Nalagpasan ang Haba ng Pag-record"</string>
+    <string name="recording_length_exceeded_msg">"Nalagpasan ang haba ng pag-record. Pakisubukan muli."</string>
+    <string name="delete_all">"I-delete Lahat"</string>
+    <string name="delete_all_msg">"Sigurado ka bang gusto mong tanggalin lahat ng mga naka-enroll na template?"</string>
+    <string name="got_it">"Magaling! Nakuha ko."</string>
+    <string name="set_key_phrase">"Itakda ang Susing Parirala"</string>
+    <string name="set_key_phrase_name">"Itakda ang Pangalan ng Susing Parirala"</string>
+    <string name="set_key_phrase_action">"Itakda ang Action"</string>
+    <string name="change_key_phrase_action">"Palitan ang Action"</string>
+    <string name="phrase_strength">"Tibay ng Parirala"</string>
+    <string name="phrase_strength_hint">"Subukan ang pariralang naglalaman ng hindi bababa sa tatlong salita."</string>
+    <string name="register_phrase">"Irehistro ang Parirala"</string>
+    <string name="register_phrase_hint">"Para matulungan akong makilala ang boses mo, paki-record ang pariralang \"&lt;b&gt;%1$s&lt;/b&gt;\" ng tatlong beses."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" Mag-record sa tahimik na kuwarto.\n\n"<b>"2."</b>" Ilayo ang telepono mo sa iyong bibig.\n\n"<b>"3."</b>" Natural na sabihin ang susi mong parirala."</string>
+    <string name="ready_to_record">"OKAY, HANDA NA AKONG MAG-RECORD"</string>
+    <string name="oops">"Ay! Subukan muli."</string>
+    <string name="say_the_phrase">"Sabihin ang parirala\"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"Ang pariralang \"&lt;b&gt;%1$s&lt;/b&gt;\" ay nairehistro"</string>
+    <string name="say_the_phrase_few_more">"Sabihin ang \"&lt;b&gt;%1$s&lt;/b&gt;\" ng ilan pang beses"</string>
+    <string name="voice_print">"Print ng Boses"</string>
+    <string name="cancel">"Kanselahin"</string>
+    <string name="voice_level">"Lebel ng Boses"</string>
+    <string name="background_noise">"Ingay sa Background"</string>
+    <string name="cap_done">"TAPOS NA"</string>
+    <string name="cap_record">"MAG-RECORD"</string>
+    <string name="cap_next">"SUSUNOD"</string>
+    <string name="cap_ok">"OK"</string>
+    <string name="next">"Susunod"</string>
+    <string name="new_key_phrase">"Bagong Susing Parirala"</string>
+    <string name="edit_keyphrases">"I-edit ang Mga Susing Parirala"</string>
+    <string name="set_name">"Itakda ang Pangalan"</string>
+    <string name="select_key_phrase">"Piliin ang Susing Parirala"</string>
+    <string name="set_action">"Itakda ang Action"</string>
+    <string name="registration_complete">"Kumpleto ang Pagpaparehistro"</string>
+    <string name="confirm_pin">"Kumpirmahin ang Numero ng PIN"</string>
+    <string name="confirm_pin_msg">"Ipasok ang numero ng PIN ng aparato para i-edit ang mga susing parirala."</string>
+    <string name="your_key_phrase">"Ang Iyong Susing Parirala"</string>
+    <string name="cap_redo">"GAWIN MULI"</string>
+    <string name="cap_redo_previous">"GAWIN MULI ANG NAKARAAN"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"Mag-browse sa Mga Nirerekomendang Parirala"</string>
+    <string name="create_your_own">"Lumikha ng Sarili Mong Parirala"</string>
+    <string name="skip">"Laktawan"</string>
+    <string name="none">"Wala"</string>
+    <string name="enter_pin">"Ipasok ang numero ng PIN ng aparato para i-edit ang mga susing parirala."</string>
+    <string name="your_key_phrase_name">"Ang Pangalan ng Susi Mong Parirala"</string>
+    <string name="new_key_phrase_name">"Bagong Pangalan ng Susing Parirala"</string>
+    <string name="set_service_to_launch">"Itakda ang serbisyo para ilunsad"</string>
+    <string name="email">"Email"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"Magpadala ng Mensaheng Text"</string>
+    <string name="use_selected_phrase">"Gumamit ng Napiling Parirala"</string>
+    <string name="about">"Tungkol dito"</string>
+    <string name="edit_key_phrases">"I-edit ang Mga Susing Parirala"</string>
+    <string name="invalid_phrasename_title">"Hindi Balidong Pangalan ng Parirala"</string>
+    <string name="invalid_phrasename_msg">"Hindi maaaring walang laman ang Pangalan ng Parirala."</string>
+    <string name="duplicate_phrasename_msg">"Mayroon ng ganyang Pangalan ng Parirala. Subukan ang ibang pangalan."</string>
+    <string name="invalid_phrase_title">"Hindi Balidong Parirala"</string>
+    <string name="invalid_phrase_msg">"Hindi maaaring walang laman ang Parirala."</string>
+    <string name="edit_action">"I-edit ang Action"</string>
+    <string name="threshold">"Threshold"</string>
+    <string name="delete_phrase">"Tanggalin ang Parirala"</string>
+    <string name="rename">"Palitan ang Pangalan"</string>
+    <string name="rename_keyphrase">"Palitan ang Pangalan ng Susing Parirala"</string>
+    <string name="adjust_keyword_sensitivity">"Ayusin ang Pagkasensitibo ng Keyword"</string>
+    <string name="adjust_keyword_sensitivity_summary">"Maaaring ayusin ang pagkasensitibo para magpahintulot ng ilang pagkakaiba sa pagkilala ng susing parirala."</string>
+    <string name="sensitivity">"Pagkasensitibo"</string>
+    <string name="low_sensitivity">"Mababang Pagkasensitibo"</string>
+    <string name="med_sensitivity">"Katamtamang Pagkasensitibo"</string>
+    <string name="high_sensitivity">"Mataas na Pagkasensitibo"</string>
+    <string name="low">"MABABA"</string>
+    <string name="med">"KATAMTAMAN"</string>
+    <string name="high">"MATAAS"</string>
+    <string name="low_sensitivity_summary">"Tumanggap ng mas maraming pagkakaiba sa proseso ng pagkilala ng susing parirala."</string>
+    <string name="med_sensitivity_summary">"Tumatanggap ng ilang pagkakaiba sa proseso ng pagkilala sa susing parirala ngunit maaaring pigilang makilala ang lang mga susing parirala."</string>
+    <string name="high_sensitivity_summary">"Karagdagang seguridad, ngunit maaaring pigilang makilala ang mga ilang susing parirala."</string>
+    <string name="keyword_sensitivity">"Pagkasensitibo ng Keyword"</string>
+    <string name="delete_phrase_msg">"Sigurado ka bang gusto mong tanggalin ang pariralang \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"Hindi Available ang Voice Print"</string>
+    <string name="voice_print_not_available_msg">"Hindi naka-enable ang Voice Print sa aparatong ito."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"Matagumpay ang Pagtanggal"</string>
+    <string name="delete_success_msg">"Tinanggal ang modelo ng keyphrase."</string>
+    <string name="delete_fail_title">"Nabigo ang Pagtanggal"</string>
+    <string name="delete_fail_msg">"Nagkaroon ng error sa pagtanggal sa modelong keyphrase."</string>
+    <string name="rename_success_title">"Matagumpay ang Pagpalit ng Pangalan"</string>
+    <string name="rename_success_msg">"Pinalitan ang pangalan ng modelong keyphrase."</string>
+    <string name="rename_fail_title">"Nabigo ang Pagpalit ng Pangalan"</string>
+    <string name="rename_fail_msg">"Nagkaroon ng error sa pagpalit ng pangalan sa modelong keyphrase."</string>
+    <string name="pin_validation">"Pagpapatotoo ng PIN"</string>
+    <string name="pin_failed">"Hindi balidong Pagpasok ng PIN!"</string>
+    <string name="registration_failed">"Nabigo ang pag-enroll"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"Threshold ng User"</string>
+    <string name="spoof_score">"Threshold ng Spoof"</string>
+    <string name="thresholds">"Mga Threshold"</string>
+    <string name="save">"I-save"</string>
+    <string name="sentence_score_msg">"Itakda ang Threshold ng Pangungusap"</string>
+    <string name="user_score_msg">"Itakda ang Threshold ng User"</string>
+    <string name="spoof_score_msg">"Itakda ang Threshold ng Spoof"</string>
+    <string name="sentence_score">"Threshold ng Pangungusap"</string></resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"هر روز 24 ساعت است"</string>
+    <string name="hi_snapdragon">"سلام Snapdragon"</string>
+    <string name="hey_snapdragon">"سلام Snapdragon"</string>
+    <string name="my_voice">"صدای من رمز ورود من است"</string>
+    <string name="make_my_day">"خوشحالم کن"</string>
+    <string name="tomorrow_is_another">"فردا روز دیگری است"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"به سن دیگو خوش آمدید"</string>
+    <string name="okay_google">"بسیار خوب Google"</string>
+    <string name="open_my_email">"«ایمیل من» باز شود"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"چاپ صوتی"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"تنظیمات"</string>
+    <string name="action_add">"افزودن"</string>
+    <string name="title_activity_main_with_fragment">"MainWithFragmentActivity"</string>
+    <string name="tap_mic_start">"برای شروع روی میکروفون ضربه بزنید"</string>
+    <string name="tap_mic_stop">"برای توقف روی میکروفون ضربه بزنید"</string>
+    <string name="say_key_phrase">"بگویید \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"عبارت \"&lt;b&gt;%1$s&lt;/b&gt;\" را یک بار دیگر بگویید."</string>
+    <string name="say_one_of_key_phrases">"یکی از عبارت‌های کلیدی را بگویید"</string>
+    <string name="phrase_recognized">"عبارت \"&lt;b&gt;%1$s&lt;/b&gt;\" شناسایی شد "</string>
+    <string name="recording_length_exceeded">"فراتر از طول مجاز ضبط"</string>
+    <string name="recording_length_exceeded_msg">"از طول مجاز ضبط فراتر رفته است. لطفاً دوباره امتحان کنید."</string>
+    <string name="delete_all">"حذف همه"</string>
+    <string name="delete_all_msg">"مطمئنید می‌خواهید همه الگوهای ثبت‌شده حذف شوند؟"</string>
+    <string name="got_it">"عالی است! فهمیدم."</string>
+    <string name="set_key_phrase">"تنظیم عبارت کلیدی"</string>
+    <string name="set_key_phrase_name">"تنظیم نام عبارت کلیدی"</string>
+    <string name="set_key_phrase_action">"تنظیم عملکرد"</string>
+    <string name="change_key_phrase_action">"تغییر عملکرد"</string>
+    <string name="phrase_strength">"قدرت عبارت"</string>
+    <string name="phrase_strength_hint">"از عبارتی استفاده کنید که دست‌کم سه کلمه دارد."</string>
+    <string name="register_phrase">"ثبت عبارت"</string>
+    <string name="register_phrase_hint">"برای کمک به من در شناسایی صدایتان، لطفاً عبارت \"&lt;b&gt;%1$s&lt;/b&gt;\" را سه بار ضبط کنید."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" در اتاقی ساکت ضبط کنید.\n\n"<b>"2."</b>" تلفنتان را از دهانتان دور نگه دارید.\n\n"<b>"3."</b>" عبارت کلیدی‌تان را به‌صورت عادی بیان کنید."</string>
+    <string name="ready_to_record">"بسیار خوب من آماده ضبط هستم"</string>
+    <string name="oops">"وای! دوباره امتحان کنید."</string>
+    <string name="say_the_phrase">"عبارت \"&lt;b&gt;%1$s&lt;/b&gt;\" را بگویید"</string>
+    <string name="phrase_registered">"عبارت \"&lt;b&gt;%1$s&lt;/b&gt;\" ثبت شد"</string>
+    <string name="say_the_phrase_few_more">"\"&lt;b&gt;%1$s&lt;/b&gt;\" را چند بار دیگر بگویید"</string>
+    <string name="voice_print">"چاپ صوتی"</string>
+    <string name="cancel">"لغو"</string>
+    <string name="voice_level">"سطح صدا"</string>
+    <string name="background_noise">"نویز پس‌زمینه"</string>
+    <string name="cap_done">"انجام شد"</string>
+    <string name="cap_record">"ضبط"</string>
+    <string name="cap_next">"بعدی"</string>
+    <string name="cap_ok">"تأیید"</string>
+    <string name="next">"بعدی"</string>
+    <string name="new_key_phrase">"عبارت کلیدی جدید"</string>
+    <string name="edit_keyphrases">"ویرایش عبارت‌های کلیدی"</string>
+    <string name="set_name">"تنظیم نام"</string>
+    <string name="select_key_phrase">"انتخاب عبارت کلیدی"</string>
+    <string name="set_action">"تنظیم عملکرد"</string>
+    <string name="registration_complete">"ثبت‌ انجام شد"</string>
+    <string name="confirm_pin">"تأیید شماره پین"</string>
+    <string name="confirm_pin_msg">"برای ویرایش عبارت‌های کلیدی، شماره پین دستگاه را وارد کنید."</string>
+    <string name="your_key_phrase">"عبارت کلیدی شما"</string>
+    <string name="cap_redo">"انجام مجدد"</string>
+    <string name="cap_redo_previous">"انجام مجدد موردقبلی"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"مرور عبارت‌های توصیه‌شده"</string>
+    <string name="create_your_own">"ایجاد عبارت خودتان"</string>
+    <string name="skip">"پرش"</string>
+    <string name="none">"هیچکدام"</string>
+    <string name="enter_pin">"برای ویرایش عبارت‌های کلیدی، شماره پین دستگاه را وارد کنید."</string>
+    <string name="your_key_phrase_name">"نام عبارت کلیدی شما"</string>
+    <string name="new_key_phrase_name">"نام عبارت کلیدی جدید"</string>
+    <string name="set_service_to_launch">"تنظیم سرویس برای راه‌اندازی"</string>
+    <string name="email">"ایمیل"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"ارسال پیام متنی"</string>
+    <string name="use_selected_phrase">"استفاده از عبارت انتخابی"</string>
+    <string name="about">"درباره"</string>
+    <string name="edit_key_phrases">"ویرایش عبارت‌های کلیدی"</string>
+    <string name="invalid_phrasename_title">"نام عبارت نامعتبر"</string>
+    <string name="invalid_phrasename_msg">"نام عبارت نمی‌تواند خالی باشد."</string>
+    <string name="duplicate_phrasename_msg">"نام عبارت در حال حاضر موجود است. نام دیگری انتخاب کنید."</string>
+    <string name="invalid_phrase_title">"عبارت نامعتبر"</string>
+    <string name="invalid_phrase_msg">"عبارت نمی‌تواند خالی باشد."</string>
+    <string name="edit_action">"ویرایش عملکرد"</string>
+    <string name="threshold">"آستانه"</string>
+    <string name="delete_phrase">"حذف عبارت"</string>
+    <string name="rename">"تغییر نام"</string>
+    <string name="rename_keyphrase">"تغییر نام عبارت کلیدی"</string>
+    <string name="adjust_keyword_sensitivity">"تنظیم حساسیت کلمه کلیدی"</string>
+    <string name="adjust_keyword_sensitivity_summary">"برای مجاز کردن شناسایی گونه‌های مختلف عبارت کلیدی، حساسیت را می‌توان تنظیم کرد."</string>
+    <string name="sensitivity">"حساسیت"</string>
+    <string name="low_sensitivity">"حساسیت پایین"</string>
+    <string name="med_sensitivity">"حساسیت متوسط"</string>
+    <string name="high_sensitivity">"حساسیت بالا"</string>
+    <string name="low">"پایین"</string>
+    <string name="med">"متوسط"</string>
+    <string name="high">"زیاد"</string>
+    <string name="low_sensitivity_summary">"در فرآیند شناسایی عبارت کلیدی، گونه‌های مختلف بیشتری پذیرفته شود."</string>
+    <string name="med_sensitivity_summary">"در فرآیند شناسایی عبارت کلیدی، گونه‌های مختلف بیشتری پذیرفته می‌شود اما با این کار ممکن است برخی از عبارت‌های کلیدی شناسایی نشود."</string>
+    <string name="high_sensitivity_summary">"امنیت بیشتری ایجاد می‌شود، اما ممکن است برخی از عبارت‌های کلیدی شناسایی نشوند."</string>
+    <string name="keyword_sensitivity">"حساسیت کلمه کلیدی"</string>
+    <string name="delete_phrase_msg">"می‌خواهید عبارت \"%1$s\" را حذف کنید؟"</string>
+    <string name="voice_print_not_available_title">"چاپ صوتی در دسترس نیست"</string>
+    <string name="voice_print_not_available_msg">"چاپ صوتی در این دستگاه فعال نیست."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"حذف موفق"</string>
+    <string name="delete_success_msg">"مدل عبارت کلیدی حذف شد."</string>
+    <string name="delete_fail_title">"حذف ناموفق"</string>
+    <string name="delete_fail_msg">"هنگام حذف مدل عبارت کلیدی، خطایی رخ داد."</string>
+    <string name="rename_success_title">"تغییر نام موفق"</string>
+    <string name="rename_success_msg">"نام مدل عبارت کلیدی تغییر کرد."</string>
+    <string name="rename_fail_title">"تغییر نام ناموفق"</string>
+    <string name="rename_fail_msg">"هنگام تغییر نام مدل عبارت کلیدی، خطایی رخ داد."</string>
+    <string name="pin_validation">"تأیید پین"</string>
+    <string name="pin_failed">"ورودی پین نامعتبر است!"</string>
+    <string name="registration_failed">"ثبت ناموفق بود"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"آستانه کاربر"</string>
+    <string name="spoof_score">"آستانه دست اندازی"</string>
+    <string name="thresholds">"آستانه ها"</string>
+    <string name="save">"ذخیره"</string>
+    <string name="sentence_score_msg">"تنظیم آستانه جمله"</string>
+    <string name="user_score_msg">"تنظیم آستانه کاربر"</string>
+    <string name="spoof_score_msg">"تنظیم آستانه دست اندازی"</string>
+    <string name="sentence_score">"آستانه جمله"</string></resources>

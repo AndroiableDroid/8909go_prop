@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Display SDK Sample"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"Mga Tampok sa Display"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"Color Balance"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"Mode Manager"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"Bagong Mode"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"Tanggalin ang Mode"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"I-edit ang Mode"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"Kanselahin"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"Mga Tampok sa Display"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"I-activate ang Mode"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"Ipasok ang Pangalan ng Mode"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"I-save ang Mode"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"Pumili ng Larawan"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"Hindi sinusuportahan ang ibinigay na uri ng display. Tiyaking isinagawa ang connect()"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"Wala suporta sa Feature Color Balance"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"Hindi sinusuportahan ang tampok na Adaptive Backlight"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"Hindi sinusuportahan ang tampok na Memory Color Foliage"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"Hindi sinusuportahan ang tampok na Memory Color Skin"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"Hindi sinusuportahan ang tampok na Memory Color Sky"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"Hindi sinusuportahan ang tampok na Picture Adjustment"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"Hindi sinusuportahan ang tampok na Sunlight Visibility"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"Di magawa ang bagong mode"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"Di mabago ang mode"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"Magdagdag ng larawan mula sa gallery"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"OK"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"Oo"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"Hindi"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"Walang available na display mode sa device mo"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"Walang suporta sa FEATURE_COLOR_MODE_SELECTION"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"Walang suporta sa FEATURE_COLOR_MODE_MANAGEMENT"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"Di available ang kinakailangang display functionality"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"Di natanggal ang Display Mode"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"Di na-activate ang Display Mode"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"Di maaaring itakda na default ang Display Mode"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"Pumili muna ng mode"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"Magpasok ng pangalan para sa mode"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"Nagawa ang bagong mode"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"Magtakda ng Default"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"System mode ang napiling mode at hindi mababago. Gusto mo bang gumawa ng bagong mode batay sa napiling mode?"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"System mode ang napiling mode at di matatanggal"</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"Hindi makakonekta sa kinakailangang serbisyo ng display"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" Na-activate na ang mode"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" Natanggal na ang mode"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"Color Balance"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"Sunlight Visibility"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"Picture Adjustment"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"Memcolor Foliage"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"Hue"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"Saturation"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"Intensity"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"Memcolor Skin"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"Memcolor Sky"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" Adaptive Backlight"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"I-enable ang SVI"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"I-enable ang Memory color foliage"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"I-enable ang Memory color skin"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"I-enable ang Memory color sky"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"I-enable ang Picture Adjustment"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"I-enable ang Adaptive Backlight"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"I-enable ang Picture Adjustment Desaturation"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"Limitasyon ng Saturation"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"Hue"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"Saturation"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"Intensity"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"Contrast"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"Mataas"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"Katamtaman"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"Mababa"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"Auto"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"I-refresh"</string></resources>

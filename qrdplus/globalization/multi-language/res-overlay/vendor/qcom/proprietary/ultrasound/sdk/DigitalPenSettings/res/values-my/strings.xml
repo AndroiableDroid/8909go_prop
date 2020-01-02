@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP သတ်မှတ်ချက်များ"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Snapdragon ဒီဂျစ်တယ် ဖောင်တိန် သတ်မှတ်ချက်များ"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"ပိတ်ထားသည်"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"သဏ္ဍာန်တူ"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"တရားဝင်အက်ပ် ဖန်သားပြင်ပိတ် အနေအထား-"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"အကွာအဝေး ပမာဏ-အတွင်း (mm):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"ပါဝါ အနေအထား-"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"တိကျမှု အကောင်းဆုံး လုပ်ဆောင်ပါ"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"ပါဝါ အကောင်းဆုံး လုပ်ဆောင်ပါ"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"ထည့်သွင်းမှု အမျိုးအစား-"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"မောက်စ် သိရှိနိုင်စွမ်း-"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"နှေးနှေး"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"အလယ်အလတ်"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"မြန်မြန်"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"ကလောင်"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"ကြွက်"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"အထိန်းကိရိယာ"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"ဒီဂျစ်တယ်ဖောင်တိန် ပိတ်ထားသည်"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"ဒီဂျစ်တယ်ဖောင်တိန် ဖွင့်ထားသည်"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"အဆင့်မြင့် ထောက်စင်"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"အဖွင့်-ဖန်သားပြင် ရစ်ဝဲမှု"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"အပိတ်-ဖန်သားပြင် ရစ်ဝဲမှု"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"အဝေးဆုံး အကွာအဝေး-"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"တန့်နေသည့် သငေ်္ကတပြသပါ"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"ဖျက်ပစ်ရန် ခလုတ်"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"ခလုတ် အညွှန်း-"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"ဖျက်ပစ်ရန် အသုံးပြုပုံ-"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"ဖျက်ရန် ကိုင်ပါ"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"လှည့်ပြောင်းခလုတ်ကို နှိပ်ပါ"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"ပုံစံတူရှိ အပိတ်-ဖန်သားပြင် တည်နေရာ-"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"ဘယ်ဘက်အခြမ်း"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"ညာဘက်အခြမ်း"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"ဖန်သားပြင်ကို ပိတ်လျှင် ဖောင်တိန်ကို ရပ်ပါ"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"စက်ပြန်တက်ချိန်တွင် ဖောင်တိန်ကို စပါ"</string></resources>

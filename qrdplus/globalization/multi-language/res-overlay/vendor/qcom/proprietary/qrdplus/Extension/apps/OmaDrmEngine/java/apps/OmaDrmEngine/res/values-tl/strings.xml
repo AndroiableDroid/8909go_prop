@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Engine ng Oma Drm"</string>
+    <string name="activity_name_image_viewer">"Tagatingin ng DRM Image"</string>
+    <string name="permission_label_access_drm_data">"Pahintulot sa Pag-access sa OMA DRM Plugin"</string>
+    <string name="permission_desc_access_drm_data">"Bigyan ng pahintulot para ma-access ang impormasyon ng lisensya ng OMA DRM plugin."</string>
+    <string name="license_expired">"Nag-expire na ang lisensya"</string>
+    <string name="license_expired_message">"Hindi mabuksan ang DRM file"</string>
+    <string name="buy_license">"Bumili ng lisensiya"</string>
+    <string name="menu_set_as_wallpaper">"Itakda ang Wallpaper"</string>
+    <string name="menu_details">"Mga detalye"</string>
+    <string name="drm_details_title">"Mga Detalye ng Drm"</string>
+    <string name="dialog_close">"Isara"</string>
+    <string name="drm_rights_message">"Tagumpay na Nai-save ang mga Karapatan sa OMA DRM"</string>
+    <string name="drm_text_count">"Magbilang sa kaliwa: "</string>
+    <string name="drm_text_date_start">"Mula sa: "</string>
+    <string name="drm_text_date_end">"Hanggang: "</string>
+    <string name="drm_text_fwd_lk">"Hindi Limitado "</string>
+    <string name="drm_text_license">"Linsensya ng Drm: "</string>
+    <string name="drm_text_play">"I-play"</string>
+    <string name="drm_text_display">"Ipakita"</string>
+    <string name="drm_text_title">"Pamagat : "</string>
+    <string name="drm_text_location">"Lokasyon : "</string>
+    <string name="drm_text_mime_type">"Uri ng Mime : "</string>
+    <string name="error_unable_to_view">"Hindi nakita ang larawan"</string></resources>

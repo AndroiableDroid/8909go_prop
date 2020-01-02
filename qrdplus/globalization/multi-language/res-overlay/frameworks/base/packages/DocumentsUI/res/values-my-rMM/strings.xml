@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2013 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of the documents application [CHAR LIMIT=32] -->
+    <string name="app_label">"စာရွက်စာတန်းများ"</string>
+    <!-- Action bar title prompting user to choose a location to open a document from [CHAR LIMIT=32] -->
+    <string name="title_open">"မှ ဖွင့်ပါ"</string>
+    <!-- Action bar title prompting user to choose a location to save a document to [CHAR LIMIT=32] -->
+    <string name="title_save">"သို့ သိမ်းပါ"</string>
+    <!-- Menu item that creates a new directory/folder at the current location [CHAR LIMIT=24] -->
+    <string name="menu_create_dir">"အကန့် တည်ဆောက်ရန်"</string>
+    <!-- Menu item that switches view to show documents as a large-format grid of thumbnails [CHAR LIMIT=24] -->
+    <string name="menu_grid">"ဖယားကွက်မြင်ကွင်း"</string>
+    <!-- Menu item that switches view to show documents as a list [CHAR LIMIT=24] -->
+    <string name="menu_list">"အစဉ်လိုက်မြင်ကွင်း"</string>
+    <!-- Menu item that switches the criteria with which documents are sorted [CHAR LIMIT=24] -->
+    <string name="menu_sort">"အစဉ်အလိုက် စီခြင်း"</string>
+    <!-- Menu item that enters a mode to search for documents [CHAR LIMIT=24] -->
+    <string name="menu_search">"ရှာဖွေရန်"</string>
+    <!-- Menu item that enters activity to change settings [CHAR LIMIT=24] -->
+    <string name="menu_settings">"ဆက်တင်များ"</string>
+    <!-- Menu item title that opens the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_open">"ဖွင့်ရန်"</string>
+    <!-- Menu item title that saves the current document [CHAR LIMIT=24] -->
+    <string name="menu_save">"သိမ်းပါ"</string>
+    <!-- Menu item title that shares the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_share">"မျှဝေခြင်း"</string>
+    <!-- Menu item title that deletes the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_delete">"ဖျက်ပစ်ရန်"</string>
+    <!-- Menu item title that selects all documents in the current directory [CHAR LIMIT=24] -->
+    <string name="menu_select_all">"အားလုံးကို ရွေးရန်"</string>
+    <!-- Menu item title that copies the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_copy">"သို့ကူးယူရန်\u2026"</string>
+    <!-- Menu item that reveals internal storage built into the device [CHAR LIMIT=24] -->
+    <string name="menu_advanced_show" product="nosdcard">"စက်ရှိစတိုရုံ ပြပါ"</string>
+    <!-- Menu item that reveals SD cards built into the device [CHAR LIMIT=24] -->
+    <string name="menu_advanced_show" product="default">"SD ကဒ် ပြပါ"</string>
+    <!-- Menu item that hides internal storage built into the device [CHAR LIMIT=24] -->
+    <string name="menu_advanced_hide" product="nosdcard">"စက်ရှိစတိုရုံ ဖျောက်ထားပါ"</string>
+    <!-- Menu item that hides SD cards built into the device [CHAR LIMIT=24] -->
+    <string name="menu_advanced_hide" product="default">"SD ကဒ် ဖျောက်ပါ"</string>
+    <!-- Menu item that reveals the sizes of displayed files [CHAR LIMIT=24] -->
+    <string name="menu_file_size_show">"ဖိုင်အရွယ်အစား ပြပါ"</string>
+    <!-- Menu item that hides the sizes of displayed files [CHAR LIMIT=24] -->
+    <string name="menu_file_size_hide">"ဖိုင်အရွယ်အစား ဖျောက်ပါ"</string>
+    <!-- Button label that select the current directory [CHAR LIMIT=24] -->
+    <string name="button_select">"ရွေးရန်"</string>
+    <!-- Button label that copies files to the current directory [CHAR LIMIT=24] -->
+    <string name="button_copy">"ကူးယူရန်"</string>
+    <!-- Mode that sorts documents by their display name alphabetically [CHAR LIMIT=24] -->
+    <string name="sort_name">"အမည်ဖြင့်"</string>
+    <!-- Mode that sorts documents by their last modified time in descending order; most recent first [CHAR LIMIT=24] -->
+    <string name="sort_date">"ပြင်ဆင်မှု ရက်စွဲဖြင့်"</string>
+    <!-- Mode that sorts documents by their file size in descending order; largest first [CHAR LIMIT=24] -->
+    <string name="sort_size">"အရွယ်အစားဖြင့်"</string>
+    <!-- Accessibility title to open the drawer showing all roots where documents can be stored [CHAR LIMIT=32] -->
+    <string name="drawer_open">"ဖိုဒါကို ဖွင့်လိုက်ပါ"</string>
+    <!-- Accessibility title to close the drawer showing all roots where documents can be stored [CHAR LIMIT=32] -->
+    <string name="drawer_close">"ဖိုဒါကို ပိတ်လိုက်ပါ"</string>
+    <!-- Toast shown when saving a document failed with an error [CHAR LIMIT=48] -->
+    <string name="save_error">"စာရွက်စာတန်း သိမ်းဆည်းမှု မအောင်​မြင်ပါ"</string>
+    <!-- Toast shown when creating a folder failed with an error [CHAR LIMIT=48] -->
+    <string name="create_error">"အကန့်အသစ် ဖန်တီးခြင်း မအောင်မြင်ပါ"</string>
+    <!-- Error message shown when querying for a list of documents failed [CHAR LIMIT=48] -->
+    <string name="query_error">"စာရွက်စာတန်း ရှာဖွေမှု မအောင်မြင်ပါ"</string>
+    <!-- Title of storage root location that contains recently modified or used documents [CHAR LIMIT=24] -->
+    <string name="root_recent">"လတ်တလော"</string>
+    <!-- Subtitle of storage root indicating the total free space available, in bytes [CHAR LIMIT=24] -->
+    <string name="root_available_bytes">"<xliff:g id="SIZE">%1$s</xliff:g> အသုံးချနိုင်ပါသည်"</string>
+    <!-- Header title for list of storage roots that contains cloud services [CHAR LIMIT=24] -->
+    <string name="root_type_service">"သိုလှောင်ရန်ဆားဗစ်များ"</string>
+    <!-- Header title for list of storage roots that contains shortcuts to documents that may be available elsewhere [CHAR LIMIT=24] -->
+    <string name="root_type_shortcut">"အတိုကောက်များ"</string>
+    <!-- Header title for list of storage roots that contains physical devices [CHAR LIMIT=24] -->
+    <string name="root_type_device">"စက်ပစ္စည်းများ"</string>
+    <!-- Header title for list of additional apps that can provide documents [CHAR LIMIT=24] -->
+    <string name="root_type_apps">"နောက်ထပ်အပလီကေးရှင်းများ"</string>
+    <!-- Text shown when a directory of documents is empty [CHAR LIMIT=24] -->
+    <string name="empty">"ဘာမှ မရှိပါ"</string>
+    <!-- Toast shown when no app can be found to open the selected document [CHAR LIMIT=48] -->
+    <string name="toast_no_application">"ဖိုင်အား ဖွင့်မရပါ"</string>
+    <!-- Toast shown when some of the selected documents failed to be deleted [CHAR LIMIT=48] -->
+    <string name="toast_failed_delete">"တချို့ စာရွက်စာတန်းများ မဖျက်စီးနိုင်ပါ"</string>
+    <!-- Title of dialog when prompting user to select an app to share documents with [CHAR LIMIT=32] -->
+    <string name="share_via">"မှ ဝေမျှပါ"</string>
+    <!-- Title of the copy notification [CHAR LIMIT=24] -->
+    <string name="copy_notification_title">"ဖိုင်များကူယူနေသည်"</string>
+    <!-- Text shown on the copy notification to indicate remaining time, in minutes [CHAR LIMIT=24] -->
+    <string name="copy_remaining">"<xliff:g id="DURATION">%s</xliff:g> ကျန်ရှိသည်"</string>
+    <!-- Toast shown when a file copy is kicked off -->
+    <plurals name="copy_begin">
+        <item quantity="one">"<xliff:g id="COUNT">%1$d</xliff:g> ဖိုင်ကို ကူးနေသည်။"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g> ဖိုင်များကို ကူးနေသည်။"</item>
+    </plurals>
+    <!-- Text shown on the copy notification while DocumentsUI performs setup in preparation for copying files [CHAR LIMIT=32] -->
+    <string name="copy_preparing">"မိတ္တူကူးရန်ပြင်ဆင်နေ..."</string>
+    <!-- Title of the copy error notification [CHAR LIMIT=48] -->
+    <plurals name="copy_error_notification_title">
+        <item quantity="one">"<xliff:g id="COUNT">%1$d</xliff:g> ဖိုင်ကိုကူး၍မရပါ"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g> ဖိုင်များကိုကူး၍မရပါ"</item>
+    </plurals>
+    <!-- Second line for notifications saying that more information will be shown after touching [CHAR LIMIT=48] -->
+    <string name="notification_touch_for_details">"အသေးစိတ် ကြည့်ရန် ထိပါ။"</string>
+    <!-- Label of a dialog button for retrying a failed operation [CHAR LIMIT=24] -->
+    <string name="retry">"ထပ်စမ်းရန်"</string>
+    <!-- Contents of the copying failure alert dialog. [CHAR LIMIT=48] -->
+    <string name="copy_failure_alert_content">"ဤဖိုင်များ ကော်ပီကူးမထားပါ- <xliff:g id="LIST">%1$s</xliff:g>"</string></resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) 2014 Qualcomm Technologies, Inc. All Rights Reserved.
+Qualcomm Technologies Proprietary and Confidential.
+-->
+
+<resources>
+    <!-- Enable/Disable auto fill domain name -->
+    <bool name="enable_auto_fill_domain">true</bool>
+    <bool name="config_email_signature_with_brand">true</bool>
+    <!-- whether the email application allow force account creation -->
+    <bool name="enable_force_configure_account">true</bool>
+
+    <!-- Enable/Disable separate domain field -->
+    <bool name="enable_separate_domain_field">true</bool>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">P2PRanging</string>
+    <string name="action_settings">"설정"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_Discovery">"수동 검색"</string>
+    <string name="strings_setting_appversion">"앱 버전: 2014.09.04"</string>
+    <string name="strings_setting_startscanresult">"해당 없음"</string>
+    <string name="strings_setting_scanrepetition">"스캔 반복: "</string>
+    <string name="strings_setting_scaninterval">"스캔 간격: "</string>
+    <string name="strings_setting_scantype">"스캔 종류: "</string>
+    <string name="strings_setting_scanbandwidth">"스캔 대역폭: "</string>
+    <string name="strings_setting_scanrttbias">"RTT 편차(ns): "</string>
+    <string name="strings_setting_scanrttBias_value">25</string>
+    <string name="strings_setting_button_clearoverlay">"오버레이 텍스트 지우기"</string>
+    <string name="strings_setting_button_hideshowoverlaytext">"오버레이 텍스트 숨기기/표시"</string>
+    <string name="strings_start_peerrangescanbtn">"스캔 범위 지정 시작"</string>
+    <string name="strings_start_singlepeerrangescanbtn">"단일 스캔"</string>
+    <string name="strings_start_measresulttitle">"스캔 결과 그림(m)"</string>
+    <string name="strings_start_measresultdevice"></string>
+    <string name="strings_log_showerror">"오류"</string>
+    <string name="strings_log_showinfo">"정보"</string>
+    <string name="strings_log_clear">"로그 지우기"</string>
+    <string name="strings_legend_mygo">"MyGO"</string>
+    <string name="strings_legend_cl">"CL"</string>
+    <string name="strings_legend_idle">"자리 비움"</string>
+    <string name="strings_legend_othergo">"OtherGO"</string>
+    <string name="strings_deviceinfo_mydevice">"내 기기:"</string>
+    <string name="strings_deviceinfo_devicename">"이름: 해당 없음"</string>
+    <string name="strings_deviceinfo_mac">"MAC: 해당 없음"</string>
+    <string name="strings_deviceinfo_channel">"채널: 해당 없음"</string>
+    <string name="strings_deviceinfo_group">"그룹: 해당 없음"</string>
+    <string name="strings_connect_mypeers">"내 동료: (연결/연결 해제하려면 클릭)"</string></resources>

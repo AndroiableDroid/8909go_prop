@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"Aktivitas Debugging GPS"</string>
+     <string name="cameraActivity">"Kamera"</string>
+     <string name="newTrackingSession">"Sesi Pelacakan baru"</string>
+     <string name="newTrackingSession_nameLabel">"Nama"</string>
+     <string name="newTrackingSession_numFixesLabel">"Jumlah Perbaikan"</string>
+     <string name="newTrackingSession_descriptionLabel">"Deskripsi"</string>
+     <string name="newTrackingSession_startButtonLabel">"Mulai"</string>
+     <string name="testConfig">"Konfigurasi Pengujian"</string>
+     <string name="testConfig_configNameLabel">"Nama Konfigurasi"</string>
+     <string name="testConfig_numFixesLabel">"Jumlah Perbaikan (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"Deskripsi Konfigurasi Pengujian"</string>
+     <string name="testConfig_startButtonLabel">"Mulai Pengujian"</string>
+     <string name="testConfig_RadioLabel">"Trek Aplikasi atau Jepretan Tunggal"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"Jepretan Tunggal"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"Trek Aplikasi"</string>
+     <string name="testConfig_qosTimeoutLabel">"Prioritas Waktu Respon (detik)"</string>
+     <string name="testConfig_qosAccuracyLabel">"Prioritas Akurasi (menit)"</string>
+     <string name="testConfig_tbfLabel">"Interval Minimal (detik)"</string>
+     <string name="testConfig_staticTruthLabel">"Posisi Kebenaran Statis (periksa untuk menggunakan)"</string>
+     <string name="testConfig_latLabel">"Lintang"</string>
+     <string name="testConfig_lonLabel">"Bujur"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"Loc API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"Layanan GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"Jenis Perulangan"</string>
+     <string name="testConfig_apiTypeLabel">"Jenis API"</string>
+    <string name="labelUnknownPrivacy">"tak diketahui"</string>
+    <string name="labelGetPrivacy">"Dapatkan Privasi"</string>
+    <string name="labelSetPrivacySetting">"Atur Privasi"</string>
+    <string name="name_vzw_client">"Klien Vzw"</string>
+    <string name="name_normal_client">"Android Normal"</string>
+    <string name="LabelModeSel">"Mode"</string>
+    <string name="LabelNumFixSel">"# Perbaikan"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"Status..."</string>
+    <string name="str_nodata">"Tidak Ada Data"</string>
+    <string name="str_waitingforposinfo">"\nMenunggu Info Posisi...\n"</string>
+    <string name="str_searchingforsvs">"\nMencari SVs...\n"</string>
+    <string name="str_configsummary">"\nRingkasan Konfigurasi\n"</string>
+    <string name="str_alarms">"\nAlarm:\n\n"</string>
+    <string name="str_starttest">"Mulai Pengujian"</string>
+    <string name="str_sessionplayback">"Pemutaran Sesi"</string>
+    <string name="str_proximityalerts">"Peringatan Kedekatan"</string>
+    <string name="str_proximity_info">"Info Kedekatan"</string>
+    <string name="str_options">"Opsi"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"Berdiri sendiri"</item>
+<item>"AFLT"</item>
+<item>"Kecepatan Dioptimalkan"</item>
+<item>"Akurasi Dioptimalkan"</item>
+<item>"Data Dioptimalkan"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"Waktu (detik) antara perbaikan"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"Alamat PDE"</string>
+<string name="LabelAccuracyH">"Prioritas Akurasi (Jam, menit)"</string>
+<string name="LabelAccuracyV">"Prioritas Akurasi (V, m)"</string>
+<string name="LabelMaxResponseTime">"Batas waktu (detik)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"Jalankan dengan tumpukan normal"</string>
+<string name="LabelRunOne">"Jalankan VzW"</string>
+<string name="LabelRunState1">"Uji FSM 1"</string>
+<string name="LabelRunState2">"Uji FSM 2"</string>
+<string name="EnigneStatus">"Status Mesin"</string>
+<string name="NA">"N/A"</string>
+<string name="GpsStatus">"Status Gps"</string>
+<string name="Session">"Sesi"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"Jenis"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"Mode"</string>
+<string name="stop">"Hentikan"</string>
+<string name="labelPdePort">"Port PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"Hanya 911"</item>
+<item>"AKTIF"</item>
+</string-array>
+<string name="non_aiding">"Batalkan Semua Bantuan"</string>
+<string name="all_aiding">"Pilih Semua Bantuan"</string>
+<string name="done">"Hapus Terpilih"</string>
+<string name="Ephemeris">"Ephemeris"</string>
+<string name="GLO_Ephemeris">"Ephemeris GLO"</string>
+<string name="Alamanac">"Alamanac"</string>
+<string name="GLO_Alamanac">"GLO Alamanac"</string>
+<string name="Alamanac_Corr">"Alamanac Corr"</string>
+<string name="GLO_Alamanac_Corr">"GLO Alamanac Corr"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"SV Steer"</string>
+<string name="GLO_SV_Steer">"GLO SV Steer"</string>
+<string name="Cell_DB_Info">"Info DB Seluler"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"Waktu GPS"</string>
+<string name="GLO_Time">"Waktu GLO"</string>
+<string name="Freq_Bias_Est">"Estimasi Bias Frekuensi"</string>
+<string name="Time">"Waktu"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"Kesehatan"</string>
+<string name="SA_Data">"Data SA"</string>
+<string name="position">"posisi"</string>
+<string name="str_wbiq_runscript">"Jalankan Skrip"</string>
+<string name="str_wbiq_stopgps">"Keluar dari Mode RF"</string>
+<string name="str_wbiq_startgps">"Masuk Mode RF"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"Otomatis Logging Perangkat"</string>
+<string name="str_wbiq_chk_delaystart">"Tunda Mulai"</string>
+<string name="str_wbiq_chk_autostop">"Berhenti Otomatis"</string>
+<string name="str_wbiq_chk_otfsa">"Aktifkan OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"d"</string>
+<string name="str_proximity_clearalerts">"Hapus Peringatan"</string>
+<string name="str_proximity_savealertsfile">"Simpan File Peringatan"</string>
+<string name="str_proximity_loadalertsfile">"Muat File Peringatan"</string>
+<string name="str_proximity_deletealertsfile">"Hapus File Peringatan"</string>
+<string name="str_proximity_logging">"Pencatatan Log"</string>
+<string name="str_proximity_autostartenabled">"Mulai Otomatis"</string>
+<string name="str_proximity_autostartfile">"Pilih File Mulai Otomatis"</string>
+<string name="str_proximity_smsnumber">"Nomor Pemberitahuan SMS"</string>
+<string name="str_proximity_geofencelisttab_add">"Tambah"</string>
+<string name="str_proximity_geofencelisttab_delet">"Hapus"</string>
+<string name="str_proximity_geofencelisttab_edit">"Edit"</string>
+<string name="str_locbatchingtab_btn_s">"d"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[Rata-rata, Min, Maks] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"Dapatkan Batch"</string>
+<string name="str_powerest_summary">"Ringkasan:"</string>
+<string name="str_powerest_plot_label"/></resources>

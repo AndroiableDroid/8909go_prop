@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK 테스터"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Snapdragon 디지털 펜 SDK 테스터"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"설정"</string>
+    <add-resource type="string" name="off_screen_mode_header"/>
+    <string name="off_screen_mode_header">"오프스크린 모드"</string>
+    <add-resource type="string" name="offscreen_mode_choice_duplicate"/>
+    <string name="offscreen_mode_choice_duplicate">"복제"</string>
+    <add-resource type="string" name="offscreen_mode_choice_extend"/>
+    <string name="offscreen_mode_choice_extend">"확장"</string>
+    <add-resource type="string" name="offscreen_mode_choice_disable"/>
+    <string name="offscreen_mode_choice_disable">"사용 안함"</string>
+    <add-resource type="string" name="apply_configuration_button_text"/>
+    <string name="apply_configuration_button_text">"구성 적용"</string>
+    <add-resource type="string" name="configuration_items_header"/>
+    <string name="configuration_items_header">"구성 항목"</string>
+    <add-resource type="string" name="header_side_channel_listeners"/>
+    <string name="header_side_channel_listeners">"측면 채널 수신기"</string>
+    <add-resource type="string" name="label_on_screen_side_channel"/>
+    <string name="label_on_screen_side_channel">"온스크린: "</string>
+    <add-resource type="string" name="label_off_screen_side_channel"/>
+    <string name="label_off_screen_side_channel">"오프스크린: "</string>
+    <add-resource type="string" name="label_all_side_channel"/>
+    <string name="label_all_side_channel">"모두: "</string>
+    <add-resource type="string" name="checkbox_text_off_screen_side_channel_enable"/>
+    <string name="checkbox_text_off_screen_side_channel_enable">"오프스크린 측면 채널 데이터 사용"</string>
+    <add-resource type="string" name="placeholder"/>
+    <string name="placeholder">"&lt;placeholder for dynamic text&gt;"</string>
+    <add-resource type="string" name="side_channel_off"/>
+    <string name="side_channel_off">"꺼짐"</string>
+    <add-resource type="string" name="side_channel_scaled"/>
+    <string name="side_channel_scaled">"크기 조정됨"</string>
+    <add-resource type="string" name="side_channel_raw"/>
+    <string name="side_channel_raw">"원시"</string>
+    <!-- Hover -->
+    <add-resource type="string" name="label_on_screen_hover"/>
+    <string name="label_on_screen_hover">"온스크린 가리키기:"</string>
+    <add-resource type="string" name="label_off_screen_hover"/>
+    <string name="label_off_screen_hover">"오프스크린 가리키기:"</string>
+    <add-resource type="string" name="hover_choice_off"/>
+    <string name="hover_choice_off">"꺼짐"</string>
+    <add-resource type="string" name="hover_choice_enable"/>
+    <string name="hover_choice_enable">"사용"</string>
+    <add-resource type="string" name="hover_choice_enable_custom"/>
+    <string name="hover_choice_enable_custom">"사용 설정된 맞춤 "</string>
+    <!-- Eraser -->
+    <add-resource type="string" name="label_eraser_bypass"/>
+    <string name="label_eraser_bypass">"지우개 우회:"</string>
+    <add-resource type="string" name="label_eraser_bypass_off"/>
+    <string name="label_eraser_bypass_off">"꺼짐"</string>
+    <add-resource type="string" name="label_eraser_bypass_enable"/>
+    <string name="label_eraser_bypass_enable">"사용"</string>
+    <!-- Motion event -->
+    <add-resource type="string" name="label_motion_event_info"/>
+    <string name="label_motion_event_info">"동작 이벤트:"</string>
+    <add-resource type="string" name="placeholder_motion"/>
+    <string name="placeholder_motion">"&lt;placeholder for motion event dynamic text&gt;"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"입력 형식"</string>
+    <add-resource type="string" name="input_type_choice_stylus"/>
+    <string name="input_type_choice_stylus">"스타일러스"</string>
+    <add-resource type="string" name="input_type_choice_mouse"/>
+    <string name="input_type_choice_mouse">"생쥐"</string>
+    <add-resource type="string" name="input_type_choice_joystick"/>
+    <string name="input_type_choice_joystick">"조이스틱"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"마우스 민감도:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"느림"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"중간"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"빠름"</string></resources>

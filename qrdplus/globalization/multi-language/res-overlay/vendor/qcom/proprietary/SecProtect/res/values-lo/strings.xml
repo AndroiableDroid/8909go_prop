@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SecProtect"</string>
+    <string name="settings">"ການຕັ້ງຄ່າ"</string>
+    <string name="advanced">"ຂັ້ນສູງ"</string>
+    <string name="failed">"ບໍ່ສຳເລັດ"</string>
+    <string name="help">"ຊ່ວຍ​ເຫຼືອ"</string>
+    <string name="ok">"ຕົກລົງ"</string>
+    <string name="cancel">"ຍົກ​ເລີກ"</string>
+    <string name="login">"ເຂົ້າລະບົບ"</string>
+    <!-- File protection -->
+    <string name="file_protection">"ໄຟລ໌ເປັນ"</string>
+    <!-- EncrypteData -->
+    <string name="encryptdata">"ເຂົ້າລະຫັດໄຟລ໌"</string>
+    <string name="encryptdata_title">"ເຂົ້າລະຫັດໄຟລ໌"</string>
+    <string name="encryptdata_summary">"ເຂົ້າລະຫັດ ແລະຖອດລະຫັດໄຟລ໌"</string>
+    <string name="file_explorer_title">"ເລືອກໄຟລ໌ເພື່ອເຂົ້າລະຫັດ/ຖອດລະຫັດ"</string>
+    <string name="encrypt">"ເຂົ້າລະຫັດ"</string>
+    <string name="encrypting">"ກໍາລັງເຂົ້າລະຫັດ"</string>
+    <string name="encrypt_summary">"ເຂົ້າລະຫັດໄຟລ໌"</string>
+    <string name="encrypt_hint">"ເລືອກໄຟລ໌ເພື່ອເຂົ້າລະຫັດ"</string>
+    <string name="decrypt">"ຖອນລະຫັດ"</string>
+    <string name="decrypting">"ກໍາລັງຖອດລະຫັດ"</string>
+    <string name="decrypt_summary">"ຖອດລະຫັດໄຟລ໌ທີ່ເຂົ້າລະຫັດໄວ້"</string>
+    <string name="decrypt_hint">"ເລືອກໄຟລ໌ທີ່ເຂົ້າລະຫັດໄວ້ເພື່ອຖອດລະຫັດ"</string>
+    <string name="grant">"ໃຫ້"</string>
+    <string name="deny">"ປະຕິເສດ"</string>
+    <string name="prompt">"​ເຕືອນ"</string>
+    <!-- AuthAccess -->
+    <string name="remember_choice">"ຈື່ຕົວເລືອກນີ້ໄວ້"</string>
+    <string name="authaccess">"ການເຂົ້າເຖິງທີ່ບໍ່ໄດ້ຮັບອະນຸຍາດ"</string>
+    <string name="access_protected_data">"ລອງເຂົ້າຫາໄຟລ໌ທີ່ມີການປ້ອງກັນ"</string>
+    <string name="authaccess_summary">"ຍ້າຍໄຟລ໌ໄປໃສ່ພື້ນທີ່ທີ່ມີການປ້ອງກັນ, ຈຳເປັນຕ້ອງມີການອະນຸຍາດສຳລັບການເຂົ້າເຖິງໄຟລ໌ທີ່ມີການປ້ອງກັນ"</string>
+    <string name="authaccess_title">"ການເຂົ້າເຖິງທີ່ບໍ່ໄດ້ຮັບອະນຸຍາດ"</string>
+    <string name="protect">"ປົກປ້ອງ"</string>
+    <string name="deprotect">"ຖອນປົກປ້ອງ"</string>
+    <string name="app_config">"ການກຳນົດຄ່າແອັບ"</string>
+    <string name="password">"ລະຫັດຜ່ານ"</string>
+    <string name="create_password">"ສ້າງລະຫັດ"</string>
+    <string name="confirm_password">"ຢືນຢັນລະຫັດຜ່ານ"</string>
+    <string name="change_password">"ປ່ຽນລະຫັດຜ່ານ"</string>
+    <string name="empty_password_hint">"ກະລຸນາປ້ອນລະຫັດຜ່ານ"</string>
+    <string name="empty_confirm_password_hint">"ກວດສອບການຢືນຢັນລະຫັດ"</string>
+    <string name="inconsistent_password_hint">"ບໍ່ມີລະຫັດ"</string>
+    <string name="input_restriction">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_</string>
+    <string name="create_password_hint">"ກະລຸນາຕັ້ງລະຫັດຜ່ານກ່ອນເຂົ້າລະຫັດ/ຖອດລະຫັດ.\nທ່ານຈຳເປັນຕ້ອງໃຫ້  ລະຫັດຜ່ານນີ້ສຳລັບການຖອດລະຫັດໄຟລ໌ທີ່ມີການປ້ອງກັນໃນພາຍຫຼັງ."</string>
+    <string name="password_error">"ລະຫັດຜ່ານຜິດພາດ"</string>
+    <string name="password_wrong">"ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ"</string>
+    <string name="need_password_toast">"ກະລຸນາຕັ້ງລະຫັດຜ່ານກ່ອນ"</string>
+    <string name="no_record">"ບັນທຶກຂອງທ່ານ"</string></resources>

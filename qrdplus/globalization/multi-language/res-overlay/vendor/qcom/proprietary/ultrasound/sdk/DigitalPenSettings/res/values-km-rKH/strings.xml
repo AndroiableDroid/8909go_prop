@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"ការកំណត់ SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"ការកំណត់ប៊ិចឌីជីថល Snapdragon"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"បាន​បិទ"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"ស្ទួន"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"ម៉ូដបិទអេក្រង់​កម្មវិធីចាស់៖"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"ចម្ងាយក្នុងជួរ (mm)៖"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"ម៉ូដថាមពល៖"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"បង្កើនប្រសិទ្ធភាពភាពត្រឹមត្រូវ"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"បង្កើនប្រសិទ្ធភាព​ថាមពល"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"ប្រភេទបញ្ចូល៖"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"ភាពប្រែប្រួលរបស់កណ្ដុរ៖"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"យឺត"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"មធ្យម"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"លឿន"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"ដែកចារ"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"កណ្ដុរ​ប្រមះ"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"យ៉យស្ទីក"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"DigitalPen ត្រូវបិទ"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"DigitalPen ត្រូវបើក"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"ទម្រស្មាតធើ"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"សំកាំងពេលអេក្រង់បើក"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"សំកាំងពេលបិទអេក្រង់"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"ចម្ងាយ​អតិបរមា៖"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"បង្ងាញរូបតំណាងសំកាំង"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"ប៊ូតុងជ័រលុប"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"លិបិក្រមប៊ូតុង៖"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"ឥរិយាបថជ័រលុប៖"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"កាន់លុប"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"ប៉ះដើម្បីបិទបើក"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"ទីតាំងអេក្រង់​​បិទ​ក្នុងទីតាំង​បញ្ឈរ៖"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"ជ្រុងខាងឆ្វេង"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"ជ្រុងខាងស្ដាំ"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"បញ្ឈប់ប៊ិចនៅពេលបិទអេក្រង់"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"ចាប់ផ្ដើមប៊ិចនៅពេលចាប់ផ្ដើម"</string></resources>

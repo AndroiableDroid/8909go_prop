@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK ڈیموز"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"توسیعی آف اسکرین"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"پس منظر سائیڈ چینل"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"انگلی بمقابلہ سٹائلس + دباؤ"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"محوری جھکاؤ"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"ہوور اور سائیڈ بٹن"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"اریزر اور اریزر بائی پاس"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"یہ ڈیمو آف اسکرین خصوصیت کا مظاہرہ کرتا ہے۔\n\n1. ڈرا آف اسکرین اور دائیں جانب اپنی ڈرائنگ کو دیکھیں۔\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. مجازی اسکرین کے نچلے دائیں کونے میں ایک بٹن ہے۔ دائرے کے دھندلاپن کو تبدیل کرنے کے لئے مختلف بلندیوں پر اس کے اوپر منڈلائیں۔\n\n3. دائرے کا رنگ تبدیل کرنے کے لئے دبائیں۔"</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"یہ ڈیمو دکھاتا ہے کہ جب اسکرین آن یا آف ہو تو پس منظر جانب چینل کس طرح سے کام کر سکتا ہے۔\n\n1. اسکرین کو ڈرا آف کریں اور اپنی ڈرائنگ دیکھیں۔\n\n2. اب ایک اور ایپ پر سوئچ کریں، یا اسکرین کو آف کریں - آپ کی ڈرائنگ بدستور ریکارڈ کی جاتی ہے۔"</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"آن اسکرین ہوور"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. مختلف بلندیوں پر اسکرین کے اوپر منڈلائیں۔\n\n2. ہوورنگ کو غیر فعال کرنے کے لئے سوئچ استعمال کریں۔\n\n3. ہوورنگ واقعات کے لئے زیادہ سے زیادہ فاصلے کا تعین کرنے کے لئے سلائیڈر کو استعمال کریں۔\n\n4. اطرافی بٹن کو دبانا ہوور دائرے کا رنگ بدل دے گا۔"</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. براہ مہربانی عالمی ترتیبات میں اریزر بٹن بننے کے لئے SDP بٹن کو تشکیل دیں۔\n\n2. بنائیں۔\n\n3. ٹوگل کرنے کے لئے ٹیپ کرنے کے لئے اریزر مقرر کریں۔ اریزر بٹن دبائیں۔ مٹائیں۔ اریزر بٹن کو دوبارہ، پین موڈ پر سوئچ کر دیتا ہے۔\n\n4. مٹانے کے لئے پکڑنے کے لئے اریزر کو سیٹ کریں۔ اب آپ فوری چھونے سے مٹا سکتے ہیں۔\n\n5. اب اریزر فعالیت کو غیر فعال کرنے کے لئے اریزر بائی پاس سوئچ کو استعمال کریں۔"</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"اریزر بائی پاس"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"کینوس کو مٹائیں"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"پین کے ساتھ بنائیں، اور پھر اپنی انگلی کے ساتھ بنائیں۔\nدو طریقوں کو مختلف رنگ سے پہچانا جاتا ہے۔\nاسٹروک چوڑائی کو دباؤ سے سیٹ کیا جاتا ہے، جو کہ عددی طور پر بھی قابل بصارت ہے۔"</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"دباؤ"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

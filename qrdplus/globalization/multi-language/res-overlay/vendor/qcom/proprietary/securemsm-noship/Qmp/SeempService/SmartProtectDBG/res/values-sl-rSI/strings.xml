@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtectDBG"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"Podatki o aplikaciji"</string>
+    <string name="title_trusted">"Zaupanja vredne aplikacije"</string>
+    <string name="title_about">"O programu"</string>
+    <string name="title_settings">"Nastavitve"</string>
+    <string name="drawer_open_title">"Snapdragon Smart Protect"</string>
+<string name="service_status_on">"Vklop"</string>
+    <string name="service_status_off">"Izklopljeno"</string>
+    <string name="err_title">"Napaka aplikacije"</string>
+    <string name="err_msg_init">"Snapdragon Smart Protect ne more inicializirati knjižnice QSSP. Ustavljanje storitve"</string>
+    <string name="err_msg_load_model">"Snapdragon Smart Protect ne more naložiti modela. Ustavljanje storitve"</string>
+    <string name="err_msg_malicious_alert">"Snapdragon Smart Protect ne more registrirati opozoril o zlonamerni programski opremi. Ustavljanje storitve"</string>
+    <string name="err_msg_benign_alert">"Snapdragon Smart Protect ne more registrirati opozoril o škodljivi programski opremi. Ustavljanje storitve"</string>
+    <string name="err_msg_service_not_up">"Snapdragon Smart Protect ne more več najti storitve."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"Vse pravice pridržane."</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ Smart Protect je izdelek podjetja Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Qualcomm in Snapdragon sta blagovni znamki družbe Qualcomm Incorporated, registrirane v Združenih državah in drugih državah, ter se uporabljata z dovoljenjem."</string>
+    <string name="btn_restore_default">"OBNOVI PRIVZETE NASTAVITVE"</string>
+    <string name="btn_clear_history">"POČISTI ZGODOVINO ORODJA SMART PROTECT"</string>
+    <string name="trusted_btn">"DODAJ NA SEZNAM ZAUPANJA VREDNIH APLIKACIJ"</string>
+    <string name="uninstall_btn">"ODSTRANI"</string>
+    <string name="details_btn">"PODROBNOSTI"</string>
+    <string name="done_btn">"KONČANO"</string>
+    <string name="remove_trusted_btn">"ODSTRANI S SEZNAMA ZAUPANJA VREDNIH APLIKACIJ"</string>
+    <string name="uninstall_confirm_message">"Ali želite odstraniti to aplikacijo?"</string>
+    <string name="uninstall_success">"Paket je uspešno odstranjen"</string>
+    <string name="uninstall_failed">"Odstranjevanje paketa ni uspelo"</string>
+    <string name="clear_history_done">"Zgodovina je uspešno počiščena"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon Smart Protect"</string>
+    <string name="drawer_threats">"Zaznane grožnje (%1$s)"</string>
+    <string name="drawer_threat_null">"Sprotno varovanje zasebnosti in zaznavanje zlonamerne programske opreme v napravi"</string>
+    <string name="drawer_option_dashboard">"Nadzorna plošča"</string>
+    <string name="drawer_option_trusted_apps">"Zaupanja vredne aplikacije"</string>
+    <string name="drawer_option_settings">"Nastavitve"</string>
+    <string name="drawer_option_about">"O programu"</string>
+    <string name="dashboard_list_title">"Izberite aplikacijo, da si ogledate podrobnosti in priporočila orodja Snapdragon Smart Protect."</string>
+    <string name="dashboard_list_empty">"Nadzorovana ni nobena aplikacija."</string>
+    <string name="app_info_recommend">"Priporočilo:"</string>
+    <string name="app_info_version">"različica"</string>
+    <string name="app_uninstalled">"Aplikacija ni več nameščena v napravi. Če želite zapreti, pritisnite »V redu«."</string>
+    <string name="malicious_item_threat">"Snapdragon Smart Protect je zaznal:"</string>
+    <string name="malicious_item_confidence">"Raven zanesljivosti:"</string>
+    <string name="malicious_item_analysis">"Analiza"</string>
+    <string name="malicious_recommend">"Odstrani"</string>
+    <string name="good_threat">"Najdena ni nobena grožnja."</string>
+    <string name="good_recommend">"Izberite »Dokončano«, da lahko orodje Snapdragon Smart Protect nadaljuje z nadziranjem te aplikacije."</string>
+    <string name="good_title">"Dobro"</string>
+    <string name="trusted_item_title">"Snapdragon Smart Protect ne nadzoruje dejavnosti aplikacije %1$s, ker je na seznamu zaupanja vrednih aplikacij.\n\nČe niste prepričani, da je ta aplikacija varna, jo odstranite s seznama zaupanja vrednih aplikacij."</string>
+    <string name="trusted_list_title">"Snapdragon Smart Protect ne nadzoruje aplikacij, ki so na tem seznamu."</string>
+    <string name="trusted_list_subtitle">"Če niste prepričani, da je ta aplikacija varna, jo odstranite s seznama zaupanja vrednih aplikacij."</string>
+    <string name="trusted_list_empty">"Na seznamu zaupanja vrednih aplikacij ni nobene aplikacije."</string>
+    <string name="trusted_list_empty_desc">"S tem zagotovite največjo možno zaščito, saj bo Snapdragon Smart Protect nadzoroval vse vaše aplikacije."</string>
+    <string name="trusted_confirm_message">"Ali želite dodati to aplikacijo na seznam zaupanja vrednih aplikacij?\n\nČe niste prepričani, da je ta aplikacija varna, izberite »Prekliči«."</string>
+    <string name="malicious_ntf_message">"Snapdragon Smart Protect je zaznal zlonamerno dejavnost v aplikaciji %1$s."</string>
+    <string name="malicious_ntf_recommend">"Priporočilo: Odstrani"</string>
+    <string name="malicious_dialog_title">"Zlonamerna dejavnost"</string>
+    <string name="malicious_text">"Zlonamerna dejavnost"</string>
+    <string name="malware_ntf_message">"Snapdragon Smart Protect je zaznal zlonamerno programsko opremo v aplikaciji %1$s."</string>
+    <string name="malware_dialog_title">"Zaznana je zlonamerna programska oprema"</string>
+    <string name="malware_title">"Zlonamerna programska oprema"</string>
+    <string name="spyware_ntf_message">"Snapdragon Smart Protect je zaznal vohunsko programsko opremo v aplikaciji %1$s."</string>
+    <string name="spyware_dialog_title">"Zaznana je vohunska programska oprema"</string>
+    <string name="spyware_title">"Vohunska programska oprema"</string>
+    <string name="adware_ntf_message">"Snapdragon Smart Protect je zaznal oglaševalni program v aplikaciji %1$s."</string>
+    <string name="adware_dialog_title">"Zaznan je oglaševalni program"</string>
+    <string name="adware_title">"Oglaševalni program"</string>
+<string name="err_no_app_dashborad">"Seznam aplikacij na nadzorni plošči je prazen"</string>
+    <string name="analysis_title">"Element %1$s je verjetno zlonameren zaradi naslednjih razlogov:"</string>
+    <string name="service_label">"Storitev Sphinx"</string>
+    <string name="unknown_code">" Koda – %1$d"</string>
+    <string name="default_code_detail">"Aplikacija poskuša izvesti zlonamerno dejavnost."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"Morda izvaja škodljivo dejavnost v vaši napravi."</item>
+        <item>"1. raven – zlonamerna programska oprema: izvaja škodljive dejavnosti za vsebino, aplikacije in napravo uporabnika."</item>
+        <item>"2. raven – zlonamerna programska oprema: izvaja dejavnost, ki lahko uporabniku povzroči stroške."</item>
+        <item>"3. raven – vohunska programska oprema: razkriva/krade vsebino in dejavno vohuni za uporabniki."</item>
+        <item>"4. raven – vohunska programska oprema: razkriva/krade metapodatke o uporabniku."</item>
+        <item>"5. raven – vohunska programska oprema: razkriva/krade občutljive podatke naprave."</item>
+        <item>"6. raven – nadležna programska oprema: agresivni oglaševalski program in/ali vsiljiva aplikacija."</item>
+    </string-array>
+    <string name="setting_level1_title">"1. raven – zlonamerna programska oprema"</string>
+    <string name="setting_level2_title">"2. raven – zlonamerna programska oprema"</string>
+    <string name="setting_level3_title">"3. raven – vohunska programska oprema"</string>
+    <string name="setting_level4_title">"4. raven – vohunska programska oprema"</string>
+    <string name="setting_level5_title">"5. raven – vohunska programska oprema"</string>
+    <string name="setting_level6_title">"6. raven – oglaševalni program"</string>
+    <string name="setting_mode_title">"Način"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"Pojavno okno in običajno opozorilo"</item>
+        <item>"Običajno opozorilo"</item>
+        <item>"Ni opozoril"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"Običajni način"</item>
+        <item>"Tihi način"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<string name="monitor_feature_title">"Nadzorovanje funkcije"</string>
+    <string name="err_msg_no_rfm">"Snapdragon Smart Protect ne more najti datotek RFM v napravi"</string>
+    <string name="err_msg_monitor">"Snapdragon Smart Protect ne more nadzorovati funkcij"</string>
+    <string name="title_debug">"Odpravljanje napak"</string>
+    <string name="drawer_option_debug">"Odpravljanje napak"</string>
+    <string name="set_rfm_file">"Izbira datoteke RFM"</string>
+    <string name="debug_rfm_model">"Datoteka RFM"</string>
+    <string name="debug_mnf_apply">"Nadzorovanje funkcije"</string></resources>

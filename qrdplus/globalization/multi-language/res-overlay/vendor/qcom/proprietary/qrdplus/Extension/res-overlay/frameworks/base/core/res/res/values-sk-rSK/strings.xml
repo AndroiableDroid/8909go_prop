@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_accessWifiState">"zobraziť pripojenia WLAN"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_accessWifiState">"Umožňuje aplikácii zobraziť informácie o sieťach WLAN. Napríklad o tom, či je sieť WLAN zapnutá alebo názvy pripojených zariadení WLAN."</string>
+    <string name="permlab_changeWifiState">"pripojiť a odpojiť od WLAN"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiState">"Umožňuje aplikácii pripojiť sa na prístupové body siete WLAN, odpojiť sa od nich a meniť konfiguráciu zariadení pre siete WLAN."</string>
+    <string name="permlab_changeWifiMulticastState">"povoliť príjem WLAN Multicast"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="tablet">"Umožňuje aplikácii prijímať pakety odoslané na všetky zariadenia v sieti WLAN pomocou viacsmerových adries, nielen pomocou vášho tabletu.  Spotrebuje viac energie ako režim bez viacsmerového vysielania."</string>
+    <string name="permdesc_changeWifiMulticastState" product="default">"Umožňuje aplikácii prijímať pakety odoslané na všetky zariadenia v sieti WLAN pomocou viacsmerových adries, nielen pomocou vášho telefónu.  Spotrebúva viac energie ako režim bez viacsmerového vysielania."</string>
+    <string name="wifi_available_sign_in">"Prihláste sa do siete WLAN"</string>
+    <string name="wifi_watchdog_network_disabled">"Nepodarilo sa pripojiť k sieti WLAN"</string>
+    <string name="wifi_p2p_dialog_title">"Príkaz WLAN"</string>
+    <string name="wifi_p2p_turnon_message">"Spustite Príkaz WLAN. Táto možnosť vypne sieť WLAN v režime klient alebo hotspot."</string>
+    <string name="wifi_p2p_failed_message">"Príkaz WLAN sa nepodarilo spustiť."</string>
+    <string name="wifi_p2p_enabled_notification_title">"Príkaz WLAN je spustené"</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="tablet">"Tablet bude počas pripojenia k zariadeniu <xliff:g id="device_name">%1$s</xliff:g> od siete WLAN dočasne odpojený."</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="default">"Telefón bude počas pripojenia k zariadeniu <xliff:g id="device_name">%1$s</xliff:g> od siete WLAN dočasne odpojený."</string>
+    <!-- Notification title when WLAN data usage has exceeded limit threshold, and has been disabled. [CHAR LIMIT=32] -->
+    <string name="data_usage_wifi_limit_title">"Dáta WLAN sú vypnuté"</string>
+    <!-- Notification title when WLAN data usage has exceeded limit threshold. [CHAR LIMIT=32] -->
+    <string name="data_usage_wifi_limit_snoozed_title">"Bol prekročený dátový limit WLAN"</string>
+    <!--<string name="permlab_configureWifiDisplay">configure WLAN displays</string>-->
+    <!--<string name="permdesc_configureWifiDisplay">Allows the app to configure and connect to WLAN displays.</string>-->
+    <!--<string name="permlab_controlWifiDisplay">control WLAN displays</string>-->
+    <!--<string name="permdesc_controlWifiDisplay">Allows the app to control low-level features of WLAN displays.</string>-->
+    <!-- A notification is shown when there are open wireless networks nearby.  This is the notification's title. -->
+    <plurals name="wifi_available">
+        <item quantity="one">"Je k dispozícii sieť WLAN"</item>
+        <item quantity="other">"Dostupné siete WLAN"</item>
+    </plurals>
+    <!-- A notification is shown when there are open wireless networks nearby.  This is the notification's message. -->
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">"Otvoriť dostupnú sieť WLAN"</item>
+        <item quantity="other">"Otvoriť dostupné siete WLAN"</item>
+    </plurals></resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"DBGUlinziMahiri"</string>
+    <string name="title_dashboard">"Ulinzi Mahiri wa Qualcomm® Snapdragon™"</string>
+    <string name="title_app_info">"Maelezo ya Programu"</string>
+    <string name="title_trusted">"Programu Zinazoaminika"</string>
+    <string name="title_about">"Kuhusu"</string>
+    <string name="title_settings">"Mipangilio"</string>
+    <string name="drawer_open_title">"Ulinzi Mahiri wa Snapdragon"</string>
+<string name="service_status_on">"Imewashwa"</string>
+    <string name="service_status_off">"Imezimwa"</string>
+    <string name="err_title">"Hitilafu ya Programu"</string>
+    <string name="err_msg_init">"Ulinzi Mahiri wa Snapdragon hauwezi kuanzisha maktaba ya QSSP. Huduma inasitishwa"</string>
+    <string name="err_msg_load_model">"Ulinzi Mahiri wa Snapdragon hauwezi kupakia modeli. Huduma inasitishwa"</string>
+    <string name="err_msg_malicious_alert">"Ulinzi Mahiri wa Snapdragon hauwezi kusajili taarifa hasidi. Huduma inasitishwa"</string>
+    <string name="err_msg_benign_alert">"Ulinzi Mahiri wa Snapdragon hauwezi kusajili taarifa tulivu. Huduma inasitishwa"</string>
+    <string name="err_msg_service_not_up">"Ulinzi Mahiri wa Snapdragon hauwezi kutafuta huduma tena."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"Haki zote zimehifadhiwa."</string>
+    <string name="about_information_line1">"Ulinzi Mahiri wa Qualcomm® Snapdragon™ ni bidhaa ya  Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Qualcomm na Snapdragon ni alama za bidhaa za Qualcomm Incorporated, iliyosajiliwa nchini Marekani na mataifa mengine, zinazotumika kwa ruhusa."</string>
+    <string name="btn_restore_default">"REJESHA MIPANGILIO CHAGUO-MSINGI"</string>
+    <string name="btn_clear_history">"REJESHA HISTORIA YA ULINZI MAHIRI"</string>
+    <string name="trusted_btn">"ONGEZA KWENYE ORODHA YA PRORAMU ZINAZOAMINIKA"</string>
+    <string name="uninstall_btn">"ONDOA"</string>
+    <string name="details_btn">"MAELEZO"</string>
+    <string name="done_btn">"IMEFANYWA"</string>
+    <string name="remove_trusted_btn">"ONDOA KWENYE ORODHA YA PRORAMU ZINAZOAMINIKA"</string>
+    <string name="uninstall_confirm_message">"Unataka kusanidua programu hii?"</string>
+    <string name="uninstall_success">"Kifurushi kimeondolewa"</string>
+    <string name="uninstall_failed">"Kifurushi hakijaondolewa"</string>
+    <string name="clear_history_done">"Historia imefutwa"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Ulinzi Mahiri wa Snapdragon"</string>
+    <string name="drawer_threats">"Hatari Zilizotambuliwa (%1$s)"</string>
+    <string name="drawer_threat_null">"Ulinzi wa faragha wa moja kwa moja kwenye kifaa, na utambuzi wa programu hasidi"</string>
+    <string name="drawer_option_dashboard">"Dashibodi"</string>
+    <string name="drawer_option_trusted_apps">"Programu Zinazoaminika"</string>
+    <string name="drawer_option_settings">"Mipangilio"</string>
+    <string name="drawer_option_about">"Kuhusu"</string>
+    <string name="dashboard_list_title">"Chagua programu ili uone maelezo na mapendekezo ya Ulinzi Mahiri wa Snapdragon."</string>
+    <string name="dashboard_list_empty">"Hakuna programu zinazofuatiliwa."</string>
+    <string name="app_info_recommend">"Pendekezo:"</string>
+    <string name="app_info_version">"toleo"</string>
+    <string name="app_uninstalled">"Programu haipo tena katika kifaa. Bonyeza sawa ili uondoke."</string>
+    <string name="malicious_item_threat">"Ulinzi Mahiri wa Snapdragon umetambuliwa:"</string>
+    <string name="malicious_item_confidence">"Kiwango cha uhakika:"</string>
+    <string name="malicious_item_analysis">"Uchanganuzi"</string>
+    <string name="malicious_recommend">"Ondoa"</string>
+    <string name="good_threat">"Hakuna hatari zilizotambuliwa."</string>
+    <string name="good_recommend">"Umemaliza kuchagua, hivi kwamba Ulinzi Mahiri wa Snapdragon utaendelea kufuatilia programu hii."</string>
+    <string name="good_title">"Nzuri"</string>
+    <string name="trusted_item_title">"Ulinzi Mahiri wa Snapdragon haufuatilii shughuli za%1$s, kwa sababu iko katika orodha yako ya Programu Zinazoaminika.\n\nIkiwa huna uhakika kuhusu usalama wa programu hii, basi iondoe kwenye orodha ya Programu Zinazoaminika."</string>
+    <string name="trusted_list_title">"Ulinzi Mahiri wa Snapdragon haufuatilii programu zilizo katika orodha hii."</string>
+    <string name="trusted_list_subtitle">"kiwa huna uhakika kuhusu usalama wa programu hii, iondoe kwenye orodha ya Programu Zinazoaminika."</string>
+    <string name="trusted_list_empty">"Hakuna programu katika orodha yako ya programu zinazoaminika."</string>
+    <string name="trusted_list_empty_desc">"Hii itakupa ulinzi wa hali ya juu zaidi, kwa sababu Ulinzi Mahiri wa Snapdragon unafuatilia programu zako zote."</string>
+    <string name="trusted_confirm_message">"Ungependa kuongeza programu hii katika orodha yako ya Programu Zinazoaminika?\n\nIkiwa huna uhakika kuhusu usalama wa programu hii, basi chagua Ghairi."</string>
+    <string name="malicious_ntf_message">"Ulinzi Mahiri wa Snapdragon umetambua shughuli hasidi katika %1$s."</string>
+    <string name="malicious_ntf_recommend">"Pendekezo: Ondoa"</string>
+    <string name="malicious_dialog_title">"Hasidi"</string>
+    <string name="malicious_text">"Hasidi"</string>
+    <string name="malware_ntf_message">"Ulinzi Mahiri wa Snapdragon umetambua programu hasidi katika %1$s:"</string>
+    <string name="malware_dialog_title">"Proramu hasidi imetambuliwa"</string>
+    <string name="malware_title">"Proramu hasidi"</string>
+    <string name="spyware_ntf_message">"Ulinzi Mahiri wa Snapdragon umetambua programu vamizi katika %1$s."</string>
+    <string name="spyware_dialog_title">"Programu vamizi imetambuliwa"</string>
+    <string name="spyware_title">"Programu vamizi"</string>
+    <string name="adware_ntf_message">"Ulinzi Mahiri wa Snapdragon umetambua programu ya matangazo katika %1$s."</string>
+    <string name="adware_dialog_title">"Programu ya matangazo imetambuliwa"</string>
+    <string name="adware_title">"Programu ya matangazo"</string>
+<string name="err_no_app_dashborad">"orodha ya programu ya dashibodi ni tupu"</string>
+    <string name="analysis_title">"%1$s huenda ikawa hasidi kwa sababu zifuatazo:"</string>
+    <string name="service_label">"Huduma za Sphinx"</string>
+    <string name="unknown_code">"Msimbo wa   - %1$d"</string>
+    <string name="default_code_detail">"Programu inajaribu kufanya shughuli hasidi."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"Huenda inatekeleza shughuli hatari katika kifaa chako."</item>
+        <item>"Programu Hasidi ya Kiwango cha 1: Inatekeleza shughuli hatari dhidi ya maudhui ya mtumiaji, programu na kifaa."</item>
+        <item>"Programu Hasidi ya Kiwango cha 2: Inatekeleza shughuli zinazoweza kumgharimu mtumiaji pesa."</item>
+        <item>"Programu Hasidi ya Kiwango cha 3: Maudhui ya Kuvuja/Kuiba na kupeleleza dhidi ya watumiaji."</item>
+        <item>"Programu Hasidi ya Kiwango cha 4: Kuvuja/Kuiba maelezo binafsi ya mtumiaji."</item>
+        <item>"Programu Hasidi ya Kiwango cha 5: Kuvuja/Kuiba maelezo nyeti ya kifaa."</item>
+        <item>"Programu ya Kuudhi ya Kiwango cha 6: Programu kali ya matangazo na/au programu ingilizi."</item>
+    </string-array>
+    <string name="setting_level1_title">"Programu Hasidi ya Kiwango cha 1"</string>
+    <string name="setting_level2_title">"Programu Hasidi ya Kiwango cha 2"</string>
+    <string name="setting_level3_title">"Programu Vamizi ya Kiwango cha 3"</string>
+    <string name="setting_level4_title">"Programu Vamizi ya Kiwango cha 4"</string>
+    <string name="setting_level5_title">"Programu Vamizi ya Kiwango cha 5"</string>
+    <string name="setting_level6_title">"Programu ya Matangazo ya Kiwango cha 6"</string>
+    <string name="setting_mode_title">"Hali"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"Taarifa Ibukizi na ya Kawaida"</item>
+        <item>"Taarifa ya kawaida"</item>
+        <item>"Hakuna taarifa"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"Modi ya Kawaida"</item>
+        <item>"Modi ya Kimya"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<string name="monitor_feature_title">"Fuatilia Kipengee"</string>
+    <string name="err_msg_no_rfm">"Ulinzi Mahiri wa Snapdragon hauwezi kutafuta faili za rfm katika kifaa"</string>
+    <string name="err_msg_monitor">"Ulinzi Mahiri wa Snapdragon hauwezi kufuatilia vipengee"</string>
+    <string name="title_debug">"Tatua"</string>
+    <string name="drawer_option_debug">"Tatua"</string>
+    <string name="set_rfm_file">"Chukua faili ya RFM"</string>
+    <string name="debug_rfm_model">"Faili ya RFM"</string>
+    <string name="debug_mnf_apply">"Fuatilia Kipengee"</string></resources>

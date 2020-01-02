@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+  ~ Copyright (c) 2015, The Linux Foundation. All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are
+  ~ met:
+  ~      Redistributions of source code must retain the above copyright
+  ~       notice, this list of conditions and the following disclaimer.
+  ~      Redistributions in binary form must reproduce the above
+  ~       copyright notice, this list of conditions and the following
+  ~       disclaimer in the documentation and/or other materials provided
+  ~       with the distribution.
+  ~      Neither the name of The Linux Foundation nor the names of its
+  ~       contributors may be used to endorse or promote products derived
+  ~       from this software without specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+  ~ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  ~ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+  ~ ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+  ~ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  ~ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  ~ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+  ~ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+  ~ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  ~ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  ~
+  -->
+<!-- The xml contains Qti specific resource strings neede for any value added features. -->
+<resources>
+    <!-- Call substate label -->
+    <string name="call_substate_label">" কল সাবস্টেট - \u000a"</string>
+    <!-- Call substate label for call resumed -->
+    <string name="call_substate_call_resumed">"পুনরারম্ভ হয়েছে \u000a"</string>
+    <!-- Call substate label for call connected suspended (audio) -->
+    <string name="call_substate_connected_suspended_audio">"সংযুক্ত স্থগিত হয়েছে (অডিও) \u000a"</string>
+    <!-- Call substate label for call connected suspended (video) -->
+    <string name="call_substate_connected_suspended_video">"সংযুক্ত স্থগিত হয়েছে (ভিডিও) \u000a"</string>
+    <!-- Call substate label for avp retry -->
+    <string name="call_substate_avp_retry">"Avp পুনঃচেষ্টা \u000a"</string>
+    <!-- Video quality changed message -->
+    <string name="video_quality_changed">" ভিডিও গুণমান এতে পরিবর্তিত হয়েছে \u0020"</string>
+    <!-- Video quality High -->
+    <string name="video_quality_high">"উচ্চ"</string>
+    <!-- Video quality Medium -->
+    <string name="video_quality_medium">"মাঝারী"</string>
+    <!-- Video quality Low -->
+    <string name="video_quality_low">"নীচু"</string>
+    <!-- Video quality Unknown -->
+    <string name="video_quality_unknown">"অজানা"</string>
+    <!-- Message indicating that Video Started flowing for IMS-VT calls -->
+    <string name="player_started">"প্লেয়ার শুরু হয়েছে"</string>
+    <!-- Message indicating that Video Stopped flowing for IMS-VT calls -->
+    <string name="player_stopped">"প্লেয়ার বন্ধ হয়েছে"</string>
+    <!-- Message indicating that camera failure has occurred for the selected camera and
+         as result camera is not ready -->
+    <string name="camera_not_ready">"ক্যামেরা প্রস্তুত নয়"</string>
+    <!-- Message indicating that camera is ready/available -->
+    <string name="camera_ready">"ক্যামেরা প্রস্তুত"</string>
+    <!-- Message indicating unknown call session event -->
+    <string name="unknown_call_session_event">"অজানা কল সেশন ঘটনা"</string>
+    <!-- Message indicating data usage -->
+    <string name="data_usage_label">"ডেটা ব্যবহার : "</string>
+    <!-- Modify call error cause -->
+    <string name="modify_call_failed_due_to_low_battery">"ব্যাটারি কম হওয়ার জন্য কল পরিবর্তন করা ব্যর্থ হয়েছে।"</string>
+    <!-- Message indicating video calls not allowed if user enabled TTY Mode -->
+    <string name="video_call_not_allowed_if_tty_enabled">"ভিডিও কলে আপগ্রেড করার জন্য অনুগ্রহ করে TTY মোড অক্ষম করুন।"</string>
+    <!-- Text for the onscreen "Add Participant" button -->
+    <string name="onscreenAddParticipant">"অংশগ্রহণকারী যোগ করুন"</string>
+    <!-- Description of the deflect target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="qti_description_target_deflect">"ভিন্নমুখীকরণ"</string>
+    <string name="qti_description_deflect_error">"নম্বর সেট করা হয়নি। IMS সেটিংসের মাধ্যমে নম্বরটি প্রদান করে আবার চেষ্টা করুন।"</string>
+    <string name="qti_description_deflect_service_error">"কল ভিন্নমুখীকরণ পরিষেবা সমর্থিত নয়।"</string>
+    <!-- Message indicating call failed due to handover not feasible -->
+    <string name="call_failed_ho_not_feasible">"কল সমাপ্ত হয়েছে কারণ LTE থেকে 3G/2G-তে হ্যান্ডওভার সম্ভব হয়নি।"</string>
+    <!-- Title of the IMS to CS redial dialog -->
+    <string name="cs_redial_option">"পুনরায় ডায়ালের বিকল্প"</string>
+    <!-- Message text of the IMS to CS redial dialog -->
+    <string name="cs_redial_msg">"একটি IMS ভিডিও কল করতে অক্ষম, IMS নয় এমন ভয়েস কলরূপে ডায়াল করার চেষ্টা করবেন?"</string>
+    <!-- Yes option of the IMS to CS redial dialog -->
+    <string name="cs_redial_yes">"হ্যাঁ"</string>
+    <!-- No option of the IMS to CS redial dialog -->
+    <string name="cs_redial_no">"না"</string>
+    <!-- Session modify cause unspecified -->
+    <string name="session_modify_cause_unspecified"></string>
+    <!-- Session modify cause code upgrade local request -->
+    <string name="session_modify_cause_upgrade_local_request">"ব্যবহারকারীর অনুরোধে কল আপগ্রেড করা হয়েছে"</string>
+    <!-- Session modify cause code upgrade remote request -->
+    <string name="session_modify_cause_upgrade_remote_request">"রিমোট ব্যবহারকারীর অনুরোধে কল আপগ্রেড করা হয়েছে"</string>
+    <!-- Session modify cause code downgrade local request -->
+    <string name="session_modify_cause_downgrade_local_request">"ব্যবহারকারীর অনুরোধে কল ডাউনগ্রেড করা হয়েছে"</string>
+    <!-- Session modify cause code downgrade remote request -->
+    <string name="session_modify_cause_downgrade_remote_request">"রিমোট ব্যবহারকারীর অনুরোধে কল ডাউনগ্রেড করা হয়েছে"</string>
+    <!-- Session modify cause code downgrade rtp timeout -->
+    <string name="session_modify_cause_downgrade_rtp_timeout">"RTP সময় সমাপ্তির কারণে কল ডাউনগ্রেড করা হয়েছে"</string>
+    <!-- Session modify cause code downgrade qos -->
+    <string name="session_modify_cause_downgrade_qos">"পরিষেবার গুণমানের কারণে কল ডাউনগ্রেড করা হয়েছে"</string>
+    <!-- Session modify cause code downgrade packet loss -->
+    <string name="session_modify_cause_downgrade_packet_loss">"প্যাকেট হারিয়ে যাওয়ার কারণে কল ডাউনগ্রেড করা হয়েছে"</string>
+    <!-- Session modify cause code downgrade low thrput -->
+    <string name="session_modify_cause_downgrade_low_thrput">"কম থ্রুপুটের কারণে কল ডাউনগ্রেড করা হয়েছে"</string>
+    <!-- Session modify cause code downgrade thermal mitigation -->
+    <string name="session_modify_cause_downgrade_thermal_mitigation">"তাপ হ্রাসের কারণে কল ডাউনগ্রেড করা হয়েছে"</string>
+    <!-- Session modify cause code downgrade lipsync -->
+    <string name="session_modify_cause_downgrade_lipsync">"কথা ও ঠোঁটের মধ্যে অমিলের কারণে কল ডাউনগ্রেড করা হয়েছে"</string>
+    <!-- Session modify cause code downgrade generic error -->
+    <string name="session_modify_cause_downgrade_generic_error">"জেনেরিক ত্রুটির কারণে কল ডাউনগ্রেড করা হয়েছে"</string>
+    <!-- Title for low battery alert dialogue -->
+    <string name="low_battery">"ব্যাটারি কম"</string>
+    <!-- Yes option of the low battery alert dialog -->
+    <string name="low_battery_yes">"হ্যাঁ"</string>
+    <!-- No option of the low battery alert dialog -->
+    <string name="low_battery_no">"না"</string>
+    <!-- Message text of the low battery alert dialog in cases when video call can be downgraded to voice call -->
+    <string name="low_battery_downgrade_to_voice_msg">"আপনি কি ভিডিও কলকে ভয়েস কলে রূপান্তরিত করতে চান?"</string>
+    <!-- Message text of the low battery alert dialog in cases video call doesn't have downgrade capabilities -->
+    <string name="low_battery_hangup_msg">"আপনি কি কলটিকে সমাপ্ত করতে চান?"</string>
+    <!-- Description of the call transfer related strings [CHAR LIMIT=NONE] -->
+    <string name="qti_ims_transfer_num_error">"নম্বর সেট করা হয়নি। IMS সেটিংসের মাধ্যমে নম্বরটি প্রদান করে আবার চেষ্টা করুন।"</string>
+    <string name="qti_ims_transfer_request_error">"কল ট্রান্সফারের অনুরোধ ব্যর্থ হয়েছে।"</string>
+    <string name="qti_ims_transfer_request_success">"কল ট্রান্সফারের অনুরোধ সফল হয়েছে।"</string>
+    <!-- Text for the onscreen "blind transfer" button -->
+    <string name="qti_ims_onscreenBlindTransfer">"অনিশ্চিত ট্রান্সফার"</string>
+    <!-- Text for the onscreen "assured transfer" button -->
+    <string name="qti_ims_onscreenAssuredTransfer">"সুনিশ্চিত ট্রান্সফার"</string>
+    <!-- Text for the onscreen "consultative transfer" button -->
+    <string name="qti_ims_onscreenConsultativeTransfer">"পরামর্শ ভিত্তিক ট্রান্সফার"</string>
+    <!-- Text for operator specific emergency number -->
+    <add-resource type="string" name="emergency_call_dialog_number_for_display_operator"/>
+    <string name="emergency_call_dialog_number_for_display_operator">"আপত্কালীন"</string></resources>

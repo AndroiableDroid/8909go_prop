@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Démonstration de Mdtp"</string>
+    <string name="user_app">"Application d\'utilisateur MDTP : écran principal"</string>
+    <string name="config_app">"Application d\'utilisateur MDTP : configuration"</string>
+    <string name="server_app">"Serveur MDTP : écran principal"</string>
+    <string name="action_settings">"Paramètres"</string>
+    <string name="label_1_1">"État MDTP :"</string>
+    <string name="state_deactivated">"Désactivé"</string>
+    <string name="state_activated">"Activé"</string>
+    <string name="configuration">"Configuration (seulement avant l\'activation)"</string>
+    <string name="service_activate">"Demander l\'activation de MDTP à partir des services MDTP"</string>
+    <string name="service_deactivate">"Demander la désactivation de MDTP à partir des services MDTP"</string>
+    <string name="local_deactivate">"Désactivation de MDTP locale (à l\'aide du code PIN)"</string>
+    <string name="service_console">"Console des services MDTP"</string>
+    <string name="title_activity_configuration">"Configuration de l\'utilisateur"</string>
+    <string name="label_2_1">"Utiliser le code PIN local :"</string>
+    <string name="label_2_2">"Code PIN :"</string>
+    <string name="gen_rand_pin">"Générer un code PIN aléatoire"</string>
+    <string name="label_2_3">"Ratio de vérification :"</string>
+    <string name="label_2_5">"Activer le verrouillage SIM :"</string>
+    <string name="label_2_6">"Fichiers/répertoires supplémentaires à vérifier :"</string>
+    <string name="reset">"Rétablir les valeurs par défaut"</string>
+    <string name="label_3_1">"Envoyer des commandes du serveur à l\'appareil :"</string>
+    <string name="activate">"Activer"</string>
+    <string name="deactivate">"Désactiver"</string>
+    <string name="locksim">"Verrouiller SIM"</string>
+    <string name="unlocksim">"Déverrouiller SIM"</string>
+    <string name="killfunc">"Fonctionnalité Tuer"</string>
+    <string name="restorefunc">"Fonctionnalité Restaurer"</string>
+    <string name="label_3_2">"Demandes de désactivation de MDTP :"</string>
+    <string name="notallowed">"Non autorisé"</string>
+    <string name="allowed">"Autorisé"</string>
+    <string name="label_3_3">"Demandes de déblocage de l\'assistant de configuration :"</string>
+    <string name="label_3_4">"Journal de service :"</string>
+    <string name="wizard_app_loading_title">"Assistant de configuration de MDTP : Initialisation..."</string>
+    <string name="label_4_1">"L\'assistant de configuration est bloqué, car l\'état de MDTP est activé"</string>
+    <string name="label_4_2">"Option A : maintenir MDTP activé, mais demander l\'autorisation du serveur"</string>
+    <string name="wiz_unblock">"Demander le déblocage de l\'assistant de configuration à partir des services MDTP"</string>
+    <string name="wiz_cont">"Continuer (autorisé par le serveur)"</string>
+    <string name="label_4_3">"Option B : Désactiver MDTP (supprimera le blocage de l\'assistant de configuration)"</string>
+    <string name="wiz_remote">"Demander la suppression de la désactivation de MDTP"</string>
+    <string name="wiz_local">"Désactivation locale de MDTP"</string>
+    <string name="label_4_4">"L\'assistant de configuration est autorisé à continuer, car l\'état de MDTP n\'est PAS activé"</string>
+    <string name="wiz_complete">"Terminer l\'assistant de configuration (l\'état de MDTP n\'est pas activé)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"Assistant de configuration"</string>
+    <string name="label_signup_message">"MDTP n\'est actuellement pas activé.\nSouhaitez-vous l\'activer ?"</string>
+    <string name="label_signup_message_activated">"MDTP a été activé."</string>
+    <string name="skip_activation">"Ignorer l\'activation"</string>
+    <string name="emergency_dialer">"Appels d\'urgence"</string>
+    <string name="wiz_title_sign_up">"Assistant de configuration de MDTP - Connexion"</string>
+    <string name="wiz_title_reset_prot">"Assistant de configuration de MDTP - Protection du rétablissement de la configuration d\'usine"</string>
+    <string name="wiz_title_boot_block">"Assistant de configuration de MDTP - l\'appareil est bloqué"</string>
+    <string name="block_boot_warning_text">"MDTP a bloqué cet appareil en raison d\'une erreur interne.\n\nRedémarrez l\'appareil."</string>
+    <string name="start_wifi_wizard">"Configurer Wi-Fi"</string>
+    <string name="default_pin_hint">"Le code PIN par défaut est 11111"</string>
+    <string name="pin_dialog_title">"Code PIN de désactivation locale de MDTP requis"</string>
+    <string name="pin_input_validation_warning">"L\'entrée doit correspondre à 5 chiffres"</string></resources>

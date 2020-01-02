@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Scope Debugger алатка за снимање"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Подешавања"</string>
+    <add-resource type="string" name="instructions"/>
+    <string name="instructions">"Унесите назив датотеке (или оставите да предлог буде назив датотеке), а затим притисните дугме да бисте сачувати резервну копију за Scope Debugger"</string>
+    <add-resource type="string" name="button_text"/>
+    <string name="button_text">"Сачувај!"</string>
+    <add-resource type="string" name="file_name_default"/>
+    <string name="file_name_default">"scope_debugger_rec"</string></resources>

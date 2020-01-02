@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"ကျွမ်းကျင်သည့် ရိုက်ကူးမှု"</string>
+    <string name="error_dialog_title">"အပလီကေးရှင်း အမှား"</string>
+    <string name="btn_ok">"ကောင်းပြီ"</string>
+    <string name="err_library_loading">"မူရင်းစာကြည့်တိုက်များသို့ လုပ်ဆောင်ရန် အပလီကေးရှင်း မအောင်မြင်ပါ။"</string>
+    <string name="err_camera_init">"ကင်မရာ အစပျိုးလုပ်ဆောင်မှု မအောင်မြင်ပါ။"</string>
+    <string name="err_sensors_init">"အာရုံခံများ အစပျိုးလုပ်ဆောင်မှု မအောင်မြင်ပါ။"</string>
+    <string name="err_cc_init">"ကျွမ်းကျင်သည့် ရိုက်ကူးမှု API အစပျိုးလုပ်ဆောင်မှု မအောင်မြင်ပါ။"</string>
+    <string name="err_sensors_failed">"အာရုံခံများ အစပျိုးလုပ်ဆောင်မှု မအောင်မြင်ပါ။"</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"ကဏ္ဍပိုင်းကို အစပျိုးလုပ်ဆောင်မထားပါ"</string>
+    <string name="err_queue_full">"အပြည့်စီပါ"</string>
+    <string name="title_settings">"ဆက်တင်များ"</string>
+    <string name="camera_settings">"ကင်မရာ သတ်မှတ်ချက်များ"</string>
+    <string name="camera_settings_picture_size">"ရုပ်ပုံ အရွယ်အစား"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"1280x720"</item>
+        <item>"1600x1200"</item>
+        <item>"1920x1080"</item>
+        <item>"2048x1536"</item>
+        <item>"3200x2400"</item>
+        <item>"4000x3000"</item>
+        <item>"4208x3120"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"1280x720"</item>
+        <item>"1600x1200"</item>
+        <item>"1920x1080"</item>
+        <item>"2048x1536"</item>
+        <item>"3200x2400"</item>
+        <item>"4000x3000"</item>
+        <item>"4208x3120"</item>
+    </string-array>
+    <string name="camera_settings_preview_size">"ကြိုတင်ကြည့်ရှုမှု အရွယ်အစား"</string>
+    <string-array name="camera_settings_preview_size_entries">
+        <item>"1280x720"</item>
+        <item>"1280x960"</item>
+        <item>"1920x1080"</item>
+    </string-array>
+    <string-array name="camera_settings_preview_size_values">
+        <item>"1280x720"</item>
+        <item>"1280x960"</item>
+        <item>"1920x1080"</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"ဆုံချက် အနေအထား"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"အလိုအလျောက်"</item>
+        <item>"ဆက်တိုက် (ဓာတ်ပုံ)"</item>
+        <item>"ဆက်တိုက် (ဗီဒီယို)"</item>
+        <item>"အင်ဖနတီ"</item>
+        <item>"မခရို"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"auto"</item>
+        <item>"continuous-picture"</item>
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>1</item>
+        <item>4</item>
+        <item>3</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_antibanding">"AntiBanding"</string>
+    <string-array name="camera_settings_antibanding_entries">
+        <item>"အလိုအလျောက်"</item>
+        <item>"50HZ"</item>
+        <item>"60HZ"</item>
+        <item>"ပိတ်"</item>
+    </string-array>
+    <string-array name="camera_settings_antibanding_values">
+        <item>"auto"</item>
+        <item>"50hz"</item>
+        <item>"60hz"</item>
+        <item>"off"</item>
+    </string-array>
+    <string-array name="camera_settings_antibanding_values_camera2">
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string name="camera_settings_video_stabilization">"Video တည်ငြိမ်မှု"</string>
+    <string-array name="camera_settings_video_stabilization_entries">
+        <item>"ပိတ်ထားရန်"</item>
+        <item>"ရနိုင်သည်"</item>
+    </string-array>
+    <string-array name="camera_settings_video_stabilization_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="camera_settings_video_stabilization_default">1</string>
+    <string name="pano_settings">"ကျွမ်းကျင်သည့် ရိုက်ကူးမှု သတ်မှတ်ချက်များ"</string>
+    <string name="pano_settings_scve_mode">"SCVE လုပ်ဆောင်ချက် အနေအထား"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"ပုံသေ"</item>
+        <item>"ဖျော်ဖြေတင်ဆက်မှု"</item>
+        <item>"CPU အပိတ်လုပ်ဆောင်မှု"</item>
+        <item>"ပါဝါ နည်းနေသည်"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_zoom_cfg">"ချဲ့ချုံ့ရန်"</string>
+    <string-array name="pano_settings_zoom_cfg_entries">
+        <item>"ပိတ်ထားရန်"</item>
+        <item>"ရနိုင်သည်"</item>
+    </string-array>
+    <string-array name="pano_settings_zoom_cfg_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pano_settings_zoom_cfg_default">0</string>
+    <string name="pano_settings_motion_cfg">"လက်လှုပ်ရှားမှုအတွင်း ဓာတ်ပုံရိုက်၍မရပါ"</string>
+    <string-array name="pano_settings_motion_cfg_entries">
+        <item>"ပိတ်ထားရန်"</item>
+        <item>"ရနိုင်သည်"</item>
+    </string-array>
+    <string-array name="pano_settings_motion_cfg_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pano_settings_motion_cfg_default">1</string>
+    <string name="pano_settings_focus_cfg">"ဆုံချက်ရယူစဉ်အတွင်း ဓာတ်ပုံရိုက်၍မရပါ"</string>
+    <string-array name="pano_settings_focus_cfg_entries">
+        <item>"ပိတ်ထားရန်"</item>
+        <item>"ရနိုင်သည်"</item>
+    </string-array>
+    <string-array name="pano_settings_focus_cfg_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pano_settings_focus_cfg_default">0</string>
+    <string name="pano_settings_image_compress_level">"ပုံရိပ် အသေးချုံ့အဆင့်"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_ae_awb_lock">"AE/AWB သော့ ဖွင့်ပါ"</string>
+    <string-array name="pano_settings_enable_ae_awb_lock_entries">
+        <item>"မဟုတ်ပါ"</item>
+        <item>"ဟုတ်ကဲ့"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_ae_awb_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_ae_awb_lock_default">"false"</string>
+    <string name="cc_settings_burst_number">"ဆက်တိုက်ရိုက်မှု အရေအတွက်"</string>
+    <string-array name="cc_settings_burst_number_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="cc_settings_burst_number_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+   <string name="cc_settings_burst_number_default">3</string>
+    <string name="cc_settings_burst_interval">"ဆက်တိုက်ရိုက်မှု ကြားကာလ"</string>
+    <string-array name="cc_settings_burst_interval_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="cc_settings_burst_interval_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string name="cc_settings_burst_interval_default">1</string></resources>

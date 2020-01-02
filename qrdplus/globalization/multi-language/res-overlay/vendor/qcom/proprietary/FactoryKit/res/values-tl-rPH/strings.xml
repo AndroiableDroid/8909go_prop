@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Common string -->
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"OK"</string>
+    <add-resource type="string" name="yes"/>
+    <string name="yes">"Oo"</string>
+    <add-resource type="string" name="no"/>
+    <string name="no">"Hindi"</string>
+    <add-resource type="string" name="pass"/>
+    <string name="pass">"Pasado"</string>
+    <add-resource type="string" name="fail"/>
+    <string name="fail">"Bigo"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Kanselahin"</string>
+    <add-resource type="string" name="testing"/>
+    <string name="testing">"Sinusubukan..."</string>
+    <add-resource type="string" name="initialize"/>
+    <string name="initialize">"Sinisimulan..."</string>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"FactoryKit"</string>
+    <add-resource type="string" name="start"/>
+    <string name="start">"Simulan"</string>
+    <add-resource type="string" name="scan"/>
+    <string name="scan">"I-scan"</string>
+    <add-resource type="string" name="device_open_fail"/>
+    <string name="device_open_fail">"Nabigo ang pagbukas sa device!"</string>
+    <add-resource type="string" name="service_get_fail"/>
+    <string name="service_get_fail">"Nabigo ang pagkuha sa device!"</string>
+    <add-resource type="string" name="sensor_get_fail"/>
+    <string name="sensor_get_fail">"Nabigo ang pagkuha sa sensor!"</string>
+    <add-resource type="string" name="sensor_register_fail"/>
+    <string name="sensor_register_fail">"Nabigo ang pagrehistro sa sensor!"</string>
+    <add-resource type="string" name="test_pass"/>
+    <string name="test_pass">"Pumasa sa pagsubok"</string>
+    <add-resource type="string" name="scanning"/>
+    <string name="scanning">"Nagsa-scan..."</string>
+    <add-resource type="string" name="enabling"/>
+    <string name="enabling">"Ini-enable..."</string>
+    <add-resource type="string" name="disabling"/>
+    <string name="disabling">"Dini-disable..."</string>
+    <add-resource type="string" name="turning_on"/>
+    <string name="turning_on">"Ino-on..."</string>
+    <add-resource type="string" name="turning_off"/>
+    <string name="turning_off">"Ino-off..."</string>
+    <add-resource type="string" name="off"/>
+    <string name="off">"Naka-off"</string>
+    <add-resource type="string" name="shake_hint"/>
+    <string name="shake_hint">"Mangyaring takpan ng iyong kamay ang light sensor nang hindi bababa sa 2  beses."</string>
+    <add-resource type="string" name="remove_headset"/>
+    <string name="remove_headset">"Pakialis ang headset"</string>
+    <add-resource type="string" name="insert_headset"/>
+    <string name="insert_headset">"Pakisaksak ang headset"</string>
+    <add-resource type="string" name="stop"/>
+    <string name="stop">"Ihinto"</string>
+    <add-resource type="string" name="play"/>
+    <string name="play">"I-play"</string>
+    <add-resource type="string" name="record"/>
+    <string name="record">"I-record"</string>
+    <add-resource type="string" name="time_out"/>
+    <string name="time_out">"Time out!"</string>
+    <!-- ControlCenter -->
+    <add-resource type="string" name="clean_state"/>
+    <string name="clean_state">"Linisin ang Estado ng Pagsubok"</string>
+    <add-resource type="string" name="uninstall"/>
+    <string name="uninstall">"I-uninstall"</string>
+    <add-resource type="string" name="control_center_quit_confirm"/>
+    <string name="control_center_quit_confirm">"Gusto mo bang lumabas?"</string>
+    <!-- Led -->
+    <!-- <string name="led_name">TriColor Led</string> -->
+    <!-- <string name="led_text">Light test sequence: red, green, blue</string> -->
+    <add-resource type="string" name="led_name"/>
+    <string name="led_name">"LED"</string>
+    <add-resource type="string" name="led_tri_text"/>
+    <string name="led_tri_text">"Pagkakasunud-sunod sa pagsubok sa LED: pula, berde, asul"</string>
+    <add-resource type="string" name="led_dual_text"/>
+    <string name="led_dual_text">"Pagkakasunud-sunod sa pagsubok sa LED: pula, berde"</string>
+    <add-resource type="string" name="led_confirm"/>
+    <string name="led_confirm">"Tama ba ang kulay ng LED?"</string>
+    <!-- Flashlight -->
+    <add-resource type="string" name="flashlight_name"/>
+    <string name="flashlight_name">"Flashlight"</string>
+    <add-resource type="string" name="flashlight_confirm"/>
+    <string name="flashlight_confirm">"Naka-on ba ang Flashlight?"</string>
+    <!-- KeypadBacklight -->
+    <add-resource type="string" name="keypadbacklight_name"/>
+    <string name="keypadbacklight_name">"Backlight ng Keypad"</string>
+    <add-resource type="string" name="keypadbacklight_confirm"/>
+    <string name="keypadbacklight_confirm">"Naka-on ba ang Backlight ng Keypad?"</string>
+    <!-- SIM1 -->
+    <add-resource type="string" name="sim1_name"/>
+    <string name="sim1_name">SIM1</string>
+    <!-- SIM2 -->
+    <add-resource type="string" name="sim2_name"/>
+    <string name="sim2_name">SIM2</string>
+    <!-- TouchPanelEdge -->
+    <add-resource type="string" name="touchpanel_edge_name"/>
+    <string name="touchpanel_edge_name">"TouchPanel Edge"</string>
+    <!-- TouchPanelKey -->
+    <add-resource type="string" name="touchpanel_key_name"/>
+    <string name="touchpanel_key_name">"TouchPanel Key"</string>
+    <!-- Keypad -->
+    <add-resource type="string" name="keypad_name"/>
+    <string name="keypad_name">"Keypad"</string>
+    <add-resource type="string" name="keypad_text"/>
+    <string name="keypad_text">"Pakipindot ang mga sumusunod na key"</string>
+    <add-resource type="string" name="keypad_volume_up"/>
+    <string name="keypad_volume_up">"VOLUME_UP"</string>
+    <add-resource type="string" name="keypad_volume_down"/>
+    <string name="keypad_volume_down">"VOLUME_DOWN"</string>
+    <add-resource type="string" name="keypad_focus"/>
+    <string name="keypad_focus">"FOCUS"</string>
+    <add-resource type="string" name="keypad_camera"/>
+    <string name="keypad_camera">"CAMERA"</string>
+    <!-- CameraBack -->
+    <add-resource type="string" name="cameraback_name"/>
+    <string name="cameraback_name">"Camera sa Likod"</string>
+    <add-resource type="string" name="cameraback_takepicture"/>
+    <string name="cameraback_takepicture">"Kumuha ng larawan"</string>
+    <add-resource type="string" name="cameraback_fail_open"/>
+    <string name="cameraback_fail_open">"Hindi nabuksan ang Camera, pakisuri kung na-install nang  tama ang Camera!"</string>
+    <add-resource type="string" name="autofocus_fail"/>
+    <string name="autofocus_fail">"Nabigo ang AutoFocus"</string>
+    <!-- CameraFront -->
+    <add-resource type="string" name="camerafront_name"/>
+    <string name="camerafront_name">"CameraFront"</string>
+    <add-resource type="string" name="camerafront_takepicture"/>
+    <string name="camerafront_takepicture">"Kumuha ng larawan"</string>
+    <!-- LCM -->
+    <add-resource type="string" name="lcm_name"/>
+    <string name="lcm_name">"LCM"</string>
+    <add-resource type="string" name="lcm_confirm"/>
+    <string name="lcm_confirm">"Mangyaring pumili"</string>
+    <!-- Vibrator -->
+    <add-resource type="string" name="vibrate_name"/>
+    <string name="vibrate_name">"Vibrator"</string>
+    <add-resource type="string" name="vibrate_confirm"/>
+    <string name="vibrate_confirm">"Mangyaring pumili"</string>
+    <add-resource type="string" name="vibrate_hint"/>
+    <string name="vibrate_hint">"Nagba-vibrate..."</string>
+    <!-- PSensor -->
+    <add-resource type="string" name="psensor_name"/>
+    <string name="psensor_name">"Proximity Sensor"</string>
+    <add-resource type="string" name="psensor_title"/>
+    <string name="psensor_title">"Mangyaring sundin ang tagubilin, at dapat  isagawa ang bawat hakbang sa loob ng 7s"</string>
+    <add-resource type="string" name="psensor_to_cover"/>
+    <string name="psensor_to_cover">"Takpan ang PSensor nang higit sa 1s"</string>
+    <add-resource type="string" name="psensor_to_uncover"/>
+    <string name="psensor_to_uncover">"Alisin ang takip sa PSensor nang higit sa 1s"</string>
+    <add-resource type="string" name="psensor_uncovered"/>
+    <string name="psensor_uncovered">"Hindi natatakpan"</string>
+    <add-resource type="string" name="psensor_covered"/>
+    <string name="psensor_covered">"Tinatakpan"</string>
+    <add-resource type="string" name="psensor_verifying"/>
+    <string name="psensor_verifying">"Bine-verify..."</string>
+    <add-resource type="string" name="psensor_sensor_unstable_fail"/>
+    <string name="psensor_sensor_unstable_fail">"Pabago-bago ang PSensor!"</string>
+    <!-- GSensor -->
+    <add-resource type="string" name="gsensor_name"/>
+    <string name="gsensor_name">"Gravity Sensor"</string>
+    <!-- MSensor -->
+    <add-resource type="string" name="msensor_name"/>
+    <string name="msensor_name">"Magnetic Sensor"</string>
+    <!-- Gyroscope -->
+    <add-resource type="string" name="gyroscope_name"/>
+    <string name="gyroscope_name">"Gyroscope"</string>
+    <!-- LightSensor -->
+    <add-resource type="string" name="lightsensor_name"/>
+    <string name="lightsensor_name">"LightSensor"</string>
+    <!-- SDCard -->
+    <add-resource type="string" name="sdcard_name"/>
+    <string name="sdcard_name">"SD Card"</string>
+    <add-resource type="string" name="sdcard_wait"/>
+    <string name="sdcard_wait">"Pakihintay ang pagbabasa ng Sd card..."</string>
+    <add-resource type="string" name="sdcard_confirm"/>
+    <string name="sdcard_confirm">"Nagpasok na ng SD card?"</string>
+    <add-resource type="string" name="sdcard_to_remove"/>
+    <string name="sdcard_to_remove">"Pakialis ang SD card"</string>
+    <add-resource type="string" name="sdcard_to_insert"/>
+    <string name="sdcard_to_insert">"Mangyaring magpasok ng SD card"</string>
+    <!-- Bluetooth -->
+    <add-resource type="string" name="bluetooth_name"/>
+    <string name="bluetooth_name">"Bluetooth"</string>
+    <add-resource type="string" name="bluetooth_scan_start"/>
+    <string name="bluetooth_scan_start">"Nagsa-scan ng mga device..."</string>
+    <add-resource type="string" name="bluetooth_scan_finish"/>
+    <string name="bluetooth_scan_finish">"Tapusin ang pag-scan"</string>
+    <add-resource type="string" name="bluetooth_turning_on"/>
+    <string name="bluetooth_turning_on">"Ino-on ang bluetooth..."</string>
+    <add-resource type="string" name="bluetooth_scan_null"/>
+    <string name="bluetooth_scan_null">"Walang nakitang anumang device"</string>
+    <!-- WiFi -->
+    <add-resource type="string" name="wifi_name"/>
+    <string name="wifi_name">"WiFi"</string>
+    <add-resource type="string" name="wifi_text"/>
+    <string name="wifi_text">"        Makukumpleto ang pagsubok sa WiFi sa loob ng 30 segundo, mangyaring maghintay."<string name="wifi_scan_failed">"Hindi na-scan!"</string></string>
+    <add-resource type="string" name="wifi_is_closing"/>
+    <string name="wifi_is_closing">"Isinasara ang WiFi, pakisubukang muli pagkaraan ng ilang sandali."</string>
+    <add-resource type="string" name="wifi_scan_null"/>
+    <string name="wifi_scan_null">"Walang nakitang anumang AP!"</string>
+    <add-resource type="string" name="wifi_state_unknown"/>
+    <string name="wifi_state_unknown">"Hindi alam ang estado ng WiFi, pakisubukang muli."</string>
+    <!-- Handset -->
+    <add-resource type="string" name="handset_name"/>
+    <string name="handset_name">"Handset"</string>
+    <add-resource type="string" name="handset_hint"/>
+    <string name="handset_hint">"Sinusubukan ang handset audio loopback..."</string>
+    <add-resource type="string" name="handset_loopback"/>
+    <string name="handset_loopback">"Sinusubukan ang handset audio loopback..."</string>
+    <add-resource type="string" name="handset_playing"/>
+    <string name="handset_playing">"Muling pine-play ngayon, mangyaring makinig sa receiver."</string>
+    <add-resource type="string" name="handset_confirm"/>
+    <string name="handset_confirm">"Naririnig mo ba ang tunog?"</string>
+    <add-resource type="string" name="handset_record_first"/>
+    <string name="handset_record_first">"Paki-click muna ang button na I-record"</string>
+    <add-resource type="string" name="handset_replay_end"/>
+    <string name="handset_replay_end">"Narating na ang dulo."</string>
+    <add-resource type="string" name="handset_to_record"/>
+    <string name="handset_to_record">"I-click ang button na I-record upang mag-record ng tunog."</string>
+    <add-resource type="string" name="handset_recording"/>
+    <string name="handset_recording">"Nagre-record ngayon, mangyaring magbigkas ng ilang salita sa mic at  i-click ang button na Ihinto upang huminto."</string>
+    <!-- Headset -->
+    <add-resource type="string" name="headset_name"/>
+    <string name="headset_name">"Headset"</string>
+    <add-resource type="string" name="headset_hint"/>
+    <string name="headset_hint">"Headset"</string>
+    <add-resource type="string" name="headset_recording"/>
+    <string name="headset_recording">"Nagre-record ngayon, mangyaring magbigkas ng ilang salita sa mic at  i-click ang button na Ihinto upang huminto."</string>
+    <add-resource type="string" name="headset_playing"/>
+    <string name="headset_playing">"Muling pine-play ngayon, mangyaring makinig sa receiver."</string>
+    <add-resource type="string" name="headset_confirm"/>
+    <string name="headset_confirm">"Naririnig mo ba ang tunog?"</string>
+    <add-resource type="string" name="headset_record_first"/>
+    <string name="headset_record_first">"Paki-click muna ang button na I-record"</string>
+    <add-resource type="string" name="headset_replay_end"/>
+    <string name="headset_replay_end">"Narating na ang dulo."</string>
+    <add-resource type="string" name="headset_to_record"/>
+    <string name="headset_to_record">"I-click ang button na I-record upang mag-record ng tunog."</string>
+    <!-- Speaker -->
+    <add-resource type="string" name="speaker_name"/>
+    <string name="speaker_name">"Speaker"</string>
+    <add-resource type="string" name="speaker_hint"/>
+    <string name="speaker_hint">"Nakakarinig ka ba ng musikang nagpe-play?"</string>
+    <add-resource type="string" name="speaker_confirm"/>
+    <string name="speaker_confirm">"Naririnig mo ba ang tunog?"</string>
+    <add-resource type="string" name="speaker_playing"/>
+    <string name="speaker_playing">"Nagpe-play..."</string>
+    <add-resource type="string" name="speaker_play_first"/>
+    <string name="speaker_play_first">"Paki-click muna ang button na I-play"</string>
+    <add-resource type="string" name="speaker_to_play"/>
+    <string name="speaker_to_play">"I-click ang button na I-play upang i-play ang tunog."</string>
+    <add-resource type="string" name="speaker_recording"/>
+    <string name="speaker_recording">"Nire-record ka na ngayon, mangyaring magsalita"</string>
+    <!-- GPS -->
+    <add-resource type="string" name="gps_name"/>
+    <string name="gps_name">"GPS"</string>
+    <add-resource type="string" name="gps_enable_first"/>
+    <string name="gps_enable_first">"Mangyaring paganahin muna ang GPS"</string>
+    <!-- FM -->
+    <add-resource type="string" name="fm_name"/>
+    <string name="fm_name">"FmRadio"</string>
+    <add-resource type="string" name="fm_search"/>
+    <string name="fm_search">"Maghanap"</string>
+    <add-resource type="string" name="fm_confirm"/>
+    <string name="fm_confirm">"Naririnig mo ba ang tunog ?"</string>
+    <!-- Battery -->
+    <add-resource type="string" name="battery_name"/>
+    <string name="battery_name">"Baterya"</string>
+    <add-resource type="string" name="battery_voltage"/>
+    <string name="battery_voltage">"BatteryVoltage="</string>
+    <!-- FuelGaugeCalibration -->
+    <add-resource type="string" name="fuelgauge_name"/>
+    <string name="fuelgauge_name">"Calibration ng FuelGaulge"</string>
+    <add-resource type="string" name="fuelgauge_hint"/>
+    <string name="fuelgauge_hint">"Makukumpleto ang Pag-calibrate ng FuelGauge sa loob ng 30s,  mangyaring maghintay..."</string>
+    <add-resource type="string" name="fuelgauge_processing"/>
+    <string name="fuelgauge_processing">"Pinoproseso..."</string>
+    <!-- NFC -->
+    <add-resource type="string" name="nfc_name"/>
+    <string name="nfc_name">"NFC"</string>
+    <add-resource type="string" name="nfc_not_available"/>
+    <string name="nfc_not_available">"Hindi available ang NFC"</string>
+    <add-resource type="string" name="nfc_enable_first"/>
+    <string name="nfc_enable_first">"I-enable ang NFC..."</string>
+    <add-resource type="string" name="nfc_enable_fail"/>
+    <string name="nfc_enable_fail">"Hindi ma-enable ang NFC"</string></resources>

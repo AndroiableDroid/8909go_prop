@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"> -->
+<resources>
+    <!-- XDivert Settings -->
+    <!-- Title for the XDivert Feature displayed in Call Settings -->
+    <string name="xdivert_title">"X-Divert"</string>
+    <!-- Summary for the XDivert Feature displayed in Call Settings -->
+    <string name="xdivert_summary">"ໂອນສາຍເມື່ອຕິດຕໍ່ບໍ່ໄດ້"</string>
+    <string name="phone_numbers">"ປ້ອນເບີໂທລະສັບ"</string>
+    <string name="sub1LineNumber">"ໝາຍເລກ Sub1: "</string>
+    <string name="sub2LineNumber">"ໝາຍເລກ Sub2: "</string>
+    <string name="proceed">"ດໍາເນີນການຕໍ່"</string>
+    <string name="xdivert_button">"ການຕັ້ງຄ່າ X-Divert"</string>
+    <string name="xdivert_setting">"ການຕັ້ງຄ່າ X-Divert"</string>
+    <string name="sum_xdivert_enabled">"X-Divert ເປີດໃຊ້ງານແລ້ວ"</string>
+    <string name="sum_xdivert_disabled">"X-Divert ປິດໃຊ້ງານແລ້ວ"</string>
+    <string name="xdivert_not_supported">"X-Divert ບໍ່ຖືກຮອງຮັບສຳລັບ CDMA"</string>
+    <string name="xdivert_enternumber_error">"ປ້ອນເບີໂທລະສັບສຳລັບການສະໝັກໃຊ້ທັງສອງ"</string>
+    <string name="xdivert_partial_set">"XDivert ໄດ້ຖືກຕັ້ງຄ່າສະເພາະສຳລັບການສະໝັກໃຊ້ຄັ້ງທຳອິດ"</string>
+    <string name="xdivert_sub_absent">"ການສະໝັກໃຊ້ທັງຂອງຄວນຈະຖືກເປີດໃຊ້ງານເພື່ອປະມວນຜົນ X-Divert"</string>
+    <string name="xdivert_status">"ສະຖານະ X-Divert"</string>
+    <string name="xdivert_active">"ໃຊ້ງານລ້າສຸດ"</string>
+    <string name="xdivert_not_active">"ບໍ່ໄດ້ໃຊ້ງານ"</string>
+    <string name="xdivert_imsi_not_read">"ກຳລັງລິເລີ່ມໃຊ້ງານ Sim. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ."</string>
+   <string name="updating_title">"ການຕັ້ງຄ່າການໂທ"</string>
+   <!-- Toast in Call settings dialog while settings are being read -->
+   <string name="reading_settings">"ກຳລັງອ່ານການຕັ້ງຄ່າ\u2026"</string>
+    <!-- Toast in Call settings dialog while settings are being saved -->
+    <string name="updating_settings">"ການຕັ້ງຄ່າການອັບເດດ\u2026"</string>
+    <!-- Toast in Call settings dialog while settings are being reverted -->
+    <string name="reverting_settings">"ກຳລັງປ່ຽນຄືນການຕັ້ງຄ່າ\u2026"</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="response_error">"ມີການຕອບຮັບທີ່ບໍ່ຄາດໄວ້ຈາກເຄືອຂ່າຍ."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="exception_error">"ເຄືອຂ່າຍ ຫຼືແຜ່ນ SIM ຂັດຂ້ອງ."</string>
+    <!-- Status message displayed in the "Call settings error" dialog when operation fails due to FDN
+         [CHAR LIMIT=NONE] -->
+    <string name="fdn_check_failure">"ແອັບໂທລະສັບມີການຕັ້ງໝາຍເລກກຳນົດໄວ້ເປີດຢູ່. ສະນັ້ນ, ບາງຄຸນສົມບັດໃຊ້ງານກ່ຽວກັບການໂທ ຈະໃຊ້ບໍ່ໄດ້."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="radio_off_error">"ກະລຸນາເປີດວິທະຍຸກ່ອນເບິ່ງການຕັ້ງຄ່າເຫຼົ່ານີ້."</string>
+    <!-- Button label used to dismiss the "Call settings error" dialog -->
+    <string name="close_dialog">"ຕົກລົງ"</string>
+    <!-- Title of the alert dialog displayed if an error occurs while updating Call settings -->
+    <string name="error_updating_title">"ການຕັ້ງຄ່າໂທຜິດພາດ"</string>
+    <!-- Set Subscription screen: Message shown in error dialog -->
+    <string name="set_subscription_error_atleast_one">"ເລືອກຢ່າງໜ້ອຍໜຶ່ງການສະໝັກໃຊ້"</string>
+    <!-- Set Subscription screen: label sub 1 -->
+    <string name="sub_1">"SUB 1"</string>
+    <!-- Set Subscription screen: label sub 2 -->
+    <string name="sub_2">"SUB 2"</string>
+    <!-- Set Subscription screen: label sub 3 -->
+    <string name="sub_3">"SUB 3"</string></resources>

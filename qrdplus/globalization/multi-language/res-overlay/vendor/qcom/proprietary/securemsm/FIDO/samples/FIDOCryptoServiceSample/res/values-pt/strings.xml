@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Configurações"</string>
+    <string name="body_msg">"testando FidoCryptoService"</string>
+    <string name="load">"carregar"</string>
+    <string name="unload">"descarregar"</string>
+    <string name="process">"Processo"</string>
+    <string name="start">"iniciar"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"Vincular Serviço FIDO"</string>
+    <string name="unbindFido">"Desvincular Serviço FIDO"</string>
+    <string name="setChallenge">"Definir desafio"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Vincular autenticador"</string>
+    <string name="verifyUser">"VerifyUser/GetToken"</string>
+    <string name="GetInfo">"Obter Informações"</string>
+    <string name="Register">"Registrar"</string>
+    <string name="Deregister">"Cancelar regisro"</string>
+    <string name="OpenSettings">"Abrir configurações"</string>
+    <string name="Sign">"Fazer login"</string>
+    <string name="MalformedRequest">"MalformedRequest"</string>
+    <string name="selectAuth">"Selecionar autenticador"</string>
+    <string name="getEnrollmentStatus">"Obter status de inscrição"</string>
+    <string name="RegisterExt">"Registrar com Extensões"</string>
+    <string name="SignExt">"Fazer login com Extensões"</string>
+    <string name="encResult">"Resultado Encapsulado"</string>
+    <string name="extResult">"Dados da Extensão"</string>
+    <string name="selectFidoOpText">"selecionar operação FIDO"</string>
+    <string name="show_message_sui">"exibir mensagem do sui"</string>
+    <string name="fido_sui_service">"serviço fido Sui"</string>
+    <string name="bindFidoSui">"vincular fido sui"</string>
+    <string name="unbindFidoSui">"desvincular fido sui"</string>
+    <string name="suiResultTitle">"exibir o resultado da mensagem do sui"</string>
+    <string name="cancel_sui">"cancelar sui"</string>
+    <string name="extensionText">"Usar Extensões?"</string>
+    <string name="pngText">"Usar Conteúdo PNG?"</string>
+    <string name="fpText">"Impressão digital de Segurança"</string>
+    <string-array name="authenticator_array">
+        <item>"Autenticador Fictício"</item>
+        <item>"Autenticador de Amostra"</item>
+        <item>"Autenticador de Amostra de Segurança"</item>
+        <item>"Autenticador de Extensão de Amostra"</item>
+        <item>"Autenticador de Extensão de Segurança"</item>
+        <item>"Autenticação da Integridade do Dispositivo"</item>
+        <item>"Autenticador de Amostra de Segurança IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Obter Informações"</item>
+        <item>"Registrar"</item>
+        <item>"Cancelar regisro"</item>
+        <item>"Abrir Configurações"</item>
+        <item>"Extensão Malformada"</item>
+        <item>"Fazer login (Autenticação)"</item>
+        <item>"Fazer login (TX)"</item>
+    </string-array></resources>

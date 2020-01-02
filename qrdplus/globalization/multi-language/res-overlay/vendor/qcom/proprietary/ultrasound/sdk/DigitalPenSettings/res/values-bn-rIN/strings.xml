@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP সেটিংস"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Snapdragon ডিজিটাল পেন সেটিংস"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"অক্ষম"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"ডুপ্লিকেট"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"লেগ্যাসি অ্যাপ অফ-স্ক্রিন মোড:"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"ইন-রেঞ্জ দূরত্ব (mm):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"পাওয়ার মোড:"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"সঠিকতা অপ্টিমাইজ করুন"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"পাওয়ার অপ্টিমাইজ করুন"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"ইনপুট প্রকার:"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"মাউস সংবেদনশীলতা:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"ধীর"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"মাঝারি"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"দ্রুত"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"স্টাইলাস"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"ইঁদুর"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"জয়স্টিক"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"ডিজিটাল পেন বন্ধ"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"ডিজিটাল পেন চালু"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"স্মার্টার স্ট্যান্ড"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"অন-স্ক্রিন হোভার"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"অফ-স্ক্রিন হোভার"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"সর্বাধিক দূরত্ব:"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"হোভার আইকন প্রদর্শন করুন"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"ইরেজার বোতাম"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"বোতাম সূচি:"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"ইরেজারের আচরণ:"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"মুছতে ধরে থাকুন"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"টগল করতে ট্যাপ করুন"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"পোর্ট্রেটে অফ-স্ক্রিন অবস্থান:"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"বাঁদিক"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"ডানদিক"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"স্ক্রিন বন্ধ হলে পেন স্থগিত করুন"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"বুট হলে পেন শুরু করুন"</string></resources>

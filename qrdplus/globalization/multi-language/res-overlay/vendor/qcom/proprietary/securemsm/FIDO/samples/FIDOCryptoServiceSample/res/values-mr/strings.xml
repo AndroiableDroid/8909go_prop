@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"सेटिंग्ज"</string>
+    <string name="body_msg">"testing FidoCryptoService"</string>
+    <string name="load">"लोड करा"</string>
+    <string name="unload">"अनलोड करा"</string>
+    <string name="process">"प्रक्रिया"</string>
+    <string name="start">"सुरू करा"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"बाइंड FIDO सेवा"</string>
+    <string name="unbindFido">"FIDO सेवा अनबाइंड करा"</string>
+    <string name="setChallenge">"आव्हान सेट करा"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"बाइंड प्रमाणकर्ता"</string>
+    <string name="verifyUser">"प्रयोक्‍ता सत्यापित करा / टोकन प्राप्त करा"</string>
+    <string name="GetInfo">"माहिती मिळवा"</string>
+    <string name="Register">"नोंदणी करा"</string>
+    <string name="Deregister">"अनोंदणीकरण"</string>
+    <string name="OpenSettings">"सेटिंग्‍स उघडा"</string>
+    <string name="Sign">"साइन करा"</string>
+    <string name="MalformedRequest">"दूषित विनंती"</string>
+    <string name="selectAuth">"प्रमाणकर्ता निवडा"</string>
+    <string name="getEnrollmentStatus">"प्रवेश स्थिती प्राप्त करा"</string>
+    <string name="RegisterExt">"विस्तारासह नोंदणी करा"</string>
+    <string name="SignExt">"विस्तारासह साइन करा"</string>
+    <string name="encResult">"संलग्न निकाल"</string>
+    <string name="extResult">"विस्तार डेटा"</string>
+    <string name="selectFidoOpText">"FIDO ऑपरेशन निवडा"</string>
+    <string name="show_message_sui">"sui संदेश दाखवा"</string>
+    <string name="fido_sui_service">"fido Sui सेवा"</string>
+    <string name="bindFidoSui">"fido sui बाइंड करा"</string>
+    <string name="unbindFidoSui">"fido sui अनबाइंड करा"</string>
+    <string name="suiResultTitle">"sui संदेश निकाल दाखवा"</string>
+    <string name="cancel_sui">"sui रद्द करा"</string>
+    <string name="extensionText">"विस्तार वापरायचे?"</string>
+    <string name="pngText">"PNG सामग्री वापरायची?"</string>
+    <string name="fpText">"सुरक्षित फिंगरप्रिंट"</string>
+    <string-array name="authenticator_array">
+        <item>"बनावट प्रमाणकर्ता"</item>
+        <item>"नमुना प्रमाणकर्ता"</item>
+        <item>"सुरक्षित नमुना प्रमाणकर्ता"</item>
+        <item>"नमुना विस्तार प्रमाणकर्ता"</item>
+        <item>"सुरक्षित विस्तार प्रमाणकर्ता"</item>
+        <item>"उपकरणाची स्थिती Auth"</item>
+        <item>"सुरक्षित नमुना प्रमाणकर्ता IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"माहिती प्राप्त करा"</item>
+        <item>"नोंदणी करा"</item>
+        <item>"अनोंदणीकरण"</item>
+        <item>"सेटिंग्स उघडा"</item>
+        <item>"दूषित अपवाद"</item>
+        <item>"साइन करा (Auth)"</item>
+        <item>"साइन करा (TX)"</item>
+    </string-array></resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"تنظیمات SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"تنظیمات قلم دیجیتالی Snapdragon"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"غیرفعال شد"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"تکراری"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"حالت برنامه قدیمی «صفحه خاموش»"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"فاصله در محدوده (میلی متر):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"حالت قدرت:"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"بهینه سازی دقت"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"بهینه سازی قدرت"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"نوع ورودی:"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"حساسیت موشواره:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"آهسته"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"متوسط"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"سریع"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"قلم"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"موش"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"دسته بازی"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"قلم دیجیتالی خاموش"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"قلم دیجیتالی روشن"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"پایه هوشمندتر"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"شناوری روی صفحه روشن"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"شناوری روی صفحه خاموش"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"حداکثر فاصله:"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"نمایش نماد شناوری"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"دکمه پاک کن"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"راهنمای دکمه:"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"رفتار پاک کن:"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"برای پاک کردن نگه دارید"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"برای تغییر وضعیت ضربه بزنید"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"مکان «صفحه خاموش» در حالت چهره:"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"سمت چپ"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"سمت راست"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"توقف صفحه خاموش هنگام فعال بودن قلم"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"شروع راه اندازی قلم روشن"</string></resources>

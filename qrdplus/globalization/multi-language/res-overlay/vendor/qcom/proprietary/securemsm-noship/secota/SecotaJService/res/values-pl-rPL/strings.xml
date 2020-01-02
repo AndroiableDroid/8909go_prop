@@ -1,0 +1,113 @@
+<resources>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+    <string name="app_name">"SeempJService"</string>
+    <string-array name="cause_description_array">
+<item>"6:3:Szpiegowanie danych wejściowych / interakcji użytkownika, gdy aplikacja nie jest widoczna dla użytkownika lub gdy działa w tle."</item>
+    <item>"7:5:Podejrzane użycie identyfikatora UID systemu Android "</item>
+    <item>"8:5:Podejrzane użycie identyfikatora UID systemu Android, gdy aplikacja działa w tle"</item>
+    <item>"9:5:Podejrzany dostęp do poufnych informacji urządzenia"</item>
+    <item>"10:5:Podejrzany dostęp do poufnych informacji urządzenia, gdy aplikacja działa w tle"</item>
+    <item>"11:4:Podejrzany dostęp do numeru telefonu"</item>
+    <item>"12:4:Dostęp do numeru telefonu bez interakcji użytkownika"</item>
+    <item>"13:2:Aplikacja próbuje wykonać nieautoryzowane połączenie telefoniczne"</item>
+    <item>"14:2:Aplikacja próbuje wykonać nieautoryzowane połączenie telefoniczne, gdy działa w tle"</item>
+    <item>"15:4:Nietypowy dostęp do poufnych informacji o koncie użytkownika"</item>
+    <item>"16:4:Nietypowy dostęp do poufnych informacji o koncie użytkownika bez interakcji użytkownika"</item>
+    <item>"17:4:Aplikacja uzyskuje dostęp do poufnych danych o koncie użytkownika bez informowania użytkownika"</item>
+    <item>"18:4:Aplikacja uzyskuje dostęp do poufnych danych o koncie użytkownika bez informowania użytkownika, gdy działa w tle"</item>
+    <item>"19:3:Podejrzany dostęp do poufnych informacji wyszukiwarki"</item>
+    <item>"20:3:Podejrzany dostęp do poufnych informacji wyszukiwarki, gdy aplikacja działa w tle"</item>
+    <item>"21:3:Dostęp do poufnych informacji wyszukiwarki (mogą obejmować poufne informacje użytkownika) bez interakcji użytkownika"</item>
+    <item>"22:3:Dostęp do poufnych informacji wyszukiwarki (mogą zawierać poufne informacje użytkownika) bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"23:6:Nietypowa instalacja skrótów, potencjalnie w zbyt dużej liczbie"</item>
+    <item>"24:6:Aplikacja próbuje zainstalować skrót, gdy działa w tle"</item>
+    <item>"25:6:Aplikacja próbuje zainstalować skrót bez interakcji użytkownika"</item>
+    <item>"26:6:Aplikacja próbuje instalować skrót bez interakcji użytkownika, gdy działa w tle"</item>
+    <item>"27:4:Dostęp do poufnych informacji kalendarza"</item>
+    <item>"28:4:Podejrzany dostęp do poufnych informacji kalendarza, gdy aplikacja działa w tle"</item>
+    <item>"29:1:Wprowadzanie informacji/wydarzeń do kalendarza bez interakcji użytkownika"</item>
+    <item>"30:1:Wprowadzanie informacji/wydarzeń do kalendarza bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"31:5:Nietypowy/nadmierny dostęp do informacji o lokalizacji"</item>
+    <item>"32:5:Nietypowy/nadmierny dostęp do informacji o lokalizacji, gdy aplikacja działa w tle"</item>
+    <item>"37:3:Podejrzane użycie aparatu (może obejmować wykonywanie zdjęć i filmów)"</item>
+    <item>"38:3:Podejrzane użycie aparatu (może obejmować wykonywanie zdjęć i filmów), gdy aplikacja działa w tle"</item>
+    <item>"39:3:Wykonywanie zdjęć (może obejmować także nagrywanie filmów) i wysyłanie ich na zdalny serwer"</item>
+    <item>"40:3:Wykonywanie zdjęć (może obejmować także nagrywanie filmów) i wysyłanie ich na zdalny serwer, gdy aplikacja działa w tle"</item>
+    <item>"41:3:Wykonywanie zdjęć (może obejmować także nagrywanie filmów) bez interakcji użytkownika"</item>
+    <item>"42:3:Wykonywanie zdjęć (może obejmować także nagrywanie filmów) bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"43:3:Wykonywanie zdjęć (może obejmować także nagrywanie filmów) i wysyłanie ich na zdalny serwer bez interakcji użytkownika"</item>
+    <item>"44:3:Wykonywanie zdjęć (może obejmować także nagrywanie filmów) i wysyłanie ich na zdalny serwer bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"45:3:Podejrzane użycie kamery (może obejmować wykonywanie zdjęć i filmów)"</item>
+    <item>"46:3:Podejrzane użycie kamery (może obejmować wykonywanie zdjęć i filmów), gdy aplikacja działa w tle"</item>
+    <item>"47:3:Nagrywanie filmów i wysyłanie ich na zdalny serwer"</item>
+    <item>"48:3:Nagrywanie filmów i wysyłanie ich na zdalny serwer, gdy aplikacja działa w tle"</item>
+    <item>"49:3:Nagrywanie filmów bez interakcji użytkownika"</item>
+    <item>"50:3:Nagrywanie filmów bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"51:3:Nagrywanie filmów i wysyłanie ich na zdalny serwer bez interakcji użytkownika"</item>
+    <item>"52:3:Nagrywanie filmów i wysyłanie ich na zdalny serwer bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"53:3:Podejrzane nagrywanie danych dźwiękowych"</item>
+    <item>"54:3:Podejrzane nagrywanie danych dźwiękowych, gdy aplikacja działa w tle"</item>
+    <item>"55:3:Podejrzane nagrywanie danych dźwiękowych i wysyłanie ich na zdalny serwer"</item>
+    <item>"56:3:Nagrywanie danych dźwiękowych i wysyłanie ich na zdalny serwer, gdy aplikacja działa w tle"</item>
+    <item>"57:3:Podejrzane nagrywanie danych dźwiękowych bez interakcji użytkownika"</item>
+    <item>"58:3:Nagrywanie danych dźwiękowych bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"59:3:Podejrzane nagrywanie i przesyłanie danych dźwiękowych bez interakcji użytkownika"</item>
+    <item>"60:3:Podejrzane nagrywanie i przesyłanie danych dźwiękowych bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"61:2:Podejrzane działania SMS: Próba wysłania wiadomości SMS (na potencjalnie drogie, płatne numery)"</item>
+    <item>"62:2:Aplikacja próbuje wysłać wiadomość SMS, gdy działa w tle (na potencjalnie drogie, płatne numery)"</item>
+    <item>"63:2:Podejrzane działania SMS: Aplikacja wysyła wiadomość SMS (na potencjalnie drogie, płatne numery) bez interakcji użytkownika"</item>
+    <item>"64:2:Aplikacja wysyła wiadomość SMS (na potencjalnie drogie, płatne numery) bez interakcji użytkownika, gdy działa w tle"</item>
+    <item>"65:3:Podejrzany dostęp do wiadomości SMS (w tym otwieranie i odczyt)"</item>
+    <item>"66:3:Dostęp do wiadomości SMS i ich odczyt, gdy aplikacja działa w tle"</item>
+    <item>"67:3:Dostęp do wiadomości SMS i ich odczyt bez interakcji użytkownika"</item>
+    <item>"68:3:Dostęp do wiadomości SMS i ich odczyt bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"69:3:Nadmierny/nietypowy dostęp do informacji czujnika"</item>
+    <item>"70:3:Nadmierny/nietypowy dostęp do informacji czujnika, gdy aplikacja działa w tle"</item>
+    <item>"71:3:Podejrzane przechwytywanie wiadomości MMS"</item>
+    <item>"72:3:Podejrzane przechwytywanie wiadomości MMS, gdy aplikacja działa w tle"</item>
+    <item>"73:3:Podejrzane przechwytywanie wiadomości MMS bez interakcji użytkownika"</item>
+    <item>"74:3:Podejrzane przechwytywanie wiadomości MMS bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"75:4:Nietypowy dostęp do informacji o jednym lub większej liczbie kontaktów"</item>
+    <item>"76:4:Nietypowy dostęp do informacji o jednym lub większej liczbie kontaktów, gdy aplikacja działa w tle"</item>
+    <item>"77:4:Dostęp do jednej lub większej liczbie list kontaktów bez interakcji użytkownika"</item>
+    <item>"78:4:Dostęp do jednej lub większej liczbie list kontaktów bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"79:1:Podejrzana instalacja aplikacji innych firm"</item>
+    <item>"80:1:Podejrzana instalacja aplikacji innych firm, gdy aplikacja działa w tle"</item>
+    <item>"81:1:Podejrzana instalacja aplikacji innych firm bez interakcji użytkownika"</item>
+    <item>"82:1:Podejrzana instalacja aplikacji innych firm bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"83:5:Nadmierne/nietypowe przekazywanie identyfikatora UID systemu Android"</item>
+    <item>"84:5:Nadmierne/nietypowe przekazywanie identyfikatora UID systemu Android, gdy aplikacja działa w tle"</item>
+    <item>"85:5:Dostęp do poufnych danych urządzenia i ich przekazywanie (może obejmować nr IMEI, numer seryjny SIM oraz inne informacje związane z operatorem)"</item>
+    <item>"86:5:Dostęp i przekazywanie poufnych danych urządzenia (może obejmować nr IMEI, numer seryjny SIM oraz inne informacje związane z operatorem), gdy aplikacja działa w tle"</item>
+    <item>"87:4:Dostęp do numeru telefonu użytkownika i jego przekazywanie na zdalny serwer"</item>
+    <item>"88:4:Dostęp do numeru telefonu użytkownika i jego przekazywanie na zdalny serwer, gdy aplikacja działa w tle"</item>
+    <item>"89:4:Nietypowe przekazywanie poufnych danych o koncie użytkownika / danych uwierzytelniających (może obejmować dane karty kredytowej i inne dane finansowe)"</item>
+    <item>"90:4:Nietypowe przekazywanie poufnych danych o koncie użytkownika / danych uwierzytelniających (może obejmować dane karty kredytowej i inne dane finansowe), gdy aplikacja działa w tle"</item>
+    <item>"91:3:Dostęp do poufnych danych wyszukiwarki i ich przekazywanie (może obejmować poufne informacje użytkownika)"</item>
+    <item>"92:3:Dostęp do poufnych danych wyszukiwarki i ich przekazywanie (może obejmować poufne informacje użytkownika), gdy aplikacja działa w tle"</item>
+    <item>"93:3:Dostęp do poufnych danych wyszukiwarki i ich przekazywanie (może obejmować poufne informacje użytkownika)"</item>
+    <item>"94:3:Dostęp do poufnych danych wyszukiwarki i ich przekazywanie (może obejmować poufne informacje użytkownika), gdy aplikacja działa w tle"</item>
+    <item>"95:4:Przekazywanie danych kalendarza na zdalny serwer (może obejmować poufne dane użytkownika)"</item>
+    <item>"96:4:Przekazywanie danych kalendarza na zdalny serwer (może obejmować poufne dane użytkownika), gdy aplikacja działa w tle"</item>
+    <item>"97:5:Nietypowy/nadmierny dostęp do informacji o lokalizacji i ich przekazywanie"</item>
+    <item>"98:5:Nietypowy/nadmierny dostęp do informacji o lokalizacji i ich przekazywanie, gdy aplikacja działa w tle"</item>
+    <item>"99:5:Nietypowy/nadmierny dostęp do informacji o lokalizacji i ich przekazywanie"</item>
+    <item>"100:5:Nietypowy/nadmierny dostęp do informacji o lokalizacji i ich przekazywanie, gdy aplikacja działa w tle"</item>
+    <item>"101:3:Nadmierny/nietypowy dostęp do informacji czujnika"</item>
+    <item>"102:3:Nadmierny/nietypowy dostęp do informacji czujnika, gdy aplikacja działa w tle"</item>
+    <item>"103:4:Dostęp do jednej lub większej liczby list kontaktów i przesyłanie ich na zdalny serwer"</item>
+    <item>"104:4:Dostęp do jednej lub większej liczby list kontaktów i przesyłanie ich na zdalny serwer, gdy aplikacja działa w tle"</item>
+    <item>"105:4:Dostęp do jednej lub większej liczby list kontaktów i przesyłanie ich na zdalny serwer bez interakcji użytkownika"</item>
+    <item>"106:4:Dostęp do jednej lub większej liczby list kontaktów i przesyłanie ich na zdalny serwer bez interakcji użytkownika, gdy aplikacja działa w tle"</item>
+    <item>"109:3:Nadmierny/nietypowy dostęp do informacji czujnika"</item>
+    <item>"110:3:Nadmierny/nietypowy dostęp do informacji czujnika, gdy aplikacja działa w tle"</item>
+    <item>"121:5:Podejrzany dostęp do ustawień związanych z ID urządzenia"</item>
+    <item>"122:5:Podejrzany dostęp do ustawień związanych z ID urządzenia, gdy aplikacja działa w tle"</item>
+    <item>"162:3:Podejrzana zmiana ustawień trybu samolotowego, gdy aplikacja działa w tle"</item>
+    <item>"164:3:Podejrzana zmiana ustawień alarmu, gdy aplikacja działa w tle"</item>
+    <item>"202:3:Podejrzana zmiana stanu sieci Wi-Fi, gdy aplikacja działa w tle"</item>
+    </string-array></resources>

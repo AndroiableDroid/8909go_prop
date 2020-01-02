@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Social Camera"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"Під час перевірки або запиту дозволів сталася помилка. Щоб отримати докладніші відомості, перегляньте журнал."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Надіслати (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"Втрачено з’єднання з камерою"</string>
+    <string name="camera_preview_error_camera_error">"Помилка з камери: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Не вдалося зробити знімок"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Під час збереження зображення в галереї сталася помилка"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Налаштування"</string>
+    <string name="camera_settings_category_camera_settings">"Налаштування камери"</string>
+    <string name="camera_settings_category_fr_settings">"Налаштування розпізнавання облич"</string>
+    <string name="camera_settings_category_debug_settings">"Налаштування налагодження"</string>
+    <string name="camera_settings_fr_database_cleared">"Базу даних розпізнавання облич очищено"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Закрити"</string>
+    <string name="picture_review_send_faces">"Надіслати (%d)"</string>
+    <string name="picture_review_no_faces">"На цій фотографії нікого не знайдено"</string>
+    <string name="picture_review_error_face_recognition">"Під час розпізнавання облич сталася помилка"</string>
+    <string name="picture_review_error_face_enroll">"На жаль, під час збереження цього обличчя сталася помилка. Зробіть інший знімок об’єкта та спробуйте знову."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Інший контакт\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Надіслати параметри"</string>
+    <string name="fr_share_settings_button_just_once">"Один раз"</string>
+    <string name="fr_share_settings_button_always">"Завжди"</string>
+    <string name="fr_share_settings_share_method_sms">"Повідомлення"</string>
+    <string name="fr_share_settings_share_method_email">"Електронна пошта"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Подивіться!"</string>
+    <string name="social_sharing_error_no_email_app">"У вас немає програми, що може надсилати електронну пошту"</string></resources>

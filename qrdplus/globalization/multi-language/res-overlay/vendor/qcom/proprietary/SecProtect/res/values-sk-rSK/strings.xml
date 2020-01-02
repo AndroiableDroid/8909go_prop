@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SecProtect"</string>
+    <string name="settings">"Nastavenia"</string>
+    <string name="advanced">"Rozšírené"</string>
+    <string name="failed">"Zlyhanie"</string>
+    <string name="help">"Pomocník"</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Zrušiť"</string>
+    <string name="login">"Prihlásenie"</string>
+    <!-- File protection -->
+    <string name="file_protection">"Zabezpečenie súboru"</string>
+    <!-- EncrypteData -->
+    <string name="encryptdata">"Šifrovať súbor"</string>
+    <string name="encryptdata_title">"Šifrovať súbor"</string>
+    <string name="encryptdata_summary">"Šifrovanie a dešifrovanie súboru"</string>
+    <string name="file_explorer_title">"Vyberte súbor na šifrovanie/dešifrovanie"</string>
+    <string name="encrypt">"Šifrovať"</string>
+    <string name="encrypting">"Šifrovanie"</string>
+    <string name="encrypt_summary">"Šifrovať súbor"</string>
+    <string name="encrypt_hint">"Vyberte súbor na šifrovanie"</string>
+    <string name="decrypt">"Dešifrovanie"</string>
+    <string name="decrypting">"Prebieha dešifrovanie"</string>
+    <string name="decrypt_summary">"Dešifrujte zašifrovaný súbor"</string>
+    <string name="decrypt_hint">"Zvoľte zašifrovaný súbor na dešifrovanie"</string>
+    <string name="grant">"Udeliť"</string>
+    <string name="deny">"Odmietnuť"</string>
+    <string name="prompt">"Výzva"</string>
+    <!-- AuthAccess -->
+    <string name="remember_choice">"Zapamätať si túto voľbu"</string>
+    <string name="authaccess">"Autorizovaný prístup"</string>
+    <string name="access_protected_data">"Skúste otvoriť zabezpečený súbor"</string>
+    <string name="authaccess_summary">"Súbor presuňte do zabezpečenej oblasti. Na prístup k zabezpečeným súborom bude potrebná autorizácia"</string>
+    <string name="authaccess_title">"Autorizovaný prístup"</string>
+    <string name="protect">"Chrániť"</string>
+    <string name="deprotect">"Zrušiť ochranu"</string>
+    <string name="app_config">"Konfigurácia aplikácie"</string>
+    <string name="password">"Heslo"</string>
+    <string name="create_password">"Vytvoriť heslo"</string>
+    <string name="confirm_password">"Potvrdiť heslo"</string>
+    <string name="change_password">"Zmeniť heslo"</string>
+    <string name="empty_password_hint">"Zadajte heslo"</string>
+    <string name="empty_confirm_password_hint">"Potvrďte heslo"</string>
+    <string name="inconsistent_password_hint">"Heslá sa nezhodujú"</string>
+    <string name="input_restriction">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_</string>
+    <string name="create_password_hint">"Pred šifrovaním/dešifrovaním najprv nastavte heslo.\nToto heslo budete musieť zadať neskôr pri dešifrovaní alebo šifrovaní súboru."</string>
+    <string name="password_error">"Chyba hesla"</string>
+    <string name="password_wrong">"Nesprávne heslo"</string>
+    <string name="need_password_toast">"Najprv nastavte heslo"</string>
+    <string name="no_record">"Žiadny záznam"</string></resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"โปรแกรม Oma Drm"</string>
+    <string name="activity_name_image_viewer">"โปรแกรมดูภาพ DRM"</string>
+    <string name="permission_label_access_drm_data">"การอนุญาตการเข้าถึงปลั๊กอิน OMA DRM"</string>
+    <string name="permission_desc_access_drm_data">"ให้อนุญาตการเข้าถึงข้อมูลใบอนุญาตของปลั๊กอิน OMA DRM"</string>
+    <string name="license_expired">"ใบอนุญาตหมดอายุ"</string>
+    <string name="license_expired_message">"ไม่สามารถเปิดไฟล์ DRM ได้"</string>
+    <string name="buy_license">"ซื้อใบอนุญาต"</string>
+    <string name="menu_set_as_wallpaper">"ตั้งค่าวอลเปเปอร์"</string>
+    <string name="menu_details">"รายละเอียด"</string>
+    <string name="drm_details_title">"รายละเอียด Drm"</string>
+    <string name="dialog_close">"ปิด"</string>
+    <string name="drm_rights_message">"บันทึกสิทธิ์ OMA DRM สำเร็จแล้ว"</string>
+    <string name="drm_text_count">"จำนวนคงเหลือ : "</string>
+    <string name="drm_text_date_start">"จาก : "</string>
+    <string name="drm_text_date_end">"ถึง : "</string>
+    <string name="drm_text_fwd_lk">"ไม่จำกัด "</string>
+    <string name="drm_text_license">"ใบอนุญาต Drm : "</string>
+    <string name="drm_text_play">"เล่น"</string>
+    <string name="drm_text_display">"แสดง"</string>
+    <string name="drm_text_title">"ชื่อ : "</string>
+    <string name="drm_text_location">"ตำแหน่งที่ตั้ง : "</string>
+    <string name="drm_text_mime_type">"ประเภท Mime : "</string>
+    <string name="error_unable_to_view">"ไม่พบรูปภาพ"</string></resources>

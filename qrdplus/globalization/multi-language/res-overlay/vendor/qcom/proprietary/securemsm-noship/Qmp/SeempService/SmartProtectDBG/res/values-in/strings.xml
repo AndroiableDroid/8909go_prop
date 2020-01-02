@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtectDBG"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"Informasi Aplikasi"</string>
+    <string name="title_trusted">"Aplikasi Tepercaya"</string>
+    <string name="title_about">"Tentang"</string>
+    <string name="title_settings">"Setelan"</string>
+    <string name="drawer_open_title">"Snapdragon Smart Protect"</string>
+<string name="service_status_on">"Aktif"</string>
+    <string name="service_status_off">"Nonaktif"</string>
+    <string name="err_title">"Kesalahan Aplikasi"</string>
+    <string name="err_msg_init">"Snapdragon Smart Protect tidak dapat memulai pustaka QSSP. Menghentikan layanan"</string>
+    <string name="err_msg_load_model">"Snapdragon Smart Protect tidak dapat memuat model. Menghentikan layanan"</string>
+    <string name="err_msg_malicious_alert">"Snapdragon Smart Protect tidak dapat mendaftarkan peringatan berbahaya. Menghentikan layanan"</string>
+    <string name="err_msg_benign_alert">"Snapdragon Smart Protect tidak dapat mendaftarkan peringatan tidak berbahaya. Menghentikan layanan"</string>
+    <string name="err_msg_service_not_up">"Snapdragon Smart Protect tidak lagi dapat menemukan layanan."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"Hak cipta dilindungi undang-undang."</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ Smart Protect  merupakan produk dari Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Qualcomm dan Snapdragon merupakan merek dagang dari Qualcomm Incorporated, terdaftar di Amerika Serikat dan negara lain, digunakan dengan izin."</string>
+    <string name="btn_restore_default">"PULIHKAN SETELAN DEFAULT"</string>
+    <string name="btn_clear_history">"HAPUS RIWAYAT SMART PROTECT"</string>
+    <string name="trusted_btn">"TAMBAHKAN KE DAFTAR APLIKASI TEPERCAYA"</string>
+    <string name="uninstall_btn">"COPOT PEMASANGAN"</string>
+    <string name="details_btn">"DETAIL"</string>
+    <string name="done_btn">"SELESAI"</string>
+    <string name="remove_trusted_btn">"HAPUS DARI DAFTAR APLIKASI TEPERCAYA"</string>
+    <string name="uninstall_confirm_message">"Apakah Anda ingin mencopot pemasangan apl ini?"</string>
+    <string name="uninstall_success">"Pemasangan paket berhasil dicopot"</string>
+    <string name="uninstall_failed">"Pemasangan paket gagal dicopot"</string>
+    <string name="clear_history_done">"Riwayat berhasil dihapus"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon Smart Protect"</string>
+    <string name="drawer_threats">"Ancaman Terdeteksi (%1$s)"</string>
+    <string name="drawer_threat_null">"Real-time, perlindungan kebijakan pada perangkat dan deteksi malware"</string>
+    <string name="drawer_option_dashboard">"Dasbor"</string>
+    <string name="drawer_option_trusted_apps">"Aplikasi Tepercaya"</string>
+    <string name="drawer_option_settings">"Setelan"</string>
+    <string name="drawer_option_about">"Tentang"</string>
+    <string name="dashboard_list_title">"Pilih aplikasi untuk melihat detail Snapdragon Smart Protect dan rekomendasi."</string>
+    <string name="dashboard_list_empty">"Tidak ada aplikasi yang dipantau."</string>
+    <string name="app_info_recommend">"Rekomendasi:"</string>
+    <string name="app_info_version">"versi"</string>
+    <string name="app_uninstalled">"Aplikasi sudah tidak berada pada perangkat. Tekan OK untuk keluar."</string>
+    <string name="malicious_item_threat">"Snapdragon Smart Protect mendeteksi:"</string>
+    <string name="malicious_item_confidence">"Tingkat kepercayaan:"</string>
+    <string name="malicious_item_analysis">"Analisis"</string>
+    <string name="malicious_recommend">"Copot pemasangan"</string>
+    <string name="good_threat">"Tidak ada ancaman terdeteksi."</string>
+    <string name="good_recommend">"Pilih Selesai, agar Snapdragon Smart Protect terus memantau aplikasi ini."</string>
+    <string name="good_title">"Baik"</string>
+    <string name="trusted_item_title">"Snapdragon Smart Protect tidak memantau aktivitas %1$s, karena berada di daftar Aplikasi Tepercaya Anda.\n\nJika Anda tidak yakin tentang keamanan aplikasi ini, hapus dari daftar Aplikasi Tepercaya."</string>
+    <string name="trusted_list_title">"Snapdragon Smart Protect tidak memantau aplikasi pada daftar ini."</string>
+    <string name="trusted_list_subtitle">"Jika Anda tidak yakin dengan keamanan aplikasi ini, hapus dari daftar Aplikasi Tepercaya."</string>
+    <string name="trusted_list_empty">"Tidak ada aplikasi di daftar aplikasi tepercaya Anda."</string>
+    <string name="trusted_list_empty_desc">"Aplikasi ini memberikan Anda perlindungan maksimum, karena Snapdragon Smart Protect memantau semua aplikasi Anda."</string>
+    <string name="trusted_confirm_message">"Anda ingin menambahkan aplikasi ini ke daftar Aplikasi Tepercaya Anda?\n\nJika Anda tidak yakin tentang keamanan aplikasi ini, pilih Batal."</string>
+    <string name="malicious_ntf_message">"Snapdragon Smart Protect mendeteksi aktivitas berbahaya di %1$s."</string>
+    <string name="malicious_ntf_recommend">"Rekomendasi: Copot pemasangan"</string>
+    <string name="malicious_dialog_title">"Malicious"</string>
+    <string name="malicious_text">"Berbahaya"</string>
+    <string name="malware_ntf_message">"Snapdragon Smart Protect mendeteksi malware di %1$s."</string>
+    <string name="malware_dialog_title">"Malware terdeteksi"</string>
+    <string name="malware_title">"Malware"</string>
+    <string name="spyware_ntf_message">"Snapdragon Smart Protect mendeteksi spyware di %1$s."</string>
+    <string name="spyware_dialog_title">"Spyware terdeteksi"</string>
+    <string name="spyware_title">"Spyware"</string>
+    <string name="adware_ntf_message">"Snapdragon Smart Protect mendeteksi adware di %1$s."</string>
+    <string name="adware_dialog_title">"Adware terdeteksi"</string>
+    <string name="adware_title">"Adware"</string>
+<string name="err_no_app_dashborad">"Daftar aplikasi dashboard kosong"</string>
+    <string name="analysis_title">"%1$s sepertinya berbahaya untuk alasan berikut:"</string>
+    <string name="service_label">"Layanan Sphinx"</string>
+    <string name="unknown_code">" Kode - %1$d"</string>
+    <string name="default_code_detail">"Aplikasi mencoba melakukan aktivitas berbahaya."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"Mungkin melakukan aktivitas berbahaya pada perangkat Anda."</item>
+        <item>"Level 1 Malware: Melakukan aktivitas berbahaya pada konten, aplikasi dan perangkat pengguna."</item>
+        <item>"Level 2 Malware: Melakukan aktivitas yang dapat menyebabkan adanya biaya bagi pengguna."</item>
+        <item>"Level 3 Spyware: Membocorkan/Mencuri konten dan mengintai pengguna secara aktif."</item>
+        <item>"Level 4 Spyware: Membocorkan/Mencuri informasi meta user."</item>
+        <item>"Level 5 Spyware: Membocorkan/Mencuri informasi sensitif perangkat."</item>
+        <item>"Annoyware Tingkat 6: Peranti iklan agresif dan/atau aplikasi pengganggu."</item>
+    </string-array>
+    <string name="setting_level1_title">"Level 1 Malware"</string>
+    <string name="setting_level2_title">"Level 2 Malware"</string>
+    <string name="setting_level3_title">"Level 3 Spyware"</string>
+    <string name="setting_level4_title">"Level 4 Spyware"</string>
+    <string name="setting_level5_title">"Level 5 Spyware"</string>
+    <string name="setting_level6_title">"Level 6 Adware"</string>
+    <string name="setting_mode_title">"Mode"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"Peringatan Sembul &amp; Standar"</item>
+        <item>"Peringatan standar"</item>
+        <item>"Tidak ada peringatan"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"Mode Normal"</item>
+        <item>"Mode Senyap"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<string name="monitor_feature_title">"Memantau Fitur"</string>
+    <string name="err_msg_no_rfm">"Snapdragon Smart Protect tidak dapat menemukan file rfm pada perangkat"</string>
+    <string name="err_msg_monitor">"Snapdragon Smart Protect tidak dapat memantau fitur"</string>
+    <string name="title_debug">"Debug"</string>
+    <string name="drawer_option_debug">"Debug"</string>
+    <string name="set_rfm_file">"Pilih file RFM"</string>
+    <string name="debug_rfm_model">"File RFM"</string>
+    <string name="debug_mnf_apply">"Memantau Fitur"</string></resources>

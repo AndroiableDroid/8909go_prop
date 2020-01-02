@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/**
+ * Copyright (C) 2014 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- General provisioning strings used for both device owner and work profile provisioning -->
+  <!-- Title of the provisioning error dialog. [CHAR LIMIT=45] -->
+  <string name="provisioning_error_title">"Ups!"</string>
+  <!-- Work profile provisioning flow UI. -->
+  <!-- User consent -->
+  <!-- Title of all work profile setup screens. [CHAR LIMIT=NONE] -->
+  <string name="setup_work_profile">"Siapkan profil Anda"</string>
+  <!-- The text that asks for user consent to create a work profile [CHAR LIMIT=NONE] -->
+  <string name="company_controls_workspace">"Organisasi Anda mengontrol profil ini dan membuatnya tetap aman. Anda mengontrol hal-hal lain di perangkat."</string>
+  <!-- The text that asks for user consent to set up a work device [CHAR LIMIT=NONE] -->
+  <string name="company_controls_device">"Organisasi akan mengontrol perangkat ini dan menjaga keamanannya."</string>
+  <!-- String shown above the icon of the app that will control the work profile after it is set up. [CHAR LIMIT=NONE]-->
+  <string name="the_following_is_your_mdm">"Aplikasi berikut perlu mengakses profil ini:"</string>
+  <!-- String shown above the icon of the app that will control the work device after it is set up. [CHAR LIMIT=NONE]-->
+  <string name="the_following_is_your_mdm_for_device">"Aplikasi berikut akan mengelola perangkat Anda:"</string>
+  <!-- String for positive button on user consent dialog for creating a profile [CHAR LIMIT=NONE] -->
+  <string name="set_up">"Siapkan"</string>
+  <!-- Progress text shown when setting up work profile [CHAR LIMIT=NONE] -->
+  <string name="setting_up_workspace">"Menyiapkan profil kerja..."</string>
+  <!-- Text in a pop-up that asks the user to confirm that they allow the mobile device management app to take control of the profile they are creating. [CHAR LIMIT=NONE]-->
+  <string name="admin_has_ability_to_monitor_profile">"Administrator memiliki kemampuan untuk memantau dan mengelola setelan, akses perusahaan, aplikasi, izin, dan data yang terkait dengan profil ini, termasuk aktivitas jaringan dan informasi lokasi perangkat Anda."</string>
+  <!-- Text in a pop-up that asks the user to confirm that they allow the mobile device management app to take control of the device. [CHAR LIMIT=NONE]-->
+  <string name="admin_has_ability_to_monitor_device">"Administrator memiliki kemampuan untuk memantau dan mengelola setelan, akses perusahaan, aplikasi, izin, dan data yang terkait dengan perangkat ini, termasuk aktivitas jaringan dan informasi lokasi perangkat Anda."</string>
+  <!-- Text in a pop-up that asks the user to confirm that theft protection will be disabled. [CHAR LIMIT=NONE]-->
+  <string name="theft_protection_disabled_warning">"Jika Anda melanjutkan, fitur perlindungan dari pencurian tidak akan diaktifkan. Untuk mengaktifkan perlindungan dari pencurian, batalkan sekarang dan siapkan sebagai perangkat pribadi."</string>
+  <!-- String telling the user how to get more information about their work profile-->
+  <string name="contact_your_admin_for_more_info">"Hubungi administrator untuk informasi selengkapnya, termasuk kebijakan privasi organisasi Anda."</string>
+  <!-- Text on the link that will forward the user to a website with more information about work profiles [CHAR LIMIT=30]-->
+  <string name="learn_more_link">"Pelajari lebih lanjut"</string>
+  <!-- Text on negative button in a popup shown to the user to confirm that they want to start setting up a work profile [CHAR LIMIT=15]-->
+  <string name="cancel_setup">"BATAL"</string>
+  <!-- Text on positive button in a popup shown to the user to confirm that they want to start setting up a work profile [CHAR LIMIT=15]-->
+  <string name="ok_setup">"OKE"</string>
+  <!-- Default profile name used for the creation of work profiles. [CHAR LIMIT=NONE] -->
+  <string name="default_managed_profile_name">"Profil kerja"</string>
+  <!-- Title on the dialog that prompts the user to confirm that they really want to delete their existing work profile-->
+  <string name="delete_profile_title">"Buang profil kerja?"</string>
+  <!-- Opening string on the dialog that prompts the user to confirm that they really want to delete
+       their existing work profile. The administration app icon and name appear after the final
+       colon. [CHAR LIMIT=NONE] -->
+  <string name="opening_paragraph_delete_profile_unknown_company">"Profil kerja sudah ada dan dikelola oleh:"</string>
+    <!-- Opening string on the dialog that prompts the user to confirm that they really want to delete
+         their existing work profile. The administration app icon and name appear after the final
+         colon, the %s is replaced by the domain name of the organization that owns the work
+         profile. [CHAR LIMIT=NONE] -->
+  <string name="opening_paragraph_delete_profile_known_company">"Profil kerja ini dikelola untuk %s menggunakan:"</string>
+  <!-- String on the dialog that links through to more information about the profile management application. -->
+  <string name="read_more_delete_profile">"Sebelum melanjutkan, "<a href="#read_this_link">"baca ini"</a>"."</string>
+  <!-- String on the dialog that prompts the user to confirm that they really want to delete their existing work profile-->
+  <string name="sure_you_want_to_delete_profile">"Semua aplikasi dan data dalam profil ini akan dihapus jika Anda melanjutkan."</string>
+  <!-- String on the button that triggers the deletion of a work profile.-->
+  <string name="delete_profile">"HAPUS"</string>
+  <!-- String on the button that cancels out of the deletion of a work profile.-->
+  <string name="cancel_delete_profile">"BATAL"</string>
+  <!-- String shown on prompt for user to encrypt and reboot the device, in case of profile setup [CHAR LIMIT=NONE]-->
+  <string name="encrypt_device_text_for_profile_owner_setup">"Untuk melanjutkan penyiapan profil kerja, Anda perlu mengenkripsi perangkat. Tindakan ini mungkin sedikit memakan waktu."</string>
+  <!-- String shown on prompt for user to encrypt and reboot the device, in case of device setup [CHAR LIMIT=NONE]-->
+  <string name="encrypt_device_text_for_device_owner_setup">"Untuk melanjutkan penyiapan perangkat, Anda perlu mengenkripsi perangkat. Tindakan ini mungkin sedikit memakan waktu."</string>
+  <!-- String shown on button for user to cancel setup when asked to encrypt device. [CHAR LIMIT=20]-->
+  <string name="encrypt_device_cancel">"BATAL"</string>
+  <!-- String shown on button for user to continue to settings to encrypt the device. [CHAR LIMIT=20]-->
+  <string name="encrypt_device_launch_settings">"ENKRIPSIKAN"</string>
+  <!-- Title for reminder notification to resume provisioning after encryption [CHAR LIMIT=30] -->
+  <string name="continue_provisioning_notify_title">"Enkripsi selesai"</string>
+  <!-- Body for reminder notification to resume provisioning after encryption [CHAR LIMIT=NONE] -->
+  <string name="continue_provisioning_notify_text">"Sentuh untuk melanjutkan penyiapan profil kerja"</string>
+  <!-- Explains the failure and what to do to next. [CHAR LIMIT=NONE] -->
+  <string name="managed_provisioning_error_text">"Tidak dapat menyiapkan profil kerja Anda. Hubungi departemen TI atau coba lagi nanti."</string>
+  <!-- Error string displayed if this device doesn't support work profiles. -->
+  <string name="managed_provisioning_not_supported">"Perangkat Anda tidak mendukung profil kerja"</string>
+  <!-- Error string displayed if the user that initiated the provisioning is not the user owner. -->
+  <string name="user_is_not_owner">"Profil kerja harus disiapkan oleh pengguna utama perangkat"</string>
+  <!-- Error string displayed if provisioning was initiated on a device with a Device Owner -->
+  <string name="device_owner_exists">"Profil kerja tidak dapat disiapkan di perangkat yang dikelola"</string>
+  <!-- Error string displayed if maximum user limit is reached -->
+  <string name="maximum_user_limit_reached">"Profil kerja tidak dapat dibuat karena jumlah maksimum pengguna di perangkat telah tercapai. Hapus setidaknya satu pengguna dan coba lagi."</string>
+  <!-- Error string displayed if the selected launcher doesn't support work profiles. -->
+  <string name="managed_provisioning_not_supported_by_launcher">"Profil kerja Anda tidak didukung oleh peluncur aplikasi ini. Anda perlu beralih ke peluncur yang kompatibel."</string>
+  <!-- Button text for the button that cancels provisioning  -->
+  <string name="cancel_provisioning">"BATAL"</string>
+  <!-- Button text for the button that opens the launcher picker  -->
+  <string name="pick_launcher">"Oke"</string>
+  <!-- Device owner provisioning flow UI. -->
+  <!-- Default username for the user of the owned device. [CHAR LIMIT=45] -->
+  <string name="default_owned_device_username">"Pengguna perangkat kerja"</string>
+  <!-- Title of the work device setup screen. [CHAR LIMIT=NONE] -->
+  <string name="setup_work_device">"Siapkan perangkat Anda"</string>
+  <!-- Progress text indicating that the setup data is processed. [CHAR LIMIT=45] -->
+  <string name="progress_data_process">"Memproses data penyiapan..."</string>
+  <!-- Progress text indicating that wifi is set up. [CHAR LIMIT=45] -->
+  <string name="progress_connect_to_wifi">"Menyambungkan ke Wi-Fi..."</string>
+  <!-- Progress text indicating that the device admin package is being downloaded. [CHAR LIMIT=45] -->
+  <string name="progress_download">"Mengunduh aplikasi admin..."</string>
+  <!-- Progress text indicating that the device admin package is being installed. [CHAR LIMIT=45] -->
+  <string name="progress_install">"Memasang aplikasi admin..."</string>
+  <!-- Progress text indicating that the device admin package is set as ownder. [CHAR LIMIT=45] -->
+  <string name="progress_set_owner">"Menyetel pemilik perangkat..."</string>
+  <!-- Message of the cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_cancel_message">"Berhenti menyiapkan dan hapus data perangkat?"</string>
+  <!-- Cancel button text of the cancel dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_cancel_cancel">"BATAL"</string>
+  <!-- OK button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_error_ok">"OKE"</string>
+  <!-- Reset button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_error_reset">"SETEL ULANG"</string>
+  <!-- Message of the error dialog in case of an unspecified error. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_general">"Tidak dapat menyiapkan perangkat. Hubungi departemen TI Anda."</string>
+  <!-- Message of the error dialog when already provisioned. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_already_provisioned">"Perangkat ini sudah disiapkan."</string>
+  <!-- Message of the error dialog when a secondary user has already been provisioned. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_already_provisioned_user">"Perangkat ini sudah disiapkan untuk pengguna ini."</string>
+  <!-- Message of the error dialog when setting up wifi failed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_wifi">"Tidak dapat tersambung ke Wi-Fi"</string>
+  <!-- Message of the error dialog when passing factory reset protection fails. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_frp">"Perangkat ini dikunci oleh perlindungan pengembalian ke setelan pabrik. Hubungi departemen TI Anda."</string>
+  <!-- Message informing the user that the factory reset protection partition is being erased [CHAR LIMIT=30] -->
+  <string name="frp_clear_progress_title">"Menghapus"</string>
+  <!-- Progress screen text shown while erasing the factory reset protection partition [CHAR LIMIT=75] -->
+  <string name="frp_clear_progress_text">"Harap tunggu..."</string>
+  <!-- Message of the error dialog when data integrity check fails. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_hash_mismatch">"Tidak dapat menggunakan aplikasi admin karena kesalahan checksum. Hubungi departemen TI Anda."</string>
+  <!-- Message of the error dialog when device owner apk could not be downloaded. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_download_failed">"Tidak dapat mengunduh aplikasi admin"</string>
+  <!-- Message of the error dialog when package to install is invalid. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_invalid">"Tidak dapat menggunakan aplikasi admin. Komponen hilang atau rusak. Hubungi departemen TI Anda."</string>
+  <!-- Message of the error dialog when the name of the admin package to be installed is invalid. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_name_invalid">"Tidak dapat memasang aplikasi admin. Nama paket tidak valid. Hubungi departemen TI Anda."</string>
+  <!-- Message of the error dialog when package could not be installed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_installation_failed">"Tidak dapat memasang aplikasi admin"</string>
+  <!-- Message of the error dialog when device admin package is not installed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_not_installed">"Aplikasi admin belum terpasang di perangkat Anda"</string>
+  <!-- Message of the cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="profile_owner_cancel_message">"Berhenti menyiapkan?"</string>
+  <!-- Cancel button text of the cancel dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancel_cancel">"TIDAK"</string>
+  <!-- OK button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancel_ok">"YA"</string>
+  <!-- Message of the cancel progress dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancelling">"Membatalkan\u2026"</string>
+  <!-- Title of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_later_title">"Hentikan penyiapan profil?"</string>
+  <!-- Message of the work profile setup cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="work_profile_setup_later_message">"Anda dapat menyiapkan profil kerja nanti dari aplikasi pengelolaan perangkat yang digunakan oleh organisasi."</string>
+  <!-- Cancel button text of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_continue">"LANJUTKAN"</string>
+  <!-- OK button text of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_stop">"HENTIKAN"</string>
+  <!-- CertService -->
+  <!-- Title of a status bar notification for a service which installs CA certificates to secondary users. [CHAR LIMIT=45] -->
+  <string name="provisioning">"Penyediaan"</string>
+  <!-- Content of a status bar notification for a service which installs CA certificates to secondary users. [CHAR LIMIT=45] -->
+  <string name="copying_certs">"Menyiapkan Sertifikat CA"</string>
+  <!-- Accessibility Descriptions -->
+  <!-- Accessibility description for the profile setup screen showing organization info. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_start_setup">"Menyiapkan profil. Mulai penyiapan"</string>
+  <!-- Accessibility description for the profile setup screen showing encryption info. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_encryption">"Menyiapkan profil. Enkripsi"</string>
+  <!-- Accessibility description for the profile setup screen showing progress. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_progress">"Menyiapkan profil. Menampilkan kemajuan"</string>
+  <!-- Accessibility description for the device setup screen showing company info. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_start_setup">"Menyiapkan perangkat. Mulai penyiapan"</string>
+  <!-- Accessibility description for the device setup screen showing encryption info. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_encryption">"Menyiapkan perangkat. Enkripsi"</string>
+  <!-- Accessibility description for the device setup screen showing progress. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_progress">"Menyiapkan perangkat. Menampilkan kemajuan"</string>
+  <!-- Accessibility description for the learn more link in user consent dialog. [CHAR LIMIT=NONE] -->
+  <string name="learn_more_label">"Tombol pelajari lebih lanjut"</string>
+  <!-- Accessibility description for the company icon. [CHAR LIMIT=NONE] -->
+  <string name="mdm_icon_label">"Ikon <xliff:g id="ICON_LABEL">%1$s</xliff:g>"</string></resources>

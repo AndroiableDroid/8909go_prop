@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP सेटिंग्स"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Snapdragon डिजिटल पेन सेटिंग्स"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"अक्षम केले"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"डुप्लिकेट"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"लेगसी अनुप्रयोग ऑफ-स्क्रीन मोड:"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"परिक्षेत्रामध्ये अंतर (mm):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"पॉवर मोड:"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"अचूकता ऑप्टिमाइझ करा"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"पॉवर ऑप्टिमाइझ करा"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"इनपुट प्रकार:"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"माउस संवेदनशीलता:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"संथ"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"मध्‍यम"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"वेग"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"स्टायलस"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"उंदीर"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"जॉयस्टिक"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"DigitalPen बंद"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"DigitalPen चालू"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"स्मार्टर स्टँड"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"ऑन-स्क्रीन होवर"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"ऑफ-स्क्रीन होवर"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"कमाल अंतर:"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"होवर आयकॉन दर्शवा"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"इरेजर बटण"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"बटण इंडेक्स:"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"इरेजर वर्तन:"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"मिटवण्यासाठी होल्ड करा"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"टॉगल करण्यासाठी टॅप करा"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"पोर्ट्रेटमध्ये ऑफ-स्क्रीन स्थान:"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"डावी बाजू"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"उजवी बाजू"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"स्क्रीन बंद असताना पेन थांबवा"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"बूट झाल्यावर पेन सुरू करा"</string></resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">RadioConfigTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">"设置"</string>
+    <string name="intro_text">"请参阅下面的项目列表，获取项目 ID 信息！在下面的文本字段中输入项目 ID 和项目值，并用逗号分隔。不允许有多余空格！只能输入整数！！目前 GET 已弃用。"</string>
+    <string name="item_ids">"项目 ID："</string>
+    <string name="item_values">"项目值"</string>
+    <string name="set">"设置"</string>
+    <string name="refresh">"刷新"</string>
+    <string name="get">"获取"</string>
+    <string name="items_info">"项目信息："</string></resources>

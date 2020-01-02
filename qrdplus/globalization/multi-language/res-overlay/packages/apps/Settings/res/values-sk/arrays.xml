@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Choices for timezone picker first level.
+         These values will be used as search terms for TimeZone displayName
+         strings. -->
+    <!-- The time zone picker screen has two levels.  The first level allows the user to choose a region. -->
+    <string-array name="timezone_filters">
+    <!-- The next level of the time zoner picker should show time zones from the Americas. -->
+        <item>"Amerika"</item>
+    <!-- The next level of the time zoner picker should show time zones from Europe. -->
+        <item>"Európa"</item>
+    <!-- The next level of the time zoner picker should show time zones from Africa. -->
+        <item>"Afrika"</item>
+    <!-- The next level of the time zoner picker should show time zones from Asia. -->
+        <item>"Ázia"</item>
+    <!-- The next level of the time zoner picker should show time zones from Australia. -->
+        <item>"Austrália"</item>
+    <!-- The next level of the time zoner picker should show time zones from Pacific. -->
+        <item>"Tichomorie"</item>
+    <!-- The next level of the time zoner picker should show time zones from ALL regions. -->
+        <item>"Všetko"</item>
+    </string-array>
+    <!-- Display settings.  The delay in inactivity before the screen is turned off. These are shown in a list dialog. -->
+    <string-array name="screen_timeout_entries">
+        <item>"15 sekúnd"</item>
+        <item>"30 sekúnd"</item>
+        <item>"1 minúta"</item>
+        <item>"2 minúty"</item>
+        <item>"5 minút"</item>
+        <item>"10 minút"</item>
+        <item>"30 minút"</item>
+    </string-array>
+    <!-- Display settings.  The delay in inactivity before the dream is shown. These are shown in a list dialog. -->
+    <string-array name="dream_timeout_entries">
+        <item>"Nikdy"</item>
+        <item>"15 sekúnd"</item>
+        <item>"30 sekúnd"</item>
+        <item>"1 minúta"</item>
+        <item>"2 minúty"</item>
+        <item>"5 minút"</item>
+        <item>"10 minút"</item>
+        <item>"30 minút"</item>
+    </string-array>
+    <!-- Security settings.  The delay after screen is turned off until device locks.
+         These are shown in a list dialog. -->
+    <string-array name="lock_after_timeout_entries">
+        <item>"Okamžite"</item>
+        <item>"5 sekúnd"</item>
+        <item>"15 sekúnd"</item>
+        <item>"30 sekúnd"</item>
+        <item>"1 minúta"</item>
+        <item>"2 minúty"</item>
+        <item>"5 minút"</item>
+        <item>"10 minút"</item>
+        <item>"30 minút"</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item msgid="6490061470416867723">"Malé"</item>
+        <item msgid="3579015730662088893">"Normálne"</item>
+        <item msgid="1678068858001018666">"Veľké"</item>
+        <item msgid="490158884605093126">"Veľmi veľké"</item>
+    </string-array>
+    <!-- TTS settings -->
+    <!-- Default speech rate choices -->
+    <string-array name="tts_rate_entries">
+        <item>"Veľmi pomalá"</item>
+        <item>"Pomalá"</item>
+        <item>"Normálna"</item>
+        <item>"Rýchla"</item>
+        <item>"Rýchlejšia"</item>
+        <item>"Veľmi rýchla"</item>
+        <item>"Svižná"</item>
+        <item>"Veľmi svižná"</item>
+        <item>"Najrýchlejšia"</item>
+    </string-array>
+    <!-- Do not translate. -->
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
+    <!-- Default pitch choices -->
+    <string-array name="tts_pitch_entries">
+        <item>"Veľmi nízka"</item>
+        <item>"Nízka"</item>
+        <item>"Normálna"</item>
+        <item>"Vysoká"</item>
+        <item>"Veľmi vysoká"</item>
+    </string-array>
+    <!-- Do not translate. -->
+    <string-array name="tts_pitch_values">
+        <item>50</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+    </string-array>
+    <!-- Wi-Fi settings -->
+    <!-- Match this with the order of NetworkInfo.DetailedState. -->
+    <!-- Wi-Fi settings. The status messages when the network is unknown. -->
+    <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>"Prebieha vyhľadávanie..."</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
+        <item>"Prebieha pripájanie\u2026"</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
+        <item>"Prebieha overovanie\u2026"</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
+        <item>"Získava sa adresa IP\u2026"</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
+        <item>"Pripojené"</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>"Pozastavená"</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
+        <item>"Prebieha odpájanie..."</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>"Odpojený"</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>"Neúspešné"</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>"Blokované"</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>"Dočasne bolo zabránené slabému pripojeniu"</item>
+    </string-array>
+    <!-- Match this with the order of NetworkInfo.DetailedState. -->
+    <!-- Wi-Fi settings. The status messages when the network is known. -->
+    <string-array name="wifi_status_with_ssid">
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>"Prebieha vyhľadávanie..."</item>
+        <!-- Status message of Wi-Fi when it is connecting to a network. -->
+        <item>"Prebieha pripájanie k sieti <xliff:g id="NETWORK_NAME">%1$s</xliff:g>..."</item>
+        <!-- Status message of Wi-Fi when it is authenticating with a network. -->
+        <item>"Prebieha overovanie v sieti <xliff:g id="NETWORK_NAME">%1$s</xliff:g>..."</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address from a network. -->
+        <item>"Získava sa adresa IP zo siete <xliff:g id="NETWORK_NAME">%1$s</xliff:g>..."</item>
+        <!-- Status message of Wi-Fi when it is connected to a network. -->
+        <item>"Pripojené k sieti <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>"Pozastavená"</item>
+        <!-- Status message of Wi-Fi when it is disconnecting from a network. -->
+        <item>"Prebieha odpájanie od siete <xliff:g id="NETWORK_NAME">%1$s</xliff:g>..."</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>"Odpojený"</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>"Neúspešné"</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>"Blokované"</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>"Dočasne bolo zabránené slabému pripojeniu"</item>
+    </string-array>
+    <!-- Match this with the constants in AccessPoint. -->
+    <!-- Wi-Fi security choices used when manually added a Wi-Fi network -->
+    <string-array name="wifi_security">
+        <!-- The Wi-Fi network does not have any security. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wep</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_generic</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_eap</item>
+    </string-array>
+    <!-- Match this with the constants in AccessPoint. -->
+    <!-- Wi-Fi security types for New User Dialog. EAP is not configurable. -->
+    <string-array name="wifi_security_no_eap">
+        <!-- The Wi-Fi network does not have any security. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wep</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_generic</item>
+    </string-array>
+   <!-- Wi-Fi AP settings.  The type of security a Wi-Fi AP supports. -->
+   <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_ap_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wpa2</item>
+    </string-array>
+    <!-- Match this with the constants in WifiDialog. -->
+    <!-- Wi-Fi settings.  The type of EAP method a Wi-Fi network has. -->
+    <string-array name="wifi_eap_method">
+        <!-- Do not translate. -->
+        <item>PEAP</item>
+        <!-- Do not translate. -->
+        <item>TLS</item>
+        <!-- Do not translate. -->
+        <item>TTLS</item>
+        <!-- Do not translate. -->
+        <item>PWD</item>
+        <!-- Do not translate. -->
+        <item>SIM</item>
+        <!-- Do not translate. -->
+        <item>AKA</item>
+        <!-- Do not translate. -->
+        <item>AKA\'</item>
+    </string-array>
+    <!-- Match this with the constants in WifiDialog by carrier function. -->
+    <!-- Wi-Fi settings.  The type of EAP method a Wi-Fi network has. -->
+    <string-array name="wifi_eap_method_carrier_function">
+        <!-- Do not translate. -->
+        <item>PEAP</item>
+        <!-- Do not translate. -->
+        <item>SIM</item>
+    </string-array>
+    <!-- Type of EAP method when EAP SIM, AKA, AKA' are not supported -->
+    <string-array name="eap_method_without_sim_auth">
+        <!-- Do not translate. -->
+        <item>PEAP</item>
+        <!-- Do not translate. -->
+        <item>TLS</item>
+        <!-- Do not translate. -->
+        <item>TTLS</item>
+        <!-- Do not translate. -->
+        <item>PWD</item>
+    </string-array>
+   <!-- Wi-Fi AP band settings.  Either 2.4GHz or 5GHz. -->
+   <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_ap_band_config_full">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_band_config_2G_only">
+        <item>@string/wifi_ap_choose_2G</item>
+    </string-array>
+   <!-- Wi-Fi WPS setup for p2p connections.  -->
+   <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_p2p_wps_setup">
+        <!-- Push button based configuration involves pushing a button on two connecting devices [CHAR LIMIT=30]-->
+        <item>"Stlačenie tlačidla"</item>
+        <!-- This involves entering a pin obtained from a peer device [CHAR LIMIT=30] -->
+        <item>"PIN zo zdieľaného zariadenia"</item>
+        <!-- This involves generating a pin from this device [CHAR LIMIT=20] -->
+        <item>"PIN zo zariadenia"</item>
+    </string-array>
+    <!-- Match this with the order of WifiP2pDevice.Status -->
+    <!-- Wi-Fi p2p settings device status message -->
+    <string-array name="wifi_p2p_status">
+        <item>"Pripojené"</item>
+        <item>"Pozvané"</item>
+        <item>"Neúspešné"</item>
+        <item>"K dispozícii"</item>
+        <item>"Mimo dosah"</item>
+   </string-array>
+    <!-- Bluetooth Settings -->
+    <!-- Discoverable mode timeout options -->
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>"2 min."</item>
+        <item>"5 min."</item>
+        <item>"1 hod."</item>
+        <item>"Bez časového limitu"</item>
+    </string-array>
+    <!-- Match this with drawable.wifi_signal. -->
+    <!-- Wi-Fi settings. The signal strength a Wi-Fi network has. -->
+    <string-array name="wifi_signal">
+        <item>"Nízka"</item>
+        <item>"Dostatočná"</item>
+        <item>"Dobrá"</item>
+        <item>"Výborná"</item>
+    </string-array>
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi sleep policy. -->
+    <string-array name="wifi_sleep_policy_entries">
+        <!-- Always keep Wi-Fi on when screen turns off. -->
+        <item>"Vždy"</item>
+        <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->
+        <item>"Iba počas napájania"</item>
+        <!-- Do not keep Wi-Fi on when screen turns off.  [CHAR LIMIT=40] -->
+        <item>"Nikdy"</item>
+    </string-array>
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi sleep policy. Used when
+         the device is Wi-Fi-only. [CHAR LIMIT=30] -->
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <!-- Always keep Wi-Fi on when screen turns off. -->
+        <item>"Vždy"</item>
+        <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->
+        <item>"Iba počas napájania"</item>
+        <!-- Do not keep Wi-Fi on when screen turns off, for Wi-Fi-only devices, no other data connection -->
+        <item>"Nikdy"</item>
+    </string-array>
+    <!-- Match with wifi_sleep_policy_entries and the values of the settings in Settings class. -->
+    <!-- Do not translate. -->
+    <string-array name="wifi_sleep_policy_values">
+        <!-- Do not translate. -->
+        <item>2</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>0</item>
+    </string-array>
+    <!-- Data Usage settings. Range of data usage. -->
+    <string-array name="data_usage_data_range">
+        <!-- Last 30 days [CHAR LIMIT=25]-->
+        <item>"Posledných 30 dní"</item>
+        <!-- Set usage cycle [CHAR LIMIT=25]-->
+        <item>"Nastaviť cyklus využitia"</item>
+    </string-array>
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi frequency band. -->
+    <string-array name="wifi_frequency_band_entries">
+        <!-- Operation on both 2.4 GHz and 5 GHz [CHAR LIMIT=25]-->
+        <item>"Automaticky"</item>
+        <!-- Operation on 5 GHz alone [CHAR LIMIT=25]-->
+        <item>"Iba 5 GHz"</item>
+        <!-- Operation on 2.4 GHz alone [CHAR LIMIT=25]-->
+        <item>"Iba 2,4 GHz"</item>
+    </string-array>
+    <!-- Match with wifi_frequency_band_entries and the values of the settings in WifiManager. -->
+    <!-- Do not translate. -->
+    <string-array name="wifi_frequency_band_values">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>2</item>
+    </string-array>
+    <!-- Display options for UsageStats class -->
+    <string-array name="usage_stats_display_order_types">
+        <item>"Doba použitia"</item>
+        <item>"Naposledy použité"</item>
+        <item>"Názov aplikácie"</item>
+    </string-array>
+    <!-- EAP method -->
+    <string-array name="wifi_eap_entries">
+        <item>"PEAP"</item>
+        <item>"TLS"</item>
+        <item>"TTLS"</item>
+        <item>"PWD"</item>
+    </string-array>
+    <!-- Phase 2 options for PEAP -->
+    <string-array name="wifi_peap_phase2_entries">
+        <item>"Žiadne"</item>
+        <item>"MSCHAPV2"</item>
+        <item>"GTC"</item>
+    </string-array>
+    <!-- Phase 2 options for rest of EAP methods -->
+    <string-array name="wifi_phase2_entries">
+        <item>"Žiadne"</item>
+        <item>"PAP"</item>
+        <item>"MSCHAP"</item>
+        <item>"MSCHAPV2"</item>
+        <item>"GTC"</item>
+    </string-array>
+    <!-- Wi-Fi IP settings. -->
+   <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_ip_settings">
+        <!-- Use DHCP (Dynamic Host Configuration Protocol) for obtaining IP settings [CHAR LIMIT=25] -->
+        <item>"DHCP"</item>
+        <!-- Use statically defined IP settings [CHAR LIMIT=25]-->
+        <item>"Statická"</item>
+    </string-array>
+    <!-- Wi-Fi proxy settings. -->
+    <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_proxy_settings">
+        <!-- No HTTP proxy is used for the current wifi network [CHAR LIMIT=25] -->
+        <item>"Žiadne"</item>
+        <!-- Manual HTTP proxy settings are used for the current wifi network [CHAR LIMIT=25] -->
+        <item>"Ručne"</item>
+        <!-- Proxy Auto-Config URL that is used for the current wifi network [CHAR LIMIT=25] -->
+        <item>"Auto. konfig. serv. proxy"</item>
+    </string-array>
+    <!-- Authentication Types used in APN editor -->
+    <string-array name="apn_auth_entries">
+        <item>"Žiadne"</item>
+        <item>"PAP"</item>
+        <item>"CHAP"</item>
+        <item>"PAP alebo CHAP"</item>
+    </string-array>
+    <!-- Authentication Types used in APN editor -->
+    <string-array name="apn_protocol_entries">
+        <item>"IPv4"</item>
+        <item>"IPv6"</item>
+        <item>"IPv4/IPv6"</item>
+    </string-array>
+    <!-- Bearer Info used in APN editor -->
+    <string-array name="bearer_entries">
+        <item>"Neurčené"</item>
+        <item>"LTE"</item>
+        <item>"HSPAP"</item>
+        <item>"HSPA"</item>
+        <item>"HSUPA"</item>
+        <item>"HSDPA"</item>
+        <item>UMTS</item>
+        <item>"EDGE"</item>
+        <item>"GPRS"</item>
+        <item>eHRPD</item>
+        <item>"EVDO_B"</item>
+        <item>"EVDO_A"</item>
+        <item>"EVDO_0"</item>
+        <item>1xRTT</item>
+        <item>"IS95B"</item>
+        <item>"IS95A"</item>
+    </string-array>
+    <!-- MVNO Info used in APN editor -->
+    <string-array name="mvno_type_entries">
+        <item>"Žiadne"</item>
+        <!-- Do not translate. -->
+        <item>SPN</item>
+        <!-- Do not translate. -->
+        <item>IMSI</item>
+        <!-- Do not translate. -->
+        <item>GID</item>
+        <!-- Do not translate. -->
+        <item>ICCID</item>
+    </string-array>
+    <!-- Apps on SD installation location options in ApplicationSettings -->
+    <string-array name="app_install_location_entries">
+        <item>"Interné úložisko zariadenia"</item>
+        <item>"Odnímateľná karta SD"</item>
+        <item>"Automaticky vyberie systém"</item>
+    </string-array>
+    <!-- Names of categories of app ops tabs -->
+    <string-array name="app_ops_categories">
+        <item>"Poloha"</item>
+        <item>"Osobné"</item>
+        <item>"SMS a MMS"</item>
+        <item>"Médiá"</item>
+        <item>"Zariadenie"</item>
+    </string-array>
+    <!-- User display names for app ops codes -->
+    <string-array name="app_ops_summaries">
+        <item>"približná poloha"</item>
+        <item>"presná poloha"</item>
+        <item>"GPS"</item>
+        <item>"vibrovanie"</item>
+        <item>"čítanie kontaktov"</item>
+        <item>"úprava kontaktov"</item>
+        <item>"čítanie denníka hovorov"</item>
+        <item>"úprava denníka hovorov"</item>
+        <item>"čítanie kalendára"</item>
+        <item>"úprava kalendára"</item>
+        <item>"prehľadanie sietí Wi-Fi"</item>
+        <item>"upozornenie"</item>
+        <item>"prehľadanie mobilných sietí"</item>
+        <item>"volanie na telefón"</item>
+        <item>"čítanie správ SMS"</item>
+        <item>"písanie správ SMS"</item>
+        <item>"príjem správ SMS"</item>
+        <item>"príjem núdzových správ SMS"</item>
+        <item>"príjem správ MMS"</item>
+        <item>"príjem správ WAP push"</item>
+        <item>"odosielanie správ SMS"</item>
+        <item>"čítanie správ ICC SMS"</item>
+        <item>"písanie správ ICC SMS"</item>
+        <item>"úprava nastavení"</item>
+        <item>"vykreslenie navrch"</item>
+        <item>"prístup k upozorneniam"</item>
+        <item>"fotoaparát:"</item>
+        <item>"záznam zvuku"</item>
+        <item>"prehrávanie zvuku"</item>
+        <item>"načítať schránku"</item>
+        <item>"upraviť schránku"</item>
+        <item>"mediálne tlačidlá"</item>
+        <item>"zvukové zameranie"</item>
+        <item>"hlavná hlasitosť"</item>
+        <item>"hlasitosť hlasu"</item>
+        <item>"hlasitosť zvonenia"</item>
+        <item>"hlasitosť médií"</item>
+        <item>"hlasitosť budíkov"</item>
+        <item>"hlasitosť upozornení"</item>
+        <item>"hlasitosť bluetooth"</item>
+        <item>"zakázať režim spánku"</item>
+        <item>"sledovať polohu"</item>
+        <item>"sledovanie polohy s vysokým výkonnom"</item>
+        <item>"získanie štatistiky používania"</item>
+        <item>"stlmenie alebo zrušenie stlmenia mikrofónu"</item>
+        <item>"projekcia médií"</item>
+        <item>"aktivovať VPN"</item>
+        <item>"zápis tapety"</item>
+        <item>"asistujúca štruktúra"</item>
+        <item>"asistujúca snímka obrazovky"</item>
+    </string-array>
+    <!-- User display names for app ops codes -->
+    <string-array name="app_ops_labels">
+        <item>"Poloha"</item>
+        <item>"Poloha"</item>
+        <item>"Poloha"</item>
+        <item>"Vibrovanie"</item>
+        <item>"Čítanie kontaktov"</item>
+        <item>"Úprava kontaktov"</item>
+        <item>"Čítanie denníka hovorov"</item>
+        <item>"Úprava denníka hovorov"</item>
+        <item>"Čítanie kalendára"</item>
+        <item>"Úprava kalendára"</item>
+        <item>"Poloha"</item>
+        <item>"Upozornenie na príspevok"</item>
+        <item>"Poloha"</item>
+        <item>"Volanie na telefón"</item>
+        <item>"Čítanie SMS/MMS"</item>
+        <item>"Písanie SMS/MMS"</item>
+        <item>"Príjem SMS/MMS"</item>
+        <item>"Príjem SMS/MMS"</item>
+        <item>"Príjem SMS/MMS"</item>
+        <item>"Príjem SMS/MMS"</item>
+        <item>"Odosielanie SMS/MMS"</item>
+        <item>"Čítanie SMS/MMS"</item>
+        <item>"Písanie SMS/MMS"</item>
+        <item>"Úprava nastavení"</item>
+        <item>"Vykreslenie navrch"</item>
+        <item>"Prístup k upozorneniam"</item>
+        <item>"Fotoaparát"</item>
+        <item>"Zaznamenať zvuk"</item>
+        <item>"Prehrať zvuk"</item>
+        <item>"Načítať schránku"</item>
+        <item>"Upraviť schránku"</item>
+        <item>"Tlačidlá médií"</item>
+        <item>"Zameranie zvuku"</item>
+        <item>"Hlavná hlasitosť"</item>
+        <item>"Hlasitosť hlasu"</item>
+        <item>"Hlasitosť zvonenia"</item>
+        <item>"Hlasitosť médií"</item>
+        <item>"Hlasitosť budíkov"</item>
+        <item>"Hlasitosť upozornení"</item>
+        <item>"Hlasitosť zariadenia Bluetooth"</item>
+        <item>"Zakázať režim spánku"</item>
+        <item>"Poloha"</item>
+        <item>"Poloha"</item>
+        <item>"Získanie štatistiky využívania"</item>
+        <item>"Stlmenie alebo zrušenie stlmenia mikrofónu"</item>
+        <item>"Projekcia médií"</item>
+        <item>"Aktivovať VPN"</item>
+        <item>"Zápis tapety"</item>
+        <item>"Asistujúca štruktúra"</item>
+        <item>"Asistujúca snímka obrazovky"</item>
+    </string-array>
+    <!-- Titles for the list of long press timeout options. -->
+    <string-array name="long_press_timeout_selector_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
+        <item>"Krátka"</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->
+        <item>"Stredná"</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
+        <item>"Dlhá"</item>
+    </string-array>
+    <!-- Titles for captioning typeface preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_typeface_selector_titles">
+        <item>"Predvolené"</item>
+        <item>"Sans-serif"</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>"Štandardné"</item>
+        <item>"Kurzíva"</item>
+        <item>"Kapitálky"</item>
+    </string-array>
+    <!-- Titles for captioning font size preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_font_size_selector_titles">
+        <item>"Veľmi malé"</item>
+        <item>"Malé"</item>
+        <item>"Normálne"</item>
+        <item>"Veľké"</item>
+        <item>"Veľmi veľké"</item>
+    </string-array>
+    <!-- Titles for captioning character edge type preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>"Predvolené"</item>
+        <item>"Žiadne"</item>
+        <item>"Obrys"</item>
+        <item>"Tieň"</item>
+        <item>"Reliéf"</item>
+        <item>"Rytina"</item>
+    </string-array>
+    <!-- Titles for captioning opacity preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <!-- Titles for captioning text style preset preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_preset_selector_titles">
+        <item>"Použiť predvolené nast. aplikácie"</item>
+        <item>"Biele na čiernom"</item>
+        <item>"Čierne na bielom"</item>
+        <item>"Žlté na čiernom"</item>
+        <item>"Žlté na modrom"</item>
+        <item>"Vlastné"</item>
+    </string-array>
+    <!-- Titles for logd limit size selection preference. [CHAR LIMIT=14] -->
+    <string-array name="select_logd_size_titles">
+        <item>"64 kB"</item>
+        <item>"256 kB"</item>
+        <item>"1 MB"</item>
+        <item>"4 MB"</item>
+        <item>"16 MB"</item>
+    </string-array>
+    <!-- Titles for logd limit size lowram selection preference. [CHAR LIMIT=14] -->
+    <string-array name="select_logd_size_lowram_titles">
+        <item>"64 kB"</item>
+        <item>"256 kB"</item>
+        <item>"1 MB"</item>
+    </string-array>
+    <!-- Summaries for logd limit size selection preference. [CHAR LIMIT=30]-->
+    <string-array name="select_logd_size_summaries">
+        <item>"64 kB na vyrovn. pamäť denníka"</item>
+        <item>"256 kB na vyrovn. pamäť denníka"</item>
+        <item>"1 MB na vyrovn. pamäť denníka"</item>
+        <item>"4 MB na vyrovn. pamäť denníka"</item>
+        <item>"16 MB na vyrovn. pamäť denníka"</item>
+    </string-array>
+    <!-- Titles for HDCP checking preference. [CHAR LIMIT=35] -->
+    <string-array name="hdcp_checking_titles">
+        <item>"Nikdy nekontrolovať"</item>
+        <item>"Kontrolovať len obsah DRM"</item>
+        <item>"Vždy kontrolovať"</item>
+    </string-array>
+    <!-- Summaries for HDCP checking preference. [CHAR LIMIT=100]-->
+    <string-array name="hdcp_checking_summaries">
+        <item>"Nikdy nepoužívať kontrolu HDCP"</item>
+        <item>"Použiť kontrolu HDCP len pre obsah DRM"</item>
+        <item>"Vždy používať kontrolu HDCP"</item>
+    </string-array>
+    <!-- Titles for window animation scale preference. [CHAR LIMIT=35] -->
+    <string-array name="window_animation_scale_entries">
+        <item>"Animácia je vypnutá"</item>
+        <item>"Mierka animácie 0,5x"</item>
+        <item>"Mierka animácie 1x"</item>
+        <item>"Mierka animácie 1,5x"</item>
+        <item>"Mierka animácie 2x"</item>
+        <item>"Mierka animácie 5x"</item>
+        <item>"Mierka animácie 10x"</item>
+    </string-array>
+    <!-- Titles for transition animation scale preference. [CHAR LIMIT=35] -->
+    <string-array name="transition_animation_scale_entries">
+        <item>"Animácia je vypnutá"</item>
+        <item>"Mierka animácie 0,5x"</item>
+        <item>"Mierka animácie 1x"</item>
+        <item>"Mierka animácie 1,5x"</item>
+        <item>"Mierka animácie 2x"</item>
+        <item>"Mierka animácie 5x"</item>
+        <item>"Mierka animácie 10x"</item>
+    </string-array>
+    <!-- Titles for animator duration scale preference. [CHAR LIMIT=35] -->
+    <string-array name="animator_duration_scale_entries">
+        <item>"Animácia je vypnutá"</item>
+        <item>"Mierka animácie 0,5x"</item>
+        <item>"Mierka animácie 1x"</item>
+        <item>"Mierka animácie 1,5x"</item>
+        <item>"Mierka animácie 2x"</item>
+        <item>"Mierka animácie 5x"</item>
+        <item>"Mierka animácie 10x"</item>
+    </string-array>
+    <!-- Titles for overlay display devices preference. [CHAR LIMIT=35] -->
+    <string-array name="overlay_display_devices_entries">
+        <item>"Žiadne"</item>
+        <item>"480p"</item>
+        <item>"480p (zabezpečené)"</item>
+        <item>720p</item>
+        <item>"720p (zabezpečené)"</item>
+        <item>"1080p"</item>
+        <item>"1080p (zabezpečené)"</item>
+        <item>"4K"</item>
+        <item>"4K (zabezpečené)"</item>
+        <item>"4K (zväčšené)"</item>
+        <item>"4K (zväčšené, zabezpečené)"</item>
+        <item>"720p, 1080p (duálna obrazovka)"</item>
+    </string-array>
+    <!-- Titles for OpenGL traces preference. [CHAR LIMIT=35] -->
+    <string-array name="enable_opengl_traces_entries">
+        <item>"Žiadne"</item>
+        <item>"Logcat"</item>
+        <item>"Systrace (grafika)"</item>
+        <item>"Zásobník volaní glGetError"</item>
+    </string-array>
+    <!-- Titles for non-rectangular clipping preference. [CHAR LIMIT=35] -->
+    <string-array name="show_non_rect_clip_entries">
+        <item>"Vypnuté"</item>
+        <item>"Neobdĺžniková oblasť klipu modrou"</item>
+        <item>"Test. príkazy vykresľovania zelenou"</item>
+    </string-array>
+    <!-- Titles for frame time tracking preference. [CHAR LIMIT=35] -->
+    <string-array name="track_frame_time_entries">
+        <item>"Vypnuté"</item>
+        <item>"Na obrazovke v podobe stĺpcov"</item>
+        <item>"V adb shell dumpsys gfxinfo"</item>
+    </string-array>
+    <!-- Titles for debug overdraw preference. [CHAR LIMIT=50] -->
+    <string-array name="debug_hw_overdraw_entries">
+        <item>"Vypnuté"</item>
+        <item>"Zobraziť oblasti prekreslení"</item>
+        <item>"Zobraziť oblasti pre deuteranomáliu"</item>
+    </string-array>
+    <!-- Titles for app process limit preference. [CHAR LIMIT=35] -->
+    <string-array name="app_process_limit_entries">
+        <item>"Štandardný limit"</item>
+        <item>"Žiadne procesy na pozadí"</item>
+        <item>"Najviac 1 proces"</item>
+        <item>"Najviac 2 procesy"</item>
+        <item>"Najviac 3 procesy"</item>
+        <item>"Najviac 4 procesy"</item>
+    </string-array>
+    <!-- Match this with the constants in VpnProfile. -->
+    <!-- Longer descriptions for each VPN type. [CHAR LIMIT=100] -->
+    <string-array name="vpn_types_long">
+        <item>"VPN s protokolom PPTP"</item>
+        <item>"Sieť VPN založená na protokole L2TP/IPSec s predzdieľanými kľúčmi"</item>
+        <item>"L2TP/IPSec VPN s certifikátmi"</item>
+        <item>"IPSec VPN s predzdieľanými kľúčmi a overením Xauth"</item>
+        <item>"IPSec VPN s certifikátmi a overením Xauth"</item>
+        <item>"IPSec VPN s certifikátmi a hybridným overením"</item>
+    </string-array>
+    <!-- Match this with the constants in LegacyVpnInfo. -->
+    <!-- Status for a VPN network. [CHAR LIMIT=100] -->
+    <string-array name="vpn_states">
+        <!-- Status message when VPN is disconnected. -->
+        <item>"Odpojené"</item>
+        <!-- Status message when VPN is initializing. -->
+        <item>"Prebieha inicializácia..."</item>
+        <!-- Status message when VPN is connecting. -->
+        <item>"Prebieha pripájanie..."</item>
+        <!-- Status message when VPN is connected. -->
+        <item>"Pripojené"</item>
+        <!-- Status message when VPN is timeout. -->
+        <item>"Časový limit vypršal"</item>
+        <!-- Status message when VPN is failed. -->
+        <item>"Neúspešné"</item>
+    </string-array>
+    <!-- Values for premium SMS permission selector [CHAR LIMIT=30] -->
+    <string-array name="security_settings_premium_sms_values">
+        <!-- Ask user before sending to premium SMS short code. -->
+        <item>"Opýtať sa"</item>
+        <!-- Never allow app to send to premium SMS short code. -->
+        <item>"Nikdy nepovoliť"</item>
+        <!-- Always allow app to send to premium SMS short code. -->
+        <item>"Vždy povoliť"</item>
+    </string-array>
+    <!-- [CHAR LIMIT=40] Labels for memory states -->
+    <string-array name="ram_states">
+        <!-- Normal desired memory state. -->
+        <item>"Normálny"</item>
+        <!-- Moderate memory state, not as good as normal. -->
+        <item>"Stredný"</item>
+        <!-- Memory is running low. -->
+        <item>"Nízky"</item>
+        <!-- Memory is critical. -->
+        <item>"Kritický"</item>
+        <!-- Unknown memory state -->
+        <item>"?"</item>
+    </string-array>
+    <array name="ram_colors">
+        <item>@color/memory_normal</item>
+        <item>@color/memory_moderate</item>
+        <item>@color/memory_low</item>
+        <item>@color/memory_critical</item>
+    </array>
+    <!-- Process stats memory use details: labels for memory states -->
+    <string-array name="proc_stats_memory_states">
+        <item>"Normálny"</item>
+        <item>"Stredný"</item>
+        <item>"Nízky"</item>
+        <item>"Kritický"</item>
+    </string-array>
+    <!-- Process stats memory use details: labels for process -->
+    <string-array name="proc_stats_process_states">
+        <item>"Pretrvávajúci"</item>
+        <item>"Najčastejšia aktivita"</item>
+        <item>"Dôležitý (v popredí)"</item>
+        <item>"Dôležitý (v pozadí)"</item>
+        <item>"Záloha"</item>
+        <item>"Vysoké vyťaženie"</item>
+        <item>"Služba (spustená)"</item>
+        <item>"Služba (reštartuje sa)"</item>
+        <item>"Prijímač"</item>
+        <item>"Plocha"</item>
+        <item>"Posledná aktivita"</item>
+        <item>"Vo vyrovnávacej pamäti (aktivita)"</item>
+        <item>"Vo vyrovnávacej pamäti (klient aktivity)"</item>
+        <item>"Vo vyrovnávacej pamäti (prázdne)"</item>
+    </string-array>
+    <!-- Array of titles for sim color for multi-sim -->
+    <string-array name="color_picker">
+        <item>"Modrozelená"</item>
+        <item>"Modrá"</item>
+        <item>"Indigo"</item>
+        <item>"Purpurová"</item>
+        <item>"Ružová"</item>
+        <item>"Červená"</item>
+    </string-array>
+    <!-- USB configuration names for Developer Settings.
+         This can be overridden by devices with additional USB configurations. -->
+    <string-array name="usb_configuration_titles">
+        <item>@string/usb_use_charging_only</item>
+        <item>"MTP (Media Transfer Protocol)"</item>
+        <item>"PTP (Picture Transfer Protocol)"</item>
+        <item>"RNDIS (USB Ethernet)"</item>
+        <item>"Zvukový zdroj"</item>
+        <item>"MIDI"</item>
+    </string-array>
+    <!-- dm plmn that need to be hidden -->
+    <string-array name="hidedm_plmn_list">
+        <item>46000</item>
+        <item>46002</item>
+        <item>46003</item>
+        <item>46007</item>
+    </string-array>
+    <!-- supl plmn list that need to be hidden -->
+    <string-array name="hidesupl_plmn_list">
+        <item>46001</item>
+        <item>46003</item>
+        <item>46011</item>
+        <item>45502</item>
+        <item>45507</item>
+    </string-array>
+    <string-array name="plmn_list_for_apn_disable">
+        <item>20404</item>
+        <item>45403</item>
+        <item>45404</item>
+        <item>45502</item>
+        <item>45507</item>
+        <item>46003</item>
+        <item>46011</item>
+    </string-array>
+    <string-array name="cellcular2wifi_entries">
+        <item>"Pripojiť automaticky"</item>
+        <item>"Pripojiť manuálne"</item>
+        <item>"Vždy sa opýtať"</item>
+    </string-array>
+    <string-array name="cellcular2wifi_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array></resources>

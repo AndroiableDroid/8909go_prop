@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string-array name="sessionType">
+        <item>"တစ်ချက်တည်း ရိုက်ချက်"</item>
+        <item>"အက်ပ် စောင့်ကြည့်ပါ"</item>
+    </string-array>
+    <string-array name="sessionTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="apiType">
+        <item>"အန်းဒရွိုက် API"</item>
+        <item>"ရှာဖွေမှု API"</item>
+        <item>"GPL ဝန်ဆောင်မှု"</item>
+        <item>"QPL ဝန်ဆောင်မှု"</item>
+    </string-array>
+    <string-array name="apiTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="locProviderType">
+        <item>"GPS"</item>
+        <item>"ကွန်ယက်"</item>
+        <item>"ဝါကျပုံစံ"</item>
+    </string-array>
+    <string-array name="locProviderTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="accuracyLevelType">
+        <item>"မြင့်မြင့်"</item>
+        <item>"အလယ်အလတ်"</item>
+        <item>"နိမ့်နိမ့်"</item>
+    </string-array>
+    <string-array name="accuracyLevelTypeValues">
+        <item>"High"</item>
+        <item>"Medium"</item>
+        <item>"Low"</item>
+    </string-array>
+    <string-array name="opModeType">
+        <item>"သီးခြားရပ်တည်မှု"</item>
+        <item>"MS-ထောက်ကူထားသည်"</item>
+        <item>"MS-အခြေပြုထားသည်"</item>
+        <item>"မြန်နှုန်း အကောင်းဆုံးလုပ်ခြင်း"</item>
+        <item>"ဒေတာ အကောင်းဆုံးလုပ်ခြင်း"</item>
+        <item>"တိကျမှု အကောင်းဆုံးလုပ်ခြင်း"</item>
+        <item>"ဆဲလ် ID"</item>
+        <item>"ပုံသေ"</item>
+    </string-array>
+    <string-array name="opModeTypeValues">
+        <item>"Standalone"</item>
+        <item>"MS-Assisted"</item>
+        <item>"MS-Based"</item>
+        <item>"Speed Optimal"</item>
+        <item>"Data Optimal"</item>
+        <item>"Accuracy Optimal"</item>
+        <item>"Cell ID"</item>
+        <item>"Default"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyType">
+        <item>"လိုအပ်မှု မရှိပါ"</item>
+        <item>"နိမ့်နိမ့်"</item>
+        <item>"မြင့်မြင့်"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyType">
+        <item>"လိုအပ်မှု မရှိပါ"</item>
+        <item>"နိမ့်နိမ့်"</item>
+        <item>"အလယ်အလတ်"</item>
+        <item>"မြင့်မြင့်"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="powerRequirementType">
+        <item>"လိုအပ်မှု မရှိပါ"</item>
+        <item>"နိမ့်နိမ့်"</item>
+        <item>"အလယ်အလတ်"</item>
+        <item>"မြင့်မြင့်"</item>
+    </string-array>
+    <string-array name="powerRequirementValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityType">
+        <item>"သတ်မှတ်မထားပါ"</item>
+        <item>"အလွန် နည်းသည်"</item>
+        <item>"နိမ့်နိမ့်"</item>
+        <item>"အလယ်အလတ်"</item>
+        <item>"မြင့်မြင့်"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityValues">
+        <item>"Not Set"</item>
+        <item>"Very Low"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="lppModeType">
+        <item>"အလုပ်မလုပ်ခြင်း"</item>
+        <item>"အသုံးပြုသူ အဆင့်"</item>
+        <item>"အဆင့် ထိန်းချုပ်ပါ"</item>
+    </string-array>
+    <string-array name="lppModeValues">
+        <item>"Disable"</item>
+         <item>"User Plane"</item>
+        <item>"Control Plane"</item>
+    </string-array>
+    <string-array name="wbiqGLOR1Chan">
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="gplsPriorityType">
+        <item>"တိကျမှု မြင့်မားသည်"</item>
+        <item>"ပါဝါ တိကျမှု ချိန်ညှိထားသည်"</item>
+        <item>"ပါဝါ နည်းနေသည်"</item>
+        <item>"ပါဝါ မရှိပါ"</item>
+    </string-array>
+    <string-array name="gplsPriorityTypeValues">
+        <item>100</item>
+        <item>102</item>
+        <item>104</item>
+        <item>105</item>
+    </string-array>
+    <string-array name="geofenceReportType">
+        <item>"ချိုးပျက်မှု"</item>
+        <item>"အုပ်စုတွဲ"</item>
+        <item>"အနီးအနား"</item>
+        <item>"ချိုးပျက်မှု + နီးကပ်မှု"</item>
+        <item>"အုပ်စုတွဲ + နီးကပ်မှု"</item>
+    </string-array>
+    <string-array name="geofenceReportTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array></resources>

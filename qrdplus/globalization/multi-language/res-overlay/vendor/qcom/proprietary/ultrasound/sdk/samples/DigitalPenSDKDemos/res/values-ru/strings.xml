@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Демонстрации SDP SDK"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Расширенная функция скрытой работы"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Фоновый побочный канал"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Различия между работой пальцем и использованием пера с функцией давления"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Наклон по оси"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Наведение и кнопка сбоку"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Очистка и без очистки"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"В данной демонстрации представлена функция скрытой работы \n\n1. Нарисуйте в режиме скрытой работы и посмотрите на рисунок справа.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. В нижнем правом углу виртуального экрана находится кнопка. В зависимости от высоты наведения на нее будет изменяться прозрачность круга.\n\n3. Нажмите кнопку для изменения цвета круга."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"В данной демонстрации показана работа фонового побочного канала в режиме скрытой или видимой работы.\n\n1. Нарисуйте в режиме скрытой работы и посмотрите рисунок.\n\n2. Теперь переключитесь в другое приложение или отключите экран — все еще происходит запись рисунка."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Наведение в режиме видимой работы "</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Наведите на экран на различной высоте.\n\n2. Используйте переключатель для отключения наведения.\n\n3. Используйте ползунок, чтобы задать максимальное расстояние для подтверждения событий наведения.\n\n4. При нажатии кнопки сбоку произойдет изменение цвета круга наведения."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. В глобальных настройках установите кнопку SDP в качестве кнопки очистки.\n\n2. Рисование.\n\n3. Установите для очистки параметр \"Переключение по касанию\". Нажмите кнопку очистки и удалите необходимые элементы. Повторное нажатие кнопки очистки приведет к переходу в режим пера.\n\n4. Установите для очистки параметр \"Удержание для очистки\". Теперь можно удалять при непосредственном нажатии.\n\n5. Далее переключитесь в режим без очистки, чтобы отключить функцию очистки."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Без очистки"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Очистить полотно"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Нарисуйте пером, а затем пальцем.\nДва метода рисования отображаются различными цветами.\nШирина мазка устанавливается давлением, которому также присваивается цифровое значение."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Давление"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

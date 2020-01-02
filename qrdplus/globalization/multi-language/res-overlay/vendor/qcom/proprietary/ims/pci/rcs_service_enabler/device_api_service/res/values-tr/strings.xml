@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service kaldırıldı, lütfen yeniden yükleyin!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"Profil metin verilerini güncelle"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"Profil portre verilerini güncelle"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Tüm mesajları sil"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Grup sohbeti için yeni bir başkan belirle"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Grup sohbetinin konusunu değiştir"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Grup sohbetinde üye takma adını değiştir"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Grup sohbetine katılmak için bir daveti kabul et"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Grup sohbetinden çık"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Grup sohbetinden katılımcıları çıkar"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"Grup sohbetini reddet"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Herkese açık hesaba dikkat et"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Herkese açık hesaba dikkat etme"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"Herkese açık hesabı rapor et"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"hassas api izni"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"yetkili %1$d uygulama (toplam %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"Bir daha sorma"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"Tamam"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"İptal"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Bu işlem, %1$s için tasarlanmıştır, İzin verilmemesi istenildiği gibi çalışmasını engelleyebilir."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"%1$s izni"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"%1$s öğesine izin vermelisiniz."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"Sd karta izin vermelisiniz."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"Kişilere izin vermelisiniz."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"Sms\'e izin vermelisiniz."</string></resources>

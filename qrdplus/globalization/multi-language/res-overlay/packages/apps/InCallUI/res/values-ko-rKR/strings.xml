@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+  ~ Copyright (C) 2013 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Official label of the phone app, as seen in "Manage Applications"
+         and other settings UIs. -->
+    <string name="phoneAppLabel" product="default"></string>
+    <!-- Call status -->
+    <!-- In-call screen: status label for a call that's on hold -->
+    <string name="onHold">"대기 중"</string>
+    <!-- Incoming call screen, name of "unknown" caller -->
+    <string name="unknown">"알 수 없음"</string>
+    <!-- Incoming call screen, string when number hidden -->
+    <string name="private_num">"비공개 번호"</string>
+    <!-- Incoming call screen, string when called from a pay phone -->
+    <string name="payphone">"공중전화"</string>
+    <!-- In-call screen: status label for a conference call -->
+    <string name="confCall">"다자간 통화"</string>
+    <!-- In-call screen: call lost dialog text -->
+    <string name="call_lost">"연락되지 않음"</string>
+    <!-- MMI dialog strings -->
+    <!-- Dialog label when an MMI code starts running -->
+    <!-- "Audio mode" popup menu: Item label to select the speakerphone [CHAR LIMIT=25] -->
+    <string name="audio_mode_speaker">"스피커"</string>
+    <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
+    <string name="audio_mode_earpiece">"휴대전화"</string>
+    <!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
+    <string name="audio_mode_wired_headset">"유선 헤드셋"</string>
+    <!-- "Audio mode" popup menu: Item label to select the bluetooth headset [CHAR LIMIT=25] -->
+    <string name="audio_mode_bluetooth">"블루투스"</string>
+    <!-- post dial -->
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "wait" character in a phone number to be dialed; this dialog asks the
+         user if it's OK to send the numbers following the "wait". -->
+    <string name="wait_prompt_str">"다음 톤을 보내시겠습니까?\n"</string>
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "PAUSE" character in a phone number to be dialed; this dialog gives
+         informative message to the user to show the sending numbers following the "Pause". -->
+    <string name="pause_prompt_str">"신호음 보내기\n"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog -->
+    <string name="send_button">"전송"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_yes">"예"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_no">"아니요"</string>
+    <!-- In-call screen: on the "wild" character dialog, this is the label
+         for a text widget that lets the user enter the digits that should
+         replace the "wild" character. -->
+    <string name="wild_prompt_str">"와일드 문자를 다음으로 바꿈:"</string>
+    <!-- In-call screen: status label for a conference call -->
+    <string name="caller_manage_header">"다자간 통화 <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <!-- Call settings screen, Set voicemail dialog title -->
+    <string name="voicemail_settings_number_label">"음성사서함 번호"</string>
+    <!-- Card titles -->
+    <!-- In-call screen: status label for a call in the "dialing" state [CHAR LIMIT=25] -->
+    <string name="card_title_dialing">"전화 거는 중"</string>
+    <!-- In-call screen: status label for a re-dialing call [CHAR LIMIT=25] -->
+    <string name="card_title_redialing">"재다이얼 중"</string>
+    <!-- In-call screen: status label for a conference call [CHAR LIMIT=25] -->
+    <string name="card_title_conf_call">"다자간 통화"</string>
+    <!-- In-call screen: status label for an incoming call [CHAR LIMIT=25] -->
+    <string name="card_title_incoming_call">"수신전화"</string>
+    <!-- In-call screen: status label displayed briefly after a call ends [CHAR LIMIT=25] -->
+    <string name="card_title_call_ended">"통화 종료됨"</string>
+    <!-- In-call screen: status label for call that's on hold [CHAR LIMIT=25] -->
+    <string name="card_title_on_hold">"대기 중"</string>
+    <!-- In-call screen: status label for a call that's in the process of hanging up [CHAR LIMIT=25] -->
+    <string name="card_title_hanging_up">"전화 끊는 중"</string>
+    <!-- In-call screen: status label for a call that's in CDMA flash mode [CHAR LIMIT=25] -->
+    <string name="card_title_in_call">"통화 상태"</string>
+    <!-- In-call screen: special status label that shows your own phone
+         number during emergency callback mode (ECM) [CHAR LIMIT=30] -->
+    <string name="card_title_my_phone_number">"내 전화번호는 <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>입니다."</string>
+    <!-- In-call screen: status label when connecting video. -->
+    <string name="card_title_video_call_connecting">"동영상 연결 중"</string>
+    <!-- In-call screen: status label when in a video call. -->
+    <string name="card_title_video_call">"화상 통화"</string>
+    <!-- In-call screen: status label when requesting video. -->
+    <string name="card_title_video_call_requesting">"동영상 요청 중"</string>
+    <!-- In-call screen: status label when there is a problem connecting a video call. -->
+    <string name="card_title_video_call_error">"화상 통화를 연결할 수 없습니다."</string>
+    <!-- In-call screen: status label when the remote party rejects a video call request. -->
+    <string name="card_title_video_call_rejected">"동영상 요청 거부됨"</string>
+    <!-- In-call screen: string shown to the user when their outgoing number is different than the
+         number reported by TelephonyManager#getLine1Number() -->
+    <string name="card_title_callback_number">"콜백 번호\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+    <!-- In-call screen: string shown to the user when their outgoing number is different than the
+         number reported by TelephonyManager#getLine1Number() and they're calling emergency
+         services. -->
+    <string name="card_title_callback_number_emergency">"긴급 콜백 번호\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+    <!-- Notification strings -->
+    <!-- The "label" of the in-call Notification for a dialing call, used
+         as the format string for a Chronometer widget. [CHAR LIMIT=60] -->
+    <string name="notification_dialing">"전화 거는 중"</string>
+    <!-- Missed call notification label, used when there's exactly one missed call -->
+    <string name="notification_missedCallTitle">"부재중 전화"</string>
+    <!-- Missed call notification label, used when there are two or more missed calls -->
+    <string name="notification_missedCallsTitle">"부재중 통화"</string>
+    <!-- Missed call notification message used when there are multiple missed calls -->
+    <string name="notification_missedCallsMsg">"부재중 통화 <xliff:g id="NUM_MISSED_CALLS">%s</xliff:g>통"</string>
+    <!-- Missed call notification message used for a single missed call, including
+         the caller-id info from the missed call -->
+    <string name="notification_missedCallTicker">"<xliff:g id="MISSED_CALL_FROM">%s</xliff:g>의 부재중 전화"</string>
+    <!-- The "label" of the in-call Notification for an ongoing call. [CHAR LIMIT=60] -->
+    <string name="notification_ongoing_call">"현재 통화"</string>
+    <!-- The "label" of the in-call Notification for an ongoing call, which is being made over
+         Wi-Fi. [CHAR LIMIT=60] -->
+    <string name="notification_ongoing_call_wifi">"Wi-Fi 발신 전화"</string>
+    <!-- The "label" of the in-call Notification for a call that's on hold -->
+    <string name="notification_on_hold">"대기 중"</string>
+    <!-- The "label" of the in-call Notification for an incoming ringing call. [CHAR LIMIT=60] -->
+    <string name="notification_incoming_call">"수신 전화"</string>
+    <!-- The "label" of the in-call Notification for an incoming ringing call,
+         which is being made over Wi-Fi. [CHAR LIMIT=60] -->
+    <string name="notification_incoming_call_wifi">"Wi-Fi 수신 전화"</string>
+    <!-- The "label" of the in-call Notification for an incoming ringing video call. -->
+    <string name="notification_incoming_video_call">"수신 화상 통화"</string>
+    <!-- The "label" of the in-call Notification for upgrading an existing call to a video call. -->
+    <string name="notification_requesting_video_call">"수신 동영상 요청"</string>
+    <!-- Label for the "Voicemail" notification item, when expanded. -->
+    <string name="notification_voicemail_title">"새 음성사서함"</string>
+    <!-- Label for the expanded "Voicemail" notification item,
+         including a count of messages. -->
+    <string name="notification_voicemail_title_count">"새 음성사서함(<xliff:g id="COUNT">%d</xliff:g>개)"</string>
+    <!-- Message displayed in the "Voicemail" notification item, allowing the user
+         to dial the indicated number. -->
+    <string name="notification_voicemail_text_format">"<xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>(으)로 전화걸기"</string>
+    <!-- Message displayed in the "Voicemail" notification item,
+         indicating that there's no voicemail number available -->
+    <string name="notification_voicemail_no_vm_number">"알 수 없는 음성사서함 번호"</string>
+    <!-- Label for the "No service" notification item, when expanded. -->
+    <string name="notification_network_selection_title">"서비스 불가"</string>
+    <!-- Label for the expanded "No service" notification item, including the
+         operator name set by user -->
+    <string name="notification_network_selection_text">"선택한 네트워크(<xliff:g id="OPERATOR_NAME">%s</xliff:g>)를 사용할 수 없음"</string>
+    <!-- Label for the "Answer call" action. This is the displayed label for the action that answers
+         an incoming call. [CHAR LIMIT=12] -->
+    <string name="notification_action_answer">"전화 받기"</string>
+    <!-- Label for "end call" Action.
+         It is displayed in the "Ongoing call" notification, which is shown
+         when the user is outside the in-call screen while the phone call is still
+         active. [CHAR LIMIT=12] -->
+    <string name="notification_action_end_call">"전화 끊기"</string>
+    <!-- Label for "Video Call" notification action. This is a displayed on the notification for an
+         incoming video call, and answers the call as a video call. [CHAR LIMIT=12] -->
+    <string name="notification_action_answer_video">"동영상"</string>
+    <!-- Label for "Voice" notification action. This is a displayed on the notification for an
+         incoming video call, and answers the call as an audio call. [CHAR LIMIT=12] -->
+    <string name="notification_action_answer_voice">"음성"</string>
+    <!-- Label for "Accept" notification action. This is somewhat generic, and may refer to
+         scenarios such as accepting an incoming call or accepting a video call request.
+         [CHAR LIMIT=12] -->
+    <string name="notification_action_accept">"수락"</string>
+    <!-- Label for "Dismiss" notification action. This is somewhat generic, and may refer to
+         scenarios such as declining an incoming call or declining a video call request.
+         [CHAR LIMIT=12] -->
+    <string name="notification_action_dismiss">"거부"</string>
+    <!-- Message for "call back" Action, which is displayed in the missed call notification.
+         The user will be able to call back to the person or the phone number.
+         [CHAR LIMIT=12] -->
+    <string name="notification_missedCall_call_back">"통화하기"</string>
+    <!-- Message for "reply via sms" action, which is displayed in the missed call notification.
+         The user will be able to send text messages using the phone number.
+         [CHAR LIMIT=12] -->
+    <string name="notification_missedCall_message">"문자 메시지"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_power_off">"전화를 걸려면 먼저 비행기 모드를 해제하세요."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog.
+         This string is currently unused (see comments in InCallActivity.java.) -->
+    <string name="incall_error_emergency_only">"네트워크에서 등록되지 않았습니다."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_out_of_service">"사용 가능한 이동통신망이 없습니다."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_no_phone_number_supplied">"전화를 걸려면 올바른 번호를 입력하세요."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_call_failed">"전화를 걸 수 없습니다."</string>
+    <!-- In-call screen: status message displayed in a dialog when starting an MMI -->
+    <string name="incall_status_dialed_mmi">"MMI 시퀀스 시작 중..."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_unknown">"서비스가 지원되지 않습니다."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_switch">"통화를 전환할 수 없습니다."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_separate">"통화를 분리할 수 없습니다."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_transfer">"통화를 전환할 수 없습니다."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_conference">"컨퍼런스 콜을 이용할 수 없습니다."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_reject">"통화를 거절할 수 없습니다."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_hangup">"통화를 끊을 수 없습니다."</string>
+    <!-- In-call screen: "call type" indication for a SIP call [CHAR LIMIT=30]  -->
+    <string name="incall_call_type_label_sip">"SIP 통화"</string>
+    <!-- Dialog title for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_title">"긴급 전화"</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_message">"무선을 켜는 중..."</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_retry">"서비스를 사용할 수 없습니다. 다시 시도 중..."</string>
+    <!-- Dialer text on Emergency Dialer -->
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_error">"전화를 걸 수 없습니다. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g>은(는) 긴급 번호가 아닙니다."</string>
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_empty_error">"전화를 걸 수 없습니다. 긴급 번호를 사용하세요."</string>
+    <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
+         to dial using the physical keyboard -->
+    <string name="dialerKeyboardHintText">"키보드를 사용하여 전화걸기"</string>
+    <!-- Text for the onscreen "Hold" button when it is not selected. Pressing it will put
+         the call on hold. -->
+    <string name="onscreenHoldText_unselected">"통화 대기"</string>
+    <!-- Text for the onscreen "Hold" button when it is selected. Pressing it will resume
+         the call from a previously held state. -->
+    <string name="onscreenHoldText_selected">"통화 재개"</string>
+    <!-- Text for the onscreen "End call" button -->
+    <string name="onscreenEndCallText">"통화 종료"</string>
+    <!-- Text for the onscreen "Show Dialpad" button -->
+    <string name="onscreenShowDialpadText">"다이얼패드"</string>
+    <!-- Text for the onscreen "Mute" button -->
+    <string name="onscreenMuteText">"음소거"</string>
+    <!-- Text for the onscreen "Add call" button -->
+    <string name="onscreenAddCallText">"통화 추가"</string>
+    <!-- Text for the onscreen "Merge calls" button -->
+    <string name="onscreenMergeCallsText">"통화 병합"</string>
+    <!-- Text for the onscreen "Swap calls" button -->
+    <string name="onscreenSwapCallsText">"전환"</string>
+    <!-- Text for the onscreen "Manage calls" button -->
+    <string name="onscreenManageCallsText">"통화 관리"</string>
+    <!-- Text for the onscreen "Manage conference" button [CHAR LIMIT=30] -->
+    <string name="onscreenManageConferenceText">"다자간 통화 관리"</string>
+    <!-- Text for the onscreen "Audio" button that lets you switch
+         between speaker / bluetooth / earpiece [CHAR LIMIT=10] -->
+    <string name="onscreenAudioText">"오디오"</string>
+    <!-- Text for the onscreen "Video call" button used to change a voice call
+         to a video call. [CHAR LIMIT=10] -->
+    <string name="onscreenVideoCallText">"화상 통화"</string>
+    <!-- Text for the onscreen "Change to voice" button. When clicked, this downgrades a video call
+         to a voice call. -->
+    <string name="onscreenChangeToVoiceText">"음성 통화로 변경"</string>
+    <!-- Text for the onscreen "Switch camera" button. When clicked, this switches the user's camera
+         for video calling between the front-facing camera and the back-facing camera. -->
+    <string name="onscreenSwitchCameraText">"카메라 전환"</string>
+    <!-- Text for the onscreen "Pause video" button. -->
+    <string name="onscreenPauseVideoText">"동영상 일지중지"</string>
+    <!-- Text for the onscreen overflow button, to see additional actions which can be done. -->
+    <string name="onscreenOverflowText">"옵션 더보기"</string>
+    <!-- Message indicating that Video Started flowing for IMS-VT calls -->
+    <string name="player_started">"플레이어가 시작되었습니다."</string>
+    <!-- Message indicating that Video Stopped flowing for IMS-VT calls -->
+    <string name="player_stopped">"플레이어가 중지되었습니다."</string>
+    <!-- Message indicating that camera failure has occurred for the selected camera and
+         as result camera is not ready -->
+    <string name="camera_not_ready">"카메라가 준비되지 않았습니다."</string>
+    <!-- Message indicating that camera is ready/available -->
+    <string name="camera_ready">"카메라가 준비되었습니다."</string>
+    <!-- Message indicating unknown call session event -->
+    <string name="unknown_call_session_event">"알 수 없는 통화 세션 이벤트"</string>
+    <!-- Preference for Voicemail service provider under "Voicemail" settings.
+         [CHAR LIMIT=40] -->
+    <string name="voicemail_provider">"서비스"</string>
+    <!-- Preference for Voicemail setting of each provider.
+         [CHAR LIMIT=40] -->
+    <string name="voicemail_settings">"설정"</string>
+    <!-- String to display in voicemail number summary when no voicemail num is set -->
+    <string name="voicemail_number_not_set">"&lt;설정 안됨&gt;"</string>
+    <!-- Title displayed above settings coming after voicemail in the call features screen -->
+    <string name="other_settings">"기타 통화 설정"</string>
+    <!-- Title displayed in the overlay for outgoing calls which include the name of the provider.
+         [CHAR LIMIT=40] -->
+    <string name="calling_via_template">"<xliff:g id="PROVIDER_NAME">%s</xliff:g>을(를) 통해 걸려온 전화"</string>
+    <!-- Title displayed in the overlay for incoming calls which include the name of the provider.
+         [CHAR LIMIT=40] -->
+    <string name="incoming_via_template">"<xliff:g id="PROVIDER_NAME">%s</xliff:g>을(를) 통해 전화가 왔습니다"</string>
+    <!-- Use this as a default to describe the contact photo; currently for screen readers through accessibility. -->
+    <string name="contactPhoto">"연락처 사진"</string>
+    <!-- Use this to describe the separate conference call button; currently for screen readers through accessibility. -->
+    <string name="goPrivate">"비공개로 실행"</string>
+    <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
+    <string name="selectContact">"연락처 선택"</string>
+    <!-- "Respond via SMS" option that lets you compose a custom response. [CHAR LIMIT=30] -->
+    <string name="respond_via_sms_custom_message">"나만의 응답 작성\u2026"</string>
+    <!-- "Custom Message" Cancel alert dialog button -->
+    <string name="custom_message_cancel">"취소"</string>
+    <!-- "Custom Message" Send alert dialog button -->
+    <string name="custom_message_send">"보내기"</string>
+    <!-- Description of the answer target in the Slide unlock screen of Phone. [CHAR LIMIT=NONE] -->
+    <string name="description_target_answer">"통화"</string>
+    <!-- Description of the send_sms target in the Slide unlock screen of Phone. [CHAR LIMIT=NONE] -->
+    <string name="description_target_send_sms">"SMS 보내기"</string>
+    <!-- Description of the decline target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline">"거부"</string>
+    <!-- Description of the target to answer a call as a video call in the Slide unlock screen.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_answer_video_call">"화상 통화로 받기"</string>
+    <!-- Description of the target to answer a call as an audio call in the Slide unlock screen.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_answer_audio_call">"음성 전화로 받기"</string>
+    <!-- Description of the target to accept a request to upgrade from an audio call to a video call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_accept_upgrade_to_video_request">"동영상 요청 수락"</string>
+    <!-- Description of the target to decline a request to upgrade from an audio call to a video call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline_upgrade_to_video_request">"동영상 요청 거절"</string>
+    <!-- Description of the target to accept a request to upgrade from any call to a video transmit call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_accept_upgrade_to_video_transmit_request">"화상 통화 전송 요청 허용"</string>
+    <!-- Description of the target to decline a request to upgrade from any call to a video transmit call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline_upgrade_to_video_transmit_request">"화상 통화 전송 요청 거부"</string>
+        <!-- Description of the target to accept a request to upgrade from any call to a video receive call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_accept_upgrade_to_video_receive_request">"화상 통화 수신 요청 허용"</string>
+    <!-- Description of the target to decline a request to upgrade from any call to a video receive call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline_upgrade_to_video_receive_request">"화상 통화 수신 요청 거부"</string>
+    <!-- Description of the up direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_up">"<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>하려면 위로 슬라이드합니다."</string>
+    <!-- Description of the left direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_left">"<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>하려면 왼쪽으로 슬라이드합니다."</string>
+    <!-- Description of the right direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_right">"<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>하려면 오른쪽으로 슬라이드합니다."</string>
+    <!-- Description of the down direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_down">"<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>하려면 아래로 슬라이드합니다."</string>
+    <!-- Dialog title for the vibration settings for voicemail notifications [CHAR LIMIT=40] -->
+    <string name="voicemail_notification_vibrate_when_title" msgid="8731372580674292759">"진동"</string>
+    <!-- Dialog title for the vibration settings for voice mail notifications [CHAR LIMIT=40]-->
+    <string name="voicemail_notification_vibarte_when_dialog_title" msgid="8995274609647451109">"진동"</string>
+    <!-- Voicemail ringtone title. The user clicks on this preference to select
+         which sound to play when a voicemail notification is received.
+         [CHAR LIMIT=30] -->
+    <string name="voicemail_notification_ringtone_title">"알림음"</string>
+    <!--  The string used to describe a notification if it is the default one in the system. For
+          example, if the user selects the default notification, it will appear as something like
+          Default sound(Capella) in the notification summary.
+          [CHAR LIMIT=40] -->
+    <string name="default_notification_description">"기본 알림음(<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+    <string name="menu_start_record">"통화 녹음"</string>
+    <string name="menu_stop_record">"녹음 중지"</string>
+    <string name="recording_time_text">"녹음 중"</string>
+    <string name="volume_boost_notify_enabled">"볼륨 높임 켜기"</string>
+    <string name="volume_boost_notify_disabled">"볼륨 높임 끄기"</string>
+    <string name="volume_boost_notify_unavailable">"유선/블루투스 헤드셋을 사용하면 볼륨 여분을 사용할 수 없습니다."</string>
+    <!-- Setting option name to pick ringtone (a list dialog comes up). [CHAR LIMIT=30] -->
+    <string name="ringtone_title" msgid="5379026328015343686">"전화 벨소리"</string>
+    <!-- Setting option name to enable or disable vibration when ringing
+         the phone.
+         [CHAR LIMIT=30] -->
+    <string name="vibrate_on_ring_title">"전화 수신 시 진동"</string>
+    <!-- Title for the category "ringtone", which is shown above ringtone and vibration
+         related settings.
+         [CHAR LIMIT=30] -->
+    <string name="preference_category_ringtone">"벨소리 및 진동"</string>
+    <!-- Label for "Manage conference call" panel [CHAR LIMIT=40] -->
+    <string name="manageConferenceLabel">"다자간 통화 관리"</string>
+    <!-- This can be used in any application wanting to disable the text "Emergency number" -->
+    <string name="emergency_call_dialog_number_for_display">"긴급 전화"</string>
+    <!-- Phrase describing a time duration using seconds [CHAR LIMIT=16] -->
+    <plurals name="duration_seconds">
+        <item quantity="one">"1초"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g>초"</item>
+    </plurals>
+    <!-- Phrase describing a time duration using minutes [CHAR LIMIT=16] -->
+    <plurals name="duration_minutes">
+        <item quantity="one">"1분"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g>분"</item>
+    </plurals>
+    <!-- Phrase describing a time duration using hours [CHAR LIMIT=16] -->
+    <plurals name="duration_hours">
+        <item quantity="one">"1시간"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g>시간"</item>
+    </plurals>
+    <!-- Description of the profile photo shown when the device's camera is disabled udring a video
+        call. [CHAR LIMIT=NONE] -->
+    <string name="profile_photo_description">"프로필 사진"</string>
+    <!-- Description of the "camera off" icon displayed when the device's camera is disabled during
+         a video call. [CHAR LIMIT=NONE] -->
+    <string name="camera_off_description">"카메라 꺼짐"</string>
+    <!-- Title for Select Account Dialog [CHAR LIMIT=30] -->
+    <string name="select_account_dialog_title">"계정 선택"</string>
+    <!-- Set Subscription screen: label sub 1 -->
+    <string name="sub_1">"SUB 1"</string>
+    <!-- Set Subscription screen: label sub 2 -->
+    <string name="sub_2">"SUB 2"</string>
+    <!-- Used to inform the user that a call was received via a number other than the primary
+        phone number associated with their device. [CHAR LIMIT=16] -->
+    <string name="child_number">"수신 번호: <xliff:g id="CHILD_NUMBER">%s</xliff:g>"</string>
+    <!-- Used to inform the user that the note associated with an outgoing call has been sent.
+         [CHAR LIMIT=32] -->
+    <!--Begin add for RCS -->
+    <string name="onscreenMoreMenuText">"추가 메뉴"</string>
+    <string name="note_sent">"메모가 전송되었습니다."</string>
+    <string name="call_state_dialing">"전화 거는 중"</string>
+    <string name="call_state_holding">"대기"</string>
+    <string name="call_state_active">"활성"</string>
+    <string name="call_state_unknown">"알 수 없음"</string>
+    <string name="call_state_disconnecting">"연결을 끊는 중"</string>
+    <string name="call_state_disconnected">"연결 끊김"</string>
+    <string name="video_call_downgrade_without_lte_toast">"LTE 통화권 지역을 벗어나면 통화가 다운그레이드됩니다."</string>
+    <string name="display_rich_screen">"진한 화면을 표시하시겠습니까?"</string>
+    <string name="rcs_missdnaddress_string">"누락된 주소:"</string>
+    <string name="rcs_greeting_string">"인사말:"</string>
+    <!--End add for RCS-->
+    <string name="toast_change_video_call_failed">"화상 통화로 변경할 수 없습니다. 잘못된 번호 형식입니다."</string>
+    <string name="toast_make_video_call_failed">"화상 통화를 걸 수 없습니다. 잘못된 번호 형식입니다."</string>
+    <!-- Add for enhance videocall ui -->
+    <string name="overflowBothCallMenuItemText">"화상 통화, 표시"</string>
+    <string name="overflowRXCallMenuItemText">"화상 통화, 숨기기"</string>
+    <string name="overflowVOCallMenuItemText">"음성 통화"</string>
+    <string name="toast_video_call_upgrade">"현재 화상 통화를 수락할 수 없습니다."</string>
+    <string name="toast_video_call_downgrade_to_voice_call">"화상 통화는 현재 고속 LTE 및 Wi-Fi 네트워크를 통해서만 사용할 수 있습니다."</string></resources>

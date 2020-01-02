@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Rcs App!</string>
+    <string name="app_name">"RCS"</string>
+    <string name="phoneAppLabel">"电话"</string>
+    <string name="share_file">"FS"</string>
+    <string name="share_image">"IS"</string>
+    <string name="im">"聊天工具"</string>
+    <string name="share_video">"VS"</string>
+    <string name="share_image1">"分享"</string>
+    <string name="cancel">"取消"</string>
+    <string name="StartRCS">StartRCS</string>
+    <string name="StopRCS">"停止 RCS"</string>
+    <string name="UnknownUser">"未知"</string>
+    <string name="UnknownNumber">"无号码"</string>
+    <string name="Uri">sip:8888888888@verizon.com </string>
+    <string name="CapabilityUpdatedTime">"功能上次更新时间：2012 年 9 月 25 日晚上 10:35"</string>
+    <string name="ShareFile">"FT"</string>
+    <string name="ShareImage">"分享图片"</string>
+    <string name="ShareVideo">"分享视频"</string>
+    <string name="Prefix">"前缀"</string>
+    <string name="Suffix">"后缀"</string>
+    <string name="ApplyPrefix">"将前缀应用于所有项"</string>
+    <string name="ApplySuffix">"将后缀应用于所有项"</string>
+    <string name="ImChatTitle"></string>
+    <string name="ImStatusTitle">"状态: "</string>
+    <string name="SendImText">"发送"</string>
+    <string name="FileName">"文件名"</string>
+    <string name="TransferStatus">"传输"</string>
+    <string name="SettingsTitle">"功能设置"</string>
+    <string name="FileShare">"文件分享"</string>
+    <string name="InstantMessage">"即时消息"</string>
+    <string name="ImageShare">"图片分享"</string>
+    <string name="VideoShare">"视频分享"</string>
+    <string name="Save">"保存"</string>
+    <string name="StopSharing">"停止分享"</string>
+    <string name="StopReceiving">"停止接收"</string>
+    <string name="EndCall">"结束通话"</string>
+    <string name="TransferFile">"传输文件"</string>
+    <string name="Config_test">"测试配置"</string>
+    <string name="IS_Transfer">"图片传输"</string>
+    <string name="Ft_Receive">Ft_Receive</string>
+    <string name="UserName">"用户名"</string>
+    <string name="vt">"VT "</string>
+    <string name="volte">"VOLTE"</string>
+    <string name="TransferDone">"完成"</string>
+    <string name="TransferAborted">"已中止"</string>
+    <string name="TransferCancelled">"已取消"</string>
+    <string name="FileTransfer">"文件传输"</string>
+    <string name="AddressBook">"地址簿"</string>
+    <string name="ContactCapability">"联系人功能"</string>
+    <string name="AddUsers">"添加用户"</string>
+    <string name="imsenablertext">"IMS 启用程序"</string>
+    <string name="publishtext">"发布"</string>
+    <string name="subscribepollingtext">"可用性抓取"</string>
+    <string name="subscribesimpletext">"功能轮询 "</string>
+    <string name="unsubscribetext">"取消订阅"</string>
+    <string name="listsubscribesimpletext">"列表功能轮询 "</string>
+    <string name="listsubscribepollingtext">"列表可用性抓取"</string>
+    <string name="listunsubscribetext">"列表取消订阅"</string>
+    <string name="settingstext">"设置"</string>
+    <string name="myinfotext">"我的信息"</string>
+    <string name="myNumtext">"我的号码"</string>
+    <string name="uri1text">"前缀"</string>
+    <string name="uri2text">"后缀"</string>
+    <string name="oktext">"确定"</string>
+    <string name="canceltext">"取消"</string>
+    <string name="publishbuttontext">"发布"</string>
+    <string name="publishstatustext">"发布新状态"</string>
+    <string name="contactinfotext">"联系信息"</string>
+    <string name="personalinfotext">"个人信息"</string>
+    <string name="serviceDescriptiontext">"服务说明"</string>
+    <string name="servicecaptext">"服务功能"</string>
+    <string name="statusicontext">"状态图标"</string>
+    <string name="descriptiontext">"说明"</string>
+    <string name="vertext">"版本"</string>
+    <string name="serviceIdtext">"服务 ID"</string>
+    <string name="basicstatustext">"基本状态"</string>
+    <string name="timestamptext">"时间戳"</string>
+    <string name="isAudioSupportedtext">"音频"</string>
+    <string name="isVideoSupportedtext">"视频"</string>
+    <string name="startvideocalltext">"启动 VT 呼叫"</string>
+    <string name="startaudiocalltext">"启动 HD 呼叫"</string>
+    <string name="donetext">"完成"</string>
+    <string name="bs_open_text">"打开"</string>
+    <string name="bs_closed_text">"已关闭"</string>
+    <string name="sc_supported_text">"True"</string>
+    <string name="sc_notsupported_text">"False"</string>
+    <string name="True">"True"</string>
+    <string name="False">"False"</string>
+    <string name="notify_settings_text">"通知格式设置"</string>
+    <string name="set_notify_fmt_text">"设置通知格式"</string>
+    <string name="set_text">"设置"</string>
+    <string name="get_text">"获取"</string>
+    <string name="timer_settings_text">"计时器设置"</string>
+    <string name="availability_cache_exp_text">"可用性缓存有效期"</string>
+    <string name="capability_cache_exp_text">"功能缓存有效期"</string>
+    <string name="capability_poll_interval_text">"功能轮询间隔"</string>
+    <string name="capability_poll_list_exp_text">"功能轮询列表订阅有效期"</string>
+    <string name="source_throttle_publish_text">"源限制发布"</string>
+    <string name="retry_info_text">"重试设置"</string>
+    <string name="subscribe_retry_text">"订阅重试间隔"</string>
+    <string name="publish_retry_text">"发布重试间隔"</string>
+    <string name="list_subscription_settings_text">"列表订阅设置"</string>
+    <string name="max_list_entries_text">"列表订阅中的最大条目数"</string>
+    <string name="multi_select_text">"包括在列表订阅中"</string>
+    <string name="select_all_text">"全部选中"</string>
+    <string name="select_none_text">"全部不选"</string>
+    <string name="fmt_struct_text">"结构格式"</string>
+    <string name="fmt_xml_text">"XML 格式"</string>
+    <string name="event_report_settings_text">"活动报告设置"</string>
+    <string name="enable_publish_trigger_ind_text">"启用发布触发器指示"</string>
+    <string name="enable_enabler_state_ind_text">"启用启用程序状态指示"</string>
+    <string name="enable_notify_ind_text">"启用通知指示"</string>
+    <string name="live_logging_text">"实时日志记录"</string>
+    <string name="vt_settings_text">"视频 "</string>
+    <string name="ft_settings_text">"文件传输 "</string>
+    <string name="chat_settings_text">"聊天 "</string>
+    <string name="vt_setting">"视频设置"</string>
+    <string name="data_status">"移动数据状态"</string>
+    <string name="data_on_off_status">"移动数据："</string>
+    <string name="refresh_contacts_text">"刷新"</string>
+    <!-- STRING FOR RELIANCE MODE -->
+    <string name="RelianceMode">"依赖模式"</string>
+    <string name="SipOption">"SIP 选项"</string>
+    <string name="OneShotMessage">"单次拍摄消息"</string>
+    <string name="ShortCode">"短代码"</string>
+    <string name="RelSetting">"设置"</string>
+    <string name="Auto">"自动"</string>
+    <string name="Manual">"手动"</string>
+    <string name="StatusText">"状态文字"</string>
+    <string name="StatusMsg">"状态消息"</string>
+    <string name="Disposition">"处理"</string>
+    <string name="ExpiryTime">"过期时间"</string>
+    <string name="DisplayNoti">"显示/发送通知"</string>
+    <string name="DeliveryNoti">"发送通知"</string>
+    <string name="StatusOffline">"离线"</string>
+    <string name="StautsOnline">"在线"</string>
+    <string name="StatusAway">"离开"</string>
+    <string name="StatusBusy">"忙碌"</string>
+    <string name="StatusMsg_prompt">"选择您的状态"</string>
+    <string name="smAction_prompt">"选择您的操作"</string>
+    <string name="SCAction">"动作"</string>
+    <string name="MessageBody">"消息正文"</string>
+    <string name="browse">"浏览文件"</string>
+    <string name="activeOneShotText">"有效的单次拍摄"</string>
+    <string name="groupCreateText">"创建群组"</string>
+    <string-array name="smAction_arrays">
+        <item>"余额查询"</item>
+        <item>"余额充值"</item>
+        <item>"未开票金额查询"</item>
+        <item>"余额/信用转帐"</item>
+        <item>"群组创建"</item>
+        <item>"群组更新"</item>
+        <item>"群组删除"</item>
+        <item>"其他操作"</item>
+    </string-array>
+    <!-- STRINGS for ATT -->
+    <string name="group_sessions_text">"群组会话"</string>
+    <string name="active_sessions_text">"活动会话"</string>
+    <string name="list_query_text">"列表查询"</string>
+    <string name="individual_query_text">"单个查询"</string>
+    <string name="config_text">"配置"</string>
+    <string name="sm_text">"SM"</string>
+    <string name="service_text">"服务开启/关闭"</string>
+    <string name="presence_text">"存在"</string>
+    <string name="standalone_text">"独立"</string>
+    <string name="browse_text">"浏览 XML 文件"</string>
+    <string name="xml_text">"XML 内容："</string>
+    <string name="name_text">"名称"</string>
+    <string name="to_text">"收件人"</string>
+    <string name="cc_text">"抄送"</string>
+    <string name="bcc_text">"密送"</string>
+    <string name="start_group_sm_text">"启动群组 SM"</string>
+    <string name="start_group_chat_text">"启动群聊"</string>
+    <string name="group_query_text">"群组查询"</string>
+    <string name="send_delivery_text">"发送传送通知"</string>
+    <string name="send_display_text">"发送显示通知"</string>
+    <string name="request_delivery_text">"请求发送"</string>
+    <string name="request_display_text">"请求显示"</string>
+    <string name="display_display_title_text">" 通知设置"</string></resources>

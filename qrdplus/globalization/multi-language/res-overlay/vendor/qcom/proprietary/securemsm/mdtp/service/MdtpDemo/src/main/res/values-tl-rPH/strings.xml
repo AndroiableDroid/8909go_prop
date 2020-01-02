@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"User App ng MDTP: Pangunahing Screen"</string>
+    <string name="config_app">"User App ng MDTP: Kumpigurasyon"</string>
+    <string name="server_app">"Server ng MDTP: Pangunahing Screen"</string>
+    <string name="action_settings">"Mga setting"</string>
+    <string name="label_1_1">"Estado ng MDTP:"</string>
+    <string name="state_deactivated">"Naka-deactivate"</string>
+    <string name="state_activated">"In-activate"</string>
+    <string name="configuration">"Kumpigurasyon (bago lang sa pagpapagana)"</string>
+    <string name="service_activate">"Humiling ng pagpapagana ng MDTP mula sa mga serbisyo ng MDTP"</string>
+    <string name="service_deactivate">"Humiling ng hindi pagpapagana ng MDTP mula sa mga serbisyo ng MDTP"</string>
+    <string name="local_deactivate">"Hindi pagpapagana ng lokal na MDTP (gamit ang PIN)"</string>
+    <string name="service_console">"Console ng mga Serbisyo ng MDTP"</string>
+    <string name="title_activity_configuration">"Kumpigurasyon ng User"</string>
+    <string name="label_2_1">"Gamitin ang Lokal na PIN:"</string>
+    <string name="label_2_2">"PIN:"</string>
+    <string name="gen_rand_pin">"Gumawa ng Random na PIN"</string>
+    <string name="label_2_3">"Ratio ng Pagpapatotoo:"</string>
+    <string name="label_2_5">"Paganahin ang SIM Lock:"</string>
+    <string name="label_2_6">"Mga karagdagang file/direktoryong patototohanan:"</string>
+    <string name="reset">"I-reset sa mga default"</string>
+    <string name="label_3_1">"Nagpapadala ng mga utos mula sa server papunta sa aparato:"</string>
+    <string name="activate">"I-activate"</string>
+    <string name="deactivate">"I-deactivate"</string>
+    <string name="locksim">"I-lock ang SIM"</string>
+    <string name="unlocksim">"I-unlock ang SIM"</string>
+    <string name="killfunc">"Patayin ang paggana"</string>
+    <string name="restorefunc">"Ibalik ang paggana"</string>
+    <string name="label_3_2">"Mga hiling sa hindi pagpapagana ng MDTP:"</string>
+    <string name="notallowed">"Hindi pinapayagan"</string>
+    <string name="allowed">"Pinapayagan"</string>
+    <string name="label_3_3">"Mga hiling sa pag-unblock ng SetupWizard:"</string>
+    <string name="label_3_4">"Log ng Serbisyo:"</string>
+    <string name="wizard_app_loading_title">"MDTP SetupWizard: Ini-initialize..."</string>
+    <string name="label_4_1">"Naka-block ang SetupWizard dahil ang estado ng MDTP ay gumagana"</string>
+    <string name="label_4_2">"Opsyon A: Panatiliing gumagana ang MDTP pero humiling ng pahintulot sa server"</string>
+    <string name="wiz_unblock">"Humiling ng pag-unblock ng SetupWizard mula sa mga Serbisyo ng MDTP"</string>
+    <string name="wiz_cont">"Magpatuloy (pinahintulutan ng server)"</string>
+    <string name="label_4_3">"Opsyon B: Huwag paganahin ang MDTP (aalisin ang SetupWizard blocking)"</string>
+    <string name="wiz_remote">"Mag-request ng remote na pag-deactivate ng MDTP"</string>
+    <string name="wiz_local">"Lokal na hindi pagpapagana ng MDTP"</string>
+    <string name="label_4_4">"Pinahihintulutan ang SetupWizard na magpatuloy dahil ang estado ng MDTP ay HINDI gumagana"</string>
+    <string name="wiz_complete">"Kupletuhin ang SetupWizard (ang estadong MDTP ay hindi gumagana)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"Setup Wizard"</string>
+    <string name="label_signup_message">"Kasalukuyang hindi gumagana ang MDTP.\nGusto mo ba ito paganahin?"</string>
+    <string name="label_signup_message_activated">"Matagumpay na pinagana ang MDTP!"</string>
+    <string name="skip_activation">"Laktawan ang Pagpapagana"</string>
+    <string name="emergency_dialer">"Pang-emergency na Dialer"</string>
+    <string name="wiz_title_sign_up">"MDTP SetupWizard - Mag-sign Up"</string>
+    <string name="wiz_title_reset_prot">"MDTP SetupWizard - Factory Reset ng Proteksiyon"</string>
+    <string name="wiz_title_boot_block">"MDTP SetupWizard - Naka-block ang Aparato"</string>
+    <string name="block_boot_warning_text">"Binlock ng MDTP ang aparatong ito dahil sa panloob na error.\n\nPaki-reboot ang aparato."</string>
+    <string name="start_wifi_wizard">"I-setup ang WiFi"</string>
+    <string name="default_pin_hint">"Ang default na PIN ay 11111"</string>
+    <string name="pin_dialog_title">"Kailangan ng Lokal na PIN sa Hindi Pagpapagana ng MDTP"</string>
+    <string name="pin_input_validation_warning">"Ang ipinasok ay dapat 5 digit at numero"</string></resources>

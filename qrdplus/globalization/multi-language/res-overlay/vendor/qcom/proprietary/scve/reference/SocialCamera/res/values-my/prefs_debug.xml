@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"ချွတ်ယွင်းချက်ရှာပြင်ဆင်မှု မက်ထရစ်အချိုးများ ပြသပါ"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"ရုပ်ပုံများ သိမ်းဆည်းပါ"</string>
+    <string name="debug_pref_save_pictures_desc">"ရိုက်ယူထားသည့် ပုံရိပ်များကို SDCard သို့သိမ်းဆည်းပါ"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"ကြိုတင်ကြည့်ရှုမှုဘောင်များ သိမ်းဆည်းပါ"</string>
+    <string name="debug_pref_save_preview_frames_desc">"ကြိုတင်ကြည့်ရှုမှုဘောင်များကို SDCard သို့သိမ်းဆည်းပါ"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"ကြိုတင်ကြည့်ရှမှု ဘောင်များချခြင်းကို ခွင့်ပြုပါ"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"ကြိုတင်ကြည့်ရှုမှု ဘောင်များကို သိမ်းဆည်းသည့်အခါ၊ ဘောင်နှုန်းထားပြုပြင်ရန် ဘောင်များချခြင်းကို ခွင့်ပြုပါ"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"မျက်နှာကို မှတ်မိခြင်း verbose ဝင်ရောက်ခြင်းကို ဖွင့်ပါ"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

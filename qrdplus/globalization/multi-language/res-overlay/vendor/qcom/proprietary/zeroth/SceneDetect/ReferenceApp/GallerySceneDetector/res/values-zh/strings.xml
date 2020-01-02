@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"QC 图库场景检测"</string>
+    <add-resource type="string" name="app_description"/>
+    <string name="app_description">"图片的自动场景检测。"</string>
+    <add-resource type="string" name="settings_menu"/>
+    <string name="settings_menu">"设置"</string>
+    <add-resource type="string" name="about_menu"/>
+    <string name="about_menu">"关于"</string>
+    <add-resource type="string" name="clearassetdatabase_menu"/>
+    <string name="clearassetdatabase_menu">"清除数据库"</string>
+    <add-resource type="string" name="resetapp_menu"/>
+    <string name="resetapp_menu">"重置应用"</string>
+    <add-resource type="string" name="imageview_description"/>
+    <string name="imageview_description">"图片缩略图"</string>
+    <!--  filter UI -->
+    <add-resource type="string" name="filter_filter_header_text"/>
+    <string name="filter_filter_header_text">"过滤"</string>
+    <add-resource type="string" name="reset_filter_button_text"/>
+    <string name="reset_filter_button_text">"清除"</string>
+    <add-resource type="string" name="udc_add_dialog_title"/>
+    <string name="udc_add_dialog_title">"添加新概念"</string>
+    <add-resource type="string" name="udc_add_dialog_ok"/>
+    <string name="udc_add_dialog_ok">"添加"</string>
+    <add-resource type="string" name="udc_add_dialog_cancel"/>
+    <string name="udc_add_dialog_cancel">"取消"</string>
+    <!-- gallery mode processing -->
+    <add-resource type="string" name="engine_notification_title"/>
+    <string name="engine_notification_title">"Qualcomm Technologies Inc, Zeroth SceneDetect"</string>
+    <add-resource type="string" name="engine_notification_scanning"/>
+    <string name="engine_notification_scanning">"场景检测正在扫描您的设备..."</string>
+    <add-resource type="string" name="engine_notification_analyzing"/>
+    <string name="engine_notification_analyzing">"场景检测正在分析您的照片..."</string>
+    <add-resource type="string" name="engine_notification_training"/>
+    <string name="engine_notification_training">"场景检测正在更新您的模型..."</string>
+    <add-resource type="string" name="engine_notification_storing"/>
+    <string name="engine_notification_storing">"将分类结果存储到数据库..."</string>
+    <!--  first part: number, second part: already formatted minutes or seconds -->
+    <add-resource type="string" name="engine_notification_togo"/>
+    <string name="engine_notification_togo">"场景检测正在分析您的照片：%1$d 剩余，%2$s 剩余。"</string>
+    <add-resource type="string" name="engine_notification_togo_minutes"/>
+    <string name="engine_notification_togo_minutes">"%1$d 分钟"</string>
+    <add-resource type="string" name="engine_notification_togo_minute"/>
+    <string name="engine_notification_togo_minute">"1分钟"</string>
+    <add-resource type="string" name="engine_notification_togo_seconds"/>
+    <string name="engine_notification_togo_seconds">"%1$d 秒"</string>
+    <add-resource type="string" name="loading_notification"/>
+    <string name="loading_notification">"正在加载"</string>
+    <!-- used in parsing preference values for threshold file -->
+    <add-resource type="string" name="asset_prefix"/>
+    <string name="asset_prefix">"assets://"</string>
+    <add-resource type="string" name="sdcard_prefix"/>
+    <string name="sdcard_prefix">"sdcard://"</string>
+    <add-resource type="string" name="splash_screen_logo_image"/>
+    <string name="splash_screen_logo_image">"闪屏标识图片。"</string>
+    <add-resource type="string" name="all_photos"/>
+    <string name="all_photos">"所有照片"</string>
+    <add-resource type="string" name="all_videos"/>
+    <string name="all_videos">"所有视频"</string>
+    <add-resource type="string" name="all_media"/>
+    <string name="all_media">"所有媒体"</string>
+    <add-resource type="string" name="album_title"/>
+    <string name="album_title">"专辑"</string>
+    <!-- not used for some reason
+    <string name="gallery_bic_tab_title">Filter</string> -->
+    <add-resource type="string" name="gallery_udc_tab_title"/>
+    <string name="gallery_udc_tab_title">"个人"</string>
+    <add-resource type="string" name="positive_example_desc"/>
+    <string name="positive_example_desc">"图片用作正面培训示例"</string>
+    <add-resource type="string" name="negative_example_desc"/>
+    <string name="negative_example_desc">"图片用作反面培训示例"</string>
+    <add-resource type="string" name="video_notification"/>
+    <string name="video_notification">"视频"</string>
+    <add-resource type="string" name="create_udc_action_title"/>
+    <string name="create_udc_action_title">"创建概念"</string>
+    <add-resource type="string" name="add_positive_training_example_title"/>
+    <string name="add_positive_training_example_title">"添加正面"</string>
+    <add-resource type="string" name="add_negative_training_example_title"/>
+    <string name="add_negative_training_example_title">"添加反面"</string>
+    <add-resource type="string" name="train_udc_multiselect_title"/>
+    <string name="train_udc_multiselect_title">"培训概念"</string>
+    <add-resource type="string" name="create_udc_multiselect_title"/>
+    <string name="create_udc_multiselect_title">"创建概念"</string>
+    <add-resource type="string" name="multiselect_num_selected_suffix"/>
+    <string name="multiselect_num_selected_suffix">"选中"</string></resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <string name="app_label">"ອາໄຫຼ່"</string>
+    <string name="device_info_title">"ຂໍ້ມູນອຸປະກອນ"</string>
+    <string name="title_battery_history">"ປະຫວັດຂອງແບັດເຕີຣີ"</string>
+    <string name="summary_battery_history">"ສະຫຼຸບສັງລວມວິທີການທີ່ແບັດເຕີຣີຖືກໃຊ້ງານ"</string>
+    <string name="title_battery_information">"ຂໍ້ມູນແບັດເຕີຣີ"</string>
+    <string name="summary_battery_information">"ຂໍ້ມູນສະຖານະແບັດເຕີຣີປະຈຸັນ"</string>
+    <string name="title_usage_statistics">"ສະຖິຕິການໃຊ້"</string>
+    <string name="summary_usage_statistics">"ສັງລວມການໃຊ້ແອັບພລິເຄຊັນ"</string>
+    <string name="general_title">"ທົ່ວໄປ"</string>
+    <string name="title_window_animations">"ພາບເຄື່ອນໄຫວໜ້າຕ່າງ"</string>
+    <string name="summary_window_animations">"ຄວາມໄວຂອງພາບເຄື່ອນໄຫວໃນແຕ່ລະໜ້າຕ່າງສະເພາະ"</string>
+    <string name="dialog_title_window_animations">"ເລືອກຄວາມໄວໜ້າຕ່າງ"</string>
+    <string name="title_transition_animations">"ພາບເຄື່ອນໄຫວການປ່ຽນຍ້າຍ"</string>
+    <string name="summary_transition_animations">"ຄວາມໄວຂອງພາບເຄື່ອນໄຫວທີ່ເຄື່ອນທີ່ລະຫວ່າງໜ້າຈໍ"</string>
+    <string name="dialog_title_transition_animations">"ເລືອກການປ່ຽນ"</string>
+    <string name="title_fancy_ime_animations">"ພາບເຄື່ອນໄຫວການປ້ອນຂໍ້ມູນທີ່ແຟນຊີ"</string>
+    <string name="summary_on_fancy_ime_animations">"ໃຊ້ພາບເຄື່ອນໄຫວທີ່ແຟນຊີກວ່າສຳລັບໜ້າຕ່າງວິທີການປ້ອນຂໍ້ມູນ"</string>
+    <string name="summary_off_fancy_ime_animations">"ໃຊ້ພາບເຄື່ອນໄຫວປົກກະຕິສຳລັບໜ້າຕ່າງວິທີການປ້ອນຂໍ້ມູນ"</string>
+    <string name="title_haptic_feedback">"ການຕອບສະໜອງລະບົບສຳຜັດ"</string>
+    <string name="summary_on_haptic_feedback">"ໃຊ້ການຕອບສະໜອງຕໍ່ການສຳພັດດ້ວຍການປະຕິສຳພັນຂອງຜູ້ໃຊ້"</string>
+    <string name="summary_off_haptic_feedback">"ໃຊ້ການຕອບສະໜອງຕໍ່ການສຳພັດດ້ວຍການປະຕິສຳພັນຂອງຜູ້ໃຊ້"</string>
+    <string name="title_font_size">"ຂະໜາດຟອນ"</string>
+    <string name="summary_font_size">"ຂະໜາດໂດຍລວມຂອງຟອນ"</string>
+    <string name="dialog_title_font_size">"ເລືອກຂະໜາດຟອນ"</string>
+    <string name="title_end_button">"ພຶດຕິກຳປຸ່ມສິ້ນສຸດ"</string>
+    <string name="summary_end_button">"ເລືອກການກະທຳປຸ່ມສິ້ນສຸດ (ສີແດງ)"</string>
+    <string name="dialog_title_end_button">"ເລືອກປຸ່ມສິ້ນສຸດ"</string>
+    <string name="applications_title">"ແອັບພລິເຄຊັນຕ່າງໆ"</string>
+    <!-- Sound & display settings screen, compatibility mode check box label -->
+    <string name="compatibility_mode_title">"ໂໝດຄວາມເຂົ້າກັນໄດ້"</string>
+    <!-- Sound & display settings screen, compatibility mode option summary text when check box is selected -->
+    <string name="compatibility_mode_summary_on">"ແລ່ນໃຊ້ງານແອັບເກົ່າໃນໂໝດຄວາມເຂົ້າກັນໄດ້. ນີ້ຈະຕ້ອງໄດ້ເລີ່ມລະບົບໃໝ່. "</string>
+    <!-- Sound & display settings screen, compatibility mode option summary text when check box is clear -->
+    <string name="compatibility_mode_summary_off">"ແລ່ນໃຊ້ງານແອັບເກົ່າໃນໂໝດຄວາມເຂົ້າກັນໄດ້. ນີ້ຈະຕ້ອງໄດ້ເລີ່ມລະບົບໃໝ່. "</string></resources>

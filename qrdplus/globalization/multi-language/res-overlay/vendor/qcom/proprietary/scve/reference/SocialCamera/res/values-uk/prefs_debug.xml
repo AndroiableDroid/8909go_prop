@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Показники налагодження дисплея"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"Зберігати зображення"</string>
+    <string name="debug_pref_save_pictures_desc">"Зберігати зняті зображення на картці SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"Зберігати кадри попереднього перегляду"</string>
+    <string name="debug_pref_save_preview_frames_desc">"Зберігати кадри попереднього перегляду на картці SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Дозволити пропуск кадрів попереднього перегляду"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"Під час збереження кадрів попереднього перегляду дозволити пропускання кадрів для підтримки частоти кадрів"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Увімкнути детальне журналювання розпізнавання облич"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

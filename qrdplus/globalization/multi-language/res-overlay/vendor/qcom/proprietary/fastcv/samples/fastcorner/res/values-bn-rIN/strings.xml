@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FastCV নমুনা অ্যাপ"</string>
+    <string name="label_text">"এখানে টাইপ করুন: "</string>
+    <string name="textview01_text">"TextView01"</string>
+    <string name="startpreview_text">"শুরু করুন"</string>
+    <string name="stoppreview_text">"থামুন"</string>
+    <string name="settings">"সেটিংস"</string>
+    <string name="txtAcceleration">"গতি টগল করুন"</string>
+    <string name="about">"সম্বন্ধে"</string>
+    <string name="versionNumber_text">"FastCV সংস্করণ"</string>
+    <string name="appName_text">"অ্যাপ্লিকেশনের নাম"</string>
+    <string name="appName">"FastCV কর্ণার শনাক্ত নমুনা অ্যাপ্লিকেশন"</string>
+                <string-array name="cornerDetectorDownSampleArray">
+       <item>1 </item>
+       <item>2 </item>
+       <item>4 </item>
+       <item>8 </item>
+       <item>16 </item>
+    </string-array>
+    <string-array name="cornerDetectorDownSampleValuesArray">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+       <item>3</item>
+       <item>4</item>
+    </string-array>
+ <string-array name="cornerDetectorThresholdArray">
+       <item>5 </item>
+       <item>10 </item>
+       <item>20 </item>
+       <item>40 </item>
+       <item>80 </item>
+    </string-array>
+        <string-array name="cornerDetectorValuesArray">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+       <item>3</item>
+       <item>4</item>
+    </string-array>
+<string-array name="CameraOnOffArray">
+       <item>"ভিউফাইন্ডার চালু "</item>
+       <item>"ভিউফাইন্ডার বন্ধ "</item>
+    </string-array>
+    <string-array name="CameraOnOffValuesArray">
+       <item>0</item>
+       <item>1</item>
+       </string-array>
+<string-array name="CornerOnOnOffArray">
+       <item>"কর্নার ওভারলে অক্ষম করুন  "</item>
+       <item>"কর্নার ওভারলে সক্ষম করুন "</item>
+     </string-array>
+    <string-array name="CornerOnOffValuesArray">
+       <item>0</item>
+       <item>1</item>
+     </string-array>
+<string-array name="GaussianOnOffArray">
+       <item>"Gaussian 3x3 ফিল্টার অক্ষম করুন  "</item>
+       <item>"Gaussian 3x3 ফিল্টার সক্ষম করুন "</item>
+     </string-array>
+    <string-array name="GaussianOnOffValuesArray">
+       <item>0</item>
+       <item>1</item>
+     </string-array></resources>

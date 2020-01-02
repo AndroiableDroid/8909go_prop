@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Zobraziť metriku ladenia"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"Uložiť obrázky"</string>
+    <string name="debug_pref_save_pictures_desc">"Uložiť zosnímané obrázky na kartu SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"Uložiť snímky s ukážkou"</string>
+    <string name="debug_pref_save_preview_frames_desc">"Uložiť snímky s ukážkou na kartu SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Umožniť vynechávanie snímok s ukážkou"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"Pri ukladaní snímok s ukážkou umožniť vynechávanie snímok na zachovanie snímkovej frekvencie"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Povoliť podrobné zapisovanie rozpoznania tváre"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

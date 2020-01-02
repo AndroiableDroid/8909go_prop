@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"Deň má dvadsať štyri hodín"</string>
+    <string name="hi_snapdragon">"Ahoj Snapdragon"</string>
+    <string name="hey_snapdragon">"Ahoj Snapdragon"</string>
+    <string name="my_voice">"Môj hlas je moje heslo"</string>
+    <string name="make_my_day">"Poteš ma"</string>
+    <string name="tomorrow_is_another">"Aj zajtra je deň"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"Vitajte v San Diegu"</string>
+    <string name="okay_google">"OK Google"</string>
+    <string name="open_my_email">"Otvor Môj e-mail"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"Hlasový odtlačok"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"Nastavenia"</string>
+    <string name="action_add">"Pridať"</string>
+    <string name="title_activity_main_with_fragment">"Hlavná s fragmentovou aktivitou"</string>
+    <string name="tap_mic_start">"Spustite klepnutím na mikrofón"</string>
+    <string name="tap_mic_stop">"Zastavte klepnutím na mikrofón"</string>
+    <string name="say_key_phrase">"Povedzte \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"Povedzte frázu \"&lt;b&gt;%1$s&lt;/b&gt;\" ešte raz."</string>
+    <string name="say_one_of_key_phrases">"Povedzte jednu z kľúčových fráz"</string>
+    <string name="phrase_recognized">"Fráza \"&lt;b&gt;%1$s&lt;/b&gt;\" je rozpoznaná "</string>
+    <string name="recording_length_exceeded">"Prekročená dĺžka nahrávania"</string>
+    <string name="recording_length_exceeded_msg">"Dĺžka nahrávania je prekročená. Skúste znovu."</string>
+    <string name="delete_all">"Odstrániť všetky"</string>
+    <string name="delete_all_msg">"Naozaj chcete odstrániť všetky zaznamenané šablóny?"</string>
+    <string name="got_it">"Výborne! Mám to."</string>
+    <string name="set_key_phrase">"Nastaviť kľúčovú frázu"</string>
+    <string name="set_key_phrase_name">"Nastaviť názov kľúčovej frázy"</string>
+    <string name="set_key_phrase_action">"Nastaviť akciu"</string>
+    <string name="change_key_phrase_action">"Zmeniť akciu"</string>
+    <string name="phrase_strength">"Sila frázy"</string>
+    <string name="phrase_strength_hint">"Skúste frázu obsahujúcu najmenej tri slová."</string>
+    <string name="register_phrase">"Registrovať frázu"</string>
+    <string name="register_phrase_hint">"Pomôžte mi rozpoznať váš hlas tým, že frázu \"&lt;b&gt;%1$s&lt;/b&gt;\" nahráte trikrát."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" Nahrávajte v tichej miestnosti.\n\n"<b>"2."</b>" Nedržte telefón tesne pri ústach.\n\n"<b>"3."</b>" Vyslovte kľúčovú frázu prirodzene."</string>
+    <string name="ready_to_record">"OK, MÔŽEME NAHRÁVAŤ"</string>
+    <string name="oops">"Hops! Skúste znovu."</string>
+    <string name="say_the_phrase">"Vyslovte frázu \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"Fráza \"&lt;b&gt;%1$s&lt;/b&gt;\" sa zaregistrovala"</string>
+    <string name="say_the_phrase_few_more">"Povedzte \"&lt;b&gt;%1$s&lt;/b&gt;\" ešte niekoľkokrát"</string>
+    <string name="voice_print">"Hlasový odtlačok"</string>
+    <string name="cancel">"Zrušiť"</string>
+    <string name="voice_level">"Úroveň hlasu"</string>
+    <string name="background_noise">"Šum pozadia"</string>
+    <string name="cap_done">"HOTOVO"</string>
+    <string name="cap_record">"ZÁZNAM"</string>
+    <string name="cap_next">"ĎALEJ"</string>
+    <string name="cap_ok">"OK"</string>
+    <string name="next">"Ďalej"</string>
+    <string name="new_key_phrase">"Nová kľúčová fráza"</string>
+    <string name="edit_keyphrases">"Upraviť kľúčové frázy"</string>
+    <string name="set_name">"Nastaviť názov"</string>
+    <string name="select_key_phrase">"Vybrať kľúčovú frázu"</string>
+    <string name="set_action">"Nastaviť akciu"</string>
+    <string name="registration_complete">"Registrácia dokončená"</string>
+    <string name="confirm_pin">"Potvrdiť číslo PIN"</string>
+    <string name="confirm_pin_msg">"Ak chcete upraviť kľúčové frázy, zadajte číslo PIN zariadenia."</string>
+    <string name="your_key_phrase">"Vaša kľúčová fráza"</string>
+    <string name="cap_redo">"ZNOVA"</string>
+    <string name="cap_redo_previous">"ZOPAKOVAŤ PREDOŠLÚ"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"Prehliadať odporúčané frázy"</string>
+    <string name="create_your_own">"Vytvoriť vlastnú frázu"</string>
+    <string name="skip">"Preskočiť"</string>
+    <string name="none">"Žiadny"</string>
+    <string name="enter_pin">"Ak chcete upraviť kľúčové frázy, zadajte číslo PIN zariadenia."</string>
+    <string name="your_key_phrase_name">"Názov vašej kľúčovej frázy"</string>
+    <string name="new_key_phrase_name">"Názov novej kľúčovej frázy"</string>
+    <string name="set_service_to_launch">"Nastaviť spustenie služby"</string>
+    <string name="email">"E-mail"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"Poslať textovú správu"</string>
+    <string name="use_selected_phrase">"Použiť vybratú frázu"</string>
+    <string name="about">"Informácie"</string>
+    <string name="edit_key_phrases">"Upraviť kľúčové frázy"</string>
+    <string name="invalid_phrasename_title">"Neplatný názov frázy"</string>
+    <string name="invalid_phrasename_msg">"Názov frázy nemôže byť prázdny."</string>
+    <string name="duplicate_phrasename_msg">"Tento názov frázy už existuje. Skúste iný názov."</string>
+    <string name="invalid_phrase_title">"Neplatná fráza"</string>
+    <string name="invalid_phrase_msg">"Fráza nemôže byť prázdna."</string>
+    <string name="edit_action">"Upraviť akciu"</string>
+    <string name="threshold">"Prah"</string>
+    <string name="delete_phrase">"Odstrániť frázu"</string>
+    <string name="rename">"Zmeniť názov"</string>
+    <string name="rename_keyphrase">"Zmeniť názov kľúčovej frázy"</string>
+    <string name="adjust_keyword_sensitivity">"Upraviť citlivosť kľúčového slova"</string>
+    <string name="adjust_keyword_sensitivity_summary">"Citlivosť je možné upraviť, aby sa umožnila určitá odchýlka pri rozpoznávaní frázy."</string>
+    <string name="sensitivity">"Citlivosť"</string>
+    <string name="low_sensitivity">"Nízka citlivosť"</string>
+    <string name="med_sensitivity">"Stredná citlivosť"</string>
+    <string name="high_sensitivity">"Vysoká citlivosť"</string>
+    <string name="low">"NÍZKA"</string>
+    <string name="med">"STREDNÁ"</string>
+    <string name="high">"HIGH"</string>
+    <string name="low_sensitivity_summary">"Akceptovať väčšiu odchýlku v procese rozpoznávania kľúčovej frázy."</string>
+    <string name="med_sensitivity_summary">"Akceptuje sa určitá odchýlka v procese rozpoznávania kľúčovej frázy, ale niektoré kľúčové frázy sa nemusia rozpoznať."</string>
+    <string name="high_sensitivity_summary">"Vyššie zabezpečenie, ale niektoré kľúčové frázy sa nemusia rozpoznať."</string>
+    <string name="keyword_sensitivity">"Citlivosť kľúčového slova"</string>
+    <string name="delete_phrase_msg">"Naozaj chcete odstrániť frázu \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"Hlasový odtlačok nie je k dispozícii"</string>
+    <string name="voice_print_not_available_msg">"Hlasový odtlačok nie je na tomto zariadení povolený."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"Odstránenie úspešné"</string>
+    <string name="delete_success_msg">"Model kľúčovej frázy sa odstránil."</string>
+    <string name="delete_fail_title">"Odstránenie neúspešné"</string>
+    <string name="delete_fail_msg">"Pri odstraňovaní modelu kľúčovej frázy došlo k chybe."</string>
+    <string name="rename_success_title">"Premenovanie úspešné"</string>
+    <string name="rename_success_msg">"Model kľúčovej frázy sa premenoval."</string>
+    <string name="rename_fail_title">"Premenovanie neúspešné"</string>
+    <string name="rename_fail_msg">"Pri premenovaní modelu kľúčovej frázy došlo k chybe."</string>
+    <string name="pin_validation">"Overenie kódom PIN"</string>
+    <string name="pin_failed">"Neplatné zadanie kódu PIN!"</string>
+    <string name="registration_failed">"Zaznamenanie neúspešné"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"Prah používateľa"</string>
+    <string name="spoof_score">"Prah oklamania"</string>
+    <string name="thresholds">"Prahy"</string>
+    <string name="save">"Uložiť"</string>
+    <string name="sentence_score_msg">"Nastaviť prah vety"</string>
+    <string name="user_score_msg">"Nastaviť prah používateľa"</string>
+    <string name="spoof_score_msg">"Nastaviť prah oklamania"</string>
+    <string name="sentence_score">"Prah vety"</string></resources>

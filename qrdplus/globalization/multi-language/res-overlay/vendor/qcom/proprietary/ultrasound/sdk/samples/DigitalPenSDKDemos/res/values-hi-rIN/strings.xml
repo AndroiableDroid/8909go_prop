@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK डेमो"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"विस्तारित ऑफ़स्क्रीन"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"पृष्ठभूमि साइड-चैनल"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"अंगुली बनाम स्टायलस + दबाव"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"अक्ष झुकाव"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"होवर करना और साइड-बटन"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"इरेज़र और इरेज़र बायपास"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"यह डेमो ऑफ़-स्क्रीन सुविधा को दर्शाता है.\n\n1. ऑफ़-स्क्रीन आरेखित करें और अपनी ड्रॉइंग दाईं ओर देखें.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. वर्चुअल स्क्रीन के निचले दाएँ कोने पर एक बटन मौजूद है. वृत्त की पारदर्शिता को बदलने के लिए इसके ऊपर विभिन्न ऊँचाइयों पर होवर करें.\n\n3. वृत्त का रंग बदलने के लिए इसे दबाएँ."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"डेमो यह दर्शाता है कि जब स्क्रीन चालू या बंद होती है, तो पृष्ठभूमि का साइड चैनल कैसे संचालित हो सकता है.\n\n1. ऑफ़-स्क्रीन आरेखित करें और अपनी ड्रॉइंग दाईं ओर देखें.\n\n2. अब दूसरे ऐप पर स्विच करें, या स्क्रीन को बंद पर सेट करें - आपकी ड्रॉइंग अब भी रिकॉर्ड होती है."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"ऑन-स्क्रीन होवर"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. स्क्रीन के ऊपर विभिन्न ऊँचाइयों पर होवर करें.\n\n2. होवर करना अक्षम करने के लिए स्विच का उपयोग करें.\n\n3. होवरिंग ईवेंट के लिए अधिकतम दूरी सेट करने के लिए स्लाइडर का उपयोग करें.\n\n4. साइड-बटन दबाने से होवर वृत्त का रंग बदल जाएगा."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. कृपया वैश्विक सेटिंग्स में SDP बटन को इरेज़र बटन के रूप में कॉन्फ़िगर करें.\n\n2. ड्रॉ करें\n\n3. इरेज़र को टॉगल करने के लिए टैप करें पर सेट करें. इरेज़र बटन दबाएँ. मिटाएँ. मिटाएँ बटन फिर से दबाने पर, यह पेन मोड में स्विच होता है.\n\n4. इरेज़र को मिटाने के लिए पकड़ें पर सेट करें. अब आप स्पर्श पर तत्काल मिटा सकते हैं.\n\n5. अब इरेज़र कार्यक्षमता को अक्षम करने के लिए इरेज़र बायपास स्विच का उपयोग करें."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"इरेज़र बायपास"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"इरेज़र कैनवस"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"पेन द्वारा और फिर आपकी अंगुली द्वारा आरेखित करें.\nदोनों विधियों की पहचान भिन्न रंग द्वारा होती है.\nस्ट्रोक की चौड़ाई दबाव द्वारा सेट होती है, जो सांख्यिक रूप से भी दृश्यमान होती है."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"दबाव"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

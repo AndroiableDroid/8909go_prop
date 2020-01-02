@@ -1,0 +1,113 @@
+<resources>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+    <string name="app_name">"SeempJService"</string>
+    <string-array name="cause_description_array">
+<item>"6:3:Beobachtung von Benutzereingaben/-interaktionen bei im Hintergrund ausgeführter oder für den Benutzer unsichtbarer App"</item>
+    <item>"7:5:Verdächtige Verwendung der Android-UID "</item>
+    <item>"8:5:Verdächtige Verwendung der Android-UID, während App im Hintergrund ausgeführt"</item>
+    <item>"9:5:Verdächtiger Zugriff auf vertrauliche Geräte-Informationen"</item>
+    <item>"10:5:Verdächtiger Zugriff auf vertrauliche Geräte-Informationen bei im Hintergrund ausgeführter App"</item>
+    <item>"11:4:Verdächtiger Zugriff auf Telefonnummer"</item>
+    <item>"12:4:Zugriff auf Telefonnummer, während App nicht mit Benutzer interagiert"</item>
+    <item>"13:2:App versucht nicht autorisierten Anruf"</item>
+    <item>"14:2:App versucht nicht autorisierten Anruf während Ausführung der App im Hintergrund"</item>
+    <item>"15:4:Unnormaler Zugriff auf vertrauliche Benutzerkonto-Informationen"</item>
+    <item>"16:4:Unnormaler Zugriff auf vertrauliche Benutzerkonto-Informationen, während App nicht mit Benutzer interagiert"</item>
+    <item>"17:4:App greift ohne Benachrichtigung des Benutzers auf vertrauliche Kontoinformationen zu"</item>
+    <item>"18:4:App im Hintergrund greift ohne Benachrichtigung des Benutzers auf vertrauliche Kontoinformationen zu"</item>
+    <item>"19:3:Verdächtiger Zugriff auf vertrauliche Browser-Informationen"</item>
+    <item>"20:3:Verdächtiger Zugriff auf vertrauliche Browser-Informationen bei im Hintergrund ausgeführter App"</item>
+    <item>"21:3:Verdächtiger Zugriff auf vertrauliche Browser-Informationen (darunter evtl. vertrauliche Benutzerdaten), während App nicht mit Benutzer interagiert"</item>
+    <item>"22:3:Verdächtiger Zugriff auf vertrauliche Browser-Informationen (darunter evtl. vertrauliche Benutzerdaten), während App nicht mit Benutzer interagiert und im Hintergrund ausgeführt"</item>
+    <item>"23:6:Unnormale/übermäßige Installation von Verknüpfungen"</item>
+    <item>"24:6:App im Hintergrund versucht Installation von Verknüpfung"</item>
+    <item>"25:6:App versucht Installation von Verknüpfung ohne Benutzereingriff"</item>
+    <item>"26:6:App im Hintergrund versucht Installation von Verknüpfung ohne Benutzereingriff"</item>
+    <item>"27:4:Zugriff auf vertrauliche Kalender-Informationen"</item>
+    <item>"28:4:Verdächtiger Zugriff auf vertrauliche Kalender-Informationen bei im Hintergrund ausgeführter App"</item>
+    <item>"29:1:Informationen/Termine werden ohne Benutzereingriff in Kalender eingetragen"</item>
+    <item>"30:1:Informationen/Termine werden ohne Benutzereingriff bei im Hintergrund ausgeführter App in Kalender eingetragen"</item>
+    <item>"31:5:Unnormaler/übermäßiger Zugriff auf Standortinformationen"</item>
+    <item>"32:5:Unnormaler/übermäßiger Zugriff auf Standortinformationen bei im Hintergrund ausgeführter App"</item>
+    <item>"37:3:Verdächtige Kameraverwendung (evtl. mit Fotoaufnahmen)"</item>
+    <item>"38:3:Verdächtige Kameraverwendung (evtl. mit Fotoaufnahmen) bei im Hintergrund ausgeführter App"</item>
+    <item>"39:3:Bilder (und evtl. Videos) werden aufgenommen und an Remote-Server übertragen"</item>
+    <item>"40:3:Bilder (und evtl. Videos) werden aufgenommen und an Remote-Server übertragen, während App im Hintergrund ausgeführt"</item>
+    <item>"41:3:Bilder (und evtl. Videos) werden ohne Benutzereingriff aufgenommen"</item>
+    <item>"42:3:Bilder (und evtl. Videos) werden ohne Benutzereingriff bei im Hintergrund ausgeführter App aufgenommen"</item>
+    <item>"43:3:Bilder (und evtl. Videos) werden ohne Benutzereingriff aufgenommen und an Remote-Server übertragen"</item>
+    <item>"44:3:Bilder (und evtl. Videos) werden bei im Hintergrund ausgeführter App ohne Benutzereingriff aufgenommen und an Remote-Server übertragen"</item>
+    <item>"45:3:Verdächtige Kameraverwendung (evtl. mit Foto- und Videoaufnahmen)"</item>
+    <item>"46:3:Verdächtige Kameraverwendung (evtl. mit Foto- und Videoaufnahmen) bei im Hintergrund ausgeführter App"</item>
+    <item>"47:3:Videos werden aufgenommen und an Remote-Server übertragen"</item>
+    <item>"48:3:Videos werden bei im Hintergrund ausgeführter App aufgenommen und an Remote-Server übertragen"</item>
+    <item>"49:3:Videos werden ohne Benutzereingriff aufgenommen"</item>
+    <item>"50:3:Videos werden bei im Hintergrund ausgeführter App ohne Benutzereingriff aufgenommen"</item>
+    <item>"51:3:Videos werden ohne Benutzereingriff aufgenommen und an Remote-Server übertragen"</item>
+    <item>"52:3:Videos werden ohne Benutzereingriff bei im Hintergrund ausgeführter App aufgenommen und an Remote-Server übertragen"</item>
+    <item>"53:3:Verdächtige Aufnahme von Mikrofondaten"</item>
+    <item>"54:3:Verdächtige Aufnahme von Mikrofondaten bei im Hintergrund ausgeführter App"</item>
+    <item>"55:3:Verdächtige Aufnahme von Mikrofondaten und Übertragung zu Remote-Server"</item>
+    <item>"56:3:Mikrofondaten werden bei im Hintergrund ausgeführter App aufgezeichnet und an Remote-Server übertragen"</item>
+    <item>"57:3:Verdächtige Aufnahme von Mikrofondaten, während Benutzer nicht mit App interagiert"</item>
+    <item>"58:3:Aufnahme von Mikrofondaten, während Benutzer nicht mit App interagiert und App im Hintergrund ausgeführt"</item>
+    <item>"59:3:Verdächtige Aufnahme und Übertragung von Mikrofondaten, während App nicht mit Benutzer interagiert"</item>
+    <item>"60:3:Mikrofondaten werden aufgezeichnet und übertragen, während App im Hintergrund nicht mit Benutzer interagiert"</item>
+    <item>"61:2:Verdächtige SMS-Aktivität: Versuch des SMS-Versands (evtl. teuer an Premiumnummern)"</item>
+    <item>"62:2:App versucht, SMS zu senden, während im Hintergrund ausgeführt (evtl. teuer an Premiumnummern)"</item>
+    <item>"63:2:Verdächtige SMS-Aktivität: App sendet SMS (evtl. teuer an Premiumnummern) ohne Benutzereingriff"</item>
+    <item>"64:2:App im Hintergrund sendet SMS (evtl. teuer an Premiumnummern) ohne Benutzereingriff"</item>
+    <item>"65:3:Verdächtiger Zugriff auf SMS (inkl. Öffnen und Schreiben)"</item>
+    <item>"66:3:SMS werden bei im Hintergrund ausgeführter App geöffnet und gelesen"</item>
+    <item>"67:3:MS werden ohne Benutzereingriff geöffnet und gelesen"</item>
+    <item>"68:3:SMS werden bei im Hintergrund ausgeführter App ohne Benutzereingriff geöffnet und gelesen"</item>
+    <item>"69:3:Übermäßiger/unnormaler Zugriff auf Sensor-Informationen"</item>
+    <item>"70:3:Unnormaler/übermäßiger Zugriff auf Sensor-Informationen bei im Hintergrund ausgeführter App"</item>
+    <item>"71:3:Verdächtiges Abfangen von MMS-Nachrichten"</item>
+    <item>"72:3:Verdächtiges Abfangen von MMS-Nachrichten bei im Hintergrund ausgeführter App"</item>
+    <item>"73:3:Verdächtiges Abfangen von MMS-Nachrichten ohne Benutzereingriff"</item>
+    <item>"74:3:Verdächtiges Abfangen von MMS-Nachrichten ohne Benutzereingriff bei im Hintergrund ausgeführter App"</item>
+    <item>"75:4:Unnormaler Zugriff auf die Informationen eines oder mehrere Kontakte"</item>
+    <item>"76:4:Unnormaler Zugriff auf die Informationen eines oder mehrere Kontakte bei im Hintergrund ausgeführter App"</item>
+    <item>"77:4:Zugriff auf eine oder mehrere Kontaktlisten, während App nicht mit Benutzer interagiert"</item>
+    <item>"78:4:Zugriff auf eine oder mehrere Kontaktlisten, während App im Hintergrund nicht mit Benutzer interagiert"</item>
+    <item>"79:1:Installation von verdächtiger Drittanwendung"</item>
+    <item>"80:1:Installation von verdächtiger Drittanwendung bei im Hintergrund ausgeführter App"</item>
+    <item>"81:1:Installation von verdächtiger Drittanwendung, während App nicht mit Benutzer interagiert"</item>
+    <item>"82:1:Installation von verdächtiger Drittanwendung, während App im Hintergrund nicht mit Benutzer interagiert"</item>
+    <item>"83:5:Übermäßige/unnormale Übermittlung der Android-UID"</item>
+    <item>"84:5:Übermäßige/unnormale Übermittlung der Android-UID bei im Hintergrund ausgeführter App"</item>
+    <item>"85:5:Zugriff auf und Übermittlung von vertraulichen Geräte-Informationen (darunter evtl. IMEI, SIM-Seriennummer und andere Informationen zum Mobilfunkanbieter)"</item>
+    <item>"86:5:Zugriff auf und Übermittlung von vertraulichen Geräte-Informationen (darunter evtl. IMEI, SIM-Seriennummer und andere Informationen zum Mobilfunkanbieter) bei im Hintergrund ausgeführter App"</item>
+    <item>"87:4:Zugriff auf Benutzer-Telefonnummer und Übertragung an Remote-Server"</item>
+    <item>"88:4:Zugriff auf Benutzer-Telefonnummer und Übertragung an Remote-Server bei im Hintergrund ausgeführter App"</item>
+    <item>"89:4:Unnormale Übermittlung von vertraulichen Benutzerkonto-Informationen/Anmeldedaten (darunter evtl. Kreditkarten- und andere Finanzdaten)"</item>
+    <item>"90:4:Unnormale Übermittlung von vertraulichen Benutzerkonto-Informationen/Anmeldedaten (darunter evtl. Kreditkarten- und andere Finanzdaten) bei im Hintergrund ausgeführter App"</item>
+    <item>"91:3:Zugriff auf und Übermittlung von vertraulichen Browser-Inhalten (darunter evtl. vertrauliche Benutzerdaten)"</item>
+    <item>"92:3:Zugriff auf und Übermittlung von vertraulichen Browser-Inhalten (darunter evtl. vertrauliche Benutzerdaten) bei im Hintergrund ausgeführter App"</item>
+    <item>"93:3:Zugriff auf und Übermittlung von vertraulichen Browser-Inhalten (darunter evtl. vertrauliche Benutzerdaten)"</item>
+    <item>"94:3:Zugriff auf und Übermittlung von vertraulichen Browser-Inhalten (darunter evtl. vertrauliche Benutzerdaten) bei im Hintergrund ausgeführter App"</item>
+    <item>"95:4:Übertragung von Kalender-Informationen (darunter evtl. vertrauliche Benutzerdaten) an einen Remote-Server"</item>
+    <item>"96:4:Übertragung von Kalender-Informationen (darunter evtl. vertrauliche Benutzerdaten) an einen Remote-Server bei im Hintergrund ausgeführter App"</item>
+    <item>"97:5:Unnormaler/übermäßiger Zugriff auf und Übermittlung von Standortinformationen"</item>
+    <item>"98:5:Unnormaler/übermäßiger Zugriff auf und Übermittlung von Standortinformationen bei im Hintergrund ausgeführter App"</item>
+    <item>"99:5:Unnormaler/übermäßiger Zugriff auf und Übermittlung von Standortinformationen"</item>
+    <item>"100:5:Unnormaler/übermäßiger Zugriff auf und Übermittlung von Standortinformationen bei im Hintergrund ausgeführter App"</item>
+    <item>"101:3:Übermäßige/unnormale Übermittlung von Sensor-Informationen"</item>
+    <item>"102:3:Übermäßige/unnormale Übermittlung von Sensor-Informationen bei im Hintergrund ausgeführter App"</item>
+    <item>"103:4:Zugriff auf eine oder mehrere Kontaktlisten und Übermittlung an einen Remote-Server"</item>
+    <item>"104:4:Zugriff auf eine oder mehrere Kontaktlisten und Übermittlung an einen Remote-Server bei im Hintergrund ausgeführter App"</item>
+    <item>"105:4:Zugriff auf eine oder mehrere Kontaktlisten und Übermittlung an einen Remote-Server ohne Benutzereingriff"</item>
+    <item>"106:4:Zugriff auf eine oder mehrere Kontaktlisten und Übermittlung an einen Remote-Server ohne Benutzereingriff bei im Hintergrund ausgeführter App"</item>
+    <item>"109:3:Übermäßiger/unnormaler Zugriff auf Sensor-Informationen"</item>
+    <item>"110:3:Unnormaler/übermäßiger Zugriff auf Sensor-Informationen bei im Hintergrund ausgeführter App"</item>
+    <item>"121:5:Verdächtiger Zugriff auf Einstellungen zur Geräte-ID"</item>
+    <item>"122:5:Verdächtiger Zugriff auf Einstellungen zur Geräte-ID bei im Hintergrund ausgeführter App"</item>
+    <item>"162:3:Verdächtiger Wechsel zu Flugmodus-Einstellungen bei im Hintergrund ausgeführter App"</item>
+    <item>"164:3:Verdächtiger Wechsel zu Alarmeinstellungen bei im Hintergrund ausgeführter App"</item>
+    <item>"202:3:Verdächtige Änderung des WiFi-Status bei im Hintergrund ausgeführter App"</item>
+    </string-array></resources>

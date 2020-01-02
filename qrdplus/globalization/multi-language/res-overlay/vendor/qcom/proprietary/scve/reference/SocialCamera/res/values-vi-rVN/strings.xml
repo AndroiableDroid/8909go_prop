@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Máy ảnh xã hội"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"Đã xảy ra lỗi khi xác minh hoặc yêu cầu quyền. Vui lòng kiểm tra nhật ký để biết thêm chi tiết."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Gửi (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"Mất kết nối với máy ảnh"</string>
+    <string name="camera_preview_error_camera_error">"Lỗi từ máy ảnh: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Không chụp được ảnh"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Đã xảy ra lỗi khi lưu ảnh vào bộ sưu tập của bạn"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Cài đặt"</string>
+    <string name="camera_settings_category_camera_settings">"Cài đặt máy ảnh"</string>
+    <string name="camera_settings_category_fr_settings">"Cài đặt nhận diện khuôn mặt"</string>
+    <string name="camera_settings_category_debug_settings">"Cài đặt gỡ lỗi"</string>
+    <string name="camera_settings_fr_database_cleared">"Đã xóa cơ sở dữ liệu nhận diện khuôn mặt"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Loại bỏ"</string>
+    <string name="picture_review_send_faces">"Gửi (%d)"</string>
+    <string name="picture_review_no_faces">"Không tìm thấy ai trong ảnh này"</string>
+    <string name="picture_review_error_face_recognition">"Đã xảy ra lỗi khi nhận diện khuôn mặt"</string>
+    <string name="picture_review_error_face_enroll">"Rất tiếc, đã xảy ra lỗi khi lưu khuôn mặt. Vui lòng chụp ảnh khác của chủ thể và thử lại."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Người liên hệ khác\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Cài đặt chia sẻ"</string>
+    <string name="fr_share_settings_button_just_once">"Chỉ một lần"</string>
+    <string name="fr_share_settings_button_always">"Luôn chọn"</string>
+    <string name="fr_share_settings_share_method_sms">"Tin nhắn"</string>
+    <string name="fr_share_settings_share_method_email">"Email"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Vui lòng kiểm tra!"</string>
+    <string name="social_sharing_error_no_email_app">"Bạn không có ứng dụng nào có thể gửi email"</string></resources>

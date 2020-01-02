@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"MDTP 用户应用：主屏幕"</string>
+    <string name="config_app">"MDTP 用户应用：配置"</string>
+    <string name="server_app">"MDTP 服务器：主屏幕"</string>
+    <string name="action_settings">"设置"</string>
+    <string name="label_1_1">"MDTP 状态："</string>
+    <string name="state_deactivated">"已禁用"</string>
+    <string name="state_activated">"已激活"</string>
+    <string name="configuration">"配置（仅在激活前）"</string>
+    <string name="service_activate">"要求 MDTP 服务激活 MDTP"</string>
+    <string name="service_deactivate">"要求 MDTP 服务禁用 MDTP"</string>
+    <string name="local_deactivate">"禁用本地 MDTP（使用 PIN 码）"</string>
+    <string name="service_console">"MDTP 服务控制台"</string>
+    <string name="title_activity_configuration">"用户配置"</string>
+    <string name="label_2_1">"使用本地 PIN 码："</string>
+    <string name="label_2_2">"PIN 码："</string>
+    <string name="gen_rand_pin">"生成随机 PIN 码"</string>
+    <string name="label_2_3">"验证比率："</string>
+    <string name="label_2_5">"启用 SIM 卡锁定："</string>
+    <string name="label_2_6">"要验证的其他文件/目录："</string>
+    <string name="reset">"重置为默认设置"</string>
+    <string name="label_3_1">"将命令从服务器发送到设备："</string>
+    <string name="activate">"激活"</string>
+    <string name="deactivate">"取消激活"</string>
+    <string name="locksim">"锁定 SIM 卡"</string>
+    <string name="unlocksim">"解锁 SIM 卡"</string>
+    <string name="killfunc">"关闭功能"</string>
+    <string name="restorefunc">"还原功能"</string>
+    <string name="label_3_2">"要求禁用 MDTP："</string>
+    <string name="notallowed">"不允许"</string>
+    <string name="allowed">"允许"</string>
+    <string name="label_3_3">"要求取消屏蔽设置向导："</string>
+    <string name="label_3_4">"服务日志："</string>
+    <string name="wizard_app_loading_title">"MDTP 设置向导：正在初始化..."</string>
+    <string name="label_4_1">"由于激活 MDTP 状态而屏蔽设置向导"</string>
+    <string name="label_4_2">"选项 A：保持 MDTP 激活，但要求服务器授权"</string>
+    <string name="wiz_unblock">"要求 MDTP 服务取消屏蔽设置向导"</string>
+    <string name="wiz_cont">"继续（由服务器授权）"</string>
+    <string name="label_4_3">"选项 B：禁用 MDTP（将移除设置向导屏蔽）"</string>
+    <string name="wiz_remote">"要求禁用远程 MDTP"</string>
+    <string name="wiz_local">"禁用本地 MDTP"</string>
+    <string name="label_4_4">"允许设置向导继续，因为 MDTP 状态未激活"</string>
+    <string name="wiz_complete">"完成设置向导（MDTP 状态未激活）"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"设置向导"</string>
+    <string name="label_signup_message">"MDTP 目前未激活。\n要激活吗？"</string>
+    <string name="label_signup_message_activated">"MDTP 成功激活！"</string>
+    <string name="skip_activation">"略过激活步骤"</string>
+    <string name="emergency_dialer">"紧急拨号器"</string>
+    <string name="wiz_title_sign_up">"MDTP 设置向导 - 注册"</string>
+    <string name="wiz_title_reset_prot">"MDTP 设置向导 - 恢复出厂设置保护"</string>
+    <string name="wiz_title_boot_block">"MDTP 设置向导 - 设备已屏蔽"</string>
+    <string name="block_boot_warning_text">"由于内部错误，MDTP 已屏蔽该设备。\n\n请重启设备。"</string>
+    <string name="start_wifi_wizard">"设置 WLAN"</string>
+    <string name="default_pin_hint">"默认 PIN 码是 11111"</string>
+    <string name="pin_dialog_title">"需要 MDTP 本地禁用 PIN 码"</string>
+    <string name="pin_input_validation_warning">"输入值必须为 5 位数字"</string></resources>

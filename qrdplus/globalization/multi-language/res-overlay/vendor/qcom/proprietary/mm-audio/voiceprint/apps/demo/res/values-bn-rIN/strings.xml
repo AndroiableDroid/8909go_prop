@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"এক দিনে চব্বিশ ঘন্টা থাকে"</string>
+    <string name="hi_snapdragon">"হ্যালো Snapdragon"</string>
+    <string name="hey_snapdragon">"শুনছেন Snapdragon"</string>
+    <string name="my_voice">"আমার কণ্ঠস্বরই আমার পাসওয়ার্ড"</string>
+    <string name="make_my_day">"দিন সফল হোক"</string>
+    <string name="tomorrow_is_another">"আগামীকাল অন্য এক দিন"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"সান দিয়েগোতে স্বাগতম"</string>
+    <string name="okay_google">"ঠিক আছে Google"</string>
+    <string name="open_my_email">"আমার ইমেল খুলুন"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"ভয়েস প্রিন্ট"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"সেটিংস"</string>
+    <string name="action_add">"যোগ করুন"</string>
+    <string name="title_activity_main_with_fragment">"ফ্র্যাগমেন্ট ক্রিয়াকলাপ সহ মুখ্য"</string>
+    <string name="tap_mic_start">"আরম্ভ করতে মাইক ট্যাপ করুন"</string>
+    <string name="tap_mic_stop">"স্থগিত করতে মাইক ট্যাপ করুন"</string>
+    <string name="say_key_phrase">"\"&lt;b&gt;%1$s&lt;/b&gt;\" বলুন"</string>
+    <string name="say_one_more_time">"\"&lt;b&gt;%1$s&lt;/b&gt;\" ফ্রেজটিকে আরেকবার বলুন।"</string>
+    <string name="say_one_of_key_phrases">"কোনো একটি কী ফ্রেজ বলুন"</string>
+    <string name="phrase_recognized">"\"&lt;b&gt;%1$s&lt;/b&gt;\" ফ্রেজটিকে শনাক্ত করা হয়েছে "</string>
+    <string name="recording_length_exceeded">"রেকর্ডিং-এর দৈর্ঘ্য অতিক্রান্ত হয়েছে"</string>
+    <string name="recording_length_exceeded_msg">"রেকর্ডিং-এর দৈর্ঘ্য অতিক্রান্ত হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।"</string>
+    <string name="delete_all">"সমস্ত মুছুন"</string>
+    <string name="delete_all_msg">"আপনি কি নিশ্চিতরূপে সব এনরোল করা টেমপ্লেট মুছতে চান?"</string>
+    <string name="got_it">"দারুন! আমি বুঝতে পেরেছি।"</string>
+    <string name="set_key_phrase">"কী ফ্রেজ সেট করুন"</string>
+    <string name="set_key_phrase_name">"কী ফ্রেজের নাম সেট করুন"</string>
+    <string name="set_key_phrase_action">"ক্রিয়াকলাপ সেট করুন"</string>
+    <string name="change_key_phrase_action">"ক্রিয়াকলাপ পরিবর্তন করুন"</string>
+    <string name="phrase_strength">"ফ্রেজের আকার"</string>
+    <string name="phrase_strength_hint">"অন্তত তিনটি শব্দ সহ একটি ফ্রেজ ব্যবহার করে দেখুন।"</string>
+    <string name="register_phrase">"ফ্রেজ রেজিস্টার করুন"</string>
+    <string name="register_phrase_hint">"আমাকে আপনার কণ্ঠস্বর শনাক্ত করায় সহায়তা করতে, অনুগ্রহ করে \"&lt;b&gt;%1$s&lt;/b&gt;\" ফ্রেজটিকে তিনবার রেকর্ড করুন।"</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" একটি নীরব ঘরের মধ্যে রেকর্ড করুন।\n\n"<b>"2."</b>" ফোনটিকে আপনার মুখ থেকে কিছুটা দূরে ধরে থাকুন।\n\n"<b>"3."</b>" আপনার কী ফ্রেজটিকে স্বাভাবিকভাবে বলুন।"</string>
+    <string name="ready_to_record">"ঠিক আছে, আমি রেকর্ড করার জন্য প্রস্তুত"</string>
+    <string name="oops">"ওহো! আবার চেষ্টা করুন।"</string>
+    <string name="say_the_phrase">"\"&lt;b&gt;%1$s&lt;/b&gt;\" ফ্রেজটি বলুন"</string>
+    <string name="phrase_registered">"\"&lt;b&gt;%1$s&lt;/b&gt;\" ফ্রেজটি রেজিস্টার করা হয়েছে"</string>
+    <string name="say_the_phrase_few_more">"আরও কয়েকবার \"&lt;b&gt;%1$s&lt;/b&gt;\" বলুন"</string>
+    <string name="voice_print">"ভয়েস প্রিন্ট"</string>
+    <string name="cancel">"বাতিল"</string>
+    <string name="voice_level">"ভয়েস লেভেল"</string>
+    <string name="background_noise">"পটভূমির আওয়াজ"</string>
+    <string name="cap_done">"হয়ে গেছে"</string>
+    <string name="cap_record">"রেকর্ড"</string>
+    <string name="cap_next">"পরবর্তী"</string>
+    <string name="cap_ok">"ঠিক আছে"</string>
+    <string name="next">"পরবর্তী"</string>
+    <string name="new_key_phrase">"নতুন কী ফ্রেজ"</string>
+    <string name="edit_keyphrases">"কী ফ্রেজগুলি সম্পাদনা করুন"</string>
+    <string name="set_name">"নাম সেট করুন"</string>
+    <string name="select_key_phrase">"কী ফ্রেজ নির্বাচন করুন"</string>
+    <string name="set_action">"ক্রিয়াকলাপ সেট করুন"</string>
+    <string name="registration_complete">"রেজিস্ট্রেশন সম্পূর্ণ হয়েছে"</string>
+    <string name="confirm_pin">"PIN নম্বর নিশ্চিত করুন"</string>
+    <string name="confirm_pin_msg">"কী ফ্রেজগুলি সম্পাদনা করতে ডিভাইসের PIN নম্বর টাইপ করুন।"</string>
+    <string name="your_key_phrase">"আপনার কী ফ্রেজ"</string>
+    <string name="cap_redo">"রিডু"</string>
+    <string name="cap_redo_previous">"পূর্ববর্তী রিডু করুন"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"প্রস্তাবিত ফ্রেজগুলি ব্রাউজ করুন"</string>
+    <string name="create_your_own">"আপনার নিজস্ব ফ্রেজ তৈরি করুন"</string>
+    <string name="skip">"ছাড়ুন"</string>
+    <string name="none">"কিছু নয়"</string>
+    <string name="enter_pin">"কী ফ্রেজগুলি সম্পাদনা করতে ডিভাইসের PIN নম্বর টাইপ করুন।"</string>
+    <string name="your_key_phrase_name">"আপনার কী ফ্রেজের নাম"</string>
+    <string name="new_key_phrase_name">"নতুন কী ফ্রেজের নাম"</string>
+    <string name="set_service_to_launch">"পরিষেবা আরম্ভ করার জন্য সেট করুন"</string>
+    <string name="email">"ইমেল"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"টেক্সট বার্তা প্রেরণ করুন"</string>
+    <string name="use_selected_phrase">"নির্বাচিত ফ্রেজ ব্যবহার করুন"</string>
+    <string name="about">"সম্বন্ধে"</string>
+    <string name="edit_key_phrases">"কী ফ্রেজগুলি সম্পাদনা করুন"</string>
+    <string name="invalid_phrasename_title">"ফ্রেজের অবৈধ নাম"</string>
+    <string name="invalid_phrasename_msg">"ফ্রেজের নাম খালি রাখা যাবেনা।"</string>
+    <string name="duplicate_phrasename_msg">"ফ্রেজের নাম ইতিমধ্যেই বিদ্যমান। অন্য কোনো নাম ব্যবহার করে চেষ্টা করুন।"</string>
+    <string name="invalid_phrase_title">"অবৈধ ফ্রেজ"</string>
+    <string name="invalid_phrase_msg">"ফ্রেজ খালি রাখা যাবেনা।"</string>
+    <string name="edit_action">"ক্রিয়াকলাপ সম্পাদনা করুন"</string>
+    <string name="threshold">"থ্রেসহোল্ড"</string>
+    <string name="delete_phrase">"ফ্রেজ মুছুন"</string>
+    <string name="rename">"নাম পরিবর্তন করুন"</string>
+    <string name="rename_keyphrase">"কী ফ্রেজের নাম পরিবর্তন করুন"</string>
+    <string name="adjust_keyword_sensitivity">"কীওয়ার্ড সংবেদনশীলতা নিয়ন্ত্রণ করুন"</string>
+    <string name="adjust_keyword_sensitivity_summary">"কী ফ্রেজটিকে শনাক্ত করার ক্ষেত্রে কিছুটা পরিবর্তন অনুমোদন করার জন্য সংবেদনশীলতাকে নিয়ন্ত্রণ করা যেতে পারে।"</string>
+    <string name="sensitivity">"সংবেদনশীলতা"</string>
+    <string name="low_sensitivity">"নিম্ন সংবেদনশীলতা"</string>
+    <string name="med_sensitivity">"মধ্যম সংবেদনশীলতা"</string>
+    <string name="high_sensitivity">"উচ্চ সংবেদনশীলতা"</string>
+    <string name="low">"নিম্ন"</string>
+    <string name="med">"মধ্যম"</string>
+    <string name="high">"উচ্চ"</string>
+    <string name="low_sensitivity_summary">"কী ফ্রেজ শনাক্তকরণ প্রক্রিয়ায় আরও পরিবর্তন গ্রহণ করুন।"</string>
+    <string name="med_sensitivity_summary">"কী ফ্রেজ শনাক্তকরণ প্রক্রিয়ায় কিছু পরিবর্তন গ্রহণ করে, কিন্তু কিছু কী ফ্রেজের শনাক্তকরণকে রদ করতে পারে।"</string>
+    <string name="high_sensitivity_summary">"অতিরিক্ত সুরক্ষা, কিন্তু কিছু কী ফ্রেজের শনাক্তকরণকে রদ করতে পারে।"</string>
+    <string name="keyword_sensitivity">"কীওয়ার্ড সংবেদনশীলতা"</string>
+    <string name="delete_phrase_msg">"আপনি কি নিশ্চিতরূপে \"%1$s\" ফ্রেজটিকে মুছতে চান?"</string>
+    <string name="voice_print_not_available_title">"ভয়েস প্রিন্ট উপলভ্য নয়"</string>
+    <string name="voice_print_not_available_msg">"এই ডিভাইসে ভয়েস প্রিন্ট সক্ষম করা হয়নি।"</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"সফলভাবে মোছা হয়েছে"</string>
+    <string name="delete_success_msg">"কীফ্রেজ মডেলটি মুছে ফেলা হয়েছে।"</string>
+    <string name="delete_fail_title">"মুছতে ব্যর্থ হয়েছে"</string>
+    <string name="delete_fail_msg">"কীফ্রেজ মডেলটি মোছার সময় কোনো ত্রুটি ঘটেছে।"</string>
+    <string name="rename_success_title">"পুনরায় নামকরণ সফল হয়েছে"</string>
+    <string name="rename_success_msg">"কীফ্রেজ মডেলটির পুনরায় নামকরণ করা হয়েছে।"</string>
+    <string name="rename_fail_title">"পুনরায় নামকরণ ব্যর্থ হয়েছে"</string>
+    <string name="rename_fail_msg">"কীফ্রেজ মডেলটির পুনরায় নামকরণ করার সময় কোনো ত্রুটি ঘটেছে।"</string>
+    <string name="pin_validation">"PIN-এর বৈধতা যাচাই"</string>
+    <string name="pin_failed">"অবৈধ PIN এন্ট্রি!"</string>
+    <string name="registration_failed">"এনরোলমেন্ট ব্যর্থ হয়েছে"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"ব্যবহারকারী থ্রেসহোল্ড"</string>
+    <string name="spoof_score">"স্পুফ থ্রেসহোল্ড"</string>
+    <string name="thresholds">"থ্রেসহোল্ড"</string>
+    <string name="save">"সংরক্ষণ করুন"</string>
+    <string name="sentence_score_msg">"বাক্যের থ্রেসহোল্ড সেট করুন"</string>
+    <string name="user_score_msg">"ব্যবহারকারী থ্রেসহোল্ড সেট করুন"</string>
+    <string name="spoof_score_msg">"স্পুফ থ্রেসহোল্ড সেট করুন"</string>
+    <string name="sentence_score">"বাক্যের থ্রেসহোল্ড"</string></resources>

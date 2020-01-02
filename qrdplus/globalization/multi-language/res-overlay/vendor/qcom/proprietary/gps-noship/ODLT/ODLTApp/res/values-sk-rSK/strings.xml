@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"Aktivita ladenia GPS"</string>
+     <string name="cameraActivity">"Fotoaparát"</string>
+     <string name="newTrackingSession">"Nová relácia sledovania"</string>
+     <string name="newTrackingSession_nameLabel">"Meno"</string>
+     <string name="newTrackingSession_numFixesLabel">"Číselné opravy"</string>
+     <string name="newTrackingSession_descriptionLabel">"Popis"</string>
+     <string name="newTrackingSession_startButtonLabel">"Spustiť"</string>
+     <string name="testConfig">"Testovať konfiguráciu"</string>
+     <string name="testConfig_configNameLabel">"Názov konfigurácie"</string>
+     <string name="testConfig_numFixesLabel">"Číselné opravy (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"Popis testovania konfigurácie"</string>
+     <string name="testConfig_startButtonLabel">"Spustiť test"</string>
+     <string name="testConfig_RadioLabel">"Sledovanie aplikácie alebo jedno snímanie"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"Jedno snímanie"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"Sledovanie aplikácie"</string>
+     <string name="testConfig_qosTimeoutLabel">"Preferovaný čas odpovede (sek)"</string>
+     <string name="testConfig_qosAccuracyLabel">"Preferovaná presnosť (m)"</string>
+     <string name="testConfig_tbfLabel">"Minimálny interval (sek)"</string>
+     <string name="testConfig_staticTruthLabel">"Statická pravdivá poloha (skontrolujte používanie)"</string>
+     <string name="testConfig_latLabel">"Zemepisná šírka"</string>
+     <string name="testConfig_lonLabel">"Zemepisná dĺžka"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"Loc API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"Služba GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"Typ opakovania"</string>
+     <string name="testConfig_apiTypeLabel">"Typ API"</string>
+    <string name="labelUnknownPrivacy">"neznáme"</string>
+    <string name="labelGetPrivacy">"Získať údaje o ochrane osobných údajov"</string>
+    <string name="labelSetPrivacySetting">"Nastaviť údaje o ochrane osobných údajov"</string>
+    <string name="name_vzw_client">"Klient Vzw"</string>
+    <string name="name_normal_client">"Bežný Android"</string>
+    <string name="LabelModeSel">"Režim"</string>
+    <string name="LabelNumFixSel">"Číslo opravy"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"Stav..."</string>
+    <string name="str_nodata">"Nie sú údaje"</string>
+    <string name="str_waitingforposinfo">"\nČaká sa na informácie o polohe...\n"</string>
+    <string name="str_searchingforsvs">"\nVyhľadávajú sa SV...\n"</string>
+    <string name="str_configsummary">"\nSúhrn konfigurácie\n"</string>
+    <string name="str_alarms">"\nAlarms:\n\n"</string>
+    <string name="str_starttest">"Spustiť test"</string>
+    <string name="str_sessionplayback">"Prehrávanie relácie"</string>
+    <string name="str_proximityalerts">"Výstraha pri priblížení"</string>
+    <string name="str_proximity_info">"Informácie o priblížení"</string>
+    <string name="str_options">"Možnosti"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"Samostatne"</item>
+<item>"AFLT"</item>
+<item>"Rýchlosť bola optimalizovaná"</item>
+<item>"Presnosť bola optimalizovaná"</item>
+<item>"Dáta boli optimalizované"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"Čas (sek) medzi opravami"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"Adresa PDE"</string>
+<string name="LabelAccuracyH">"Preferovaná presnosť (H, m)"</string>
+<string name="LabelAccuracyV">"Preferovaná presnosť (V, m)"</string>
+<string name="LabelMaxResponseTime">"Časový limit (sek)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"Spustiť s normálnym zásobníkom"</string>
+<string name="LabelRunOne">"Spustiť VzW"</string>
+<string name="LabelRunState1">"Test FSM 1"</string>
+<string name="LabelRunState2">"Test FSM 2"</string>
+<string name="EnigneStatus">"Stav nástroja"</string>
+<string name="NA">"NEDOSTUPNÉ"</string>
+<string name="GpsStatus">"Stav GPS"</string>
+<string name="Session">"Relácia"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"Typ"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"Režim"</string>
+<string name="stop">"Zastaviť"</string>
+<string name="labelPdePort">"Port PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"Len 911"</item>
+<item>"Zapnuté"</item>
+</string-array>
+<string name="non_aiding">"Zrušiť označenie všetkých pomocných nástrojov"</string>
+<string name="all_aiding">"Označiť všetky pomocné nástroje"</string>
+<string name="done">"Vymazať označené"</string>
+<string name="Ephemeris">"Efemerida"</string>
+<string name="GLO_Ephemeris">"Efemerida GLO"</string>
+<string name="Alamanac">"Almanach"</string>
+<string name="GLO_Alamanac">"Almanach GLO"</string>
+<string name="Alamanac_Corr">"Almanach Corr"</string>
+<string name="GLO_Alamanac_Corr">"Almanach Corr GLO"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"Riadenie SV"</string>
+<string name="GLO_SV_Steer">"Riadenie GLO SV"</string>
+<string name="Cell_DB_Info">"Informácie o bunke DB"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"Čas GPS"</string>
+<string name="GLO_Time">"Čas GLO"</string>
+<string name="Freq_Bias_Est">"Predpokl. frekv. bias"</string>
+<string name="Time">"Čas"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"Zdravie"</string>
+<string name="SA_Data">"Dáta SA"</string>
+<string name="position">"poloha"</string>
+<string name="str_wbiq_runscript">"Spustiť skript"</string>
+<string name="str_wbiq_stopgps">"Ukončiť režim RF"</string>
+<string name="str_wbiq_startgps">"Spustiť režim RF"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"Automatické prihlasovanie na zariadení"</string>
+<string name="str_wbiq_chk_delaystart">"Spustenie oneskorenia"</string>
+<string name="str_wbiq_chk_autostop">"Automatické zastavenie"</string>
+<string name="str_wbiq_chk_otfsa">"Zapnúť OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"S"</string>
+<string name="str_proximity_clearalerts">"Vymazať výstrahy"</string>
+<string name="str_proximity_savealertsfile">"Uložiť súbor s výstrahami"</string>
+<string name="str_proximity_loadalertsfile">"Načítať súbor s výstrahami"</string>
+<string name="str_proximity_deletealertsfile">"Odstrániť súbor s výstrahami"</string>
+<string name="str_proximity_logging">"Prihlasovanie"</string>
+<string name="str_proximity_autostartenabled">"Automatické spustenie"</string>
+<string name="str_proximity_autostartfile">"Zvoliť súbor auto. spustenia"</string>
+<string name="str_proximity_smsnumber">"Číslo pre SMS upozornenia"</string>
+<string name="str_proximity_geofencelisttab_add">"Pridať"</string>
+<string name="str_proximity_geofencelisttab_delet">"Odstrániť"</string>
+<string name="str_proximity_geofencelisttab_edit">"Upraviť"</string>
+<string name="str_locbatchingtab_btn_s">"S"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF [priemer, min., max.] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"Získať balík"</string>
+<string name="str_powerest_summary">"Súhrn:"</string>
+<string name="str_powerest_plot_label"/></resources>

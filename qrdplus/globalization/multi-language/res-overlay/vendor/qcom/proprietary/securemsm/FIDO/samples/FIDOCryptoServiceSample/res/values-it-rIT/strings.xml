@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Impostazioni"</string>
+    <string name="body_msg">"test FidoCryptoService in corso"</string>
+    <string name="load">"carica"</string>
+    <string name="unload">"scarica"</string>
+    <string name="process">"Elabora"</string>
+    <string name="start">"avvia"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"Associa servizio FIDO"</string>
+    <string name="unbindFido">"Annulla associazione servizio FIDO"</string>
+    <string name="setChallenge">"Imposta sfida"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Autenticatore associazione"</string>
+    <string name="verifyUser">"Verifica utente/Acquisisci token"</string>
+    <string name="GetInfo">"Recupera info"</string>
+    <string name="Register">"Registra"</string>
+    <string name="Deregister">"Annulla registrazione"</string>
+    <string name="OpenSettings">"Apri impostazioni"</string>
+    <string name="Sign">"Firma"</string>
+    <string name="MalformedRequest">"Richiesta non corretta"</string>
+    <string name="selectAuth">"Seleziona autenticatore"</string>
+    <string name="getEnrollmentStatus">"Ottieni stato registrazione"</string>
+    <string name="RegisterExt">"Registra con estensioni"</string>
+    <string name="SignExt">"Firma con estensioni"</string>
+    <string name="encResult">"Risultato incapsulato"</string>
+    <string name="extResult">"Dati estensione"</string>
+    <string name="selectFidoOpText">"seleziona operazione FIDO"</string>
+    <string name="show_message_sui">"mostra messaggio sui"</string>
+    <string name="fido_sui_service">"servizio Sui fido"</string>
+    <string name="bindFidoSui">"associa sui fido"</string>
+    <string name="unbindFidoSui">"annulla associazione sui fido"</string>
+    <string name="suiResultTitle">"mostra risultato sui messaggio"</string>
+    <string name="cancel_sui">"annulla sui"</string>
+    <string name="extensionText">"Vuoi usare le estensioni?"</string>
+    <string name="pngText">"Vuoi usare il contenuto PNG?"</string>
+    <string name="fpText">"Impronte digitali sicure"</string>
+    <string-array name="authenticator_array">
+        <item>"Autenticatore fittizio"</item>
+        <item>"Autenticatore campione"</item>
+        <item>"Assicura autenticatore campione"</item>
+        <item>"Autenticatore estensione di esempio"</item>
+        <item>"Autenticatore estensione sicura"</item>
+        <item>"Autenticatore integrità dispositivo"</item>
+        <item>"Autenticatore di esempio sicuro IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Ottieni info"</item>
+        <item>"Registra"</item>
+        <item>"Annulla registrazione"</item>
+        <item>"Apri impostazioni"</item>
+        <item>"Eccezione non valida"</item>
+        <item>"Firma (Auth)"</item>
+        <item>"Firma (TX)"</item>
+    </string-array></resources>

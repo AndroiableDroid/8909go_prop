@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"IU do Panorama"</string>
+    <string name="title_loading">"Carregando\u2026"</string>
+    <string name="msg_loading">"Processando\u2026"</string>
+    <string name="panorama_saved">"O panorama foi salvo com sucesso na galeria de fotos do seu dispositivo"</string>
+    <string name="panorama_generate_result_failed">"Desculpe, tente novamente."</string>
+    <string name="error_dialog_title">"Erro do App"</string>
+    <string name="btn_ok">"OK"</string>
+    <string name="btn_txt_save">"Salvar Imagem"</string>
+    <string name="err_library_loading">"O app falou ao carregar as bibliotecas nativas."</string>
+    <string name="err_camera_init">"A câmera falhou ao ser inicializada."</string>
+    <string name="err_sensors_init">"Os sensores falharam ao serem inicializados."</string>
+    <string name="err_pano_init">"Falha ao iniciar a API do Panorama."</string>
+    <string name="err_sensors_failed">"Os sensores falharam ao serem inicializados."</string>
+    <string name="err_zsl_failed">"ZSL não é suportado por este dispositivo."</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"Sessão não iniciada"</string>
+    <string name="err_queue_full">"Fila completa"</string>
+    <string name="err_max_key_frames">"Máximo de quadros atingido"</string>
+    <string name="err_no_frame_overlap">"Nenhuma sobreposição entre os quadros"</string>
+    <string name="err_inconsistent_direction">"A direção não é consistente"</string>
+    <string name="err_result_not_ready">"O resultado não está pronto"</string>
+    <string name="err_frame_no_feature">"O quadro tem recursos suficientes"</string>
+    <string name="err_direction_changed">"Direção alterada, clique em OK para ver a imagem do panorama capturada."</string>
+    <string name="err_panorama_loading">"Falha no carregando da imagem do panorama."</string>
+    <string name="err_panorama_saving">"Falha ao salvar a imagem do panorama."</string>
+    <string name="err_api_capturing">"Falha na captura do Panorama."</string>
+    <string name="err_api_halted">"Captura do Panorama suspensa, clique em OK para ver a imagem do panorama capturada."</string>
+    <string name="err_max_limit">"Limite máximo de quadros atingido, clique em OK para ver a imagem do panorama capturada."</string>
+    <string name="err_no_prv">"Nenhuma visualização capturada."</string>
+    <string name="title_settings">"Configurações"</string>
+    <string name="camera_settings">"Configurações da câmera"</string>
+    <string name="camera_settings_picture_size">"Resolução"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"2048x1536"</item>
+        <item>"1920 x 1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string name="camera_settings_exposure_compensation">"Compensação de Exposição"</string>
+    <string name="camera_settings_white_balance">"Balanço de branco"</string>
+    <string-array name="camera_settings_white_balance_entries">
+        <item>"Autom"</item>
+        <item>"Luz do dia"</item>
+        <item>"Fluorescente"</item>
+        <item>"Incandescente"</item>
+        <item>"Sombreamento"</item>
+        <item>"Crepúsculo"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values">
+        <item>"auto"</item>
+        <item>"daylight"</item>
+        <item>"fluorescent"</item>
+        <item>"incandescent"</item>
+        <item>"shade"</item>
+        <item>"twilight"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values_camera2">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>7</item>
+    </string-array>
+    <string name="camera_settings_scene_mode">"Modo de Cena"</string>
+    <string-array name="camera_settings_scene_mode_entries">
+        <item>"Ação"</item>
+        <item>"Autom"</item>
+        <item>"Cena noturna"</item>
+        <item>"Festa"</item>
+        <item>"Pôr-do-sol"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values">
+        <item>"action"</item>
+        <item>"auto"</item>
+        <item>"night"</item>
+        <item>"party"</item>
+        <item>"sunset"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values_camera2">
+        <item>2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"Modo de Foco"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"Contínuo (Vídeo)"</item>
+        <item>"Infinito"</item>
+        <item>"Fixo"</item>
+        <item>"Contínuo (Foto)"</item>
+        <item>"Autom"</item>
+        <item>"Profundidade de Campo Estendida"</item>
+        <item>"Macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"fixed"</item>
+        <item>"continuous-picture"</item>
+        <item>"auto"</item>
+        <item>"edof"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>3</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_iso">ISO</string>
+    <string-array name="camera_settings_iso_entries">
+        <item>"Autom"</item>
+        <item>"Reduzir Instabilidade da Mão"</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="camera_settings_iso_values">
+        <item>"auto"</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>"ISO3200"</item>
+    </string-array>
+    <string name="camera_settings_iso_default">ISO800</string>
+    <string name="pano_settings">"Configurações do Panorama"</string>
+    <string name="pano_settings_scve_mode">"Modo de Operação SCVE"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"Padrão"</item>
+        <item>"CPU p/ descarreg."</item>
+        <item>"Desempenho"</item>
+        <item>"Baixa potência"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_image_compress_level">"Nível de Compressão da Imagem"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_3a_lock">"Bloquear AE/AF/AWB durante a captura do Panorama"</string>
+    <string-array name="pano_settings_enable_3a_lock_entries">
+        <item>"Não"</item>
+        <item>"Sim"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_3a_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_3a_lock_default">"true"</string>
+    <string name="debug_settings">"Configurações de depuração"</string>
+    <string name="debug_settings_enable_loggings">"Registro Detalhado"</string>
+    <string-array name="debug_settings_enable_loggings_entries">
+        <item>"Desativado"</item>
+        <item>"Ativado"</item>
+    </string-array>
+    <string-array name="debug_settings_enable_loggings_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_enable_loggings_default">"false"</string>
+    <string name="debug_settings_save_preview_frames">"Salvar os quadros de visualização no cartão SD"</string>
+    <string-array name="debug_settings_save_preview_frames_entries">
+        <item>"Não"</item>
+        <item>"Sim"</item>
+    </string-array>
+    <string-array name="debug_settings_save_preview_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_preview_frames_default">"false"</string>
+    <string name="debug_settings_save_key_frames">"Salvar os principais quadros no cartão SD"</string>
+    <string-array name="debug_settings_save_key_frames_entries">
+        <item>"Não"</item>
+        <item>"Sim"</item>
+    </string-array>
+    <string-array name="debug_settings_save_key_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_key_frames_default">"false"</string>
+    <!-- PanoramaViewer -->
+    <string name="share_button_text">"Compartilhar Imagem do Panorama"</string></resources>

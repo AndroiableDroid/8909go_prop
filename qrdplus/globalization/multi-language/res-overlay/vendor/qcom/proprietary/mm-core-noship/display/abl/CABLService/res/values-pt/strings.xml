@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Configurações de luz de fundo adatada ao conteúdo"</string>
+        <add-resource type="string" name="cabl_settings_title"/>
+    <string name="cabl_settings_title">"Configurações de luz de fundo adatada ao conteúdo"</string>
+        <add-resource type="string" name="cabl_enable_title"/>
+    <string name="cabl_enable_title">"Ativar a luz de fundo adatada ao conteúdo"</string>
+        <add-resource type="string" name="cabl_enable_summary_on"/>
+    <string name="cabl_enable_summary_on">"A luz de fundo irá reajustar dependendo  do conteúdo da tela"</string>
+        <add-resource type="string" name="cabl_enable_summary_off"/>
+    <string name="cabl_enable_summary_off">"A luz de fundo não irá reajustar dependendo  do conteúdo da tela"</string>
+        <add-resource type="string" name="cabl_levels_title"/>
+    <string name="cabl_levels_title">"Nível de Qualidade Visual"</string>
+        <add-resource type="string" name="cabl_levels_summary"/>
+    <string name="cabl_levels_summary">"Um nível de qualidade mais baixo indica que o CABL tenta economizar o máximo de energia sem afetar significativamente o conteúdo mostrado. Um nível de qualidade visual automático indica que o CABL tenta economizar o máximo de energia detectando automaticamente o tipo de conteúdo mostrado."</string>
+        <add-resource type="string" name="cabl_level_default"/>
+    <string name="cabl_level_default">"Autom"</string>
+        <add-resource type="string" name="cabl_info_default"/>
+    <string name="cabl_info_default">"Desconhecido"</string>
+        <add-resource type="string" name="cabl_version_title"/>
+    <string name="cabl_version_title">"Versão CABL"</string></resources>

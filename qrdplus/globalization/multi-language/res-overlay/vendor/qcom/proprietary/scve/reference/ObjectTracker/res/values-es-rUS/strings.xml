@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Demostración de rastreador de objetos"</string>
+    <string name="open_camera_failed">"Se produjo un error al abrir la cámara en tu dispositivo.  Cierra otras aplicaciones que puedan estar usando la cámara y vuelve a iniciar esta aplicación."</string>
+    <string name="snapshot_failed">"Se produjo un error al tomar una instantánea. Examina  logcat para obtener más información sobre el error."</string>
+    <string name="video_recording_failed">"Se produjo un error al grabar el video. Examina  logcat para obtener más información sobre el error."</string>
+    <string name="settings">"Configuración"</string>
+    <string name="switch_camera">"Cambiar cámara"</string>
+    <string name="switch_camera_mode">"Cambiar modo foto/video"</string></resources>

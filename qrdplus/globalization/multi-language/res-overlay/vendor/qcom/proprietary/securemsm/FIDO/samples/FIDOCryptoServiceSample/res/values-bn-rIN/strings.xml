@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"সেটিংস"</string>
+    <string name="body_msg">"FidoCryptoService পরীক্ষা করা হচ্ছে"</string>
+    <string name="load">"লোড করুন"</string>
+    <string name="unload">"আনলোড করুন"</string>
+    <string name="process">"প্রক্রিয়াকরণ করুন"</string>
+    <string name="start">"শুরু করুন"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"FIDO পরিষেবা বাইন্ড করুন"</string>
+    <string name="unbindFido">"FIDO পরিষেবা আনবাইন্ড করুন"</string>
+    <string name="setChallenge">"চ্যালেঞ্জ সেট করুন"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"প্রমাণীকরণকারী বাইন্ড করুন"</string>
+    <string name="verifyUser">"ব্যবহারকারী যাচাই করুন / টোকেন প্রাপ্ত করুন"</string>
+    <string name="GetInfo">"তথ্য প্রাপ্ত করুন"</string>
+    <string name="Register">"রেজিস্টার করুন"</string>
+    <string name="Deregister">"ডিরেজিস্টার করুন"</string>
+    <string name="OpenSettings">"সেটিংস খুলুন"</string>
+    <string name="Sign">"সাইন"</string>
+    <string name="MalformedRequest">"বিকৃত অনুরোধ"</string>
+    <string name="selectAuth">"প্রমাণীকরণকারী নির্বাচন করুন"</string>
+    <string name="getEnrollmentStatus">"এনরোলমেন্ট স্থিতি প্রাপ্ত করুন"</string>
+    <string name="RegisterExt">"এক্সটেনশনগুলির মাধ্যমে রেজিস্টার করুন"</string>
+    <string name="SignExt">"এক্সটেনশনগুলির মাধ্যমে সাইন করুন"</string>
+    <string name="encResult">"আবদ্ধ ফলাফল"</string>
+    <string name="extResult">"এক্সটেনশন ডেটা"</string>
+    <string name="selectFidoOpText">"FIDO অপারেশন নির্বাচন করুন"</string>
+    <string name="show_message_sui">"বার্তার sui প্রদর্শন করুন"</string>
+    <string name="fido_sui_service">"fido Sui পরিষেবা"</string>
+    <string name="bindFidoSui">"fido sui বাইন্ড করুন"</string>
+    <string name="unbindFidoSui">"fido sui আনবাইন্ড করুন"</string>
+    <string name="suiResultTitle">"বার্তার sui ফলাফল প্রদর্শন করুন"</string>
+    <string name="cancel_sui">"sui বাতিল করুন"</string>
+    <string name="extensionText">"এক্সটেনশনগুলি ব্যবহার করবেন?"</string>
+    <string name="pngText">"PNG বিষয়বস্তু ব্যবহার করবেন?"</string>
+    <string name="fpText">"ফিঙ্গার-প্রিন্ট সুরক্ষিত করুন"</string>
+    <string-array name="authenticator_array">
+        <item>"কৃত্রিম প্রমাণীকরণকারী"</item>
+        <item>"নমুনা প্রমাণীকরণকারী"</item>
+        <item>"সুরক্ষিত নমুনা প্রমাণীকরণকারী"</item>
+        <item>"নমুনা এক্সটেনশন প্রমাণীকরণকারী"</item>
+        <item>"সুরক্ষিত এক্সটেনশন প্রমাণীকরণকারী"</item>
+        <item>"ডিভাইসের স্বাস্থ্য প্রমাণীকরণ"</item>
+        <item>"সুরক্ষিত নমুনা প্রমাণীকরণকারী IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"তথ্য প্রাপ্ত করুন"</item>
+        <item>"রেজিস্টার করুন"</item>
+        <item>"ডিরেজিস্টার করুন"</item>
+        <item>"সেটিংস খুলুন"</item>
+        <item>"বিকৃত ত্রুটি"</item>
+        <item>"সাইন করুন (প্রমাণীকরণ)"</item>
+        <item>"সাইন করুন (TX)"</item>
+    </string-array></resources>

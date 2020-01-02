@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Demostraciones de SDP SDK"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Extendido fuera de la pantalla"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Canal lateral de fondo"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Dedo frente a lápiz + Presión"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Inclinación axial"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Flotación y botón lateral"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Borrador y omisión del borrador"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"Esta demostración describe la función fuera de la pantalla.\n\n1. Dibuja fuera de la pantalla y verás tu dibujo a la derecha.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. En la esquina inferior derecha de la pantalla virtual hay un botón. Pasa el mouse sobre él a diferentes alturas para cambiar la opacidad del círculo.\n\n3. Presiónalo para cambiar el color del círculo."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"Esta demostración describe cómo el canal lateral de fondo puede funcionar mientras la pantalla está apagada.\n\n1. Dibuja fuera de la pantalla y verás tu dibujo.\n\n2. Ahora cambia a otra aplicación o apaga la pantalla; tu dibujo aún se grabará."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Flotación en pantalla"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Pasa el mouse sobre la pantalla a diferentes alturas.\n\n2. Usa el interruptor para desactivar la flotación.\n\n3. Usa el control deslizante para establecer la distancia máxima para los eventos de flotación.\n\n4. Si presionas los botones laterales, cambiará el color del círculo de flotación."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. Configura el botón SDP como el botón del borrador en la configuración global.\n\n2. Dibujar.\n\n3. Configura el borrador como Tocar para alternar. Presiona el botón del borrador. Borra. Si presionas el botón del borrador nuevamente, se cambiará al modo de lápiz.\n\n4. Configura el borrador como Mantener para borrar. Ahora puedes borrar con solo tocar.\n\n5. Usa el interruptor de omisión del borrador para desactivar la función del borrador."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Omisión del borrador"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Borrar lienzo"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Dibuja con el lápiz y luego con tu dedo.\nCada método se distingue con un color diferente.\nEl ancho del trazo se determina por la presión, que también se puede ver en valores numéricos."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Presión"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

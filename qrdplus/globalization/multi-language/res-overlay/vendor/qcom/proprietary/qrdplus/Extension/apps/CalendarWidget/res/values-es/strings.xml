@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Widget de calendario"</string>
+    <string name="choose_date">"Elegir fecha"</string>
+    <string name="add_account">"Añadir cuenta"</string>
+    <string name="no_target_activity">"El calendario se debe inhabilitar. Habilítalo primero."</string>
+    <string name="no_account_title">"Ninguna cuenta de calendario"</string>
+    <string name="no_account_content">"Para sincronizar solicitudes, añade al menos una cuenta de Calendario al dispositivo y haz visible un calendario. Para ello, toca Añadir cuenta (si ya lo has hecho, espera a que finalice la sincronización y vuelve a intentarlo). También puedes tocar Cancelar y comprobar que al menos un calendario sea visible."</string>
+    <string name="monday">"Lu."</string>
+    <string name="tuesday">"Ma."</string>
+    <string name="wednesday">"Mi."</string>
+    <string name="thursday">"Ju."</string>
+    <string name="friday">"Vi."</string>
+    <string name="saturday">"Sá."</string>
+    <string name="sunday">"Do."</string></resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incoming_call_failed_low_battery">"La llamada entrante ha fallado porque el nivel de batería es bajo."</string>
+    <!-- Notification manager HD icon title. -->
+    <string name="device_is_hd_capable">"El dispositivo es compatible con HD"</string>
+    <string name="call_hold_label">"Retención de llamada:"</string>
+    <string name="call_resume_label">"Reanudación de llamada:"</string>
+    <string name="error_msg_failed">" Error"</string>
+    <string name="error_msg_cancelled">" Cancelado"</string>
+    <string name="error_msg_reinvite_collision">" Colisión al volver a enviar"</string>
+    <string name="handover_from_wifi_to_lte">"Cambiando a red LTE para una mejor calidad"</string>
+    <!-- Wifi calling QuickSettings strings -->
+    <string name="wifi_calling_on">"Llamada Wi-Fi activada"</string>
+    <string name="wifi_calling_off">"Llamada Wi-Fi desactivada"</string></resources>

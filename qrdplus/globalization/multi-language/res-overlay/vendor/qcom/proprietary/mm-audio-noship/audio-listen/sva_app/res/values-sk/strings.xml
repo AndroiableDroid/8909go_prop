@@ -1,0 +1,249 @@
+<?xml version="1.0" standalone="no"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SVA 2.0"</string>
+    <add-resource type="string" name="dialog_cancel"/>
+    <string name="dialog_cancel">"Zrušiť"</string>
+    <add-resource type="string" name="dialog_save"/>
+    <string name="dialog_save">"Uložiť"</string>
+    <add-resource type="string" name="dialog_ok"/>
+    <string name="dialog_ok">"OK"</string>
+    <add-resource type="string" name="dialog_delete"/>
+    <string name="dialog_delete">"Odstrániť"</string>
+    <string name="none"/>
+    <add-resource type="string" name="detection_menu_voicerequests"/>
+    <string name="detection_menu_voicerequests">"Hlasové žiadosti"</string>
+    <add-resource type="string" name="detection_menu_settings"/>
+    <string name="detection_menu_settings">"Nastavenia"</string>
+    <add-resource type="string" name="detection_menu_version"/>
+    <string name="detection_menu_version">"Číslo verzie"</string>
+    <add-resource type="string" name="detection_menu_testone"/>
+    <string name="detection_menu_testone">"Požiadavka na hlasový test"</string>
+    <add-resource type="string" name="home_menu_query"/>
+    <string name="home_menu_query">"Žiadosť"</string>
+    <add-resource type="string" name="home_soundmodel"/>
+    <string name="home_soundmodel">"Zvukový model"</string>
+    <add-resource type="string" name="home_startvoiceactivation"/>
+    <string name="home_startvoiceactivation">"Začať detekciu"</string>
+    <add-resource type="string" name="home_stopvoiceactivation"/>
+    <string name="home_stopvoiceactivation">"Zastaviť detekciu"</string>
+    <add-resource type="string" name="home_advanceddetail"/>
+    <string name="home_advanceddetail">"ROZŠÍRENÉ PODROBNOSTI"</string>
+    <add-resource type="string" name="detection_advanceddetail_keyworduser"/>
+    <string name="detection_advanceddetail_keyworduser">"Kľúčové slovo:"</string>
+    <add-resource type="string" name="home_advanceddetail_user"/>
+    <string name="home_advanceddetail_user">"Používateľ:"</string>
+    <add-resource type="string" name="detection_advanceddetail_detections"/>
+    <string name="detection_advanceddetail_detections">"Detekcie:"</string>
+    <add-resource type="string" name="detection_advanceddetail_keyphrase"/>
+    <string name="detection_advanceddetail_keyphrase">"Kľúčová fráza:"</string>
+    <add-resource type="string" name="detection_advanceddetail_user"/>
+    <string name="detection_advanceddetail_user">"Používateľ:"</string>
+    <add-resource type="string" name="detection_advanceddetail_voicerequests"/>
+    <string name="detection_advanceddetail_voicerequests">"Hlasové žiadosti:"</string>
+    <add-resource type="string" name="detection_advanceddetail_initialdetections"/>
+    <string name="detection_advanceddetail_initialdetections">0</string>
+    <add-resource type="string" name="detection_advanceddetail_initialscore"/>
+    <string name="detection_advanceddetail_initialscore">0</string>
+    <add-resource type="string" name="detection_advanceddetail_initialvoicerequests"/>
+    <string name="detection_advanceddetail_initialvoicerequests">0</string>
+    <add-resource type="string" name="detection_advanceddetail_scorepossible"/>
+    <string name="detection_advanceddetail_scorepossible">/100</string>
+    <add-resource type="string" name="home_dialog_startingvoiceactivation"/>
+    <string name="home_dialog_startingvoiceactivation">"Spúšťanie hlasovej aktivácie"</string>
+    <add-resource type="string" name="home_dialog_stoppingvoiceactivation"/>
+    <string name="home_dialog_stoppingvoiceactivation">"Zastavovanie hlasovej aktivácie"</string>
+    <add-resource type="string" name="home_dialog_pleasewait"/>
+    <string name="home_dialog_pleasewait">"Čakajte... "</string>
+    <add-resource type="string" name="home_dialog_badlibs_title"/>
+    <string name="home_dialog_badlibs_title">"Chýbajúce/nekompatibilné súčasti listenlib"</string>
+    <add-resource type="string" name="home_dialog_badlibs_message"/>
+    <string name="home_dialog_badlibs_message">"Nemožno pokračovať. Kliknutím na OK ukončíte aplikáciu."</string>
+    <add-resource type="string" name="soundmodels_top_title"/>
+    <string name="soundmodels_top_title">"Zvukové modely"</string>
+    <add-resource type="string" name="soundmodels_dialog_createyourown"/>
+    <string name="soundmodels_dialog_createyourown">"Vytvorte si vlastnú..."</string>
+    <add-resource type="string" name="soundmodels_dialog_invalidselection"/>
+    <string name="soundmodels_dialog_invalidselection">"Neplatný výber"</string>
+    <add-resource type="string" name="soundmodels_dialog_createyourownmultiselecterror"/>
+    <string name="soundmodels_dialog_createyourownmultiselecterror">"Ak si chcete vytvoriť vlastnú kľúčovú frázu, zvoľte iba možnosť \"Vytvorte si vlastnú...\"."</string>
+    <add-resource type="string" name="soundmodels_dialog_namekeyphrase_title"/>
+    <string name="soundmodels_dialog_namekeyphrase_title">"Názov novej kľúčovej frázy"</string>
+    <add-resource type="string" name="soundmodels_dialog_namekeyphrase_message"/>
+    <string name="soundmodels_dialog_namekeyphrase_message">"Zadajte názov pre novú kľúčovú frázu:"</string>
+    <add-resource type="string" name="soundmodels_dialog_namesoundmodel_title"/>
+    <string name="soundmodels_dialog_namesoundmodel_title">"Názov pre nový zvukový model"</string>
+    <add-resource type="string" name="soundmodels_dialog_namesoundmodel_message"/>
+    <string name="soundmodels_dialog_namesoundmodel_message">"Zadajte názov nového "</string>
+    <add-resource type="string" name="soundmodels_dialog_adduser_title"/>
+    <string name="soundmodels_dialog_adduser_title">"Pridať nového používateľa"</string>
+    <add-resource type="string" name="soundmodels_dialog_adduser_message"/>
+    <string name="soundmodels_dialog_adduser_message">"Zadajte meno používateľa, ktorý sa má cvičiť:"</string>
+    <add-resource type="string" name="soundmodels_dialog_adduser_starttrainging"/>
+    <string name="soundmodels_dialog_adduser_starttrainging">"Spustiť cvičenie"</string>
+    <add-resource type="string" name="soundmodels_dialog_deletesoundmodel_title"/>
+    <string name="soundmodels_dialog_deletesoundmodel_title">"Odstrániť zvukový model"</string>
+    <add-resource type="string" name="soundmodels_dialog_train_title"/>
+    <string name="soundmodels_dialog_train_title">"Cvičiť zvukový model"</string>
+    <add-resource type="string" name="soundmodels_dialog_train_content"/>
+    <string name="soundmodels_dialog_train_content">"Cvičenie je potrebné na vytvorenie zvukového modelu tohto používateľa."</string>
+    <add-resource type="string" name="soundmodels_dialog_option_deletesoundmodel"/>
+    <string name="soundmodels_dialog_option_deletesoundmodel">"Odstrániť zvukový model"</string>
+    <add-resource type="string" name="soundmodels_dialog_option_starttrain"/>
+    <string name="soundmodels_dialog_option_starttrain">"Spustiť cvičenie"</string>
+    <add-resource type="string" name="soundmodels_dialog_selectakeyphrase_title"/>
+    <string name="soundmodels_dialog_selectakeyphrase_title">"Zvoľte kľúčové frázy"</string>
+    <add-resource type="string" name="soundmodels_dialog_duplicate_title"/>
+    <string name="soundmodels_dialog_duplicate_title">"Zvukový model už existuje"</string>
+    <add-resource type="string" name="soundmodels_dialog_duplicate_message"/>
+    <string name="soundmodels_dialog_duplicate_message">"Tento názov zvukového modelu je už obsadený. Skúste to znova."</string>
+    <add-resource type="string" name="soundmodels_dialog_invalidsm_title"/>
+    <string name="soundmodels_dialog_invalidsm_title">"Neplatný názov zvukového modelu"</string>
+    <add-resource type="string" name="soundmodels_dialog_invalidsm_message"/>
+    <string name="soundmodels_dialog_invalidsm_message">"Názvy zvukových modelov nemôžu ostať prázdne."</string>
+    <add-resource type="string" name="soundmodel_listitem_name"/>
+    <string name="soundmodel_listitem_name">"Názov zvukového modelu"</string>
+    <add-resource type="string" name="soundmodel_listitem_sessions"/>
+    <string name="soundmodel_listitem_sessions">"Relácie:"</string>
+    <add-resource type="string" name="soundmodeldetails_top_title"/>
+    <string name="soundmodeldetails_top_title">"Podrobnosti zvukového modelu"</string>
+    <add-resource type="string" name="soundmodeldetails_smtype"/>
+    <string name="soundmodeldetails_smtype">"V závislosti od používateľa"</string>
+    <add-resource type="string" name="soundmodeldetails_adduser"/>
+    <string name="soundmodeldetails_adduser">"Pridať používateľa..."</string>
+    <add-resource type="string" name="soundmodeldetails_dialog_setconfidencelevel_title"/>
+    <string name="soundmodeldetails_dialog_setconfidencelevel_title">"Nastaviť úroveň dôvery"</string>
+    <string name="soundmodeldetails_dialog_setconfidencelevel_message"/>
+    <add-resource type="string" name="soundmodeldetails_dialog_duplicateuser_title"/>
+    <string name="soundmodeldetails_dialog_duplicateuser_title">"Používateľ už je vycvičený"</string>
+    <add-resource type="string" name="soundmodeldetails_dialog_duplicateuser_message"/>
+    <string name="soundmodeldetails_dialog_duplicateuser_message">"Pre používateľa s týmto menom sa tu už nachádzajú údaje o cvičení. Zvoľte iného používateľa."</string>
+    <add-resource type="string" name="soundmodels_dialog_invaliduser_title"/>
+    <string name="soundmodels_dialog_invaliduser_title">"Neplatné meno používateľa"</string>
+    <add-resource type="string" name="soundmodels_dialog_invaliduser_message"/>
+    <string name="soundmodels_dialog_invaliduser_message">"Mená používateľov nemôžu zostať prázdne."</string>
+    <add-resource type="string" name="soundmodeldetails_dialog_selectsession_title"/>
+    <string name="soundmodeldetails_dialog_selectsession_title">"Vyberte si relácie"</string>
+    <add-resource type="string" name="soundmodeldetails_popup_copy"/>
+    <string name="soundmodeldetails_popup_copy">"Kopírovať zvukový model"</string>
+    <add-resource type="string" name="soundmodeldetails_popup_merge"/>
+    <string name="soundmodeldetails_popup_merge">"Zlúčiť zvukový model"</string>
+    <add-resource type="string" name="soundmodels_dialog_selectsm_title"/>
+    <string name="soundmodels_dialog_selectsm_title">"Zvoliť zvukový model"</string>
+    <add-resource type="string" name="soundmodeldetails_popup_delete"/>
+    <string name="soundmodeldetails_popup_delete">"Odstrániť zvukový model"</string>
+    <add-resource type="string" name="training_welcome_unkownuser"/>
+    <string name="training_welcome_unkownuser">"Neznámy používateľ"</string>
+    <add-resource type="string" name="training_welcome_notice"/>
+    <string name="training_welcome_notice">"Ak mi chcete pomôcť pri rozpoznaní vášho hlasu, nahrajte sa, ako kľúčové slovo vyslovujete päťkrát."</string>
+    <add-resource type="string" name="training_welcome_recording_tip_title"/>
+    <string name="training_welcome_recording_tip_title">"TIPY NA NAHRÁVANIE"</string>
+    <add-resource type="string" name="training_welcome_recording_tip"/>
+    <string name="training_welcome_recording_tip">"1. Telefón držte pred sebou, pričom ho držte vzdialene od úst. \n2.Nahrávajte na tichom mieste, kde je minimálny hluk pozadia. \n3.Hovorte zreteľne, nahlas a rozkazovacím tónom."</string>
+    <add-resource type="string" name="training_recording_recording"/>
+    <string name="training_recording_recording">"ZAZNAMENÁVA SA..."</string>
+    <add-resource type="string" name="training_recording_processing"/>
+    <string name="training_recording_processing">"PREBIEHA SPRACOVANIE..."</string>
+    <add-resource type="string" name="training_recording_complete"/>
+    <string name="training_recording_complete">"DOKONČENÉ!"</string>
+    <add-resource type="string" name="training_recording_notice_good"/>
+    <string name="training_recording_notice_good">"Výborne!\nRozprávajte presne takto!"</string>
+    <add-resource type="string" name="training_recording_notice_bad"/>
+    <string name="training_recording_notice_bad">"Pri vašej nahrávke sa vyskytol problém. Skúste to znova."</string>
+    <add-resource type="string" name="training_recording_continue"/>
+    <string name="training_recording_continue">"Pokračovať"</string>
+    <add-resource type="string" name="training_dialog_createsoundmodel"/>
+    <string name="training_dialog_createsoundmodel">"Vytváranie personalizovaného zvukového modelu."</string>
+    <add-resource type="string" name="training_dialog_close_title"/>
+    <string name="training_dialog_close_title">"Naozaj to chcete zatvoriť?"</string>
+    <add-resource type="string" name="training_dialog_close_message"/>
+    <string name="training_dialog_close_message">"Vymažú sa všetky aktuálne záznamy o cvičeniach."</string>
+    <add-resource type="string" name="training_dialog_smcreatefailed_title"/>
+    <string name="training_dialog_smcreatefailed_title">"Vytváranie zvukového modelu zlyhalo"</string>
+    <add-resource type="string" name="training_dialog_smcreatefailed_message"/>
+    <string name="training_dialog_smcreatefailed_message">"Nepodarilo sa nám vytvoriť váš personalizovaný zvukový model. Skúste to znova."</string>
+    <!-- new training -->
+    <add-resource type="string" name="training_welcome_recording_tip1"/>
+    <string name="training_welcome_recording_tip1">" Telefón držte pred sebou, pričom ho držte vzdialene od úst."</string>
+    <add-resource type="string" name="training_welcome_recording_tip2"/>
+    <string name="training_welcome_recording_tip2">" Nahrávajte na tichom mieste, kde je minimálny hluk pozadia."</string>
+    <add-resource type="string" name="training_welcome_recording_tip3"/>
+    <string name="training_welcome_recording_tip3">" Hovorte zreteľne, nahlas a rozkazovacím tónom."</string>
+    <add-resource type="string" name="training_tapMic"/>
+    <string name="training_tapMic">"Začnite po klepnutí na tlačidlo mikrofónu"</string>
+    <add-resource type="string" name="home_keyphrase_message"/>
+    <string name="home_keyphrase_message">"Ahoj Snapdragon"</string>
+    <add-resource type="string" name="training_one"/>
+    <string name="training_one">1.</string>
+    <add-resource type="string" name="training_two"/>
+    <string name="training_two">2.</string>
+    <add-resource type="string" name="training_three"/>
+    <string name="training_three">3.</string>
+    <add-resource type="string" name="training_unknownuser"/>
+    <string name="training_unknownuser">"Neznámy používateľ"</string>
+    <add-resource type="string" name="training_welcomenotice"/>
+    <string name="training_welcomenotice">"Ak mi chcete pomôcť pri rozpoznaní vášho hlasu, nahrajte sa, ako kľúčovú frázu vyslovujete päťkrát."</string>
+    <!-- end new training -->
+	<add-resource type="string" name="voicerequests_title"/>
+    <string name="voicerequests_title">"Hlasové žiadosti"</string>
+    <add-resource type="string" name="voicerequests_menu_refresh"/>
+    <string name="voicerequests_menu_refresh">"Obnoviť zoznam"</string>
+    <add-resource type="string" name="voicerequests_menu_deleteall"/>
+    <string name="voicerequests_menu_deleteall">"Odstrániť všetky"</string>
+    <add-resource type="string" name="voicerequests_dialog_deleteall_title"/>
+    <string name="voicerequests_dialog_deleteall_title">"Potvrdiť odstránenie"</string>
+    <add-resource type="string" name="settings_top_title"/>
+    <string name="settings_top_title">"Nastavenia"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels"/>
+    <string name="settings_defaultconfidencelevels">"PREDVOLENÉ HODNOTY DÔVERY"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels_keyphrase"/>
+    <string name="settings_defaultconfidencelevels_keyphrase">"Predvolená hodnota dôvery kľúčovej frázy"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels_user"/>
+    <string name="settings_defaultconfidencelevels_user">"Predvolená hodnota dôvery používateľa"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels_training"/>
+    <string name="settings_defaultconfidencelevels_training">"Predvolená hodnota dôvery cvičenia"</string>
+    <add-resource type="string" name="settings_options"/>
+    <string name="settings_options">"MOŽNOSTI"</string>
+    <add-resource type="string" name="settings_options_listen"/>
+    <string name="settings_options_listen">"Počúvať"</string>
+    <add-resource type="string" name="settings_options_listen_desc"/>
+    <string name="settings_options_listen_desc">"Zapnúť/vypnúť počúvanie"</string>
+    <add-resource type="string" name="settings_options_voiceactivation"/>
+    <string name="settings_options_voiceactivation">"Hlasová aktivácia"</string>
+    <add-resource type="string" name="settings_options_voiceactivation_desc"/>
+    <string name="settings_options_voiceactivation_desc">"Zapnúť/vypnúť hlasovú aktiváciu"</string>
+    <add-resource type="string" name="settings_options_detectiontone"/>
+    <string name="settings_options_detectiontone">"Tón detekcie"</string>
+    <add-resource type="string" name="settings_options_detectiontone_desc"/>
+    <string name="settings_options_detectiontone_desc">"Zapnúť/vypnúť tón pre detekcie"</string>
+    <add-resource type="string" name="settings_options_advanced"/>
+    <string name="settings_options_advanced">"Rozšírené podrobnosti"</string>
+    <add-resource type="string" name="settings_options_advanced_desc"/>
+    <string name="settings_options_advanced_desc">"Zobraziť ďalšie podrobnosti"</string>
+    <add-resource type="string" name="settings_registrationoptions"/>
+    <string name="settings_registrationoptions">"MOŽNOSTI REGISTRÁCIE"</string>
+    <add-resource type="string" name="settings_registrationoptions_description"/>
+    <string name="settings_registrationoptions_description">"Zmeny sa prejavia pri ďalšej registrácii."</string>
+    <add-resource type="string" name="settings_registrationoptions_userverification"/>
+    <string name="settings_registrationoptions_userverification">"Overenie používateľa"</string>
+    <add-resource type="string" name="settings_registrationoptions_userverification_desc"/>
+    <string name="settings_registrationoptions_userverification_desc">"Zapnúť/vypnúť overenie používateľa"</string>
+    <add-resource type="string" name="settings_registrationoptions_voicerequests"/>
+    <string name="settings_registrationoptions_voicerequests">"Hlasové žiadosti"</string>
+    <add-resource type="string" name="settings_registrationoptions_voicerequests_desc"/>
+    <string name="settings_registrationoptions_voicerequests_desc">"Zapnúť hlasové žiadosti po kľúčovej fráze"</string>
+    <add-resource type="string" name="settings_registrationoptions_voicerequestlength"/>
+    <string name="settings_registrationoptions_voicerequestlength">"Dĺžka (v sekundách) hlasovej žiadosti"</string>
+    <add-resource type="string" name="settings_registrationoptions_failurefeedback"/>
+    <string name="settings_registrationoptions_failurefeedback">"Nezistená spätná väzba"</string>
+    <add-resource type="string" name="settings_registrationoptions_failurefeedback_desc"/>
+    <string name="settings_registrationoptions_failurefeedback_desc">"Zapnúť/vypnúť spätnú väzbu zlyhania detekcie"</string>
+    <add-resource type="string" name="settings_toast_smdependentcheckbox"/>
+    <string name="settings_toast_smdependentcheckbox">"Táto zmena sa neprejaví, kým nezaregistrujete ďalší zvukový model."</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Nastavenia"</string></resources>

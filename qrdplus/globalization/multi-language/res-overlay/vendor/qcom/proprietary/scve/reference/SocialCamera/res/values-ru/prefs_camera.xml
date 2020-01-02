@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"Камера"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"Основная"</item>
+        <item>"Фронтальная"</item>
+        <item>"Камера 3"</item>
+        <item>"Камера 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"Размер фото"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9.7MP, 16:9)"</item>
+        <item>"3840x2160 (8.3MP, 16:9, UHD 4K)"</item>
+        <item>"3200x1800 (5.8MP, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (4.1MP, 16:9)"</item>
+        <item>"2592x1458 (3.8MP, 16:9)"</item>
+        <item>"1920x1080 (2.1MP, 16:9, HD 1080p)"</item>
+        <item>"1280x720 (0.9MP, 16:9, HD 720p)"</item>
+        <item>"864x480 (0.4MP, 16:9)"</item>
+        <item>"4160x3120 (13MP, 4:3)"</item>
+        <item>"4000x3000 (12MP, 4:3)"</item>
+        <item>"3264x2448 (8MP, 4:3)"</item>
+        <item>"3200x2400 (7.7MP, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (5MP, 4:3)"</item>
+        <item>"2048x1536 (3.1MP, 4:3, QXGA)"</item>
+        <item>"1920x1440 (2.8MP, 4:3)"</item>
+        <item>"1600x1200 (1.9MP, 4:3, UXGA)"</item>
+        <item>"1280x960 (1.2MP, 4:3, UVGA)"</item>
+        <item>"1024x768 (0.8MP, 4:3, XGA)"</item>
+        <item>"800x600 (0.5MP, 4:3, SVGA)"</item>
+        <item>"640x480 (0.3MP, 4:3, VGA)"</item>
+        <item>"320x240 (0.1MP, 4:3, QVGA)"</item>
+        <item>"3264x2176 (7.1MP, 3:2)"</item>
+        <item>"2592x1728 (4.5MP, 3:2)"</item>
+        <item>"720x480 (0.3MP, 3:2)"</item>
+        <item>"4160x2774 (11.5MP, 3:2)"</item>
+        <item>"2976x2976 (8.9MP, 1:1)"</item>
+        <item>"1280x768 (1MP, 5:3)"</item>
+        <item>"800x480 (0.4MP, 5:3)"</item>
+        <item>"352x288 (0.1MP, 11:9)"</item>
+        <item>"176x144 (0MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"Разм. для предв. просм."</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"Соотв. размер экрана"</item>
+        <item>"Предв. просмотр с выс. разрешением (до 4 Мп)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"Режим съемки"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"Авто"</item>
+        <item>"Съемка в движении"</item>
+        <item>"Штрихкод"</item>
+        <item>"Пляж"</item>
+        <item>"При свечах"</item>
+        <item>"Лица"</item>
+        <item>"Фейерверк"</item>
+        <item>HDR</item>
+        <item>"Высокоскоростное видео"</item>
+        <item>"Пейзажи"</item>
+        <item>"Ночь"</item>
+        <item>"Вечеринка"</item>
+        <item>"Люди"</item>
+        <item>"Ночная съемка людей"</item>
+        <item>"Снег"</item>
+        <item>"Спорт"</item>
+        <item>"Стабилизация изображения"</item>
+        <item>"Закат"</item>
+        <item>"На сцене"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"Установка экспозиции"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"Авто"</item>
+        <item>"Постоянное"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"Компенсация экспозиции"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"Фокус"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"Авто"</item>
+        <item>"Постоянное"</item>
+        <item>"Непрерывная съемка (снимок)"</item>
+        <item>"Непрерывная съемка (видео)"</item>
+        <item>"Макро"</item>
+        <item>"Расширенная глубина резкости"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"Управление балансом белого"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"Авто"</item>
+        <item>"Отключено"</item>
+        <item>"Лампа накаливания"</item>
+        <item>"Лампа дневного света"</item>
+        <item>"Лампа теплого дневного света"</item>
+        <item>"Солнечный свет"</item>
+        <item>"Облачно"</item>
+        <item>"Тень"</item>
+        <item>"Сумерки"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"Вспышка"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"Авто"</item>
+        <item>"Вкл"</item>
+        <item>"Отключено"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"Снижение шума"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"Вкл"</item>
+        <item>"Отключено"</item>
+        <item>"Высокое качество"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"Коррекция затенения от бленды"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"Вкл"</item>
+        <item>"Отключено"</item>
+        <item>"Высокое качество"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"Коррекция аберрации"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"Вкл"</item>
+        <item>"Отключено"</item>
+        <item>"Высокое качество"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"Коррекция краев"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"Вкл"</item>
+        <item>"Отключено"</item>
+        <item>"Высокое качество"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"Коррекция горячих пикселов"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"Вкл"</item>
+        <item>"Отключено"</item>
+        <item>"Высокое качество"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"Режим стабилизации"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"Отключено"</item>
+        <item>"Оптический"</item>
+        <item>"Цифры"</item>
+    </string-array></resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources version="1.1">
+    <!-- mmi main-->
+    <string name="btn_all">"အားလုံး"</string>
+    <string name="btn_failed">"မအောင်မြင်ပါ"</string>
+    <string name="btn_runall">"အားလုံးကို လုပ်ဆောင်စေပါ"</string>
+    <string name="btn_reset">"ပြန်သတ်မှတ်ပါ"</string>
+    <string name="btn_reboot">"ပြန်လည်စတင် လုပ်ဆောင်စေပါ"</string>
+    <string name="btn_poweroff">"ပါဝါအပိတ်"</string>
+    <string name="btn_pass">"အောင်သည်"</string>
+    <string name="btn_fail">"ကျသည်"</string>
+    <string name="btn_ok">"အိုကေ"</string>
+    <string name="btn_cancel">"ပယ်ဖျက်ပါ"</string>
+    <string name="btn_pageup">"အပေါ်"</string>
+    <string name="btn_pagedown">"အောက်"</string>
+    <string name="finish">"ပြီးပါပြီ"</string>
+    <string name="test_report">"စမ်းသပ်ချက် အစီရင်ခံစာ"</string>
+    <!-- common strings -->
+    <string name="on">"ဖွင့်ပါ"</string>
+    <string name="off">"ပိတ်သည်"</string>
+    <string name="present">"ရှာတွေ့ထားသည်"</string>
+    <string name="absent">"ရှာမတွေ့ပါ"</string>
+    <string name="notice">"စစ်ဆေးမှု စတင်နေသည်၊ ကျေးဇူးပြု၍ ခေတ္တစောင့်ဆိုင်းပါ..."</string>
+    <string name="reset_notice">"စစ်ဆေးမှု ရလဒ်ကို သင် ရှင်းပစ်လိုပါသလား။"</string>
+    <string name="reboot_poweroff_notice">"(၁) ပိတ်ပါ       "</string>
+    <string name="reboot_ffbm_notice">"(၂) FFBM သို့ ပြန်လည်စတင်ပါ  "</string>
+    <string name="reboot_android_notice">"(၃) Android သို့ ပြန်လည်စတင်ပါ"</string>
+    <string name="reboot_notice">"ပြန်လည်စတင်ရန် အနေအထားကို ရွေးချယ်ပါ"</string>
+    <string name="pcba_title">"PCBA စစ်ဆေးမှုကို စတင်ပါ"</string>
+    <string name="exit">"ထွက်ပါ"</string>
+    <!-- system information -->
+    <string name="system_info">"စနစ် အချက်အလက်"</string>
+    <!-- example information -->
+    <string name="example">"ဥပမာ"</string>
+    <!-- camera case -->
+    <string name="camera_back">"နောက် ကင်မရာ"</string>
+    <string name="camera_back_main">"နောက် ကင်မရာ ပင်မ"</string>
+    <string name="camera_back_aux">"နောက်ကင်မရာ အကူ"</string>
+    <string name="camera_back_1st">"နောက်ကင်မရာ ပထမ"</string>
+    <string name="camera_back_2nd">"နောက်ကင်မရာ ဒုတိယ"</string>
+    <string name="camera_front">"ရှေ့ ကင်မရာ"</string>
+    <string name="snapshot">"လျှပ်တပြက်ရိုက်ချက်"</string>
+    <!-- battery case -->
+    <string name="battery">"ဘတ္တရီ"</string>
+    <string name="battery_instruction">"USB ကြိုးကို တပ်ပါ/ဖြုတ်ပါ...."</string>
+    <string name="battery_title">"အားသွင်းကိရိယာကို တွဲပါ/ဖြုတ်ပါ။ ပြောင်းလဲထားသည့် တန်ဖိုးကို အတည်ပြုမည်လား။"</string>
+    <string name="battery_health">"ဘတ္ထရီ ခံနိုင်ရည်"</string>
+    <string name="battery_status">"ဘတ္ထရီ အခြေအနေ"</string>
+    <string name="battery_voltage">"ဘတ္ထရီ ဗို့အား"</string>
+    <string name="charging_indicate">"LED ညွှန်ပြမှုကို သင် မြင်တွေ့ပါသလား။"</string>
+    <string name="discharge_indicate">"ဘတ္ထရီကို အားသွင်းပြီးပါပြီ၊ ခဏဖြုတ်ပြီး ပလပ်ပြန်ထိုးပါ။"</string>
+    <!-- SMB case -->
+    <string name="smb">"SMB"</string>
+    <!-- lcd case -->
+    <string name="lcd">"LCD"</string>
+    <string name="next">"နောက်တစ်ခု"</string>
+    <!-- LCD_BACKLIGHT case -->
+    <string name="lcd_backlight">"LCD နောက်မီး"</string>
+    <string name="lcd_backlight_on">"LCD နောက်ခံမီး ဖွင့်"</string>
+    <string name="lcd_backlight_off">"LCD နောက်ခံမီး ပိတ်"</string>
+    <!-- keypad backlight case -->
+    <string name="button_backlight">"ကီးခလုတ်ခုံ နောက်မီး"</string>
+    <string name="button_backlight_on">"KEYPAD နောက်ခံမီး ဖွင့်"</string>
+    <string name="button_backlight_off">"KEYPAD နောက်ခံမီး ပိတ်"</string>
+    <!-- flashlight case -->
+    <string name="flashlight">"ဖလက်ရှ်မီး"</string>
+    <string name="flashlight_1">"FLASHLIGHT_1"</string>
+    <string name="flashlight_on">"ဖလက်ရှ်အလင်း_ဖွင့်"</string>
+    <string name="flashlight_off">"ဖလက်ရှ်အလင်း_ပိတ်"</string>
+    <!-- leds case -->
+    <string name="led_red">"LED အနီ"</string>
+    <string name="led_red_on">"LED အနီရောင် ဖွင့်"</string>
+    <string name="led_red_off">"LED အနီရောင် ပိတ်"</string>
+    <string name="led_blue">"LED အပြာ"</string>
+    <string name="led_blue_on">"LED အပြာရောင် ဖွင့်"</string>
+    <string name="led_blue_off">"LED အပြာရောင် ပိတ်"</string>
+    <string name="led_green">"LED အစိမ်း"</string>
+    <string name="led_green_on">"LED အစိမ်းရောင် ဖွင့်"</string>
+    <string name="led_green_off">"LED အစိမ်းရောင် ပိတ်"</string>
+    <!-- sensors case -->
+    <string name="gyroscope">"ဂျိုင်ရိုစကုပ် အာရုံခံကိရိယာ"</string>
+    <string name="gsensor">"အဆယ်လရိုမီတာ အာရုံခံကိရိယာ"</string>
+    <string name="psensor">"ပရောက်ဆီမီတာ အာရုံခံကိရိယာ"</string>
+    <string name="lsensor">"အလင်း အာရုံခံကိရိယာ"</string>
+    <string name="msensor">"မက်ဂနက်တိုမီတာ အာရုံခံကိရိယာ"</string>
+    <string name="calibration">"စံကိုက်ချိန်ညှိခြင်း"</string>
+    <string name="lsensor_instruction">"အလင်း အာရုံခံကိရိယာကို ဖုံးထားပြီး ရလဒ်ကို စစ်ဆေးပါ"</string>
+    <string name="psensor_instruction">"အနီးရှိပစ္စည်းကို အာရုံခံသည့် ကိရိယာကို ဖုံးထားပြီး ရလဒ်ကို စစ်ဆေးပါ"</string>
+    <string name="msensor_instruction">"မက်ဂ်နက်တိုမီတာ အာရုံခံကိရိယာကို စံကိုက်ချိန်ညှိရန် ∞/8/S ပုံစံ လှုပ်ရှားမှုကို ပြုလုပ်ပြီး ရလဒ်ကို စစ်ဆေးပါ"</string>
+    <!-- sdcard case -->
+    <string name="sdcard">"SDကတ်"</string>
+    <string name="emmc">"EMMC"</string>
+    <string name="storage">"သိုလှောင်ခန်း"</string>
+    <string name="sdcard_present">"SD ကတ်ကို ရှာဖွေတွေ့ရှိပါသည်"</string>
+    <string name="sdcard_absent">"SD ကတ်ကို ရှာဖွေမတွေ့ရှိပါ"</string>
+    <string name="sdcard_capacity">"SDကတ် လုပ်နိုင်စွမ်း"</string>
+    <string name="sdcard_used_space">"SDကတ်တွင် အသုံးပြုထားသော နေရာ"</string>
+    <string name="sdcard_free_space">"SDကတ်ရှိ နေရာလွတ်"</string>
+    <!-- memory case -->
+    <string name="memory">"မှတ်ဥာဏ်"</string>
+    <!-- cpu case -->
+    <string name="cpu">"CPU"</string>
+    <!-- simcard case -->
+    <string name="simcard1">SIMCARD1</string>
+    <string name="simcard2">SIMCARD2</string>
+    <string name="detecting">"ရှာနေသည်\u2026"</string>
+    <!-- touch case -->
+    <string name="touch">"ထိပါ"</string>
+    <!-- key case -->
+    <string name="key">"ကီး"</string>
+    <string name="btn_home">"ပင်မ"</string>
+    <string name="btn_menu">"မီနူး"</string>
+    <string name="btn_back">"နောက်သို့"</string>
+    <string name="btn_volumeup">"အသံကျယ်"</string>
+    <string name="btn_volumedown">"အသံတိုး"</string>
+    <string name="btn_power">"ပါဝါ"</string>
+    <string name="btn_snapshot">"ကင်မရာ လျှပ်တပြက်ရိုက်ချက်"</string>
+    <!-- headset_key case -->
+    <string name="headset_key">"နားကြပ်ကီး"</string>
+    <string name="btn_guidance">"နားကြပ်ထည့်သွင်းပြီးနောက် မှန်ကန်ကြောင်းစစ်ဆေးရန် ဖုန်းချသည့်ကီးကို နှိပ်ပါ"</string>
+    <string name="btn_headphone_insert">"နားကြပ် ထည့်သွင်းရန်"</string>
+    <string name="btn_microphone_insert">"မိုက် ထည့်သွင်းရန်"</string>
+    <string name="btn_hangup">"ဖုန်းချရန်"</string>
+    <!-- vibrator case -->
+    <string name="vibrator">"တုန်ခါ ကိရိယာ"</string>
+    <string name="vibrator_on">"တုန်ခါမှု ဖွင့်"</string>
+    <string name="vibrator_off">"တုန်ခါမှု ပိတ်"</string>
+    <string name="vibrating">"တုန်ခါနေသည်..."</string>
+    <!-- audio case -->
+    <string name="handset">"အော်ဒီယို ဟန်းဆက်"</string>
+    <string name="audio_handset_play">"အော်ဒီယို ဟန်းဆက်ဖုန်း ဖွင့်ပါ"</string>
+    <string name="audio_handset_play_instruction">"နားကြပ်မှတဆင့် တေးဂီတဖွင့်ခြင်းကို စစ်ဆေးအတည်ပြုပါ"</string>
+    <string name="headset">"အော်ဒီယို နားကြပ်"</string>
+    <string name="audio_headset_loopback">"အော်ဒီယို ဟန်းဆက်ဖုန်း စီးဆင်းလှည့်လည်ပါ"</string>
+    <string name="audio_headset_loopback_instruction">"နားကြပ်ကို ပလပ်ထိုးပါ....  နားကြပ်မှ အသံလှိုင်းထုတ်လွှင့်မှုကို စစ်ဆေးအတည်ပြုရန် နားကြပ်တွင် တပ်ဆင်ထားသော မိုက်ထဲသို့ စကားပြောထည့်ပါ"</string>
+    <string name="audio_headset_instruction">"နားကြပ်ကို ပလပ်ထိုးပါ....  နားကြပ်မှ အသံလှိုင်းထုတ်လွှင့်မှုကို စစ်ဆေးအတည်ပြုရန် နားကြပ်တွင် တပ်ဆင်ထားသော မိုက်ထဲသို့ စကားပြောထည့်ပါ"</string>
+    <string name="loudspeaker">"အော်ဒီယို အသံချဲ့ကိရိယာ"</string>
+    <string name="audio_loudspeaker_play">"အော်ဒီယို လော်စပီကာ ဖွင့်ပါ"</string>
+    <string name="audio_loudspeaker_play_instruction">"စပီကာအကျယ်မှတဆင့် တေးဂီတဖွင့်ခြင်းကို စစ်ဆေးအတည်ပြုပါ"</string>
+    <string name="primary_mic">"ဦးစားပေး မိုက်"</string>
+    <string name="audio_primary_mic">"ဦးစားပေး မိုက်"</string>
+    <string name="audio_primary_mic_instruction">"အခြေခံ မိုက်ခွက်တွင် စကားပြောပြီး ယခင် ဖမ်းယူထားသည့် မက်ဆေ့ချ် လော်စပီကာမှတဆင့် ဖွင့်လာသည်ကို စောင့်ပါ"</string>
+    <string name="audio_noise_mic">"ဆူညံသည့် မိုက်ခွက်"</string>
+    <string name="audio_noise_mic_instruction">"အခြေခံ ဆူညံသည့် မိုက်ခွက်တွင် စကားပြောပြီး ယခင် ဖမ်းယူထားသည့် မက်ဆေ့ချ် လော်စပီကာမှတဆင့် ဖွင့်လာသည်ကို စောင့်ပါ"</string>
+    <string name="audio_top_mic">"ထိပ်တန်း မိုက်ခွက်"</string>
+    <string name="audio_top_mic_instruction">"အခြေခံ ထိပ်တန်း မိုက်ခွက်တွင် စကားပြောပြီး ယခင် ဖမ်းယူထားသည့် မက်ဆေ့ချ် လော်စပီကာမှတဆင့် ဖွင့်လာသည်ကို စောင့်ပါ"</string>
+    <string name="primary_mic_test">"ဦးစားပေး မိုက်ထဲသို့ စကားသံသွင်းပြီး စပီကာမှတဆင့် ယခင်က ဖမ်းယူထားသော မက်ဆေ့ချ်ကို ပြန်ဖွင့်ခြင်းကို စောင့်ပါ"</string>
+    <string name="handset_record">"ဖော်ပြပါအတွက် ဟန်းဆက်ထဲရှိ မိုက်ထဲသို့ အသံသွင်းပါ"</string>
+    <string name="handset_playback">"ဟန်းဆက် နားကြပ်မှတဆင့် ယခင်က ဖမ်းယူထားသော မက်ဆေ့ချ်ကို ပြန်ဖွင့်ခြင်းကို ခွဲခြားသတ်မှတ်ပါ"</string>
+    <string name="handset_play">"နားကြပ်မှတဆင့် တေးဂီတဖွင့်ခြင်းကို စစ်ဆေးအတည်ပြုပါ"</string>
+    <string name="headset_record">"ဖော်ပြပါအတွက် နားကြပ်ရှိ မိုက်ထဲသို့ အသံသွင်းပါ"</string>
+    <string name="headset_playback">"နားကြပ်မှတဆင့် ယခင်က ဖမ်းယူထားသော မက်ဆေ့ချ်ကို ပြန်ဖွင့်ခြင်းကို ခွဲခြားသတ်မှတ်ပါ"</string>
+    <string name="headset_loopback">"နားကြပ်တပ်ပြီး နားကြပ် အလုပ်လုပ်ကြောင်း ပြန်စစ်ဆေးရန် နားကြပ်ထဲသို့ စကားပြောကြည့်ပါ"</string>
+    <string name="loudspeaker_playback">"အသံချဲ့ကိရိယာမှတဆင့် ယခင်က ဖမ်းယူထားသော မက်ဆေ့ချ်ကို ပြန်ဖွင့်ခြင်းကို ခွဲခြားသတ်မှတ်ပါ"</string>
+    <string name="loudspeaker_play">"စပီကာအကျယ်မှတဆင့် တေးဂီတဖွင့်ခြင်းကို စစ်ဆေးအတည်ပြုပါ"</string>
+    <string name="headset_second_record">"ဖော်ပြပါအတွက် ဒုတိယ မိုက်ထဲသို့ အသံသွင်းပါ"</string>
+    <string name="seconds">"စက္ကန့်များ"</string>
+    <!-- wifi case -->
+    <string name="wifi">"WIFI"</string>
+    <!-- fm case -->
+    <string name="fm">FM</string>
+    <string name="next_tune">"နောက်တစ်ခုကို ရှာပါ &gt;&gt;"</string>
+    <string name="playing_tune">"ဖွင့်မည့် သံစဉ်"</string>
+    <string name="config_audio">"FM အတွက် အော်ဒီယိုလမ်းကြောင်းကို သီးသန့်စီစဉ်ထားရှိရန် စတင်ပါ"</string>
+    <string name="search_tune">"ရရှိနိုင်သော သံစဉ်ကို ရှာဖွေနေပါသည်..."</string>
+    <!-- bluetooth case -->
+    <string name="bluetooth">"ဘလူးတုသ်"</string>
+    <!-- gps case -->
+    <string name="gps">"GPS"</string>
+    <string name="run_garden_app">"ဥယျာဉ်_အက်ပ်ကို လုပ်ဆောင်စေပါ..."</string>
+    <!-- nfc case -->
+    <string name="nfc">"NFC"</string>
+    <!-- test report -->
+    <string name="fail_items">"အလုပ်မဖြစ်သော ပစ္စည်းများ"</string></resources>

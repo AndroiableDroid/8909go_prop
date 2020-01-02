@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string-array name="sessionType">
+        <item>"تک عکس"</item>
+        <item>"ردیابی برنامه"</item>
+    </string-array>
+    <string-array name="sessionTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="apiType">
+        <item>"Android API"</item>
+        <item>"Loc API"</item>
+        <item>"سرویس GPL"</item>
+        <item>"سرویس QPL"</item>
+    </string-array>
+    <string-array name="apiTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="locProviderType">
+        <item>"GPS"</item>
+        <item>"شبکه"</item>
+        <item>"غیرفعال"</item>
+    </string-array>
+    <string-array name="locProviderTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="accuracyLevelType">
+        <item>"زیاد"</item>
+        <item>"متوسط"</item>
+        <item>"کم"</item>
+    </string-array>
+    <string-array name="accuracyLevelTypeValues">
+        <item>"High"</item>
+        <item>"Medium"</item>
+        <item>"Low"</item>
+    </string-array>
+    <string-array name="opModeType">
+        <item>"مستقل"</item>
+        <item>"با کمک MS"</item>
+        <item>"بر پایه MS"</item>
+        <item>"سرعت بهینه"</item>
+        <item>"داده بهینه"</item>
+        <item>"دقت بهینه"</item>
+        <item>"شناسه تلفن همراه"</item>
+        <item>"پیش‌فرض"</item>
+    </string-array>
+    <string-array name="opModeTypeValues">
+        <item>"Standalone"</item>
+        <item>"MS-Assisted"</item>
+        <item>"MS-Based"</item>
+        <item>"Speed Optimal"</item>
+        <item>"Data Optimal"</item>
+        <item>"Accuracy Optimal"</item>
+        <item>"Cell ID"</item>
+        <item>"Default"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyType">
+        <item>"بدون شرایط"</item>
+        <item>"کم"</item>
+        <item>"زیاد"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyType">
+        <item>"بدون شرایط"</item>
+        <item>"کم"</item>
+        <item>"متوسط"</item>
+        <item>"زیاد"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="powerRequirementType">
+        <item>"بدون شرایط"</item>
+        <item>"کم"</item>
+        <item>"متوسط"</item>
+        <item>"زیاد"</item>
+    </string-array>
+    <string-array name="powerRequirementValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityType">
+        <item>"تنظیم نشده است"</item>
+        <item>"خیلی کم"</item>
+        <item>"کم"</item>
+        <item>"متوسط"</item>
+        <item>"زیاد"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityValues">
+        <item>"Not Set"</item>
+        <item>"Very Low"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="lppModeType">
+        <item>"غیرفعال کردن"</item>
+        <item>"صفحه کاربر"</item>
+        <item>"صفحه کنترل"</item>
+    </string-array>
+    <string-array name="lppModeValues">
+        <item>"Disable"</item>
+         <item>"User Plane"</item>
+        <item>"Control Plane"</item>
+    </string-array>
+    <string-array name="wbiqGLOR1Chan">
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="gplsPriorityType">
+        <item>"دقت بالا"</item>
+        <item>"دقت توان متوازن"</item>
+        <item>"توان پایین"</item>
+        <item>"بدون توان"</item>
+    </string-array>
+    <string-array name="gplsPriorityTypeValues">
+        <item>100</item>
+        <item>102</item>
+        <item>104</item>
+        <item>105</item>
+    </string-array>
+    <string-array name="geofenceReportType">
+        <item>"نقض"</item>
+        <item>"بسته بندی"</item>
+        <item>"مجاورت"</item>
+        <item>"نقض + مجاورت"</item>
+        <item>"بسته بندی + مجاورت"</item>
+    </string-array>
+    <string-array name="geofenceReportTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array></resources>

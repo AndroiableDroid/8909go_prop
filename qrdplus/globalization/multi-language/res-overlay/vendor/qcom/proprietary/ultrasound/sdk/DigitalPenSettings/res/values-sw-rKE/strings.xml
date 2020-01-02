@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Mipangilio ya SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Mipangilio ya Kipima cha Kalamu Dijitali cha Snapdragon"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"Umelemazwa"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"Nakala Rudufu"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"Modi ya Nje ya Skrini ya Programu ya Hiba"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"Umbali wa Karbu (mm):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"Modi ya Nishati:"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"Boresha Usahihi"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"Boresha Nishati"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"Aina ya Uinguizaji:"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"Usikivu wa Kipanya:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"Polepole"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"Wastani"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"Haraka"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"Kalamu"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"Panya"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"Kidhibiti"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"Kalamudijitali Imezimwa"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"Kalamudijitali Imewashwa"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"Kishikio Mahiri Zaidi"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"Uambazaji Juu Kwenye Skrini"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"Uambazaji Juu Nje ya Skrini:"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"Kiwango cha Juu Zaidi cha Umbali:"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"Onyesha aikoni ya kiambazaji"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"Kitufe cha kifutaji"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"Kielezo cha kitufe"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"Mtindo wa Kifutaji:"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"Shikilia ili ufute"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"Gusa ili ugeuze"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"Eneo la Nje ya Skrini katika Taswira:"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"Upande wa kushoto"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"Upande wa kulia"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"Sitisha Kalamu Imewashwa Skrini Imezimwa"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"Anzisha Kalamu Imewashwa Washa"</string></resources>

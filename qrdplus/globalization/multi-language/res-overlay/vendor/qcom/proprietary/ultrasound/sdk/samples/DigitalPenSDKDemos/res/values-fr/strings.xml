@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Démonstrations SDK SDP "</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Hors écran étendu"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Canal latéral en arrière-plan"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Doigt vs. stylo + pression"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Inclinaison axe"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Survol et bouton latéral"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Gomme et Annuler gomme"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"Cette démonstration porte sur la fonction écran éteint.\n\n1. Dessinez hors écran et regardez votre dessin à droite.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. L\'angle inférieur droit de l\'écran virtuel comporte un bouton. Survolez-le à différentes hauteurs pour changer l\'opacité du cercle.\n\n3. Appuyez dessus pour changer la couleur du cercle."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"Cette démonstration illustre comment le canal latéral en arrière-plan peut fonctionner lorsque l\'écran est allumé ou éteint.\n\n1. Dessinez hors écran et regardez votre dessin.\n\n2. Basculez vers une autre application ou éteignez l\'écran, votre dessin est toujours enregistré."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Survol sur l\'écran"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Survolez l\'écran à différentes hauteurs.\n\n2. Utilisez le commutateur pour désactiver le survol.\n\n3. Utilisez le curseur pour définir la distance maximale des événements de survol.\n\n4. L\'appui sur les boutons latéraux changera la couleur du cercle de survol."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. Veuillez configurer le bouton SDP en mode Gomme dans les paramètres généraux.\n\n2. Dessinez.\n\n3. Réglez la gomme sur Appui pour changer. Appuyez sur le bouton Gomme. Effacez. Appuyez à nouveau sur le bouton Effacer pour revenir au mode Stylo.\n\n4. Réglez la gomme sur Tenir pour effacer. Vous pouvez désormais effacer à l\'appui.\n\n5. Utilisez le commutateur Annuler gomme pour désactiver la fonction Gomme."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Annuler gomme"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Effacer le fond"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Dessinez avec le stylo, puis avec votre doigt.\nLes deux méthodes sont reconnues par des couleurs différentes.\nLa largeur du trait dépend de la pression qui est aussi visible numériquement."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Pression"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Aplicație mostră FastCV"</string>
+    <string name="label_text">"Tastați aici: "</string>
+    <string name="textview01_text">"TextView01"</string>
+    <string name="startpreview_text">"Porniţi"</string>
+    <string name="stoppreview_text">"Opriţi"</string>
+    <string name="settings">"Setări"</string>
+    <string name="txtAcceleration">"Comutați accelerația"</string>
+    <string name="about">"Despre"</string>
+    <string name="versionNumber_text">"Versiune FastCV"</string>
+    <string name="appName_text">"Nume aplicație"</string>
+    <string name="appName">"Aplicație mostră detectare colț FastCV"</string>
+                <string-array name="cornerDetectorDownSampleArray">
+       <item>1 </item>
+       <item>2 </item>
+       <item>4 </item>
+       <item>8 </item>
+       <item>16 </item>
+    </string-array>
+    <string-array name="cornerDetectorDownSampleValuesArray">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+       <item>3</item>
+       <item>4</item>
+    </string-array>
+ <string-array name="cornerDetectorThresholdArray">
+       <item>5 </item>
+       <item>10 </item>
+       <item>20 </item>
+       <item>40 </item>
+       <item>80 </item>
+    </string-array>
+        <string-array name="cornerDetectorValuesArray">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+       <item>3</item>
+       <item>4</item>
+    </string-array>
+<string-array name="CameraOnOffArray">
+       <item>"Vizor activat "</item>
+       <item>"Vizor dezactivat "</item>
+    </string-array>
+    <string-array name="CameraOnOffValuesArray">
+       <item>0</item>
+       <item>1</item>
+       </string-array>
+<string-array name="CornerOnOnOffArray">
+       <item>"Dezactivați suprapunerea colțurilor  "</item>
+       <item>"Activați suprapunerea colțurilor "</item>
+     </string-array>
+    <string-array name="CornerOnOffValuesArray">
+       <item>0</item>
+       <item>1</item>
+     </string-array>
+<string-array name="GaussianOnOffArray">
+       <item>"Dezactivați filtrul Gaussian 3x3  "</item>
+       <item>"Activați filtrul Gaussian 3x3 "</item>
+     </string-array>
+    <string-array name="GaussianOnOffValuesArray">
+       <item>0</item>
+       <item>1</item>
+     </string-array></resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"ဆက်တင်များ"</string>
+    <string name="body_msg">"FidoCryptoService စမ်းသပ်နေသည်"</string>
+    <string name="load">"တင်ပို့လုပ်ဆောင်ပါ"</string>
+    <string name="unload">"တင်ပို့လုပ်ဆောင်မှုဖြုတ်ပါ"</string>
+    <string name="process">"လုပ်ငန်းစဉ်"</string>
+    <string name="start">"စတင်ပါ"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"FIDO ဝန်ဆောင်မှုကို ပေါင်းစပ်ပါ"</string>
+    <string name="unbindFido">"FIDO ဝန်ဆောင်မှုကို ပေါင်းစပ်မှုဖြုတ်ပါ"</string>
+    <string name="setChallenge">"စိန်ခေါ်မှု သတ်မှတ်ပါ"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"စစ်ဆေးမှု ပေါင်းစပ်လုပ်ဆောင်ပါ"</string>
+    <string name="verifyUser">"အသုံးပြုသူအတည်ပြုချက် / တိုကင်ရယူပါ"</string>
+    <string name="GetInfo">"အင်ဖို ရယူပါ"</string>
+    <string name="Register">"မှတ်ပုံတင်ပါ"</string>
+    <string name="Deregister">"မှတ်ပုံတင်ဖြုတ်ပါ"</string>
+    <string name="OpenSettings">"သတ်မှတ်ချက်များ ဖွင့်ပါ"</string>
+    <string name="Sign">"သငေ်္ကတ"</string>
+    <string name="MalformedRequest">"ပုံမှန်မဟုတ်သည့် တောင်းခံချက်"</string>
+    <string name="selectAuth">"အထောက်အထားပြုစစ်ဆေးသူ ရွေးချယ်ပါ"</string>
+    <string name="getEnrollmentStatus">"စာရင်းသွင်းမှု အခြေအနေ ရယူပါ"</string>
+    <string name="RegisterExt">"တိုးချဲ့မှုများဖြင့် မှတ်ပုံတင်ပါ"</string>
+    <string name="SignExt">"တိုးချဲ့မှုများဖြင့် လက်မှတ်ရေးထိုးပါ"</string>
+    <string name="encResult">"အကျဉ်းချုံးထားသည့် ရလဒ်"</string>
+    <string name="extResult">"တိုးချဲ့မှု ဒေတာ"</string>
+    <string name="selectFidoOpText">"FIDO လုပ်ဆောင်မှုကို ရွေးချယ်ပါ"</string>
+    <string name="show_message_sui">"မက်ဆေ့ခ်ျ sui ကိုပြသပါ"</string>
+    <string name="fido_sui_service">"fido Sui ဝန်ဆောင်မှု"</string>
+    <string name="bindFidoSui">"fido sui ကိုပေါင်းစပ်ပါ"</string>
+    <string name="unbindFidoSui">"fido sui ကိုပေါင်းစပ်မှုမှဖြုတ်ပါ"</string>
+    <string name="suiResultTitle">"မက်ဆေ့ခ်ျ sui ရလဒ်ကို ပြသပါ"</string>
+    <string name="cancel_sui">"sui ကိုပယ်ဖျက်ပါ"</string>
+    <string name="extensionText">"တိုးချဲ့မှုများကို အသုံးပြုမလား?"</string>
+    <string name="pngText">"PNG ပါဝင်သည့်အရာကို အသုံးပြုမလား?"</string>
+    <string name="fpText">"လုံခြုံစိတ်ချရသည့် လက်ဗွေရာ"</string>
+    <string-array name="authenticator_array">
+        <item>"တုပခြင်း စစ်ဆေးမှု"</item>
+        <item>"စာရင်း အထောက်အထားပြုစစ်ဆေးသူ"</item>
+        <item>"လုံခြုံစိတ်ချရသည့် စာရင်း စစ်ဆေးမှု"</item>
+        <item>"ရိုးရှင်းသည့် တိုးချဲ့မှုဆိုင်ရာ အထောက်အထားပြသမှု"</item>
+        <item>"လုံခြုံစိတ်ချရသည့် တိုးချဲ့မှုဆိုင်ရာ အထောက်အထားပြသမှု"</item>
+        <item>"ကိရိယာ ကျန်းမာရေး Auth"</item>
+        <item>"လုံခြုံစိတ်ချရသည့် ရိုးရှင်းသော အထောက်အထားပြသမှု IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"အင်ဖို ရယူပါ"</item>
+        <item>"မှတ်ပုံတင်ပါ"</item>
+        <item>"မှတ်ပုံတင်ဖြုတ်ပါ"</item>
+        <item>"သတ်မှတ်ချက်များ ဖွင့်ပါ"</item>
+        <item>"ထူးကဲစွာပုံသွင်းထားသည့် ခြွင်းချက်"</item>
+        <item>"ထိုးမြဲလက်မှတ် (Auth)"</item>
+        <item>"ထိုးမြဲလက်မှတ် (TX)"</item>
+    </string-array></resources>

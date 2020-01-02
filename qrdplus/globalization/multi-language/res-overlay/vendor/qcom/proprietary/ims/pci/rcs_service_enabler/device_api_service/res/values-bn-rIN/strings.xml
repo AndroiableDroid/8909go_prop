@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service অপসারণ করা হয়েছে, অনুগ্রহ করে সেটি আবার ইনস্টল করুন!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"প্রোফাইল পাঠ্য ডেটা আপডেট করুন"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"প্রোফাইল পোর্ট্রেট ডেটা আপডেট করুন"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"সব বার্তা মুছে ফেলুন"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"গোষ্ঠী-চ্যাটে একজন নতুন সভাপতি সেট করুন"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"গোষ্ঠী-চ্যাটের বিষয় পরিবর্তন করুন"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"গোষ্ঠী-চ্যাটের সদস্যের ডাকনাম পরিবর্তন করুন"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"গোষ্ঠী-চ্যাটে যোগদান করার আমন্ত্রণ গ্রহণ করুন"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"গোষ্ঠী-চ্যাট থেকে প্রস্থান করুন"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"গোষ্ঠী-চ্যাট থেকে অংশগ্রহণকারীদের বহিষ্কার করুন"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"একটি গোষ্ঠী-চ্যাট বাতিল করুন"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"সর্বজনীন অ্যাকাউন্টের উপর নজর রাখুন"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"সর্বজনীন অ্যাকাউন্টের উপর নজর রাখবেন না"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"সর্বজনীন অ্যাকাউন্ট রিপোর্ট করুন"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"সংবেদনশীল api অনুমতি"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"অনুমোদিত %1$d অ্যাপ (মোট %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"আর কখনও জিজ্ঞাসা করবেন না"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"ঠিক আছে"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"বাতিল"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"এই অপারেশনটিকে %1$s-এর জন্য ডিজাইন করা হয়েছে, অনুমতি অস্বীকার করা হলে এটি প্রত্যাশিতভাবে আর কাজ নাও করতে পারে।"</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"%1$s-এর অনুমতি"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"আপনাকে %1$s-এর অনুমতি দিতে হবে।"</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"আপনাকে SD কার্ডে অনুমতি প্রদান করতে হবে।"</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"আপনাকে পরিচিতিগুলিতে অনুমতি প্রদান করতে হবে।"</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"আপনাকে sms-এ অনুমতি প্রদান করতে হবে।"</string></resources>

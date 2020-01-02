@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"Aparat"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"Podstawowy"</item>
+        <item>"Przedni"</item>
+        <item>"Aparat 3"</item>
+        <item>"Aparat 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"Rozmiar zdjęcia"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160 × 2340 (9,7 MP, 16:9)"</item>
+        <item>"3840 × 2160 (8,3 MP, 16:9, UHD 4K)"</item>
+        <item>"3200 × 1800 (5,8 MP, 16:9, WQXGA+)"</item>
+        <item>"2688 × 1512 (4,1 MP, 16:9)"</item>
+        <item>"2592 × 1458 (3,8 MP, 16:9)"</item>
+        <item>"1920 × 1080 (2,1 MP, 16:9, HD 1080p)"</item>
+        <item>"1280 × 720 (0,9 MP, 16:9, HD 720p)"</item>
+        <item>"864 × 480 (0,4 MP, 16:9)"</item>
+        <item>"4160 × 3120 (13 MP, 4:3)"</item>
+        <item>"4000 × 3000 (12 MP, 4:3)"</item>
+        <item>"3264 × 2448 (8 MP, 4:3)"</item>
+        <item>"3200 × 2400 (7,7 MP, 4:3, QUXGA)"</item>
+        <item>"2592 × 1944 (5 MP, 4:3)"</item>
+        <item>"2048 × 1536 (3,1 MP, 4:3, QXGA)"</item>
+        <item>"1920 × 1440 (2,8 MP, 4:3)"</item>
+        <item>"1600 × 1200 (1,9 MP, 4:3, UXGA)"</item>
+        <item>"1280 × 960 (1,2 MP, 4:3, UVGA)"</item>
+        <item>"1024 × 768 (0,8 MP, 4:3, XGA)"</item>
+        <item>"800 × 600 (0,5 MP, 4:3, SVGA)"</item>
+        <item>"640 × 480 (0,3 MP, 4:3, VGA)"</item>
+        <item>"320 × 240 (0,1 MP, 4:3, QVGA)"</item>
+        <item>"3264 × 2176 (7,1 MP, 3:2)"</item>
+        <item>"2592 × 1728 (4,5 MP, 3:2)"</item>
+        <item>"720 × 480 (0,3 MP, 3:2)"</item>
+        <item>"4160 × 2774 (11,5 MP, 3:2)"</item>
+        <item>"2976 × 2976 (8,9 MP, 1:1)"</item>
+        <item>"1280 × 768 (1 MP, 5:3)"</item>
+        <item>"800 × 480 (0,4 MP, 5:3)"</item>
+        <item>"352 × 288 (0,1 MP, 11:9)"</item>
+        <item>"176 × 144 (0 MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"Rozmiar podglądu"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"Dopasuj do rozmiaru wyświetlacza"</item>
+        <item>"Podgląd o wysokiej rozdzielczości (do 4 MP)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"Tryb scenerii"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"Automat"</item>
+        <item>"Zdjęcia w ruchu"</item>
+        <item>"Kod kreskowy"</item>
+        <item>"Plaża"</item>
+        <item>"Blask świecy"</item>
+        <item>"Twarze"</item>
+        <item>"Fajerwerki"</item>
+        <item>HDR</item>
+        <item>"Tryb szybkiego filmu wideo"</item>
+        <item>"Krajobrazy"</item>
+        <item>"Noc"</item>
+        <item>"Impreza"</item>
+        <item>"Osoby"</item>
+        <item>"Ludzie nocą"</item>
+        <item>"Śnieg"</item>
+        <item>"Sport"</item>
+        <item>"Zdjęcie nieruchome"</item>
+        <item>"Zachód słońca"</item>
+        <item>"Teatr"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"Kontrola ekspozycji"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"Automat"</item>
+        <item>"Stałe"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"Kompensacja ekspozycji"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"Ostrość"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"Automat"</item>
+        <item>"Stałe"</item>
+        <item>"Ciągły (zdjęcie)"</item>
+        <item>"Ciągły (film)"</item>
+        <item>"Makro"</item>
+        <item>"Większa głębia obrazu"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"Kontrola balansu bieli"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"Automat"</item>
+        <item>"Wył"</item>
+        <item>"Światło żarowe"</item>
+        <item>"Światło jarzeniowe"</item>
+        <item>"Ciepłe światło jarzeniowe"</item>
+        <item>"Światło dzienne"</item>
+        <item>"Pochmurny dzień"</item>
+        <item>"Cień"</item>
+        <item>"Zmierzch"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"Lampa"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"Automat"</item>
+        <item>"Wł"</item>
+        <item>"Wył"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"Redukcja szumu"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"Wł"</item>
+        <item>"Wył"</item>
+        <item>"Wysoka jakość"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"Korekcja zaciemnienia obiektywu"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"Wł"</item>
+        <item>"Wył"</item>
+        <item>"Wysoka jakość"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"Korekcja aberracji"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"Wł"</item>
+        <item>"Wył"</item>
+        <item>"Wysoka jakość"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"Wzmocnienie krawędzi"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"Wł"</item>
+        <item>"Wył"</item>
+        <item>"Wysoka jakość"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"Korekcja gorących pikseli"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"Wł"</item>
+        <item>"Wył"</item>
+        <item>"Wysoka jakość"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"Tryb stabilizacji"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"Wył"</item>
+        <item>"Optyczny"</item>
+        <item>"Cyfrowy"</item>
+    </string-array></resources>

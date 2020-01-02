@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"تنظیمات رومینگ"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"باز کردن"</string>
+    <string name="data_roaming_title">"اتصال به سرویس‌های داده هنگام رومینگ"</string>
+    <string name="manual_select_network">"انتخاب دستی شبکه"</string>
+    <string name="roaming_card_info">"از اولویت کارت ویزیت همراه استفاده می کند"</string>
+    <string name="network_select_success_info">"ثبت نام با موفقیت در شبکه «<xliff:g id="name">%s</xliff:g>» انجام شد، وقتی شبکه در دسترس نیست، ثبت نام خودکار انجام می شود."</string>
+    <string name="network_select_failure_info">"شبکه «<xliff:g id="name">%s</xliff:g>» را که انتخاب کردید در دسترس نیست، ثبت نام خودکار در شبکه دیگری را به صورت خودکار شروع کنید"</string>
+    <string name="network_auto_success_info">"ثبت نام خودکار در شبکه با موفقیت انجام شد"</string>
+    <string name="network_auto_failure_info">"شبکه GSM را که انتخاب کردید در دسترس نیست، ثبت نام خودکار در شبکه دیگری را به صورت خودکار شروع کنید"</string>
+    <string name="manual_select_network_tip">"این عملکرد فقط زمان هایی معتبر است که"</string>
+    <string name="gsm_network_list_title">"شبکه های قابل انتخاب"</string>
+    <string name="searching_cdma_network_title">"اکنون در حال جستجوی شبکه cdma......"</string>
+    <string name="searching_gsm_network_title">"اکنون در حال جستجوی شبکه gsm......"</string>
+    <string name="empty_networks_list">"شبکه‌ای یافت نشد."</string>
+    <string name="register_on_network">"در حال ثبت در <xliff:g id="NETWORK">%s</xliff:g>..."</string>
+    <string name="register_automatically">"ثبت خودکار‎\u2026"</string>
+    <string name="network_select_setting">"تنظیم شبکه"</string>
+    <string name="roaming_hotline">"خط رومینگ ‎+8618918910000"</string>
+    <string name="carrier_names">"China Telecom"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"درحال غیرفعال کردن داده..."</string>
+    <string name="unable_to_disable_data">"غیرفعال سازی داده امکان پذیر نیست."</string>
+    <string name="avoid_cur_nwk_succeeded">"شبکه کنونی به فهرست غیرمجاز اضافه شد."</string>
+    <string name="avoid_cur_nwk_failed">"شبکه کنونی به فهرست غیرمجاز اضافه نشد."</string>
+    <string name="clear_nwk_list_succeeded">"لیست شبکه غیرمجاز پاک شد."</string>
+    <string name="clear_nwk_list_failed">"لیست شبکه غیرمجاز پاک نشد."</string>
+    <string name="ok_btn">"تأیید"</string>
+    <string name="cancel_btn">"لغو"</string>
+    <string name="confirm_avoid">"مطمئنید نمی خواهید از شبکه کنونی استفاده کنید؟"</string>
+    <string name="confirm_clear">"مطمئنید می خواهید لیست شبکه غیرمجاز را پاک کنید؟"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"انتخاب CDMA"</string>
+    <string name="pref_gsm_choose_title">"انتخاب GSM"</string>
+    <string name="pref_network_info_title">"اطلاعات شبکه کنونی"</string>
+    <string name="alert_msg_enable_card">"می خواهید این کارت را فعال کنید؟"</string>
+    <string name="alert_msg_disable_card">"می خواهید این کارت را غیرفعال کنید؟"</string>
+    <string name="progress_msg_enable_card">"فعال سازی این کارت، لطفاً صبر کنید\u2026"</string>
+    <string name="progress_msg_disable_card">"غیرفعال سازی این کارت، لطفاً صبر کنید\u2026"</string>
+    <string name="operation_success">"عملیات با موفقیت انجام شد"</string>
+    <string name="operation_failure">"عملیات ناموفق بود"</string>
+    <string name="result_btn">"تأیید"</string>
+    <string name="alert_data_roaming_title">"اجازه به رومینگ داده"</string>
+    <string name="alert_data_roaming_msg">"هنگام انجام رومینگ داده، ممکن است هزینه‌های رومینگ قابل توجهی را متحمل شوید!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"ناشناس"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"موجود نیست"</string>
+    <string name="status_network_type">"نوع شبکه همراه"</string>
+    <string name="status_signal_strength">"قدرت سیگنال"</string>
+    <string name="status_prl_version">"نسخه PRL"</string>
+    <string name="status_data_state">"وضعیت شبکه همراه"</string>
+    <string name="status_netowrk_title">"وضعیت سیم کارت کنونی"</string>
+    <string name="status_operator_name">"نام اپراتور"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"شناسه تلفن همراه"</string>
+    <string name="status_sms_center_number">"شماره مرکز پیامک"</string>
+    <string name="status_pnl_version">"نسخه لیست شبکه برگزیده"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"جابجایی دستی به شبکه بعدی"</string>
+    <string name="avoid_discription">"دستورالعمل:\n  انتخاب شبکه خودکار پیش فرض سیستم CDMA است، لازم نیست به صورت دستی انتخاب شود اما شبکه کنونی قابل استفاده نیست، سعی کنید به صورت دستی به شبکه بعدی بروید. "</string>
+    <string name="attention_dialog_title">"توجه"</string>
+    <string name="disable_both_sim_error_msg">"غیرفعال سازی هم زمان هر دو سیم کارت امکان پذیر نیست"</string>
+    <string name="China_Mobile">"China Mobile"</string>
+    <string name="China_Unicom">"China Unicom"</string>
+    <string name="China_Telecom">"China Telecom"</string></resources>

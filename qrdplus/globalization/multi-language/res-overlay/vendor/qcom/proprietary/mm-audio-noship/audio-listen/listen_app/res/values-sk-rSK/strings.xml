@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="no"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name_ux10">"Hlasová aktivácia"</string>
+    <string name="home_menu_version">"Číslo verzie"</string>
+    <string name="home_menu_settings">"Nastavenia"</string>
+    <string name="home_soundmodel">"Zvukový model"</string>
+    <string name="home_startvoiceactivation">"Spustiť hlasovú aktiváciu"</string>
+    <string name="home_stopvoiceactivation">"Zastaviť hlasovú aktiváciu"</string>
+    <string name="home_advanceddetail">"ROZŠÍRENÉ PODROBNOSTI"</string>
+    <string name="home_advanceddetail_keyword">"Kľúčové slovo:"</string>
+    <string name="home_advanceddetail_user">"Používateľ:"</string>
+    <string name="home_advanceddetail_initialdetections">0</string>
+    <string name="home_advanceddetail_initialscore">0</string>
+    <string name="home_advanceddetail_scorepossible">/100</string>
+    <string name="home_dialog_startingvoiceactivation">"Spúšťanie hlasovej aktivácie"</string>
+    <string name="home_dialog_stoppingvoiceactivation">"Zastavovanie hlasovej aktivácie"</string>
+    <string name="home_dialog_pleasewait">"Čakajte... "</string>
+    <string name="home_dialog_badlibs_title">"Chýbajúce/nekompatibilné súčasti listenlib"</string>
+    <string name="home_dialog_badlibs_message">"Nemožno pokračovať. Kliknutím na OK ukončíte aplikáciu."</string>
+    <string name="soundmodels_top_title">"Zvukové modely"</string>
+    <string name="soundmodels_dialog_adduser_title">"Pridať nového používateľa"</string>
+    <string name="dialog_cancel">"Zrušiť"</string>
+    <string name="dialog_save">"Uložiť"</string>
+    <string name="dialog_ok">"OK"</string>
+    <string name="soundmodels_dialog_deletesoundmodel_title">"Odstrániť zvukový model"</string>
+    <string name="soundmodels_dialog_train_title">"Cvičiť zvukový model"</string>
+    <string name="soundmodels_dialog_train_content">"Cvičenie je potrebné na vytvorenie zvukového modelu tohto používateľa."</string>
+    <string name="soundmodels_dialog_option_deletesoundmodel">"Odstrániť zvukový model"</string>
+    <string name="soundmodels_dialog_option_starttrain">"Spustiť cvičenie"</string>
+    <string name="soundmodels_dialog_selectkeyword_title">"Vyberte kľúčové slovo"</string>
+    <string name="soundmodels_dialog_duplicate_title">"Zvukový model už existuje"</string>
+    <string name="soundmodels_dialog_duplicate_content">"Zvoľte jedinečnú kombináciu kľúčového slova a používateľa"</string>
+    <string name="soundmodels_dialog_invalid_title">"Cvičiť zvukový model"</string>
+    <string name="soundmodels_dialog_invalid_content">"Cvičenie je potrebné na vytvorenie zvukového modelu tohto používateľa."</string>
+    <string name="soundmodel_listitem_keyword">"Text zvukového modelu"</string>
+    <string name="soundmodel_listitem_username">"Text mena používateľa"</string>
+    <string name="training_welcome_unkownuser">"Neznámy používateľ"</string>
+    <string name="training_welcome_notice">"Ak mi chcete pomôcť pri rozpoznaní vášho hlasu, nahrajte sa, ako kľúčové slovo vyslovujete päťkrát."</string>
+    <string name="training_welcome_recording_tip_title">"TIPY NA NAHRÁVANIE"</string>
+    <string name="training_welcome_recording_tip">"1. Telefón držte pred sebou, pričom ho držte vzdialene od úst. \n2.Nahrávajte na tichom mieste, kde je minimálny hluk pozadia. \n3.Hovorte zreteľne, nahlas a rozkazovacím tónom."</string>
+    <string name="training_recording_recording">"ZAZNAMENÁVA SA..."</string>
+    <string name="training_recording_processing">"PREBIEHA SPRACOVANIE..."</string>
+    <string name="training_recording_complete">"DOKONČENÉ!"</string>
+    <string name="training_recording_notice_good">"Výborne!\nRozprávajte presne takto!"</string>
+    <string name="training_recording_notice_bad">"Pri vašej nahrávke sa vyskytol problém. Skúste to znova."</string>
+    <string name="training_recording_continue">"Pokračovať"</string>
+    <string name="training_dialog_createsoundmodel">"Vytváranie personalizovaného zvukového modelu."</string>
+    <string name="training_dialog_close_title">"Naozaj to chcete zatvoriť?"</string>
+    <string name="training_dialog_close_message">"Vymažú sa všetky aktuálne záznamy o cvičeniach."</string>
+    <string name="training_dialog_smcreatefailed_title">"Vytváranie zvukového modelu zlyhalo"</string>
+    <string name="training_dialog_smcreatefailed_message">"Nepodarilo sa nám vytvoriť váš personalizovaný zvukový model. Skúste to znova."</string>
+    <string name="settings_top_title">"Nastavenia"</string>
+    <string name="settings_thresholds">"PRAHY"</string>
+    <string name="settings_threshold_keyword">"PRAH DÔVERY KĽÚČOVÉHO SLOVA"</string>
+    <string name="settings_threshold_speaker">"PRAH DÔVERY REPRODUKTORA"</string>
+    <string name="settings_moreoptions">"ĎALŠIE MOŽNOSTI"</string>
+    <string name="settings_moreoption_listen">"Počúvať"</string>
+    <string name="settings_moreoption_listen_desc">"Zapnúť/vypnúť počúvanie"</string>
+    <string name="settings_moreoption_voiceactivation">"Hlasová aktivácia"</string>
+    <string name="settings_moreoption_voiceactivation_desc">"Zapnúť/vypnúť hlasovú aktiváciu"</string>
+    <string name="settings_moreoption_userverification">"Overenie používateľa"</string>
+    <string name="settings_moreoption_userverification_desc">"Zapnúť/vypnúť overenie používateľa"</string>
+    <string name="settings_moreoption_failurefeedback">"Spätná väzba zlyhania detekcie"</string>
+    <string name="settings_moreoption_failurefeedback_desc">"Zapnúť/vypnúť spätnú väzbu zlyhania detekcie"</string>
+    <string name="settings_moreoption_tone">"Tón pri detekcii a nedetekcii"</string>
+    <string name="settings_moreoption_tone_desc">"Zapnúť/vypnúť tón pre detekcie"</string>
+    <string name="settings_moreoption_voiceqna">"Hlas Q/A"</string>
+    <string name="settings_moreoption_voiceqna_desc">"Spustiť po detekcii hlasové Q/A"</string>
+    <string name="settings_moreoption_voiceqna_error">"Nie sú nainštalované žiadne aplikácie na rozpoznávanie hlasu. Namiesto zostavy HY11 je potrebná bežná zostava."</string>
+    <string name="settings_moreoption_advanced">"Rozšírené podrobnosti"</string>
+    <string name="settings_moreoption_advanced_desc">"Zobraziť ďalšie podrobnosti"</string>
+    <string name="settings_toast_smdependentcheckbox">"Táto zmena sa neprejaví, kým nezaregistrujete ďalší zvukový model."</string>
+    <string name="none"></string>
+    <string name="app_name">"Služba hlasovej aktivácie"</string></resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The user visible name of the application. [CHAR LIMIT=20] -->
+  <string name="application_name">"ExoPlayer – demo"</string>
+  <string name="enable_background_audio">"Prehrávať na pozadí"</string>
+  <string name="video">"Video"</string>
+  <string name="audio">"Zvuk"</string>
+  <string name="text">"Text"</string>
+  <string name="logging">"Prihlasovanie"</string>
+  <string name="logging_normal">"Normálne"</string>
+  <string name="logging_verbose">"Podrobné"</string>
+  <string name="retry">"Skúsiť znova"</string>
+  <string name="off">"[vyp.]"</string>
+  <string name="error_drm_not_supported">"Zabezpečený obsah nie je podporovaný na API úrovne nižšej než 18"</string>
+  <string name="error_drm_unsupported_scheme">"Zariadenie nepodporuje požadovanú schému DRM"</string>
+  <string name="error_drm_unknown">"Vyskytla sa neznáma chyba DRM"</string>
+  <string name="error_no_decoder">"Toto zariadenie neponúka dekóder pre <xliff:g id="mime_type">%1$s</xliff:g>"</string>
+  <string name="error_no_secure_decoder">"Toto zariadenie neponúka zabezpečený dekóder pre<xliff:g id="mime_type">%1$s</xliff:g>"</string>
+  <string name="error_querying_decoders">"Nemožno požiadať o dekódery zariadenia"</string>
+  <string name="error_instantiating_decoder">"Nemožno inštancovať dekóder <xliff:g id="decoder_name">%1$s</xliff:g>"</string>
+  <string name="storage_permission_denied">"Povolenie na prístup k úložisku bolo zamietnuté"</string></resources>

@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Kamera ya Kijamii"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"Tumekumbwa na hitilafu wakati wa kuthibitisha au kuomba ruhusa Tafadhali angalia logcat upate maelezo zaidi."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Tuma (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"Muunganisho kwenye kamera umekatika"</string>
+    <string name="camera_preview_error_camera_error">"Hitilafu kwenye kamera: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Imeshindwa kupiga picha"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Tumekumbwa na hitilafu wakati wa kuhifadhi picha hii katika hifadhi"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Mipangilio"</string>
+    <string name="camera_settings_category_camera_settings">"Mipangilio ya Kamera"</string>
+    <string name="camera_settings_category_fr_settings">"Mipangilio ya Utambuaji wa Uso"</string>
+    <string name="camera_settings_category_debug_settings">"Mipangilio ya Ueuaji"</string>
+    <string name="camera_settings_fr_database_cleared">"Hifadhidata ya utambuaji wa uso imefutwa"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Ondoa"</string>
+    <string name="picture_review_send_faces">"Tuma (%d)"</string>
+    <string name="picture_review_no_faces">"Hakuna mtu aliyepatikana katika picha hii"</string>
+    <string name="picture_review_error_face_recognition">"Tumekumbwa na hitilafu wakati wa kutambua nyuso"</string>
+    <string name="picture_review_error_face_enroll">"Samahani, tumekumbwa na hitilafu wakati wa kuhifadhi uso huu. Tafadhali, piga picha nyingine ya mtu huyu kisha jaribu tena."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Mwasiliani Mwingine\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Shiriki mipangilio"</string>
+    <string name="fr_share_settings_button_just_once">"Mara Moja Pekee"</string>
+    <string name="fr_share_settings_button_always">"Kila mara"</string>
+    <string name="fr_share_settings_share_method_sms">"Ujumbe"</string>
+    <string name="fr_share_settings_share_method_email">"Barua pepe"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Angalia!"</string>
+    <string name="social_sharing_error_no_email_app">"Huna programu inayoweza kutuma barua pepe"</string></resources>

@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"প্রদর্শন SDK নমুনা"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"বৈশিষ্ট্যগুলি প্রদর্শন করুন"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"রঙ ভারসাম্য"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"মোড পরিচালক"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"নতুন মোড"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"মোছার মোড"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"সম্পাদনা মোড"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"বাতিল করুন"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"বৈশিষ্ট্যগুলি প্রদর্শন করুন"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"সক্রিয় মোড"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"মোড নাম লিখুন"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"সংরক্ষণ মোড"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"ফটো বাছুন"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"প্রদান করা প্রদর্শনের প্রকার সমর্থিত নয়। connect() শুরু হয়েছে কিনা নিশ্চিত করুন"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"বৈশিষ্ট্য রঙ ভারসাম্য সমর্থিত নয়"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"বৈশিষ্ট্য অ্যাডাপ্টিভ ব্যাকলাইট সমর্থিত নয়"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"বৈশিষ্ট্য মেমোরি রঙয়ের ফয়েলেজ সমর্থিত নয়"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"বৈশিষ্ট্য মেমোরি রঙ ভারসাম্য সমর্থিত নয়"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"বৈশিষ্ট্য রঙিন আকাশ সমর্থিত নয়"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"বৈশিষ্ট্য ছবির সামঞ্জস্য সমর্থিত নয়"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"বৈশিষ্ট্য সূর্যালোকে দৃশ্যমানতা সমর্থিত নয়"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"নতুন মোড তৈরি করা যাবে না"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"মোড সংশোধন করা যাবে না"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"গ্যালারি থেকে একটি চিত্র যোগ করুন"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"ঠিক আছে"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"হ্যাঁ"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"না"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"আপনার ডিভাইসে কোনও প্রদর্শন মোড উপলভ্য নেই"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"FEATURE_COLOR_MODE_SELECTION সমর্থিত নয়"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"FEATURE_COLOR_MODE_MANAGEMENT সমর্থিত নয়"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"আবশ্যক প্রদর্শন কার্যকারিতাটি উপলভ্য নেই"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"প্রদর্শন মোড মোছা ব্যর্থ হয়েছে"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"প্রদর্শন মোড সক্রিয়করণ ব্যর্থ হয়েছে"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"প্রদর্শন মোডকে ডিফল্ট হিসাবে সেট করা যাবে না"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"দয়া করে প্রথমে একটি মোড নির্বাচন করুন"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"দয়া করে মোডটির জন্য একটি নাম লিখুন"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"নতুন মোড তৈরি হয়েছে"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"ডিফল্ট সেট করুন"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"নির্বাচিত মোড সিস্টেম মোড হওয়ার কারণে সংশোধন করা যাবে না৷ আপনি কি নির্বাচিত মোডের উপরে ভিত্তি করে একটি নতুন মোড তৈরি করতে চান?"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"নির্বাচিত মোড সিস্টেম মোড হওয়ার কারণে মোছা যাবে না"</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"আবশ্যক প্রদর্শন পরিষেবাতে সংযোগ করা যায়নি"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" মোড সক্রিয় হয়েছে"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" মোড মুছে ফেলা হয়েছে"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"রঙ ভারসাম্য"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"সূর্যালোকের দৃশ্যমানতা"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"ছবি সামঞ্জস্যতা"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"মেমোকালার ফয়েলেজ"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"বরণ"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"সম্পৃক্তি"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"তীব্রতা"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"মেমোকালার স্কিন"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"মেমোকালার স্কাই"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" অ্যাডাপ্টিভ ব্যাকলাইট"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"SVI সক্ষম করুন"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"মেমোরি কালার ফয়েলেজ সক্ষম করুন"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"মেমোরি কালার স্কিন সক্ষম করুন"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"মেমোরি কালার স্কাই সক্ষম করুন"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"ছবি সামঞ্জস্য সক্ষম করুন"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"অ্যাডাপ্টিভ ব্যাকলাইট সক্ষম করুন"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"ছবি সামঞ্জস্যতার ডিস্যাচুরেশন সক্ষম করুন"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"স্যাচুরেশন থ্রেশহোল্ড"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"বরণ"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"সম্পৃক্তি"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"তীব্রতা"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"বৈসাদৃশ্য"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"উচ্চ"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"মাঝারি"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"নিম্ন"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"স্বয়ং"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"সতেজ করুন"</string></resources>

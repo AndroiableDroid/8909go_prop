@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Ajuste de retroiluminación adaptativa de contenido"</string>
+        <add-resource type="string" name="cabl_settings_title"/>
+    <string name="cabl_settings_title">"Ajuste de retroiluminación adaptativa de contenido"</string>
+        <add-resource type="string" name="cabl_enable_title"/>
+    <string name="cabl_enable_title">"Habilitar retroiluminación adaptativa de contenido"</string>
+        <add-resource type="string" name="cabl_enable_summary_on"/>
+    <string name="cabl_enable_summary_on">"La retroiluminación se reajustará en función del contenido de la pantalla"</string>
+        <add-resource type="string" name="cabl_enable_summary_off"/>
+    <string name="cabl_enable_summary_off">"La retroiluminación no se reajustará en función del contenido de la pantalla"</string>
+        <add-resource type="string" name="cabl_levels_title"/>
+    <string name="cabl_levels_title">"Nivel de calidad visual"</string>
+        <add-resource type="string" name="cabl_levels_summary"/>
+    <string name="cabl_levels_summary">"El nivel de calidad bajo indica que CABL intentará ahorrar toda la energía posible sin que ello afecte significativamente a lal contenido que se visualiza. El nivel de calidad visual automático indica que CABL intentará maximizar el ahorro de energía en función del tipo de contenido de detección automática que se está visualizando."</string>
+        <add-resource type="string" name="cabl_level_default"/>
+    <string name="cabl_level_default">"Auto"</string>
+        <add-resource type="string" name="cabl_info_default"/>
+    <string name="cabl_info_default">"Desconocido"</string>
+        <add-resource type="string" name="cabl_version_title"/>
+    <string name="cabl_version_title">"Versión de CABL"</string></resources>

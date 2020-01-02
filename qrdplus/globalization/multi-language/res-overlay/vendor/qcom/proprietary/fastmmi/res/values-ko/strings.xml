@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources version="1.1">
+    <!-- mmi main-->
+    <string name="btn_all">"전체"</string>
+    <string name="btn_failed">"실패함"</string>
+    <string name="btn_runall">"모두 실행"</string>
+    <string name="btn_reset">"초기화"</string>
+    <string name="btn_reboot">"다시 부팅"</string>
+    <string name="btn_poweroff">"전원 끄기"</string>
+    <string name="btn_pass">"통과"</string>
+    <string name="btn_fail">"실패"</string>
+    <string name="btn_ok">"확인"</string>
+    <string name="btn_cancel">"취소"</string>
+    <string name="btn_pageup">"위로"</string>
+    <string name="btn_pagedown">"아래로"</string>
+    <string name="finish">"완료"</string>
+    <string name="test_report">"테스트 보고서"</string>
+    <!-- common strings -->
+    <string name="on">"ON"</string>
+    <string name="off">"OFF"</string>
+    <string name="present">"감지됨"</string>
+    <string name="absent">"감지되지 않음"</string>
+    <string name="notice">"테스트 시작, 기다려 주십시오."</string>
+    <string name="reset_notice">"테스트 결과를 지우시겠습니까?"</string>
+    <string name="reboot_poweroff_notice">"(1)  종료       "</string>
+    <string name="reboot_ffbm_notice">"(2)  FFBM으로 다시 부팅  "</string>
+    <string name="reboot_android_notice">"(3)  Android로 다시 부팅"</string>
+    <string name="reboot_notice">"다시 부팅 모드를 선택하세요."</string>
+    <string name="pcba_title">"PCBA 테스트 시작"</string>
+    <string name="exit">"종료"</string>
+    <!-- system information -->
+    <string name="system_info">"시스템 정보"</string>
+    <!-- example information -->
+    <string name="example">"예"</string>
+    <!-- camera case -->
+    <string name="camera_back">"카메라 후면"</string>
+    <string name="camera_back_main">"카메라 후면 기본"</string>
+    <string name="camera_back_aux">"카메라 후면 보조"</string>
+    <string name="camera_back_1st">"카메라 후면 1"</string>
+    <string name="camera_back_2nd">"카메라 후면 2"</string>
+    <string name="camera_front">"카메라 전면"</string>
+    <string name="snapshot">"스냅샷"</string>
+    <!-- battery case -->
+    <string name="battery">"배터리"</string>
+    <string name="battery_instruction">"USB 케이블을 연결/분리하세요."</string>
+    <string name="battery_title">"충전기를 연결/분리합니다. 변경된 값을 확인하시겠습니까?"</string>
+    <string name="battery_health">"배터리 상태"</string>
+    <string name="battery_status">"배터리 상태"</string>
+    <string name="battery_voltage">"배터리 전압"</string>
+    <string name="charging_indicate">"LED가 표시되었습니까?"</string>
+    <string name="discharge_indicate">"배터리가 충전되었습니다. 방전 후 다시 연결하세요."</string>
+    <!-- SMB case -->
+    <string name="smb">"SMB"</string>
+    <!-- lcd case -->
+    <string name="lcd">"LCD"</string>
+    <string name="next">"다음"</string>
+    <!-- LCD_BACKLIGHT case -->
+    <string name="lcd_backlight">"LCD 백라이트"</string>
+    <string name="lcd_backlight_on">"LCD 백라이트 켜기"</string>
+    <string name="lcd_backlight_off">"LCD 백라이트 끄기"</string>
+    <!-- keypad backlight case -->
+    <string name="button_backlight">"키패드 백라이트"</string>
+    <string name="button_backlight_on">"키패드 백라이트 켜기"</string>
+    <string name="button_backlight_off">"키패드 백라이트 끄기"</string>
+    <!-- flashlight case -->
+    <string name="flashlight">"손전등"</string>
+    <string name="flashlight_1">"FLASHLIGHT_1"</string>
+    <string name="flashlight_on">"FLASHLIGHT_ON"</string>
+    <string name="flashlight_off">"FLASHLIGHT_OFF"</string>
+    <!-- leds case -->
+    <string name="led_red">"빨간색 LED"</string>
+    <string name="led_red_on">"빨간색 LED 켜기"</string>
+    <string name="led_red_off">"빨간색 LED 끄기"</string>
+    <string name="led_blue">"파란색 LED"</string>
+    <string name="led_blue_on">"파란색 LED 켜기"</string>
+    <string name="led_blue_off">"파란색 LED 끄기"</string>
+    <string name="led_green">"녹색 LED"</string>
+    <string name="led_green_on">"녹색 LED 켜기"</string>
+    <string name="led_green_off">"녹색 LED 끄기"</string>
+    <!-- sensors case -->
+    <string name="gyroscope">"자이로스코프 센서"</string>
+    <string name="gsensor">"가속도계 센서"</string>
+    <string name="psensor">"근접 센서"</string>
+    <string name="lsensor">"라이트 센서"</string>
+    <string name="msensor">"자력 센서"</string>
+    <string name="calibration">"보정"</string>
+    <string name="lsensor_instruction">"라이트 센서에 덮개를 씌우고 결과를 확인하세요."</string>
+    <string name="psensor_instruction">"근접 센서에 덮개를 씌우고 결과를 확인하세요."</string>
+    <string name="msensor_instruction">"∞/8/S 모양으로 움직여 자력 센서를 보정하고 결과를 확인하세요."</string>
+    <!-- sdcard case -->
+    <string name="sdcard">"SD 카드"</string>
+    <string name="emmc">"EMMC"</string>
+    <string name="storage">"저장소"</string>
+    <string name="sdcard_present">"SD 카드 감지됨"</string>
+    <string name="sdcard_absent">"SD 카드 감지되지 않음"</string>
+    <string name="sdcard_capacity">"SD 카드 용량"</string>
+    <string name="sdcard_used_space">"SD 카드 사용된 공간"</string>
+    <string name="sdcard_free_space">"SD 카드 여유 공간"</string>
+    <!-- memory case -->
+    <string name="memory">"메모리"</string>
+    <!-- cpu case -->
+    <string name="cpu">"CPU"</string>
+    <!-- simcard case -->
+    <string name="simcard1">SIMCARD1</string>
+    <string name="simcard2">SIMCARD2</string>
+    <string name="detecting">"감지 중..."</string>
+    <!-- touch case -->
+    <string name="touch">"터치"</string>
+    <!-- key case -->
+    <string name="key">"키"</string>
+    <string name="btn_home">"홈"</string>
+    <string name="btn_menu">"메뉴"</string>
+    <string name="btn_back">"뒤로"</string>
+    <string name="btn_volumeup">"볼륨 크게"</string>
+    <string name="btn_volumedown">"볼륨 작게"</string>
+    <string name="btn_power">"전원"</string>
+    <string name="btn_snapshot">"카메라 스냅샷"</string>
+    <!-- headset_key case -->
+    <string name="headset_key">"헤드셋 키"</string>
+    <string name="btn_guidance">"헤드셋을 삽입하고 전화 끊기 키를 눌러 확인하세요."</string>
+    <string name="btn_headphone_insert">"헤드폰 삽입"</string>
+    <string name="btn_microphone_insert">"마이크 삽입"</string>
+    <string name="btn_hangup">"전화 끊기"</string>
+    <!-- vibrator case -->
+    <string name="vibrator">"진동"</string>
+    <string name="vibrator_on">"진동 켜기"</string>
+    <string name="vibrator_off">"진동 끄기"</string>
+    <string name="vibrating">"진동 중..."</string>
+    <!-- audio case -->
+    <string name="handset">"오디오 휴대전화"</string>
+    <string name="audio_handset_play">"오디오 휴대전화 재생"</string>
+    <string name="audio_handset_play_instruction">"휴대전화 이어폰을 통해 음악 재생을 확인합니다."</string>
+    <string name="headset">"오디오 헤드셋"</string>
+    <string name="audio_headset_loopback">"오디오 헤드셋 루프백"</string>
+    <string name="audio_headset_loopback_instruction">"헤드셋을 연결하고 헤드셋 마이크에 말하여 헤드셋 루프백 테스트를 확인하세요."</string>
+    <string name="audio_headset_instruction">"헤드셋을 연결하고 헤드셋 마이크에 말하여 헤드셋 루프백 테스트를 확인하세요."</string>
+    <string name="loudspeaker">"오디오 스피커"</string>
+    <string name="audio_loudspeaker_play">"오디오 스피커 재생"</string>
+    <string name="audio_loudspeaker_play_instruction">"스피커를 통해 음악 재생을 확인합니다."</string>
+    <string name="primary_mic">"기본 마이크"</string>
+    <string name="audio_primary_mic">"기본 마이크"</string>
+    <string name="audio_primary_mic_instruction">"기본 마이크에 말하고 이전에 녹음된 메시지가 스피커를 통해 재생될 때까지 기다립니다."</string>
+    <string name="audio_noise_mic">"소음 마이크"</string>
+    <string name="audio_noise_mic_instruction">"소음 마이크에 말하고 이전에 녹음된 메시지가 스피커를 통해 재생될 때까지 기다립니다."</string>
+    <string name="audio_top_mic">"위쪽 마이크"</string>
+    <string name="audio_top_mic_instruction">"위쪽 마이크에 말하고 이전에 녹음된 메시지가 스피커를 통해 재생될 때까지 기다립니다."</string>
+    <string name="primary_mic_test">"기본 마이크에 말하고 이전에 녹음된 메시지가 스피커를 통해 재생될 때까지 기다립니다."</string>
+    <string name="handset_record">"휴대전화 마이크에 말하기"</string>
+    <string name="handset_playback">"휴대전화 이어폰을 통해 이전에 녹음한 메시지의 재생을 확인합니다."</string>
+    <string name="handset_play">"휴대전화 이어폰을 통해 음악 재생을 확인합니다."</string>
+    <string name="headset_record">"헤드셋 마이크에 말하기"</string>
+    <string name="headset_playback">"헤드셋 이어폰을 통해 이전에 녹음한 메시지의 재생을 확인합니다."</string>
+    <string name="headset_loopback">"헤드셋을 삽입하고 헤드셋 마이크에 말하여 헤드셋 루프백 테스트를 확인하세요."</string>
+    <string name="loudspeaker_playback">"스피커를 통해 이전에 녹음한 메시지의 재생을 확인합니다."</string>
+    <string name="loudspeaker_play">"스피커를 통해 음악 재생을 확인합니다."</string>
+    <string name="headset_second_record">"보조 마이크에 말하기"</string>
+    <string name="seconds">"초"</string>
+    <!-- wifi case -->
+    <string name="wifi">"WI-FI"</string>
+    <!-- fm case -->
+    <string name="fm">FM</string>
+    <string name="next_tune">"다음 검색 &gt;&gt;"</string>
+    <string name="playing_tune">"재생 조정"</string>
+    <string name="config_audio">"FM 오디오 경로를 구성하려면 시작합니다."</string>
+    <string name="search_tune">"사용 가능한 조정 검색 중..."</string>
+    <!-- bluetooth case -->
+    <string name="bluetooth">"블루투스"</string>
+    <!-- gps case -->
+    <string name="gps">"GPS"</string>
+    <string name="run_garden_app">"garden_app 실행..."</string>
+    <!-- nfc case -->
+    <string name="nfc">"NFC"</string>
+    <!-- test report -->
+    <string name="fail_items">"실패 항목"</string></resources>

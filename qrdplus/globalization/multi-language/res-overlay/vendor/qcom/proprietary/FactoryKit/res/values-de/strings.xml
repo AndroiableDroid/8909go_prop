@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Common string -->
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"OK"</string>
+    <add-resource type="string" name="yes"/>
+    <string name="yes">"Ja"</string>
+    <add-resource type="string" name="no"/>
+    <string name="no">"Nein"</string>
+    <add-resource type="string" name="pass"/>
+    <string name="pass">"Bestanden"</string>
+    <add-resource type="string" name="fail"/>
+    <string name="fail">"Nicht bestanden"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Abbrechen"</string>
+    <add-resource type="string" name="testing"/>
+    <string name="testing">"Test läuft\u2026"</string>
+    <add-resource type="string" name="initialize"/>
+    <string name="initialize">"Wird initialisiert..."</string>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"FactoryKit"</string>
+    <add-resource type="string" name="start"/>
+    <string name="start">"Starten"</string>
+    <add-resource type="string" name="scan"/>
+    <string name="scan">"Scannen"</string>
+    <add-resource type="string" name="device_open_fail"/>
+    <string name="device_open_fail">"Gerät konnte nicht geöffnet werden!"</string>
+    <add-resource type="string" name="service_get_fail"/>
+    <string name="service_get_fail">"Service konnte nicht abgerufen werden!"</string>
+    <add-resource type="string" name="sensor_get_fail"/>
+    <string name="sensor_get_fail">"Sensor konnte nicht abgerufen werden!"</string>
+    <add-resource type="string" name="sensor_register_fail"/>
+    <string name="sensor_register_fail">"Sensor konnte nicht registriert werden!"</string>
+    <add-resource type="string" name="test_pass"/>
+    <string name="test_pass">"Test bestanden"</string>
+    <add-resource type="string" name="scanning"/>
+    <string name="scanning">"Wird gescannt..."</string>
+    <add-resource type="string" name="enabling"/>
+    <string name="enabling">"Wird aktiviert\u2026"</string>
+    <add-resource type="string" name="disabling"/>
+    <string name="disabling">"Wird deaktiviert\u2026"</string>
+    <add-resource type="string" name="turning_on"/>
+    <string name="turning_on">"Wird eingeschaltet..."</string>
+    <add-resource type="string" name="turning_off"/>
+    <string name="turning_off">"Wird ausgeschaltet..."</string>
+    <add-resource type="string" name="off"/>
+    <string name="off">"Aus"</string>
+    <add-resource type="string" name="shake_hint"/>
+    <string name="shake_hint">"Lichtsensor mindestens 2  Mal mit den Händen abdecken."</string>
+    <add-resource type="string" name="remove_headset"/>
+    <string name="remove_headset">"Bitte Headset entfernen"</string>
+    <add-resource type="string" name="insert_headset"/>
+    <string name="insert_headset">"Bitte Headset anschließen"</string>
+    <add-resource type="string" name="stop"/>
+    <string name="stop">"Beenden"</string>
+    <add-resource type="string" name="play"/>
+    <string name="play">"Wiedergabe"</string>
+    <add-resource type="string" name="record"/>
+    <string name="record">"Aufnehmen"</string>
+    <add-resource type="string" name="time_out"/>
+    <string name="time_out">"Zeitüberschreitung!"</string>
+    <!-- ControlCenter -->
+    <add-resource type="string" name="clean_state"/>
+    <string name="clean_state">"Teststatus löschen"</string>
+    <add-resource type="string" name="uninstall"/>
+    <string name="uninstall">"Deinstallieren"</string>
+    <add-resource type="string" name="control_center_quit_confirm"/>
+    <string name="control_center_quit_confirm">"Beenden?"</string>
+    <!-- Led -->
+    <!-- <string name="led_name">TriColor Led</string> -->
+    <!-- <string name="led_text">Light test sequence: red, green, blue</string> -->
+    <add-resource type="string" name="led_name"/>
+    <string name="led_name">"LED"</string>
+    <add-resource type="string" name="led_tri_text"/>
+    <string name="led_tri_text">"LED-Testsequenz: rot, grün, blau"</string>
+    <add-resource type="string" name="led_dual_text"/>
+    <string name="led_dual_text">"LED-Testsequenz: rot, grün"</string>
+    <add-resource type="string" name="led_confirm"/>
+    <string name="led_confirm">"LED-Farbe korrekt?"</string>
+    <!-- Flashlight -->
+    <add-resource type="string" name="flashlight_name"/>
+    <string name="flashlight_name">"Taschenlampe"</string>
+    <add-resource type="string" name="flashlight_confirm"/>
+    <string name="flashlight_confirm">"Taschenlampe an?"</string>
+    <!-- KeypadBacklight -->
+    <add-resource type="string" name="keypadbacklight_name"/>
+    <string name="keypadbacklight_name">"KeypadBacklight"</string>
+    <add-resource type="string" name="keypadbacklight_confirm"/>
+    <string name="keypadbacklight_confirm">"Ist die Tastenbeleuchtung an?"</string>
+    <!-- SIM1 -->
+    <add-resource type="string" name="sim1_name"/>
+    <string name="sim1_name">SIM1</string>
+    <!-- SIM2 -->
+    <add-resource type="string" name="sim2_name"/>
+    <string name="sim2_name">SIM2</string>
+    <!-- TouchPanelEdge -->
+    <add-resource type="string" name="touchpanel_edge_name"/>
+    <string name="touchpanel_edge_name">"TouchPanel-Kante"</string>
+    <!-- TouchPanelKey -->
+    <add-resource type="string" name="touchpanel_key_name"/>
+    <string name="touchpanel_key_name">"TouchPanel-Taste"</string>
+    <!-- Keypad -->
+    <add-resource type="string" name="keypad_name"/>
+    <string name="keypad_name">"Tastenfeld"</string>
+    <add-resource type="string" name="keypad_text"/>
+    <string name="keypad_text">"Bitte die folgenden Tasten drücken"</string>
+    <add-resource type="string" name="keypad_volume_up"/>
+    <string name="keypad_volume_up">"LAUTER"</string>
+    <add-resource type="string" name="keypad_volume_down"/>
+    <string name="keypad_volume_down">"LEISER"</string>
+    <add-resource type="string" name="keypad_focus"/>
+    <string name="keypad_focus">"FOKUS"</string>
+    <add-resource type="string" name="keypad_camera"/>
+    <string name="keypad_camera">"KAMERA"</string>
+    <!-- CameraBack -->
+    <add-resource type="string" name="cameraback_name"/>
+    <string name="cameraback_name">"CameraBack"</string>
+    <add-resource type="string" name="cameraback_takepicture"/>
+    <string name="cameraback_takepicture">"Bild aufnehmen"</string>
+    <add-resource type="string" name="cameraback_fail_open"/>
+    <string name="cameraback_fail_open">"Kamera öffnen fehlgeschlagen. Bitte überprüfen Sie, ob die Kamera korrekt installiert  ist!"</string>
+    <add-resource type="string" name="autofocus_fail"/>
+    <string name="autofocus_fail">"Autofokus fehlgeschlagen"</string>
+    <!-- CameraFront -->
+    <add-resource type="string" name="camerafront_name"/>
+    <string name="camerafront_name">"CameraFront"</string>
+    <add-resource type="string" name="camerafront_takepicture"/>
+    <string name="camerafront_takepicture">"Bild aufnehmen"</string>
+    <!-- LCM -->
+    <add-resource type="string" name="lcm_name"/>
+    <string name="lcm_name">"LCM"</string>
+    <add-resource type="string" name="lcm_confirm"/>
+    <string name="lcm_confirm">"Bitte wählen"</string>
+    <!-- Vibrator -->
+    <add-resource type="string" name="vibrate_name"/>
+    <string name="vibrate_name">"Vibrator"</string>
+    <add-resource type="string" name="vibrate_confirm"/>
+    <string name="vibrate_confirm">"Bitte wählen"</string>
+    <add-resource type="string" name="vibrate_hint"/>
+    <string name="vibrate_hint">"Vibration\u2026"</string>
+    <!-- PSensor -->
+    <add-resource type="string" name="psensor_name"/>
+    <string name="psensor_name">"Näherungssensor"</string>
+    <add-resource type="string" name="psensor_title"/>
+    <string name="psensor_title">"Bitte folgen Sie den Anweisungen. Jeder Schritt muss  innerhalb von 7s durchgeführt werden."</string>
+    <add-resource type="string" name="psensor_to_cover"/>
+    <string name="psensor_to_cover">"PSensor länger als 1s abdecken"</string>
+    <add-resource type="string" name="psensor_to_uncover"/>
+    <string name="psensor_to_uncover">"PSensor länger als 1s aufdecken"</string>
+    <add-resource type="string" name="psensor_uncovered"/>
+    <string name="psensor_uncovered">"Aufgedeckt"</string>
+    <add-resource type="string" name="psensor_covered"/>
+    <string name="psensor_covered">"Abgedeckt"</string>
+    <add-resource type="string" name="psensor_verifying"/>
+    <string name="psensor_verifying">"Bestätigung\u2026"</string>
+    <add-resource type="string" name="psensor_sensor_unstable_fail"/>
+    <string name="psensor_sensor_unstable_fail">"PSensor instabil!"</string>
+    <!-- GSensor -->
+    <add-resource type="string" name="gsensor_name"/>
+    <string name="gsensor_name">"Schwerkraftsensor"</string>
+    <!-- MSensor -->
+    <add-resource type="string" name="msensor_name"/>
+    <string name="msensor_name">"Magnetsensor"</string>
+    <!-- Gyroscope -->
+    <add-resource type="string" name="gyroscope_name"/>
+    <string name="gyroscope_name">"Gyroskop"</string>
+    <!-- LightSensor -->
+    <add-resource type="string" name="lightsensor_name"/>
+    <string name="lightsensor_name">"LightSensor"</string>
+    <!-- SDCard -->
+    <add-resource type="string" name="sdcard_name"/>
+    <string name="sdcard_name">"SD-Karte"</string>
+    <add-resource type="string" name="sdcard_wait"/>
+    <string name="sdcard_wait">"SD-Karte wird gelesen. Bitte warten..."</string>
+    <add-resource type="string" name="sdcard_confirm"/>
+    <string name="sdcard_confirm">"SD-Karte eingelegt?"</string>
+    <add-resource type="string" name="sdcard_to_remove"/>
+    <string name="sdcard_to_remove">"Bitte SD-Karte entfernen"</string>
+    <add-resource type="string" name="sdcard_to_insert"/>
+    <string name="sdcard_to_insert">"Bitte SD-Karte einlegen"</string>
+    <!-- Bluetooth -->
+    <add-resource type="string" name="bluetooth_name"/>
+    <string name="bluetooth_name">"Bluetooth"</string>
+    <add-resource type="string" name="bluetooth_scan_start"/>
+    <string name="bluetooth_scan_start">"Suche Geräte..."</string>
+    <add-resource type="string" name="bluetooth_scan_finish"/>
+    <string name="bluetooth_scan_finish">"Suche beendet"</string>
+    <add-resource type="string" name="bluetooth_turning_on"/>
+    <string name="bluetooth_turning_on">"Aktiviere Bluetooth..."</string>
+    <add-resource type="string" name="bluetooth_scan_null"/>
+    <string name="bluetooth_scan_null">"Keine Geräte gefunden"</string>
+    <!-- WiFi -->
+    <add-resource type="string" name="wifi_name"/>
+    <string name="wifi_name">"Wi-Fi"</string>
+    <add-resource type="string" name="wifi_text"/>
+    <string name="wifi_text">"        Wi-Fi-Prüfung wird innerhalb von 30 Sekunden abgeschlossen sein, bitte warten."<string name="wifi_scan_failed">"Suche fehlgeschlagen!"</string></string>
+    <add-resource type="string" name="wifi_is_closing"/>
+    <string name="wifi_is_closing">"Wi-Fi wird abgeschaltet, bitte später erneut versuchen."</string>
+    <add-resource type="string" name="wifi_scan_null"/>
+    <string name="wifi_scan_null">"Kein AP gefunden!"</string>
+    <add-resource type="string" name="wifi_state_unknown"/>
+    <string name="wifi_state_unknown">"Wi-Fi-Status unbekannt, bitte erneut versuchen."</string>
+    <!-- Handset -->
+    <add-resource type="string" name="handset_name"/>
+    <string name="handset_name">"Mobilteil"</string>
+    <add-resource type="string" name="handset_hint"/>
+    <string name="handset_hint">"Mobilteil-Audio-Loopback-Test..."</string>
+    <add-resource type="string" name="handset_loopback"/>
+    <string name="handset_loopback">"Mobilteil-Audio-Loopback-Test..."</string>
+    <add-resource type="string" name="handset_playing"/>
+    <string name="handset_playing">"Wiederholung läuft, bitte in den Empfänger hören."</string>
+    <add-resource type="string" name="handset_confirm"/>
+    <string name="handset_confirm">"Hören Sie den Ton?"</string>
+    <add-resource type="string" name="handset_record_first"/>
+    <string name="handset_record_first">"Bitte zuerst die Aufnahmetaste anklicken"</string>
+    <add-resource type="string" name="handset_replay_end"/>
+    <string name="handset_replay_end">"Ende erreicht."</string>
+    <add-resource type="string" name="handset_to_record"/>
+    <string name="handset_to_record">"Klicken Sie auf die Aufnahmetaste um Ton aufzuzeichnen."</string>
+    <add-resource type="string" name="handset_recording"/>
+    <string name="handset_recording">"Aufnahme läuft, sprechen Sie einige Worte ins Mikrofon. Zum Anhalten auf  die Stopp-Taste klicken."</string>
+    <!-- Headset -->
+    <add-resource type="string" name="headset_name"/>
+    <string name="headset_name">"Headset"</string>
+    <add-resource type="string" name="headset_hint"/>
+    <string name="headset_hint">"Headset"</string>
+    <add-resource type="string" name="headset_recording"/>
+    <string name="headset_recording">"Aufnahme läuft, sprechen Sie einige Worte ins Mikrofon. Zum Anhalten auf  die Stopp-Taste klicken."</string>
+    <add-resource type="string" name="headset_playing"/>
+    <string name="headset_playing">"Wiederholung läuft, bitte in den Empfänger hören."</string>
+    <add-resource type="string" name="headset_confirm"/>
+    <string name="headset_confirm">"Hören Sie den Ton?"</string>
+    <add-resource type="string" name="headset_record_first"/>
+    <string name="headset_record_first">"Bitte zuerst die Aufnahmetaste anklicken"</string>
+    <add-resource type="string" name="headset_replay_end"/>
+    <string name="headset_replay_end">"Ende erreicht."</string>
+    <add-resource type="string" name="headset_to_record"/>
+    <string name="headset_to_record">"Klicken Sie auf die Aufnahmetaste um Ton aufzuzeichnen."</string>
+    <!-- Speaker -->
+    <add-resource type="string" name="speaker_name"/>
+    <string name="speaker_name">"Lautsprecher"</string>
+    <add-resource type="string" name="speaker_hint"/>
+    <string name="speaker_hint">"Können Sie Musik hören?"</string>
+    <add-resource type="string" name="speaker_confirm"/>
+    <string name="speaker_confirm">"Hören Sie den Ton?"</string>
+    <add-resource type="string" name="speaker_playing"/>
+    <string name="speaker_playing">"Wiedergabe\u2026"</string>
+    <add-resource type="string" name="speaker_play_first"/>
+    <string name="speaker_play_first">"Bitte zuerst auf die Wiedergabetaste klicken"</string>
+    <add-resource type="string" name="speaker_to_play"/>
+    <string name="speaker_to_play">"Zur Tonwiedergabe auf die Wiedergabetaste klicken."</string>
+    <add-resource type="string" name="speaker_recording"/>
+    <string name="speaker_recording">"Aufzeichnung läuft, bitte sprechen"</string>
+    <!-- GPS -->
+    <add-resource type="string" name="gps_name"/>
+    <string name="gps_name">"GPS"</string>
+    <add-resource type="string" name="gps_enable_first"/>
+    <string name="gps_enable_first">"Bitte zuerst GPS aktivieren"</string>
+    <!-- FM -->
+    <add-resource type="string" name="fm_name"/>
+    <string name="fm_name">"FmRadio"</string>
+    <add-resource type="string" name="fm_search"/>
+    <string name="fm_search">"Suchen"</string>
+    <add-resource type="string" name="fm_confirm"/>
+    <string name="fm_confirm">"Können Sie den Ton hören?"</string>
+    <!-- Battery -->
+    <add-resource type="string" name="battery_name"/>
+    <string name="battery_name">"Akku"</string>
+    <add-resource type="string" name="battery_voltage"/>
+    <string name="battery_voltage">"Akkuspannung="</string>
+    <!-- FuelGaugeCalibration -->
+    <add-resource type="string" name="fuelgauge_name"/>
+    <string name="fuelgauge_name">"FuelGaulge-Kalibrierung"</string>
+    <add-resource type="string" name="fuelgauge_hint"/>
+    <string name="fuelgauge_hint">"FuelGaulge-Kalibrierung in 30s abgeschlossen,  bitte warten..."</string>
+    <add-resource type="string" name="fuelgauge_processing"/>
+    <string name="fuelgauge_processing">"Wird verarbeitet..."</string>
+    <!-- NFC -->
+    <add-resource type="string" name="nfc_name"/>
+    <string name="nfc_name">"NFC"</string>
+    <add-resource type="string" name="nfc_not_available"/>
+    <string name="nfc_not_available">"NFC nicht verfügbar"</string>
+    <add-resource type="string" name="nfc_enable_first"/>
+    <string name="nfc_enable_first">"NFC aktivieren\u2026"</string>
+    <add-resource type="string" name="nfc_enable_fail"/>
+    <string name="nfc_enable_fail">"NFC nicht aktivierbar"</string></resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sim_info">"Impormasyon ng SIM card"</string>
+    <string name="close">"Isara"</string>
+    <string name="change">"Itakda"</string>
+    <string name="new_sim_detected">"May natuntong bagong SIM card:"</string>
+    <string name="default_sim_setting">"Mga default na setting ng SIM bilang:"</string>
+    <string name="mobile_data">"Data sa Mobile: "</string>
+    <string name="slot">"Slot"</string>
+    <string name="carrier_name">"(Pangalan ng carrier)"</string>
+    <string name="mobile_data_on">"naka-on"</string>
+    <string name="mobile_data_off">"naka-off"</string>
+    <string name="sim_unknown">"Hindi Kilala"</string>
+    <string name="sim_absent">"Wala"</string>
+    <string name="multi_sim_settings_title">"Mga setting ng Dual SIM"</string>
+    <string name="lte_switch_unavailable">"Hindi available ang switcher ng mga 4G/3G SIM card"</string>
+    <string name="lte_recognize_summary">"Dalawang 4G/3G na SIM card ang natunton, kailangan mong itakda ang default na 4G/3G SIM card:"</string>
+    <string name="lte_select_summary">"Ang napiling subscription ay kikilalanin bilang 4G/3G card at ang isa naman bilang 2G card."</string>
+    <string name="lte_recognize_summary_generic">"Na-detect ang dalawang sim card, mangyaring piliin ang mas gustong SIM card:"</string>
+    <string name="lte_select_summary_generic">"Ang napiling sim card ay mgakakaroon ng mga serbisyong 3G/4G sa Data subscription."</string>
+    <string name="lte_checkbox_text">"Itakda ang mobile data sa napiling SIM card sa sandaling mapalitan ang default na 4G/3G SIM card"</string>
+    <string name="select_ok">"OK"</string>
+    <string name="lte_select_title">"Default na 4G/3G SIM card"</string>
+    <string name="lte_recognition_title">"Pagkilala sa SIM card"</string>
+    <string name="reg_failed">"Hindi nairehistro"</string>
+    <string name="reg_suc">"Matagumpay na nairehistro"</string>
+    <string name="reg_failed_msg">"Hindi natuloy ang pagrehistro ng default na 4G/3G SIM, kikilalanin ang %1$s bilang isang 2G na SIM card."</string>
+    <string name="lte_set">"Itakda"</string>
+    <string name="lte_setting">"Itinatakda ang default na 4G/3G SIM"</string>
+    <string name="select_cancel">"Kanselahin"</string>
+    <string name="sim_card_number_title">SIM %1$d</string></resources>

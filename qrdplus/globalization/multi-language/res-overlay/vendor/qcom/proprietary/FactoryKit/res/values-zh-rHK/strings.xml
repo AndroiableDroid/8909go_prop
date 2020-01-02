@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Common string -->
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"確定"</string>
+    <add-resource type="string" name="yes"/>
+    <string name="yes">"是"</string>
+    <add-resource type="string" name="no"/>
+    <string name="no">"否"</string>
+    <add-resource type="string" name="pass"/>
+    <string name="pass">"通過"</string>
+    <add-resource type="string" name="fail"/>
+    <string name="fail">"失敗"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"取消"</string>
+    <add-resource type="string" name="testing"/>
+    <string name="testing">"正在測試\u2026"</string>
+    <add-resource type="string" name="initialize"/>
+    <string name="initialize">"正在初始化\u2026"</string>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"FactoryKit"</string>
+    <add-resource type="string" name="start"/>
+    <string name="start">"開始"</string>
+    <add-resource type="string" name="scan"/>
+    <string name="scan">"掃瞄"</string>
+    <add-resource type="string" name="device_open_fail"/>
+    <string name="device_open_fail">"開啟裝置失敗！"</string>
+    <add-resource type="string" name="service_get_fail"/>
+    <string name="service_get_fail">"獲取服務失敗！"</string>
+    <add-resource type="string" name="sensor_get_fail"/>
+    <string name="sensor_get_fail">"獲取感應器失敗！"</string>
+    <add-resource type="string" name="sensor_register_fail"/>
+    <string name="sensor_register_fail">"感應器註冊失敗！"</string>
+    <add-resource type="string" name="test_pass"/>
+    <string name="test_pass">"通過測試"</string>
+    <add-resource type="string" name="scanning"/>
+    <string name="scanning">"正在掃瞄\u2026..."</string>
+    <add-resource type="string" name="enabling"/>
+    <string name="enabling">"正在啟用..."</string>
+    <add-resource type="string" name="disabling"/>
+    <string name="disabling">"正在停用..."</string>
+    <add-resource type="string" name="turning_on"/>
+    <string name="turning_on">"正在開啟..."</string>
+    <add-resource type="string" name="turning_off"/>
+    <string name="turning_off">"正在關閉..."</string>
+    <add-resource type="string" name="off"/>
+    <string name="off">"關閉"</string>
+    <add-resource type="string" name="shake_hint"/>
+    <string name="shake_hint">"請用雙手覆蓋燈光感應器最少 2  次。"</string>
+    <add-resource type="string" name="remove_headset"/>
+    <string name="remove_headset">"請移除耳機"</string>
+    <add-resource type="string" name="insert_headset"/>
+    <string name="insert_headset">"請插入耳機"</string>
+    <add-resource type="string" name="stop"/>
+    <string name="stop">"停止"</string>
+    <add-resource type="string" name="play"/>
+    <string name="play">"播放"</string>
+    <add-resource type="string" name="record"/>
+    <string name="record">"錄音"</string>
+    <add-resource type="string" name="time_out"/>
+    <string name="time_out">"逾時！"</string>
+    <!-- ControlCenter -->
+    <add-resource type="string" name="clean_state"/>
+    <string name="clean_state">"清除測試狀態"</string>
+    <add-resource type="string" name="uninstall"/>
+    <string name="uninstall">"解除安裝"</string>
+    <add-resource type="string" name="control_center_quit_confirm"/>
+    <string name="control_center_quit_confirm">"您要退出嗎？"</string>
+    <!-- Led -->
+    <!-- <string name="led_name">TriColor Led</string> -->
+    <!-- <string name="led_text">Light test sequence: red, green, blue</string> -->
+    <add-resource type="string" name="led_name"/>
+    <string name="led_name">"LED"</string>
+    <add-resource type="string" name="led_tri_text"/>
+    <string name="led_tri_text">"LED 測試順序：紅、綠、藍"</string>
+    <add-resource type="string" name="led_dual_text"/>
+    <string name="led_dual_text">"LED 測試順序：紅、綠"</string>
+    <add-resource type="string" name="led_confirm"/>
+    <string name="led_confirm">"LED 顏色正確嗎？"</string>
+    <!-- Flashlight -->
+    <add-resource type="string" name="flashlight_name"/>
+    <string name="flashlight_name">"閃光燈"</string>
+    <add-resource type="string" name="flashlight_confirm"/>
+    <string name="flashlight_confirm">"閃光燈是否已開啟？"</string>
+    <!-- KeypadBacklight -->
+    <add-resource type="string" name="keypadbacklight_name"/>
+    <string name="keypadbacklight_name">"鍵盤背光"</string>
+    <add-resource type="string" name="keypadbacklight_confirm"/>
+    <string name="keypadbacklight_confirm">"鍵盤背光是否已開啟？"</string>
+    <!-- SIM1 -->
+    <add-resource type="string" name="sim1_name"/>
+    <string name="sim1_name">SIM1</string>
+    <!-- SIM2 -->
+    <add-resource type="string" name="sim2_name"/>
+    <string name="sim2_name">SIM2</string>
+    <!-- TouchPanelEdge -->
+    <add-resource type="string" name="touchpanel_edge_name"/>
+    <string name="touchpanel_edge_name">"觸控面板邊緣"</string>
+    <!-- TouchPanelKey -->
+    <add-resource type="string" name="touchpanel_key_name"/>
+    <string name="touchpanel_key_name">"觸控面板按鍵"</string>
+    <!-- Keypad -->
+    <add-resource type="string" name="keypad_name"/>
+    <string name="keypad_name">"小鍵盤"</string>
+    <add-resource type="string" name="keypad_text"/>
+    <string name="keypad_text">"請按下以下的鍵"</string>
+    <add-resource type="string" name="keypad_volume_up"/>
+    <string name="keypad_volume_up">"調高音量"</string>
+    <add-resource type="string" name="keypad_volume_down"/>
+    <string name="keypad_volume_down">"調低音量"</string>
+    <add-resource type="string" name="keypad_focus"/>
+    <string name="keypad_focus">"對焦"</string>
+    <add-resource type="string" name="keypad_camera"/>
+    <string name="keypad_camera">"相機"</string>
+    <!-- CameraBack -->
+    <add-resource type="string" name="cameraback_name"/>
+    <string name="cameraback_name">"後置相機"</string>
+    <add-resource type="string" name="cameraback_takepicture"/>
+    <string name="cameraback_takepicture">"拍照"</string>
+    <add-resource type="string" name="cameraback_fail_open"/>
+    <string name="cameraback_fail_open">"開啟相機失敗，請檢查相機是否正確  安裝！"</string>
+    <add-resource type="string" name="autofocus_fail"/>
+    <string name="autofocus_fail">"自動對焦失敗"</string>
+    <!-- CameraFront -->
+    <add-resource type="string" name="camerafront_name"/>
+    <string name="camerafront_name">"前置相機"</string>
+    <add-resource type="string" name="camerafront_takepicture"/>
+    <string name="camerafront_takepicture">"拍照"</string>
+    <!-- LCM -->
+    <add-resource type="string" name="lcm_name"/>
+    <string name="lcm_name">"LCM"</string>
+    <add-resource type="string" name="lcm_confirm"/>
+    <string name="lcm_confirm">"請選擇"</string>
+    <!-- Vibrator -->
+    <add-resource type="string" name="vibrate_name"/>
+    <string name="vibrate_name">"震動器"</string>
+    <add-resource type="string" name="vibrate_confirm"/>
+    <string name="vibrate_confirm">"請選擇"</string>
+    <add-resource type="string" name="vibrate_hint"/>
+    <string name="vibrate_hint">"正在震動\u2026"</string>
+    <!-- PSensor -->
+    <add-resource type="string" name="psensor_name"/>
+    <string name="psensor_name">"近接感應器"</string>
+    <add-resource type="string" name="psensor_title"/>
+    <string name="psensor_title">"請遵照指引，而且每個步驟必須在  7 秒內完成"</string>
+    <add-resource type="string" name="psensor_to_cover"/>
+    <string name="psensor_to_cover">"覆蓋 PSensor 超過 1 秒"</string>
+    <add-resource type="string" name="psensor_to_uncover"/>
+    <string name="psensor_to_uncover">"露出 PSensor 超過 1 秒"</string>
+    <add-resource type="string" name="psensor_uncovered"/>
+    <string name="psensor_uncovered">"露出"</string>
+    <add-resource type="string" name="psensor_covered"/>
+    <string name="psensor_covered">"覆蓋"</string>
+    <add-resource type="string" name="psensor_verifying"/>
+    <string name="psensor_verifying">"正在驗證\u2026"</string>
+    <add-resource type="string" name="psensor_sensor_unstable_fail"/>
+    <string name="psensor_sensor_unstable_fail">"PSensor 不穩定！"</string>
+    <!-- GSensor -->
+    <add-resource type="string" name="gsensor_name"/>
+    <string name="gsensor_name">"引力感應器"</string>
+    <!-- MSensor -->
+    <add-resource type="string" name="msensor_name"/>
+    <string name="msensor_name">"磁力感應器"</string>
+    <!-- Gyroscope -->
+    <add-resource type="string" name="gyroscope_name"/>
+    <string name="gyroscope_name">"陀螺儀"</string>
+    <!-- LightSensor -->
+    <add-resource type="string" name="lightsensor_name"/>
+    <string name="lightsensor_name">"燈光感應器"</string>
+    <!-- SDCard -->
+    <add-resource type="string" name="sdcard_name"/>
+    <string name="sdcard_name">"SD 卡"</string>
+    <add-resource type="string" name="sdcard_wait"/>
+    <string name="sdcard_wait">"正在讀取 Sd 卡，請稍候\u2026"</string>
+    <add-resource type="string" name="sdcard_confirm"/>
+    <string name="sdcard_confirm">"已插入 SD 卡？"</string>
+    <add-resource type="string" name="sdcard_to_remove"/>
+    <string name="sdcard_to_remove">"請取出 SD 卡"</string>
+    <add-resource type="string" name="sdcard_to_insert"/>
+    <string name="sdcard_to_insert">"請插入 SD 卡"</string>
+    <!-- Bluetooth -->
+    <add-resource type="string" name="bluetooth_name"/>
+    <string name="bluetooth_name">"藍牙"</string>
+    <add-resource type="string" name="bluetooth_scan_start"/>
+    <string name="bluetooth_scan_start">"正在掃瞄裝置\u2026"</string>
+    <add-resource type="string" name="bluetooth_scan_finish"/>
+    <string name="bluetooth_scan_finish">"完成掃瞄"</string>
+    <add-resource type="string" name="bluetooth_turning_on"/>
+    <string name="bluetooth_turning_on">"正在開啟藍牙\u2026"</string>
+    <add-resource type="string" name="bluetooth_scan_null"/>
+    <string name="bluetooth_scan_null">"找不到任何裝置"</string>
+    <!-- WiFi -->
+    <add-resource type="string" name="wifi_name"/>
+    <string name="wifi_name">"WiFi"</string>
+    <add-resource type="string" name="wifi_text"/>
+    <string name="wifi_text">"        WiFi 測試將於 30 秒內完成，請稍候。"<string name="wifi_scan_failed">"掃瞄失敗！"</string></string>
+    <add-resource type="string" name="wifi_is_closing"/>
+    <string name="wifi_is_closing">"WiFi 正在關閉，請稍後再試。"</string>
+    <add-resource type="string" name="wifi_scan_null"/>
+    <string name="wifi_scan_null">"找不到任何 AP！"</string>
+    <add-resource type="string" name="wifi_state_unknown"/>
+    <string name="wifi_state_unknown">"WiFi 狀態不明，請重試。"</string>
+    <!-- Handset -->
+    <add-resource type="string" name="handset_name"/>
+    <string name="handset_name">"聽筒"</string>
+    <add-resource type="string" name="handset_hint"/>
+    <string name="handset_hint">"正在測試聽筒音訊環路..."</string>
+    <add-resource type="string" name="handset_loopback"/>
+    <string name="handset_loopback">"正在測試聽筒音訊環路..."</string>
+    <add-resource type="string" name="handset_playing"/>
+    <string name="handset_playing">"正在重播，請聆聽接收器。"</string>
+    <add-resource type="string" name="handset_confirm"/>
+    <string name="handset_confirm">"您聽到聲音嗎？"</string>
+    <add-resource type="string" name="handset_record_first"/>
+    <string name="handset_record_first">"請先點擊「錄音」按鈕"</string>
+    <add-resource type="string" name="handset_replay_end"/>
+    <string name="handset_replay_end">"已到達結尾。"</string>
+    <add-resource type="string" name="handset_to_record"/>
+    <string name="handset_to_record">"點擊「錄音」按鈕開始錄音。"</string>
+    <add-resource type="string" name="handset_recording"/>
+    <string name="handset_recording">"正在錄音，請向麥克風說一些話，然後  點擊「停止」按鈕停止。"</string>
+    <!-- Headset -->
+    <add-resource type="string" name="headset_name"/>
+    <string name="headset_name">"耳機"</string>
+    <add-resource type="string" name="headset_hint"/>
+    <string name="headset_hint">"耳機"</string>
+    <add-resource type="string" name="headset_recording"/>
+    <string name="headset_recording">"正在錄音，請向麥克風說一些話，然後  點擊「停止」按鈕停止。"</string>
+    <add-resource type="string" name="headset_playing"/>
+    <string name="headset_playing">"正在重播，請聆聽接收器。"</string>
+    <add-resource type="string" name="headset_confirm"/>
+    <string name="headset_confirm">"您聽到聲音嗎？"</string>
+    <add-resource type="string" name="headset_record_first"/>
+    <string name="headset_record_first">"請先點擊「錄音」按鈕"</string>
+    <add-resource type="string" name="headset_replay_end"/>
+    <string name="headset_replay_end">"已到達結尾。"</string>
+    <add-resource type="string" name="headset_to_record"/>
+    <string name="headset_to_record">"點擊「錄音」按鈕開始錄音。"</string>
+    <!-- Speaker -->
+    <add-resource type="string" name="speaker_name"/>
+    <string name="speaker_name">"喇叭"</string>
+    <add-resource type="string" name="speaker_hint"/>
+    <string name="speaker_hint">"您聽到音樂嗎？"</string>
+    <add-resource type="string" name="speaker_confirm"/>
+    <string name="speaker_confirm">"您聽到聲音嗎？"</string>
+    <add-resource type="string" name="speaker_playing"/>
+    <string name="speaker_playing">"正在播放\u2026"</string>
+    <add-resource type="string" name="speaker_play_first"/>
+    <string name="speaker_play_first">"請先點擊「播放」按鈕"</string>
+    <add-resource type="string" name="speaker_to_play"/>
+    <string name="speaker_to_play">"點擊「播放」按鈕播放音效。"</string>
+    <add-resource type="string" name="speaker_recording"/>
+    <string name="speaker_recording">"正在錄音，請說話"</string>
+    <!-- GPS -->
+    <add-resource type="string" name="gps_name"/>
+    <string name="gps_name">"GPS"</string>
+    <add-resource type="string" name="gps_enable_first"/>
+    <string name="gps_enable_first">"請先啟用 GPS"</string>
+    <!-- FM -->
+    <add-resource type="string" name="fm_name"/>
+    <string name="fm_name">"Fm 電台"</string>
+    <add-resource type="string" name="fm_search"/>
+    <string name="fm_search">"搜尋"</string>
+    <add-resource type="string" name="fm_confirm"/>
+    <string name="fm_confirm">"您聽到聲音嗎？"</string>
+    <!-- Battery -->
+    <add-resource type="string" name="battery_name"/>
+    <string name="battery_name">"電池"</string>
+    <add-resource type="string" name="battery_voltage"/>
+    <string name="battery_voltage">"電池伏特 ="</string>
+    <!-- FuelGaugeCalibration -->
+    <add-resource type="string" name="fuelgauge_name"/>
+    <string name="fuelgauge_name">"FuelGauge 校準"</string>
+    <add-resource type="string" name="fuelgauge_hint"/>
+    <string name="fuelgauge_hint">"FuelGauge 校準將在 30 秒內完成，  請稍候..."</string>
+    <add-resource type="string" name="fuelgauge_processing"/>
+    <string name="fuelgauge_processing">"處理中\u2026..."</string>
+    <!-- NFC -->
+    <add-resource type="string" name="nfc_name"/>
+    <string name="nfc_name">"NFC"</string>
+    <add-resource type="string" name="nfc_not_available"/>
+    <string name="nfc_not_available">"NFC 不可用"</string>
+    <add-resource type="string" name="nfc_enable_first"/>
+    <string name="nfc_enable_first">"正在啟用 NFC..."</string>
+    <add-resource type="string" name="nfc_enable_fail"/>
+    <string name="nfc_enable_fail">"未能啟用 NFC"</string></resources>

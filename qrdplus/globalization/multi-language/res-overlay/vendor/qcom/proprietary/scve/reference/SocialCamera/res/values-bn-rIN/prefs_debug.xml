@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"ডিবাগ মেট্রিক্স প্রদর্শন করুন"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"ছবি সংরক্ষণ করুন"</string>
+    <string name="debug_pref_save_pictures_desc">"ক্যাপচার করা ছবিগুলিকে SD কার্ডে সংরক্ষণ করুন"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"প্রাকপরীক্ষা ফ্রেমগুলি সংরক্ষণ করুন"</string>
+    <string name="debug_pref_save_preview_frames_desc">"প্রাকপরীক্ষা ফ্রেমগুলিকে SD কার্ডে সংরক্ষণ করুন"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"প্রাকপরীক্ষা ফ্রেম বাতিল করার অনুমতি দিন"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"প্রাকপরীক্ষা ফ্রেমগুলি সংরক্ষণ করার সময়, ফ্রেমরেট বজায় রাখায় জন্য ফ্রেম বাতিল করার অনুমতি দিন"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"মুখমন্ডল শনাক্তকরণ ভারবোজ লগিং সক্ষম করুন"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

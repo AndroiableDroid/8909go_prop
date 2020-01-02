@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Category mapping from ATSC to canonical genre -->
+    <string-array name="genre_mapping_atsc">
+        <item>"교육|교육"</item>
+        <item>"엔터테인먼트|엔터테인먼트"</item>
+        <item>"영화|영화"</item>
+        <item>"뉴스|뉴스"</item>
+        <item>"종교|라이프 스타일"</item>
+        <item>"스포츠|스포츠"</item>
+        <item>"기타|기타"</item>
+        <item>"액션|영화"</item>
+        <item>"광고|기타"</item>
+        <item>"애니메이션|가족 어린이"</item>
+        <item>"시대물|드라마"</item>
+        <item>"자동차|기타"</item>
+        <item>"시상식|엔터테인먼트"</item>
+        <item>"야구|스포츠"</item>
+        <item>"농구|스포츠"</item>
+        <item>"공지|기타"</item>
+        <item>"비즈니스|기타"</item>
+        <item>"클래식|음악"</item>
+        <item>"대학|교육"</item>
+        <item>"전투|기타"</item>
+        <item>"코미디|코미디"</item>
+        <item>"실황 방송|기타"</item>
+        <item>"콘서트|음악"</item>
+        <item>"소비자|기타"</item>
+        <item>"현대물|기타"</item>
+        <item>"범죄|영화"</item>
+        <item>"댄스|엔터테인먼트"</item>
+        <item>"다큐멘터리|뉴스"</item>
+        <item>"드라마|드라마"</item>
+        <item>"초등 교육|교육"</item>
+        <item>"성인물|영화"</item>
+        <item>"운동|스포츠"</item>
+        <item>"판타지|영화"</item>
+        <item>"농장|기타"</item>
+        <item>"패션|라이프 스타일"</item>
+        <item>"픽션|미술"</item>
+        <item>"음식|라이프 스타일"</item>
+        <item>"미식축구|스포츠"</item>
+        <item>"외국|기타"</item>
+        <item>"기금 모음|기타"</item>
+        <item>"게임/퀴즈|게임"</item>
+        <item>"원예|라이프 스타일"</item>
+        <item>"골프|스포츠"</item>
+        <item>"정부|기타"</item>
+        <item>"건강|라이프 스타일"</item>
+        <item>"고등 교육|교육"</item>
+        <item>"역사|교육"</item>
+        <item>"취미|라이프 스타일"</item>
+        <item>"하키|스포츠"</item>
+        <item>"가정|라이프 스타일"</item>
+        <item>"호러|영화"</item>
+        <item>"정보|뉴스"</item>
+        <item>"지침|기타"</item>
+        <item>"국제|기타"</item>
+        <item>"인터뷰|기타"</item>
+        <item>"언어|교육"</item>
+        <item>"법률|기타"</item>
+        <item>"라이브|기타"</item>
+        <item>"지역|기타"</item>
+        <item>"수학|교육"</item>
+        <item>"의학|기타"</item>
+        <item>"회의|기타"</item>
+        <item>"군사|기타"</item>
+        <item>"미니시리즈|드라마"</item>
+        <item>"음악|음악"</item>
+        <item>"미스터리|영화"</item>
+        <item>"국내|기타"</item>
+        <item>"자연|동물/야생"</item>
+        <item>"경찰|기타"</item>
+        <item>"정치|기타"</item>
+        <item>"프리미어|프리미어"</item>
+        <item>"녹화 방송|기타"</item>
+        <item>"제품|기타"</item>
+        <item>"직업|기타"</item>
+        <item>"공공|기타"</item>
+        <item>"레이싱|스포츠"</item>
+        <item>"독서|예술"</item>
+        <item>"수리|기타"</item>
+        <item>"반복|기타"</item>
+        <item>"리뷰|기타"</item>
+        <item>"로맨스|영화"</item>
+        <item>"과학|기술 과학"</item>
+        <item>"시리즈|드라마"</item>
+        <item>"서비스|기타"</item>
+        <item>"쇼핑|쇼핑"</item>
+        <item>"연속극|드라마"</item>
+        <item>"스페셜|기타"</item>
+        <item>"서스펜스|영화"</item>
+        <item>"토크쇼|엔터테인먼트"</item>
+        <item>"기술|기술 과학"</item>
+        <item>"테니스|스포츠"</item>
+        <item>"여행|여행"</item>
+        <item>"버라이어티|엔터테인먼트"</item>
+        <item>"비디오|예술"</item>
+        <item>"날씨|뉴스"</item>
+        <item>"서부|기타"</item>
+        <item>"예술|예술"</item>
+        <item>"자동차 경주|스포츠"</item>
+        <item>"항공|스포츠"</item>
+        <item>"일대기|뉴스"</item>
+        <item>"보트|스포츠"</item>
+        <item>"볼링|스포츠"</item>
+        <item>"권투|스포츠"</item>
+        <item>"만화|가족 어린이"</item>
+        <item>"어린이|가족 어린이"</item>
+        <item>"고전 영화|영화"</item>
+        <item>"커뮤니티|기타"</item>
+        <item>"컴퓨터|기술 과학"</item>
+        <item>"컨트리 음악|음악"</item>
+        <item>"법정|기타"</item>
+        <item>"익스트림 스포츠|스포츠"</item>
+        <item>"가족|가족 어린이"</item>
+        <item>"금융|뉴스"</item>
+        <item>"체조|스포츠"</item>
+        <item>"헤드라인|뉴스"</item>
+        <item>"경마|스포츠"</item>
+        <item>"사냥/낚시/아웃도어|동물/야생"</item>
+        <item>"독립|기타"</item>
+        <item>"재즈|음악"</item>
+        <item>"잡지|뉴스"</item>
+        <item>"오토바이 경주|스포츠"</item>
+        <item>"음악/영화/책|기타"</item>
+        <item>"뉴스-국제|뉴스"</item>
+        <item>"뉴스-지역|뉴스"</item>
+        <item>"뉴스-국내|뉴스"</item>
+        <item>"뉴스-지방|뉴스"</item>
+        <item>"올림픽|스포츠"</item>
+        <item>"오리지널|영화"</item>
+        <item>"공연 예술|예술"</item>
+        <item>"애완동물/동물|동물/야생"</item>
+        <item>"팝|음악"</item>
+        <item>"로큰롤|음악"</item>
+        <item>"SF|영화"</item>
+        <item>"자기 개선|교육"</item>
+        <item>"시트콤|드라마"</item>
+        <item>"스케이트|스포츠"</item>
+        <item>"스키|스포츠"</item>
+        <item>"축구|스포츠"</item>
+        <item>"트랙/필드|스포츠"</item>
+        <item>"진실|기타"</item>
+        <item>"배구|스포츠"</item>
+        <item>"레슬링|스포츠"</item>
+    </string-array>
+    <!-- Category mapping from DVB to canonical genre -->
+    <string-array name="genre_mapping_dvb">
+        <item>"영화/드라마|영화"</item>
+        <item>"형사/스릴러|영화"</item>
+        <item>"모험/서부/전쟁|영화"</item>
+        <item>"공상 과학/판타지/호러|영화"</item>
+        <item>"코미디|코미디"</item>
+        <item>"연속극/멜로드라마/민속물|드라마"</item>
+        <item>"로맨스|영화"</item>
+        <item>"정극/고전/종교/역사 영화/드라마|영화"</item>
+        <item>"성인 영화/드라마|영화"</item>
+        <item>"뉴스/시사|뉴스"</item>
+        <item>"뉴스/날씨 예보|뉴스"</item>
+        <item>"뉴스 잡지|뉴스"</item>
+        <item>"다큐멘터리|뉴스"</item>
+        <item>"좌담/인터뷰/토론|뉴스"</item>
+        <item>"쇼/게임 쇼|엔터테인먼트"</item>
+        <item>"게임 쇼/퀴즈/콩트|게임"</item>
+        <item>"버라이어티 쇼|엔터테인먼트"</item>
+        <item>"토크쇼|엔터테인먼트"</item>
+        <item>"스포츠|스포츠"</item>
+        <item>"특별 행사(올림픽 게임, 월드컵 등)|스포츠"</item>
+        <item>"스포츠 잡지|스포츠"</item>
+        <item>"미식축구/축구|스포츠"</item>
+        <item>"테니스/스쿼시|스포츠"</item>
+        <item>"팀 스포츠(미식축구 제외)|스포츠"</item>
+        <item>"육상|스포츠"</item>
+        <item>"모터 스포츠|스포츠"</item>
+        <item>"수상 스포츠|스포츠"</item>
+        <item>"겨울 스포츠|스포츠"</item>
+        <item>"승마|스포츠"</item>
+        <item>"무술|스포츠"</item>
+        <item>"어린이/청소년 프로그램|가족 어린이"</item>
+        <item>"미취학 아동 프로그램|가족 어린이"</item>
+        <item>"6-14세용 엔터테인먼트 프로그램|가족 어린이"</item>
+        <item>"10-16세용 엔터테인먼트 프로그램|가족 어린이"</item>
+        <item>"정보/교육/학교 프로그램|가족 어린이"</item>
+        <item>"만화/인형극|가족 어린이"</item>
+        <item>"음악/발레/댄스|음악"</item>
+        <item>"록/팝|음악"</item>
+        <item>"경건한 음악/클래식 음악|음악"</item>
+        <item>"민속/전통 음악|음악"</item>
+        <item>"재즈|음악"</item>
+        <item>"뮤지컬/오페라|음악"</item>
+        <item>"발레|엔터테인먼트"</item>
+        <item>"예술/문화|예술"</item>
+        <item>"공연 예술|예술"</item>
+        <item>"미술|예술"</item>
+        <item>"종교|라이프 스타일"</item>
+        <item>"대중 문화/전통 예술|라이프 스타일"</item>
+        <item>"문학|예술"</item>
+        <item>"영화/시네마|예술"</item>
+        <item>"실험 영화/비디오|예술"</item>
+        <item>"방송/언론|예술"</item>
+        <item>"뉴 미디어|예술"</item>
+        <item>"예술/문화 잡지|예술"</item>
+        <item>"패션|라이프 스타일"</item>
+        <item>"사회/정치/경제|기타"</item>
+        <item>"잡지/보도/다큐멘터리|뉴스"</item>
+        <item>"경제/사회적 자문|기타"</item>
+        <item>"화제의 인물|기타"</item>
+        <item>"교육/과학/화제|교육"</item>
+        <item>"자연/동물/환경|동물/야생"</item>
+        <item>"기술/자연 과학|기술 과학"</item>
+        <item>"의학/생리학/심리학|기술 과학"</item>
+        <item>"외국/탐험|교육"</item>
+        <item>"사회/정신 과학|기술 과학"</item>
+        <item>"연장교육|교육"</item>
+        <item>"언어|교육"</item>
+        <item>"레저 취미|라이프 스타일"</item>
+        <item>"관광/여행|여행"</item>
+        <item>"수공예|라이프 스타일"</item>
+        <item>"드라이브|라이프 스타일"</item>
+        <item>"휘트니스 및 건강|라이프 스타일"</item>
+        <item>"요리|라이프 스타일"</item>
+        <item>"광고/쇼핑|쇼핑"</item>
+        <item>"원예|라이프 스타일"</item>
+        <item>"원어|기타"</item>
+        <item>"흑백|기타"</item>
+        <item>"미출간|기타"</item>
+        <item>"생방송|기타"</item>
+    </string-array>
+    <!-- Category mapping from ISDB to canonical genre -->
+    <string-array name="genre_mapping_isdb">
+        <item>"애니메이션|영화"</item>
+        <item>"야구|스포츠"</item>
+        <item>"어린이 노래|음악"</item>
+        <item>"클래식, 오페라|음악"</item>
+        <item>"요리 버라이어티|엔터테인먼트"</item>
+        <item>"코미디 프로그램|엔터테인먼트"</item>
+        <item>"코믹극, 엔터테인먼트|엔터테인먼트"</item>
+        <item>"컴퓨터, TV 게임|기술 과학"</item>
+        <item>"대화, 언어|교육"</item>
+        <item>"댄스, 발레|엔터테인먼트"</item>
+        <item>"토론, 컨퍼런스|뉴스"</item>
+        <item>"경제, 시장 보도|뉴스"</item>
+        <item>"교육 문제|교육"</item>
+        <item>"이벤트|엔터테인먼트"</item>
+        <item>"패션|라이프 스타일"</item>
+        <item>"민속 음악, 세계 음악|음악"</item>
+        <item>"게임|게임"</item>
+        <item>"원예, 애완동물, 수공예|라이프 스타일"</item>
+        <item>"골프|스포츠"</item>
+        <item>"가십/와이드 쇼|엔터테인먼트"</item>
+        <item>"식도락, 요리|라이프 스타일"</item>
+        <item>"건강, 의학|라이프 스타일"</item>
+        <item>"취미/교육|라이프 스타일"</item>
+        <item>"경마, 공공 경주|스포츠"</item>
+        <item>"일본 애니메이션|가족 어린이"</item>
+        <item>"일본 발라드, 일본 전통 음악|음악"</item>
+        <item>"일본 체스(쇼기) 및 바둑|게임"</item>
+        <item>"일본 드라마|드라마"</item>
+        <item>"일본 영화|영화"</item>
+        <item>"일본 록, 팝 음악|음악"</item>
+        <item>"재즈, 퓨전|음악"</item>
+        <item>"중학생 및 고등학생|교육"</item>
+        <item>"가부키, 고전 드라마|드라마"</item>
+        <item>"가라오케, 아마추어 노래자랑|음악"</item>
+        <item>"평생 교육, 자격증|교육"</item>
+        <item>"유아, 학생|교육"</item>
+        <item>"라이브 콘서트|음악"</item>
+        <item>"생활, 가정|라이프 스타일"</item>
+        <item>"지역 프로그램|뉴스"</item>
+        <item>"마작, 핀볼 게임|게임"</item>
+        <item>"마라톤, 육상 스포츠, 수영|스포츠"</item>
+        <item>"수상 스포츠, 겨울 스포츠|스포츠"</item>
+        <item>"현대 드라마, 서양식 드라마|드라마"</item>
+        <item>"모터 스포츠|스포츠"</item>
+        <item>"뮤지컬|음악"</item>
+        <item>"음악, 예술, 공예|예술"</item>
+        <item>"음악 버라이어티|엔터테인먼트"</item>
+        <item>"뉴스 분석|뉴스"</item>
+        <item>"올림픽, 국제 경기|스포츠"</item>
+        <item>"기타 구기 종목|스포츠"</item>
+        <item>"해외 애니메이션|가족 어린이"</item>
+        <item>"해외 드라마|드라마"</item>
+        <item>"해외, 국제 보도|뉴스"</item>
+        <item>"해외 영화|영화"</item>
+        <item>"해외 록, 팝 음악|음악"</item>
+        <item>"기간 드라마|드라마"</item>
+        <item>"정치, 국회|뉴스"</item>
+        <item>"팝송, 일본 팝송(엔카)|음악"</item>
+        <item>"퀴즈|게임"</item>
+        <item>"순위, 신청 음악|음악"</item>
+        <item>"정규, 일반|뉴스"</item>
+        <item>"쇼핑, 우편 주문 비즈니스|쇼핑"</item>
+        <item>"축구|스포츠"</item>
+        <item>"특수 효과|가족 어린이"</item>
+        <item>"특별 프로그램, 다큐멘터리|뉴스"</item>
+        <item>"특별 보도|뉴스"</item>
+        <item>"스포츠 뉴스|스포츠"</item>
+        <item>"스모, 격투기|스포츠"</item>
+        <item>"토크 버라이어티|엔터테인먼트"</item>
+        <item>"여행 버라이어티|엔터테인먼트"</item>
+        <item>"교통 정보|뉴스"</item>
+        <item>"여행, 낚시, 아웃도어 엔터테인먼트|동물/야생"</item>
+        <item>"대학생, 시험|교육"</item>
+        <item>"날씨 예보|뉴스"</item>
+    </string-array>
+    <!-- Category mapping from ISDB in Brazil to canonical genre -->
+    <string-array name="genre_mapping_isdb_br">
+        <item>"Biografia|NEWS"</item>
+        <item>"Culinária|LIFE_STYLE"</item>
+        <item>"Documentário|NEWS"</item>
+        <item>"Educativo|EDUCATION"</item>
+        <item>"Erótico|MOVIES"</item>
+        <item>"Esporte|SPORTS"</item>
+        <item>"Filme|MOVIES"</item>
+        <item>"게임 쇼|게임"</item>
+        <item>"Humorístico|COMEDY"</item>
+        <item>"Infantil|FAMILY_KIDS"</item>
+        <item>"Informação|LIFE_STYLE"</item>
+        <item>"Jornalismo|NEWS"</item>
+        <item>"Minissérie|DRAMA"</item>
+        <item>"Moda|LIFE_STYLE"</item>
+        <item>"뮤지컬|음악"</item>
+        <item>"Premiação|ENTERTAINMENT"</item>
+        <item>"리얼리티 쇼|엔터테인먼트"</item>
+        <item>"Religioso|LIFE_STYLE"</item>
+        <item>"Reportagem|NEWS"</item>
+        <item>"교외|라이프 스타일"</item>
+        <item>"Saúde|LIFE_STYLE"</item>
+        <item>"Série|DRAMA"</item>
+        <item>"Série/seriado|DRAMA"</item>
+        <item>"쇼|엔터테인먼트"</item>
+        <item>"Telejornais|NEWS"</item>
+        <item>"Televendas|SHOPPING"</item>
+        <item>"Turismo|TRAVEL"</item>
+        <item>"Variedade|ENTERTAINMENT"</item>
+        <item>"객석|엔터테인먼트"</item>
+        <item>"시상식|엔터테인먼트"</item>
+        <item>"일대기|뉴스"</item>
+        <item>"어린이|가족 어린이"</item>
+        <item>"어린이|가족 어린이"</item>
+        <item>"희극|코미디"</item>
+        <item>"요리|라이프 스타일"</item>
+        <item>"시골|라이프 스타일"</item>
+        <item>"토론/인터뷰|뉴스"</item>
+        <item>"토론|뉴스"</item>
+        <item>"다큐멘터리|뉴스"</item>
+        <item>"교육|교육"</item>
+        <item>"교육|교육"</item>
+        <item>"엔지니어링 서비스|기술 과학"</item>
+        <item>"성인|영화"</item>
+        <item>"패션|라이프 스타일"</item>
+        <item>"여성|엔터테인먼트"</item>
+        <item>"게임 쇼|게임"</item>
+        <item>"건강|라이프 스타일"</item>
+        <item>"유머|코미디"</item>
+        <item>"정보|라이프 스타일"</item>
+        <item>"인터뷰|뉴스"</item>
+        <item>"저널|뉴스"</item>
+        <item>"메이킹|엔터테인먼트"</item>
+        <item>"미니시리즈|드라마"</item>
+        <item>"미니시리즈|드라마"</item>
+        <item>"영화|영화"</item>
+        <item>"영화|영화"</item>
+        <item>"뮤지컬|엔터테인먼트"</item>
+        <item>"뉴스|뉴스"</item>
+        <item>"경품|쇼핑"</item>
+        <item>"복권|쇼핑"</item>
+        <item>"복권, TV 홈쇼핑, 경품|쇼핑"</item>
+        <item>"리얼리티 쇼|엔터테인먼트"</item>
+        <item>"종교|라이프 스타일"</item>
+        <item>"리포팅|뉴스"</item>
+        <item>"보도|뉴스"</item>
+        <item>"교외|라이프 스타일"</item>
+        <item>"시리즈|드라마"</item>
+        <item>"시리즈/TV 쇼|드라마"</item>
+        <item>"쇼|엔터테인먼트"</item>
+        <item>"연속극|드라마"</item>
+        <item>"스포츠|스포츠"</item>
+        <item>"스포츠|스포츠"</item>
+        <item>"통신 판매|쇼핑"</item>
+        <item>"TV 홈쇼핑|쇼핑"</item>
+        <item>"관광|여행"</item>
+        <item>"여행|여행"</item>
+        <item>"TV 뉴스|뉴스"</item>
+        <item>"버라이어티|엔터테인먼트"</item>
+        <item>"버라이어티 쇼|엔터테인먼트"</item>
+    </string-array></resources>

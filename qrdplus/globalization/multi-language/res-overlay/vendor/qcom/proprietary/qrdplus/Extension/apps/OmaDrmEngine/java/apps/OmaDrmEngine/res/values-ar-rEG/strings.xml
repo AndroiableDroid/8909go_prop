@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"محرك Drm الخاص بـ Oma"</string>
+    <string name="activity_name_image_viewer">"عارض صور DRM"</string>
+    <string name="permission_label_access_drm_data">"إذن وصول مكون DRM الإضافي الخاص بـ OMA"</string>
+    <string name="permission_desc_access_drm_data">"امنح الإذن بالوصول إلى معلومات ترخيص مكون DRM الإضافي الخاص بـ OMA."</string>
+    <string name="license_expired">"انتهت صلاحية الترخيص"</string>
+    <string name="license_expired_message">"يتعذر فتح ملف DRM"</string>
+    <string name="buy_license">"شراء الترخيص"</string>
+    <string name="menu_set_as_wallpaper">"تعيين خلفية"</string>
+    <string name="menu_details">"التفاصيل"</string>
+    <string name="drm_details_title">"تفاصيل Drm"</string>
+    <string name="dialog_close">"إغلاق"</string>
+    <string name="drm_rights_message">"تم حفظ حقوق DRM الخاصة بـ OMA بنجاح"</string>
+    <string name="drm_text_count">"العدد المتبقي : "</string>
+    <string name="drm_text_date_start">"من : "</string>
+    <string name="drm_text_date_end">"حتى : "</string>
+    <string name="drm_text_fwd_lk">"غير محدود "</string>
+    <string name="drm_text_license">"ترخيص Drm : "</string>
+    <string name="drm_text_play">"تشغيل"</string>
+    <string name="drm_text_display">"عرض"</string>
+    <string name="drm_text_title">"العنوان : "</string>
+    <string name="drm_text_location">"الموقع : "</string>
+    <string name="drm_text_mime_type">"‏نوع Mime : "</string>
+    <string name="error_unable_to_view">"لم يتم العثور على الصورة"</string></resources>

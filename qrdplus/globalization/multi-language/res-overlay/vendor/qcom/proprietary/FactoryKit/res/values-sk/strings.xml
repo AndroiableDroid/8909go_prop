@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Common string -->
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"OK"</string>
+    <add-resource type="string" name="yes"/>
+    <string name="yes">"Áno"</string>
+    <add-resource type="string" name="no"/>
+    <string name="no">"Nie"</string>
+    <add-resource type="string" name="pass"/>
+    <string name="pass">"Úspešné"</string>
+    <add-resource type="string" name="fail"/>
+    <string name="fail">"Neúspešné"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Zrušiť"</string>
+    <add-resource type="string" name="testing"/>
+    <string name="testing">"Testuje sa..."</string>
+    <add-resource type="string" name="initialize"/>
+    <string name="initialize">"Inicializuje sa..."</string>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Továrenská súprava"</string>
+    <add-resource type="string" name="start"/>
+    <string name="start">"Spustiť"</string>
+    <add-resource type="string" name="scan"/>
+    <string name="scan">"Vyhľadávanie"</string>
+    <add-resource type="string" name="device_open_fail"/>
+    <string name="device_open_fail">"Otvorenie zariadenia neúspešné!"</string>
+    <add-resource type="string" name="service_get_fail"/>
+    <string name="service_get_fail">"Načítanie služby neúspešné!"</string>
+    <add-resource type="string" name="sensor_get_fail"/>
+    <string name="sensor_get_fail">"Načítanie senzora neúspešné!"</string>
+    <add-resource type="string" name="sensor_register_fail"/>
+    <string name="sensor_register_fail">"Registrácia senzora neúspešná!"</string>
+    <add-resource type="string" name="test_pass"/>
+    <string name="test_pass">"Test úspešný"</string>
+    <add-resource type="string" name="scanning"/>
+    <string name="scanning">"Prebieha vyhľadávanie..."</string>
+    <add-resource type="string" name="enabling"/>
+    <string name="enabling">"Povoľuje sa..."</string>
+    <add-resource type="string" name="disabling"/>
+    <string name="disabling">"Zakazuje sa..."</string>
+    <add-resource type="string" name="turning_on"/>
+    <string name="turning_on">"Zapína sa..."</string>
+    <add-resource type="string" name="turning_off"/>
+    <string name="turning_off">"Vypína sa..."</string>
+    <add-resource type="string" name="off"/>
+    <string name="off">"Vypnuté"</string>
+    <add-resource type="string" name="shake_hint"/>
+    <string name="shake_hint">"Zakryte aspoň dvakrát svetelný senzor rukami."</string>
+    <add-resource type="string" name="remove_headset"/>
+    <string name="remove_headset">"Odpojte náhlavnú súpravu"</string>
+    <add-resource type="string" name="insert_headset"/>
+    <string name="insert_headset">"Zapojte náhlavnú súpravu"</string>
+    <add-resource type="string" name="stop"/>
+    <string name="stop">"Zastaviť"</string>
+    <add-resource type="string" name="play"/>
+    <string name="play">"Prehrať"</string>
+    <add-resource type="string" name="record"/>
+    <string name="record">"Záznam"</string>
+    <add-resource type="string" name="time_out"/>
+    <string name="time_out">"Časový limit!"</string>
+    <!-- ControlCenter -->
+    <add-resource type="string" name="clean_state"/>
+    <string name="clean_state">"Stav čistého testu"</string>
+    <add-resource type="string" name="uninstall"/>
+    <string name="uninstall">"Odinštalovať"</string>
+    <add-resource type="string" name="control_center_quit_confirm"/>
+    <string name="control_center_quit_confirm">"Chcete skončiť?"</string>
+    <!-- Led -->
+    <!-- <string name="led_name">TriColor Led</string> -->
+    <!-- <string name="led_text">Light test sequence: red, green, blue</string> -->
+    <add-resource type="string" name="led_name"/>
+    <string name="led_name">"LED"</string>
+    <add-resource type="string" name="led_tri_text"/>
+    <string name="led_tri_text">"Poradie testovania LED: červená, zelená, modrá"</string>
+    <add-resource type="string" name="led_dual_text"/>
+    <string name="led_dual_text">"Poradie testovania LED: červená, zelená"</string>
+    <add-resource type="string" name="led_confirm"/>
+    <string name="led_confirm">"Je farba LED správna?"</string>
+    <!-- Flashlight -->
+    <add-resource type="string" name="flashlight_name"/>
+    <string name="flashlight_name">"Baterka"</string>
+    <add-resource type="string" name="flashlight_confirm"/>
+    <string name="flashlight_confirm">"Je svietidlo zapnuté?"</string>
+    <!-- KeypadBacklight -->
+    <add-resource type="string" name="keypadbacklight_name"/>
+    <string name="keypadbacklight_name">"Podsvietenie klávesnice"</string>
+    <add-resource type="string" name="keypadbacklight_confirm"/>
+    <string name="keypadbacklight_confirm">"Je podsvietenie klávesnice zapnuté?"</string>
+    <!-- SIM1 -->
+    <add-resource type="string" name="sim1_name"/>
+    <string name="sim1_name">SIM1</string>
+    <!-- SIM2 -->
+    <add-resource type="string" name="sim2_name"/>
+    <string name="sim2_name">SIM2</string>
+    <!-- TouchPanelEdge -->
+    <add-resource type="string" name="touchpanel_edge_name"/>
+    <string name="touchpanel_edge_name">"Okraj dotykového panela"</string>
+    <!-- TouchPanelKey -->
+    <add-resource type="string" name="touchpanel_key_name"/>
+    <string name="touchpanel_key_name">"Kláves dotykového panela"</string>
+    <!-- Keypad -->
+    <add-resource type="string" name="keypad_name"/>
+    <string name="keypad_name">"Klávesnica"</string>
+    <add-resource type="string" name="keypad_text"/>
+    <string name="keypad_text">"Stlačte tieto klávesy"</string>
+    <add-resource type="string" name="keypad_volume_up"/>
+    <string name="keypad_volume_up">"ZVÝŠENIE_HLASITOSTI"</string>
+    <add-resource type="string" name="keypad_volume_down"/>
+    <string name="keypad_volume_down">"ZNÍŽENIE_HLASITOSTI"</string>
+    <add-resource type="string" name="keypad_focus"/>
+    <string name="keypad_focus">"ZAOSTRENIE"</string>
+    <add-resource type="string" name="keypad_camera"/>
+    <string name="keypad_camera">"KAMERA"</string>
+    <!-- CameraBack -->
+    <add-resource type="string" name="cameraback_name"/>
+    <string name="cameraback_name">"Zadná kamera"</string>
+    <add-resource type="string" name="cameraback_takepicture"/>
+    <string name="cameraback_takepicture">"Vyfotiť"</string>
+    <add-resource type="string" name="cameraback_fail_open"/>
+    <string name="cameraback_fail_open">"Otvorenie kamery neúspešné; skontrolujte, či sa kamera nainštalovala správne!"</string>
+    <add-resource type="string" name="autofocus_fail"/>
+    <string name="autofocus_fail">"Automatické zaostrenie neúspešné"</string>
+    <!-- CameraFront -->
+    <add-resource type="string" name="camerafront_name"/>
+    <string name="camerafront_name">"Predná kamera"</string>
+    <add-resource type="string" name="camerafront_takepicture"/>
+    <string name="camerafront_takepicture">"Vyfotiť"</string>
+    <!-- LCM -->
+    <add-resource type="string" name="lcm_name"/>
+    <string name="lcm_name">"LCM"</string>
+    <add-resource type="string" name="lcm_confirm"/>
+    <string name="lcm_confirm">"Vyberte"</string>
+    <!-- Vibrator -->
+    <add-resource type="string" name="vibrate_name"/>
+    <string name="vibrate_name">"Vibračné zvonenie"</string>
+    <add-resource type="string" name="vibrate_confirm"/>
+    <string name="vibrate_confirm">"Vyberte"</string>
+    <add-resource type="string" name="vibrate_hint"/>
+    <string name="vibrate_hint">"Vibruje..."</string>
+    <!-- PSensor -->
+    <add-resource type="string" name="psensor_name"/>
+    <string name="psensor_name">"Senzor priblíženia"</string>
+    <add-resource type="string" name="psensor_title"/>
+    <string name="psensor_title">"Postupujte podľa pokynov a každý krok dokončite do 7 s."</string>
+    <add-resource type="string" name="psensor_to_cover"/>
+    <string name="psensor_to_cover">"Zakryte senzor priblíženia na viac než 1 s"</string>
+    <add-resource type="string" name="psensor_to_uncover"/>
+    <string name="psensor_to_uncover">"Odkryte senzor priblíženia na viac než 1 s"</string>
+    <add-resource type="string" name="psensor_uncovered"/>
+    <string name="psensor_uncovered">"Odkryté"</string>
+    <add-resource type="string" name="psensor_covered"/>
+    <string name="psensor_covered">"Zakryté"</string>
+    <add-resource type="string" name="psensor_verifying"/>
+    <string name="psensor_verifying">"Overuje sa..."</string>
+    <add-resource type="string" name="psensor_sensor_unstable_fail"/>
+    <string name="psensor_sensor_unstable_fail">"Senzor priblíženia nestabilný!"</string>
+    <!-- GSensor -->
+    <add-resource type="string" name="gsensor_name"/>
+    <string name="gsensor_name">"Gravitačný senzor"</string>
+    <!-- MSensor -->
+    <add-resource type="string" name="msensor_name"/>
+    <string name="msensor_name">"Magnetický senzor"</string>
+    <!-- Gyroscope -->
+    <add-resource type="string" name="gyroscope_name"/>
+    <string name="gyroscope_name">"Gyroskop"</string>
+    <!-- LightSensor -->
+    <add-resource type="string" name="lightsensor_name"/>
+    <string name="lightsensor_name">"Svetelný senzor"</string>
+    <!-- SDCard -->
+    <add-resource type="string" name="sdcard_name"/>
+    <string name="sdcard_name">"SD Card"</string>
+    <add-resource type="string" name="sdcard_wait"/>
+    <string name="sdcard_wait">"Počkajte na načítanie karty SD..."</string>
+    <add-resource type="string" name="sdcard_confirm"/>
+    <string name="sdcard_confirm">"Vložili ste kartu SD?"</string>
+    <add-resource type="string" name="sdcard_to_remove"/>
+    <string name="sdcard_to_remove">"Vyberte kartu SD"</string>
+    <add-resource type="string" name="sdcard_to_insert"/>
+    <string name="sdcard_to_insert">"Vložte kartu SD"</string>
+    <!-- Bluetooth -->
+    <add-resource type="string" name="bluetooth_name"/>
+    <string name="bluetooth_name">"Bluetooth"</string>
+    <add-resource type="string" name="bluetooth_scan_start"/>
+    <string name="bluetooth_scan_start">"Vyhľadávajú sa zariadenia..."</string>
+    <add-resource type="string" name="bluetooth_scan_finish"/>
+    <string name="bluetooth_scan_finish">"Dokončiť vyhľadávanie"</string>
+    <add-resource type="string" name="bluetooth_turning_on"/>
+    <string name="bluetooth_turning_on">"Zapína sa Bluetooth..."</string>
+    <add-resource type="string" name="bluetooth_scan_null"/>
+    <string name="bluetooth_scan_null">"Nenašlo sa žiadne zariadenie"</string>
+    <!-- WiFi -->
+    <add-resource type="string" name="wifi_name"/>
+    <string name="wifi_name">"WiFi"</string>
+    <add-resource type="string" name="wifi_text"/>
+    <string name="wifi_text">"        Test WiFi sa dokončí do 30 sekúnd, čakajte."<string name="wifi_scan_failed">"Vyhľadávanie neúspešné!"</string></string>
+    <add-resource type="string" name="wifi_is_closing"/>
+    <string name="wifi_is_closing">"WiFi sa zatvára, skúste to o chvíľu."</string>
+    <add-resource type="string" name="wifi_scan_null"/>
+    <string name="wifi_scan_null">"Nenašiel sa žiadny AP!"</string>
+    <add-resource type="string" name="wifi_state_unknown"/>
+    <string name="wifi_state_unknown">"Neznámy stav WiFi, skúste znovu."</string>
+    <!-- Handset -->
+    <add-resource type="string" name="handset_name"/>
+    <string name="handset_name">"Slúchadlo"</string>
+    <add-resource type="string" name="handset_hint"/>
+    <string name="handset_hint">"Testuje sa zvuková slučka slúchadla..."</string>
+    <add-resource type="string" name="handset_loopback"/>
+    <string name="handset_loopback">"Testuje sa zvuková slučka slúchadla..."</string>
+    <add-resource type="string" name="handset_playing"/>
+    <string name="handset_playing">"Prehráva sa znova, počúvajte slúchadlo."</string>
+    <add-resource type="string" name="handset_confirm"/>
+    <string name="handset_confirm">"Počujete zvuk?"</string>
+    <add-resource type="string" name="handset_record_first"/>
+    <string name="handset_record_first">"Najprv kliknite na tlačidlo Záznam"</string>
+    <add-resource type="string" name="handset_replay_end"/>
+    <string name="handset_replay_end">"Dosiahol sa koniec."</string>
+    <add-resource type="string" name="handset_to_record"/>
+    <string name="handset_to_record">"Ak chcete nahrať zvuk, kliknite na tlačidlo Záznam."</string>
+    <add-resource type="string" name="handset_recording"/>
+    <string name="handset_recording">"Nahráva sa, povedzte niečo do mikrofónu a zastavte nahrávanie kliknutím na tlačidlo Stop."</string>
+    <!-- Headset -->
+    <add-resource type="string" name="headset_name"/>
+    <string name="headset_name">"Náhlavná súprava"</string>
+    <add-resource type="string" name="headset_hint"/>
+    <string name="headset_hint">"Náhlavná súprava"</string>
+    <add-resource type="string" name="headset_recording"/>
+    <string name="headset_recording">"Nahráva sa, povedzte niečo do mikrofónu a zastavte nahrávanie kliknutím na tlačidlo Stop."</string>
+    <add-resource type="string" name="headset_playing"/>
+    <string name="headset_playing">"Prehráva sa znova, počúvajte slúchadlo."</string>
+    <add-resource type="string" name="headset_confirm"/>
+    <string name="headset_confirm">"Počujete zvuk?"</string>
+    <add-resource type="string" name="headset_record_first"/>
+    <string name="headset_record_first">"Najprv kliknite na tlačidlo Záznam"</string>
+    <add-resource type="string" name="headset_replay_end"/>
+    <string name="headset_replay_end">"Dosiahol sa koniec."</string>
+    <add-resource type="string" name="headset_to_record"/>
+    <string name="headset_to_record">"Ak chcete nahrať zvuk, kliknite na tlačidlo Záznam."</string>
+    <!-- Speaker -->
+    <add-resource type="string" name="speaker_name"/>
+    <string name="speaker_name">"Reproduktor"</string>
+    <add-resource type="string" name="speaker_hint"/>
+    <string name="speaker_hint">"Počujete hrať hudbu?"</string>
+    <add-resource type="string" name="speaker_confirm"/>
+    <string name="speaker_confirm">"Počujete zvuk?"</string>
+    <add-resource type="string" name="speaker_playing"/>
+    <string name="speaker_playing">"Prehráva sa..."</string>
+    <add-resource type="string" name="speaker_play_first"/>
+    <string name="speaker_play_first">"Najprv stlačte tlačidlo Prehrať"</string>
+    <add-resource type="string" name="speaker_to_play"/>
+    <string name="speaker_to_play">"Ak chcete prehrať zvuk, kliknite na tlačidlo Prehrať."</string>
+    <add-resource type="string" name="speaker_recording"/>
+    <string name="speaker_recording">"Nahráva sa, hovorte"</string>
+    <!-- GPS -->
+    <add-resource type="string" name="gps_name"/>
+    <string name="gps_name">"GPS"</string>
+    <add-resource type="string" name="gps_enable_first"/>
+    <string name="gps_enable_first">"Najprv povoľte GPS"</string>
+    <!-- FM -->
+    <add-resource type="string" name="fm_name"/>
+    <string name="fm_name">"Rádio FM"</string>
+    <add-resource type="string" name="fm_search"/>
+    <string name="fm_search">"Hľadať"</string>
+    <add-resource type="string" name="fm_confirm"/>
+    <string name="fm_confirm">"Počujete zvuk?"</string>
+    <!-- Battery -->
+    <add-resource type="string" name="battery_name"/>
+    <string name="battery_name">"Batéria"</string>
+    <add-resource type="string" name="battery_voltage"/>
+    <string name="battery_voltage">"Napätie batérie ="</string>
+    <!-- FuelGaugeCalibration -->
+    <add-resource type="string" name="fuelgauge_name"/>
+    <string name="fuelgauge_name">"Kalibrácia nabitia"</string>
+    <add-resource type="string" name="fuelgauge_hint"/>
+    <string name="fuelgauge_hint">"Kalibrácia nabitia sa dokončí do 30 s, čakajte..."</string>
+    <add-resource type="string" name="fuelgauge_processing"/>
+    <string name="fuelgauge_processing">"Prebieha spracovanie..."</string>
+    <!-- NFC -->
+    <add-resource type="string" name="nfc_name"/>
+    <string name="nfc_name">"NFC"</string>
+    <add-resource type="string" name="nfc_not_available"/>
+    <string name="nfc_not_available">"NFC nie je k dispozícii"</string>
+    <add-resource type="string" name="nfc_enable_first"/>
+    <string name="nfc_enable_first">"Povoliť NFC..."</string>
+    <add-resource type="string" name="nfc_enable_fail"/>
+    <string name="nfc_enable_fail">"NFC nie je možné povoliť"</string></resources>

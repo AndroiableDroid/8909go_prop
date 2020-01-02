@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Прикажи метрику отклањања грешке"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"Сачувај слике"</string>
+    <string name="debug_pref_save_pictures_desc">"Сачувај ухваћене слике на SD картици"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"Сачувај оквире за приказ"</string>
+    <string name="debug_pref_save_preview_frames_desc">"Сачувај оквире за приказ на SD картици"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Дозволи брисање оквира за приказ"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"Приликом чувања оквира за приказ, дозволите брисање оквира како би се одржао број слика у секунди."</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Омогући детаљно евидентирање препознавања лица"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

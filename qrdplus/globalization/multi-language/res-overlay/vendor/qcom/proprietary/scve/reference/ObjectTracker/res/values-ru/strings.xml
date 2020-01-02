@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Демонстрация отслеживания объектов"</string>
+    <string name="open_camera_failed">"Возникла ошибка при запуске камеры на вашем устройстве.  Закройте другие приложения, использующие камеру, и повторно запустите камеру."</string>
+    <string name="snapshot_failed">"Возникла ошибка при создании снимка экрана. Сведения об ошибке  см. в LogCat."</string>
+    <string name="video_recording_failed">"Возникла ошибка при записи видео. Сведения об ошибке  см. в LogCat."</string>
+    <string name="settings">"Настройки"</string>
+    <string name="switch_camera">"Переключение камеры"</string>
+    <string name="switch_camera_mode">"Переключение режима фото/видео"</string></resources>

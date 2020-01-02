@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Ghép đôi SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Ghép nối bút kỹ thuật số Snapdragon"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Cài đặt"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"OK"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"Chọn vị trí bút hiển thị"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"Chọn số seri của bút mới"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"Chọn kiểu bút bạn muốn sử dụng"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"Bắt đầu ghép đôi"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"Giữ bút trực giao trong vòng tròn để bắt đầu quá trình ghép đôi"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"Ghép đôi thủ công"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"Ghép đôi bán tự động"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"Chọn phương pháp AGPS ưa thích"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"Ghép đôi một bút mới"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"Quản lý các bút được ghép đôi"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"Cân chỉnh SW"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"Giữ bút trực giao bên trong vòng tròn để bắt đầu quá trình ghép đôi.\nSau khi hoàn tất thành công, quá trình cân chỉnh sẽ bắt đầu."</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"Kiểm tra trung tâm dịch vụ"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"Giữ bút trực giao bên trong vòng tròn để bắt đầu quá trình ghép đôi.\nSau khi hoàn tất thành công, quá trình kiểm tra sẽ bắt đầu."</string></resources>

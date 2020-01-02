@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"ເຄື່ອງມືທົດສອບ SDP SDK"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"ເຄື່ອງມືທົດສອບປາກກາດີຈີຕອລ Snapdragon SDK"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"ການຕັ້ງຄ່າ"</string>
+    <add-resource type="string" name="off_screen_mode_header"/>
+    <string name="off_screen_mode_header">"ໂໝດປິດ-ໜ້າຈໍ"</string>
+    <add-resource type="string" name="offscreen_mode_choice_duplicate"/>
+    <string name="offscreen_mode_choice_duplicate">"ຊໍ້າກັນ"</string>
+    <add-resource type="string" name="offscreen_mode_choice_extend"/>
+    <string name="offscreen_mode_choice_extend">"ການຂະຫຍາຍ"</string>
+    <add-resource type="string" name="offscreen_mode_choice_disable"/>
+    <string name="offscreen_mode_choice_disable">"ປິດໃຊ້ງານ"</string>
+    <add-resource type="string" name="apply_configuration_button_text"/>
+    <string name="apply_configuration_button_text">"ໃຊ້ການຕັ້ງຄ່າ"</string>
+    <add-resource type="string" name="configuration_items_header"/>
+    <string name="configuration_items_header">"ລາຍການຕັ້ງຄ່າ"</string>
+    <add-resource type="string" name="header_side_channel_listeners"/>
+    <string name="header_side_channel_listeners">"ເຄື່ອງມືຟັງຊ່ອງທາງດ້ານຂ້າງ"</string>
+    <add-resource type="string" name="label_on_screen_side_channel"/>
+    <string name="label_on_screen_side_channel">"ເປີດ-ໜ້າຈໍ: "</string>
+    <add-resource type="string" name="label_off_screen_side_channel"/>
+    <string name="label_off_screen_side_channel">"ປິດ-ໜ້າຈໍ: "</string>
+    <add-resource type="string" name="label_all_side_channel"/>
+    <string name="label_all_side_channel">"ທັງໝົດ: "</string>
+    <add-resource type="string" name="checkbox_text_off_screen_side_channel_enable"/>
+    <string name="checkbox_text_off_screen_side_channel_enable">"ເປີດໃຊ້ງານ ປິດ-ໜ້າຈໍ ຂໍ້ມູນຊ່ອງທາງດ້ານຂ້າງ"</string>
+    <add-resource type="string" name="placeholder"/>
+    <string name="placeholder">"&lt;placeholder for dynamic text&gt;"</string>
+    <add-resource type="string" name="side_channel_off"/>
+    <string name="side_channel_off">"ປິດ"</string>
+    <add-resource type="string" name="side_channel_scaled"/>
+    <string name="side_channel_scaled">"ຂະໜາດ"</string>
+    <add-resource type="string" name="side_channel_raw"/>
+    <string name="side_channel_raw">"RAW"</string>
+    <!-- Hover -->
+    <add-resource type="string" name="label_on_screen_hover"/>
+    <string name="label_on_screen_hover">"ເປີດ-ໜ້າຈໍເລື່ອນ:"</string>
+    <add-resource type="string" name="label_off_screen_hover"/>
+    <string name="label_off_screen_hover">"ປິດ-ໜ້າຈໍເລື່ອນ:"</string>
+    <add-resource type="string" name="hover_choice_off"/>
+    <string name="hover_choice_off">"ປິດ"</string>
+    <add-resource type="string" name="hover_choice_enable"/>
+    <string name="hover_choice_enable">"ເປີດນຳໃຊ້"</string>
+    <add-resource type="string" name="hover_choice_enable_custom"/>
+    <string name="hover_choice_enable_custom">"ເປີດໃຊ້ງານການກໍານົດເອງ "</string>
+    <!-- Eraser -->
+    <add-resource type="string" name="label_eraser_bypass"/>
+    <string name="label_eraser_bypass">"ເຄື່ອງມືລຶບ ໂດຍກົດຜ່ານ:"</string>
+    <add-resource type="string" name="label_eraser_bypass_off"/>
+    <string name="label_eraser_bypass_off">"ປິດ"</string>
+    <add-resource type="string" name="label_eraser_bypass_enable"/>
+    <string name="label_eraser_bypass_enable">"ເປີດນຳໃຊ້"</string>
+    <!-- Motion event -->
+    <add-resource type="string" name="label_motion_event_info"/>
+    <string name="label_motion_event_info">"ການເຄື່ອນໄຫວກິດຈະກໍາ:"</string>
+    <add-resource type="string" name="placeholder_motion"/>
+    <string name="placeholder_motion">"&lt;placeholder for motion event dynamic text&gt;"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"ປະເພດນໍາເຂົ້າ"</string>
+    <add-resource type="string" name="input_type_choice_stylus"/>
+    <string name="input_type_choice_stylus">"ເຫຼັກ"</string>
+    <add-resource type="string" name="input_type_choice_mouse"/>
+    <string name="input_type_choice_mouse">"ໜູ"</string>
+    <add-resource type="string" name="input_type_choice_joystick"/>
+    <string name="input_type_choice_joystick">"ຈອຍສະຕິດ"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"ຄວາມໄວເມົາ:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"ຊ້າ"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"ປານກາງ"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"ໄວ"</string></resources>

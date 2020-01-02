@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"社交相機"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"我們在驗證或要求權限時遇到錯誤。如需更多詳細資料，請查詢 Logcat。"</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"傳送 (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"與相機的連線遺失"</string>
+    <string name="camera_preview_error_camera_error">"相機發生錯誤:%s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"無法拍攝相片"</string>
+    <string name="camera_preview_error_still_image_save_failed">"我們在將圖片儲存至您的圖庫時遇到錯誤"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"設定"</string>
+    <string name="camera_settings_category_camera_settings">"相機設定"</string>
+    <string name="camera_settings_category_fr_settings">"臉孔辨識設定"</string>
+    <string name="camera_settings_category_debug_settings">"偵錯設定"</string>
+    <string name="camera_settings_fr_database_cleared">"臉孔辨識資料庫已清除"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"關閉"</string>
+    <string name="picture_review_send_faces">"傳送 (%d)"</string>
+    <string name="picture_review_no_faces">"此相片中找不到任何人"</string>
+    <string name="picture_review_error_face_recognition">"我們在識別臉部時遇到錯誤"</string>
+    <string name="picture_review_error_face_enroll">"抱歉，我們在儲存此臉部時遇到錯誤。請再拍攝一張該主體的圖片，然後再試一次。"</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"其他聯絡人..."</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"分享設定"</string>
+    <string name="fr_share_settings_button_just_once">"只此一次"</string>
+    <string name="fr_share_settings_button_always">"一律啟用"</string>
+    <string name="fr_share_settings_share_method_sms">"訊息"</string>
+    <string name="fr_share_settings_share_method_email">"電子郵件"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"來看看這個!"</string>
+    <string name="social_sharing_error_no_email_app">"您沒有能夠發送電子郵件的應用程式"</string></resources>

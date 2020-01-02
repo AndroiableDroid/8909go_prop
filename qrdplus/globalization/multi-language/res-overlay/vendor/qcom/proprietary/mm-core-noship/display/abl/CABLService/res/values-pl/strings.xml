@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Ust.adapt. podśw. ekranu"</string>
+        <add-resource type="string" name="cabl_settings_title"/>
+    <string name="cabl_settings_title">"Ust.adapt. podśw. ekranu"</string>
+        <add-resource type="string" name="cabl_enable_title"/>
+    <string name="cabl_enable_title">"Wł. adaptacyjnego podśw. ekranu"</string>
+        <add-resource type="string" name="cabl_enable_summary_on"/>
+    <string name="cabl_enable_summary_on">"Podświetlenie zostanie ponownie dostosowane na podstawie zawartości  wyświetlacza"</string>
+        <add-resource type="string" name="cabl_enable_summary_off"/>
+    <string name="cabl_enable_summary_off">"Podświetlenie nie zostanie ponownie dostosowane na podstawie zawartości  wyświetlacza"</string>
+        <add-resource type="string" name="cabl_levels_title"/>
+    <string name="cabl_levels_title">"Poziom jakości wizualnej"</string>
+        <add-resource type="string" name="cabl_levels_summary"/>
+    <string name="cabl_levels_summary">"Niższy poziom jakości wizualnej sygnalizuje, że w ramach funkcji CABL nastąpi próba zaoszczędzenia możliwie największej ilości energii bez wywierania znaczącego wpływu na zawartość wyświetlaną na ekranie. Automatyczny poziom jakości wizualnej oznacza, że funkcja CABL będzie maksymalizować oszczędność energii w oparciu o automatycznie wykrytą zawartość ekranu."</string>
+        <add-resource type="string" name="cabl_level_default"/>
+    <string name="cabl_level_default">"Automat"</string>
+        <add-resource type="string" name="cabl_info_default"/>
+    <string name="cabl_info_default">"Nieznany"</string>
+        <add-resource type="string" name="cabl_version_title"/>
+    <string name="cabl_version_title">"Wersja CABL"</string></resources>

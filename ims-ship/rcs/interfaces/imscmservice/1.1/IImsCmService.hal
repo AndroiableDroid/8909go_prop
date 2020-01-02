@@ -1,0 +1,82 @@
+/*
+ * Copyright (c) 2017 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ */
+
+package com.qualcomm.qti.imscmservice@1.1;
+
+import @1.0::IImsCmService;
+import IImsCmServiceListener;
+import @1.0::IMSCM_STATUSCODE;
+import @1.0::IMSCM_SERVICE_HANDLE;
+
+interface  IImsCmService extends @1.0::IImsCmService {
+
+/**
+ * Initialize Service to work with. This returns a status code.
+ * Onsuccessful initialize, OnServiceReady() is triggered with a
+ * Service handle.
+ *
+ * @param[in] subId        SubscriptionID the service is requested.
+ * @param[in] userData    user data/request ID.
+ *
+ * @return
+ *   Status code. See #IMSCM_STATUSCODE.
+ *
+ * @dependencies
+ *   None.
+ */
+InitializeService_1_1(string iccId, IImsCmServiceListener cmListener, uint32_t userData) generates (IMSCM_STATUSCODE status);
+
+/**
+ * Adds a listener containing the list of
+ * function pointers to be invoked to notify clients of the
+ * various events from the connection manager.
+ * Status of the request is returned in QIMSCM_COMMAND_STATUS
+ *
+ * @param[in] connectionManager    Handle Received in OnServiceReady()
+ * @param[in] cmListener           Structure with the list of callbacks.
+ * @param[in] userdata             user data/request ID.
+ *
+ * @return
+ *   Status code. See #IMSCM_STATUSCODE.
+ *
+ * @dependencies
+ *   None.
+ */
+addListener_1_1 (IMSCM_SERVICE_HANDLE connectionManager, IImsCmServiceListener cmListener) generates (IMSCM_STATUSCODE status);
+
+/**
+ * Removes a listener from the IMS connection manager. Status of
+ * the request is returned in QIMSCM_COMMAND_STATUS
+ *
+ * @param[in] connectionManager    Handle Received in OnServiceReady()
+ * @param[in] pIMSCmListener        Structure with the list of callbacks.
+ * @param[in] pUserData             user data/request ID.
+ *
+ * @return
+ *   Status code. See #IMSCM_STATUSCODE.
+ *
+ * @dependencies
+ *   None.
+ */
+removeListener_1_1 (IMSCM_SERVICE_HANDLE connectionManager, IImsCmServiceListener cmListener) generates (IMSCM_STATUSCODE status);
+
+/**
+ * Triggers the Request to Modem to generate AutoConfig configurations
+ *
+ * @param[in] pIMSConnectionManager Handle to the IMSConnectionManager interface object
+ * @param[in] AutoConfig Reason type for triggering the request to modem
+ *
+ * @return
+ *   Status code. See #IMSCM_STATUSCODE.
+ *
+ * @dependencies
+ *   None.
+ */
+triggerACSRequest(IMSCM_SERVICE_HANDLE connectionManager,
+                  IMSCM_AUTOCONFIG_TRIGGER_REASON autoConfigReasonType,
+                  uint32_t userdata) generates (IMSCM_STATUSCODE status);
+};

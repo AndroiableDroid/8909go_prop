@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Prilag. osvet. ozadja glede na vsebino"</string>
+        <add-resource type="string" name="cabl_settings_title"/>
+    <string name="cabl_settings_title">"Prilag. osvet. ozadja glede na vsebino"</string>
+        <add-resource type="string" name="cabl_enable_title"/>
+    <string name="cabl_enable_title">"Omogoči prilag. osvet. ozadja glede na vsebino"</string>
+        <add-resource type="string" name="cabl_enable_summary_on"/>
+    <string name="cabl_enable_summary_on">"Osvetlitev ozadja se prilagodi glede na vsebino  na zaslonu"</string>
+        <add-resource type="string" name="cabl_enable_summary_off"/>
+    <string name="cabl_enable_summary_off">"Osvetlitev ozadja se ne prilagodi glede na vsebino  na zaslonu"</string>
+        <add-resource type="string" name="cabl_levels_title"/>
+    <string name="cabl_levels_title">"Raven vidne kakovosti"</string>
+        <add-resource type="string" name="cabl_levels_summary"/>
+    <string name="cabl_levels_summary">"Slabša kakovost pomeni, da bo CABL prihranil kolikor je mogoče energije, ne da bi pri tem bistveno vplival na prikazano vsebino. Samodejna raven vidne kakovosti pomeni, da bo CABL povečal prihranek energije na podlagi samodejne zaznave vrste prikazane vsebine."</string>
+        <add-resource type="string" name="cabl_level_default"/>
+    <string name="cabl_level_default">"Samodejno"</string>
+        <add-resource type="string" name="cabl_info_default"/>
+    <string name="cabl_info_default">"Neznano"</string>
+        <add-resource type="string" name="cabl_version_title"/>
+    <string name="cabl_version_title">"Različica CABL"</string></resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"ভারবোজ"</item>
+        <item>"ডিবাগ"</item>
+        <item>"তথ্য"</item>
+        <item>"সতর্কীকরণ"</item>
+        <item>"ত্রুটি"</item>
+        <item>"মারাত্মক"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"SD কার্ড"</item>
+        <item>"অভ্যন্তরীণ মেমরি"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"লগ ফাইলে লিখতে অক্ষম। লগ বার্তাগুলি সংরক্ষণ করা হচ্ছে না। লগ ফাইলটি আবার উপলভ্য হলেই লগিং প্রক্রিয়াটি স্বয়ংক্রিয়ভাবে শুরু হবে"</string>
+    <string name="err_lowspace">"কম জায়গা শনাক্ত হয়েছে। লগ বার্তাগুলি সংরক্ষণ করা হচ্ছে না। পর্যাপ্ত জায়গা উপলভ্য হলেই লগিং প্রক্রিয়াটি স্বয়ংক্রিয়ভাবে শুরু হবে"</string>
+  <string name="txtTag_text">"ট্যাগনাম"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"Logcat বিবরণ"</string></resources>

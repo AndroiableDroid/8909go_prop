@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"لفاظی"</item>
+        <item>"ڈیبگ کریں"</item>
+        <item>"معلومات"</item>
+        <item>"تنبیہ"</item>
+        <item>"خرابی"</item>
+        <item>"مہلک"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"SD کارڈ"</item>
+        <item>"داخلی میموری"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"لاگ فائل میں لکھنے سے قاصر ہے۔ لاگ پیغامات کو محفوظ نہیں کیا جا رہا ہے۔ جب لاگ فائل دوبارہ دستیاب ہو گی تو لاگنگ عمل ایک بار پھر خود کار طریقے سے شروع ہو جائے گا۔"</string>
+    <string name="err_lowspace">"کم جگہ کا پتہ چلا ہے۔ لاگ پیغامات کو محفوظ نہیں کیا جا رہا ہے۔ ایک بار جب کافی جگہ موجود ہو گی تو لاگنگ عمل خود کار طریقے سے سے شروع ہو جائے گا۔"</string>
+  <string name="txtTag_text">"ٹیگ نام"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"Logcat تفصیل"</string></resources>

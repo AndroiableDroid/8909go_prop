@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Aplicación FastCV Sample"</string>
+    <string name="label_text">"Escribe aquí: "</string>
+    <string name="textview01_text">"TextView01"</string>
+    <string name="startpreview_text">"Iniciar"</string>
+    <string name="stoppreview_text">"Detener"</string>
+    <string name="settings">"Configuración"</string>
+    <string name="txtAcceleration">"Activar aceleración"</string>
+    <string name="about">"Acerca de"</string>
+    <string name="versionNumber_text">"Versión de FastCV"</string>
+    <string name="appName_text">"Nombre de la aplicación"</string>
+    <string name="appName">"Aplicación FastCV Corner Detection Sample"</string>
+                <string-array name="cornerDetectorDownSampleArray">
+       <item>1 </item>
+       <item>2 </item>
+       <item>4 </item>
+       <item>8 </item>
+       <item>16 </item>
+    </string-array>
+    <string-array name="cornerDetectorDownSampleValuesArray">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+       <item>3</item>
+       <item>4</item>
+    </string-array>
+ <string-array name="cornerDetectorThresholdArray">
+       <item>5 </item>
+       <item>10 </item>
+       <item>20 </item>
+       <item>40 </item>
+       <item>80 </item>
+    </string-array>
+        <string-array name="cornerDetectorValuesArray">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+       <item>3</item>
+       <item>4</item>
+    </string-array>
+<string-array name="CameraOnOffArray">
+       <item>"Visor activado "</item>
+       <item>"Visor desactivado "</item>
+    </string-array>
+    <string-array name="CameraOnOffValuesArray">
+       <item>0</item>
+       <item>1</item>
+       </string-array>
+<string-array name="CornerOnOnOffArray">
+       <item>"Desactivar superposición de esquina  "</item>
+       <item>"Activar superposición de esquina "</item>
+     </string-array>
+    <string-array name="CornerOnOffValuesArray">
+       <item>0</item>
+       <item>1</item>
+     </string-array>
+<string-array name="GaussianOnOffArray">
+       <item>"Desactivar filtro gaussiano 3x3  "</item>
+       <item>"Activar filtro gaussiano 3x3 "</item>
+     </string-array>
+    <string-array name="GaussianOnOffValuesArray">
+       <item>0</item>
+       <item>1</item>
+     </string-array></resources>

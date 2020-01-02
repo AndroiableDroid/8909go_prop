@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"កាមេរ៉ាសង្គម"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"យើងបានជួបប្រទះ​នឹងកំហុស​ ខណៈ​ពេលកំពុង​ផ្ទៀង​ផ្ទាត់​ឬ​ស្នើសុំការអនុញ្ញាត។ សូម​ពិនិត្យមើល logcat សម្រាប់​ព័ត៌មានលម្អិតបន្ថែម។"</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"ផ្ញើ (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"ការភ្ជាប់ទៅកាមេរ៉ាបានបាត់"</string>
+    <string name="camera_preview_error_camera_error">"កំហុសពីកាមេរ៉ា៖ %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"បានបរាជ័យ​ក្នុងការថតរូប"</string>
+    <string name="camera_preview_error_still_image_save_failed">"យើងបានជួបប្រទះនឹងកំហុស​ ខណៈ​ពេលរក្សាទុក​រូបភាព​ទៅកាន់​វិចិត្រសាល​របស់​​អ្នក"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"ការ​កំណត់"</string>
+    <string name="camera_settings_category_camera_settings">"ការកំណត់​កាមេរ៉ា"</string>
+    <string name="camera_settings_category_fr_settings">"ការកំណត់ការទទួលស្គាល់មុខ"</string>
+    <string name="camera_settings_category_debug_settings">"ការកំណត់​ការកែកំហុស"</string>
+    <string name="camera_settings_fr_database_cleared">"មូលដ្ឋាន​ទិន្នន័យ​ទទួលស្គាល់មុខ​ត្រូវបានជម្រះ"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"បដិសេធ"</string>
+    <string name="picture_review_send_faces">"ផ្ញើ (%d)"</string>
+    <string name="picture_review_no_faces">"គ្មាននរណាម្នាក់ត្រូវបានរកឃើញ​នៅក្នុងរូបថតនេះទេ"</string>
+    <string name="picture_review_error_face_recognition">"យើងបានជួបប្រទះនឹងកំហុស​ ខណៈពេល​កំពុង​ទទួលស្គាល់មុខ"</string>
+    <string name="picture_review_error_face_enroll">"សូមអភ័យទោស យើងបានជួបប្រទះនឹងកំហុស​ ខណៈ​ពេលរក្សាទុកមុខនេះ។ សូម​ថតរូបភាពមនុស្សមួយផ្សេងទៀត រួចព្យាយាម​ម្ដងទៀត។"</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"ឈ្មោះទំនាក់ទំនងផ្សេងទៀត\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"ការកំណត់​ការចែករំលែក"</string>
+    <string name="fr_share_settings_button_just_once">"តែម្ដង"</string>
+    <string name="fr_share_settings_button_always">"ជា​និច្ច"</string>
+    <string name="fr_share_settings_share_method_sms">"សារ"</string>
+    <string name="fr_share_settings_share_method_email">"អ៊ីមែល"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"ពិនិត្យមើលមួយនេះ!"</string>
+    <string name="social_sharing_error_no_email_app">"អ្នកមិនមានកម្មវិធី​ដែល​អាចផ្ញើអ៊ីម៉ែល​បានទេ"</string></resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Metriche debug display"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"Salva immagini"</string>
+    <string name="debug_pref_save_pictures_desc">"Salva immagini acquisite sulla scheda SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"Salva fotogrammi anteprima"</string>
+    <string name="debug_pref_save_preview_frames_desc">"Salva fotogrammi anteprima sulla scheda SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Consenti eliminazione fotogramma anteprima"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"Durante il salvataggio dei fotogrammi di anteprima, consente l\'eliminazione dei fotogrammi per mantenere la frequenza dei fotogrammi"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Attiva registrazione dettagliata riconoscimento volti"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

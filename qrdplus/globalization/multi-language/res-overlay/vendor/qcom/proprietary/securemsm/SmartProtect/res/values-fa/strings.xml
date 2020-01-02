@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtect"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect‎"</string>
+    <string name="title_app_info">"اطلاعات برنامه"</string>
+    <string name="title_trusted">"برنامه‌های معتمد"</string>
+    <string name="title_about">"درباره"</string>
+    <string name="title_settings">"تنظیمات"</string>
+    <string name="drawer_open_title">"Snapdragon Smart Protect"</string>
+<string name="service_status_on">"فعال"</string>
+    <string name="service_status_off">"خاموش"</string>
+    <string name="err_title">"خطای برنامه"</string>
+    <string name="err_msg_init">"Snapdragon Smart Protect نمی‌تواند مجموعه QSSP را مقداردهی اولیه کند. توقف سرویس"</string>
+    <string name="err_msg_load_model">"Snapdragon Smart Protect نمی‌تواند مدل را بارگیری کند. توقف سرویس"</string>
+    <string name="err_msg_malicious_alert">"Snapdragon Smart Protect برای هشدارهای مخرب قابل ثبت نیست. توقف سرویس"</string>
+    <string name="err_msg_benign_alert">"Snapdragon Smart Protect برای هشدارهای غیرمضر قابل ثبت نیست. توقف سرویس"</string>
+    <string name="err_msg_service_not_up">"Snapdragon Smart Protect دیگر نمی‌تواند سرویس را پیدا کند."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™‎‎"</string>
+    <string name="about_copyright_line1">"‎© 2015 Qualcomm Technologies Inc.‎"</string>
+    <string name="about_copyright_line2">"کلیه حقوق محفوظ است."</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ Smart Protect محصولی از ‎Qualcomm Technologies, Inc.‎ است."</string>
+    <string name="about_information_line2">"Qualcomm و Snapdragon علائم تجاری Qualcomm Incorporated است که در ایالات متحده و سایر کشورها ثبت شده و با مجوز استفاده می‌شود."</string>
+    <string name="btn_restore_default">"بازیابی تنظیمات پیش‌فرض"</string>
+    <string name="btn_clear_history">"پاک کردن سابقه SMART PROTECT"</string>
+    <string name="trusted_btn">"افزودن به فهرست برنامه‌های معتمد"</string>
+    <string name="uninstall_btn">"لغو نصب"</string>
+    <string name="details_btn">"جزئیات"</string>
+    <string name="done_btn">"انجام شد"</string>
+    <string name="remove_trusted_btn">"حذف از فهرست برنامه‌های معتمد"</string>
+    <string name="uninstall_confirm_message">"می‌خواهید این برنامه را حذف نصب کنید؟?"</string>
+    <string name="uninstall_success">"بسته با موفقیت لغو نصب شد"</string>
+    <string name="uninstall_failed">"بسته لغو نصب نشد"</string>
+    <string name="clear_history_done">"سابقه با موفقیت پاک شد"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon Smart Protect"</string>
+    <string name="drawer_threats">"تهدیدها پاک شدند (%1$s)"</string>
+    <string name="drawer_threat_null">"شناسایی بدافزار و محافظت بی‌درنگ و روی دستگاه از حریم خصوصی"</string>
+    <string name="drawer_option_dashboard">"داشبورد"</string>
+    <string name="drawer_option_trusted_apps">"برنامه‌های معتمد"</string>
+    <string name="drawer_option_settings">"تنظیمات"</string>
+    <string name="drawer_option_about">"درباره"</string>
+    <string name="dashboard_list_title">"برای دیدن توصیه‌ها و جزئیات Snapdragon Smart Protect، برنامه‌ای انتخاب کنید."</string>
+    <string name="dashboard_list_empty">"هیچ برنامه‌ای نظارت نمی‌شود."</string>
+    <string name="app_info_recommend">"توصیه:"</string>
+    <string name="app_info_version">"نسخه"</string>
+    <string name="app_uninstalled">"برنامه دیگر در دستگاه نیست. برای خروج، «تأیید» را فشار دهید."</string>
+    <string name="malicious_item_threat">"Snapdragon Smart Protect شناسایی شد:"</string>
+    <string name="malicious_item_confidence">"سطح اعتماد:"</string>
+    <string name="malicious_item_analysis">"تجزیه و تحلیل"</string>
+    <string name="malicious_recommend">"حذف نصب"</string>
+    <string name="good_threat">"تهدیدی شناسایی نشد."</string>
+    <string name="good_recommend">"«انجام شد» را انتخاب کنید تا Snapdragon Smart Protect بتواند به نظارت این برنامه ادامه دهد."</string>
+    <string name="good_title">"خوب"</string>
+    <string name="trusted_item_title">"Snapdragon Smart Protect فعالیت‌های %1$s را پیمایش نمی‌کند، زیرا در فهرست «برنامه‌های معتمد» شما قرار دارد.\n\n اگر درباره امنیت این برنامه مطمئن نیستید، آن را از فهرست «برنامه‌های معتمد» حذف کنید."</string>
+    <string name="trusted_list_title">"Snapdragon Smart Protect برنامه‌های موجود در این فهرست را پیمایش نمی‌کند."</string>
+    <string name="trusted_list_subtitle">"اگر درباره امنیت این برنامه مطمئن نیستید، آن را از فهرست «برنامه‌های معتمد» حذف کنید."</string>
+    <string name="trusted_list_empty">"برنامه‌ای در فهرست برنامه‌های معتمد شما وجود ندارد."</string>
+    <string name="trusted_list_empty_desc">"با این کار حداکثر محافظت ایجاد می‌شود، چون Snapdragon Smart Protect همه برنامه‌هایتان را نظارت می‌کند."</string>
+    <string name="trusted_confirm_message">"می‌خواهید این برنامه را به فهرست «برنامه‌های معتمد» خود اضافه کنید؟\n\nاگر درباره امنیت این برنامه معتمد نیستید، «لغو» را انتخاب کنید."</string>
+    <string name="malicious_ntf_message">"Snapdragon Smart Protect فعالیت مخربی را در %1$s شناسایی کرد."</string>
+    <string name="malicious_ntf_recommend">"توصیه: لغو نصب"</string>
+    <string name="malicious_dialog_title">"مخرب"</string>
+    <string name="malicious_text">"مخرب"</string>
+    <string name="malware_ntf_message">"Snapdragon Smart Protect بدافزاری را در %1$s شناسایی کرد."</string>
+    <string name="malware_dialog_title">"بدافزار شناسایی شد"</string>
+    <string name="malware_title">"بدافزار"</string>
+    <string name="spyware_ntf_message">"Snapdragon Smart Protect جاسوس‌افزاری را در %1$s شناسایی کرد."</string>
+    <string name="spyware_dialog_title">"جاسوس‌افزار شناسایی شد"</string>
+    <string name="spyware_title">"جاسوس‌افزار"</string>
+    <string name="adware_ntf_message">"Snapdragon Smart Protect، ‏آگهی‌افزاری‏ را در %1$s شناسایی کرد."</string>
+    <string name="adware_dialog_title">"‏آگهی‌افزار شناسایی شد"</string>
+    <string name="adware_title">"آگهی‌افزار"</string>
+<string name="err_no_app_dashborad">"فهرست برنامه داشبورد خالی است"</string>
+    <string name="analysis_title">"%1$s احتمالاً به دلایل زیر مخرب است:"</string>
+    <string name="service_label">"سرویس Sphinx"</string>
+    <string name="unknown_code">" کد - %1$d"</string>
+    <string name="default_code_detail">"برنامه برای انجام فعالیت مخرب در تلاش است."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"ممکن است در دستگاه شما فعالیت مخربی انجام دهد."</item>
+        <item>"بدافزار سطح 1: در ارتباط با دستگاه، برنامه‌ها و محتوای کاربر فعالیت مضری انجام می‌دهد."</item>
+        <item>"بدافزار سطح 2: فعالیتی انجام می‌دهد که ممکن است برای کاربر هزینه در پی داشته باشد."</item>
+        <item>"جاسوس‌افزار سطح 3: فاش کردن/سرقت محتوا و جاسوسی فعال در مورد کاربران."</item>
+        <item>"جاسوس‌افزار سطح 4: فاش کردن/سرقت فوق اطلاعات کاربر."</item>
+        <item>"جاسوس‌افزار سطح 5: فاش کردن/سرقت اطلاعات حساس دستگاه."</item>
+        <item>"نق‌افزار سطح 6: آگهی‌افزار و/یا برنامه تهاجمی."</item>
+    </string-array>
+    <string name="setting_level1_title">"بدافزار سطح 1"</string>
+    <string name="setting_level2_title">"بدافزار سطح 2"</string>
+    <string name="setting_level3_title">"جاسوس‌افزار سطح 3"</string>
+    <string name="setting_level4_title">"جاسوس‌افزار سطح 4"</string>
+    <string name="setting_level5_title">"جاسوس‌افزار سطح 5"</string>
+    <string name="setting_level6_title">"آگهی‌افزار سطح 6"</string>
+    <string name="setting_mode_title">"حالت"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"هشدار بازشو و استاندارد"</item>
+        <item>"هشدار استاندارد"</item>
+        <item>"بدون هشدار"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"حالت عادی"</item>
+        <item>"حالت سکوت"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array></resources>

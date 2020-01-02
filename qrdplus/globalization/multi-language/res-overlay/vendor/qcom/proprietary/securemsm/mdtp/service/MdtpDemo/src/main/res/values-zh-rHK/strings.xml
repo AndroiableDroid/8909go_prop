@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"MDTP 使用者應用程式:主畫面"</string>
+    <string name="config_app">"MDTP 使用者應用程式:設定"</string>
+    <string name="server_app">"MDTP 伺服器:主畫面"</string>
+    <string name="action_settings">"設定"</string>
+    <string name="label_1_1">"MDTP 狀態:"</string>
+    <string name="state_deactivated">"已停用"</string>
+    <string name="state_activated">"已啟動"</string>
+    <string name="configuration">"設定 (僅在啟動之前)"</string>
+    <string name="service_activate">"從 MDTP 服務要求 MDTP 啟動"</string>
+    <string name="service_deactivate">"從 MDTP 服務要求 MDTP 停用"</string>
+    <string name="local_deactivate">"本地 MDTP 停用 (使用 PIN)"</string>
+    <string name="service_console">"MDTP 服務主控台"</string>
+    <string name="title_activity_configuration">"使用者設定"</string>
+    <string name="label_2_1">"使用本地 PIN:"</string>
+    <string name="label_2_2">"PIN 碼："</string>
+    <string name="gen_rand_pin">"產生隨機 PIN"</string>
+    <string name="label_2_3">"驗證比率:"</string>
+    <string name="label_2_5">"啟用 SIM 鎖:"</string>
+    <string name="label_2_6">"要驗證的其他檔案/目錄:"</string>
+    <string name="reset">"重設為預設值"</string>
+    <string name="label_3_1">"將命令從伺服器發送至裝置:"</string>
+    <string name="activate">"啟用"</string>
+    <string name="deactivate">"撤銷"</string>
+    <string name="locksim">"鎖定 SIM"</string>
+    <string name="unlocksim">"解鎖 SIM"</string>
+    <string name="killfunc">"強制終止功能"</string>
+    <string name="restorefunc">"還原功能"</string>
+    <string name="label_3_2">"要求 MDTP 停用:"</string>
+    <string name="notallowed">"不允許"</string>
+    <string name="allowed">"允許"</string>
+    <string name="label_3_3">"要求設定精靈解除封鎖:"</string>
+    <string name="label_3_4">"服務記錄:"</string>
+    <string name="wizard_app_loading_title">"MDTP 設定精靈:正在初始化..."</string>
+    <string name="label_4_1">"設定精靈已封鎖，因為 MDTP 狀態為已啟動"</string>
+    <string name="label_4_2">"選項 A:讓 MDTP 保持啟動，但要求伺服器驗證"</string>
+    <string name="wiz_unblock">"從 MDTP 服務要求設定精靈解除封鎖"</string>
+    <string name="wiz_cont">"繼續 (由伺服器授權)"</string>
+    <string name="label_4_3">"選項 B:停用 MDTP (將移除設定精靈封鎖)"</string>
+    <string name="wiz_remote">"要求遠端 MDTP 停用"</string>
+    <string name="wiz_local">"本地 MDTP 停用"</string>
+    <string name="label_4_4">"設定精靈可以繼續，因為 MDTP 狀態為未啟動"</string>
+    <string name="wiz_complete">"完成設定精靈 (MDTP 狀態為未啟動)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"設定精靈"</string>
+    <string name="label_signup_message">"MDTP 目前未啟動。\n您要啟動它嗎?"</string>
+    <string name="label_signup_message_activated">"MDTP 已成功啟動!"</string>
+    <string name="skip_activation">"略過啟動"</string>
+    <string name="emergency_dialer">"緊急撥號"</string>
+    <string name="wiz_title_sign_up">"MDTP 設定精靈 - 登入"</string>
+    <string name="wiz_title_reset_prot">"MDTP 設定精靈 - 原廠重設保護"</string>
+    <string name="wiz_title_boot_block">"MDTP 設定精靈 - 裝置已封鎖"</string>
+    <string name="block_boot_warning_text">"由於內部錯誤，MDTP 已封鎖此裝置。\n\n請重新啟動裝置。"</string>
+    <string name="start_wifi_wizard">"設定 WiFi"</string>
+    <string name="default_pin_hint">"預設 PIN 為 11111"</string>
+    <string name="pin_dialog_title">"需要 MDTP 本地停用 PIN"</string>
+    <string name="pin_input_validation_warning">"輸入必須為 5 個數字"</string></resources>

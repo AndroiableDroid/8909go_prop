@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Setări iluminat fundal adaptiv în funcţie de conţinut"</string>
+        <add-resource type="string" name="cabl_settings_title"/>
+    <string name="cabl_settings_title">"Setări iluminat fundal adaptiv în funcţie de conţinut"</string>
+        <add-resource type="string" name="cabl_enable_title"/>
+    <string name="cabl_enable_title">"Activare iluminat fundal adaptiv în funcţie de conţinut"</string>
+        <add-resource type="string" name="cabl_enable_summary_on"/>
+    <string name="cabl_enable_summary_on">"Iluminatul de fundal se va reajusta în funcţie de conţinutul ecranului"</string>
+        <add-resource type="string" name="cabl_enable_summary_off"/>
+    <string name="cabl_enable_summary_off">"Iluminatul de fundal nu se va reajusta în funcţie de conţinutul ecranului"</string>
+        <add-resource type="string" name="cabl_levels_title"/>
+    <string name="cabl_levels_title">"Nivel calitate vizuală"</string>
+        <add-resource type="string" name="cabl_levels_summary"/>
+    <string name="cabl_levels_summary">"Un nivel de calitate mai mic indică faptul că CABL va încerca să economisească cât mai multă energie fără a afecta semnificativ conţinutul afişat. Nivelul de calitate vizuală automat înseamnă că CABL va încerca să economisească cât mai multă energie în funcţie de detectarea automată a tipului de conţinut care este afişat."</string>
+        <add-resource type="string" name="cabl_level_default"/>
+    <string name="cabl_level_default">"Automat"</string>
+        <add-resource type="string" name="cabl_info_default"/>
+    <string name="cabl_info_default">"Necunoscut"</string>
+        <add-resource type="string" name="cabl_version_title"/>
+    <string name="cabl_version_title">"Versiune CABL"</string></resources>

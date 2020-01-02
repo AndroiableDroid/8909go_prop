@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK ডেমো"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"বর্ধিত অফস্ক্রিন"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"পটভূমি সাইড-চ্যানেল"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"আঙুল বনাম স্টাইলাস + চাপ"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"অক্ষ হেলা"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"হোভারিং ও পাশের-বোতাম"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"ইরেজার ও ইরেজার বাইপাস"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"এই ডেমোটি অফ-স্ক্রিন বৈশিষ্ট্য প্রদর্শন করে।\n\n1. অফ-স্ক্রিনে আঁকুন এবং ডানদিকে আপনার অঙ্কন দেখুন।\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. ভার্চুয়াল স্ক্রিনের নিচের দিকে ডান কোণে একটি বোতাম আছে। বৃত্তের অস্বচ্ছতা পরিবর্তন করতে সেটির উপর বিভিন্ন উচ্চতায় হোভার করুন।\n\n3. বৃত্তের রঙ পরিবর্তন করতে সেটি টিপুন।"</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"এই ডেমোটি প্রদর্শন করে, স্ক্রিন চালু বা বন্ধ থাকাকালীন পটভূমি সাইড চ্যানেল কীভাবে কাজ করে।\n\n1. অফ-স্ক্রিনে আঁকুন এবং আপনার অঙ্কনটি দেখুন।\n\n2. তারপর অন্য একটি অ্যাপে পাল্টান অথবা স্ক্রিনটি বন্ধ করুন - আপনার অঙ্কন তাসত্ত্বেও রেকর্ড করা হবে।"</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"অন-স্ক্রিন হোভার"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. স্ক্রিনের উপর বিভিন্ন উচ্চতায় হোভার করুন।\n\n2. হোভারিং অক্ষম করতে স্যুইচ ব্যবহার করুন।\n\n3. হোভারিং ঘটনার সর্বাধিক দূরত্ব সেট করতে স্লাইডারটি ব্যবহার করুন।\n\n4. পাশের-বোতামগুলি টেপা হলে হোভার বৃত্তের রঙ পরিবর্তিত হবে।"</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. অনুগ্রহ করে SDP বোতামটিকে ইরেজার বোতামরূপে গ্লোবাল সেটিংসে কনফিগার করুন।\n\n2. আঁকুন।\n\n3. ইরেজারটিকে টগল করতে ট্যাপ করুন-এ সেট করুন। ইরেজার বোতামটি টিপুন। মুছুন। ইরেজার বোতামটি আবার টেপা হলে, পেন মোডে পাল্টায়।\n\n4. ইরেজারটিকে মুছতে ধরে থাকুন-এ সেট করুন। এবার আপনি অবিলম্বে স্পর্শ করেই মুছতে পারবেন।\n\n5. এবার ইরেজারের কার্যকারিতা অক্ষম করতে ইরেজার বাইপাস স্যুইচটি ব্যবহার করুন।"</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"ইরেজার বাইপাস"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"ক্যানভাস মুছুন"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"পেনের সাহায্যে আঁকুন, তারপর আপনার আঙুলের সাহায্যে।\nদুটি পদ্ধতিকে ভিন্ন রঙের মাধ্যমে শনাক্ত করা হয়।\nস্ট্রোকের প্রস্থকে চাপের মাধ্যমে সেট করা হয়, যা সংখ্যাগতভাবে দৃশ্যমানও হয়।"</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"চাপ"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

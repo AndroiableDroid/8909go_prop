@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Ukážky SDP SDK"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Predĺžené mimo obrazovky"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Bočný kanál na pozadí"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Prst vs Dotykové pero + tlak"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Naklonenie osi"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Ukázanie a bočné tlačidlo"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Vymazávač a nahradenie vymazávača"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"Táto ukážka demonštruje funkciu mimo obrazovky.\n\n1. Presuňte objekt mimo obrazovky a zobrazí sa napravo.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. V spodnom pravom rohu virtuálnej obrazovky nájdete tlačidlo. Ukážte na neho v rôznej výške, čím sa zmení priehľadnosť kruhu.\n\n3. Stlačením zmeníte farbu kruhu."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"Táto ukážka ukazuje spôsob, ako môže pracovať bočný kanál na pozadí pri zapnutej aj vypnutej obrazovke.\n\n1. Kreslite mimo obrazovky a pozrite sa na svoju kresbu.\n\n2. Po prepnutí na inú aplikáciu alebo vypnutí obrazovky sa vaše kresby aj napriek tomu zaznamenajú."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Ukázanie na obrazovke"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Ukazujte na obrazovku z rôznej výšky.\n\n2. Ukázanie vypnete pomocou spínača.\n\n3. Pomocou bežca nastavte maximálnu vzdialenosť pre udalosti ukazovania.\n\n4. Stlačením bočných tlačidiel zmeníte farbu kruhu ukazovania."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. V globálnych nastaveniach nastavte tlačidlo SDB ako tlačidlo vymazávača.\n\n2. Draw.\n\n3. Vymazávač nastavte na zapnutie klepnutím. Stlačte tlačidlo vymazávača. Vykonajte vymazanie. Opätovným stlačením tlačidla vymazávača aktivujete režim pera.\n\n4. Nastavte vymazávač, aby vymazával po podržaní. Teraz môžete vymazávať okamžitým dotykom.\n\n5. Teraz môžete použiť spínač obchádzania vymazávača, čím sa vypne funkčnosť vymazávača."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Obchádzanie vymazávača"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Vymazať plátno"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Kreslite perom a následne aj prstom.\nDva spôsoby budú rozlíšené pomocou inej farby.\nIch šírku určuje tlak, ktorý možno tiež zobraziť číselne."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Tlak"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

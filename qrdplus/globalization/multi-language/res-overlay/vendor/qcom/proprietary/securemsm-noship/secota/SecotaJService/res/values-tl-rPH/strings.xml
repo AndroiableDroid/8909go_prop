@@ -1,0 +1,113 @@
+<resources>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+    <string name="app_name">"SeempJService"</string>
+    <string-array name="cause_description_array">
+<item>"6:3:Pagsilip sa mga ipinasok ng user / interaksiyon habang ang app ay hindi nakikita ng user o kapag tumatakbo sa background ang app"</item>
+    <item>"7:5:mapanghinalang paggamit ng android UID "</item>
+    <item>"8:5:mapanghinalang paggamit ng android UID habang tumatakbo sa background ang app"</item>
+    <item>"9:5:Mapanghinalang access ng sensitibong impormasyon ng aparato"</item>
+    <item>"10:5:Mapanghinalang access ng sensitibong impormasyon ng aparato habang tumatakbo ang app sa background"</item>
+    <item>"11:4:Mapanghinalang access ng numero ng telepono"</item>
+    <item>"12:4:Pag-access ng numero ng telepono habang hindi nakikipag-ugnayan ang app sa user"</item>
+    <item>"13:2:sinusubukan ng app gumawa ng hindi awtorisadong tawag sa telepono"</item>
+    <item>"14:2:sinusubukan ng app gumawa ng hindi awtorisadong tawag sa telepono habang tumatakbo sa background ang app"</item>
+    <item>"15:4:Hindi normal na access sa sensitibong impormasyon sa account ng user"</item>
+    <item>"16:4:Hindi normal na access sa sensitibong impormasyon sa account ng user habang hindi nakikipag-ugnayan ang app sa user"</item>
+    <item>"17:4:Pag-access ng application sa sensitibong impormasyon ng account ng user nang hindi inaabisuhan ang user"</item>
+    <item>"18:4:Pag-access ng application sa sensitibong impormasyon ng account ng user nang hindi inaabisuhan ang user habang nsasa background"</item>
+    <item>"19:3:Mapanghinalang access ng sensitibong impormasyon ng browser"</item>
+    <item>"20:3:Mapanghinalang access ng sensitibong impormasyon ng browser habang tumatakbo ang app sa background"</item>
+    <item>"21:3:pag-access ng sensitibong impormasyon ng browser (maaaring kasama ang sensitibong impormasyon ng user) habang hindi nakikipag-ugnayan ang app sa user"</item>
+    <item>"22:3:pag-access sa sensitibong impormasyon ng browser (maaaring kasama ang sensitibong impormasyon ng user) habang hindi nakikipag-ugnayan ang app sa user at tumatakbo sa background"</item>
+    <item>"23:6:hindi normal/sobrang pag-install ng shortcut"</item>
+    <item>"24:6:sinusubukan ng application na mag-install ng shortcut habang tumatakbo sa background"</item>
+    <item>"25:6:sinusubukan ng application na mag-install ng shortcut nang walang interaksiyon sa user"</item>
+    <item>"26:6:sinusubukan ng application na mag-install ng shortcut nang walang interaksiyon sa user habang tumatakbo sa background"</item>
+    <item>"27:4:Pag-access ng sensitibong impormasyon sa kalendaryo"</item>
+    <item>"28:4:Pag-access ng sensitibong impormasyon ng kalendaryo habang tumatakbo ang app sa background"</item>
+    <item>"29:1:Pagpasok ng impormasyon/mga kaganapan sa kalendaryo nang walang interaksiyon sa user"</item>
+    <item>"30:1:Pagpasok ng impormasyon/mga kaganapan sa kalendaryo nang walang interaksiyon habang tumatakbo ag app sa background"</item>
+    <item>"31:5:Hindi normal / Sobrang access sa impormasyon sa lokasyon"</item>
+    <item>"32:5:Hindi normal / Sobrang access sa impormasyon sa lokasyon habang tumatakbo ang app sa background"</item>
+    <item>"37:3:Mapanghinalang paggamit ng camera (maaaring kasama ang pagkuha ng mga litrato at mga video)"</item>
+    <item>"38:3:Mapanghinalang paggamit ng camera (maaaring kasama ang pagkuha ng mga litrato at mga video) habang tumatakbo ang app sa background"</item>
+    <item>"39:3:Pagkuha ng mga litrato (maaaring kasama ang mga video) at pagkokomunika sa kanila sa remote server"</item>
+    <item>"40:3:Pagkuha ng mga litrato (maaaring kasama ang mga video) at pagkokomunika sa kanila sa remote server habang tumatakbo ang app sa background"</item>
+    <item>"41:3:Pagkuha ng mga litrato (maaaring kasama ang mga video) ng walang interaksiyon sa user"</item>
+    <item>"42:3:Pagkuha ng mga litrato (maaaring kasama ang mga video) ng walang interaksiyon sa user at habang tumatakbo ang app sa background"</item>
+    <item>"43:3:Pagkuha ng mga litrato (maaaring kasama ang mga video) at pagkokomunika sa kanila sa remote server ng walang interaksiyon sa user "</item>
+    <item>"44:3:Pagkuha ng mga litrato (maaaring kasama ang mga video) at pagkokomunika sa kanila sa remote server ng walang interaksiyon sa user at habang tumatakbo ang app sa background"</item>
+    <item>"45:3:Mapanghinalang paggamit ng video camera (maaaring kasama ang pagkuha ng mga litrato at mga video)"</item>
+    <item>"46:3:Mapanghinalang paggamit ng video camera (maaaring kasama ang pagkuha ng mga litrato at mga video) habang tumatakbo ang app sa background"</item>
+    <item>"47:3:Pagkuha ng mga video at pagkokomunika sa kanila sa remote server"</item>
+    <item>"48:3:Pagkuha ng mga video at pagkokomunika sa kanila sa remote server habang tumatakbo ang app sa background"</item>
+    <item>"49:3:Pagkuha ng mga litrato ng walang interaksiyon sa user"</item>
+    <item>"50:3:Pagkuha ng mga video ng walang interaksiyon sa user at habang tumatakbo ang app sa background"</item>
+    <item>"51:3:Pagkuha ng mga video at pagkokomunika sa kanila sa remote server ng walang interaksiyon sa user"</item>
+    <item>"52:3:Pagkuha ng mga video at pagkokomunika sa kanila sa remote server ng walang interaksiyon sa user at habang tumatakbo ang app sa background"</item>
+    <item>"53:3:Mapanghinalang pag-record ng datos ng mikropono"</item>
+    <item>"54:3:Mapanghinalang pag-record ng datos ng mikropono habang tumatakbo sa background ang app"</item>
+    <item>"55:3:Mapanghinalang pag-record ng datos ng mikropono at komunikasyon sa remote server"</item>
+    <item>"56:3:Pag-record ng datos ng mikropono at komunikasyon sa remote server habang tumatakbo ang app sa background"</item>
+    <item>"57:3:Mapanghinalang pag-record ng datos ng mikropono habang hindi nakikipag-ugnayan ang user sa app"</item>
+    <item>"58:3:pag-record ng datos ng mikropono habang hindi nakikipag-ugnayan ang user sa app at tumatakbo ang app sa background"</item>
+    <item>"59:3:Mapanghinalang pag-record at pagkomunika ng datos ng mikropono habang hindi nakikipag-ugnayan ang app sa user"</item>
+    <item>"60:3:pag-record at pagkomunika ng datos ng mikropono habang hindi nakikipag-ugnayan ang app sa user at tumatakbo sa background"</item>
+    <item>"61:2:Mapanghinalang aktibidad ng SMS: Sinusubukang magpadala ng SMS (potensiyal na mamahalin sa mga premium na numero)"</item>
+    <item>"62:2:Sinusubukan ng application na magpadala ng SMS habang tumatakbo sa background (potensiyal na mamahalin sa mga premium na numero)"</item>
+    <item>"63:2:Mapanghinalang aktibidad ng SMS: Nagpapadala ang application ng SMS (potensiyal na mamahalin sa mga premium na numero) nang walang interaksiyon sa user"</item>
+    <item>"64:2:Nagpapadala ang application ng SMS (potensiyal na mamahalin sa mga premium na numero) nang walang interaksiyon sa user at habang ang app ay tumatakbo sa background"</item>
+    <item>"65:3:Mapanghinalang access sa SMS (kasama ang pagbukas at pagbabasa)"</item>
+    <item>"66:3:Pag-access at pagbabasa ng SMS habang tumatakbo ang app sa background"</item>
+    <item>"67:3:Pag-access at pagbabasa ng SMS ng walang anumang interaksiyon sa user"</item>
+    <item>"68:3:Pag-access at pagbabasa ng SMS ng walang anumang interaksiyong sa user habang tumatakbo ang app sa background"</item>
+    <item>"69:3:sobra/hindi normal na access sa impormasyon ng sensor"</item>
+    <item>"70:3:sobra/hindi normal na access sa impormasyon ng sensor habang tumatakbo ang app sa background"</item>
+    <item>"71:3:Mapanghinalang intersepsiyon sa mga mensaheng MMS"</item>
+    <item>"72:3:Mapanghinalang intersepsiyon sa mga mensaheng MMS habang tumatakbo sa background ang app"</item>
+    <item>"73:3:Mapanghinalang intersepsiyon sa mga mensaheng MMS nang walang interaksiyon sa user"</item>
+    <item>"74:3:Mapanghinalang intersepsiyon sa mga mensaheng MMS ng walang interaksiyon sa user habang tumatakbo ang app sa background"</item>
+    <item>"75:4:Hindi normal na access sa isa o higit pang impormasyon sa kontak"</item>
+    <item>"76:4:Hindi normal na access sa isa o higit pang impormasyon sa kontak habang tumatakbo ang app sa background"</item>
+    <item>"77:4:Pag-access ng isa o higit pang listahan ng kontak habang hindi nakikipag-ugnayan ang app sa user"</item>
+    <item>"78:4:Pag-access ng isa o higit pang listahan ng kontak habang hindi nakikipag-ugnayan ang app sa user at habang tumatakbo sa background"</item>
+    <item>"79:1:Mapanghinalang pag-install ng 3rd party application"</item>
+    <item>"80:1:Mapanghinalang pag-install ng 3rd party application habang tumatakbo sa background ang app"</item>
+    <item>"81:1:Mapanghinalang pag-install ng 3rd party application habang hindi nakikipag-ugnayan ang app sa user"</item>
+    <item>"82:1:Mapanghinalang pag-install ng 3rd party application habang hindi nakikipag-ugnayan ang app sa user at tumatakbo sa background"</item>
+    <item>"83:5:sobra/hindi normal na komunikasyon ng android UID"</item>
+    <item>"84:5:sobra/hindi normal na komunikasyon ng android UID habang tumatakbo sa background ang app"</item>
+    <item>"85:5:Pag-access at pagkomunika ng sensitibong impormasyon ng aparato (maaaring kasama ang IMEI, SIM serial number, at ibang impormasyong kaugnay ng carrier)"</item>
+    <item>"86:5:Pag-access at pagkomunika ng sensitibong impormasyon ng aparato (maaaring kasama ang IMEI, SIM serial number, at ibang impormasyong kaugnay ng carrier) habang ang app ay tumatakbo sa background"</item>
+    <item>"87:4:Pag-access at pagkomunika ng numero ng telepono ng user sa remote server"</item>
+    <item>"88:4:Pag-access at pagkomunika ng numero ng telepono ng user sa remote server habang tumatakbo ang app sa background"</item>
+    <item>"89:4:Hindi normal na komunikasyon ng sensitibong impormasyon ng account ng user / mga kredensiyal (maaaring kasama ang credit card o ibang pinansiyal na impormasyon)"</item>
+    <item>"90:4:Hindi normal na komunikasyon ng sensitibong impormasyon ng account ng user / mga kredensiyal (maaaring kasama ang credit card o ibang pinansiyal na impormasyon) habang tumatakbo ang app sa background"</item>
+    <item>"91:3:pag-access at pagkomunika ng sensitibong nilalaman ng browser (maaaring kasama ang sensitibong impormasyon ng user)"</item>
+    <item>"92:3:pag-access at pagkomunika ng sensitibong nilalaman ng browser (maaaring kasama ang sensitibong impormasyon ng user) habang tumatakbo ang app sa background"</item>
+    <item>"93:3:pag-access at pagkomunika ng sensitibong nilalaman ng browser (maaaring kasama ang sensitibong impormasyon ng user)"</item>
+    <item>"94:3:pag-access at pagkomunika ng sensitibong nilalaman ng browser (maaaring kasama ang sensitibong impormasyon ng user) habang tumatakbo ang app sa background"</item>
+    <item>"95:4:Pagkomunika ng impormasyon ng kalendaryo sa remote server (maaaring kasama ang sensitibong impormasyon ng user)"</item>
+    <item>"96:4:Pagkomunika ng impormasyon ng kalendaryo sa remote server (maaaring kasama ang sensitibong impormasyon ng user) habang tumatakbo ang app sa background"</item>
+    <item>"97:5:Hindi normal / Sobrang access at komunikasyon ng impormasyon sa lokasyon"</item>
+    <item>"98:5:Hindi normal / Sobrang access at komunikasyon ng impormasyon sa lokasyon habang tumatakbo ang app sa background"</item>
+    <item>"99:5:Hindi normal / Sobrang access at komunikasyon ng impormasyon sa lokasyon"</item>
+    <item>"100:5:Hindi normal / Sobrang access at komunikasyon ng impormasyon sa lokasyon habang tumatakbo ang app sa background"</item>
+    <item>"101:3:Sobra/Hindi normal na komunikasyon ng impormasyon ng sensor"</item>
+    <item>"102:3:Sobra/Hindi normal na komunikasyon ng impormasyon ng sensor habang tumatakbo sa background ang app"</item>
+    <item>"103:4:Pag-access sa isa o higit pang listahan ng kontak at pagkomunika nito sa remote server"</item>
+    <item>"104:4:Pag-access sa isa o higit pang listahan ng kontak at pagkomunika nito sa remote server habang tumatakbo ang app sa background"</item>
+    <item>"105:4:Pag-access sa isa o higit pang listahan ng kontak at pagkomunika nito sa remote server ng walang interaksiyon sa user"</item>
+    <item>"106:4:Pag-access sa isa o higit pang listahan ng kontak at pagkomunika nito sa remote server nang walang interaksiyon sa user at habang tumatakbo ang app sa background"</item>
+    <item>"109:3:sobra/hindi normal na access sa impormasyon ng sensor"</item>
+    <item>"110:3:sobra/hindi normal na access sa impormasyon ng sensor habang tumatakbo ang app sa background"</item>
+    <item>"121:5:Mapanghinalang access sa mga setting na kaugnay ng ID ng aparato"</item>
+    <item>"122:5:Mapanghinalang access sa mga setting na kaugnay ng ID ng aparato habang tumatakbo ang app sa background"</item>
+    <item>"162:3:Mapanghinalang pagbabago sa mga setting ng airplane mode habang tumatakbo ang app sa background"</item>
+    <item>"164:3:Mapanghinalang pagbabago sa mga setting ng alarm habang tumatakbo ang app sa background"</item>
+    <item>"202:3:Mapanghinalang pagbabago ng katayuan ng WiFi habang tumatakbo sa background ang app"</item>
+    </string-array></resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Testeador de SDP SDK"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Testeador del lápiz digital Snpadragon"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Configuración"</string>
+    <add-resource type="string" name="off_screen_mode_header"/>
+    <string name="off_screen_mode_header">"Modo fuera de la pantalla"</string>
+    <add-resource type="string" name="offscreen_mode_choice_duplicate"/>
+    <string name="offscreen_mode_choice_duplicate">"Duplicado"</string>
+    <add-resource type="string" name="offscreen_mode_choice_extend"/>
+    <string name="offscreen_mode_choice_extend">"Extender"</string>
+    <add-resource type="string" name="offscreen_mode_choice_disable"/>
+    <string name="offscreen_mode_choice_disable">"Desactivar"</string>
+    <add-resource type="string" name="apply_configuration_button_text"/>
+    <string name="apply_configuration_button_text">"Aplicar configuración"</string>
+    <add-resource type="string" name="configuration_items_header"/>
+    <string name="configuration_items_header">"Elementos de configuración"</string>
+    <add-resource type="string" name="header_side_channel_listeners"/>
+    <string name="header_side_channel_listeners">"Agentes de escucha de canal lateral"</string>
+    <add-resource type="string" name="label_on_screen_side_channel"/>
+    <string name="label_on_screen_side_channel">"En pantalla: "</string>
+    <add-resource type="string" name="label_off_screen_side_channel"/>
+    <string name="label_off_screen_side_channel">"Fuera de la pantalla: "</string>
+    <add-resource type="string" name="label_all_side_channel"/>
+    <string name="label_all_side_channel">"Todos: "</string>
+    <add-resource type="string" name="checkbox_text_off_screen_side_channel_enable"/>
+    <string name="checkbox_text_off_screen_side_channel_enable">"Activar datos de canal lateral fuera de la pantalla"</string>
+    <add-resource type="string" name="placeholder"/>
+    <string name="placeholder">"&lt;placeholder for dynamic text&gt;"</string>
+    <add-resource type="string" name="side_channel_off"/>
+    <string name="side_channel_off">"Desactivada"</string>
+    <add-resource type="string" name="side_channel_scaled"/>
+    <string name="side_channel_scaled">"Ajustado"</string>
+    <add-resource type="string" name="side_channel_raw"/>
+    <string name="side_channel_raw">"Raw"</string>
+    <!-- Hover -->
+    <add-resource type="string" name="label_on_screen_hover"/>
+    <string name="label_on_screen_hover">"Flotación en pantalla:"</string>
+    <add-resource type="string" name="label_off_screen_hover"/>
+    <string name="label_off_screen_hover">"Flotación fuera de la pantalla:"</string>
+    <add-resource type="string" name="hover_choice_off"/>
+    <string name="hover_choice_off">"Desactivada"</string>
+    <add-resource type="string" name="hover_choice_enable"/>
+    <string name="hover_choice_enable">"Activar"</string>
+    <add-resource type="string" name="hover_choice_enable_custom"/>
+    <string name="hover_choice_enable_custom">"Personalización activada "</string>
+    <!-- Eraser -->
+    <add-resource type="string" name="label_eraser_bypass"/>
+    <string name="label_eraser_bypass">"Omisión del borrador:"</string>
+    <add-resource type="string" name="label_eraser_bypass_off"/>
+    <string name="label_eraser_bypass_off">"Desactivada"</string>
+    <add-resource type="string" name="label_eraser_bypass_enable"/>
+    <string name="label_eraser_bypass_enable">"Activar"</string>
+    <!-- Motion event -->
+    <add-resource type="string" name="label_motion_event_info"/>
+    <string name="label_motion_event_info">"Evento de movimiento:"</string>
+    <add-resource type="string" name="placeholder_motion"/>
+    <string name="placeholder_motion">"&lt;placeholder for motion event dynamic text&gt;"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"Tipo de entrada"</string>
+    <add-resource type="string" name="input_type_choice_stylus"/>
+    <string name="input_type_choice_stylus">"Lápiz"</string>
+    <add-resource type="string" name="input_type_choice_mouse"/>
+    <string name="input_type_choice_mouse">"Ratón"</string>
+    <add-resource type="string" name="input_type_choice_joystick"/>
+    <string name="input_type_choice_joystick">"Joystick"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"Sensibilidad del mouse:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"Lento"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"Media"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"Rápido"</string></resources>

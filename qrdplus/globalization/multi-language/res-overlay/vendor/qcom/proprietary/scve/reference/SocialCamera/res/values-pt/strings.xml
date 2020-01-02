@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Câmera Social"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"Encontramos um erro ao verificar ou solicitar permissões. Verifique o logcat para obter mais detalhes."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Enviar (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"A conexão com a câmera foi perdida"</string>
+    <string name="camera_preview_error_camera_error">"Erro da câmera: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Falha ao tirar uma foto"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Encontramos um erro ao salvar a imagem na sua galeria"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Configurações"</string>
+    <string name="camera_settings_category_camera_settings">"Configurações da câmera"</string>
+    <string name="camera_settings_category_fr_settings">"Configurações do reconhecimento de rostos"</string>
+    <string name="camera_settings_category_debug_settings">"Configurações de depuração"</string>
+    <string name="camera_settings_fr_database_cleared">"Banco de dados do reconhecimento de rostos limpo"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Dispensar"</string>
+    <string name="picture_review_send_faces">"Enviar (%d)"</string>
+    <string name="picture_review_no_faces">"Ninguém foi encontrado nesta foto"</string>
+    <string name="picture_review_error_face_recognition">"Encontramos um erro ao reconhecer rostos"</string>
+    <string name="picture_review_error_face_enroll">"Desculpe, encontramos um erro ao salvar este rosto. Tire outra foto do sujeito e tente novamente."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Outro Contato\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Compartilhar configurações"</string>
+    <string name="fr_share_settings_button_just_once">"Apenas Um"</string>
+    <string name="fr_share_settings_button_always">"Sempre"</string>
+    <string name="fr_share_settings_share_method_sms">"Mensagem"</string>
+    <string name="fr_share_settings_share_method_email">"E-mail"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Verifique!"</string>
+    <string name="social_sharing_error_no_email_app">"Você não tem um app que pode enviar e-mails"</string></resources>

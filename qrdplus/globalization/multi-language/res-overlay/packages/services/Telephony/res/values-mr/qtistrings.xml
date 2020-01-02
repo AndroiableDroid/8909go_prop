@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+  ~ Copyright (c) 2015, The Linux Foundation. All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are
+  ~ met:
+  ~      Redistributions of source code must retain the above copyright
+  ~       notice, this list of conditions and the following disclaimer.
+  ~      Redistributions in binary form must reproduce the above
+  ~       copyright notice, this list of conditions and the following
+  ~       disclaimer in the documentation and/or other materials provided
+  ~       with the distribution.
+  ~      Neither the name of The Linux Foundation nor the names of its
+  ~       contributors may be used to endorse or promote products derived
+  ~       from this software without specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+  ~ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  ~ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+  ~ ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+  ~ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  ~ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  ~ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+  ~ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+  ~ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  ~ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  ~
+  -->
+<!-- The xml contains Qti specific resource strings neede for any value added features. -->
+<resources>
+    <!-- IMS settings related strings -->
+    <!-- Title displayed IMS account settings in the sip settings category. [CHAR LIMIT=NONE] -->
+    <string name="ims_settings">"IMS सेटिंग्स"</string>
+    <!-- Label text for PIN entry widget on SIM Network Subset Depersonalization panel -->
+    <string name="label_nsdp">"SIM नेटवर्क सबसेट अनलॉक PIN"</string>
+    <!-- Label text for PIN entry widget on SIM Corporate Depersonalization panel -->
+    <string name="label_cdp">"SIM कॉर्पोरेट अनलॉक PIN"</string>
+    <!-- Label text for PIN entry widget on SIM Service Provider Depersonalization panel -->
+    <string name="label_spdp">"SIM सेवा प्रदाता अनलॉक PIN"</string>
+    <!-- Label text for PIN entry widget on SIM SIM Depersonalization panel -->
+    <string name="label_sdp">"SIM अनलॉक PIN"</string>
+    <!-- Label text for PIN entry widget on RUIM Network1 Depersonalization panel -->
+    <string name="label_rn1dp">"RUIM नेटवर्क1 अनलॉक PIN"</string>
+    <!-- Label text for PIN entry widget on RUIM Network2 Depersonalization panel -->
+    <string name="label_rn2dp">"RUIM नेटवर्क2 अनलॉक PIN"</string>
+    <!-- Label text for PIN entry widget on RUIM Hrpd Depersonalization panel -->
+    <string name="label_rhrpd">"RUIM hrpd अनलॉक PIN"</string>
+    <!-- Label text for PIN entry widget on RUIM Corporate Depersonalization panel -->
+    <string name="label_rcdp">"RUIM कॉर्पोरेट अनलॉक PIN"</string>
+    <!-- Label text for PIN entry widget on RUIM Service Provider Depersonalization panel -->
+    <string name="label_rspdp">"RUIM सेवा प्रदाता अनलॉक PIN"</string>
+    <!-- Label text for PIN entry widget on RUIM RUIM Depersonalization panel -->
+    <string name="label_rdp">"RUIM अनलॉक PIN"</string>
+    <!-- Label text for PUK entry widget on Depersonalization panel -->
+    <string name="label_puk">"PUK प्रविष्ट करा"</string>
+    <!-- Status message displayed on SIM Network Subset Depersonalization panel -->
+    <string name="requesting_nw_subset_unlock">"SIM नेटवर्क सबसेट अनलॉकची विनंती करत आहे\u2026"</string>
+    <!-- Status message displayed on SIM Service Provider Depersonalization panel -->
+    <string name="requesting_sp_unlock">"SIM सेवा प्रदाता अनलॉकची विनंती करत आहे\u2026"</string>
+    <!-- Status message displayed on SIM Corporate Depersonalization panel -->
+    <string name="requesting_corporate_unlock">"SIM कॉर्पोरेट अनलॉकची विनंती करत आहे\u2026"</string>
+    <!-- Status message displayed on SIM SIM Depersonalization panel -->
+    <string name="requesting_sim_unlock">"SIM अनलॉकची विनंती करत आहे\u2026"</string>
+    <!-- Status message displayed on RUIM Network1 Depersonalization panel -->
+    <string name="requesting_rnw1_unlock">"RUIM नेटवर्क1 अनलॉकची विनंती करत आहे\u2026"</string>
+    <!-- Status message displayed on RUIM Network2 Depersonalization panel -->
+    <string name="requesting_rnw2_unlock">"RUIM नेटवर्क2 अनलॉकची विनंती करत आहे\u2026"</string>
+    <!-- Status message displayed on RUIM Hrpd Depersonalization panel -->
+    <string name="requesting_rhrpd_unlock">"RUIM hrpd अनलॉकची विनंती करत आहे\u2026"</string>
+    <!-- Status message displayed on RUIM Service Provider Depersonalization panel -->
+    <string name="requesting_rsp_unlock">"RUIM सेवा प्रदाता अनलॉकची विनंती करत आहे\u2026"</string>
+    <!-- Status message displayed on RUIM Corporate Depersonalization panel -->
+    <string name="requesting_rc_unlock">"RUIM कॉर्पोरेट अनलॉकची विनंती करत आहे\u2026"</string>
+    <!-- Status message displayed on RUIM RUIM Depersonalization panel -->
+    <string name="requesting_ruim_unlock">"RUIM अनलॉकची विनंती करत आहे\u2026"</string>
+    <!-- Status message displayed on PUK Depersonalization panel -->
+    <string name="requesting_puk_unlock">"PUK अनलॉकची विनंती करीत आहे\u2026"</string>
+    <!-- Error message displayed on SIM Network Subset Depersonalization panel -->
+    <string name="nw_subset_unlock_failed">"SIM नेटवर्क सबसेट अनलॉक विनंती अयशस्वी."</string>
+    <!-- Error message displayed on SIM Service Provider Depersonalization panel -->
+    <string name="sp_unlock_failed">"SIM सेवा प्रदाता अनलॉक विनंती अयशस्वी."</string>
+    <!-- Error message displayed on SIM Corporate Depersonalization panel -->
+    <string name="corporate_unlock_failed">"SIM कॉर्पोरेट अनलॉक विनंती अयशस्वी."</string>
+    <!-- Error message displayed on SIM SIM Depersonalization panel -->
+    <string name="sim_unlock_failed">"SIM अनलॉक विनंती अयशस्वी."</string>
+    <!-- Error message displayed on RUIM Network1 Depersonalization panel -->
+    <string name="rnw1_unlock_failed">"RUIM नेटवर्क1 अनलॉक विनंती अयशस्वी."</string>
+    <!-- Error message displayed on RUIM Network2 Depersonalization panel -->
+    <string name="rnw2_unlock_failed">"RUIM नेटवर्क2 अनलॉक विनंती अयशस्वी."</string>
+    <!-- Error message displayed on RUIM Hrpd Depersonalization panel -->
+    <string name="rhrpd_unlock_failed">"RUIM Hrpd अनलॉक विनंती अयशस्वी."</string>
+    <!-- Error message displayed on RUIM Service Provider Depersonalization panel -->
+    <string name="rsp_unlock_failed">"RUIM सेवा प्रदाता अनलॉक विनंती अयशस्वी."</string>
+    <!-- Error message displayed on RUIM Corporate Depersonalization panel -->
+    <string name="rc_unlock_failed">"RUIM कॉर्पोरेट अनलॉक विनंती अयशस्वी."</string>
+    <!-- Error message displayed on RUIM RUIM Depersonalization panel -->
+    <string name="ruim_unlock_failed">"RUIM अनलॉक विनंती अयशस्वी."</string>
+    <!-- Error message displayed on PUK Depersonalization panel -->
+    <string name="puk_unlock_failed">"PUK अनलॉक अयशस्वी."</string>
+    <!-- Success message displayed on SIM Network Subset Depersonalization panel -->
+    <string name="nw_subset_unlock_success">"SIM नेटवर्क सबसेट अनलॉक यशस्वी."</string>
+    <!-- Success message displayed on SIM Service Provider Depersonalization panel -->
+    <string name="sp_unlock_success">"SIM सेवा प्रदाता अनलॉक यशस्वी."</string>
+    <!-- Success message displayed on SIM Corporate Depersonalization panel -->
+    <string name="corporate_unlock_success">"SIM कॉर्पोरेट अनलॉक यशस्वी."</string>
+    <!-- Success message displayed on SIM SIM Depersonalization panel -->
+    <string name="sim_unlock_success">"SIM अनलॉक यशस्वी."</string>
+    <!-- Success message displayed on RUIM Network1 Depersonalization panel -->
+    <string name="rnw1_unlock_success">"RUIM नेटवर्क1 अनलॉक यशस्वी."</string>
+    <!-- Success message displayed on RUIM Network2 Depersonalization panel -->
+    <string name="rnw2_unlock_success">"RUIM नेटवर्क2 अनलॉक यशस्वी."</string>
+    <!-- Success message displayed on RUIM Hrpd Depersonalization panel -->
+    <string name="rhrpd_unlock_success">"RUIM Hrpd अनलॉक यशस्वी."</string>
+    <!-- Success message displayed on RUIM Service Provider Depersonalization panel -->
+    <string name="rsp_unlock_success">"RUIM सेवा प्रदाता अनलॉक यशस्वी."</string>
+    <!-- Success message displayed on RUIM Corporate Depersonalization panel -->
+    <string name="rc_unlock_success">"RUIM कॉर्पोरेट अनलॉक यशस्वी."</string>
+    <!-- Success message displayed on RUIM RUIM Depersonalization panel -->
+    <string name="ruim_unlock_success">"RUIM अनलॉक यशस्वी."</string>
+    <!-- Success message displayed on PUK Depersonalization panel -->
+    <string name="puk_unlock_success">"PUK अनलॉक यशस्वी."</string>
+    <string name="preferred_network_mode_dialogtitle_cmcc">"नेटवर्क मोड"</string>
+    <!-- Mobile network settings, summary for preferred network mode 4G/3G/2G [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_4g_3g_2g_auto">"4G/3G/2G(स्वयं)"</string>
+    <string name="preferred_network_mode_3g_2g_auto">"3G/2G(स्वयं)"</string>
+    <string name="preferred_duration_title">"अवधि प्रदर्शित करा"</string>
+    <string name="duration_enable_summary">"अवधि प्रदर्शित करा चालू आहे"</string>
+    <string name="duration_disable_summary">"अवधि प्रदर्शित करा बंद आहे"</string>
+    <!-- Setting option name to enable or disable vibration after connected -->
+    <string name="vibrate_after_connected_title">"कनेक्‍ट केल्यानंतर कंपन होणे"</string>
+    <string name="vibrate_after_connected_summary">"उत्तर देत असताना कंपन करा"</string>
+    <!-- Preferred networks -->
+    <string name="preferred_networks"></string>
+    <string name="summary_preferred_networks"></string>
+    <string name="menu_dial_string">"कॉल करा"</string>
+    <!-- Preferred UPLMN -->
+    <string name="uplmn_list_setting_title">"प्राधान्यीकृत नेटवर्क्‍स"</string>
+    <string name="proximity_mode_title">"प्रॉक्सिमीटी सेंसर चालू करा"</string>
+    <string name="proximity_on_summary">"जेव्हा आपण कॉलला उत्तर देता, तेव्हा पॉवर बचत करण्यासाठी स्क्रीन बंद होईल."</string>
+    <string name="proximity_off_summary">"जेव्हा आपण कॉलला उत्तर देता, तेव्हा स्क्रीन नेहमी चालू राहील."</string></resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"Có hai mươi bốn giờ trong một ngày"</string>
+    <string name="hi_snapdragon">"Xin chào Snapdragon"</string>
+    <string name="hey_snapdragon">"Hey Snapdragon"</string>
+    <string name="my_voice">"Giọng nói của tôi là mật khẩu của tôi"</string>
+    <string name="make_my_day">"Tạo ngày của tôi"</string>
+    <string name="tomorrow_is_another">"Ngày mai là một ngày khác"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"Chào mừng bạn đến với San Diego"</string>
+    <string name="okay_google">"Ok Google"</string>
+    <string name="open_my_email">"Mở email của tôi"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"In bằng giọng nói"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"Cài đặt"</string>
+    <string name="action_add">"Thêm"</string>
+    <string name="title_activity_main_with_fragment">"Chủ yếu với hoạt động phân mảnh"</string>
+    <string name="tap_mic_start">"Chạm vào mic để bắt đầu"</string>
+    <string name="tap_mic_stop">"Chạm vào mic để dừng lại"</string>
+    <string name="say_key_phrase">"Nói \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"Nói cụm từ \"&lt;b&gt;%1$s&lt;/b&gt;\" một lần nữa."</string>
+    <string name="say_one_of_key_phrases">"Nói một trong số các Cụm từ khóa"</string>
+    <string name="phrase_recognized">"Cụm từ \"&lt;b&gt;%1$s&lt;/b&gt;\" đã được nhận dạng "</string>
+    <string name="recording_length_exceeded">"Đã vượt quá độ dài ghi âm"</string>
+    <string name="recording_length_exceeded_msg">"Độ dài ghi âm đã vượt quá. Vui lòng thử lại."</string>
+    <string name="delete_all">"Xóa tất cả"</string>
+    <string name="delete_all_msg">"Bạn có chắc muốn xóa tất cả mẫu đã đăng ký?"</string>
+    <string name="got_it">"Tuyệt! Tôi đã hiểu."</string>
+    <string name="set_key_phrase">"Đặt cụm từ khóa"</string>
+    <string name="set_key_phrase_name">"Đặt tên cụm từ khóa"</string>
+    <string name="set_key_phrase_action">"Đặt tác vụ"</string>
+    <string name="change_key_phrase_action">"Thay đổi tác vụ"</string>
+    <string name="phrase_strength">"Độ mạnh của cụm từ"</string>
+    <string name="phrase_strength_hint">"Thử một cụm từ có chứa ít nhất ba từ."</string>
+    <string name="register_phrase">"Đăng ký cụm từ"</string>
+    <string name="register_phrase_hint">"Để giúp tôi nhận dạng giọng nói của bạn, vui lòng ghi âm cụm từ \"&lt;b&gt;%1$s&lt;/b&gt;\" ba lần."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" Ghi âm trong phòng yên tĩnh.\n\n"<b>"2."</b>" Giữ điện thoại cách xa miệng.\n\n"<b>"3."</b>" Nói cụm từ khóa một cách tự nhiên."</string>
+    <string name="ready_to_record">"OK, TÔI ĐÃ SẴN SÀNG ĐỂ GHI ÂM"</string>
+    <string name="oops">"Rất tiếc! Thử lại."</string>
+    <string name="say_the_phrase">"Nói cụm từ \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"Cụm từ \"&lt;b&gt;%1$s&lt;/b&gt;\" đã được đăng ký"</string>
+    <string name="say_the_phrase_few_more">"Nói \"&lt;b&gt;%1$s&lt;/b&gt;\" vài lần nữa"</string>
+    <string name="voice_print">"In bằng giọng nói"</string>
+    <string name="cancel">"Hủy"</string>
+    <string name="voice_level">"Mức giọng"</string>
+    <string name="background_noise">"Tiếng ồn hậu cảnh"</string>
+    <string name="cap_done">"XONG"</string>
+    <string name="cap_record">"GHI"</string>
+    <string name="cap_next">"TIẾP THEO"</string>
+    <string name="cap_ok">"OK"</string>
+    <string name="next">"Tiếp theo"</string>
+    <string name="new_key_phrase">"Cụm từ khóa mới"</string>
+    <string name="edit_keyphrases">"Chỉnh sửa cụm từ khóa"</string>
+    <string name="set_name">"Đặt tên"</string>
+    <string name="select_key_phrase">"Chọn cụm từ khóa"</string>
+    <string name="set_action">"Đặt tác vụ"</string>
+    <string name="registration_complete">"Đăng ký hoàn tất"</string>
+    <string name="confirm_pin">"Xác nhận số PIN"</string>
+    <string name="confirm_pin_msg">"Nhập số PIN của thiết bị để chỉnh sửa cụm từ khóa."</string>
+    <string name="your_key_phrase">"Cụm từ khóa của bạn"</string>
+    <string name="cap_redo">"LÀM LẠI"</string>
+    <string name="cap_redo_previous">"LÀM LẠI TRƯỚC"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"Duyệt cụm từ gợi ý"</string>
+    <string name="create_your_own">"Tạo cụm từ của riêng bạn"</string>
+    <string name="skip">"Bỏ qua"</string>
+    <string name="none">"Không"</string>
+    <string name="enter_pin">"Nhập số PIN của thiết bị để chỉnh sửa cụm từ khóa."</string>
+    <string name="your_key_phrase_name">"Tên cụm từ khóa của bạn"</string>
+    <string name="new_key_phrase_name">"Tên cụm từ khóa mới"</string>
+    <string name="set_service_to_launch">"Đặt dịch vụ khởi chạy"</string>
+    <string name="email">"Email"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"Gửi tin nhắn văn bản"</string>
+    <string name="use_selected_phrase">"Sử dụng cụm từ đã chọn"</string>
+    <string name="about">"Thông tin"</string>
+    <string name="edit_key_phrases">"Chỉnh sửa cụm từ khóa"</string>
+    <string name="invalid_phrasename_title">"Tên cụm từ không hợp lệ"</string>
+    <string name="invalid_phrasename_msg">"Tên cụm từ không được trống."</string>
+    <string name="duplicate_phrasename_msg">"Tên cụm từ đã tồn tại. Thử tên khác."</string>
+    <string name="invalid_phrase_title">"Cụm từ không hợp lệ"</string>
+    <string name="invalid_phrase_msg">"Cụm từ không được trống."</string>
+    <string name="edit_action">"Sửa tác vụ"</string>
+    <string name="threshold">"Ngưỡng"</string>
+    <string name="delete_phrase">"Xóa cụm từ"</string>
+    <string name="rename">"Thay đổi tên"</string>
+    <string name="rename_keyphrase">"Thay đổi tên cụm từ khóa"</string>
+    <string name="adjust_keyword_sensitivity">"Điều chỉnh độ nhạy từ khóa"</string>
+    <string name="adjust_keyword_sensitivity_summary">"Có thể điều chỉnh độ nhạy để cho phép biến đổi trong việc nhận dạng cụm từ khóa."</string>
+    <string name="sensitivity">"Độ nhạy"</string>
+    <string name="low_sensitivity">"Độ nhạy thấp"</string>
+    <string name="med_sensitivity">"Độ nhạy trung bình"</string>
+    <string name="high_sensitivity">"Độ nhạy cao"</string>
+    <string name="low">"THẤP"</string>
+    <string name="med">"TRUNG BÌNH"</string>
+    <string name="high">"CAO"</string>
+    <string name="low_sensitivity_summary">"Chấp nhận nhiều biến đổi hơn trong xử lý nhận dạng từ khóa."</string>
+    <string name="med_sensitivity_summary">"Chấp nhận một số biến đổi trong xử lý nhận dạng cụm từ khóa, tuy nhiên có thể không nhận dạng được một số cụm từ khóa."</string>
+    <string name="high_sensitivity_summary">"Tăng thêm độ bảo mật, tuy nhiên có thể không nhận dạng được một số cụm từ khóa."</string>
+    <string name="keyword_sensitivity">"Độ nhạy từ khóa"</string>
+    <string name="delete_phrase_msg">"Bạn có chắc muốn xóa cụm từ \"%1$s\" không?"</string>
+    <string name="voice_print_not_available_title">"Không có tính năng in bằng giọng nói"</string>
+    <string name="voice_print_not_available_msg">"Chưa bật tính năng In bằng giọng nói trên thiết bị này."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"Xóa thành công"</string>
+    <string name="delete_success_msg">"Đã xóa model cụm từ khóa."</string>
+    <string name="delete_fail_title">"Xóa không thành công"</string>
+    <string name="delete_fail_msg">"Đã xảy ra lỗi khi xóa model cụm từ khóa."</string>
+    <string name="rename_success_title">"Đổi tên thành công"</string>
+    <string name="rename_success_msg">"Đã đổi tên model cụm từ khóa."</string>
+    <string name="rename_fail_title">"Đổi tên không thành công"</string>
+    <string name="rename_fail_msg">"Đã xảy ra lỗi khi đổi tên model cụm từ khóa."</string>
+    <string name="pin_validation">"Xác thực mã PIN"</string>
+    <string name="pin_failed">"Nhập mã pin PIN không hợp lệ!"</string>
+    <string name="registration_failed">"Đăng ký không thành công"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"Ngưỡng Người Dùng"</string>
+    <string name="spoof_score">"Ngưỡng Giả Mạo"</string>
+    <string name="thresholds">"Ngưỡng"</string>
+    <string name="save">"Lưu"</string>
+    <string name="sentence_score_msg">"Đặt Ngưỡng Mệnh Đề"</string>
+    <string name="user_score_msg">"Đặt Ngưỡng Người Dùng"</string>
+    <string name="spoof_score_msg">"Đặt Ngưỡng Giả Mạo"</string>
+    <string name="sentence_score">"Ngưỡng Mệnh Đề"</string></resources>

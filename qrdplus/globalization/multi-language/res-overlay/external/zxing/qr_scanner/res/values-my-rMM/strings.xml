@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Caption shown below the viewfinder rectangle, explaining how to scan a QR code [CHAR LIMIT=NONE] -->
+    <string name="msg_default_status">"၄င်းကို အသေးစိတ်ကြည့်ရန် ကြည့်ရှုရှာဖွေသူ စတုဂံထဲတွင် QR ကုဒ်ကို ထည့်ပါ။"</string>
+    <!-- Error message displayed when starting up the phone/tablet's camera to scan a QR code has failed [CHAR LIMIT=NONE] -->
+    <string name="msg_camera_framework_bug">"ဝမ်းနည်းပါတယ်။ အန်းဒရိုက်ကင်မရာသည် ပြသနာနှင့်ရင်ဆိုင်နေရသည်။ စက်ကို ပြန်လည်စတင်ရန် လိုအပ်သည်။"</string></resources>

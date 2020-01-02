@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="array" name="cabl_level_values"/>
+    <string-array name="cabl_level_values">
+                <item>"Baja"</item>
+                <item>"Media"</item>
+                <item>"Alta"</item>
+                <item>"Automático"</item>
+        </string-array></resources>

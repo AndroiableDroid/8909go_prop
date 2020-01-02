@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"显示调试度量"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"保存照片"</string>
+    <string name="debug_pref_save_pictures_desc">"将拍摄的照片保存至 SD 卡"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"保存预览帧"</string>
+    <string name="debug_pref_save_preview_frames_desc">"将预览帧保存至 SD 卡"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"允许预览帧丢帧"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"保存预览帧时，允许丢帧以保持帧率"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"启用人脸识别详细日志记录"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

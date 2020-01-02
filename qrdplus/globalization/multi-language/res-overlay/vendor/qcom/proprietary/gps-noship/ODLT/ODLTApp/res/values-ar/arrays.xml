@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string-array name="sessionType">
+        <item>"لقطة واحدة"</item>
+        <item>"مسار التطبيق"</item>
+    </string-array>
+    <string-array name="sessionTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="apiType">
+        <item>"واجهة برمجة التطبيقات (API) لنظام التشغيل Android"</item>
+        <item>"واجهة برمجة التطبيقات (API) لـ Loc"</item>
+        <item>"خدمة GPL"</item>
+        <item>"خدمة QPL"</item>
+    </string-array>
+    <string-array name="apiTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="locProviderType">
+        <item>"GPS"</item>
+        <item>"الشبكة"</item>
+        <item>"كامن"</item>
+    </string-array>
+    <string-array name="locProviderTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="accuracyLevelType">
+        <item>"مرتفعة"</item>
+        <item>"متوسطة"</item>
+        <item>"منخفضة"</item>
+    </string-array>
+    <string-array name="accuracyLevelTypeValues">
+        <item>"High"</item>
+        <item>"Medium"</item>
+        <item>"Low"</item>
+    </string-array>
+    <string-array name="opModeType">
+        <item>"مستقل"</item>
+        <item>"مساعدة من MS"</item>
+        <item>"مستند إلى MS"</item>
+        <item>"السرعة المثلى"</item>
+        <item>"البيانات المثلى"</item>
+        <item>"الدقة المثلى"</item>
+        <item>"معرّف الخلية"</item>
+        <item>"افتراضي"</item>
+    </string-array>
+    <string-array name="opModeTypeValues">
+        <item>"Standalone"</item>
+        <item>"MS-Assisted"</item>
+        <item>"MS-Based"</item>
+        <item>"Speed Optimal"</item>
+        <item>"Data Optimal"</item>
+        <item>"Accuracy Optimal"</item>
+        <item>"Cell ID"</item>
+        <item>"Default"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyType">
+        <item>"ليست هناك متطلبات"</item>
+        <item>"منخفضة"</item>
+        <item>"مرتفعة"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyType">
+        <item>"ليست هناك متطلبات"</item>
+        <item>"منخفضة"</item>
+        <item>"متوسطة"</item>
+        <item>"مرتفعة"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="powerRequirementType">
+        <item>"ليست هناك متطلبات"</item>
+        <item>"منخفضة"</item>
+        <item>"متوسطة"</item>
+        <item>"مرتفعة"</item>
+    </string-array>
+    <string-array name="powerRequirementValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityType">
+        <item>"لم يتم التعيين"</item>
+        <item>"منخفض جدًا"</item>
+        <item>"منخفضة"</item>
+        <item>"متوسطة"</item>
+        <item>"مرتفعة"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityValues">
+        <item>"Not Set"</item>
+        <item>"Very Low"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="lppModeType">
+        <item>"تعطيل"</item>
+        <item>"خطة المستخدم"</item>
+        <item>"خطة التحكم"</item>
+    </string-array>
+    <string-array name="lppModeValues">
+        <item>"Disable"</item>
+         <item>"User Plane"</item>
+        <item>"Control Plane"</item>
+    </string-array>
+    <string-array name="wbiqGLOR1Chan">
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="gplsPriorityType">
+        <item>"دقة عالية"</item>
+        <item>"دقة طاقة متوازنة"</item>
+        <item>"طاقة منخفضة"</item>
+        <item>"ليست هناك طاقة"</item>
+    </string-array>
+    <string-array name="gplsPriorityTypeValues">
+        <item>100</item>
+        <item>102</item>
+        <item>104</item>
+        <item>105</item>
+    </string-array>
+    <string-array name="geofenceReportType">
+        <item>"خرق"</item>
+        <item>"دفعي"</item>
+        <item>"التقارب"</item>
+        <item>"خرق + تقارب"</item>
+        <item>"دفعي + تقارب"</item>
+    </string-array>
+    <string-array name="geofenceReportTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array></resources>

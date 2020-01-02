@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtectDBG"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"Informácie o aplikácii"</string>
+    <string name="title_trusted">"Dôveryhodné aplikácie"</string>
+    <string name="title_about">"Informácie"</string>
+    <string name="title_settings">"Nastavenia"</string>
+    <string name="drawer_open_title">"Snapdragon Smart Protect"</string>
+<string name="service_status_on">"Zapnuté"</string>
+    <string name="service_status_off">"Vypnuté"</string>
+    <string name="err_title">"Chyba aplikácie"</string>
+    <string name="err_msg_init">"Aplikácia Snapdragon Smart Protect nemôže inicializovať knižnicu QSSP. Služba sa zastavuje"</string>
+    <string name="err_msg_load_model">"Aplikácia Snapdragon Smart Protect nemôže načítať model. Služba sa zastavuje"</string>
+    <string name="err_msg_malicious_alert">"Aplikácia Snapdragon Smart Protect sa nemôže registrovať pre škodlivé upozornenia. Služba sa zastavuje"</string>
+    <string name="err_msg_benign_alert">"Aplikácia Snapdragon Smart Protect sa nemôže registrovať pre neškodné upozornenia. Služba sa zastavuje"</string>
+    <string name="err_msg_service_not_up">"Aplikácia Snapdragon Smart Protect viac nemôže nájsť službu."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"Všetky práva vyhradené."</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ Smart Protect je produktom spoločnosti Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Qualcomm a Snapdragon sú ochranné známky spoločnosti Qualcomm Incorporated registrované v Spojených štátoch a ďalších krajinách, na ktorých používanie sa vyžaduje povolenie."</string>
+    <string name="btn_restore_default">"OBNOVIŤ PREDVOLENÉ NASTAVENIA"</string>
+    <string name="btn_clear_history">"VYMAZAŤ HISTÓRIU SMART PROTECT"</string>
+    <string name="trusted_btn">"PRIDAŤ DO ZOZNAMU DÔVERYHODNÝCH APLIKÁCIÍ"</string>
+    <string name="uninstall_btn">"ODINŠTALOVAŤ"</string>
+    <string name="details_btn">"PODROBNOSTI"</string>
+    <string name="done_btn">"HOTOVO"</string>
+    <string name="remove_trusted_btn">"ODSTRÁNIŤ ZO ZOZNAMU DÔVERYHODNÝCH APLIKÁCIÍ"</string>
+    <string name="uninstall_confirm_message">"Chcete túto aplikáciu odinštalovať?"</string>
+    <string name="uninstall_success">"Balík sa úspešne odinštaloval"</string>
+    <string name="uninstall_failed">"Odinštalovanie balíka bolo neúspešné"</string>
+    <string name="clear_history_done">"História sa úspešne vymazala"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon Smart Protect"</string>
+    <string name="drawer_threats">"Zistili sa hrozby (%1$s)"</string>
+    <string name="drawer_threat_null">"Ochrana súkromia na zariadení a detekcia malvéru v reálnom čase"</string>
+    <string name="drawer_option_dashboard">"Panel"</string>
+    <string name="drawer_option_trusted_apps">"Dôveryhodné aplikácie"</string>
+    <string name="drawer_option_settings">"Nastavenia"</string>
+    <string name="drawer_option_about">"Informácie"</string>
+    <string name="dashboard_list_title">"Vyberte aplikáciu na zobrazenie podrobností a odporúčaní aplikácie Snapdragon Smart Protect."</string>
+    <string name="dashboard_list_empty">"Nemonitorujú sa žiadne aplikácie."</string>
+    <string name="app_info_recommend">"Odporúčanie:"</string>
+    <string name="app_info_version">"verzia"</string>
+    <string name="app_uninstalled">"Aplikácia už v zariadení nie je. Ukončíte stlačením tlačidla OK."</string>
+    <string name="malicious_item_threat">"Snapdragon Smart Protect zistila:"</string>
+    <string name="malicious_item_confidence">"Úroveň dôvery:"</string>
+    <string name="malicious_item_analysis">"Analýza"</string>
+    <string name="malicious_recommend">"Odinštalovať"</string>
+    <string name="good_threat">"Nezistili sa žiadne hrozby."</string>
+    <string name="good_recommend">"Vyberte Hotovo, aby mohla aplikácia Snapdragon Smart Protect pokračovať v monitorovaní tejto aplikácie."</string>
+    <string name="good_title">"Dobrá"</string>
+    <string name="trusted_item_title">"Snapdragon Smart Protect nemonitoruje aktivity aplikácie %1$s, pretože je na zozname dôveryhodných aplikácií.\n\nAk si nie ste istí jej bezpečnosťou, odstráňte ju zo zoznamu dôveryhodných aplikácií."</string>
+    <string name="trusted_list_title">"Snapdragon Smart Protect nemonitoruje aplikácie uvedené na tomto zozname."</string>
+    <string name="trusted_list_subtitle">"Ak si nie ste istí bezpečnosťou tejto aplikácie, odstráňte ju zo zoznamu dôveryhodných aplikácií."</string>
+    <string name="trusted_list_empty">"V zozname dôveryhodných aplikácií nie sú žiadne aplikácie."</string>
+    <string name="trusted_list_empty_desc">"Takto dosiahnete maximálnu ochranu, pretože Snapdragon Smart Protect monitoruje všetky vaše aplikácie."</string>
+    <string name="trusted_confirm_message">"Chcete túto aplikáciu pridať do zoznamu dôveryhodných aplikácií?\n\nAk si nie ste istí jej bezpečnosťou, vyberte možnosť Zrušiť."</string>
+    <string name="malicious_ntf_message">"Snapdragon Smart Protect zistila škodlivú aktivitu v aplikácii %1$s."</string>
+    <string name="malicious_ntf_recommend">"Odporúčanie: Odinštalovať"</string>
+    <string name="malicious_dialog_title">"Škodlivé"</string>
+    <string name="malicious_text">"Škodlivé"</string>
+    <string name="malware_ntf_message">"Snapdragon Smart Protect zistila malvér v aplikácii %1$s."</string>
+    <string name="malware_dialog_title">"Zistil sa malvér"</string>
+    <string name="malware_title">"Malvér"</string>
+    <string name="spyware_ntf_message">"Snapdragon Smart Protect zistila spyware v aplikácii %1$s."</string>
+    <string name="spyware_dialog_title">"Zistil sa spyware"</string>
+    <string name="spyware_title">"Spyware"</string>
+    <string name="adware_ntf_message">"Snapdragon Smart Protect zistila adware v aplikácii %1$s."</string>
+    <string name="adware_dialog_title">"Zistil sa adware"</string>
+    <string name="adware_title">"Adware"</string>
+<string name="err_no_app_dashborad">"zoznam aplikácií panela je prázdny"</string>
+    <string name="analysis_title">"%1$s je pravdepodobne škodlivá z nasledujúcich dôvodov:"</string>
+    <string name="service_label">"Služba Sphinx"</string>
+    <string name="unknown_code">" Kód – %1$d"</string>
+    <string name="default_code_detail">"Aplikácia sa snaží o škodlivú aktivitu."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"Môže vykonávať škodlivú aktivitu na vašom zariadení."</item>
+        <item>"Úroveň 1 – malware: Vykonáva aktivitu škodlivú pre obsah používateľa, aplikácie a zariadenie."</item>
+        <item>"Úroveň 2 – malware: Vykonáva aktivitu, ktorá môže používateľa stáť peniaze."</item>
+        <item>"Úroveň 3 – spyware: Únik/krádež obsahu a aktívne špehovanie používateľov."</item>
+        <item>"Úroveň 4 – spyware: Únik/krádež používateľských metainformácií."</item>
+        <item>"Úroveň 5 – spyware: Únik/krádež citlivých informácií o zariadení."</item>
+        <item>"Úroveň 6 – annoyware: Agresívny adware a/alebo obťažujúca aplikácia."</item>
+    </string-array>
+    <string name="setting_level1_title">"Úroveň 1 – malware"</string>
+    <string name="setting_level2_title">"Úroveň 2 – malware"</string>
+    <string name="setting_level3_title">"Úroveň 3 – spyware"</string>
+    <string name="setting_level4_title">"Úroveň 4 – spyware"</string>
+    <string name="setting_level5_title">"Úroveň 5 – spyware"</string>
+    <string name="setting_level6_title">"Úroveň 6 – adware"</string>
+    <string name="setting_mode_title">"Režim"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"Upozornenie na autom. otvárané prvky a štandardné upoz."</item>
+        <item>"Štandardné upozornenie"</item>
+        <item>"Žiadne upozornenia"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"Normálny režim"</item>
+        <item>"Tichý režim"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<string name="monitor_feature_title">"Monitorovať funkciu"</string>
+    <string name="err_msg_no_rfm">"Aplikácia Snapdragon Smart Protect nemôže na zariadení nájsť súbory rfm"</string>
+    <string name="err_msg_monitor">"Aplikácia Snapdragon Smart Protect nemôže monitorovať tieto funkcie"</string>
+    <string name="title_debug">"Ladiť"</string>
+    <string name="drawer_option_debug">"Ladiť"</string>
+    <string name="set_rfm_file">"Vybrať súbor RFM"</string>
+    <string name="debug_rfm_model">"Súbor RFM"</string>
+    <string name="debug_mnf_apply">"Monitorovať funkciu"</string></resources>

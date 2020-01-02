@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"ตัวทดสอบ SDP SDK"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"ตัวทดสอบ Snapdragon Digital Pen SDK"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"การตั้งค่า"</string>
+    <add-resource type="string" name="off_screen_mode_header"/>
+    <string name="off_screen_mode_header">"โหมดปิดหน้าจอ"</string>
+    <add-resource type="string" name="offscreen_mode_choice_duplicate"/>
+    <string name="offscreen_mode_choice_duplicate">"ทำซ้ำ"</string>
+    <add-resource type="string" name="offscreen_mode_choice_extend"/>
+    <string name="offscreen_mode_choice_extend">"ขยาย"</string>
+    <add-resource type="string" name="offscreen_mode_choice_disable"/>
+    <string name="offscreen_mode_choice_disable">"ปิดการใช้งาน"</string>
+    <add-resource type="string" name="apply_configuration_button_text"/>
+    <string name="apply_configuration_button_text">"ใช้การตั้งค่า"</string>
+    <add-resource type="string" name="configuration_items_header"/>
+    <string name="configuration_items_header">"รายการการตั้งค่า"</string>
+    <add-resource type="string" name="header_side_channel_listeners"/>
+    <string name="header_side_channel_listeners">"ตัวฟังไซด์แชนแนล"</string>
+    <add-resource type="string" name="label_on_screen_side_channel"/>
+    <string name="label_on_screen_side_channel">"เปิดหน้าจอ: "</string>
+    <add-resource type="string" name="label_off_screen_side_channel"/>
+    <string name="label_off_screen_side_channel">"ปิดหน้าจอ: "</string>
+    <add-resource type="string" name="label_all_side_channel"/>
+    <string name="label_all_side_channel">"ทั้งหมด: "</string>
+    <add-resource type="string" name="checkbox_text_off_screen_side_channel_enable"/>
+    <string name="checkbox_text_off_screen_side_channel_enable">"เปิดการทำงานไซด์แชนแนลปิดหน้าจอ"</string>
+    <add-resource type="string" name="placeholder"/>
+    <string name="placeholder">"&lt;placeholder for dynamic text&gt;"</string>
+    <add-resource type="string" name="side_channel_off"/>
+    <string name="side_channel_off">"ปิด"</string>
+    <add-resource type="string" name="side_channel_scaled"/>
+    <string name="side_channel_scaled">"กำหนดระดับแล้ว"</string>
+    <add-resource type="string" name="side_channel_raw"/>
+    <string name="side_channel_raw">"Raw"</string>
+    <!-- Hover -->
+    <add-resource type="string" name="label_on_screen_hover"/>
+    <string name="label_on_screen_hover">"โฮเวอร์เปิดหน้าจอ:"</string>
+    <add-resource type="string" name="label_off_screen_hover"/>
+    <string name="label_off_screen_hover">"โฮเวอร์ปิดหน้าจอ:"</string>
+    <add-resource type="string" name="hover_choice_off"/>
+    <string name="hover_choice_off">"ปิด"</string>
+    <add-resource type="string" name="hover_choice_enable"/>
+    <string name="hover_choice_enable">"เปิดใช้งาน"</string>
+    <add-resource type="string" name="hover_choice_enable_custom"/>
+    <string name="hover_choice_enable_custom">"การกำหนดเองที่เปิดใช้งาน "</string>
+    <!-- Eraser -->
+    <add-resource type="string" name="label_eraser_bypass"/>
+    <string name="label_eraser_bypass">"ทางลัดยางลบ:"</string>
+    <add-resource type="string" name="label_eraser_bypass_off"/>
+    <string name="label_eraser_bypass_off">"ปิด"</string>
+    <add-resource type="string" name="label_eraser_bypass_enable"/>
+    <string name="label_eraser_bypass_enable">"เปิดใช้งาน"</string>
+    <!-- Motion event -->
+    <add-resource type="string" name="label_motion_event_info"/>
+    <string name="label_motion_event_info">"กิจกรรมการเคลื่อนไหว:"</string>
+    <add-resource type="string" name="placeholder_motion"/>
+    <string name="placeholder_motion">"&lt;placeholder for motion event dynamic text&gt;"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"ประเภทอินพุต"</string>
+    <add-resource type="string" name="input_type_choice_stylus"/>
+    <string name="input_type_choice_stylus">"สไตลัส"</string>
+    <add-resource type="string" name="input_type_choice_mouse"/>
+    <string name="input_type_choice_mouse">"หนู"</string>
+    <add-resource type="string" name="input_type_choice_joystick"/>
+    <string name="input_type_choice_joystick">"จอยสติ๊ก"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"ความไวของเมาส์:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"ช้า"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"ปานกลาง"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"เร็ว"</string></resources>

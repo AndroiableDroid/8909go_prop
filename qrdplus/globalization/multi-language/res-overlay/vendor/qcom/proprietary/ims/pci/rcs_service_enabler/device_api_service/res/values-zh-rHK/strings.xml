@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service 已移除，請重新安裝！！！"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"更新設定檔文字數據"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"更新設定檔人像數據"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"刪除所有訊息"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"設定群組聊天的新主持人"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"修改群組聊天的主旨"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"修改群組聊天中的成員暱稱"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"接受加入群組聊天的邀請"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"結束群組聊天"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"從群組聊天中踢出參與者"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"關閉群組聊天"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"關注公眾帳戶"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"不關注公眾帳戶"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"舉報公眾帳戶"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"敏感 API 權限"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"已授權 %1$d 個應用程式 (總計 %2$d 個)"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"不再要求輸入"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"確定"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"取消"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"此操作專用於 %1$s，拒絕權限可能會使其無法再按預期方式發揮效用。"</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"%1$s 權限"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"您必須允許 %1$s。"</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"您必須允許對 SD 卡的權限。"</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"您必須允許對通訊錄的權限。"</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"您必須允許對短訊的權限。"</string></resources>

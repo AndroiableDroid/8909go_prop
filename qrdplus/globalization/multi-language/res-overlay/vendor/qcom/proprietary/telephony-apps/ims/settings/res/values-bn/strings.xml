@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IMS settings related strings -->
+    <!-- Title displayed IMS account settings in the sip settings category. [CHAR LIMIT=NONE] -->
+    <string name="ims_settings">"IMS সেটিংস"</string>
+    <string name="ims_vt_call_quality_title">"VT কলের গুণমান"</string>
+    <string name="ims_vt_call_quality_low">"নীচু"</string>
+    <string name="ims_vt_call_quality_high">"উচ্চ"</string>
+    <string name="ims_vt_call_quality_unknown">"অজানা"</string>
+    <string name="ims_vt_call_quality_set_failed">"ভিডিও গুণমান সেট করতে ব্যর্থ হয়েছে"</string>
+    <string name="ims_get_packet_count_failed">"প্যাকেট গণনা পেতে ব্যর্থ হয়েছে"</string>
+    <string name="ims_get_packet_error_count_failed">"প্যাকেট ত্রুটি গণনা পেতে ব্যর্থ হয়েছে"</string>
+    <string name="ims_get_packet_count_label">"প্যাকেট গণনা পেতে এখানে ক্লিক করুন"</string>
+    <string name="ims_get_packet_error_count_label">"প্যাকেট ত্রুটি গণনা পেতে এখানে ক্লিক করুন"</string>
+    <string name="qti_ims_call_deflect_title">"কল ভিন্নমুখীকরণ নম্বর"</string>
+    <string name="qti_ims_number_not_set">"সেট করা নেই"</string>
+    <!-- IMS to CS Retry setting title.  [CHAR LIMIT=30] -->
+    <string name="ims_to_cs_retry_title">"CS পুনঃচেষ্টা"</string>
+    <!-- IMS to CS Retry setting summary.  [CHAR LIMIT=80] -->
+    <string name="ims_to_cs_retry_summary">"নিয়মিত ভয়েস যোগাযোগগুলির (সুপারিশকৃত) মাধ্যমে স্বয়ং পুনঃচেষ্টা করুন"</string></resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Motor OMA DRM"</string>
+    <string name="activity_name_image_viewer">"Visualizador de imágenes DRM"</string>
+    <string name="permission_label_access_drm_data">"Permiso de acceso del complemento OMA DRM"</string>
+    <string name="permission_desc_access_drm_data">"Otorgar permiso para acceder a la información de licencia del complemento OMA DRM."</string>
+    <string name="license_expired">"Licencia vencida"</string>
+    <string name="license_expired_message">"No es posible abrir el archivo DRM"</string>
+    <string name="buy_license">"Comprar licencia"</string>
+    <string name="menu_set_as_wallpaper">"Definir fondo de pantalla"</string>
+    <string name="menu_details">"Detalles"</string>
+    <string name="drm_details_title">"Detalles de Drm"</string>
+    <string name="dialog_close">"Cerrar"</string>
+    <string name="drm_rights_message">"Los derechos de OMA DRM se guardaron correctamente"</string>
+    <string name="drm_text_count">"Recuento restante:  "</string>
+    <string name="drm_text_date_start">"De:  "</string>
+    <string name="drm_text_date_end">"Hasta:  "</string>
+    <string name="drm_text_fwd_lk">"Ilimitado "</string>
+    <string name="drm_text_license">"Licencia de Drm:  "</string>
+    <string name="drm_text_play">"REPROD"</string>
+    <string name="drm_text_display">"Pantalla"</string>
+    <string name="drm_text_title">"Título:  "</string>
+    <string name="drm_text_location">"Ubicación:  "</string>
+    <string name="drm_text_mime_type">"Tipo de MIME:  "</string>
+    <string name="error_unable_to_view">"No se encontró la imagen"</string></resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Wfd 客户端"</string>
+    <string name="preferences_name">"偏好设置"</string>
+    <string name="advanced_preferences_name">"高级偏好设置"</string>
+    <string name="surface_activity_name">"表面活动"</string>
+    <string name="wfd_resolution_settings">wfd_resolution_settings</string>
+	<string name="resolution_list_title">"所需的分辨率"</string>
+	<string name="resolution_list_summary">"选择分辨率"</string>
+	<string name="resolution_dialog_title">"选择分辨率"</string>
+	<string name="resolution_list_options_default_values">0</string>
+	<string name="wfd_bitrate_settings">wfd_bitrate_settings</string>
+	<string name="bitrate_list_title">"所需的比特率"</string>
+	<string name="bitrate_list_summary">"选择比特率"</string>
+	<string name="bitrate_dialog_title">"选择比特率"</string>
+	<string name="bitrate_list_options_default_values">12</string>
+	<string name="btn_source">"源"</string>
+	<string name="btn_sink">"目标"</string>
+	<string name="btn_find">"查找"</string>
+    <string name="btn_create_group">"创建群组"</string>
+    <string name="btn_remove_group">"移除群组"</string>
+	<string name="btn_blank">"空白"</string>
+	<string name="tv_peers">"对等设备"</string>
+	<string name="btn_play_pause">"播放"</string>
+	<string name="btn_standby_resume">"待机"</string>
+	<string name="btn_teardown">"拆卸"</string>
+	<string name="btn_start_stop_uibc">"启动 UIBC"</string>
+	<string name="btn_transport_udp_tcp">"TCP"</string>
+	<string name="btn_flush">"冲洗"</string>
+    <string name="btn_enable_disable_ds">"启用 DS"</string>
+    <string name="enable_p2p_button">"P2P 开启/关闭"</string>
+    <string name="discover_peers_button">"发现"</string>
+    <string name="connect_peer_button">"连接"</string>
+    <string name="connect_options_peer_button">"连接选项"</string>
+    <string name="disconnect_peer_button">"断开连接"</string>
+    <string name="start_client_button">"开始会话"</string>
+    <string name="start_uibc_button">"启动 UIBC"</string>
+    <string name="empty"></string>
+    <string name="yes">"是"</string>
+    <string name="no">"否"</string>
+    <string name="client_text">"此设备将用作客户端。点击“图库”按钮以选择本地（存储）文件"</string>
+    <string name="empty_message">"未找到设备。从工具栏中选择搜索按钮。"</string>
+    <string name="p2p_off_warning">"从系统设置中启用 P2P"</string>
+    <string name="group_owner_text">"我是否是群组所有者？ "</string>
+    <string name="toggle">"切换"</string>
+    <string name="filter">"过滤"</string>
+    <string name="position">"位置"</string>
+    <string name="expanded">"已展开"</string></resources>

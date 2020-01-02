@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Nastavenia SVI"</string>
+        <add-resource type="string" name="svi_settings_title"/>
+    <string name="svi_settings_title">"Nastavenia zobrazenia SVI"</string>
+        <add-resource type="string" name="svi_enable_title"/>
+    <string name="svi_enable_title">"Zapnúť zobrazenie SVI"</string>
+        <add-resource type="string" name="svi_enable_summary_on"/>
+    <string name="svi_enable_summary_on">"Zlepšuje zobrazenie na základe okolitých podmienok"</string>
+        <add-resource type="string" name="svi_enable_summary_off"/>
+    <string name="svi_enable_summary_off">"Zobrazenie sa na základe okolitých podmienok nebude vylepšovať"</string>
+        <add-resource type="string" name="svi_info_default"/>
+    <string name="svi_info_default">"Bez názvu"</string>
+        <add-resource type="string" name="svi_version_title"/>
+    <string name="svi_version_title">"Verzia SVI"</string></resources>

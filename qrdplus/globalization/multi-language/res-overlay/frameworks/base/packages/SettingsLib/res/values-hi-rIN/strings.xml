@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+**
+** Copyright 2015 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Toast message when Wi-Fi cannot scan for networks -->
+    <string name="wifi_fail_to_scan">"नेटवर्क के लिए स्‍कैन नहीं कर सकता"</string>
+    <!-- Do not translate.  Concise terminology for wifi with WEP security -->
+    <string name="wifi_security_short_wep">WEP</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA security -->
+    <string name="wifi_security_short_wpa">WPA</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_short_eap">802.1x</string>
+    <!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
+    <string name="wifi_security_none">"कोई नहीं"</string>
+    <!-- Do not translate.  Terminology for wifi with WEP security -->
+    <string name="wifi_security_wep">WEP</string>
+    <!-- Do not translate.  Terminology for wifi with WPA security -->
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <!-- Do not translate.  Terminology for wifi with WPA2 security -->
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_eap">802.1x EAP</string>
+    <!-- Do not translate.  Concise terminology for Passpoint network -->
+    <string name="wifi_security_passpoint">Passpoint</string>
+    <!-- Summary for the remembered network. -->
+    <string name="wifi_remembered">"सहेजा गया"</string>
+    <!-- Status for networks disabled for unknown reason -->
+    <string name="wifi_disabled_generic">"अक्षम"</string>
+    <!-- Status for networked disabled from a DNS or DHCP failure -->
+    <string name="wifi_disabled_network_failure">"IP कॉन्‍फ़िगरेशन की विफलता"</string>
+    <!-- Status for networked disabled from a wifi association failure -->
+    <string name="wifi_disabled_wifi_failure">"वाईफ़ाई कनेक्‍शन विफलता"</string>
+    <!-- Status for networks disabled from authentication failure (wrong password
+         or certificate). -->
+    <string name="wifi_disabled_password_failure">"प्रमाणीकरण समस्या"</string>
+    <!-- Summary for the remembered network but currently not in range. -->
+    <string name="wifi_not_in_range">"रेंज में नहीं"</string>
+    <!-- Summary for the remembered network but no internet connection was detected. -->
+    <string name="wifi_no_internet">"किसी इंटरनेट कनेक्‍शन का पता नहीं चला, अपने आप पुन: कनेक्‍ट नहीं हो सकता."</string>
+    <!-- Summary for saved networks -->
+    <string name="saved_network">"<xliff:g id="NAME">%1$s</xliff:g> के द्वारा सहेजा गया"</string>
+    <!-- Status message of Wi-Fi when it is connected by a Wi-Fi assistant application. [CHAR LIMIT=NONE] -->
+    <string name="connected_via_wfa">"वाई-फ़ाई सहायक के द्वारा कनेक्‍ट है"</string>
+    <!-- Status message of Wi-Fi when it is connected by Passpoint configuration. [CHAR LIMIT=NONE] -->
+    <string name="connected_via_passpoint">"%1$s के द्वारा उपलब्ध"</string>
+    <!-- Status message of Wi-Fi when network has matching passpoint credentials. [CHAR LIMIT=NONE] -->
+    <string name="available_via_passpoint">"%1$s के द्वारा उपलब्ध"</string>
+    <!-- Summary for Connected wifi network without internet -->
+    <string name="wifi_connected_no_internet">"कनेक्ट किया गया, इंटरनेट नहीं"</string>
+    <!-- Text when wrong password entered for psk networks -->
+    <string name="wifi_auth_password_wrong">"पासवर्ड गलत हो सकता है"</string>
+    <!-- Bluetooth settings.  Message when a device is disconnected -->
+    <string name="bluetooth_disconnected">"डिस्कनेक्‍ट किया गया"</string>
+    <!-- Bluetooth settings.  Message when disconnecting from a device -->
+    <string name="bluetooth_disconnecting">"डिस्‍कनेक्‍ट हो रहा है..."</string>
+     <!-- Bluetooth settings.  Message when connecting to a device -->
+    <string name="bluetooth_connecting">"कनेक्ट हो रहा है..."</string>
+    <!-- Bluetooth settings.  Message when connected to a device. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected">"कनेक्ट किया गया"</string>
+    <!--Bluetooth settings screen, summary text under individual Bluetooth devices when pairing -->
+    <string name="bluetooth_pairing">"युग्‍मित कर रहा है\u2026"</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for phone audio. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_headset">"कनेक्‍ट है (फ़ोन नहीं)"</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for media audio. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_a2dp">"कनेक्‍ट है (मीडि‍या नहीं)"</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for map. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_map">"कनेक्ट किया गया (कोई संदेश एक्सेस नहीं)"</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for phone/media audio. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_headset_no_a2dp">"कनेक्‍ट है (फ़ोन या मीडि‍या नहीं)"</string>
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the A2DP profile. -->
+    <string name="bluetooth_profile_a2dp">"मीडिया ऑडियो"</string>
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the headset or handsfree profile. -->
+    <string name="bluetooth_profile_headset">"फ़ोन ऑडियो"</string>
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the OPP profile. -->
+    <string name="bluetooth_profile_opp">"फ़ाइल स्थानांतरण"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the HID profile. -->
+    <string name="bluetooth_profile_hid">"इनपुट डिवाइस"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the PAN profile (accessing Internet through remote device). [CHAR LIMIT=40] -->
+    <string name="bluetooth_profile_pan">"इंटरनेट पहुंच"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the PBAP profile. [CHAR LIMIT=40] -->
+    <string name="bluetooth_profile_pbap">"संपर्क साझाकरण"</string>
+    <!-- Bluetooth settings. The user-visible summary string that is used whenever referring to the PBAP profile (sharing contacts). [CHAR LIMIT=60] -->
+    <string name="bluetooth_profile_pbap_summary">"संपर्क साझाकरण के लिए उपयोग करें"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the PAN profile (sharing this device's Internet connection). [CHAR LIMIT=40] -->
+    <string name="bluetooth_profile_pan_nap">"इंटरनेट कनेक्शन साझाकरण"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the map profile. -->
+    <string name="bluetooth_profile_map">"संदेश एक्सेस"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the SAP profile (sharing SIM card). -->
+    <string name="bluetooth_profile_sap">"सिम ऐक्सेस"</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the dun profile. -->
+    <string name="bluetooth_profile_dun">"डायल-अप नेटवर्क ऐक्सेस"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference when A2DP is connected. -->
+    <string name="bluetooth_a2dp_profile_summary_connected">"मीडिया ऑडियो से कनेक्‍ट किया गया"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference when headset is connected. -->
+    <string name="bluetooth_headset_profile_summary_connected">"फ़ोन ऑडियो से कनेक्‍ट किया गया"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is connected. -->
+    <string name="bluetooth_opp_profile_summary_connected">"फ़ाइल स्‍थानांतरण सर्वर से कनेक्‍ट किया गया"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the map checkbox preference when map is connected. -->
+    <string name="bluetooth_map_profile_summary_connected">"मानचित्र से कनेक्ट किया गया"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the sap checkbox preference when SAP is connected. -->
+    <string name="bluetooth_sap_profile_summary_connected">"SAP से कनेक्ट किया गया"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is not connected. -->
+    <string name="bluetooth_opp_profile_summary_not_connected">"फ़ाइल स्‍थानांतरण सर्वर से कनेक्‍ट नहीं किया गया"</string>
+    <!-- Bluetooth settings. Connection options screen. The summary for the HID checkbox preference when HID is connected. -->
+    <string name="bluetooth_hid_profile_summary_connected">"इनपुट डिवाइस से कनेक्‍ट किया गया"</string>
+    <!-- Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (user role). [CHAR LIMIT=25]-->
+    <string name="bluetooth_pan_user_profile_summary_connected">"इंटरनेट पहुंच के लिए डिवाइस से कनेक्‍ट"</string>
+    <!-- Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (NAP role). [CHAR LIMIT=25]-->
+    <string name="bluetooth_pan_nap_profile_summary_connected">"डिवाइस से स्‍थानीय इंटरनेट कनेक्‍शन शेयर किया जा रहा है"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the DUN checkbox preference when DUN is connected. -->
+    <string name="bluetooth_dun_profile_summary_connected">"Dun सर्वर से कनेक्ट किया गया"</string>
+    <!-- Bluetooth settings. Connection options screen. The summary
+         for the PAN checkbox preference that describes how checking it
+         will set the PAN profile as preferred. -->
+    <string name="bluetooth_pan_profile_summary_use_for">"इंटरनेट पहुंच के लिए उपयोग करें"</string>
+    <!-- Bluetooth settings. Connection options screen.  The summary for the map checkbox preference that describes how checking it will set the map profile as preferred. -->
+    <string name="bluetooth_map_profile_summary_use_for">"मानचित्र के लिए उपयोग करें"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the sap checkbox preference that describes how checking it will set the sap profile as preferred. -->
+    <string name="bluetooth_sap_profile_summary_use_for">"सिम ऐक्सेस के लिए उपयोग करें"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference that describes how checking it will set the A2DP profile as preferred. -->
+    <string name="bluetooth_a2dp_profile_summary_use_for">"मीडिया ऑडियो के लिए उपयोग करें"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference that describes how checking it will set the headset profile as preferred. -->
+    <string name="bluetooth_headset_profile_summary_use_for">"फ़ोन ऑडियो के लिए उपयोग करें"</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference that describes how checking it will set the OPP profile as preferred. -->
+    <string name="bluetooth_opp_profile_summary_use_for">"फ़ाइल स्‍थानांतरण के लिए उपयोग करें"</string>
+    <!-- Bluetooth settings. Connection options screen. The summary
+         for the HID checkbox preference that describes how checking it
+         will set the HID profile as preferred. -->
+    <string name="bluetooth_hid_profile_summary_use_for">"इनपुट के लिए उपयोग करें"</string>
+    <!-- Bluetooth settings. Connection options screen.  The summary for the dun checkbox preference that describes how checking it will set the dun profile as preferred. -->
+    <string name="bluetooth_dun_profile_summary_use_for">"डायल-अप नेटवर्क एक्सेस के लिए उपयोग करें"</string>
+    <!-- Button text for accepting an incoming pairing request. [CHAR LIMIT=20] -->
+    <string name="bluetooth_pairing_accept">"युग्‍म बनाएं"</string>
+    <!-- Button text for accepting an incoming pairing request in all caps. [CHAR LIMIT=20] -->
+    <string name="bluetooth_pairing_accept_all_caps">"युग्‍मित करें"</string>
+    <!-- Button text for declining an incoming pairing request. [CHAR LIMIT=20] -->
+    <string name="bluetooth_pairing_decline">"अभी नहीं"</string>
+    <!-- Message in pairing dialogs.  [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_pairing_will_share_phonebook">"कनेक्ट रहने पर, पेयरिंग आपको अपने संपर्कों और कॉल इतिहास की एक्सेस प्रदान करता है."</string>
+    <!-- Message for the error dialog when BT pairing fails generically. -->
+    <string name="bluetooth_pairing_error_message">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> के साथ युग्‍मित नहीं हो सका."</string>
+    <!-- Message for the error dialog when BT pairing fails because the PIN /
+    Passkey entered is incorrect. -->
+    <string name="bluetooth_pairing_pin_error_message">"गलत पिन या पासकी के कारण <xliff:g id="DEVICE_NAME">%1$s</xliff:g> के साथ युग्‍मित नहीं हो सका."</string>
+    <!-- Message for the error dialog when BT pairing fails because the other device is down. -->
+    <string name="bluetooth_pairing_device_down_error_message">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> से संचार नहीं कर सकता."</string>
+    <!-- Message for the error dialog when BT pairing fails because the other device rejected the pairing. -->
+    <string name="bluetooth_pairing_rejected_error_message">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> द्वारा युग्‍मन अस्‍वीकृत किया गया."</string>
+    <!-- Content description of the WIFI signal when WIFI is disabled for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_off">"वाई-फ़ाई बंद है."</string>
+    <!-- Content description of the WIFI signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_wifi">"वाई-फ़ाई डिस्कनेक्ट है."</string>
+    <!-- Content description of the WIFI signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_one_bar">"वाई-फ़ाई का एक बार है."</string>
+    <!-- Content description of the WIFI signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_two_bars">"वाई-फ़ाई की दो पट्टी मिल रही हैं."</string>
+    <!-- Content description of the WIFI signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_three_bars">"वाई-फ़ाई की एक पट्टी मिल रही है."</string>
+    <!-- Content description of the WIFI signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_signal_full">"पूरे वाई-फ़ाई सिग्नल मिल रहे हैं."</string></resources>

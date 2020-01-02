@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"QC 圖庫場景偵測"</string>
+    <add-resource type="string" name="app_description"/>
+    <string name="app_description">"圖片的自動場景偵測。"</string>
+    <add-resource type="string" name="settings_menu"/>
+    <string name="settings_menu">"設定"</string>
+    <add-resource type="string" name="about_menu"/>
+    <string name="about_menu">"關於"</string>
+    <add-resource type="string" name="clearassetdatabase_menu"/>
+    <string name="clearassetdatabase_menu">"清除資料庫"</string>
+    <add-resource type="string" name="resetapp_menu"/>
+    <string name="resetapp_menu">"重設應用程式"</string>
+    <add-resource type="string" name="imageview_description"/>
+    <string name="imageview_description">"圖片縮圖"</string>
+    <!--  filter UI -->
+    <add-resource type="string" name="filter_filter_header_text"/>
+    <string name="filter_filter_header_text">"濾波器"</string>
+    <add-resource type="string" name="reset_filter_button_text"/>
+    <string name="reset_filter_button_text">"清除"</string>
+    <add-resource type="string" name="udc_add_dialog_title"/>
+    <string name="udc_add_dialog_title">"新增概念"</string>
+    <add-resource type="string" name="udc_add_dialog_ok"/>
+    <string name="udc_add_dialog_ok">"新增"</string>
+    <add-resource type="string" name="udc_add_dialog_cancel"/>
+    <string name="udc_add_dialog_cancel">"取消"</string>
+    <!-- gallery mode processing -->
+    <add-resource type="string" name="engine_notification_title"/>
+    <string name="engine_notification_title">"Qualcomm Technologies Inc, Zeroth SceneDetect"</string>
+    <add-resource type="string" name="engine_notification_scanning"/>
+    <string name="engine_notification_scanning">"SceneDetect 正在掃描您的裝置..."</string>
+    <add-resource type="string" name="engine_notification_analyzing"/>
+    <string name="engine_notification_analyzing">"SceneDetect 正在分析您的相片..."</string>
+    <add-resource type="string" name="engine_notification_training"/>
+    <string name="engine_notification_training">"SceneDetect 正在更新您的樣本..."</string>
+    <add-resource type="string" name="engine_notification_storing"/>
+    <string name="engine_notification_storing">"正在將分類結果儲存到資料庫..."</string>
+    <!--  first part: number, second part: already formatted minutes or seconds -->
+    <add-resource type="string" name="engine_notification_togo"/>
+    <string name="engine_notification_togo">"SceneDetect 正在分析您的相片:即將分析第 %1$d 張，還剩 %2$s 張。"</string>
+    <add-resource type="string" name="engine_notification_togo_minutes"/>
+    <string name="engine_notification_togo_minutes">"%1$d 分鐘"</string>
+    <add-resource type="string" name="engine_notification_togo_minute"/>
+    <string name="engine_notification_togo_minute">"1 分鐘"</string>
+    <add-resource type="string" name="engine_notification_togo_seconds"/>
+    <string name="engine_notification_togo_seconds">"%1$d 秒"</string>
+    <add-resource type="string" name="loading_notification"/>
+    <string name="loading_notification">"正在載入"</string>
+    <!-- used in parsing preference values for threshold file -->
+    <add-resource type="string" name="asset_prefix"/>
+    <string name="asset_prefix">"資產://"</string>
+    <add-resource type="string" name="sdcard_prefix"/>
+    <string name="sdcard_prefix">"SD 卡://"</string>
+    <add-resource type="string" name="splash_screen_logo_image"/>
+    <string name="splash_screen_logo_image">"啟動顯示畫面標誌圖片。"</string>
+    <add-resource type="string" name="all_photos"/>
+    <string name="all_photos">"所有相片"</string>
+    <add-resource type="string" name="all_videos"/>
+    <string name="all_videos">"所有視訊"</string>
+    <add-resource type="string" name="all_media"/>
+    <string name="all_media">"所有媒體"</string>
+    <add-resource type="string" name="album_title"/>
+    <string name="album_title">"專輯"</string>
+    <!-- not used for some reason
+    <string name="gallery_bic_tab_title">Filter</string> -->
+    <add-resource type="string" name="gallery_udc_tab_title"/>
+    <string name="gallery_udc_tab_title">"個人"</string>
+    <add-resource type="string" name="positive_example_desc"/>
+    <string name="positive_example_desc">"用作正面訓練例子的圖片"</string>
+    <add-resource type="string" name="negative_example_desc"/>
+    <string name="negative_example_desc">"用作負面訓練例子的圖片"</string>
+    <add-resource type="string" name="video_notification"/>
+    <string name="video_notification">"視訊"</string>
+    <add-resource type="string" name="create_udc_action_title"/>
+    <string name="create_udc_action_title">"建立概念"</string>
+    <add-resource type="string" name="add_positive_training_example_title"/>
+    <string name="add_positive_training_example_title">"新增正面"</string>
+    <add-resource type="string" name="add_negative_training_example_title"/>
+    <string name="add_negative_training_example_title">"新增負面"</string>
+    <add-resource type="string" name="train_udc_multiselect_title"/>
+    <string name="train_udc_multiselect_title">"訓練概念"</string>
+    <add-resource type="string" name="create_udc_multiselect_title"/>
+    <string name="create_udc_multiselect_title">"建立概念"</string>
+    <add-resource type="string" name="multiselect_num_selected_suffix"/>
+    <string name="multiselect_num_selected_suffix">"已選"</string></resources>

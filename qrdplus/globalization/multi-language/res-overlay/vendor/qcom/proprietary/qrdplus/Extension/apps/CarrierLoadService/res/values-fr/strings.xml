@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"CarrierLoadService"</string>
+    <string name="edit_title">"Valeurs du déclencheur"</string>
+    <string name="trigger_on_off_title">"Opérateur déclencheur"</string>
+    <string name="trigger_path_title">"Trouver un opérateur au chemin :"</string>
+    <string name="trigger_brand_title">"Trouver un opérateur par marque :"</string>
+    <string name="trigger_target_title">"Trouver un opérateur par cible :"</string>
+    <string name="trigger_path_hint">"Chemins mémorisés d\'opérateurs"</string>
+    <string name="trigger_brand_hint">"Marque"</string>
+    <string name="trigger_target_hint">"Cible"</string>
+    <string name="trigger_start">"Démarrer en arrière-plan"</string>
+    <string name="trigger_exit">"Enregistrer et quitter"</string>
+    <string name="toast_trigger_enabled">"Déclencheur activé"</string>
+    <string name="toast_trigger_disabled">"Déclencheur désactivé"</string>
+    <string name="toast_trigger_start">"Imposer le déclencheur en arrière-plan"</string>
+    <string name="toast_filebased_switch_enabled">"Basculement de l\'sopérateur basé sur fichier activé"</string>
+    <string name="toast_filebased_switch_disabled">"Basculement de l\'sopérateur basé sur fichier désactivé, puis basculement basé sur bloc activé"</string>
+    <string name="toast_blockbased_switch_enabled">"Basculement de l\'opérateur basé sur le bloc activé"</string>
+    <string name="toast_blockbased_switch_disabled">"Basculement de l\'opérateur basé sur le bloc désactivé"</string></resources>

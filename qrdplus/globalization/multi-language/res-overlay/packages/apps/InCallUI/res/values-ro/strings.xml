@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+  ~ Copyright (C) 2013 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Official label of the phone app, as seen in "Manage Applications"
+         and other settings UIs. -->
+    <string name="phoneAppLabel" product="default"></string>
+    <!-- Call status -->
+    <!-- In-call screen: status label for a call that's on hold -->
+    <string name="onHold">"În aşteptare"</string>
+    <!-- Incoming call screen, name of "unknown" caller -->
+    <string name="unknown">"Necunoscut"</string>
+    <!-- Incoming call screen, string when number hidden -->
+    <string name="private_num">"Număr privat"</string>
+    <!-- Incoming call screen, string when called from a pay phone -->
+    <string name="payphone">"Telefon public"</string>
+    <!-- In-call screen: status label for a conference call -->
+    <string name="confCall">"Teleconferinţă"</string>
+    <!-- In-call screen: call lost dialog text -->
+    <string name="call_lost">"Apelul s-a încheiat"</string>
+    <!-- MMI dialog strings -->
+    <!-- Dialog label when an MMI code starts running -->
+    <!-- "Audio mode" popup menu: Item label to select the speakerphone [CHAR LIMIT=25] -->
+    <string name="audio_mode_speaker">"Difuzor"</string>
+    <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
+    <string name="audio_mode_earpiece">"Casca dispozitivului"</string>
+    <!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
+    <string name="audio_mode_wired_headset">"Cască cu fir"</string>
+    <!-- "Audio mode" popup menu: Item label to select the bluetooth headset [CHAR LIMIT=25] -->
+    <string name="audio_mode_bluetooth">"Bluetooth"</string>
+    <!-- post dial -->
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "wait" character in a phone number to be dialed; this dialog asks the
+         user if it's OK to send the numbers following the "wait". -->
+    <string name="wait_prompt_str">"Trimiteţi următoarele tonuri?\n"</string>
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "PAUSE" character in a phone number to be dialed; this dialog gives
+         informative message to the user to show the sending numbers following the "Pause". -->
+    <string name="pause_prompt_str">"Se trimit tonuri\n"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog -->
+    <string name="send_button">"Trimiteţi"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_yes">"Da"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_no">"Nu"</string>
+    <!-- In-call screen: on the "wild" character dialog, this is the label
+         for a text widget that lets the user enter the digits that should
+         replace the "wild" character. -->
+    <string name="wild_prompt_str">"Înlocuiţi metacaracterul cu"</string>
+    <!-- In-call screen: status label for a conference call -->
+    <string name="caller_manage_header">"Teleconferinţă <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <!-- Call settings screen, Set voicemail dialog title -->
+    <string name="voicemail_settings_number_label">"Număr mesagerie vocală"</string>
+    <!-- Card titles -->
+    <!-- In-call screen: status label for a call in the "dialing" state [CHAR LIMIT=25] -->
+    <string name="card_title_dialing">"Apelează"</string>
+    <!-- In-call screen: status label for a re-dialing call [CHAR LIMIT=25] -->
+    <string name="card_title_redialing">"Se reapelează"</string>
+    <!-- In-call screen: status label for a conference call [CHAR LIMIT=25] -->
+    <string name="card_title_conf_call">"Teleconferinţă"</string>
+    <!-- In-call screen: status label for an incoming call [CHAR LIMIT=25] -->
+    <string name="card_title_incoming_call">"Apel de intrare"</string>
+    <!-- In-call screen: status label displayed briefly after a call ends [CHAR LIMIT=25] -->
+    <string name="card_title_call_ended">"Apel încheiat"</string>
+    <!-- In-call screen: status label for call that's on hold [CHAR LIMIT=25] -->
+    <string name="card_title_on_hold">"În aşteptare"</string>
+    <!-- In-call screen: status label for a call that's in the process of hanging up [CHAR LIMIT=25] -->
+    <string name="card_title_hanging_up">"Se închide telefonul"</string>
+    <!-- In-call screen: status label for a call that's in CDMA flash mode [CHAR LIMIT=25] -->
+    <string name="card_title_in_call">"În timpul apelului"</string>
+    <!-- In-call screen: special status label that shows your own phone
+         number during emergency callback mode (ECM) [CHAR LIMIT=30] -->
+    <string name="card_title_my_phone_number">"Numărul meu este <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>"</string>
+    <!-- In-call screen: status label when connecting video. -->
+    <string name="card_title_video_call_connecting">"Se conectează video"</string>
+    <!-- In-call screen: status label when in a video call. -->
+    <string name="card_title_video_call">"Apel video"</string>
+    <!-- In-call screen: status label when requesting video. -->
+    <string name="card_title_video_call_requesting">"Se solicită video"</string>
+    <!-- In-call screen: status label when there is a problem connecting a video call. -->
+    <string name="card_title_video_call_error">"Nu se poate conecta apelul video"</string>
+    <!-- In-call screen: status label when the remote party rejects a video call request. -->
+    <string name="card_title_video_call_rejected">"Solicitarea pentru apel video a fost respinsă"</string>
+    <!-- In-call screen: string shown to the user when their outgoing number is different than the
+         number reported by TelephonyManager#getLine1Number() -->
+    <string name="card_title_callback_number">"Numărul de apelare inversă\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+    <!-- In-call screen: string shown to the user when their outgoing number is different than the
+         number reported by TelephonyManager#getLine1Number() and they're calling emergency
+         services. -->
+    <string name="card_title_callback_number_emergency">"Numărul de apelare inversă de urgență\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+    <!-- Notification strings -->
+    <!-- The "label" of the in-call Notification for a dialing call, used
+         as the format string for a Chronometer widget. [CHAR LIMIT=60] -->
+    <string name="notification_dialing">"Apelează"</string>
+    <!-- Missed call notification label, used when there's exactly one missed call -->
+    <string name="notification_missedCallTitle">"Apel nepreluat"</string>
+    <!-- Missed call notification label, used when there are two or more missed calls -->
+    <string name="notification_missedCallsTitle">"Apeluri nepreluate"</string>
+    <!-- Missed call notification message used when there are multiple missed calls -->
+    <string name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> (de) apeluri nepreluate"</string>
+    <!-- Missed call notification message used for a single missed call, including
+         the caller-id info from the missed call -->
+    <string name="notification_missedCallTicker">"Apel nepreluat de la <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <!-- The "label" of the in-call Notification for an ongoing call. [CHAR LIMIT=60] -->
+    <string name="notification_ongoing_call">"Apel în desfăşurare"</string>
+    <!-- The "label" of the in-call Notification for an ongoing call, which is being made over
+         Wi-Fi. [CHAR LIMIT=60] -->
+    <string name="notification_ongoing_call_wifi">"Apel Wi-Fi în desfășurare"</string>
+    <!-- The "label" of the in-call Notification for a call that's on hold -->
+    <string name="notification_on_hold">"În aşteptare"</string>
+    <!-- The "label" of the in-call Notification for an incoming ringing call. [CHAR LIMIT=60] -->
+    <string name="notification_incoming_call">"Apel de intrare"</string>
+    <!-- The "label" of the in-call Notification for an incoming ringing call,
+         which is being made over Wi-Fi. [CHAR LIMIT=60] -->
+    <string name="notification_incoming_call_wifi">"Apel prin Wi-Fi primit"</string>
+    <!-- The "label" of the in-call Notification for an incoming ringing video call. -->
+    <string name="notification_incoming_video_call">"Apel video primit"</string>
+    <!-- The "label" of the in-call Notification for upgrading an existing call to a video call. -->
+    <string name="notification_requesting_video_call">"Solicitare de trecere la apel video"</string>
+    <!-- Label for the "Voicemail" notification item, when expanded. -->
+    <string name="notification_voicemail_title">"Mesaj vocal nou"</string>
+    <!-- Label for the expanded "Voicemail" notification item,
+         including a count of messages. -->
+    <string name="notification_voicemail_title_count">"Mesaj vocal nou (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <!-- Message displayed in the "Voicemail" notification item, allowing the user
+         to dial the indicated number. -->
+    <string name="notification_voicemail_text_format">"Apelați <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <!-- Message displayed in the "Voicemail" notification item,
+         indicating that there's no voicemail number available -->
+    <string name="notification_voicemail_no_vm_number">"Număr mesagerie vocală necunoscut"</string>
+    <!-- Label for the "No service" notification item, when expanded. -->
+    <string name="notification_network_selection_title">"Fără serviciu"</string>
+    <!-- Label for the expanded "No service" notification item, including the
+         operator name set by user -->
+    <string name="notification_network_selection_text">"Reţeaua selectată (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) nu este disponibilă"</string>
+    <!-- Label for the "Answer call" action. This is the displayed label for the action that answers
+         an incoming call. [CHAR LIMIT=12] -->
+    <string name="notification_action_answer">"Răspundeți"</string>
+    <!-- Label for "end call" Action.
+         It is displayed in the "Ongoing call" notification, which is shown
+         when the user is outside the in-call screen while the phone call is still
+         active. [CHAR LIMIT=12] -->
+    <string name="notification_action_end_call">"Încheiaţi apelul"</string>
+    <!-- Label for "Video Call" notification action. This is a displayed on the notification for an
+         incoming video call, and answers the call as a video call. [CHAR LIMIT=12] -->
+    <string name="notification_action_answer_video">"Videoclip"</string>
+    <!-- Label for "Voice" notification action. This is a displayed on the notification for an
+         incoming video call, and answers the call as an audio call. [CHAR LIMIT=12] -->
+    <string name="notification_action_answer_voice">"Voce"</string>
+    <!-- Label for "Accept" notification action. This is somewhat generic, and may refer to
+         scenarios such as accepting an incoming call or accepting a video call request.
+         [CHAR LIMIT=12] -->
+    <string name="notification_action_accept">"Acceptați"</string>
+    <!-- Label for "Dismiss" notification action. This is somewhat generic, and may refer to
+         scenarios such as declining an incoming call or declining a video call request.
+         [CHAR LIMIT=12] -->
+    <string name="notification_action_dismiss">"Renunțați"</string>
+    <!-- Message for "call back" Action, which is displayed in the missed call notification.
+         The user will be able to call back to the person or the phone number.
+         [CHAR LIMIT=12] -->
+    <string name="notification_missedCall_call_back">"Sunaţi înapoi"</string>
+    <!-- Message for "reply via sms" action, which is displayed in the missed call notification.
+         The user will be able to send text messages using the phone number.
+         [CHAR LIMIT=12] -->
+    <string name="notification_missedCall_message">"Mesaj"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_power_off">"Pentru a efectua un apel, mai întâi dezactivaţi modul Avion."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog.
+         This string is currently unused (see comments in InCallActivity.java.) -->
+    <string name="incall_error_emergency_only">"Neînregistrat în reţea."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_out_of_service">"Rețeaua mobilă nu este disponibilă"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_no_phone_number_supplied">"Pentru a apela, introduceți un număr valid."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_call_failed">"Nu se poate apela."</string>
+    <!-- In-call screen: status message displayed in a dialog when starting an MMI -->
+    <string name="incall_status_dialed_mmi">"Se porneşte secvenţa MMI..."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_unknown">"Serviciul nu este acceptat."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_switch">"Apelurile nu pot fi comutate."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_separate">"Apelul nu poate fi separat."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_transfer">"Nu se poate transfera."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_conference">"Conferința telefonică nu poate fi inițiată."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_reject">"Apelul nu poate fi respins."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_hangup">"Apelurile nu pot fi eliberate."</string>
+    <!-- In-call screen: "call type" indication for a SIP call [CHAR LIMIT=30]  -->
+    <string name="incall_call_type_label_sip">"apel SIP"</string>
+    <!-- Dialog title for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_title">"Apel de urgenţă"</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_message">"Se activează semnalul radio..."</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_retry">"Fără semnal. Se încearcă din nou..."</string>
+    <!-- Dialer text on Emergency Dialer -->
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_error">"Nu se poate apela. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> nu este un număr de urgență."</string>
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_empty_error">"Nu se poate apela. Formați un număr de urgență."</string>
+    <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
+         to dial using the physical keyboard -->
+    <string name="dialerKeyboardHintText">"Utilizaţi tastatura pentru a forma"</string>
+    <!-- Text for the onscreen "Hold" button when it is not selected. Pressing it will put
+         the call on hold. -->
+    <string name="onscreenHoldText_unselected">"Puneți apelul în așteptare"</string>
+    <!-- Text for the onscreen "Hold" button when it is selected. Pressing it will resume
+         the call from a previously held state. -->
+    <string name="onscreenHoldText_selected">"Reluați apelul"</string>
+    <!-- Text for the onscreen "End call" button -->
+    <string name="onscreenEndCallText">"Încheiați apelul"</string>
+    <!-- Text for the onscreen "Show Dialpad" button -->
+    <string name="onscreenShowDialpadText">"Tastatură numerică"</string>
+    <!-- Text for the onscreen "Mute" button -->
+    <string name="onscreenMuteText">"Dezactivaţi sunetul"</string>
+    <!-- Text for the onscreen "Add call" button -->
+    <string name="onscreenAddCallText">"Adăugaţi un apel"</string>
+    <!-- Text for the onscreen "Merge calls" button -->
+    <string name="onscreenMergeCallsText">"Îmbinaţi apelurile"</string>
+    <!-- Text for the onscreen "Swap calls" button -->
+    <string name="onscreenSwapCallsText">"Schimbaţi"</string>
+    <!-- Text for the onscreen "Manage calls" button -->
+    <string name="onscreenManageCallsText">"Gestionaţi apelurile"</string>
+    <!-- Text for the onscreen "Manage conference" button [CHAR LIMIT=30] -->
+    <string name="onscreenManageConferenceText">"Gestionați teleconferința"</string>
+    <!-- Text for the onscreen "Audio" button that lets you switch
+         between speaker / bluetooth / earpiece [CHAR LIMIT=10] -->
+    <string name="onscreenAudioText">"Audio"</string>
+    <!-- Text for the onscreen "Video call" button used to change a voice call
+         to a video call. [CHAR LIMIT=10] -->
+    <string name="onscreenVideoCallText">"Apel video"</string>
+    <!-- Text for the onscreen "Change to voice" button. When clicked, this downgrades a video call
+         to a voice call. -->
+    <string name="onscreenChangeToVoiceText">"Treceți la apel vocal"</string>
+    <!-- Text for the onscreen "Switch camera" button. When clicked, this switches the user's camera
+         for video calling between the front-facing camera and the back-facing camera. -->
+    <string name="onscreenSwitchCameraText">"Comutați camera foto"</string>
+    <!-- Text for the onscreen "Pause video" button. -->
+    <string name="onscreenPauseVideoText">"Întrerupeți videoclipul"</string>
+    <!-- Text for the onscreen overflow button, to see additional actions which can be done. -->
+    <string name="onscreenOverflowText">"Mai multe opțiuni"</string>
+    <!-- Message indicating that Video Started flowing for IMS-VT calls -->
+    <string name="player_started">"Player pornit"</string>
+    <!-- Message indicating that Video Stopped flowing for IMS-VT calls -->
+    <string name="player_stopped">"Player oprit"</string>
+    <!-- Message indicating that camera failure has occurred for the selected camera and
+         as result camera is not ready -->
+    <string name="camera_not_ready">"Camera nu este pregătită"</string>
+    <!-- Message indicating that camera is ready/available -->
+    <string name="camera_ready">"Cameră pregătită"</string>
+    <!-- Message indicating unknown call session event -->
+    <string name="unknown_call_session_event">"Eveniment sesiune de apel necunoscută"</string>
+    <!-- Preference for Voicemail service provider under "Voicemail" settings.
+         [CHAR LIMIT=40] -->
+    <string name="voicemail_provider">"Servicii"</string>
+    <!-- Preference for Voicemail setting of each provider.
+         [CHAR LIMIT=40] -->
+    <string name="voicemail_settings">"Configurare"</string>
+    <!-- String to display in voicemail number summary when no voicemail num is set -->
+    <string name="voicemail_number_not_set">"&lt;Nesetat&gt;"</string>
+    <!-- Title displayed above settings coming after voicemail in the call features screen -->
+    <string name="other_settings">"Alte setări de apel"</string>
+    <!-- Title displayed in the overlay for outgoing calls which include the name of the provider.
+         [CHAR LIMIT=40] -->
+    <string name="calling_via_template">"Se apelează prin <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <!-- Title displayed in the overlay for incoming calls which include the name of the provider.
+         [CHAR LIMIT=40] -->
+    <string name="incoming_via_template">"Primite prin <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <!-- Use this as a default to describe the contact photo; currently for screen readers through accessibility. -->
+    <string name="contactPhoto">"fotografie persoană din agendă"</string>
+    <!-- Use this to describe the separate conference call button; currently for screen readers through accessibility. -->
+    <string name="goPrivate">"trecerea la modul privat"</string>
+    <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
+    <string name="selectContact">"selectarea unei persoane din agendă"</string>
+    <!-- "Respond via SMS" option that lets you compose a custom response. [CHAR LIMIT=30] -->
+    <string name="respond_via_sms_custom_message">"Scrieți propriul răspuns\u2026"</string>
+    <!-- "Custom Message" Cancel alert dialog button -->
+    <string name="custom_message_cancel">"Anulați"</string>
+    <!-- "Custom Message" Send alert dialog button -->
+    <string name="custom_message_send">"Trimiteți"</string>
+    <!-- Description of the answer target in the Slide unlock screen of Phone. [CHAR LIMIT=NONE] -->
+    <string name="description_target_answer">"Răspundeţi"</string>
+    <!-- Description of the send_sms target in the Slide unlock screen of Phone. [CHAR LIMIT=NONE] -->
+    <string name="description_target_send_sms">"Trimiteţi SMS"</string>
+    <!-- Description of the decline target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline">"Refuzaţi"</string>
+    <!-- Description of the target to answer a call as a video call in the Slide unlock screen.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_answer_video_call">"Răspundeți ca apel video"</string>
+    <!-- Description of the target to answer a call as an audio call in the Slide unlock screen.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_answer_audio_call">"Răspundeți ca apel audio"</string>
+    <!-- Description of the target to accept a request to upgrade from an audio call to a video call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_accept_upgrade_to_video_request">"Acceptați solicitarea de a trece la apel video"</string>
+    <!-- Description of the target to decline a request to upgrade from an audio call to a video call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline_upgrade_to_video_request">"Refuzați solicitarea de a trece la apel video"</string>
+    <!-- Description of the target to accept a request to upgrade from any call to a video transmit call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_accept_upgrade_to_video_transmit_request">"Acceptați cererea de transmitere video"</string>
+    <!-- Description of the target to decline a request to upgrade from any call to a video transmit call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline_upgrade_to_video_transmit_request">"Respingeți cererea de transmitere video"</string>
+        <!-- Description of the target to accept a request to upgrade from any call to a video receive call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_accept_upgrade_to_video_receive_request">"Acceptați cererea de primire video"</string>
+    <!-- Description of the target to decline a request to upgrade from any call to a video receive call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline_upgrade_to_video_receive_request">"Respingeți cererea de primire video"</string>
+    <!-- Description of the up direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_up">"Glisați în sus pentru <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>."</string>
+    <!-- Description of the left direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_left">"Glisați spre stânga pentru <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>."</string>
+    <!-- Description of the right direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_right">"Glisați spre dreapta pentru <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>."</string>
+    <!-- Description of the down direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_down">"Glisați în jos pentru <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>."</string>
+    <!-- Dialog title for the vibration settings for voicemail notifications [CHAR LIMIT=40] -->
+    <string name="voicemail_notification_vibrate_when_title" msgid="8731372580674292759">"Vibraţii"</string>
+    <!-- Dialog title for the vibration settings for voice mail notifications [CHAR LIMIT=40]-->
+    <string name="voicemail_notification_vibarte_when_dialog_title" msgid="8995274609647451109">"Vibraţii"</string>
+    <!-- Voicemail ringtone title. The user clicks on this preference to select
+         which sound to play when a voicemail notification is received.
+         [CHAR LIMIT=30] -->
+    <string name="voicemail_notification_ringtone_title">"Sunet"</string>
+    <!--  The string used to describe a notification if it is the default one in the system. For
+          example, if the user selects the default notification, it will appear as something like
+          Default sound(Capella) in the notification summary.
+          [CHAR LIMIT=40] -->
+    <string name="default_notification_description">"Sunet prestabilit (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+    <string name="menu_start_record">"Înregistrează apel"</string>
+    <string name="menu_stop_record">"Oprire înregistrare"</string>
+    <string name="recording_time_text">"Se înregistrează"</string>
+    <string name="volume_boost_notify_enabled">"Amplificare volum ACTIVATĂ."</string>
+    <string name="volume_boost_notify_disabled">"Amplificare volum DEZACTIVATĂ."</string>
+    <string name="volume_boost_notify_unavailable">"Nu este disponibil volum suplimentar la utilizarea căștilor cu fir/Bluetooth."</string>
+    <!-- Setting option name to pick ringtone (a list dialog comes up). [CHAR LIMIT=30] -->
+    <string name="ringtone_title" msgid="5379026328015343686">"Ton de sonerie telefon"</string>
+    <!-- Setting option name to enable or disable vibration when ringing
+         the phone.
+         [CHAR LIMIT=30] -->
+    <string name="vibrate_on_ring_title">"Vibrează când sună"</string>
+    <!-- Title for the category "ringtone", which is shown above ringtone and vibration
+         related settings.
+         [CHAR LIMIT=30] -->
+    <string name="preference_category_ringtone">"Ton de sonerie și vibrare"</string>
+    <!-- Label for "Manage conference call" panel [CHAR LIMIT=40] -->
+    <string name="manageConferenceLabel">"Gestionaţi teleconferinţa"</string>
+    <!-- This can be used in any application wanting to disable the text "Emergency number" -->
+    <string name="emergency_call_dialog_number_for_display">"Urgență"</string>
+    <!-- Phrase describing a time duration using seconds [CHAR LIMIT=16] -->
+    <plurals name="duration_seconds">
+        <item quantity="one">"O secundă"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (de) secunde"</item>
+    </plurals>
+    <!-- Phrase describing a time duration using minutes [CHAR LIMIT=16] -->
+    <plurals name="duration_minutes">
+        <item quantity="one">"Un minut"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (de) minute"</item>
+    </plurals>
+    <!-- Phrase describing a time duration using hours [CHAR LIMIT=16] -->
+    <plurals name="duration_hours">
+        <item quantity="one">"O oră"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (de) ore"</item>
+    </plurals>
+    <!-- Description of the profile photo shown when the device's camera is disabled udring a video
+        call. [CHAR LIMIT=NONE] -->
+    <string name="profile_photo_description">"Fotografie de profil"</string>
+    <!-- Description of the "camera off" icon displayed when the device's camera is disabled during
+         a video call. [CHAR LIMIT=NONE] -->
+    <string name="camera_off_description">"Camera este oprită"</string>
+    <!-- Title for Select Account Dialog [CHAR LIMIT=30] -->
+    <string name="select_account_dialog_title">"Selectați un cont"</string>
+    <!-- Set Subscription screen: label sub 1 -->
+    <string name="sub_1">"SUB 1"</string>
+    <!-- Set Subscription screen: label sub 2 -->
+    <string name="sub_2">"SUB 2"</string>
+    <!-- Used to inform the user that a call was received via a number other than the primary
+        phone number associated with their device. [CHAR LIMIT=16] -->
+    <string name="child_number">"pe <xliff:g id="CHILD_NUMBER">%s</xliff:g>"</string>
+    <!-- Used to inform the user that the note associated with an outgoing call has been sent.
+         [CHAR LIMIT=32] -->
+    <!--Begin add for RCS -->
+    <string name="onscreenMoreMenuText">"Meniu Mai multe"</string>
+    <string name="note_sent">"Nota a fost trimisă"</string>
+    <string name="call_state_dialing">"Apelează"</string>
+    <string name="call_state_holding">"Menţinere"</string>
+    <string name="call_state_active">"Activ"</string>
+    <string name="call_state_unknown">"Necunoscut"</string>
+    <string name="call_state_disconnecting">"Deconectare"</string>
+    <string name="call_state_disconnected">"Deconectată"</string>
+    <string name="video_call_downgrade_without_lte_toast">"Calitatea apelului scade în afara ariei de acoperire LTE."</string>
+    <string name="display_rich_screen">"Afișați ecran bogat?"</string>
+    <string name="rcs_missdnaddress_string">"Adresă DN lipsă:"</string>
+    <string name="rcs_greeting_string">"Mesaj de întâmpinare:"</string>
+    <!--End add for RCS-->
+    <string name="toast_change_video_call_failed">"Nu se poate trece la apel video, format de număr incorect"</string>
+    <string name="toast_make_video_call_failed">"Nu se poate efectua apelul video, format număr incorect"</string>
+    <!-- Add for enhance videocall ui -->
+    <string name="overflowBothCallMenuItemText">"Apel video, afișează-mă"</string>
+    <string name="overflowRXCallMenuItemText">"Apel video, ascunde-mă"</string>
+    <string name="overflowVOCallMenuItemText">"Apel vocal"</string>
+    <string name="toast_video_call_upgrade">"nu poate accepta apeluri video în acest moment!"</string>
+    <string name="toast_video_call_downgrade_to_voice_call">"Apelarea video este disponibilă momentan doar prin rețelele LTE și Wi-Fi de înaltă viteză"</string></resources>

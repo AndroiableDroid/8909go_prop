@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Choices for timezone picker first level.
+         These values will be used as search terms for TimeZone displayName
+         strings. -->
+    <!-- The time zone picker screen has two levels.  The first level allows the user to choose a region. -->
+    <string-array name="timezone_filters">
+    <!-- The next level of the time zoner picker should show time zones from the Americas. -->
+        <item>"ອາ​ເມລິ​ກາ"</item>
+    <!-- The next level of the time zoner picker should show time zones from Europe. -->
+        <item>"ຢູໂຣບ"</item>
+    <!-- The next level of the time zoner picker should show time zones from Africa. -->
+        <item>"ອາ​ຟຣິກ​ກາ"</item>
+    <!-- The next level of the time zoner picker should show time zones from Asia. -->
+        <item>"ເອເຊຍ"</item>
+    <!-- The next level of the time zoner picker should show time zones from Australia. -->
+        <item>"ອອສເຕຣເລຍ"</item>
+    <!-- The next level of the time zoner picker should show time zones from Pacific. -->
+        <item>"ແປຊິຟິກ"</item>
+    <!-- The next level of the time zoner picker should show time zones from ALL regions. -->
+        <item>"ທັງໝົດ"</item>
+    </string-array>
+    <!-- Display settings.  The delay in inactivity before the screen is turned off. These are shown in a list dialog. -->
+    <string-array name="screen_timeout_entries">
+        <item>"15 ວິນາທີ"</item>
+        <item>"30 ວິນາທີ"</item>
+        <item>"1 ນາ​ທີ"</item>
+        <item>"2 ນາທີ"</item>
+        <item>"5 ນາ​ທີ"</item>
+        <item>"10 ນາ​ທີ"</item>
+        <item>"30 ນາທີ"</item>
+    </string-array>
+    <!-- Display settings.  The delay in inactivity before the dream is shown. These are shown in a list dialog. -->
+    <string-array name="dream_timeout_entries">
+        <item>"ບໍ່ມີກຳນົດ"</item>
+        <item>"15 ວິນາທີ"</item>
+        <item>"30 ວິ​ນາ​ທີ"</item>
+        <item>"1 ນາທີ"</item>
+        <item>"2 ນາ​ທີ"</item>
+        <item>"5 ນາ​ທີ"</item>
+        <item>"10 ນາທີ"</item>
+        <item>"30 ນາ​ທີ"</item>
+    </string-array>
+    <!-- Security settings.  The delay after screen is turned off until device locks.
+         These are shown in a list dialog. -->
+    <string-array name="lock_after_timeout_entries">
+        <item>"ທັນທີ"</item>
+        <item>"5 ວິນາທີ"</item>
+        <item>"15 ວິ​ນາ​ທີ"</item>
+        <item>"30 ວິນາທີ"</item>
+        <item>"1 ນາ​ທີ"</item>
+        <item>"2 ນາ​ທີ"</item>
+        <item>"5 ນາທີ"</item>
+        <item>"10 ນາທີ"</item>
+        <item>"30 ນາທີ"</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item msgid="6490061470416867723">"ນ້ອຍ"</item>
+        <item msgid="3579015730662088893">"ປົກກະຕິ"</item>
+        <item msgid="1678068858001018666">"ຂະໜາດໃຫຍ່"</item>
+        <item msgid="490158884605093126">"ຂະໜາດໃຫຍ່ໂຕ"</item>
+    </string-array>
+    <!-- TTS settings -->
+    <!-- Default speech rate choices -->
+    <string-array name="tts_rate_entries">
+        <item>"ຊ້າຫຼາຍ"</item>
+        <item>"ຊ້າ"</item>
+        <item>"ປົກກະຕິ"</item>
+        <item>"ໄວ"</item>
+        <item>"ໄວຂຶ້ນ"</item>
+        <item>"ໄວຫຼາຍ"</item>
+        <item>"ໄວຫຼາຍຂຶ້ນອີກ"</item>
+        <item>"ໄວສຸດໆ"</item>
+        <item>"ໄວທີ່ສຸດ"</item>
+    </string-array>
+    <!-- Do not translate. -->
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
+    <!-- Default pitch choices -->
+    <string-array name="tts_pitch_entries">
+        <item>"ຕ່ຳຫຼາຍ"</item>
+        <item>"ຕ່ຳ"</item>
+        <item>"ປົກກະຕິ"</item>
+        <item>"ສູງ"</item>
+        <item>"ສູງຫຼາຍ"</item>
+    </string-array>
+    <!-- Do not translate. -->
+    <string-array name="tts_pitch_values">
+        <item>50</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+    </string-array>
+    <!-- Wi-Fi settings -->
+    <!-- Match this with the order of NetworkInfo.DetailedState. -->
+    <!-- Wi-Fi settings. The status messages when the network is unknown. -->
+    <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>"ກຳລັງສະແກນ..."</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
+        <item>"ກຳລັງເຊື່ອມຕໍ່..."</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
+        <item>"ກຳລັງພິສູດຢືນຢັນ..."</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
+        <item>"ກຳລັງຂໍທີ່ຢູ່ IP..."</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
+        <item>"ເຊື່ອມຕໍ່ແລ້ວ"</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>"ຖືກລະງັບໄວ້"</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
+        <item>"ກຳລັງຕັດການເຊື່ອມຕໍ່..."</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>"ບໍ່ໄດ້ເຊື່ອມຕໍ່"</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>"ບໍ່ສຳເລັດ"</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>"ບລັອກແລ້ວ"</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>"ຫຼີກເວັ້ນການເຊື່ອມຕໍ່ຊົ່ວຄາວຫາກສັນຍານບໍ່ແຮງພໍ"</item>
+    </string-array>
+    <!-- Match this with the order of NetworkInfo.DetailedState. -->
+    <!-- Wi-Fi settings. The status messages when the network is known. -->
+    <string-array name="wifi_status_with_ssid">
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>"ກຳລັງຊອກຫາສັນຍານ..."</item>
+        <!-- Status message of Wi-Fi when it is connecting to a network. -->
+        <item>"ກຳລັງເຊື່ອມຕໍ່ <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <!-- Status message of Wi-Fi when it is authenticating with a network. -->
+        <item>"ກຳລັງກວດສອບສິດທິກັບ <xliff:g id="NETWORK_NAME">%1$s</xliff:g>..."</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address from a network. -->
+        <item>"ກຳລັງຂໍທີ່ຢູ່ IP ຈາກ <xliff:g id="NETWORK_NAME">%1$s</xliff:g>..."</item>
+        <!-- Status message of Wi-Fi when it is connected to a network. -->
+        <item>"ເຊື່ອມ​ຕໍ່​ກັບ <xliff:g id="NETWORK_NAME">%1$s</xliff:g> ແລ້ວ"</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>"ຖືກລະງັບແລ້ວ"</item>
+        <!-- Status message of Wi-Fi when it is disconnecting from a network. -->
+        <item>"ກຳລັງຕັດການເຊື່ອມຕໍ່ຈາກ <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>"ປິດການເຊື່ອມຕໍ່ແລ້ວ"</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>"ບໍ່ສຳເລັດ"</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>"ປິດກັ້ນແລ້ວ"</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>"ຫຼີກເວັ້ນການເຊື່ອມຕໍ່ເຄືອຂ່າຍສັນຍານອ່ອນຊົ່ວຄາວ"</item>
+    </string-array>
+    <!-- Match this with the constants in AccessPoint. -->
+    <!-- Wi-Fi security choices used when manually added a Wi-Fi network -->
+    <string-array name="wifi_security">
+        <!-- The Wi-Fi network does not have any security. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wep</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_generic</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_eap</item>
+    </string-array>
+    <!-- Match this with the constants in AccessPoint. -->
+    <!-- Wi-Fi security types for New User Dialog. EAP is not configurable. -->
+    <string-array name="wifi_security_no_eap">
+        <!-- The Wi-Fi network does not have any security. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wep</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_generic</item>
+    </string-array>
+   <!-- Wi-Fi AP settings.  The type of security a Wi-Fi AP supports. -->
+   <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_ap_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wpa2</item>
+    </string-array>
+    <!-- Match this with the constants in WifiDialog. -->
+    <!-- Wi-Fi settings.  The type of EAP method a Wi-Fi network has. -->
+    <string-array name="wifi_eap_method">
+        <!-- Do not translate. -->
+        <item>PEAP</item>
+        <!-- Do not translate. -->
+        <item>TLS</item>
+        <!-- Do not translate. -->
+        <item>TTLS</item>
+        <!-- Do not translate. -->
+        <item>PWD</item>
+        <!-- Do not translate. -->
+        <item>SIM</item>
+        <!-- Do not translate. -->
+        <item>AKA</item>
+        <!-- Do not translate. -->
+        <item>AKA\'</item>
+    </string-array>
+    <!-- Match this with the constants in WifiDialog by carrier function. -->
+    <!-- Wi-Fi settings.  The type of EAP method a Wi-Fi network has. -->
+    <string-array name="wifi_eap_method_carrier_function">
+        <!-- Do not translate. -->
+        <item>PEAP</item>
+        <!-- Do not translate. -->
+        <item>SIM</item>
+    </string-array>
+    <!-- Type of EAP method when EAP SIM, AKA, AKA' are not supported -->
+    <string-array name="eap_method_without_sim_auth">
+        <!-- Do not translate. -->
+        <item>PEAP</item>
+        <!-- Do not translate. -->
+        <item>TLS</item>
+        <!-- Do not translate. -->
+        <item>TTLS</item>
+        <!-- Do not translate. -->
+        <item>PWD</item>
+    </string-array>
+   <!-- Wi-Fi AP band settings.  Either 2.4GHz or 5GHz. -->
+   <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_ap_band_config_full">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_band_config_2G_only">
+        <item>@string/wifi_ap_choose_2G</item>
+    </string-array>
+   <!-- Wi-Fi WPS setup for p2p connections.  -->
+   <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_p2p_wps_setup">
+        <!-- Push button based configuration involves pushing a button on two connecting devices [CHAR LIMIT=30]-->
+        <item>"ປຸ່ມ Push"</item>
+        <!-- This involves entering a pin obtained from a peer device [CHAR LIMIT=30] -->
+        <item>"PIN ຈາກອຸປະກອນທີ່ເຊື່ອມຕໍ່ກັນ"</item>
+        <!-- This involves generating a pin from this device [CHAR LIMIT=20] -->
+        <item>"PIN ຈາກ​ອຸ​ປະ​ກອນ​ນີ້"</item>
+    </string-array>
+    <!-- Match this with the order of WifiP2pDevice.Status -->
+    <!-- Wi-Fi p2p settings device status message -->
+    <string-array name="wifi_p2p_status">
+        <item>"ເຊື່ອມ​ຕໍ່ແລ້ວ"</item>
+        <item>"ເຊີນແລ້ວ"</item>
+        <item>"ບໍ່ສຳເລັດ"</item>
+        <item>"ສາມາດໃຊ້ໄດ້"</item>
+        <item>"ຢູ່ນອກໄລຍະສັນຍານ"</item>
+   </string-array>
+    <!-- Bluetooth Settings -->
+    <!-- Discoverable mode timeout options -->
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>"2 ນາ​ທີ"</item>
+        <item>"5 ນາທີ"</item>
+        <item>"1 ຊົ່ວ​ໂມງ"</item>
+        <item>"ບໍ່ມີໝົດເວລາ"</item>
+    </string-array>
+    <!-- Match this with drawable.wifi_signal. -->
+    <!-- Wi-Fi settings. The signal strength a Wi-Fi network has. -->
+    <string-array name="wifi_signal">
+        <item>"ອ່ອນ"</item>
+        <item>"ພໍໃຊ້"</item>
+        <item>"ດີ"</item>
+        <item>"ດີເລີດ"</item>
+    </string-array>
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi sleep policy. -->
+    <string-array name="wifi_sleep_policy_entries">
+        <!-- Always keep Wi-Fi on when screen turns off. -->
+        <item>"ຕະຫຼອດເວລາ"</item>
+        <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->
+        <item>"ສະເພາະເມື່ອສຽບສາຍສາກ"</item>
+        <!-- Do not keep Wi-Fi on when screen turns off.  [CHAR LIMIT=40] -->
+        <item>"ບໍ່ໃຊ້"</item>
+    </string-array>
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi sleep policy. Used when
+         the device is Wi-Fi-only. [CHAR LIMIT=30] -->
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <!-- Always keep Wi-Fi on when screen turns off. -->
+        <item>"ຕະຫຼອດເວລາ"</item>
+        <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->
+        <item>"ສະເພາະເມື່ອສຽບສາຍສາກເທົ່ານັ້ນ"</item>
+        <!-- Do not keep Wi-Fi on when screen turns off, for Wi-Fi-only devices, no other data connection -->
+        <item>"ບໍ່ໃຊ້"</item>
+    </string-array>
+    <!-- Match with wifi_sleep_policy_entries and the values of the settings in Settings class. -->
+    <!-- Do not translate. -->
+    <string-array name="wifi_sleep_policy_values">
+        <!-- Do not translate. -->
+        <item>2</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>0</item>
+    </string-array>
+    <!-- Data Usage settings. Range of data usage. -->
+    <string-array name="data_usage_data_range">
+        <!-- Last 30 days [CHAR LIMIT=25]-->
+        <item>"30 ມື້ທີ່ຜ່ານມາ"</item>
+        <!-- Set usage cycle [CHAR LIMIT=25]-->
+        <item>"ຕັ້ງ​ຮອບ​ການ​ນຳ​ໃຊ້..."</item>
+    </string-array>
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi frequency band. -->
+    <string-array name="wifi_frequency_band_entries">
+        <!-- Operation on both 2.4 GHz and 5 GHz [CHAR LIMIT=25]-->
+        <item>"ອັດຕະໂນມັດ"</item>
+        <!-- Operation on 5 GHz alone [CHAR LIMIT=25]-->
+        <item>"5 GHz ເທົ່ານັ້ນ"</item>
+        <!-- Operation on 2.4 GHz alone [CHAR LIMIT=25]-->
+        <item>"2.4 GHz ເທົ່ານັ້ນ"</item>
+    </string-array>
+    <!-- Match with wifi_frequency_band_entries and the values of the settings in WifiManager. -->
+    <!-- Do not translate. -->
+    <string-array name="wifi_frequency_band_values">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>2</item>
+    </string-array>
+    <!-- Display options for UsageStats class -->
+    <string-array name="usage_stats_display_order_types">
+        <item>"ໄລຍະເວລາການນຳໃຊ້"</item>
+        <item>"ໃຊ້​ເທື່ອ​ສຸດ​ທ້າຍ"</item>
+        <item>"ຊື່ແອັບຯ"</item>
+    </string-array>
+    <!-- EAP method -->
+    <string-array name="wifi_eap_entries">
+        <item>"PEAP"</item>
+        <item>"TLS"</item>
+        <item>"TTLS"</item>
+        <item>"PWD"</item>
+    </string-array>
+    <!-- Phase 2 options for PEAP -->
+    <string-array name="wifi_peap_phase2_entries">
+        <item>"ບໍ່ໃຊ້"</item>
+        <item>"MSCHAPV2"</item>
+        <item>"GTC"</item>
+    </string-array>
+    <!-- Phase 2 options for rest of EAP methods -->
+    <string-array name="wifi_phase2_entries">
+        <item>"ບໍ່ໃຊ້"</item>
+        <item>"PAP"</item>
+        <item>"MSCHAP"</item>
+        <item>"MSCHAPV2"</item>
+        <item>"GTC"</item>
+    </string-array>
+    <!-- Wi-Fi IP settings. -->
+   <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_ip_settings">
+        <!-- Use DHCP (Dynamic Host Configuration Protocol) for obtaining IP settings [CHAR LIMIT=25] -->
+        <item>"DHCP"</item>
+        <!-- Use statically defined IP settings [CHAR LIMIT=25]-->
+        <item>"ຄົງທີ່"</item>
+    </string-array>
+    <!-- Wi-Fi proxy settings. -->
+    <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_proxy_settings">
+        <!-- No HTTP proxy is used for the current wifi network [CHAR LIMIT=25] -->
+        <item>"ບໍ່ໃຊ້"</item>
+        <!-- Manual HTTP proxy settings are used for the current wifi network [CHAR LIMIT=25] -->
+        <item>"ຕັ້ງຄ່າເອງ"</item>
+        <!-- Proxy Auto-Config URL that is used for the current wifi network [CHAR LIMIT=25] -->
+        <item>"ຕັ້ງຄ່າ​ພຣັອກ​ຊີ​ອັດຕະໂນມັດ"</item>
+    </string-array>
+    <!-- Authentication Types used in APN editor -->
+    <string-array name="apn_auth_entries">
+        <item>"ບໍ່ມີ"</item>
+        <item>"PAP"</item>
+        <item>"CHAP"</item>
+        <item>"PAP ຫຼື CHAP"</item>
+    </string-array>
+    <!-- Authentication Types used in APN editor -->
+    <string-array name="apn_protocol_entries">
+        <item>"IPv4"</item>
+        <item>"IPv6"</item>
+        <item>"IPv4/IPv6"</item>
+    </string-array>
+    <!-- Bearer Info used in APN editor -->
+    <string-array name="bearer_entries">
+        <item>"ບໍ່ໄດ້ລະບຸ"</item>
+        <item>"LTE"</item>
+        <item>"HSPAP"</item>
+        <item>"HSPA"</item>
+        <item>"HSUPA"</item>
+        <item>"HSDPA"</item>
+        <item>UMTS</item>
+        <item>"EDGE"</item>
+        <item>"GPRS"</item>
+        <item>eHRPD</item>
+        <item>"EVDO_B"</item>
+        <item>"EVDO_A"</item>
+        <item>"EVDO_0"</item>
+        <item>1xRTT</item>
+        <item>"IS95B"</item>
+        <item>"IS95A"</item>
+    </string-array>
+    <!-- MVNO Info used in APN editor -->
+    <string-array name="mvno_type_entries">
+        <item>"ບໍ່ໃຊ້"</item>
+        <!-- Do not translate. -->
+        <item>SPN</item>
+        <!-- Do not translate. -->
+        <item>IMSI</item>
+        <!-- Do not translate. -->
+        <item>GID</item>
+        <!-- Do not translate. -->
+        <item>ICCID</item>
+    </string-array>
+    <!-- Apps on SD installation location options in ApplicationSettings -->
+    <string-array name="app_install_location_entries">
+        <item>"ພື້ນທີ່ຈັດເກັບຂໍ້ມູນພາຍໃນອຸປະກອນ"</item>
+        <item>"ແຜ່ນ SD ທີ່ຖອດອອກໄດ້"</item>
+        <item>"ໃຫ້ລະບົບຕັດສິນໃຈ"</item>
+    </string-array>
+    <!-- Names of categories of app ops tabs -->
+    <string-array name="app_ops_categories">
+        <item>"ສະຖານທີ່"</item>
+        <item>"ສ່ວນຕົວ"</item>
+        <item>"ຂໍ້ຄວາມ"</item>
+        <item>"ມີເດຍ"</item>
+        <item>"ອຸປະກອນ"</item>
+    </string-array>
+    <!-- User display names for app ops codes -->
+    <string-array name="app_ops_summaries">
+        <item>"ຕຳແໜ່ງໂດຍປະມານ"</item>
+        <item>"ທີ່ຕັ້ງຖືກຕ້ອງ"</item>
+        <item>"GPS"</item>
+        <item>"ສັ່ນເຕືອນ"</item>
+        <item>"ອ່ານລາຍຊື່ຜູ່ຕິດຕໍ່"</item>
+        <item>"ແກ້ໄຂລາຍຊື່ຜູ່ຕິດຕໍ່"</item>
+        <item>"ອ່ານບັນທຶກການໂທ"</item>
+        <item>"ແກ້ໄຂບັນທຶກການໂທ"</item>
+        <item>"ອ່ານ​ປະ​ຕິ​ທິນ"</item>
+        <item>"ແກ້ໄຂປະຕິທິນ"</item>
+        <item>"ສະແກນ Wi​-Fi"</item>
+        <item>"ການແຈ້ງເຕືອນ"</item>
+        <item>"ສະແກນສະຖານີມືຖື"</item>
+        <item>"ໂທລະສັບ"</item>
+        <item>"ອ່ານ SMS"</item>
+        <item>"ຂຽນ SMS"</item>
+        <item>"ຮັບ SMS"</item>
+        <item>"ຮັບ SMS ສຸກເສີນ"</item>
+        <item>"ຮັບ SMS"</item>
+        <item>"ຮັບ WAP push"</item>
+        <item>"ສົ່ງ​ SMS"</item>
+        <item>"ອ່ານ ICC SMS"</item>
+        <item>"ຂຽນ​ ICC SMS"</item>
+        <item>"ແກ້ໄຂການຕັ້ງຄ່າ"</item>
+        <item>"ແຕ້ມໃສ່ເທິງສຸດ"</item>
+        <item>"ເຂົ້າເຖິງການແຈ້ງເຕືອນ"</item>
+        <item>"ກ້ອງຖ່າຍຮູບ"</item>
+        <item>"ບັນທຶກສຽງ"</item>
+        <item>"ຫຼິ້ນສຽງ"</item>
+        <item>"ອ່ານຄລິບບອດ"</item>
+        <item>"ແກ້ໄຂຄລິບບອດ"</item>
+        <item>"ປຸ່ມ​ມີເດຍ"</item>
+        <item>"ໂຟກັສສຽງ"</item>
+        <item>"ລະດັບສຽງຫຼັກ"</item>
+        <item>"ລະດັບສຽງເວົ້າ"</item>
+        <item>"ລະດັບສຽງເຕືອນ"</item>
+        <item>"ລະດັບສຽງມີເດຍ"</item>
+        <item>"ລະດັບສຽງໂມງປຸກ"</item>
+        <item>"ລະດັບສຽງແຈ້ງເຕືອນ"</item>
+        <item>"ລະດັບສຽງ Bluetooth"</item>
+        <item>"ເຮັດວຽກຕະຫຼອດເວລາ"</item>
+        <item>"ຕຳແໜ່ງ​ຕິດ​ຕາມ"</item>
+        <item>"ຕິດຕາມສະຖານທີ່ທີ່ມີພະລັງງານສູງ"</item>
+        <item>"ໂຫຼດ​ສະ​ຖິ​ຕິ​ການ​ນຳ​ໃຊ້"</item>
+        <item>"ປິດ/ເປີດ ​ໄມ​ໂຄຣ​ໂຟນ"</item>
+        <item>"​ໂປ​ຣ​ເຈັກ​ມີ​ເດຍ"</item>
+        <item>"​​ເປີດ​ນຳ​ໃຊ້ VPN"</item>
+        <item>"ຂຽນ​ວອ​ລ​ເປ​ເປີ"</item>
+        <item>"​ໂຄງ​ຮ່າງຊ່ວຍ"</item>
+        <item>"ຮູບ​ຖ່າຍ​ໜ້າ​ຈໍ​ຊ່ວຍ"</item>
+    </string-array>
+    <!-- User display names for app ops codes -->
+    <string-array name="app_ops_labels">
+        <item>"ຕຳແໜ່ງ"</item>
+        <item>"Location"</item>
+        <item>"Location"</item>
+        <item>"ສັ່ນເຕືອນ"</item>
+        <item>"ອ່ານລາຍຊື່ຜູ່ຕິດຕໍ່"</item>
+        <item>"ແກ້ໄຂລາຍຊື່ຜູ່ຕິດຕໍ່"</item>
+        <item>"ອ່ານບັນທຶກການໂທ"</item>
+        <item>"ແກ້ໄຂບັນທຶກການໂຕ"</item>
+        <item>"ອ່ານປະຕິທິນ"</item>
+        <item>"ແກ້ໄຂປະຕິທິນ"</item>
+        <item>"ສະຖານທີ່"</item>
+        <item>"ການແຈ້ງເຕືອນໂພສ"</item>
+        <item>"Location"</item>
+        <item>"ໂທຫາໂທລະສັບ"</item>
+        <item>"ອ່ານ SMS/MMS"</item>
+        <item>"ຂຽນ SMS/MMS"</item>
+        <item>"ຮັບ SMS/MMS"</item>
+        <item>"ຮັບ SMS/MMS"</item>
+        <item>"ຮັບ SMS/MMS"</item>
+        <item>"ຮັບ SMS/MMS"</item>
+        <item>"ສົ່ງ SMS/MMS"</item>
+        <item>"ອ່ານ SMS/MMS"</item>
+        <item>"ຂຽນ SMS/MMS"</item>
+        <item>"ແກ້ໄຂການຕັ້ງຄ່າ"</item>
+        <item>"ແຕ້ມທາງ​ເທິງ"</item>
+        <item>"ເຂົ້າເຖິງການແຈ້ງເຕືອນ"</item>
+        <item>"ກ້ອງ"</item>
+        <item>"ບັນທຶກສຽງ"</item>
+        <item>"ຫຼິ້ນສຽງ"</item>
+        <item>"ອ່ານຄລິບບອດ"</item>
+        <item>"ແກ້ໄຂຄລິບບອດ"</item>
+        <item>"ປຸ່ມ​ມີເດຍ"</item>
+        <item>"ໂຟກັສສຽງ"</item>
+        <item>"ລະດັບສຽງຫຼັກ"</item>
+        <item>"ລະດັບສຽງເວົ້າ"</item>
+        <item>"ລະດັບສຽງເຕືອນ"</item>
+        <item>"ລະດັບສຽງມີເດຍ"</item>
+        <item>"ລະດັບສຽງໂມງປຸກ"</item>
+        <item>"ລະດັບສຽງແຈ້ງເຕືອນ"</item>
+        <item>"ລະດັບສຽງ Bluetooth"</item>
+        <item>"ເຮັດວຽກຕະຫຼອດເວລາ"</item>
+        <item>"ສະຖານທີ່"</item>
+        <item>"ສະຖານທີ່"</item>
+        <item>"ໂຫຼດ​ສະ​ຖິ​ຕິ​ການ​ນຳ​ໃຊ້"</item>
+        <item>"ປິດ/ເປີດ ​ໄມ​ໂຄຣ​ໂຟນ"</item>
+        <item>"​ໂປຣ​ເຈັກ​ມີ​ເດຍ"</item>
+        <item>"​​ເປີດ​ນຳ​ໃຊ້ VPN"</item>
+        <item>"ຂຽນ​ວອ​ລ​ເປ​ເປີ"</item>
+        <item>"​ໂຄງ​ຮ່າງຊ່ວຍ"</item>
+        <item>"ຮູບ​ຖ່າຍ​ໜ້າ​ຈໍ​ຊ່ວຍ"</item>
+    </string-array>
+    <!-- Titles for the list of long press timeout options. -->
+    <string-array name="long_press_timeout_selector_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
+        <item>"ສັ້ນ"</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->
+        <item>"ຂະໜາດກາງ"</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
+        <item>"ຍາວ"</item>
+    </string-array>
+    <!-- Titles for captioning typeface preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_typeface_selector_titles">
+        <item>"ຄ່າເລີ່ມຕົ້ນ"</item>
+        <item>"Sans-serif"</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>"ສະ​ບາຍໆ"</item>
+        <item>"ຂຽນເຄືອ"</item>
+        <item>"ໂຕພິມນ້ອຍ"</item>
+    </string-array>
+    <!-- Titles for captioning font size preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_font_size_selector_titles">
+        <item>"ນ້ອຍຫຼາຍ"</item>
+        <item>"ນ້ອຍ"</item>
+        <item>"ປານກາງ"</item>
+        <item>"ໃຫຍ່"</item>
+        <item>"ໃຫຍ່ຫຼາຍ"</item>
+    </string-array>
+    <!-- Titles for captioning character edge type preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>"ຄ່າເລີ່ມຕົ້ນ"</item>
+        <item>"ບໍ່ມີ"</item>
+        <item>"ເສັ້ນຂອບ"</item>
+        <item>"ເງົາ"</item>
+        <item>"ຍົກສູງຂຶ້ນ"</item>
+        <item>"ຕໍ່າລົງ"</item>
+    </string-array>
+    <!-- Titles for captioning opacity preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <!-- Titles for captioning text style preset preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_preset_selector_titles">
+        <item>"ໃຊ້​ຄ່າ​ເລີ່ມ​ຕົ້ນ​ຂອງ​ແອັບຯ"</item>
+        <item>"ສີຂາວພື້ນດຳ"</item>
+        <item>"ສີດຳພື້ນຂາວ"</item>
+        <item>"ສີເຫຼືອງພື້ນດຳ"</item>
+        <item>"ສີເຫຼືອງພື້ນຟ້າ"</item>
+        <item>"ກຳນົດເອງ"</item>
+    </string-array>
+    <!-- Titles for logd limit size selection preference. [CHAR LIMIT=14] -->
+    <string-array name="select_logd_size_titles">
+        <item>"64K"</item>
+        <item>"256K"</item>
+        <item>"1M"</item>
+        <item>"4M"</item>
+        <item>"16M"</item>
+    </string-array>
+    <!-- Titles for logd limit size lowram selection preference. [CHAR LIMIT=14] -->
+    <string-array name="select_logd_size_lowram_titles">
+        <item>"64K"</item>
+        <item>"256K"</item>
+        <item>"1M"</item>
+    </string-array>
+    <!-- Summaries for logd limit size selection preference. [CHAR LIMIT=30]-->
+    <string-array name="select_logd_size_summaries">
+        <item>"ບັບ​ເຟີ 64K ​ຕໍ່​ລັອກ"</item>
+        <item>"ບັບ​ເຟີ 256K ​ຕໍ່​ລັອກ"</item>
+        <item>"ບັບ​ເຟີ 1M ​ຕໍ່​ລັອກ"</item>
+        <item>"ບັບ​ເຟີ 4M ​ຕໍ່​ລັອກ"</item>
+        <item>"ບັບ​ເຟີ 16M ​ຕໍ່​ລັອກ"</item>
+    </string-array>
+    <!-- Titles for HDCP checking preference. [CHAR LIMIT=35] -->
+    <string-array name="hdcp_checking_titles">
+        <item>"ບໍ່ຕ້ອງກວດ"</item>
+        <item>"ກວດສອບເນື້ອຫາ DRM ເທົ່ານັ້ນ"</item>
+        <item>"ກວດສອບສະເໝີ"</item>
+    </string-array>
+    <!-- Summaries for HDCP checking preference. [CHAR LIMIT=100]-->
+    <string-array name="hdcp_checking_summaries">
+        <item>"ບໍ່ໃຊ້ການກວດສອບ HDCP"</item>
+        <item>"ໃຊ້ການກວດສອບ HDCP ສຳລັບເນື້ອຫາ DRM ເທົ່ານັ້ນ"</item>
+        <item>"ໃຊ້ການກວດສອບ HDCP ສະເໝີ"</item>
+    </string-array>
+    <!-- Titles for window animation scale preference. [CHAR LIMIT=35] -->
+    <string-array name="window_animation_scale_entries">
+        <item>"ປິດອະນິເມຊັນ"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ .5x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 1x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 1.5x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 2x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 5x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 10x"</item>
+    </string-array>
+    <!-- Titles for transition animation scale preference. [CHAR LIMIT=35] -->
+    <string-array name="transition_animation_scale_entries">
+        <item>"ປິດອະນິເມຊັນ"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ .5x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 1x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 1.5x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 2x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 5x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 10x"</item>
+    </string-array>
+    <!-- Titles for animator duration scale preference. [CHAR LIMIT=35] -->
+    <string-array name="animator_duration_scale_entries">
+        <item>"ປິດອະນິເມຊັນ"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ .5x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 1x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 1.5x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 2x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 5x"</item>
+        <item>"ຂະໜາດອະນິເມຊັນ 10x"</item>
+    </string-array>
+    <!-- Titles for overlay display devices preference. [CHAR LIMIT=35] -->
+    <string-array name="overlay_display_devices_entries">
+        <item>"ບໍ່ມີ"</item>
+        <item>"480p"</item>
+        <item>"480p (ປອດໄພ)"</item>
+        <item>720p</item>
+        <item>"720p (ປອດໄພ)"</item>
+        <item>"1080p"</item>
+        <item>"1080 (ປອດໄພ​)"</item>
+        <item>"4K"</item>
+        <item>"4K (ປອດໄພ​)"</item>
+        <item>"4K (ເພີ່ມຂຶ້ນແລ້ວ​)"</item>
+        <item>"4K (ເພີ່ມຂຶ້ນແລ້ວ, ປອດໄພ)"</item>
+        <item>"720p, 1080p (ໜ້າຈໍຄູ່)"</item>
+    </string-array>
+    <!-- Titles for OpenGL traces preference. [CHAR LIMIT=35] -->
+    <string-array name="enable_opengl_traces_entries">
+        <item>"ບໍ່ມີ"</item>
+        <item>"Logcat"</item>
+        <item>"Systrace (ກຣາບຟິກ)"</item>
+        <item>"Call stack ໃນ glGetError"</item>
+    </string-array>
+    <!-- Titles for non-rectangular clipping preference. [CHAR LIMIT=35] -->
+    <string-array name="show_non_rect_clip_entries">
+        <item>"ປິດ"</item>
+        <item>"ແຕ້ມຄລິບທີ່ບໍ່ແມ່ນສີ່ຫຼ່ຽມເປັນສີຟ້າ"</item>
+        <item>"ສະແດງຄຳສັ່ງແຕ້ມທີ່ທົດສອບເປັນສີຂຽວ"</item>
+    </string-array>
+    <!-- Titles for frame time tracking preference. [CHAR LIMIT=35] -->
+    <string-array name="track_frame_time_entries">
+        <item>"ປິດ"</item>
+        <item>"ເປັນແຖບເທິງໜ້າຈໍ"</item>
+        <item>"ສະແດງຢູ່ໃນ adb shell dumpsys gfxinfo"</item>
+    </string-array>
+    <!-- Titles for debug overdraw preference. [CHAR LIMIT=50] -->
+    <string-array name="debug_hw_overdraw_entries">
+        <item>"ປິດ"</item>
+        <item>"ສະແດງຂອບເຂດການແຕ້ມທັບ"</item>
+        <item>"ສະແດງພື້ນທີ່ສຳລັບ Deuteranomaly"</item>
+    </string-array>
+    <!-- Titles for app process limit preference. [CHAR LIMIT=35] -->
+    <string-array name="app_process_limit_entries">
+        <item>"ຂີດຈຳກັດມາດຕະຖານ"</item>
+        <item>"ບໍ່ມີໂປຣເຊສພື້ນຫຼັງ"</item>
+        <item>"ຫຼາຍສຸດ 1 ໂປຣເຊສ"</item>
+        <item>"ຫຼາຍສຸດ 2 ໂປຣເຊສ"</item>
+        <item>"ຫຼາຍສຸດ 3 ໂປຣເຊສ"</item>
+        <item>"ສູງສຸດ 4 ໂປຣເຊສ"</item>
+    </string-array>
+    <!-- Match this with the constants in VpnProfile. -->
+    <!-- Longer descriptions for each VPN type. [CHAR LIMIT=100] -->
+    <string-array name="vpn_types_long">
+        <item>"PPTP VPN"</item>
+        <item>"L2TP/IPSec VPN ທີ່ມີກະແຈທີ່ແບ່ງປັນລ່ວງໜ້າ"</item>
+        <item>"L2TP/IPSec VPN ພ້ອມໃບຮັບຮອງ"</item>
+        <item>"IPSec VPN ທີ່ມີກະແຈທີ່ແບ່ງປັນລ່ວງໜ້າ ແລະການພິສູດຢືນຢັນແບບ Xauth"</item>
+        <item>"IPSec VPN ພ້ອມໃບຮັບຮອງ ແລະການກວດສອບສິດ Xauth"</item>
+        <item>"L2TP/IPSec VPN ພ້ອມໃບຮັບຮອງ ແລະການພິສູດຢືນຢັນແບບປະສົມ"</item>
+    </string-array>
+    <!-- Match this with the constants in LegacyVpnInfo. -->
+    <!-- Status for a VPN network. [CHAR LIMIT=100] -->
+    <string-array name="vpn_states">
+        <!-- Status message when VPN is disconnected. -->
+        <item>"ປິດການເຊື່ອມຕໍ່ແລ້ວ"</item>
+        <!-- Status message when VPN is initializing. -->
+        <item>"ກຳລັງເລີ່ມຕົ້ນ\u2026"</item>
+        <!-- Status message when VPN is connecting. -->
+        <item>"ກຳລັງເຊື່ອມຕໍ່..."</item>
+        <!-- Status message when VPN is connected. -->
+        <item>"ເຊື່ອມຕໍ່ແລ້ວ"</item>
+        <!-- Status message when VPN is timeout. -->
+        <item>"ໄລຍະໝົດເວລາ"</item>
+        <!-- Status message when VPN is failed. -->
+        <item>"ບໍ່ສຳເລັດ"</item>
+    </string-array>
+    <!-- Values for premium SMS permission selector [CHAR LIMIT=30] -->
+    <string-array name="security_settings_premium_sms_values">
+        <!-- Ask user before sending to premium SMS short code. -->
+        <item>"ຖາມ"</item>
+        <!-- Never allow app to send to premium SMS short code. -->
+        <item>"ບໍ່ອະນຸຍາດ"</item>
+        <!-- Always allow app to send to premium SMS short code. -->
+        <item>"ອະນຸຍາດສະເໝີ"</item>
+    </string-array>
+    <!-- [CHAR LIMIT=40] Labels for memory states -->
+    <string-array name="ram_states">
+        <!-- Normal desired memory state. -->
+        <item>"ປົກ​ກ​ະ​ຕິ"</item>
+        <!-- Moderate memory state, not as good as normal. -->
+        <item>"ປານກາງ"</item>
+        <!-- Memory is running low. -->
+        <item>"ຕ່ຳ"</item>
+        <!-- Memory is critical. -->
+        <item>"ວິ​ກິ​ດ"</item>
+        <!-- Unknown memory state -->
+        <item>"?"</item>
+    </string-array>
+    <array name="ram_colors">
+        <item>@color/memory_normal</item>
+        <item>@color/memory_moderate</item>
+        <item>@color/memory_low</item>
+        <item>@color/memory_critical</item>
+    </array>
+    <!-- Process stats memory use details: labels for memory states -->
+    <string-array name="proc_stats_memory_states">
+        <item>"ປົກ​ກະ​ຕິ"</item>
+        <item>"ປານກາງ"</item>
+        <item>"ຕໍ່າ"</item>
+        <item>"ອັນ​ຕະ​ລາຍ"</item>
+    </string-array>
+    <!-- Process stats memory use details: labels for process -->
+    <string-array name="proc_stats_process_states">
+        <item>"ໜຽວແໜ້ນ"</item>
+        <item>"​ການເຄື່ອນ​ໄຫວ​ສູງ​ສຸດ"</item>
+        <item>"​ສຳ​ຄັນ (​ເບື້ອງ​ໜ້າ)"</item>
+        <item>"​ສຳ​ຄັນ (​ເບື້ອງຫຼັງ)"</item>
+        <item>"ສຳຮອງ​ຂໍ້ມູນ"</item>
+        <item>"​ນ້ຳ​ໜັກ​ສູງ"</item>
+        <item>"​​ການບໍ​ລິ​ການ (​ກຳ​ລັງ​ເຮັດ​ວຽກ)"</item>
+        <item>"​​ການບໍ​ລິ​ການ (​ກຳ​ລັງ​ເລີ່ມ​ຕົ້ນ​ໃໝ່)"</item>
+        <item>"​ຕົວ​ຮັບ​ຂໍ້​ມູນ"</item>
+        <item>"ໜ້າຫຼັກ"</item>
+        <item>"​ການ​ເຄື່ອນ​ໄຫວຫຼ້າ​ສຸດ"</item>
+        <item>"Cached (​ການ​ເຄື່ອນ​ໄຫວ)"</item>
+        <item>"Cached (​ການ​ເຄື່ອນ​ໄຫວ​ລູກ​ຂ່າຍ)"</item>
+        <item>"Cached (​ຫວ່າງ​ເປົ່າ)"</item>
+    </string-array>
+    <!-- Array of titles for sim color for multi-sim -->
+    <string-array name="color_picker">
+        <item>"ສີຂຽວອົມຟ້າ"</item>
+        <item>"ຟ້າ"</item>
+        <item>"​ສີມ່ວງ​ເຂັ້ມ"</item>
+        <item>"ສີມ່ວງ"</item>
+        <item>"ບົວ"</item>
+        <item>"ແດງ"</item>
+    </string-array>
+    <!-- USB configuration names for Developer Settings.
+         This can be overridden by devices with additional USB configurations. -->
+    <string-array name="usb_configuration_titles">
+        <item>@string/usb_use_charging_only</item>
+        <item>"MTP (ມີເດຍທຣານສະເຟີໂປຣໂຕຄໍ)"</item>
+        <item>"PTP (ພິກເຈີທຣານສະເຟີໂປຣໂຕຄໍ)"</item>
+        <item>"RNDIS (ຢູເອສບີ ອີເທີເນັດ)"</item>
+        <item>"ແຫຼ່ງສຽງ"</item>
+        <item>"MIDI"</item>
+    </string-array>
+    <!-- dm plmn that need to be hidden -->
+    <string-array name="hidedm_plmn_list">
+        <item>46000</item>
+        <item>46002</item>
+        <item>46003</item>
+        <item>46007</item>
+    </string-array>
+    <!-- supl plmn list that need to be hidden -->
+    <string-array name="hidesupl_plmn_list">
+        <item>46001</item>
+        <item>46003</item>
+        <item>46011</item>
+        <item>45502</item>
+        <item>45507</item>
+    </string-array>
+    <string-array name="plmn_list_for_apn_disable">
+        <item>20404</item>
+        <item>45403</item>
+        <item>45404</item>
+        <item>45502</item>
+        <item>45507</item>
+        <item>46003</item>
+        <item>46011</item>
+    </string-array>
+    <string-array name="cellcular2wifi_entries">
+        <item>"ເຊື່ອມຕໍ່ແບບອັດຕະໂນມັດ"</item>
+        <item>"ເຊື່ອມຕໍ່ເອງ"</item>
+        <item>"ຖາມຢູ່ສະເໝີ"</item>
+    </string-array>
+    <string-array name="cellcular2wifi_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array></resources>

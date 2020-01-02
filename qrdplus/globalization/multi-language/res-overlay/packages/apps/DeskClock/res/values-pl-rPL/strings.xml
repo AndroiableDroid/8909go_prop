@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (c) 2014, The Linux Foundation. All rights reserved.
+     Not a Contribution.
+     Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+    <string name="app_label">"Zegar"</string>
+    <!-- Title for AlarmClock activity -->
+    <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="alarm_list_title">"Alarmy"</string>
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">"Dodaj alarm"</string>
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">"Zegar biurkowy"</string>
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+    <string name="menu_edit_alarm">"Edytuj alarm"</string>
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">"Usuń alarm"</string>
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm">"Włącz alarm"</string>
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">"Wyłącz alarm"</string>
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">"Usunąć alarm?"</string>
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">"Pokaż zegar"</string>
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+    <string name="hide_clock">"Ukryj zegar"</string>
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">"Etykieta"</string>
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">"Alarm"</string>
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="set_alarm">"Ustaw alarm"</string>
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">"Wibracje"</string>
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">"Powtarzanie"</string>
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">"Dźwięk alarmu"</string>
+    <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+    <string name="custom_ringtone">"Niestandardowy dzwonek"</string>
+    <!-- Label on expanded alarm edit view. -->
+    <string name="ringtone">"Dzwonek"</string>
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">"Godzina"</string>
+    <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+    <string name="alarm_tomorrow">"Jutro"</string>
+    <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+    <string name="alarm_today">"Dzisiaj"</string>
+    <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+    <string name="alarm_alert_wake_up">"Wstawaj!"</string>
+    <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+    <string name="alarm_alert_off_action_text">"Wył."</string>
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_alert_dismiss_text">"Wyłącz"</string>
+    <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+    <string name="alarm_alert_dismiss_now_text">"Zamknij teraz"</string>
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
+         unattended for a number of minutes.  It tells the user that
+         the alarm has been silenced.-->
+    <string name="alarm_missed_title">"Przegapiony alarm"</string>
+    <string name="alarm_missed_text">"<xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g>"</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+         together with the number of minutes in two separate lines. For example:
+             Snoozed
+             10 min
+         [CHAR LIMIT=10]
+    -->
+    <string name="alarm_alert_snoozed_text">"Uśpiony"</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+         together with the word 'Snoozed' in two separate lines or example:
+             Snoozed
+             10 min
+         [CHAR LIMIT=10]
+    -->
+    <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one">"1 min"</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> min"</item>
+    </plurals>
+    <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+    <string name="alarm_alert_off_text">"Alarm wyłączony"</string>
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_snooze_text">"Drzemka"</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
+         dialog. Says the alarm will snooze for xxx minutes.  -->
+    <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
+        <item quantity="one">"Drzemka przez minutę."</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">"Drzemka przez <xliff:g id="MINUTES">%d</xliff:g> min."</item>
+    </plurals>
+    <!-- Text to appear inside a notification while an alarm is snoozing. -->
+    <string name="alarm_alert_snooze_until">"Drzemka do <xliff:g id="TIME">%s</xliff:g>"</string>
+    <!-- Text to appear in the notification title while an alarm is about to go off. -->
+    <string name="alarm_alert_predismiss_title">"Nadchodzący alarm"</string>
+    <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+    <string name="missed_alarm_has_been_deleted">"Zignorowany przez Ciebie alarm został usunięty"</string>
+    <!-- 0: nothing
+         1: days
+         2:      hours
+         3: days hours
+         4:            minutes
+         5: days       minutes
+         6:      hours minutes
+         7: days hours minutes
+    -->
+    <!-- Timer notification: how long from now until timer goes off. -->
+    <string-array name="timer_notifications">
+        <item>"Jeszcze niecała minuta"</item>
+        <item>"Jeszcze <xliff:g id="HOURS">%1$s</xliff:g>"</item>
+        <item>"Jeszcze <xliff:g id="MINUTES">%2$s</xliff:g>"</item>
+        <item>"Jeszcze <xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g>"</item>
+    </string-array>
+    <!-- Alarm confirmation toast: Describes how long from now until
+         alarm fires -->
+    <string-array name="alarm_set">
+        <item>"Alarm włączy się za mniej niż 1 minutę."</item>
+        <item>"Alarm włączy się za <xliff:g id="DAYS">%1$s</xliff:g>."</item>
+        <item>"Alarm włączy się za <xliff:g id="HOURS">%2$s</xliff:g>."</item>
+        <item>"Alarm włączy się za <xliff:g id="DAYS">%1$s</xliff:g> i <xliff:g id="HOURS">%2$s</xliff:g>."</item>
+        <item>"Alarm włączy się za <xliff:g id="MINUTES">%3$s</xliff:g>."</item>
+        <item>"Alarm włączy się za <xliff:g id="DAYS">%1$s</xliff:g> i <xliff:g id="MINUTES">%3$s</xliff:g>."</item>
+        <item>"Alarm włączy się za <xliff:g id="HOURS">%2$s</xliff:g> i <xliff:g id="MINUTES">%3$s</xliff:g>."</item>
+        <item>"Alarm włączy się za <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> i <xliff:g id="MINUTES">%3$s</xliff:g>."</item>
+    </string-array>
+    <!-- Alarm confirmation toast: days -->
+    <plurals name="days">
+        <!-- Duration for one day -->
+        <item quantity="one">"1 dzień"</item>
+        <!-- Duration for more than one day -->
+        <item quantity="other">"<xliff:g id="number" example="7">%s</xliff:g> dni"</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: hours -->
+    <plurals name="hours">
+        <!-- Duration for one hour -->
+        <item quantity="one">"1 godz"</item>
+        <!-- Duration for more than one hour -->
+        <item quantity="other">"<xliff:g id="number" example="7">%s</xliff:g> godz."</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: minutes -->
+    <plurals name="minutes">
+        <!-- Duration for one minute -->
+        <item quantity="one">"1 min"</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">"<xliff:g id="number" example="7">%s</xliff:g> min"</item>
+    </plurals>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to repeat every day -->
+    <string name="every_day">"Codziennie"</string>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: concatenate days with
+         this character, i.e. "Mon, Tue, Wed" -->
+    <string name="day_concat">", "</string>
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
+         select a clock to display -->
+    <string name="clock_instructions">"Wybierz zegar."</string>
+    <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="analog_gadget">"Zegar analogowy"</string>
+    <!-- Help activity name -->
+    <string name="help">"pomoc"</string>
+    <!-- Settings activity name -->
+    <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="settings">"Ustawienia"</string>
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">"Długość drzemki"</string>
+    <plurals name="snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one">"1 minuta"</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">"<xliff:g id="NUMBER">%s</xliff:g> min"</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <!-- Duration for one minute -->
+        <item quantity="one">"minuta"</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">"min"</item>
+    </plurals>
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">"Wycisz za"</string>
+    <!-- Auto silence summary string set based on the preference value. -->
+    <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
+        <item quantity="one">"1 min"</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">"<xliff:g id="formatted_number" example="7">%s</xliff:g> minutes"</item>
+    </plurals>
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">"Nigdy"</string>
+    <string name="default_auto_silence_value">10</string>
+    <!-- Entries listed in the ListPreference when invoking the auto silence
+         preference. -->
+    <string-array name="auto_silence_entries">
+      <item>"1 min"</item>
+      <item>"5 minut"</item>
+      <item>"10 minut"</item>
+      <item>"15 minut"</item>
+      <item>"20 minut"</item>
+      <item>"25 minut"</item>
+      <item>"Nigdy"</item>
+      </string-array>
+    <!-- Week start day preference title. -->
+    <string name="week_start_title">"Początek tygodnia"</string>
+    <!-- Entries listed in ListPreference for start day. -->
+    <string-array name="week_start_entries">
+        <item>"Sobota"</item>
+        <item>"Niedziela"</item>
+        <item>"Poniedziałek"</item>
+    </string-array>
+    <!-- Done button when editing an alarm. -->
+    <string name="done">"Gotowe"</string>
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">"Przywróć"</string>
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">"Usuń"</string>
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">"Głośność alarmu"</string>
+    <!-- Summary for the alarm preference when silent is chosen. -->
+    <string name="silent_alarm_summary">"Cichy"</string>
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">"Włącz drzemkę lub anuluj alarm."</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label">"<xliff:g id="LABEL">%s</xliff:g> (drzemka)"</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">"Alarm ustawiony na <xliff:g id="TIME">%s</xliff:g>. Dotknij, aby anulować."</string>
+    <!-- Title of the setting to change hardware button behavior. This string
+         should be changed for each piece of hardware. [CHAR LIMIT=20] -->
+    <string name="volume_button_setting_title">"Przyciski głośności"</string>
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="volume_button_dialog_title">"Działanie przycisku"</string>
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+      <item>"Drzemka"</item>
+      <item>"Zamknij"</item>
+      <item>"Nic nie rób"</item>
+      </string-array>
+    <!-- Title of the ringtone setting. -->
+    <string name="default_ringtone_setting_title">"Ustaw dzwonek domyślny"</string>
+    <!-- Accessibility labels for Clock activity buttons -->
+    <string name="alarm_button_description">"Alarmy"</string>
+    <string name="gallery_button_description">"Galeria"</string>
+    <string name="music_button_description">"Muzyka"</string>
+    <string name="nightmode_button_description">"Przyciemnij"</string>
+    <string name="home_button_description">"Program uruchamiający"</string>
+    <string name="desk_clock_button_description">"Wyświetlanie zegara"</string>
+    <!-- Accessibility labels for alarm buttons -->
+    <string name="label_description">"Etykieta"</string>
+    <string name="ringtone_description">"Dzwonek"</string>
+    <!-- What to show the user if the weather widget exists but fails to
+         respond. This is a sign of an error; if the weather widget is not
+         present on the device, we show nothing at all. -->
+    <string name="weather_fetch_failure">"Informacje o pogodzie są w tej chwili niedostępne."</string>
+    <!-- A description for the DeskClock alarm sound playback service.
+         [CHAR LIMIT=NONE] -->
+    <string name="alarm_klaxon_service_desc">"Usługa odtwarzania dźwięku alarmów ustawionych w zegarze"</string>
+    <!-- String displayed as the alert summary while loading the alert name from
+         the media player. [CHAR LIMIT=NONE] -->
+    <string name="loading_ringtone">"Wczytywanie dzwonka\u2026"</string>
+    <!-- A description for the DeskClock timer sound playback service.
+         [CHAR LIMIT=NONE] -->
+    <string name="timer_ring_service_desc">"Usługa odtwarzania dźwięku minutników ustawionych w zegarze."</string>
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">"Ustaw alarm"</string>
+    <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm_with_existing"><xliff:g id="time">%s</xliff:g></string>
+    <!--  ActionBar strings -->
+    <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+    <string name="menu_alarm">"Alarm"</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+    <string name="menu_timer">"Minutnik"</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
+    <string name="menu_clock">"Zegar"</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+    <string name="menu_stopwatch">"Stoper"</string>
+    <!-- Clock view buttons strings-->
+    <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+    <string name="button_alarms">"Dodaj alarm"</string>
+    <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+    <string name="button_cities">"Miasta"</string>
+    <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+    <string name="button_menu">"Więcej opcji"</string>
+    <!-- Menu item on most screens to get to more settings -->
+    <string name="menu_item_settings">"Ustawienia"</string>
+    <!-- Menu item on most screens to get to the help information -->
+    <string name="menu_item_help">"Pomoc"</string>
+    <!-- Menu item on clock screen to enter night mode. -->
+    <string name="menu_item_night_mode">"Tryb nocny"</string>
+    <!-- Menu item on Cities screen to sort by GMT offset -->
+    <string name="menu_item_sort_by_gmt_offset">"Sortuj według godziny"</string>
+    <!-- Menu item on Cities screen to sort by alphabetical order -->
+    <string name="menu_item_sort_by_name">"Sortuj według nazwy"</string>
+    <!-- Label for selected cities in Cities list view -->
+    <string name="selected_cities_label">"Wybrane miasta"</string>
+    <!-- Stop Watch strings -->
+    <!-- Describes the purpose of the button to resume running a stopwatch -->
+    <string name="sw_resume_button">"Wznów"</string>
+    <!-- Describes the purpose of the button to begin running a stopwatch -->
+    <string name="sw_start_button">"Start"</string>
+    <!-- Describes the purpose of the button to pause a stopwatch. -->
+    <string name="sw_stop_button">"Stop"</string>
+    <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
+    <string name="sw_lap_button">"Okrążenie"</string>
+    <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
+    <string name="sw_reset_button">"Resetuj"</string>
+    <!-- Describes the purpose of the button to share the stopwatch value.
+         Also used as title for chooser when sharing stopwatch results. -->
+    <string name="sw_share_button">"Udostępnij"</string>
+    <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+    <string name="hours_label">"g"</string>
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <string name="minutes_label">"m"</string>
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <string name="seconds_label">"s"</string>
+    <!-- Accessibility strings -->
+    <string name="hours_label_description">"godz."</string>
+    <string name="minutes_label_description">"min"</string>
+    <string name="seconds_label_description">"s"</string>
+    <string name="zero">0</string>
+    <!--  Stopwatch share strings -->
+    <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+    <string name="sw_share_main">"Mój czas to <xliff:g id="TIME">%s</xliff:g>"</string>
+    <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+    <string name="sw_share_laps">"Czasy okrążeń:"</string>
+    <!-- Label to enumerate the number of laps in the notification the user has counted -->
+    <string name="sw_notification_lap_number">"Okrążenie <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <!-- Label to enumerate the number of laps the user has counted -->
+    <string-array name="sw_lap_number_set" translatable="true">
+        <item>"<xliff:g id="NUMBER">%d</xliff:g>"</item>
+        <item>"<xliff:g id="NUMBER">%02d</xliff:g>"</item>
+    </string-array>
+    <!-- Stopwatch accessibility strings -->
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <item quantity="one">"1 godz."</item>
+        <!-- more -->
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> godz."</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <item quantity="one">"1 min"</item>
+        <!-- more -->
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> min"</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <item quantity="one">"1 s"</item>
+        <!-- more -->
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> s"</item>
+    </plurals>
+    <!-- timer strings -->
+    <!-- Describes the purpose of the button to add a new timer -->
+    <string name="timer_add_timer">"Dodaj minutnik"</string>
+    <!-- Describes the purpose of the button to begin or continue running a timer -->
+    <string name="timer_start">"Start"</string>
+    <!-- Describes the purpose of the button to delete a timer. -->
+    <string name="timer_delete">"Usuń"</string>
+    <!-- Talkback description for deleting a number. -->
+    <string name="timer_descriptive_delete">"Usuń <xliff:g id="NUMBER_STRING">%s</xliff:g>"</string>
+    <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+    <string name="timer_plus_one">"Dodaj 1 minutę"</string>
+    <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+    <string name="timer_plus_1_min">"Dodaj 1 min"</string>
+    <!-- Describes the purpose of the button to stop the timer. -->
+    <string name="timer_stop">"Stop"</string>
+    <!-- Describes the purpose of the button to stop and delete the timer. -->
+    <string name="timer_done">"Gotowe"</string>
+    <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
+    <string name="timer_reset">"Resetuj"</string>
+    <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+    <string name="timer_cancel">"Anuluj"</string>
+    <!-- Notification content shown when a timer has completed and has no more time remaining -->
+    <string name="timer_times_up">"Czas minął"</string>
+    <!-- Label associated with a notification for a Timer -->
+    <string name="timer_notification_label">"Minutnik"</string>
+    <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+    <string name="timers_max_count_reached">"maksymalnie cztery minutniki"</string>
+    <!-- Jocular content that user may append when sharing the lap times -->
+    <string-array name="sw_share_strings" translatable="true">
+        <item>"Niezły z Ciebie demon prędkości."</item>
+        <item>"Ciesz się owocami pracy."</item>
+        <item>"Powszechnie wiadomo, że androidy są szybkie, ale Ty zostawiasz je w tyle!"</item>
+        <item>"Uff."</item>
+        <item>"Twoje czasy są l33t."</item>
+        <item>"Niesamowita prędkość."</item>
+        <item>"Jeszcze raz przenieś się w czasie."</item>
+        <item>"Wciśnij gaz i wróć do przyszłości."</item>
+        <item>"Prędkość to Twoje drugie imię."</item>
+        <item>"Zawstydzasz światło."</item>
+    </string-array>
+    <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+    <string name="home_label">"Dom"</string>
+    <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="cities_activity_title">"Miasta"</string>
+    <!-- Settings strings -->
+    <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
+    <string name="clock_settings">"Zegar"</string>
+    <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+    <string name="clock_style">"Wygląd"</string>
+    <!-- Entries listed in the ListPreference when invoking the clock style
+         preference. -->
+    <string-array name="clock_style_entries">
+      <item>"Analogowy"</item>
+      <item>"Cyfrowy"</item>
+    </string-array>
+    <!-- Title for an option that will automtically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+    <string name="automatic_home_clock">"Zegar dla mojej strefy czasowej"</string>
+    <!-- Describes the functionality provided by the automatic_home_clock option -->
+    <string name="automatic_home_clock_summary">"Gdy jestem w innej strefie czasowej, pokazuj też czas w moim kraju"</string>
+    <!-- Title in the preferences change the time zone for the user's home -->
+    <string name="home_time_zone">"Domowa strefa czasowa"</string>
+    <!-- Title in a list dialog box to pick a time zone for the user's home -->
+    <string name="home_time_zone_title">"Domowa strefa czasowa"</string>
+    <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+    <string name="time_picker_cancel">"Anuluj"</string>
+    <!-- Textual content of the button to update an alarm with the current dialog values -->
+    <string name="time_picker_set">"OK"</string>
+    <string name="time_picker_time_seperator">:</string>
+    <!--  place holder for am/pm label when it is not set -->
+    <string name="time_picker_ampm_label">--</string>
+    <!-- add 00 as minutes to the time when pressing this button -->
+    <string name="time_picker_00_label">:00</string>
+    <!-- add 30 as minutes to the time when pressing this button -->
+    <string name="time_picker_30_label">:30</string>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+    <string-array name="timezone_labels">
+        <item>"Wyspy Marshalla"</item>
+        <item>"Midway"</item>
+        <item>"Hawaje"</item>
+        <item>"Alaska"</item>
+        <item>"Czas pacyficzny"</item>
+        <item>"Tijuana"</item>
+        <item>"Arizona"</item>
+        <item>"Chihuahua"</item>
+        <item>"Czas górski"</item>
+        <item>"Ameryka Środkowa"</item>
+        <item>"Czas centralny"</item>
+        <item>"Miasto Meksyk"</item>
+        <item>"Saskatchewan"</item>
+        <item>"Bogota"</item>
+        <item>"Czas wschodni"</item>
+        <item>"Wenezuela"</item>
+        <item>"Czas atlantycki (Barbados)"</item>
+        <item>"Czas atlantycki (Kanada)"</item>
+        <item>"Manaus"</item>
+        <item>"Santiago"</item>
+        <item>"Nowa Funlandia"</item>
+        <item>"Brasília"</item>
+        <item>"Buenos Aires"</item>
+        <item>"Grenlandia"</item>
+        <item>"Montevideo"</item>
+        <item>"Środkowy Atlantyk"</item>
+        <item>"Azory"</item>
+        <item>"Wyspy Zielonego Przylądka"</item>
+        <item>"Casablanca"</item>
+        <item>"Londyn, Dublin"</item>
+        <item>"Amsterdam, Berlin"</item>
+        <item>"Belgrad"</item>
+        <item>"Bruksela"</item>
+        <item>"Sarajewo"</item>
+        <item>"Windhuk"</item>
+        <item>"Czas zachodnioafrykański"</item>
+        <item>"Amman, Jordania"</item>
+        <item>"Ateny, Stambuł"</item>
+        <item>"Bejrut, Liban"</item>
+        <item>"Kair"</item>
+        <item>"Helsinki"</item>
+        <item>"Jerozolima"</item>
+        <item>"Mińsk"</item>
+        <item>"Harare"</item>
+        <item>"Bagdad"</item>
+        <item>"Moskwa"</item>
+        <item>"Kuwejt"</item>
+        <item>"Nairobi"</item>
+        <item>"Teheran"</item>
+        <item>"Baku"</item>
+        <item>"Tbilisi"</item>
+        <item>"Erywań"</item>
+        <item>"Dubaj"</item>
+        <item>"Kabul"</item>
+        <item>"Islamabad, Karaczi"</item>
+        <item>"Orał"</item>
+        <item>"Jekaterynburg"</item>
+        <item>"Kalkuta"</item>
+        <item>"Sri Lanka"</item>
+        <item>"Katmandu"</item>
+        <item>"Astana"</item>
+        <item>"Rangun"</item>
+        <item>"Krasnojarsk"</item>
+        <item>"Bangkok"</item>
+        <item>"Pekin"</item>
+        <item>"Hongkong"</item>
+        <item>"Irkuck"</item>
+        <item>"Kuala Lumpur"</item>
+        <item>"Perth"</item>
+        <item>"Tajpej"</item>
+        <item>"Seul"</item>
+        <item>"Tokio, Osaka"</item>
+        <item>"Jakuck"</item>
+        <item>"Adelajda"</item>
+        <item>"Darwin"</item>
+        <item>"Brisbane"</item>
+        <item>"Hobart"</item>
+        <item>"Sydney, Canberra"</item>
+        <item>"Władywostok"</item>
+        <item>"Guam"</item>
+        <item>"Magadan"</item>
+        <item>"Auckland"</item>
+        <item>"Fidżi"</item>
+        <item>"Tonga"</item>
+        <item>"Dżakarta"</item>
+    </string-array>
+     <!-- Header in the preferences settings for the section pertaining to alarms -->
+     <string name="alarm_settings">"Alarmy"</string>
+     <!-- Describes the running service for the stopwatch -->
+     <string name="stopwatch_service_desc">"Usługa stopera odpowiedzialna za powiadamianie."</string>
+     <!-- Desription for the stopped stop watch -->
+     <string name="swn_stopped">"Zatrzymano"</string>
+    <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
+         be on the right even on RTL languages so please do not reverse this during
+         translation. -->
+    <string name="description_direction_right">"Przesuń w prawo, by zamknąć"</string>
+    <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
+         be on the left even on RTL languages so please do not reverse this during
+         translation. -->
+    <string name="description_direction_left">"Przesuń w lewo, by uśpić"</string>
+    <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
+         be on the left even on RTL languages so please do not reverse this during
+         translation. -->
+    <string name="description_direction_both">"Przesuń w lewo, by odłożyć, lub w prawo, by zamknąć"</string>
+    <!-- Notification title when timer is stopped. -->
+    <string name="timer_stopped">"Minutnik zatrzymany"</string>
+    <!-- Notification title when multiple timers are stopped. -->
+    <string name="timers_stopped">"<xliff:g id="NUMBER">%d</xliff:g> zatrzymane minutniki"</string>
+    <!-- Notification text when multiple timers are stopped. -->
+    <string name="all_timers_stopped_notif">"Kliknij, by zobaczyć minutniki"</string>
+    <!-- Notification title when at least one timer, of those in use, is counting down. -->
+    <string name="timers_in_use">"<xliff:g id="NUMBER">%d</xliff:g> minutniki"</string>
+    <!-- Notification text when at least one timer, of those in use, is counting down. -->
+    <string name="next_timer_notif">"Następny minutnik: <xliff:g id="TIME_REMAINING">%s</xliff:g>"</string>
+    <!-- screensaver settings strings -->
+    <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="screensaver_settings">"Ustawienia wygaszacza"</string>
+    <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+    <string name="night_mode_title">"Tryb nocny"</string>
+    <!-- Describes intensity of display diminuation during dream mode -->
+    <string name="night_mode_summary">"Mocno przyciemniony wyświetlacz (do ciemnych pomieszczeń)"</string>
+    <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+    <string name="expand_alarm">"Rozwiń alarm"</string>
+    <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+    <string name="collapse_alarm">"Zwiń alarm"</string>
+    <!-- Description of the button to undo change to alarm -->
+    <string name="alarm_undo">"cofnij"</string>
+    <!-- Toast content when an alarm was deleted  -->
+    <string name="alarm_deleted">"Alarm usunięto"</string>
+    <!-- Select the source of the alarm -->
+    <string name="alarm_select">"Wybierz alarm"</string>
+    <!-- Select the ringtone as alarm -->
+    <string name="alarm_select_ringtone">"Dzwonek"</string>
+    <!-- Select the alarm from external device -->
+    <string name="alarm_select_external">"Muzyka"</string>
+    <!-- Ok for selection -->
+    <string name="alarm_select_ok">"OK"</string>
+    <!-- Cancel for selection -->
+    <string name="alarm_select_cancel">"Anuluj"</string>
+    <!-- slash between date and next alarm in the clock -->
+    <string name="slash"> / </string>
+    <!-- slash between date and next alarm in the clock -->
+    <string name="world_day_of_week_label"> / <xliff:g id="label">%s</xliff:g></string>
+    <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+    <string name="next_alarm_description">"Następny alarm: <xliff:g id="ALARM_TIME">%s</xliff:g>"</string>
+    <!-- Displays the number of alarms selected from the list of alarms. -->
+    <string name="alarms_selected">"Wybrane: <xliff:g id="ALARMS">%d</xliff:g>"</string>
+    <!-- message used by the talkback accessebility app to say that something was deleted -->
+    <string name="deleted_message">"Usunięto"</string>
+    <!-- Alarm deletion confirmation message-->
+    <plurals name="alarm_delete_confirmation">
+        <!-- Confirmation for one alarm -->
+        <item quantity="one">"Usunąć wybrany alarm?"</item>
+        <!-- Confirmation more than one alarm  -->
+        <item quantity="other">"Usunąć wybrane alarmy?"</item>
+    </plurals>
+    <!-- Timer deletion confirmation -->
+    <string name="timer_delete_confirmation">"Usunąć ten minutnik?"</string>
+    <!-- world clock deletion confirmation -->
+    <string name="city_delete_confirmation">"Usunąć to miasto?"</string>
+    <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="digital_gadget">"Zegar cyfrowy"</string>
+    <!-- String for no alarms -->
+    <string name="no_alarms">"Brak alarmów"</string>
+    <!-- String for no alarms set [CHAR LIMIT=24] -->
+    <string name="no_alarms_set">"Brak alarmów"</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">"BRAK NADCHODZĄCYCH ALARMÓW"</string>
+    <!--
+        String that represents time format for 12-hour time.
+        h represents hour in range (1-12) with the minimum number of digits
+        mm represents minute with leading 0 in case of values < 10
+        a represents am/pm
+        Ex: h:mm a = 12:54 am, 8:05 pm
+    -->
+    <string name="time_format_12_mode">"h:mm a"</string>
+    <!--
+        String that represents time format for 24-hour time.
+        k represents hour in range (0-23) with the minimum number of digits
+        mm represents minute with leading 0 in case of values < 10
+        Ex: k:mm = 13:51, 5:05
+    -->
+    <string name="time_format_24_mode">"k:mm"</string>
+    <!--
+        String that represents weekday, time format for 12-hour time.
+        EEE represents weekday name in short form (ex. Mon, Tue, Wed)
+        h represents hour in range (1-12) with the minimum number of digits
+        mm represents minute with leading 0 in case of values < 10
+        a represents am/pm
+        Ex: EEE, h:mm a = Mon, 2:55 pm
+    -->
+    <string name="weekday_time_format_12_mode">"EEE, h:mm a"</string>
+    <!--
+        String that represents weekday, time format for 24-hour time.
+        EEE represents weekday name in short form (ex. Mon, Tue, Wed)
+        k represents hour in range (0-23) with the minimum number of digits
+        mm represents minute with leading 0 in case of values < 10
+        Ex: EEE, k:mm = Mon, 2:55
+    -->
+    <string name="weekday_time_format_24_mode">"EEE, k:mm"</string>
+    <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
+     or 27:68pm.
+    First %d represents hour, second %d represents minutes, %s represents am/pm,
+    If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="invalid_time">"Nieprawidłowa godzina <xliff:g id="INVALID_HOUR">%d</xliff:g>:<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g>"</string>
+    <!-- String that represents that no alarm has been specified for a requested hour:minutes.
+    This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
+    alarms specified for that time. %s represents the time of the alarm.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_alarm_at">"Brak alarmu o <xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g>"</string>
+    <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
+    a user sends a voice command 'dismiss next alarm' or 'dismiss all of my alarms' but they have
+    no alarms scheduled in the app.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_scheduled_alarms">"Brak zaplanowanych alarmów"</string>
+    <!-- String that represents that the user specified that they want to select an alarm to
+    dismiss by specifying a 'label' but they didn't specify any labels.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_label_specified">"Nie określono etykiety"</string>
+    <!-- String that represents that no alarm has been specified for a requested label.
+    This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
+     but they have no alarms with that label.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_alarms_with_label">"Brak alarmów zawierających etykietę"</string>
+    <!-- String that represents that the user has sent a voice command 'start a stopwatch' when
+    the stopwatch was already running so the command wasn't executed.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_already_running">"Stoper jest już uruchomiony"</string>
+    <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
+    'lap the stopwatch' when the stopwatch wasn't running so the command wasn't executed.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_isnt_running">"Stoper nie jest uruchomiony"</string>
+    <!-- String that represents that the user has sent a voice command 'reset the stopwatch' or
+     when the stopwatch was running so the command wasn't executed.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_cant_be_reset_because_is_running">"Nie można zresetować stopera, bo jest uruchomiony"</string>
+    <!-- String that represents that the user has successfully sent a voice command stopping
+     the stopwatch.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_stopped">"Stoper został zatrzymany"</string>
+    <!-- String that represents that the user has successfully sent a voice command resetting
+    the stopwatch.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_reset">"Stoper został zresetowany"</string>
+    <!-- String that represents that the user has successfully sent a voice command lapping
+    the stopwatch.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_lapped">"Stoper zapisał czas pośredni"</string>
+    <!-- String that represents that the user has successfully sent a voice command starting
+    the stopwatch.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_started">"Stoper został uruchomiony"</string>
+    <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
+    there was no alarm scheduled for that time (they might have had an alarm for 3pm on the list
+    but it was disabled).
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_alarm_scheduled_for_this_time">"Na tę godzinę nie ma żadnego alarmu"</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
+    %s represents alarm time, e.g. 14:20
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="alarm_is_dismissed">"Alarm na <xliff:g id="ALARM_TIME">%s</xliff:g> został zamknięty"</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
+    %s represents alarm time, e.g. 14:20
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="alarm_is_set">"Alarm jest ustawiony na <xliff:g id="ALARM_TIME">%s</xliff:g>"</string>
+    <!-- String that represents that the user attempted to send a voice action 'delete a timer'
+    when there were no timers available.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_timer_set">"Minutnik nie jest ustawiony"</string>
+    <!-- String that represents that the user has successfully deleted a timer through a voice action.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_deleted">"Minutnik został usunięty"</string>
+    <!-- String that represents that the user has attempted to start a timer when a timer was
+    already running.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_already_running">"Minutnik jest już uruchomiony"</string>
+    <!-- String that represents that the user has attempted to start or reset a timer when
+     there were more than 1 timer of desired state in which case it's ambiguous
+     which timer the user meant.
+    [CHAR LIMIT=NONE]
+     -->
+    <string name="multiple_timers_available">"Nie można zrealizować żądania, bo dostępnych jest kilka stoperów"</string>
+    <!-- String that represents that the user has successfully started a timer through a voice action.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_started">"Minutnik został uruchomiony"</string>
+    <!-- String that represents that the user has successfully created a timer through a voice action.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_created">"Minutnik został utworzony"</string>
+    <!-- String that represents that the user attempted to start a timer through a voice action
+    but specified invalid length.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="invalid_timer_length">"Nieprawidłowy czas w minutniku"</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_was_reset">"Minutnik został zresetowany"</string>
+    <!-- String that represents that the user attempted to reset a timer through a voice action but
+    the timer wasn't stopped (resetting is only allowed when a timer is stopped).
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_cant_be_reset_because_its_running">"Nie można zresetować minutnika, bo wciąż jest uruchomiony. Najpierw go zatrzymaj."</string>
+    <!-- String that represents that the user attempted to stop a timer through a voice action but
+    the timer was already stopped (resetting is only allowed when a timer is stopped).
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_already_stopped">"Minutnik jest już zatrzymany"</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
+    a voice action
+    but they didn't specify a city so no world clock was selected.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_city_selected">"Nie wybrałeś miasta"</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
+    a voice action
+    but the city they specified wasn't listed in the database.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="the_city_you_specified_is_not_available">"Podane miasto jest niedostępne"</string>
+    <!-- String that represents that the user attempted to add a world clock through a voice action
+    but the city they specified is already added to the list.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="the_city_already_added">"To miasto zostało już dodane"</string>
+    <!-- String that represents that the user successfully added a world clock through a
+    voice action
+    %s represents the name of the city they added.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="city_added">"Dodano: <xliff:g id="CITY_NAME">%s</xliff:g>"</string>
+    <!-- String that represents that the user successfully deleted a world clock through
+    a voice action
+    %s represents the name of the city they deleted.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="city_deleted">"Usunięto: <xliff:g id="CITY_NAME">%s</xliff:g>"</string>
+    <!-- String that represents that the user attempted to dismiss an alarm that is more than
+    24 hours away
+    %s represents the time of the alarm (e.g. 15:39)
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"Alarmu na <xliff:g id="ALARM_TIME">%s</xliff:g> nie można jeszcze zamknąć, bo włączy się dopiero za ponad 24 godziny"</string>
+    <!-- String that shows up in the action bar for the Picker Activity
+         where a use gets to pick which alarm to dismiss
+   [CHAR LIMIT=NONE]
+   -->
+    <string name="dismiss_alarm">"Anuluj alarm"</string>
+    <!-- String that represents that further action is needed from the user in case their
+    voice command was ambiguous or there are more than 1 alarms that match their request.
+    The user needs to choose an alarm they want to dismiss through the UI
+   [CHAR LIMIT=NONE]
+   -->
+    <string name="pick_alarm_to_dismiss">"Wybierz, który alarm wyłączyć"</string>
+    <!-- String that represents that the user doesn't have any alarms firing at the moment.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_firing_alarms">"Brak aktualnych alarmów"</string>
+    <!-- String that represents that the user has snoozed an alarm through a voice action for 10
+    minutes.
+    %s represents alarm time, e.g. 14:20
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="alarm_is_snoozed">"Alarm z <xliff:g id="ALARM_TIME">%s</xliff:g> został uśpiony na 10 minut"</string>
+    <!-- Ringtone selection default" -->
+    <string name="ringtone_default">"Domyślny dzwonek"</string>
+    <string name="power_on_text">"Zasilanie włączone"</string>
+    <string name="power_on_yes_text">"Tak"</string>
+    <string name="power_on_no_text">"Nie"</string></resources>

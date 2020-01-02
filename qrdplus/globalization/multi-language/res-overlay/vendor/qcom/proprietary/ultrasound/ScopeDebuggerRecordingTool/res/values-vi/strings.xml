@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Công cụ ghi âm Scope Debugger"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Cài đặt"</string>
+    <add-resource type="string" name="instructions"/>
+    <string name="instructions">"Nhập tên file (hoặc giữ tên gợi ý làm tên file) và nhấn nút để lưu trữ dữ liệu dump của Scope Debugger"</string>
+    <add-resource type="string" name="button_text"/>
+    <string name="button_text">"Lưu nó!"</string>
+    <add-resource type="string" name="file_name_default"/>
+    <string name="file_name_default">"scope_debugger_rec"</string></resources>

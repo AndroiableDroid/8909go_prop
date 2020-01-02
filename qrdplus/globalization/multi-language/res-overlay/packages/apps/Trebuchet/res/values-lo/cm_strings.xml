@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+     Copyright (C) 2014 The CyanogenMod Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_screen_settings">"ການຕັ້ງຄ່າໜ້າຈໍຫຼັກ"</string>
+    <string name="drawer_settings">"ການຕັ້ງຄ່າ DRAWER"</string>
+    <string name="app_settings">"ການຕັ້ງຄ່າແອັບ"</string>
+    <!-- Settings states -->
+    <string name="setting_state_on">"ເປີດ"</string>
+    <string name="setting_state_off">"ປິດ"</string>
+    <!-- Themes button -->
+    <string name="themes_button_text">"ຊຸດຮູບແບບ"</string>
+    <string name="scrolling_page_outlines">"ເຄົ້າໂຄງໜ້າ"</string>
+    <string name="scrolling_fade_adjacent">"ໜ້າເລື່ອນດ້ານຂ້າງ"</string>
+    <!-- Wallpaper scroll effect -->
+    <string name="scrolling_wallpaper">"ເລື່ອນຮູບພື້ນຫຼັງ"</string>
+    <!-- Dynamic Grid -->
+    <string name="grid_size_text">"ຂະໜາດຕາໜ່າງ"</string>
+    <string name="grid_size_comfortable">"ສະດວກສະບາຍ"</string>
+    <string name="grid_size_cozy">"ອົບອຸ່ນແລະສະບາຍ"</string>
+    <string name="grid_size_condensed">"ບີບ"</string>
+    <string name="grid_size_custom">"ກຳນົດເອງ (<xliff:g id="rows">%1$d</xliff:g> \u00d7 <xliff:g id="columns">%2$d</xliff:g>)"</string>
+    <string name="preferences_interface_homescreen_custom">"ເລືອກຂະໜາດທີ່ຕ້ອງການ"</string>
+    <!-- Scroll effect -->
+    <string name="scroll_effect_text">"ເອັບເຟັກການເລື່ອນ"</string>
+    <!-- Drawer sorting mode -->
+    <string name="drawer_sorting_text">"ໂໝດການຈັດຮຽງລຳດັບ"</string>
+    <string name="sort_mode_title">"ຊື່ເລື່ອງ"</string>
+    <string name="sort_mode_launch_count">"ນັບການເປີດຕົວ"</string>
+    <string name="sort_mode_install_time">"ຕິດຕັ້ງເວລາ"</string>
+    <!-- Home screen search bar -->
+    <string name="home_screen_search_text">"ແຖບການຄົ້ນຫາ"</string>
+    <!-- Larger icons -->
+    <string name="larger_icons_text">"ໄອຄອນຂະໜາດໃຫຍ່ກວ່າ"</string>
+    <!-- Small text -->
+    <string name="small_text_size">"ຂະໜາດຂອງຂໍ້ຄວາມທີ່ນ້ອຍ"</string>
+    <!-- Icon labels -->
+    <string name="icon_labels">"ກາໝາຍໄອຄອນ"</string>
+    <string name="icon_labels_show">"ສະ​ແດງ"</string>
+    <string name="icon_labels_hide">"​ເຊື່​ອງ"</string>
+    <!-- Protected apps -->
+    <string name="protected_app_settings">"ແອັບທີ່ມີການປ້ອງກັນ"</string>
+    <!-- Dialog -->
+    <string name="dialog_confirm">"ຢືນຢັນ"</string>
+    <!-- Drawer type -->
+    <string name="drawer_type">"ແຜນຜັງ"</string>
+    <string name="drawer_type_drawer">"ລວງຕັ້ງ"</string>
+    <string name="drawer_type_pager">"ໃຊ້ເພຈ"</string>
+    <string name="setting_state_disabled">"ປິດໃຊ້ງານແລ້ວ"</string>
+    <string name="download_badge_text">"ໃໝ່"</string>
+    <!-- App not available toast text -->
+    <string name="app_not_available">"ແອັບຯບໍ່ສາມາດໃຊ້ໄດ້"</string></resources>

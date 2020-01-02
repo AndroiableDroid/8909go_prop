@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtectDBG"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"Impormasyon sa App"</string>
+    <string name="title_trusted">"Pinagkakatiwalaang Apps"</string>
+    <string name="title_about">"Tungkol dito"</string>
+    <string name="title_settings">"Mga setting"</string>
+    <string name="drawer_open_title">"Snapdragon Smart Protect"</string>
+<string name="service_status_on">"Naka-on"</string>
+    <string name="service_status_off">"Naka-off"</string>
+    <string name="err_title">"Error ng Application"</string>
+    <string name="err_msg_init">"Hindi kayang i-initialize ng Snapdragon Smart Protect ang QSSP library. Paghinto sa serbisyo"</string>
+    <string name="err_msg_load_model">"Hindi mai-load ng Snapdragon Smart Protect ang modelo. Paghinto sa serbisyo"</string>
+    <string name="err_msg_malicious_alert">"Hindi makapagrehistro ng mga mapanirang alerto ang Snapdragon Smart Protect. Paghinto sa serbisyo"</string>
+    <string name="err_msg_benign_alert">"Hindi makapagrehistro ang Snapdragon Smart Protect ng mga benign na alerto. Paghinto sa serbisyo"</string>
+    <string name="err_msg_service_not_up">"Hindi na makahanap ang Snapdragon Smart Protect ng serbisyo."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"Nakalaan lahat ng mga karapatan."</string>
+    <string name="about_information_line1">"Ang Qualcomm® Snapdragon™ Smart Protect  ay produkto ng Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Ang Qualcomm at ang Snapdragon ay mga tatak-kalakal ng Qualcomm Incorporated, nakarehistro sa United States at ibang mga bansa, ginamit ng may pahintulot."</string>
+    <string name="btn_restore_default">"IBALIK ANG MGA DEFAULT NA SETTING"</string>
+    <string name="btn_clear_history">"LIMASIN ANG KASAYSAYAN NG SMART PROTECT"</string>
+    <string name="trusted_btn">"IDINAGDAG SA LISTAHAN NG MGA PINAGKAKATIWALAANG APPS"</string>
+    <string name="uninstall_btn">"I-UNINSTALL"</string>
+    <string name="details_btn">"MGA DETALYE"</string>
+    <string name="done_btn">"TAPOS NA"</string>
+    <string name="remove_trusted_btn">"ALISIN SA LISTAHAN NG MGA PINAGKAKATIWALAANG APPS"</string>
+    <string name="uninstall_confirm_message">"Nais mo bang i-uninstall ang app na ito?"</string>
+    <string name="uninstall_success">"Matagumpay na in-uninstall ang package"</string>
+    <string name="uninstall_failed">"Nabigo ang pag-unistall ng package"</string>
+    <string name="clear_history_done">"Matagumpay na nilimas ang Kasaysayan"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon Smart Protect"</string>
+    <string name="drawer_threats">"Mga Bantang Natukoy (%1$s)"</string>
+    <string name="drawer_threat_null">"Real-time, on-device na proteksiyon sa pagkapribado at pagtukoy ng malware"</string>
+    <string name="drawer_option_dashboard">"Dashboard"</string>
+    <string name="drawer_option_trusted_apps">"Pinagkakatiwalaang Apps"</string>
+    <string name="drawer_option_settings">"Mga setting"</string>
+    <string name="drawer_option_about">"Tungkol dito"</string>
+    <string name="dashboard_list_title">"Pumili ng app para makita ang mga detalye at rekomendasyon ng Snapdragon Smart Protect."</string>
+    <string name="dashboard_list_empty">"Walang sinusubaybayang apps."</string>
+    <string name="app_info_recommend">"Rekomendasyon:"</string>
+    <string name="app_info_version">"bersiyon"</string>
+    <string name="app_uninstalled">"Wala na ang application sa aparato. Pindutin ang OK para lumabas."</string>
+    <string name="malicious_item_threat">"Natukoy ang Snapdragon Smart Protect:"</string>
+    <string name="malicious_item_confidence">"Lebel ng kumpiyansa:"</string>
+    <string name="malicious_item_analysis">"Pagsusuri"</string>
+    <string name="malicious_recommend">"I-uninstall"</string>
+    <string name="good_threat">"Walang mga natukoy na banta."</string>
+    <string name="good_recommend">"Piliin ang Tapos na, upang patuloy na masubaybayan ng Snapdragon Smart Protect ang app na ito."</string>
+    <string name="good_title">"Mahusay"</string>
+    <string name="trusted_item_title">"Hindi sinusubaybayan ng Snapdragon Smart Protect ang mga aktibidad ng %1$s, dahil ito ay nasa iyong listahan ng Pinagkakatiwalaang Apps.\n\nKung hindi ka sigurado sa kaligtasan ng app na ito, alisin ito mula sa listahan ng Pinagkakatiwalaang Apps."</string>
+    <string name="trusted_list_title">"Hindi sinusubaybayan ng Snapdragon Smart Protect ang apps sa listahang ito."</string>
+    <string name="trusted_list_subtitle">"Kung hindi ka sigurado sa kaligtasan ng app na ito, alisin ito mula sa listahan ng Pinagkakatiwalaang Apps."</string>
+    <string name="trusted_list_empty">"Walang apps sa listahan mo ng mga pinagkakatiwalaang apps."</string>
+    <string name="trusted_list_empty_desc">"Binibigyan ka nito ng sukdulang proteksiyon, dahil sinusubaybayan ng Snapdragon Smart Protect ang lahat ng apps mo."</string>
+    <string name="trusted_confirm_message">"Gusto mo bang idagdag ang app na ito sa listahan ng iyong Pinagkakatiwalaang Apps?\n\nKung hindi ka sigurado sa kaligtasan ng app na ito, piliin ang Kanselahin."</string>
+    <string name="malicious_ntf_message">"May natukoy na mapanirang aktibidad ang Snapdragon Smart Protect sa %1$s."</string>
+    <string name="malicious_ntf_recommend">"Rekomendasyon: I-uninstall"</string>
+    <string name="malicious_dialog_title">"Mapanira"</string>
+    <string name="malicious_text">"Mapanira"</string>
+    <string name="malware_ntf_message">"May natukoy na malware ang Snapdragon Smart Protect sa %1$s."</string>
+    <string name="malware_dialog_title">"Natukoy ang malware"</string>
+    <string name="malware_title">"Malware"</string>
+    <string name="spyware_ntf_message">"May natukoy na spyware ang Snapdragon Smart Protect sa %1$s."</string>
+    <string name="spyware_dialog_title">"Natukoy ang spyware"</string>
+    <string name="spyware_title">"Spyware"</string>
+    <string name="adware_ntf_message">"May natukoy na adware ang Snapdragon Smart Protect sa %1$s."</string>
+    <string name="adware_dialog_title">"Natukoy ang adware"</string>
+    <string name="adware_title">"Adware"</string>
+<string name="err_no_app_dashborad">"walang laman ang listahan ng dashboard app"</string>
+    <string name="analysis_title">"%1$s ay malamang na mapanira sa mga sumusunod na dahilan:"</string>
+    <string name="service_label">"Serbisyong Sphinx"</string>
+    <string name="unknown_code">" Code - %1$d"</string>
+    <string name="default_code_detail">"Sumusubok ang app gumawa ng mapanirang aktibidad."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"Maaaring nagsasagawa ng nakasasamang aktibidad sa aparato mo."</item>
+        <item>"Lebel 1 Malware: Nagsasagawa ng nakasasamang aktibidad sa nilalaman ng user, mga application at aparato."</item>
+        <item>"Lebel 2 Malware: Nagsasagawa ng aktibidad na maaaring magkagastos ang user."</item>
+        <item>"Lebel 3 Spyware: Naglalabas/Naganakaw ng nilalaman at aktibong nag-iispiya sa mga user."</item>
+        <item>"Lebel 4 Spyware: Naglalabas/Naganakaw ng meta na impormasyon ng user."</item>
+        <item>"Lebel 5 Spyware: Naglalabas/Naganakaw ng sensitibong impormasyon ng aparato."</item>
+        <item>"Level 6 Annoyware: Agresibong adware at/o nakakaabalang app."</item>
+    </string-array>
+    <string name="setting_level1_title">"Lebel 1 Malware"</string>
+    <string name="setting_level2_title">"Lebel 2 Malware"</string>
+    <string name="setting_level3_title">"Lebel 3 Spyware"</string>
+    <string name="setting_level4_title">"Lebel 4 Spyware"</string>
+    <string name="setting_level5_title">"Lebel 5 Spyware"</string>
+    <string name="setting_level6_title">"Lebel 6 Adware"</string>
+    <string name="setting_mode_title">"Mode"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"Pop up at karaniwang alerto"</item>
+        <item>"Karaniwang alerto"</item>
+        <item>"Walang mga alerto"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"Normal na Mode"</item>
+        <item>"Tahimik na Mode"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<string name="monitor_feature_title">"Pagsubaybay na Tampok"</string>
+    <string name="err_msg_no_rfm">"Hindi na makahanap ang Snapdragon Smart Protect ng mga rfm na file sa aparato"</string>
+    <string name="err_msg_monitor">"Hindi masubaybayan ng Snapdragon Smart Protect ang mga tampok"</string>
+    <string name="title_debug">"Debug"</string>
+    <string name="drawer_option_debug">"Debug"</string>
+    <string name="set_rfm_file">"Pumili ng RFM file"</string>
+    <string name="debug_rfm_model">"RFM File"</string>
+    <string name="debug_mnf_apply">"Pagsubaybay na Tampok"</string></resources>

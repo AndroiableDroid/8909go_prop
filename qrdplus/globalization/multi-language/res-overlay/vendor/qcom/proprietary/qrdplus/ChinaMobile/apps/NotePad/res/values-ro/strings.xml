@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">"NotePad"</string>
+    <string name="live_folder_name">"Note"</string>
+    <string name="title_edit_title">"Titlu notă:"</string>
+    <string name="title_create">"Notă nouă"</string>
+    <string name="title_edit">"Editaţi: %1$s"</string>
+    <string name="title_notes_list">"Note"</string>
+    <string name="menu_add">"Notă nouă"</string>
+    <string name="menu_save">"Salvaţi"</string>
+    <string name="menu_delete">"Ștergeți"</string>
+    <string name="menu_delete_selected">"selectat"</string>
+    <string name="menu_delete_sel">"selectați ..."</string>
+    <string name="menu_delete_all">"Ştergeţi totul"</string>
+    <string name="menu_deselect_all">"Deselectaţi-le pe toate"</string>
+    <string name="menu_select_all">"Selectaţi-le pe toate"</string>
+    <string name="confirm_delete_notes">"note vor fi șterse."</string>
+    <string name="confirm_delete_notes_single">"notă va fi ștearsă."</string>
+    <string name="msg_this">"Acest"</string>
+    <string name="msg_all">"Toate"</string>
+    <string name="menu_open">"Deschideți"</string>
+    <string name="menu_revert">"Reveniți la modificări"</string>
+    <string name="menu_copy">"Copiaţi"</string>
+    <string name="menu_paste">"Inseraţi"</string>
+    <string name="button_ok">"OK"</string>
+    <string name="text_title">"Titlu:"</string>
+    <string name="resolve_edit">"Editați nota"</string>
+    <string name="resolve_title">"Editați titlul"</string>
+    <string name="error_title">"Eroare"</string>
+    <string name="error_message">"Eroare la încărcarea notei"</string>
+    <string name="nothing_to_save">"Nimic de salvat"</string>
+    <string name="content_full">"Conținutul atinge acum limita de lungime!"</string>
+    <string name="emptyNotesText">"Notele pe care le adăugați apar aici"</string></resources>

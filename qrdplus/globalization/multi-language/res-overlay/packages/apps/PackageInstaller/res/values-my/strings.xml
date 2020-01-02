@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"ပက်ကေ့ချ် ထည့်သွင်းသည့်အရာ"</string>
+    <string name="next">"ရှေ့သို့"</string>
+    <string name="install">"ထည့်သွင်းပါ"</string>
+    <string name="done">"ပြီးပါပြီ"</string>
+    <!-- TODO REMOVE LATER -->
+    <string name="security_settings_desc">"ဒီအပလီကေးရှင်းကို ခွင့်ပြုရမှာကတော့:"</string>
+    <string name="cancel">"ထားတော့"</string>
+    <string name="unknown">"အကြောင်းအရာ မသိရှိ"</string>
+    <string name="installing">"ထည့်သွင်းနေပါသည်"</string>
+    <string name="install_done">"အပလီကေးရှင်း ထည့်သွင်းပြီး"</string>
+    <!-- Message for installing a new app that requires some permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question">"ဤအပလီကေးရှင်းကို ထည့်သွင်းပါမလား။ ဤအပလီကေးရှင်း သုံးစွဲခွင့်ရှိမှာ ကတော့:"</string>
+    <!-- Message for installing a new app that does not require permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_no_perms">"ဤအပလီကေးရှင်းကို ထည့်သွင်းပါမလား။ အထူးတလည် သုံးခွင့် မလိုအပ်ပါ"</string>
+    <!-- Message for updating an existing app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update">"လက်ရှိ ရှိပြီးသား အပလီကေးရှင်းကို အဆင့်မြှင့်လိုပါသလား။ ရှိပြီးသား အချက်အလက်များကို ဆုံးရှုံးမည် မဟုတ်ပါ။ အဆင့်မြှင့်လိုက်သော အပလီကေးရှင်း သုံးစွဲခွင့်ရှိမှာ များကတော့:"</string>
+    <!-- Message for updating an existing system app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_system">"အဆင့်သင့် ပါလာသော အပလီကေးရှင်းကို အဆင့်မြှင့်လိုပါသလား။  ရှိပြီးသား အချက်အလက်များကို ဆုံးရှုံးမည် မဟုတ်ပါ။ အဆင့်မြှင့်လိုက်သော အပလီကေးရှင်း သုံးစွဲခွင့်ရှိမှာ များကတော့:"</string>
+    <!-- Message for updating an existing app, no permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_no_perms">"လက်ရှိ ရှိပြီးသား အပလီကေးရှင်းကို အဆင့်မြှင့်လိုပါသလား။  ရှိပြီးသား အချက်အလက်များကို ဆုံးရှုံးမည် မဟုတ်ပါ။ အထူးတလည် သုံးခွင့် မလိုအပ်ပါ"</string>
+    <!-- Message for updating an existing system app, no permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_system_no_perms">"အဆင့်သင့် ပါလာသော အပလီကေးရှင်းကို အဆင့်မြှင့်လိုပါသလား။  ရှိပြီးသား အချက်အလက်များကို ဆုံးရှုံးမည် မဟုတ်ပါ။ အထူးတလည် သုံးခွင့် မလိုအပ်ပါ"</string>
+    <string name="install_failed">"အပလီကေးရှင်း မထည့်သွင်းရသေးပါ"</string>
+    <!-- Reason displayed when installation fails because the installation package itself is invalid
+        in some way (e.g., corrupt) [CHAR LIMIT=100] -->
+    <string name="install_failed_invalid_apk">"ဤpackageမှာ  ဖျက်စီးသွားပါသည်။"</string>
+    <!-- Reason displayed when installation fails because the package an existing package is
+        installed with a conflicting package author signature [CHAR LIMIT=100] -->
+    <string name="install_failed_inconsistent_certificates">"လက်ရှိpackageနှင့် အမည်တူပြီး လက်မှတ်ကွဲလွဲဆန့်ကျင်သောpackage မှာ ထည့်သွင်းထားပြီးသာဖြစ်သည်။"</string>
+    <!-- Reason displayed when installation fails because the package specifies a minimum compatible
+        OS version that is newer than our current OS version. [CHAR LIMIT=100] -->
+    <string name="install_failed_older_sdk">"Packageမှာ Androidဗားရှင်းအသစ်များတွင်သာ အလုပ်လုပ်ပါသည်"</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">"ဤအပလီကေးရှင်းက သင့်တက်ဘလက်နဲ့ မသင့်တော်ပါ"</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current TV doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tv">"ဤ app သည် သင့်တီဗွီနှင့် တွဲဖက်သုံးမရပါ။"</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current phone doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="default">"ဤအပလီကေးရှင်းက သင့်ဖုန်းနဲ့ မသင့်တော်ပါ"</string>
+    <!-- Reason displayed when installation fails because the package was deleted during the
+        installation process. [CHAR LIMIT=100] -->
+    <string name="install_failed_file_not_found">"ထည့်သွင်းခြင်းမပြီးဆုံးမီ packageမှာပျက်စီးသွားပါသည်။"</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        because the package verifier rejected it. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_failed">"ဤpackageအား စီစစ်အတည်ပြုခြင်းမအောင်မြင်သောကြောင့် ထည့်သွင်းလို့မရပါ။"</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        before the internal system timer expired. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_timeout">"ဤအချက်အလက်အစု ကို စစ်ဆေးဖို့ ကြိုးစားခြင်း အချိန်ကုန်လွန်ခြင်း ဖြစ်သွားပါသည်။ နောက်မှ ပြန်လည် ထည့်သွင်းရန် ကြိုးစားပါ"</string>
+    <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tablet">"<xliff:g id="APP_NAME">%1$s</xliff:g> ကို သင့်တက်ဘလက်တွင် ထည့်သွင်းလို့ မရနိုင်ပါ"</string>
+    <!-- Message presented when an application could not be installed on the TV for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tv">"သင့်တီဗွီတွင် <xliff:g id="APP_NAME">%1$s</xliff:g> အား မတပ်ဆင်နိုင်ပါ။"</string>
+    <!-- Message presented when an application could not be installed on the phone for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="default">"<xliff:g id="APP_NAME">%1$s</xliff:g> ကို သင့်ဖုန်းတွင် ထည့်သွင်းလို့ မရနိုင်ပါ"</string>
+    <string name="launch">"ဖွင့်သည်"</string>
+    <string name="unknown_apps_dlg_title">"ထည့်သွင်းခြင်းမပြုလုပ်နိုင်ရန် ပိတ်ပင်ထားသည်"</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tablet">"လုံခြုံရေးအတွက်, ဇစ်မြစ် မသိသော အပလီကေးရှင်းများ တက်ဘလက်ထဲ သွင်းခြင်းကို ပိတ်ပင်ထားပါသည်"</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tv">"လုံခြုံရေးအတွက်၊ ဇစ်မြစ် မသိသော အပလီကေးရှင်းများ ဖုန်းတွင်း သွင်းခြင်းအား ပိတ်ပင်ထား၏။"</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="default">"လုံခြုံရေးအတွက်, ဇစ်မြစ် မသိသော အပလီကေးရှင်းများ ဖုန်းထဲ သွင်းခြင်းကို ပိတ်ပင်မှု ပြုလုပ်ထားပါသည်"</string>
+    <!-- Message presented in a dialog box when the device administrator restricts the installation of apps from unknown sources. [CHAR LIMIT=none] -->
+    <string name="unknown_apps_admin_dlg_text">"သင်၏ စီမံအုပ်ချုပ်သူက မသိရသည့် ရင်းမြစ်များမှ ရယူခဲ့သည့် appများကို တပ်ဆင်မှု ခွင့်မပြုပါ။"</string>
+    <string name="ok">"ကောင်းပြီ"</string>
+    <string name="settings">"အပြင်အဆင်များ"</string>
+    <!-- Title of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_title">"အပလီကေးရှင်းထည့်သွင်းရန် ပင်မနေရာသစ်"</string>
+    <!-- Message of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_text">"<xliff:g id="APP_NAME">%1$s</xliff:g>သည် တခြားအပ်ပလီကေးရှင်းအားထည့်သွင်းချင်ပါသည်.\n\nယခု နှင့် နောင်တွင်လဲ ခွင့်ပြုမည်လား"</string>
+    <string name="manage_applications">"အပလီကေးရှင်းများအား ထိန်းသိမ်းခြင်း"</string>
+    <string name="dlg_app_replacement_title">"အပလီကေးရှင်းအား အစားထိုးမညိလား?"</string>
+    <string name="dlg_app_replacement_statement">"သင် ထည့်သွင်းနေသော အပလီကေးရှင်းမှာ တခြား အပလီကေးရှင်းတစ်ခုအား အစားထိုးပါမည်။.\n\n ယခင်သိမ်းဆည်းထားသော အချက်အလက်များ ကို သိမ်းဆည်းပေးပါမည်။"</string>
+    <!-- Dialog attributes when replacing system app -->
+    <string name="dlg_sys_app_replacement_statement">"ဒီဟာသည် စနစ်၏အပလီကေးရှင်း ဖြစ်ပါသည်။ \n\nယခင် သုံးစွဲသူအချက်အလက်များ ကို သိမ်းဆည်းပေးပါမည်။"</string>
+    <string name="out_of_space_dlg_title">"နေရာလွတ်မရှိပါ"</string>
+    <string name="out_of_space_dlg_text">"<xliff:g id="APP_NAME">%1$s</xliff:g> ကို ထည့်သွင်းလို့ မရနိုင်ပါ။ နေရာအပိုရအောင် ရှင်းလင်းပြီး ပြန်ကြိုးစားပါ"</string>
+    <!-- strings related to uninstall activity -->
+    <string name="dlg_ok">"ကောင်းပြီ"</string>
+    <string name="app_not_found_dlg_title">"အပလီကေးရှင်း အားမတွေ့ပါ"</string>
+    <string name="app_not_found_dlg_text">"ထည့်သွင်းထားသော အပလီကေးရှင်းထဲတွင် ဤအပလီကေးရှင်း မတွေ့ရှိပါ"</string>
+    <string name="uninstall_application_title">"အပလီကေးရှင်းကို ဖယ်ရှားပါ"</string>
+    <string name="uninstall_update_title">"အဆင့်မြှင့်ခြင်းကို ဖယ်ရှားပါ"</string>
+    <string name="uninstall_activity_text">"<xliff:g id="ACTIVITY_NAME">%1$s</xliff:g> ကတော့ အောက်ပါ အပလီကေးရှင်း၏အစိတ်အပိုင်း တစ်ခု ဖြစ်ပါသည်:"</string>
+    <string name="uninstall_application_text">"ဤအပလီကေးရှင်းကို သင်ဖယ်ရှားချင်ပါသလား"</string>
+    <string name="uninstall_application_text_all_users">"ဤအပလီကေးရှင်းကို အသုံးပြုသူ"<b>" အားလုံး"</b>" အတွက် ဖယ်ရှားချင်ပါသလား? ဤအပလီကေးရှင်း နှင့် သက်ဆိုင်ရာ အချက်အလက်များ အားလုံးကို "<b>" မှ  အားလုံးသော "</b>" စက်အသုံးပြုသူတွေအတွက် ဖယ်ရှားပစ်ပါလိမ့်မည်"</string>
+    <string name="uninstall_application_text_user">"သင်သည် အသုံးပြုသူ <xliff:g id="USERNAME">%1$s</xliff:g> အတွက် ဒီအကောင့်ကို ဖြုတ်ပစ်လိုပါသလား?"</string>
+    <string name="uninstall_update_text">"ဒီ အပလီကေးရှင်းကို မူလ စက်ရုံထုတ်မူကွဲနှင့် အစားထိုးချင်ပါသလား"</string>
+    <string name="uninstalling">"ဖယ်ထုတ်သည်"</string>
+    <string name="uninstall_done">"ဖယ်ရှားခြင်း ပြီးပါပြီ"</string>
+    <string name="uninstall_failed">"ဖယ်ရှားမှု မအောင်မြင်ပါ"</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator [CHAR LIMIT=80] -->
+    <string name="uninstall_failed_device_policy_manager">"ဤ အချက်အလက်အစုသည်လက်ရှိ စက်၏ အက်ဒ်မင် ဖြစ်နေသောကြောင့် ဖယ်ရှားလို့ မရပါ"</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator for some user [CHAR LIMIT=100] -->
+    <string name="uninstall_failed_device_policy_manager_of_user">"ဒီအထုပ်မှာ အသုံးပြုသူ<xliff:g id="USERNAME">%1$s</xliff:g>အတွက် လုပ်ကိုင်နေသည့် စီမံအုပ်ချုပ်သူဖြစ်၍ ဖြုတ်မရနိုင်ပါ။"</string>
+    <!-- String presented to the user when uninstalling a package failed because a profile owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_profile_owner">"ဤအပ်ဖ်သည် သင့်အလုပ်ကိုယ်ရေးအချက်အလက်အတွက်လိုအပ်ပြီး ဖြုတ်၍မရနိုင်ပါ။"</string>
+    <!-- String presented to the user when uninstalling a package failed because a device owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_device_owner">"ဒီappမှာ သင်၏ ကိရိယာ စီမံအုပ်ချုပ်သူက လိုအပ်သောကြောင့် ဖြုတ်၍ မရနိုင်ပါ။"</string>
+    <!-- String on a button that leads to the "device administrator" configuration setting where a
+        user will be able to disable the device administrator in order to uninstall
+        it. [CHAR LIMIT=50] -->
+    <string name="manage_device_administrators">"စက်ပစ္စည်းထိန်းချုပ်မှုအား စီမံရန်"</string>
+    <string name="uninstall_failed_msg">"<xliff:g id="APP_NAME">%1$s</xliff:g> ကို ဖယ်ရှားလို့ မရပါ"</string>
+    <!-- Dialog attributes to indicate parse errors -->
+    <string name="Parse_error_dlg_title">"ဖတ်ရှုရာတွင် မှားယွင်းမှု"</string>
+    <string name="Parse_error_dlg_text">"ဒေတာအချက်အလက်အစုအားဖတ်ရှုစဉ် ပြသနာ တစ်ခု ဖြစ်ပေါ်ပါသည်"</string>
+    <!-- Tab label for new permissions being added to an existing app [CHAR LIMIT=20] -->
+    <string name="newPerms">"အသစ်"</string>
+    <!-- Tab label for all permissions of an app being installed [CHAR LIMIT=20] -->
+    <string name="allPerms">"အားလုံး"</string>
+    <!-- Tab label for permissions related to user privacy [CHAR LIMIT=20] -->
+    <string name="privacyPerms">"လုံခြုံမှု"</string>
+    <!-- Tab label for permissions related to device behavior [CHAR LIMIT=20] -->
+    <string name="devicePerms">"စက်ပစ္စည်း အသုံးပြုခွင့်"</string>
+    <!-- Body text for new tab when there are no new permissions [CHAR LIMIT=NONE] -->
+    <string name="no_new_perms">"ဒီအဆင့်မြှင့်ခြင်းဟာ ခွင့်ပြုချက်သစ်တွေ မလိုအပ်ပါ"</string>
+    <string name="grant_confirm_question">"အောက်ပါ ခွင့်ပြုချက်များ ပေးလိုပါသလား။ ၎င်းတို့က သုံးခွင့်ပြုမှာကတော့၊"</string>
+    <!-- Title for the dialog button to allow a permission grant. -->
+    <string name="grant_dialog_button_allow">"ခွင့်ပြုသည်"</string>
+    <!-- Title for the dialog button to deny a permission grant. -->
+    <string name="grant_dialog_button_deny">"ငြင်းပယ်သည်"</string>
+    <!-- Template for the current permission from the total number of permissions. -->
+    <string name="current_permission_template">"<xliff:g id="CURRENT_PERMISSION_INDEX">%1$s</xliff:g> / <xliff:g id="PERMISSION_COUNT">%2$s</xliff:g>"</string>
+    <!-- Template for the warning message when an app requests a permission. -->
+    <string name="permission_warning_template">"<xliff:g id="APP_NAME">%1$s</xliff:g> အား <xliff:g id="ACTION">%2$s</xliff:g> ခွင့်ပြုသလား။"</string>
+    <!-- Breadcrumb for page of managing application permissions [CHAR LIMIT=50] -->
+    <string name="app_permissions_breadcrumb">"Appများ"</string>
+    <!-- Title for page of managing application permissions -->
+    <string name="app_permissions">"App ခွင့်ပြုချက်များ"</string>
+    <!-- Checkbox that allows user to not be questioned about this permission
+         request again -->
+    <string name="never_ask_again">"ထပ်မမေးရန်"</string>
+    <!-- Label when app requests no permissions -->
+    <string name="no_permissions">"ခွင့်ပြုချက်မရှိ"</string>
+    <!-- Label for button that leads to more permissions [CHAR LIMIT=40] -->
+    <string name="additional_permissions">"ထပ်တိုး ခွင့်ပြုချက်များ"</string>
+    <!-- Description of how many more permissions to view on next page [CHAR LIMIT=30] -->
+    <plurals name="additional_permissions_more">
+        <item quantity="one">"နောက်ထပ် <xliff:g id="COUNT">%1$d</xliff:g>"</item>
+        <item quantity="other">"နောက်ထပ် <xliff:g id="COUNT">%1$d</xliff:g>"</item>
+    </plurals>
+    <!-- Warning for turning off permissions on older apps -->
+    <string name="old_sdk_deny_warning">"ဤapp အား Android ၏ ဗားရှင်းဟောင်းအတွက် ပုံဆွဲရေးဆွဲထား၏။ ခွင့်ပြုချက်ပေးရန် ငြင်းဆိုပါက ရည်ရွယ်ထားသကဲ့သို့ ဆောင်ရွက်လိမ့်မည် မဟုတ်ပါ။"</string>
+    <!-- The default description of a permission, i.e. what it does.  [CHAR LIMIT=40] -->
+    <string name="default_permission_description">"အမျိုးအမည်မသိ ဆောင်ရွက်ချက်တစ်ခု လုပ်ရန်"</string>
+    <!-- Summary of number of apps currently granted a single permission [CHAR LIMIT=45] -->
+   <string name="app_permissions_group_summary">"<xliff:g id="COUNT_0">%1$d</xliff:g> / <xliff:g id="COUNT_1">%2$d</xliff:g> app များ ခွင့်ပြုခဲ့၏"</string>
+   <!-- [CHAR LIMIT=NONE] Menu for manage permissions to control whether system apps are shown -->
+   <string name="menu_show_system">"စနစ်ကိုပြသရန်"</string>
+   <!-- [CHAR LIMIT=NONE] Menu for manage permissions to control whether system apps are hidden -->
+   <string name="menu_hide_system">"စနစ်ကို ဖျောက်မည်"</string>
+   <!-- [CHAR LIMIT=30] Title for page managing what apps have a permission granted -->
+   <string name="permission_title">"<xliff:g id="PERMISSION">%1$s</xliff:g> ခွင့်ပြုချက်များ"</string>
+   <!-- [CHAR LIMIT=NONE] Label when no apps requesting this permission -->
+   <string name="no_apps">"အပ်ဖ်များမရှိ"</string>
+   <!-- [CHAR LIMIT=30] Title of button that leads to location settings -->
+   <string name="location_settings">"တည်နေရာ ဆက်တင်များ"</string>
+   <!-- [CHAR LIMIT=NONE] Warning about how this app cannot have location permission disabled -->
+   <string name="location_warning">"<xliff:g id="APP_NAME">%1$s</xliff:g> သည် ဤစက်ပစ္စည်းအတွက် တည်နေရာ ဝန်ဆောင်မှုများ ထုတ်ပေးသူဖြစ်သည်။ တည်နေရာ အသုံးပြုမှုကို တည်နေရာချိန်ညှိမှုများတွင် ပြုပြင်နိုင်သည်။"</string>
+   <!-- [CHAR LIMIT=NONE] Warning message when turning off permission for system apps -->
+   <string name="system_warning">"ဤခွင့်ပြုချက်အား သင် ငြင်းဆိုပါက၊ သင့်စက်ကိရိယာ၏ အခြေခံလုပ်ဆောင်ချက်များသည် ရည်ရွယ်ထားသကဲ့သို့ အလုပ်လုပ်မည် မဟုတ်ပါ။"</string>
+   <!-- [CHAR LIMIT=NONE] Summary of a permission switch when it's enforced by policy -->
+   <string name="permission_summary_enforced_by_policy">"မူဝါဒအားဖြင့်ပြဌာန်းရန်"</string>
+   <!-- Text displayed until loading is done -->
+   <string name="loading">"တင်နေ\u2026"</string>
+   <!-- [CHAR LIMIT=45] Title of all permissions settings -->
+   <string name="all_permissions">"ခွင့်ပြုချက်များ အားလုံး"</string>
+   <!-- [CHAR LIMIT=45] Group of permissions granted to app automatically when installed. -->
+   <string name="other_permissions">"အခြားအပ်ဖ်၏ စွမ်းရည်များ"</string>
+   <!-- Title of the permission dialog for accessibility purposes- spoken to the user. [CHAR LIMIT=none] -->
+   <string name="permission_request_title">"ခွင့်ပြုချက် တောင်းခံမှု"</string>
+    <!-- Title for the dialog that warns the user they need to turn off screen overlays
+         before permissions can be changed. [CHAR LIMIT=NONE] -->
+   <string name="screen_overlay_title">"မျက်နှာပြင် ထပ်ပေးမှုကို ရှာတွေ့ခဲ့"</string>
+   <!-- Message for the dialog that warns the user they need to turn off screen overlays
+        before permissions can be changed. The "Settings > Apps" conveys to the user to
+        go to Settings and click on apps, this may need updates in RTL languages. [CHAR LIMIT=NONE] -->
+   <string name="screen_overlay_message">"ဒီခွင့်ပြုချက် ဆက်တင်ကို ပြောင်းရန်၊ သင်ဟာ ဦးစွာ ဆက်တင်များ &gt; Appများ ထဲတွင် မျက်နှာပြင် ထပ်ပေးမှုကို ပိတ်လိုက်ရန် လိုမယ်"</string>
+    <!-- Button for the dialog that warns the user they need to turn off screen overlays
+         before permissions can be changed. [CHAR LIMIT=NONE] -->
+    <string name="screen_overlay_button">"ဆက်တင်းများ ဖွင့်ရန်"</string></resources>

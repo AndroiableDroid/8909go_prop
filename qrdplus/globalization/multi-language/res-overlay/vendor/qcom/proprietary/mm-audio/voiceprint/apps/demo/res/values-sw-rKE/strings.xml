@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"Kuna saa ishirini na nne katika siku moja"</string>
+    <string name="hi_snapdragon">"Hujambo Snapdragon"</string>
+    <string name="hey_snapdragon">"Hujambo Snapdragon"</string>
+    <string name="my_voice">"Sauti yangu ndiyo nenosiri langu"</string>
+    <string name="make_my_day">"Changamsha siku yangu"</string>
+    <string name="tomorrow_is_another">"Kesho pia ni siku"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"Karibu San Diego"</string>
+    <string name="okay_google">"Sawa Google"</string>
+    <string name="open_my_email">"Fungua Barua Pepe Yangu"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"Chapisho la Sauti"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"Mipangilio"</string>
+    <string name="action_add">"Ongeza"</string>
+    <string name="title_activity_main_with_fragment">"KuuYenyeShughuliYaVipande"</string>
+    <string name="tap_mic_start">"Gusa Kipasa Sauti ili Uanzishe"</string>
+    <string name="tap_mic_stop">"Gusa Kipasa Sauti ili Usitishe"</string>
+    <string name="say_key_phrase">"Sema \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"Sema fungu \"&lt;b&gt;%1$s&lt;/b&gt;\" mara nyingine."</string>
+    <string name="say_one_of_key_phrases">"Sema mojawapo ya Mafungu Makuu"</string>
+    <string name="phrase_recognized">"Fungu \"&lt;b&gt;%1$s&lt;/b&gt;\" limetambulika "</string>
+    <string name="recording_length_exceeded">"Urefu wa Kurekodi Umekiukwa"</string>
+    <string name="recording_length_exceeded_msg">"Urefu wa kurekodi umekiukwa. Tafadhali jaribu tena."</string>
+    <string name="delete_all">"Futa Zote"</string>
+    <string name="delete_all_msg">"Una uhakika ungependa kufuta templeti iliyosajiliwa?"</string>
+    <string name="got_it">"Hongera! Nimeelewa."</string>
+    <string name="set_key_phrase">"Weka Fungu Kuu"</string>
+    <string name="set_key_phrase_name">"Weka Jina la Fungu Kuu"</string>
+    <string name="set_key_phrase_action">"Weka Kitendo"</string>
+    <string name="change_key_phrase_action">"Badilisha Kitendo"</string>
+    <string name="phrase_strength">"Udhabiti wa Fungu"</string>
+    <string name="phrase_strength_hint">"Jaribu fungu la angalau maneno matatu."</string>
+    <string name="register_phrase">"Sajili Fungu"</string>
+    <string name="register_phrase_hint">"Ili kunisadia kutambua sauti yako, tafadhali rekodi fungu la \"&lt;b&gt;%1$s&lt;/b&gt;\" mara tatu."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" Rekodi katika chumba kilicho kimya.\n\n"<b>"2."</b>" Shikilia simu yako mbali na mdomo wako.\n\n"<b>"3."</b>" Sema fungu lako kwa namna asilia."</string>
+    <string name="ready_to_record">"SAWA, NIKO TAYARI KUREKODI"</string>
+    <string name="oops">"Lo! Jaribu tena"</string>
+    <string name="say_the_phrase">"Sema fungu \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"Fungu \"&lt;b&gt;%1$s&lt;/b&gt;\" limesajiliwa"</string>
+    <string name="say_the_phrase_few_more">"Sema \"&lt;b&gt;%1$s&lt;/b&gt;\" mara nyingine chache"</string>
+    <string name="voice_print">"Chapisho la Sauti"</string>
+    <string name="cancel">"Ghairi"</string>
+    <string name="voice_level">"Kiwango cha Sauti"</string>
+    <string name="background_noise">"Kelele ya Usuli"</string>
+    <string name="cap_done">"IMEFANYWA"</string>
+    <string name="cap_record">"REKODI"</string>
+    <string name="cap_next">"INAYOFUATA"</string>
+    <string name="cap_ok">"Sawa"</string>
+    <string name="next">"Ifuatayo"</string>
+    <string name="new_key_phrase">"Fungu Jipya Kuu"</string>
+    <string name="edit_keyphrases">"Hariri Mafungu Makuu"</string>
+    <string name="set_name">"Weka Jina"</string>
+    <string name="select_key_phrase">"Chagua Fungu Jipya"</string>
+    <string name="set_action">"Weka Kitendo"</string>
+    <string name="registration_complete">"Usajili Umekamilika"</string>
+    <string name="confirm_pin">"Thibitisha Nambari ya PIN"</string>
+    <string name="confirm_pin_msg">"Ingiza nambari ya PIN ili uhariri mafungu makuu."</string>
+    <string name="your_key_phrase">"Fungu Lako Kuu"</string>
+    <string name="cap_redo">"RUDIA"</string>
+    <string name="cap_redo_previous">"RUDIA ILIYOTANGULIA"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"Vinjari Mafungu Yaliyopendekezwa"</string>
+    <string name="create_your_own">"Unda Fungu Lako Mwenyewe"</string>
+    <string name="skip">"Ruka"</string>
+    <string name="none">"Hamna"</string>
+    <string name="enter_pin">"Ingiza nambari ya PIN ili uhariri mafungu makuu."</string>
+    <string name="your_key_phrase_name">"Jina la Fungu Lako Kuu"</string>
+    <string name="new_key_phrase_name">"Jina la Fungu Jipya Kuu"</string>
+    <string name="set_service_to_launch">"Weka huduma izinduliwe"</string>
+    <string name="email">"Barua pepe"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"Tuma Ujumbe"</string>
+    <string name="use_selected_phrase">"Tumia Fungu Lililochaguliwa"</string>
+    <string name="about">"Kuhusu"</string>
+    <string name="edit_key_phrases">"Hariri Mafungu Makuu"</string>
+    <string name="invalid_phrasename_title">"Jina Lisilo Sahihi la Fungu"</string>
+    <string name="invalid_phrasename_msg">"Ni lazima Jina la Fungu lijazwe."</string>
+    <string name="duplicate_phrasename_msg">"Jina hili la Fungu tayari linatumika. Jaribu jina lingine."</string>
+    <string name="invalid_phrase_title">"Fungu Lisilo Sahihi"</string>
+    <string name="invalid_phrase_msg">"Fungu hili ni lazima lijazwe."</string>
+    <string name="edit_action">"Hariri Kitendo"</string>
+    <string name="threshold">"Kilele"</string>
+    <string name="delete_phrase">"Futa Fungu"</string>
+    <string name="rename">"Badilisha Jina"</string>
+    <string name="rename_keyphrase">"Badilisha Jina la Fungu Msingi"</string>
+    <string name="adjust_keyword_sensitivity">"Rekebisha Unyeti wa Neno Msingi"</string>
+    <string name="adjust_keyword_sensitivity_summary">"Unyeti unaweeza kurekebishwa kuruhusu mabadiliko madogo katika utambuzi wa fungu kuu."</string>
+    <string name="sensitivity">"Unyeti"</string>
+    <string name="low_sensitivity">"Unyeti wa Hali ya Chini"</string>
+    <string name="med_sensitivity">"Unyeti wa Hali Wastani"</string>
+    <string name="high_sensitivity">"Unyeti wa Hali ya Juu"</string>
+    <string name="low">"CHINI"</string>
+    <string name="med">"WAST"</string>
+    <string name="high">"JUU"</string>
+    <string name="low_sensitivity_summary">"Kubali mabadiliko zaidi katika mchakato wa utambuzi wa fungu kuu."</string>
+    <string name="med_sensitivity_summary">"Inakubali mabadiliko machache katika mchakato wa kutambua fungu kuu, lakini huenda ikazuia baadhi ya mafungu makuu kutambuliwa."</string>
+    <string name="high_sensitivity_summary">"Ina usalama wa ziada, lakini huenda ikazuia baadhi ya mafungu makuu kutambuliwa."</string>
+    <string name="keyword_sensitivity">"Unyeti wa Maneno Msingi"</string>
+    <string name="delete_phrase_msg">"Una uhakika ungependa kufuta fungu la \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"Uchapishaji wa Sauti Haupatikani"</string>
+    <string name="voice_print_not_available_msg">"Uchapishaji wa Sauti haujawezeshwa kwenye kifaa hiki."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"Umefaulu Kufuata"</string>
+    <string name="delete_success_msg">"Modeli ya neno msingi imefutwa."</string>
+    <string name="delete_fail_title">"Umefaulu Kufuta"</string>
+    <string name="delete_fail_msg">"Hitilafu imetokea wakati wa kufuta modeli ya neno msingi."</string>
+    <string name="rename_success_title">"Jina Limebadilishwa"</string>
+    <string name="rename_success_msg">"Jina la modeli ya neno msingi limebadilishwa."</string>
+    <string name="rename_fail_title">"Jina Haylikufaulu"</string>
+    <string name="rename_fail_msg">"Hitilafu imetokea wakati wa kubadilisha jina la modeli ya neno msingi."</string>
+    <string name="pin_validation">"Uthibitishaji wa PIN"</string>
+    <string name="pin_failed">"Uthibitishaji wa PIN Si Sahihi"</string>
+    <string name="registration_failed">"Usajili umeshindwa"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"Kilele cha Mtumiaji"</string>
+    <string name="spoof_score">"Kilele cha Uigaji"</string>
+    <string name="thresholds">"Vilele"</string>
+    <string name="save">"Hifadhi"</string>
+    <string name="sentence_score_msg">"Weka Kilele cha Sentensi"</string>
+    <string name="user_score_msg">"Weka Kilele cha Mtumiaji"</string>
+    <string name="spoof_score_msg">"Weka Kilele cha Uigaji"</string>
+    <string name="sentence_score">"Kilele cha Sentensi"</string></resources>

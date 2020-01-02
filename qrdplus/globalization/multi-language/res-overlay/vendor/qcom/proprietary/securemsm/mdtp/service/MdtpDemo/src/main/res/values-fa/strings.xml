@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"برنامه کاربر MDTP: صفحه نمایش اصلی"</string>
+    <string name="config_app">"برنامه کاربر MDTP: پیکربندی"</string>
+    <string name="server_app">"سرور MDTP: صفحه نمایش اصلی"</string>
+    <string name="action_settings">"تنظیمات"</string>
+    <string name="label_1_1">"وضعیت MDTP:"</string>
+    <string name="state_deactivated">"غیرفعال شد"</string>
+    <string name="state_activated">"فعال شد"</string>
+    <string name="configuration">"پیکربندی (فقط قبل از فعال‌سازی)"</string>
+    <string name="service_activate">"درخواست فعال‌سازی MDTP از سرویس‌های MDTP"</string>
+    <string name="service_deactivate">"درخواست غیرفعال‌سازی MDTP از سرویس‌های MDTP"</string>
+    <string name="local_deactivate">"غیرفعال‌سازی MDTP محلی (با استفاده از پین)"</string>
+    <string name="service_console">"کنسول سرویس‌های MDTP"</string>
+    <string name="title_activity_configuration">"پیکربندی کاربر"</string>
+    <string name="label_2_1">"استفاده از پین محلی:"</string>
+    <string name="label_2_2">"پین:"</string>
+    <string name="gen_rand_pin">"ایجاد پین تصادفی"</string>
+    <string name="label_2_3">"نسبت تأیید:"</string>
+    <string name="label_2_5">"فعال‌سازی قفل سیم کارت:"</string>
+    <string name="label_2_6">"فایل‌ها/دایرکتوری‌های بیشتر برای تأیید:"</string>
+    <string name="reset">"بازنشانی به پیش‌فرض"</string>
+    <string name="label_3_1">"ارسال فرمان‌ها از سرور به دستگاه:"</string>
+    <string name="activate">"فعالسازی"</string>
+    <string name="deactivate">"غیرفعال کردن"</string>
+    <string name="locksim">"قفل کردن سیم‌کارت"</string>
+    <string name="unlocksim">"باز کردن قفل سیم کارت"</string>
+    <string name="killfunc">"بستن اجباری عملکرد"</string>
+    <string name="restorefunc">"بازیابی عملکرد"</string>
+    <string name="label_3_2">"درخواست‌های غیرفعال‌سازی MDTP:"</string>
+    <string name="notallowed">"مجاز نیست"</string>
+    <string name="allowed">"مجاز شد"</string>
+    <string name="label_3_3">"درخواست‌های رفع انسداد برنامه نصب:"</string>
+    <string name="label_3_4">"گزارش سرویس:"</string>
+    <string name="wizard_app_loading_title">"برنامه نصب MDTP: در حال مقداردهی اولیه..."</string>
+    <string name="label_4_1">"برنامه نصب مسدود شد زیرا حالت MDTP فعال است"</string>
+    <string name="label_4_2">"گزینه الف: MDTP را فعال نگه دارید اما برای مجوز سرویس درخواست کنید"</string>
+    <string name="wiz_unblock">"درخواست رفع انسداد برنامه نصب از سرویس‌های MDTP"</string>
+    <string name="wiz_cont">"ادامه (مجاز از طرف سرور)"</string>
+    <string name="label_4_3">"گزینه ب: MDTP غیرفعال (انسداد برنامه نصب حذف می‌شود)"</string>
+    <string name="wiz_remote">"درخواست غیرفعال‌سازی MDTP راه‌دور"</string>
+    <string name="wiz_local">"غیرفعال‌سازی MDTP محلی"</string>
+    <string name="label_4_4">"چون حالت MDTP فعال نیست، برنامه نصب می‌تواند ادامه پیدا کند"</string>
+    <string name="wiz_complete">"تکمیل برنامه نصب (حالت MDTP فعال نیست)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"برنامه نصب"</string>
+    <string name="label_signup_message">"MDTP در حال حاضر فعال نیست.\nمی‌خواهید آن را فعال کنید؟"</string>
+    <string name="label_signup_message_activated">"MDTP با موفقیت فعال شد!"</string>
+    <string name="skip_activation">"رد شدن از فعال‌سازی"</string>
+    <string name="emergency_dialer">"شماره گیری اضطراری"</string>
+    <string name="wiz_title_sign_up">"برنامه نصب MDTP - ثبت‌نام"</string>
+    <string name="wiz_title_reset_prot">"برنامه نصب MDTP - محافظت از بازنشانی تنظیمات کارخانه"</string>
+    <string name="wiz_title_boot_block">"برنامه نصب MDTP - دستگاه مسدود است"</string>
+    <string name="block_boot_warning_text">"به دلیل خطای داخلی، MDTP این دستگاه را مسدود کرده است.\n\nلطفاً دستگاه را راه‌اندازی مجدد کنید."</string>
+    <string name="start_wifi_wizard">"تنظیم WiFi"</string>
+    <string name="default_pin_hint">"پین پیش‌فرض، 11111 است"</string>
+    <string name="pin_dialog_title">"پین غیرفعال‌سازی محلی MDTP لازم است"</string>
+    <string name="pin_input_validation_warning">"ورودی باید 5 رقم و عددی باشد"</string></resources>

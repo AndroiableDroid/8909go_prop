@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"MDTP User App: หน้าจอหลัก"</string>
+    <string name="config_app">"MDTP User App: การกำหนดค่า"</string>
+    <string name="server_app">"MDTP เซิร์ฟเวอร์: หน้าจอหลัก"</string>
+    <string name="action_settings">"การตั้งค่า"</string>
+    <string name="label_1_1">"สถานะ MDTP:"</string>
+    <string name="state_deactivated">"ปิดการทำงานแล้ว"</string>
+    <string name="state_activated">"เปิดการทำงานแล้ว"</string>
+    <string name="configuration">"การตั้งค่า (ก่อนการเปิดใช้งานเท่านั้น)"</string>
+    <string name="service_activate">"ร้องขอการเปิดใช้งาน MDTP จากบริการ MDTP"</string>
+    <string name="service_deactivate">"ร้องขอการปิดใช้งาน MDTP จากบริการ MDTP"</string>
+    <string name="local_deactivate">"การปิดใช้งาน MDTP ในตัวเครื่อง (โดยใช้ PIN)"</string>
+    <string name="service_console">"คอนโซลบริการ MDTP"</string>
+    <string name="title_activity_configuration">"การตั้งค่าผู้ใช้"</string>
+    <string name="label_2_1">"ใช้ PIN ในตัวเครื่อง:"</string>
+    <string name="label_2_2">"PIN:"</string>
+    <string name="gen_rand_pin">"สร้าง PIN สุ่ม"</string>
+    <string name="label_2_3">"การตรวจสอบอัตราส่วน:"</string>
+    <string name="label_2_5">"เปิดใช้งาน SIM Lock:"</string>
+    <string name="label_2_6">"ไฟล์เพิ่มเติม / ไดเร็คทอรีที่จะตรวจสอบ:"</string>
+    <string name="reset">"รีเซ็ทเป็นค่าพื้นฐาน"</string>
+    <string name="label_3_1">"ส่งคำสั่งจากเซิร์ฟเวอร์ไปยังอุปกรณ์:"</string>
+    <string name="activate">"เปิดการใช้งาน"</string>
+    <string name="deactivate">"ปิดการใช้งาน"</string>
+    <string name="locksim">"ล็อก SIM"</string>
+    <string name="unlocksim">"ปลดล็อก SIM"</string>
+    <string name="killfunc">"ล้างการทำงาน"</string>
+    <string name="restorefunc">"คืนค่าการทำงาน"</string>
+    <string name="label_3_2">"ร้องขอการปิดใช้งาน MDTP:"</string>
+    <string name="notallowed">"ไม่อนุญาต"</string>
+    <string name="allowed">"ได้รับอนุญาต"</string>
+    <string name="label_3_3">"ร้องขอการยกเลิกการปิดกั้น SetupWizard:"</string>
+    <string name="label_3_4">"บันทึกบริการ:"</string>
+    <string name="wizard_app_loading_title">"MDTP SetupWizard: กำลังเริ่มการทำงาน..."</string>
+    <string name="label_4_1">"SetupWizard ถูกปิดกั้นเพราะเปิดใช้งานสถานะ MDTP อยู่"</string>
+    <string name="label_4_2">"ทางเลือก A: เปิดใช้งาน MDTP ตลอดเวลา แต่ให้มีการยืนยันสิทธิ์ของเซิร์ฟเวอร์"</string>
+    <string name="wiz_unblock">"ร้องขอการยกเลิกการปิดกั้น SetupWizard จากบริการ MDTP"</string>
+    <string name="wiz_cont">"ต่อไป(ยืนยันสิทธิ์โดยเซิร์ฟเวอร์)"</string>
+    <string name="label_4_3">"ทางเลือn B: ปิดการใช้งาน MDTP (จะถอดการปิดกั้น SetupWizard)"</string>
+    <string name="wiz_remote">"ร้องขอการปิดใช้งาน MDTP ระยะไกล"</string>
+    <string name="wiz_local">"การปิดใช้งาน MDTP ในตัวเครื่อง"</string>
+    <string name="label_4_4">"อนุญาตให้ดำเนินการ SetupWizard ต่อได้เพราะสถานะ MDTP ไม่ได้เปิดใช้งาน"</string>
+    <string name="wiz_complete">"เสร็จสิ้น SetupWizard (ไม่ได้เปิดใช้งานสถานะ MDTP)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"วิซาร์ดการตั้งค่า"</string>
+    <string name="label_signup_message">"MDTP ไม่ได้ถูกเปิดใช้งานในขณะนี้\nMDTP ไม่ได้ถูกเปิดใช้งานในขณะนี้\nคุณต้องการเปิดใช้งานหรือไม่?"</string>
+    <string name="label_signup_message_activated">"MDTP ถูกเปิดใช้งานเรียบร้อย!"</string>
+    <string name="skip_activation">"ข้ามการเปิดใช้งาน"</string>
+    <string name="emergency_dialer">"โปรแกรมโทรออกฉุกเฉิน"</string>
+    <string name="wiz_title_sign_up">"MDTP SetupWizard - ลงชื่อเข้าใช้"</string>
+    <string name="wiz_title_reset_prot">"MDTP SetupWizard - ป้องกันการรีเซ็ทค่าจากโรงงาน"</string>
+    <string name="wiz_title_boot_block">"MDTP SetupWizard - อุปกรณ์ถูกปิดกั้น"</string>
+    <string name="block_boot_warning_text">"MDTP ปิดกั้นอุปกรณ์นี้เนื่องจากความผิดพลาดภายใน\n\nMDTP ปิดกั้นอุปกรณ์นี้เนื่องจากความผิดพลาดภายใน\n\nโปรดรีบูตอุปกรณ์"</string>
+    <string name="start_wifi_wizard">"ตั้งค่า WiFi"</string>
+    <string name="default_pin_hint">"PIN จากโรงงาน คือ 11111"</string>
+    <string name="pin_dialog_title">"MDTP Local ปิดการใช้งานการร้องขอ PIN"</string>
+    <string name="pin_input_validation_warning">"อินพุทต้องมีตัวอักษรและหมายเลข 5 ตัว"</string></resources>

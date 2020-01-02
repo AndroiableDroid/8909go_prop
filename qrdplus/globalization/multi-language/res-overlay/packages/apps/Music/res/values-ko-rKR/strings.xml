@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- used in various places to indicate there is one song for a given artist or album -->
+    <string name="onesong">"노래 1곡"</string>
+    <!-- used in various places to indicate there is some number other than one songs for a given artist or album. -->
+    <plurals name="Nsongs">
+        <item quantity="other">"노래 <xliff:g id="COUNT">%d</xliff:g>곡"</item>
+    </plurals>
+    <!-- shows how many songs on the album are by the selected artist, out of how many total, if those two numbers are different -->
+    <plurals name="Nsongscomp">
+        <item quantity="other">"노래 <xliff:g id="TOTAL_COUNT">%1$d</xliff:g>곡 중 <xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g>곡"</item>
+    </plurals>
+    <!-- Used in artists list view, indicates how many albums exist for a given artist. -->
+    <plurals name="Nalbums">
+        <!-- number of albums is one -->
+        <item quantity="one">"앨범 1개"</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other">"앨범 <xliff:g id="COUNT">%d</xliff:g>개"</item>
+    </plurals>
+    <!-- Menu item that takes the user back to the top level screen of the music player -->
+    <string name="goto_start">"라이브러리"</string>
+    <!-- Menu item that switches the music player in to party shuffle mode -->
+    <string name="party_shuffle">"파티 셔플"</string>
+    <!-- Menu item that switches the music player out of party shuffle mode -->
+    <string name="party_shuffle_off">"파티 셔플 사용 안함"</string>
+    <!-- Menu item that clear all playlists mode -->
+    <string name="clear_all_playlists">"모든 재생 목록 지우기"</string>
+    <!-- Menu item that deletes the currently selected item, which might be a single song, or a collection of songs.
+         The user will be prompted to confirm before deletion actually takes place -->
+    <string name="delete_item">"삭제"</string>
+    <!-- Menu item to play back all the songs in the currently showing list in list order -->
+    <string name="play_all">"모두 재생"</string>
+    <!-- Menu item to play song in music -->
+    <string name="open_in_music">"음악에서 열기"</string>
+    <!-- Menu item to share audio or video -->
+    <string name="share">"공유"</string>
+     <!-- Menu item to details audio or video -->
+    <string name="details">"세부정보"</string>
+    <!-- Delete confirmation dialog when deleting an entire artist -->
+    <string name="delete_artist_desc">"SD 카드에서 <xliff:g id="ARTIST">%s</xliff:g>의 노래 전체를 완전히 삭제하시겠습니까?"</string>
+    <!-- Delete confirmation dialog when deleting an entire album -->
+    <string name="delete_album_desc">"SD 카드에서 \'<xliff:g id="ALBUM">%s</xliff:g>\' 앨범 전체를 완전히 삭제하시겠습니까?"</string>
+    <!-- Delete confirmation dialog when deleting a single song -->
+    <string name="delete_song_desc">"SD 카드에서 \'<xliff:g id="SONG">%s</xliff:g>\'을(를) 완전히 삭제하시겠습니까?"</string>
+    <!-- Delete confirmation dialog, confirmation button text -->
+    <string name="delete_confirm_button_text">"확인"</string>
+    <!-- Toast confirming that song(s) was/were deleted. -->
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">"노래 1곡이 삭제되었습니다."</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other">"노래 <xliff:g id="SONGS_TO_DELETE">%d</xliff:g>곡이 삭제되었습니다."</item>
+    </plurals>
+    <!-- shown in dialog while the media scanner is starting up -->
+    <string name="scanning">"SD 카드 스캔 중..."</string>
+    <!-- shown in dialog while the media scanner is starting up -->
+    <string name="scanning_nosdcard">"USB 저장소 스캔 중\u2026"</string>
+    <string-array name="title_array_folder">
+        <item>"아티스트"</item>
+        <item>"앨범"</item>
+        <item>"노래"</item>
+        <item>"폴더"</item>
+        <item>"재생목록"</item>
+    </string-array>
+    <string-array name="title_array_songs">
+        <item>"아티스트"</item>
+        <item>"앨범"</item>
+        <item>"노래"</item>
+        <item>"재생목록"</item>
+    </string-array>
+    <!-- title of the "current playlist" screen when not in party shuffle mode -->
+    <string name="nowplaying_title">"지금 재생 중"</string>
+    <!-- title of the "current playlist" screen when in party shuffle mode-->
+    <string name="partyshuffle_title">"파티 셔플"</string>
+    <!-- Artist screen title -->
+    <string name="artists_title">"아티스트"</string>
+    <!-- Category label on Library screen -->
+    <string name="albums_menu">"앨범"</string>
+    <!-- Albums screen title -->
+    <string name="albums_title">"앨범"</string>
+    <!-- Category label on Library screen -->
+    <string name="tracks_menu">"노래"</string>
+    <!-- Songs screen title -->
+    <string name="tracks_title">"노래"</string>
+    <!-- Category label on Library screen -->
+    <string name="folder_menu">"폴더"</string>
+    <!-- Folder screen title -->
+    <string name="folders_title">"폴더"</string>
+    <!-- Category label on Library screen -->
+    <string name="playlists_menu">"재생목록"</string>
+    <!-- Playlists screen title -->
+    <string name="playlists_title">"재생목록"</string>
+    <!-- Videos screen title -->
+    <string name="videos_title">"동영상"</string>
+    <!-- All media screen title -->
+    <string name="all_title">"전체 미디어"</string>
+    <!-- Category label on Library screen -->
+    <string name="browse_menu">"아티스트"</string>
+    <!-- Library screen, menu item -->
+    <string name="search_title">"검색"</string>
+    <!-- Title of screen when there are no songs, or if the SD card is busy -->
+    <string name="no_tracks_title">"노래 없음"</string>
+    <!-- Title of screen when there are no videos, or if the SD card is busy -->
+    <string name="no_videos_title">"동영상 없음"</string>
+    <!-- Title of screen when there are no playlists, or if the SD card is busy -->
+    <string name="no_playlists_title">"재생목록 없음"</string>
+    <!-- Playlist context menu item to delete the selected playlist. -->
+    <string name="delete_playlist_menu">"삭제"</string>
+    <!-- Playlist context menu item to edit the selected playlist -->
+    <string name="edit_playlist_menu">"수정"</string>
+    <!-- Playlist context menu item to rename the selected playlist-->
+    <string name="rename_playlist_menu">"이름 바꾸기"</string>
+    <!-- Dialog box message shown when clearing all playlists-->
+    <string name="clear_all_playlists_message">"모든 재생 목록을 지우시겠습니까?"</string>
+    <!-- Dialog box message shown when deleting a playlist-->
+    <string name="delete_playlist_message">"\"<xliff:g id="name">%s</xliff:g>\"을(를) 삭제하시겠습니까?"</string>
+    <!-- Dialog box button -->
+    <string name="delete_playlist_button_ok">"확인"</string>
+    <string name="delete_playlist_button_cancel">"취소"</string>
+    <!-- Transient popup message shown after deleting a playlist -->
+    <string name="playlist_deleted_message">"재생목록이 삭제되었습니다."</string>
+    <!-- Transient popup message shown after renaming a playlist -->
+    <string name="playlist_renamed_message">"재생목록 이름이 변경되었습니다."</string>
+    <!-- The name of the pseudo-playlist that holds all the recently added files, shown in list view -->
+    <string name="recentlyadded">"최근 추가곡"</string>
+    <!-- The name of the pseudo-playlist that holds all the recently added files, shown in title bar of songs list -->
+    <string name="recentlyadded_title">"최근 추가"</string>
+    <!-- The name of the pseudo-playlist that holds all the podcasts, shown in list view -->
+    <string name="podcasts_listitem">"Podcast"</string>
+    <!-- The name of the pseudo-playlist that holds all the podcasts, shown in title bar of songs list -->
+    <string name="podcasts_title">"Podcast"</string>
+    <!-- all recordings will show up in the media database in a playlist with thiis name -->
+    <string name="audio_db_playlist_name">"내 콘텐츠"</string>
+    <!-- Title of screen when no sd card is present -->
+    <string name="sdcard_missing_title">"SD 카드 없음"</string>
+    <!-- Title of screen when no sd card is present -->
+    <string name="sdcard_missing_title_nosdcard">"USB 저장소 없음"</string>
+    <!-- label underneath icon used to indicate that no sd card is present -->
+    <string name="sdcard_missing_message">"휴대전화에 SD 카드가 삽입되어 있지 않습니다."</string>
+    <!-- label underneath icon used to indicate that no sd card is present -->
+    <string name="sdcard_missing_message_nosdcard">"휴대전화에 USB 저장소가 없습니다."</string>
+    <!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
+    <string name="sdcard_busy_title">"SD 카드를 사용할 수 없음"</string>
+    <!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
+    <string name="sdcard_busy_title_nosdcard">"USB 저장소 사용 불가능"</string>
+    <!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
+    <string name="sdcard_busy_message">"SD 카드가 사용 중입니다."</string>
+    <!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
+    <string name="sdcard_busy_message_nosdcard">"USB 저장소를 사용할 수 없습니다."</string>
+    <!-- Title of screen when there was an error accessing the sd card -->
+    <string name="sdcard_error_title">"SD 카드 오류"</string>
+    <!-- Title of screen when there was an error accessing the sd card -->
+    <string name="sdcard_error_title_nosdcard">"USB 저장소 오류"</string>
+    <!-- label underneath icon used to indicate there was an error accessing the sd card -->
+    <string name="sdcard_error_message">"SD 카드에 오류가 발생했습니다."</string>
+    <!-- label underneath icon used to indicate there was an error accessing the sd card -->
+    <string name="sdcard_error_message_nosdcard">"USB 저장소에 오류가 발생했습니다."</string>
+    <!-- Default name of artist that doesn't have a name in the metadata -->
+    <string name="unknown_artist_name">"알 수 없는 아티스트"</string>
+    <!-- Default name of album that doesn't have a name in the metadata -->
+    <string name="unknown_album_name">"알 수 없는 앨범"</string>
+    <!-- Default name of folder that doesn't have a path in the metadata -->
+    <string name="unknown_folder_name">"알 수 없는 경로"</string>
+    <!-- Default name of folder that doesn't have a count in the metadata -->
+    <string name="unknown_folder_count">"알 수 없는 개수"</string>
+    <!-- Toast after turning shuffle on -->
+    <string name="shuffle_on_notif">"셔플을 사용합니다."</string>
+    <!-- Toast after turning shuffle off -->
+    <string name="shuffle_off_notif">"셔플을 사용하지 않습니다."</string>
+    <!-- Toast after turning repeat off -->
+    <string name="repeat_off_notif">"반복을 사용하지 않습니다."</string>
+    <!-- Toast after turning single repeat on -->
+    <string name="repeat_current_notif">"현재 노래를 반복합니다."</string>
+    <!-- Toast after turning repeat all on -->
+    <string name="repeat_all_notif">"모든 노래를 반복합니다."</string>
+    <!-- Individual song context menu item -->
+    <string name="ringtone_menu">"휴대전화 벨소리로 사용"</string>
+    <!-- Menu item -->
+    <string name="ringtone_menu_short">"벨소리로 사용"</string>
+    <!-- Toast after setting a song as phone ringtone -->
+    <string name="ringtone_set">"\'<xliff:g id="NAME">%s</xliff:g>\'이(가) 휴대전화 벨소리로 설정되었습니다."</string>
+    <!-- Individual song context menu item -->
+    <string name="ringtone_menu_1">"슬롯 1 벨소리로 사용"</string>
+    <string name="ringtone_menu_2">"슬롯 2 벨소리로 사용"</string>
+    <string name="ringtone_menu_sim_name_1">"슬롯 1 \"<xliff:g id="NAME">%s</xliff:g>\" 벨소리로 사용"</string>
+    <string name="ringtone_menu_sim_name_2">"슬롯 2 \"<xliff:g id="NAME">%s</xliff:g>\" 벨소리로 사용"</string>
+    <!-- Menu item -->
+    <string name="ringtone_menu_short_1">"벨소리 1로 사용"</string>
+    <string name="ringtone_menu_short_2">"벨소리 2로 사용"</string>
+    <!-- Toast after setting a song as phone ringtone -->
+    <string name="ringtone_set_1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\"을(를) 슬롯 1 벨소리로 설정합니다."</string>
+    <!-- Toast after setting a song as phone ringtone -->
+    <string name="ringtone_set_2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\"을(를) 슬롯 2 벨소리로 설정합니다."</string>
+    <!-- Context menu item -->
+    <string name="play_selection">"재생"</string>
+    <!-- Context menu item -->
+    <string name="add_to_playlist">"재생목록에 추가"</string>
+    <!-- Context menu item -->
+    <string name="queue">"현재 재생목록"</string>
+    <!-- Context menu item -->
+    <string name="new_playlist">"새로 만들기"</string>
+    <!-- Template for newly created playlist name -->
+    <string name="new_playlist_name_template">"새 재생목록 <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <!-- Toasts after adding song(s) to playlists -->
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">"재생목록에 노래 1곡이 추가되었습니다."</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other">"노래 <xliff:g id="NUMBER">%d</xliff:g>곡이 재생 목록에 추가되었습니다."</item>
+    </plurals>
+    <!-- Toast after selecting an empty playlist -->
+    <string name="emptyplaylist">"선택한 재생목록이 비어 있습니다."</string>
+    <!-- Button name when saving a playlist -->
+    <string name="create_playlist_create_text">"저장"</string>
+    <!-- Button name when saving a playlist and the new playlist will overwrite an existing one -->
+    <string name="create_playlist_overwrite_text">"덮어쓰기"</string>
+    <!-- Dialog box title -->
+    <string name="service_start_error_title">"재생 문제"</string>
+    <!-- Dialog box message -->
+    <string name="service_start_error_msg">"노래를 재생할 수 없습니다."</string>
+    <!-- Dialog box button -->
+    <string name="service_start_error_button">"확인"</string>
+    <!-- Time span edit options that appear when editing system playlist "Recently added" -->
+    <!-- Used to indicate the number of weeks the "recently added" playlist covers in a selector widget -->
+    <string-array name="weeklist">
+        <item>"1주"</item>
+        <item>"2주"</item>
+        <item>"3주"</item>
+        <item>"4주"</item>
+        <item>"5주"</item>
+        <item>"6주"</item>
+        <item>"7주"</item>
+        <item>"8주"</item>
+        <item>"9주"</item>
+        <item>"10주"</item>
+        <item>"11주"</item>
+        <item>"12주"</item>
+    </string-array>
+    <!-- Button name in time span picker -->
+    <string name="weekpicker_set">"완료"</string>
+    <!-- Title of time span picker -->
+    <string name="weekpicker_title">"시간 설정"</string>
+    <!-- Do not translate. Background color for currently dragged item in playlist edit mode. -->
+    <color name="dragndrop_background">#e0103010</color>
+    <!-- Do not translate. Background color for albums in the artists list view. -->
+    <color name="expanding_child_background">#ff404040</color>
+    <!-- menu item to save the current list as a new playlist -->
+    <string name="save_as_playlist">"재생목록으로 저장"</string>
+    <!-- menu item to clear the current playlist -->
+    <string name="clear_playlist">"재생목록 지우기"</string>
+    <!-- Activity label. This might show up in the activity-picker -->
+    <string name="musicbrowserlabel">"음악"</string>
+    <!-- Activity label. This might show up in the activity-picker -->
+    <string name="musicshortcutlabel">"음악 재생목록"</string>
+    <!-- Activity label. This might show up in the activity-picker -->
+    <string name="mediaplaybacklabel">"음악"</string>
+    <!-- Activity label. This might show up in the activity-picker -->
+    <string name="videobrowserlabel">"동영상"</string>
+    <!-- Activity label. This might show up in the activity-picker -->
+    <string name="mediapickerlabel">"음악"</string>
+    <!-- Shown as a transient message whenever a file fails to play -->
+    <string name="playback_failed">"플레이어에서 지원하지 않는 오디오 파일 형식입니다."</string>
+    <!-- Shown as a transient message whenever a file fails to open -->
+    <string name="open_failed">"죄송합니다. 파일을 열 수 없습니다."</string>
+    <!-- Text for the "cancel" button in the "delete" and "create playlist" confirmation dialogs -->
+    <string name="cancel">"취소"</string>
+    <!-- context menu item to remove the selected item from the playlist -->
+    <string name="remove_from_playlist">"재생목록에서 삭제"</string>
+    <!-- shown when connecting to a music stream, before it starts playing -->
+    <string name="streamloadingtext">"<xliff:g id="HOST">%s</xliff:g>에 연결 중..."</string>
+    <!-- title of contextual music search menu -->
+    <string name="mediasearch">"다음을 사용하여 <xliff:g id="TERM">%s</xliff:g> 검색:"</string>
+    <!-- Shown in the title bar while the list of artists is being retrieved in the background -->
+    <string name="working_artists">"아티스트..."</string>
+    <!-- Shown in the title bar while the list of albums is being retrieved in the background -->
+    <string name="working_albums">"앨범..."</string>
+    <!-- Shown in the title bar while the list of songs is being retrieved in the background -->
+    <string name="working_songs">"노래..."</string>
+    <!-- Shown in the title bar while the list of folders is being retrieved in the background -->
+    <string name="working_folders">"폴더\u2026"</string>
+    <!-- Shown in the title bar while the list of playlists is being retrieved in the background -->
+    <string name="working_playlists">"재생목록..."</string>
+    <!-- Shown in the music picker while loading the music database. -->
+    <string name="loading">"로드 중\u2026"</string>
+    <!-- Menu in music picker to sort the list by track/song name. -->
+    <string name="sort_by_track">"트랙"</string>
+    <!-- Menu in music picker to sort the list by album name. -->
+    <string name="sort_by_album">"앨범"</string>
+    <!-- Menu in music picker to sort the list by artist name. -->
+    <string name="sort_by_artist">"아티스트"</string>
+    <!--  Title of the music picker activity. -->
+    <string name="music_picker_title">"음악 트랙 선택"</string>
+    <!-- The string used to describe Music as a searchable item within system search settings. -->
+    <string name="search_settings_description">"아티스트, 앨범 및 트랙"</string>
+    <!-- Shown in the search box as a hint -->
+    <string name="search_hint">"음악 검색"</string>
+    <string name="search_hint_video">"비디오 검색"</string>
+    <!--The fast scroll thumb will show one character from this string depending on the position in the list -->
+    <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <!-- Text shown on widget when first loaded -->
+    <string name="widget_initial_text">"터치하여 음악을 선택하세요."</string>
+    <!-- Menu text for the item controlling the audio effects panel [CHAR LIMIT=15] -->
+    <string name="effectspanel">"음향 효과"</string>
+    <string name="duplicate_playlist_name_alert">"\"<xliff:g id="name">%s</xliff:g>\"(이)라는 이름의 재생 목록이 이미 존재합니다. 다른 이름을 선택하세요."</string>
+    <string name="same_playlist_name_alert">"재생 목록 \"<xliff:g id="name">%s</xliff:g>\" 이름이 변경되지 않았습니다. 다른 이름을 선택하세요."</string>
+    <string name="button_ok">"확인"</string>
+    <string name="list_empty">"재생 목록에 음악이 없습니다."</string>
+    <!-- Shown when video is played after disable Gallery app from Settings -->
+    <string name="enable_gallery_app">"비디오를 재생할 수 없습니다. 설정에서 갤러리 앱을 사용하도록 설정하세요."</string>
+    <string name="close_music">"종료"</string>
+    <string name="delete_video_item_message">"\"<xliff:g id="name">%s</xliff:g>\"을(를) 삭제하시겠습니까?"</string>
+    <string name="video_deleted_message">"비디오 파일이 삭제되었습니다."</string>
+    <!-- Menu item that takes the user link to net to see more music -->
+    <string name="more_music">"더 많은 음악"</string>
+    <!-- Menu item that takes the user link to net to see more video -->
+    <string name="more_video">"더 많은 비디오"</string>
+    <!--gesture control playback status-->
+    <string name="music_gesture_play">"오디오 재생/일시 중지"</string>
+    <string name="music_gesture_prev">"이전 트랙 재생"</string>
+    <string name="music_gesture_next">"다음 트랙 재생"</string>
+    <!-- DRM Related Strings -->
+    <string name="no_permission_for_drm">"죄송합니다. DRM 파일은 공유할 수 없습니다."</string>
+    <string name="drm_license_info">"DRM 라이선스 정보"</string>
+    <string name="drm_ringtone_error">"CD/SD 파일을 벨소리로 설정할 수 없습니다."</string>
+    <string name="drm_right_expired">"DRM 권한이 만료되었습니다."</string>
+    <string name="action_consumes_rights">"이 미디어를 재생하는 데 권한이 필요합니다."</string>
+    <string name="rights_expired">"노래에 대한 권한이 만료되었습니다."</string>
+    <string name="ring_tone_size_exceed">"Drm 벨소리 크기는 300kb를 초과할 수 없습니다."</string>
+    <string name="cant_set_ringtone_with_count_perm">"개수 권한이 있는 DRM 파일을 벨소리로 설정할 수 없습니다."</string>
+    <string name="navigation_drawer_title">"음악"</string>
+    <string name="action_settings">"설정"</string>
+    <string name="equalizer_button_text">"이퀄라이저"</string>
+    <string name="exit_button_text">"종료"</string>
+    <string name="action_settings1">"설정1"</string>
+    <string name="action_settings2">"설정2"</string>
+    <string name="action_one">"1"</string>
+    <string name="action_two">"2"</string>
+    <string name="action_three">"3"</string>
+    <string name="shuffle_all">"모두 셔플"</string>
+    <string name="no_music_found">"음악이 없습니다."</string>
+    <!--  Adding new string here for file delete error message -->
+    <string name="song_deleted_error_message">"요청한 트랙을 재생하지 못했습니다."</string>
+    <string name="song_title">"노래 제목:"</string>
+    <string name="album_title">"앨범 제목:"</string>
+    <string name="artist_title">"아티스트 이름:"</string>
+    <string name="duration_title">"기간:"</string>
+    <string name="path_title">"경로:"</string>
+    <string name="size_title">"크기:"</string>
+    <string name="duration_unit">" 최소"</string>
+    <!-- Human readable sizes -->
+    <string name="size_bytes">"B"</string>
+    <string name="size_kilobytes">"kB"</string>
+    <string name="size_megabytes">"MB"</string>
+    <string name="size_gigabytes">"GB"</string>
+    <string name="favorite">"즐겨찾기"</string>
+    <string name="no_favorite">"즐겨찾기가 없습니다."</string>
+    <string name="favorite_playlist">"내 즐겨찾기"</string>
+    <string name="can_not_create_my_favorite">"내 즐겨찾기 재생 목록을 만들거나 덮어쓸 수 없습니다."</string>
+    <!-- add by filemanager -->
+    <string name="add_by_filemanager">"파일 관리자로 추가"</string>
+    <string name="add_file_failed">"지원되지 않는 형식이거나 미디어 라이브러리에 없어서 이 파일을 추가할 수 없습니다."</string></resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <!-- Application name -->
+    <string name="wallpapers">"Android动态壁纸"</string>
+    <!-- Wallpapers: -->
+    <!-- Wallpaper showing the camera preview -->
+    <string name="wallpaper_walkaround">"透视"</string>
+    <string name="wallpaper_walkaround_author">"Google"</string>
+    <string name="wallpaper_walkaround_desc">"通过手机进行观察，安心惬意地四处走动。"</string>
+    <!-- Wallpaper showing a clock -->
+    <string name="wallpaper_clock">"极地时钟"</string>
+    <string name="wallpaper_clock_author">"Google"</string>
+    <string name="wallpaper_clock_desc">"以顺时针圆弧的形式显示日期和时间：月、日、小时、分和秒。"</string>
+    <!-- Polar clock: title of settings activity -->
+    <string name="clock_settings">"极地时钟设置"</string>
+    <!-- Polar clock: label for "show seconds" pref -->
+    <string name="show_seconds">"显示秒"</string>
+    <!-- Polar clock: label for "variable widths" pref -->
+    <string name="variable_line_width">"让环的宽度各不相同"</string>
+    <!-- Polar clock: label for "palette" pref -->
+    <string name="palette">"调色板"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_gray">"铁灰色"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_violet">"午夜"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_matrix">"绿屏"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_white_c">"北极熊（动态）"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_black_c">"黑洞（动态）"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_halloween">"南瓜派"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_zenburn">"异国情调的水果沙拉"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_oceanic">"蓝色激光"</string></resources>

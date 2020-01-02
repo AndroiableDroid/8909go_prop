@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"လူမှုဆိုင်ရာ ကင်မရာ"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"စစ်ဆေးအတည်ပြုခြင်း (သို့) ခွင့်ပြုချက်များတောင်းဆိုစဉ် မှားယွင်းမှုတစ်ခုနှင့် မမျှော်လင့်ဘဲ ကြုံတွေ့သည်။ ကျေးဇူးပြု၍ နောက်ထပ်အသေးစိတ်အချက်များအတွက် ဝင်ရောက်မှုစနစ်ကို စစ်ဆေးပါ။"</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"(%d) ပေးပို့ပါ"</string>
+    <string name="camera_preview_error_camera_disconnected">"ကင်မရာသို့ ချိတ်ဆက်မှု ပျောက်ဆုံးသွားသည်"</string>
+    <string name="camera_preview_error_camera_error">"ကင်မရာမှ မှားယွင်းမှုမှာ : %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"ဓာတ်ပုံရိုက်ယူရန် မအောင်မြင်ပါ"</string>
+    <string name="camera_preview_error_still_image_save_failed">"ရုပ်ပုံများကို သင်၏ ပြခန်းသို့သိမ်းဆည်းနေစဉ် မှာယွင်းမှုတစ်ခုနှင့် မမျှော်လင့်ဘဲ ကြုံတွေ့သည်"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"ဆက်တင်များ"</string>
+    <string name="camera_settings_category_camera_settings">"ကင်မရာ သတ်မှတ်ချက်များ"</string>
+    <string name="camera_settings_category_fr_settings">"မျက်နှာကို မှတ်မိခြင်း သတ်မှတ်ချက်များ"</string>
+    <string name="camera_settings_category_debug_settings">"အမှားရှာဖွေပြင်ဆင်မှု သတ်မှတ်ချက်များ"</string>
+    <string name="camera_settings_fr_database_cleared">"မျက်နှာကို မှတ်မိခြင်း ဒေတာဘေ့စ်ကို ရှင်းလင်းထားသည်"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"ပယ်ရန်"</string>
+    <string name="picture_review_send_faces">"(%d) ပေးပို့ပါ"</string>
+    <string name="picture_review_no_faces">"ဤဓာတ်ပုံတွင် မည်သူ့ကိုမှ ရှာမတွေ့ပါ"</string>
+    <string name="picture_review_error_face_recognition">"မျက်နှာများကို အမှတ်အသားပြုနေစဉ် အမှားတစ်ခုနှင့် မမျှော်လင့်ဘဲ ကြုံတွေ့သည်"</string>
+    <string name="picture_review_error_face_enroll">"ဝမ်းနည်းပါသည်၊ ဤမျက်နှာကို သိမ်းဆည်းနေစဉ် အမှားတစ်ခုနှင့် မမျှော်လင့်ဘဲ ကြုံတွေ့သည်။ အကြောင်းအရာ၏ အခြားဓာတ်ပုံတစ်ပုံ ရိုက်ယူပြီး ထပ်မံကြိုးစားပါ။"</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"အခြား အဆက်အသွယ်\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"မျှဝေမှု သတ်မှတ်ချက်များ"</string>
+    <string name="fr_share_settings_button_just_once">"တစ်ကြိမ်တည်းသာ"</string>
+    <string name="fr_share_settings_button_always">"အမြဲတမ်း"</string>
+    <string name="fr_share_settings_share_method_sms">"စာတို"</string>
+    <string name="fr_share_settings_share_method_email">"အီးမေးလ်"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"စစ်ဆေးပါ!"</string>
+    <string name="social_sharing_error_no_email_app">"သင့်တွင် အီးမေးလ်ပေးပို့မှု ပြုလုပ်နိုင်သည့် အက်ပ်တစ်ခုမရှိပါ"</string></resources>

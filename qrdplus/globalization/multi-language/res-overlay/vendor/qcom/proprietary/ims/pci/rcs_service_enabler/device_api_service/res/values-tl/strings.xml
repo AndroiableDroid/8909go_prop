@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"natanggal ang rcs_serbisyo, paki-install itong muli!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"I-update ang data ng teksto ng profile"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"I-update ang data ng litrato ng profile"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Tanggalin ang lahat ng mensahe"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Magtalaga ng bagong pinuno ng groupchat"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Baguhin ang paksa sa groupchat"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Baguhin ang palayaw ng miyembro sa groupchat"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Tanggapin ang imbitasyon na sumali sa isang groupchat"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Umalis sa groupchat"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Patalsikin ang mga kasali sa groupchat"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"I-dismiss ang groupchat"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Bigyan ng pansin ang isang publikong account"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Huwag bigyan ng pansin ang isang publikong account"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"I-report ang isang publikong account"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"sensitibong permiso sa api"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"awtorisadong %1$d app(s) (kabuuan %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"Huwag kailanman itanong muli"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"OK"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Kanselahin"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Ang operasyong ito ay dinisenyo upang %1$s,  Ang pagkakait ng pahintulot ay maaaring maging dahilan upang hindi na ito gumana tulad ng nararapat."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"Pahintulot ng%1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"Kailangan mong payagan ang %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"Kailangan mong payagan ang pahintulot sa sdcard."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"Kailangan mong payagan ang pahintulot sa mga kontak."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"Kailangan mong payagan ang pahintulot sa sms."</string></resources>

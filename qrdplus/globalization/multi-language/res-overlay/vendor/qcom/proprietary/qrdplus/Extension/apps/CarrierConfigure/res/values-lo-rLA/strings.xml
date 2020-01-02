@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"ກຳນົດຄ່າຜູ້ໃຫ້ບໍລິການ"</string>
+    <string name="multisim_category_text">"ການກຳນົດຄ່າຫຼາຍຊີມ"</string>
+    <string name="preset_category_text">"ຜູ້ໃຫ້ບໍລິການໃນປະເທດຈີນ"</string>
+    <string name="preset_category_text_default">"ຄ່າເລີ່ມຕົ້ນ"</string>
+    <string name="preset_category_text_china">"ຜູ້ໃຫ້ບໍລິການໃນປະເທດຈີນ"</string>
+    <string name="preset_category_text_regional">"ລະດັບພາກພື້ນ"</string>
+    <string name="sim_ssss_text">"ຊີມດຽວ Single Standby"</string>
+    <string name="sim_dsds_text">"ຊີມຄູ່ Dual Standby"</string>
+    <string name="sim_dsda_text">"SIM ຄູ່ໃຊ້ງານຢູ່"</string>
+    <string name="progress_wait">"ກຳ​ລັງກຳ​ນົ​ດ​ຄ່າ..."</string>
+    <string name="alert_update_sim_mode_title">"ອັບເດດໂໝດ SIM"</string>
+    <string name="alert_update_sim_mode_text">"ການປ່ຽນໂໝດ SIM ຈະໃຊ້ໄດ້ຫຼັງຈາກການປິດເປີດໂທລະສັບໃໝ່. ທ່ານຕ້ອງການອັບເດດດຽວນີ້ບໍ?"</string>
+    <string name="alert_switch_title">"ປ່ຽນຜູ້ໃຫ້ບໍລິການ"</string>
+    <string name="alert_switch_text">"ການກະທຳນີ້ຈະລຶບທຸກຂໍ້ມູນລວມທັງຂໍ້ມູນສຳລັບການກຳນົດຄ່າຫຼາຍຊີມ."</string>
+    <string name="alert_switch_error">"ປ່ຽນຜູ້ໃຫ້ບໍລິການບໍ່ສຳເລັດ, ກະລຸນາກວດເບິ່ງວ່າມີພື້ນທີ່ວ່າງພຽງພໍຫຼືບໍ່."</string>
+    <string name="notice_row_title">"ແຈ້ງການ"</string>
+    <string name="notice_row_text">"ໂທລະສັບຂອງທ່ານໄດ້ຖືກຕັ້ງໃຫ້ຮັບ SIM ກາດຂອງທ່ານແລ້ວ. ກະລຸນາປິດແລ້ວເປີດໂທລະສັບຂອງທ່ານໃໝ່ ເພື່ອເຮັດໃຫ້ການກຳນົດຄ່າໃໝ່ມີຜົນນໍາໃຊ້."</string>
+    <string name="notice_special_install_title">"ຂໍ້ຄວນຄຳນຶງ"</string>
+    <string name="notice_special_install_text">"ໂທລະສັບຂອງທ່ານສາມາດຕັ້ງໃຫ້ຮັບ SIM ກາດຂອງທ່ານໄດ້ ແຕ່ຄຳສັ່ງນີ້ຈະເປັນການລຶບຂໍ້ມູນທັງໝົດອອກ. ທ່ານຕ້ອງການດຳເນີນການຕໍ່ໄປບໍ່?"</string>
+    <string name="welcome_title">"ຍິນດີຕ້ອນຮັບ"</string>
+    <string name="welcome_message">"ກະລຸນາເລືອກພາສາຂອງ​ທ່ານ"</string>
+    <string name="start_text">"ເລີ່ມ"</string>
+    <string name="emergency_call_text">"​ໂທສຸກ​ເສີນ"</string>
+    <string name="trigger_title">"ປັບຄ່າ"</string>
+    <string name="trigger_message">"​ກະລຸນາ​ເລືອກ​ໜຶ່ງແພັກ​ເກດ​"</string>
+    <string name="trigger_uninstall_message">"ບໍ່ມີແພັກເກດກົງກັບແຜ່ນ Sim ຂອງທ່ານ. ໂທລະສັບຂອງທ່ານສາມາດຖືກກຳນົດຄ່າຄືນເປັນແພັກເກດພື້ນຖານ.\n\nກຳນົດຄ່າໂທລະສັບຂອງທ່ານເປັນ:"</string>
+    <string name="trigger_no_text">"ບໍ່ກຳນົດຄ່າ"</string>
+    <string name="trigger_yes_text">"ເລີ່ມການກຳນົດຄ່າ"</string>
+    <string name="trigger_ask_text">"ຖາມຂ້ອຍຄືນພາຍຫຼັງ"</string>
+    <string name="begin_config_text">"ເລີ່ມການກຳນົດຄ່າ"</string>
+    <string name="alter_no_carrier_selected">"ບໍ່ມີຜູ້ໃຫ້ບໍລິການທີ່ເລືອກ, ກະລຸນາເລືອກເອົາໜຶ່ງ ຫຼືຫຼາຍຜູ້ໃຫ້ບໍລິການ."</string>
+    <string name="download_ota_package_title">"ດາວໂຫຼດໄຟລ໌"</string>
+    <string name="download_ota_package_message">"ກຳລັງໂຫຼດ ..."</string>
+    <string name="alter_network_state_error">"ກະລຸນາກວດເບິ່ງສະຖານເຄືອຂ່າຍ."</string>
+    <string name="alter_file_not_found_error">"ບໍ່ສາມາດເກັບມ້ຽນໄຟລ໌ໄດ້, ກະລຸນາກວດເບິ່ງສະຖານະບ່ອນເກັບຂໍ້ມູນ."</string>
+    <string name="carrier_clear_final_desc">"​ລຶບ​ທຸກຂໍ້​ມູນ​ສ່ວນ​ຕົວ​ຂອງ​ທ່ານ ​ແລະ ການ​ກຳນົດ​ຄ່າ​ຂອງ​ຜູ້​ໃຫ້​ບໍລິການ​ບໍ? ທ່ານບໍ່ສາມາດຢ້ອນກັບການຕັ້ງຄ່ານີ້ໄດ້!"</string>
+    <string name="carrier_clear_final_button_text">"ລຶບທຸກສິ່ງທຸກຢ່າງ"</string>
+    <string name="carrier_clear_no_default_pack">"ບໍ່​ມີ​ຊຸດ​ຄ່າ​ເລີ່​ມຕົ້ນ​ໃນ​ອຸປະ​ກອນ​ຂອງ​ທ່ານ."</string>
+    <string name="carrier_clear_parsing_not_finish">"ຍັງ​ຄົ້ນ​ຫາ​ຊຸດ​ຄ່າ​ເລີ່​ມຕົ້ນ​ຢູ່."</string></resources>

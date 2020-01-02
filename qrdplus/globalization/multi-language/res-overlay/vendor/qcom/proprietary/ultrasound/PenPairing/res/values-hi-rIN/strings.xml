@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP पेयरिंग"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Snapdragon डिजिटल पेन पेयरिंग"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"सेटिंग्स"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"ठीक"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"पेन की स्थिति दिखाना चुनें"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"नए पेन की श्रृंखला संख्या चुनें"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"उपयोग करने के लिए इच्छित पेन का प्रकार चुनें"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"युग्मन प्रारंभ करें"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"युग्मन प्रक्रिया प्रारंभ करने के लिए वृत्त के अंदर पेन को आयतीय रूप से पकड़ें"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"मैन्युअल युग्मन"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"अर्ध-स्वचालित युग्मन"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"कोई युग्मन विधि चुनें"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"नए पेन को युग्मित करें"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"युग्मित पेनों को प्रबंधित करें"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"SW कैलिब्रेशन"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"पेयरिंग प्रकिया प्रारंभ करने के लिए पेन को वृत्त के अंदर लम्बकोणतः रखें.\nएक बार सफलतापूर्वक पूर्ण होने पर कैलिब्रेशन प्रकिया प्रारंभ हो जाएगी."</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"सेवा केंद्र परीक्षक"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"पेयरिंग प्रकिया प्रारंभ करने के लिए पेन को वृत्त के अंदर लम्बकोणतः रखें.\nएक बार सफलतापूर्वक पूर्ण होने पर परीक्षण प्रकिया प्रारंभ हो जाएगी."</string></resources>

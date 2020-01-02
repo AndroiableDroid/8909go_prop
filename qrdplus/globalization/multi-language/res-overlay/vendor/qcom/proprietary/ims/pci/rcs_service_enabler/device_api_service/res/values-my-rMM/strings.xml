@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"Rcs_service ကိုဖြုတ်ခဲ့သည်။ ကျေးဇူးပြု၍ပြန်သွင်းပါ!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"မိမိစာမျက်နှာစာဒေတာ အသစ်မွမ်းမံပါ"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"စာမျက်နှာပေါ်ထရိတ်ဒေတာ အသစ်မွမ်းမံ"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"စာအားလုံးကို ဖျက်မည်"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"အုပ်စုချက်တွင် အုပ်ချုပ်သူအသစ်သတ်မှတ်မည်"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"အုပ်စုချက်တွင် ခေါင်းစဉ်ကိုပြင်ဆင်မည်"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"အုပ်စုချက်တွင် အဖွဲ့ဝင် အမည်ပြောင်ကို ပြင်ဆင်မည်"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"အုပ်စုချက်တစ်ခုချိတ်ဆက်ရန် ဖိတ်ကြားမှုကို လက်ခံမည်"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"အုပ်စုချက်မှထွက်မည်"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"အုပ်စုချက်တွင် ပါဝင်သူတစ်ယောက်အား ထုတ်မည်"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"အုပ်စုချက်တစ်ခုကို ဖြုတ်မည်"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"အများပြည်သူအကောင့်တစ်ခုကို စိတ်ဝင်စားသည်"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"အများပြည်သူအကောင့်တစ်ခုကို စိတ်မဝင်စားပါ"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"အများပြည်သူအကောင့်တစ်ခုကို ရီပိုဒ်လုပ်မည်"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"ခွင့်ပြုချက်သည် အရေးကြီးသည်"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"ခွင့်ပြုထားသော %1$d app(များ) (စုစုပေါင်း %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"ထပ်မမေးရန်"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"ကောင်းပြီ"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"ထားတော့"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"ဒီလုပ်ဆောင်ချက်ရည်ရွယ်သည်မှာ %1$s၊  ခွင့်ပြုချက်ကို ငြင်းဆိုခြင်းသည် ရည်ရွယ်ထားသော လုပ်ဆောင်ချက်များ မသုံးနိုင်တော့သည်အထိဖြစ်နိုင်သည် "</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"ခွင့်ပြုချက်%1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"သင်ခွင့်ပြုဖို့ လိုအပ်သည် %1$s။"</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"SD ကဒ်ကို သင်ခွင့်ပြုချက်ပေးဖို့ လိုအပ်သည်"</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"အဆက်အသွယ်များကို ခွင့်ပြုချက်ပေးဖို့ လိုအပ်သည်"</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"sms ကိုခွင့်ပြုချက်ပေးဖို့ လိုအပ်သည်"</string></resources>

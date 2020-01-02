@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"設定"</string>
+    <string name="body_msg">"測試 FidoCryptoService"</string>
+    <string name="load">"載入"</string>
+    <string name="unload">"取消載入"</string>
+    <string name="process">"處理"</string>
+    <string name="start">"開始"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"繫結 FIDO 服務"</string>
+    <string name="unbindFido">"解除繫結 FIDO 服務"</string>
+    <string name="setChallenge">"設定挑戰"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"繫結驗證器"</string>
+    <string name="verifyUser">"驗證使用者/取得憑證"</string>
+    <string name="GetInfo">"取得資訊"</string>
+    <string name="Register">"註冊"</string>
+    <string name="Deregister">"取消註冊"</string>
+    <string name="OpenSettings">"開啟設定"</string>
+    <string name="Sign">"登入"</string>
+    <string name="MalformedRequest">"要求格式錯誤"</string>
+    <string name="selectAuth">"選擇驗證器"</string>
+    <string name="getEnrollmentStatus">"取得註冊狀態"</string>
+    <string name="RegisterExt">"以副檔名進行註冊"</string>
+    <string name="SignExt">"使用副檔名登入"</string>
+    <string name="encResult">"已封裝的結果"</string>
+    <string name="extResult">"副檔名資料"</string>
+    <string name="selectFidoOpText">"選擇 FIDO 操作"</string>
+    <string name="show_message_sui">"顯示訊息 SUI"</string>
+    <string name="fido_sui_service">"FIDO SUI 服務"</string>
+    <string name="bindFidoSui">"繫結 FIDO SUI"</string>
+    <string name="unbindFidoSui">"解除繫結 FIDO SUI"</string>
+    <string name="suiResultTitle">"顯示訊息 SUI 結果"</string>
+    <string name="cancel_sui">"取消 SUI"</string>
+    <string name="extensionText">"使用副檔名?"</string>
+    <string name="pngText">"使用 PNG 內容?"</string>
+    <string name="fpText">"安全指紋"</string>
+    <string-array name="authenticator_array">
+        <item>"模擬驗證器"</item>
+        <item>"範例驗證器"</item>
+        <item>"安全範例驗證器"</item>
+        <item>"範例副檔名驗證器"</item>
+        <item>"安全的副檔名驗證器"</item>
+        <item>"裝置健全狀況驗證"</item>
+        <item>"安全的範例驗證器 IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"取得資訊"</item>
+        <item>"註冊"</item>
+        <item>"取消註冊"</item>
+        <item>"開啟設定"</item>
+        <item>"格式錯誤的例外"</item>
+        <item>"登入 (驗證)"</item>
+        <item>"登入 (TX)"</item>
+    </string-array></resources>

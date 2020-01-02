@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Common string -->
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"យល់ព្រម"</string>
+    <add-resource type="string" name="yes"/>
+    <string name="yes">"បាទ/ចាស"</string>
+    <add-resource type="string" name="no"/>
+    <string name="no">"ទេ"</string>
+    <add-resource type="string" name="pass"/>
+    <string name="pass">"ជាប់"</string>
+    <add-resource type="string" name="fail"/>
+    <string name="fail">"ធ្លាក់"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"បោះ​បង់"</string>
+    <add-resource type="string" name="testing"/>
+    <string name="testing">"កំពុង​ធ្វើ​តេស្ត..."</string>
+    <add-resource type="string" name="initialize"/>
+    <string name="initialize">"កំពុងចាប់ផ្ដើម..."</string>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"ឧបករណ៍របស់រោងចក្រ (FactoryKit)"</string>
+    <add-resource type="string" name="start"/>
+    <string name="start">"ចាប់ផ្ដើម​"</string>
+    <add-resource type="string" name="scan"/>
+    <string name="scan">"វិភាគ"</string>
+    <add-resource type="string" name="device_open_fail"/>
+    <string name="device_open_fail">"ការបើកឧបករណ៍បរាជ័យ!"</string>
+    <add-resource type="string" name="service_get_fail"/>
+    <string name="service_get_fail">"សេវាទទួលបរាជ័យ!"</string>
+    <add-resource type="string" name="sensor_get_fail"/>
+    <string name="sensor_get_fail">"ឧបករណ៍ចាប់សញ្ញាទទួលបរាជ័យ!"</string>
+    <add-resource type="string" name="sensor_register_fail"/>
+    <string name="sensor_register_fail">"ឧបករណ៍ចាប់សញ្ញាចុះឈ្មោះបរាជ័យ!"</string>
+    <add-resource type="string" name="test_pass"/>
+    <string name="test_pass">"ការធ្វើតេស្តជាប់"</string>
+    <add-resource type="string" name="scanning"/>
+    <string name="scanning">"កំពុង​វិភាគ​រក\u2026..."</string>
+    <add-resource type="string" name="enabling"/>
+    <string name="enabling">"កំពុង​បើកដំណើរការ..."</string>
+    <add-resource type="string" name="disabling"/>
+    <string name="disabling">"កំពុង​បិទដំណើរការ..."</string>
+    <add-resource type="string" name="turning_on"/>
+    <string name="turning_on">"កំពុង​បើក..."</string>
+    <add-resource type="string" name="turning_off"/>
+    <string name="turning_off">"កំពុង​បិទ..."</string>
+    <add-resource type="string" name="off"/>
+    <string name="off">"បិទ"</string>
+    <add-resource type="string" name="shake_hint"/>
+    <string name="shake_hint">"សូមគ្របឧបករណ៍ចាប់សញ្ញាពន្លឺជាមួយដៃរបស់អ្នកយ៉ាងហោចណាស់ 2  ដង។"</string>
+    <add-resource type="string" name="remove_headset"/>
+    <string name="remove_headset">"សូមយកកាសត្រចៀកចេញ"</string>
+    <add-resource type="string" name="insert_headset"/>
+    <string name="insert_headset">"សូមដោតកាសត្រចៀក"</string>
+    <add-resource type="string" name="stop"/>
+    <string name="stop">"បញ្ឈប់"</string>
+    <add-resource type="string" name="play"/>
+    <string name="play">"ចាក់"</string>
+    <add-resource type="string" name="record"/>
+    <string name="record">"ថតសំឡេង"</string>
+    <add-resource type="string" name="time_out"/>
+    <string name="time_out">"អស់ម៉ោង!"</string>
+    <!-- ControlCenter -->
+    <add-resource type="string" name="clean_state"/>
+    <string name="clean_state">"លុបការបង្ហាញតេស្តចេញ"</string>
+    <add-resource type="string" name="uninstall"/>
+    <string name="uninstall">"លុប"</string>
+    <add-resource type="string" name="control_center_quit_confirm"/>
+    <string name="control_center_quit_confirm">"តើអ្នកចង់ចាកចេញឬ?"</string>
+    <!-- Led -->
+    <!-- <string name="led_name">TriColor Led</string> -->
+    <!-- <string name="led_text">Light test sequence: red, green, blue</string> -->
+    <add-resource type="string" name="led_name"/>
+    <string name="led_name">"LED"</string>
+    <add-resource type="string" name="led_tri_text"/>
+    <string name="led_tri_text">"លំដាប់តេស្ត LED: ក្រហម បៃតង ខៀវ"</string>
+    <add-resource type="string" name="led_dual_text"/>
+    <string name="led_dual_text">"លំដាប់តេស្ត LED: ក្រហម បៃតង"</string>
+    <add-resource type="string" name="led_confirm"/>
+    <string name="led_confirm">"តើពណ៌របស់ LED ត្រឹមត្រូវដែរឬទេ?"</string>
+    <!-- Flashlight -->
+    <add-resource type="string" name="flashlight_name"/>
+    <string name="flashlight_name">"ពិល"</string>
+    <add-resource type="string" name="flashlight_confirm"/>
+    <string name="flashlight_confirm">"តើភ្លើងបញ្ចាំងបើកឬ?"</string>
+    <!-- KeypadBacklight -->
+    <add-resource type="string" name="keypadbacklight_name"/>
+    <string name="keypadbacklight_name">"ភ្លើងក្រោយផ្ទាំងគ្រាប់ចុច"</string>
+    <add-resource type="string" name="keypadbacklight_confirm"/>
+    <string name="keypadbacklight_confirm">"ភ្លើងក្រោយផ្ទាំងគ្រាប់ចុច បើកឬ?"</string>
+    <!-- SIM1 -->
+    <add-resource type="string" name="sim1_name"/>
+    <string name="sim1_name">SIM1</string>
+    <!-- SIM2 -->
+    <add-resource type="string" name="sim2_name"/>
+    <string name="sim2_name">SIM2</string>
+    <!-- TouchPanelEdge -->
+    <add-resource type="string" name="touchpanel_edge_name"/>
+    <string name="touchpanel_edge_name">"គែមបន្ទះប៉ះ"</string>
+    <!-- TouchPanelKey -->
+    <add-resource type="string" name="touchpanel_key_name"/>
+    <string name="touchpanel_key_name">"ឃីបន្ទះប៉ះ"</string>
+    <!-- Keypad -->
+    <add-resource type="string" name="keypad_name"/>
+    <string name="keypad_name">"ផ្ទាំងគ្រាប់ចុច"</string>
+    <add-resource type="string" name="keypad_text"/>
+    <string name="keypad_text">"សូមចុចឃីដូចខាងក្រោម"</string>
+    <add-resource type="string" name="keypad_volume_up"/>
+    <string name="keypad_volume_up">"បង្កើន​_សំឡេង"</string>
+    <add-resource type="string" name="keypad_volume_down"/>
+    <string name="keypad_volume_down">"បន្ថយ​_សំឡេង"</string>
+    <add-resource type="string" name="keypad_focus"/>
+    <string name="keypad_focus">"FOCUS"</string>
+    <add-resource type="string" name="keypad_camera"/>
+    <string name="keypad_camera">"កាមេរ៉ា"</string>
+    <!-- CameraBack -->
+    <add-resource type="string" name="cameraback_name"/>
+    <string name="cameraback_name">"កាមេរ៉ាក្រោយ"</string>
+    <add-resource type="string" name="cameraback_takepicture"/>
+    <string name="cameraback_takepicture">"ថតរូប"</string>
+    <add-resource type="string" name="cameraback_fail_open"/>
+    <string name="cameraback_fail_open">"បើកកាមេរ៉ាបរាជ័យ សូមពិនិត្យមើលកាមេរ៉ាដែលបានតម្លើង  អោយបានត្រឹមត្រូវ!"</string>
+    <add-resource type="string" name="autofocus_fail"/>
+    <string name="autofocus_fail">"AutoFocus បាន​បរាជ័យ"</string>
+    <!-- CameraFront -->
+    <add-resource type="string" name="camerafront_name"/>
+    <string name="camerafront_name">"កាមេរ៉ាមុខ"</string>
+    <add-resource type="string" name="camerafront_takepicture"/>
+    <string name="camerafront_takepicture">"ថតរូប"</string>
+    <!-- LCM -->
+    <add-resource type="string" name="lcm_name"/>
+    <string name="lcm_name">"LCM"</string>
+    <add-resource type="string" name="lcm_confirm"/>
+    <string name="lcm_confirm">"សូមជ្រើសរើស"</string>
+    <!-- Vibrator -->
+    <add-resource type="string" name="vibrate_name"/>
+    <string name="vibrate_name">"រំញ័រ"</string>
+    <add-resource type="string" name="vibrate_confirm"/>
+    <string name="vibrate_confirm">"សូមជ្រើសរើស"</string>
+    <add-resource type="string" name="vibrate_hint"/>
+    <string name="vibrate_hint">"កំពុងរំញ័រ..."</string>
+    <!-- PSensor -->
+    <add-resource type="string" name="psensor_name"/>
+    <string name="psensor_name">"ឧបករណ៍ចាប់សញ្ញាជិត"</string>
+    <add-resource type="string" name="psensor_title"/>
+    <string name="psensor_title">"សូមអនុវត្តតាមការណែនាំ ហើយរាល់ជំហាននីមួយៗត្រូវតែ  ធ្វើអោយហើយក្នុងរយៈពេល 7 វិនាទី"</string>
+    <add-resource type="string" name="psensor_to_cover"/>
+    <string name="psensor_to_cover">"គ្រប PSensor ច្រើនជាង 1 នាទី"</string>
+    <add-resource type="string" name="psensor_to_uncover"/>
+    <string name="psensor_to_uncover">"មិនគ្រប PSensor ច្រើនជាង 1 នាទី"</string>
+    <add-resource type="string" name="psensor_uncovered"/>
+    <string name="psensor_uncovered">"មិនបានគ្រប"</string>
+    <add-resource type="string" name="psensor_covered"/>
+    <string name="psensor_covered">"បានគ្រប"</string>
+    <add-resource type="string" name="psensor_verifying"/>
+    <string name="psensor_verifying">"កំពុង​ផ្ទៀង​ផ្ទាត់..."</string>
+    <add-resource type="string" name="psensor_sensor_unstable_fail"/>
+    <string name="psensor_sensor_unstable_fail">"PSensor មិនស្ថិតស្ថេរ!"</string>
+    <!-- GSensor -->
+    <add-resource type="string" name="gsensor_name"/>
+    <string name="gsensor_name">"ឧបករណ៍ចាប់សញ្ញាខ្លាំង"</string>
+    <!-- MSensor -->
+    <add-resource type="string" name="msensor_name"/>
+    <string name="msensor_name">"ឧបករណ៍ចាប់សញ្ញាម៉ាញ៉េទិច"</string>
+    <!-- Gyroscope -->
+    <add-resource type="string" name="gyroscope_name"/>
+    <string name="gyroscope_name">"ចំណុចផ្ទៃដើម"</string>
+    <!-- LightSensor -->
+    <add-resource type="string" name="lightsensor_name"/>
+    <string name="lightsensor_name">"ពន្លឺចំណុចផ្ទៃដើម"</string>
+    <!-- SDCard -->
+    <add-resource type="string" name="sdcard_name"/>
+    <string name="sdcard_name">"កាត SD"</string>
+    <add-resource type="string" name="sdcard_wait"/>
+    <string name="sdcard_wait">"សូមរង់ចាំការអាន Sd កាត..."</string>
+    <add-resource type="string" name="sdcard_confirm"/>
+    <string name="sdcard_confirm">"តើបានបញ្ចូល SD កាតហើយឬនៅ?"</string>
+    <add-resource type="string" name="sdcard_to_remove"/>
+    <string name="sdcard_to_remove">"សូមដក SD កាតចេញ"</string>
+    <add-resource type="string" name="sdcard_to_insert"/>
+    <string name="sdcard_to_insert">"សូម​បញ្ចូល SD ​កាត"</string>
+    <!-- Bluetooth -->
+    <add-resource type="string" name="bluetooth_name"/>
+    <string name="bluetooth_name">"ប៊្លូធូស"</string>
+    <add-resource type="string" name="bluetooth_scan_start"/>
+    <string name="bluetooth_scan_start">"កំពុង​ស្កេន​ឧបករណ៍..."</string>
+    <add-resource type="string" name="bluetooth_scan_finish"/>
+    <string name="bluetooth_scan_finish">"បញ្ចប់ស្កេន"</string>
+    <add-resource type="string" name="bluetooth_turning_on"/>
+    <string name="bluetooth_turning_on">"កំពុង​បើក Bluetooth..."</string>
+    <add-resource type="string" name="bluetooth_scan_null"/>
+    <string name="bluetooth_scan_null">"រកមិនឃើញឧបករណ៍ណាមួយទេ"</string>
+    <!-- WiFi -->
+    <add-resource type="string" name="wifi_name"/>
+    <string name="wifi_name">"WiFi"</string>
+    <add-resource type="string" name="wifi_text"/>
+    <string name="wifi_text">"        ការតេស្ត WiFi នឹងត្រូវបានបញ្ចប់ក្នុងរយៈពេល 30 វិនាទី សូមរង់ចាំ "<string name="wifi_scan_failed">"ស្កេនបរាជ័យ!"</string></string>
+    <add-resource type="string" name="wifi_is_closing"/>
+    <string name="wifi_is_closing">"WiFi កំពុងបិទ សូមព្យាយាមឡើងវិញនៅបន្តិចទៀតនេះ។"</string>
+    <add-resource type="string" name="wifi_scan_null"/>
+    <string name="wifi_scan_null">"រកមិនឃើញ AP ណាមួយទេ!"</string>
+    <add-resource type="string" name="wifi_state_unknown"/>
+    <string name="wifi_state_unknown">"WiFi បង្ហាញថាមិនស្គាល់ សូមព្យាយាមឡើងវិញ។"</string>
+    <!-- Handset -->
+    <add-resource type="string" name="handset_name"/>
+    <string name="handset_name">"កាសត្រចៀក"</string>
+    <add-resource type="string" name="handset_hint"/>
+    <string name="handset_hint">"កំពុងធ្វើតេស្តការត្រឡប់ធ្វើឡើងវិញអូឌីយ៉ូកាសត្រចៀក..."</string>
+    <add-resource type="string" name="handset_loopback"/>
+    <string name="handset_loopback">"កំពុងធ្វើតេស្តការត្រឡប់ធ្វើឡើងវិញអូឌីយ៉ូកាសត្រចៀក..."</string>
+    <add-resource type="string" name="handset_playing"/>
+    <string name="handset_playing">"កំពុងចាក់ឡើងវិញឥឡូវនេះ សូមស្ដាប់ឧបករណ៍ទទួល។"</string>
+    <add-resource type="string" name="handset_confirm"/>
+    <string name="handset_confirm">"តើអ្នកលឺសូរសម្លេងដែរឬទេ?"</string>
+    <add-resource type="string" name="handset_record_first"/>
+    <string name="handset_record_first">"សូមចុចប៊ូតុងថតជាមុនសិន"</string>
+    <add-resource type="string" name="handset_replay_end"/>
+    <string name="handset_replay_end">"បានដល់ទីបញ្ចប់។"</string>
+    <add-resource type="string" name="handset_to_record"/>
+    <string name="handset_to_record">"ចុចប៊ូតុងថតដើម្បីថតសម្លេង។"</string>
+    <add-resource type="string" name="handset_recording"/>
+    <string name="handset_recording">"ឥឡូវនេះកំពុងថត សូមនិយាយប៉ុន្មានពាក្យទៅកាន់ឧបករណ៍បញ្ជូន ហើយ  ចុចប៊ូតុងបញ្ឈប់ (Stop) ដើម្បីបញ្ឈប់។"</string>
+    <!-- Headset -->
+    <add-resource type="string" name="headset_name"/>
+    <string name="headset_name">"កាស"</string>
+    <add-resource type="string" name="headset_hint"/>
+    <string name="headset_hint">"កាស"</string>
+    <add-resource type="string" name="headset_recording"/>
+    <string name="headset_recording">"ឥឡូវនេះកំពុងថត សូមនិយាយប៉ុន្មានពាក្យទៅកាន់ឧបករណ៍បញ្ជូន ហើយ  ចុចប៊ូតុងបញ្ឈប់ (Stop) ដើម្បីបញ្ឈប់។"</string>
+    <add-resource type="string" name="headset_playing"/>
+    <string name="headset_playing">"កំពុងចាក់ឡើងវិញឥឡូវនេះ សូមស្ដាប់ឧបករណ៍ទទួល។"</string>
+    <add-resource type="string" name="headset_confirm"/>
+    <string name="headset_confirm">"តើអ្នកលឺសូរសម្លេងដែរឬទេ?"</string>
+    <add-resource type="string" name="headset_record_first"/>
+    <string name="headset_record_first">"សូមចុចប៊ូតុងថតជាមុនសិន"</string>
+    <add-resource type="string" name="headset_replay_end"/>
+    <string name="headset_replay_end">"បានដល់ទីបញ្ចប់។"</string>
+    <add-resource type="string" name="headset_to_record"/>
+    <string name="headset_to_record">"ចុចប៊ូតុងថតដើម្បីថតសម្លេង។"</string>
+    <!-- Speaker -->
+    <add-resource type="string" name="speaker_name"/>
+    <string name="speaker_name">"ឧបករណ៍បំពងសម្លេង"</string>
+    <add-resource type="string" name="speaker_hint"/>
+    <string name="speaker_hint">"តើអ្នកអាចឮតន្រ្តីកំពុងចាក់ដែរទេ?"</string>
+    <add-resource type="string" name="speaker_confirm"/>
+    <string name="speaker_confirm">"តើអ្នកលឺសូរសម្លេងដែរឬទេ?"</string>
+    <add-resource type="string" name="speaker_playing"/>
+    <string name="speaker_playing">"កំពុងចាក់..."</string>
+    <add-resource type="string" name="speaker_play_first"/>
+    <string name="speaker_play_first">"សូមចុចប៊ូតុងចាក់ជាមុនសិន"</string>
+    <add-resource type="string" name="speaker_to_play"/>
+    <string name="speaker_to_play">"ចុចប៊ូតុងចាក់ដើម្បីចាក់សម្លេង។"</string>
+    <add-resource type="string" name="speaker_recording"/>
+    <string name="speaker_recording">"ឥឡូវនេះកំពុងត្រូវបានថតហើយ សូមនិយាយ"</string>
+    <!-- GPS -->
+    <add-resource type="string" name="gps_name"/>
+    <string name="gps_name">"GPS"</string>
+    <add-resource type="string" name="gps_enable_first"/>
+    <string name="gps_enable_first">"សូមបើក GPS ជាមុនសិន"</string>
+    <!-- FM -->
+    <add-resource type="string" name="fm_name"/>
+    <string name="fm_name">"វិទ្យុ FM (FmRadio)"</string>
+    <add-resource type="string" name="fm_search"/>
+    <string name="fm_search">"ស្វែងរក"</string>
+    <add-resource type="string" name="fm_confirm"/>
+    <string name="fm_confirm">"តើអ្នកអាចលឺសូរសម្លេងដែរឬទេ?"</string>
+    <!-- Battery -->
+    <add-resource type="string" name="battery_name"/>
+    <string name="battery_name">"ថ្ម"</string>
+    <add-resource type="string" name="battery_voltage"/>
+    <string name="battery_voltage">"ថាមពលថ្មកម្លាំងវ៉ុល"</string>
+    <!-- FuelGaugeCalibration -->
+    <add-resource type="string" name="fuelgauge_name"/>
+    <string name="fuelgauge_name">"ការក្រិតតាមខ្នាត FuelGaulge"</string>
+    <add-resource type="string" name="fuelgauge_hint"/>
+    <string name="fuelgauge_hint">"ការក្រិតតាមខ្នាត FuelGauge នឹងត្រូវបានបញ្ចប់ក្នុងរយៈពេល 30 វិនាទី  សូមមេត្តារង់ចាំ..."</string>
+    <add-resource type="string" name="fuelgauge_processing"/>
+    <string name="fuelgauge_processing">"កំពុង​ដំណើរ​ការ..."</string>
+    <!-- NFC -->
+    <add-resource type="string" name="nfc_name"/>
+    <string name="nfc_name">"NFC"</string>
+    <add-resource type="string" name="nfc_not_available"/>
+    <string name="nfc_not_available">"មិន​មាន NFC"</string>
+    <add-resource type="string" name="nfc_enable_first"/>
+    <string name="nfc_enable_first">"បើកប្រើ NFC..."</string>
+    <add-resource type="string" name="nfc_enable_fail"/>
+    <string name="nfc_enable_fail">"មិនអាចបើក NFC"</string></resources>

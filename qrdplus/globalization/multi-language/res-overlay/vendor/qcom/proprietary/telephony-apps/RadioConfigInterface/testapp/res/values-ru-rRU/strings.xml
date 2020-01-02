@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">RadioConfigTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">"Настройки"</string>
+    <string name="intro_text">"Для получения информации об идентификаторах элементов см. список элементов.  В текстовом поле ниже введите идентификаторы и значения элементов через запятую. Без дополнительных пробелов! Только целого типа! Текущая функция ПОЛУЧИТЬ устарела."</string>
+    <string name="item_ids">"Идентификаторы элементов:"</string>
+    <string name="item_values">"Значения элементов"</string>
+    <string name="set">"Установить"</string>
+    <string name="refresh">"Обновить"</string>
+    <string name="get">"Получить"</string>
+    <string name="items_info">"Информация об элементах:"</string></resources>

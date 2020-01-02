@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Cameră socială"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"A apărut o eroare la verificarea sau solicitarea de permisiuni. Verificaţi jurnalul pentru detalii suplimentare."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Trimitere (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"S-a pierdut conexiunea la cameră"</string>
+    <string name="camera_preview_error_camera_error">"Eroare de la cameră: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Nu s-a putut realiza fotografia"</string>
+    <string name="camera_preview_error_still_image_save_failed">"A apărut o eroare la salvarea imaginii în galerie"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Setări"</string>
+    <string name="camera_settings_category_camera_settings">"Setări cameră"</string>
+    <string name="camera_settings_category_fr_settings">"Setări recunoaştere faţă"</string>
+    <string name="camera_settings_category_debug_settings">"Setări depanare"</string>
+    <string name="camera_settings_fr_database_cleared">"Baza de date pentru recunoaştere faţă a fost ştearsă"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Închideți"</string>
+    <string name="picture_review_send_faces">"Trimitere (%d)"</string>
+    <string name="picture_review_no_faces">"Nu s-au găsit feţe în această fotografie"</string>
+    <string name="picture_review_error_face_recognition">"A apărut o eroare la recunoaşterea feţelor"</string>
+    <string name="picture_review_error_face_enroll">"Ne pare rău, a apărut o eroare la salvarea acestei feţe. Realizaţi o altă fotografie subiectului şi încercaţi din nou."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Alt contact\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Partajare setări"</string>
+    <string name="fr_share_settings_button_just_once">"O singură dată"</string>
+    <string name="fr_share_settings_button_always">"Întotdeauna"</string>
+    <string name="fr_share_settings_share_method_sms">"Mesaj"</string>
+    <string name="fr_share_settings_share_method_email">"E-mail"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Fiţi atenţi la asta!"</string>
+    <string name="social_sharing_error_no_email_app">"Nu aveţi o aplicaţie care să poată trimite e-mail"</string></resources>

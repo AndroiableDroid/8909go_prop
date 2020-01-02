@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"การตั้งค่า SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"การตั้งค่าปากกาดิจิตัล Snapdragon"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"ปิดใช้งานแล้ว"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"ทำซ้ำ"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"โหมดปิดหน้าขอแอปรุ่นเก่า:"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"ระยะในช่วง (มม.):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"โหมดพลังงาน:"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"เพิ่มประสิทธิภาพความแม่นยำ"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"เพื่มประสิทธิภาพพลังงาน"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"ประเภทอินพุต:"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"ความไวของเมาส์:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"ช้า"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"ปานกลาง"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"เร็ว"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"สไตลัส"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"หนู"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"จอยสติ๊ก"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"ปิดปากกาดิจิตัล"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"เปิดปากกาดิจิตัล"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"ขาตั้งอัจฉริยะ"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"โฮเวอร์เปิดหน้าจอ"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"โฮเวอร์ปิดหน้าจอ"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"ระยะสูงสุด:"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"แสดงไอคอนโฮเวอร์"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"ปุ่มยางลบ"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"ดัชนีปุ่ม:"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"พฤติกรรมของยางลบ:"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"แตะค้างเพื่อลบ"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"แตะเพื่อเปิดหรือปิด"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"ตำแหน่งปิดหน้าจอในแนวตั้ง:"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"ด้านซ้าย"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"ด้านขวา"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"หยุดปากกาเมื่อหน้าจอปิด"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"เริ่มใช้ปากกาเมื่อบูต"</string></resources>

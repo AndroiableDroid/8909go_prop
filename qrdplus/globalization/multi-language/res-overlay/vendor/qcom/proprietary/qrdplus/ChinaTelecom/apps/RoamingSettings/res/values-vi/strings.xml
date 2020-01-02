@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Cài đặt chuyển vùng"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"Mở"</string>
+    <string name="data_roaming_title">"Kết nối với dịch vụ dữ liệu khi chuyển vùng"</string>
+    <string name="manual_select_network">"Chọn mạng theo cách thủ công"</string>
+    <string name="roaming_card_info">"Sẽ sử dụng ưu tiên danh thiếp di động"</string>
+    <string name="network_select_success_info">"Đăng ký thành công trên mạng “<xliff:g id="name">%s</xliff:g>”, ứng dụng sẽ thực hiện đăng ký tự động khi mạng không khả dụng"</string>
+    <string name="network_select_failure_info">"Mạng “<xliff:g id="name">%s</xliff:g>” bạn đã chọn không khả dụng, bắt đầu tự động đăng ký trên mạng khác"</string>
+    <string name="network_auto_success_info">"Tự động đăng ký trên mạng thành công"</string>
+    <string name="network_auto_failure_info">"Mạng GSM bạn đã chọn không khả dụng, bắt đầu tự động đăng ký trên mạng khác"</string>
+    <string name="manual_select_network_tip">"Thao tác này chỉ hiệu lực khi xảy ra các tình huống trên"</string>
+    <string name="gsm_network_list_title">"Mạng có thể chọn"</string>
+    <string name="searching_cdma_network_title">"Hiện đang tìm kiếm mạng cdma......"</string>
+    <string name="searching_gsm_network_title">"Hiện đang tìm kiếm mạng gsm......"</string>
+    <string name="empty_networks_list">"Không tìm thấy mạng nào."</string>
+    <string name="register_on_network">"Đang đăng ký trên <xliff:g id="NETWORK">%s</xliff:g>..."</string>
+    <string name="register_automatically">"Đăng ký tự động..."</string>
+    <string name="network_select_setting">"Cài đặt mạng"</string>
+    <string name="roaming_hotline">"Đường dây nóng chuyển vùng +8618918910000"</string>
+    <string name="carrier_names">"Telecom Trung Quốc"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"Đang tắt dữ liệu..."</string>
+    <string name="unable_to_disable_data">"Không thể tắt dữ liệu."</string>
+    <string name="avoid_cur_nwk_succeeded">"Đã thêm mạng hiện tại vào danh sách cần tránh."</string>
+    <string name="avoid_cur_nwk_failed">"Không thể thêm mạng hiện tại vào danh sách cần tránh."</string>
+    <string name="clear_nwk_list_succeeded">"Đã xóa danh sách mạng cần tránh."</string>
+    <string name="clear_nwk_list_failed">"Không thể xóa danh sách mạng cần tránh."</string>
+    <string name="ok_btn">"OK"</string>
+    <string name="cancel_btn">"Hủy"</string>
+    <string name="confirm_avoid">"Bạn có chắc muốn tránh mạng hiện tại không?"</string>
+    <string name="confirm_clear">"Bạn có chắc muốn xóa danh sách mạng cần tránh không?"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"Chọn CDMA"</string>
+    <string name="pref_gsm_choose_title">"Chọn GSM"</string>
+    <string name="pref_network_info_title">"Thông tin mạng hiện tại"</string>
+    <string name="alert_msg_enable_card">"Bạn có muốn bật thẻ này?"</string>
+    <string name="alert_msg_disable_card">"Bạn có muốn tắt thẻ này?"</string>
+    <string name="progress_msg_enable_card">"Bật thẻ này, vui lòng đợi..."</string>
+    <string name="progress_msg_disable_card">"Tắt thẻ này, vui lòng đợi..."</string>
+    <string name="operation_success">"Thao tác thành công"</string>
+    <string name="operation_failure">"Thao tác thất bại"</string>
+    <string name="result_btn">"OK"</string>
+    <string name="alert_data_roaming_title">"Cho phép chuyển vùng dữ liệu"</string>
+    <string name="alert_data_roaming_msg">"Khi cho phép chuyển vùng dữ liệu, bạn có thể bị tính phí chuyển vùng đáng kể!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"Không xác định"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"Không khả dụng"</string>
+    <string name="status_network_type">"Loại mạng di động"</string>
+    <string name="status_signal_strength">"Cường độ tín hiệu"</string>
+    <string name="status_prl_version">"Phiên bản PRL"</string>
+    <string name="status_data_state">"Trạng thái mạng di động"</string>
+    <string name="status_netowrk_title">"Trạng thái Sim hiện tại"</string>
+    <string name="status_operator_name">"Tên nhà mạng"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"ID DI ĐỘNG"</string>
+    <string name="status_sms_center_number">"Số trung tâm Sms"</string>
+    <string name="status_pnl_version">"Phiên bản danh sánh mạng yêu thích"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"chuyển sang mạng kế tiếp theo cách thủ công"</string>
+    <string name="avoid_discription">"hướng dẫn:\n  tự động chọn mạng được đặt mặc định trong hệ thống CDMA, không cần chọn thủ công, nhưng nếu mạng hiện tại không thể sử dụng, thử chuyển thủ công sang mạng kế tiếp "</string>
+    <string name="attention_dialog_title">"Chú ý"</string>
+    <string name="disable_both_sim_error_msg">"Không thể tắt cả hai SIM cùng lúc"</string>
+    <string name="China_Mobile">"China Mobile"</string>
+    <string name="China_Unicom">"China Unicom"</string>
+    <string name="China_Telecom">"Telecom Trung Quốc"</string></resources>

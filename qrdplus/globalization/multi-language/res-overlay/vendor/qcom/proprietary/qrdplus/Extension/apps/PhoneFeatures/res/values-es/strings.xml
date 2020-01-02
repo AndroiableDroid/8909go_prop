@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+  All Rights Reserved.
+  Confidential and Proprietary - Qualcomm Technologies, Inc.
+ -->
+<resources>
+    <string name="message_no_sdcard">"Inserta una tarjeta SD"</string>
+    <string name="message_internal_error">"Error durante la grabación"</string>
+    <string name="message_success">"Archivo guardado en %1$s"</string>
+    <string name="message_record_started">"El registro se ha iniciado"</string>
+    <string name="message_recording">"Grabación de llamada"</string>
+    <string name="message_not_incall">"Solo habilitado durante una llamada"</string>
+    <string name="message_sdcard_full">"No hay espacio libre en el almacenamiento externo"</string>
+    <string name="no_sim_message">"No hay una tarjeta SIM en el teléfono\nInserta una tarjeta SIM"</string>
+    <string name="sim_changed_message">"Hay una tarjeta nueva disponible. Configura las suscripciones"</string>
+    <string name="sim_changed_title">"Configurar suscripciones"</string>
+    <string name="sim_info">"Información de tarjeta SIM"</string>
+    <string name="close">"Cerrar"</string>
+    <string name="change">"Establecer"</string>
+    <string name="new_sim_detected">"Nueva tarjeta SIM detectada:"</string>
+    <string name="default_sim_setting">"Ajustes de SIM predeterminados como:"</string>
+    <string name="mobile_data">"Datos móviles: "</string>
+    <string name="slot">"Ranura"</string>
+    <string name="carrier_name">"(Nombre operador)"</string>
+    <string name="mobile_data_on">"sí"</string>
+    <string name="mobile_data_off">"no"</string>
+    <string name="sim_absent">"Ausente"</string>
+    <string name="sim_cmcc">"China Mobile"</string>
+    <string name="sim_ct">"China Telecom"</string>
+    <string name="sim_cu">"China Unicom"</string>
+    <string name="sim_unknown">"Desconocido"</string>
+    <string name="alert_roaming_messgae">"El teléfono se encuentra en itinerancia. La itinerancia de datos puede generar unos gastos de datos cuantiosos"</string>
+    <string name="alert_not_ct_uicc_card">"La tarjeta SIM no coincide con el dispositivo. Cambia la tarjeta SIM 4G de China Telecom"</string>
+    <string name="multi_sim_settings_title">"Ajustes de SIM dual"</string>
+    <string name="lte_switch_unavailable">"El conmutador de tarjetas SIM 4G/3G no está disponible"</string>
+    <string name="lte_recognize_summary">"Se han detectado dos tarjetas SIM 4G/3G; debes establecer la tarjeta SIM 4G/3G predeterminada:"</string>
+    <string name="lte_select_summary">"La tarjeta SIM seleccionada se reconocerá como una tarjeta 4G/3G y la otra como una tarjeta 2G."</string>
+    <string name="lte_checkbox_text">"Establece los datos móviles en la tarjeta SIM seleccionada cuando la tarjeta SIM 4G/3G predeterminada se haya cambiado."</string>
+    <string name="select_ok">"Aceptar"</string>
+    <string name="lte_select_title">"Tarjeta SIM 4G/3G predeterminada"</string>
+    <string name="lte_recognition_title">"Reconocimiento de tarjeta SIM"</string>
+    <string name="reg_failed">"El registro ha fallado"</string>
+    <string name="reg_suc">"El registro ha sido correcto"</string>
+    <string name="reg_failed_msg">"El registro de la tarjeta SIM 4G/3G predeterminada ha fallado; %1$s se reconocerá como una tarjeta SIM 2G."</string>
+    <string name="lte_set">"Establecer"</string>
+    <string name="lte_setting">"La tarjeta SIM 4G/3G predeterminada se está estableciendo"</string>
+    <string name="select_continue">"Continuar"</string>
+    <string name="select_cancel">"Cancelar"</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_mobile_one">"China Mobile 01"</string>
+    <string name="china_mobile_two">"China Mobile 02"</string>
+    <string name="china_unicom_one">"China Unicom 01"</string>
+    <string name="china_unicom_two">"China Unicom 02"</string>
+    <string name="china_telecom_one">"China Telecom 01"</string>
+    <string name="china_telecom_two">"China Telecom 02"</string>
+    <string name="title_dialog_duration">"Duración"</string>
+    <string name="duration_format">"%1$d min %2$d seg"</string>
+    <string name="alert_title">"Alerta"</string>
+    <string name="message_not_registered_in_tdd">"No se puede registrar solo en el servicio de datos 4G. ¿Quieres salir?"</string>
+    <string name="message_tdd_data_only">"Actualmente, el modo de datos 4G solamente no puede proporcionar esta acción. ¿Quieres salir del modo de datos 4G solamente?"</string>
+    <string name="choose_yes">"Sí"</string>
+    <string name="choose_no">"No"</string>
+    <string name="sim_card_number_title">SIM %1$d</string>
+    <string name="def_callRecord_savePath">"Registro de llamadas"</string>
+    <!-- UPLMN Prefer -->
+    <string name="uplmn_list_setting_title">"Redes preferidas"</string>
+    <string name="network_id">"ID de red"</string>
+    <string name="dialog_network_priority_title">"Prioridad"</string>
+    <string name="uplmn_list_setting_add_plmn">"Nueva PLMN"</string>
+    <string name="gsm_umts_network_preferences_title">"Modo de red"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Modo de red"</string>
+    <string name="voicemail_number_not_set">"&lt;No definido&gt;"</string>
+    <string name="save">"Guardar"</string>
+    <string name="reading_settings">"Leyendo configuración"</string>
+    <string name="updating_settings">"Actualizando configuración"</string>
+    <!-- Title for the dialog alerting user CT card in wrong slot -->
+    <string name="alert_ct_in_wrong_slot_title">"La tarjeta ChinaTelecom está insertada en la ranura equivocada"</string>
+    <!-- Message for the dialog alerting user CT card in wrong slot -->
+    <string name="alert_ct_in_wrong_slot_message">"Actualmente solo la ranura 1 admite tarjetas ChinaTelecom. Si insertas una tarjeta ChinaTelecom en la ranura 2, podría quedar fuera de servicio. Vuelve a insertar la tarjeta ChinaTelecom en la ranura correcta."</string></resources>

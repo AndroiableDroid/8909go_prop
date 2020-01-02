@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The name of the SMS/MMS app as it appears to the user in the Home screen, task switcher, etc. -->
+    <string name="app_label">"SMS a MMS"</string>
+    <!-- Command name to open a Compose screen; displays in conversation list.
+         Also used as accessibility text for widget's new message button -->
+    <string name="new_message">"Nová správa"</string>
+    <!-- Context menu item on an individual message for dialing the sender's phone number -->
+    <string name="menu_call_back">"Zavolať kontakt <xliff:g id="NAME">%s</xliff:g>"</string>
+    <!-- Context menu item on an individual message for emailing the sender -->
+    <string name="menu_send_email">"Odoslať e-mail adresátovi <xliff:g id="NAME">%s</xliff:g>"</string>
+    <!-- Menu item for starting a new conversation -->
+    <string name="menu_compose_new">"Napísať správu"</string>
+    <!-- Menu item for accessing application settings -->
+    <string name="menu_preferences">"Nastavenia"</string>
+    <!-- Menu shown in the context menu when long pressing on a message when the message contains
+         one or more phone numbers and/or email addresses and the number or email is new to
+         contacts. [CHAR LIMIT=50] -->
+    <string name="menu_add_address_to_contacts">"Pridať <xliff:g id="CONTACTEMAILORNUMBER">%s</xliff:g> do aplikácie Ľudia"</string>
+    <string name="menu_copy_url">"Kopírovať url <xliff:g id="extractedurl">%s</xliff:g>"</string>
+    <!-- Menu item to call the recipient of the conversation on the phone (imperative verb) -->
+    <string name="menu_call">"Hovor"</string>
+    <!-- Menu item for search -->
+    <string name="menu_search">"Vyhľadávanie"</string>
+    <!-- Menu item for deleting all conversations -->
+    <string name="menu_delete_all">"Odstrániť všetky konverzácie"</string>
+    <!-- Context menu item on an individual conversation for deleting that conversation -->
+    <string name="menu_delete">"Odstrániť konverzáciu"</string>
+    <!-- Context menu item on an individual conversation for viewing that conversation -->
+    <string name="menu_view">"Zobraziť konverzáciu"</string>
+    <!-- Menu item for debugging - do not localize -->
+    <string name="menu_debug_dump">"DEBUG DUMP"</string>
+    <!-- Message that appears on screen while SIM card messages are retrieved -->
+    <string name="refreshing">"Prebieha obnovovanie..."</string>
+    <string name="deleting_threads">"Odstraňujú sa vlákna..."</string>
+    <!-- Menu item to show received cell broadcasts. [CHAR LIMIT=30] -->
+    <string name="menu_cell_broadcasts">"Hrom. zas. správ v rámci bunky"</string>
+    <!-- Tag appearing on conversations in the conversation list that contain a draft message -->
+    <string name="has_draft">"Koncept"</string>
+    <!-- Subject to display in the conversation list if there is no subject -->
+    <string name="no_subject_view">"(Bez predmetu)"</string>
+    <!-- Address to display when message is a cell broadcast on channel 50 or 60  -->
+    <string name="cell_broadcast_sender">"Kanál mobilného vysielania"</string>
+    <!-- Name of the local user when displaying sender of an outgoing message (personal pronoun) -->
+    <string name="messagelist_sender_self">"Ja"</string>
+    <!-- Context menu item on an individual message for viewing an attached slideshow -->
+    <string name="view_slideshow">"Zobraziť prezentáciu"</string>
+    <!-- Context menu item on an individual message for viewing message details such as time and date -->
+    <string name="view_message_details">"Zobraziť podrobnosti"</string>
+    <!-- Context menu item on an individual message for viewing a delivery report -->
+    <string name="view_delivery_report">"Zobraziť potvrdenie o doručení"</string>
+    <!-- Context menu item on an individual message for deleting only that message -->
+    <string name="delete_message">"Odstrániť"</string>
+    <!-- Time and date a message was sent -->
+    <string name="sent_on">"<xliff:g id="date">%s</xliff:g>"</string>
+    <!-- Time and date a message is due to expire -->
+    <string name="expire_on">"exspirácia: <xliff:g id="date">%s</xliff:g>"</string>
+    <!-- Abbreviation for "kilobyte" -->
+    <string name="kilobyte">"kB"</string>
+    <!-- Dialog box title brought up when warning the user that a message could not be delivered -->
+    <string name="undelivered_msg_dialog_title">"Nedoručená správa"</string>
+    <!-- Dialog box message indicating that a message could not be delivered, including the time of last attempt -->
+    <string name="undelivered_msg_dialog_body">"Túto správu sa nepodarilo odoslať.\nPosledný pokus: <xliff:g id="MESSAGE">%s</xliff:g>."</string>
+    <!-- Dialog box message indicating that a message could not be delivered -->
+    <string name="undelivered_sms_dialog_body">"Správu sa nepodarilo odoslať."</string>
+    <!-- Menu item for deleting the entire conversation currently being viewed -->
+    <string name="delete_thread">"Odstrániť konverzáciu"</string>
+    <!-- Context menu item on an individual message for forwarding it to another recipient -->
+    <string name="menu_forward">"Poslať ďalej"</string>
+    <string name="menu_forward_conversation">"Presmerovať konverzáciu"</string>
+    <!-- Context menu item on an failed message for resending -->
+    <string name="menu_resend">"Znovu odoslať"</string>
+    <!-- Text of a button appearing for MMS messages that have not yet been downloaded, causing the message
+         to be downloaded (imperative verb) -->
+    <string name="download">"Stiahnuť"</string>
+    <!-- Message displayed in place of the "download message" button once it has been pressed,
+         indicating that the download is in progress -->
+    <string name="downloading">"Sťahuje sa..."</string>
+    <!-- Dispaly downloading when download Mms -->
+    <add-resource type="string" name="new_message_download"/>
+    <string name="new_message_download">"Nová správa na stiahnutie"</string>
+    <!-- Dispaly New message to download  when income Mms  -->
+    <add-resource type="string" name="touch_to_download"/>
+    <string name="touch_to_download">"Stiahnite klepnutím"</string>
+    <!-- Inform user can Touch to download Mms   -->
+    <add-resource type="string" name="touch_to_try_again"/>
+    <string name="touch_to_try_again">"Klepnutím to skúste znova"</string>
+    <!-- Dispaly Touch to try again when download failed -->
+    <add-resource type="string" name="could_not_downloading"/>
+    <string name="could_not_downloading">"Nepodarilo sa stiahnuť..."</string>
+    <!-- Display Couldn't download...if download failed -->
+    <add-resource type="string" name="new_mms_message"/>
+    <string name="new_mms_message">"Nová správa MMS"</string>
+    <!-- Dispaly New MMS message when downloading -->
+    <string name="cancel_downloading">"Zrušiť"</string>
+    <string name="confirm_cancel_downloading">"Chcete zrušiť sťahovanie MMS?"</string>
+    <!-- Formatting for subject displayed inline, prepended to MMS message text -->
+    <string name="inline_subject">"&lt;Predmet: <xliff:g id="SUBJECT">%s</xliff:g>&gt;"</string>
+    <!-- Text to display when the actual text is inaccessible due to DRM protection -->
+    <string name="drm_protected_text">"* Text je chránený DRM *"</string>
+    <!-- Error message to display when DRM rights are insufficient to access some data -->
+    <string name="insufficient_drm_rights">"Nemáte dostatočné práva DRM."</string>
+    <!-- Individual message context menu item -->
+    <string name="copy_message_text">"Kopírovať text"</string>
+    <!-- Header for context menu on an individual message -->
+    <string name="message_options">"Možnosti správy"</string>
+    <!-- Header for context menu on an individual slideshow -->
+    <string name="slideshow_options">"Možnosti prezentácie"</string>
+    <!-- Button text on edit slide screen indicating the user wants to finish editing that slide -->
+    <string name="done">"Hotovo"</string>
+    <!-- Menu item in slideshow edit screen for moving the selected slide up in the order -->
+    <string name="move_up">"Posunúť nahor"</string>
+    <!-- Menu item in slideshow edit screen for moving the selected slide down in the order -->
+    <string name="move_down">"Posunúť nadol"</string>
+    <!-- Menu item in slideshow edit screen for removing the selected slide from the slideshow -->
+    <string name="remove_slide">"Odstrániť snímku"</string>
+    <!-- Menu item in slideshow edit screen for adding a new slide to the slideshow -->
+    <string name="add_slide">"Pridať snímku"</string>
+    <!-- Text displayed below "Add slide" item in slideshow edit screen -->
+    <string name="add_slide_hint">"Dotykom vytvoríte novú snímku."</string>
+    <!-- Menu item in slideshow edit screen for discarding the entire slideshow -->
+    <string name="discard_slideshow">"Zahodiť prezentáciu"</string>
+    <!-- Header of slideshow showing which slide is being displayed -->
+    <string name="slide_show_part">"Časť <xliff:g id="PART">%1$s</xliff:g>/<xliff:g id="TOTAL">%2$s</xliff:g>"</string>
+    <!-- Menu item in slide edit screen for removing the text from the slide being edited -->
+    <string name="remove_text">"Odstrániť text"</string>
+    <!-- Menu item in slide edit screen for adding a picture to the slide being edited -->
+    <string name="add_picture">"Pridať fotografiu"</string>
+    <!-- Menu item in slide edit screen for removing the picture from the slide being edited -->
+    <string name="remove_picture">"Odstrániť fotografiu"</string>
+    <!-- Menu item in slide edit screen for adding music to the slide being edited -->
+    <string name="add_music">"Pridať hudbu"</string>
+    <!-- Menu item in slide edit screen for removing the music from the slide being edited -->
+    <string name="remove_music">"Odstrániť hudbu"</string>
+    <!-- Menu item in slide edit screen for adding a video to the slide being edited -->
+    <string name="add_video">"Pridať video"</string>
+    <!-- Menu item in slide edit screen for removing the video from the slide being edited -->
+    <string name="remove_video">"Odstrániť video"</string>
+    <!-- Hint displayed in message recipient text box when starting a new conversation -->
+    <string name="to_hint">"Komu"</string>
+    <!-- Hint displayed in subject edit text box when adding a subject -->
+    <string name="subject_hint">"Predmet"</string>
+    <!-- Menu item in conversation screen for attaching something to the message being composed -->
+    <string name="add_attachment">"Pripojiť"</string>
+    <!-- Menu item in conversation screen for adding a subject to the message being composed -->
+    <string name="add_subject">"Pridať predmet"</string>
+    <!-- Menu item in conversation screen for discarding the message currently being composed -->
+    <string name="discard">"Zahodiť"</string>
+    <!-- Toast message for informing user currently will add another attachment or replace current one -->
+    <string name="add_another_attachment">"Pridať ďalšiu prílohu"</string>
+    <string name="replace_current_attachment">"Nahradiť aktuálnu prílohu"</string>
+    <!-- Button next to an attachment during message composition to view the attachment (imperative verb) -->
+    <string name="view">"Zobraziť"</string>
+    <!-- Button next to an attachment during message composition to replace the attachment (imperative verb) -->
+    <string name="replace">"Nahradiť"</string>
+    <!-- Button next to an attachment during message composition to remove the attachment (imperative verb) -->
+    <string name="remove">"Odstrániť"</string>
+    <!-- Button in conversation screen for sending the SMS message currently being composed (imperative verb) -->
+    <string name="send">"Odoslať"</string>
+    <string name="send_by_slot1">"Odoslať pomocou slot1"</string>
+    <string name="send_by_slot2">"Odoslať pomocou slot2"</string>
+    <!-- Text to appear directly below the "Send" text on the SMS/MMS send button. The "MMS" text is on a second line in a smaller font. This is similar to saying "Send (mms)". -->
+    <string name="mms">"MMS"</string>
+    <!-- Content description for the send button when sending an mms (imperative verb) -->
+    <string name="send_mms">"Odoslať MMS"</string>
+    <!-- Menu item in conversation screen for returning to the conversation list -->
+    <string name="all_threads">"Všetky konverzácie"</string>
+    <!-- Hint text in message body field when keyboard is exposed -->
+    <string name="type_to_compose_text_enter_to_send">"Odoslať správu"</string>
+    <!-- Hint text in message body field when keyboard is hidden -->
+    <string name="open_keyboard_to_compose_message">"Ak chcete napísať správu, otvorte klávesnicu"</string>
+    <!-- Hint text when we are not the default SMS app -->
+    <string name="sending_disabled_not_default_app">"Odosielanie je zakázané"</string>
+    <!-- Toast text when user tries to compose while we are not the default SMS app -->
+    <string name="compose_disabled_toast">"Správa sa nedá napísať. Nejde o predvolenú aplikáciu pre správy SMS."</string>
+    <!-- Toast message while an image is being resized -->
+    <string name="compressing">"Fotografia je príliš veľká. Prebieha kompresia..."</string>
+    <!-- Error message indicating the format for the specified media type (e.g. "picture") is unsupported -->
+    <string name="unsupported_media_format">"Nepodporovaný formát <xliff:g id="NAME">%1$s</xliff:g>."</string>
+    <!-- Error message indicating the format is unsupported -->
+    <string name="unsupported_format">"Nepodporovaný formát."</string>
+    <!-- Message prompting the user to select a different item; item string as type-appropriate (e.g. "picture") -->
+    <string name="select_different_media">"Vyberte inú položku typu <xliff:g id="NAME">%1$s</xliff:g>."</string>
+    <!-- Message indicating that the message size limit has been reached -->
+    <string name="exceed_message_size_limitation">"Bol dosiahnutý limit veľkosti správy."</string>
+    <!-- Message indicating that the message is too big and there is no space to attach a video -->
+    <string name="message_too_big_for_video">"Správa je príliš veľká na pripojenie videa."</string>
+    <!-- Error message indicating that the item trying to be attached could not be added -->
+    <string name="failed_to_add_media">"Je nám ľúto, túto položku <xliff:g id="NAME">%1$s</xliff:g> nemôžete pridať do správy."</string>
+    <string name="media_size_limit">"Dosiahol sa limit veľkosti správy, nemožno odoslať správu."</string>
+    <!-- Error message indicating that the picture being attached and resized could not be resized -->
+    <string name="failed_to_resize_image">"Veľkosť fotografie sa nepodarilo prispôsobiť."</string>
+    <!-- Error message indicating that the message size or the increase size is negative -->
+    <string name="illegal_message_or_increase_size">"Záporná správa alebo zväčšenie veľkosti."</string>
+    <!-- Error message indicating that an image being attached is still too large to send even after resize -->
+    <string name="resize_image_error_information">"Tento obrázok je aj po zmene veľkosti príliš veľký na odoslanie."</string>
+    <!-- String prepended to forwarded messages to indicate they were forwarded -->
+    <string name="forward_prefix">"Fwd: "</string>
+    <!-- Dialog box title that appears when a draft message will not be saved due to invalid recipients -->
+    <string name="discard_message">"Zrušiť"</string>
+    <string name="discard_message_reason_all_invalid">"Vaša správa sa zruší, pretože žiaden príjemca nie je platný."</string>
+    <string name="discard_message_reason_some_invalid">"Správa sa zruší, pretože niektorí príjemcovia nie sú platní."</string>
+    <!-- Dialog message text explaining that a draft message will not be saved due to invalid recipients -->
+    <string name="discard_message_reason">"Správa bude zrušená, pretože neobsahuje žiadnych platných príjemcov."</string>
+    <!-- Dialog box title indicating which recipients are invalid when the user tries to send a message with invalid recipients -->
+    <string name="has_invalid_recipient">"Neplatní príjemcovia: &lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;"</string>
+    <!-- While sending a message, if it has invalid recipient, display this message. -->
+    <string name="invalid_destination">"Neplatná cieľová adresa."</string>
+    <!-- While sending a message, this error is expected to be generated when user does not have
+         MMS enabled on his account. [CHAR LIMIT=NONE] -->
+    <string name="service_not_activated">"Služba nie je v sieti aktivovaná."</string>
+    <!-- If a message has expired and is no longer available on MMSC, show this toast. [CHAR LIMIT=NONE] -->
+    <string name="service_message_not_found">"Platnosť správy vypršala alebo správa nie je k dispozícii."</string>
+    <!-- If a message can't be sent because of a MMSC network problem, show this toast. [CHAR LIMIT=NONE] -->
+    <string name="service_network_problem">"Správu sa nepodarilo odoslať kvôli problému so sieťou."</string>
+    <!-- Dialog message text when the user tries to send a message with invalid recipients -->
+    <string name="invalid_recipient_message">"Správu nebude možné doručiť, ak neopravíte údaje príjemcov."</string>
+    <!-- Dialog box title indicating the message cannot be sent because there are no valid recipients -->
+    <string name="cannot_send_message">"Správu nie je možné odoslať"</string>
+    <!-- Dialog message text indicating the message cannot be sent because there are no valid recipients -->
+    <string name="cannot_send_message_reason">"Správa nemá žiadnych platných príjemcov."</string>
+    <!-- Error message displayed when the user attempts to forward a message with DRM-locked contents -->
+    <string name="cannot_forward_drm_obj">"Objekt DRM obsiahnutý v správe nie je možné poslať ďalej."</string>
+    <string name="cannot_send_attach_reason">"Príloha nie je dostupná, nemožno odoslať správu."</string>
+    <!-- Brief message that appears when converting a message from SMS to MMS. -->
+    <string name="converting_to_picture_message">"Prebieha prevádzanie na multimediálnu správu..."</string>
+    <string name="converting_to_text_message">"Konvertuje sa na textovú správu\u2026"</string>
+    <!-- Brief message that appears when the maximum size of slides has been reached -->
+    <string name="cannot_add_text_anymore">"Ďalší text nie je možné pridať."</string>
+    <!-- Brief message that appears when the maximum number of slides has been reached -->
+    <string name="cannot_add_slide_anymore">"Ďalšie snímky nie je možné pridať."</string>
+    <!-- Brief message that appears when user tries to add picture to a slide which already has a video. -->
+    <string name="cannot_add_picture_and_video">"Na jednu snímku nie je možné pridať video aj obrázok."</string>
+    <!-- Brief message that appears when the message cannot be saved -->
+    <string name="cannot_save_message">"Správu nie je možné uložiť."</string>
+    <!-- Brief message that appears when a message has automatically been saved as a draft -->
+    <string name="message_saved_as_draft">"Správa bola uložená ako koncept."</string>
+    <!-- Brief message that appears when too many recipients have been added -->
+    <string name="too_many_recipients">"Táto správa má príliš mnoho príjemcov (<xliff:g id="CURRENTCOUNT">%1$s</xliff:g>). Počet príjemcov je obmedzený na <xliff:g id="MAXLIMIT">%2$s</xliff:g>."</string>
+    <!-- Brief message that appears when too many videos/pictures are imported -->
+    <string name="too_many_attachments">"Počet vložených príloh je obmedzený na <xliff:g id="MAXLIMIT">%1$s</xliff:g>. Pridajú sa iba prvé <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> prílohy."</string>
+    <!-- Alert dialog title when adding attachments is taking a while  [CHAR LIMIT=none] -->
+    <string name="adding_attachments_title">"Pridávanie príloh"</string>
+    <!-- Alert dialog when adding attachments is taking a while -->
+    <string name="adding_attachments">"Čakajte, kým sa položky pridajú do prezentácie."</string>
+    <!-- Alert dialog title when creating a slideshow [CHAR LIMIT=none] -->
+    <string name="building_slideshow_title">"Prebieha vytváranie prezentácie"</string>
+    <!-- Error message indicating that an audio attachment cannot be played -->
+    <string name="cannot_play_audio">"Zvuk nie je možné prehrať."</string>
+    <!-- Button in the slide editor screen used to preview the slide (imperative verb) -->
+    <string name="preview">"Ukážka"</string>
+    <!-- Menu item in the slide editor screen used to preview the entire slideshow (imperative verb) -->
+    <string name="preview_slideshow">"Ukážka"</string>
+    <!-- Button in the slide editor screen used to replace the attached picture -->
+    <string name="replace_image">"Nahradiť fotografiu"</string>
+    <!-- String for slide duration in seconds -->
+    <string name="duration_sec">"Trvanie (<xliff:g id="DURATION">%s</xliff:g> s)"</string>
+    <!-- Dialog box title for duration selector -->
+    <string name="duration_selector_title">"Doba trvania snímky "</string>
+    <!-- Dialog box title for slide layout selector -->
+    <string name="layout_selector_title">"Rozloženie prezentácie "</string>
+    <!-- Slide layout option for layout at the top -->
+    <string name="layout_top">"Rozloženie (hore)"</string>
+    <!-- Slide layout option for layout at the bottom -->
+    <string name="layout_bottom">"Rozloženie (dole)"</string>
+    <!-- Hint in slide text field before text is typed -->
+    <string name="type_to_compose_text_or_leave_blank">"Napíšte správu alebo pole ponechajte prázdne"</string>
+    <!-- Toast when the user enters a non-numeric value for the duration of a slide -->
+    <string name="duration_not_a_number">"Hodnota trvania musí byť číslo."</string>
+    <!-- Toast when the user enters a zero value for the duration of a slide -->
+    <string name="duration_zero">"Doba trvania musí byť väčšia než 0 s."</string>
+    <!-- Dialog box title for display the current mms size  -->
+    <string name="title_send_message">"Odoslať správu"</string>
+    <!-- Toast when the subject is full -->
+    <string name="subject_full">"predmet je plný"</string>
+    <!-- In duration selection dialog box, short version of "seconds" -->
+    <string name="secs">"s"</string>
+    <!-- Options for slide duration in duration selection dialog box -->
+    <string-array name="select_dialog_items">
+         <item>"1 sekunda"</item>
+         <item>"2 sekundy"</item>
+         <item>"3 sekundy"</item>
+         <item>"4 sekundy"</item>
+         <item>"5 sekúnd"</item>
+         <item>"6 sekúnd"</item>
+         <item>"7 sekúnd"</item>
+         <item>"8 sekúnd"</item>
+         <item>"9 sekúnd"</item>
+         <item>"10 sekúnd"</item>
+         <item>"Iné"</item>
+    </string-array>
+    <!-- Context menu item on a message recipient for viewing their contact info -->
+    <string name="menu_view_contact">"Zobraziť kontakt"</string>
+    <!-- Context menu item on a message recipient for adding them to the user's
+         contacts (used if the recipient is not already in the address book) -->
+    <string name="menu_add_to_contacts">"Pridať ku kontaktu"</string>
+    <!-- Sender to be used if the sender address has been hidden -->
+    <string name="hidden_sender_address">"Adresa skrytého odosielateľa"</string>
+    <!-- Text to be used for affirmative response button in dialog boxes -->
+    <string name="yes">"OK"</string>
+    <!-- Text to be used for negative response button in dialog boxes -->
+    <string name="no">"Zrušiť"</string>
+    <!-- Text to be used for affirmative response button in setting SMS limits dialog box -->
+    <string name="set">"Nastaviť"</string>
+    <!-- Button text used for playing an attachment or slideshow (imperative verb) -->
+    <string name="play">"Prehrať"</string>
+    <!-- Button text used for editing a slideshow (imperative verb) -->
+    <string name="edit">"Upraviť"</string>
+    <!-- Button used for trying to send a message that has some valid recipients and some
+         invalid recipients, in spite of the warning presented to the user -->
+    <string name="try_to_send">"Skúsiť odoslať"</string>
+    <!-- Title of Settings screen -->
+    <string name="preferences_title">"Nastavenia"</string>
+    <!-- Settings screen menu item for restoring all settings to default -->
+    <string name="restore_default">"Obnoviť predvolené nastavenia"</string>
+    <!-- Settings SIM1 -->
+    <add-resource type="string" name="settings_pre_sim1"/>
+    <string name="settings_pre_sim1">"SIM1"</string>
+    <!-- Settings SIM2 -->
+    <add-resource type="string" name="settings_pre_sim2"/>
+    <string name="settings_pre_sim2">"SIM2"</string>
+    <!-- Settings screen, section heading for notifications -->
+    <string name="pref_notification_settings_title">"Upozornenia"</string>
+    <!-- Settings screen, section heading for MMS-specific settings -->
+    <string name="pref_mms_settings_title">"Nastavenia pre multimediálne správy (MMS)"</string>
+    <!-- Settings screen, section heading for SMS-specific settings -->
+    <string name="pref_sms_settings_title">"Nastavenia pre textové správy (SMS)"</string>
+    <!-- Settings screen, section heading for storage-specific settings -->
+    <string name="pref_sms_storage_title">"Úložisko"</string>
+    <!-- Title for SMS Disabled -->
+    <string name="pref_title_sms_disabled">"SMS sú zakázané"</string>
+    <!-- Title for Default message app-->
+    <add-resource type="string" name="pref_title_default_app"/>
+    <string name="pref_title_default_app">"Predvolená aplikácia pre správy"</string>
+    <!-- Summary for SMS Disabled -->
+    <string name="pref_summary_sms_disabled">"Dotykom vyberte službu SMS a MMS ako predvolenú aplikáciu pre SMS"</string>
+    <!-- Title for SMS Enabled -->
+    <string name="pref_title_sms_enabled">"SMS sú povolené"</string>
+    <!-- Summary for SMS Enabled -->
+    <string name="pref_summary_sms_enabled">"Dotykom zmeníte predvolenú aplikáciu pre SMS"</string>
+    <!-- Title for PreferenceScreen  -->
+    <add-resource type="string" name="pref_title_display"/>
+    <string name="pref_title_display">"Zobraziť"</string>
+    <!-- Settings item description for entering SIM card message screen -->
+    <string name="pref_summary_manage_sim_messages">"Umožňuje spravovať správy uložené na karte SIM"</string>
+    <string name="pref_summary_manage_sim_messages_slot">"Spravovanie správ uložených na karte SIM <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <!-- Settings item description for boolean MMS delivery report setting -->
+    <string name="pref_summary_mms_delivery_reports">"Pri každej odoslanej správe požadovať potvrdenie o doručení"</string>
+    <!-- Settings item description for boolean MMS read report setting -->
+    <string name="pref_summary_mms_read_reports">"Pri každej odoslanej správe požadovať potvrdenie o prečítaní"</string>
+    <!-- Settings item description for boolean SMS delivery report setting -->
+    <string name="pref_summary_sms_delivery_reports">"Pri každej odoslanej správe požadovať potvrdenie o doručení"</string>
+    <!-- Settings item description for boolean auto-delete messages setting -->
+    <string name="pref_summary_auto_delete">"Pri dosiahnutí limitu odstrániť staré správy"</string>
+    <!-- Settings item description for enable gesture setting -->
+    <add-resource type="string" name="pref_summary_enable_gesture"/>
+    <string name="pref_summary_enable_gesture">"Umožnenie používateľovi zmeniť veľkosť písma stiahnutím alebo roztiahnutím prstov"</string>
+    <!-- Settings item description for group notification setting -->
+    <add-resource type="string" name="pref_summary_group_notification"/>
+    <string name="pref_summary_group_notification">"Automatické spojenie upozornenia do jednej skupiny"</string>
+    <!-- Settings item description for integer auto-delete sms message limit -->
+    <string name="pref_summary_delete_limit">"Počet správ v konverzácii: <xliff:g id="COUNT">%1$s</xliff:g>"</string>
+    <!-- Settings item description for boolean MMS enable group MMS setting -->
+    <string name="pref_summary_mms_group_mms">"Použiť MMS na odoslanie jednej správy, ak má niekoľko príjemcov"</string>
+    <!-- Settings item for entering SIM card message screen -->
+    <string name="pref_title_manage_sim_messages">"Správa správ na karte SIM"</string>
+    <add-resource type="string" name="pref_title_center_number"/>
+    <string name="pref_title_center_number">"Číslo na centrum správ"</string>
+    <string name="pref_title_manage_sim_messages_slot1">"Správa správ na karte SIM1"</string>
+    <string name="pref_title_manage_sim_messages_slot2">"Správa správ na karte SIM2"</string>
+    <!-- Settings item description for group notification setting -->
+    <add-resource type="string" name="pref_title_group_notification"/>
+    <string name="pref_title_group_notification">"Správa pre skupinové upozornenie"</string>
+    <!-- Settings item for boolean option to enable/disable MMS delivery reports -->
+    <string name="pref_title_mms_delivery_reports">"Potvrdenia o doručení"</string>
+    <!-- Settings item for enable gesture -->
+    <add-resource type="string" name="pref_title_enable_gesture"/>
+    <string name="pref_title_enable_gesture">"Zapnutie gesta"</string>
+    <!-- Settings item for other settings -->
+    <add-resource type="string" name="pref_title_other_settings"/>
+    <string name="pref_title_other_settings">"Ďalšie nastavenia"</string>
+    <!-- Settings item for boolean option to enable/disable MMS delivery reports for sim1-->
+    <add-resource type="string" name="pref_title_mms_delivery_reports_slot1"/>
+    <string name="pref_title_mms_delivery_reports_slot1">"Správy o doručení pre kartu SIM1"</string>
+    <!-- Settings item for boolean option to enable/disable MMS delivery reports for sim2-->
+    <add-resource type="string" name="pref_title_mms_delivery_reports_slot2"/>
+    <string name="pref_title_mms_delivery_reports_slot2">"Správy o doručení pre kartu SIM2"</string>
+    <!-- Settings item for boolean option to enable/disable MMS group messages -->
+    <string name="pref_title_mms_group_mms">"Skupinové správy"</string>
+    <!-- Settings item for manage sim card message  -->
+    <add-resource type="string" name="pref_title_sms_manage_sim"/>
+    <string name="pref_title_sms_manage_sim">"Správa správ na karte SIM"</string>
+    <!-- Settings item for boolean option to enable/disable MMS read reports -->
+    <string name="pref_title_mms_read_reports">"Potvrdenia o prečítaní"</string>
+    <!-- Settings item for boolean option to enable/disable MMS read reports for SIM1 -->
+    <add-resource type="string" name="pref_title_mms_read_reports_slot1"/>
+    <string name="pref_title_mms_read_reports_slot1">"Správy o prečítaní pre SIM1"</string>
+    <!-- Settings item for boolean option to enable/disable MMS read reports for SIM2 -->
+    <add-resource type="string" name="pref_title_mms_read_reports_slot2"/>
+    <string name="pref_title_mms_read_reports_slot2">"Správy o prečítaní pre SIM2"</string>
+    <!-- Settings item for boolean option to enable/disable SMS delivery reports -->
+    <string name="pref_title_sms_delivery_reports">"Potvrdenia o doručení"</string>
+    <string name="pref_title_sms_delivery_reports_slot1">"Správy o doručení pre kartu SIM1"</string>
+    <string name="pref_title_sms_delivery_reports_slot2">"Správy o doručení pre kartu SIM2"</string>
+    <!-- Settings item for boolean option to enable/disable auto-deletion of messages -->
+    <string name="pref_title_auto_delete">"Odstrániť staré správy"</string>
+    <!-- Settings item for integer option to set SMS delete limit -->
+    <string name="pref_title_sms_delete">"Limit textových správ"</string>
+    <!-- Settings item for integer option to set MMS delete limit -->
+    <string name="pref_title_mms_delete">"Limit multimediálnych správ"</string>
+    <!-- Settings item for boolean option to display message notifications -->
+    <string name="pref_title_notification_enabled">"Upozornenia"</string>
+    <!-- Settings item for boolean option to vibrate during message notification -->
+    <string name="pref_title_notification_vibrateWhen">"Vibrovať"</string>
+    <!-- Settings item for entering ringtone selection screen -->
+    <string name="pref_title_notification_ringtone">"Zvuk"</string>
+    <!-- Settings item for setting the number of message to save for each conversation -->
+    <string name="pref_messages_to_save">"Nastaviť počet ukladaných správ"</string>
+    <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
+    <string name="silent_ringtone">"Tichý"</string>
+    <!-- Settings item for boolean option to auto-retrieve incoming MMS messages -->
+    <string name="pref_title_mms_auto_retrieval">"Automatické načítanie"</string>
+    <!-- Settings item description for boolean MMS auto-retrieve option -->
+    <string name="pref_summary_mms_auto_retrieval">"Automaticky načítať správy"</string>
+    <!-- Settings item for boolean option to auto-retrieve incoming MMS messages while roaming -->
+    <string name="pref_title_mms_retrieval_during_roaming">"Automatické načítanie pri roamingu"</string>
+    <!-- Settings item description for boolean MMS auto-retrieve while roaming option -->
+    <string name="pref_summary_mms_retrieval_during_roaming">"Automaticky načítať správy pri roamingu"</string>
+    <!-- Confirm Delete -->
+    <!-- Delete confirmation dialog title -->
+    <string name="confirm_dialog_title">"Odstrániť?"</string>
+    <!-- Delete confirmation dialog title for locked messages -->
+    <string name="confirm_dialog_locked_title">"Odstrániť uzamknutú správu?"</string>
+    <!-- This message is displayed in a confirmation dialog when the user selects one or more
+         conversations and then taps the "Delete" button. -->
+    <plurals name="confirm_delete_conversation">
+        <!-- Case of 1 result. -->
+        <item quantity="one">"Bude odstránená jedna konverzácia."</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">"Počet konverzácií, ktoré budú odstránené: <xliff:g id="NUMBER">%1$s</xliff:g>."</item>
+    </plurals>
+    <string name="confirm_delete_conversation">"Celá konverzácia bude odstránená."</string>
+    <!-- Delete all threads confirmation dialog message -->
+    <string name="confirm_delete_all_conversations">"Všetky konverzácie budú odstránené."</string>
+    <!-- Delete message confirmation dialog message -->
+    <string name="confirm_delete_message">"Správa bude odstránená."</string>
+    <!-- Delete message confirmation dialog message for a locked message -->
+    <string name="confirm_delete_locked_message">"Odstrániť túto uzamknutú správu?"</string>
+    <!-- Delete all the messages on the SIM dialog message -->
+    <string name="confirm_delete_all_SIM_messages">"Všetky správy na karte SIM budú odstránené."</string>
+    <!-- Delete the selected message on the SIM dialog message -->
+    <string name="confirm_delete_SIM_message">"Táto správa na karte SIM bude odstránená."</string>
+    <!-- Delete unlocked checkbox title -->
+    <string name="delete_unlocked">"Odstrániť uzamknuté správy"</string>
+    <!-- Delete button title -->
+    <string name="delete">"Odstrániť"</string>
+    <!-- Action bar mode title when multi-selecting conversations -->
+    <string name="select_conversations">"Vybrať konverzácie"</string>
+    <!-- Show this in the middle of the main activity when there are no conversations [CHAR LIMIT=none] -->
+    <string name="no_conversations">"Žiadne konverzácie."</string>
+    <!-- Show this in the middle of the main activity when loading conversations [CHAR LIMIT=none] -->
+    <string name="loading_conversations">"Načítavanie konverzácií."</string>
+    <!-- When the user tries to view message details and some error occurs while
+         retrieving those details, this message will be shown. -->
+    <string name="cannot_get_details">"Podrobnosti nie je možné zobraziť."</string>
+    <!-- Title of "Message details" dialog -->
+    <string name="message_details_title">"Podrobnosti správy"</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_type_label">"Typ: "</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="text_message">"Textová správa"</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="multimedia_message">"Multimediálna správa"</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="multimedia_notification">"Upozornenie na multimediálnu správu"</string>
+    <!-- Label in "Message details" dialog showing who sent the message. -->
+    <string name="from_label">"Od: "</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="to_address_label">"Komu: "</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="bcc_label">"Skrytá kópia: "</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="sent_label">"Odoslané: "</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="received_label">"Prijaté: "</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="saved_label">"Uložené: "</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="subject_label">"Predmet: "</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_size_label">"Veľkosť správy: "</string>
+    <!-- Label in "Message details" dialog -->
+    <add-resource type="string" name="mms_size_label"/>
+    <string name="mms_size_label">"veľkosť:\u0020"</string>
+    <string name="priority_label">"Priorita: "</string>
+    <!-- "Priority" value in "Message details" dialog -->
+    <string name="priority_high">"Vysoká"</string>
+    <!-- "Priority" value in "Message details" dialog -->
+    <string name="priority_normal">"Normálna"</string>
+    <!-- "Priority" value in "Message details" dialog -->
+    <string name="priority_low">"Nízka"</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_class_label">"Trieda správy: "</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="error_code_label">"Kód chyby: "</string>
+   <!-- Menu title for editing a message -->
+   <string name="menu_edit">"Upraviť"</string>
+   <!-- Menu title for deleting undelivered messages or messages on
+        the SIM card. -->
+   <string name="menu_delete_messages">"Odstrániť správy"</string>
+   <!-- Menu title for locking a message -->
+   <string name="menu_lock">"Uzamknúť"</string>
+   <!-- Menu title for unlocking a message -->
+   <string name="menu_unlock">"Odomknúť"</string>
+    <!-- Manage SIM Messages -->
+    <!-- Menu title to copy a selected message from the SIM card to the phone. -->
+    <string name="sim_copy_to_phone_memory" product="tablet">"Kopírovať do pamäte tabletu"</string>
+    <!-- Menu title to copy a selected message from the SIM card to the phone. -->
+    <string name="sim_copy_to_phone_memory" product="default">"Kopírovať do pamäte telefónu"</string>
+    <!-- Menu title to delete a selected messaged from the SIM card. -->
+    <string name="sim_delete">"Odstrániť"</string>
+    <!-- Title of screen displaying messages on SIM card -->
+    <string name="sim_manage_messages_title">"Textové správy na karte SIM"</string>
+    <!-- Context menu item but currently commented out in 1.0. -->
+    <string name="sim_view">"Zobraziť"</string>
+    <!-- Message that appears on the "SMS messges on SIM card" screen when there are no messages on the SIM card -->
+    <string name="sim_empty">"Na karte SIM nie sú žiadne správy."</string>
+    <!-- Delivery Header View -->
+    <!-- Title of "Report" window -->
+    <string name="delivery_header_title">"Prehľad"</string>
+    <!-- Delivery Report Activity -->
+    <!-- Status in "Report" window -->
+    <string name="status_none">"(Žiadne)"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_pending">"Očakáva sa"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_read">"Prečítané"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_received">"Prijaté"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_failed">"Neúspešné"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_unread">"Neprečítané"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_deleted_unread">"Vymazané bez prečítania"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_rejected">"Odmietnuté"</string>
+    <!-- Label in "Report" window -->
+    <string name="recipient_label">"Príjemca: "</string>
+    <!-- Label in "Report" window -->
+    <string name="status_label">"Stav: "</string>
+    <!-- Label in "Report" window [CHAR LIMIT=50]-->
+    <string name="delivered_label">"Doručené: "</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_image">"Fotografie"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_take_photo">"Nasnímať fotografiu"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_video">"Videá"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_record_video">"Zaznamenať video"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_sound">"Zvuk"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_record_sound">"Zaznamenať zvuk"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_slideshow">"Prezentácia"</string>
+    <!-- Layout Selector Adapter. Slideshow layout dialog option for aligning an icon. -->
+    <string name="select_bottom_text">"Dolný text"</string>
+    <!-- Layout Selector Adapter. Slideshow layout dialog option for aligning an icon. -->
+    <string name="select_top_text">"Horný text"</string>
+    <!-- Delivery Report Toast dialog content -->
+    <string name="delivery_toast_body">"Správa prijatá aplikáciou %s."</string>
+    <!-- Delivery Report Notification dialog title. -->
+    <string name="notification_multiple">"Neprečítané správy: <xliff:g id="COUNT">%s</xliff:g>."</string>
+    <!-- Delivery Report Notification dialog title. -->
+    <string name="notification_multiple_title">"Nové správy"</string>
+    <!-- Failed to send/download Notification dialog title. -->
+    <string name="notification_failed_multiple">"Správy sa nepodarilo odoslať (počet: <xliff:g id="COUNT">%s</xliff:g>)"</string>
+    <!-- Failed to send/download Notification dialog title. -->
+    <string name="notification_failed_multiple_title">"Správy neboli odoslané"</string>
+    <!-- Sim Full Notification dialog title. -->
+    <string name="sim_full_title">"Pamäť karty SIM je plná"</string>
+    <!-- Sim Full Notification dialog text. -->
+    <string name="sim_full_body">"Odstráňte niektoré správy a vytvorte tak miesto pre nové."</string>
+    <!-- Device Full Notification dialog title. -->
+    <string name="sms_full_title">"Pamäť pre textové správy je plná"</string>
+    <!-- Device Full Notification dialog text. -->
+    <string name="sms_full_body">"Prichádzajúca správa bola odmietnutá, pretože pamäť je zaplnená. Odstráňte staré správy."</string>
+    <!-- Device Low Notification dialog title. -->
+    <string name="memory_low_title">"Telefón má málo pamäte"</string>
+    <!-- Device Low Notification dialog text. -->
+    <string name="memory_low_body">"Pamäť telefónu je takmer plná, odstráňte niektoré staršie údaje, aby ste mohli dostávať správy."</string>
+    <!-- Disk Storage Full Error Notification dialog text. -->
+    <string name="disk_storage_full_error">"Chyba: Ukladací priestor je plný."</string>
+    <!-- Mobile data is turned off dialog text. -->
+    <string name="mobile_data_disable">"Mobilné dáta sú vypnuté. Chcete napriek tomu odoslať správu MMS? Ak áno, vytvorí sa mobilný prenos dát."</string>
+    <string name="inform_data_off">"Mobilné údaje sú vypnuté; skontrolujte svoje nastavenia."</string>
+    <!-- Mms size is too large dialog text. -->
+    <string name="mms_too_large">"Správa je príliš veľká na stiahnutie."</string>
+    <!-- Sms's Being Rejected Notification dialog title. -->
+    <string name="sms_rejected_title">"Textová správa bola odmietnutá"</string>
+    <!-- Sms's Being Rejected Notification dialog text. -->
+    <string name="sms_rejected_body">"Prichádzajúca správa bola odmietnutá z neznámeho dôvodu."</string>
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this audio to your message. -->
+    <string name="type_audio">"zvuk"</string>
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this picture to your message. -->
+    <string name="type_picture">"fotografia"</string>
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this video to your message. -->
+    <string name="type_video">"video"</string>
+    <!-- Dialog title for the Read Report dialog. -->
+    <string name="confirm">"Potvrdiť"</string>
+    <!-- Dialog text for the Read Report dialog. -->
+    <string name="message_send_read_report">"Bude odoslané potvrdenie o prečítaní."</string>
+    <!-- This is the text of a toast message briefly displayed when a problem occurs
+         while sending. -->
+    <string name="message_queued">"Správu momentálne nie je možné odoslať. Bude odoslaná hneď, ako bude služba dostupná."</string>
+    <!-- dialog error message when only is FDN is allowed. -->
+    <string name="fdn_check_failure">"Správy je možné odosielať iba na čísla pevného vytáčania."</string>
+    <!-- Download Manager -->
+    <!-- When an error occurs downloading a new message and a subject isn't available, substitute
+         this default subject. -->
+    <string name="no_subject">"(Bez predmetu)"</string>
+    <!-- When an error occurs downloading a new message and the sender is unknown, substitute
+         this default text. -->
+    <string name="unknown_sender">"Neznámy odosielateľ"</string>
+    <!-- When an error occurs downloading a new message, display this message.
+         An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
+    <string name="dl_failure_notification">"Správu <xliff:g id="SUBJECT">%1$s</xliff:g> od odosielateľa <xliff:g id="FROM">%2$s</xliff:g> sa nepodarilo stiahnuť."</string>
+    <!-- This is the confirm rate limit alert dialog title. -->
+    <string name="rate_limit_surpassed">"Potvrdiť"</string>
+    <!-- This is the confirm rate limit alert dialog text. -->
+    <string name="confirm_rate_limit">"Odosiela sa veľký počet správ MMS. Je to v poriadku?"</string>
+    <!-- Message Failed Notification -->
+    <!-- Dialog box title when receiving a message failed. -->
+    <string name="message_download_failed_title">"Správu sa nepodarilo stiahnuť"</string>
+    <!-- Dialog box title when sending a message failed. -->
+    <string name="message_send_failed_title">"Správu sa nepodarilo odoslať"</string>
+    <!-- Dialog box message text when failure occurs sending a message. -->
+    <string name="message_failed_body">"Dotykom skontrolujte správu a skúste ju odoslať znova."</string>
+    <!-- Dialog box message when there's a problem retrieving messages. -->
+    <string name="download_later">"Správu momentálne nie je možné stiahnuť. Skúste to znova neskôr."</string>
+    <string name="send_failed_retry">"Odosielanie zlyhalo. Prebehne automatické opakovanie."</string>
+    <string name="download_failed_retry">"Sťahovanie zlyhalo. Prebehne automatické opakovanie."</string>
+    <string name="no_network_send_failed_retry">"Sieť nie je k dispozícii, odosielanie zlyhalo, prebehne automatické opakovanie"</string>
+    <string name="no_network_download_failed_retry">"Sieť nie je k dispozícii, sťahovanie zlyhalo, prebehne automatické opakovanie"</string>
+    <!-- Dialog box message when there's no APN specified on the device. -->
+    <string name="no_apn">"V zariadení nie je zadaný žiadny názov prístupového bodu (APN)."</string>
+    <!-- Title for audio file picker -->
+    <string name="select_audio">"Zvoliť zvuk"</string>
+    <string name="system_audio_item">"Systémový zvuk"</string>
+    <string name="external_audio_item">"Externý zvuk"</string>
+    <!-- Menu title to copy an attachment to the shared storage [CHAR LIMIT=25] -->
+    <string name="copy_to_sdcard">"Uložiť prílohu"</string>
+    <!-- Toast message on successful copy to shared storage [CHAR LIMIT=30] -->
+    <string name="copy_to_sdcard_success">"Príloha bola uložená."</string>
+    <!-- Toast message on failed copy to shared storage [CHAR LIMIT=30] -->
+    <string name="copy_to_sdcard_fail">"Prílohu sa nepodarilo uložiť."</string>
+    <!-- Menu title to save a sound as a ringtone -->
+    <string name="save_ringtone">"Uložiť ako tón zvonenia"</string>
+    <!-- Toast message on successful copying ringtone to drm provider -->
+    <string name="saved_ringtone">"Tón zvonenia bol uložený."</string>
+    <!-- Toast message on failed copying ringtone to drm provider -->
+    <string name="saved_ringtone_fail">"Tón zvonenia sa nepodarilo uložiť."</string>
+    <!-- Menu item -->
+    <!-- Menu item  [CHAR LIMIT=40] -->
+    <string name="menu_group_participants">"Účastníci skupiny"</string>
+    <!-- This is the dialog title for the "Select link" dialog, shown when the user clicks on a
+    chat in the chat history view if there are links in the chat message. The dialog displays the
+    links if there are any -->
+    <string name="select_link_title">"Vybrať akciu"</string>
+    <!-- Name of the Nth slide, shown in the list in the slideshow editor. -->
+    <string name="slide_number">"Snímka <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <!-- Duration of the slide, shown in the list in the slideshow editor -->
+    <plurals name="slide_duration">
+        <!-- Case of 1-second duration. -->
+        <item quantity="one">"<xliff:g id="NUMBER">%s</xliff:g> s"</item>
+        <!-- Case of "few" (small number of) seconds of duration. -->
+        <item quantity="few">"<xliff:g id="NUMBER">%s</xliff:g> s"</item>
+        <!-- Case of multiple-second duration. -->
+        <item quantity="other">"<xliff:g id="NUMBER">%s</xliff:g> s"</item>
+    </plurals>
+    <!-- Title of the delivery report activity. -->
+    <string name="delivery_report_activity">"Potvrdenie o doručení"</string>
+    <!-- Title of the activity that tells the user about storage limits. -->
+    <string name="storage_limits_activity">"Obmedzenia ukladacieho priestoru"</string>
+    <!-- Title of the slide duration editor activity. -->
+    <string name="change_duration_activity">"Zmeniť trvanie"</string>
+    <!-- Title of the slideshow editor activity. -->
+    <string name="edit_slideshow_activity">"Upraviť prezentáciu"</string>
+    <!-- Title of the recipient list activity. [CHAR LIMIT=NONE] -->
+    <string name="recipient_list_activity">"Účastníci skupiny"</string>
+    <!-- Title of the slide editor activity. -->
+    <string name="edit_slide_activity">"Upraviť snímku"</string>
+    <!-- Title of the slideshow activity. -->
+    <string name="slideshow_activity">"Prezentácia"</string>
+    <!-- Title of the class-0 message activity. -->
+    <string name="class_0_message_activity">"Správa triedy 0"</string>
+    <!-- Application name shown when searching -->
+    <string name="search_label">"SMS a MMS"</string>
+    <!-- Search hint -->
+    <string name="search_hint">"Hľadať v správach SMS a MMS"</string>
+    <!-- Search activity name -->
+    <string name="search">"SMS a MMS"</string>
+    <!-- Search setting description -->
+    <string name="search_setting_description">"Text v správach"</string>
+    <!--  Search empty results -->
+    <string name="search_empty">"Žiadne zhody."</string>
+    <!--  Search results title -->
+    <plurals name="search_results_title">
+        <!-- Case of 1 result. -->
+        <item quantity="one">"Počet výsledkov pre dopyt <xliff:g id="SEARCH">%2$s</xliff:g>: <xliff:g id="NUMBER">%1$s</xliff:g>"</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">"<xliff:g id="NUMBER">%1$s</xliff:g> výsledkov pre „<xliff:g id="SEARCH">%2$s</xliff:g>“"</item>
+    </plurals>
+    <!--- String saved in history searches. -->
+    <string name="search_history">"<xliff:g id="COUNT">%1$s</xliff:g> výsledkov pre „<xliff:g id="SEARCH">%2$s</xliff:g>“"</string>
+    <!-- Button title in Messaging preferences. -->
+    <string name="confirm_clear_search_title">"Vymazať"</string>
+    <!-- Text for the preferences button. -->
+    <string name="confirm_clear_search_text">"História vyhľadávania bude odstránená"</string>
+    <!--- Button title in preferences to clear the search history. It's a verb action that takes place
+          immediately when clicked. -->
+    <string name="pref_mms_clear_search_history_title">"Vymazať históriu vyhľadávania"</string>
+    <!--- Button description in preferences to clear the search history. -->
+    <string name="pref_mms_clear_search_history_summary">"Vymazať predchádzajúce vyhľadávania SMS a MMS, aby sa nezobrazovali vo vyhľadávacom poli"</string>
+    <!-- Dialog text for display mode save dialog. -->
+    <string name="save">"Uložiť"</string>
+    <!-- Dialog title for dialog that informs user about new storage settings. -->
+    <string name="storage_limits_title">"Obmedziť počet správ"</string>
+    <!-- Dialog message for dialog that informs user about new storage settings. -->
+    <string name="storage_limits_message">"Obmedziť počet správ, ktoré ukladáte v rámci jednotlivých konverzácií?"</string>
+    <!-- Button title for dialog that informs user about new storage settings. -->
+    <string name="storage_limits_setting">"Nastaviť obmedzenia"</string>
+    <!-- Button title to dismiss dialog that informs user about new storage settings. -->
+    <string name="storage_limits_setting_dismiss">"Žiadne obmedzenia"</string>
+    <!-- Toast message when a user tries to send a Mms message when there are already too many
+         outstanding unsent message. -->
+    <string name="too_many_unsent_mms">"Správu momentálne nie je možné odoslať. Máte príliš veľa neodoslaných multimediálnych správ."</string>
+    <!-- Brief small label shown to right of message when it is being sent. -->
+    <string name="sending_message">"ODOSIELA SA..."</string>
+    <!-- Title of progress dialog for picker -->
+    <string name="pick_too_many_recipients">"Príliš veľa príjemcov"</string>
+    <!-- Message of progress dialog for picker -->
+    <string name="adding_recipients">"Prebieha pridávanie príjemcov..."</string>
+    <!-- In conversation list items, this is the separator between a contact's name
+         and the draft stamp [CHAR LIMIT=5] -->
+    <string name="draft_separator">,\u0020</string>
+    <!-- In conversation list items, this comes after the receipient's name and contains
+         the number of messages in the thread [CHAR LIMIT=5] -->
+    <string name="message_count_format">"\u00a0<xliff:g id="number" example="1">%1$s</xliff:g>"</string>
+    <!-- When showing a multi-message notification, this is the title [CHAR LIMIT=none] -->
+    <string name="message_count_notification">"Nové správy: <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+    <!-- In digest notifications when we show N messages, but there are N+M outstanding messages,
+         this text is displayed at the bottom of the notification. [CHAR LIMIT=50] -->
+    <plurals name="message_count_notification_overflow">
+        <!-- Case of 1 result. -->
+        <item quantity="one">"+<xliff:g id="NUMBER">%1$s</xliff:g> ďalšia správa"</item>
+        <!-- Case of 2 or more results. -->
+        <item quantity="other">"+<xliff:g id="NUMBER">%1$s</xliff:g> ďalších správ"</item>
+    </plurals>
+    <!-- For debugging: Dialog box title indicating there's a situation where data has unexpectedly
+         changed -->
+    <string name="error_state">"Nekonzistentný stav"</string>
+    <!-- For debugging: Dialog box text indicating there's a situation where data has unexpectedly
+         changed -->
+    <string name="error_state_text">"Stav konverzácií a príjemcov nie je konzistentný. Nasnímajte fotografiu chybového hlásenia a odošlite ju na stránkach http://go/droidanizer"</string>
+    <!-- In the title of the compose message activity, when there are multiple recipients, we show
+         the number of recipients in the subtitle of the action bar. There's never a case of one. [CHAR LIMIT=50] -->
+    <plurals name="recipient_count">
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">"Počet ľudí: <xliff:g id="NUMBER">%1$s</xliff:g>"</item>
+    </plurals>
+    <!-- Message of the dialog used to disable messaging notifications [CHAR LIMIT=none] -->
+    <string name="disable_notifications_dialog_message">"Zastaviť duplicitné upozornenia na textové správy z predvolenej aplikácie správ SMS a MMS?"</string>
+    <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default conversation list. [CHAR LIMIT=35] -->
+    <string name="view_more_conversations">"Zobraziť ďalšie konverzácie"</string>
+    <!-- Attachment type shown in notification. [CHAR LIMIT=35] -->
+    <string name="attachment_audio">"Zvuk"</string>
+    <!-- Attachment type shown in notification. [CHAR LIMIT=35] -->
+    <string name="attachment_slideshow">"Prezentácia"</string>
+    <!-- Attachment type shown in notification. [CHAR LIMIT=35] -->
+    <string name="attachment_video">"Video"</string>
+    <!-- Attachment type shown in notification. [CHAR LIMIT=35] -->
+    <string name="attachment_picture">"Obrázok"</string>
+    <!-- Separator between parts of a notification in each line of an inboxStyle notification. [CHAR LIMIT=2] -->
+    <string name="notification_separator">\u0020\u0020</string>
+    <!-- An enumeration comma for separating multiple names in notifications. [CHAR LIMIT=2] -->
+    <string name="enumeration_comma">,\u0020</string>
+    <!-- In message list items, this string builds the timestamp line when the message is in a group [CHAR LIMIT=NONE] -->
+    <string name="message_timestamp_format">"<xliff:g id="STRING_0">%1$s</xliff:g> – <xliff:g id="STRING_1">%2$s</xliff:g>"</string>
+    <string name="mail_to">"mailto:"</string>
+    <!-- Menu item to connect the extract url in WwwContextMenuActivity  -->
+    <string name="menu_connect_url">"Pripojiť"</string>
+    <!-- Menu item to add the extract url to boomark in WwwContextMenuActivity  -->
+    <string name="menu_add_to_label">"Uložiť medzi záložky"</string>
+    <string name="loadurlinfo_str">"Načítať URL?"</string>
+    <!-- Message Template -->
+    <string name="pref_summary_message_template">"Upraviť šablónu správy"</string>
+    <string name="pref_title_message_template">"Šablóna správy"</string>
+    <string name="title_new_message_template">"Nová šablóna"</string>
+    <string name="summary_new_message_template">"Vytvoriť novú šablónu správy"</string>
+    <string name="message_template_title">"Šablóna správy"</string>
+    <string name="dialog_editSMSTemplate_title">"Upraviť"</string>
+    <string name="message_template">"Šablóna správy"</string>
+    <string name="import_message_template">"Importovať šablónu"</string>
+    <string name="delete_template_message">"Odstrániť"</string>
+    <string name="template_full">"Dosiahol sa limit počtu šablón správ."</string>
+    <string name="pref_sms_signature_title">"Podpis SMS"</string>
+    <string name="pref_title_enable_signature">"Podpis SMS"</string>
+    <string name="pref_summary_enable_signature">"Podpis SMS zapnutý"</string>
+    <string name="pref_summary_disable_signature">"Podpis SMS vypnutý"</string>
+    <string name="pref_title_edit_signature">"Upraviť podpis SMS"</string>
+    <string name="signature_full_toast">"Podpis má maximálnu dĺžku."</string>
+    <!-- Copy message to sim -->
+    <string name="menu_copy_to">"Kopírovať"</string>
+    <string name="operation_to_card_memory">"Skopírovať správu na kartu SIM"</string>
+    <!-- SMSC -->
+    <string name="pref_smsc_title">"Nastavenia SMSC"</string>
+    <string name="pref_one_smcs">"Nastaviť číslo smsc"</string>
+    <string name="pref_more_smcs">"Číslo na centrum správ"</string>
+    <add-resource type="string" name="pref_more_message_smcs"/>
+    <string name="pref_more_message_smcs">"SIM<xliff:g id="slot_number">%d</xliff:g>"</string>
+    <string name="set_smsc_error">"Chyba nastavenia čísla smsc"</string>
+    <string name="set_smsc_success">"Číslo smsc úspešne nastavené"</string>
+    <string name="set_smsc_confirm_message">"Zmena čísla smsc môže spôsobiť poruchu odosielania správ SMS. Naozaj chcete zmeniť?"</string>
+    <string name="storage_warning_title">"Úložisko vášho telefónu je plné"</string>
+    <string name="storage_warning_content">"Nedostanete žiadne správy SMS/MMS"</string>
+    <!-- Copy message to sim -->
+    <string name="copy_to_sim">"Skopírovať správu na kartu SIM"</string>
+    <string name="copy_to_sim_success">"Správu SMS skopírovať na kartu SIM, SUM: %1$d, ÚSPEŠNÉ: %2$d"</string>
+    <string name="copy_to_sim_fail">"Nepodarilo sa uložiť správu"</string>
+    <string name="copy_to_phone_success">"Správa uložená"</string>
+    <string name="copy_to_phone_fail">"Nepodarilo sa uložiť správu"</string>
+    <string name="audio_picker_app_not_found">"Nepodarilo sa nájsť aplikáciu na výber zvuku"</string>
+    <string name="contact_app_not_found">"Nepodarilo sa nájsť aplikáciu Kontakt"</string>
+    <!-- Gray hint displayed in the search field in Contacts when empty -->
+    <string name="search_bar_hint">"Hľadať v kontaktoch"</string>
+    <string name="select_all">"Všetko"</string>
+    <!-- Add for share contact feature -->
+    <string name="type_vcard">"vCard"</string>
+    <string name="import_vcard">"Importovať"</string>
+    <string name="attach_add_contact_as_text">"Vložte informácie o kontakte"</string>
+    <string name="attach_add_contact_as_vcard">"Vizitka vCard kontaktu"</string>
+    <string name="contact_info_text_as_name">"Názov:"</string>
+    <string name="contact_info_text_as_phone">"Tel:"</string>
+    <string name="contact_info_text_as_email">"Email:"</string>
+    <!--  Strings used forh MMS push of messages in outbox -->
+    <string name="label_mms_send_outbox_msg">"Prebudenie správou MMS"</string>
+    <string name="desc_mms_send_outbox_msg">"Odošle všetky správy MMS z pošty na odoslanie do siete"</string>
+    <string name="pref_wap_push_title">"Nastavenie správ automatickej služby push"</string>
+    <string name="pref_title_wap_push_enabled">"Zapnúť službu WAP PUSH"</string>
+    <string name="pref_summary_wap_push_enabled">"Zapnúť príjem servisných správ"</string>
+    <!-- Banner in conversation list for making Messaging the default SMS app -->
+    <string name="banner_sms_promo_title_initial">"Aplikácia SMS a MMS nie je vašou aplikáciou pre správy SMS"</string>
+    <string name="banner_sms_promo_title_application">"<xliff:g id="APPNAME">%s</xliff:g> je vaša aplikácia SMS"</string>
+    <!-- select contact group -->
+    <string name="no_contact_group">"Žiadna skupina"</string>
+    <string name="banner_sms_promo_message">"Zmeniť to môžete v Nastaveniach"</string>
+    <!-- title of mailboxmessagecontent -->
+    <string name="sim_card">"Karta SIM"</string>
+    <!-- String used in MemoryStatusActivity.java -->
+    <string name="memory_status_title">"Stav pamäte"</string>
+    <string name="sms_phone_used">"Použité SMS:"</string>
+    <string name="sms_phone_capacity">"Kapacita SMS:"</string>
+    <string name="mms_phone_used">"Využité MMS:"</string>
+    <string name="mms_phone_capacity">"Kapacita MMS:"</string>
+    <string name="sub">"SUB"</string>
+    <!-- Settings item description for SMS Validity period -->
+    <string name="pref_title_sms_validity_period">"Čas platnosti správ SMS"</string>
+    <string name="pref_title_sms_validity_period_slot1">"Čas platnosti správ SMS pre kartu SIM1"</string>
+    <string name="pref_title_sms_validity_period_slot2">"Čas platnosti správ SMS pre kartu SIM2"</string>
+    <string name="sms_validity_period_not_set">"Nenastavené"</string>
+    <string name="sms_validity_period_one_hour">"1 hodina"</string>
+    <string name="sms_validity_period_six_hours">"6 hodín"</string>
+    <string name="sms_validity_period_twelve_hours">"12 hodín"</string>
+    <string name="sms_validity_period_one_day">"1 deň"</string>
+    <string name="sms_validity_period_maximum">"Maximum"</string>
+    <string name="operate_success">"Operácia prebehla úspešne!"</string>
+    <string name="operate_failure">"Operácia bola neúspešná!"</string>
+    <string name="menu_reply">"Odpovedať"</string>
+    <string name="slot1">"Slot1"</string>
+    <string name="slot2">"Slot2"</string>
+    <string name="normal_show">"Zobraziť normálny režim"</string>
+    <string name="cannot_play">"Nemožno zobraziť prezentáciu."</string>
+    <string name="confirm_delete_selected_messages">"Vybrané správy sa odstránia."</string>
+    <!-- menu item of mailboxmessagecontent -->
+    <string name="menu_load_push">"Načítať"</string>
+    <string name="menu_delete_msg">"Odstrániť"</string>
+    <!-- toast for send result -->
+    <string name="send_failure">"Odosielanie zlyhalo!"</string>
+    <string name="send_success">"Odosielanie úspešné!"</string>
+    <!-- title of mailboxmessagecontent -->
+    <string name="message_detail">"Podrobnosti správy"</string>
+    <string name="select_messages">"Vyberte správy"</string>
+    <string name="no_message">"Žiadne správy"</string>
+    <string name="change_to_folder_mode">"Zmeniť na režim priečinkov"</string>
+    <string name="change_to_conversation_mode">"Zmeniť na konverzačný režim"</string>
+    <!-- Spinner item of box type in mailbox-mode -->
+    <string name="box_type_select">"Zvoľte typ poľa"</string>
+    <string name="type_inbox">"Doručená pošta"</string>
+    <string name="type_sent">"Odoslané"</string>
+    <string name="type_outbox">"Pošta na odoslanie"</string>
+    <string name="type_draft">"Koncepty"</string>
+    <!-- Spinner item of slot type in mailbox-mode -->
+    <string name="slot_type_select">"Zvoľte slot"</string>
+    <string name="type_all">"Všetko"</string>
+    <string name="type_slot1">"Karta1"</string>
+    <string name="type_slot2">"Karta2"</string>
+    <!-- String used in SearchActivityExtend.java -->
+    <string name="search_title">"Vyhľadávanie v správach"</string>
+    <string name="search_key">"Vyhľadávanie kľúčových slov"</string>
+    <string name="search_mode">"Režim vyhľadávania"</string>
+    <string name="search_as_name">"Meno"</string>
+    <string name="search_as_number">"Číslo"</string>
+    <string name="search_as_content">"Obsah"</string>
+    <string name="search_as_subject">"Predmet"</string>
+    <string name="invalid_name_toast">"Zadajte platný názov!"</string>
+    <string name="sim_capacity_title">"Kapacita správ SIM"</string>
+    <string name="sim_capacity_used">"Použité:  "</string>
+    <string name="sim_capacity">"Kapacita:  "</string>
+    <string name="mms_recipient_Limit"></string>
+    <string name="no_network_alert_when_send_message">"Pripojte sa k sieti Wi-Fi na účely posielania správ."</string>
+    <!-- Settings item description for Mms Validity period -->
+    <string name="pref_title_mms_save_time">"Čas platnosti správ MMS"</string>
+    <string name="pref_title_mms_save_time_slot1">"Čas platnosti správ MMS pre kartu SIM1"</string>
+    <string name="pref_title_mms_save_time_slot2">"Čas platnosti správ MMS pre kartu SIM2"</string>
+    <string name="mms_one_week">"Týždeň"</string>
+    <string name="mms_two_days">"Dva dni"</string>
+    <string name="mms_max">"Maximum"</string>
+    <string name="save_description">"Čas uloženia správ na serveri"</string>
+    <string name="status_expired">"Správa MMS exspirovala"</string>
+    <string name="pref_sim_card_full_save_to_phone">"Karta SIM je plná, nová správa sa uloží do telefónu."</string>
+    <!-- batch delete message in ConversationList and MailBoxMessageList -->
+    <string name="selected_all">"Vybrať všetky"</string>
+    <string name="deselected_all">"Zrušiť výber všetkého"</string>
+    <string name="selected_count">"Vybraté: <xliff:g id="COUNT">%d</xliff:g>"</string>
+    <!--add for toast when deleting -->
+    <string name="deleting_title">"Odstraňuje sa"</string>
+    <string name="please_wait">"Čakajte..."</string>
+    <string name="done_delete">"HOTOVO"</string>
+    <!--add for toast when merging sms -->
+    <string name="merging_sms_title">"Zlučuje sa správa SMS"</string>
+    <string name="cdma_priority_normal">"Normálna"</string>
+    <string name="cdma_priority_interactive">"Interaktívny"</string>
+    <string name="cdma_priority_urgent">"Naliehavé"</string>
+    <string name="cdma_priority_emergency">"Stav núdze"</string>
+    <string name="pref_title_cdma_priority">"Priorita správy"</string>
+    <string name="pref_summary_cdma_priority">"Priorita správy CDMA"</string>
+    <string name="prefDialogTitle_cdma_priority">"Priorita"</string>
+    <string name="download_dialog_title">"Potvrdiť stiahnutie tejto správy MMS?"</string>
+    <string name="menu_email">"Poslať e-mail"</string>
+    <!-- Settings item description for Preferred storage -->
+    <string name="pref_title_sms_store">"Preferované úložisko"</string>
+    <string name="pref_title_sms_store_card1">"Preferované úložisko pre kartu SIM1"</string>
+    <string name="pref_title_sms_store_card2">"Preferované úložisko pre kartu SIM2"</string>
+    <string name="pref_sms_store_phone">"Telefón"</string>
+    <string name="pref_sms_store_card">"Karta SIM"</string>
+    <add-resource type="string" name="pref_sms_store_sim1"/>
+    <string name="pref_sms_store_sim1">SIM1</string>
+    <add-resource type="string" name="pref_sms_store_sim2"/>
+    <string name="pref_sms_store_sim2">SIM2</string>
+    <string name="pref_sms_store_card_unknown_fail">"Nepodarilo sa prijať nové správy, kartu SIM nemožno správne čítať"</string>
+    <string name="mms_size_indicator">"<xliff:g id="mms_size">%1$s</xliff:g>K/<xliff:g id="all_size">%2$s</xliff:g>K"</string>
+    <string name="forward_size_over">"Zakázať presmerovanie, veľkosť novej správy je viac než 300k."</string>
+    <string name="pref_title_notification_creation_mode">"Režim vytvárania"</string>
+    <string name="pref_dialog_title_creation_mode">"Zvoľte režim vytvárania"</string>
+    <string name="pref_summary_creation_mode">"Režim vytvárania správ MMS na písanie správ"</string>
+    <string name="restricted_format">"Obmedzený formát"</string>
+    <string name="attach_anyway">"Napriek tomu pripojiť?"</string>
+    <string name="plugger">"Zástrčka"</string>
+    <string name="file_not_found">"Súbor nenájdený"</string>
+    <string name="type_attachment">"príloha"</string>
+    <string name="bad_file">"Súbor je poškodený a nemožno ho vložiť!"</string>
+    <string name="indication_send_message_successfully">"Správa bola odoslaná."</string>
+    <string name="indication_send_message_failed">"Nepodarilo sa odoslať správu."</string>
+    <!-- ConfigurationClient -->
+    <string name="omacp_configuration">"Konfigurácia OMACP"</string>
+    <string name="configuration_message_key">"Konfiguračná správa"</string>
+    <string name="configuration_message_key_activity">"Dotykom nakonfigurujete správy OMACP"</string>
+    <!-- General settings -->
+    <string name="pref_title_general_settings">"Všeobecné"</string>
+    <string name="pref_title_notification_settings">"Upozornenia"</string>
+    <!-- Cell broadcast settings -->
+    <string name="cell_broadcast">"Mobilné vysielanie"</string>
+    <string name="cell_broadcast_title">"Nastavenia mobilného vysielania"</string>
+    <string name="cell_broadcast_settings">"Nastavenia mobilného vysielania karty SIM"</string>
+    <!-- Chat wallpaper -->
+    <string name="pref_chat_wallpaper">"Tapeta rozhovoru"</string>
+    <string name="dialog_wallpaper_chooser_option_gallery">"Galéria"</string>
+    <string name="dialog_wallpaper_chooser_option_camera">"Odfotiť"</string>
+    <string name="dialog_wallpaper_title">"Zvoľte tapetu"</string>
+    <string name="intent_chooser_dialog_title">"Dokončiť akciu pomocou aplikácie"</string>
+    <string name="gallery_packagename">"com.android.gallery3d"</string>
+    <string name="camera_packagename">"com.android.camera2"</string>
+    <string name="pref_title_size_limit">"Limit veľkosti"</string>
+    <!-- Font settings -->
+    <string name="pref_title_message_font_size">"Veľkosť písma správy"</string>
+    <string name="message_font_size_dialog_title">"Veľkosť písma správy"</string>
+    <string name="font_follow_system_font">"Podľa systémového písma"</string>
+    <string name="font_small">"Malé"</string>
+    <string name="font_medium">"Stredné"</string>
+    <string name="font_large">"Veľké"</string>
+    <string name="font_extra_large">"Veľmi veľké"</string>
+    <string name="plugger_priority">999</string>
+    <string name="default_sms_validity_period">-1</string>
+    <string name="default_mms_validity_period">0</string>
+    <string name="menu_more">"Viac"</string>
+    <string name="letter_tile_letter_font_family">"sans-serif-light"</string>
+    <string name="contact_list_send_to_text">"Odoslať na číslo <xliff:g id="DESTINATION">%s</xliff:g>"</string>
+    <!-- Time and date a message was received -->
+    <add-resource type="string" name="received_on"/>
+    <string name="received_on">"Prijaté: <xliff:g id="date">%s</xliff:g>"</string></resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">EmbmsTestApp</string>
+    <string name="embms_test_app">"កម្មវិធីសាកល្បង eMBMS"</string>
+    <string name="bind_service">"ចងសេវា"</string>
+    <string name="unbind_service">"ស្រាយសេវា"</string>
+    <string name="kill_process">"បញ្ចប់ដំណើរការ"</string>
+    <string name="register">"ចុះឈ្មោះការហៅត្រឡប់មកវិញ"</string>
+    <string name="deregister">"លុបឈ្មោះការហៅត្រឡប់មកវិញ"</string>
+    <string name="enable">"កំពុងបើក eMBMS"</string>
+    <string name="disable">"កំពុងបិទ eMBMS"</string>
+    <string name="activate">"កំពុងដាក់ដំណើរការ TMGI"</string>
+    <string name="deactivate">"កំពុងបិទដំណើរការ TMGI"</string>
+    <string name="enter_Tmgi">"វាយបញ្ចូល TMGI ជាទសភាគ"</string>
+    <string name="get_active">"ទទួលយកបញ្ជី Act"</string>
+    <string name="get_available">"ទទួលយកបញ្ជី Avl"</string>
+    <string name="get_coverage">"ទទួលយកស្ថានភាព Cov"</string>
+    <string name="get_log_packet_id">"ទទួលយក IDs កញ្ចប់​កំណត់ហេតុ"</string>
+    <string name="deliver_log_packet">"កញ្ចប់កំណត់ហេតុ Dlver"</string>
+    <string name="get_e911_state">"ទទួលយកស្ថានភាព E911"</string></resources>

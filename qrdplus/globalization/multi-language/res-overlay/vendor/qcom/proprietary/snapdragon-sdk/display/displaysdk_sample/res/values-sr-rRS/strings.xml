@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Узорак SDK приказа"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"Функције приказа"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"Баланс боја"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"Управљач режимима"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"Нови режим"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"Избриши режим"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"Измени режим"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"Откажи"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"Функције приказа"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"Активирај режим"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"Унесите назив режима"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"Сачувај режим"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"Изабери фотографију"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"Доступан тип приказа није подржан. Уверите се да је позвана функција connect()"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"Функција Баланс боја није подржана"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"Функција Адаптивно позадинско осветљење није подржана"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"Функција Меморије за боје листова није подржана"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"Функција Меморије за боје коже није подржана"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"Функција Меморије за боје неба није подржана"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"Функција Подешавање слике није подржана"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"Функција Видљивост на сунцу није подржана"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"Прављење новог режима није успело"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"Измена режима није успела"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"Додај слику из галерије"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"У реду"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"Да"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"He"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"На вађем уређају нема доступних режима приказа"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"FEATURE_COLOR_MODE_SELECTION није подржан"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"FEATURE_COLOR_MODE_MANAGEMENT није подржан"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"Неопходна функција приказа није доступна"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"Брисање режима приказа није успело"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"Активирање режима приказа није успело"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"Није успело подешавање режима приказа као подразумеваног"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"Најпре изаберите режим"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"Унесите назив режима"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"Направљен нови режим"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"Постави као подразумевано"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"Изабрани режим је Систем и он се не може мењати. Желите ли да направите нови режим на основу изабраног режима?"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"Изабрани режим је Систем и он се не може брисати"</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"Није могуће повезати се са неопходном услугом приказа"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" Режим је активиран"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" Режим је избрисан"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"Баланс боја"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"Видљивост на сунцу"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"Подешавање слике"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"Меморија за боје листова"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"Нијанса"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"Засићеност"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"Интензитет"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"Меморија за боје коже"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"Меморија за боје неба"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" Адаптивно позадинско осветљење"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"Омогући SVI"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"Омогући Меморију за боје листова"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"Омогући Меморију за боје коже"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"Омогући Меморију за боје неба"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"Омогући подешавање слике"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"Омогући адаптивно позадинско осветљење"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"Омогући смањење засићености за подешавање слике"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"Праг засићености"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"Нијанса"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"Засићеност"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"Интензитет"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"Контраст"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"Висок"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"Средњи"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"Низак"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"Аутоматски"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"Освежи"</string></resources>

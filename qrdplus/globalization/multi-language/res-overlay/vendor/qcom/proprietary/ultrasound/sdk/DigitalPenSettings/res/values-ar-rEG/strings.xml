@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"إعدادات SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"إعدادات قلم Snapdragon الرقمي"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"معطّل"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"تكرار"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"وضع خارج الشاشة لتطبيق قديم:"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"مسافة داخل النطاق (مم):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"وضع الطاقة:"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"تحسين الدقة"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"تحسين الطاقة"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"نوع الإدخال:"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"حساسية الماوس:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"بطيء"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"متوسطة"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"سريع"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"قلم ذو رأس رفيع"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"ف"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"ذراع اللعب"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"إيقاف تشغيل القلم الرقمي"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"تشغيل القلم الرقمي"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"الحامل Smarter Stand"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"تمرير فوق الشاشة"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"تمرير خارج الشاشة"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"أقصى مسافة:"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"إظهار رمز التمرير"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"رز الممحاة"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"فهرس الزر:"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"أسلوب الممحاة:"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"ضغط مع الاستمرار للمسح"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"انقر للتبديل"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"موقع خارج الشاشة في وضع عمودي:"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"الجانب الأيسر"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"الجانب الأيمن"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"إيقاف تشغيل القلم على الشاشة"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"بدء تشغيل القلم عند التشغيل"</string></resources>

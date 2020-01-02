@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Caption shown below the viewfinder rectangle, explaining how to scan a QR code [CHAR LIMIT=NONE] -->
+    <string name="msg_default_status">"এটি স্ক্যান করতে ভিউফাইন্ডার আয়তক্ষেত্রের মধ্যে একটি QR কোড স্থাপন করুন।"</string>
+    <!-- Error message displayed when starting up the phone/tablet's camera to scan a QR code has failed [CHAR LIMIT=NONE] -->
+    <string name="msg_camera_framework_bug">"দুঃখিত, Android একটি সমস্যার সম্মুখীন হয়েছে। আপনার ডিভাইসটি পুনরায় সূচনা করার প্রয়োজন হতে পারে।"</string></resources>

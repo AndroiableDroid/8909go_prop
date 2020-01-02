@@ -1,0 +1,23 @@
+
+cc_library_shared {
+    name: "vendor.qti.hardware.iop@1.0-impl",
+    relative_install_path: "hw",
+    proprietary: true,
+
+    srcs: [
+        "Iop.cpp",
+    ],
+
+    shared_libs: [
+        "libhidlbase",
+        "libhidltransport",
+        "libutils",
+        "vendor.qti.hardware.iop@1.0",
+        "android.hidl.base@1.0",
+        "liblog",
+        "libcutils",
+        "libhwbinder",
+    ],
+
+    include_dirs: ["vendor/qcom/proprietary/android-perf/io-p"],
+}

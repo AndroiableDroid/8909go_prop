@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+  ~ Copyright (c) 2015, The Linux Foundation. All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are
+  ~ met:
+  ~      Redistributions of source code must retain the above copyright
+  ~       notice, this list of conditions and the following disclaimer.
+  ~      Redistributions in binary form must reproduce the above
+  ~       copyright notice, this list of conditions and the following
+  ~       disclaimer in the documentation and/or other materials provided
+  ~       with the distribution.
+  ~      Neither the name of The Linux Foundation nor the names of its
+  ~       contributors may be used to endorse or promote products derived
+  ~       from this software without specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+  ~ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  ~ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+  ~ ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+  ~ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  ~ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  ~ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+  ~ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+  ~ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  ~ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  ~
+  -->
+<!-- The xml contains Qti specific resource strings neede for any value added features. -->
+<resources>
+    <!-- Call substate label -->
+    <string name="call_substate_label">" ហៅអនុរដ្ឋ - \u000a"</string>
+    <!-- Call substate label for call resumed -->
+    <string name="call_substate_call_resumed">"បានធ្វើបន្ត\u000a"</string>
+    <!-- Call substate label for call connected suspended (audio) -->
+    <string name="call_substate_connected_suspended_audio">"បានភ្ជាប់ (អូឌីយូ) ដែលបានផ្អាក\u000a"</string>
+    <!-- Call substate label for call connected suspended (video) -->
+    <string name="call_substate_connected_suspended_video">"បានភ្ជាប់ (វីដេអូ) ដែលបានផ្អាក\u000a"</string>
+    <!-- Call substate label for avp retry -->
+    <string name="call_substate_avp_retry">"ព្យាយាមម្តងទៀត Avp\u000a"</string>
+    <!-- Video quality changed message -->
+    <string name="video_quality_changed">" គុណភាពវីដេអូបានប្តូរទៅ\u0020"</string>
+    <!-- Video quality High -->
+    <string name="video_quality_high">"ខ្ពស់"</string>
+    <!-- Video quality Medium -->
+    <string name="video_quality_medium">"មធ្យម"</string>
+    <!-- Video quality Low -->
+    <string name="video_quality_low">"ទាប"</string>
+    <!-- Video quality Unknown -->
+    <string name="video_quality_unknown">"មិន​ស្គាល់"</string>
+    <!-- Message indicating that Video Started flowing for IMS-VT calls -->
+    <string name="player_started">"កម្មវិធីចាក់បានចាប់ផ្តើម"</string>
+    <!-- Message indicating that Video Stopped flowing for IMS-VT calls -->
+    <string name="player_stopped">"កម្មវិធីចាក់បានឈប់"</string>
+    <!-- Message indicating that camera failure has occurred for the selected camera and
+         as result camera is not ready -->
+    <string name="camera_not_ready">"ម៉ាស៊ីនថតមិនទាន់រួចរាល់"</string>
+    <!-- Message indicating that camera is ready/available -->
+    <string name="camera_ready">"ម៉ាស៊ីនថតរួចរាល់"</string>
+    <!-- Message indicating unknown call session event -->
+    <string name="unknown_call_session_event">"ព្រឹត្តិការណ៍កាលសម័យការហៅមិនបានស្គាល់"</string>
+    <!-- Message indicating data usage -->
+    <string name="data_usage_label">"ការប្រើប្រាស់ទិន្នន័យ៖ "</string>
+    <!-- Modify call error cause -->
+    <string name="modify_call_failed_due_to_low_battery">"កែប្រែការហៅដែលបរាជ័យដោយសារតែថ្មខ្សោយ។"</string>
+    <!-- Message indicating video calls not allowed if user enabled TTY Mode -->
+    <string name="video_call_not_allowed_if_tty_enabled">"សូមបិទម៉ូដ TTY ដើម្បីដំឡើងជំនាន់ទៅការហៅវីដេអូ។"</string>
+    <!-- Text for the onscreen "Add Participant" button -->
+    <string name="onscreenAddParticipant">"បន្ថែមអ្នកចូលរួម"</string>
+    <!-- Description of the deflect target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="qti_description_target_deflect">"បំបែរ៖"</string>
+    <string name="qti_description_deflect_error">"លេខដែលមិនបានកំណត់៖ ផ្តល់នូវលេខតាមការកំណត់ IMS ហើយព្យាយាមម្តងទៀត។"</string>
+    <string name="qti_description_deflect_service_error">"សេវាបំបែរការហៅមិនត្រូវបានគាំទ្រ។"</string>
+    <!-- Message indicating call failed due to handover not feasible -->
+    <string name="call_failed_ho_not_feasible">"ការហៅត្រូវបានបញ្ចប់ជា LTE ទៅ 3G/2G ដែលការផ្ទេរមិនអាចធ្វើទៅបាន។"</string>
+    <!-- Title of the IMS to CS redial dialog -->
+    <string name="cs_redial_option">"ជម្រើស​ហៅ​ឡើងវិញ"</string>
+    <!-- Message text of the IMS to CS redial dialog -->
+    <string name="cs_redial_msg">"មិន​អាច​ហៅ​ជា​វីដេអូ IMS សាកល្បង​​ហៅ​ជា​សំឡេង​មិនមែន​ IMS ?"</string>
+    <!-- Yes option of the IMS to CS redial dialog -->
+    <string name="cs_redial_yes">"បាទ/ចាស"</string>
+    <!-- No option of the IMS to CS redial dialog -->
+    <string name="cs_redial_no">"ទេ"</string>
+    <!-- Session modify cause unspecified -->
+    <string name="session_modify_cause_unspecified"></string>
+    <!-- Session modify cause code upgrade local request -->
+    <string name="session_modify_cause_upgrade_local_request">"បាន​ដំឡើង​​ការ​ហៅ​តាម​សំណើ​អ្នក​ប្រើ"</string>
+    <!-- Session modify cause code upgrade remote request -->
+    <string name="session_modify_cause_upgrade_remote_request">"បាន​ដំឡើង​​ការ​ហៅ​តាម​សំណើ​អ្នកប្រើ​ពី​ចម្ងាយ"</string>
+    <!-- Session modify cause code downgrade local request -->
+    <string name="session_modify_cause_downgrade_local_request">"បាន​បន្ទាប​ការ​ហៅ​តាម​សំណើ​អ្នកប្រើ"</string>
+    <!-- Session modify cause code downgrade remote request -->
+    <string name="session_modify_cause_downgrade_remote_request">"បាន​បន្ទាប​ការ​ហៅ​តាម​សំណើ​អ្នកប្រើ​ពី​ចម្ងាយ"</string>
+    <!-- Session modify cause code downgrade rtp timeout -->
+    <string name="session_modify_cause_downgrade_rtp_timeout">"បាន​បន្ទាប​ការ​ហៅ​ដោយ​សារ​តែ​អស់​ពេល RTP"</string>
+    <!-- Session modify cause code downgrade qos -->
+    <string name="session_modify_cause_downgrade_qos">"បាន​បន្ទាប​ការ​ហៅ​ដោយ​សារ​តែ​គុណភាព​សេវាកម្ម"</string>
+    <!-- Session modify cause code downgrade packet loss -->
+    <string name="session_modify_cause_downgrade_packet_loss">"បាន​បន្ទាប​ការ​ហៅ​ដោយ​សារ​តែ​បាត់​កញ្ចប់​ព័ត៌មាន"</string>
+    <!-- Session modify cause code downgrade low thrput -->
+    <string name="session_modify_cause_downgrade_low_thrput">"បាន​បន្ទាប​ការ​ហៅ​ដោយ​សារ​តែ​ចំនួន​ឆ្លង​កាត់​ប្រព័ន្ធ​ទាប"</string>
+    <!-- Session modify cause code downgrade thermal mitigation -->
+    <string name="session_modify_cause_downgrade_thermal_mitigation">"បាន​បន្ទាប​ការហៅ​ដោយ​សារ​តែ​​ការ​បន្ថយ​កម្ដៅ"</string>
+    <!-- Session modify cause code downgrade lipsync -->
+    <string name="session_modify_cause_downgrade_lipsync">"បាន​បន្ទាប​ការ​ហៅ​ដោយ​សារ​តែ​ lipsync"</string>
+    <!-- Session modify cause code downgrade generic error -->
+    <string name="session_modify_cause_downgrade_generic_error">"បាន​បន្ទាប​ការ​ហៅ​ដោយ​សារ​តែ​កំហុស​ទូទៅ"</string>
+    <!-- Title for low battery alert dialogue -->
+    <string name="low_battery">"ថ្មខ្សោយ"</string>
+    <!-- Yes option of the low battery alert dialog -->
+    <string name="low_battery_yes">"បាទ/ចាស"</string>
+    <!-- No option of the low battery alert dialog -->
+    <string name="low_battery_no">"ទេ"</string>
+    <!-- Message text of the low battery alert dialog in cases when video call can be downgraded to voice call -->
+    <string name="low_battery_downgrade_to_voice_msg">"តើអ្នកចង់បម្លែងការហៅវីដេអូទៅជាការហៅសំឡេង?"</string>
+    <!-- Message text of the low battery alert dialog in cases video call doesn't have downgrade capabilities -->
+    <string name="low_battery_hangup_msg">"តើអ្នកចង់ដាក់ទូរស័ព្ទចុះ?"</string>
+    <!-- Description of the call transfer related strings [CHAR LIMIT=NONE] -->
+    <string name="qti_ims_transfer_num_error">"លេខដែលមិនបានកំណត់៖ ផ្តល់នូវលេខតាមការកំណត់ IMS ហើយព្យាយាមម្តងទៀត។"</string>
+    <string name="qti_ims_transfer_request_error">"ការស្នើសុំផ្ទេរការហៅបានបរាជ័យ។"</string>
+    <string name="qti_ims_transfer_request_success">"ការស្នើសុំផ្ទេរការហៅទទួលជោគជ័យ។"</string>
+    <!-- Text for the onscreen "blind transfer" button -->
+    <string name="qti_ims_onscreenBlindTransfer">"ការផ្ទេរសម្ងាត់"</string>
+    <!-- Text for the onscreen "assured transfer" button -->
+    <string name="qti_ims_onscreenAssuredTransfer">"ការផ្ទេរដែលបានធានា"</string>
+    <!-- Text for the onscreen "consultative transfer" button -->
+    <string name="qti_ims_onscreenConsultativeTransfer">"ការផ្ទេរដែលផ្តល់យោបល់"</string>
+    <!-- Text for operator specific emergency number -->
+    <add-resource type="string" name="emergency_call_dialog_number_for_display_operator"/>
+    <string name="emergency_call_dialog_number_for_display_operator">"បន្ទាន់"</string></resources>

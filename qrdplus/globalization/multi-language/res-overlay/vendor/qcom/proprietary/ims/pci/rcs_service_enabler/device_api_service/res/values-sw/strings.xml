@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"huduma_ya_rcs imeondolewa, tafadhali isakinishe upya!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"Sasisha data ya maandishi ya wasifu"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"Sasisha data ya picha ya wasifu"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Futa jumbe zote"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Weka gumzo mpya ya kikundi ya mwenyekiti"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Badilisha mada katika gumzo ya kikundi"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Badilisha jina la utani la mwanachama katika gumzo ya kikundi"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Kubali mwaliko wa kujiunga na gumzo ya kikundi"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Ondoka kwenye gumzo ya kikundi"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Ondoa washiriki kwenye gumzo ya kikundi"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"Ondoa gumzo ya kikundi"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Makinika kuhusu akaunti ya umma"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Usimakinike kuhusu akaunti ya umma"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"Piga ripoti kuhusu akaunti ya umma"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"ruhusa nyeti ya api"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"programu %1$d imeruhusiwa (zimeruhusiwa) (jumla %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"Usiulize tena"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"Sawa"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Ghairi"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Mchakato huu umeundiwa %1$s,  Kukataza ruhusa kunaweza kuifanya isitende kazi kama ilivyokusudiwa."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"Ruhusa ya %1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"Unahitaji kuruhusu %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"Unahitaji kuruhusu kadiyasd."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"Unahitaji kuruhusu waasiliani."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"Unahitaji kuruhusu sms."</string></resources>

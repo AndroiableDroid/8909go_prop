@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service ຖືກ​ເອົາ​ອອກ, ກະລຸນາ​ຕິດ​ຕັ້ງ​ມັນ​ໃໝ່!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"​ອັບ​ເດດ​ຂໍ້​ມູນ​ຂໍ້ຄວາມ​ໂປຣ​ໄຟ​ລ໌"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"​ອັບ​ເດດ​ຂໍ້​ມູນ​ຮູບ​ໂປຣ​ໄຟ​ລ໌"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"ລຶບຂໍ້ຄວາມທັງ​ໝົດ"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"​ຕັ້ງ​ປະ​ທານ​ຄົນ​ໃໝ່​ໃນ​ການ​ສົນທະນາ​ກຸ່ມ"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"​ແກ້​ໄຂ​ຫົວ​ຂໍ້​ໃນ​ການ​ສົນທະນາ​ກຸ່ມ"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"​ແ​ກ້​ໄຂ​ຊື່​ຫຼິ້ນຂອງ​ສະມາຊິກ​ໃນ​ການ​ສົນທະນາ​ກຸ່ມ"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"​ຮັບ​ເອົາ​ຄຳ​ເຊີນ​ເພື່ອ​ເຂົ້າ​ຮ່ວມ​ການ​ສົນທະນາ​ກຸ່ມ"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"​ອອກ​ຈາກ​ການ​ສົນທະນາ​ກຸ່ມ"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"​ໄລ່​ຜູ້​ເຂົ້າ​ຮ່ວມ​​ອອກ​ຈາກ​ການ​ສົນທະນາ​ກຸ່ມ"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"​ເລີກ​ການ​ສົນທະນາ​ກຸ່ມ"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"​ເອົາ​ໃຈ​ໃສ່​ຕໍ່​ກັບ​ບັນຊີ​ສາທາລະນະ"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"​ບໍ່​ເອົາ​ໃຈ​ໃສ່​ຕໍ່​ກັບ​ບັນຊີ​ສາທາລະນະ"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"​ລາຍ​ງານ​ບັນຊີ​ສາທາລະນະ"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"ການ​ອະນຸຍາດ api ທີ່​ອ່ອນ​ໄຫວ"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"ອະນຸຍາດ %1$d ​ແອັບ​ແລ້ວ (ທັງ​ໝົດ %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"ຢ່າ​ຖາມ​ອີກ"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"ຕົກລົງ"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"ຍົກເລີກ"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"ການ​ດຳ​ເນີນ​ງານ​ນີ້​ຖືກ​ອອ​ກ​ແບບ​ມາ​ເພື່ອ %1$s, ​​ການ​ປະ​ຕິ​ເສດ​ການ​ອະ​ນຸ​ຍາດ​ອາດ​ເຮັດ​ໃຫ້​​ມັນ​​ໃຊ້​ງານ​ບໍ່​ໄດ້​ຕາມ​ທີ່​ກຳນົດ​ໄວ້​ອີກ​ຕໍ່​ໄປ."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"ການອະນຸຍາດຂອງ%1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"ທ່ານ​ຈຳ​ເປັນ​ຕ້ອງ​ອ​ະນຸຍາດ %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"ທ່ານ​ຈຳ​ເປັນ​ຕ້ອງ​​ໃຫ້ການ​ອະນຸຍາດ​ຕໍ່​ກັບ sdcard."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"ທ່ານ​ຈຳ​ເປັນ​ຕ້ອງ​​ໃຫ້ການ​ອະນຸຍາດ​ຕໍ່​ກັບລາຍ​ຊື່."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"ທ່ານ​ຈຳ​ເປັນ​ຕ້ອງ​​ໃຫ້ການ​ອະນຸຍາດ​ຕໍ່​ກັບຂໍ້ຄວາມ sms."</string></resources>

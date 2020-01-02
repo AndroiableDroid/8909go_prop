@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"카메라"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"기본"</item>
+        <item>"전면"</item>
+        <item>"카메라 3"</item>
+        <item>"카메라 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"사진 크기"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9.7MP, 16:9)"</item>
+        <item>"3840x2160 (8.3MP, 16:9, UHD 4K)"</item>
+        <item>"3200x1800 (5.8MP, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (4.1MP, 16:9)"</item>
+        <item>"2592x1458 (3.8MP, 16:9)"</item>
+        <item>"1920x1080 (2.1MP, 16:9, HD 1080p)"</item>
+        <item>"1280x720 (0.9MP, 16:9, HD 720p)"</item>
+        <item>"864x480 (0.4MP, 16:9)"</item>
+        <item>"4160x3120 (13MP, 4:3)"</item>
+        <item>"4000x3000 (12MP, 4:3)"</item>
+        <item>"3264x2448 (8MP, 4:3)"</item>
+        <item>"3200x2400 (7.7MP, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (5MP, 4:3)"</item>
+        <item>"2048x1536 (3.1MP, 4:3, QXGA)"</item>
+        <item>"1920x1440 (2.8MP, 4:3)"</item>
+        <item>"1600x1200 (1.9MP, 4:3, UXGA)"</item>
+        <item>"1280x960 (1.2MP, 4:3, UVGA)"</item>
+        <item>"1024x768 (0.8MP, 4:3, XGA)"</item>
+        <item>"800x600 (0.5MP, 4:3, SVGA)"</item>
+        <item>"640x480 (0.3MP, 4:3, VGA)"</item>
+        <item>"320x240 (0.1MP, 4:3, QVGA)"</item>
+        <item>"3264x2176 (7.1MP, 3:2)"</item>
+        <item>"2592x1728 (4.5MP, 3:2)"</item>
+        <item>"720x480 (0.3MP, 3:2)"</item>
+        <item>"4160x2774 (11.5MP, 3:2)"</item>
+        <item>"2976x2976 (8.9MP, 1:1)"</item>
+        <item>"1280x768 (1MP, 5:3)"</item>
+        <item>"800x480 (0.4MP, 5:3)"</item>
+        <item>"352x288 (0.1MP, 11:9)"</item>
+        <item>"176x144 (0MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"미리 보기 크기"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"디스플레이 크기 일치"</item>
+        <item>"고해상도 미리 보기(최대 4MP)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"장면 모드"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"자동"</item>
+        <item>"액션 촬영"</item>
+        <item>"바코드"</item>
+        <item>"해변"</item>
+        <item>"촛불"</item>
+        <item>"얼굴"</item>
+        <item>"불꽃놀이"</item>
+        <item>HDR</item>
+        <item>"고속 비디오"</item>
+        <item>"풍경"</item>
+        <item>"야간"</item>
+        <item>"파티"</item>
+        <item>"사용자"</item>
+        <item>"야간 인물"</item>
+        <item>"눈"</item>
+        <item>"스포츠"</item>
+        <item>"안정적 촬영"</item>
+        <item>"일몰"</item>
+        <item>"극장"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"노출 컨트롤"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"자동"</item>
+        <item>"고정"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"노출 보정"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"초점"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"자동"</item>
+        <item>"고정"</item>
+        <item>"연속(사진)"</item>
+        <item>"연속(비디오)"</item>
+        <item>"매크로"</item>
+        <item>"확장된 필드 깊이"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"화이트 밸런스 컨트롤"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"자동"</item>
+        <item>"OFF"</item>
+        <item>"백열성 조명"</item>
+        <item>"형광성 조명"</item>
+        <item>"따뜻한 형광성 조명"</item>
+        <item>"일광"</item>
+        <item>"흐린 날"</item>
+        <item>"음영"</item>
+        <item>"해질녘"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"플래시"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"자동"</item>
+        <item>"ON"</item>
+        <item>"OFF"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"노이즈 감소"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"ON"</item>
+        <item>"OFF"</item>
+        <item>"고화질"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"렌즈 음영 보정"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"ON"</item>
+        <item>"OFF"</item>
+        <item>"고화질"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"수차 보정"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"ON"</item>
+        <item>"OFF"</item>
+        <item>"고화질"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"가장자리 향상"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"ON"</item>
+        <item>"OFF"</item>
+        <item>"고화질"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"핫 픽셀 보정"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"ON"</item>
+        <item>"OFF"</item>
+        <item>"고화질"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"보정 모드"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"OFF"</item>
+        <item>"광학"</item>
+        <item>"디지털"</item>
+    </string-array></resources>

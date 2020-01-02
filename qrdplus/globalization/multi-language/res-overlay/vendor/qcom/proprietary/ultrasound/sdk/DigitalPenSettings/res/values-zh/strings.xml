@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP 设置"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"骁龙数字笔设置"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"关闭"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"重复"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"原始应用关屏模式："</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"范围内距离（毫米）："</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"电源模式："</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"优化精确度"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"优化电源"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"输入类型："</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"鼠标灵敏度："</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"慢"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"中"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"快"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"触针"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"小老鼠"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"操纵杆"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"关闭数字笔"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"开启数字笔"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"智能支架"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"屏幕悬停"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"关屏悬停"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"最大距离："</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"显示悬停图标"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"清除器按钮"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"按钮索引："</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"清除器行为："</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"按住清除"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"点按切换"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"关屏位置（纵向）："</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"左侧"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"右侧"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"关闭屏幕时停止使用笔"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"启动时开始使用笔"</string></resources>

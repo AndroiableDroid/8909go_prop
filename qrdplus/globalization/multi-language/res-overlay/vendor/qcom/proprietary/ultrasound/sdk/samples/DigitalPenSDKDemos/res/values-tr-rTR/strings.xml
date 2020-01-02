@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK Demoları"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Genişletilmiş Ekran Dışı"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Arka Plan Yan Kanalı"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Parmak - İğne + Basınç"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Eksen Yatırma"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Vurgulama ve Yan Düğme"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Silici ve Silici Bypass\'ı"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"Bu demo, ekran dışı özelliğini göstermektedir.\n\n1. Ekran dışında çizin ve çiziminizi sağda görün.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. Sanal ekranın sağ alt köşesinde bir düğme vardır. Dairenin opaklığını değiştirmek için bunun üzerini farklı yüksekliklerde vurgulayın.\n\n3. Dairenin rengini değiştirmek için buna basın."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"Bu demo, arka plan yan kanalının, ekran açık ya da kapalıyken nasıl çalışabileceğini gösterir.\n\n1. Ekran dışında çizin ve çiziminizi görün.\n\n2. Şimdi bir başka uygulamaya geçiş yapın veya ekran dışını ayarlayın; çiziminiz yine de kaydedilir."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Ekran üzerinde vurgulama"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Ekran üzerini farklı yüksekliklerde vurgulayın.\n\n2. Vurgulamayı devre dışı bırakmak için düğmeyi kullanın.\n\n3. Etkinlikleri vurgulamak için maksimum mesafeyi ayarlamak üzere kaydırıcıyı kullanın.\n\n4. Yan düğmelere basmak, vurgulama dairesinin rengini değiştirecektir."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. Global ayarlarda silici düğmesi olacak şekilde lütfen SDP düğmesini yapılandırın.\n\n2. Çiz.\n\n3. Siliciyi, açmak/kapatmak için Dokun özelliği olarak ayarlayın. Silici düğmesine basın. Sil. Sil düğmesine tekrar basmak, kalem moduna geçiş yapar.\n\n4. Siliciyi silmek için Basılı Tut özelliği olarak ayarlayın. Artık tek bir dokunuşla silebilirsiniz.\n\n5. Şimdi silici işlevselliğini devre dışı bırakmak için silici bypass\'ı düğmesini kullanın."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Silici bypass\'ı"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Ekran Yüzeyini Sil"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Kalemle ve ardından parmağınızla çizin.\nİki yöntem farklı renkle tanımlanır.\nVarış genişliği basınçla ayarlanır, ayrıca bu sayısal olarak da görünürdür."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Basınç"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

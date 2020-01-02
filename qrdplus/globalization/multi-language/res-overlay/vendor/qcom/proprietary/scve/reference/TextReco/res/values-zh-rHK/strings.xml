@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"STA"</string>
+    <string name="title_settings_activity">"設定"</string>
+    <string name="title_contact_activity">"新增聯絡人"</string>
+    <string name="title_event_activity">"新增活動"</string>
+    <string name="title_add_field">"選取標籤"</string>
+    <string name="title_text_activity">"結果"</string>
+    <string name="title_pick_datetime">"選擇日期時間"</string>
+    <string name="title_app_message">"短訊"</string>
+    <string name="menu_item_copy">"複製"</string>
+    <string name="menu_item_edit">"編輯"</string>
+    <string name="date_picker_ok">"確定"</string>
+    <string name="date_picker_cancel">"取消"</string>
+    <string name="dropdown_none_option">"無"</string>
+    <string name="scan_more">"尋找更多"</string>
+    <string name="bar_save_option">"儲存"</string>
+    <string name="bar_done_option">"完成"</string>
+    <string name="camera_option_open_image">"開啟影像"</string>
+    <string name="camera_option_settings">"設定"</string>
+    <string name="text_action_search">"搜尋"</string>
+    <string name="text_action_translate">"翻譯"</string>
+    <string name="text_action_copy">"複製"</string>
+    <string name="translate_url">"https://translate.google.com/m/translate#auto/"</string>
+    <string name="instruction_camera">"使用您的相機從名片、傳單及其他影像擷取有用的資訊"</string>
+    <string name="instruction_dont_show">"不要再顯示"</string>
+    <string name="instruction_dismiss_button">"確定"</string>
+    <string name="message_no_more_fields">"沒有要新增的欄位"</string>
+    <string name="message_contact_saved">"聯絡人儲存成功。"</string>
+    <string name="message_calendar_saved">"行事曆活動儲存成功。"</string>
+    <string name="message_text_copied">"文字已複製。"</string>
+    <string name="message_no_matching_app">"沒有要處理的應用程式。"</string>
+    <string name="message_gallery_pan_zoom">"您可以平移或縮放以便辨認此相片中的圖案。"</string>
+    <string name="message_restart_scanning">"請輕觸以重新啟動。"</string>
+    <string name="message_no_dates">"未辨認出日期"</string>
+    <string name="message_hold_steady">"請指向文字並保持平穩"</string>
+    <!-- Error information -->
+    <string name="error_prefix">" 錯誤:0x"</string>
+    <string name="error_title">"錯誤"</string>
+    <string name="error_dismiss_button">"確定"</string>
+    <string name="error_camera_failed">"相機無法初始化。"</string>
+    <string name="error_camera_snapshot_failed">"相機無法擷取快拍。"</string>
+    <string name="error_galleryImage_load">"應用程式無法載入影像。"</string>
+    <string name="error_api_frame_timeout">"未辨認出文字。"</string>
+    <string name="error_api_init_failed">"STA API 無法初始化。"</string>
+    <string name="error_api_parsing_failed">"STA API 無法剖析影像，請再試一次。"</string>
+    <string name="error_api_no_records">"未辨認出文字。"</string>
+    <string name="error_api_restart_failed">"重新啟動 API 失敗。"</string>
+    <string name="error_api_no_new_records">"找不到新資訊。"</string>
+    <string name="error_min_max_limit">"請輸入一個介於 %1$s 和 %2$s 之間的值"</string>
+    <string name="error_no_sta_data_selected">"請至少選取一個。"</string>
+    <!-- Contact information -->
+    <string name="contact_name_field_caption">"名稱"</string>
+    <string name="contact_nickname_field_caption">"暱稱"</string>
+    <string name="contact_nickname_field_name">"暱稱"</string>
+    <string name="contact_title_field_caption">"標題"</string>
+    <string name="contact_company_field_caption">"公司"</string>
+    <string name="contact_phone_work_field_caption">"手機"</string>
+    <string name="contact_phone_work_field_name">"電話 (工作)"</string>
+    <string name="contact_phone_mobile_field_caption">"手機"</string>
+    <string name="contact_phone_mobile_field_name">"電話 (手機)"</string>
+    <string name="contact_phone_home_field_caption">"手機"</string>
+    <string name="contact_phone_home_field_name">"電話 (住宅)"</string>
+    <string name="contact_phone_fax_field_caption">"手機"</string>
+    <string name="contact_phone_fax_field_name">"電話 (傳真)"</string>
+    <string name="contact_address_field_caption">"地址"</string>
+    <string name="contact_address_field_name">"地址"</string>
+    <string name="contact_email_field_caption">"電郵"</string>
+    <string name="contact_email_field_name">"電郵"</string>
+    <string name="contact_website_field_caption">"網站"</string>
+    <string name="contact_website_field_name">"網站"</string>
+    <string name="contact_im_field_caption">"即時通訊"</string>
+    <string name="contact_relationship_field_caption">"關係"</string>
+    <string name="contact_relationship_field_name">"關係"</string>
+    <string name="contact_notes_field_caption">"附註"</string>
+    <string name="contact_notes_field_name">"附註"</string>
+    <!-- Event information -->
+    <string name="event_title_field_caption">"標題"</string>
+    <string name="event_from_date_field_caption">"發件人"</string>
+    <string name="event_to_date_field_caption">"收件人"</string>
+    <string name="event_location_field_caption">"位置"</string>
+    <string name="event_location_field_name">"位置"</string>
+    <string name="event_all_day_field_caption">"全天"</string>
+    <string name="event_repeat_field_caption">"重複"</string>
+    <string name="event_details_field_caption">"詳細資料"</string>
+    <string name="event_details_field_name">"詳情"</string>
+    <string name="event_participants_field_caption">"成員"</string>
+    <string name="event_participants_field_name">"成員"</string>
+    <string name="event_date_time_format_long">"EEE yyyy/m/d 上午 h:mm"</string>
+    <string name="event_date_time_format_small">"yyyy/m/d 上午 h:mm"</string>
+    <string name="event_date_format_long">"EEE yyyy/m/d"</string>
+    <string name="event_date_format_small">"yyyy mmm d"</string>
+    <string name="event_date_format_month_small">"MMM"</string>
+    <string name="event_date_format_month_full">"MMMM"</string>
+    <string name="event_date_format_year">"yyyy"</string>
+    <string name="event_date_format_weekday">"EEE"</string>
+    <string name="event_date_format_small_no_year">"EEE MMM d"</string>
+    <string name="event_time_format">"上午 h:mm"</string>
+    <string name="event_date_separator">"-"</string>
+    <string name="preview_type_key">"com.qualcomm.qti.sta.captureui.CameraActivity.preview_type"</string>
+    <string name="preview_type_button">"按鈕"</string>
+    <string name="preview_type_auto">"自動"</string>
+    <!-- Repeat -->
+    <string name="repeat_title">"重複"</string>
+    <string name="repeat_button_cancel">"取消"</string>
+    <string name="repeat_button_ok">"確定"</string>
+    <string name="repeat_summary_one_time">"單次活動"</string>
+    <string name="repeat_summary_daily">"每天"</string>
+    <string name="repeat_summary_daily_every">"每 %1$s 天"</string>
+    <string name="repeat_summary_weekly">"每星期的 %1$s"</string>
+    <string name="repeat_summary_weekly_every">"每 %1$s 個星期的 %2$s"</string>
+    <string name="repeat_summary_monthly_date">"每月第 %1$s 天"</string>
+    <string name="repeat_summary_monthly_day">"每月的 %1$s 日"</string>
+    <string name="repeat_summary_monthly_date_every">"每 %1$s 個月第 %2$s 天"</string>
+    <string name="repeat_summary_monthly_day_every">"每 %1$s 個月的 %2$s 日"</string>
+    <string name="repeat_summary_yearly">"每年的 %1$s"</string>
+    <string name="repeat_summary_yearly_every">"每 %1$s 年的 %2$s"</string>
+    <string name="repeat_summary_till_date">"直至 %1$s"</string>
+    <string name="repeat_summary_till_events">"%1$s 次"</string>
+    <string name="repeat_summary_till_one_event">"1 次"</string>
+    <string name="repeat_title_pick_date">"選擇日期"</string>
+    <string name="repeat_one_time">"單次活動"</string>
+    <string name="repeat_daily">"每天重複"</string>
+    <string name="repeat_weekly">"每星期重複"</string>
+    <string name="repeat_monthly">"每月重複"</string>
+    <string name="repeat_yearly">"每年重複"</string>
+    <string name="repeat_till_day">"天"</string>
+    <string name="repeat_till_week">"星期"</string>
+    <string name="repeat_till_month">"月"</string>
+    <string name="repeat_till_year">"YEAR"</string>
+    <string name="sunday_name">"週日"</string>
+    <string name="monday_name">"週一"</string>
+    <string name="tuesday_name">"週二"</string>
+    <string name="wednesday_name">"週三"</string>
+    <string name="thursday_name">"週四"</string>
+    <string name="friday_name">"週五"</string>
+    <string name="saturday_name">"週六"</string>
+    <string-array name="number_texts">
+        <item>"第一"</item>
+        <item>"第二"</item>
+        <item>"第三"</item>
+        <item>"第四個"</item>
+        <item>"第五"</item>
+    </string-array>
+    <string-array name="two_letter_day_names">
+        <item>"日"</item>
+        <item>"一"</item>
+        <item>"二"</item>
+        <item>"三"</item>
+        <item>"四"</item>
+        <item>"五"</item>
+        <item>"六"</item>
+    </string-array>
+    <string-array name="short_day_names">
+        <item>@string/sunday_name</item>
+        <item>@string/monday_name</item>
+        <item>@string/tuesday_name</item>
+        <item>@string/wednesday_name</item>
+        <item>@string/thursday_name</item>
+        <item>@string/friday_name</item>
+        <item>@string/saturday_name</item>
+    </string-array>
+    <string-array name="complete_day_names">
+        <item>"星期日"</item>
+        <item>"星期一"</item>
+        <item>"星期二"</item>
+        <item>"星期三"</item>
+        <item>"星期四"</item>
+        <item>"星期五"</item>
+        <item>"星期六"</item>
+    </string-array>
+    <string name="repeat_month_same_date">"每月的同一天"</string>
+    <string name="repeat_month_same_day">"每個"</string>
+    <string name="repeat_every_caption">"每"</string>
+    <string-array name="till_types">
+        <item>"無盡期"</item>
+        <item>"直至"</item>
+        <item>"重複數"</item>
+    </string-array>
+    <!-- Settings -->
+    <string name="setting_sta_data_type">"STA 資料類型"</string>
+    <string name="setting_sta_locale_type">"STA 地區設定"</string>
+    <string name="setting_text_record_mode">"相機模式"</string>
+    <string name="setting_camera_steady_duration">"相機平穩持續時間 (毫秒)"</string>
+    <string name="setting_camera_move_threshold">"相機移動臨界值"</string>
+    <string name="setting_sta_locale_usa">"美國"</string>
+    <string name="setting_sta_locale_china">"中國"</string>
+    <string name="setting_sta_locale_korea">"韓國"</string>
+    <string name="setting_default_sta_locale">@string/setting_sta_locale_usa</string>
+    <string name="setting_text_record_snapshot_mode">"快拍"</string>
+    <string name="setting_text_record_preview_mode">"預覽"</string>
+    <string name="setting_default_text_record_mode">@string/setting_text_record_snapshot_mode</string>
+    <string name="setting_sta_language_usa">"英文"</string>
+    <string name="setting_sta_language_china">"簡體中文"</string>
+    <string name="setting_sta_langauge_korea">"韓文"</string>
+    <string-array name="setting_sta_data_type_options">
+        <item>"電郵"</item>
+        <item>"網址"</item>
+        <item>"電話號碼"</item>
+        <item>"地址"</item>
+        <item>"日期"</item>
+        <item>"一般"</item>
+    </string-array>
+    <string-array name="setting_sta_data_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type">
+        <item>"美國"</item>
+        <item>"中國"</item>
+        <item>"韓國"</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type_values">
+        <item>@string/setting_sta_locale_usa</item>
+        <item>@string/setting_sta_locale_china</item>
+        <item>@string/setting_sta_locale_korea</item>
+    </string-array>
+    <string-array name="setting_text_record_options">
+        <item>@string/setting_text_record_snapshot_mode</item>
+        <item>@string/setting_text_record_preview_mode</item>
+    </string-array>
+    <string name="settings_scve_mode">"SCVE 操作模式"</string>
+    <string-array name="settings_scve_mode_entries">
+        <item>"[預設]"</item>
+        <item>"CPU 卸載"</item>
+        <item>"性能"</item>
+        </string-array>
+    <string-array name="settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+    </string-array>
+    <string name="settings_scve_mode_default">0</string></resources>

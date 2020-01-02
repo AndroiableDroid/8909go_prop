@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Rcs App!</string>
+    <string name="app_name">"RCS"</string>
+    <string name="phoneAppLabel">"ໂທລະສັບ"</string>
+    <string name="share_file">"FS"</string>
+    <string name="share_image">"IS"</string>
+    <string name="im">"IM"</string>
+    <string name="share_video">"VS"</string>
+    <string name="share_image1">"ແບ່ງປັນ"</string>
+    <string name="cancel">"ຍົກ​ເລີກ"</string>
+    <string name="StartRCS">StartRCS</string>
+    <string name="StopRCS">"ຢຸດRCS"</string>
+    <string name="UnknownUser">"ບໍ່ຮູ້ຈັກ"</string>
+    <string name="UnknownNumber">"ບໍ່ມີເບີ"</string>
+    <string name="Uri">sip:8888888888@verizon.com </string>
+    <string name="CapabilityUpdatedTime">"ຄວາມສາມາດອັບເດດລ້າສຸດໃນວັນທີ 25 ກັນຍາ 2012 ເວລາ 10:35 ໂມງແລງ"</string>
+    <string name="ShareFile">"FT"</string>
+    <string name="ShareImage">"ແບ່ງປັນຮູບ"</string>
+    <string name="ShareVideo">"ແບ່ງປັນວິດີໂອ"</string>
+    <string name="Prefix">"ເລກນໍາໜ້າ"</string>
+    <string name="Suffix">"ເລກຕື່ມທ້າຍ"</string>
+    <string name="ApplyPrefix">"ໃຊ້ເລກນໍາໜ້າກັບທັງໝົດ"</string>
+    <string name="ApplySuffix">"ໃຊ້ເລກຕື່ມທ້າຍກັບທັງໝົດ"</string>
+    <string name="ImChatTitle"></string>
+    <string name="ImStatusTitle">"ສະຖານະ: "</string>
+    <string name="SendImText">"ສົ່ງ"</string>
+    <string name="FileName">"ຊື່ໄຟລ໌"</string>
+    <string name="TransferStatus">"ກໍາລັງໂອນ"</string>
+    <string name="SettingsTitle">"ຕັ້ງຄ່າຄວາມສາມາດ"</string>
+    <string name="FileShare">"ແບ່ງປັນໄຟລ໌"</string>
+    <string name="InstantMessage">"ຂໍ້ຄວາມຕອບໂຕ້ທັນທີ"</string>
+    <string name="ImageShare">"ແບ່ງປັນຮູບພາບ"</string>
+    <string name="VideoShare">"ການແບ່ງປັນວິດີໂອ"</string>
+    <string name="Save">"ບັນທຶກ"</string>
+    <string name="StopSharing">"ຢຸດການແບ່ງປັນ"</string>
+    <string name="StopReceiving">"ຢຸດການຮັບ"</string>
+    <string name="EndCall">"ວາງສາຍ"</string>
+    <string name="TransferFile">"ໂອນໄຟລ໌"</string>
+    <string name="Config_test">"ກຳນົດຄ່າການທົດສອບ"</string>
+    <string name="IS_Transfer">"ໂອນຮູບພາບ"</string>
+    <string name="Ft_Receive">Ft_Receive</string>
+    <string name="UserName">"ຊື່ຜູ້ໃຊ້"</string>
+    <string name="vt">"VT "</string>
+    <string name="volte">"VOLTE"</string>
+    <string name="TransferDone">"ສໍາເລັດ"</string>
+    <string name="TransferAborted">"ຖືກຍົກເລີກ"</string>
+    <string name="TransferCancelled">"​ຍົກ​ເລີກ​ແລ້ວ"</string>
+    <string name="FileTransfer">"ໂອນໄຟລ໌"</string>
+    <string name="AddressBook">"ສະໝຸດທີ່ຢູ່"</string>
+    <string name="ContactCapability">"ຄວາມສາມາດຕິດຕໍ່"</string>
+    <string name="AddUsers">"ເພີ່ມຜູ້ໃຊ້"</string>
+    <string name="imsenablertext">"ຕົວເປີດໃຊ້ IMS"</string>
+    <string name="publishtext">"ເຜີຍແຜ່"</string>
+    <string name="subscribepollingtext">"ການຮັບເອົາການມີໃຫ້ໃຊ້ງານ"</string>
+    <string name="subscribesimpletext">"ການສຳຫຼວດຄວາມສາມາດ "</string>
+    <string name="unsubscribetext">"ຖອນສະໝັກໃຊ້"</string>
+    <string name="listsubscribesimpletext">"ລາຍການການສຳຫຼວດຄວາມສາມາດ "</string>
+    <string name="listsubscribepollingtext">"ລາຍການການຮັບເອົາການມີໃຫ້ໃຊ້ງານ"</string>
+    <string name="listunsubscribetext">"ລາຍການຖອນສະໝັກໃຊ້"</string>
+    <string name="settingstext">"ການຕັ້ງຄ່າ"</string>
+    <string name="myinfotext">"ຂໍ້ມູນຂອງຂ້ອຍ"</string>
+    <string name="myNumtext">"ເລກໝາຍຂອງຂ້ອຍ"</string>
+    <string name="uri1text">"ເລກນໍາໜ້າ"</string>
+    <string name="uri2text">"ເລກຕື່ມທ້າຍ"</string>
+    <string name="oktext">"ຕົກລົງ"</string>
+    <string name="canceltext">"ຍົກ​ເລີກ"</string>
+    <string name="publishbuttontext">"ເຜີຍແຜ່"</string>
+    <string name="publishstatustext">"ເຜີຍແຜ່ສະຖານະໃໝ່"</string>
+    <string name="contactinfotext">"ຂໍ້ມູນລາຍຊື່"</string>
+    <string name="personalinfotext">"ຂໍ້ມູນສ່ວນຕົວ"</string>
+    <string name="serviceDescriptiontext">"ລາຍລະອຽດການບໍລິການ"</string>
+    <string name="servicecaptext">"ຄວາມສາມາດການບໍລິການ"</string>
+    <string name="statusicontext">"ໄອຄອນສະຖານະ"</string>
+    <string name="descriptiontext">"ຄຳອະທິບາຍ"</string>
+    <string name="vertext">"ເວີຊັນ"</string>
+    <string name="serviceIdtext">"ລະຫັດການບໍລິການ"</string>
+    <string name="basicstatustext">"ສະຖານະພື້ນຖານ"</string>
+    <string name="timestamptext">"ສະແຕມເວລາ"</string>
+    <string name="isAudioSupportedtext">"ສຽງ"</string>
+    <string name="isVideoSupportedtext">"ວິດີໂອ"</string>
+    <string name="startvideocalltext">"ເລີ່ມການໂທ VT"</string>
+    <string name="startaudiocalltext">"ເລີ່ມການໂທ HD"</string>
+    <string name="donetext">"ສໍາເລັດ"</string>
+    <string name="bs_open_text">"ເປີດ"</string>
+    <string name="bs_closed_text">"ປິດແລ້ວ"</string>
+    <string name="sc_supported_text">"ແທ້"</string>
+    <string name="sc_notsupported_text">"ປອມ"</string>
+    <string name="True">"ແທ້"</string>
+    <string name="False">"ປອມ"</string>
+    <string name="notify_settings_text">"ການຕັ້ງຄ່າແຈ້ງບອກຮູບແບບ"</string>
+    <string name="set_notify_fmt_text">"ຕັ້ງແຈ້ງບອກຮູບແບບ"</string>
+    <string name="set_text">"ຕັ້ງ"</string>
+    <string name="get_text">"​ເອົາ"</string>
+    <string name="timer_settings_text">"ຕັ້ງຄ່າຕົວຈັບເວລາ"</string>
+    <string name="availability_cache_exp_text">"ການໝົດອາຍຸແຄຊການມີໃຫ້ໃຊ້ງານ"</string>
+    <string name="capability_cache_exp_text">"ການໝົດອາຍຸແຄຊຄວາມສາມາດ"</string>
+    <string name="capability_poll_interval_text">"ໄລຍະຫ່າງການສຳຫຼວດຄວາມສາມາດ"</string>
+    <string name="capability_poll_list_exp_text">"ການໝົດອາຍຸການສະໝັກໃຊ້ລາຍການສຳຫຼວດຄວາມສາມາດ"</string>
+    <string name="source_throttle_publish_text">"ເຜີຍແຜ່ຕົວເລ່ງແຫຼ່ງກຳເນີດ"</string>
+    <string name="retry_info_text">"ການຕັ້ງຄ່າການລອງໃໝ່"</string>
+    <string name="subscribe_retry_text">"ສະໝັກໃຊ້ໄລຍະຫ່າງການລອງໃໝ່"</string>
+    <string name="publish_retry_text">"ເຜີຍແຜ່ໄລຍະຫ່າງການລອງໃໝ່"</string>
+    <string name="list_subscription_settings_text">"ລະບຸການຕັ້ງຄ່າການສະໝັກໃຊ້"</string>
+    <string name="max_list_entries_text">"ການປ້ອນຂໍ້ມູນສູງສຸດໃນການສະໝັກໃຊ້ລາຍການ"</string>
+    <string name="multi_select_text">"ລວມເອົາໃນການສະໝັກໃຊ້ລາຍການ"</string>
+    <string name="select_all_text">"ເລືອກທັງໝົດ"</string>
+    <string name="select_none_text">"ບໍ່ເລືອກອັນໃດ"</string>
+    <string name="fmt_struct_text">"ຮູບແບບໂຄງສ້າງ"</string>
+    <string name="fmt_xml_text">"ຮູບແບບ XML"</string>
+    <string name="event_report_settings_text">"ການຕັ້ງຄ່າການລາຍງານເຫດການ"</string>
+    <string name="enable_publish_trigger_ind_text">"ເປີດໃຊ້ເຜີຍແຜ່ການຊີ້ບອກຕົວກະຕຸ້ນ"</string>
+    <string name="enable_enabler_state_ind_text">"ເປີດໃຊ້ການຊີ້ບອກສະຖານະຕົວເປີດໃຊ້"</string>
+    <string name="enable_notify_ind_text">"ເປີດໃຊ້ງານ ແຈ້ງບອກການຊີ້ບອກ"</string>
+    <string name="live_logging_text">"ການບັນທຶກສົດ"</string>
+    <string name="vt_settings_text">"ວິດີໂອ "</string>
+    <string name="ft_settings_text">"ໂອນໄຟລ໌ "</string>
+    <string name="chat_settings_text">"ການສົນທະນາ "</string>
+    <string name="vt_setting">"ການຕັ້ງຄ່າວິດີໂອ"</string>
+    <string name="data_status">"ສະຖານະຂໍ້ມູນມືຖື"</string>
+    <string name="data_on_off_status">"ຂໍ້ມູນມືຖື : "</string>
+    <string name="refresh_contacts_text">"ຣີ​ເຟຣັຊ"</string>
+    <!-- STRING FOR RELIANCE MODE -->
+    <string name="RelianceMode">"ໂໝດຄວາມເຊື່ອຖື"</string>
+    <string name="SipOption">"ຕົວເລືອກ SIP"</string>
+    <string name="OneShotMessage">"ຂໍ້ຄວາມຊັອດດຽວ"</string>
+    <string name="ShortCode">"ລະຫັດສັ້ນ"</string>
+    <string name="RelSetting">"ການຕັ້ງຄ່າ"</string>
+    <string name="Auto">"ອັດຕະໂນມັດ"</string>
+    <string name="Manual">"ຄົ້ນຫາເອງ"</string>
+    <string name="StatusText">"ຂໍ້ຄວາມສະຖານະ"</string>
+    <string name="StatusMsg">"ຂໍ້ຄວາມສະຖານະ"</string>
+    <string name="Disposition">"ການຈັດການ"</string>
+    <string name="ExpiryTime">"ເວລາໝົດອາຍຸ"</string>
+    <string name="DisplayNoti">"ສະແດງ/ການແຈ້ງເຕືອນການສົ່ງ"</string>
+    <string name="DeliveryNoti">"ການແຈ້ງເຕືອນການສົ່ງ"</string>
+    <string name="StatusOffline">"ອອບໄລນ໌"</string>
+    <string name="StautsOnline">"ອອນໄລນ໌"</string>
+    <string name="StatusAway">"ບໍ່ຢູ່"</string>
+    <string name="StatusBusy">"ບໍ່ວ່າງ"</string>
+    <string name="StatusMsg_prompt">"ເລືອກສະຖານະຂອງທ່ານ"</string>
+    <string name="smAction_prompt">"ເລືອກການກະທຳຂອງທ່ານ"</string>
+    <string name="SCAction">"ການດຳເນີນ"</string>
+    <string name="MessageBody">"ເນື້ອໃນຂໍ້ຄວາມ"</string>
+    <string name="browse">"ເບິ່ງໄຟລ໌"</string>
+    <string name="activeOneShotText">"ວັນຊັອດໃຊ້ງານຢູ່"</string>
+    <string name="groupCreateText">"ສ້າງກຸ່ມ"</string>
+    <string-array name="smAction_arrays">
+        <item>"ສອບຖາມຍອດເງິນ"</item>
+        <item>"ເຕີມຍອດເງິນໃໝ່"</item>
+        <item>"ການສອບຖາມຈຳນວນທີ່ບໍ່ໄດ້ຖືກຮຽກເກັບ"</item>
+        <item>"ການໂອນຍອດເງິນ/ເຄຣດິດ"</item>
+        <item>"ການສ້າງກຸ່ມ"</item>
+        <item>"ການອັບເດດກຸ່ມ"</item>
+        <item>"ການລຶບກຸ່ມ"</item>
+        <item>"ການດຳເນີນການອື່ນ"</item>
+    </string-array>
+    <!-- STRINGS for ATT -->
+    <string name="group_sessions_text">"ເຊສຊັນກຸ່ມ"</string>
+    <string name="active_sessions_text">"ເຊ​ສ​ຊັນທີ່ໃຊ້ຢູ່"</string>
+    <string name="list_query_text">"ແຍກລາຍການຕາມ"</string>
+    <string name="individual_query_text">"ການສອບສະເພາະບຸກຄົນ"</string>
+    <string name="config_text">"ກຳນົດຄ່າ"</string>
+    <string name="sm_text">"SM"</string>
+    <string name="service_text">"ການບໍລິການເປີດ/ປິດ"</string>
+    <string name="presence_text">"ການປະກົົດຕົວ"</string>
+    <string name="standalone_text">"ຢູ່ດ່ຽວ"</string>
+    <string name="browse_text">"ເບິ່ງໄຟລ໌ XML"</string>
+    <string name="xml_text">"ເນື້ອໃນ XML:"</string>
+    <string name="name_text">"ຊື່"</string>
+    <string name="to_text">"ຫາ"</string>
+    <string name="cc_text">"ສໍາເນົາສົ່ງ"</string>
+    <string name="bcc_text">"ສໍາເນົາສົ່ງບໍ່ໃຫ້ເຫັນ"</string>
+    <string name="start_group_sm_text">"ເລີ່ມຕົ້ນ Group Play"</string>
+    <string name="start_group_chat_text">"ເລີ່ມການສົນທະນາເປັນກຸ່ມ"</string>
+    <string name="group_query_text">"ຄຳຖາມກຸ່ມ"</string>
+    <string name="send_delivery_text">"ສົ່ງດຽວນີ້"</string>
+    <string name="send_display_text">"ສົ່ງເຖິງ"</string>
+    <string name="request_delivery_text">"ຮ້ອງຂໍການນຳສົ່ງ"</string>
+    <string name="request_display_text">"#: ສະແດງ"</string>
+    <string name="display_display_title_text">" ການຕັ້ງຄ່າການແຈ້ງ"</string></resources>

@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Sampel SDK Tampilan"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"Fitur Tampilan"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"Keseimbangan Warna"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"Manajer Mode"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"Mode Baru"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"Hapus Mode"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"Edit Mode"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"Batal"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"Fitur Tampilan"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"Aktifkan Mode"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"Masukkan Nama Mode"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"Simpan Mode"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"Pilih Foto"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"Tipe tampilan yang disediakan tidak didukung. Pastikan sambungkan() telah dipanggil"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"Keseimbangan Warna Fitur tidak didukung"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"Fitur Lampu Latar Adaptif tidak didukung"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"Fitur Warna Memori Dedaunan tidak didukung"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"Fitur Warna Memori Kulit tidak didukung"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"Fitur Warna Memori Langit tidak didukung"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"Fitur Penyesuaian Gambar tidak didukung"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"Fitur Visibilitas Cahaya Matahari tidak didukung"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"Mode baru tidak dapat dibuat"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"Mode tidak dapat dimodifikasi"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"Tambahkan gambar dari galeri"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"OKE"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"Ya"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"Tidak"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"Tidak ada mode tampilan tersedia di perangkat Anda"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"FEATURE_COLOR_MODE_SELECTION tidak didukung"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"FEATURE_COLOR_MODE_MANAGEMENT tidak didukung"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"Fungsionalitas tampilan yang diperlukan tidak tersedia"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"Penghapusan Mode Tampilan gagal"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"Aktivasi Mode Tampilan gagal"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"Mode Tampilan tidak dapat diatur sebagai default"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"Silakan pilih mode dahulu"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"Masukkan nama untuk mode"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"Mode baru dibuat"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"Atur Default"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"Mode yang dipilih menjadi mode Sistem, tidak dapat dimodifikasi. Ingin membuat mode baru berdasarkan mode yang dipilih?"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"Mode yang dipilih menjadi mode Sistem, tidak dapat dihapus"</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"Tidak dapat tersambung ke layanan tampilan yang diperlukan"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" Mode telah diaktifkan"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" Mode telah dihapus"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"Keseimbangan Warna"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"Visibilitas Cahaya Matahari"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"Penyesuaian Gambar"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"Warna Memori Dedaunan"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"Rona"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"Saturasi"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"Intensitas"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"Warna Memori Kulit"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"Warna Memori Langit"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" Lampu Latar Adaptif"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"Aktifkan SVI"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"Aktifkan Warna memori dedaunan"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"Aktifkan Warna memori kulit"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"Aktifkan Warna memori langit"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"Aktifkan Penyesuaian Gambar"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"Aktifkan Lampu Latar Adaptif"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"Aktifkan Desaturasi Penyesuaian Gambar"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"Ambang Batas Saturasi"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"Rona"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"Saturasi"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"Intensitas"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"Kontras"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"Tinggi"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"Sedang"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"Rendah"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"Oto"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"Segarkan"</string></resources>

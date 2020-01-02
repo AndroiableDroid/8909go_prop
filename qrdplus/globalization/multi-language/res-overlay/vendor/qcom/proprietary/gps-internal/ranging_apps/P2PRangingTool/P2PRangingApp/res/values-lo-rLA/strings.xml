@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">P2PRanging</string>
+    <string name="action_settings">"ການຕັ້ງຄ່າ"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_Discovery">"ການຄົ້ນພົບດ້ວຍຕົນເອງ"</string>
+    <string name="strings_setting_appversion">"ເວີຊັນແອັບພລິເຄຊັນ: 2014.09.04"</string>
+    <string name="strings_setting_startscanresult">"ບໍ່ມີຂໍ້ມູນ"</string>
+    <string name="strings_setting_scanrepetition">"ສະແກນຊໍ້ຄືນ: "</string>
+    <string name="strings_setting_scaninterval">"ໄລຍະຫ່າງການສະແກນ: "</string>
+    <string name="strings_setting_scantype">"ປະເພດສະແກນ: "</string>
+    <string name="strings_setting_scanbandwidth">"ຄວາມກວ້າງຄືນການສະແກນ: "</string>
+    <string name="strings_setting_scanrttbias">"RTT Bias (ns): "</string>
+    <string name="strings_setting_scanrttBias_value">25</string>
+    <string name="strings_setting_button_clearoverlay">"ລ້າງຂໍ້ຄວາມວາງທັບ"</string>
+    <string name="strings_setting_button_hideshowoverlaytext">"ເຊື່ອງ/ສະແດງຂໍ້ຄວາມວາງທັບ"</string>
+    <string name="strings_start_peerrangescanbtn">"ເລີ່ມການສະແກນຂອບເຂດ"</string>
+    <string name="strings_start_singlepeerrangescanbtn">"ສະແກນຄັ້ງດຽວ"</string>
+    <string name="strings_start_measresulttitle">"ຂອບຜົນການສະແກນ(m)"</string>
+    <string name="strings_start_measresultdevice"></string>
+    <string name="strings_log_showerror">"ຜິດພາດ"</string>
+    <string name="strings_log_showinfo">"ຂໍ້ມູນ"</string>
+    <string name="strings_log_clear">"ClearLog"</string>
+    <string name="strings_legend_mygo">"MyGO"</string>
+    <string name="strings_legend_cl">"CL"</string>
+    <string name="strings_legend_idle">"ຢູ່ນິ່ງໆ"</string>
+    <string name="strings_legend_othergo">"OtherGO"</string>
+    <string name="strings_deviceinfo_mydevice">"ອຸປະກອນຂອງຂ້ອຍ:"</string>
+    <string name="strings_deviceinfo_devicename">"ຊື່: ບໍ່ມີຂໍ້ມູນ"</string>
+    <string name="strings_deviceinfo_mac">"MAC: ບໍ່ມີຂໍ້ມູນ"</string>
+    <string name="strings_deviceinfo_channel">"ຊ່ອງ: ບໍ່ມີຂໍ້ມູນ"</string>
+    <string name="strings_deviceinfo_group">"ກຸ່ມ: ບໍ່ມີຂໍ້ມູນ"</string>
+    <string name="strings_connect_mypeers">"ເພື່ອນຮ່ວມງານຂອງຂ້ອຍ: (ຄລິກເພື່ອເຊື່ອມຕໍ່/ຕັດເຊື່ອມຕໍ່)"</string></resources>

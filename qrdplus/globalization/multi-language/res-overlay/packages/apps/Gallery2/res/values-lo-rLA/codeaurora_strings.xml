@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of The Linux Foundation nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Strings for step option settins -->
+    <string name="setp_option_name">"ຂັ້ນຕອນ"</string>
+    <string name="step_option_desc">"ກຳນົດຂັ້ນຕອນໄປໜ້າໄວ/ກັບຫຼັງໄວ"</string>
+    <string name="setp_option_three_second">"3 ວິນາທີ"</string>
+    <string name="setp_option_six_second">"6 ວິນາທີ"</string>
+    <string name="loop">"ວົນຮອບ"</string>
+    <string name="single">"ຄັ້ງດຽວ"</string>
+    <string name="stereo">"ສະເຕຣີໂອ"</string>
+    <string name="speaker_on">"ລໍາໂພງເປີດ"</string>
+    <string name="speaker_off">"ລໍາໂພງປິດ"</string>
+    <string name="speaker_need_headset">"ກະລຸນາສຽບຫູຟັງກ່ອນ!"</string>
+    <string name="single_track">"ແທຣັກດ່ຽວ"</string>
+    <string name="media_detail">"ລາຍລະອຽດສື່"</string>
+    <string name="input_url">"ປ້ອນ URL"</string>
+    <string name="streaming_settings">"ການຕັ້ງຄ່າການຖ່າຍທອດ"</string>
+    <string name="next">"ຕໍ່ໄປ"</string>
+    <string name="previous">"ກ່ອນນີ້"</string>
+    <string name="rtp_rtcp">"RTP/RTCP"</string>
+    <string name="min_port">"ຜອດນ້ອຍສຸດ:"</string>
+    <string name="max_port">"ຜອດໃຫຍ່ສຸດ:"</string>
+    <string name="buffer_size">"ຂະໜາດບັບເຟີ"</string>
+    <string name="apn">"APN ທີ່ມັກ"</string>
+    <string name="rtp_min_port">"ຜອດ​ນ້ອຍສຸດ"</string>
+    <string name="rtp_max_port">"ຜອດ​ໃຫຍ່ສຸດ"</string>
+    <string name="set_rtp_min_port">"ຕັ້ງຜອດນ້ອຍສຸດ"</string>
+    <string name="set_rtp_max_port">"ຕັ້ງຜອດໃຫຍ່ສຸດ"</string>
+    <string name="set_buffer_size">"ຕັ້ງຂະໜາດບັບເຟີ"</string>
+    <string name="set_apn">"ເລືອກ apn ທີ່ມັກ"</string>
+    <string name="setting">"ການຕັ້ງຄ່າ"</string>
+    <string name="server_timeout_title">"ເຊີບເວີໝົດເວລາ"</string>
+    <string name="server_timeout_message">"ເຊື່ອມຕໍ່ເຊີບເວີຄືນໃໝ່ເພື່ອຫຼິ້ນວິດີໂອ ຫູືບໍ່?"</string>
+    <string name="videoview_error_text_cannot_connect_retry">"ການເຊື່ອມຕໍ່ບໍ່ສຳເລັດ, ລອງເຊື່ອມຕໍ່ຄືນໃໝ່ %1$d..."</string>
+    <string name="media_controller_live">"ສົດ"</string>
+    <string name="media_controller_playing">"ກໍາລັງຫຼິ້ນ"</string>
+    <string name="media_controller_connecting">"ກໍາລັງເຊື່ອມຕໍ່..."</string>
+    <string name="bookmark_add">"ເພີ່ມບຸກມາກຄ໌"</string>
+    <string name="bookmark_display">"ສະແດງບຸກມາກຄ໌"</string>
+    <string name="bookmark_empty">"ບໍ່ມີບຸກມາກຄ໌"</string>
+    <string name="bookmark_exist">"ບຸກມາກຄ໌ດຽວກັນໃນປະຫວັດ"</string>
+    <string name="bookmark_add_success">"ເພີ່ມບຸກມາກ໌ສຳເລັດແລ້ວ"</string>
+    <string name="bookmark_list">"ບຸກມາກ໌"</string>
+    <string name="bookmark_title">"ຊື່ເລື່ອງ"</string>
+    <string name="bookmark_location">"ທີ່ຕັ້ງ"</string>
+    <string name="delete_all">"ລຶບທັງໝົດl"</string>
+    <string name="default_title">"ຊື່ເລື່ອງເລີ່ມຕົ້ນ"</string></resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Overlay Wi\u2011Fi to WLAN -->
+    <string name="radio_controls_summary">"管理 WLAN、蓝牙、飞行模式、移动网络和 VPN"</string>
+    <string name="wifi_assistant_intro_setup">"WLAN 助手\n简介"</string>
+    <string name="wifi_assistant_card_message">"使用 WLAN 助手可自动连接到可用的网络。"</string>
+    <string name="wifi_assistant_title">"WLAN 助手"</string>
+    <string name="wifi_assistant_title_message">"Google WLAN 助手会自动将您连接到可用的最佳 WLAN"</string>
+    <string name="wifi_assistant_explanation_message">"Google WLAN 助手会检测可供您使用的网络，并将您的设备连接到速度最快、可靠性最高的网络。"</string>
+    <string name="wifi_assistant_vpn_message">"为帮助保护您的数据，Google WLAN 助手可以通过 Google 服务器提供安全的 VPN 连接。"</string>
+    <string name="wifi_assistant_dialog_message">"WLAN 助手想要设置一个 VPN 连接，可用于监控网络流量。请只在您信任该来源的情况下才接受此请求。"</string>
+    <string name="wifi_assistant_permission_accepted">"您已授权“Google WLAN 助手”设置 VPN 连接。这意味着，该应用可以监控网络流量。"</string>
+    <string name="wifi_quick_toggle_title">"WLAN"</string>
+    <string name="wifi_quick_toggle_summary">"打开 WLAN"</string>
+    <string name="wifi_settings">"WLAN"</string>
+    <string name="wifi_settings_category">"WLAN 设置"</string>
+    <string name="wifi_settings_title">"WLAN"</string>
+    <string name="wifi_setup_wizard_title">"选择 WLAN"</string>
+    <string name="wifi_select_network">"选择 WLAN"</string>
+    <string name="wifi_starting">"正在打开 WLAN\u2026"</string>
+    <string name="wifi_stopping">"正在关闭 WLAN\u2026"</string>
+    <string name="wifi_poor_network_detection_summary">"仅在 WLAN 互联网连接状况良好时使用 WLAN 网络"</string>
+    <string name="wifi_scan_always_available_summary">"允许 Google 的位置信息服务和其他应用扫描网络（即使 WLAN 已关闭）"</string>
+    <string name="wifi_automatically_manage_title">"自动管理 WLAN"</string>
+    <string name="wifi_automatically_manage_summary">"允许 WLAN 助手管理您的 WLAN 连接"</string>
+    <string name="wifi_assistant_setting_title">"WLAN 助手"</string>
+    <string name="wifi_assistant_setting_summary">"Google WLAN 助手"</string>
+    <string name="wifi_setting_sleep_policy_title">"在休眠状态下保持 WLAN 连接"</string>
+    <string name="wifi_setting_on_during_sleep_title">"在休眠状态下保持 WLAN 连接"</string>
+    <string name="wifi_suspend_optimizations">"WLAN 优化"</string>
+    <string name="wifi_suspend_optimizations_summary">"启用 WLAN 时尽可能节约电池用量"</string>
+    <string name="wifi_limit_optimizations_summary">"限制 WLAN 耗电量"</string>
+    <string name="wifi_access_points">"WLAN 网络"</string>
+    <string name="wifi_menu_p2p">"WLAN 直连"</string>
+    <string name="wifi_empty_list_wifi_off">"要查看可用网络，请打开 WLAN。"</string>
+    <string name="wifi_empty_list_wifi_on">"正在搜索 WLAN 网络\u2026"</string>
+    <string name="wifi_empty_list_user_restricted">"您无权更改 WLAN 网络。"</string>
+    <string name="wifi_required_info_text">"要完成设置，您的平板电脑需要连接到 WLAN。设置完毕后，您将可以在移动数据网络和 WLAN 网络之间切换。"</string>
+    <string name="wifi_wps_setup_title">"WLAN 保护设置"</string>
+    <string name="wifi_wps_onstart_pbc">"请按下路由器上的“WLAN 保护设置”按钮。它可能会标为“WPS”或包含此符号："</string>
+    <string name="wifi_wps_onstart_pin">"请在 WLAN 路由器上输入 PIN 码 <xliff:g id="number">%1$s</xliff:g>。设置过程最多可能需要两分钟时间。"</string>
+    <string name="wifi_wps_connected">"已连接到 WLAN 网络 <xliff:g id="network_name">%s</xliff:g>"</string>
+    <string name="wifi_skipped_message" product="tablet">"警告：如果您跳过 WLAN 网络设置，您的平板电脑将只能通过移动数据网络进行初始下载和更新。为了避免产生数据流量费，请连接到 WLAN。"</string>
+    <string name="wifi_skipped_message" product="device">"警告：如果您跳过 WLAN 网络设置，您的设备将只能通过移动数据网络进行初始下载和更新。为了避免产生数据流量费，请连接到 WLAN。"</string>
+    <string name="wifi_skipped_message" product="default">"警告：如果您跳过 WLAN 网络设置，您的手机将只能通过移动数据网络进行初始下载和更新。为了避免产生数据流量费，请连接到 WLAN。"</string>
+    <string name="wifi_and_mobile_skipped_message" product="tablet">"警告：如果您跳过 WLAN 网络设置，您的平板电脑将不会连接到互联网以用于任何初始下载或更新。"</string>
+    <string name="wifi_and_mobile_skipped_message" product="device">"警告：如果您跳过 WLAN 网络设置，您的设备将不会连接到互联网以用于任何初始下载或更新。"</string>
+    <string name="wifi_and_mobile_skipped_message" product="default">"警告：如果您跳过 WLAN 网络设置，您的手机将不会连接到互联网以用于任何初始下载或更新。"</string>
+    <string name="wifi_connect_failed_message" product="tablet">"平板电脑无法连接到此 WLAN 网络。"</string>
+    <string name="wifi_connect_failed_message" product="device">"设备无法连接到此 WLAN 网络。"</string>
+    <string name="wifi_connect_failed_message" product="default">"手机无法连接到此 WLAN 网络。"</string>
+    <string name="wifi_advanced_titlebar">"高级 WLAN"</string>
+    <string name="wifi_setting_frequency_band_title">"WLAN 频带"</string>
+    <string name="wifi_p2p_settings_title">"WLAN 直连"</string>
+    <string name="wifi_tether_checkbox_text">"便携式 WLAN 热点"</string>
+    <string name="wifi_hotspot_checkbox_text">"WLAN 热点"</string>
+    <string name="wifi_hotspot_checkbox_text_summary">"使用移动网络连接提供 WLAN 网络"</string>
+    <string name="wifi_tether_failed_subtext">"便携式 WLAN 热点错误"</string>
+    <string name="wifi_tether_configure_ap_text">"设置 WLAN 热点"</string>
+    <string name="wifi_hotspot_configure_ap_text">"WLAN 热点设置"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">"AndroidAP WPA2 PSK 便携式 WLAN 热点"</string>
+    <string name="wifi_tether_configure_subtext">"<xliff:g id="network_ssid">%1$s</xliff:g> <xliff:g id="network_security">%2$s</xliff:g> 便携式 WLAN 热点"</string>
+    <string name="status_wifi_mac_address">"WLAN MAC 地址"</string>
+    <string name="network_scorer_change_active_dialog_title">"要更改 WLAN 助手吗？"</string>
+    <string name="location_mode_high_accuracy_description">"使用 GPS、WLAN 和移动网络确定位置 "</string>
+    <string name="location_mode_battery_saving_description">"使用 WLAN 和移动网络确定位置"</string>
+    <string name="location_network_based">"WLAN 和移动网络位置"</string>
+    <string name="location_neighborhood_level_wifi">"通过 WLAN 确定位置"</string>
+    <string name="wifi_verbose_logging">"启用 WLAN 详细日志记录功能"</string>
+    <string name="wifi_aggressive_handover">"主动从 WLAN 网络切换到移动数据网络"</string>
+    <string name="wifi_allow_scan_with_traffic">"始终允许 WLAN 漫游扫描"</string>
+    <string name="wifi_verbose_logging_summary">"提升 WLAN 日志记录级别（在 WLAN 选择器中显示每个 SSID 的 RSSI）"</string>
+    <string name="wifi_aggressive_handover_summary">"启用此设置后，系统会在 WLAN 信号较弱时，主动将网络模式从 WLAN 网络切换到移动数据网络"</string>
+    <string name="wifi_allow_scan_with_traffic_summary">"根据接口中目前的数据流量允许/禁止 WLAN 漫游扫描"</string>
+    <string name="battery_stats_wifi_running_label">"WLAN"</string>
+    <string name="wifi_on_time">"WLAN 开启时间"</string>
+    <string name="bluetooth_on_time">"WLAN 开启时间"</string>
+    <string name="power_wifi">"WLAN"</string>
+    <string name="usage_type_wifi_running">"WLAN 运行中"</string>
+    <string name="usage_type_data_wifi_send">"发送的 WLAN 数据包"</string>
+    <string name="usage_type_data_wifi_recv">"接收的 WLAN 数据包"</string>
+    <string name="battery_action_wifi">"WLAN 设置"</string>
+    <string name="battery_desc_wifi">"WLAN 耗电量"</string>
+    <string name="battery_sugg_wifi">"未使用或无法使用 WLAN 网络时将 WLAN 关闭"</string>
+    <string name="gadget_toggle_wifi">"正在更新 WLAN 设置"</string>
+    <string name="gadget_state_template">"<xliff:g name="feature" example="WLAN">%1$s</xliff:g> <xliff:g name="state" example="off">%2$s</xliff:g>"</string>
+    <string name="gadget_wifi">"WLAN"</string>
+    <string name="backup_data_summary">"将应用数据、WLAN 密码和其他设置备份到 Google 服务器"</string>
+    <string name="backup_erase_dialog_message">"要停止备份您的 WLAN 密码、书签、其他设置和应用数据，并清除 Google 服务器上的所有副本吗？"</string>
+    <string name="wifi_setup_title">"WLAN 设置"</string>
+    <string name="wifi_setup_title_editing_network">"连接到 WLAN 网络 <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>"</string>
+    <string name="wifi_setup_title_connecting_network">"正在连接到 WLAN 网络 <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>\u2026"</string>
+    <string name="wifi_setup_title_connected_network">"已连接到 WLAN 网络 <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>"</string>
+    <string name="wifi_setup_eap_not_supported">"您无法在设置过程中配置 EAP WLAN 连接。设置完毕后，您可以在“设置”&gt;“无线和网络”中进行配置。"</string>
+    <string name="wifi_setup_description_connected">"触摸"<b>"下一步"</b>"可继续进行设置。\n\n触摸"<b>"返回"</b>"可连接到其他 WLAN 网络。"</string>
+    <string name="data_usage_menu_show_wifi">"显示 WLAN"</string>
+    <string name="data_usage_menu_hide_wifi">"隐藏 WLAN"</string>
+    <string name="data_usage_disable_wifi_limit">"设置 WLAN 数据流量上限"</string>
+    <string name="data_usage_tab_wifi">"WLAN"</string>
+    <string name="data_usage_restrict_background">"如果您限制后台移动数据流量，则只有在您连接到 WLAN 网络时，部分应用和服务才能正常运行。"</string>
+    <string name="data_usage_restrict_background_multiuser" product="tablet">"如果您限制后台移动数据流量，则只有在您连接到 WLAN 网络时，部分应用和服务才能正常运行。\n\n此设置会影响这台平板电脑上的所有用户。"</string>
+    <string name="data_usage_restrict_background_multiuser" product="default">"如果您限制后台移动数据流量，则只有在您连接到 WLAN 网络时，部分应用和服务才能正常运行。\n\n此设置会影响这部手机上的所有用户。"</string>
+    <string name="data_usage_metered_wifi">"按流量计费的 WLAN 网络"</string>
+    <string name="data_usage_metered_wifi_disabled">"要选择按流量计费的网络，请打开 WLAN。"</string>
+    <string name="restriction_wifi_config_title">"WLAN 和移动网络"</string>
+    <string name="restriction_wifi_config_summary">"允许修改 WLAN 和移动网络设置"</string>
+    <!-- Overlay wi-fi to WLAN -->
+    <string name="keywords_wifi">"wifi WLAN 网络连接"</string>
+    <string name="setup_wifi_nfc_tag">"设置 WLAN NFC 标签"</string>
+    <string name="wifi_scan_notify_text_location_on">"为了提高位置精确度以及其他目的，Google 和其他应用可扫描附近的网络（即使关闭了 WLAN）。如果您不希望应用这么做，请进入“高级”&gt;“随时都可扫描”进行设置。"</string>
+    <string name="wifi_scan_notify_text_location_off">"应用可扫描附近的网络（即使关闭了 WLAN）。如果您不希望应用这么做，请进入“高级”&gt;“随时都可扫描”进行设置。"</string>
+    <string name="wifi_scan_always_turnon_message">"为了提高位置精确度以及其他目的，“<xliff:g id="app_name">%1$s</xliff:g>”希望启用网络扫描（即使关闭了 WLAN）。\n\n要对所有希望进行扫描的应用允许执行此操作吗？"</string></resources>

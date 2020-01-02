@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Oma Drm Engine"</string>
+    <string name="activity_name_image_viewer">"Prikazovalnik slik DRM"</string>
+    <string name="permission_label_access_drm_data">"Dovoljenje za dostop do vtičnika OMA DRM"</string>
+    <string name="permission_desc_access_drm_data">"Odobrite dovoljenje za dostop do podatkov o licenci vtičnika OMA DRM."</string>
+    <string name="license_expired">"Licenca je potekla"</string>
+    <string name="license_expired_message">"Datoteke DRM ni mogoče odpreti"</string>
+    <string name="buy_license">"Kupi licenco"</string>
+    <string name="menu_set_as_wallpaper">"Nastavi sliko za ozadje"</string>
+    <string name="menu_details">"Podrobnosti"</string>
+    <string name="drm_details_title">"Podrobnosti Drm"</string>
+    <string name="dialog_close">"Zapri"</string>
+    <string name="drm_rights_message">"Pravice OMA DRM uspešno shranjene"</string>
+    <string name="drm_text_count">"Št. preostalih : "</string>
+    <string name="drm_text_date_start">"Od : "</string>
+    <string name="drm_text_date_end">"Do : "</string>
+    <string name="drm_text_fwd_lk">"Neomejeno "</string>
+    <string name="drm_text_license">"Licenca Drm : "</string>
+    <string name="drm_text_play">"Predvajaj"</string>
+    <string name="drm_text_display">"Zaslon"</string>
+    <string name="drm_text_title">"Naslov : "</string>
+    <string name="drm_text_location">"Lokacija : "</string>
+    <string name="drm_text_mime_type">"Vrsta MIME : "</string>
+    <string name="error_unable_to_view">"Slika ni najdena"</string></resources>

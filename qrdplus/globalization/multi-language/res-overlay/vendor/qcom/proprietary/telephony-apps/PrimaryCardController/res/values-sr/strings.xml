@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sim_info">"Информације о SIM картици"</string>
+    <string name="close">"Затвори"</string>
+    <string name="change">"Подеси"</string>
+    <string name="new_sim_detected">"Детектована је нова SIM картица:"</string>
+    <string name="default_sim_setting">"Подразумевана подешавања за SIM су:"</string>
+    <string name="mobile_data">"Пренос података преко мобилне мреже:"</string>
+    <string name="slot">"Лежиште"</string>
+    <string name="carrier_name">"(назив оператера)"</string>
+    <string name="mobile_data_on">"укључено"</string>
+    <string name="mobile_data_off">"искључено"</string>
+    <string name="sim_unknown">"Непознат"</string>
+    <string name="sim_absent">"Недостаје"</string>
+    <string name="multi_sim_settings_title">"Поставке за дуал SIM"</string>
+    <string name="lte_switch_unavailable">"Пребацивач 4G/3G SIM картица није доступна"</string>
+    <string name="lte_recognize_summary">"Детектоване су две 4G/3G SIM картице. Треба да подесите подразумевану 4G/3G SIM картицу:"</string>
+    <string name="lte_select_summary">"Изабрана претплата ће бити препозната као 4G/3G картица, а друга картица као 2G картица."</string>
+    <string name="lte_recognize_summary_generic">"Детектоване су две SIM картице, изаберите жељену SIM картицу:"</string>
+    <string name="lte_select_summary_generic">"Изабрана SIM картица ће имати 3G/4G услуге са претплатом за податке."</string>
+    <string name="lte_checkbox_text">"Подесите мобилне податке за изабрану SIM картицу након што промените подразумевану 4G/3G SIM картицу"</string>
+    <string name="select_ok">"У реду"</string>
+    <string name="lte_select_title">"Подразумевана 4G/3G SIM картица"</string>
+    <string name="lte_recognition_title">"Препознавање SIM картице"</string>
+    <string name="reg_failed">"Регистрација није успела"</string>
+    <string name="reg_suc">"Регистрација је успела"</string>
+    <string name="reg_failed_msg">"Регистрација подразумеване 4G/3G SIM картице није успела, %1$s ће бити препозната као 2G SIM картица."</string>
+    <string name="lte_set">"Подеси"</string>
+    <string name="lte_setting">"Подешена је подразумевана 4G/3G SIM картица"</string>
+    <string name="select_cancel">"Откажи"</string>
+    <string name="sim_card_number_title">SIM %1$d</string></resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Mga SDP Setting"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Mga Snapdragon Digital Pen Setting"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"Hindi pinagana"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"Duplicate"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"Off-Screen Mode ng Legacy App :"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"In-Range na Distansya (mm):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"Power Mode:"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"I-optimize ang Katumpakan"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"I-optimize ang Power"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"Uri ng Input:"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"Pagiging Sensitibo ng Mouse:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"Mabagal"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"Katamtaman"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"Mabilis"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"Stylus"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"Daga"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"Joystick"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"Naka-off ang DigitalPen"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"Naka-On ang DigitalPen"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"Smarter Stand"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"Hover sa On-Screen"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"Hover sa Off-Screen"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"Max na Distansya:"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"Ipakita ang hover icon"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"Button ng pambura"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"Indise ng Button:"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"Pagkilos ng Pambura:"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"Hawakan upang burahin"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"Pindutin upang i-toggle"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"Off-Screen na Lokasyon sa Portrait:"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"Kaliwang panig"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"Kanang panig"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"Ihinto ang Pen Kapag Naka-Off ang Screen"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"Simulan ang Pen Kapag Mag-Boot"</string></resources>

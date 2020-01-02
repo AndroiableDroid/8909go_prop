@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The user visible name of the application. [CHAR LIMIT=20] -->
+  <string name="application_name">"एक्सोप्लेयर डेमो"</string>
+  <string name="enable_background_audio">"पृष्ठभूमि में चलाएँ"</string>
+  <string name="video">"वीडियो"</string>
+  <string name="audio">"ऑडियो"</string>
+  <string name="text">"लेख"</string>
+  <string name="logging">"लॉगिंग"</string>
+  <string name="logging_normal">"सामान्य"</string>
+  <string name="logging_verbose">"वर्बोस"</string>
+  <string name="retry">"पुन: प्रयास करें"</string>
+  <string name="off">"[बंद]"</string>
+  <string name="error_drm_not_supported">"18 के नीचे होने वाले API स्तरों पर संरक्षित सामग्री समर्थित नहीं है"</string>
+  <string name="error_drm_unsupported_scheme">"यह डिवाइस आवश्यक DRM योजना को समर्थित नहीं करता है"</string>
+  <string name="error_drm_unknown">"कोई अज्ञात DRM त्रुटि उत्पन्न हुई"</string>
+  <string name="error_no_decoder">"यह डिवाइस <xliff:g id="mime_type">%1$s</xliff:g> के लिए डिकोडर प्रदान नहीं करता है"</string>
+  <string name="error_no_secure_decoder">"यह डिवाइस <xliff:g id="mime_type">%1$s</xliff:g> के लिए सुरक्षित डिकोडर प्रदान नहीं करता है"</string>
+  <string name="error_querying_decoders">"डिवाइस डिकोडर्स क्‍वेरी करने में असमर्थ"</string>
+  <string name="error_instantiating_decoder">"डिकोडर <xliff:g id="decoder_name">%1$s</xliff:g> इंस्टैंशिएट करने में असमर्थ"</string>
+  <string name="storage_permission_denied">"संग्रहण एक्सेस करने की अनुमति अस्वीकृत की गई"</string></resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Wfd ক্লায়েন্ট"</string>
+    <string name="preferences_name">"অভিরুচি"</string>
+    <string name="advanced_preferences_name">"উন্নত অভিরুচি"</string>
+    <string name="surface_activity_name">"সারফেস ক্রিয়াকলাপ"</string>
+    <string name="wfd_resolution_settings">wfd_resolution_settings</string>
+	<string name="resolution_list_title">"আকঙ্খিত রেজোলিউশন"</string>
+	<string name="resolution_list_summary">"রেজোলিউশন নির্বাচন করুন"</string>
+	<string name="resolution_dialog_title">"রেজোলিউশন চয়ন করুন"</string>
+	<string name="resolution_list_options_default_values">0</string>
+	<string name="wfd_bitrate_settings">wfd_bitrate_settings</string>
+	<string name="bitrate_list_title">"আকঙ্খিত বিটরেট"</string>
+	<string name="bitrate_list_summary">"বিটরেট নির্বাচন করুন"</string>
+	<string name="bitrate_dialog_title">"বিটরেট চয়ন করুন"</string>
+	<string name="bitrate_list_options_default_values">12</string>
+	<string name="btn_source">"উৎস"</string>
+	<string name="btn_sink">"সিঙ্ক"</string>
+	<string name="btn_find">"সন্ধান করুন"</string>
+    <string name="btn_create_group">"গোষ্ঠী তৈরি করুন"</string>
+    <string name="btn_remove_group">"গোষ্ঠী অপসারণ করুন"</string>
+	<string name="btn_blank">"খালি"</string>
+	<string name="tv_peers">"পিয়ার্স"</string>
+	<string name="btn_play_pause">"বাজান"</string>
+	<string name="btn_standby_resume">"স্ট্যান্ডবাই"</string>
+	<string name="btn_teardown">"বিচ্ছিন্ন ক:"</string>
+	<string name="btn_start_stop_uibc">"UIBC শুরু করুন"</string>
+	<string name="btn_transport_udp_tcp">"TCP"</string>
+	<string name="btn_flush">"FLUSH"</string>
+    <string name="btn_enable_disable_ds">"DS সক্ষম করুন"</string>
+    <string name="enable_p2p_button">"P2P চালু/বন্ধ"</string>
+    <string name="discover_peers_button">"আবিষ্কার করুন"</string>
+    <string name="connect_peer_button">"সংযোগ করুন"</string>
+    <string name="connect_options_peer_button">"সংযোগ বিকল্পগুলি"</string>
+    <string name="disconnect_peer_button">"সংযোগ ছিন্ন করুন"</string>
+    <string name="start_client_button">"সেশন শুরু করুন"</string>
+    <string name="start_uibc_button">"UIBC শুরু করুন"</string>
+    <string name="empty"></string>
+    <string name="yes">"হ্যাঁ"</string>
+    <string name="no">"না"</string>
+    <string name="client_text">"এই ডিভাইসটি ক্লায়েন্ট হিসাবে কাজ করবে। একটি লোকাল (সঞ্চিত) ফাইল বাছতে গ্যালারি বোতামে ক্লিক করুন"</string>
+    <string name="empty_message">"কোনও ডিভাইস পাওয়া যায়নি। ক্রিয়া বার থেকে অনুসন্ধান বোতামটি নির্বাচন করুন।"</string>
+    <string name="p2p_off_warning">"সিস্টেম সেটিংস থেকে P2P সক্ষম করুন"</string>
+    <string name="group_owner_text">"আমি কি গোষ্ঠী মালিক? "</string>
+    <string name="toggle">"টগল"</string>
+    <string name="filter">"ফিল্টার"</string>
+    <string name="position">"স্থিতি"</string>
+    <string name="expanded">"প্রসারিত"</string></resources>

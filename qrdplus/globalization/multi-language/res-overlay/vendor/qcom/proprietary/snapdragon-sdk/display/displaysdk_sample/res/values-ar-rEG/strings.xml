@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"عرض نموذج SDK"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"عرض الميزات"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"توازن الألوان"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"مدير الأوضاع"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"وضع جديد"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"حذف الوضع"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"تحرير الوضع"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"إلغاء"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"عرض الميزات"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"تنشيط الوضع"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"إدخال اسم الوضع"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"حفظ الوضع"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"اختيار صورة"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"إن نوع الشاشة المتوفر غير مدعوم. تأكد من تفعيل connect()"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"ميزة توازن الألوان غير معتمدة"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"ميزة الإضاءة الخلفية التكيفية غير معتمدة"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"ميزة نقش ورق الشجر في الذاكرة غير معتمدة"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"ميزة درجة لون البشرة في الذاكرة غير معتمدة"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"ميزة اللون الأزرق السماوي في الذاكرة غير معتمدة"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"ميزة ضبط الشاشة غير معتمدة"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"ميزة رؤية ضوء الشمس غير معتمدة"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"تعذر إنشاء وضع جديد"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"تعذر تعديل الوضع"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"إضافة صورة من الاستديو"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"موافق"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"نعم"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"لا"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"لا يتوفر أي أوضاع عرض على الجهاز"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"FEATURE_COLOR_MODE_SELECTION غير معتمدة"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"FEATURE_COLOR_MODE_MANAGEMENT غير معتمدة"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"وظيفة العرض المطلوبة غير متوفرة"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"فشل حذف وضع العرض"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"فشل تنشيط وضع العرض"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"يتعذر تعيين وضع العرض كوضع افتراضي"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"يرجى تحديد وضع أولاً"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"يرجى إدخال اسم للوضع"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"تم إنشاء وضع جديد"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"تعيين الافتراضي"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"لا يمكن تعديل الوضع المحدد كونه وضع النظام. هل تريد إنشاء وضع جديد استنادًا إلى الوضع المحدد؟"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"لا يمكن حذف الوضع المحدد كونه وضع النظام."</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"تعذر الاتصال بخدمة الشاشة المطلوبة"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" تم تنشيط الوضع"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" تم حذف الوضع"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"توازن الألوان"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"رؤية ضوء الشمس"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"ضبط الصورة"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"نقش ورق الشجر في الذاكرة"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"تدرج اللون"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"تشبع اللون"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"الكثافة"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"درجة لون البشرة في الذاكرة"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"اللون الأزرق السماوي في الذاكرة"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" الإضاءة الخلفية التكيفية"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"تمكين واجهة SVI"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"تمكين نقش ورق الشجر في الذاكرة"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"تمكين درجة لون البشرة في الذاكرة"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"تمكين اللون الأزرق السماوي في الذاكرة"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"تمكين ضبط الصورة"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"تمكين الإضاءة التكيفية"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"تمكين إلغاء تشبع ضبط الصورة"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"حد التشبع"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"تدرج اللون"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"تشبع اللون"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"الكثافة"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"التباين"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"مرتفعة"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"متوسطة"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"منخفضة"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"تلقائية"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"تحديث"</string></resources>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/**
+ * Copyright (C) 2014 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- General provisioning strings used for both device owner and work profile provisioning -->
+  <!-- Title of the provisioning error dialog. [CHAR LIMIT=45] -->
+  <string name="provisioning_error_title">"Rất tiếc!"</string>
+  <!-- Work profile provisioning flow UI. -->
+  <!-- User consent -->
+  <!-- Title of all work profile setup screens. [CHAR LIMIT=NONE] -->
+  <string name="setup_work_profile">"Thiết lập hồ sơ của bạn"</string>
+  <!-- The text that asks for user consent to create a work profile [CHAR LIMIT=NONE] -->
+  <string name="company_controls_workspace">"Tổ chức của bạn kiểm soát và giữ bảo mật hồ sơ này. Bạn kiểm soát mọi thứ khác trên thiết bị của mình."</string>
+  <!-- The text that asks for user consent to set up a work device [CHAR LIMIT=NONE] -->
+  <string name="company_controls_device">"Tổ chức của bạn sẽ kiểm soát và giữ an toàn cho thiết bị này."</string>
+  <!-- String shown above the icon of the app that will control the work profile after it is set up. [CHAR LIMIT=NONE]-->
+  <string name="the_following_is_your_mdm">"Ứng dụng sau cần quyền truy cập vào hồ sơ này:"</string>
+  <!-- String shown above the icon of the app that will control the work device after it is set up. [CHAR LIMIT=NONE]-->
+  <string name="the_following_is_your_mdm_for_device">"Ứng dụng sau sẽ quản lý thiết bị của bạn:"</string>
+  <!-- String for positive button on user consent dialog for creating a profile [CHAR LIMIT=NONE] -->
+  <string name="set_up">"Thiết lập"</string>
+  <!-- Progress text shown when setting up work profile [CHAR LIMIT=NONE] -->
+  <string name="setting_up_workspace">"Đang thiết lập hồ sơ công việc..."</string>
+  <!-- Text in a pop-up that asks the user to confirm that they allow the mobile device management app to take control of the profile they are creating. [CHAR LIMIT=NONE]-->
+  <string name="admin_has_ability_to_monitor_profile">"Quản trị viên của bạn có thể giám sát và quản lý cài đặt, quyền truy cập của công ty, các ứng dụng, quyền và dữ liệu được liên kết với hồ sơ, bao gồm cả hoạt động mạng và thông tin vị trí của thiết bị."</string>
+  <!-- Text in a pop-up that asks the user to confirm that they allow the mobile device management app to take control of the device. [CHAR LIMIT=NONE]-->
+  <string name="admin_has_ability_to_monitor_device">"Quản trị viên của bạn có thể giám sát và quản lý cài đặt, quyền truy cập của công ty, ứng dụng, quyền và dữ liệu được liên kết với thiết bị này, bao gồm hoạt động mạng và thông tin về vị trí của thiết bị."</string>
+  <!-- Text in a pop-up that asks the user to confirm that theft protection will be disabled. [CHAR LIMIT=NONE]-->
+  <string name="theft_protection_disabled_warning">"Nếu bạn tiếp tục, tính năng chống trộm sẽ không được bật. Để bật tính năng chống trộm, hãy hủy ngay bây giờ và thiết lập thiết bị này là thiết bị cá nhân."</string>
+  <!-- String telling the user how to get more information about their work profile-->
+  <string name="contact_your_admin_for_more_info">"Hãy liên hệ với quản trị viên của bạn để biết thêm thông tin, bao gồm các chính sách bảo mật của tổ chức bạn."</string>
+  <!-- Text on the link that will forward the user to a website with more information about work profiles [CHAR LIMIT=30]-->
+  <string name="learn_more_link">"Tìm hiểu thêm"</string>
+  <!-- Text on negative button in a popup shown to the user to confirm that they want to start setting up a work profile [CHAR LIMIT=15]-->
+  <string name="cancel_setup">"HỦY"</string>
+  <!-- Text on positive button in a popup shown to the user to confirm that they want to start setting up a work profile [CHAR LIMIT=15]-->
+  <string name="ok_setup">"OK"</string>
+  <!-- Default profile name used for the creation of work profiles. [CHAR LIMIT=NONE] -->
+  <string name="default_managed_profile_name">"Hồ sơ công việc"</string>
+  <!-- Title on the dialog that prompts the user to confirm that they really want to delete their existing work profile-->
+  <string name="delete_profile_title">"Xóa hồ sơ công việc?"</string>
+  <!-- Opening string on the dialog that prompts the user to confirm that they really want to delete
+       their existing work profile. The administration app icon and name appear after the final
+       colon. [CHAR LIMIT=NONE] -->
+  <string name="opening_paragraph_delete_profile_unknown_company">"Hồ sơ làm việc đã tồn tại và được quản lý bởi:"</string>
+    <!-- Opening string on the dialog that prompts the user to confirm that they really want to delete
+         their existing work profile. The administration app icon and name appear after the final
+         colon, the %s is replaced by the domain name of the organization that owns the work
+         profile. [CHAR LIMIT=NONE] -->
+  <string name="opening_paragraph_delete_profile_known_company">"Hồ sơ công việc này được quản lý cho %s bằng:"</string>
+  <!-- String on the dialog that links through to more information about the profile management application. -->
+  <string name="read_more_delete_profile">"Trước khi tiếp tục, "<a href="#read_this_link">"hãy đọc thông tin sau"</a>"."</string>
+  <!-- String on the dialog that prompts the user to confirm that they really want to delete their existing work profile-->
+  <string name="sure_you_want_to_delete_profile">"Tất cả ứng dụng và dữ liệu trong hồ sơ này sẽ bị xóa nếu bạn tiếp tục."</string>
+  <!-- String on the button that triggers the deletion of a work profile.-->
+  <string name="delete_profile">"XÓA"</string>
+  <!-- String on the button that cancels out of the deletion of a work profile.-->
+  <string name="cancel_delete_profile">"HỦY"</string>
+  <!-- String shown on prompt for user to encrypt and reboot the device, in case of profile setup [CHAR LIMIT=NONE]-->
+  <string name="encrypt_device_text_for_profile_owner_setup">"Để tiếp tục thiết lập hồ sơ công việc, bạn cần mã hóa thiết bị của mình. Quá trình này có thể mất vài phút."</string>
+  <!-- String shown on prompt for user to encrypt and reboot the device, in case of device setup [CHAR LIMIT=NONE]-->
+  <string name="encrypt_device_text_for_device_owner_setup">"Để tiếp tục thiết lập thiết bị, bạn cần mã hóa thiết bị của mình. Quá trình này có thể mất vài phút."</string>
+  <!-- String shown on button for user to cancel setup when asked to encrypt device. [CHAR LIMIT=20]-->
+  <string name="encrypt_device_cancel">"HỦY"</string>
+  <!-- String shown on button for user to continue to settings to encrypt the device. [CHAR LIMIT=20]-->
+  <string name="encrypt_device_launch_settings">"MÃ HÓA"</string>
+  <!-- Title for reminder notification to resume provisioning after encryption [CHAR LIMIT=30] -->
+  <string name="continue_provisioning_notify_title">"Hoàn tất mã hóa"</string>
+  <!-- Body for reminder notification to resume provisioning after encryption [CHAR LIMIT=NONE] -->
+  <string name="continue_provisioning_notify_text">"Chạm để tiếp tục thiết lập hồ sơ công việc của bạn"</string>
+  <!-- Explains the failure and what to do to next. [CHAR LIMIT=NONE] -->
+  <string name="managed_provisioning_error_text">"Không thiết lập được hồ sơ công việc của bạn. Hãy liên hệ với bộ phận CNTT hoặc thử lại sau."</string>
+  <!-- Error string displayed if this device doesn't support work profiles. -->
+  <string name="managed_provisioning_not_supported">"Thiết bị của bạn không hỗ trợ hồ sơ công việc"</string>
+  <!-- Error string displayed if the user that initiated the provisioning is not the user owner. -->
+  <string name="user_is_not_owner">"Hồ sơ công việc cần phải do người dùng chính của thiết bị thiết lập"</string>
+  <!-- Error string displayed if provisioning was initiated on a device with a Device Owner -->
+  <string name="device_owner_exists">"Không thể thiết lập hồ sơ công việc trên thiết bị được quản lý"</string>
+  <!-- Error string displayed if maximum user limit is reached -->
+  <string name="maximum_user_limit_reached">"Không thể tạo hồ sơ công việc vì bạn đã đạt tới số người dùng tối đa trên thiết bị của mình. Hãy xóa ít nhất một người dùng và thử lại."</string>
+  <!-- Error string displayed if the selected launcher doesn't support work profiles. -->
+  <string name="managed_provisioning_not_supported_by_launcher">"Hồ sơ công việc của bạn không được ứng dụng trình chạy này hỗ trợ. Bạn cần chuyển sang trình chạy tương thích."</string>
+  <!-- Button text for the button that cancels provisioning  -->
+  <string name="cancel_provisioning">"HỦY"</string>
+  <!-- Button text for the button that opens the launcher picker  -->
+  <string name="pick_launcher">"OK"</string>
+  <!-- Device owner provisioning flow UI. -->
+  <!-- Default username for the user of the owned device. [CHAR LIMIT=45] -->
+  <string name="default_owned_device_username">"Người dùng thiết bị cơ quan"</string>
+  <!-- Title of the work device setup screen. [CHAR LIMIT=NONE] -->
+  <string name="setup_work_device">"Thiết lập thiết bị của bạn"</string>
+  <!-- Progress text indicating that the setup data is processed. [CHAR LIMIT=45] -->
+  <string name="progress_data_process">"Đang xử lý dữ liệu thiết lập..."</string>
+  <!-- Progress text indicating that wifi is set up. [CHAR LIMIT=45] -->
+  <string name="progress_connect_to_wifi">"Đang kết nối Wi-Fi\u2026"</string>
+  <!-- Progress text indicating that the device admin package is being downloaded. [CHAR LIMIT=45] -->
+  <string name="progress_download">"Đang tải xuống ứng dụng quản trị..."</string>
+  <!-- Progress text indicating that the device admin package is being installed. [CHAR LIMIT=45] -->
+  <string name="progress_install">"Đang cài đặt ứng dụng quản trị..."</string>
+  <!-- Progress text indicating that the device admin package is set as ownder. [CHAR LIMIT=45] -->
+  <string name="progress_set_owner">"Đang đặt chủ sở hữu thiết bị..."</string>
+  <!-- Message of the cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_cancel_message">"Dừng thiết lập và xóa dữ liệu trên thiết bị của bạn?"</string>
+  <!-- Cancel button text of the cancel dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_cancel_cancel">"HỦY"</string>
+  <!-- OK button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_error_ok">"OK"</string>
+  <!-- Reset button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_error_reset">"ĐẶT LẠI"</string>
+  <!-- Message of the error dialog in case of an unspecified error. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_general">"Không thiết lập được thiết bị của bạn. Hãy liên hệ với bộ phận CNTT."</string>
+  <!-- Message of the error dialog when already provisioned. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_already_provisioned">"Thiết bị này đã được thiết lập."</string>
+  <!-- Message of the error dialog when a secondary user has already been provisioned. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_already_provisioned_user">"Thiết bị này đã được thiết lập cho người dùng này."</string>
+  <!-- Message of the error dialog when setting up wifi failed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_wifi">"Không thể kết nối với Wi-Fi"</string>
+  <!-- Message of the error dialog when passing factory reset protection fails. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_frp">"Thiết bị này bị khóa bởi tính năng bảo vệ chống khôi phục cài đặt gốc. Hãy liên hệ với bộ phận CNTT của bạn."</string>
+  <!-- Message informing the user that the factory reset protection partition is being erased [CHAR LIMIT=30] -->
+  <string name="frp_clear_progress_title">"Đang xóa"</string>
+  <!-- Progress screen text shown while erasing the factory reset protection partition [CHAR LIMIT=75] -->
+  <string name="frp_clear_progress_text">"Vui lòng chờ..."</string>
+  <!-- Message of the error dialog when data integrity check fails. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_hash_mismatch">"Không sử dụng được ứng dụng quản trị do có lỗi kiểm tra tổng. Hãy liên hệ với bộ phận CNTT."</string>
+  <!-- Message of the error dialog when device owner apk could not be downloaded. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_download_failed">"Không thể tải xuống ứng dụng quản trị"</string>
+  <!-- Message of the error dialog when package to install is invalid. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_invalid">"Không thể sử dụng ứng dụng quản trị. Ứng dụng thiếu thành phần hoặc bị lỗi. Hãy liên hệ với bộ phận CNTT."</string>
+  <!-- Message of the error dialog when the name of the admin package to be installed is invalid. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_name_invalid">"Không thể cài đặt ứng dụng quản trị. Tên gói không hợp lệ. Hãy liên hệ với bộ phận CNTT."</string>
+  <!-- Message of the error dialog when package could not be installed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_installation_failed">"Không thể cài đặt ứng dụng quản trị"</string>
+  <!-- Message of the error dialog when device admin package is not installed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_not_installed">"Ứng dụng quản trị chưa được cài đặt trên thiết bị của bạn"</string>
+  <!-- Message of the cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="profile_owner_cancel_message">"Dừng thiết lập?"</string>
+  <!-- Cancel button text of the cancel dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancel_cancel">"KHÔNG"</string>
+  <!-- OK button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancel_ok">"CÓ"</string>
+  <!-- Message of the cancel progress dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancelling">"Đang hủy\u2026"</string>
+  <!-- Title of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_later_title">"Dừng thiết lập hồ sơ?"</string>
+  <!-- Message of the work profile setup cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="work_profile_setup_later_message">"Bạn có thể thiết lập hồ sơ công việc của mình sau này từ ứng dụng quản lý thiết bị được tổ chức bạn sử dụng."</string>
+  <!-- Cancel button text of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_continue">"TIẾP TỤC"</string>
+  <!-- OK button text of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_stop">"DỪNG"</string>
+  <!-- CertService -->
+  <!-- Title of a status bar notification for a service which installs CA certificates to secondary users. [CHAR LIMIT=45] -->
+  <string name="provisioning">"Đang cấp phép"</string>
+  <!-- Content of a status bar notification for a service which installs CA certificates to secondary users. [CHAR LIMIT=45] -->
+  <string name="copying_certs">"Đang thiết lập chứng chỉ CA"</string>
+  <!-- Accessibility Descriptions -->
+  <!-- Accessibility description for the profile setup screen showing organization info. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_start_setup">"Thiết lập hồ sơ của bạn. Bắt đầu thiết lập"</string>
+  <!-- Accessibility description for the profile setup screen showing encryption info. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_encryption">"Thiết lập hồ sơ của bạn. Mã hóa"</string>
+  <!-- Accessibility description for the profile setup screen showing progress. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_progress">"Thiết lập hồ sơ của bạn. Hiển thị tiến độ"</string>
+  <!-- Accessibility description for the device setup screen showing company info. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_start_setup">"Thiết lập thiết bị của bạn. Bắt đầu thiết lập"</string>
+  <!-- Accessibility description for the device setup screen showing encryption info. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_encryption">"Thiết lập thiết bị của bạn. Mã hóa"</string>
+  <!-- Accessibility description for the device setup screen showing progress. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_progress">"Thiết lập thiết bị của bạn. Hiển thị tiến độ"</string>
+  <!-- Accessibility description for the learn more link in user consent dialog. [CHAR LIMIT=NONE] -->
+  <string name="learn_more_label">"Nút Tìm hiểu thêm"</string>
+  <!-- Accessibility description for the company icon. [CHAR LIMIT=NONE] -->
+  <string name="mdm_icon_label">"Biểu tượng <xliff:g id="ICON_LABEL">%1$s</xliff:g>"</string></resources>

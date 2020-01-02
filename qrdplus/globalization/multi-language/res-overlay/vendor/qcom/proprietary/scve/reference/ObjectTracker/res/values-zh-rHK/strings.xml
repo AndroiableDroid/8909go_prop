@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"物件追蹤器示範"</string>
+    <string name="open_camera_failed">"我們在您的裝置開啟相機時出現錯誤。  請關閉其他可能正使用相機的應用程式並再次啟動此應用程式。"</string>
+    <string name="snapshot_failed">"我們在進行快拍時出現錯誤。 請檢查  Logcat 了解錯誤詳情。"</string>
+    <string name="video_recording_failed">"我們在進行錄影時出現錯誤。 請檢查  Logcat 了解錯誤詳情。"</string>
+    <string name="settings">"設定"</string>
+    <string name="switch_camera">"切換相機"</string>
+    <string name="switch_camera_mode">"切換相片／影片模式"</string></resources>

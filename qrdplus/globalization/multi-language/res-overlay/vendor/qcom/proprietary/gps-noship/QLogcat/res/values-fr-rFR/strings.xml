@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"Détaillé"</item>
+        <item>"Débogage"</item>
+        <item>"Informations"</item>
+        <item>"Avertissement"</item>
+        <item>"Erreur"</item>
+        <item>"Fatal"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"Carte SD"</item>
+        <item>"Mémoire interne"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"Impossible d\'écrire dans le fichier journal. Les messages du journal ne sont pas enregistrés. Le processus d\'enregistrement reprend automatiquement une fois le fichier journal à nouveau disponible."</string>
+    <string name="err_lowspace">"Espace faible détecté. Les messages du journal ne sont pas enregistrés. Le processus d\'enregistrement reprendra dès que l\'espace sera suffisant."</string>
+  <string name="txtTag_text">"nom de tag"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"Description Logcat"</string></resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IMS settings related strings -->
+    <!-- Title displayed IMS account settings in the sip settings category. [CHAR LIMIT=NONE] -->
+    <string name="ims_settings">"Mipangilio ya IMS"</string>
+    <string name="ims_vt_call_quality_title">"Ubora wa Simu ya VT"</string>
+    <string name="ims_vt_call_quality_low">"Chini"</string>
+    <string name="ims_vt_call_quality_high">"Juu"</string>
+    <string name="ims_vt_call_quality_unknown">"Haijulikani"</string>
+    <string name="ims_vt_call_quality_set_failed">"Haikufaulu kupiga simu ya video"</string>
+    <string name="ims_get_packet_count_failed">"Haijafaulu kupata hesabu la pakiti"</string>
+    <string name="ims_get_packet_error_count_failed">"Haijafaulu kupata hesabu la hitilafu ya pakiti"</string>
+    <string name="ims_get_packet_count_label">"bofya hapa upate hesabu la pakiti"</string>
+    <string name="ims_get_packet_error_count_label">"bofya hapa upate hesabu la hitilafu ya pakiti"</string>
+    <string name="qti_ims_call_deflect_title">"Nambari ya Kubadilisha Simu Iliyopigwa"</string>
+    <string name="qti_ims_number_not_set">"Haijawekwa"</string>
+    <!-- IMS to CS Retry setting title.  [CHAR LIMIT=30] -->
+    <string name="ims_to_cs_retry_title">"Jaribio lipya la CS"</string>
+    <!-- IMS to CS Retry setting summary.  [CHAR LIMIT=80] -->
+    <string name="ims_to_cs_retry_summary">"Jaribu upya kioto na mawasiliano wa sauti ya mara kwa mara (Inapendekezwa)"</string></resources>

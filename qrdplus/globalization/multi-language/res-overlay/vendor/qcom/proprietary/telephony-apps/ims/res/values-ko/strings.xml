@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incoming_call_failed_low_battery">"배터리 부족으로 수신 전화를 받지 못합니다."</string>
+    <!-- Notification manager HD icon title. -->
+    <string name="device_is_hd_capable">"기기가 HD를 지원합니다."</string>
+    <string name="call_hold_label">"통화 대기:"</string>
+    <string name="call_resume_label">"통화 재개:"</string>
+    <string name="error_msg_failed">" 실패함"</string>
+    <string name="error_msg_cancelled">" 취소됨"</string>
+    <string name="error_msg_reinvite_collision">" 다시 초대 충돌"</string>
+    <string name="handover_from_wifi_to_lte">"보다 나은 품질을 위해 LTE 네트워크로 전환"</string>
+    <!-- Wifi calling QuickSettings strings -->
+    <string name="wifi_calling_on">"Wifi 통화 켜기"</string>
+    <string name="wifi_calling_off">"Wifi 통화 끄기"</string></resources>

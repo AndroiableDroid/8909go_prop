@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK ဒီမိုများ"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"အပိတ်ဖန်သားပြင်ကို တိုးချဲ့ထားသည်"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"နောက်ခံ ဘေး-ချန်နယ်"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"လက်ချောင်းနှင့် Stylus + ဖိအား"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"ဝင်ရိုး တိမ်းစောင်းမှု"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"ရစ်ဝဲမှုနှင့် ဘေးခလုတ်"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"ခဲဖျက်နှင့် Eraser Bypass"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"ဤဒီမိုသည် အပိတ်-ဖန်သားပြင်ဝိသေသကို ထင်ရှားစေသည်။\n\n1. အပိတ်-ဖန်သားပြင်ရေးဆွဲပြီး ညာဘက်ရှိသင်၏ ရေးဆွဲမှုကို ကြည့်ရှုပါ။\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. ဖန်သားပြင်တစ်ခုလုံးနီးပါး၏ ညာဘက်အောက်ခြေထောင့်သည် ခလုတ်တစ်ခုဖြစ်သည်။ စက်ဝန်း၏ ဖောက်ထွင်းမမြင်ရမှုကိုပြောင်းရန် ၎င်းမှအမြင့်နေရာအသီးသီးတွင် ရစ်ဝဲပါ။ \n\n3. စက်ဝန်း၏အရောင်ကိုပြောင်းရန် ၎င်းကိုနှိပ်ပါ။"</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"ဤဒီမိုသည် ဖန်သားပြင် ပွင့် (သို့) ပိတ်နေစဉ် နောက်ခံ ဘေးချန်နယ် မည်သို့လုပ်ဆောင်နိုင်ပုံကို ပြသသည်။\n\n1. အပိတ်-ဖန်သားပြင် ရေးဆွဲပြီး သင်၏ရေးဆွဲမှုကို ကြည့်ရှုပါ။\n\n2. ယခု အခြားအက်ပ်သို့ လှည့်ပြောင်းပါ (သို့) သင်၏ရေးဆွဲမှုကို ဆက်လက်မှတ်တမ်းတင်နေသည့် ဖန်သားပြင်အပိတ် သတ်မှတ်ပါ။"</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"အဖွင့်-ဖန်သားပြင် ရစ်ဝဲမှု"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. ဖန်သားပြင်မှ အမြင့်နေရာအသီးသီးတွင် ရစ်ဝဲပါ။\n\n2. ရစ်ဝဲမှုကိုပိတ်ရန် လှည့်ပြောင်းခလုတ်ကို အသုံးပြုပါ။\n\n3. ရစ်ဝဲမှုဖြစ်ရပ်များအတွက် အများဆုံးအကွာအဝေးကို သတ်မှတ်ရန် ပွတ်ဆွဲကိရိယာကို အသုံးပြုပါ။\n\n4. ဘေး-ခလုတ်များကိုနှိပ်ခြင်းသည် ရစ်ဝဲမှုစက်ဝန်း အရောင်ကို ပြောင်းသွားမည်။"</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. ဂလိုဘယ် သတ်မှတ်ချက်များရှိ SDP ခလုတ်ကို ခဲဖျက် ခလုတ်သို့ စီစဉ်ဖွဲ့စည်းပါ။\n\n2. ရေးဆွဲပါ။\n\n3. လှည့်ပြောင်းခလုတ်ကိုနှိပ်ရန် ခဲဖျက်သတ်မှတ်ပါ။ ခဲဖျက်ခလုတ်ကိုနှိပ်ပါ။ ဖျက်ပစ်ပါ။ ဖောင်တိန်အနေအထားသို့ လှည့်ပြောင်းရန်၊ ခဲဖျက်ခလုတ်ကို ထပ်မံနှိပ်ပါ။\n\n4. ဖျက်ပစ်ရန် ခဲဖျက်ကို သတ်မှတ်ပါ။ ယခု ရုတ်တရက် တို့ထိရုံဖြင့် ဖျက်ပစ်နိုင်သည်။\n\n5. ခဲဖျက် လုပ်ဆောင်နိုင်စွမ်းကိုပိတ်ရန် eraser bypass လှည့်ပြောင်းမှုကို ယခုပင် အသုံးပြုပါ။"</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"ကြားခံ ခဲဖျက်"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"နောက်ခံ ပတ္တူကိုဖျက်ပစ်ပါ"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"ဖောင်တိန်ဖြင့် ရေးဆွဲပြီး၊ သင်၏လက်ချောင်းဖြင့် ရေးဆွဲပါ။\nမတူညီသည့် အရောင်ဖြင့် နည်းလမ်းနှစ်ခုကို မှတ်မိစေသည်။\nရိုက်ချက်အကျယ်ကို ဖိအားမှ သတ်မှတ်ပေးပြီး၊ ၎င်းကို အရေအတွက်အားဖြင့်လည်း မြင်တွေ့နိုင်သည်။"</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"ဖိအား"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

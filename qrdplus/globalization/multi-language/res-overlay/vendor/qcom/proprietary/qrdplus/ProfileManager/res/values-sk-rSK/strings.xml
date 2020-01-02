@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Správca profilov"</string>
+    <string name="setting_title">"Nový profil"</string>
+    <string name="edit_title">"Upraviť profil"</string>
+    <!--def_volume-->
+    <integer name="def_volume">5</integer>
+    <!--Name-->
+    <string name="name_settings">"Meno"</string>
+    <string name="name_title">"Názov profilu"</string>
+    <string name="name_summary">"Zadajte názov profilu"</string>
+    <!--Sound-->
+    <string name="sound_settings">"Zvuk"</string>
+    <string name="silent_mode_title">"Tichý režim"</string>
+    <string name="silent_mode_summary">"Potlačiť všetky zvuky  "</string>
+    <string name="ss_ringtone_title">"Tón zvonenia telefónu"</string>
+    <string name="slot1_ringtone_title">"Zvonenie telefónu Slot1"</string>
+    <string name="slot2_ringtone_title">"Zvonenie telefónu Slot2"</string>
+    <string name="vibrate_title">"Vibrovať"</string>
+    <string name="vibrate_summary">"Vibračná spätná väzba pri hovoroch a upozorneniach  "</string>
+    <string name="ringvolume_title">"Hlasitosť"</string>
+    <string name="ringvolume_summary">"Hlasitosť"</string>
+    <!--Wireless-->
+    <string name="wireless_settings">"Bezdrôtové"</string>
+    <string name="data_title">"Mobilná sieť"</string>
+    <string name="data_summaryOn">"Povolené"</string>
+    <string name="data_summaryOff">"Vypnuté"</string>
+    <string name="wifi_title">"Wi-Fi"</string>
+    <string name="wlan_title">"WLAN"</string>
+    <string name="wifi_summaryOn">"Povolené"</string>
+    <string name="wifi_summaryOff">"Vypnuté"</string>
+    <string name="bluetooth_title">"Bluetooth"</string>
+    <string name="bluetooth_summaryOn">"Povolené"</string>
+    <string name="bluetooth_summaryOff">"Vypnuté"</string>
+    <!--Location-->
+    <string name="location_settings">"Miesto"</string>
+    <string name="gps_location_title">"Podľa GPS"</string>
+    <string name="gps_location_summaryOn">"Povolené"</string>
+    <string name="gps_location_summaryOff">"Vypnuté"</string>
+    <string name="network_location_title">"Podľa siete"</string>
+    <string name="network_location_summaryOn">"Povolené"</string>
+    <string name="network_location_summaryOff">"Vypnuté"</string>
+    <!--Display-->
+    <string name="display_settings">"Zobrazenie"</string>
+    <string name="brightness_title">"Jas"</string>
+    <string name="brightness_summary">"Jas"</string>
+    <string name="general">"Všeobecné"</string>
+    <string name="meeting">"Stretnutie"</string>
+    <string name="outing">"Vychádzka"</string>
+    <string name="silent">"Tichý režim"</string>
+    <string name="powersave">"Šetrenie energie"</string>
+    <string name="menu_add">"Vytvoriť nový profil"</string>
+    <string name="menu_delete">"Odstrániť"</string>
+    <string name="menu_reset">"Obnoviť"</string>
+    <string name="save">"Uložiť"</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Zrušiť"</string>
+    <string name="default_name">"Nový profil"</string>
+    <string name="dialog_edit_title">"Možnosti profilu"</string>
+    <string name="dialog_reset_title">"Obnoviť profily"</string>
+    <string name="dialog_reset_message">"Obnoviť všetky profily na predvolené nastavenia? (nové profily sa odstránia)"</string>
+    <string name="dialog_sound_volume">"Hlasitosť"</string>
+    <string name="dialog_ring_volume_title">"Zvonenia a upozornenia"</string>
+    <string name="dialog_music_volume_title">"Hudba"</string>
+    <string name="dialog_alarm_volume_title">"Budík"</string>
+    <string name="dialog_display">"Jas"</string>
+    <string name="dialog_brightness_title">"Jas obrazovky"</string>
+    <string name="main_textview_top">"Stlačením a podržaním upravte profil"</string>
+    <string name="profile_enable">"aktivované"</string>
+    <string name="delete">"Odstrániť"</string>
+    <string name="edit">"Upraviť"</string>
+    <string name="current_profile_name">"Aktuálny profil"</string>
+    <string name="ringtone_title">"Tón zvonenia"</string>
+    <string name="ringtone_setting_title">"Tón zvonenia telefónu"</string>
+    <string name="ringtone_setting_summary"></string>
+    <string name="ringtone_tab_title">"Nastavenia tónu zvonenia"</string>
+    <string name="deleteConfirmation">"Tento profil bude odstránený."</string>
+    <string name="name_empty_alert">"Názov profilu je prázdny. Nový názov profilu nastavte po kliknutí na názov profilu."</string></resources>

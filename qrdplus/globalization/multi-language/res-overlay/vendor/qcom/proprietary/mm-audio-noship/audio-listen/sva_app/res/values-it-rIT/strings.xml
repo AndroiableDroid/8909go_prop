@@ -1,0 +1,249 @@
+<?xml version="1.0" standalone="no"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SVA 2.0"</string>
+    <add-resource type="string" name="dialog_cancel"/>
+    <string name="dialog_cancel">"Annulla"</string>
+    <add-resource type="string" name="dialog_save"/>
+    <string name="dialog_save">"Salva"</string>
+    <add-resource type="string" name="dialog_ok"/>
+    <string name="dialog_ok">"OK"</string>
+    <add-resource type="string" name="dialog_delete"/>
+    <string name="dialog_delete">"Elimina"</string>
+    <string name="none"/>
+    <add-resource type="string" name="detection_menu_voicerequests"/>
+    <string name="detection_menu_voicerequests">"Richieste vocali"</string>
+    <add-resource type="string" name="detection_menu_settings"/>
+    <string name="detection_menu_settings">"Impostazioni"</string>
+    <add-resource type="string" name="detection_menu_version"/>
+    <string name="detection_menu_version">"Numero versione"</string>
+    <add-resource type="string" name="detection_menu_testone"/>
+    <string name="detection_menu_testone">"Test richiesta vocale"</string>
+    <add-resource type="string" name="home_menu_query"/>
+    <string name="home_menu_query">"Query"</string>
+    <add-resource type="string" name="home_soundmodel"/>
+    <string name="home_soundmodel">"Modello audio"</string>
+    <add-resource type="string" name="home_startvoiceactivation"/>
+    <string name="home_startvoiceactivation">"Avvia rilevamento"</string>
+    <add-resource type="string" name="home_stopvoiceactivation"/>
+    <string name="home_stopvoiceactivation">"Interrompi rilevamento"</string>
+    <add-resource type="string" name="home_advanceddetail"/>
+    <string name="home_advanceddetail">"DETTAGLI AVANZATI"</string>
+    <add-resource type="string" name="detection_advanceddetail_keyworduser"/>
+    <string name="detection_advanceddetail_keyworduser">"Parola chiave:"</string>
+    <add-resource type="string" name="home_advanceddetail_user"/>
+    <string name="home_advanceddetail_user">"Utente:"</string>
+    <add-resource type="string" name="detection_advanceddetail_detections"/>
+    <string name="detection_advanceddetail_detections">"Rilevamenti:"</string>
+    <add-resource type="string" name="detection_advanceddetail_keyphrase"/>
+    <string name="detection_advanceddetail_keyphrase">"Frase chiave:"</string>
+    <add-resource type="string" name="detection_advanceddetail_user"/>
+    <string name="detection_advanceddetail_user">"Utente:"</string>
+    <add-resource type="string" name="detection_advanceddetail_voicerequests"/>
+    <string name="detection_advanceddetail_voicerequests">"Richieste vocali:"</string>
+    <add-resource type="string" name="detection_advanceddetail_initialdetections"/>
+    <string name="detection_advanceddetail_initialdetections">0</string>
+    <add-resource type="string" name="detection_advanceddetail_initialscore"/>
+    <string name="detection_advanceddetail_initialscore">0</string>
+    <add-resource type="string" name="detection_advanceddetail_initialvoicerequests"/>
+    <string name="detection_advanceddetail_initialvoicerequests">0</string>
+    <add-resource type="string" name="detection_advanceddetail_scorepossible"/>
+    <string name="detection_advanceddetail_scorepossible">/100</string>
+    <add-resource type="string" name="home_dialog_startingvoiceactivation"/>
+    <string name="home_dialog_startingvoiceactivation">"Avvio di Voice Activation"</string>
+    <add-resource type="string" name="home_dialog_stoppingvoiceactivation"/>
+    <string name="home_dialog_stoppingvoiceactivation">"Interruzione di Voice Activation"</string>
+    <add-resource type="string" name="home_dialog_pleasewait"/>
+    <string name="home_dialog_pleasewait">"Attendere prego\u2026... "</string>
+    <add-resource type="string" name="home_dialog_badlibs_title"/>
+    <string name="home_dialog_badlibs_title">"Lib. ascolti mancante/non compatibile"</string>
+    <add-resource type="string" name="home_dialog_badlibs_message"/>
+    <string name="home_dialog_badlibs_message">"Impossibile procedere. Fare clic su OK per chiudere l\'app."</string>
+    <add-resource type="string" name="soundmodels_top_title"/>
+    <string name="soundmodels_top_title">"Modelli audio"</string>
+    <add-resource type="string" name="soundmodels_dialog_createyourown"/>
+    <string name="soundmodels_dialog_createyourown">"Crea frase chiave..."</string>
+    <add-resource type="string" name="soundmodels_dialog_invalidselection"/>
+    <string name="soundmodels_dialog_invalidselection">"Selezione non valida"</string>
+    <add-resource type="string" name="soundmodels_dialog_createyourownmultiselecterror"/>
+    <string name="soundmodels_dialog_createyourownmultiselecterror">"Per creare la propria frase chiave, selezionare solo l\'opzione \"Crea frase chiave...\"."</string>
+    <add-resource type="string" name="soundmodels_dialog_namekeyphrase_title"/>
+    <string name="soundmodels_dialog_namekeyphrase_title">"Nome nuova frase chiave"</string>
+    <add-resource type="string" name="soundmodels_dialog_namekeyphrase_message"/>
+    <string name="soundmodels_dialog_namekeyphrase_message">"Immettere un nome per la nuova frase chiave:"</string>
+    <add-resource type="string" name="soundmodels_dialog_namesoundmodel_title"/>
+    <string name="soundmodels_dialog_namesoundmodel_title">"Nome nuovo modello audio"</string>
+    <add-resource type="string" name="soundmodels_dialog_namesoundmodel_message"/>
+    <string name="soundmodels_dialog_namesoundmodel_message">"Immettere un nome per il nuovo "</string>
+    <add-resource type="string" name="soundmodels_dialog_adduser_title"/>
+    <string name="soundmodels_dialog_adduser_title">"Aggiungi nuovo utente"</string>
+    <add-resource type="string" name="soundmodels_dialog_adduser_message"/>
+    <string name="soundmodels_dialog_adduser_message">"Immettere il nome dell\'utente da formare:"</string>
+    <add-resource type="string" name="soundmodels_dialog_adduser_starttrainging"/>
+    <string name="soundmodels_dialog_adduser_starttrainging">"Avvia formazione"</string>
+    <add-resource type="string" name="soundmodels_dialog_deletesoundmodel_title"/>
+    <string name="soundmodels_dialog_deletesoundmodel_title">"Elimina modello audio"</string>
+    <add-resource type="string" name="soundmodels_dialog_train_title"/>
+    <string name="soundmodels_dialog_train_title">"Formazione modello audio"</string>
+    <add-resource type="string" name="soundmodels_dialog_train_content"/>
+    <string name="soundmodels_dialog_train_content">"Formazione richiesta per la creazione di un modello audio per questo utente."</string>
+    <add-resource type="string" name="soundmodels_dialog_option_deletesoundmodel"/>
+    <string name="soundmodels_dialog_option_deletesoundmodel">"Elimina modello audio"</string>
+    <add-resource type="string" name="soundmodels_dialog_option_starttrain"/>
+    <string name="soundmodels_dialog_option_starttrain">"Avvia formazione"</string>
+    <add-resource type="string" name="soundmodels_dialog_selectakeyphrase_title"/>
+    <string name="soundmodels_dialog_selectakeyphrase_title">"Seleziona frase chiave"</string>
+    <add-resource type="string" name="soundmodels_dialog_duplicate_title"/>
+    <string name="soundmodels_dialog_duplicate_title">"Modello audio già esistente"</string>
+    <add-resource type="string" name="soundmodels_dialog_duplicate_message"/>
+    <string name="soundmodels_dialog_duplicate_message">"Nome del modello audio già utilizzato. Riprovare."</string>
+    <add-resource type="string" name="soundmodels_dialog_invalidsm_title"/>
+    <string name="soundmodels_dialog_invalidsm_title">"Nome del modello audio non valido"</string>
+    <add-resource type="string" name="soundmodels_dialog_invalidsm_message"/>
+    <string name="soundmodels_dialog_invalidsm_message">"I nomi dei modelli audio non possono essere vuoti."</string>
+    <add-resource type="string" name="soundmodel_listitem_name"/>
+    <string name="soundmodel_listitem_name">"Nome del modello audio"</string>
+    <add-resource type="string" name="soundmodel_listitem_sessions"/>
+    <string name="soundmodel_listitem_sessions">"Sessioni:"</string>
+    <add-resource type="string" name="soundmodeldetails_top_title"/>
+    <string name="soundmodeldetails_top_title">"Dettagli del modello audio"</string>
+    <add-resource type="string" name="soundmodeldetails_smtype"/>
+    <string name="soundmodeldetails_smtype">"Dipendente dall\'utente"</string>
+    <add-resource type="string" name="soundmodeldetails_adduser"/>
+    <string name="soundmodeldetails_adduser">"Aggiungi utente..."</string>
+    <add-resource type="string" name="soundmodeldetails_dialog_setconfidencelevel_title"/>
+    <string name="soundmodeldetails_dialog_setconfidencelevel_title">"Imposta livello di sicurezza"</string>
+    <string name="soundmodeldetails_dialog_setconfidencelevel_message"/>
+    <add-resource type="string" name="soundmodeldetails_dialog_duplicateuser_title"/>
+    <string name="soundmodeldetails_dialog_duplicateuser_title">"Utente già formato"</string>
+    <add-resource type="string" name="soundmodeldetails_dialog_duplicateuser_message"/>
+    <string name="soundmodeldetails_dialog_duplicateuser_message">"Sono già presenti dati di formazione per un utente con questo nome. Selezionare un altro utente."</string>
+    <add-resource type="string" name="soundmodels_dialog_invaliduser_title"/>
+    <string name="soundmodels_dialog_invaliduser_title">"Nome utente non valido"</string>
+    <add-resource type="string" name="soundmodels_dialog_invaliduser_message"/>
+    <string name="soundmodels_dialog_invaliduser_message">"I nomi utente non possono essere vuoti."</string>
+    <add-resource type="string" name="soundmodeldetails_dialog_selectsession_title"/>
+    <string name="soundmodeldetails_dialog_selectsession_title">"Seleziona sessioni"</string>
+    <add-resource type="string" name="soundmodeldetails_popup_copy"/>
+    <string name="soundmodeldetails_popup_copy">"Copia modello audio"</string>
+    <add-resource type="string" name="soundmodeldetails_popup_merge"/>
+    <string name="soundmodeldetails_popup_merge">"Unisci modello audio"</string>
+    <add-resource type="string" name="soundmodels_dialog_selectsm_title"/>
+    <string name="soundmodels_dialog_selectsm_title">"Seleziona modello audio"</string>
+    <add-resource type="string" name="soundmodeldetails_popup_delete"/>
+    <string name="soundmodeldetails_popup_delete">"Elimina modello audio"</string>
+    <add-resource type="string" name="training_welcome_unkownuser"/>
+    <string name="training_welcome_unkownuser">"Utente sconosciuto"</string>
+    <add-resource type="string" name="training_welcome_notice"/>
+    <string name="training_welcome_notice">"Per aiutare il sistema a memorizzare la propria voce, registrare la parola chiave cinque volte."</string>
+    <add-resource type="string" name="training_welcome_recording_tip_title"/>
+    <string name="training_welcome_recording_tip_title">"SUGGERIMENTI PER LA REGISTRAZIONE"</string>
+    <add-resource type="string" name="training_welcome_recording_tip"/>
+    <string name="training_welcome_recording_tip">"1. Tenere il telefono di fronte a sé, lontano circa 50 cm dalla bocca. \n2. Registrare in un luogo tranquillo con minimo rumore di sottofondo. \n3. Parlare chiaramente, a voce alta e con tono deciso."</string>
+    <add-resource type="string" name="training_recording_recording"/>
+    <string name="training_recording_recording">"REGISTRAZIONE..."</string>
+    <add-resource type="string" name="training_recording_processing"/>
+    <string name="training_recording_processing">"ELABORAZIONE..."</string>
+    <add-resource type="string" name="training_recording_complete"/>
+    <string name="training_recording_complete">"OPERAZIONE COMPLETATA!"</string>
+    <add-resource type="string" name="training_recording_notice_good"/>
+    <string name="training_recording_notice_good">"Perfetto!\nSi prega di continuare!"</string>
+    <add-resource type="string" name="training_recording_notice_bad"/>
+    <string name="training_recording_notice_bad">"Si è verificato un problema durante la registrazione. Riprovare."</string>
+    <add-resource type="string" name="training_recording_continue"/>
+    <string name="training_recording_continue">"Continua"</string>
+    <add-resource type="string" name="training_dialog_createsoundmodel"/>
+    <string name="training_dialog_createsoundmodel">"Creazione di un modello audio personalizzato."</string>
+    <add-resource type="string" name="training_dialog_close_title"/>
+    <string name="training_dialog_close_title">"Chiudere?"</string>
+    <add-resource type="string" name="training_dialog_close_message"/>
+    <string name="training_dialog_close_message">"Tutte le registrazioni di formazione correnti verranno cancellate."</string>
+    <add-resource type="string" name="training_dialog_smcreatefailed_title"/>
+    <string name="training_dialog_smcreatefailed_title">"Creazione del modello audio non riuscita"</string>
+    <add-resource type="string" name="training_dialog_smcreatefailed_message"/>
+    <string name="training_dialog_smcreatefailed_message">"Impossibile creare il modello audio personalizzato. Riprovare."</string>
+    <!-- new training -->
+    <add-resource type="string" name="training_welcome_recording_tip1"/>
+    <string name="training_welcome_recording_tip1">" Tenere il telefono di fronte a sé, lontano circa 50 cm dalla bocca."</string>
+    <add-resource type="string" name="training_welcome_recording_tip2"/>
+    <string name="training_welcome_recording_tip2">" Registrare in un luogo tranquillo con minimo rumore di sottofondo."</string>
+    <add-resource type="string" name="training_welcome_recording_tip3"/>
+    <string name="training_welcome_recording_tip3">" Parlare chiaramente, a voce alta e con tono deciso."</string>
+    <add-resource type="string" name="training_tapMic"/>
+    <string name="training_tapMic">"Toccare il pulsante del microfono per iniziare"</string>
+    <add-resource type="string" name="home_keyphrase_message"/>
+    <string name="home_keyphrase_message">"Hey Snapdragon"</string>
+    <add-resource type="string" name="training_one"/>
+    <string name="training_one">1.</string>
+    <add-resource type="string" name="training_two"/>
+    <string name="training_two">2.</string>
+    <add-resource type="string" name="training_three"/>
+    <string name="training_three">3.</string>
+    <add-resource type="string" name="training_unknownuser"/>
+    <string name="training_unknownuser">"Utente sconosciuto"</string>
+    <add-resource type="string" name="training_welcomenotice"/>
+    <string name="training_welcomenotice">"Per aiutare il sistema a memorizzare la propria voce, registrare la frase chiave cinque volte."</string>
+    <!-- end new training -->
+	<add-resource type="string" name="voicerequests_title"/>
+    <string name="voicerequests_title">"Richieste vocali"</string>
+    <add-resource type="string" name="voicerequests_menu_refresh"/>
+    <string name="voicerequests_menu_refresh">"Aggiorna elenco"</string>
+    <add-resource type="string" name="voicerequests_menu_deleteall"/>
+    <string name="voicerequests_menu_deleteall">"Elimina tutto"</string>
+    <add-resource type="string" name="voicerequests_dialog_deleteall_title"/>
+    <string name="voicerequests_dialog_deleteall_title">"Conferma eliminazione"</string>
+    <add-resource type="string" name="settings_top_title"/>
+    <string name="settings_top_title">"Impostazioni"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels"/>
+    <string name="settings_defaultconfidencelevels">"LIVELLI DI SICUREZZA PREDEFINITI"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels_keyphrase"/>
+    <string name="settings_defaultconfidencelevels_keyphrase">"Livello di sicurezza frase chiave predefinito"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels_user"/>
+    <string name="settings_defaultconfidencelevels_user">"Livello di sicurezza utente predefinito"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels_training"/>
+    <string name="settings_defaultconfidencelevels_training">"Livello di sicurezza formazione predefinito"</string>
+    <add-resource type="string" name="settings_options"/>
+    <string name="settings_options">"OPZIONI"</string>
+    <add-resource type="string" name="settings_options_listen"/>
+    <string name="settings_options_listen">"Ascolta"</string>
+    <add-resource type="string" name="settings_options_listen_desc"/>
+    <string name="settings_options_listen_desc">"Attiva/disattiva ascolto"</string>
+    <add-resource type="string" name="settings_options_voiceactivation"/>
+    <string name="settings_options_voiceactivation">"Voice Activation"</string>
+    <add-resource type="string" name="settings_options_voiceactivation_desc"/>
+    <string name="settings_options_voiceactivation_desc">"Attiva/disattiva Voice Activation"</string>
+    <add-resource type="string" name="settings_options_detectiontone"/>
+    <string name="settings_options_detectiontone">"Tono di rilevamento"</string>
+    <add-resource type="string" name="settings_options_detectiontone_desc"/>
+    <string name="settings_options_detectiontone_desc">"Attiva/disattiva tono di rilevamento"</string>
+    <add-resource type="string" name="settings_options_advanced"/>
+    <string name="settings_options_advanced">"Dettagli avanzati"</string>
+    <add-resource type="string" name="settings_options_advanced_desc"/>
+    <string name="settings_options_advanced_desc">"Mostra altri dettagli"</string>
+    <add-resource type="string" name="settings_registrationoptions"/>
+    <string name="settings_registrationoptions">"OPZIONI DI REGISTRAZIONE"</string>
+    <add-resource type="string" name="settings_registrationoptions_description"/>
+    <string name="settings_registrationoptions_description">"Le modifiche avranno effetto alla successiva registrazione."</string>
+    <add-resource type="string" name="settings_registrationoptions_userverification"/>
+    <string name="settings_registrationoptions_userverification">"Verifica utente"</string>
+    <add-resource type="string" name="settings_registrationoptions_userverification_desc"/>
+    <string name="settings_registrationoptions_userverification_desc">"Attiva/disattiva verifica utente"</string>
+    <add-resource type="string" name="settings_registrationoptions_voicerequests"/>
+    <string name="settings_registrationoptions_voicerequests">"Richieste vocali"</string>
+    <add-resource type="string" name="settings_registrationoptions_voicerequests_desc"/>
+    <string name="settings_registrationoptions_voicerequests_desc">"Attiva richieste vocali dopo la frase chiave"</string>
+    <add-resource type="string" name="settings_registrationoptions_voicerequestlength"/>
+    <string name="settings_registrationoptions_voicerequestlength">"Lung. (in sec.) richiesta vocale"</string>
+    <add-resource type="string" name="settings_registrationoptions_failurefeedback"/>
+    <string name="settings_registrationoptions_failurefeedback">"Feedback mancato rilev"</string>
+    <add-resource type="string" name="settings_registrationoptions_failurefeedback_desc"/>
+    <string name="settings_registrationoptions_failurefeedback_desc">"Attiva/disattiva feedback errori di rilevamento"</string>
+    <add-resource type="string" name="settings_toast_smdependentcheckbox"/>
+    <string name="settings_toast_smdependentcheckbox">"Questa modifica non avrà effetto finché il successivo modello audio non verrà registrato."</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Impostazioni"</string></resources>

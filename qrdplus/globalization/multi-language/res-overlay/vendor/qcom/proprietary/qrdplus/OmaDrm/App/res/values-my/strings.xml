@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="file_not_exist">"ဖိုင် မရှိပါ"</string>
+    <string name="show_properties">"အကြောင်းအချက်များ ပြသပါ"</string>
+    <string name="app_name">"Drm"</string>
+    <string name="buy_license">"လိုင်စင်များ ဝယ်ယူပါ"</string>
+    <string name="drm_activity">"Drm လုပ်ဆောင်မှု"</string>
+    <string name="open_files">"ဖိုင်များ ဖွင့်ပါ"</string>
+    <string name="service_connected">"Ah၊ DRM ဝန်ဆောင်မှု ချိတ်ဆက်ထားသည်၊ Wow"</string>
+    <string name="service_disconnected">"Oh၊ DRM ဝန်ဆောင်မှု ချိတ်ဆက်မှုဖြုတ်ထားသည်၊ Wow"</string>
+    <string name="service_binded">"Ah၊ DRM ဝန်ဆောင်မှု လုပ်ဆောင်ထားသည်၊ Wow"</string>
+    <string name="service_unbinded">"Oh၊ DRM ဝန်ဆောင်မှု လုပ်ဆောင်မထားပါ၊ Wow"</string>
+    <string name="tv_fl">"ဤပါဝင်ချက်ကို အကန့်အသတ်မရှိ ပျော်ရွှင်အသုံးပြုနိုင်သည်"</string>
+    <string name="tv_cantbuy">"သင့်တွင် ဘောင်ဝင်သည့် လိုင်စင်များမရှိသော်လည်း သင့်အတွက် လိုင်စင် ဝယ်ယူ၍မရနိုင်သည့်အတွက် ကျွန်ုပ်တို့အနေဖြင့် လိုင်စင်လိပ်စာကို ရယူ၍ မရနိုင်ပါ"</string>
+    <string name="tv_wantbuy">"သင့်တွင် ဘောင်ဝင်သည့် လိုင်စင်များမရှိပါ၊ နောက်ထပ်အချို့ကို ဝယ်ယူမလား?"</string>
+    <string name="tv_buyviapc">"ဝမ်းနည်းပါတယ်... ကျွန်ုပ်တို့သည် OTA မှတဆင့် လိုင်စင် ရယူ၍ မရနိုင်ပါ၊ MTP မှတဆင့် PC မှ ၎င်းတို့ကို ရယူပါ"</string>
+    <string name="tv_finishdownload">"ဖိုင် %%% ကို ထည့်သွင်းထားသည်။ ၎င်းကို ဖွင့်မလား?"</string>
+    <string name="sdcard_busy">"SD ကဒ်သည် ယခု မအားလပ်ပါ။ SD ကဒ်သို့ ဝင်ရောက်သုံးခွင့်ပြုရန် USB သိုလှောင်ခန်း အနေအထားကို ပိတ်ပါ။"</string>
+    <string name="yes">"ဟုတ်သည်"</string>
+    <string name="no">"မဟုတ်ပါ"</string>
+    <string name="ok">"အိုကေ"</string>
+    <string name="file_not_supported">"CD/SD Drm ဖိုင်များကို ပံ့ပိုးမှုမရှိပါ"</string>
+    <string name="no_rights">"ဤဖိုင်အတွက် မည်သည့်အခွင့်အရေးမျှ မရရှိနိုင်ပါ-("</string>
+    <string name="execute_permission">"ခွင့်ပြုချက် စီမံလုပ်ဆောင်ပါ"</string>
+    <string name="play_permission">"ခွင့်ပြုချက် ဖွင့်ပါ"</string>
+    <string name="display_permission">"ခွင့်ပြုချက် ပြသပါ"</string>
+    <string name="print_permission">"ခွင့်ပြုချက် ပရင့်ထုတ်ပါ"</string>
+    <string name="license">"လိုင်စင်"</string>
+    <string name="of">"၏"</string>
+    <string name="count">"အရေအတွက်"</string>
+    <string name="interval_str">"ကြားကာလ"</string>
+    <string name="start_date">"စတင်မှု ရက်စွဲ"</string>
+    <string name="end_date">"ပြီးဆုံး ရက်စွဲ"</string>
+    <string name="seconds">"စက္ကန့်များ"</string>
+    <string name="no_activitiy_found">"ဤလိပ်စာကို ကိုင်တွယ်လုပ်ဆောင်ရန် လုပ်ဆောင်မှု မတွေ့ရှိပါ- "</string></resources>

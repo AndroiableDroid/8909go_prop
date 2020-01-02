@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"การตั้งค่า"</string>
+    <string name="body_msg">"กำลังทดสอบ FidoCryptoService"</string>
+    <string name="load">"โหลด"</string>
+    <string name="unload">"นำออก"</string>
+    <string name="process">"ดำเนินการ"</string>
+    <string name="start">"เริ่ม"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"เชื่อมโยงบริการ FIDO"</string>
+    <string name="unbindFido">"ยกเลิกการเชื่อมโยงบริการ FIDO"</string>
+    <string name="setChallenge">"ตั้งความท้าทาย"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"เชื่อมโยงตัวตรวจสอบสิทธิ์"</string>
+    <string name="verifyUser">"ตรวจสอบผู้ใช้ / รับโทเค็น"</string>
+    <string name="GetInfo">"รับข้อมูล"</string>
+    <string name="Register">"ลงทะเบียน"</string>
+    <string name="Deregister">"ยกเลิกลงทะเบียน"</string>
+    <string name="OpenSettings">"เปิดการตั้งค่า"</string>
+    <string name="Sign">"ลงชื่อ"</string>
+    <string name="MalformedRequest">"การร้องขอผิดรูป"</string>
+    <string name="selectAuth">"เลือกตัวตรวจสอบสิทธิ์"</string>
+    <string name="getEnrollmentStatus">"รับสถานะการสมัคร"</string>
+    <string name="RegisterExt">"ลงทะเบียนด้วยการต่ออายุ"</string>
+    <string name="SignExt">"ลงทะเบียนด้วยการต่ออายุ"</string>
+    <string name="encResult">"ผลลัพธ์สรุป"</string>
+    <string name="extResult">"ข้อมูลการต่ออายุ"</string>
+    <string name="selectFidoOpText">"เลือกการใช้งาน FIDO"</string>
+    <string name="show_message_sui">"แสดงข้อความ Sui"</string>
+    <string name="fido_sui_service">"บริการ FIDO Sui"</string>
+    <string name="bindFidoSui">"เชื่อมโยง FIDO Sui"</string>
+    <string name="unbindFidoSui">"ยกเลิกการเชื่อมโยง FIDO Sui"</string>
+    <string name="suiResultTitle">"แสดงข้อความผลลัพธ์ Sui"</string>
+    <string name="cancel_sui">"ยกเลิก Sui"</string>
+    <string name="extensionText">"ใช้การต่ออายุหรือไม่"</string>
+    <string name="pngText">"ใช้เนื้อหา PNG หรือไม่"</string>
+    <string name="fpText">"ทำลายนิ้วมือให้ปลอดภัย"</string>
+    <string-array name="authenticator_array">
+        <item>"ตัวตรวจสอบสิทธิ์จำลอง"</item>
+        <item>"ตัวตรวจสอบสิทธิ์ตัวอย่าง"</item>
+        <item>"ทำตัวตรวจสอบสิทธิ์ตัวอย่างให้ปลอดภัย"</item>
+        <item>"ตัวตรวจสอบสิทธิ์การต่ออายุตัวอย่าง"</item>
+        <item>"ทำตัวตรวจสอบสิทธิ์การต่ออายุให้ปลอดภัย"</item>
+        <item>"อุปกรณ์เกี่ยวกับสุขภาพ Auth"</item>
+        <item>"ทำตัวตรวจสอบสิทธิ์ตัวอย่างให้ปลอดภัย IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"รับข้อมูล"</item>
+        <item>"ลงทะเบียน"</item>
+        <item>"ยกเลิกลงทะเบียน"</item>
+        <item>"เปิดการตั้งค่า"</item>
+        <item>"ข้อยกเว้นที่ผิดปกติ"</item>
+        <item>"สัญลักษณ์ (Auth)"</item>
+        <item>"สัญลักษณ์ (TX)"</item>
+    </string-array></resources>

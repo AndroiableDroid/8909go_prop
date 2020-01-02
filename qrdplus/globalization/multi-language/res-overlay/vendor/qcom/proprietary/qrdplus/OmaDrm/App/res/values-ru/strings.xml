@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="file_not_exist">"Файл не существует"</string>
+    <string name="show_properties">"Показать свойства"</string>
+    <string name="app_name">"DRM"</string>
+    <string name="buy_license">"Купить лицензии"</string>
+    <string name="drm_activity">"Активность DRM"</string>
+    <string name="open_files">"Открыть файлы"</string>
+    <string name="service_connected">"Ого! Служба DRM ПОДКЛЮЧЕНА. Ух ты!"</string>
+    <string name="service_disconnected">"Ой! Служба DRM ОТКЛЮЧЕНА. Ну вот!"</string>
+    <string name="service_binded">"Ого! Служба DRM ПРИВЯЗАНА. Ух ты!"</string>
+    <string name="service_unbinded">"Ой! Служба DRM НЕ ПРИВЯЗАНА. Ну вот!"</string>
+    <string name="tv_fl">"Наслаждайтесь контентом без ограничений"</string>
+    <string name="tv_cantbuy">"У вас нет действующих лицензий, однако мы не можем получить адрес лицензии и купить лицензию"</string>
+    <string name="tv_wantbuy">"У вас нет действующих лицензий. Хотите приобрести?"</string>
+    <string name="tv_buyviapc">"Извините... Мы не можем получить лицензию через OTA, возьмите ее с компьютера через протокол MTP"</string>
+    <string name="tv_finishdownload">"Файл %%% установлен Открыть?"</string>
+    <string name="sdcard_busy">"SD-карта сейчас недоступна Выйдите из режима USB-хранилища для получения доступа к SD-карте."</string>
+    <string name="yes">"Да"</string>
+    <string name="no">"Нет"</string>
+    <string name="ok">"ОК"</string>
+    <string name="file_not_supported">"Файлы DRM CD/SD не поддерживаются"</string>
+    <string name="no_rights">"Нет прав для этого файла :("</string>
+    <string name="execute_permission">"Разрешение на выполнение"</string>
+    <string name="play_permission">"Разрешение на воспроизведение"</string>
+    <string name="display_permission">"Разрешение на отображение"</string>
+    <string name="print_permission">"Разрешение на печать"</string>
+    <string name="license">"лицензия"</string>
+    <string name="of">"из"</string>
+    <string name="count">"Количество"</string>
+    <string name="interval_str">"Интервал"</string>
+    <string name="start_date">"Дата начала"</string>
+    <string name="end_date">"Дата завершения"</string>
+    <string name="seconds">"сек."</string>
+    <string name="no_activitiy_found">"Не найдено действие для управления адресом: "</string></resources>

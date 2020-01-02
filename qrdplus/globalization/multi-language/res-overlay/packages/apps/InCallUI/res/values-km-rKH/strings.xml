@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+  ~ Copyright (C) 2013 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Official label of the phone app, as seen in "Manage Applications"
+         and other settings UIs. -->
+    <string name="phoneAppLabel" product="default"></string>
+    <!-- Call status -->
+    <!-- In-call screen: status label for a call that's on hold -->
+    <string name="onHold">"រង់ចាំ"</string>
+    <!-- Incoming call screen, name of "unknown" caller -->
+    <string name="unknown">"មិន​ស្គាល់"</string>
+    <!-- Incoming call screen, string when number hidden -->
+    <string name="private_num">"លេខ​ឯកជន"</string>
+    <!-- Incoming call screen, string when called from a pay phone -->
+    <string name="payphone">"ទូរស័ព្ទសាធារណៈ"</string>
+    <!-- In-call screen: status label for a conference call -->
+    <string name="confCall">"ការ​ហៅ​ជា​សន្និសីទ"</string>
+    <!-- In-call screen: call lost dialog text -->
+    <string name="call_lost">"ការហៅទូរស័ព្ទបានដាក់ចុះ"</string>
+    <!-- MMI dialog strings -->
+    <!-- Dialog label when an MMI code starts running -->
+    <!-- "Audio mode" popup menu: Item label to select the speakerphone [CHAR LIMIT=25] -->
+    <string name="audio_mode_speaker">"អូប៉ាល័រ"</string>
+    <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
+    <string name="audio_mode_earpiece">"កាស"</string>
+    <!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
+    <string name="audio_mode_wired_headset">"កាស​មាន​ខ្សែ"</string>
+    <!-- "Audio mode" popup menu: Item label to select the bluetooth headset [CHAR LIMIT=25] -->
+    <string name="audio_mode_bluetooth">"ប៊្លូធូស"</string>
+    <!-- post dial -->
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "wait" character in a phone number to be dialed; this dialog asks the
+         user if it's OK to send the numbers following the "wait". -->
+    <string name="wait_prompt_str">"ផ្ញើ​សំឡេង​ដូច​ខាងក្រោម?\n"</string>
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "PAUSE" character in a phone number to be dialed; this dialog gives
+         informative message to the user to show the sending numbers following the "Pause". -->
+    <string name="pause_prompt_str">"ផ្ញើ​សំឡេង \n"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog -->
+    <string name="send_button">"ផ្ញើ"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_yes">"បាទ/ចាស"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_no">"គ្មាន"</string>
+    <!-- In-call screen: on the "wild" character dialog, this is the label
+         for a text widget that lets the user enter the digits that should
+         replace the "wild" character. -->
+    <string name="wild_prompt_str">"ជំនួស​តួ​អក្សរ​ជំនួស​ដោយ"</string>
+    <!-- In-call screen: status label for a conference call -->
+    <string name="caller_manage_header">"ការ​ហៅ​ជា​សន្និសីទ <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <!-- Call settings screen, Set voicemail dialog title -->
+    <string name="voicemail_settings_number_label">"លេខ​សារ​ជា​សំឡេង"</string>
+    <!-- Card titles -->
+    <!-- In-call screen: status label for a call in the "dialing" state [CHAR LIMIT=25] -->
+    <string name="card_title_dialing">"កំពុង​ហៅ"</string>
+    <!-- In-call screen: status label for a re-dialing call [CHAR LIMIT=25] -->
+    <string name="card_title_redialing">"ការចុចហៅឡើងវិញ"</string>
+    <!-- In-call screen: status label for a conference call [CHAR LIMIT=25] -->
+    <string name="card_title_conf_call">"ការ​ហៅ​ជា​សន្និសីទ"</string>
+    <!-- In-call screen: status label for an incoming call [CHAR LIMIT=25] -->
+    <string name="card_title_incoming_call">"ការ​ហៅ​ចូល"</string>
+    <!-- In-call screen: status label displayed briefly after a call ends [CHAR LIMIT=25] -->
+    <string name="card_title_call_ended">"បាន​បញ្ចប់​ការ​ហៅ"</string>
+    <!-- In-call screen: status label for call that's on hold [CHAR LIMIT=25] -->
+    <string name="card_title_on_hold">"រង់ចាំ"</string>
+    <!-- In-call screen: status label for a call that's in the process of hanging up [CHAR LIMIT=25] -->
+    <string name="card_title_hanging_up">"បញ្ចប់​ការ​សន្ទនា"</string>
+    <!-- In-call screen: status label for a call that's in CDMA flash mode [CHAR LIMIT=25] -->
+    <string name="card_title_in_call">"ការ​ហៅ​ចូល"</string>
+    <!-- In-call screen: special status label that shows your own phone
+         number during emergency callback mode (ECM) [CHAR LIMIT=30] -->
+    <string name="card_title_my_phone_number">"លេខ​របស់​ខ្ញុំ​គឺ <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>"</string>
+    <!-- In-call screen: status label when connecting video. -->
+    <string name="card_title_video_call_connecting">"ភ្ជាប់​វីដេអូ"</string>
+    <!-- In-call screen: status label when in a video call. -->
+    <string name="card_title_video_call">"ហៅ​ជា​វីដេអូ"</string>
+    <!-- In-call screen: status label when requesting video. -->
+    <string name="card_title_video_call_requesting">"ស្នើ​វីដេអូ"</string>
+    <!-- In-call screen: status label when there is a problem connecting a video call. -->
+    <string name="card_title_video_call_error">"មិនអាចភ្ជាប់ការហៅជាវីដេអូបានទេ"</string>
+    <!-- In-call screen: status label when the remote party rejects a video call request. -->
+    <string name="card_title_video_call_rejected">"បានបដិសេធសំណើហៅជាវីដេអូ"</string>
+    <!-- In-call screen: string shown to the user when their outgoing number is different than the
+         number reported by TelephonyManager#getLine1Number() -->
+    <string name="card_title_callback_number">"លេខទូរស័ព្ទអាសន្នហៅទៅវិញរបស់អ្នក\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+    <!-- In-call screen: string shown to the user when their outgoing number is different than the
+         number reported by TelephonyManager#getLine1Number() and they're calling emergency
+         services. -->
+    <string name="card_title_callback_number_emergency">"លេខទូរស័ព្ទអាសន្នហៅទៅវិញរបស់អ្នក\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+    <!-- Notification strings -->
+    <!-- The "label" of the in-call Notification for a dialing call, used
+         as the format string for a Chronometer widget. [CHAR LIMIT=60] -->
+    <string name="notification_dialing">"ហៅ"</string>
+    <!-- Missed call notification label, used when there's exactly one missed call -->
+    <string name="notification_missedCallTitle">"ខកខាន​ទទួល"</string>
+    <!-- Missed call notification label, used when there are two or more missed calls -->
+    <string name="notification_missedCallsTitle">"ខកខាន​ទទួល"</string>
+    <!-- Missed call notification message used when there are multiple missed calls -->
+    <string name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> ខកខាន​ការ​​ទទួល"</string>
+    <!-- Missed call notification message used for a single missed call, including
+         the caller-id info from the missed call -->
+    <string name="notification_missedCallTicker">"ខកខាន​ទទួល​ពី <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <!-- The "label" of the in-call Notification for an ongoing call. [CHAR LIMIT=60] -->
+    <string name="notification_ongoing_call">"កំពុង​បន្ត​ការ​ហៅ"</string>
+    <!-- The "label" of the in-call Notification for an ongoing call, which is being made over
+         Wi-Fi. [CHAR LIMIT=60] -->
+    <string name="notification_ongoing_call_wifi">"ការហៅតាម Wi-Fi កំពុងបន្ត"</string>
+    <!-- The "label" of the in-call Notification for a call that's on hold -->
+    <string name="notification_on_hold">"រង់ចាំ"</string>
+    <!-- The "label" of the in-call Notification for an incoming ringing call. [CHAR LIMIT=60] -->
+    <string name="notification_incoming_call">"ការ​ហៅ​ចូល"</string>
+    <!-- The "label" of the in-call Notification for an incoming ringing call,
+         which is being made over Wi-Fi. [CHAR LIMIT=60] -->
+    <string name="notification_incoming_call_wifi">"មានការហៅចូលមកតាម Wi-Fi"</string>
+    <!-- The "label" of the in-call Notification for an incoming ringing video call. -->
+    <string name="notification_incoming_video_call">"ការ​ហៅចូលជា​វីដេអូ​"</string>
+    <!-- The "label" of the in-call Notification for upgrading an existing call to a video call. -->
+    <string name="notification_requesting_video_call">"សំណើ​ការ​ហៅ​ជា​វីដេអូ​ចូល"</string>
+    <!-- Label for the "Voicemail" notification item, when expanded. -->
+    <string name="notification_voicemail_title">"សារ​ជា​សំឡេង​ថ្មី"</string>
+    <!-- Label for the expanded "Voicemail" notification item,
+         including a count of messages. -->
+    <string name="notification_voicemail_title_count">"សារ​ជា​សំឡេង​ថ្មី (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <!-- Message displayed in the "Voicemail" notification item, allowing the user
+         to dial the indicated number. -->
+    <string name="notification_voicemail_text_format">"ចុច <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <!-- Message displayed in the "Voicemail" notification item,
+         indicating that there's no voicemail number available -->
+    <string name="notification_voicemail_no_vm_number">"មិន​ស្គាល់​ចំនួន​សារ​ជា​សំឡេង"</string>
+    <!-- Label for the "No service" notification item, when expanded. -->
+    <string name="notification_network_selection_title">"គ្មាន​សេវា"</string>
+    <!-- Label for the expanded "No service" notification item, including the
+         operator name set by user -->
+    <string name="notification_network_selection_text">"បណ្ដាញ​ដែល​បាន​ជ្រើស ( <xliff:g id="OPERATOR_NAME">%s</xliff:g> ) មិន​អាច​ប្រើ​បាន​ទេ"</string>
+    <!-- Label for the "Answer call" action. This is the displayed label for the action that answers
+         an incoming call. [CHAR LIMIT=12] -->
+    <string name="notification_action_answer">"ឆ្លើយតប"</string>
+    <!-- Label for "end call" Action.
+         It is displayed in the "Ongoing call" notification, which is shown
+         when the user is outside the in-call screen while the phone call is still
+         active. [CHAR LIMIT=12] -->
+    <string name="notification_action_end_call">"បញ្ចប់​ការ​សន្ទនា"</string>
+    <!-- Label for "Video Call" notification action. This is a displayed on the notification for an
+         incoming video call, and answers the call as a video call. [CHAR LIMIT=12] -->
+    <string name="notification_action_answer_video">"វីដេអូ"</string>
+    <!-- Label for "Voice" notification action. This is a displayed on the notification for an
+         incoming video call, and answers the call as an audio call. [CHAR LIMIT=12] -->
+    <string name="notification_action_answer_voice">"សំឡេង"</string>
+    <!-- Label for "Accept" notification action. This is somewhat generic, and may refer to
+         scenarios such as accepting an incoming call or accepting a video call request.
+         [CHAR LIMIT=12] -->
+    <string name="notification_action_accept">"ព្រម​ទទួល"</string>
+    <!-- Label for "Dismiss" notification action. This is somewhat generic, and may refer to
+         scenarios such as declining an incoming call or declining a video call request.
+         [CHAR LIMIT=12] -->
+    <string name="notification_action_dismiss">"បដិសេធ"</string>
+    <!-- Message for "call back" Action, which is displayed in the missed call notification.
+         The user will be able to call back to the person or the phone number.
+         [CHAR LIMIT=12] -->
+    <string name="notification_missedCall_call_back">"ហៅ​ទៅ​វិញ"</string>
+    <!-- Message for "reply via sms" action, which is displayed in the missed call notification.
+         The user will be able to send text messages using the phone number.
+         [CHAR LIMIT=12] -->
+    <string name="notification_missedCall_message">"សារ"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_power_off">"ដើម្បី​កំណត់​ការ​ហៅ ដំបូង​ត្រូវ​បិទ​របៀប​នៅ​ទម្រង់​យន្តហោះ។"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog.
+         This string is currently unused (see comments in InCallActivity.java.) -->
+    <string name="incall_error_emergency_only">"មិន​បាន​ចុះ​ឈ្មោះ​នៅ​លើ​បណ្ដាញ។"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_out_of_service">"បណ្ដាញ​ចល័ត​មិន​អាច​ប្រើ​បាន។"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_no_phone_number_supplied">"ដើម្បីធ្វើការហៅ បញ្ចូលលេខដែលមានសុពលភាព។"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_call_failed">"មិនអាចហៅបានទេ។"</string>
+    <!-- In-call screen: status message displayed in a dialog when starting an MMI -->
+    <string name="incall_status_dialed_mmi">"កំពុង​ចាប់ផ្ដើម​លំដាប់ MMI ..."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_unknown">"សេវាកម្មមិនត្រូវបានគាំទ្រទេ។"</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_switch">"មិនអាចឆ្លាស់ការហៅបានទេ។"</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_separate">"មិនអាចបំបែកការហៅបានទេ។"</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_transfer">"មិនអាចផ្ទេរបានទេ។"</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_conference">"មិនអាចទំនាក់ទំនងបានទេ។"</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_reject">"មិនអាចបដិសេធការហៅបានទេ។"</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_hangup">"មិនអាចបញ្ចេញការហៅបានទេ។"</string>
+    <!-- In-call screen: "call type" indication for a SIP call [CHAR LIMIT=30]  -->
+    <string name="incall_call_type_label_sip">"ការ​ហៅ SIP"</string>
+    <!-- Dialog title for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_title">"ការ​ហៅ​នៅ​ពេល​មាន​អាសន្ន"</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_message">"កំពុង​បើក​វិទ្យុ\u2026"</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_retry">"គ្មានសេវាទេ។ ព្យាយាមម្តង\u2026"</string>
+    <!-- Dialer text on Emergency Dialer -->
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_error">"មិនអាចហៅបានទេ។ <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> មិនមានជាលេខអាសន្នទេ។"</string>
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_empty_error">"មិនអាចហៅបានទេ។ ចុចហៅលេខអាសន្ន។"</string>
+    <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
+         to dial using the physical keyboard -->
+    <string name="dialerKeyboardHintText">"ប្រើ​​ក្ដារចុច​ដើម្បី​ចុច​លេខ"</string>
+    <!-- Text for the onscreen "Hold" button when it is not selected. Pressing it will put
+         the call on hold. -->
+    <string name="onscreenHoldText_unselected">"រង់ចាំការហៅ"</string>
+    <!-- Text for the onscreen "Hold" button when it is selected. Pressing it will resume
+         the call from a previously held state. -->
+    <string name="onscreenHoldText_selected">"បន្តការហៅ"</string>
+    <!-- Text for the onscreen "End call" button -->
+    <string name="onscreenEndCallText">"បញ្ចប់ការហៅ"</string>
+    <!-- Text for the onscreen "Show Dialpad" button -->
+    <string name="onscreenShowDialpadText">"បន្ទះ​លេខ"</string>
+    <!-- Text for the onscreen "Mute" button -->
+    <string name="onscreenMuteText">"ស្ងាត់"</string>
+    <!-- Text for the onscreen "Add call" button -->
+    <string name="onscreenAddCallText">"បន្ថែម​ការ​ហៅ"</string>
+    <!-- Text for the onscreen "Merge calls" button -->
+    <string name="onscreenMergeCallsText">"បញ្ចូល​ការ​ហៅ​រួម​​គ្នា"</string>
+    <!-- Text for the onscreen "Swap calls" button -->
+    <string name="onscreenSwapCallsText">"ប្ដូរ"</string>
+    <!-- Text for the onscreen "Manage calls" button -->
+    <string name="onscreenManageCallsText">"គ្រប់គ្រង​ការ​ហៅ"</string>
+    <!-- Text for the onscreen "Manage conference" button [CHAR LIMIT=30] -->
+    <string name="onscreenManageConferenceText">"គ្រប់គ្រងការហៅ​ជាសន្និសីទ​"</string>
+    <!-- Text for the onscreen "Audio" button that lets you switch
+         between speaker / bluetooth / earpiece [CHAR LIMIT=10] -->
+    <string name="onscreenAudioText">"សំឡេង"</string>
+    <!-- Text for the onscreen "Video call" button used to change a voice call
+         to a video call. [CHAR LIMIT=10] -->
+    <string name="onscreenVideoCallText">"ហៅ​ជា​វីដេអូ"</string>
+    <!-- Text for the onscreen "Change to voice" button. When clicked, this downgrades a video call
+         to a voice call. -->
+    <string name="onscreenChangeToVoiceText">"ប្ដូរ​ទៅ​ការ​ហៅ​ជា​សំឡេង"</string>
+    <!-- Text for the onscreen "Switch camera" button. When clicked, this switches the user's camera
+         for video calling between the front-facing camera and the back-facing camera. -->
+    <string name="onscreenSwitchCameraText">"ប្ដូរ​ម៉ាស៊ីន​ថត"</string>
+    <!-- Text for the onscreen "Pause video" button. -->
+    <string name="onscreenPauseVideoText">"ផ្អាក​វីដេអូ"</string>
+    <!-- Text for the onscreen overflow button, to see additional actions which can be done. -->
+    <string name="onscreenOverflowText">"ជម្រើស​ច្រើន​ទៀត"</string>
+    <!-- Message indicating that Video Started flowing for IMS-VT calls -->
+    <string name="player_started">"កម្មវិធីចាក់បានចាប់ផ្តើម"</string>
+    <!-- Message indicating that Video Stopped flowing for IMS-VT calls -->
+    <string name="player_stopped">"កម្មវិធីចាក់បានឈប់"</string>
+    <!-- Message indicating that camera failure has occurred for the selected camera and
+         as result camera is not ready -->
+    <string name="camera_not_ready">"ម៉ាស៊ីនថតមិនទាន់រួចរាល់"</string>
+    <!-- Message indicating that camera is ready/available -->
+    <string name="camera_ready">"ម៉ាស៊ីនថតរួចរាល់"</string>
+    <!-- Message indicating unknown call session event -->
+    <string name="unknown_call_session_event">"ព្រឹត្តិការណ៍កាលសម័យការហៅមិនបានស្គាល់"</string>
+    <!-- Preference for Voicemail service provider under "Voicemail" settings.
+         [CHAR LIMIT=40] -->
+    <string name="voicemail_provider">"សេវា"</string>
+    <!-- Preference for Voicemail setting of each provider.
+         [CHAR LIMIT=40] -->
+    <string name="voicemail_settings">"រៀបចំ"</string>
+    <!-- String to display in voicemail number summary when no voicemail num is set -->
+    <string name="voicemail_number_not_set">"&lt; មិន​កំណត់ &gt;"</string>
+    <!-- Title displayed above settings coming after voicemail in the call features screen -->
+    <string name="other_settings">"​កំណត់​ការ​​ហៅ​ផ្សេងទៀត"</string>
+    <!-- Title displayed in the overlay for outgoing calls which include the name of the provider.
+         [CHAR LIMIT=40] -->
+    <string name="calling_via_template">"ការ​ហៅ​តាម​រយៈ <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <!-- Title displayed in the overlay for incoming calls which include the name of the provider.
+         [CHAR LIMIT=40] -->
+    <string name="incoming_via_template">"ចូល​តាមរយៈ <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <!-- Use this as a default to describe the contact photo; currently for screen readers through accessibility. -->
+    <string name="contactPhoto">"រូបថត​​ទំនាក់ទំនង"</string>
+    <!-- Use this to describe the separate conference call button; currently for screen readers through accessibility. -->
+    <string name="goPrivate">"ទៅ​កាន់​ឯកជន"</string>
+    <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
+    <string name="selectContact">"ជ្រើស​ទំនាក់ទំនង"</string>
+    <!-- "Respond via SMS" option that lets you compose a custom response. [CHAR LIMIT=30] -->
+    <string name="respond_via_sms_custom_message">"សរសេរ​ផ្ទាល់​ខ្លួន​របស់​អ្នក"</string>
+    <!-- "Custom Message" Cancel alert dialog button -->
+    <string name="custom_message_cancel">"បោះបង់"</string>
+    <!-- "Custom Message" Send alert dialog button -->
+    <string name="custom_message_send">"ផ្ញើ"</string>
+    <!-- Description of the answer target in the Slide unlock screen of Phone. [CHAR LIMIT=NONE] -->
+    <string name="description_target_answer">"ឆ្លើយតប"</string>
+    <!-- Description of the send_sms target in the Slide unlock screen of Phone. [CHAR LIMIT=NONE] -->
+    <string name="description_target_send_sms">"ផ្ញើ​សារ SMS"</string>
+    <!-- Description of the decline target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline">"បដិសេធ"</string>
+    <!-- Description of the target to answer a call as a video call in the Slide unlock screen.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_answer_video_call">"ឆ្លើយតប​ជា​ការ​ហៅ​ជា​​វីដេអូ"</string>
+    <!-- Description of the target to answer a call as an audio call in the Slide unlock screen.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_answer_audio_call">"ឆ្លើយតប​ជា​ការ​ហៅ​ជា​សំឡេង"</string>
+    <!-- Description of the target to accept a request to upgrade from an audio call to a video call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_accept_upgrade_to_video_request">"ទទួលយក​សំណើ​វីដេអូ"</string>
+    <!-- Description of the target to decline a request to upgrade from an audio call to a video call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline_upgrade_to_video_request">"ទទួលយក​សំណើ​វីដេអូ"</string>
+    <!-- Description of the target to accept a request to upgrade from any call to a video transmit call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_accept_upgrade_to_video_transmit_request">"ទទួលយក​សំណើ​​បញ្ជូន​វីដេអូ"</string>
+    <!-- Description of the target to decline a request to upgrade from any call to a video transmit call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline_upgrade_to_video_transmit_request">"បដិសេធ​​​សំណើ​​បញ្ជូន​​វីដេអូ"</string>
+        <!-- Description of the target to accept a request to upgrade from any call to a video receive call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_accept_upgrade_to_video_receive_request">"ទទួលយក​សំណើ​​ទទួល​វីដេអូ"</string>
+    <!-- Description of the target to decline a request to upgrade from any call to a video receive call.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_target_decline_upgrade_to_video_receive_request">"បដិសេធ​​​សំណើ​​ទទួល​វីដេអូ"</string>
+    <!-- Description of the up direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_up">"រុញ​ឡើង​លើ​ដើម្បី <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g> ។"</string>
+    <!-- Description of the left direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_left">"រុញ​ទៅ​ឆ្វេង​ដើម្បី <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g> ។"</string>
+    <!-- Description of the right direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_right">"រុញ​​ទៅ​ស្ដាំ​ដើម្បី <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g> ។"</string>
+    <!-- Description of the down direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_down">"រុញ​ចុះក្រោម​សម្រាប់ <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g> ។"</string>
+    <!-- Dialog title for the vibration settings for voicemail notifications [CHAR LIMIT=40] -->
+    <string name="voicemail_notification_vibrate_when_title" msgid="8731372580674292759">"ញ័រ"</string>
+    <!-- Dialog title for the vibration settings for voice mail notifications [CHAR LIMIT=40]-->
+    <string name="voicemail_notification_vibarte_when_dialog_title" msgid="8995274609647451109">"ញ័រ"</string>
+    <!-- Voicemail ringtone title. The user clicks on this preference to select
+         which sound to play when a voicemail notification is received.
+         [CHAR LIMIT=30] -->
+    <string name="voicemail_notification_ringtone_title">"សំឡេង"</string>
+    <!--  The string used to describe a notification if it is the default one in the system. For
+          example, if the user selects the default notification, it will appear as something like
+          Default sound(Capella) in the notification summary.
+          [CHAR LIMIT=40] -->
+    <string name="default_notification_description">"សំឡេង​លំនាំដើម (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+    <string name="menu_start_record">"ថតការហៅ"</string>
+    <string name="menu_stop_record">"បញ្ឈប់ការថត"</string>
+    <string name="recording_time_text">"ការថត"</string>
+    <string name="volume_boost_notify_enabled">"បើកកម្រិតសំឡេងខ្លាំង។"</string>
+    <string name="volume_boost_notify_disabled">"បិទកម្រិតសំឡេងខ្លាំង។"</string>
+    <string name="volume_boost_notify_unavailable">"កម្រិត​សំឡេង​បន្ថែម​មិន​អាចប្រើបាន​នៅពេលប្រើ​កាស​មានខ្សែ/ប៊្លូធូស។"</string>
+    <!-- Setting option name to pick ringtone (a list dialog comes up). [CHAR LIMIT=30] -->
+    <string name="ringtone_title" msgid="5379026328015343686">"សំឡេង​រោទ៍​ទូរសព្ទ"</string>
+    <!-- Setting option name to enable or disable vibration when ringing
+         the phone.
+         [CHAR LIMIT=30] -->
+    <string name="vibrate_on_ring_title">"ញ័រ​នៅ​ពេល​រោទ៍"</string>
+    <!-- Title for the category "ringtone", which is shown above ringtone and vibration
+         related settings.
+         [CHAR LIMIT=30] -->
+    <string name="preference_category_ringtone">"សំឡេង​រោទ៍ &amp; ញ័រ"</string>
+    <!-- Label for "Manage conference call" panel [CHAR LIMIT=40] -->
+    <string name="manageConferenceLabel">"គ្រប់គ្រង​ការ​ហៅ​​ជា​សន្និសីទ"</string>
+    <!-- This can be used in any application wanting to disable the text "Emergency number" -->
+    <string name="emergency_call_dialog_number_for_display">"បន្ទាន់"</string>
+    <!-- Phrase describing a time duration using seconds [CHAR LIMIT=16] -->
+    <plurals name="duration_seconds">
+        <item quantity="one">"1 វិនាទី"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> វិនាទី"</item>
+    </plurals>
+    <!-- Phrase describing a time duration using minutes [CHAR LIMIT=16] -->
+    <plurals name="duration_minutes">
+        <item quantity="one">"១ នាទី"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> នាទី"</item>
+    </plurals>
+    <!-- Phrase describing a time duration using hours [CHAR LIMIT=16] -->
+    <plurals name="duration_hours">
+        <item quantity="one">"១ ម៉ោង"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> ម៉ោង"</item>
+    </plurals>
+    <!-- Description of the profile photo shown when the device's camera is disabled udring a video
+        call. [CHAR LIMIT=NONE] -->
+    <string name="profile_photo_description">"រូបថត​ប្រវត្តិរូប"</string>
+    <!-- Description of the "camera off" icon displayed when the device's camera is disabled during
+         a video call. [CHAR LIMIT=NONE] -->
+    <string name="camera_off_description">"បិទកាមេរ៉ា"</string>
+    <!-- Title for Select Account Dialog [CHAR LIMIT=30] -->
+    <string name="select_account_dialog_title">"ជ្រើស​គណនី"</string>
+    <!-- Set Subscription screen: label sub 1 -->
+    <string name="sub_1">"SUB 1"</string>
+    <!-- Set Subscription screen: label sub 2 -->
+    <string name="sub_2">"SUB 2"</string>
+    <!-- Used to inform the user that a call was received via a number other than the primary
+        phone number associated with their device. [CHAR LIMIT=16] -->
+    <string name="child_number">"តាមរយៈ <xliff:g id="CHILD_NUMBER">%s</xliff:g>"</string>
+    <!-- Used to inform the user that the note associated with an outgoing call has been sent.
+         [CHAR LIMIT=32] -->
+    <!--Begin add for RCS -->
+    <string name="onscreenMoreMenuText">"មឺនុយច្រើនទៀត"</string>
+    <string name="note_sent">"បានផ្ញើចំណាំ"</string>
+    <string name="call_state_dialing">"កំពុង​ហៅ"</string>
+    <string name="call_state_holding">"កាន់"</string>
+    <string name="call_state_active">"សកម្ម"</string>
+    <string name="call_state_unknown">"មិន​ស្គាល់"</string>
+    <string name="call_state_disconnecting">"ផ្ដាច់"</string>
+    <string name="call_state_disconnected">"បាន​ផ្ដាច់"</string>
+    <string name="video_call_downgrade_without_lte_toast">"យក​ចេញ​ពី​តំបន់​សេវាកម្ម LTE កាត់​បន្ថយ​​តម្លៃ​ហៅ។"</string>
+    <string name="display_rich_screen">"បង្ហាញ​អេក្រង់​សម្បូរបែប ?"</string>
+    <string name="rcs_missdnaddress_string">"MissdnAddress៖"</string>
+    <string name="rcs_greeting_string">"Gretting៖"</string>
+    <!--End add for RCS-->
+    <string name="toast_change_video_call_failed">"មិនអាច​ប្ដូរ​ការ​ហៅ​ជា​វីដេអូ ទ្រង់ទ្រាយ​លេខ​មិន​ត្រឹមត្រូវ"</string>
+    <string name="toast_make_video_call_failed">"មិន​អាច​ធ្វើ​ការ​ហៅ​ជា​វីដេអូ ទ្រង់ទ្រាយ​លេខ​មិន​ត្រឹមត្រូវ"</string>
+    <!-- Add for enhance videocall ui -->
+    <string name="overflowBothCallMenuItemText">"ហៅជាវីដេអូ បង្ហាញខ្ញុំ"</string>
+    <string name="overflowRXCallMenuItemText">"ហៅជាវីដេអូ លាក់ខ្ញុំ"</string>
+    <string name="overflowVOCallMenuItemText">"ការហៅជាសំឡេង"</string>
+    <string name="toast_video_call_upgrade">"មិនអាចទទួលយកការហៅជាវីដេអូនៅពេលនេះឡើយ!"</string>
+    <string name="toast_video_call_downgrade_to_voice_call">"ការហៅជាវីដេអូបច្ចុប្បន្នគឺទំនេរតែតាមបណ្តាញ LTE ល្បឿនលឿន និង Wi-Fi ប៉ុណ្ណោះ"</string></resources>

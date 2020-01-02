@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Wfd Client"</string>
+    <string name="preferences_name">"ပိုနှစ်သက်သည်များ"</string>
+    <string name="advanced_preferences_name">"အဆင့်မြင့် ပိုနှစ်သက်သည်များ"</string>
+    <string name="surface_activity_name">"မျက်နှာပြင် လှုပ်ရှားမှု"</string>
+    <string name="wfd_resolution_settings">wfd_resolution_settings</string>
+	<string name="resolution_list_title">"လိုချင်သော ကြည်လင်ပြတ်သားမှု"</string>
+	<string name="resolution_list_summary">"ကြည်လင်ပြတ်သားမှုကို ရွေးပါ"</string>
+	<string name="resolution_dialog_title">"ကြည်လင်ပြတ်သားမှုကို ရွေးချယ်ပါ"</string>
+	<string name="resolution_list_options_default_values">0</string>
+	<string name="wfd_bitrate_settings">wfd_bitrate_settings</string>
+	<string name="bitrate_list_title">"လိုချင်သော Bitrate"</string>
+	<string name="bitrate_list_summary">"Bitrate ကိုရွေးပါ"</string>
+	<string name="bitrate_dialog_title">"Bitrate ကိုရွေးချယ်ပါ"</string>
+	<string name="bitrate_list_options_default_values">12</string>
+	<string name="btn_source">"မူရင်း"</string>
+	<string name="btn_sink">"လက်ခံပါ"</string>
+	<string name="btn_find">"ရှာပါ"</string>
+    <string name="btn_create_group">"အဖွဲ့ဖန်တီးပါ"</string>
+    <string name="btn_remove_group">"အုပ်စု ဖယ်ရှားပါ"</string>
+	<string name="btn_blank">"ကွက်လပ်"</string>
+	<string name="tv_peers">"မိတ်ဖက်များ"</string>
+	<string name="btn_play_pause">"ဖွင်ပါ"</string>
+	<string name="btn_standby_resume">"အသင့်အနေအထား"</string>
+	<string name="btn_teardown">"ဖြိုချပါ"</string>
+	<string name="btn_start_stop_uibc">"UIBC စတင်ပါ"</string>
+	<string name="btn_transport_udp_tcp">"TCP"</string>
+	<string name="btn_flush">"FLUSH"</string>
+    <string name="btn_enable_disable_ds">"DS ဖွင့်ပါ"</string>
+    <string name="enable_p2p_button">"P2P ဖွင့်/ပိတ်"</string>
+    <string name="discover_peers_button">"ရှာဖွေပါ"</string>
+    <string name="connect_peer_button">"ချိတ်ဆက်ပါ"</string>
+    <string name="connect_options_peer_button">"ချိတ်ဆက်မှု ရွေးစရာများ"</string>
+    <string name="disconnect_peer_button">"ချိတ်ဆက်မှုဖြုတ်ပါ"</string>
+    <string name="start_client_button">"ကဏ္ဍ စတင်ပါ"</string>
+    <string name="start_uibc_button">"UIBC စတင်ပါ"</string>
+    <string name="empty"></string>
+    <string name="yes">"ဟုတ်ကဲ့"</string>
+    <string name="no">"မဟုတ်"</string>
+    <string name="client_text">"ဤကိရိယာသည် client အဖြစ် လုပ်ဆောင်လိမ့်မည်။ စက်တွင်း (သိမ်းထားသော) ဖိုင်ကို ယူရန် ဓါတ်ပုံပြခန်း ခလုတ်ပေါ်ကို နှိပ်ပါ"</string>
+    <string name="empty_message">"မည်သည့် ကိရိယာမှ မတွေ့ပါ။ လုပ်ဆောင်ချက်ပြ ဘားမှ ရှာဖွေမှု ခလုတ်ကို ရွေးပါ။"</string>
+    <string name="p2p_off_warning">"စနစ် ဆက်တင်မှ P2P ကို ဖွင့်ပါ"</string>
+    <string name="group_owner_text">"ကျွွန်ုပ်က အုပ်စုပိုင်ရှင်လား?"</string>
+    <string name="toggle">"တူးဂယ်လ်"</string>
+    <string name="filter">"စစ်ထုတ်မှု"</string>
+    <string name="position">"အနေအထား"</string>
+    <string name="expanded">"ချဲ့ထွင်ထားသော"</string></resources>

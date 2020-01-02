@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"การจับคู่ SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"การจับคู่ปากกาดิจิตอล Snapdragon"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"การตั้งค่า"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"ตกลง"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"เลือกตำแหน่งปากกาที่จะแสดง"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"เลือกหมายเลขซีเรียลของปากกาใหม่"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"เลือกประเภทของปากกาที่คุณต้องการใช้"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"เริ่มการจับคู่"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"ยกปากกาตั้งฉากไว้เหนือกงกลมเพื่อเริ่มต้นกระบวนการจับคู่"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"การจับคู่ด้วยตนเอง"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"การจับคู่แบบกึ่งอัตโนมัติ"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"เลือกวิธีการจับคู่"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"จับคู่ปากกาใหม่"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"จัดการปากกาที่จับคู่"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"การปรับเทียบ SW"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"ยกปากกาตั้งฉากไว้เหนือวงกลมเพื่อเริ่มต้นกระบวนการจับคู่\nเมื่อเสร็จสมบูรณ์แล้ว กระบวนการปรับเทียบจะเริ่มต้น"</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"ตัวทดสอบศูนย์บริการ"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"ยกปากกาตั้งฉากไว้เหนือวงกลมเพื่อเริ่มต้นกระบวนการจับคู่\nเมื่อเสร็จสมบูรณ์แล้ว กระบวนการทดสอบจะเริ่มต้น"</string></resources>

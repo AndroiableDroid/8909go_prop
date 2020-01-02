@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP Ayarları"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Snapdragon Dijital Kalem Ayarları"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"Devre dışı"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"Kopyala"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"Eski Uygulama Ekran Dışı Modu:"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"Aralık İçi Mesafe (mm):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"Güç Modu:"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"Doğruluğu Optimize Et"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"Gücü Optimize Et"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"Giriş Türü:"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"Fare Hassasiyeti:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"Yavaş"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"Orta"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"Hızlı"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"İğne"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"Fare"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"Kumanda Kolu"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"Dijital Kalem Kapalı"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"Dijital Kalem Açık"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"Akıllı Stand"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"Ekran Üzeri Vurgulama"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"Ekran Dışı Vurgulama"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"Maks Mesafe:"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"Vurgulama simgesini göster"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"Silici düğmesi"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"Düğme indeksi:"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"Silici Davranışı:"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"Silmek için basılı tut"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"Açmak/Kapatmak için Dokun"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"Portrede Ekran Dışı Konum:"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"Sol taraf"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"Sağ taraf"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"Kalemi Durdurma Açık Ekran Kapalı"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"Önyüklemede Kalemi Başlat"</string></resources>

@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"กล้องถ่ายภาพสำหรับโซเชียล"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"เราพบข้อผิดพลาดขณะทำการยืนยันหรือการขออนุญาต โปรดตรวจสอบ logcat สำหรับรายละเอียดเพิ่มเติม"</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"ส่ง (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"การเชื่อมต่อกับกล้องสูญหาย"</string>
+    <string name="camera_preview_error_camera_error">"ข้อผิดพลาดจากกล้อง: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"ล้มเหลวในการถ่ายภาพ"</string>
+    <string name="camera_preview_error_still_image_save_failed">"เราพบข้อผิดพลาดขณะทำการบันทึกรูปภาพเข้าสู่อัลบัมรูปของคุณ"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"การตั้งค่า"</string>
+    <string name="camera_settings_category_camera_settings">"การตั้งค่ากล้อง"</string>
+    <string name="camera_settings_category_fr_settings">"การตั้งค่าการจดจำใบหน้า"</string>
+    <string name="camera_settings_category_debug_settings">"การตั้งค่าการแก้ไข"</string>
+    <string name="camera_settings_fr_database_cleared">"ฐานข้อมูลการจดจำใบหน้าถูกลบแล้ว"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"ปิด"</string>
+    <string name="picture_review_send_faces">"ส่ง (%d)"</string>
+    <string name="picture_review_no_faces">"ไม่มีใครสามารถพบรูปนี้ได้อีก"</string>
+    <string name="picture_review_error_face_recognition">"เราพบข้อผิดพลาดขณะทำการจดจำใบหน้า"</string>
+    <string name="picture_review_error_face_enroll">"เสียใจด้วย เราพบข้อผิดพลาดขณะทำการบันทึกใบหน้า โปรดลองถ่ายภาพอื่นและลองใหม่อีกครั้ง"</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"รายชื่อติดต่ออื่น\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"แบ่งปันการตั้งค่า"</string>
+    <string name="fr_share_settings_button_just_once">"ครั้งเดียวเท่านั้น"</string>
+    <string name="fr_share_settings_button_always">"ทุกครั้ง"</string>
+    <string name="fr_share_settings_share_method_sms">"ข้อความ"</string>
+    <string name="fr_share_settings_share_method_email">"อีเมล"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"ลองใช้เลยสิ!"</string>
+    <string name="social_sharing_error_no_email_app">"คุณไม่จำเป็นต้องมีแอพที่สามารถใช้ส่งอีเมลได้"</string></resources>

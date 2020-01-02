@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Afişare măsurători depanare"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"Salvare imagini"</string>
+    <string name="debug_pref_save_pictures_desc">"Salvare imagini captate pe cardul SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"Salvare cadre previzualizare"</string>
+    <string name="debug_pref_save_preview_frames_desc">"Salvare cadre previzualizare pe cardul SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Permitere omitere cadru previzualizare"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"La salvarea de cadre de previzualizare, să se permită omiterea de cadre pentru menţinerea ratei de cadre"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Activare înregistrare detaliată în jurnal pentru recunoaştere faţă"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

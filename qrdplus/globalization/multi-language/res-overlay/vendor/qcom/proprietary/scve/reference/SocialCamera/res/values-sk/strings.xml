@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Sociálny fotoaparát"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"Pri overovaní alebo požadovaní povolení došlo k chybe. Ďalšie podrobnosti nájdete v denníku logcat."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Poslať (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"Spojenie s fotoaparátom sa stratilo"</string>
+    <string name="camera_preview_error_camera_error">"Chyba z fotoaparátu: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Nepodarilo sa urobiť fotografiu"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Pri ukladaní fotografie do vašej galérie došlo k chybe"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Nastavenia"</string>
+    <string name="camera_settings_category_camera_settings">"Nastavenia fotoaparátu"</string>
+    <string name="camera_settings_category_fr_settings">"Nastavenia rozpoznania tváre"</string>
+    <string name="camera_settings_category_debug_settings">"Nastavenia ladenia"</string>
+    <string name="camera_settings_fr_database_cleared">"Databáza rozpoznania tváre vymazaná"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Odmietnuť"</string>
+    <string name="picture_review_send_faces">"Poslať (%d)"</string>
+    <string name="picture_review_no_faces">"Na tejto fotografii sa nikto nenašiel"</string>
+    <string name="picture_review_error_face_recognition">"Pri rozpoznávaní tvárí došlo k chybe"</string>
+    <string name="picture_review_error_face_enroll">"Ospravedlňujeme sa, pri ukladaní tejto tváre došlo k chybe. Urobte inú fotografiu danej osoby a skúste to znovu."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Iný kontakt\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Nastavenia zdieľania"</string>
+    <string name="fr_share_settings_button_just_once">"Len raz"</string>
+    <string name="fr_share_settings_button_always">"Vždy"</string>
+    <string name="fr_share_settings_share_method_sms">"Správa"</string>
+    <string name="fr_share_settings_share_method_email">"E-mail"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Pozrite si toto!"</string>
+    <string name="social_sharing_error_no_email_app">"Nemáte aplikáciu, ktorá je schopná posielať e-maily"</string></resources>

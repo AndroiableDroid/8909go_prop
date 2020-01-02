@@ -1,0 +1,113 @@
+<resources>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+    <string name="app_name">"SeempJService"</string>
+    <string-array name="cause_description_array">
+<item>"6:3:Rastreando entradas/interações do usuário enquanto o app não está visível para o usuário ou quando o app está sendo executado em plano de fundo"</item>
+    <item>"7:5:uso suspeito do UID do android "</item>
+    <item>"8:5:uso suspeito do UID do android enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"9:5:Acesso suspeito às informações confidenciais do dispositivo"</item>
+    <item>"10:5:Acesso suspeito às informações confidenciais do dispositivo enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"11:4:Acesso suspeito de número de telefone"</item>
+    <item>"12:4:Acessando o número de telefone enquanto o app não está interagindo com o usuário"</item>
+    <item>"13:2o app está tentando fazer uma chamada telefônica não autorizada"</item>
+    <item>"14:2:o app está tentando fazer uma chamada telefônica não autorizada enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"15:4:Acesso anormal às informações confidenciais da conta do usuário"</item>
+    <item>"16:4:Acesso anormal às informações confidenciais da conta do usuário enquanto o app não está interagindo com o usuário"</item>
+    <item>"17:4:O app está acessando as informações confidenciais da conta do usuário sem notificar o usuário"</item>
+    <item>"18:4:O app está acessando as informações confidenciais da conta do usuário sem notificar o usuário enquanto está em plano de fundo"</item>
+    <item>"19:3:Acesso suspeito às informações confidenciais do navegador"</item>
+    <item>"20:3:Acesso suspeito às informações confidenciais do navegador enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"21:3:acessando as informações confidenciais do navegador (pode incluir informações confidenciais do usuário), enquanto o app não está interagindo com o usuário"</item>
+    <item>"22:3:acessando as informações confidenciais do navegador (pode incluir informações confidenciais do usuário), enquanto o app não está interagindo com o usuário e está sendo executado em plano de fundo"</item>
+    <item>"23:6:instalação de atalho anormal/excessiva"</item>
+    <item>"24:6:o app está tentando instalar o atalho enquanto está sendo executado em plano de fundo"</item>
+    <item>"25:6:o app está tentando instalar o atalho sem a interação do usuário"</item>
+    <item>"26:6:o app está tentando instalar o atalho sem a interação do usuário e enquanto está sendo executado em plano de fundo"</item>
+    <item>"27:4:Acessando as informações confidenciais do calendário"</item>
+    <item>"28:4:Acessando as informações confidenciais do calendário enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"29:1:Inserindo informações/eventos no calendário sem interação com o usuário"</item>
+    <item>"30:1:Inserindo informações/eventos no calendário sem interação enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"31:5:Acesso anormal/excessivo de informações de localização"</item>
+    <item>"32:5:Acesso anormal/excessivo de informações de localização enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"37:3:Uso suspeito da câmara (pode incluir tirar fotos e vídeos)"</item>
+    <item>"38:3:Uso suspeito da câmara (pode incluir tirar fotos e vídeos), enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"39:3:Capturando imagens (pode incluir vídeos) e comunicá-las com um servidor remoto"</item>
+    <item>"40:3:Capturando imagens (pode incluir vídeos) e comunicá-las com um servidor remoto enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"41:3:Capturando imagens (pode incluir vídeos) sem a interação do usuário"</item>
+    <item>"42:3:Capturando imagens (pode incluir vídeos) sem a interação do usuário e enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"43:3:Capturando imagens (pode incluir vídeos) e comunicá-las com um servidor remoto sem a interação do usuário"</item>
+    <item>"44:3:Capturando imagens (pode incluir vídeos) e comunicá-las com um servidor remoto sem a interação do usuário e enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"45:3:Uso suspeito da filmadora (pode incluir tirar fotos e vídeos)"</item>
+    <item>"46:3:Uso suspeito da filmadora (pode incluir tirar fotos e vídeos), enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"47:3:Capturando vídeos e comunicá-los com um servidor remoto"</item>
+    <item>"48:3:Capturando vídeos e comunicá-los com um servidor remoto enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"49:3:Capturando vídeos sem a interação do usuário"</item>
+    <item>"50:3:Capturando vídeos sem a interação do usuário e enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"51:3:Capturando vídeos e os comunicando com um servidor remoto sem a interação do usuário"</item>
+    <item>"52:3:Capturando vídeos e os comunicando com um servidor remoto sem a interação do usuário e enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"53:3:Gravação suspeita de dados do microfone"</item>
+    <item>"54:3:Gravação suspeita de dados do microfone enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"55:3:Gravação suspeita de dados do microfone e comunicação com o servidor remoto"</item>
+    <item>"56:3:Gravação de dados do microfone e comunicação com o servidor remoto enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"57:3:Gravação suspeita de dados do microfone enquanto o usuário não interage com o app"</item>
+    <item>"58:3:gravando dados do microfone enquanto o usuário não interage com o app e o app está sendo executado em plano de fundo"</item>
+    <item>"59:3:Gravação suspeita e comunicação de dados do microfone enquanto o app não interage com o usuário"</item>
+    <item>"60:3:gravação e comunicação de dados do microfone enquanto o app não interage com o usuário e está sendo executado em plano de fundo"</item>
+    <item>"61:2:Atividade suspeita de SMS: Tentando enviar SMS (potencialmente caro para números premium)"</item>
+    <item>"62:2:Aplicativo tentando enviar SMS enquanto está sendo executado em plano de fundo (SMS potencialmente caro para números premium)"</item>
+    <item>"63:2:Atividade suspeita de SMS: Aplicativo enviando SMS (potencialmente caro para números premium) sem a interação do usuário"</item>
+    <item>"64:2:Aplicativo enviando SMS (potencialmente caro para números premium) sem a interação a do usuário e enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"65:3:Acesso suspeito a SMS (incluindo abertura e leitura)"</item>
+    <item>"66:3:Acessando e lendo SMS enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"67:3:Acessando e lendo SMS sem qualquer interação do usuário"</item>
+    <item>"68:3:Acessando e lendo SMS sem qualquer interação do usuário enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"69:3:acesso excessivo/anormal às informações do sensor"</item>
+    <item>"70:3:acesso excessivo/anormal às informações do sensor enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"71:3:Interceptação suspeita de mensagens MMS"</item>
+    <item>"72:3:Interceptação suspeita de mensagens MMS enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"73:3:Interceptação suspeita de mensagens MMS sem a interação do usuário"</item>
+    <item>"74:3:Interceptação suspeita de mensagens MMS sem a interação do usuário e o app está sendo executado em plano de fundo"</item>
+    <item>"75:4:Acesso anormal de uma ou mais informações de contato"</item>
+    <item>"76:4:Acesso anormal de uma ou mais informações de contato enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"77:4:Acessando uma ou mais informações de contato enquanto o app não interage com o usuário"</item>
+    <item>"78:4:Acessando uma ou mais informações de contato enquanto o app não interage com o usuário e está sendo executado em plano de fundo"</item>
+    <item>"79:1:Instalação suspeita de aplicativo de terceiros"</item>
+    <item>"80:1:Instalação suspeita de aplicativo de terceiros enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"81:1:Instalação suspeita de aplicativo de terceiros enquanto o app não interage com o usuário"</item>
+    <item>"82:1:Instalação suspeita de aplicativo de terceiros enquanto o app não interage com o usuário e está sendo executado em plano de fundo"</item>
+    <item>"83:5:comunicação excessiva/anormal do UID do android"</item>
+    <item>"84:5:comunicação excessiva/anormal do UID do android enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"85:5:Acessando e comunicando informações confidenciais do dispositivo (pode incluir IMEI, número de série SIM e outras informações relacionadas à operadora)"</item>
+    <item>"86:5:Acessando e comunicando informações confidenciais do dispositivo (pode incluir IMEI, número de série SIM e outras informações relacionadas à operadora) enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"87:4:Acessando e comunicando o número de telefone do usuário para um servidor remoto"</item>
+    <item>"88:4:Acessando e comunicando o número de telefone do usuário para um servidor remoto enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"89:4:Comunicação anormal de informações confidenciais/credenciais da conta do usuário (pode incluir cartão de crédito ou outras informações financeiras)"</item>
+    <item>"90:4:Comunicação anormal de informações confidenciais/credenciais da conta do usuário (pode incluir cartão de crédito ou outras informações financeiras) enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"91:3:acessando e comunicando conteúdos confidenciais do navegador (pode incluir informações confidenciais do usuário)"</item>
+    <item>"92:3:acessando e comunicando conteúdos confidenciais do navegador (pode incluir informações confidenciais do usuário) enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"93:3:acessando e comunicando conteúdos confidenciais do navegador (pode incluir informações confidenciais do usuário)"</item>
+    <item>"94:3:acessando e comunicando conteúdos confidenciais do navegador (pode incluir informações confidenciais do usuário) enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"95:4:Comunicando informações do calendário para um servidor remoto (pode conter informações confidenciais do usuário)"</item>
+    <item>"96:4:Comunicando informações do calendário para um servidor remoto (pode conter informações confidenciais do usuário) enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"97:5:Acesso anormal/excessivo e comunicação das informações de localização"</item>
+    <item>"98:5:Acesso anormal/excessivo e comunicação das informações de localização enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"99:5:Acesso anormal/excessivo e comunicação das informações de localização"</item>
+    <item>"100:5:Acesso anormal/excessivo e comunicação das informações de localização enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"101:3:Comunicação excessiva/anormal de informações do sensor"</item>
+    <item>"102:3:Comunicação excessiva/anormal de informações do sensor enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"103:4:Acessando uma ou mais listas de contatos e comunicando-a para um servidor remoto"</item>
+    <item>"104:4:Acessando uma ou mais listas de contatos e comunicando-a para um servidor remoto enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"105:4:Acessando uma ou mais listas de contatos e comunicando-a para um servidor remoto sem a interação do usuário"</item>
+    <item>"106:4:Acessando uma ou mais listas de contatos e comunicando-a para um servidor remoto sem a interação do usuário e enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"109:3:acesso excessivo/anormal às informações do sensor"</item>
+    <item>"110:3:acesso excessivo/anormal às informações do sensor enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"121:5:Acesso suspeito às configurações relacionadas à ID do dispositivo"</item>
+    <item>"122:5:Acesso suspeito às configurações da ID do dispositivo enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"162:3:Mudança suspeita nas configurações do modo de avião enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"164:3:Mudança suspeita nas configurações do alarme enquanto o app está sendo executado em plano de fundo"</item>
+    <item>"202:3:Modificação suspeita do status do Wi-Fi, enquanto o app está sendo executado em plano de fundo"</item>
+    </string-array></resources>

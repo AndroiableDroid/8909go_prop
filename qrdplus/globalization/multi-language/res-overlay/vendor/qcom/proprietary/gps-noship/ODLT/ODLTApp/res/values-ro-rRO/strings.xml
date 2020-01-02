@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"Activitate de depanare GPS"</string>
+     <string name="cameraActivity">"Cameră foto"</string>
+     <string name="newTrackingSession">"Sesiune de urmărire nouă"</string>
+     <string name="newTrackingSession_nameLabel">"Nume"</string>
+     <string name="newTrackingSession_numFixesLabel">"Numere fixe"</string>
+     <string name="newTrackingSession_descriptionLabel">"Descriere"</string>
+     <string name="newTrackingSession_startButtonLabel">"Porniţi"</string>
+     <string name="testConfig">"Configurare test"</string>
+     <string name="testConfig_configNameLabel">"Nume configurare"</string>
+     <string name="testConfig_numFixesLabel">"Numere fixe (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"Descriere configurare test"</string>
+     <string name="testConfig_startButtonLabel">"Porniți testul"</string>
+     <string name="testConfig_RadioLabel">"Aplicație Melodie sau O singură încercare"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"O singură încercare"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"Aplicație Melodie"</string>
+     <string name="testConfig_qosTimeoutLabel">"Timp de răspuns preferat (sec)"</string>
+     <string name="testConfig_qosAccuracyLabel">"Precizie preferată (m)"</string>
+     <string name="testConfig_tbfLabel">"Interval minim (sec)"</string>
+     <string name="testConfig_staticTruthLabel">"Poziție reală statică (verificați pentru utilizare)"</string>
+     <string name="testConfig_latLabel">"Latitudine"</string>
+     <string name="testConfig_lonLabel">"Longitudine"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"Loc API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"Serviciu GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"Tip recurență"</string>
+     <string name="testConfig_apiTypeLabel">"API Introduceţi codul"</string>
+    <string name="labelUnknownPrivacy">"necunoscut"</string>
+    <string name="labelGetPrivacy">"Obțineți confidențialitatea"</string>
+    <string name="labelSetPrivacySetting">"Setați confidențialitatea"</string>
+    <string name="name_vzw_client">"Client Vzw"</string>
+    <string name="name_normal_client">"Android normal"</string>
+    <string name="LabelModeSel">"Mod"</string>
+    <string name="LabelNumFixSel">"# din număr fix"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"Stat..."</string>
+    <string name="str_nodata">"Nu există semnal pentru date."</string>
+    <string name="str_waitingforposinfo">"\nSe așteaptă informațiile despre poziție...\n"</string>
+    <string name="str_searchingforsvs">"\nSe caută SV-uri...\n"</string>
+    <string name="str_configsummary">"\nSumar configurare\n"</string>
+    <string name="str_alarms">"\nAlarme:\n\n"</string>
+    <string name="str_starttest">"Porniți testul"</string>
+    <string name="str_sessionplayback">"Redare sesiune"</string>
+    <string name="str_proximityalerts">"Alerte de proximitate"</string>
+    <string name="str_proximity_info">"Informații de proximitate"</string>
+    <string name="str_options">"Opțiuni"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"Autonom"</item>
+<item>"AFLT"</item>
+<item>"Viteză optimizată"</item>
+<item>"Precizie optimizată"</item>
+<item>"Date optimizate"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"Timp (sec) între numere fixe"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"Adresă PDE"</string>
+<string name="LabelAccuracyH">"Precizie preferată (H, m)"</string>
+<string name="LabelAccuracyV">"Precizie preferată (V, m)"</string>
+<string name="LabelMaxResponseTime">"Timp limită (sec)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"Executați cu stiva normală"</string>
+<string name="LabelRunOne">"Executați VzW"</string>
+<string name="LabelRunState1">"FSM Test 1"</string>
+<string name="LabelRunState2">"FSM Test 2"</string>
+<string name="EnigneStatus">"Stare motor"</string>
+<string name="NA">"N/A"</string>
+<string name="GpsStatus">"Stare GPS"</string>
+<string name="Session">"Sesiune"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"Tip"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"Mod"</string>
+<string name="stop">"Opriţi"</string>
+<string name="labelPdePort">"Port PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"Doar 911"</item>
+<item>"ACTIV"</item>
+</string-array>
+<string name="non_aiding">"Deselectați întreaga asistență"</string>
+<string name="all_aiding">"Selectați întreaga asistență"</string>
+<string name="done">"Ștergeți elementele selectate"</string>
+<string name="Ephemeris">"Efemer"</string>
+<string name="GLO_Ephemeris">"GLO efemer"</string>
+<string name="Alamanac">"Almanac"</string>
+<string name="GLO_Alamanac">"Almanac GLO"</string>
+<string name="Alamanac_Corr">"Corecție almanac"</string>
+<string name="GLO_Alamanac_Corr">"Corecție almanac GLO"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"Direcție SV"</string>
+<string name="GLO_SV_Steer">"Direcție GLO SV"</string>
+<string name="Cell_DB_Info">"Informații BD celulă"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"Timp GPS"</string>
+<string name="GLO_Time">"Timp GLO"</string>
+<string name="Freq_Bias_Est">"Est bias frecvență"</string>
+<string name="Time">"Ora"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"Sănătate"</string>
+<string name="SA_Data">"Date SA"</string>
+<string name="position">"poziție"</string>
+<string name="str_wbiq_runscript">"Executați scriptul"</string>
+<string name="str_wbiq_stopgps">"Ieșiți din modul RF"</string>
+<string name="str_wbiq_startgps">"Introduceți modul RF"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"Jurnalizare automată pe dispozitiv"</string>
+<string name="str_wbiq_chk_delaystart">"Întârziați pornirea(ile)"</string>
+<string name="str_wbiq_chk_autostop">"Oprire(i) automată(e)"</string>
+<string name="str_wbiq_chk_otfsa">"Activați OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"s"</string>
+<string name="str_proximity_clearalerts">"Eliminați alertele"</string>
+<string name="str_proximity_savealertsfile">"Salvați fișierele de alertă"</string>
+<string name="str_proximity_loadalertsfile">"Încărcați fișierele de alertă"</string>
+<string name="str_proximity_deletealertsfile">"Ștergeți fișierele de alertă"</string>
+<string name="str_proximity_logging">"Înregistrare în jurnal"</string>
+<string name="str_proximity_autostartenabled">"Pornire automată"</string>
+<string name="str_proximity_autostartfile">"Select Auto Start File"</string>
+<string name="str_proximity_smsnumber">"Număr de notificare SMS"</string>
+<string name="str_proximity_geofencelisttab_add">"Adăugaţi"</string>
+<string name="str_proximity_geofencelisttab_delet">"Ștergeți"</string>
+<string name="str_proximity_geofencelisttab_edit">"Editați"</string>
+<string name="str_locbatchingtab_btn_s">"s"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[mediu, min, max] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"Obțineți lotul"</string>
+<string name="str_powerest_summary">"Sumar:"</string>
+<string name="str_powerest_plot_label"/></resources>

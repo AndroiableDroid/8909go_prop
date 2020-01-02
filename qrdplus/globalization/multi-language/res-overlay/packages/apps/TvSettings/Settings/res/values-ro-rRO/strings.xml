@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Main app title [CHAR LIMIT=40] -->
+    <string name="settings_app_name">"Setări"</string>
+    <!-- Leanback Launcher App Title for main Settings app [CHAR LIMIT=40] -->
+    <string name="launcher_settings_app_name">"Setări"</string>
+    <!-- Leanback Launcher App Title for Network settings app [CHAR LIMIT=40] -->
+    <string name="launcher_network_app_name">"Rețea"</string>
+    <!-- Leanback Launcher App Title for Restricted Profile app [CHAR LIMIT=40] -->
+    <string name="launcher_restricted_profile_app_name">"Profil cu permisiuni limitate"</string>
+    <!-- Top level headers -->
+    <!-- Header title for device [CHAR LIMIT=50] -->
+    <string name="header_category_device">"Dispozitiv"</string>
+    <!-- Header title for preferences [CHAR LIMIT=50] -->
+    <string name="header_category_preferences">"Preferințe"</string>
+    <!-- Header title for accessories [CHAR LIMIT=50] -->
+    <string name="header_category_accessories">"Telecomandă și accesorii"</string>
+    <!-- Header title for personal [CHAR LIMIT=50] -->
+    <string name="header_category_personal">"Personal"</string>
+    <!-- Account preferences -->
+    <!-- Preference which adds an account [CHAR LIMIT=50] -->
+    <string name="add_account">"Adăugați un cont"</string>
+    <!-- Header for sync [CHAR LIMIT=50] -->
+    <string name="account_header_sync">"Sincronizare"</string>
+    <!-- Header for remove account [CHAR LIMIT=50] -->
+    <string name="account_header_remove_account">"Eliminați contul"</string>
+    <!-- Sync item label: control sync settings [CHAR LIMIT=100] -->
+    <string name="account_sync">"Alegeți aplicații sincronizate"</string>
+    <!-- Label for action to sync now [CHAR LIMIT=50] -->
+    <string name="sync_now">"Sincronizați acum"</string>
+    <!-- Label for action saying that we are syncing now [CHAR LIMIT=50] -->
+    <string name="sync_cancel">"Anulați sincronizarea"</string>
+    <!-- Sync status: in progress [CHAR LIMIT=50]-->
+    <string name="sync_in_progress">"Se sincronizează\u2026"</string>
+    <!-- Sync status: last synced [CHAR LIMIT=50]-->
+    <string name="last_synced">"Ultima sincronizare: <xliff:g id="TIME">%1s</xliff:g>"</string>
+    <!-- Sync status: disabled [CHAR LIMIT=50] -->
+    <string name="sync_disabled">"Dezactivată"</string>
+    <!-- Sync description if sync is failing [CHAR LIMIT=NONE] -->
+    <string name="sync_is_failing">"Sincronizarea nu funcționează corect în acest moment. Aceasta va reveni în curând."</string>
+    <!-- Remove account item label: remove the account [CHAR LIMIT=30] -->
+    <string name="account_remove">"Eliminați contul"</string>
+    <!-- Message posted if removing the account fails. [CHAR LIMIT=NONE] -->
+    <string name="account_remove_failed">"Contul nu poate fi eliminat"</string>
+    <!-- Connectivity preferences -->
+    <!-- Top level network card title. [CHAR LIMIT=50] -->
+    <string name="connectivity_network">"Rețea"</string>
+    <!-- Preference which manages wifi settings. [CHAR LIMIT=50] -->
+    <string name="connectivity_wifi">"Wi-Fi"</string>
+    <!-- Preference which manages ethernet settings. [CHAR LIMIT=50] -->
+    <string name="connectivity_ethernet">"Ethernet"</string>
+    <!-- Title for always scan wifi. [CHAR LIMIT=50] -->
+    <string name="wifi_setting_always_scan">"Scanare mereu disponibilă"</string>
+    <!-- Context help for always scan wifi. [CHAR LIMIT=200] -->
+    <string name="wifi_setting_always_scan_context">"Permiteți Serviciului de localizare Google și altor aplicații să caute rețele, chiar dacă funcția Wi-Fi este dezactivată"</string>
+    <!-- Title for enable wifi. [CHAR LIMIT=50] -->
+    <string name="wifi_setting_enable_wifi">"Wi-Fi"</string>
+    <!-- Device preferences -->
+    <!-- Preference which changes daydream settings. [CHAR LIMIT=50] -->
+    <string name="device_daydream">"Daydream"</string>
+    <!-- Preference which changes display settings. [CHAR LIMIT=50] -->
+    <string name="device_display">"Afișaj"</string>
+    <!-- Preference and title which changes system sounds settings. [CHAR LIMIT=50] -->
+    <string name="device_sound_effects">"Sunete de sistem"</string>
+    <!-- Preference which manages apps. [CHAR LIMIT=50] -->
+    <string name="device_apps">"Aplicații"</string>
+    <!-- Preference which shows storage status. [CHAR LIMIT=50] -->
+    <string name="device_storage_reset">"Stocare și resetare"</string>
+    <!-- Preference which shows storage status. [CHAR LIMIT=50] -->
+    <string name="device_storage">"Stocare"</string>
+    <!-- Preference which manages backup settings. [CHAR LIMIT=50] -->
+    <string name="device_backup_restore">"Creați și restabiliți backupuri"</string>
+    <!-- Preference which shows reset options [CHAR LIMIT=50] -->
+    <string name="device_reset">"Resetarea configurării din fabrică"</string>
+    <!-- Preference which sets the device's display calibration. [CHAR LIMIT=50] -->
+    <string name="device_calibration">"Calibrare"</string>
+        <!-- Title of dialog asking user to confirm before clearing all caches. [CHAR LIMIT=48] -->
+    <string name="device_storage_clear_cache_title">"Ștergeţi datele memorate în cache?"</string>
+    <!-- Message of dialog asking user to confirm before clearing all caches. [CHAR LIMIT=48] -->
+    <string name="device_storage_clear_cache_message">"Datele din cache ale aplicaţiilor vor fi şterse."</string>
+    <!-- Browse Header for downloaded apps under device settings. [CHAR LIMIT=50] -->
+    <string name="apps_downloaded">"Aplicații descărcate"</string>
+    <!-- Browse Header for all apps under device settings. [CHAR LIMIT=50] -->
+    <string name="apps_system">"Aplicații de sistem"</string>
+    <!-- Browse Header for running apps under device settings. [CHAR LIMIT=50] -->
+    <string name="apps_running">"Aplicații pornite"</string>
+    <!-- Remote and Accessories -->
+    <!-- Preference which manages pairing new accessories. [CHAR LIMIT=50] -->
+    <string name="accessories_add">"Adăugați un accesoriu"</string>
+    <!-- Preference which manages WiFi display settings. [CHAR LIMIT=50] -->
+    <string name="accessories_wifi_display">"Afișaj Wi-Fi"</string>
+    <!-- Device Paring Status: Pairing. [CHAR LIMIT=50] -->
+    <string name="accessory_state_pairing">"Se împerechează\u2026"</string>
+    <!-- Device Paring Status: Connecting. [CHAR LIMIT=50] -->
+    <string name="accessory_state_connecting">"Se conectează\u2026"</string>
+    <!-- Device Paring Status: Error. [CHAR LIMIT=50] -->
+    <string name="accessory_state_error">"Nu s-a putut conecta"</string>
+    <!-- Device Paring Status: Canceled. [CHAR LIMIT=50] -->
+    <string name="accessory_state_canceled">"Anulată"</string>
+    <!-- Device Paring Status: Pairing Complete. [CHAR LIMIT=50] -->
+    <string name="accessory_state_paired">"Împerecheat"</string>
+    <!-- Preference which manages a single Paired Bluetooth accessory. [CHAR LIMIT=50] -->
+    <string name="accessory_options">"Accesoriu"</string>
+    <!-- Preference for renaming a paired Bluetooth accessory[CHAR LIMIT=50] -->
+    <string name="accessory_rename">"Redenumiți"</string>
+    <!-- Preference for unpairing a Bluetooth accessory[CHAR LIMIT=50] -->
+    <string name="accessory_unpair">"Anulați împerecherea"</string>
+    <!-- Preference for displaying battery level percentage. % symbol if used must be escaped as %% [CHAR LIMIT=150] -->
+    <string name="accessory_battery">"Baterie <xliff:g id="PERCENTAGE">%1$d</xliff:g>%%"</string>
+    <!-- Description shown while we are waiting for a device unpair operation to finish[CHAR LIMIT=50] -->
+    <string name="accessory_unpairing">"Se anulează împerecherea dispozitivului\u2026"</string>
+    <!-- Description for Connected accessory[CHAR LIMIT=50] -->
+    <string name="accessory_connected">"Conectat"</string>
+    <!-- Remote and Accessories -->
+    <!-- Description text for new accessories pairing screen. [CHAR LIMIT=150] -->
+    <string name="accessories_add_title">"Se caută accesorii\u2026"</string>
+    <!-- Description text for bluetooth device pairing instructions. [CHAR LIMIT=150] -->
+    <string name="accessories_add_bluetooth_inst">"Înainte de conectarea dispozitivelor prin Bluetooth, asigurați-vă că acestea se află în modul de conectare"</string>
+    <!-- Description text for autopairing when the user is in the pairing activity due to pressing the back HW button.  %1 will be replaced with the countdown value. [CHAR LIMIT=150] -->
+    <string name="accessories_autopair_msg">"Un dispozitiv a fost găsit și se va conecta automat în <xliff:g id="COUNTDOWN">%1$s</xliff:g> (de) secunde"</string>
+    <!-- Description text for pairing screen with multiple devices found. [CHAR LIMIT=150] -->
+    <string name="accessories_add_title_multiple">"S-au găsit mai multe dispozitive"</string>
+    <!-- Description text for selecting a device to pair, when multiple devices are detected. [CHAR LIMIT=150] -->
+    <string name="accessories_add_multiple">"Pentru a alege alt dispozitiv, apăsați butonul de conectare de pe acest dispozitiv"</string>
+    <!-- Description text for pairing with the selected device, when multiple devices are detected. [CHAR LIMIT=150] -->
+    <string name="accessories_add_multiple_select">"Pentru conectare la dispozitivul selectat, apăsați lung pe butonul de conectare de pe acest dispozitiv timp de 5 secunde"</string>
+    <!-- Error message displayed to the user indicating that a selected action is not supported on this device. [CHAR LIMIT=150] -->
+    <string name="error_action_not_supported">"Această acțiune nu este acceptată"</string>
+    <!-- Title for the dialog to enter PIN. [CHAR LIMIT=40] -->
+    <string name="bluetooth_pairing_request">"Solicitare de împerechere prin Bluetooth"</string>
+    <!-- Message for confirmation of passkey to complete pairing. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_confirm_passkey_msg">"Pentru conectarea cu: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, asigurați-vă că se afișează această cheie de acces: &lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;"</string>
+    <!-- Message when bluetooth incoming pairing request for (2.1 devices) dialog is showing [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_incoming_pairing_msg">"De la: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;Împerecheați cu acest dispozitiv?"</string>
+    <!-- Message when bluetooth dialog when passkey or pin needs to be displayed. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_display_passkey_pin_msg">"Pentru împerecherea cu: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;Introduceți pe acesta: &lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;, apoi apăsați tasta Return sau Enter."</string>
+    <!-- Message when bluetooth dialog for pin entry is showing. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_enter_pin_msg">"Pentru împerecherea cu: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Introduceți codul PIN necesar al dispozitivului:"</string>
+    <!-- Message when bluetooth dialog for passkey entry is showing. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_enter_passkey_msg">"Pentru împerecherea cu: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt; &lt;br&gt;Introduceți cheia de acces necesară a dispozitivului:"</string>
+    <!-- Bluetooth PIN hint text (below the text entry box). [CHAR LIMIT=30] -->
+    <string name="bluetooth_pin_values_hint">"De obicei, 0000 sau 1234"</string>
+    <!-- Action title for Confirming the Bluetooth secure Pair action [CHAR LIMIT=50] -->
+    <string name="bluetooth_pair">"Împerecheați"</string>
+    <!-- Action title for Cancelling the Bluetooth secure Pair action [CHAR LIMIT=50] -->
+    <string name="bluetooth_cancel">"Anulați"</string>
+    <!-- System -->
+    <!-- Preference which manages cast settings. [CHAR LIMIT=50] -->
+    <string name="system_cast">"Google Cast"</string>
+    <!-- Preference which manages date / time settings. [CHAR LIMIT=50] -->
+    <string name="system_date_time">"Data și ora"</string>
+    <!-- Preference which manages language settings. [CHAR LIMIT=50] -->
+    <string name="system_language">"Limbă"</string>
+    <!-- Preference which manages input method settings. [CHAR LIMIT=50] -->
+    <string name="system_keyboard">"Tastatură"</string>
+    <!-- Preference which manages home screen settings. [CHAR LIMIT=50] -->
+    <string name="system_home">"Ecran de pornire"</string>
+    <!-- Preference which manages search and google now settings. [CHAR LIMIT=50] -->
+    <string name="system_search">"Căutare"</string>
+    <!-- Preference which manages security settings. [CHAR LIMIT=50] -->
+    <string name="system_security">"Securitate și restricții"</string>
+    <!-- Preference which manages speech recognition settings. [CHAR LIMIT=50] -->
+    <string name="system_speech">"Recunoaștere vocală"</string>
+    <!-- Preference which manages TV inputs. [CHAR LIMIT=50] -->
+    <string name="system_inputs">"Intrări"</string>
+    <!-- Preference which manages accessibility settings. [CHAR LIMIT=50] -->
+    <string name="system_accessibility">"Accesibilitate"</string>
+    <!-- Preference which manages developer options. [CHAR LIMIT=50] -->
+    <string name="system_developer_options">"Opțiuni dezvoltator"</string>
+    <!-- Label for no accessibility color or opacity [CHAR LIMIT=50] -->
+    <string name="accessibility_none">"Niciuna"</string>
+    <!-- Preference which manages Diagnostic and Usage reporting -->
+    <string name="system_diagnostic">"Utilizare și diagnosticare"</string>
+    <!-- About -->
+    <!-- Preference which shows system update status. [CHAR LIMIT=50] -->
+    <string name="about_system_update">"Actualizare de sistem"</string>
+    <!-- Preference which shows about screen with legal info, model, etc. [CHAR LIMIT=50] -->
+    <string name="about_preference">"Despre"</string>
+    <!-- Preference which shows name of device as it will appear when being accessed remotely [CHAR LIMIT=50] -->
+    <string name="device_name">"Nume dispozitiv"</string>
+    <!-- Button to reboot the device [CHAR LIMIT=40] -->
+    <string name="restart_button_label">"Reporniți"</string>
+    <!-- Preference which shows legal info. [CHAR LIMIT=50] -->
+    <string name="about_legal_info">"Informații de ordin juridic"</string>
+    <!-- Preference which shows open source licenses [CHAR LIMIT=50]-->
+    <string name="about_legal_license">"Licențe open source"</string>
+    <!-- Preference which shows terms of service and privacy info [CHAR LIMIT=50]-->
+    <string name="about_terms_of_service">"Aspecte juridice Google"</string>
+    <!-- Toast message displayed if the license data is unavailable [CHAR LIMIT=100] -->
+    <string name="about_license_activity_unavailable">"Datele despre licență nu sunt disponibile"</string>
+    <!-- Preference which shows model. [CHAR LIMIT=50] -->
+    <string name="about_model">"Model"</string>
+    <!-- Preference which shows version. [CHAR LIMIT=50] -->
+    <string name="about_version">"Versiune"</string>
+    <!-- Preference which shows serial number. [CHAR LIMIT=50] -->
+    <string name="about_serial">"Număr de serie"</string>
+    <!-- Preference which shows build version. [CHAR LIMIT=50] -->
+    <string name="about_build">"Versiunea"</string>
+    <!-- Device Info screen. Countdown for user taps to enable development settings [CHAR LIMIT=NONE] -->
+    <plurals name="show_dev_countdown">
+        <item quantity="one">"Mai aveți de parcurs <xliff:g id="STEP_COUNT">%1$d</xliff:g> pas pentru a deveni dezvoltator"</item>
+        <item quantity="other">"Mai aveți de parcurs <xliff:g id="STEP_COUNT">%1$d</xliff:g> pași pentru a deveni dezvoltator"</item>
+    </plurals>
+    <!-- Preference which shows ads settings. [CHAR LIMIT=50] -->
+    <string name="about_ads">"Anunțuri"</string>
+    <!-- Device Info screen. Confirmation that developer settings are enabled [CHAR LIMIT=NONE] -->
+    <string name="show_dev_on">"Ați devenit dezvoltator!"</string>
+    <!-- Device Info screen. Okay we get it, stop pressing, you already have it on [CHAR LIMIT=NONE] -->
+    <string name="show_dev_already">"Nu mai este nevoie, sunteți deja dezvoltator."</string>
+    <!-- Wifi -->
+    <!-- wifi signal strength array [CHAR LIMIT=30] -->
+    <string-array name="wifi_signal_strength">
+        <item>"Slab"</item>
+        <item>"Acceptabil"</item>
+        <item>"Bun"</item>
+        <item>"Excelent"</item>
+    </string-array>
+    <!-- titles for connection status -->
+    <!-- label mac address [CHAR LIMIT=50] -->
+    <string name="title_mac_address">"Adresă MAC"</string>
+    <!-- label signal strength [CHAR LIMIT=50] -->
+    <string name="title_signal_strength">"Putere semnal"</string>
+    <!-- label IP address [CHAR LIMIT=50] -->
+    <string name="title_ip_address">"Adresă IP"</string>
+    <!-- label SSID [CHAR LIMIT=50] -->
+    <string name="title_ssid">"Introduceți numele rețelei Wi-Fi"</string>
+    <!-- label internet connection [CHAR LIMIT=50] -->
+    <string name="title_internet_connection">"Conexiune de internet"</string>
+    <!-- contents for connection status -->
+    <!-- Connected [CHAR LIMIT=50] -->
+    <string name="connected">"Conectată"</string>
+    <!-- Not connected [CHAR LIMIT=50] -->
+    <string name="not_connected">"Neconectat"</string>
+    <!-- Wifi setting headers [CHAR LIMIT=50] -->
+    <string name="wifi_setting_header_available_networks">"Wi-Fi"</string>
+    <string name="wifi_setting_header_other_options">"ALTE OPȚIUNI"</string>
+    <string name="wifi_setting_see_all">"Afișați tot"</string>
+    <string name="wifi_setting_available_networks">"REȚELE DISPONIBILE"</string>
+    <!-- Other Options under Wifi Settings headers [CHAR LIMIT=50] -->
+    <string name="wifi_setting_other_options_wps">"Conectați-vă prin WPS"</string>
+    <string name="wifi_setting_other_options_add_network">"Adăugați o rețea nouă"</string>
+    <!-- Strings for Add Network under Connectivity Setting -->
+    <!-- Security type title on add network form page [CHAR LIMIT=30] -->
+    <string name="security_type">"Tip de securitate"</string>
+    <!-- Title for connecting to a WPS network in setup mode [CHAR LIMIT=30] -->
+    <string name="wps_network">"Conectați-vă prin WPS"</string>
+    <!-- Title for adding hidden network in setup mode [CHAR LIMIT=30] -->
+    <string name="other_network">"Altă rețea\u2026"</string>
+    <!-- Skip configuring a Wi-Fi network during device setup [CHAR LIMIT=30]-->
+    <string name="skip_network">"Omiteți"</string>
+    <!-- Wifi Security type indicating no security [CHAR LIMIT=30] -->
+    <string name="wifi_security_type_none">"Nesecurizată"</string>
+    <!-- Wifi Security type indicating WEP security [CHAR LIMIT=30] -->
+    <string name="wifi_security_type_wep">"WEP"</string>
+    <!-- Wifi Security type indicating WPA/WPA2 security [CHAR LIMIT=30] -->
+    <string name="wifi_security_type_wpa">"WPA/WPA2 PSK"</string>
+    <!-- Wifi Security type indicating EAP security [CHAR LIMIT=30] -->
+    <string name="wifi_security_type_eap">"802.1x EAP"</string>
+    <!-- Title to show when no wifi networks are available [CHAR LIMIT=80] -->
+    <string name="title_wifi_no_networks_available">"Se scanează\u2026"</string>
+    <!-- Title to show when wifi fails to save [CHAR LIMIT=80] -->
+    <string name="title_wifi_could_not_save">"Nu s-a putut salva configurația pentru <xliff:g id="SSID">%1$s</xliff:g>"</string>
+    <!-- Title to show when wifi fails to connect [CHAR LIMIT=80] -->
+    <string name="title_wifi_could_not_connect">"Nu s-a putut conecta la <xliff:g id="SSID">%1$s</xliff:g>"</string>
+    <!-- Title to show when wifi fails to connect due to timeout [CHAR LIMIT=80] -->
+    <string name="title_wifi_could_not_connect_timeout">"<xliff:g id="SSID">%1$s</xliff:g> nu a putut fi găsit"</string>
+    <!-- Title to show when wifi fails to connect due to authentication failure [CHAR LIMIT=80] -->
+    <string name="title_wifi_could_not_connect_authentication_failure">"Parola pentru Wi-Fi nu este validă"</string>
+    <!-- Title to show when the wifi ap rejects the connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_could_not_connect_ap_reject">"Rețeaua Wi-Fi nu a acceptat conexiunea"</string>
+    <!-- Title to show when asking if advanced settings should be used for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_advanced_options">"Configurați setările de proxy și IP pentru <xliff:g id="SSID">%1$s</xliff:g>?"</string>
+    <!-- Title to show when asking if a proxy should be used for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_proxy_settings">"Setări proxy"</string>
+    <!-- Title to show when asking for the proxy hostname for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_proxy_hostname">"Nume de gazdă proxy:"</string>
+    <!-- Title to show when asking for the proxy port for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_proxy_port">"Port proxy:"</string>
+    <!-- Title to show when asking for which domains bypass the proxy for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_proxy_bypass">"Evitați utilizarea unui proxy pentru:"</string>
+    <!-- Title to show when asking how an ip should be assigned for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_ip_settings">"Setări IP"</string>
+    <!-- Title to show when asking for the static ip address to use for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_ip_address">"Adresă IP:"</string>
+    <!-- Title to show when asking for the gateway's ip address for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_gateway">"Gateway:"</string>
+    <!-- Title to show when asking for the network prefix length for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_network_prefix_length">"Lungimea prefixului rețelei:"</string>
+    <!-- Title to show when asking for the first DNS to use for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_dns1">"DNS 1:"</string>
+    <!-- Title to show when asking for the second DNS to use for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_dns2">"DNS 2:"</string>
+    <!-- Title to show when the proxy settings are invalid [CHAR LIMIT=80] -->
+    <string name="title_wifi_proxy_settings_invalid">"Setările proxy nu sunt valide"</string>
+    <!-- Title to show when the ip settings are invalid [CHAR LIMIT=80] -->
+    <string name="title_wifi_ip_settings_invalid">"Setările IP nu sunt valide"</string>
+    <!-- Title to show when the ip settings are invalid [CHAR LIMIT=80] -->
+    <string name="title_wifi_known_network">"<xliff:g id="SSID">%1$s</xliff:g> este o rețea salvată"</string>
+    <!-- Label for action to try to connect to wifi again [CHAR LIMIT=50] -->
+    <string name="wifi_action_try_again">"Încercați din nou"</string>
+    <!-- Label for action to go back to the list of wifi networks [CHAR LIMIT=50] -->
+    <string name="wifi_action_view_available_networks">"Afișați rețelele disponibile"</string>
+    <!-- Message to show when wifi is connecting [CHAR LIMIT=80] -->
+    <string name="wifi_connecting">"Se conectează la <xliff:g id="SSID">%1$s</xliff:g>"</string>
+    <!-- Message to show when wifi is saving a new configuration [CHAR LIMIT=80] -->
+    <string name="wifi_saving">"Se salvează configurația pentru <xliff:g id="SSID">%1$s</xliff:g>"</string>
+    <!-- Title for action to connect to the wifi network [CHAR LIMIT=80] -->
+    <string name="wifi_connect">"Conectați-vă"</string>
+    <!-- Title for action to forget the wifi network configuration [CHAR LIMIT=80] -->
+    <string name="wifi_forget_network">"Eliminați rețeaua"</string>
+    <!-- Description for action to forget the wifi network configuration [CHAR LIMIT=100] -->
+    <string name="wifi_forget_network_description">"Vor fi șterse informațiile utilizate pentru conectarea la această rețea, inclusiv parolele salvate"</string>
+    <!-- Label for action to accept the currently connected wifi network [CHAR LIMIT=50] -->
+    <string name="wifi_action_ok">"OK"</string>
+    <!-- Label for action to try to connect to a different wifi network [CHAR LIMIT=50] -->
+    <string name="wifi_action_change_network">"Schimbați"</string>
+    <!-- Label for action to not try to connect to a different wifi network [CHAR LIMIT=50] -->
+    <string name="wifi_action_dont_change_network">"Nu schimbați"</string>
+    <!-- Label for action to use advanced settings for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_advanced_yes">"OK"</string>
+    <!-- Label for action to not use advanced settings for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_advanced_no">"Nu (recomandat)"</string>
+    <!-- Label for action to not use a proxy for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_proxy_none">"Niciuna"</string>
+    <!-- Label for action to setup a proxy for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_proxy_manual">"Manual"</string>
+    <!-- Label for action to use dhcp to obtain an ip address for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_dhcp">"DHCP"</string>
+    <!-- Label for action to setup static ip information for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_static">"Static"</string>
+    <!-- Title for action to show status information for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_status_info">"Informații despre stare"</string>
+    <!-- Title for action to setup advanced options for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_advanced_options_title">"Opțiuni avansate"</string>
+    <!-- Error message if the IP address is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_ip_address">"Introduceți o adresă IP validă"</string>
+    <!-- Error message if the gateway is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_gateway">"Introduceți o adresă de gateway validă"</string>
+    <!-- Error message if the dns is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_dns">"Introduceți o adresă DNS validă"</string>
+    <!-- Error message if the network prefix length is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_network_prefix_length">"Introduceți lungime prefix rețea între 0 și 32"</string>
+    <!-- Hint text for the IP address -->
+    <string name="wifi_ip_address_hint">"Introduceți o adresă IP validă.\nExemplu: 192.168.1.128"</string>
+    <!-- Hint text for DNS -->
+    <string name="wifi_dns1_hint">"Introduceți o adresă IP validă sau lăsați câmpul necompletat.\nExemplu: 8.8.8.8"</string>
+    <!-- Hint text for DNS -->
+    <string name="wifi_dns2_hint">"Introduceți o adresă IP validă sau lăsați câmpul necompletat.\nExemplu: 8.8.4.4"</string>
+    <!-- Hint text for the gateway -->
+    <string name="wifi_gateway_hint">"Introduceți o adresă IP validă sau lăsați câmpul necompletat.\nExemplu: 192.168.1.1"</string>
+    <!-- Hint text for network prefix length -->
+    <string name="wifi_network_prefix_length_hint">"Introduceți o lungime de prefix pentru rețea validă.\nExemplu: 24"</string>
+    <!-- HTTP proxy settings. The error if the hostname is not valid -->
+    <string name="proxy_error_invalid_host">"Numele de gazdă este nevalid"</string>
+    <!-- HTTP proxy settings. The error if the exclusion list is not valid -->
+    <string name="proxy_error_invalid_exclusion_list">"Această listă de excludere este nevalidă. Introduceți o listă de domenii excluse separate prin virgule."</string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_empty_port">"Câmpul pentru port nu poate rămâne necompletat"</string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_empty_host_set_port">"În cazul în care câmpul gazdă este necompletat, lăsați câmpul pentru port necompletat"</string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_invalid_port">"Portul este nevalid"</string>
+    <!-- HTTP proxy settings. Warning message about limited application support [CHAR LIMIT=100]-->
+    <string name="proxy_warning_limited_support">"Serverul proxy HTTP este folosit de browser, dar nu poate fi folosit de alte aplicații"</string>
+    <!-- HTTP proxy settings. The hint text field for port. -->
+    <string name="proxy_port_hint">"Introduceți un port valid.\nExemplu: 8080"</string>
+    <!-- HTTP proxy settings. The hint text for proxy exclusion list.-->
+    <string name="proxy_exclusionlist_hint">"Introduceți o listă de domenii excluse, separate prin virgulă sau lăsați câmpul gol. \nExemplu: example.com,mycomp.test.com,localhost"</string>
+    <!-- HTTP proxy settings. The hint text field for the hostname. -->
+    <string name="proxy_hostname_hint">"Introduceți un nume de gazdă valid.\nExemplu: proxy.example.com"</string>
+    <!-- Title to show indicating the user is connected [CHAR LIMIT=100] -->
+    <string name="wifi_summary_title_connected">"Conectat la rețea"</string>
+    <!-- Title to show indicating the user is not connected [CHAR LIMIT=100] -->
+    <string name="wifi_summary_title_not_connected">"Rețeaua nu este conectată"</string>
+    <!-- Title to show when wifi is already connected [CHAR LIMIT=100] -->
+    <string name="wifi_summary_description_connected_to_wifi_network">"Sunteți conectat(ă) deja la <xliff:g id="SSID">%1$s</xliff:g>. Doriți să vă conectați la altă rețea?"</string>
+    <!-- Name to use when we don't know the name of the wifi network the device is connected to [CHAR LIMIT=20] -->
+    <string name="wifi_summary_unknown_network">"o rețea necunoscută"</string>
+    <!-- Strings for Ethernet under Connectivity Setting -->
+    <!-- Title for OK [CHAR LIMIT=50] -->
+    <string name="title_ok">"OK"</string>
+    <!-- Title for DNS 2 [CHAR LIMIT=50] -->
+    <string name="title_cancel">"Anulați"</string>
+    <!-- Storage settings screen heading. This is displayed above items that pertain to the phone's internal storage [CHAR LIMIT=50] -->
+    <string name="storage_title">"Stocare"</string>
+    <!-- Storage settings title. The amount of free space for some storage partition.  For example, this is listed under both the "Internal phone storage" section and the "SD card" section. [CHAR LIMIT=50] -->
+    <string name="storage_available">"Disponibil"</string>
+    <!-- Storage settings screen heading.  The total amount of storage space for some storage partition.  For example, this is listed under both the "Internal phone storage" section and the "SD card" section [CHAR LIMIT=50] -->
+    <string name="storage_size">"Spațiu total: <xliff:g id="TOTAL_SPACE">%1$s</xliff:g>"</string>
+    <!-- Storage settings summary. Displayed when the total memory usage is being calculated. Will be replaced with a number like "12.3 GB" when finished calucating. [CHAR LIMIT=30] -->
+    <string name="storage_calculating_size">"Se calculează\u2026"</string>
+    <!-- Storage settings title. Displayed as a title when showing the total usage of applications installed. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="storage_apps_usage">"Aplicații"</string>
+    <!-- Storage settings title. Displayed as a title when showing the total usage of /sdcard/Download on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="storage_downloads_usage">"Descărcări"</string>
+    <!-- Storage settings title. Displayed as a title when showing the total usage of all pictures, videos in /sdcard/DCIM, /sdcard/Pictures folders on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="storage_dcim_usage">"Fotografii și videoclipuri"</string>
+    <!-- Storage settings title. Displayed as a title when showing the total usage of audio files in /sdcard on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="storage_music_usage">"Audio"</string>
+    <!-- Storage settings title. Displayed as a title when showing the total usage of misc files on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="storage_media_misc_usage">"Diverse"</string>
+    <!-- Storage settings title. Displayed as a title when showing the total usage of all cached data on device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="storage_media_cache_usage">"Datele memorate în cache"</string>
+    <!-- Storage settings eject action [CHAR LIMIT=50] -->
+    <string name="storage_eject">"Scoateți"</string>
+    <!-- Storage settings erase and format action [CHAR LIMIT=50] -->
+    <string name="storage_format">"Ștergeți și formatați"</string>
+    <!-- Storage settings format for internal storage action [CHAR LIMIT=50] -->
+    <string name="storage_format_for_private">"Formatați ca stocare pe dispozitiv"</string>
+    <!-- Description for a storage volume which is not currently connected to the device -->
+    <string name="storage_not_connected">"Neconectat"</string>
+    <!-- Storage settings migrate primary storage action [CHAR_LIMIT=50] -->
+    <string name="storage_migrate">"Migrați datele"</string>
+    <!-- Storage settings forget action [CHAR_LIMIT=50] -->
+    <string name="storage_forget">"Ștergeți această memorie internă"</string>
+    <!-- Storage settings forget description [CHAR_LIMIT=NONE] -->
+    <string name="storage_forget_wall_of_text">"Pentru a folosi aplicațiile și datele de pe această unitate, reconectați-o. Sau, puteți alege să ștergeți această stocare, dacă unitatea nu este disponibilă.\n\nDacă alegeți opțiunea Ștergeți, toate datele de pe unitate se vor pierde definitiv.\n\nPuteți să reinstalați aplicațiile ulterior, însă datele stocate pe această unitate se vor pierde."</string>
+    <!-- Header title for device storage [CHAR_LIMIT=50] -->
+    <string name="storage_device_storage_section">"Stocare pe dispozitiv"</string>
+    <!-- Header title for removable storage [CHAR_LIMIT=50] -->
+    <string name="storage_removable_storage_section">"Stocare amovibilă"</string>
+    <!-- Header title for device reset [CHAR_LIMIT=50] -->
+    <string name="storage_reset_section">"Resetați"</string>
+    <!-- Toast informing that storage mount operation was successful. [CHAR LIMIT=64]-->
+    <string name="storage_mount_success">"<xliff:g id="NAME">%1$s</xliff:g> s-a montat"</string>
+    <!-- Toast informing that storage unmount operation failed. [CHAR LIMIT=64]-->
+    <string name="storage_mount_failure">"<xliff:g id="NAME">%1$s</xliff:g> nu s-a putut monta"</string>
+    <!-- Toast informing that storage unmount operation was successful. [CHAR LIMIT=64]-->
+    <string name="storage_unmount_success">"<xliff:g id="NAME">%1$s</xliff:g> s-a scos în siguranță"</string>
+    <!-- Toast informing that storage unmount operation failed. [CHAR LIMIT=64]-->
+    <string name="storage_unmount_failure">"<xliff:g id="NAME">%1$s</xliff:g> nu s-a putut scoate în siguranță"</string>
+    <!-- Toast informing that storage unmount operation failed because the volume couldn't be found. [CHAR LIMIT=64]-->
+    <string name="storage_unmount_failure_cant_find">"Nu s-a găsit unitatea de scos"</string>
+    <!-- Toast informing that storage format operation was successful. [CHAR LIMIT=64]-->
+    <string name="storage_format_success">"<xliff:g id="NAME">%1$s</xliff:g> s-a formatat"</string>
+    <!-- Toast informing that storage format operation failed. [CHAR LIMIT=64]-->
+    <string name="storage_format_failure">"<xliff:g id="NAME">%1$s</xliff:g> nu s-a putut formata"</string>
+    <!-- Title for wizard screen for formatting storage as internal [CHAR LIMIT=64] -->
+    <string name="storage_wizard_format_as_private_title">"Formatați ca memorie internă"</string>
+    <!-- Description for wizard screen for formatting storage as internal [CHAR LIMIT=NONE] -->
+    <string name="storage_wizard_format_as_private_description">"Este necesar ca unitatea USB să fie formatată pentru a fi securizată. După ce este formatată în siguranță, unitatea va funcționa doar în acest dispozitiv. Dacă o formatați, toate datele stocate pe unitate vor fi șterse. Pentru a nu pierde datele, faceți backup."</string>
+    <!-- Title for wizard screen for formatting storage as internal [CHAR LIMIT=64] -->
+    <string name="storage_wizard_format_as_public_title">"Ștergeți și formatați"</string>
+    <!-- Description for wizard screen for formatting storage as internal [CHAR LIMIT=NONE] -->
+    <string name="storage_wizard_format_as_public_description">"După formatare, puteți să folosiți unitatea USB în alte dispozitive. Toate datele vor fi șterse. Vă recomandăm să faceți backup mai întâi mutând aplicațiile pe altă memorie internă."</string>
+    <!-- Title for wizard progress screen for formatting drive [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_format_progress_title">"Se formatează unitatea USB\u2026"</string>
+    <!-- Description for wizard progress screen for formatting drive [CHAR_LIMIT=NONE] -->
+    <string name="storage_wizard_format_progress_description">"Acest proces poate dura un timp. Nu scoateți unitatea."</string>
+    <!-- Title for wizard confirmation screen for migrating data to new drive [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_migrate_confirm_title">"Mutați datele pe <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <!-- Description for wizard confirmation screen for migrating data to new drive [CHAR_LIMIT=NONE] -->
+    <string name="storage_wizard_migrate_confirm_description">"Mutați fotografiile, fișierele și datele aplicațiilor pe <xliff:g id="NAME">%1$s</xliff:g>. Procesul poate dura câteva minute. Anumite aplicații nu vor funcționa corect pe durata mutării."</string>
+    <!-- Positive action for wizard confirmation screen for migrating data to new drive [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_migrate_confirm_action_move_now">"Mutați acum"</string>
+    <!-- Negative action for wizard confirmation screen for migrating data to new drive [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_migrate_confirm_action_move_later">"Mutați mai târziu"</string>
+    <!-- Success toast for migrating data [CHAR_LIMIT=100] -->
+    <string name="storage_wizard_migrate_toast_success">"Datele au fost migrate pe <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <!-- Failure toast for migrating data [CHAR_LIMIT=100] -->
+    <string name="storage_wizard_migrate_toast_failure">"Datele nu au putut fi migrate pe <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <!-- Title for wizard progress screen for migrating data to new drive [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_migrate_progress_title">"Se mută datele pe <xliff:g id="NAME">%1$s</xliff:g>\u2026"</string>
+    <!-- Description for wizard progress screen for migrating data to new drive [CHAR_LIMIT=NONE] -->
+    <string name="storage_wizard_migrate_progress_description">"Procesul poate dura un timp. Nu scoateți unitatea.\nAnumite aplicații nu vor funcționa corect pe durata mutării."</string>
+    <!-- Title for warning dialog for slow drives [CHAR_LIMIT=64] -->
+    <string name="storage_wizard_format_slow_title">"Se pare că unitatea are o viteză de transfer scăzută."</string>
+    <!-- Summary for warning dialog for slow drives [CHAR_LIMIT=NONE] -->
+    <string name="storage_wizard_format_slow_summary">"Puteți continua, dar aplicațiile mutate în această locație se pot bloca, iar transferurile de date pot dura mult timp. Pentru o performanță mai bună, folosiți o unitate cu o viteză de transfer mai ridicată."</string>
+    <!-- Format action for wizard screen for formatting storage [CHAR LIMIT=50] -->
+    <string name="storage_wizard_format_action">"Formatați"</string>
+    <!-- Back up apps action for wizard screen for formatting storage [CHAR LIMIT=50]-->
+    <string name="storage_wizard_backup_apps_action">"Faceți backup pentru aplicații"</string>
+    <!-- Back up apps title [CHAR LIMIT=50] -->
+    <string name="storage_wizard_back_up_apps_title">"Aplicații stocate pe <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <!-- Back up apps title [CHAR LIMIT=50] -->
+    <string name="storage_wizard_back_up_apps_and_data_title">"Aplicații și date stocate pe <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <!-- Back up apps storage available description [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_back_up_apps_space_available">"Spațiu disponibil: <xliff:g id="SIZE">%1$s</xliff:g>"</string>
+    <!-- Title for wizard screen for ejecting internal storage [CHAR LIMIT=64] -->
+    <string name="storage_wizard_eject_internal_title">"Scoateți memoria internă"</string>
+    <!-- Description for wizard screen for ejecting internal storage [CHAR LIMIT=NONE] -->
+    <string name="storage_wizard_eject_internal_description">"Aplicațiile din această stocare a dispozitivului nu vor mai funcționa după ce este scoasă. Unitatea USB este formatată pentru a funcționa numai pe acest dispozitiv. Nu va funcționa pe niciun alt dispozitiv."</string>
+    <!-- Title for wizard progress screen for ejecting a drive [CHAR_LIMIT=64] -->
+    <string name="sotrage_wizard_eject_progress_title">"Se scoate <xliff:g id="NAME">%1$s</xliff:g>\u2026"</string>
+    <!-- Title for wizard screen for moving apps [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_move_app_title">"Spațiu de stocare utilizat"</string>
+    <!-- Title for wizard progress screen for moving apps [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_move_app_progress_title">"Se mută <xliff:g id="NAME">%1$s</xliff:g>..."</string>
+    <!-- Description for wizard progress screen for moving apps [CHAR_LIMIT=NONE] -->
+    <string name="storage_wizard_move_app_progress_description">"Nu scoateți unitatea în timpul mutării.\nAplicația <xliff:g id="APPNAME">%1$s</xliff:g> de pe dispozitiv va fi disponibilă după finalizarea mutării."</string>
+    <!-- Title for wizard screen for forgetting private storage [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_forget_confirm_title">"Ștergeți memoria internă?"</string>
+    <!-- Description for wizard screen for forgetting private storage [CHAR_LIMIT=NONE] -->
+    <string name="storage_wizard_forget_confirm_description">"Dacă alegeți opțiunea „Ștergeți”, toate datele stocate pe această unitate se vor pierde definitiv. Doriți să continuați?"</string>
+    <!-- Action for wizard screen for forgetting private storage [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_forget_action">"Ștergeți"</string>
+    <!-- Title for new storage activity [CHAR_LIMIT=50] -->
+    <string name="storage_new_title">"Unitatea USB a fost conectată"</string>
+    <!-- Browse action for new storage activity [CHAR_LIMIT=50] -->
+    <string name="storage_new_action_browse">"Răsfoiți"</string>
+    <!-- Adopt action for new storage activity [CHAR_LIMIT=50] -->
+    <string name="storage_new_action_adopt">"Configurați ca memorie internă"</string>
+    <!-- Format as removable action for new storage activity [CHAR_LIMIT=50] -->
+    <string name="storage_new_action_format_public">"Configurați ca stocare amovibilă"</string>
+    <!-- Eject action for new storage activity [CHAR_LIMIT=50] -->
+    <string name="storage_new_action_eject">"Scoateți"</string>
+    <!-- Title for missing storage activity shown when a drive is removed [CHAR_LIMIT=50] -->
+    <string name="storage_missing_title">"Unitatea <xliff:g id="NAME">%1$s</xliff:g> a fost eliminată"</string>
+    <!-- Description for missing storage activity shown when a drive is removed [CHAR_LIMIT=NONE] -->
+    <string name="storage_missing_description">"Anumite aplicații nu vor fi disponibile sau nu vor funcționa corect până la reconectarea unității."</string>
+    <!-- Manage applications, text for move error messages -->
+    <string name="insufficient_storage">"Nu există suficient spațiu de stocare."</string>
+    <string name="does_not_exist">"Aplicația nu există."</string>
+    <string name="app_forward_locked">"Aplicația este protejată la copiere."</string>
+    <string name="invalid_location">"Locația de instalare nu este validă."</string>
+    <string name="system_package">"Actualizările de sistem nu pot fi instalate pe suportul extern."</string>
+    <!-- Learn more action title [CHAR_LIMIT=50] -->
+    <string name="learn_more_action">"Aflați mai multe"</string>
+    <!-- Action to retry WPS scanning [CHAR LIMIT=50] -->
+    <string name="wifi_wps_retry_scan">"Reîncercați"</string>
+    <!-- Message indicating we are scanning for WPS routers [CHAR LIMIT=150] -->
+    <string name="wifi_wps_title">"Se caută routerul WPS\u2026"</string>
+    <!-- Message describing how to turn on WPS on a router [CHAR LIMIT=150] -->
+    <string name="wifi_wps_instructions">"Apăsați pe butonul Configurare protejată Wi-Fi pe router.\nAcesta se poate numi „WPS” sau poate conține simbolul din partea stângă."</string>
+    <!-- Title Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pin">"Introduceți codul PIN <xliff:g id="NUMBER">%1$s</xliff:g> pe routerul Wi-Fi."</string>
+    <!-- Description Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pin_description">"După ce introduceți codul PIN, finalizarea configurării poate dura până la 2 minute"</string>
+    <!-- Text displayed when WPS fails to start [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_generic">"Nu s-a găsit routerul Wi-Fi"</string>
+    <!-- Text displayed when WPS fails due to WEP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_wep">"Setarea de securitate (WEP) pentru routerul Wi-Fi nu este acceptată"</string>
+    <!-- Text displayed when WPS fails to TKIP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_tkip">"Setarea de securitate (TKIP) pentru routerul Wi-Fi nu este acceptată"</string>
+    <!-- Text displayed when WPS fails due to another session [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_overlap">"Se desfășoară altă sesiune WPS. Încercați din nou peste câteva minute."</string>
+    <!-- Title for Date in System Settings Date Time [CHAR LIMIT=50] -->
+    <string name="system_date">"Data"</string>
+    <!-- Title for Time in System Settings Date Time [CHAR LIMIT=50] -->
+    <string name="system_time">"Ora"</string>
+    <!-- Title for Set Date in System Settings Date Time [CHAR LIMIT=50] -->
+    <string name="system_set_date">"Setați data"</string>
+    <!-- Title for Set Time in System Settings Date Time [CHAR LIMIT=50] -->
+    <string name="system_set_time">"Setați ora"</string>
+    <!-- Title for Set Time Zone in System Settings Date Time [CHAR LIMIT=50] -->
+    <string name="system_set_time_zone">"Setați fusul orar"</string>
+    <!-- Format string for displaying the current time zone, eg "GMT-08:00, Pacific Standard Time" [CHAR LIMIT=10] -->
+    <string name="desc_set_time_zone">"<xliff:g id="OFFSET">%1$s</xliff:g>, <xliff:g id="NAME">%2$s</xliff:g>"</string>
+    <!-- Title for Set time format in System Settings Date Time [CHAR LIMIT=50] -->
+    <string name="system_set_time_format">"Utilizați formatul de 24 de ore"</string>
+    <!-- Format string for displaying the current time format (12/24 hour) [CHAR LIMIT=10] -->
+    <string name="desc_set_time_format">"<xliff:g id="STATE">%1$s</xliff:g> (<xliff:g id="SAMPLE">%2$s</xliff:g>)"</string>
+    <!-- Title for automatic date & time [CHAR LIMIT = 80] -->
+    <string name="system_auto_date_time">"Dată și oră automate"</string>
+    <!-- Description for using automatic date & time in date time settings [CHAR LIMIT=100] -->
+    <string name="desc_auto_date_time">"Folosiți ora dată de rețea"</string>
+    <!-- Title for Location in System Settings [CHAR LIMIT=50] -->
+    <string name="system_location">"Locație"</string>
+    <!-- Description for Location in System Settings [CHAR LIMIT=NONE] -->
+    <string name="system_desc_location">"Acordați aplicațiilor care v-au solicitat, permisiunea să utilizeze informațiile dvs. de localizare"</string>
+    <!-- Title for confirming location consent [CHAR LIMIT=50] -->
+    <string name="system_network_location_confirm">"Consimțământ privind locația"</string>
+    <!-- [CHAR LIMIT=30] Location settings screen, setting preference screen box label for location mode -->
+    <string name="location_mode_title">"Mod"</string>
+    <!-- [CHAR LIMIT=30] Location settings screen, sub category for recent location requests -->
+    <string name="location_category_recent_location_requests">"Solicitări de locație recente"</string>
+    <!-- Location settings screen, displayed when there's no recent app accessing location -->
+    <string name="location_no_recent_apps">"Nicio aplicație nu a solicitat locația recent"</string>
+    <!-- [CHAR LIMIT=30] Location settings screen, recent location requests high battery use-->
+    <string name="location_high_battery_use">"Utilizare intensă a bateriei"</string>
+    <!-- [CHAR LIMIT=30] Location settings screen, recent location requests low battery use-->
+    <string name="location_low_battery_use">"Utilizare redusă a bateriei"</string>
+    <!-- [CHAR LIMIT=130] Location mode screen, description for wifi mode -->
+    <string name="location_mode_wifi_description">"Utilizați Wi-Fi pentru a estima locația"</string>
+    <!-- [CHAR LIMIT=60] Label for the status of location -->
+    <string name="location_status">"Starea locației"</string>
+    <!-- [CHAR LIMIT=60] Title for location services in locations settings -->
+    <string name="location_services">"Servicii de localizare"</string>
+    <!-- [CHAR LIMIT=20] Title for status on for location services -->
+    <string name="on">"Activate"</string>
+    <!-- [CHAR LIMIT=20] Title for status off for location services -->
+    <string name="off">"Dezactivate"</string>
+    <!-- [CAR LIMIT=100] Location services screen title for Google location services -->
+    <string name="google_location_services_title">"Servicii de localizare Google"</string>
+    <!-- [CAR LIMIT=100] Location services screen title for third party location services -->
+    <string name="third_party_location_services_title">"Servicii de localizare terță parte"</string>
+    <!-- [CHAR LIMIT=100] Location services screen, title for Location reporting -->
+    <string name="location_reporting">"Raportarea locației"</string>
+    <!-- [CHAR LIMIT=100] Location services screen, title for Location history -->
+    <string name="location_history">"Istoricul locațiilor"</string>
+    <!-- [CHAR LIMIT=300] Location reporting screen, description -->
+    <string name="location_reporting_desc">"Google utilizează această funcție în produse precum Google Now și Google Maps. Activând Raportarea locației, permiteți oricărui produs Google care utilizează această funcție să stocheze și să utilizeze cele mai recente date despre locația dispozitivului și să le asocieze contului Google."</string>
+    <!-- [CHAR LIMIT=500] Location history screen, description -->
+    <string name="location_history_desc">"Când activați Istoricul locațiilor pentru cont, Google poate stoca datele despre locația dispozitivului, pentru a fi utilizate de aplicații.\n\nDe exemplu, Google Maps vă oferă indicații de orientare, iar Google Now, informații despre trafic în timpul navetei.\n\nPuteți dezactiva oricând Istoricul locațiilor, dar acesta nu va fi șters. Vedeți și gestionați Istoricul locațiilor la maps.google.com/locationhistory."</string>
+    <!-- [CHAR LIMIT=100] Location history screen, title for delete location history -->
+    <string name="delete_location_history_title">"Ștergeți istoricul locațiilor"</string>
+    <!-- [CHAR LIMIT=300] Location history screen, description for delete location history -->
+    <string name="delete_location_history_desc">"Se va șterge tot Istoricul locațiilor de pe dispozitiv pentru acest Cont Google. Ștergerea este ireversibilă. Anumite aplicații, inclusiv Google Now, nu vor mai funcționa."</string>
+    <!-- Title for services in accessibility settings [CHAR LIMIT=50] -->
+    <string name="system_services">"Servicii"</string>
+    <!-- Title and description for accessibility service setting [CHAR LIMIT=50] -->
+    <string name="accessibility_service_settings">"Setări serviciu"</string>
+    <!-- Title and description for accessibility captions setting [CHAR LIMIT=50] -->
+    <string name="accessibility_captions">"Subtitrări"</string>
+    <!-- Title and description for accessibility captions description [CHAR LIMIT=NONE] -->
+    <string name="accessibility_captions_description">"Setări pentru suprapunerea textului subtitrării pe videoclip"</string>
+    <!-- Title for captions display setting [CHAR LIMIT=50] -->
+    <string name="captions_display">"Afișare"</string>
+    <!-- Subtext used under the captions_display string to denote that captions will be shown. [CHAR LIMIT=50] -->
+    <string name="captions_display_on">"Activate"</string>
+    <!-- Subtext used under the captions_display string to denote that captions will NOT be shown. [CHAR LIMIT=50] -->
+    <string name="captions_display_off">"Dezactivate"</string>
+    <!-- Description for captions display setting [CHAR LIMIT=100] -->
+    <string name="display_options">"Opțiuni de afișare"</string>
+    <!-- Title for captions configure setting [CHAR LIMIT=50] -->
+    <string name="captions_configure">"Configurați"</string>
+    <!-- Title for captions language setting [CHAR LIMIT=50] -->
+    <string name="captions_lanaguage">"Limba"</string>
+    <!-- Title for captions text size setting [CHAR LIMIT=50] -->
+    <string name="captions_textsize">"Dimensiunea textului"</string>
+    <!-- Title for captions style setting [CHAR LIMIT=50] -->
+    <string name="captions_captionstyle">"Stilul subtitrării"</string>
+    <!-- Title for custom captions settings [CHAR LIMIT=50] -->
+    <string name="captions_customoptions">"Opțiuni personalizate"</string>
+    <!-- Title for captions font family setting [CHAR LIMIT=50] -->
+    <string name="captions_fontfamily">"Familia de fonturi"</string>
+    <!-- Title for captions text color setting [CHAR LIMIT=50] -->
+    <string name="captions_textcolor">"Culoarea textului"</string>
+    <!-- Title for captions edge type setting [CHAR LIMIT=50] -->
+    <string name="captions_edgetype">"Tipul marginii"</string>
+    <!-- Title for captions edge color setting [CHAR LIMIT=50] -->
+    <string name="captions_edgecolor">"Culoarea marginii"</string>
+    <!-- Title for captions background color setting [CHAR LIMIT=50] -->
+    <string name="captions_backgroundcolor">"Culoarea de fundal"</string>
+    <!-- Title for captions bacground opacity setting [CHAR LIMIT=50] -->
+    <string name="captions_backgroundopacity">"Opacitatea fundalului"</string>
+    <!-- Sample text for previewing video caption preferences. [CHAR LIMIT=NONE] -->
+    <string name="captioning_preview_text">"Subtitrările vor arăta așa"</string>
+    <!-- Title for captions text opacity setting [CHAR LIMIT=50] -->
+    <string name="captions_textopacity">"Opacitatea textului"</string>
+    <!-- Title for captions window color setting [CHAR LIMIT=50] -->
+    <string name="captions_windowcolor">"Culoarea ferestrei"</string>
+    <!-- Title for captions window opacity setting [CHAR LIMIT=50] -->
+    <string name="captions_windowopacity">"Opacitatea fereastrei"</string>
+    <!-- Label for the color white. [CHAR LIMIT=35] -->
+    <string name="color_white">"Alb"</string>
+    <!-- Label for the color black. [CHAR LIMIT=35] -->
+    <string name="color_black">"Negru"</string>
+    <!-- Label for the color red. [CHAR LIMIT=35] -->
+    <string name="color_red">"Roșu"</string>
+    <!-- Label for the color green. [CHAR LIMIT=35] -->
+    <string name="color_green">"Verde"</string>
+    <!-- Label for the color blue. [CHAR LIMIT=35] -->
+    <string name="color_blue">"Albastru"</string>
+    <!-- Label for the color cyan. [CHAR LIMIT=35] -->
+    <string name="color_cyan">"Cyan"</string>
+    <!-- Label for the color yellow. [CHAR LIMIT=35] -->
+    <string name="color_yellow">"Galben"</string>
+    <!-- Label for the color magenta. [CHAR LIMIT=35] -->
+    <string name="color_magenta">"Magenta"</string>
+    <!-- Title for accessibility service status [CHAR LIMIT=50] -->
+    <string name="system_accessibility_status">"Stare"</string>
+    <!-- Title for accessibility service configuration [CHAR LIMIT=50] -->
+    <string name="system_accessibility_config">"Configurare"</string>
+    <!-- Title for confirmation screen when turning ON accessibility service[CHAR LIMIT=50] -->
+    <string name="system_accessibility_service_on_confirm_title">"Utilizați <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
+    <!-- Description for confirmation screen when turning ON accessibility service[[CHAR LIMIT=NONE] -->
+    <string name="system_accessibility_service_on_confirm_desc">"<xliff:g id="SERVICE">%1$s</xliff:g> poate culege tot textul pe care îl introduceți, cu excepția parolelor. Aceasta include date personale, cum ar fi numerele cardurilor de credit."</string>
+    <!-- Title for confirmation screen when turning OFF accessibility service[CHAR LIMIT=50] -->
+    <string name="system_accessibility_service_off_confirm_title">"Opriți <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
+    <!-- Description for confirmation screen when turning OFF accessibility service[[CHAR LIMIT=NONE] -->
+    <string name="system_accessibility_service_off_confirm_desc">"Selectând OK veți opri <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
+    <!-- Title for text to speech output in accessibility settings [CHAR LIMIT=50] -->
+    <string name="system_accessibility_tts_output">"Transformarea textului în vorbire"</string>
+    <!-- Title for Set Speak passwords in System Settings Accessibility [CHAR LIMIT=50] -->
+    <string name="system_speak_passwords">"Rostește parolele"</string>
+    <!-- Title for Set Preferred engine in System Settings Accessibility [CHAR LIMIT=50] -->
+    <string name="system_preferred_engine">"Motor preferat"</string>
+    <!-- Title for Set Speech rate in System Settings Accessibility [CHAR LIMIT=50] -->
+    <string name="system_speech_rate">"Ritmul vorbirii"</string>
+    <!-- Title for Set Play sample in System Settings Accessibility [CHAR LIMIT=50] -->
+    <string name="system_play_sample">"Redați mostra"</string>
+    <!-- Title for Set Install voice data in System Settings Accessibility [CHAR LIMIT=50] -->
+    <string name="system_install_voice_data">"Instalați date vocale"</string>
+    <!-- Title for Set General in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_general">"General"</string>
+    <!-- Title for Set Debugging in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_debugging">"Remedierea erorilor"</string>
+    <!-- Title for Set Input in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_input">"Intrare"</string>
+    <!-- Title for Set Drawing in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_drawing">"Desen"</string>
+    <!-- Title for Set Monitoring in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_monitoring">"Monitorizare"</string>
+    <!-- Title for Set Apps in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_apps">"Aplicații"</string>
+    <!-- Title for Set Stay awake in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_stay_awake">"Activ permanent"</string>
+    <!-- Title for Set HDCP checking in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_hdcp_checking">"Verificare HDCP"</string>
+    <!-- Title for HDMI optimization in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_hdmi_optimization">"Optimizare HDMI"</string>
+    <!-- Title for reboot confirmation in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_reboot_confirm">"Reporniți acum?"</string>
+    <!-- Description for reboot confirmation in System Settings Developer options [CHAR LIMIT=150] -->
+    <string name="system_desc_reboot_confirm">"Pentru a actualiza această setare, dispozitivul trebuie repornit"</string>
+    <!-- Title for HDCP checking option in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_never_check">"Nu verificați niciodată"</string>
+    <!-- Title for HDCP checking option in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_check_for_drm_content_only">"Verificați doar pentru conținut DRM"</string>
+    <!-- Title for HDCP checking option in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_always_check">"Verificați întotdeauna"</string>
+    <!-- Title for Bluetooth HCI logging Developer option [CHAR LIMIT=50] -->
+    <string name="system_bt_hci_log">"Înregistrare Bluetooth HCI"</string>
+    <!-- Title for Set Email address in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_email_address">"Adresă de e-mail"</string>
+    <!-- Title for Set USB debugging in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_usb_debugging">"Remediere erori USB"</string>
+    <!-- Title for Set Allow mock locations in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_allow_mock_locations">"Permiteți locațiile fictive"</string>
+    <!-- Title for Set Select debug app in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_select_debug_app">"Selectați aplicația de remediere a erorilor"</string>
+    <!-- Title for Set Wait for debugger in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_wait_for_debugger">"Așteptați instrumentul de remediere a erorilor"</string>
+    <!-- Title for Set Verify apps over USB in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_verify_apps_over_usb">"Verificați aplicațiile prin USB"</string>
+    <!-- Description for Set verify apps over USB in system settings develop opetions [CHAR LIMIT=150] -->
+    <string name="system_desc_verify_apps_over_usb">"Verificați aplicațiile instalate utilizând ADB/ADT, pentru a detecta un comportament dăunător"</string>
+    <!-- Title for WiFi Verbose Logging in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_wifi_verbose_logging">"Înregistrare detaliată în jurnal informații Wi-Fi"</string>
+    <!-- Description for Wifi Verbose Logging in system settings develop opetions [CHAR LIMIT=150] -->
+    <string name="system_desc_wifi_verbose_logging">"Activați înregistrarea detaliată în jurnal a informațiilor Wi-Fi"</string>
+    <!-- Title for Set Show touches in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_touches">"Afișează atingerile"</string>
+    <!-- Title for Set Pointer location in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_pointer_location">"Locația indicatorului"</string>
+    <!-- Title for Set Show layout bounds in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_layout_bounds">"Afișează limite aspect"</string>
+    <!-- Title for Set Show GPU view updates in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_gpu_view_updates">"Afișează actualizări ecran cu GPU"</string>
+    <!-- Title for Set Show hardware layer in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_hardware_layer">"Afișează strat hardware"</string>
+    <!-- Title for Set Show GPU overdraw in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_gpu_overdraw">"Afișează nivelul de suprapunere GPU"</string>
+    <!-- Title for Set Show surface updates in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_surface_updates">"Afișează actualizări suprafețe"</string>
+    <!-- Title for Set Window animation scale in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_window_animation_scale">"Scara animației în fereastră"</string>
+    <!-- Title for Set Transition animation scale in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_transition_animation_scale">"Scara animației cu tranziție"</string>
+    <!-- Title for Set Animator duration scale in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_animator_duration_scale">"Scară durată Animator"</string>
+    <!-- Title for Set Strict mode enabled in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_strict_mode_enabled">"Modul Strict activat"</string>
+    <!-- Title for Set Show CPU usage in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_cpu_usage">"Afișează utilizarea procesorului"</string>
+    <!-- Title for Set Profile GPU rendering in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_profile_gpu_rendering">"Profil redare cu GPU"</string>
+    <!-- Title for Set Enable traces in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_enable_traces">"Activați monitorizările"</string>
+    <!-- Title for Set Don't keep activities in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_dont_keep_activities">"Nu păstrați activitățile"</string>
+    <!-- Title for Set Background process limit in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_background_process_limit">"Limita proceselor de fundal"</string>
+    <!-- Title for Set Show all ANRs in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_all_anrs">"Afișează toate elementele ANR"</string>
+    <!-- Description for stay awake System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_stay_awake">"Dezactivați trecerea la inactivitate"</string>
+    <!-- Description for hdcp checking System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_hdcp_checking">"Utilizați doar pentru conținut DRM"</string>
+    <!-- Description for HDMI optimization System Settings Developer options [CHAR LIMIT=200] -->
+    <string name="system_desc_hdmi_optimization">"Optimizați afișarea pentru cea mai bună rezoluție sau pentru rata de cadre maximă. Aceasta afectează numai ecranele Ultra HD. După modificare, va trebui să reporniți sistemul."</string>
+    <!-- Description for Bluetooth HCI Logging Developer option [CHAR LIMIT=100] -->
+    <string name="system_desc_bt_hci_log">"Activați înregistrarea de examinare Bluetooth HCI"</string>
+    <!-- Description for usb debugging in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_usb_debugging">"Mod remediere erori la conectare USB"</string>
+    <!-- Description for wait for debugger in System Settings Developer options [CHAR LIMIT=120] -->
+    <string name="system_desc_wait_for_debugger">"Înaintea executării, aplicația așteaptă atașarea depanatorului"</string>
+    <!-- Description for show layout bounds in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_show_layout_bounds">"Limite de decupare, margini etc. afișate"</string>
+    <!-- Description for show GPU view updates in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_show_gpu_view_updates">"Afișări intermitente în ferestre la desenarea cu GPU"</string>
+    <!-- Description for show hardware layer in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_show_hardware_layer">"Straturi hardware verde intermitent la actualizare"</string>
+    <!-- Description for show gpu overdraw in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_show_gpu_overdraw">"Max. – min.: albastru, verde, roșu deschis, roșu"</string>
+    <!-- Description for show surface updates in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_show_surface_updates">"Afișați rapid suprafețe fereastră completă la act."</string>
+    <!-- Description for strict mode enabled in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_strict_mode_enabled">"Ecran intermitent la operații lungi pe firul principal"</string>
+    <!-- Description for show cpu usage in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_show_cpu_usage">"Suprapunere pe ecran care indică utilizarea actuală a procesorului"</string>
+    <!-- Description for profile GPU rendering in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_profile_gpu_rendering">"Măsurare timp redare în adb shell dumpsys gfxinfo"</string>
+    <!-- General use strings -->
+    <!-- Title for an action which turns a feature on [CHAR LIMIT=30] -->
+    <string name="action_on_title">"Activați"</string>
+    <!-- Title for an action which turns a feature off [CHAR LIMIT=30] -->
+    <string name="action_off_title">"Dezactivați"</string>
+    <!-- Title for a status description saying that a feature is on [CHAR LIMIT=30] -->
+    <string name="action_on_description">"Activat"</string>
+    <!-- Title for a status description saying that a feature is off [CHAR LIMIT=30] -->
+    <string name="action_off_description">"Dezactivat"</string>
+    <!-- Title for action which denotes the user agrees [CHAR LIMIT=50] -->
+    <string name="agree">"Sunt de acord"</string>
+    <!-- Title for action which denotes the user disagrees [CHAR LIMIT=50] -->
+    <string name="disagree">"Nu sunt de acord"</string>
+    <!-- Security -->
+    <!-- Title for action to allow installation of applications from unknown sources [CHAR LIMIT=50]-->
+    <string name="security_unknown_sources_title">"Surse necunoscute"</string>
+    <!-- Description for action to allow installation of applications from unknown sources [CHAR LIMIT=NONE]-->
+    <string name="security_unknown_sources_desc">"Permiteți instalarea aplicațiilor din alte surse decât Magazin Play"</string>
+    <!-- Description for confirmation to allow installation of applications from unknown sources [CHAR LIMIT=NONE]-->
+    <string name="security_unknown_sources_confirm_desc">"Dispozitivul și datele personale sunt mai vulnerabile la un atac din partea aplicațiilor ce provin din surse necunoscute. Sunteți de acord că sunteți singura persoană responsabilă pentru deteriorarea telefonului sau pentru pierderea datelor, care ar putea rezulta din utilizarea acestor aplicații."</string>
+    <!-- Title for action to warn before installing applications that may cause harm [CHAR LIMIT=50]-->
+    <string name="security_verify_apps_title">"Verificați aplicațiile"</string>
+    <!-- Description for action to warn before installing of applications that may cause harm [CHAR LIMIT=NONE]-->
+    <string name="security_verify_apps_desc">"Respingeți sau primiți un avertisment înainte de instalarea unor aplicații care pot fi dăunătoare"</string>
+    <!-- Summary for HDCP checking preference. [CHAR LIMIT=100]-->
+    <string name="system_hdcp_checking_never">"Niciodată"</string>
+    <!-- Summary for HDCP checking preference. [CHAR LIMIT=100]-->
+    <string name="system_hdcp_checking_drm">"Pentru conținut DRM"</string>
+    <!-- Summary for HDCP checking preference. [CHAR LIMIT=100]-->
+    <string name="system_hdcp_checking_always">"Întotdeauna"</string>
+    <!-- Title for HDMI optimization preference value [CHAR LIMIT=60] -->
+    <string name="system_hdmi_optimization_best_resolution">"Cea mai bună rezoluție"</string>
+    <!-- Title for HDMI optimization preference value [CHAR LIMIT=60] -->
+    <string name="system_hdmi_optimization_best_framerate">"Cea mai bună rată de cadre"</string>
+    <!-- Title for debug overdraw preference. [CHAR LIMIT=35] -->
+    <string name="system_hw_overdraw_off">"Dezactivată"</string>
+    <!-- Title for debug overdraw preference. [CHAR LIMIT=35] -->
+    <string name="system_hw_overdraw_areas">"Afișați zonele cu suprapunere"</string>
+    <!-- Title for debug overdraw preference. [CHAR LIMIT=35] -->
+    <string name="system_hw_overdraw_counter">"Afișați contorul de suprapunere"</string>
+    <!-- UI debug setting: label for app picker to select no application [CHAR LIMIT=50] -->
+    <string name="no_application">"Niciuna"</string>
+    <!-- Title for OpenGL traces preference. [CHAR LIMIT=35] -->
+    <string name="enable_opengl_traces_none">"Niciuna"</string>
+    <!-- Title for OpenGL traces preference. Do not translate "Logcat" [CHAR LIMIT=35] -->
+    <string name="enable_opengl_traces_logcat">Logcat</string>
+    <!-- Title for OpenGL traces preference. Do not translate "Systrace" [CHAR LIMIT=35] -->
+    <string name="enable_opengl_traces_systrace">Systrace (Graphics)</string>
+    <!-- Title for OpenGL traces preference. "Call stack" is a developer term. Do not translate "glGetError" [CHAR LIMIT=35] -->
+    <string name="enable_opengl_traces_error">Call stack on glGetError</string>
+    <!-- Titles for window animation scale preference. [CHAR LIMIT=35] -->
+    <string-array name="animation_scale_entries">
+        <item>"Animație dezactivată"</item>
+        <item>"Animație la scara 0,5x"</item>
+        <item>"Animație la scara 1x"</item>
+        <item>"Animație la scara 1,5x"</item>
+        <item>"Animație la scara 2x"</item>
+        <item>"Animație la scara 5x"</item>
+        <item>"Animație la scara 10x"</item>
+    </string-array>
+    <!-- Title for frame time tracking preference. [CHAR LIMIT=35] -->
+    <string name="track_frame_time_off">"Dezactivată"</string>
+    <!-- Title for frame time tracking preference. [CHAR LIMIT=35] -->
+    <string name="track_frame_time_bars">"Pe ecran ca bare"</string>
+    <!-- Title for frame time tracking preference. Do not translate "adb shell dumpsys gfxinfo" [CHAR LIMIT=35] -->
+    <string name="track_frame_time_gfxinfo">In adb shell dumpsys gfxinfo</string>
+    <!-- Title for app process limit preference. [CHAR LIMIT=35] -->
+    <string name="app_process_limit_standard">"Limita standard"</string>
+    <!-- Title for app process limit preference. [CHAR LIMIT=35] -->
+    <string name="app_process_limit_zero">"Fără procese de fundal"</string>
+    <!-- Title for app process limit preference. [CHAR LIMIT=35] -->
+    <string name="app_process_limit_one">"Cel mult 1 proces"</string>
+    <!-- Title for app process limit preference. [CHAR LIMIT=35] -->
+    <string name="app_process_limit_two">"Cel mult 2 procese"</string>
+    <!-- Title for app process limit preference. [CHAR LIMIT=35] -->
+    <string name="app_process_limit_three">"Cel mult 3 procese"</string>
+    <!-- Title for app process limit preference. [CHAR LIMIT=35] -->
+    <string name="app_process_limit_four">"Cel mult 4 procese"</string>
+    <!-- TTS settings -->
+    <!-- Text-to-speech speech rate choice [CHAR LIMIT=30] -->
+    <string name="tts_rate_very_slow">"Foarte încet"</string>
+    <!-- Text-to-speech speech rate choice [CHAR LIMIT=30] -->
+    <string name="tts_rate_slow">"Încet"</string>
+    <!-- Text-to-speech speech rate choice [CHAR LIMIT=30] -->
+    <string name="tts_rate_normal">"Normal"</string>
+    <!-- Text-to-speech speech rate choice [CHAR LIMIT=30] -->
+    <string name="tts_rate_fast">"Rapid"</string>
+    <!-- Text-to-speech speech rate choice [CHAR LIMIT=30] -->
+    <string name="tts_rate_very_fast">"Foarte rapid"</string>
+    <!-- Keyboard Settings -->
+    <!-- Title for Current Keyboard [CHAR LIMIT=80] -->
+    <string name="title_current_keyboard">"Tastatura curentă"</string>
+    <!-- Title for configure current keyboard [CHAR LIMIT=80] -->
+    <string name="title_configure">"Configurați"</string>
+    <!-- Description for configure current keyboard [CHAR LIMIT=100] -->
+    <string name="desc_configure_keyboard">"Opțiuni tastatură"</string>
+    <!-- String shown when computing the total size of an application's cache or data files. [CHAR LIMIT=30] -->
+    <string name="computing_size">"Se calculează\u2026"</string>
+    <!-- Title for selecting wifi network [CHAR LIMIT=150] -->
+    <string name="title_select_wifi_network">"Selectați rețeaua Wi-Fi"</string>
+    <!-- Action option which allows the change of the name this device is known by other wifi display devices [CHAR LIMIT=40] -->
+    <string name="accessories_wifi_display_rename_device">"Redenumiți"</string>
+    <!-- Action option which allows the enabling or disabling of wifi display [CHAR LIMIT=40] -->
+    <string name="accessories_wifi_display_enable">"Afișaj wireless"</string>
+    <!-- Action option which allows the enabling or disabling the PIN requirement of wifi display [CHAR LIMIT=40] -->
+    <string name="accessories_wifi_display_pin_required">"Este necesar un PIN"</string>
+    <!-- Disambiguation Activity-->
+    <!-- Title of intent resolver activity when selecting an application to run. [CHAR LIMIT=50]-->
+    <string name="whichApplication">"Finalizați acțiunea utilizând"</string>
+    <!-- Quetsion about always using the selected application resolution in the future. See the "Complete action using" dialog title [CHAR LIMIT=50]-->
+    <string name="alwaysUseQuestion">"Folosiți mereu opțiunea pentru această acțiune?"</string>
+    <!-- Option to always use the selected application resolution in the future. See the "Complete action using" dialog title [CHAR LIMIT=50]-->
+    <string name="alwaysUseOption">"Utilizați întotdeauna"</string>
+    <!-- Option to only use the selected option this time. See the "Complete action using" dialog title [CHAR LIMIT=50]-->
+    <string name="justOnceOption">"Numai o dată"</string>
+    <!-- Text to display when there are no activities found to display in the activity chooser. See the whichApplication title.[CHAR LIMIT=50] -->
+    <string name="noApplications">"Acțiunea nu poate fi efectuată de nicio aplicație."</string>
+    <!-- Action to go back to the previous screen, when no apps have been found to perform the requested action. [CHAR LIMIT=50]-->
+    <string name="noAppsGoBack">"Înapoi"</string>
+    <!-- TV input settings row -->
+    <string name="inputs_inputs">"Intrări"</string>
+    <!-- Header of HDMI CEC device control [CHAR LIMIT=50] -->
+    <string name="inputs_header_cec">"Consumer Electronic Control (CEC)"</string>
+    <!-- Title of CEC device settings [CHAR LIMIT=30] -->
+    <string name="inputs_cec_settings">"Setări pt. comenzile dispoz."</string>
+    <!-- Name of predefined name for TV input (Blu-ray player) [CHAR LIMIT=30] -->
+    <string name="inputs_blu_ray">"Blu-ray"</string>
+    <!-- Name of predefined name for TV input (Cable TV) [CHAR LIMIT=30] -->
+    <string name="inputs_cable">"Cablu"</string>
+    <!-- Name of predefined name for TV input (DVD player) [CHAR LIMIT=30] -->
+    <string name="inputs_dvd">DVD</string>
+    <!-- Name of predefined name for TV input (Gaming device) [CHAR LIMIT=30] -->
+    <string name="inputs_game">"Consolă de jocuri"</string>
+    <!-- Name of predefined name for TV input (Aux) [CHAR LIMIT=30] -->
+    <string name="inputs_aux">"Aux"</string>
+    <!-- Title of using customized name for a TV input [CHAR LIMIT=30] -->
+    <string name="inputs_custom_name">"Nume personalizat"</string>
+    <!-- Title of option to hide. It will describe current state of the inputs instead of the action [CHAR LIMIT=30] -->
+    <string name="inputs_hide">"Ascuns"</string>
+    <!-- Description of option to hide [CHAR LIMIT=100] -->
+    <string name="inputs_hide_desc">"Nu se afișează la trecerea la altă intrare"</string>
+    <!-- Title format of entering custom label activity [CHAR LIMIT=30] -->
+    <string name="inputs_custom_title">"Nume personalizat:"</string>
+    <!-- Option to enable HDMI control [CHAR LIMIT=30] -->
+    <string name="inputs_hdmi_control">"Comandă HDMI"</string>
+    <!-- Description of HDMI control option [CHAR LIMIT=50] -->
+    <string name="inputs_hdmi_control_desc">"Permiteți televizorului să comande dispoz. HDMI"</string>
+    <!-- Option to enable device auto power off [CHAR LIMIT=30] -->
+    <string name="inputs_device_auto_off">"Închidere automată a dispoz."</string>
+    <!-- Description of device auto power off option [CHAR LIMIT=50] -->
+    <string name="inputs_device_auto_off_desc">"Închideți dispozitivele HDMI cu televizorul"</string>
+    <!-- Option to enable TV auto power on [CHAR LIMIT=30] -->
+    <string name="inputs_tv_auto_on">"Deschidere automată TV"</string>
+    <!-- Description of TV auto power on [CHAR LIMIT=50] -->
+    <string name="inputs_tv_auto_on_desc">"Deschideți televizorul cu dispozitivul HDMI"</string>
+    <!-- Header for connected TV input(s) [CHAR LIMIT=30] -->
+    <plurals name="inputs_header_connected_input">
+        <item quantity="one">"INTRARE CONECTATĂ"</item>
+        <item quantity="other">"INTRĂRI CONECTATE"</item>
+    </plurals>
+    <!-- Header for standby TV input(s) [CHAR LIMIT=30] -->
+    <plurals name="inputs_header_standby_input">
+        <item quantity="one">"INTRARE ÎN STANDBY"</item>
+        <item quantity="other">"INTRĂRI ÎN STANDBY"</item>
+    </plurals>
+    <!-- Header for disconnected TV input(s) [CHAR LIMIT=30] -->
+    <plurals name="inputs_header_disconnected_input">
+        <item quantity="one">"INTRARE NECONECTATĂ"</item>
+        <item quantity="other">"INTRĂRI NECONECTATE"</item>
+    </plurals>
+    <!-- Summary for add restricted profile entry in the choice dialog [CHAR LIMIT=none] -->
+    <string name="user_add_profile_item_summary">"Restricționați accesul la aplicații și la alte tipuri de conținut din contul dvs."</string>
+    <!-- User details new restricted profile name [CHAR LIMIT=30] -->
+    <string name="user_new_profile_name">"Profil cu permisiuni limitate"</string>
+    <!-- Summary for app entries that are controlled by another entry [CHAR LIMIT=none] -->
+    <string name="user_restrictions_controlled_by">"Controlate de <xliff:g id="APP">%1$s</xliff:g>"</string>
+    <!-- Summary for apps that aren't supported in limited users [CHAR LIMIT=none] -->
+    <string name="app_not_supported_in_limited">"Această aplicație nu este acceptată pentru profilurile cu permisiuni limitate"</string>
+    <!-- Summary text for apps that are allowed to access accounts from the primary user [CHAR LIMIT=none] -->
+    <string name="app_sees_restricted_accounts">"Această aplicație poate accesa conturile dvs."</string>
+    <!-- Restrictions title for allowing location sharing [CHAR LIMIT=35] -->
+    <string name="restriction_location_enable_title">"Locație"</string>
+    <!-- Restrictions summary for allowing location sharing [CHAR LIMIT=100] -->
+    <string name="restriction_location_enable_summary">"Permiteți aplicațiilor să utilizeze informațiile privind locația dvs."</string>
+    <!-- Action to switch to a restricted profile [CHAR LIMIT=100] -->
+    <string name="restricted_profile_switch_to">"Intrați în profilul restricționat"</string>
+    <!-- Action to switch out of a restricted profile [CHAR LIMIT=100] -->
+    <string name="restricted_profile_switch_out">"Ieșiți din profilul restricționat"</string>
+    <!-- Title for action to delete a restricted profile [CHAR LIMIT=100] -->
+    <string name="restricted_profile_delete_title">"Ștergeți profilul restricționat"</string>
+    <!-- Title for action to configure a restricted profile [CHAR LIMIT=100] -->
+    <string name="restricted_profile_configure_title">"Setări"</string>
+    <!-- Title for action to configure apps for a restricted profile [CHAR LIMIT=100] -->
+    <string name="restricted_profile_configure_apps_title">"Aplicații permise"</string>
+    <!-- Description for action to configure apps for a restricted profile indicating number of allow apps will be ready in a moment [CHAR LIMIT=100] -->
+    <plurals name="restricted_profile_configure_apps_description">
+        <item quantity="one">"O aplicație permisă"</item>
+        <item quantity="other">"%d (de) aplicații permise"</item>
+    </plurals>
+    <!-- An action label indicating the package will be or is allowed [CHAR LIMIT=100] -->
+    <string name="restricted_profile_allowed">"Permis"</string>
+    <!-- An action label indicating the package will be or is not allowed [CHAR LIMIT=100] -->
+    <string name="restricted_profile_not_allowed">"Nepermis"</string>
+    <!-- Action to customize restrictions for a package [CHAR LIMIT=100] -->
+    <string name="restricted_profile_customize_restrictions">"Personalizați restricții"</string>
+    <!-- Description for action to configure apps for a restricted profile indicating the number of allow apps [CHAR LIMIT=100] -->
+    <string name="restricted_profile_configure_apps_description_loading">"Un moment\u2026"</string>
+    <!-- Title for action to change the PIN code to use when exiting restricted profile [CHAR LIMIT=100] -->
+    <string name="restricted_profile_change_password_title">"Schimbați codul PIN"</string>
+    <!-- Description for action to configure an application's restriction [CHAR LIMIT=200] -->
+    <string name="restriction_description">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
+    <!-- Title of PIN dialog when an user is asked to enter PIN to unlock channel.
+         [CHAR LIMIT=50] -->
+    <string name="pin_enter_unlock_channel">"Introduceți codul PIN pentru a viziona acest canal"</string>
+    <!-- Title of PIN dialog when an user is asked to enter PIN to unlock program.
+         [CHAR LIMIT=50] -->
+    <string name="pin_enter_unlock_program">"Introduceți codul PIN pt. a viziona acest program"</string>
+    <!-- Title of PIN dialog when an user tries to change Parental control setting.
+         [CHAR LIMIT=50] -->
+    <string name="pin_enter_pin">"Introduceți codul PIN"</string>
+    <!-- Title of PIN dialog when an user is asked to set a PIN for the first time.
+         [CHAR LIMIT=50] -->
+    <string name="pin_enter_new_pin">"Setați un cod PIN nou"</string>
+    <!-- Title of PIN dialog when an user is asked to set a PIN. [CHAR LIMIT=50] -->
+    <string name="pin_enter_again">"Reintroduceți codul PIN nou"</string>
+    <!-- Title of PIN dialog when an user is about to change older PIN. [CHAR LIMIT=50] -->
+    <string name="pin_enter_old_pin">"Introduceți codul PIN vechi"</string>
+    <!-- Message shown in the dialog when the user entered the wrong. [CHAR LIMIT=128] -->
+    <string name="pin_enter_wrong_seconds">"Ați introdus un cod PIN greșit de 5 ori. \nÎncercați din nou peste <xliff:g id="RELATIVE_TIME_SPAN">%1$d</xliff:g> (de) secunde."</string>
+    <!-- Toast message when an user entered wrong PIN. [CHAR LIMIT=128] -->
+    <string name="pin_toast_wrong">"PIN incorect, încercați din nou"</string>
+    <!-- Toast message when an user couldn't pass the PIN confirmation. [CHAR LIMIT=128] -->
+    <string name="pin_toast_not_match">"Încercați din nou. Codul PIN nu se potrivește."</string>
+    <!-- Message displayed to prompt the user to input the network password, ^1 will be replaced with the name of the network and should be a possive form related to password [CHAR LIMIT=NONE] -->
+    <string name="wifi_setup_input_password">"Introduceți parola pentru <xliff:g id="SSID">%1$s</xliff:g>"</string>
+    <!-- Message displayed when the selected Wi-Fi network has been connected to [CHAR LIMIT=40] -->
+    <string name="wifi_setup_connection_success">"V-ați conectat."</string>
+    <!-- Message displayed when the Wi-Fi network's configuration has been saved [CHAR LIMIT=40] -->
+    <string name="wifi_setup_save_success">"Configurație salvată."</string>
+    <!-- Application management application version label [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_version">"versiunea <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
+    <!-- Application management description for opening the application [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_open">"Deschideți"</string>
+    <!-- Application management choice for force stopping the application [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_force_stop">"Opriți forțat"</string>
+    <!-- Application management description for force stopping the application [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_force_stop_desc">"Dacă forțați oprirea unei aplicații, aceasta se poate comporta necorespunzător."</string>
+    <!-- Application management choice for uninstalling the application [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_uninstall">"Dezinstalați"</string>
+    <!-- Application management description for uninstalling the application [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_uninstall_desc">"Doriți să dezinstalați această aplicație?"</string>
+    <!-- Application management choice for uninstalling updates for the application [CHAR_LIMIT=40] -->
+    <string name="device_apps_app_management_uninstall_updates">"Dezinstalați actualizările"</string>
+    <!-- Application management description for uninstalling updates for the application [CHAR_LIMIT=NONE] -->
+    <string name="device_apps_app_management_uninstall_updates_desc">"Toate actualizările acestei aplicații de sistem Android vor fi dezinstalate."</string>
+    <!-- Application management choice for disabling the application [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_disable">"Dezactivați"</string>
+    <!-- Application management description for disabling the application [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_disable_desc">"Doriți să dezactivați această aplicație?"</string>
+    <!-- Application management choice for enabling the application [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_enable">"Activați"</string>
+    <!-- Application management description for enabling the application [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_enable_desc">"Doriți să activați această aplicație?"</string>
+    <!-- Application management choice for displaying the application's size [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_storage_used">"Spațiu de stocare utilizat"</string>
+    <!-- Application management description for displaying the applicantion's size [CHAR_LIMIT=NONE] -->
+    <string name="device_apps_app_management_storage_used_desc">"<xliff:g id="SIZE">%1$s</xliff:g> utilizați în <xliff:g id="VOLUME">%2$s</xliff:g>"</string>
+    <!-- Application management choice for clearing the application's data [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_clear_data">"Ștergeți datele"</string>
+    <!-- Application management description for clearing the application's data [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_clear_data_desc">"Toate datele acestei aplicații vor fi șterse definitiv. \nAcestea includ fișierele, setările, conturile, bazele de date etc."</string>
+    <!-- Application management choice for clearing the application's default actions [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_clear_default">"Ștergeți valorile prestabilite"</string>
+    <!-- Application management description for defaults are set for the application [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_clear_default_set">"Setați lansarea aplicației pentru unele acțiuni"</string>
+    <!-- Application management description for defaults aren't set for the application [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_clear_default_none">"Nicio valoare prestabilită setată"</string>
+    <!-- Application management choice for clearing the application's cache [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_clear_cache">"Goliți memoria cache"</string>
+    <!-- Application management choice for changing the application's notifications option [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_notifications">"Notificări"</string>
+    <!-- Application management choice for displaying the application's permissions [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_permissions">"Permisiuni"</string>
+    <!-- General settings choice for agreeing to the displayed action [CHAR LIMIT=40] -->
+    <string name="settings_ok">"OK"</string>
+    <!-- General settings choice for disagreeing with the displayed action [CHAR LIMIT=40] -->
+    <string name="settings_cancel">"Anulați"</string>
+    <!-- General settings choice for on [CHAR LIMIT=40] -->
+    <string name="settings_on">"Activat"</string>
+    <!-- General settings choice for off [CHAR LIMIT=40] -->
+    <string name="settings_off">"Dezactivat"</string>
+    <!-- Daydream choice for not having a daydream [CHAR LIMIT=40] -->
+    <string name="device_daydreams_none">"Niciunul"</string>
+    <!-- Daydream choice for selecting a different daydream [CHAR LIMIT=40] -->
+    <string name="device_daydreams_select">"Daydream"</string>
+    <!-- Daydream choice for testing the selected daydream [CHAR LIMIT=40] -->
+    <string name="device_daydreams_test">"Începeți acum"</string>
+    <!-- Daydream choice for configuring the time before the device goes to sleep [CHAR LIMIT=40] -->
+    <string name="device_daydreams_sleep">"Când pornește Daydream"</string>
+    <!-- Daydream description for configuring the time before the device goes to sleep [CHAR LIMIT=NONE] -->
+    <string name="device_daydreams_sleep_description">"Daydream va porni după perioada de inactivitate. Dacă nu selectați un screensaver, ecranul se va stinge."</string>
+    <!-- Daydream summary for displaying the time before the device goes to sleep -->
+    <string name="device_daydreams_sleep_summary">"După <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> de inactivitate"</string>
+    <!-- Daydream choice for configuring the time before the device's screen goes off after dreaming [CHAR LIMIT=40] -->
+    <string name="device_daydreams_screen_off">"Când se activează modul inactiv"</string>
+    <!-- Daydream description for configuring the time before the device's screen goes off after dreaming [CHAR LIMIT=NONE] -->
+    <string name="device_daydreams_screen_off_description">"Ecranul se dezactivează după perioada de inactivitate indicată."</string>
+    <!-- Default summary text of the "Configure backup account" setting [CHAR LIMIT=80] -->
+    <string name="backup_configure_account_default_summary">"În prezent, niciun cont nu stochează backupuri pentru date"</string>
+    <!-- Dialog title for confirmation to erase backup data from server -->
+    <string name="backup_erase_dialog_title"></string>
+    <!-- Dialog title for confirmation to erase backup data from server -->
+    <string name="backup_erase_dialog_message">"Doriți să nu mai faceți backup pentru parole Wi-Fi, marcaje, alte setări, datele aplicațiilor și să ștergeți toate copiile aflate pe serverele Google?"</string>
+    <!-- Privacy choice for configuring backing up data [CHAR LIMIT=40] -->
+    <string name="privacy_backup_data">"Faceți backup pentru date"</string>
+    <!-- Privacy choice for choosing which account to backup [CHAR LIMIT=40] -->
+    <string name="privacy_backup_account">"Cont pentru backup"</string>
+    <!-- Privacy choice for configuring automatic restore [CHAR LIMIT=40] -->
+    <string name="privacy_automatic_restore">"Restabilire automată"</string>
+    <!-- Factory reset choice for initiating a factory reset [CHAR LIMIT=40] -->
+    <string name="factory_reset_device">"Resetați dispozitivul"</string>
+    <!-- Factory reset description about what happens when you perform a factory reset [CHAR LIMIT=NONE] -->
+    <string name="factory_reset_description">"Această acțiune va șterge toate datele din stocarea internă a dispozitivului, inclusiv setările și datele din Contul Google, din sistem și din aplicații, precum și aplicațiile descărcate"</string>
+    <!-- Factory reset screen, message on screen after user selects Reset phone button -->
+    <string name="confirm_factory_reset_description">"Ștergeți toate informațiile personale și aplicațiile descărcate? Nu puteți anula această acțiune!"</string>
+    <!-- Factory reset screen, button on screen after user selects Reset phone button -->
+    <string name="confirm_factory_reset_device">"Ștergeți tot"</string>
+    <!-- Title for screen where user selects a name for their device [CHAR LIMIT=NONE] -->
+    <string name="select_title">"Alegeți un nume pentru dispozitivul ^1"</string>
+    <!-- Description for screen where user selects a name for their device [CHAR LIMIT=NONE] -->
+    <string name="select_description">"Cu ajutorul numelui, ^1 va fi identificat mai ușor când îl accesați de pe alte dispozitive, cum ar fi telefonul, tableta sau computerul."</string>
+    <!-- Rooms where a user's device might be placed [CHAR LIMIT=40] -->
+    <string-array name="rooms">
+        <!-- [CHAR LIMIT=40] -->
+        <item>"Cameră de zi"</item>
+        <!-- [CHAR LIMIT=40] -->
+        <item>"Cameră media"</item>
+        <!-- [CHAR LIMIT=40] -->
+        <item>"Cameră de familie"</item>
+        <!-- [CHAR LIMIT=40] -->
+        <item>"Sufragerie"</item>
+        <!-- [CHAR LIMIT=40] -->
+        <item>"Birou"</item>
+        <!-- [CHAR LIMIT=40] -->
+        <item>"Dormitor"</item>
+        <!-- [CHAR LIMIT=40] -->
+        <item>"Bucătărie"</item>
+    </string-array>
+    <!-- String displayed for option where user will type in a room name rather than selecting from the list of defaults [CHAR LIMIT=40] -->
+    <string name="custom_room">"Introduceți un nume personalizat..."</string>
+    <!-- Title of settings summary/status screen [CHAR LIMIT=100] -->
+    <string name="settings_status_title">"Acest dispozitiv ^1 are nume"</string>
+    <!-- Description on summary/status screen that tells you what the name of your device is [CHAR LIMIT=NONE] -->
+    <string name="settings_status_description">"„^1” este numele acestui dispozitiv ^2. Doriți să-l schimbați?"</string>
+    <!-- The 'yes' or 'edit' equivalent in a yes/no choice circumstance [CHAR LIMIT=30] -->
+    <string name="change_setting">"Modificați"</string>
+    <!-- The 'no' or  'keep the same' equivalent in a yes/no choice circumstance [CHAR LIMIT=30]-->
+    <string name="keep_settings">"Nu modificați"</string>
+    <!-- Group header for app permissions [CHAR LIMIT=20] -->
+    <string name="apps_permissions">"Permisiuni"</string>
+    <!-- Item title for app permissions [CHAR LIMIT=20] -->
+    <string name="device_apps_permissions">"Permisiuni aplicație"</string>
+    <!-- Summary of number of apps currently granted a single permission [CHAR LIMIT=45] -->
+    <string name="app_permissions_group_summary">"<xliff:g id="COUNT_0">%d</xliff:g> din <xliff:g id="COUNT_1">%d</xliff:g> (de) aplicații permise"</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
+    <string name="security_patch">"Nivelul corecției de securitate Android"</string></resources>

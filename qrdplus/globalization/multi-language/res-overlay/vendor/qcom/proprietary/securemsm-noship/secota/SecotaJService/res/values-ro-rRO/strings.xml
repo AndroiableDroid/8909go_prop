@@ -1,0 +1,113 @@
+<resources>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+    <string name="app_name">"SeempJService"</string>
+    <string-array name="cause_description_array">
+<item>"6:3:Citirea de intrări/interacţiuni ale utilizatorului în timp ce aplicaţia nu e vizibilă pentru utilizator sau în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"7:5:utilizarea suspicioasă a android UID "</item>
+    <item>"8:5:utilizarea suspicioasă a android UID în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"9:5:Accesarea suspicioasă a informaţiilor sensibile ale dispozitivului"</item>
+    <item>"10:5:Accesarea suspicioasă a informaţiilor sensibile ale dispozitivului în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"11:4:Accesarea suspicioasă a numărului de telefon"</item>
+    <item>"12:4:Accesarea numărului de telefon în timp ce aplicaţia nu interacţionează cu utilizatorul"</item>
+    <item>"13:2:aplicaţia încearcă să efectueze un apel telefonic neautorizat"</item>
+    <item>"14:2:aplicaţia încearcă să efectueze un apel telefonic neautorizat în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"15:4:Acces anormal la informaţii sensibile ale contului de utilizator"</item>
+    <item>"16:4:Acces anormal la informaţii sensibile ale contului de utilizator în timp ce aplicaţia nu interacţionează cu utilizatorul"</item>
+    <item>"17:4:Aplicaţia accesează informaţii sensibile ale contului de utilizator fără a notifica utilizatorul"</item>
+    <item>"18:4:Aplicaţia accesează informaţii sensibile ale contului de utilizator fără a notifica utilizatorul, funcţionând în fundal"</item>
+    <item>"19:3:Accesare suspicioasă a informaţiilor sensibile ale browserului"</item>
+    <item>"20:3:Accesare suspicioasă a informaţiilor sensibile ale browserului, aplicaţia funcţionând în fundal"</item>
+    <item>"21:3:accesarea suspicioasă a informaţiilor sensibile ale browserului (poate include informaţii sensibile ale utilizatorului) în timp ce aplicaţia nu interacţionează cu utilizatorul"</item>
+    <item>"22:3:accesarea suspicioasă a informaţiilor sensibile ale browserului (poate include informaţii sensibile ale utilizatorului) în timp ce aplicaţia nu interacţionează cu utilizatorul şi funcţionează în fundal"</item>
+    <item>"23:6:instalare anormală/excesivă de comenzi rapide"</item>
+    <item>"24:6:aplicaţia încearcă să instaleze o comandă rapidă în timp ce funcţionează în fundal"</item>
+    <item>"25:6:aplicaţia încearcă să instaleze o comandă rapidă fără interacţiune cu utilizatorul"</item>
+    <item>"26:6:aplicaţia încearcă să instaleze o comandă rapidă fără interacţiune cu utilizatorul şi în timp ce funcţionează în fundal"</item>
+    <item>"27:4:Accesarea de informaţii sensibile de calendar"</item>
+    <item>"28:4:Accesarea de informaţii sensibile de calendar în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"29:1:Introducerea de informaţii/evenimente în calendar fără interacţiune cu utilizatorul"</item>
+    <item>"30:1:Introducerea de informaţii/evenimente în calendar fără interacţiune în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"31:5:Accesarea anormală/excesivă a informaţiilor de locaţie"</item>
+    <item>"32:5:Accesarea anormală/excesivă a informaţiilor de locaţie în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"37:3:Utilizare suspicioasă a camerei (poate include realizarea de fotografii şi videoclipuri)"</item>
+    <item>"38:3:Utilizare suspicioasă a camerei (poate include realizarea de fotografii şi videoclipuri) în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"39:3:Captarea de imagini (poate include videoclipuri) şi comunicarea acestora către un server la distanţă"</item>
+    <item>"40:3:Captarea de imagini (poate include videoclipuri) şi comunicarea acestora către un server la distanţă în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"41:3:Captarea de imagini (poate include videoclipuri) fără interacţiune cu utilizatorul"</item>
+    <item>"42:3:Captarea de imagini (poate include videoclipuri) fără interacţiune cu utilizatorul şi în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"43:3:Captarea de imagini (poate include videoclipuri) şi comunicarea acestora către un server la distanţă fără interacţiune cu utilizatorul"</item>
+    <item>"44:3:Captarea de imagini (poate include videoclipuri) şi comunicarea acestora către un server la distanţă fără interacţiune cu utilizatorul şi în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"45:3:Utilizare suspicioasă a camerei video (poate include realizarea de fotografii şi videoclipuri)"</item>
+    <item>"46:3:Utilizare suspicioasă a camerei video (poate include realizarea de fotografii şi videoclipuri) în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"47:3:Captarea de videoclipuri şi comunicarea acestora către un server la distanţă"</item>
+    <item>"48:3:Captarea de videoclipuri şi comunicarea acestora către un server la distanţă în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"49:3:Captarea de videoclipuri fără interacţiune cu utilizatorul"</item>
+    <item>"50:3:Captarea de videoclipuri fără interacţiune cu utilizatorul şi în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"51:3:Captarea de videoclipuri şi comunicarea acestora către un server la distanţă fără interacţiune cu utilizatorul"</item>
+    <item>"52:3:Captarea de videoclipuri şi comunicarea acestora către un server la distanţă fără interacţiune cu utilizatorul şi în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"53:3:Înregistrarea suspicioasă a datelor de microfon"</item>
+    <item>"54:3:Înregistrarea suspicioasă a datelor de microfon în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"55:3:Înregistrarea suspicioasă a datelor de microfon şi comunicarea acestora către un server la distanţă"</item>
+    <item>"56:3:Înregistrarea suspicioasă a datelor de microfon şi comunicarea acestora către un server la distanţă în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"57:3:Înregistrarea suspicioasă a datelor de microfon în timp ce utilizatorul nu interacţionează cu aplicaţia"</item>
+    <item>"58:3:înregistrarea suspicioasă a datelor de microfon în timp ce utilizatorul nu interacţionează cu aplicaţia şi în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"59:3:Înregistrarea şi comunicarea suspicioasă a datelor de microfon în timp ce aplicaţia nu interacţionează cu utilizatorul"</item>
+    <item>"60:3:înregistrarea şi comunicarea datelor de microfon în timp ce aplicaţia nu interacţionează cu utilizatorul şi în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"61:2:Activitate SMS suspicioasă: Se încearcă trimiterea de SMS (posibil costisitor către numere premium)"</item>
+    <item>"62:2:Aplicaţia încearcă să trimită SMS în timp ce funcţionează în fundal (SMS posibil costisitor către numere premium)"</item>
+    <item>"63:2:Activitate SMS suspicioasă: Aplicaţia trimite SMS (posibil costisitor către numere premium) fără interacţiune cu utilizatorul"</item>
+    <item>"64:2:Aplicaţia trimite SMS (posibil costisitor către numere premium) fără interacţiune cu utilizatorul şi în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"65:3:Acces suspicios la SMS (include deschidere şi citire)"</item>
+    <item>"66:3:Accesarea şi citirea de SMS-uri în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"67:3:Accesarea şi citirea de SMS-uri fără interacţiune cu utilizatorul"</item>
+    <item>"68:3:Accesarea şi citirea de SMS-uri fără interacţiune cu utilizatorul în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"69:3:acces excesiv/anormal la informaţii de senzor"</item>
+    <item>"70:3:acces excesiv/anormal la informaţii de senzor în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"71:3:Interceptarea suspicioasă a mesajelor MMS"</item>
+    <item>"72:3:Interceptarea suspicioasă a mesajelor MMS în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"73:3:Interceptarea suspicioasă a mesajelor MMS fără interacţiune cu utilizatorul"</item>
+    <item>"74:3:Interceptarea suspicioasă a mesajelor MMS fără interacţiune cu utilizatorul şi în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"75:4:Accesarea anormală a informaţiilor unuia sau ale mai multor contacte"</item>
+    <item>"76:4:Accesarea anormală a informaţiilor unuia sau ale mai multor contacte în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"77:4:Accesarea uneia sau a mai multor liste de contacte în timp ce aplicaţia nu interacţionează cu utilizatorul"</item>
+    <item>"78:4:Accesarea uneia sau a mai multor liste de contacte în timp ce aplicaţia nu interacţionează cu utilizatorul şi în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"79:1:Instalarea suspicioasă a unei aplicaţii terţe"</item>
+    <item>"80:1:Instalarea suspicioasă a unei aplicaţii terţe în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"81:1:Instalarea suspicioasă a unei aplicaţii terţe în timp ce aplicaţia nu interacţionează cu utilizatorul"</item>
+    <item>"82:1:Instalarea suspicioasă a unei aplicaţii terţe în timp ce aplicaţia nu interacţionează cu utilizatorul şi în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"83:5:comunicarea excesivă/anormală a android UID"</item>
+    <item>"84:5:comunicarea excesivă/anormală a android UID în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"85:5:Accesarea şi comunicarea de informaţii sensibile privind dispozitivul (poate să includă IMEI, serie SIM, şi alte informaţii legate de operator)"</item>
+    <item>"86:5:Accesarea şi comunicarea de informaţii sensibile privind dispozitivul (poate să includă IMEI, serie SIM, şi alte informaţii legate de operator) în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"87:4:Accesarea şi comunicarea numărului de telefon al utilizatorului către un server la distanţă"</item>
+    <item>"88:4:Accesarea şi comunicarea numărului de telefon al utilizatorului către un server la distanţă în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"89:4:Comunicarea anormală a informaţiilor sensibile/datelor de autentificare ale contului de utilizator (poate include informaţii privind cardul de credit sau alte informaţii financiare)"</item>
+    <item>"90:4:Comunicarea anormală a informaţiilor sensibile/datelor de autentificare ale contului de utilizator (poate include informaţii privind cardul de credit sau alte informaţii financiare) în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"91:3:accesarea şi comunicarea de conţinut sensibil de browser (poate include informaţii sensibile ale utilizatorului)"</item>
+    <item>"92:3:accesarea şi comunicarea de conţinut sensibil de browser (poate include informaţii sensibile ale utilizatorului) în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"93:3:accesarea şi comunicarea de conţinut sensibil de browser (poate include informaţii sensibile ale utilizatorului)"</item>
+    <item>"94:3:accesarea şi comunicarea de conţinut sensibil de browser (poate include informaţii sensibile ale utilizatorului) în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"95:4:Comunicarea de informaţii de calendar către un server la distanţă (poate conţine informaţii sensibile ale utilizatorului)"</item>
+    <item>"96:4:Comunicarea de informaţii de calendar către un server la distanţă (poate conţine informaţii sensibile ale utilizatorului) în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"97:5:Accesarea şi comunicarea anormală/excesivă a informaţiilor de locaţie"</item>
+    <item>"98:5:Accesarea şi comunicarea anormală/excesivă a informaţiilor de locaţie în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"99:5:Accesarea şi comunicarea anormală/excesivă a informaţiilor de locaţie"</item>
+    <item>"100:5:Accesarea şi comunicarea anormală/excesivă a informaţiilor de locaţie în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"101:3:Comunicarea excesivă/anormală a informaţiilor de senzor"</item>
+    <item>"102:3:Comunicarea excesivă/anormală a informaţiilor de senzor în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"103:4:Accesarea uneia sau a mai multor liste de contacte şi comunicarea acestora către un server la distanţă"</item>
+    <item>"104:4:Accesarea uneia sau a mai multor liste de contacte şi comunicarea acestora către un server la distanţă în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"105:4:Accesarea uneia sau a mai multor liste de contacte şi comunicarea acestora către un server la distanţă fără interacţionare cu utilizatorul"</item>
+    <item>"106:4:Accesarea uneia sau a mai multor liste de contacte şi comunicarea acestora către un server la distanţă fără interacţionare cu utilizatorul şi în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"109:3:acces excesiv/anormal la informaţii de senzor"</item>
+    <item>"110:3:acces excesiv/anormal la informaţii de senzor în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"121:5:Acces suspicios la setări legate de ID-ul dispozitivului"</item>
+    <item>"122:5:Acces suspicios la setări legate de ID-ul dispozitivului în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"162:3:Modificare suspicioasă a setărilor modului avion în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"164:3:Modificare suspicioasă a setărilor de alarmă în timp ce aplicaţia funcţionează în fundal"</item>
+    <item>"202:3:Modificare suspicioasă a stării WiFi în timp ce aplicaţia funcţionează în fundal"</item>
+    </string-array></resources>

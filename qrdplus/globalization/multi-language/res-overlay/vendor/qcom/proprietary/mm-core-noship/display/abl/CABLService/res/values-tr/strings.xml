@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"İçerik Uyumlu Arka Işık Ayarları"</string>
+        <add-resource type="string" name="cabl_settings_title"/>
+    <string name="cabl_settings_title">"İçerik Uyumlu Arka Işık Ayarları"</string>
+        <add-resource type="string" name="cabl_enable_title"/>
+    <string name="cabl_enable_title">"İçerik Uyumlu Arka Işığı Etkinleştir"</string>
+        <add-resource type="string" name="cabl_enable_summary_on"/>
+    <string name="cabl_enable_summary_on">"Arka plan ışığı ekran  içeriğine göre yeniden ayarlanır"</string>
+        <add-resource type="string" name="cabl_enable_summary_off"/>
+    <string name="cabl_enable_summary_off">"Arka plan ışığı ekran  içeriğine göre yeniden ayarlanmaz"</string>
+        <add-resource type="string" name="cabl_levels_title"/>
+    <string name="cabl_levels_title">"Görsel Kalite Düzeyi"</string>
+        <add-resource type="string" name="cabl_levels_summary"/>
+    <string name="cabl_levels_summary">"Daha düşük kalite düzeyi gösterge CABL\'yi görüntülenen içeriği belirgin ölçüde etkilemeden mümkün olan oranda güç tasarrufu yapacak. Otomatik görsel kalite düzeyi, CABL\'nin görüntülenen içeriğin otomatik olarak algılanan türüne göre güç tasarruflarını en üst düzeye çıkaracağı anlamına gelir."</string>
+        <add-resource type="string" name="cabl_level_default"/>
+    <string name="cabl_level_default">"Otomatik"</string>
+        <add-resource type="string" name="cabl_info_default"/>
+    <string name="cabl_info_default">"Bilinmiyor"</string>
+        <add-resource type="string" name="cabl_version_title"/>
+    <string name="cabl_version_title">"CABL Sürümü"</string></resources>

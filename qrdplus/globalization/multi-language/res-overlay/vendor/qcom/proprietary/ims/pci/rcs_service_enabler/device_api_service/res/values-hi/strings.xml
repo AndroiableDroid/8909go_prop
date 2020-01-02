@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service निकाला गया है, कृपया इसे पुनः स्थापित करें!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"प्रोफ़ाइल लेख डेटा अपडेट करें"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"प्रोफ़ाइल पोर्ट्रेट डेटा अपडेट करें"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"सभी संदेश हटाएँ"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"ग्रुप चैट में नया अध्यक्ष सेट करें"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"ग्रुप चैट में विषय बदलें"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"ग्रुप चैट में सदस्य उपनाम बदलें"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"ग्रुप चैट जोड़ने के लिए आमंत्रण स्वीकारें"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"ग्रुप चैट छोड़ें"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"ग्रुप चैट के सहभागी को बाहर निकालें"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"ग्रुप चैट ख़ारिज करें"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"सार्वजनिक खाते की ओर ध्यान दें"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"सार्वजनिक खाते की ओर ध्यान न दें"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"सार्वजनिक खाते की रिपोर्ट करें"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"संवेदनशील api अनुमति"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"अधिकृत %1$d ऐप(प्स) (कुल %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"फिर कभी ना पूछें"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"ठीक है"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"रहने दें"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"यह कार्रवाई %1$s के लिए डिज़ाइन किया गया है, अनुमति को अस्वीकार करने के कारण हो सकता है कि यह आगे उद्देश्य के अनुसार कार्य नहीं करें."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"%1$s की अनुमति"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"आपको %1$s को अनुमति देनी होगी."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"आपको sd कार्ड को अनुमति देनी होगी."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"आपको संपर्कों को अनुमति देनी होगी."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"आपको sms को अनुमति देनी होगी."</string></resources>

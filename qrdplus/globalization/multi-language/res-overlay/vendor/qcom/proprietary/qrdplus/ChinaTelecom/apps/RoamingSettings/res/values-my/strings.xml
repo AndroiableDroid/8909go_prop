@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"အခြားကွန်ယက် သတ်မှတ်ချက်များ"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"ဖွင့်ပါ"</string>
+    <string name="data_roaming_title">"တခြားကွန်ရက်ကို သုံးနေစဉ် ဒေတာ ​ဝန်ဆောင်မှုများသို့ ချိတ်ဆက်ပါ"</string>
+    <string name="manual_select_network">"ကိုယ်တိုင်အားဖြင့် ကွန်ယက် ရွေးချယ်မှု"</string>
+    <string name="roaming_card_info">"မိုဘိုင်း စီးပွားရေးလုပ်ငန်းကဒ်ကို ဦးစားပေး အသုံးပြုသွားမည်"</string>
+    <string name="network_select_success_info">"“<xliff:g id="name">%s</xliff:g>” ကွန်ယက်တွင် အောင်မြင်စွာ မှတ်ပုံတင်လိုက်ပါပြီ၊ ကွန်ယက် မရရှိနိုင်သည့်အခါ အလိုအလျောက် မှတ်ပုံတင်မှုပြုသွားမည်"</string>
+    <string name="network_select_failure_info">"သင်ရွေးထားသည့် ကွန်ယက် “<xliff:g id="name">%s</xliff:g>”  သည် မရရှိနိုင်ပါ၊ အခြားကွန်ယက်တွင် အလိုအလျောက် မှတ်ပုံတင်မှု စတင်ပါသည်"</string>
+    <string name="network_auto_success_info">"ကွန်ယက်တွင် အလိုအလျောက် အောင်မြင်စွာ မှတ်ပုံတင်လိုက်ပါပြီ"</string>
+    <string name="network_auto_failure_info">"သင်ရွေးထားသည့် ကွန်ယက် GSM သည် မရရှိနိုင်ပါ၊ အခြားကွန်ယက်တွင် အလိုအလျောက် မှတ်ပုံတင်မှု စတင်ပါသည်"</string>
+    <string name="manual_select_network_tip">"ဤလုပ်ဆောင်ချက် အကျုံးဝင်သည့် အချိန်များမှာ"</string>
+    <string name="gsm_network_list_title">"ရွေးချယ်နိုင်သည့် ကွန်ယက်"</string>
+    <string name="searching_cdma_network_title">"cdma ကွန်ယက်ကို ယခုရှာဖွေနေဆဲ......"</string>
+    <string name="searching_gsm_network_title">"gsm ကွန်ယက်ကို ယခုရှာဖွေနေဆဲ......"</string>
+    <string name="empty_networks_list">"ဘယ်ကွန်ယက်မှ မတွေ့ပါ။"</string>
+    <string name="register_on_network">"<xliff:g id="network">%s</xliff:g> စာရင်းသွင်း မှတ်ပုံတင်နေသည်\u2026"</string>
+    <string name="register_automatically">"အလိုလို စာရင်းသွင်းခြင်း\u2026"</string>
+    <string name="network_select_setting">"ကွန်ယက် သတ်မှတ်ချက်"</string>
+    <string name="roaming_hotline">"အခြားကွန်ယက် အရေးပေါ်လိုင်း +8618918910000"</string>
+    <string name="carrier_names">"China Telecom"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"ဒေတာ ပိတ်နေဆဲ..."</string>
+    <string name="unable_to_disable_data">"ဒေတာပိတ်၍ မရနိုင်ပါ။"</string>
+    <string name="avoid_cur_nwk_succeeded">"လက်ရှိကွန်ယက်ကို ပိတ်ဆီးမှုစာရင်းသို့ ထည့်ထားသည်။"</string>
+    <string name="avoid_cur_nwk_failed">"လက်ရှိကွန်ယက်ကို ပိတ်ဆီးမှုစာရင်းသို့ ထည့်၍မရနိုင်ပါ။"</string>
+    <string name="clear_nwk_list_succeeded">"ပိတ်ဆီးမှု ကွန်ယက်စာရင်းကို ရှင်းလင်းထားသည်။"</string>
+    <string name="clear_nwk_list_failed">"ပိတ်ဆီးမှု ကွန်ယက်စာရင်းကို ရှင်းလင်း၍မရနိုင်ပါ။"</string>
+    <string name="ok_btn">"အိုကေ"</string>
+    <string name="cancel_btn">"ပယ်ဖျက်ပါ"</string>
+    <string name="confirm_avoid">"လက်ရှိ ကွန်ယက်ကို ရှောင်ရှားလိုသည်မှာ သေချာပါသလား?"</string>
+    <string name="confirm_clear">"ပိတ်ဆီးမှု ကွန်ယက်စာရင်းကို ရှင်းလင်းမှာ သေချာသလား?"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"CDMA ရွေးချယ်မှု"</string>
+    <string name="pref_gsm_choose_title">"GSM ရွေးချယ်မှု"</string>
+    <string name="pref_network_info_title">"လက်ရှိကွန်ယက် အချက်အလက်"</string>
+    <string name="alert_msg_enable_card">"ဤကဒ်ကို ဖွင့်လိုသလား?"</string>
+    <string name="alert_msg_disable_card">"ဤကဒ်ကို ပိတ်လိုသလား?"</string>
+    <string name="progress_msg_enable_card">"ဤကဒ်ကို ဖွင့်ပါ၊ ကျေးဇူးပြု၍ စောင့်ပါ..."</string>
+    <string name="progress_msg_disable_card">"ဤကဒ်ကို ပိတ်ပါ၊ ကျေးဇူးပြု၍ စောင့်ပါ..."</string>
+    <string name="operation_success">"လုပ်ဆောင်မှု အောင်မြင်ပါပြီ"</string>
+    <string name="operation_failure">"လုပ်ဆောင်မှု မအောင်မြင်ပါ"</string>
+    <string name="result_btn">"အိုကေ"</string>
+    <string name="alert_data_roaming_title">"ဒေတာ အခြားကွန်ယက်ဖြစ်ခြင်း မအောင်မြင်ပါ"</string>
+    <string name="alert_data_roaming_msg">"သင် တခြားကွန်ရက်မှတဆင့် ဒေတာ သုံးစွဲခြင်းကို ခွင့်ပြုပါက၊ သုံးစွဲခများ သိသိသာသာ ပေး​ဆောင်ရမည် ဖြစ်သည်!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"အမည်မသိ"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"မရှိပါ"</string>
+    <string name="status_network_type">"မိုဘိုင်း ကွန်ယက် အမျိုးအစား"</string>
+    <string name="status_signal_strength">"ထုတ်လွှင့်ချက် စွမ်းအား"</string>
+    <string name="status_prl_version">"PRL ဗားရှင်း"</string>
+    <string name="status_data_state">"မိုဘိုင်း ကွန်ယက် အခြေအနေ"</string>
+    <string name="status_netowrk_title">"လက်ရှိ Sim အခြေအနေ"</string>
+    <string name="status_operator_name">"ဝန်ဆောင်ပေးသူ အမည်"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"ဆဲလ် ID"</string>
+    <string name="status_sms_center_number">"Sms စင်တာ နံပါတ်"</string>
+    <string name="status_pnl_version">"ဦးစားပေး ကွန်ယက်စာရင်း ဗားရှင်း"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"နောက်ထပ် ကွန်ယက်သို့ ကိုယ်တိုင်အားဖြင့် ကူးပြောင်းပါ"</string>
+    <string name="avoid_discription">"လမ်းညွှန်ချက်-\n  အလိုအလျောက် ကွန်ယက် ရွေးချယ်မှုသည် CDMA စနစ်တွင် မူရင်းပါပုံစံဖြစ်ပြီး လက်ရှိကွန်ယက်ကို အသုံးမပြုနိုင်သည့်အခါ ကိုယ်တိုင်အားဖြင့် ရွေးချယ်ရန် မလိုအပ်ပါ၊ နောက်ထပ်ကွန်ယက်သို့ ကိုယ်တိုင်အားဖြင့် ကူးပြောင်းရန် ကြိုးပမ်းပါ။ "</string>
+    <string name="attention_dialog_title">"ဂရုပြုရန်"</string>
+    <string name="disable_both_sim_error_msg">"SIM နှစ်ခုစလုံးကို တစ်ပြိုင်တည်းတွင် ပိတ်၍မရနိုင်ပါ"</string>
+    <string name="China_Mobile">"China Mobile"</string>
+    <string name="China_Unicom">"China Unicom"</string>
+    <string name="China_Telecom">"China Telecom"</string></resources>

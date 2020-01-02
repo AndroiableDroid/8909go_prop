@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Onyesha vipimo vya ueuaji"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"Hifadhi picha"</string>
+    <string name="debug_pref_save_pictures_desc">"Hifadhi picha ulizopiiga katika KadiyaSD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"HIfadhi fremu za hakiki"</string>
+    <string name="debug_pref_save_preview_frames_desc">"Hifadhi fremu za hakiki katika KadiyaSD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Ruhusu kuangusha fremu ya hakiki"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"Unapohifadhi fremu za hakiki, ruhusu kuangusha fremu ya hakiki ili udumishe kiwango cha fremu"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Washa uwekaji logi wa utambuzaji wa uso wa kina"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

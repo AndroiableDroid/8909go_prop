@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"Chi tiết"</item>
+        <item>"Gỡ lỗi"</item>
+        <item>"Thông tin"</item>
+        <item>"Cảnh báo"</item>
+        <item>"Lỗi"</item>
+        <item>"Nghiêm trọng"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"Thẻ SD"</item>
+        <item>"Bộ nhớ trong"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"Không thể ghi vào tệp nhật ký. Tin nhắn nhật ký hiện không được lưu. Quá trình ghi chép sẽ tự động tiếp tục khi tệp nhật ký khả dụng trở lại"</string>
+    <string name="err_lowspace">"Đã phát hiện thấy dung lượng còn ít. Tin nhắn nhật ký hiện không được lưu. Quá trình ghi chép sẽ tự động tiếp tục khi có đủ dung lượng"</string>
+  <string name="txtTag_text">"tên thẻ"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"Mô tả Logcat"</string></resources>

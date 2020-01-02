@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <string name="app_label">"Piezas de repuesto"</string>
+    <string name="device_info_title">"Información del dispositivo"</string>
+    <string name="title_battery_history">"Historial de la batería"</string>
+    <string name="summary_battery_history">"Resumen del uso que se ha dado a la batería"</string>
+    <string name="title_battery_information">"Información sobre la batería"</string>
+    <string name="summary_battery_information">"Información sobre el estado actual de la batería"</string>
+    <string name="title_usage_statistics">"Estadísticas de uso"</string>
+    <string name="summary_usage_statistics">"Resumen de uso de la aplicación"</string>
+    <string name="general_title">"General"</string>
+    <string name="title_window_animations">"Animaciones de ventanas"</string>
+    <string name="summary_window_animations">"Velocidad de animaciones en ventanas individuales"</string>
+    <string name="dialog_title_window_animations">"Seleccionar velocidad de ventanas"</string>
+    <string name="title_transition_animations">"Animaciones de transiciones"</string>
+    <string name="summary_transition_animations">"Velocidad de animaciones moviéndose entre pantallas"</string>
+    <string name="dialog_title_transition_animations">"Seleccionar velocidad de transiciones"</string>
+    <string name="title_fancy_ime_animations">"Animaciones de entrada divertidas"</string>
+    <string name="summary_on_fancy_ime_animations">"Usar animaciones divertidas para ventanas de métodos de entrada"</string>
+    <string name="summary_off_fancy_ime_animations">"Usar animaciones normales para ventanas de métodos de entrada"</string>
+    <string name="title_haptic_feedback">"Respuesta háptica"</string>
+    <string name="summary_on_haptic_feedback">"Usar respuesta háptica con interacción del usuario"</string>
+    <string name="summary_off_haptic_feedback">"Usar respuesta háptica con interacción del usuario"</string>
+    <string name="title_font_size">"Tamaño de la fuente"</string>
+    <string name="summary_font_size">"Tamaño general de fuentes"</string>
+    <string name="dialog_title_font_size">"Seleccionar tamaño de fuente"</string>
+    <string name="title_end_button">"Comportamiento del botón Finalizar"</string>
+    <string name="summary_end_button">"Seleccionar acción del botón Finalizar (rojo)"</string>
+    <string name="dialog_title_end_button">"Seleccionar botón Finalizar"</string>
+    <string name="applications_title">"Aplicaciones"</string>
+    <!-- Sound & display settings screen, compatibility mode check box label -->
+    <string name="compatibility_mode_title">"Modo de compatibilidad"</string>
+    <!-- Sound & display settings screen, compatibility mode option summary text when check box is selected -->
+    <string name="compatibility_mode_summary_on">"Ejecutar aplicaciones más antiguas en modo Compatibilidad. Esto requiere reniciar el dispositivo. "</string>
+    <!-- Sound & display settings screen, compatibility mode option summary text when check box is clear -->
+    <string name="compatibility_mode_summary_off">"Ejecutar aplicaciones más antiguas en modo Compatibilidad. Esto requiere reniciar el dispositivo. "</string></resources>

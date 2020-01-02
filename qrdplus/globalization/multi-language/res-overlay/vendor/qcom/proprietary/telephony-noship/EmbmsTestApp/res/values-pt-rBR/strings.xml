@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">EmbmsTestApp</string>
+    <string name="embms_test_app">"App de teste eMBMS"</string>
+    <string name="bind_service">"Serviço de vinculação"</string>
+    <string name="unbind_service">"Serviço de desvinculação"</string>
+    <string name="kill_process">"Processo de cancelamento"</string>
+    <string name="register">"Registrar chamadas de retorno"</string>
+    <string name="deregister">"Cancelar registro de chamadas de retorno"</string>
+    <string name="enable">"Habilitando eMBMS"</string>
+    <string name="disable">"Desabilitando eMBMS"</string>
+    <string name="activate">"Ativando TMGI"</string>
+    <string name="deactivate">"Desativando TMGI"</string>
+    <string name="enter_Tmgi">"Inserir TMGI em decimais"</string>
+    <string name="get_active">"Obter lista ativos"</string>
+    <string name="get_available">"Obter lista disp"</string>
+    <string name="get_coverage">"Obter estado cob"</string>
+    <string name="get_log_packet_id">"Obter ids pacote registro"</string>
+    <string name="deliver_log_packet">"Pac reg entr"</string>
+    <string name="get_e911_state">"Obter estado E911"</string></resources>

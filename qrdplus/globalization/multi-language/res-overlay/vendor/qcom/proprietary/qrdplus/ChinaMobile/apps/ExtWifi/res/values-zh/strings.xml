@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="apn_list_title">"APN"</string>
+    <string name="confirm_title">"确认"</string>
+    <string name="extra_notification_ssid">"ssid"</string>
+    <string name="extra_notification_network_id">network_id</string>
+    <string name="msg_wifi_signal_found">"发现 WLAN 信号 %s，要使用此 WLAN 网络吗？使用此网络将造成数据服务部分中断。"</string>
+    <string name="prser_network_cmcc">"CMCC"</string>
+    <string name="prser_network_cmcc_edu">"CMCC-EDU"</string>
+    <string name="prser_network_cmcc_auto">"CMCC-AUTO"</string>
+    <string name="reconnect_net_for_wifi_disconnected">"WLAN 不可用，要尝试连接移动数据吗？"</string>
+    <string name="wifi_failover_gprs_title">"更改数据连接"</string>
+    <string name="wifi_failover_gprs_summary">"WLAN 不可用，要尝试连接到移动网络吗？"</string>
+    <string name="wifi_failover_gprs_summary_primary">"不要再显示这个提醒"</string>
+    <string name="wifi_gprs_settings_title">"网络选择器"</string>
+    <string name="wifi_title">"WLAN"</string>
+    <string name="wlan_signal_weak">"当前连接信号较弱，要重新选择连接吗？"</string>
+    <string name="wlan_signal_weak_ask">"连接的 WLAN 信号较弱，发现 WLAN 信号 %s，要使用此 WLAN 网络吗？"</string>
+    <string name="ap_less_then_two">"可用的接入点个数小于 2 "</string>
+    <string name="ap_rssi">"，并且其 RSSI = "</string>
+    <string name="no_more_better_ap">"没有任何接入点的信号超过 -79。"</string>
+    <string name="current_is_the_best_ap">"最强的信号是当前连接的接入点："</string>
+    <string name="wifi_select_in_ssids_type">wifi_select_in_ssids_type</string>
+    <string name="wifi_auto_conn_type">wifi_auto_connect_type</string>
+    <string name="wifi_auto_conn_type_auto">0</string>
+    <string name="data_to_wifi_connect_key">data_wifi_connect_type</string>
+    <string name="data_to_wifi_connect_value_auto">0</string>
+    <string name="data_to_wifi_connect_value_manul">1</string>
+    <string name="data_to_wifi_connect_value_ask">2</string>
+    <string name="wifi_select_in_ssids_ask">2</string>
+    <string name="wifi2cell_connect_type">"wifi_gsm_connect_type"</string>
+    <string name="wifi2cell_connect_type_ask">1</string>
+    <string name="msg_prompt_ask_again">"不再询问？"</string>
+    <string name="enable_Data_switch_after_wifiAp_enable">"如果要通过我连接到互联网，请启用数据切换"</string>
+    <string name="cellular_wlan_ask">"发现 WLAN 信号 %s，要使用此 WLAN 网络吗？使用此网络将造成数据服务部分中断。"</string>
+    <string name="cellular_wlan_manual">"WLAN 网络可用，要选择连接吗？"</string>
+    <string name="connect_cmcc_warning">"已连接到中国移动 WLAN，可能会产生 WLAN 流量费"</string>
+    <string name="never_prompt">"从不提示"</string>
+    <string name="wlan_disconnect_toast">"WLAN 连接已断开，要连接互联网，请确保开启移动数据。"</string>
+    <string name="airplane_wifi_warning_msg">"处于飞行模式时，您可以手动打开 WLAN"</string>
+    <string name="airplane_ok">"知道了"</string>
+    <string name="wifi_priority_settings_label">"优先级设定"</string>
+    <string name="wifi_configured_ap_list">"已保存的接入点列表"</string>
+    <string name="wifi_priority_label">"优先级"</string>
+    <string name="wifi_priority_changed">"原优先级=<xliff:g id="old_value">%s</xliff:g>,新设定=<xliff:g id="new_value">%s</xliff:g>"</string></resources>

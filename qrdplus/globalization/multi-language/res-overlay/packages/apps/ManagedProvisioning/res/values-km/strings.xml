@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/**
+ * Copyright (C) 2014 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- General provisioning strings used for both device owner and work profile provisioning -->
+  <!-- Title of the provisioning error dialog. [CHAR LIMIT=45] -->
+  <string name="provisioning_error_title">"អូ​!"</string>
+  <!-- Work profile provisioning flow UI. -->
+  <!-- User consent -->
+  <!-- Title of all work profile setup screens. [CHAR LIMIT=NONE] -->
+  <string name="setup_work_profile">"រៀបចំទម្រង់របស់អ្នក"</string>
+  <!-- The text that asks for user consent to create a work profile [CHAR LIMIT=NONE] -->
+  <string name="company_controls_workspace">"ស្ថាប័ន​របស់​អ្នកពិនិត្យ​ប្រវត្តិរូប​នេះ ហើយ​រក្សាទុក​វា​​ដោយ​សុវត្ថិភាព។ អ្នក​ពិនិត្យ​អ្វីៗ​ផ្សេង​ទៀត​នៅ​លើ​ឧបករណ៍​របស់​អ្នក។"</string>
+  <!-- The text that asks for user consent to set up a work device [CHAR LIMIT=NONE] -->
+  <string name="company_controls_device">"ស្ថាប័នរបស់អ្នកនឹងគ្រប់គ្រងឧបករណ៍នេះ និងរក្សាវាឲ្យមានសុវត្ថិភាព។"</string>
+  <!-- String shown above the icon of the app that will control the work profile after it is set up. [CHAR LIMIT=NONE]-->
+  <string name="the_following_is_your_mdm">"កម្មវិធី​ខាង​ក្រោម​​នឹង​ត្រូវ​ចូល​ដំណើរការ​ប្រវត្តិរូប​របស់​អ្នក៖"</string>
+  <!-- String shown above the icon of the app that will control the work device after it is set up. [CHAR LIMIT=NONE]-->
+  <string name="the_following_is_your_mdm_for_device">"កម្មវិធីខាងក្រោមនឹងគ្រប់គ្រងឧបករណ៍របស់អ្នក៖"</string>
+  <!-- String for positive button on user consent dialog for creating a profile [CHAR LIMIT=NONE] -->
+  <string name="set_up">"រៀបចំ"</string>
+  <!-- Progress text shown when setting up work profile [CHAR LIMIT=NONE] -->
+  <string name="setting_up_workspace">"កំពុងដំឡើងប្រវត្តិរូបការងាររបស់អ្នក\u2026"</string>
+  <!-- Text in a pop-up that asks the user to confirm that they allow the mobile device management app to take control of the profile they are creating. [CHAR LIMIT=NONE]-->
+  <string name="admin_has_ability_to_monitor_profile">"អ្នកគ្រប់គ្រងរបស់អ្នកមានលទ្ធភាពតាមដាន និងគ្រប់គ្រងការកំណត់ ការចូលដំណើរការរួមគ្នា កម្មវិធី សិទ្ធិអនុញ្ញាត និងទិន្នន័យដែលទាក់ទងនឹងប្រវត្តិរូបនេះ រាប់បញ្ចូលទាំងសកម្មភាពបណ្តាញ និងព័ត៌មានទីតាំងឧបករណ៍របស់អ្នក។"</string>
+  <!-- Text in a pop-up that asks the user to confirm that they allow the mobile device management app to take control of the device. [CHAR LIMIT=NONE]-->
+  <string name="admin_has_ability_to_monitor_device">"អ្នកគ្រប់គ្រងរបស់អ្នកមានលទ្ធភាពតាមដាន និងគ្រប់គ្រងការកំណត់ ការចូលដំណើរការរួមគ្នា កម្មវិធី សិទ្ធិអនុញ្ញាត និងទិន្នន័យដែលទាក់ទងនឹងឧបករណ៍នេះ រាប់បញ្ចូលទាំងសកម្មភាពបណ្តាញ និងព័ត៌មានទីតាំងឧបករណ៍របស់អ្នក។"</string>
+  <!-- Text in a pop-up that asks the user to confirm that theft protection will be disabled. [CHAR LIMIT=NONE]-->
+  <string name="theft_protection_disabled_warning">"ប្រសិនបើអ្នកបន្ត នោះលក្ខណៈពិសេសការពារពីការលួចនឹងមិនបើកដំណើរការទេ។ ដើម្បីបើកលក្ខណៈពិសេសការពារពីការលួច សូមបោះបង់ឥឡូវនេះ ហើយដំឡើងវាជាឧបករណ៍ផ្ទាល់ខ្លួន។"</string>
+  <!-- String telling the user how to get more information about their work profile-->
+  <string name="contact_your_admin_for_more_info">"ទាក់ទង​អ្នក​គ្រប់គ្រង​របស់​អ្នក​សម្រាប់​ព័ត៌មាន​បន្ថែម រួមមាន​គោលនយោបាយ​ភាព​ឯកជន​ស្ថាប័ន​​របស់​អ្នក។"</string>
+  <!-- Text on the link that will forward the user to a website with more information about work profiles [CHAR LIMIT=30]-->
+  <string name="learn_more_link">"ស្វែងយល់​បន្ថែម"</string>
+  <!-- Text on negative button in a popup shown to the user to confirm that they want to start setting up a work profile [CHAR LIMIT=15]-->
+  <string name="cancel_setup">"បោះបង់"</string>
+  <!-- Text on positive button in a popup shown to the user to confirm that they want to start setting up a work profile [CHAR LIMIT=15]-->
+  <string name="ok_setup">"យល់ព្រម"</string>
+  <!-- Default profile name used for the creation of work profiles. [CHAR LIMIT=NONE] -->
+  <string name="default_managed_profile_name">"ប្រវត្តិរូប​ការងារ"</string>
+  <!-- Title on the dialog that prompts the user to confirm that they really want to delete their existing work profile-->
+  <string name="delete_profile_title">"លុបប្រវត្តិរូបការងារ?"</string>
+  <!-- Opening string on the dialog that prompts the user to confirm that they really want to delete
+       their existing work profile. The administration app icon and name appear after the final
+       colon. [CHAR LIMIT=NONE] -->
+  <string name="opening_paragraph_delete_profile_unknown_company">"ប្រវត្តិរូបការងារមានរួចទៅហើយ ហើយត្រូវបានគ្រប់គ្រងដោយ៖"</string>
+    <!-- Opening string on the dialog that prompts the user to confirm that they really want to delete
+         their existing work profile. The administration app icon and name appear after the final
+         colon, the %s is replaced by the domain name of the organization that owns the work
+         profile. [CHAR LIMIT=NONE] -->
+  <string name="opening_paragraph_delete_profile_known_company">"ប្រវត្តិរូបការងារនេះត្រូវបានគ្រប់គ្រងសម្រាប់ការប្រើប្រាស់ %s"</string>
+  <!-- String on the dialog that links through to more information about the profile management application. -->
+  <string name="read_more_delete_profile">"មុននឹងដំណើរការ "<a href="#read_this_link">"សូមអាន"</a>" នេះ។"</string>
+  <!-- String on the dialog that prompts the user to confirm that they really want to delete their existing work profile-->
+  <string name="sure_you_want_to_delete_profile">"កម្មវិធី និងទិន្នន័យទាំងអស់នៅក្នុងប្រវត្តិរូបនេះនឹងត្រូវលុប ប្រសិនបើអ្នកបន្ត។"</string>
+  <!-- String on the button that triggers the deletion of a work profile.-->
+  <string name="delete_profile">"លុប"</string>
+  <!-- String on the button that cancels out of the deletion of a work profile.-->
+  <string name="cancel_delete_profile">"បោះបង់"</string>
+  <!-- String shown on prompt for user to encrypt and reboot the device, in case of profile setup [CHAR LIMIT=NONE]-->
+  <string name="encrypt_device_text_for_profile_owner_setup">"ដើម្បីបន្តរៀបចំទម្រង់ការងាររបស់អ្នក អ្នកត្រូវអ៊ិនគ្រីបឧបករណ៍របស់អ្នក។ វាអាចប្រើពេលមួយរយៈ។"</string>
+  <!-- String shown on prompt for user to encrypt and reboot the device, in case of device setup [CHAR LIMIT=NONE]-->
+  <string name="encrypt_device_text_for_device_owner_setup">"ដើម្បីបន្តដំឡើងឧបករណ៍របស់អ្នក អ្នកត្រូវអ៊ីនគ្រីបវា។ វាអាចចំណាយពេលបន្តិច។"</string>
+  <!-- String shown on button for user to cancel setup when asked to encrypt device. [CHAR LIMIT=20]-->
+  <string name="encrypt_device_cancel">"បោះបង់"</string>
+  <!-- String shown on button for user to continue to settings to encrypt the device. [CHAR LIMIT=20]-->
+  <string name="encrypt_device_launch_settings">"ដាក់លេខកូដ"</string>
+  <!-- Title for reminder notification to resume provisioning after encryption [CHAR LIMIT=30] -->
+  <string name="continue_provisioning_notify_title">"ការ​ដាក់​លេខ​កូដ​បាន​បញ្ចប់"</string>
+  <!-- Body for reminder notification to resume provisioning after encryption [CHAR LIMIT=NONE] -->
+  <string name="continue_provisioning_notify_text">"ប៉ះ​ដើម្បី​បន្ត​ការ​រៀបចំ​ប្រវត្តិរូប​ការងារ​របស់​អ្នក"</string>
+  <!-- Explains the failure and what to do to next. [CHAR LIMIT=NONE] -->
+  <string name="managed_provisioning_error_text">"មិន​អាច​រៀបចំ​ប្រវត្តិរូប​ការងារ​របស់​អ្នក។ ទាក់ទង​ផ្នែក​បច្ចេកវិទ្យា​ព័ត៌មាន​របស់​អ្នក ឬ​ព្យាយាម​ម្ដងទៀត​ពេល​ក្រោយ។"</string>
+  <!-- Error string displayed if this device doesn't support work profiles. -->
+  <string name="managed_provisioning_not_supported">"ឧបករណ៍​របស់​អ្នក​មិន​គាំទ្រ​ប្រវត្តិរូប​ការងារ។"</string>
+  <!-- Error string displayed if the user that initiated the provisioning is not the user owner. -->
+  <string name="user_is_not_owner">"ប្រវត្តិការងារត្រូវកំណត់ដោយអ្នកប្រើបឋមនៃឧបករណ៍នេះ"</string>
+  <!-- Error string displayed if provisioning was initiated on a device with a Device Owner -->
+  <string name="device_owner_exists">"ប្រវត្តិរូបការងារមិនអាចកំណត់ឡើងវិញបានទេនៅលើឧបករណ៍ដែលបានគ្រប់គ្រង"</string>
+  <!-- Error string displayed if maximum user limit is reached -->
+  <string name="maximum_user_limit_reached">"មិនអាចបង្កើតប្រវត្តិរូបការងារបានទេ ពីព្រោះអ្នកបានឈានដល់ចំនួនអ្នកប្រើអតិបរមានៅលើឧបករណ៍របស់អ្នកហើយ។ យកអ្នកប្រើចេញយ៉ាងហោចណាស់មួយ ហើយព្យាយាមម្តងទៀត។"</string>
+  <!-- Error string displayed if the selected launcher doesn't support work profiles. -->
+  <string name="managed_provisioning_not_supported_by_launcher">"ប្រវត្តិរូប​ការងារ​របស់​អ្នក​មិន​ត្រូវ​បាន​គាំទ្រ​ដោយ​កម្មវិធី​ launcher នេះ​នៅ​ឡើយ​ទេ។ អ្នក​នឹង​ត្រូវ​ប្ដូរ​ទៅ launcher ដែល​ត្រូវ​គ្នា។"</string>
+  <!-- Button text for the button that cancels provisioning  -->
+  <string name="cancel_provisioning">"បោះបង់"</string>
+  <!-- Button text for the button that opens the launcher picker  -->
+  <string name="pick_launcher">"យល់ព្រម"</string>
+  <!-- Device owner provisioning flow UI. -->
+  <!-- Default username for the user of the owned device. [CHAR LIMIT=45] -->
+  <string name="default_owned_device_username">"អ្នកប្រើ​ឧបករណ៍​ការងារ"</string>
+  <!-- Title of the work device setup screen. [CHAR LIMIT=NONE] -->
+  <string name="setup_work_device">"រៀបចំឧបករណ៍របស់អ្នក"</string>
+  <!-- Progress text indicating that the setup data is processed. [CHAR LIMIT=45] -->
+  <string name="progress_data_process">"កំពុងដំណើរការទិន្នន័យដំឡើង\u2026"</string>
+  <!-- Progress text indicating that wifi is set up. [CHAR LIMIT=45] -->
+  <string name="progress_connect_to_wifi">"កំពុងភ្ជាប់ទៅ Wi-Fi\u2026"</string>
+  <!-- Progress text indicating that the device admin package is being downloaded. [CHAR LIMIT=45] -->
+  <string name="progress_download">"កំពុងទាញយកកម្មវិធីគ្រប់គ្រង\u2026"</string>
+  <!-- Progress text indicating that the device admin package is being installed. [CHAR LIMIT=45] -->
+  <string name="progress_install">"កំពុងដំឡើងកម្មវិធីគ្រប់គ្រង\u2026"</string>
+  <!-- Progress text indicating that the device admin package is set as ownder. [CHAR LIMIT=45] -->
+  <string name="progress_set_owner">"កំពុងកំណត់ម្ចាស់ឧបករណ៍\u2026"</string>
+  <!-- Message of the cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_cancel_message">"បញ្ឈប់ការដំឡើង ហើយលុបទិន្នន័យនៅក្នុងឧបករណ៍របស់អ្នកចេញ?"</string>
+  <!-- Cancel button text of the cancel dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_cancel_cancel">"បោះបង់"</string>
+  <!-- OK button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_error_ok">"យល់ព្រម"</string>
+  <!-- Reset button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_error_reset">"កំណត់ឡើងវិញ"</string>
+  <!-- Message of the error dialog in case of an unspecified error. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_general">"មិន​អាច​រៀបចំ​ឧបករណ៍​របស់​អ្នក។ ទាក់ទង​ផ្នែក​បច្ចេកវិទ្យា​ព័ត៌មាន​របស់​អ្នក។"</string>
+  <!-- Message of the error dialog when already provisioned. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_already_provisioned">"ឧបករណ៍នេះបានដំឡើងរួចហើយ។"</string>
+  <!-- Message of the error dialog when a secondary user has already been provisioned. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_already_provisioned_user">"ឧបករណ៍នេះបានដំឡើងសម្រាប់អ្នកប្រើនេះហើយ។"</string>
+  <!-- Message of the error dialog when setting up wifi failed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_wifi">"មិន​​អាច​តភ្ជាប់​វ៉ាយហ្វាយ"</string>
+  <!-- Message of the error dialog when passing factory reset protection fails. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_frp">"ឧបករណ៍ត្រូវបានចាក់សោដោយការការពារចំពោះការកំណត់ដូចចេញពីរោងចក្រ។ ទាក់ទងផ្នែក IT របស់អ្នក។"</string>
+  <!-- Message informing the user that the factory reset protection partition is being erased [CHAR LIMIT=30] -->
+  <string name="frp_clear_progress_title">"លុប"</string>
+  <!-- Progress screen text shown while erasing the factory reset protection partition [CHAR LIMIT=75] -->
+  <string name="frp_clear_progress_text">"សូម​រង់ចាំ..."</string>
+  <!-- Message of the error dialog when data integrity check fails. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_hash_mismatch">"មិន​អាច​ប្រើ​កម្មវិធី​របស់​អ្នកគ្រប់គ្រង ដោយសារ​កំហុស​​ឆែកសាំ​។​ ទាក់ទង​ផ្នែក​បច្ចេកវិទ្យា​ព័ត៌មាន​របស់​អ្នក។"</string>
+  <!-- Message of the error dialog when device owner apk could not be downloaded. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_download_failed">"មិន​អាច​ទាញ​យក​កម្មវិធី​គ្រប់គ្រង"</string>
+  <!-- Message of the error dialog when package to install is invalid. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_invalid">"មិន​អាច​ប្រើ​កម្មវិធី​របស់​អ្នក​គ្រប់គ្រង។ វា​បាត់​សមាសធាតុ ឬ​ក៏​ខូច។ ទាក់ទង​ផ្នែក​បច្ចេកវិទ្យា​ព័ត៌មាន​របស់​អ្នក។"</string>
+  <!-- Message of the error dialog when the name of the admin package to be installed is invalid. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_name_invalid">"មិនអាចដំឡើងកម្មវិធីរបស់អ្នកគ្រប់គ្រងបានទេ ដោយសារឈ្មោះកញ្ចប់កម្មវិធីនេះមិនត្រឹមត្រូវ។ សូមទាក់ទងផ្នែក IT របស់អ្នក។"</string>
+  <!-- Message of the error dialog when package could not be installed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_installation_failed">"មិន​អាច​ដំឡើង​កម្មវិធី​គ្រប់គ្រង"</string>
+  <!-- Message of the error dialog when device admin package is not installed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_not_installed">"កម្មវិធី​គ្រប់គ្រង​មិន​ត្រូវ​បាន​ដំឡើង​នៅ​លើ​ឧបករណ៍​របស់​អ្នក"</string>
+  <!-- Message of the cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="profile_owner_cancel_message">"បញ្ឈប់ការដំឡើង?"</string>
+  <!-- Cancel button text of the cancel dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancel_cancel">"ទេ"</string>
+  <!-- OK button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancel_ok">"បាទ/ចាស"</string>
+  <!-- Message of the cancel progress dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancelling">"កំពុងបោះបង់\u2026"</string>
+  <!-- Title of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_later_title">"បញ្ឈប់ការដំឡើងប្រវត្តិរូប?"</string>
+  <!-- Message of the work profile setup cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="work_profile_setup_later_message">"អ្នកអាចដំឡើងប្រវត្តិរូបរបស់អ្នកនៅពេលក្រោយ ចេញពីកម្មវិធីគ្រប់គ្រងឧបករណ៍ដែលបានប្រើដោយស្ថាប័នរបស់អ្នក។"</string>
+  <!-- Cancel button text of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_continue">"បន្ត"</string>
+  <!-- OK button text of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_stop">"បញ្ឈប់"</string>
+  <!-- CertService -->
+  <!-- Title of a status bar notification for a service which installs CA certificates to secondary users. [CHAR LIMIT=45] -->
+  <string name="provisioning">"ការផ្តល់"</string>
+  <!-- Content of a status bar notification for a service which installs CA certificates to secondary users. [CHAR LIMIT=45] -->
+  <string name="copying_certs">"ការដំឡើងវិញ្ញាបនបត្រ CA"</string>
+  <!-- Accessibility Descriptions -->
+  <!-- Accessibility description for the profile setup screen showing organization info. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_start_setup">"ដំឡើងប្រវត្តិរូបរបស់អ្នក។ ចាប់ផ្តើមដំឡើង"</string>
+  <!-- Accessibility description for the profile setup screen showing encryption info. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_encryption">"ដំឡើងប្រវត្តិរូបរបស់អ្នក។ ការអ៊ីនគ្រីប"</string>
+  <!-- Accessibility description for the profile setup screen showing progress. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_progress">"ដំឡើងប្រវត្តិរូបរបស់អ្នក។ បង្ហាញការវិវឌ្ឍន៍"</string>
+  <!-- Accessibility description for the device setup screen showing company info. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_start_setup">"ដំឡើងឧបករណ៍របស់អ្នក។ ចាប់ផ្តើមដំឡើង"</string>
+  <!-- Accessibility description for the device setup screen showing encryption info. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_encryption">"ដំឡើងឧបករណ៍របស់អ្នក។ ការអ៊ីនគ្រីប"</string>
+  <!-- Accessibility description for the device setup screen showing progress. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_progress">"ដំឡើងឧបករណ៍របស់អ្នក។ បង្ហាញការវិវឌ្ឍន៍"</string>
+  <!-- Accessibility description for the learn more link in user consent dialog. [CHAR LIMIT=NONE] -->
+  <string name="learn_more_label">"ប៊ូតុងស្វែងយល់បន្ថែម"</string>
+  <!-- Accessibility description for the company icon. [CHAR LIMIT=NONE] -->
+  <string name="mdm_icon_label">"រូបតំណាង <xliff:g id="ICON_LABEL">%1$s</xliff:g>"</string></resources>

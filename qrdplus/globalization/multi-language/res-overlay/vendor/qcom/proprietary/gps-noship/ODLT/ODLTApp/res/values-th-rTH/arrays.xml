@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string-array name="sessionType">
+        <item>"ถ่ายครั้งเดียว"</item>
+        <item>"การติดตามแอป"</item>
+    </string-array>
+    <string-array name="sessionTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="apiType">
+        <item>"Android API"</item>
+        <item>"Loc API"</item>
+        <item>"บริการ GPL"</item>
+        <item>"QPL Service"</item>
+    </string-array>
+    <string-array name="apiTypeValues">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="locProviderType">
+        <item>"GPS"</item>
+        <item>"เครือข่าย"</item>
+        <item>"พาสซีฟ"</item>
+    </string-array>
+    <string-array name="locProviderTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="accuracyLevelType">
+        <item>"สูง"</item>
+        <item>"ปานกลาง"</item>
+        <item>"ต่ำ"</item>
+    </string-array>
+    <string-array name="accuracyLevelTypeValues">
+        <item>"High"</item>
+        <item>"Medium"</item>
+        <item>"Low"</item>
+    </string-array>
+    <string-array name="opModeType">
+        <item>"สแตนด์อโลน"</item>
+        <item>"MS-Assisted"</item>
+        <item>"MS-Based"</item>
+        <item>"ความเร็วเหมาะสมที่สุด"</item>
+        <item>"ข้อมูลเหมาะสมที่สุด"</item>
+        <item>"ความแม่นยำเหมาะสมที่สุด"</item>
+        <item>"Cell ID"</item>
+        <item>"เริ่มต้น"</item>
+    </string-array>
+    <string-array name="opModeTypeValues">
+        <item>"Standalone"</item>
+        <item>"MS-Assisted"</item>
+        <item>"MS-Based"</item>
+        <item>"Speed Optimal"</item>
+        <item>"Data Optimal"</item>
+        <item>"Accuracy Optimal"</item>
+        <item>"Cell ID"</item>
+        <item>"Default"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyType">
+        <item>"ไม่มีข้อกำหนด"</item>
+        <item>"ต่ำ"</item>
+        <item>"สูง"</item>
+    </string-array>
+    <string-array name="criteriaAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyType">
+        <item>"ไม่มีข้อกำหนด"</item>
+        <item>"ต่ำ"</item>
+        <item>"ปานกลาง"</item>
+        <item>"สูง"</item>
+    </string-array>
+    <string-array name="criteriaHorizAccuracyValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="powerRequirementType">
+        <item>"ไม่มีข้อกำหนด"</item>
+        <item>"ต่ำ"</item>
+        <item>"ปานกลาง"</item>
+        <item>"สูง"</item>
+    </string-array>
+    <string-array name="powerRequirementValues">
+        <item>"No Requirement"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityType">
+        <item>"ไม่ได้ตั้ง"</item>
+        <item>"ต่ำมาก"</item>
+        <item>"ต่ำ"</item>
+        <item>"ปานกลาง"</item>
+        <item>"สูง"</item>
+    </string-array>
+    <string-array name="autoCpiReliabilityValues">
+        <item>"Not Set"</item>
+        <item>"Very Low"</item>
+        <item>"Low"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    <string-array name="lppModeType">
+        <item>"ปิดการใช้งาน"</item>
+        <item>"เครื่องบินของผู้ใช้"</item>
+        <item>"ควบคุมเครื่องบิน"</item>
+    </string-array>
+    <string-array name="lppModeValues">
+        <item>"Disable"</item>
+         <item>"User Plane"</item>
+        <item>"Control Plane"</item>
+    </string-array>
+    <string-array name="wbiqGLOR1Chan">
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="gplsPriorityType">
+        <item>"ความแม่นยำสูง"</item>
+        <item>"ความแม่นยำแบบพลังงานสมดุลย์"</item>
+        <item>"ใช้พลังต่ำ"</item>
+        <item>"ไม่มีพลัง"</item>
+    </string-array>
+    <string-array name="gplsPriorityTypeValues">
+        <item>100</item>
+        <item>102</item>
+        <item>104</item>
+        <item>105</item>
+    </string-array>
+    <string-array name="geofenceReportType">
+        <item>"รอยแตก"</item>
+        <item>"เป็นกลุ่ม"</item>
+        <item>"พร็อกซิมิตี"</item>
+        <item>"รอยแตก + พร็อกซิมิตี"</item>
+        <item>"เป็นกลุ่ม+ พร็อกซิมิตี"</item>
+    </string-array>
+    <string-array name="geofenceReportTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array></resources>

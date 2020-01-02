@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP 페어링"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Snapdragon 디지털 펜 페어링"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"설정"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"확인"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"표시할 펜 위치 선택"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"새 펜의 계열 번호 선택"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"사용하려는 펜 유형 선택"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"페어링 시작"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"펜을 원 내부에서 직각으로 유지하여 페어링 프로세스 시작"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"수동 페어링"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"반자동 페어링"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"페어링 방법 선택"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"새 펜 페어링"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"페어링된 펜 관리"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"SW 보정"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"펜을 원 내부에서 직각으로 유지하여 페어링 프로세스를 시작합니다.\n완료되면 보정 프로세스가 시작됩니다."</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"서비스 센터 테스터"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"펜을 원 내부에서 직각으로 유지하여 페어링 프로세스를 시작합니다.\n완료되면 테스트 프로세스가 시작됩니다."</string></resources>

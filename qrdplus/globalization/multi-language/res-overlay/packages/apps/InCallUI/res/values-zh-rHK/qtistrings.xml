@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+  ~ Copyright (c) 2015, The Linux Foundation. All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are
+  ~ met:
+  ~      Redistributions of source code must retain the above copyright
+  ~       notice, this list of conditions and the following disclaimer.
+  ~      Redistributions in binary form must reproduce the above
+  ~       copyright notice, this list of conditions and the following
+  ~       disclaimer in the documentation and/or other materials provided
+  ~       with the distribution.
+  ~      Neither the name of The Linux Foundation nor the names of its
+  ~       contributors may be used to endorse or promote products derived
+  ~       from this software without specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+  ~ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  ~ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+  ~ ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+  ~ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  ~ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  ~ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+  ~ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+  ~ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  ~ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  ~
+  -->
+<!-- The xml contains Qti specific resource strings neede for any value added features. -->
+<resources>
+    <!-- Call substate label -->
+    <string name="call_substate_label">" 通話子狀態 - \u000a"</string>
+    <!-- Call substate label for call resumed -->
+    <string name="call_substate_call_resumed">"已恢復 \u000a"</string>
+    <!-- Call substate label for call connected suspended (audio) -->
+    <string name="call_substate_connected_suspended_audio">"已連接暫停的（音頻）\u000a"</string>
+    <!-- Call substate label for call connected suspended (video) -->
+    <string name="call_substate_connected_suspended_video">"已連接暫停的（視訊）\u000a"</string>
+    <!-- Call substate label for avp retry -->
+    <string name="call_substate_avp_retry">"重試 Avp \u000a"</string>
+    <!-- Video quality changed message -->
+    <string name="video_quality_changed">" 視訊質素變更至 \u0020"</string>
+    <!-- Video quality High -->
+    <string name="video_quality_high">"高畫質"</string>
+    <!-- Video quality Medium -->
+    <string name="video_quality_medium">"中"</string>
+    <!-- Video quality Low -->
+    <string name="video_quality_low">"低畫質"</string>
+    <!-- Video quality Unknown -->
+    <string name="video_quality_unknown">"未知"</string>
+    <!-- Message indicating that Video Started flowing for IMS-VT calls -->
+    <string name="player_started">"播放器已開始"</string>
+    <!-- Message indicating that Video Stopped flowing for IMS-VT calls -->
+    <string name="player_stopped">"播放器已停止"</string>
+    <!-- Message indicating that camera failure has occurred for the selected camera and
+         as result camera is not ready -->
+    <string name="camera_not_ready">"相機尚未就緒"</string>
+    <!-- Message indicating that camera is ready/available -->
+    <string name="camera_ready">"相機就緒"</string>
+    <!-- Message indicating unknown call session event -->
+    <string name="unknown_call_session_event">"「未知通話環節活動」"</string>
+    <!-- Message indicating data usage -->
+    <string name="data_usage_label">"數據用量： "</string>
+    <!-- Modify call error cause -->
+    <string name="modify_call_failed_due_to_low_battery">"由於電量不足，修改通話失敗。"</string>
+    <!-- Message indicating video calls not allowed if user enabled TTY Mode -->
+    <string name="video_call_not_allowed_if_tty_enabled">"請停用 TTY 模式以升級至視訊通話。"</string>
+    <!-- Text for the onscreen "Add Participant" button -->
+    <string name="onscreenAddParticipant">"新增參與者"</string>
+    <!-- Description of the deflect target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="qti_description_target_deflect">"轉向"</string>
+    <string name="qti_description_deflect_error">"號碼未設定。請透過 IMS 設定提供號碼並重試。"</string>
+    <string name="qti_description_deflect_service_error">"不支援通話轉向服務。"</string>
+    <!-- Message indicating call failed due to handover not feasible -->
+    <string name="call_failed_ho_not_feasible">"LTE 無法切換至 3G/2G，通話已結束。"</string>
+    <!-- Title of the IMS to CS redial dialog -->
+    <string name="cs_redial_option">"重撥選項"</string>
+    <!-- Message text of the IMS to CS redial dialog -->
+    <string name="cs_redial_msg">"無法撥出 IMS 視訊通話，要嘗試以非 IMS 語音通話撥出嗎？"</string>
+    <!-- Yes option of the IMS to CS redial dialog -->
+    <string name="cs_redial_yes">"是"</string>
+    <!-- No option of the IMS to CS redial dialog -->
+    <string name="cs_redial_no">"否"</string>
+    <!-- Session modify cause unspecified -->
+    <string name="session_modify_cause_unspecified"></string>
+    <!-- Session modify cause code upgrade local request -->
+    <string name="session_modify_cause_upgrade_local_request">"已按使用者要求提升來電質素"</string>
+    <!-- Session modify cause code upgrade remote request -->
+    <string name="session_modify_cause_upgrade_remote_request">"已按遠端使用者要求提升通話質素"</string>
+    <!-- Session modify cause code downgrade local request -->
+    <string name="session_modify_cause_downgrade_local_request">"已按使用者要求降低通話質素"</string>
+    <!-- Session modify cause code downgrade remote request -->
+    <string name="session_modify_cause_downgrade_remote_request">"已按遠端使用者要求降低通話質素"</string>
+    <!-- Session modify cause code downgrade rtp timeout -->
+    <string name="session_modify_cause_downgrade_rtp_timeout">"由於 RTP 逾時，通話質素已降低"</string>
+    <!-- Session modify cause code downgrade qos -->
+    <string name="session_modify_cause_downgrade_qos">"由於服務質素問題，通話質素已降低"</string>
+    <!-- Session modify cause code downgrade packet loss -->
+    <string name="session_modify_cause_downgrade_packet_loss">"由於遺失資料包，通話質素已降低"</string>
+    <!-- Session modify cause code downgrade low thrput -->
+    <string name="session_modify_cause_downgrade_low_thrput">"由於傳輸量低，通話質素已降低"</string>
+    <!-- Session modify cause code downgrade thermal mitigation -->
+    <string name="session_modify_cause_downgrade_thermal_mitigation">"由於裝置過熱，通話質素已降低"</string>
+    <!-- Session modify cause code downgrade lipsync -->
+    <string name="session_modify_cause_downgrade_lipsync">"由於口型同步功能，通話質素已降低"</string>
+    <!-- Session modify cause code downgrade generic error -->
+    <string name="session_modify_cause_downgrade_generic_error">"由於一般錯誤，通話質素已降低"</string>
+    <!-- Title for low battery alert dialogue -->
+    <string name="low_battery">"電量不足"</string>
+    <!-- Yes option of the low battery alert dialog -->
+    <string name="low_battery_yes">"是"</string>
+    <!-- No option of the low battery alert dialog -->
+    <string name="low_battery_no">"否"</string>
+    <!-- Message text of the low battery alert dialog in cases when video call can be downgraded to voice call -->
+    <string name="low_battery_downgrade_to_voice_msg">"您要將視訊通話轉換為語音通話嗎？"</string>
+    <!-- Message text of the low battery alert dialog in cases video call doesn't have downgrade capabilities -->
+    <string name="low_battery_hangup_msg">"您要掛斷電話嗎？"</string>
+    <!-- Description of the call transfer related strings [CHAR LIMIT=NONE] -->
+    <string name="qti_ims_transfer_num_error">"號碼未設定。請透過 IMS 設定提供號碼並重試。"</string>
+    <string name="qti_ims_transfer_request_error">"通話轉接要求失敗。"</string>
+    <string name="qti_ims_transfer_request_success">"通話轉接要求成功。"</string>
+    <!-- Text for the onscreen "blind transfer" button -->
+    <string name="qti_ims_onscreenBlindTransfer">"盲轉"</string>
+    <!-- Text for the onscreen "assured transfer" button -->
+    <string name="qti_ims_onscreenAssuredTransfer">"保證轉接"</string>
+    <!-- Text for the onscreen "consultative transfer" button -->
+    <string name="qti_ims_onscreenConsultativeTransfer">"詢問轉接"</string>
+    <!-- Text for operator specific emergency number -->
+    <add-resource type="string" name="emergency_call_dialog_number_for_display_operator"/>
+    <string name="emergency_call_dialog_number_for_display_operator">"緊急電話"</string></resources>

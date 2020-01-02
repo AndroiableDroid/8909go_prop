@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"顯示偵錯計量"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"儲存圖片"</string>
+    <string name="debug_pref_save_pictures_desc">"將拍攝的圖片儲存至 SD 卡"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"儲存預覽畫面"</string>
+    <string name="debug_pref_save_preview_frames_desc">"將預覽畫面儲存至 SD 卡"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"允許捨棄預覽畫面"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"儲存預覽畫面時，允許捨棄畫面以保持畫面速率"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"啟用臉孔識別詳細記錄"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

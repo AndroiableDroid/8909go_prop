@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP ترتیبات"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Snapdragon ڈیجیٹل پین ترتیبات"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"غیر فعال کردہ"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"نقل"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"میراث ایپ آف اسکرین موڈ:"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"حد میں فاصلہ (ملی میٹر):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"پاور موڈ:"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"درستگی کو بہتر بنائیں"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"پاور کو بہتر بنائیں"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"ان پٹ کی قسم:"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"ماؤس حساسیت:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"آہستہ"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"متوسط"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"تیز"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"سٹائلس"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"موش"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"جوائے اسٹک"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"DigitalPen آف"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"DigitalPen آن"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"زیادہ اسمارٹ موقف"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"آن اسکرین ہوور"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"آف اسکرین ہوور"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"زیادہ سے زیادہ فاصلہ:"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"ہوور آئیکن دکھائیں"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"مٹائیں بٹن"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"بٹن اشاریہ:"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"مٹائیں رویہ:"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"مٹانے کیلئے تھامیں"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"ٹوگل کرنے کیلئے ٹیپ کریں"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"پورٹریٹ میں آف اسکرین محل وقوع:"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"دائیں جانب"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"بائیں جانب"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"پین آن اسکرین آف کو روکیں"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"پین آن بوٹ کو شروع کریں"</string></resources>

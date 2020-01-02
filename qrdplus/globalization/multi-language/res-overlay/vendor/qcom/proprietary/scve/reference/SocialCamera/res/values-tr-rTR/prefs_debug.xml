@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Hata ayıklama ölçülerini görüntüle"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"Resimleri kaydet"</string>
+    <string name="debug_pref_save_pictures_desc">"Çekilen resimleri SD kartına kaydet"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"Önizleme karelerini kaydet"</string>
+    <string name="debug_pref_save_preview_frames_desc">"Önizleme karelerini SD kartına kaydet"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Önizlemede kare atlamaya izin ver"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"Önizleme karelerini kaydederken, kare sayısını korumak için kare atlamaya izin ver"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Yüz tanıma için ayrıntılı günlük kaydını etkinleştir"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

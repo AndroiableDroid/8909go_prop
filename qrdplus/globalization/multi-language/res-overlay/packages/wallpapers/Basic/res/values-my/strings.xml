@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <!-- Application name -->
+    <string name="wallpapers">"လှုပ်ရှားမှုပါသော အန်းဒရွိုက် နောက်ခံပုံများ"</string>
+    <!-- Wallpapers: -->
+    <!-- Wallpaper showing the camera preview -->
+    <string name="wallpaper_walkaround">"ဖောက်ထွင်း ကြည့်ပါ"</string>
+    <string name="wallpaper_walkaround_author">"ဂူးဂဲလ်"</string>
+    <string name="wallpaper_walkaround_desc">"သင့်ဖုန်းကိုဖောက်ထွင်းကြည့်ပြီး မတော်မဆမှုမဖြစ်စေပဲ လမ်းလျှောက်ပါ။  "</string>
+    <!-- Wallpaper showing a clock -->
+    <string name="wallpaper_clock">"ပိုလာ နာရီ"</string>
+    <string name="wallpaper_clock_author">"ဂူးဂဲလ်"</string>
+    <string name="wallpaper_clock_desc">"နေ့ရက်နှင့် အချိန်များကို နာရီလက်တံလှည့်သည့် အကွေးအတိုင်းပြပါ: လ၊  ရက်၊ နာရီ၊ မိနစ် နှင့် စက္ကန့်။ "</string>
+    <!-- Polar clock: title of settings activity -->
+    <string name="clock_settings">"ပိုလာနာရီ ဆက်တင်များ"</string>
+    <!-- Polar clock: label for "show seconds" pref -->
+    <string name="show_seconds">"စက္ကန့်များ ပြပါ"</string>
+    <!-- Polar clock: label for "variable widths" pref -->
+    <string name="variable_line_width">"မြည်သံအကျယ်များ ပြောင်းခြင်း"</string>
+    <!-- Polar clock: label for "palette" pref -->
+    <string name="palette">"အရောင် ရွေးချယ်စရာ"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_gray">"သံမဏိ"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_violet">"ညသန်းခေါင်"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_matrix">"အစိမ်းရောင် စခရင်"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_white_c">"ပိုလာဝက်ဝံ (ဒိုင်းနမစ်)"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_black_c">"အာကာသတွင်းနက် (ဒိုင်းနမစ်)"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_halloween">"ဖရုံသီးမုန့်"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_zenburn">"ဂြိုဟ်သားသစ်သီးသုပ်"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_oceanic">"အပြာရောင် လေဆာ"</string></resources>

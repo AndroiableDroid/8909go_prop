@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Overlay Wi\u2011Fi to WLAN -->
+    <string name="radio_controls_summary">"Spravovať WLAN, Bluetooth, režim V lietadle, mobilné siete a VPN"</string>
+    <string name="wifi_assistant_intro_setup">"Predstavujeme\nasistenta WLAN"</string>
+    <string name="wifi_assistant_card_message">"Prostredníctvom asistenta WLAN sa automaticky pripájajte k dostupným sieťam."</string>
+    <string name="wifi_assistant_title">"Asistent WLAN"</string>
+    <string name="wifi_assistant_title_message">"Asistent Google WLAN vás automaticky pripojí k tej najlepšej dostupnej sieti WLAN"</string>
+    <string name="wifi_assistant_explanation_message">"Asistent Google WLAN vyhľadá siete, ktoré máte k dispozícii, a vaše zariadenie pripojí k tej najrýchlejšej a najspoľahlivejšej."</string>
+    <string name="wifi_assistant_vpn_message">"Asistent Google WLAN vám môže pomôcť zabezpečiť dáta poskytnutím zabezpečeného VPN pripojenia prostredníctvom serverov Google."</string>
+    <string name="wifi_assistant_dialog_message">"Asistent WLAN žiada o nastavenie pripojenia VPN, pomocou ktorého bude môcť sledovať využívanie siete.  Povoľte iba v prípade, že zdroju dôverujete."</string>
+    <string name="wifi_assistant_permission_accepted">"Asistentovi Google WLAN ste udelili povolenie na nastavenie VPN pripojenia. Aplikácia teraz môže sledovať využívanie siete."</string>
+    <string name="wifi_quick_toggle_title">"WLAN"</string>
+    <string name="wifi_quick_toggle_summary">"Zapnite WLAN"</string>
+    <string name="wifi_settings">"WLAN"</string>
+    <string name="wifi_settings_category">"Nastavenia WLAN"</string>
+    <string name="wifi_settings_title">"WLAN"</string>
+    <string name="wifi_setup_wizard_title">"Vybrať WLAN"</string>
+    <string name="wifi_select_network">"Vybrať WLAN"</string>
+    <string name="wifi_starting">"Zapínanie siete WLAN\u2026"</string>
+    <string name="wifi_stopping">"Vypínanie siete WLAN\u2026"</string>
+    <string name="wifi_poor_network_detection_summary">"Sieť WLAN nepoužívajte, pokiaľ nemá dobré internetové pripojenie"</string>
+    <string name="wifi_scan_always_available_summary">"Služba určovania polohy Google a ostatné aplikácie môžu siete vyhľadávať aj vtedy, ak je WLAN vypnutá"</string>
+    <string name="wifi_automatically_manage_title">"Automatická správa WLAN"</string>
+    <string name="wifi_automatically_manage_summary">"Nechajte asistenta WLAN spravovať vaše pripojenie WLAN"</string>
+    <string name="wifi_assistant_setting_title">"Asistent WLAN"</string>
+    <string name="wifi_assistant_setting_summary">"Asistent Google WLAN"</string>
+    <string name="wifi_setting_sleep_policy_title">"Nechať WLAN počas spánku zapnutú"</string>
+    <string name="wifi_setting_on_during_sleep_title">"WLAN počas spánku zapnutá"</string>
+    <string name="wifi_suspend_optimizations">"Optimalizácia WLAN"</string>
+    <string name="wifi_suspend_optimizations_summary">"Minimalizovať používanie batérie pri zapnutej WLAN"</string>
+    <string name="wifi_limit_optimizations_summary">"Obmedziť využívanie batérie zo strany WLAN"</string>
+    <string name="wifi_access_points">"Siete WLAN"</string>
+    <string name="wifi_menu_p2p">"Príkaz WLAN"</string>
+    <string name="wifi_empty_list_wifi_off">"Ak chcete zobraziť dostupné siete, zapnite WLAN."</string>
+    <string name="wifi_empty_list_wifi_on">"Vyhľadávanie sietí WLAN..."</string>
+    <string name="wifi_empty_list_user_restricted">"Nemáte povolenie na zmenu siete WLAN."</string>
+    <string name="wifi_required_info_text">"Na dokončenie nastavenia musí mať váš tablet prístup k sieti WLAN. Po dokončení nastavenia si môžete prepínať medzi mobilnými dátami a WLAN."</string>
+    <string name="wifi_wps_setup_title">"Nastavenie zabezpečenej WLAN"</string>
+    <string name="wifi_wps_onstart_pbc">"Na svojom routri stlačte tlačidlo Chráneného nastavenia WLAN. Môže byť označené písmenami \"WPS\" alebo týmto symbolom:"</string>
+    <string name="wifi_wps_onstart_pin">"Na WLAN routri zadajte pin <xliff:g id="number">%1$s</xliff:g>. Proces nastavenia môže trvať až dve minúty."</string>
+    <string name="wifi_wps_connected">"Pripojené k WLAN sieti <xliff:g id="network_name">%s</xliff:g>"</string>
+    <string name="wifi_skipped_message" product="tablet">"WARNING: ak pripojenie WLAN preskočíte, tablet na úvodné sťahovanie a aktualizácie využije iba mobilné dáta. Ak chcete zabrániť možným poplatkom za prenos dát, pripojte sa k sieti WLAN."</string>
+    <string name="wifi_skipped_message" product="device">"WARNING: ak pripojenie WLAN preskočíte, zariadenie na úvodné sťahovanie a aktualizácie využije iba mobilné dáta. Ak chcete zabrániť možným poplatkom za prenos dát, pripojte sa k sieti WLAN."</string>
+    <string name="wifi_skipped_message" product="default">"WARNING: ak pripojenie WLAN preskočíte, telefón na úvodné sťahovanie a aktualizácie využije iba mobilné dáta. Ak chcete zabrániť možným poplatkom za prenos dát, pripojte sa k sieti WLAN."</string>
+    <string name="wifi_and_mobile_skipped_message" product="tablet">"WARNING: ak pripojenie WLAN preskočíte, tablet nebude mať internetový prístup na žiadne úvodné sťahovania ani aktualizácie."</string>
+    <string name="wifi_and_mobile_skipped_message" product="device">"WARNING: ak pripojenie WLAN preskočíte, zariadenie nebude mať internetový prístup na žiadne úvodné sťahovania ani aktualizácie."</string>
+    <string name="wifi_and_mobile_skipped_message" product="default">"WARNING: ak pripojenie WLAN preskočíte, telefón nebude mať internetový prístup na žiadne úvodné sťahovania ani aktualizácie."</string>
+    <string name="wifi_connect_failed_message" product="tablet">"Tablet sa k tejto sieti WLAN nedokázal pripojiť."</string>
+    <string name="wifi_connect_failed_message" product="device">"Zariadenie sa k tejto sieti WLAN nedokázalo pripojiť."</string>
+    <string name="wifi_connect_failed_message" product="default">"Telefón sa k tejto sieti WLAN nedokázal pripojiť."</string>
+    <string name="wifi_advanced_titlebar">"Rozšírená WLAN"</string>
+    <string name="wifi_setting_frequency_band_title">"Frekvenčné pásmo WLAN"</string>
+    <string name="wifi_p2p_settings_title">"Príkaz WLAN"</string>
+    <string name="wifi_tether_checkbox_text">"Prenosný hotspot WLAN"</string>
+    <string name="wifi_hotspot_checkbox_text">"Hotspot WLAN"</string>
+    <string name="wifi_hotspot_checkbox_text_summary">"Na poskytnutie siete WLAN použite mobilné pripojenie"</string>
+    <string name="wifi_tether_failed_subtext">"Chyba prenosného hotspotu WLAN"</string>
+    <string name="wifi_tether_configure_ap_text">"Nastaviť hotspot WLAN"</string>
+    <string name="wifi_hotspot_configure_ap_text">"Nastavenie hotspotu WLAN"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">"Prenosný hotspot WLAN AndroidAP WPA2 PSK"</string>
+    <string name="wifi_tether_configure_subtext">"Prenosný hotspot WLAN <xliff:g id="network_ssid">%1$s</xliff:g> <xliff:g id="network_security">%2$s</xliff:g>"</string>
+    <string name="status_wifi_mac_address">"MAC adresa WLAN"</string>
+    <string name="network_scorer_change_active_dialog_title">"Zmeniť asistenta WLAN?"</string>
+    <string name="location_mode_high_accuracy_description">"Na určenie polohy používať technológiu GPS, WLAN a mobilné siete "</string>
+    <string name="location_mode_battery_saving_description">"Na určenie polohy používať WLAN a mobilné siete"</string>
+    <string name="location_network_based">"Poloha podľa WLAN a mobilnej siete"</string>
+    <string name="location_neighborhood_level_wifi">"Poloha určená podľa WLAN"</string>
+    <string name="wifi_verbose_logging">"Zapnúť prihlasovanie WLAN Podrobné"</string>
+    <string name="wifi_aggressive_handover">"Agres. odovzdávať WLAN na mobilnú sieť"</string>
+    <string name="wifi_allow_scan_with_traffic">"Vždy povoliť funkciu WLAN Roam Scans"</string>
+    <string name="wifi_verbose_logging_summary">"Zvýšiť úroveň prihlasov. do WLAN zobraziť na SSID RSSI v nástroji WLAN Picker"</string>
+    <string name="wifi_aggressive_handover_summary">"Keď túto možnosť zapnete, WLAN bude s väčšou intenzitou odovzdávať dát. pripoj. na mob. sieť vtedy, keď bude slabý signál WLAN"</string>
+    <string name="wifi_allow_scan_with_traffic_summary">"Povoliť alebo zakázať funkciu WLAN Roam Scans na základe objemu prenosu údajov v rozhraní"</string>
+    <string name="battery_stats_wifi_running_label">"WLAN"</string>
+    <string name="wifi_on_time">"Čas zapnutia WLAN"</string>
+    <string name="bluetooth_on_time">"Čas zapnutia WLAN"</string>
+    <string name="power_wifi">"WLAN"</string>
+    <string name="usage_type_wifi_running">"WLAN je spustená"</string>
+    <string name="usage_type_data_wifi_send">"Odoslané pakety WLAN"</string>
+    <string name="usage_type_data_wifi_recv">"Prijaté pakety WLAN"</string>
+    <string name="battery_action_wifi">"Nastavenia WLAN"</string>
+    <string name="battery_desc_wifi">"Využitie batérie sieťou WLAN"</string>
+    <string name="battery_sugg_wifi">"Keď WLAN nie je k dispozícii, alebo ju nevyužívate, vypnite ju"</string>
+    <string name="gadget_toggle_wifi">"Aktualizácia nastavení WLAN"</string>
+    <string name="gadget_state_template">"<xliff:g name="feature" example="WLAN">%1$s</xliff:g> <xliff:g name="state" example="off">%2$s</xliff:g>"</string>
+    <string name="gadget_wifi">"WLAN"</string>
+    <string name="backup_data_summary">"Zálohovať údaje aplikácií, heslá sietí WLAN a ďalšie nastavenia na serveroch Google"</string>
+    <string name="backup_erase_dialog_message">"Chcete zastaviť zálohovanie hesiel sietí WLAN, záložiek, ďalších nastavení a údajov aplikácií a vymazať všetky kópie na serveroch Google?"</string>
+    <string name="wifi_setup_title">"Nastavenie WLAN"</string>
+    <string name="wifi_setup_title_editing_network">"Pripojenie k WLAN sieti <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>"</string>
+    <string name="wifi_setup_title_connecting_network">"Pripájanie sa k WLAN sieti <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>\u2026"</string>
+    <string name="wifi_setup_title_connected_network">"Pripojené k WLAN sieti <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>"</string>
+    <string name="wifi_setup_eap_not_supported">"Počas inštalácie nie je možné konfigurovať pripojenie k sieti WLAN cez protokol EAP. Po inštalácii to môžete vykonať v sekcii Nastavenia &gt; Bezdrôtové pripojenie a siete."</string>
+    <string name="wifi_setup_description_connected">"Ak chcete pokračovať v nastavovaní, dotknite sa možnosti "<b>"Ďalej"</b>".\n\nAk sa chcete pripojiť k inej sieti WLAN, dotknite sa možnosti "<b>"Späť"</b>"."</string>
+    <string name="data_usage_menu_show_wifi">"Zobraziť WLAN"</string>
+    <string name="data_usage_menu_hide_wifi">"Skryť WLAN"</string>
+    <string name="data_usage_disable_wifi_limit">"Nastavenie dátového limitu WLAN"</string>
+    <string name="data_usage_tab_wifi">"WLAN"</string>
+    <string name="data_usage_restrict_background">"Ak obmedzíte využitie mobilných dát na pozadí, niektoré aplikácie a služby nebudú fungovať, dokým sa nepripojíte k sieti WLAN."</string>
+    <string name="data_usage_restrict_background_multiuser" product="tablet">"Ak obmedzíte využitie mobilných dát na pozadí, niektoré aplikácie a služby nebudú fungovať, dokým sa nepripojíte k sieti WLAN.\n\nToto nastavenie ovplyvní všetkých používateľov tohto tabletu."</string>
+    <string name="data_usage_restrict_background_multiuser" product="default">"Ak obmedzíte využitie mobilných dát na pozadí, niektoré aplikácie a služby nebudú fungovať, dokým sa nepripojíte k sieti WLAN.\n\nToto nastavenie ovplyvní všetkých používateľov tohto telefónu."</string>
+    <string name="data_usage_metered_wifi">"Merané siete WLAN"</string>
+    <string name="data_usage_metered_wifi_disabled">"Ak chcete zobraziť merané siete, zapnite WLAN."</string>
+    <string name="restriction_wifi_config_title">"WLAN a mobil"</string>
+    <string name="restriction_wifi_config_summary">"Povoliť úpravu nastavení sietí WLAN a mobilných sietí"</string>
+    <!-- Overlay wi-fi to WLAN -->
+    <string name="keywords_wifi">"sieťové pripojenie wi-fi WLAN"</string>
+    <string name="setup_wifi_nfc_tag">"Nastaviť značku WLAN NFC"</string>
+    <string name="wifi_scan_notify_text_location_on">"Služby Google a ďalšie aplikácie môžu s cieľom zvýšiť presnosť a inými cieľmi vyhľadávať siete v blízkosti aj v prípade, že je sieť WLAN vypnutá. Ak chcete nastavenie zmeniť, prejdite do časti Rozšírené &gt; Vyhľadávanie vždy zapnuté."</string>
+    <string name="wifi_scan_notify_text_location_off">"Aplikácie môžu vyhľadávať siete v blízkosti aj v prípade, že je sieť WLAN vypnutá. Ak chcete nastavenie zmeniť, prejdite do časti Rozšírené &gt; Vyhľadávanie vždy zapnuté."</string>
+    <string name="wifi_scan_always_turnon_message">"Aplikácia <xliff:g id="app_name">%1$s</xliff:g> chce zapnúť vyhľadávanie sietí (z dôvodu dosiahnutia vyššej presnosti určovania polohy aj z iných dôvodov) a hľadať siete aj v prípade, že je vypnutý modul WLAN.\n\nChcete túto možnosť povoliť všetkým aplikáciám, ktoré chcú vyhľadávať siete?"</string></resources>

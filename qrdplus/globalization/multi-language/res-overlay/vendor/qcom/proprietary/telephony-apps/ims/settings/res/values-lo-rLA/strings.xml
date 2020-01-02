@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IMS settings related strings -->
+    <!-- Title displayed IMS account settings in the sip settings category. [CHAR LIMIT=NONE] -->
+    <string name="ims_settings">"ການຕັ້ງຄ່າ IMS"</string>
+    <string name="ims_vt_call_quality_title">"ຄຸນະພາບການໂທແບບເຫັນໜ້າ"</string>
+    <string name="ims_vt_call_quality_low">"ຕໍ່າ"</string>
+    <string name="ims_vt_call_quality_high">"ສູງ"</string>
+    <string name="ims_vt_call_quality_unknown">"ບໍ່ຮູ້ຈັກ"</string>
+    <string name="ims_vt_call_quality_set_failed">"ຕັ້ງຄຸນນະພາບວິດີໂອບໍ່ສຳເລັດ"</string>
+    <string name="ims_get_packet_count_failed">"ເອົາຈຳນວນແພັກເກດບໍ່ສຳເລັດ"</string>
+    <string name="ims_get_packet_error_count_failed">"ເອົາຈຳນວນຄວາມຜິດພາດແພັກເກດບໍ່ສຳເລັດ"</string>
+    <string name="ims_get_packet_count_label">"ຄລິກທີ່ນີ້ເພື່ອເອົາຈຳນວນແພັກເກດ"</string>
+    <string name="ims_get_packet_error_count_label">"ຄລິກທີ່ນີ້ເພື່ອເອົາຈຳນວນຄວາມຜິດພາດແພັກເກດ"</string>
+    <string name="qti_ims_call_deflect_title">"ໂທເບີທີ່ສົນໃຈ"</string>
+    <string name="qti_ims_number_not_set">"ຍັງບໍ່ໄດ້ຕັ້ງ"</string>
+    <!-- IMS to CS Retry setting title.  [CHAR LIMIT=30] -->
+    <string name="ims_to_cs_retry_title">"ການລອງ​ໃໝ່ CS"</string>
+    <!-- IMS to CS Retry setting summary.  [CHAR LIMIT=80] -->
+    <string name="ims_to_cs_retry_summary">"ລອງໃໝ່ອັດຕະໂນມັດດ້ວຍການສື່ສານດ້ວຍສຽງແບບປົກກະຕິ (ແນະນໍາ)"</string></resources>

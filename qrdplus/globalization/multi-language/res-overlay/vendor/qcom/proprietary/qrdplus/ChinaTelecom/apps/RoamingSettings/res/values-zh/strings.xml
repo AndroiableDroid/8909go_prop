@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"漫游设置"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"打开"</string>
+    <string name="data_roaming_title">"漫游时连接到移动数据网络服务"</string>
+    <string name="manual_select_network">"手动选择网络"</string>
+    <string name="roaming_card_info">"将优先使用移动商务卡"</string>
+    <string name="network_select_success_info">"成功注册到“<xliff:g id="name">%s</xliff:g>”网络，网络不可用时，将自动进行注册"</string>
+    <string name="network_select_failure_info">"您选择的“<xliff:g id="name">%s</xliff:g>”网络不可用，自动开始注册到其他网络"</string>
+    <string name="network_auto_success_info">"自动注册到网络成功"</string>
+    <string name="network_auto_failure_info">"您选择的 GSM 网络不可用，自动开始注册到其他网络"</string>
+    <string name="manual_select_network_tip">"此操作仅在以下时候有效"</string>
+    <string name="gsm_network_list_title">"可选网络"</string>
+    <string name="searching_cdma_network_title">"现在正在搜索 CDMA 网络..."</string>
+    <string name="searching_gsm_network_title">"现在正在搜索 GSM 网络..."</string>
+    <string name="empty_networks_list">"未找到网络。"</string>
+    <string name="register_on_network">"正在<xliff:g id="NETWORK">%s</xliff:g>上注册..."</string>
+    <string name="register_automatically">"自动注册..."</string>
+    <string name="network_select_setting">"网络设置"</string>
+    <string name="roaming_hotline">"国际漫游热线 +8618918910000"</string>
+    <string name="carrier_names">"中国电信"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"卡 <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"正在禁用数据..."</string>
+    <string name="unable_to_disable_data">"无法禁用数据。"</string>
+    <string name="avoid_cur_nwk_succeeded">"已将当前网络添加到限制列表。"</string>
+    <string name="avoid_cur_nwk_failed">"无法将当前网络添加到限制列表。"</string>
+    <string name="clear_nwk_list_succeeded">"已清除网络限制列表。"</string>
+    <string name="clear_nwk_list_failed">"无法清除网络限制列表。"</string>
+    <string name="ok_btn">"确定"</string>
+    <string name="cancel_btn">"取消"</string>
+    <string name="confirm_avoid">"确定要限制当前网络吗？"</string>
+    <string name="confirm_clear">"确定要清除网络限制列表吗？"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"CDMA 选择"</string>
+    <string name="pref_gsm_choose_title">"GSM 选择"</string>
+    <string name="pref_network_info_title">"当前网络信息"</string>
+    <string name="alert_msg_enable_card">"要启用此卡吗？"</string>
+    <string name="alert_msg_disable_card">"要禁用此卡吗？"</string>
+    <string name="progress_msg_enable_card">"启用此卡，请稍候..."</string>
+    <string name="progress_msg_disable_card">"禁用此卡，请稍候..."</string>
+    <string name="operation_success">"操作成功"</string>
+    <string name="operation_failure">"操作失败"</string>
+    <string name="result_btn">"确定"</string>
+    <string name="alert_data_roaming_title">"允许数据漫游"</string>
+    <string name="alert_data_roaming_msg">"请注意，允许移动数据网络漫游可能会产生高额漫游费！!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"未知"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"不可用"</string>
+    <string name="status_network_type">"移动网络类型"</string>
+    <string name="status_signal_strength">"信号强度"</string>
+    <string name="status_prl_version">"PRL 版本"</string>
+    <string name="status_data_state">"移动网络状态"</string>
+    <string name="status_netowrk_title">"当前 SIM 卡状态"</string>
+    <string name="status_operator_name">"运营商名称"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"单元格 ID"</string>
+    <string name="status_sms_center_number">"短信中心号码"</string>
+    <string name="status_pnl_version">"首选网络列表版本"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"手动切换至下一个网络"</string>
+    <string name="avoid_discription">"说明：\n  在 CDMA 系统中默认会自动选择网络，无需手动选择，但若无法使用当前网络，请尝试手动切换至下一个网络。 "</string>
+    <string name="attention_dialog_title">"提示"</string>
+    <string name="disable_both_sim_error_msg">"不能同时禁用 SIM 卡"</string>
+    <string name="China_Mobile">"中国移动"</string>
+    <string name="China_Unicom">"中国联通"</string>
+    <string name="China_Telecom">"中国电信"</string></resources>

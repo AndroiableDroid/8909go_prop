@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+  All Rights Reserved.
+  Confidential and Proprietary - Qualcomm Technologies, Inc.
+ -->
+<resources>
+    <string name="message_no_sdcard">"Vložte kartu SD"</string>
+    <string name="message_internal_error">"Chyba počas nahrávania"</string>
+    <string name="message_success">"Súbor sa uložil do %1$s"</string>
+    <string name="message_record_started">"Nahrávka sa spustila"</string>
+    <string name="message_recording">"Nahrávanie hovoru"</string>
+    <string name="message_not_incall">"Funkcia je dostupná len počas hovoru"</string>
+    <string name="message_sdcard_full">"Na externom úložisku nie je voľné miesto"</string>
+    <string name="no_sim_message">"V telefóne nie je karta SIM\nVložte kartu SIM"</string>
+    <string name="sim_changed_message">"Je k dispozícii nová karta. Nakonfigurujte svoje odbery"</string>
+    <string name="sim_changed_title">"Konfigurovať odbery"</string>
+    <string name="sim_info">"Informácie karty SIM"</string>
+    <string name="close">"Zavrieť"</string>
+    <string name="change">"Nastaviť"</string>
+    <string name="new_sim_detected">"Bola zistená nová karta SIM:"</string>
+    <string name="default_sim_setting">"Predvolené nastavenia SIM podľa:"</string>
+    <string name="mobile_data">"Mobilné údaje:"</string>
+    <string name="slot">"Slot"</string>
+    <string name="carrier_name">"(názov operátora)"</string>
+    <string name="mobile_data_on">"zapnuté"</string>
+    <string name="mobile_data_off">"vypnuté"</string>
+    <string name="sim_absent">"Chýba"</string>
+    <string name="sim_cmcc">"China Mobile"</string>
+    <string name="sim_ct">"China Telecom"</string>
+    <string name="sim_cu">"China Unicom"</string>
+    <string name="sim_unknown">"Neznáme"</string>
+    <string name="alert_roaming_messgae">"Telefón je v režime roaming. Dátový roaming môže zapríčiniť výrazné poplatky za využitie dát"</string>
+    <string name="alert_not_ct_uicc_card">"Karta SIM nevyhovuje zariadeniu. Vymeňte ju za 4G SIM kartu od China Telecom"</string>
+    <string name="multi_sim_settings_title">"Nastavenia duálnych SIM"</string>
+    <string name="lte_switch_unavailable">"4G/3G prepínač kariet SIM je nedostupný"</string>
+    <string name="lte_recognize_summary">"Boli zistené dve 4G/3G karty SIM. Musíte nastaviť predvolenú 4G/3G kartu SIM:"</string>
+    <string name="lte_select_summary">"Zvolená karta SIM sa rozpozná ako karta 4G/3G, pričom druhá bude predstavovať kartu 2G."</string>
+    <string name="lte_checkbox_text">"Po zmene predvolenej 4G/3G karty SIM nastavte mobilné dáta na zvolenú kartu SIM"</string>
+    <string name="select_ok">"OK"</string>
+    <string name="lte_select_title">"Predvolená 4G/3G karta SIM"</string>
+    <string name="lte_recognition_title">"Rozpoznávanie karty SIM"</string>
+    <string name="reg_failed">"Registrácia bola neúspešná"</string>
+    <string name="reg_suc">"Registrácia bola úspešná"</string>
+    <string name="reg_failed_msg">"Registrácia predvolenej 4G/3G karty SIM sa nepodarila, %1$s sa rozpozná ako 2G karta SIM."</string>
+    <string name="lte_set">"Nastaviť"</string>
+    <string name="lte_setting">"Nastavuje sa predvolená 4G/3G karta SIM"</string>
+    <string name="select_continue">"Pokračovať"</string>
+    <string name="select_cancel">"Zrušiť"</string>
+    <string name="china_mobile">"China Mobile"</string>
+    <string name="china_unicom">"China Unicom"</string>
+    <string name="china_telecom">"China Telecom"</string>
+    <string name="china_mobile_one">"China Mobile 01"</string>
+    <string name="china_mobile_two">"China Mobile 02"</string>
+    <string name="china_unicom_one">"China Unicom 01"</string>
+    <string name="china_unicom_two">"China Unicom 02"</string>
+    <string name="china_telecom_one">"China Telecom 01"</string>
+    <string name="china_telecom_two">"China Telecom 02"</string>
+    <string name="title_dialog_duration">"Trvanie"</string>
+    <string name="duration_format">"%1$d min. %2$d sek."</string>
+    <string name="alert_title">"Upozornenie"</string>
+    <string name="message_not_registered_in_tdd">"Nie je možná registrácia len pre dátové služby 4G. Ukončiť?"</string>
+    <string name="message_tdd_data_only">"Nachádzate sa vo výlučne dátovom režime 4G, v ktorom nemožno tento úkon vykonať. Želáte si výlučne dátový režim 4G ukončiť?"</string>
+    <string name="choose_yes">"Áno"</string>
+    <string name="choose_no">"Nie"</string>
+    <string name="sim_card_number_title">SIM %1$d</string>
+    <string name="def_callRecord_savePath">"Záznam hovoru"</string>
+    <!-- UPLMN Prefer -->
+    <string name="uplmn_list_setting_title">"Preferované siete"</string>
+    <string name="network_id">"ID Siete"</string>
+    <string name="dialog_network_priority_title">"Priorita"</string>
+    <string name="uplmn_list_setting_add_plmn">"Nová PLMN"</string>
+    <string name="gsm_umts_network_preferences_title">"Režim siete"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Režim siete"</string>
+    <string name="voicemail_number_not_set">"&lt;Nenastavené&gt;"</string>
+    <string name="save">"Uložiť"</string>
+    <string name="reading_settings">"Prebieha načítavanie nastavení"</string>
+    <string name="updating_settings">"Prebieha aktualizácia nastavení"</string>
+    <!-- Title for the dialog alerting user CT card in wrong slot -->
+    <string name="alert_ct_in_wrong_slot_title">"Karta ChinaTelecom vložená do nesprávneho slotu"</string>
+    <!-- Message for the dialog alerting user CT card in wrong slot -->
+    <string name="alert_ct_in_wrong_slot_message">"V súčasnosti podporuje kartu ChinaTelecom len slot 1, ak vložíte kartu ChinaTelecom do slotu 2, nemusí byť funkčná. Vložte kartu ChinaTelecom do správneho slotu."</string></resources>

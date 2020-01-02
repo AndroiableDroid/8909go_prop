@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Dolaşım Ayarları"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"Aç"</string>
+    <string name="data_roaming_title">"Dolaşırken veri hizmetlerine bağlan"</string>
+    <string name="manual_select_network">"Manuel Ağ Seçimi"</string>
+    <string name="roaming_card_info">"Mobil iş kartı önceliğini kullanacak"</string>
+    <string name="network_select_success_info">"“<xliff:g id="name">%s</xliff:g>” ağı üzerinde başarılı kayıt, otomatik kayıt, ağ kullanılamadığında gerçekleşecektir"</string>
+    <string name="network_select_failure_info">"Seçtiğiniz “<xliff:g id="name">%s</xliff:g>” ağı kullanılamıyor, diğer ağda kaydolma işlemini otomatik başlat"</string>
+    <string name="network_auto_success_info">"Ağda otomatik olarak başarıyla kaydol"</string>
+    <string name="network_auto_failure_info">"Seçtiğiniz GSM ağı kullanılamıyor, otomatik olarak diğer ağda kaydolmaya başlayın"</string>
+    <string name="manual_select_network_tip">"Bu işlem yalnızca şu zamanlarda geçerlidir:"</string>
+    <string name="gsm_network_list_title">"Seçilebilir ağ"</string>
+    <string name="searching_cdma_network_title">"Şimdi cdma ağı aranıyor......"</string>
+    <string name="searching_gsm_network_title">"Şimdi gsm ağı aranıyor......"</string>
+    <string name="empty_networks_list">"Hiçbir ağ bulunamadı."</string>
+    <string name="register_on_network">"<xliff:g id="NETWORK">%s</xliff:g> ağına kaydediliyor..."</string>
+    <string name="register_automatically">"Otomatik kayıt..."</string>
+    <string name="network_select_setting">"Ağ ayarı"</string>
+    <string name="roaming_hotline">"Dolaşım yardım hattı +8618918910000"</string>
+    <string name="carrier_names">"Çin Telekomünikasyon Hizmetleri"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"Veriler devre dışı bırakılıyor..."</string>
+    <string name="unable_to_disable_data">"Veriler devre dışı bırakılamadı."</string>
+    <string name="avoid_cur_nwk_succeeded">"Geçerli ağ, iptal listesine eklendi."</string>
+    <string name="avoid_cur_nwk_failed">"Geçerli ağ iptal listesine eklenemedi."</string>
+    <string name="clear_nwk_list_succeeded">"İptal ağ listesi temizlendi."</string>
+    <string name="clear_nwk_list_failed">"İptal ağ listesi temizlenemedi."</string>
+    <string name="ok_btn">"Tamam"</string>
+    <string name="cancel_btn">"İptal"</string>
+    <string name="confirm_avoid">"Geçerli ağı iptal etmek istediğinizden emin misiniz?"</string>
+    <string name="confirm_clear">"İptal ağ listesini temizlemek istediğinizden emin misiniz?"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"CDMA seçimi"</string>
+    <string name="pref_gsm_choose_title">"GSM seçimi"</string>
+    <string name="pref_network_info_title">"Geçerli ağ bilgileri"</string>
+    <string name="alert_msg_enable_card">"Bu kartı etkinleştirmek istiyor musunuz?"</string>
+    <string name="alert_msg_disable_card">"Bu kartı devre dışı bırakmak istiyor musunuz?"</string>
+    <string name="progress_msg_enable_card">"Bu kartı etkinleştir, lütfen bekleyin..."</string>
+    <string name="progress_msg_disable_card">"Bu kartı devre dışı bırak, lütfen bekleyin..."</string>
+    <string name="operation_success">"İşlem başarılı"</string>
+    <string name="operation_failure">"İşlem başarısız"</string>
+    <string name="result_btn">"Tamam"</string>
+    <string name="alert_data_roaming_title">"Veri dolaşımına izin ver"</string>
+    <string name="alert_data_roaming_msg">"Veri dolaşımına izin verdiğinizde, yüksek miktarda dolaşım ücretleri ödeyebilirsiniz!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"Bilinmiyor"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"Uygun değil"</string>
+    <string name="status_network_type">"Mobil ağ türü"</string>
+    <string name="status_signal_strength">"Sinyal gücü"</string>
+    <string name="status_prl_version">"PRL Sürümü"</string>
+    <string name="status_data_state">"Mobil ağ durumu"</string>
+    <string name="status_netowrk_title">"Geçerli Sim durumu"</string>
+    <string name="status_operator_name">"Operatör adı"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"HÜCRE KİMLİĞİ"</string>
+    <string name="status_sms_center_number">"Sms merkezi numarası"</string>
+    <string name="status_pnl_version">"Tercih edilen ağ listesi sürümü"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"manuel olarak sonraki ağa geçiş yap"</string>
+    <string name="avoid_discription">"talimat:\n  otomatik seçilen ağ, CDMA sisteminde varsayılandır, manuel seçim gerekli değildir, ancak geçerli ağ kullanılamazsa manuel olarak sonraki ağa geçiş yapmayı deneyin. "</string>
+    <string name="attention_dialog_title">"Dikkat"</string>
+    <string name="disable_both_sim_error_msg">"Her iki SIM aynı zamanda devre dışı bırakılamaz"</string>
+    <string name="China_Mobile">"China Mobile"</string>
+    <string name="China_Unicom">"China Unicom"</string>
+    <string name="China_Telecom">"Çin Telekomünikasyon Hizmetleri"</string></resources>

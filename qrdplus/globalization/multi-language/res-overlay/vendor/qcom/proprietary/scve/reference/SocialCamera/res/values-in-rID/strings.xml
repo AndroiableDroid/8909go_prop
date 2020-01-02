@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Social Camera"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"Kami mengalami masalah saat memverifikasi atau meminta izin. Periksa logcat untuk detail lebih lanjut."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Kirim (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"Koneksi ke kamera hilang"</string>
+    <string name="camera_preview_error_camera_error">"Kesalahan dari kamera: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Gagal mengambil gambar"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Kami mengalami masalah saat menyimpan gambar ke galeri Anda"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Setelan"</string>
+    <string name="camera_settings_category_camera_settings">"Setelan Kamera"</string>
+    <string name="camera_settings_category_fr_settings">"Setelan Pengenalan Wajah"</string>
+    <string name="camera_settings_category_debug_settings">"Setelan Debug"</string>
+    <string name="camera_settings_fr_database_cleared">"Database pengenalan wajah dikosongkan"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Tutup"</string>
+    <string name="picture_review_send_faces">"Kirim (%d)"</string>
+    <string name="picture_review_no_faces">"Tidak ada yang ditemukan di foto ini"</string>
+    <string name="picture_review_error_face_recognition">"Kami mengalami masalah saat mengenali wajah"</string>
+    <string name="picture_review_error_face_enroll">"Maaf, kami menemukan masalah saat menyimpan wajah ini. Harap potret gambar subjek lainnya dan coba lagi."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Kontak Lain\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Setelan Berbagi"</string>
+    <string name="fr_share_settings_button_just_once">"Cukup Sekali"</string>
+    <string name="fr_share_settings_button_always">"Selalu"</string>
+    <string name="fr_share_settings_share_method_sms">"Pesan"</string>
+    <string name="fr_share_settings_share_method_email">"Email"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Lihat ini!"</string>
+    <string name="social_sharing_error_no_email_app">"Anda tidak memiliki aplikasi yang mampu mengirim email"</string></resources>

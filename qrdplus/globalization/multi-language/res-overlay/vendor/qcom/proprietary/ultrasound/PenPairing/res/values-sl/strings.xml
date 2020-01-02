@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Povezovanje SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Združevanje digitalnega peresa Snapdragon"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Nastavitve"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"V redu"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"Izbira položaja pisala za prikaz"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"Izberite serijsko številko novega pisala"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"Izberite vrsto pisala, ki ga želite uporabiti"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"Začni povezovati"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"Pisalo držite pravokotno v krogu, da pričnete postopek povezovanja"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"Ročno povezovanje"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"Delno samodejno povezovanje"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"Izberite način povezovanja"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"Poveži novo pisalo"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"Upravljal povezana pisala"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"Umerjanje prek programske opreme"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"Pisalo držite pravokotno v krogu, da pričnete postopek povezovanja.\nKo je uspešno zaključeno, se začne postopek umerjanja."</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"Preskus centra za storitve"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"Pisalo držite pravokotno v krogu, da pričnete postopek povezovanja.\nKo je uspešno zaključeno, se začne preizkušanje."</string></resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+   <string name="activity_Corner">"Détection de coins"</string>
+   <string name="activity_Filter">"Filtrer"</string>
+   <string name="activity_FilterCorr">"Corr. filtre"</string>
+   <string name="activity_Scale">"Échelle"</string>
+   <string name="activity_Warp">"Distorsion"</string>
+   <string name="activity_ImgDiff">"Diff. d\'image"</string>
+   <string name="activity_ImageGradient">"Dégradé d\'image"</string>
+   <string name="activity_OpticalFlow">"Flux optique LK"</string>
+   <string name="activity_Affine">"Affinage"</string>
+   <string name="activity_Rotate">"Rotation"</string>
+   <string name="activity_ScaleDownMN">"Réduction"</string>
+   <string name="app_name">"Appli. démo. FastCV"</string>
+   <string name="label_text">"Écrire ici : "</string>
+   <string name="textview01_text">"TextView01"</string>
+   <string name="startpreview_text">"Commencer"</string>
+   <string name="stoppreview_text">"Arrêter"</string>
+   <string name="settings">"Paramètres"</string>
+   <string name="txtAcceleration">"Activer/désactiver l\'accélération"</string>
+   <string name="about">"À propos"</string>
+   <string name="versionNumber_text">"Version de FastCV"</string>
+   <string name="appName_text">"Nom de l\'application"</string>
+   <string name="appName">"Application de démonstration FastCV"</string>
+   <string name="detectionName">"Module de détection"</string>
+   <string-array name="CameraOnOffArray">
+      <item>"Viseur activé "</item>
+      <item>"Viseur désactivé "</item>
+   </string-array>
+   <string-array name="CameraOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray">
+      <item>"Désactiver le filtre gaussien 3x3  "</item>
+      <item>"Activer le filtre gaussien 3x3 "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray2">
+      <item>"Désactiver le filtre gaussien 5x5  "</item>
+      <item>"Activer le filtre gaussien 5x5 "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray2">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray3">
+      <item>"Désactiver le filtre gaussien 11x11  "</item>
+      <item>"Activer le filtre gaussien 11x11 "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray3">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="CannyOnOffArray">
+      <item>"Désactiver le filtre de contours  "</item>
+      <item>"Activer le filtre de contours "</item>
+   </string-array>
+   <string-array name="CannyOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="cornerDetectorDownSampleArray">
+      <item>1 </item>
+      <item>2 </item>
+      <item>4 </item>
+      <item>8 </item>
+   </string-array>
+   <string-array name="cornerDetectorDownSampleValuesArray">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+   </string-array>
+   <string-array name="cornerDetectorThresholdArray">
+      <item>5 </item>
+      <item>10 </item>
+      <item>20 </item>
+      <item>40 </item>
+      <item>80 </item>
+   </string-array>
+   <string-array name="cornerDetectorValuesArray">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+   </string-array>
+<string-array name="CornerOnOnOffArray">
+      <item>"Désactiver la superposition des coins  "</item>
+      <item>"Activer la superposition des coins "</item>
+   </string-array>
+   <string-array name="CornerOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="DetectionArray">
+      <item>CornerFast9u8 </item>
+      <item>CornerHarrisu8 </item>
+      <item>CornerFastInMasku8 </item>
+      <item>CornerHarrisInMasku8 </item>
+      <item>CornerFast9Scoreu8 </item>
+      <item>CornerFast9InMaskScoreu8</item>
+      <item>CornerFast10u8 </item>
+   </string-array>
+   <string-array name="DetectionValuesArray">
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+      <item>5</item>
+      <item>6</item>
+      <item>7</item>
+   </string-array></resources>

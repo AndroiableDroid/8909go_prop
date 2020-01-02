@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources version="1.1">
+    <!-- mmi main-->
+    <string name="btn_all">"所有"</string>
+    <string name="btn_failed">"失败"</string>
+    <string name="btn_runall">"运行全部"</string>
+    <string name="btn_reset">"重置"</string>
+    <string name="btn_reboot">"重启"</string>
+    <string name="btn_poweroff">"关闭"</string>
+    <string name="btn_pass">"通过"</string>
+    <string name="btn_fail">"失败"</string>
+    <string name="btn_ok">"确定"</string>
+    <string name="btn_cancel">"取消"</string>
+    <string name="btn_pageup">"上"</string>
+    <string name="btn_pagedown">"下"</string>
+    <string name="finish">"完成"</string>
+    <string name="test_report">"测试报告"</string>
+    <!-- common strings -->
+    <string name="on">"打开"</string>
+    <string name="off">"关闭"</string>
+    <string name="present">"已检测到"</string>
+    <string name="absent">"未检测到"</string>
+    <string name="notice">"开始测试，请稍等..."</string>
+    <string name="reset_notice">"要清除测试结果吗？"</string>
+    <string name="reboot_poweroff_notice">"(1)  关闭       "</string>
+    <string name="reboot_ffbm_notice">"(2)  重启至 FFBM  "</string>
+    <string name="reboot_android_notice">"(3)  重启至 Android"</string>
+    <string name="reboot_notice">"请选择重启模式"</string>
+    <string name="pcba_title">"开始 PCBA 测试"</string>
+    <string name="exit">"退出"</string>
+    <!-- system information -->
+    <string name="system_info">"系统信息"</string>
+    <!-- example information -->
+    <string name="example">"示例"</string>
+    <!-- camera case -->
+    <string name="camera_back">"后置摄像头"</string>
+    <string name="camera_back_main">"主后置摄像头"</string>
+    <string name="camera_back_aux">"辅助后置摄像头"</string>
+    <string name="camera_back_1st">"第一个后置摄像头"</string>
+    <string name="camera_back_2nd">"第二个后置摄像头"</string>
+    <string name="camera_front">"前置摄像头"</string>
+    <string name="snapshot">"快照"</string>
+    <!-- battery case -->
+    <string name="battery">"电池"</string>
+    <string name="battery_instruction">"请连接/断开 USB 线..."</string>
+    <string name="battery_title">"连接/断开充电器。确认更改值吗？"</string>
+    <string name="battery_health">"电池运行状况"</string>
+    <string name="battery_status">"电池状态"</string>
+    <string name="battery_voltage">"电池电压"</string>
+    <string name="charging_indicate">"看到了 LED 指示灯吗？"</string>
+    <string name="discharge_indicate">"电池已充电，请放电一段时间并重新插入。"</string>
+    <!-- SMB case -->
+    <string name="smb">"SMB"</string>
+    <!-- lcd case -->
+    <string name="lcd">"LCD"</string>
+    <string name="next">"下一页"</string>
+    <!-- LCD_BACKLIGHT case -->
+    <string name="lcd_backlight">"LCD 背光灯"</string>
+    <string name="lcd_backlight_on">"LCD 背光灯开"</string>
+    <string name="lcd_backlight_off">"LCD 背光灯关"</string>
+    <!-- keypad backlight case -->
+    <string name="button_backlight">"键盘背光灯"</string>
+    <string name="button_backlight_on">"键盘背光灯开"</string>
+    <string name="button_backlight_off">"键盘背光灯关"</string>
+    <!-- flashlight case -->
+    <string name="flashlight">"手电筒"</string>
+    <string name="flashlight_1">"FLASHLIGHT_1"</string>
+    <string name="flashlight_on">"手电筒开"</string>
+    <string name="flashlight_off">"手电筒关"</string>
+    <!-- leds case -->
+    <string name="led_red">"红色发光二极管"</string>
+    <string name="led_red_on">"红色发光二极管开"</string>
+    <string name="led_red_off">"红色发光二极管关"</string>
+    <string name="led_blue">"蓝色发光二极管"</string>
+    <string name="led_blue_on">"蓝色发光二极管开"</string>
+    <string name="led_blue_off">"蓝色发光二极管关"</string>
+    <string name="led_green">"绿色发光二极管"</string>
+    <string name="led_green_on">"绿色发光二极管开"</string>
+    <string name="led_green_off">"绿色发光二极管关"</string>
+    <!-- sensors case -->
+    <string name="gyroscope">"陀螺仪传感器"</string>
+    <string name="gsensor">"加速度传感器"</string>
+    <string name="psensor">"近距离传感器"</string>
+    <string name="lsensor">"光照传感器"</string>
+    <string name="msensor">"磁力计传感器"</string>
+    <string name="calibration">"校准"</string>
+    <string name="lsensor_instruction">"请盖上光照传感器并检查结果"</string>
+    <string name="psensor_instruction">"请盖上近距离传感器并检查结果"</string>
+    <string name="msensor_instruction">"请执行 ∞/8/S 形运动校准磁力计传感器并检查结果"</string>
+    <!-- sdcard case -->
+    <string name="sdcard">"SD 卡"</string>
+    <string name="emmc">"EMMC"</string>
+    <string name="storage">"存储"</string>
+    <string name="sdcard_present">"检测到 SD 卡"</string>
+    <string name="sdcard_absent">"未检测到 SD 卡"</string>
+    <string name="sdcard_capacity">"SD 卡容量"</string>
+    <string name="sdcard_used_space">"SD 卡已用空间"</string>
+    <string name="sdcard_free_space">"SD 卡空闲空间"</string>
+    <!-- memory case -->
+    <string name="memory">"内存"</string>
+    <!-- cpu case -->
+    <string name="cpu">"CPU"</string>
+    <!-- simcard case -->
+    <string name="simcard1">SIMCARD1</string>
+    <string name="simcard2">SIMCARD2</string>
+    <string name="detecting">"正在检测..."</string>
+    <!-- touch case -->
+    <string name="touch">"触摸"</string>
+    <!-- key case -->
+    <string name="key">"键"</string>
+    <string name="btn_home">"主页"</string>
+    <string name="btn_menu">"菜单"</string>
+    <string name="btn_back">"返回"</string>
+    <string name="btn_volumeup">"调高音量"</string>
+    <string name="btn_volumedown">"调低音量"</string>
+    <string name="btn_power">"电源"</string>
+    <string name="btn_snapshot">"相机快照"</string>
+    <!-- headset_key case -->
+    <string name="headset_key">"耳机键"</string>
+    <string name="btn_guidance">"请插入耳机并按挂机键进行验证"</string>
+    <string name="btn_headphone_insert">"耳机插入"</string>
+    <string name="btn_microphone_insert">"麦克风插入"</string>
+    <string name="btn_hangup">"挂机"</string>
+    <!-- vibrator case -->
+    <string name="vibrator">"振动器"</string>
+    <string name="vibrator_on">"振动器开"</string>
+    <string name="vibrator_off">"振动器关"</string>
+    <string name="vibrating">"正在振动..."</string>
+    <!-- audio case -->
+    <string name="handset">"音频手机"</string>
+    <string name="audio_handset_play">"音频手机播放"</string>
+    <string name="audio_handset_play_instruction">"通过手机听筒验证音乐播放"</string>
+    <string name="headset">"音频耳机"</string>
+    <string name="audio_headset_loopback">"音频耳机环回"</string>
+    <string name="audio_headset_loopback_instruction">"请插入耳机....  对着耳机麦克风讲话以验证耳机环回测试"</string>
+    <string name="audio_headset_instruction">"请插入耳机....  对着耳机麦克风讲话以验证耳机环回测试"</string>
+    <string name="loudspeaker">"音频扬声器"</string>
+    <string name="audio_loudspeaker_play">"音频扬声器播放"</string>
+    <string name="audio_loudspeaker_play_instruction">"通过扬声器验证音乐播放"</string>
+    <string name="primary_mic">"主麦克风"</string>
+    <string name="audio_primary_mic">"主麦克风"</string>
+    <string name="audio_primary_mic_instruction">"对着主麦克风讲话并等待通过扬声器播放先前录制的消息"</string>
+    <string name="audio_noise_mic">"噪音麦克风"</string>
+    <string name="audio_noise_mic_instruction">"对着噪音麦克风讲话并等待通过扬声器播放先前录制的消息"</string>
+    <string name="audio_top_mic">"顶部麦克风"</string>
+    <string name="audio_top_mic_instruction">"对着顶部麦克风讲话并等待通过扬声器播放先前录制的消息"</string>
+    <string name="primary_mic_test">"对着主麦克风讲话并等待通过扬声器播放先前录制的消息"</string>
+    <string name="handset_record">"对着手机麦克风讲话"</string>
+    <string name="handset_playback">"通过手机听筒验证先前所录制消息的播放"</string>
+    <string name="handset_play">"通过手机听筒验证音乐播放"</string>
+    <string name="headset_record">"对着耳机麦克风讲话"</string>
+    <string name="headset_playback">"通过耳机听筒验证先前所录制消息的播放"</string>
+    <string name="headset_loopback">"插入耳机并对着耳机麦克风讲话以验证耳机环回测试"</string>
+    <string name="loudspeaker_playback">"通过扬声器验证先前所录制消息的播放"</string>
+    <string name="loudspeaker_play">"通过扬声器验证音乐播放"</string>
+    <string name="headset_second_record">"对着第二麦克风讲话"</string>
+    <string name="seconds">"秒"</string>
+    <!-- wifi case -->
+    <string name="wifi">"WLAN"</string>
+    <!-- fm case -->
+    <string name="fm">FM</string>
+    <string name="next_tune">"搜索下一个 &gt;&gt;"</string>
+    <string name="playing_tune">"播放调频"</string>
+    <string name="config_audio">"开始为调频配置音频路径"</string>
+    <string name="search_tune">"正在搜索可用调频..."</string>
+    <!-- bluetooth case -->
+    <string name="bluetooth">"蓝牙"</string>
+    <!-- gps case -->
+    <string name="gps">"GPS"</string>
+    <string name="run_garden_app">"运行 garden_app..."</string>
+    <!-- nfc case -->
+    <string name="nfc">"NFC"</string>
+    <!-- test report -->
+    <string name="fail_items">"失败项目"</string></resources>

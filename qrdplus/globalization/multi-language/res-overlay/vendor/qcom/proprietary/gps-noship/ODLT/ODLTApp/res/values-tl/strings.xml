@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"Aktibidad na GPS Debugging"</string>
+     <string name="cameraActivity">"Camera"</string>
+     <string name="newTrackingSession">"Bagong Sesyon ng Pagsubaybay"</string>
+     <string name="newTrackingSession_nameLabel">"Pangalan"</string>
+     <string name="newTrackingSession_numFixesLabel">"Num Fixes"</string>
+     <string name="newTrackingSession_descriptionLabel">"Paglalarawan"</string>
+     <string name="newTrackingSession_startButtonLabel">"Magsimula"</string>
+     <string name="testConfig">"Configuration ng Test"</string>
+     <string name="testConfig_configNameLabel">"Pangalan ng Config"</string>
+     <string name="testConfig_numFixesLabel">"Num Fixes (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"Paglalarawan sa Test Config"</string>
+     <string name="testConfig_startButtonLabel">"Simulan ang Pagsubok"</string>
+     <string name="testConfig_RadioLabel">"App Track o Single Shot"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"Isang Shot"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"App Track"</string>
+     <string name="testConfig_qosTimeoutLabel">"Mas Gustong Oras ng Resp (seg)"</string>
+     <string name="testConfig_qosAccuracyLabel">"Mas Gustong Katumpakan (m)"</string>
+     <string name="testConfig_tbfLabel">"Pinakamababang Pagitan (seg)"</string>
+     <string name="testConfig_staticTruthLabel">"Posisyon ng Static Truth (lagyan ng tsek upang gamitin)"</string>
+     <string name="testConfig_latLabel">"Latitud"</string>
+     <string name="testConfig_lonLabel">"Longhitud"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"Lokasyon ng API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"Serbisyong GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"Uri ng Recurrence"</string>
+     <string name="testConfig_apiTypeLabel">"Uri ng API"</string>
+    <string name="labelUnknownPrivacy">"hindi kilala"</string>
+    <string name="labelGetPrivacy">"Kunin ang Privacy"</string>
+    <string name="labelSetPrivacySetting">"I-set ang Privacy"</string>
+    <string name="name_vzw_client">"Vzw Client"</string>
+    <string name="name_normal_client">"Normal na Android"</string>
+    <string name="LabelModeSel">"Mode"</string>
+    <string name="LabelNumFixSel">"# ng Fix"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"Katayuan..."</string>
+    <string name="str_nodata">"Walang Data"</string>
+    <string name="str_waitingforposinfo">"\nNaghihintay para sa Info ng Posisyon...\n"</string>
+    <string name="str_searchingforsvs">"\nNaghahanap ng SVs...\n"</string>
+    <string name="str_configsummary">"\nBuod ng Config\n"</string>
+    <string name="str_alarms">"\nMga Alarm:\n\n"</string>
+    <string name="str_starttest">"Simulan ang Pagsubok"</string>
+    <string name="str_sessionplayback">"Playback ng Sesyon"</string>
+    <string name="str_proximityalerts">"Mga Alerto sa Proximity"</string>
+    <string name="str_proximity_info">"Info ng Lapit"</string>
+    <string name="str_options">"Mga Opsyon"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"Standalone"</item>
+<item>"AFLT"</item>
+<item>"Na-optimize ang Bilis"</item>
+<item>"Na-optimize ang Katumpakan"</item>
+<item>"Na-optimize ang Data"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"Oras (seg) sa pagitan ng fix"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"PDE Addr"</string>
+<string name="LabelAccuracyH">"Mas Gustong katumpakan (H, m)"</string>
+<string name="LabelAccuracyV">"Mas Gustong katumpakan (V, m)"</string>
+<string name="LabelMaxResponseTime">"Timeout (seg)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"Patakbuhin sa normal stack"</string>
+<string name="LabelRunOne">"Paganahin ang VzW"</string>
+<string name="LabelRunState1">"FSM na Pagsubok 1"</string>
+<string name="LabelRunState2">"FSM na Pagsubok 2"</string>
+<string name="EnigneStatus">"Katayuan ng Enigne"</string>
+<string name="NA">"N/A"</string>
+<string name="GpsStatus">"Estado ng Gps"</string>
+<string name="Session">"Sesyon"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"Uri"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"Mode"</string>
+<string name="stop">"Ihinto"</string>
+<string name="labelPdePort">"Port na PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"911 Lamang"</item>
+<item>"ON"</item>
+</string-array>
+<string name="non_aiding">"Alisin sa Pagkakapili ang Lahat ng Aiding"</string>
+<string name="all_aiding">"Piliin ang Lahat ng Aiding"</string>
+<string name="done">"I-delete ang Napili"</string>
+<string name="Ephemeris">"Ephemeris"</string>
+<string name="GLO_Ephemeris">"GLO Ephemeris"</string>
+<string name="Alamanac">"Almanac"</string>
+<string name="GLO_Alamanac">"GLO Almanac"</string>
+<string name="Alamanac_Corr">"Almanac Corr"</string>
+<string name="GLO_Alamanac_Corr">"GLO Almanac Corr"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"SV Steer"</string>
+<string name="GLO_SV_Steer">"GLO SV Steer"</string>
+<string name="Cell_DB_Info">"Info ng Cell DB"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"Oras ng GPS"</string>
+<string name="GLO_Time">"Oras ng GLO"</string>
+<string name="Freq_Bias_Est">"Freq Bias Est"</string>
+<string name="Time">"Oras"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"Kalusugan"</string>
+<string name="SA_Data">"Data ng SA"</string>
+<string name="position">"posisyon"</string>
+<string name="str_wbiq_runscript">"Patakbuhin ang Script"</string>
+<string name="str_wbiq_stopgps">"Mag-exit sa RF Mode"</string>
+<string name="str_wbiq_startgps">"Pumasok sa RF Mode"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"Auto On-Pag-log sa Device"</string>
+<string name="str_wbiq_chk_delaystart">"Pagkaantala (mga) Pagsisimula"</string>
+<string name="str_wbiq_chk_autostop">"Auto (mga) Pahinto"</string>
+<string name="str_wbiq_chk_otfsa">"I-enable ang OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"S"</string>
+<string name="str_proximity_clearalerts">"I-clear ang mga Alerto"</string>
+<string name="str_proximity_savealertsfile">"I-save ang File ng mga Alerto"</string>
+<string name="str_proximity_loadalertsfile">"I-load ang File ng mga Alerto"</string>
+<string name="str_proximity_deletealertsfile">"I-delete ang File ng mga Alerto"</string>
+<string name="str_proximity_logging">"Nagla-log"</string>
+<string name="str_proximity_autostartenabled">"Auto na Pagsisimula"</string>
+<string name="str_proximity_autostartfile">"Piliin ang File ng Auto Pagsisimula"</string>
+<string name="str_proximity_smsnumber">"Numero ng SMS Notification"</string>
+<string name="str_proximity_geofencelisttab_add">"Magdagdag"</string>
+<string name="str_proximity_geofencelisttab_delet">"Tanggalin"</string>
+<string name="str_proximity_geofencelisttab_edit">"I-edit"</string>
+<string name="str_locbatchingtab_btn_s">"S"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[Gitna, Pinakamababa, Pinakamataas] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"Kunin ang Batch"</string>
+<string name="str_powerest_summary">"Buod:"</string>
+<string name="str_powerest_plot_label"/></resources>

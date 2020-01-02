@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Paramètres"</string>
+    <string name="body_msg">"test de FidoCryptoService"</string>
+    <string name="load">"charger"</string>
+    <string name="unload">"décharger"</string>
+    <string name="process">"Processus"</string>
+    <string name="start">"lancer"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"Lier service FIDO"</string>
+    <string name="unbindFido">"Délier service FIDO"</string>
+    <string name="setChallenge">"Déf. défi"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Authentificateur lié"</string>
+    <string name="verifyUser">"Vérifier l\'utilisateur/Obtenir le jeton"</string>
+    <string name="GetInfo">"ObtenirInfos"</string>
+    <string name="Register">"Enregistrer"</string>
+    <string name="Deregister">"Désenregistrer"</string>
+    <string name="OpenSettings">"OuvrirParamètres"</string>
+    <string name="Sign">"Signer"</string>
+    <string name="MalformedRequest">"DemandeMalFormée"</string>
+    <string name="selectAuth">"Sélectionner authentificateur"</string>
+    <string name="getEnrollmentStatus">"Obtenir statut d\'enregistrement"</string>
+    <string name="RegisterExt">"Enregistrer avec des extensions"</string>
+    <string name="SignExt">"Signer avec des extensions"</string>
+    <string name="encResult">"Résultat encapsulé"</string>
+    <string name="extResult">"Données d\'extension"</string>
+    <string name="selectFidoOpText">"sélectionner l\'opération FIDO"</string>
+    <string name="show_message_sui">"afficher le message sui"</string>
+    <string name="fido_sui_service">"service fido Sui"</string>
+    <string name="bindFidoSui">"lier fido sui"</string>
+    <string name="unbindFidoSui">"délier fido sui"</string>
+    <string name="suiResultTitle">"afficher le résultat du message sui"</string>
+    <string name="cancel_sui">"annuler sui"</string>
+    <string name="extensionText">"Utiliser des extensions ?"</string>
+    <string name="pngText">"Utiliser le contenu PNG ?"</string>
+    <string name="fpText">"Empreintes digitales sécurisées"</string>
+    <string-array name="authenticator_array">
+        <item>"Faux authentificateur"</item>
+        <item>"Authentificateur d\'échantillon"</item>
+        <item>"Ex. authentificateur sécur."</item>
+        <item>"Ex. authentificateur d\'extension"</item>
+        <item>"Authentificateur ext. sécurisée"</item>
+        <item>"Auth. santé d\'appareil"</item>
+        <item>"Ex. authentific. sécurisé IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Obtenir des infos"</item>
+        <item>"Enregistrer"</item>
+        <item>"Désenregistrer"</item>
+        <item>"Ouvrir les paramètres"</item>
+        <item>"Exception mal formée"</item>
+        <item>"Signer (Auth)"</item>
+        <item>"Signer (TX)"</item>
+    </string-array></resources>

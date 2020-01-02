@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The user visible name of the application. [CHAR LIMIT=20] -->
+  <string name="application_name">"عرض توضيحي حول ExoPlayer"</string>
+  <string name="enable_background_audio">"تشغيل في الخلفية"</string>
+  <string name="video">"فيديو"</string>
+  <string name="audio">"صوت"</string>
+  <string name="text">"نص"</string>
+  <string name="logging">"تسجيل الدخول"</string>
+  <string name="logging_normal">"عادية"</string>
+  <string name="logging_verbose">"مطوّل"</string>
+  <string name="retry">"إعادة المحاولة"</string>
+  <string name="off">"[إيقاف]"</string>
+  <string name="error_drm_not_supported">"المحتوى المحمي غير مدعوم على مستويات واجهة برمجة التطبيقات تحت 18"</string>
+  <string name="error_drm_unsupported_scheme">"هذا الجهاز لا يدعم مخطط DRM المطلوب"</string>
+  <string name="error_drm_unknown">"حدث خطأ غير معروف في DRM"</string>
+  <string name="error_no_decoder">"هذا الجهاز لا يوفر أداة فك تشفير لـ <xliff:g id="mime_type">%1$s</xliff:g>"</string>
+  <string name="error_no_secure_decoder">"هذا الجهاز لا يوفر أداة فك تشفير آمنة لـ <xliff:g id="mime_type">%1$s</xliff:g>"</string>
+  <string name="error_querying_decoders">"يتعذر الاستعلام عن أدوات فك تشفير الجهاز"</string>
+  <string name="error_instantiating_decoder">"يتعذر إنشاء مثيل لأداة تشفير <xliff:g id="decoder_name">%1$s</xliff:g>"</string>
+  <string name="storage_permission_denied">"تم رفض منح إذن للوصول إلى وحدة التخزين"</string></resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"مواد مطابقت پذیر پس منظر روشنی کی ترتیبات"</string>
+        <add-resource type="string" name="cabl_settings_title"/>
+    <string name="cabl_settings_title">"مواد مطابقت پذیر پس منظر روشنی کی ترتیبات"</string>
+        <add-resource type="string" name="cabl_enable_title"/>
+    <string name="cabl_enable_title">"بلحاظ مواد تغیر پذیر عقبی روشنی فعال کریں"</string>
+        <add-resource type="string" name="cabl_enable_summary_on"/>
+    <string name="cabl_enable_summary_on">"عقبی روشنی اسکرین  مواد کے مطابق دوبارہ ایڈجسٹ ہو جائے گی۔"</string>
+        <add-resource type="string" name="cabl_enable_summary_off"/>
+    <string name="cabl_enable_summary_off">"عقبی روشنی اسکرین  مواد کے مطابق دوبارہ ایڈجسٹ نہیں ہو گی۔"</string>
+        <add-resource type="string" name="cabl_levels_title"/>
+    <string name="cabl_levels_title">"بصری معیار کا درجہ"</string>
+        <add-resource type="string" name="cabl_levels_summary"/>
+    <string name="cabl_levels_summary">"کم تر معیار ظاہر کرتا ہے کہ CABL زیر نمائش مواد پر غیر معمولی طور پر اثر انداز ہوئے بغیر جس قدر ممکن ہو سکا پاور کی بچت کرے گا۔ خودکار بصری معیار کا مطلب ہے کہ CABL زیرِ نمائش مواد کی قسم کا خودبخود پتا لگا کر پاور کی بچت زیادہ سے زیادہ کرنے کی کوشش کرے گا۔"</string>
+        <add-resource type="string" name="cabl_level_default"/>
+    <string name="cabl_level_default">"خودکار"</string>
+        <add-resource type="string" name="cabl_info_default"/>
+    <string name="cabl_info_default">"نامعلوم"</string>
+        <add-resource type="string" name="cabl_version_title"/>
+    <string name="cabl_version_title">"CABL ورژن"</string></resources>

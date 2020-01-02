@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sim_info">"Informações do cartão SIM"</string>
+    <string name="close">"Fechar"</string>
+    <string name="change">"Definir"</string>
+    <string name="new_sim_detected">"Novo cartão SIM detectado:"</string>
+    <string name="default_sim_setting">"Configurações do SIM padrão:"</string>
+    <string name="mobile_data">"Dados móveis: "</string>
+    <string name="slot">"Ranhura"</string>
+    <string name="carrier_name">"(Nome da operadora)"</string>
+    <string name="mobile_data_on">"ativado"</string>
+    <string name="mobile_data_off">"desativado"</string>
+    <string name="sim_unknown">"Desconhecido"</string>
+    <string name="sim_absent">"Ausente"</string>
+    <string name="multi_sim_settings_title">"Configurações do SIM Dual"</string>
+    <string name="lte_switch_unavailable">"Alteração de cartões SIM 4G/3G não disponível"</string>
+    <string name="lte_recognize_summary">"Dois cartões SIM 4G/3G detectados, é necessário definir o cartão SIM 4G/3G padrão:"</string>
+    <string name="lte_select_summary">"A assinatura selecionada será reconhecida como um cartão 4G/3G e a outra como um cartão 2G."</string>
+    <string name="lte_recognize_summary_generic">"Dois cartões SIM foram detectados. Selecione o cartão SIM preferencial:"</string>
+    <string name="lte_select_summary_generic">"O cartão SIM selecionado terá os serviços 3G/4G com assinatura de dados."</string>
+    <string name="lte_checkbox_text">"Definir dados móveis no cartão SIM selecionado uma vez o cartão SIM 4G/3G padrão é alterado"</string>
+    <string name="select_ok">"OK"</string>
+    <string name="lte_select_title">"Cartão SIM 4G/3G padrão"</string>
+    <string name="lte_recognition_title">"Reconhecimento do cartão SIM"</string>
+    <string name="reg_failed">"Falha no registro"</string>
+    <string name="reg_suc">"Registro bem-sucedido"</string>
+    <string name="reg_failed_msg">"Não foi possível registrar o cartão SIM 4G/3G padrão, %1$s será reconhecido como um cartão SIM 2G."</string>
+    <string name="lte_set">"Definir"</string>
+    <string name="lte_setting">"Estabelecendo cartão SIM 4G/3G padrão"</string>
+    <string name="select_cancel">"Cancelar"</string>
+    <string name="sim_card_number_title">SIM %1$d</string></resources>

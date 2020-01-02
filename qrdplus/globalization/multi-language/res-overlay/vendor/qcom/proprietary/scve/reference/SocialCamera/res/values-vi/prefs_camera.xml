@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"Máy ảnh"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"Chính"</item>
+        <item>"Mặt trước"</item>
+        <item>"Máy ảnh 3"</item>
+        <item>"Máy ảnh 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"Kích thước ảnh"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9,7MP, 16:9)"</item>
+        <item>"3840x2160 (8,3MP, 16:9, UHD 4K)"</item>
+        <item>"3200x1800 (5,8MP, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (4,1MP, 16:9)"</item>
+        <item>"2592x1458 (3,8MP, 16:9)"</item>
+        <item>"1920x1080 (2,1MP, 16:9, HD 1080p)"</item>
+        <item>"1280x720 (0,9MP, 16:9, HD 720p)"</item>
+        <item>"864x480 (0,4MP, 16:9)"</item>
+        <item>"4160x3120 (13MP, 4:3)"</item>
+        <item>"4000x3000 (12MP, 4:3)"</item>
+        <item>"3264x2448 (8MP, 4:3)"</item>
+        <item>"3200x2400 (7,7MP, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (5MP, 4:3)"</item>
+        <item>"2048x1536 (3,1MP, 4:3, QXGA)"</item>
+        <item>"1920x1440 (2,8MP, 4:3)"</item>
+        <item>"1600x1200 (1,9MP, 4:3, UXGA)"</item>
+        <item>"1280x960 (1,2MP, 4:3, UVGA)"</item>
+        <item>"1024x768 (0,8MP, 4:3, XGA)"</item>
+        <item>"800x600 (0,5MP, 4:3, SVGA)"</item>
+        <item>"640x480 (0,3MP, 4:3, VGA)"</item>
+        <item>"320x240 (0,1MP, 4:3, QVGA)"</item>
+        <item>"3264x2176 (7,1MP, 3:2)"</item>
+        <item>"2592x1728 (4,5MP, 3:2)"</item>
+        <item>"720x480 (0,3MP, 3:2)"</item>
+        <item>"4160x2774 (11,5MP, 3:2)"</item>
+        <item>"2976x2976 (8,9MP, 1:1)"</item>
+        <item>"1280x768 (1MP, 5:3)"</item>
+        <item>"800x480 (0,4MP, 5:3)"</item>
+        <item>"352x288 (0,1MP, 11:9)"</item>
+        <item>"176x144 (0MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"Kích thước xem trước"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"Kích cỡ hiển thị phù hợp"</item>
+        <item>"Xem trước ở độ phân giải cao (tối đa 4MP)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"Chế độ chụp cảnh"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"Tự động"</item>
+        <item>"Ảnh hành động"</item>
+        <item>"Mã vạch"</item>
+        <item>"Bờ biển"</item>
+        <item>"Ánh nến"</item>
+        <item>"Khuôn mặt"</item>
+        <item>"Pháo hoa"</item>
+        <item>HDR</item>
+        <item>"Video tốc độ cao"</item>
+        <item>"Phong cảnh"</item>
+        <item>"Ban đêm"</item>
+        <item>"Bữa tiệc"</item>
+        <item>"Danh bạ"</item>
+        <item>"Người vào ban đêm"</item>
+        <item>"Tuyết"</item>
+        <item>"Thể thao"</item>
+        <item>"Ảnh sắc nét"</item>
+        <item>"Hoàng hôn"</item>
+        <item>"Nhà hát"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"Điều khiển phơi sáng"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"Tự động"</item>
+        <item>"Cố định"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"Bù phơi sáng"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"Lấy nét"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"Tự động"</item>
+        <item>"Cố định"</item>
+        <item>"Liên tục (Ảnh)"</item>
+        <item>"Liên tục (Video)"</item>
+        <item>"Macro"</item>
+        <item>"Trường ảnh mở rộng"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"Điều khiển cân bằng trắng"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"Tự động"</item>
+        <item>"Tắt"</item>
+        <item>"Ánh sáng chói"</item>
+        <item>"Ánh sáng huỳnh quang"</item>
+        <item>"Ánh sáng huỳnh quang ấm"</item>
+        <item>"Ánh sáng ban ngày"</item>
+        <item>"Ngày nhiều mây"</item>
+        <item>"Bóng"</item>
+        <item>"Hoàng hôn"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"Flash"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"Tự động"</item>
+        <item>"Bật"</item>
+        <item>"Tắt"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"Giảm nhiễu"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"Bật"</item>
+        <item>"Tắt"</item>
+        <item>"Chất lượng cao"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"Hiệu chỉnh bóng ống kính"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"Bật"</item>
+        <item>"Tắt"</item>
+        <item>"Chất lượng cao"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"Hiệu chỉnh quang sai"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"Bật"</item>
+        <item>"Tắt"</item>
+        <item>"Chất lượng cao"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"Làm nổi bật viền"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"Bật"</item>
+        <item>"Tắt"</item>
+        <item>"Chất lượng cao"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"Hiệu chỉnh điểm pixel nóng"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"Bật"</item>
+        <item>"Tắt"</item>
+        <item>"Chất lượng cao"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"Chế độ ổn định hình ảnh"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"Tắt"</item>
+        <item>"Quang học"</item>
+        <item>"Đồng hồ số"</item>
+    </string-array></resources>

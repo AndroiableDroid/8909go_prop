@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"ترتیبات"</string>
+    <string name="body_msg">"FidoCryptoService کی جانچ کر رہا ہے"</string>
+    <string name="load">"لوڈ کریں"</string>
+    <string name="unload">"ان لوڈ کریں"</string>
+    <string name="process">"عمل"</string>
+    <string name="start">"شروع کریں"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"بنڈ فیڈو سروس"</string>
+    <string name="unbindFido">"ان بنڈ فیڈو سروس"</string>
+    <string name="setChallenge">"چیلنج متعین کریں"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"توثیق کار کو باندھیں"</string>
+    <string name="verifyUser">"صارف کی تصدیق کریں/ ٹوکن حاصل کریں"</string>
+    <string name="GetInfo">"معلومات حاصل کریں"</string>
+    <string name="Register">"رجسٹر کریں"</string>
+    <string name="Deregister">"غیررجسٹر کریں"</string>
+    <string name="OpenSettings">"کھلی ترتیبات"</string>
+    <string name="Sign">"دستخط کریں"</string>
+    <string name="MalformedRequest">"ناقص درخواست"</string>
+    <string name="selectAuth">"توثیق کار کو منتخب کریں"</string>
+    <string name="getEnrollmentStatus">"انرولمنٹ حالت حاصل کریں"</string>
+    <string name="RegisterExt">"توسیعات کے ساتھ رجسٹر کریں"</string>
+    <string name="SignExt">"توسیعات کے ساتھ سائن کریں"</string>
+    <string name="encResult">"ان کیپسول کردہ نتیجہ"</string>
+    <string name="extResult">"توسیعی ڈیٹا"</string>
+    <string name="selectFidoOpText">"فیڈو آپریشن منتخب کریں"</string>
+    <string name="show_message_sui">"پیغام سوئی دکھائیں"</string>
+    <string name="fido_sui_service">"فیڈو سوئی خدمت"</string>
+    <string name="bindFidoSui">"بنڈ فیڈو سوئی"</string>
+    <string name="unbindFidoSui">"ان بنڈ فیڈو سوئی"</string>
+    <string name="suiResultTitle">"پیغام سوئی نتیجہ دکھائیں"</string>
+    <string name="cancel_sui">"سوئی کو منسوخ کریں"</string>
+    <string name="extensionText">"توسیعات کو استعمال کریں؟"</string>
+    <string name="pngText">"PNG مندرجات کو استعمال کریں؟"</string>
+    <string name="fpText">"محفوظ انگلیوں کے نشان"</string>
+    <string-array name="authenticator_array">
+        <item>"موک توثیق کار"</item>
+        <item>"نمونہ توثیق کار"</item>
+        <item>"محفوظ نمونہ توثیق کار"</item>
+        <item>"نمونہ توسیع توثیق کار"</item>
+        <item>"محفوظ توسیع توثیق کار"</item>
+        <item>"آلہ صحت مجاز دہی"</item>
+        <item>"محفوظ نمونہ توثیق کار مجاز دہی2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"معلومات حاصل کریں"</item>
+        <item>"رجسٹر کریں"</item>
+        <item>"غیررجسٹر کریں"</item>
+        <item>"ترتیبات کھولیں"</item>
+        <item>"بدوضع استثنٰی"</item>
+        <item>"دستخط کریں (مجاز دہی)"</item>
+        <item>"دستخط کریں (TX)"</item>
+    </string-array></resources>

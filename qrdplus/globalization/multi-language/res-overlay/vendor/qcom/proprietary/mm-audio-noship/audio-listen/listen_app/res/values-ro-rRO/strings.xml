@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="no"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name_ux10">"Activare prin voce"</string>
+    <string name="home_menu_version">"Număr versiune"</string>
+    <string name="home_menu_settings">"Setări"</string>
+    <string name="home_soundmodel">"Model de sunet"</string>
+    <string name="home_startvoiceactivation">"Porniți Activare prin voce"</string>
+    <string name="home_stopvoiceactivation">"Opriți Activare prin voce"</string>
+    <string name="home_advanceddetail">"DETALIU AVANSAT"</string>
+    <string name="home_advanceddetail_keyword">"Cuvânt cheie:"</string>
+    <string name="home_advanceddetail_user">"Utilizator:"</string>
+    <string name="home_advanceddetail_initialdetections">0</string>
+    <string name="home_advanceddetail_initialscore">0</string>
+    <string name="home_advanceddetail_scorepossible">/100</string>
+    <string name="home_dialog_startingvoiceactivation">"Se pornește Activare prin voce"</string>
+    <string name="home_dialog_stoppingvoiceactivation">"Se oprește Activare prin voce"</string>
+    <string name="home_dialog_pleasewait">"Așteptați... "</string>
+    <string name="home_dialog_badlibs_title">"Lib(uri) ascultare lipsă/incompatibile"</string>
+    <string name="home_dialog_badlibs_message">"Nu poate continua. Faceți clic pe OK pentru a închide aplicația."</string>
+    <string name="soundmodels_top_title">"Modele de sunet"</string>
+    <string name="soundmodels_dialog_adduser_title">"Adăugați utilizator nou"</string>
+    <string name="dialog_cancel">"Anulați"</string>
+    <string name="dialog_save">"Salvaţi"</string>
+    <string name="dialog_ok">"OK"</string>
+    <string name="soundmodels_dialog_deletesoundmodel_title">"Ștergeți modelul de sunet"</string>
+    <string name="soundmodels_dialog_train_title">"Instruiți modelul de sunet"</string>
+    <string name="soundmodels_dialog_train_content">"Instruirea este necesară pentru a crea un model de sunet pentru acest utilizator."</string>
+    <string name="soundmodels_dialog_option_deletesoundmodel">"Ștergeți modelul de sunet"</string>
+    <string name="soundmodels_dialog_option_starttrain">"Începeți instruirea"</string>
+    <string name="soundmodels_dialog_selectkeyword_title">"Selectați cuvântul cheie"</string>
+    <string name="soundmodels_dialog_duplicate_title">"Modelul de sunet există deja"</string>
+    <string name="soundmodels_dialog_duplicate_content">"Selectați o combinație unică de cuvânt cheie și nume de utilizator"</string>
+    <string name="soundmodels_dialog_invalid_title">"Instruiți modelul de sunet"</string>
+    <string name="soundmodels_dialog_invalid_content">"Instruirea este necesară pentru a crea un model de sunet pentru acest utilizator."</string>
+    <string name="soundmodel_listitem_keyword">"Text model de sunet"</string>
+    <string name="soundmodel_listitem_username">"Text nume de utilizator"</string>
+    <string name="training_welcome_unkownuser">"Utilizator necunoscut"</string>
+    <string name="training_welcome_notice">"Pentru a mă ajuta să vă recunosc vocea, înregistrați-vă rostind fraza cuvântul de cinci ori."</string>
+    <string name="training_welcome_recording_tip_title">"SFATURI DE ÎNREGISTRARE"</string>
+    <string name="training_welcome_recording_tip">"1. Țineți telefonul în fata dvs. la o lungime de braț față de gură. \n2.Înregistrați într-un spațiu liniștit cu zgomot de fundal minim. \n3.Vorbiți clar, tare și cu un ton de comandă."</string>
+    <string name="training_recording_recording">"ÎNREGISTRAREA..."</string>
+    <string name="training_recording_processing">"SE PROCESEAZĂ..."</string>
+    <string name="training_recording_complete">"FINALIZAT!"</string>
+    <string name="training_recording_notice_good">"Perfect!\nRostiți în continuare la fel!"</string>
+    <string name="training_recording_notice_bad">"A apărut o problemă la înregistrare. Încercaţi din nou."</string>
+    <string name="training_recording_continue">"Continuaţi"</string>
+    <string name="training_dialog_createsoundmodel">"Se creează modul de sunet personalizat."</string>
+    <string name="training_dialog_close_title">"Sigur doriți să închideți?"</string>
+    <string name="training_dialog_close_message">"Toate înregistrările de instruire curente vor fi șterse."</string>
+    <string name="training_dialog_smcreatefailed_title">"Creare model de sunet eșuată"</string>
+    <string name="training_dialog_smcreatefailed_message">"Nu am putut crea modelul de sunet personalizat. Încercaţi din nou."</string>
+    <string name="settings_top_title">"Setări"</string>
+    <string name="settings_thresholds">"PRAGURI"</string>
+    <string name="settings_threshold_keyword">"PRAG DE ÎNCREDERE CUVÂNT CHEIE"</string>
+    <string name="settings_threshold_speaker">"PRAG DE ÎNCREDERE DIFUZOR"</string>
+    <string name="settings_moreoptions">"MAI MULTE OPȚIUNI"</string>
+    <string name="settings_moreoption_listen">"Ascultare"</string>
+    <string name="settings_moreoption_listen_desc">"Activați/dezactivați Ascultare"</string>
+    <string name="settings_moreoption_voiceactivation">"Activare prin voce"</string>
+    <string name="settings_moreoption_voiceactivation_desc">"Activați/dezactivați Activare prin voce"</string>
+    <string name="settings_moreoption_userverification">"Verificare utilizator"</string>
+    <string name="settings_moreoption_userverification_desc">"Activați/dezactivați verificare utilizator"</string>
+    <string name="settings_moreoption_failurefeedback">"Feedback eroare detectare"</string>
+    <string name="settings_moreoption_failurefeedback_desc">"Activați/dezactivați feedback-ul de eroare la detectare"</string>
+    <string name="settings_moreoption_tone">"Detectare, ton nedetectare"</string>
+    <string name="settings_moreoption_tone_desc">"Activați/dezactivați Ton pentru detectări"</string>
+    <string name="settings_moreoption_voiceqna">"Q/A voce"</string>
+    <string name="settings_moreoption_voiceqna_desc">"Lansați Q/A voce la detectare"</string>
+    <string name="settings_moreoption_voiceqna_error">"Nu au fost instalare aplicații de recunoaștere a vocii. Versiune normală în locul versiunii HY11."</string>
+    <string name="settings_moreoption_advanced">"Detaliu avansat"</string>
+    <string name="settings_moreoption_advanced_desc">"Afișați mai multe detalii"</string>
+    <string name="settings_toast_smdependentcheckbox">"Această modificare nu va intra în vigoare dacă nu este înregistrat următorul model de sunet."</string>
+    <string name="none"></string>
+    <string name="app_name">"Serviciu Activare prin voce"</string></resources>

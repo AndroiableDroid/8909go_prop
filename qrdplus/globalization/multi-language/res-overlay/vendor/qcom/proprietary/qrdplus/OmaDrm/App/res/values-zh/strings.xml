@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="file_not_exist">"文件不存在"</string>
+    <string name="show_properties">"显示属性"</string>
+    <string name="app_name">"DRM"</string>
+    <string name="buy_license">"购买许可"</string>
+    <string name="drm_activity">"DRM 活动"</string>
+    <string name="open_files">"打开文件"</string>
+    <string name="service_connected">"哇，DRM 服务已连接"</string>
+    <string name="service_disconnected">"哇，DRM 服务连接已断开"</string>
+    <string name="service_binded">"哇，DRM 服务已绑定"</string>
+    <string name="service_unbinded">"哇，DRM 服务已取消绑定"</string>
+    <string name="tv_fl">"您可以不受限制地查看此内容"</string>
+    <string name="tv_cantbuy">"您的许可无效，但由于我们无法获取许可地址，因此不能为您购买许可"</string>
+    <string name="tv_wantbuy">"您的许可无效，要再进行购买吗？"</string>
+    <string name="tv_buyviapc">"抱歉...我们无法通过 OTA 获取许可，请从电脑通过 MTP 进行获取"</string>
+    <string name="tv_finishdownload">"文件 %%% 已安装。要打开吗？"</string>
+    <string name="sdcard_busy">"SD 卡现在正忙。要允许访问 SD 卡，请退出 USB 存储模式。"</string>
+    <string name="yes">"是"</string>
+    <string name="no">"否"</string>
+    <string name="ok">"确定"</string>
+    <string name="file_not_supported">"不支持 CD/SD DRM 文件"</string>
+    <string name="no_rights">"无法对此文件使用任何权限 :("</string>
+    <string name="execute_permission">"执行权限"</string>
+    <string name="play_permission">"播放权限"</string>
+    <string name="display_permission">"显示权限"</string>
+    <string name="print_permission">"打印权限"</string>
+    <string name="license">"许可"</string>
+    <string name="of">"范围"</string>
+    <string name="count">"计数"</string>
+    <string name="interval_str">"间隔"</string>
+    <string name="start_date">"开始日期"</string>
+    <string name="end_date">"结束日期"</string>
+    <string name="seconds">"秒"</string>
+    <string name="no_activitiy_found">"未找到可处理地址的活动："</string></resources>

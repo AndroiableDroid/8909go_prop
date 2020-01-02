@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"UI ya Panorama"</string>
+    <string name="title_loading">"Inapakia!"</string>
+    <string name="msg_loading">"Inachakata\u2026"</string>
+    <string name="panorama_saved">"Panorama imehifadhiwa kwenye hifadhi ya picha ya kifaa chako"</string>
+    <string name="panorama_generate_result_failed">"Samahani, tafadhali jaribu tena."</string>
+    <string name="error_dialog_title">"Hitilafu ya Programu"</string>
+    <string name="btn_ok">"Sawa"</string>
+    <string name="btn_txt_save">"Hifadhi Picha"</string>
+    <string name="err_library_loading">"Programu imeshindwa kupakia maktaba asilia"</string>
+    <string name="err_camera_init">"Kamera imeshindwa kuanzishwa."</string>
+    <string name="err_sensors_init">"Vihisio imeshindwa kuanzishwa."</string>
+    <string name="err_pano_init">"API ya Panorama imeshindwa kuanzishwa."</string>
+    <string name="err_sensors_failed">"Vihisio imeshindwa kuanzishwa."</string>
+    <string name="err_zsl_failed">"ZSL haitumiki katika kifaa hiki."</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"Kipindi hakijaanzishwa"</string>
+    <string name="err_queue_full">"Foleni imejaa"</string>
+    <string name="err_max_key_frames">"Upeo wa fremu umefikiwa"</string>
+    <string name="err_no_frame_overlap">"Hakuna mwingiliano wa fremu"</string>
+    <string name="err_inconsistent_direction">"Mwelekeo si thabiti"</string>
+    <string name="err_result_not_ready">"Matokeo hayako tayari"</string>
+    <string name="err_frame_no_feature">"Fremu haina kipengele cha kutosha"</string>
+    <string name="err_direction_changed">"Mwelekeo umebadilika, tafadhali bonyeza sawa ili uone picha ya panorama iliyopigwa."</string>
+    <string name="err_panorama_loading">"Picha ya panorama haikupakiwa."</string>
+    <string name="err_panorama_saving">"Picha ya panorama hikuhifadhiwa."</string>
+    <string name="err_api_capturing">"Kupiga panorama kumeshindwa."</string>
+    <string name="err_api_halted">"Kupiga panorama kumesitishwa, tafadhali bonyeza sawa uone picha ya panorama iliyopigwa."</string>
+    <string name="err_max_limit">"Upeo wa fremu umefikiwa, tafadhali bonyeza sawa uone picha ya panorama iliyopigwa."</string>
+    <string name="err_no_prv">"Hakuna hakiki Imepigwa."</string>
+    <string name="title_settings">"Mipangilio"</string>
+    <string name="camera_settings">"Mipangilio ya Kamera"</string>
+    <string name="camera_settings_picture_size">"Ubora"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string name="camera_settings_exposure_compensation">"Kipimo cha Mwangaza"</string>
+    <string name="camera_settings_white_balance">"Usawa wa Weupe"</string>
+    <string-array name="camera_settings_white_balance_entries">
+        <item>"Otomatiki"</item>
+        <item>"Mwangaza wa mchana"</item>
+        <item>"Kiakisi mwanga"</item>
+        <item>"King\'arishaji"</item>
+        <item>"Kivuli"</item>
+        <item>"Kisukusuku"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values">
+        <item>"auto"</item>
+        <item>"daylight"</item>
+        <item>"fluorescent"</item>
+        <item>"incandescent"</item>
+        <item>"shade"</item>
+        <item>"twilight"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values_camera2">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>7</item>
+    </string-array>
+    <string name="camera_settings_scene_mode">"Modi ya Onyesho"</string>
+    <string-array name="camera_settings_scene_mode_entries">
+        <item>"Kitendo"</item>
+        <item>"Otomatiki"</item>
+        <item>"Usiku"</item>
+        <item>"Karamu"</item>
+        <item>"Machweo"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values">
+        <item>"action"</item>
+        <item>"auto"</item>
+        <item>"night"</item>
+        <item>"party"</item>
+        <item>"sunset"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values_camera2">
+        <item>2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"Modi ya Ulengaji"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"Mfululizo (Video)"</item>
+        <item>"Pasipo mwisho"</item>
+        <item>"Imerekebishwa"</item>
+        <item>"Mfululizo (Picha)"</item>
+        <item>"Otomatiki"</item>
+        <item>"Kina cha Lengo Kilichoendelezwa"</item>
+        <item>"Makro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"fixed"</item>
+        <item>"continuous-picture"</item>
+        <item>"auto"</item>
+        <item>"edof"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>3</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_iso">ISO</string>
+    <string-array name="camera_settings_iso_entries">
+        <item>"Otomatiki"</item>
+        <item>"Upunguzaji wa Kutetema kwa Mkono"</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="camera_settings_iso_values">
+        <item>"auto"</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>"ISO3200"</item>
+    </string-array>
+    <string name="camera_settings_iso_default">ISO800</string>
+    <string name="pano_settings">"Mipangilio ya Panorama"</string>
+    <string name="pano_settings_scve_mode">"Modi ya Utendaji wa SCVE"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"Chaguo-msingi"</item>
+        <item>"Upakuzi wa CPU"</item>
+        <item>"Utendaji"</item>
+        <item>"Nishati Ndogo"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_image_compress_level">"Kiwango cha Kubana Picha"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_3a_lock">"Funga AE/AF/AWB wakati wa kupiga Panorama"</string>
+    <string-array name="pano_settings_enable_3a_lock_entries">
+        <item>"Hapana"</item>
+        <item>"Ndiyo"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_3a_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_3a_lock_default">"true"</string>
+    <string name="debug_settings">"Mipangilio ya Ueuaji"</string>
+    <string name="debug_settings_enable_loggings">"Uwekaji Logi wa Maneno"</string>
+    <string-array name="debug_settings_enable_loggings_entries">
+        <item>"Imezimwa"</item>
+        <item>"Imewashwa"</item>
+    </string-array>
+    <string-array name="debug_settings_enable_loggings_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_enable_loggings_default">"false"</string>
+    <string name="debug_settings_save_preview_frames">"Hifadhi fremu za hakiki katika KadiyaSD"</string>
+    <string-array name="debug_settings_save_preview_frames_entries">
+        <item>"Hapana"</item>
+        <item>"Ndiyo"</item>
+    </string-array>
+    <string-array name="debug_settings_save_preview_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_preview_frames_default">"false"</string>
+    <string name="debug_settings_save_key_frames">"Hifadhi fremu kuu katika kadi ya SD"</string>
+    <string-array name="debug_settings_save_key_frames_entries">
+        <item>"Hapana"</item>
+        <item>"Ndiyo"</item>
+    </string-array>
+    <string-array name="debug_settings_save_key_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_key_frames_default">"false"</string>
+    <!-- PanoramaViewer -->
+    <string name="share_button_text">"Shirki Picha ya Panorama"</string></resources>

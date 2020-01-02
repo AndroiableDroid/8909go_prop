@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IMS settings related strings -->
+    <!-- Title displayed IMS account settings in the sip settings category. [CHAR LIMIT=NONE] -->
+    <string name="ims_settings">"Setări IMS"</string>
+    <string name="ims_vt_call_quality_title">"Calitate apel VT"</string>
+    <string name="ims_vt_call_quality_low">"Redusă"</string>
+    <string name="ims_vt_call_quality_high">"Ridicată"</string>
+    <string name="ims_vt_call_quality_unknown">"Necunoscut"</string>
+    <string name="ims_vt_call_quality_set_failed">"Eroare la setarea calității video"</string>
+    <string name="ims_get_packet_count_failed">"Eroare la obținerea numărului de pachete"</string>
+    <string name="ims_get_packet_error_count_failed">"Eroare la obținerea numărului de erori al pachetului"</string>
+    <string name="ims_get_packet_count_label">"dați clic aici pentru a obține numărul de pachete"</string>
+    <string name="ims_get_packet_error_count_label">"dați clic aici pentru a obține numărul de erori al pachetului"</string>
+    <string name="qti_ims_call_deflect_title">"Număr deviat apel"</string>
+    <string name="qti_ims_number_not_set">"Nesetată"</string>
+    <!-- IMS to CS Retry setting title.  [CHAR LIMIT=30] -->
+    <string name="ims_to_cs_retry_title">"Reîncercare CS"</string>
+    <!-- IMS to CS Retry setting summary.  [CHAR LIMIT=80] -->
+    <string name="ims_to_cs_retry_summary">"Reîncercare automată cu comunicații de voce obișnuite (recomandat)"</string></resources>

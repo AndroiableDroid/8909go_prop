@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+ * Copyright (C) 2007 The Android Open Source Project
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+    <string name="app_name">"Konfigurácia prístupového bodu OTA"</string>
+    <string name="banner_title">"Nakonfigurujte si telefón"</string>
+    <string name="provisioning_failure">"Pri konfiguračnej správe sa vyskytol problém, a preto sa nastavenia vášho telefónu neaktualizovali."</string>
+    <string name="provisioning_failure_apn">"V prijatej konfiguračnej správe sa nachádza prázdne APN, a preto sa nastavenia vášho telefónu neaktualizovali."</string>
+    <string name="provisioning_successful">"Nový prístupový bod bol úspešne nainštalovaný."</string>
+    <string name="please_enter_pin">"Zadajte svoj pin:"</string>
+    <string name="install">"Inštalovať"</string>
+    <string name="ignore">"Ignorovať"</string>
+    <string name="ignore_message">"Správa je dostupná v ponuke aplikácie Správy: Nastavenia&gt;Konfiguračné správy "</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Zrušiť"</string>
+    <string name="provisioning_received_ticker">"Konfiguračná správa bola prijatá"</string>
+    <string name="provisioning_received_title">"Konfiguračná správa"</string>
+    <string name="provisioning_received_message">"Klepnutím sem nakonfigurujte svoj telefón"</string>
+    <string name="bad_pin_title">"Kód PIN je nesprávny"</string>
+    <string name="bad_pin_message">"Zadaný kód PIN je nesprávny"</string>
+    <string name="bad_network_pin_message">"Konfiguračnú správu nebolo možné overiť s vašou kartou SIM, a preto ju nemožno použiť na konfiguráciu vášho zariadenia."</string>
+    <string name="check_prov_message">"Do svojho telefónu sa chystáte nainštalovať nasledovné nastavenia:"</string>
+    <string name="check_prov_name">"Názov nastavenia:"</string>
+    <string name="check_prov_type">"Typ nastavenia:"</string>
+    <string name="check_prov_type_value">"Sieťový prístupový bod"</string>
+    <string name="no_security_specified">"Prijatá konfiguračná správa neobsahovala žiadne overenie, a preto ju nemožno použiť na konfiguráciu vášho zariadenia"</string>
+    <string name="phone_now_configured">"Váš telefón je teraz nakonfigurovaný"</string>
+    <string name="padding"></string>
+    <string name="pin_help">"Kód PIN by vám mal poskytnúť operátor."</string>
+    <string name="test_banner">"Stlačením tlačidiel nižšie otestujte poskytovateľskú aplikáciu"</string>
+    <string name="test_userpin">"Odoslať PDU do systému upozornení (používateľský pin)"</string>
+    <string name="test_netwpin">"Odoslať PDU do systému upozornení (sieťový pin)"</string>
+    <string name="test_usernetwpin">"Odoslať PDU do systému upozornení (používateľský sieťový pin)"</string>
+    <string name="test_userpinmac">"Odoslať PDU do systému upozornení (používateľský pin pre mac)"</string>
+    <string name="test_confirm">"Obrazovka potvrdenia"</string>
+    <string name="test_error">"Obrazovka chyby"</string>
+    <string name="trials_expired">"Overenie nebolo úspešné"</string>
+    <string name="trials_left">" zostávajúci počet pokusov"</string>
+    <string name="no_messages">"Žiadne správy."</string>
+    <string name="app_label">"Konfiguračná správa"</string>
+    <string name="refreshing">"Prebieha obnovovanie"</string>
+    <string name="select_conversations">"Vyberte správy"</string>
+    <string name="delete_all">"Odstrániť všetky"</string>
+    <string name="confirm">"Potvrdiť"</string>
+    <string name="confirm_delete">"Želáte si odstrániť všetky označené správy?"</string>
+    <string name="confirm_delete_all">"Želáte si odstrániť všetky správy?"</string>
+    <string name="instaled">"(Nainštalované)"</string>
+    <string name="browser_appl">"Aplikácia: Prehliadač"</string>
+    <string name="mms_appl">"Aplikácia: MMS"</string>
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string></resources>

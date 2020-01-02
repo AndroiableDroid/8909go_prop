@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Demo de localizador de objeto"</string>
+    <string name="open_camera_failed">"Encontramos um erro ao abrir a câmera em seu dispositivo.  Feche outros aplicativos que possam estar usando a câmera e execute este aplicativo novamente."</string>
+    <string name="snapshot_failed">"Encontramos um erro ao tirar a fotografia. Examine o  logcat à procura de detalhes do erro."</string>
+    <string name="video_recording_failed">"Encontramos um erro ao gravar vídeo. Examine o  logcat à procura de detalhes do erro."</string>
+    <string name="settings">"Configurações"</string>
+    <string name="switch_camera">"Alternar câmera"</string>
+    <string name="switch_camera_mode">"Alternar modo foto/vídeo"</string></resources>

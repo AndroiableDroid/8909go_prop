@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">EmbmsTestApp</string>
+    <string name="embms_test_app">"Preskusna aplikacija eMBMS"</string>
+    <string name="bind_service">"Storitev za povezovanje"</string>
+    <string name="unbind_service">"Storitev za prekinitev povezave"</string>
+    <string name="kill_process">"Postopek prekinitve"</string>
+    <string name="register">"Registracija povratnih klicev"</string>
+    <string name="deregister">"Preklic registracije povratnih klicev"</string>
+    <string name="enable">"Omogočanje storitve eMBMS"</string>
+    <string name="disable">"Onemogočanje storitve eMBMS"</string>
+    <string name="activate">"Aktiviranje TMGI-ja"</string>
+    <string name="deactivate">"Deaktiviranje TMGI-ja"</string>
+    <string name="enter_Tmgi">"Vnos TMGI-ja v decimalni vrednosti"</string>
+    <string name="get_active">"Pridobivanje seznama aktivnih"</string>
+    <string name="get_available">"Pridobivanje seznama razpoložljivih"</string>
+    <string name="get_coverage">"Pridobivanje stanja pokritosti"</string>
+    <string name="get_log_packet_id">"Pridobivanje ID-jev dnevniškega paketa"</string>
+    <string name="deliver_log_packet">"Dostava dnevniškega paketa"</string>
+    <string name="get_e911_state">"Pridobivanje stanja E911"</string></resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="file_not_exist">"Plik nie istnieje"</string>
+    <string name="show_properties">"Pokaż właściwości"</string>
+    <string name="app_name">"DRM"</string>
+    <string name="buy_license">"Kup licencje"</string>
+    <string name="drm_activity">"Aktywność DRM"</string>
+    <string name="open_files">"Otwórz pliki"</string>
+    <string name="service_connected">"Ach, usługa DRM PODŁĄCZONA, super"</string>
+    <string name="service_disconnected">"Och, usługa DRM ROZŁĄCZONA, super"</string>
+    <string name="service_binded">"Ach, usługa DRM POWIĄZANA, super"</string>
+    <string name="service_unbinded">"Och, usługa DRM ODŁĄCZONA, super"</string>
+    <string name="tv_fl">"Możesz cieszyć się tą zawartością bez żadnych ograniczeń"</string>
+    <string name="tv_cantbuy">"Nie masz poprawnych licencji, ale nie możemy pobrać adresu licencji i kupić jej dla Ciebie"</string>
+    <string name="tv_wantbuy">"Nie posiadasz żadnych ważnych licencji. Czy chcesz je kupić?"</string>
+    <string name="tv_buyviapc">"Niestety... Nie możemy pobrać licencji przy użyciu OTA, pobierz je z komputera przy użyciu MTP"</string>
+    <string name="tv_finishdownload">"Plik %%% został zainstalowany. Chcesz go otworzyć?"</string>
+    <string name="sdcard_busy">"Karta SD jest teraz zajęta. Zakończ tryb pamięci USB, aby uzyskać dostęp do karty SD."</string>
+    <string name="yes">"Tak"</string>
+    <string name="no">"Nie"</string>
+    <string name="ok">"OK"</string>
+    <string name="file_not_supported">"Pliki DRM CD/SD nie są obsługiwane"</string>
+    <string name="no_rights">"Brak dostępnych praw dla tego pliku :("</string>
+    <string name="execute_permission">"Uprawnienie do wykonywania"</string>
+    <string name="play_permission">"Uprawnienie do odtwarzania"</string>
+    <string name="display_permission">"Uprawnienie do wyświetlania"</string>
+    <string name="print_permission">"Uprawnienie do drukowania"</string>
+    <string name="license">"licencja"</string>
+    <string name="of">"z"</string>
+    <string name="count">"Liczba"</string>
+    <string name="interval_str">"Okres"</string>
+    <string name="start_date">"Data początkowa"</string>
+    <string name="end_date">"Data końcowa"</string>
+    <string name="seconds">"sekund"</string>
+    <string name="no_activitiy_found">"Nie znaleziono aktywności do obsługi adresu: "</string></resources>

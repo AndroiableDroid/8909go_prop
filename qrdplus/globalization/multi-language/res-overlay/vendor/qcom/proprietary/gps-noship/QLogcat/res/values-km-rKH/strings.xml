@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"បរិយាយ"</item>
+        <item>"កែ​កំហុស"</item>
+        <item>"ព័ត៌មាន"</item>
+        <item>"ការ​ព្រមាន"</item>
+        <item>"កំហុស"</item>
+        <item>"ធ្ងន់ធ្ងរ"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"កាត SD"</item>
+        <item>"អង្គចងចាំខាងក្នុង"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"​មិនអាច​សរសេរទៅកាន់ឯកសារកំណត់ហេតុ។ សារកំណត់ហេតុ​មិនកំពុងត្រូវបានរក្សាទុក។ ដំណើរការចុះកំណត់ហេតុ​នឹង​បន្ត​ដោយស្វ័យប្រវត្តិនៅពេល​ឯកសារកំណត់ហេតុ​ប្រើបានម្ដងទៀត"</string>
+    <string name="err_lowspace">"ទំហំទំនេរសល់តិចត្រូវបានរកឃើញ។ សារកំណត់ហេតុ​មិនកំពុងត្រូវបានរក្សាទុក។ ដំណើរការ​ចុះកំណត់ហេតុ​នឹងបន្តដោយស្វ័យប្រវត្តិនៅពេលមាន​ទំហំទំនេរគ្រប់គ្រាន់"</string>
+  <string name="txtTag_text">"ឈ្មោះស្លាក"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"ការពិពណ៌នា Logcat"</string></resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"สาธิตตัวติดตามออบเจ็กต์"</string>
+    <string name="open_camera_failed">"เราพบข้อผิดพลาดในการเปิดกล้องบนอุปกรณ์ของคุณ  โปรดปิดแอปที่อาจกำลังใช้งานกล้องอยู่ แล้วเปิดแอปนี้อีกครั้ง"</string>
+    <string name="snapshot_failed">"เราพบข้อผิดพลาดในการบันทึกภาพ โปรดตรวจสอบ  Logcat เพื่อดูรายละเอียดข้อผิดพลาด"</string>
+    <string name="video_recording_failed">"เราพบข้อผิดพลาดในการบันทึกวิดีโอ โปรดตรวจสอบ  Logcat เพื่อดูรายละเอียดข้อผิดพลาด"</string>
+    <string name="settings">"การตั้งค่า"</string>
+    <string name="switch_camera">"สลับกล้อง"</string>
+    <string name="switch_camera_mode">"สลับโหมดภาพถ่าย/วิดีโอ"</string></resources>

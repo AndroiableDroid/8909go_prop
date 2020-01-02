@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Mdtp डेमो"</string>
+    <string name="user_app">"MDTP प्रयोक्‍ता अनुप्रयोग: मुख्य स्क्रीन"</string>
+    <string name="config_app">"MDTP प्रयोक्‍ता अनुप्रयोग: कॉन्फिगरेशन"</string>
+    <string name="server_app">"MDTP सर्व्हर: मुख्य स्क्रीन"</string>
+    <string name="action_settings">"सेटिंग्ज"</string>
+    <string name="label_1_1">"MDTP स्थिती:"</string>
+    <string name="state_deactivated">"निष्क्रिय करण्यात आले"</string>
+    <string name="state_activated">"सक्रिय करण्यात आले"</string>
+    <string name="configuration">"कॉन्फिगरेशन (केवळ सक्रियकरणापूर्वी)"</string>
+    <string name="service_activate">"MDTP सेवांकडून MDTP सक्रियकरणाची विनंती करा"</string>
+    <string name="service_deactivate">"MDTP सेवांकडून MDTP निष्क्रियतेची विनंती करा"</string>
+    <string name="local_deactivate">"स्थानिक MDTP निष्क्रियता (PIN वापरून)"</string>
+    <string name="service_console">"MDTP सेवा कन्सोल"</string>
+    <string name="title_activity_configuration">"प्रयोक्‍ता कॉन्फिगरेशन"</string>
+    <string name="label_2_1">"स्थानिक PIN वापरा:"</string>
+    <string name="label_2_2">"PIN:"</string>
+    <string name="gen_rand_pin">"रँडम  PIN उत्‍पन्‍न करा"</string>
+    <string name="label_2_3">"पडताळणी अनुपात:"</string>
+    <string name="label_2_5">"SIM लॉक सक्षम करा:"</string>
+    <string name="label_2_6">"सत्यापित करण्यासाठी अतिरिक्‍त फाइल्‍स/निर्देशिका:"</string>
+    <string name="reset">"डिफॉल्टवर पुन्हा मांडणी करा"</string>
+    <string name="label_3_1">"सर्व्हरकडून उपकरणावर आदेश पाठवा:"</string>
+    <string name="activate">"सक्रिय करा"</string>
+    <string name="deactivate">"निष्क्रिय करा"</string>
+    <string name="locksim">"SIM लॉक करा"</string>
+    <string name="unlocksim">"SIM अनलॉक करा"</string>
+    <string name="killfunc">"कार्यक्षमता समाप्त करा"</string>
+    <string name="restorefunc">"कार्यक्षमता पुनर्स्थापित करा"</string>
+    <string name="label_3_2">"MDTP निष्क्रियतेच्या विनंत्या:"</string>
+    <string name="notallowed">"अनुमती नाही"</string>
+    <string name="allowed">"अनुमती दिली"</string>
+    <string name="label_3_3">"सेटअप विझार्ड अनावरोधित करण्याच्या विनंत्या:"</string>
+    <string name="label_3_4">"सेवा लॉग:"</string>
+    <string name="wizard_app_loading_title">"MDTP सेटअप विझार्ड: प्रारंभ करत आहे..."</string>
+    <string name="label_4_1">"सेटअप विझार्ड अवरोधित केला आहे कारण MDTP स्थिती सक्रिय आहे"</string>
+    <string name="label_4_2">"पर्याय A: MDTP सक्रिय ठेवा, परंतु सर्व्हर अधिकृतताची विनंती करा"</string>
+    <string name="wiz_unblock">"MDTP सेवांकडून सेटअप विझार्ड अनावरोधित करण्याची विनंती"</string>
+    <string name="wiz_cont">"सुरू ठेवा (सर्व्हरद्वारे अधिकृत)"</string>
+    <string name="label_4_3">"पर्याय B: MDTP निष्क्रिय करा (सेटअप विझार्ड अवरोधित करणे काढेल)"</string>
+    <string name="wiz_remote">"दूरस्थ MDTP निष्क्रियतेची विनंती"</string>
+    <string name="wiz_local">"स्थानिक MDTP निष्क्रियता"</string>
+    <string name="label_4_4">"सेटअप विझार्डला सुरू ठेवण्याची अनुमती दिली आहे कारण MDTP स्थिती सक्रिय नाही"</string>
+    <string name="wiz_complete">"सेटअप विझार्ड पूर्ण करा (MDTP स्थिती सक्रिय नाही)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"सेटअप विझार्ड"</string>
+    <string name="label_signup_message">"MDTP सध्या सक्रिय केलेले नाही.\nआपण हे सक्रिय करू इच्छिता?"</string>
+    <string name="label_signup_message_activated">"MDTP यशस्वीरित्या सक्रिय करण्यात आले!"</string>
+    <string name="skip_activation">"सक्रियकरण वगळा"</string>
+    <string name="emergency_dialer">"आणीबाणी डायलर"</string>
+    <string name="wiz_title_sign_up">"MDTP सेटअप विझार्ड - साइन अप करा"</string>
+    <string name="wiz_title_reset_prot">"MDTP सेटअप विझार्ड - फॅक्टरी पुन्हा मांडणी करणे संरक्षण"</string>
+    <string name="wiz_title_boot_block">"MDTP सेटअप विझार्ड - उपकरण अवरोधित केले आहे"</string>
+    <string name="block_boot_warning_text">"अंतर्गत त्रुटीमुळे MDTP-ने हे उपकरण अवरोधित केले आहे.\n\nकृपया उपकरण रीबूट करा."</string>
+    <string name="start_wifi_wizard">"WiFi सेटअप करा"</string>
+    <string name="default_pin_hint">"डिफॉल्ट PIN 11111 आहे"</string>
+    <string name="pin_dialog_title">"MDTP स्थानिक निष्क्रियता PIN आवश्यक"</string>
+    <string name="pin_input_validation_warning">"इनपुट 5 अंकांचे आणि अंकीय असणे आवश्‍यक आहे"</string></resources>

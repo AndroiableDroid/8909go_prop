@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Prikaži vzorec SDK"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"Prikaz funkcij"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"Ravnovesje barv"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"Uprav. načina"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"Nov način"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"Izbriši način"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"Uredi način"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"Prekliči"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"Prikaz funkcij"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"Aktiviraj način"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"Vnesi ime načina"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"Shrani način"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"Izberi fotografijo"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"Pripravljena vrsta prikaza ni podprta. Prepričajte se, ali je povezava vzpostavljena."</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"Funkcija ravnovesja barv ni podprta"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"Funkcija prilagoditve osvetlitve ozadja ni podprta"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"Funkcija pomnilnika barve listja ni podprta"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"Funkcija pomnilnika barve kože ni podprta"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"Funkcija pomnilnika barve neba ni podprta"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"Funkcija prilagoditve slike ni podprta"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"Funkcija vidljivosti pri sončni svetlobi ni podprta"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"Novega načina ni bilo mogoče ustvariti"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"Načina ni mogoče spremeniti"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"Dodaj sliko iz galerije"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"V redu"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"Da"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"Ne"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"Na napravi nimate razpoložljivih načinov prikaza"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"FEATURE_COLOR_MODE_SELECTION ni podprto"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"FEATURE_COLOR_MODE_MANAGEMENT ni podprto"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"Želena funkcija prikaza ni na voljo"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"Brisanje načina prikaza ni uspelo"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"Aktivacija načina prikaza ni uspela"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"Načina prikaza ni mogoče nastaviti na privzeto"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"Najprej izberite način"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"Vnesite ime načina"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"Ustvarjen je nov način"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"Nastavite privzeto"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"Če je izbran sistemski način, načina ni mogoče spreminjati. Ali želite ustvariti nov način, ki temelji na izbranem načinu?"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"Če je izbran sistemski način, načina ni mogoče izbrisati"</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"Povezava z želeno storitvijo prikaza ni mogoča"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" Način je aktiviran"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" Način je izbrisan"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"Ravnovesje barv"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"Vidljivost pri sonč. svetl."</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"Prilagoditve slike"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"Pomnjenje barve listja"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"Barvni odtenek"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"Nasičenost"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"Intenzivnost"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"Pomnjenje barve kože"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"Pomnjenje barve neba"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">"Prilag. osvet. ozadja"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"Omogoči SVI"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"Omogoči pomnjenje barve listja"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"Omogoči pomnjenje barve kože"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"Omogoči pomnjenje barve neba"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"Omogoči prilagoditev slike"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"Omogoči prilag. osvet. ozadja"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"Omogoči zmanjševanje nasičenosti pri prilagoditvi slike"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"Prag nasičenosti"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"Barvni odtenek"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"Nasičenost"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"Intenzivnost"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"Kontrast"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"Visoka"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"Srednja"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"Nizka"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"Samodejna"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"Osveži"</string></resources>

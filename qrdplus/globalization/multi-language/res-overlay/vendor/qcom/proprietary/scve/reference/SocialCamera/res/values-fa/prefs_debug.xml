@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"معیارهای اشکال‌زدایی نمایشگر"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"ذخیره عکس‌ها"</string>
+    <string name="debug_pref_save_pictures_desc">"ذخیره عکس‌های گرفته شده در کارت SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"ذخیره فریم‌های پیش‌نمایش"</string>
+    <string name="debug_pref_save_preview_frames_desc">"ذخیره فریم‌های پیش‌نمایش در کارت SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"اجازه به رها کردن فریم پیش‌نمایش"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"هنگام ذخیره فریم‌های پیش‌نمایش، اجازه به رها کردن‌ فریم‌ها برای حفظ نرخ فریم"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"فعال‌سازی گزارش طولانی تشخیص چهره"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

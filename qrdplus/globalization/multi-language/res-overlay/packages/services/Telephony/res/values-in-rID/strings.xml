@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Official label of the phone app, as seen in "Manage Applications"
+         and other settings UIs.  This is the version of the label for
+         tablet devices, where the phone app handles mobile data but not
+         actual phone calls. -->
+    <string name="phoneAppLabel" product="tablet">"Data Seluler"</string>
+    <!-- Official label of the phone app, as seen in "Manage Applications"
+         and other settings UIs. -->
+    <string name="phoneAppLabel" product="default">"Layanan Telepon"</string>
+    <!-- Screen title for Emergency Dialer UI -->
+    <string name="emergencyDialerIconLabel">"Aplikasi Telepon Darurat"</string>
+    <!-- Activity label for the in-call UI -->
+    <string name="phoneIconLabel">"Telepon"</string>
+    <!-- Title of FDN list screen -->
+    <string name="fdnListLabel">"Daftar FDN"</string>
+    <!-- Call status -->
+    <!-- Incoming call screen, name of "unknown" caller -->
+    <string name="unknown">"Tidak diketahui"</string>
+    <!-- Incoming call screen, string when number hidden -->
+    <string name="private_num">"Nomor pribadi"</string>
+    <!-- Incoming call screen, string when called from a pay phone -->
+    <string name="payphone">"Telepon Umum"</string>
+    <!-- In-call screen: status label for a call that's on hold -->
+    <string name="onHold">"Ditangguhkan"</string>
+    <!-- Possible error messages with outgoing calls -->
+    <string name="mmiStarted">"Kode MMI dimulai"</string>
+    <!-- Dialog label when a USSD code starts running -->
+    <string name="ussdRunning">"Kode USSD sedang berjalan\u2026"</string>
+    <!-- Dialog label when an MMI code is canceled -->
+    <string name="mmiCancelled">"Kode MMI dibatalkan"</string>
+    <!-- Label for "cancel" button on the MMI dialog -->
+    <string name="cancel">"Batal"</string>
+    <!-- Toast string displayed to user if the input in MMI dialog is < 1 or > 160 -->
+    <string name="enter_input">"Pesan USSD harus antara <xliff:g id="MIN_LEN">%d</xliff:g> dan <xliff:g id="MAX_LEN">%d</xliff:g> karakter. Coba lagi."</string>
+    <!-- Label for "Manage conference call" panel [CHAR LIMIT=40] -->
+    <string name="manageConferenceLabel">"Kelola penggilan telewicara"</string>
+    <!-- Positive button label ("OK") used in several dialogs in the phone UI [CHAR LIMIT=10] -->
+    <string name="ok">"OKE"</string>
+    <!-- "Audio mode" popup menu: Item label to select the speakerphone [CHAR LIMIT=25] -->
+    <string name="audio_mode_speaker">"Pelantang"</string>
+    <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
+    <string name="audio_mode_earpiece">"Earpiece handset"</string>
+    <!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
+    <string name="audio_mode_wired_headset">"Headset berkabel"</string>
+    <!-- "Audio mode" popup menu: Item label to select the bluetooth headset [CHAR LIMIT=25] -->
+    <string name="audio_mode_bluetooth">"Bluetooth"</string>
+    <!-- post dial -->
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "wait" character in a phone number to be dialed; this dialog asks the
+         user if it's OK to send the numbers following the "wait". -->
+    <string name="wait_prompt_str">"Kirimkan nada berikut?\n"</string>
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "PAUSE" character in a phone number to be dialed; this dialog gives
+         informative message to the user to show the sending numbers following the "Pause". -->
+    <string name="pause_prompt_str">"Mengirimkan nada\n"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog -->
+    <string name="send_button">"Kirimkan"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_yes">"Ya"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_no">"Tidak"</string>
+    <!-- In-call screen: on the "wild" character dialog, this is the label
+         for a text widget that lets the user enter the digits that should
+         replace the "wild" character. -->
+    <string name="wild_prompt_str">"Ganti karakter acak dengan"</string>
+    <!-- missing voicemail number -->
+    <!-- Title of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number">"Nomor kotak pesan hilang"</string>
+    <!-- Body text of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number_msg">"Tidak ada nomor kotak pesan tersimpan pada kartu SIM."</string>
+    <!-- Button label on the "Missing voicemail number" dialog -->
+    <string name="add_vm_number_str">"Tambahkan nomor"</string>
+    <!-- Status message displayed on SIM PIN unlock panel -->
+    <string name="puk_unlocked">"Kartu SIM Anda tidak lagi dicekal. Ponsel Anda sedang dibuka kuncinya..."</string>
+    <!-- network depersonalization -->
+    <!-- Label text for PIN entry widget on SIM Network Depersonalization panel -->
+    <string name="label_ndp">"PIN pembuka kunci jaringan SIM"</string>
+    <!-- Button label on SIM Depersonalization panel -->
+    <string name="sim_ndp_unlock_text">"Buka kunci"</string>
+    <!-- Button label on SIM Depersonalization panel -->
+    <string name="sim_ndp_dismiss_text">"Tutup"</string>
+    <!-- Status message displayed on SIM Network Depersonalization panel -->
+    <string name="requesting_unlock">"Meminta membuka jaringan..."</string>
+    <!-- Error message displayed on SIM Network Depersonalization panel -->
+    <string name="unlock_failed">"Permintaan buka kunci jaringan gagal."</string>
+    <!-- Success message displayed on SIM Network Depersonalization panel -->
+    <string name="unlock_success">"Jaringan berhasil dibuka."</string>
+    <!-- settings strings -->
+    <!-- Error message for users that aren't allowed to modify Mobile Network settings [CHAR LIMIT=none] -->
+    <string name="mobile_network_settings_not_available">"Setelan jaringan seluler tidak tersedia bagi pengguna ini"</string>
+    <!-- GSM Call settings screen, setting option name. [CHAR LIMIT=40] -->
+    <string name="labelGSMMore">"Setelan panggilan GSM"</string>
+    <!-- GSM Call settings screen, setting option name with label indicating the SIM the settings
+         are applied to. [CHAR LIMIT=40] -->
+    <string name="labelGsmMore_with_label">"Setelan panggilan telepon GSM (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string name="labelCFType">"Setelan Penerusan Panggilan"</string>
+    <string name="labelCFVoice">"Voice"</string>
+    <string name="labelCFVideo">"Video"</string>
+    <!-- CDMA Call settings screen, setting option name -->
+    <string name="labelCDMAMore">"Setelan panggilan CDMA"</string>
+    <!-- CDMA Call settings screen, setting option name with label indicating the SIM the settings
+         are applied to. [CHAR LIMIT=40] -->
+    <string name="labelCdmaMore_with_label">"Setelan panggilan telepon CDMA (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="apn_settings">"Access Point Names (Nama Titik Akses)"</string>
+    <!-- Label for the "Network settings" screen in the Settings UI -->
+    <string name="settings_label">"Setelan jaringan"</string>
+    <!-- Label for settings screen for phone accounts. -->
+    <string name="phone_accounts">"Akun panggil"</string>
+    <!-- Label for list item which opens a dialog to select the default outgoing account -->
+    <string name="phone_accounts_make_calls_with">"Lakukan panggilan dengan"</string>
+    <!-- Label for list item which opens a dialog to select the default outgoing account for SIP calls. -->
+    <string name="phone_accounts_make_sip_calls_with">"Lakukan panggilan SIP dengan"</string>
+    <!-- Entry in dialog to "ask first" for accounts when making a call -->
+    <string name="phone_accounts_ask_every_time">"Tanyakan dahulu"</string>
+    <!-- Label for heading of the per-account settings section in the phone accounts settings
+         screen. -->
+    <string name="phone_accounts_settings_header">"Setelan"</string>
+    <!-- Label for invoking phone account selection screen -->
+    <string name="phone_accounts_choose_accounts">"Pilih akun"</string>
+    <!-- Label for heading in the phone account selection screen -->
+    <string name="phone_accounts_selection_header">"Akun telepon"</string>
+    <!-- Title for the button to add a new sip account. [CHAR LIMIT=NONE] -->
+    <string name="phone_accounts_add_sip_account">"Tambah akun SIP"</string>
+    <!-- Description label for icon to configure a phone account's settings. -->
+    <string name="phone_accounts_configure_account_settings">"Konfigurasi setelan akun"</string>
+    <!-- Label for heading that takes user to the list of calling accounts where they can enable
+         and disable all accounts. -->
+    <string name="phone_accounts_all_calling_accounts">"Semua akun pemanggil"</string>
+    <!-- Summary for all-calling-account setting indicating that is where the user goes to enable
+         and disable phone accounts. -->
+    <string name="phone_accounts_all_calling_accounts_summary">"Pilih akun mana yang dapat melakukan panggilan telepon"</string>
+    <!-- Title for setting to select Wi-Fi call manager account -->
+    <string name="wifi_calling">"Panggilan Wi-Fi"</string>
+    <!-- Built-in label for the default connection service setting. -->
+    <string name="connection_service_default_label">"Layanan sambungan di dalamnya"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="voicemail">"Kotak Pesan"</string>
+    <!-- Title of the "Voicemail" settings screen, with a text label identifying which SIM the settings are for. -->
+    <string name="voicemail_settings_with_label">"Kotak pesan (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Call forwarding dialog box, voicemail number prefix -->
+    <string name="voicemail_abbreviated">"VM:"</string>
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="networks">"Operator jaringan"</string>
+    <!-- Cell Broadcast settings title.  [CHAR LIMIT=50] -->
+    <string name="cell_broadcast_settings">"Siaran darurat"</string>
+    <!-- Call settings screen title -->
+    <string name="call_settings">"Setelan panggilan"</string>
+    <!-- GSM Call settings screen, setting option name -->
+    <string name="additional_gsm_call_settings">"Setelan tambahan"</string>
+    <!-- GSM Call settings screen, setting option name, with label identifying the SIM the settings are for. -->
+    <string name="additional_gsm_call_settings_with_label">"Setelan tambahan (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- GSM-only Call settings screen, setting option name-->
+    <string name="sum_gsm_call_settings">"Setelan panggilan khusus GSM tambahan"</string>
+    <!-- CDMA Call settings screen, setting option name -->
+    <string name="additional_cdma_call_settings">"Setelan panggilan CDMA tambahan"</string>
+    <!-- CDMA-only Call settings screen, setting option name-->
+    <string name="sum_cdma_call_settings">"Setelan panggilan khusus CDMA tambahan"</string>
+    <!-- Call setting screen, nework service setting name -->
+    <string name="labelNwService">"Setelan layanan jaringan"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="labelCallerId">"Nomor Penelepon"</string>
+    <!-- Additional call settings screen, setting summary text when the setting is being loaded [CHAR LIMIT=40] -->
+    <string name="sum_loading_settings">"Memuat setelan..."</string>
+    <!-- Additional call settings screen, setting summary text when Caller ID is hidden -->
+    <string name="sum_hide_caller_id">"Nomor disembunyikan selama panggilan keluar"</string>
+    <!-- Additional call settings screen, setting summary text when Caller ID is shown -->
+    <string name="sum_show_caller_id">"Nomor ditampilkan selama panggilan keluar"</string>
+    <!-- Additional call settings screen, setting summary text for default Caller ID value -->
+    <string name="sum_default_caller_id">"Gunakan setelan operator default untuk menampilkan nomor saya pada panggilan keluar"</string>
+    <!-- Additional call settings screen, setting check box name -->
+    <string name="labelCW">"Nada tunggu"</string>
+    <!-- Additional call settings screen, setting summary text when call waiting check box is selected -->
+    <string name="sum_cw_enabled">"Selama panggilan, beritahukan panggilan masuk kepada saya"</string>
+    <!-- Additional call settings screen, setting summary text when call waiting check box is clear -->
+    <string name="sum_cw_disabled">"Selama panggilan, beritahukan panggilan masuk kepada saya"</string>
+    <!-- Call forwarding settings screen, section heading -->
+    <string name="call_forwarding_settings">"Setelan penerusan panggilan"</string>
+    <!-- Call forwarding settings screen, section heading, with a label identifying the SIM the settings are for. -->
+    <string name="call_forwarding_settings_with_label">"Setelan penerusan panggilan (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="labelCF">"Penerusan panggilan"</string>
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFU">"Selalu teruskan"</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFU">"Selalu gunakan nomor ini"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding all calls -->
+    <string name="sum_cfu_enabled_indicator">"Meneruskan semua panggilan"</string>
+    <!-- Call forwarding settings screen, setting summary text the Always forward is set -->
+    <string name="sum_cfu_enabled">"Meneruskan semua panggilan ke <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <!-- Call forwarding settings screen, Always forward is enabled but the number is unavailable -->
+    <string name="sum_cfu_enabled_no_number">"Nomor tidak tersedia"</string>
+    <!-- Call forwarding settings screen, setting summary text when Always forward is disabled -->
+    <string name="sum_cfu_disabled">"Dinonaktifkan"</string>
+    <!-- Call forwarding settings screen, setting timer info for cfut case -->
+    <string name="set_time_period">"Atur periode waktu"</string>
+    <string name="all_day">"Seharian"</string>
+    <string name="time_interval_char">: </string>
+    <string name="time_start">"Dari"</string>
+    <string name="time_start_hour">"jam waktu mulai"</string>
+    <string name="time_start_minute">"menit waktu mulai"</string>
+    <string name="time_end">"Kepada"</string>
+    <string name="time_end_hour">"jam waktu akhir"</string>
+    <string name="time_end_minute">"menit waktu akhir"</string>
+    <string name="time_formate_am">"Pagi"</string>
+    <string name="time_formate_pm">"Malam"</string>
+    <string name="cf_setting_mobile_data_alert">"Harap aktifkan data seluler dan pastikan WLAN tidak aktif"</string>
+    <string name="cf_setting_mobile_data_roaming_alert">"Aktifkan jelajah data"</string>
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFB">"Saat sibuk"</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFB">"Nomor ketika sibuk"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding to specific number when busy -->
+    <string name="sum_cfb_enabled">"Meneruskan ke <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding when busy is disabled -->
+    <string name="sum_cfb_disabled">"Nonaktif"</string>
+    <!-- Error message displayed after failing to disable forwarding calls when the phone is busy -->
+    <string name="disable_cfb_forbidden">"Operator Anda tidak mendukung penonaktifan penerusan panggilan ketika ponsel sibuk."</string>
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFNRy">"Jika tidak dijawab"</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFNRy">"Nomor ketika tidak dapat dihubungi"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding to a specific number when unanswered -->
+    <string name="sum_cfnry_enabled">"Meneruskan ke <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <!-- Call forwarding settings screen, setting summary text when Forward when unanswered is disabled -->
+    <string name="sum_cfnry_disabled">"Nonaktif"</string>
+    <!-- Error message displayed after failing to disable forwarding calls when the phone does not answer -->
+    <string name="disable_cfnry_forbidden">"Operator Anda tidak mendukung penonaktifan penerusan panggilan ketika ponsel tidak menjawab panggilan."</string>
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFNRc">"Saat tidak dapat dihubungi"</string>
+    <string name="labelCFNRc_cdma">"Teruskan Implisit"</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFNRc">"Nomor ketika tidak dapat dihubungi"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding to a specific number when unreachable-->
+    <string name="sum_cfnrc_enabled">"Meneruskan ke <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <!-- Call forwarding settings screen, setting summary text when Forward when unreachable is disabled -->
+    <string name="sum_cfnrc_disabled">"Dinonaktifkan"</string>
+    <!-- Error message displayed after failing to disable forwarding calls when the phone is unreachable -->
+    <string name="disable_cfnrc_forbidden">"Operator Anda tidak mendukung penonaktifan penerusan panggilan ketika ponsel tidak dapat dijangkau."</string>
+    <!-- Title of the progress dialog displayed while updating Call settings -->
+    <string name="updating_title">"Setelan panggilan"</string>
+    <!-- Toast in Call settings when asked to launch settings for a secondary user -->
+    <string name="call_settings_primary_user_only">"Setelan panggilan hanya dapat diubah oleh pengguna utama."</string>
+    <!-- Title of the "Call settings" settings screen, with a text label identifying which SIM the settings are for. -->
+    <string name="call_settings_with_label">"Setelan (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Title of the alert dialog displayed if an error occurs while updating Call settings -->
+    <string name="error_updating_title">"Kesalahan setelan panggilan"</string>
+    <!-- Toast in Call settings dialog while settings are being read -->
+    <string name="reading_settings">"Membaca setelan\u2026"</string>
+    <!-- Toast in Call settings dialog while settings are being saved -->
+    <string name="updating_settings">"Memperbarui setelan\u2026"</string>
+    <!-- Toast in Call settings dialog while settings are being reverted -->
+    <string name="reverting_settings">"Mengembalikan setelan..."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="response_error">"Tanggapan tak terduga dari jaringan."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="exception_error">"Kesalahan jaringan atau kartu SIM."</string>
+    <!-- Status message displayed in the "Call settings error" dialog when
+         current SS request is modified to a different request by STK CC -->
+    <string name="stk_cc_ss_to_dial_error">"Permintaan SS diubah ke permintaan DIAL."</string>
+    <string name="stk_cc_ss_to_ussd_error">"Permintaan SS diubah ke permintaan USSD."</string>
+    <string name="stk_cc_ss_to_ss_error">"Permintaan SS diubah ke permintaan SS baru."</string>
+    <!-- Status message displayed in the "Call settings error" dialog when operation fails due to FDN
+         [CHAR LIMIT=NONE] -->
+    <string name="fdn_check_failure">"Setelan Nomor Panggilan Tetap aplikasi Ponsel Anda diaktifkan. Akibatnya, beberapa fitur yang terkait dengan panggilan tidak bekerja."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="radio_off_error">"Keluar dari mode pesawat sebelum melihat setelan ini."</string>
+    <!-- Button label used to dismiss the "Call settings error" dialog -->
+    <string name="close_dialog">"OKE"</string>
+    <!-- Button label used in several settings-related dialogs -->
+    <string name="enable">"Aktifkan"</string>
+    <!-- Button label used in several settings-related dialogs -->
+    <string name="disable">"Nonaktifkan"</string>
+    <!-- Button label which indicates the user wants to update a stored
+         phone number; used in several settings-related dialogs -->
+    <string name="change_num">"Perbarui"</string>
+    <!-- Phone settings: Caller ID preference values -->
+    <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
+        <item>"Setelan default jaringan"</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
+        <item>"Sembunyikan nomor"</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
+        <item>"Tampilkan nomor"</item>
+    </string-array>
+    <!-- voicemail setting strings -->
+    <!-- Call settings screen, Set voicemail number dialog text -->
+    <string name="vm_changed">"Nomor kotak pesan berubah."</string>
+    <!-- Call settings screen, Set voicemail number dialog text -->
+    <string name="vm_change_failed">"Tidak dapat mengubah nomor pesan suara.\nHubungi operator Anda jika masalah ini terus berlanjut."</string>
+    <!-- Call settings screen, displayed when vm provider supplied forwarding number change fails-->
+    <string name="fw_change_failed">"Tidak dapat mengubah nomor penerusan.\nHubungi operator Anda jika masalah ini terus berlanjut."</string>
+    <!-- Call settings screen, displayed when forwarding number read fails-->
+    <string name="fw_get_in_vm_failed">"Tidak dapat mengambil dan menyimpan setelan nomor telepon penerusan saat ini.\nTetap beralih ke operator baru?"</string>
+    <!-- Call settings screen, Set voicemail number dialog text -->
+    <string name="no_change">"Tidak ada perubahan yang dilakukan."</string>
+    <!-- Call settings screen, "Voicemail" provider setting summary text when no provider is selected -->
+    <string name="sum_voicemail_choose_provider">"Pilih layanan kotak pesan"</string>
+    <!-- Call settings screen, "Voicemail" screen, default option - Your Carrier -->
+    <string name="voicemail_default">"Operator Anda"</string>
+    <!-- networks setting strings -->
+    <!-- Mobile network settings screen title -->
+    <string name="mobile_networks">"Setelan jaringan seluler"</string>
+    <!-- Available networks screen title/heading -->
+    <string name="label_available">"Jaringan yang tersedia"</string>
+    <!-- Mobile network settings screen, toast when searching for available networks -->
+    <string name="load_networks_progress">"Menelusuri\u2026"</string>
+    <!-- Available networks screen, text when no networks are found -->
+    <string name="empty_networks_list">"Jaringan tidak ditemukan."</string>
+    <!-- Available networks screen, setting option name -->
+    <string name="search_networks">"Telusuri jaringan"</string>
+    <!-- Available networks screen, toast when an error is encountered when searching for networks -->
+    <string name="network_query_error">"Kesalahan ketika menelusuri jaringan."</string>
+    <!-- Available networks screen, toast when registering on a specific network -->
+    <string name="register_on_network">"Mendaftarkan pada <xliff:g id="NETWORK">%s</xliff:g>\u2026"</string>
+    <!-- Available networks screen, toast when SIM card isn't allowed on a network -->
+    <string name="not_allowed">"Kartu SIM Anda tidak mengizinkan sambungan ke jaringan ini."</string>
+    <!-- Available networks screen, toast when unable to connect to a network temporarily -->
+    <string name="connect_later">"Tidak dapat terhubung ke jaringan ini sekarang. Coba lagi nanti."</string>
+    <!-- Available networks screen, toast when registered on a specific network -->
+    <string name="registration_done">"Terdaftar pada jaringan."</string>
+    <!-- Mobile network settings screen setting option summary text -->
+    <string name="sum_carrier_select">"Pilih operator jaringan"</string>
+    <!-- Available networks screen, setting summary text -->
+    <string name="sum_search_networks">"Telusuri semua jaringan yang tersedia"</string>
+    <!-- Available networks screen, setting option name -->
+    <string name="select_automatically">"Pilih otomatis"</string>
+    <!-- Available networks screen, setting summary text -->
+    <string name="sum_select_automatically">"Memilih jaringan yang disukai secara otomatis"</string>
+    <string name="register_automatically">"Pendaftaran otomatis..."</string>
+    <string name="preferred_network_mode_title">"Jenis jaringan yang dipilih"</string>
+    <string name="preferred_network_mode_summary">"Ubah mode pengoperasian jaringan"</string>
+    <string name="preferred_network_mode_dialogtitle">"Jenis jaringan yang dipilih"</string>
+    <!-- Mobile network settings, summary for preferred network mode WCDMA preferred[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_wcdma_perf_summary">"Mode jaringan pilihan: WCDMA lebih disukai"</string>
+    <!-- Mobile network settings, summary for preferred network mode GSM [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_gsm_only_summary">"Mode jaringan pilihan: GSM saja"</string>
+    <!-- Mobile network settings, summary for preferred network mode WCDMA only [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_wcdma_only_summary">"Mode jaringan pilihan: WCDMA saja"</string>
+    <!-- Mobile network settings, summary for preferred network mode GSM / UMTS [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_gsm_wcdma_summary">"Mode jaringan pilihan: GSM / WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_cdma_summary">"Mode jaringan yang disukai: CDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA / EvDo [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_cdma_evdo_summary">"Mode jaringan yang disukai: : CDMA / EvDo"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA only [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_cdma_only_summary">"Mode jaringan pilihan: CDMA saja"</string>
+    <!-- Mobile network settings, summary for preferred network mode EvDo only [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_evdo_only_summary">"Mode jaringan pilihan: EvDo saja"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">"Mode jaringan yang disukai: CDMA/EvDo/GSM/WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode LTE [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_summary">"Mode jaringan yang disukai: LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode GSM/WCDMA/LTE [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_gsm_wcdma_summary">"Mode jaringan yang disukai: GSM/WCDMA/LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA+LTE/EVDO[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_cdma_evdo_summary">"Mode jaringan yang disukai: CDMA+LTE/EVDO"</string>
+    <!-- Mobile network settings, summary for preferred network mode Global[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_global_summary">"Mode jaringan yang disukai: Global"</string>
+    <!-- Mobile network settings, summary for preferred network mode LTE / WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_wcdma_summary">"Mode jaringan yang disukai: LTE / WCDMA"</string>
+     <!-- Mobile network settings, summary for preferred network mode LTE / GSM / UMTS [CHAR LIMIT=100] -->
+     <string name="preferred_network_mode_lte_gsm_umts_summary">"Mode jaringan pilihan: LTE / GSM / UMTS"</string>
+     <!-- Mobile network settings, summary for preferred network mode LTE / CDMA [CHAR LIMIT=100] -->
+     <string name="preferred_network_mode_lte_cdma_summary">"Mode jaringan pilihan: LTE / CDMA"</string>
+    <!-- In-call screen: call failure reason (call denied because call barring
+            is ON on MT side ) -->
+    <string name="callFailed_incoming_cb_enabled">"Pihak telah menghalangi semua panggilan Masuk."</string>
+    <!-- In-call screen: status label for an incoming call that is not answered and forwarded  -->
+    <string name="callUnanswered_forwarded">"Panggilan Tidak Terjawan dan Diteruskan"</string>
+        <!-- Mobile network settings, summary for preferred network mode TD-SCDMA only[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_only_summary">"Mode jaringan yang dipilih: TD-SCDMA saja"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_wcdma_summary">"Mode jaringan yang dipilih: TD-SCDMA / WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / LTE[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_lte_summary">"Mode jaringan yang dipilih: TD-SCDMA / LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / GSM[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_summary">"Mode jaringan yang dipilih: TD-SCDMA / GSM"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / GSM / LTE[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_lte_summary">"Mode jaringan yang dipilih: TD-SCDMA/GSM/LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / GSM / WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_summary">"Mode jaringan yang dipilih: TD-SCDMA/GSM/WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / WCDMA/ LTE[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_wcdma_lte_summary">"Mode jaringan yang dipilih: TD-SCDMA/WCDMA/LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / GSM / WCDMA/ LTE[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_summary">"Mode jaringan yang dipilih: TD-SCDMA/GSM/WCDMA/LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA/CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_summary">"Mode jaringan pilihan: TD-SCDMA/GSM/WCDMA/CDMA/EvDo"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA/LTE/CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_lte_cdma_evdo_gsm_wcdma_summary">"Mode jaringan yang dipilih: TD-SCDMA/LTE/CDMA/EvDo/GSM/WCDMA"</string>
+     <!-- Mobile network settings, summary for preferred network mode TDSCDMTA [CHAR LIMIT=100] -->
+     <string name="preferred_network_mode_tdscdma_summary">"Mode jaringan pilihan: TDSCDMA"</string>
+    <string-array name="preferred_network_mode_choices">
+        <item>"TD-SCDMA/LTE/CDMA/EVDO/GSM/WCDMA "</item>
+        <item>"TD-SCDMA/GSM/WCDMA/CDMA/EVDO "</item>
+        <item>"TD-SCDMA/GSM/WCDMA/LTE"</item>
+        <item>"TD-SCDMA/WCDMA/LTE"</item>
+        <item>"TD-SCDMA/GSM/WCDMA"</item>
+        <item>"TD-SCDMA/GSM/LTE"</item>
+        <item>"TD-SCDMA/GSM"</item>
+        <item>"TD-SCDMA/LTE"</item>
+        <item>"TD-SCDMA/WCDMA"</item>
+        <item>"TD-SCDMA only"</item>
+        <item>"LTE / WCDMA"</item>
+        <item>"LTE"</item>
+        <item>"Global"</item>
+        <item>"GSM/WCDMA/LTE"</item>
+        <item>"CDMA + LTE/EvDo"</item>
+        <item>"CDMA/EvDo/GSM/WCDMA"</item>
+        <item>"EvDo only"</item>
+        <item>"CDMA w/o EvDo"</item>
+        <item>"CDMA/EvDo auto"</item>
+        <item>"GSM/WCDMA auto"</item>
+        <item>"WCDMA only"</item>
+        <item>"GSM only"</item>
+        <item>"GSM/WCDMA preferred"</item>
+    </string-array>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA/CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_cdma_evdo_gsm_wcdma_summary">"Mode jaringan dipilih: TD-SCDMA/CDMA/EvDo/GSM/WCDMA"</string>
+    <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">"TD-SCDMA/LTE/GSM/WCDMA/CDMA/EVDO"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">"TD-SCDMA/GSM/WCDMA/CDMA/EVDO"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_choice">"TD-SCDMA/GSM/WCDMA/LTE"</string>
+    <string name="preferred_network_mode_td_scdma_wcdma_lte_choice">"TD-SCDMA/WCDMA/LTE"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_choice">"TD-SCDMA/GSM/WCDMA"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_lte_choice">"TD-SCDMA/GSM/LTE"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_choice">"TD-SCDMA/GSM"</string>
+    <string name="preferred_network_mode_td_scdma_lte_choice">"TD-SCDMA/LTE"</string>
+    <string name="preferred_network_mode_td_scdma_wcdma_choice">"TD-SCDMA/WCDMA"</string>
+    <string name="preferred_network_mode_td_scdma_only_choice">"TD-SCDMA only"</string>
+    <string name="preferred_network_mode_lte_wcdma_choice">"LTE / WCDMA"</string>
+    <string name="preferred_network_mode_lte_choice">"LTE"</string>
+    <string name="preferred_network_mode_global_choice">"Global"</string>
+    <string name="preferred_network_mode_gsm_wcdma_lte_choice">"GSM/WCDMA/LTE"</string>
+    <string name="preferred_network_mode_cdma_lte_evdo_choice">"CDMA + LTE/EvDo"</string>
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">"CDMA/EvDo/GSM/WCDMA"</string>
+    <string name="preferred_network_mode_evdo_only_choice">"EvDo only"</string>
+    <string name="preferred_network_mode_cdma_wo_evdo_choice">"CDMA w/o EvDo"</string>
+    <string name="preferred_network_mode_cdma_evdo_auto_choice">"CDMA/EvDo auto"</string>
+    <string name="preferred_network_mode_gsm_wcdma_auto_choice">"GSM/WCDMA auto"</string>
+    <string name="preferred_network_mode_wcdma_only_choice">"WCDMA only"</string>
+    <string name="preferred_network_mode_gsm_only_choice">"GSM only"</string>
+    <string name="preferred_network_mode_gsm_wcama_preferred_choice">"GSM/WCDMA preferred"</string>
+    <!-- Cellular network 4G title [CHAR LIMIT=30] -->
+    <string name="enhanced_4g_lte_mode_title">"Mode 4G LTE yang Ditingkatkan"</string>
+    <!-- Cellular network 4G summary [CHAR LIMIT=80] -->
+    <string name="enhanced_4g_lte_mode_summary">"Gunakan layanan LTE untuk meningkatkan suara dan komunikasi lainnya (disarankan)"</string>
+    <!-- Enable 4G title.   -->
+    <string name="lte_4g_settings_title">"Aktifkan/Nonaktifkan 4G"</string>
+    <!-- Enable 4G summary.    -->
+    <string name="lte_4g_settings_summaryOn">"Telepon akan berganti ke 3G/2G dan 4G akan dinonaktifkan."</string>
+    <!-- Enable 4G dialog prompt text.   -->
+    <string name="lte_4g_settings_summaryOff">"Telepon akan berganti dari 3G/2G ke 4G, beberapa tugas aktif mungkin berhenti."</string>
+    <!-- Mobile network settings screen, data enabling checkbox name -->
+    <string name="data_enabled">"Data diaktifkan"</string>
+    <!-- Mobile network settings screen, setting summary text when check box is not selected (explains what selecting it would do) [CHAR LIMITS=40] -->
+    <string name="data_enable_summary">"Izinkan penggunaan data"</string>
+    <!-- Mobile network settings screen, setting check box name -->
+    <string name="roaming">"Roaming data"</string>
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="roaming_enable">"Sambungkan ke layanan data ketika roaming"</string>
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="roaming_disable">"Sambungkan ke layanan data ketika roaming"</string>
+    <!-- Mobile network settings UI: notification message shown when you
+         lose data connectivity because you're roaming and you have the
+         "data roaming" feature turned off. -->
+    <string name="roaming_reenable_message">"Anda telah kehilangan konektivitas data karena meninggalkan jaringan asal dalam keadaan roaming data dimatikan."</string>
+    <!-- Mobile network settings screen, dialog message when user selects the Data roaming check box -->
+    <string name="roaming_warning">"Anda dapat dikenakan biaya yang cukup besar."</string>
+    <!-- Mobile network settings screen, dialog message title when user selects the Data roaming check box -->
+    <string name="roaming_alert_title">"Izinkan roaming data?"</string>
+    <string name=" hide_error_from_network_text">"Tidak Dapat Memproses Permintaan"</string>
+    <string name="gsm_umts_options">"Opsi GSM//UMTS"</string>
+    <string name="call_forward_option">"Opsi Penerusan Panggilan"</string>
+    <string name="cdma_options">"Opsi CDMA"</string>
+    <string name="call_barring">"Pembatasan panggilan"</string>
+    <string name="call_barring_outgoing">"Panggilan keluar diblokir"</string>
+    <string-array name="call_barring_outgoing_display_values">
+        <item>"Nonaktif"</item>
+        <item>"Panggilan roaming internasional"</item>
+        <item>"Panggilan internasional"</item>
+        <item>"Panggilan keluar"</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_values">
+        <item><xliff:g>-1</xliff:g></item>
+        <item><xliff:g>2</xliff:g></item>
+        <item><xliff:g>1</xliff:g></item>
+        <item><xliff:g>0</xliff:g></item>
+    </string-array>
+    <string-array name="call_barring_incoming_display_values">
+        <item>"Nonaktif"</item>
+        <item>"Roaming"</item>
+        <item>"Semua"</item>
+    </string-array>
+    <string name="call_barring_incoming">"Panggilan masuk diblokir"</string>
+    <string-array name="call_barring_incoming_values">
+        <item><xliff:g>-2</xliff:g></item>
+        <item><xliff:g>4</xliff:g></item>
+        <item><xliff:g>3</xliff:g></item>
+    </string-array>
+    <string name="input_password">"Masukkan kata sandi"</string>
+    <string name="labelCbCancelAll">"Batalkan semua blokir panggilan"</string>
+    <string name="psw_enter_old">"Kata sandi lama"</string>
+    <string name="labelCbChangePassword">"Ubah kata sandi"</string>
+    <string name="psw_enter_new">"Kata sandi baru"</string>
+    <string name="invalidPsw">"Masukkan kata sandi Anda (4 - 8 angka)"</string>
+    <string name="psw_reenter_new">"Masukkan ulang kata sandi Anda"</string>
+    <string name="no_call_barring">"Tanpa blokir panggilan"</string>
+    <string name="cb_psw_dont_match">"Kata sandi tidak cocok"</string>
+    <string name="operation_successfully">"Operasi berhasil!"</string>
+    <!-- Screen option on the mobile network settings to go into data usage settings -->
+    <string name="throttle_data_usage">"Penggunaan data"</string>
+    <!-- Data usage settings screen option for checking the current usage -->
+    <string name="throttle_current_usage">"Data yang digunakan dalam periode saat ini"</string>
+    <!-- Data usage settings screen option for time frame-->
+    <string name="throttle_time_frame">"Periode penggunaan data"</string>
+    <!-- Data usage settings screen option for throttling rate-->
+    <string name="throttle_rate">"Kebijakan kecepatan data"</string>
+    <!-- Data usage settings screen option for accessing the carrier website-->
+    <string name="throttle_help">"Pelajari lebih lanjut"</string>
+    <string name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) dari <xliff:g id="USED_2">%3$s</xliff:g> maksimum periode \nPeriode berikutnya dimulai dalam <xliff:g id="USED_3">%4$d</xliff:g> hari (<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) dari <xliff:g id="USED_2">%3$s</xliff:g> maksimum periode"</string>
+    <string name="throttle_data_rate_reduced_subtext">"Melebihi batas maksimum <xliff:g id="USED_0">%1$s</xliff:g>\nKecepatan data dikurangi hingga <xliff:g id="USED_1">%2$d</xliff:g> Kb/s"</string>
+    <string name="throttle_time_frame_subtext">"<xliff:g id="USED_0">%1$d</xliff:g>\u066A dari siklus yang berlalu\nPeriode berikutnya dimulai dalam <xliff:g id="USED_1">%2$d</xliff:g> hari (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+    <string name="throttle_rate_subtext">"Kecepatan data dikurangi menjadi <xliff:g id="USED">%1$d</xliff:g> Kb/s jika penggunaan data melebihi batas"</string>
+    <string name="throttle_help_subtext">"Informasi selengkapnya tentang kebijakan penggunaan data jaringan seluler operator Anda"</string>
+    <string name="cell_broadcast_sms">"SMS Siaran Sel"</string>
+    <string name="enable_disable_cell_bc_sms">"SMS Siaran Sel"</string>
+    <string name="cell_bc_sms_enable">"Setelan SMS Siaran Sel diaktifkan"</string>
+    <string name="cell_bc_sms_disable">"SMS Siaran Sel dinonaktifkan"</string>
+    <string name="cb_sms_settings">"Setelan SMS Siaran Sel"</string>
+    <string name="enable_disable_emergency_broadcast">"Siaran Darurat"</string>
+    <string name="emergency_broadcast_enable">"Siaran Darurat diaktifkan"</string>
+    <string name="emergency_broadcast_disable">"Siaran Darurat dinonaktifkan"</string>
+    <string name="enable_disable_administrative">"Administratif"</string>
+    <string name="administrative_enable">"Administratif diaktifkan"</string>
+    <string name="administrative_disable">"Administratif dinonaktifkan"</string>
+    <string name="enable_disable_maintenance">"Pemeliharaan"</string>
+    <string name="maintenance_enable">"Pemeliharaan diaktifkan"</string>
+    <string name="maintenance_disable">"Perawatan dinonaktifkan"</string>
+    <string name="general_news_settings">"Berita Umum"</string>
+    <string name="bf_news_settings">"Bisnis dan Berita Keuangan"</string>
+    <string name="sports_news_settings">"Berita Olahraga"</string>
+    <string name="entertainment_news_settings">"Berita Hiburan"</string>
+    <string name="enable_disable_local">"Lokal"</string>
+    <string name="local_enable">"Berita Lokal diaktifkan"</string>
+    <string name="local_disable">"Berita lokal dinonakifkan"</string>
+    <string name="enable_disable_regional">"Regional"</string>
+    <string name="regional_enable">"Berita Regional diaktifkan"</string>
+    <string name="regional_disable">"Berita Regional dinonakifkan"</string>
+    <string name="enable_disable_national">"Nasional"</string>
+    <string name="national_enable">"Berita nasional diaktifkan"</string>
+    <string name="national_disable">"Berita nasional dinonaktifkan"</string>
+    <string name="enable_disable_international">"Internasional"</string>
+    <string name="international_enable">"Berita internasional diaktifkan"</string>
+    <string name="international_disable">"Berita internasional dinonakifkan"</string>
+    <string name="list_language_title">"Bahasa"</string>
+    <string name="list_language_summary">"Pilih bahasa berita"</string>
+    <string-array name="list_language_entries">
+        <item>"Inggris"</item>
+        <item>"Prancis"</item>
+        <item>"Spanyol"</item>
+        <item>"Jepang"</item>
+        <item>"Korea"</item>
+        <item>"Bahasa China"</item>
+        <item>"Ibrani"</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">"Bahasa"</string>
+    <string name="enable_disable_local_weather">"Cuaca Lokal"</string>
+    <string name="local_weather_enable">"Cuaca Lokal diaktifkan"</string>
+    <string name="local_weather_disable">"Cuaca Lokal dinonakifkan"</string>
+    <string name="enable_disable_atr">"Laporan Lalu Lintas Daerah"</string>
+    <string name="atr_enable">"Laporan Lalu Lintas Daerah diaktifkan"</string>
+    <string name="atr_disable">"Laporan Lalu Lintas Daerah dinonaktifkan"</string>
+    <string name="enable_disable_lafs">"Jadwal Penerbangan Bandara Lokal"</string>
+    <string name="lafs_enable">"Jadwal Penerbangan Bandara Lokal diaktifkan"</string>
+    <string name="lafs_disable">"Jadwal Penerbangan Bandara Lokal dinonaktifkan"</string>
+    <string name="enable_disable_restaurants">"Restoran"</string>
+    <string name="restaurants_enable">"Restoran diaktifkan"</string>
+    <string name="restaurants_disable">"Restoran dinonaktifkan"</string>
+    <string name="enable_disable_lodgings">"Penginapan"</string>
+    <string name="lodgings_enable">"Penginapan diaktifkan"</string>
+    <string name="lodgings_disable">"Penginapan dinonaktifkan"</string>
+    <string name="enable_disable_retail_directory">"Direktori Pengecer"</string>
+    <string name="retail_directory_enable">"Direktori Pengecer diaktifkan"</string>
+    <string name="retail_directory_disable">"Direktori Pengecer dinonaktifkan"</string>
+    <string name="enable_disable_advertisements">"Iklan"</string>
+    <string name="advertisements_enable">"Iklan diaktifkan"</string>
+    <string name="advertisements_disable">"Iklan dinonaktifkan"</string>
+    <string name="enable_disable_stock_quotes">"Kutipan Saham"</string>
+    <string name="stock_quotes_enable">"Kutipan Saham diaktifkan"</string>
+    <string name="stock_quotes_disable">"Kutipan Saham dinonaktifkan"</string>
+    <string name="enable_disable_eo">"Peluang Kerja"</string>
+    <string name="eo_enable">"Peluang Kerja diaktifkan"</string>
+    <string name="eo_disable">"Peluang Kerja dinonaktifkan"</string>
+    <string name="enable_disable_mhh">"Medis, Kesehatan, dan Rumah Sakit"</string>
+    <string name="mhh_enable">"Medis, Kesehatan, dan Rumah Sakit diaktifkan"</string>
+    <string name="mhh_disable">"Medis, Kesehatan, dan Rumah Sakit dinonaktifkan"</string>
+    <string name="enable_disable_technology_news">"Berita Teknologi"</string>
+    <string name="technology_news_enable">"Berita Teknologi diaktifkan"</string>
+    <string name="technology_news_disable">"Berita Teknologi dinonaktifkan"</string>
+    <string name="enable_disable_multi_category">"Multi-kategori"</string>
+    <string name="multi_category_enable">"Multi-kategori diaktifkan"</string>
+    <string name="multi_category_disable">"Multi-kategori dinonaktifkan"</string>
+    <string name="network_lte">"LTE (disarankan)"</string>
+    <string name="network_4G">"4G (disarankan)"</string>
+    <string name="network_global">"Global"</string>
+    <string name="network_tdscdma">"Hanya TDSCDMA"</string>
+    <!-- CDMA System select strings -->
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="cdma_system_select_title">"Pilih sistem"</string>
+    <!-- Mobile network settings screen, setting summary text -->
+    <string name="cdma_system_select_summary">"Ubah mode roaming CDMA"</string>
+    <!-- System select settings screen title -->
+    <string name="cdma_system_select_dialogtitle">"Pilih sistem"</string>
+    <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
+        <item>"Utama saja"</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
+        <item>"Otomatis"</item>
+    </string-array>
+    <string name="cdma_subscription_title">"Langganan CDMA"</string>
+    <string name="cdma_subscription_summary">"Ubah antara RUIM/SIM dan NV"</string>
+    <string name="cdma_subscription_dialogtitle">"langganan"</string>
+    <string-array name="cdma_subscription_choices">
+        <item>"RUIM//SIM"</item>
+        <item>"NV"</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    <!-- Preference title with which users can activate CDMA network [CHAR LIMIT=30] -->
+    <string name="cdma_activate_device">"Aktifkan perangkat"</string>
+    <!-- Preference title for launching an account manager page for prepaid LTE [CHAR LIMIT=30] -->
+    <string name="cdma_lte_data_service">"Siapkan layanan data"</string>
+    <!-- A menu item in "Mobile network settings" that allows the user to update the phone
+         with mobile operator specific settings. [CHAR LIMIT=25] -->
+    <string name="carrier_settings_title">"Setelan operator"</string>
+    <!-- FDN settings strings -->
+    <!-- Label for "Fixed Dialing Number" settings in call settings. -->
+    <string name="fdn">"Nomor Panggilan Tetap"</string>
+    <!-- Title for "Fixed Dialing Number" settings, with a label to identify the SIM the settings
+        apply to. -->
+    <string name="fdn_with_label">"Nomor Panggilan Tetap (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Call settings screen, button label that takes you to the Fixed Dialing Number management screen -->
+    <string name="manage_fdn_list">"Daftar FDN"</string>
+    <!-- Title for settings screen to manage Fixed Dialing Number contacts, with a label to identify
+         the SIM the settings apply to. -->
+    <string name="fdn_list_with_label">"Daftar NPT (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Call settings screen, preference item label -->
+    <string name="fdn_activation">"Aktivasi FDN"</string>
+    <!-- Call settings setting option name when FDN is enabled -->
+    <string name="fdn_enabled">"Nomor Panggilan Tetap diaktifkan"</string>
+    <!-- Call settings setting option name  when FDN is disabled-->
+    <string name="fdn_disabled">"Nomor Panggilan Tetap dinonaktifkan"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="enable_fdn">"Aktifkan FDN"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="disable_fdn">"Nonaktifkan FDN"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="change_pin2">"Ubah PIN2"</string>
+    <!-- Call settings screen, setting option name when FDN is enabled -->
+    <string name="enable_fdn_ok">"Nonaktifkan FDN"</string>
+    <!-- Call settings screen, setting option name when FDN is disabled -->
+    <string name="disable_fdn_ok">"Aktifkan FDN"</string>
+    <!-- Call settings screen, setting summary text -->
+    <string name="sum_fdn">"Kelola Nomor Panggilan Tetap"</string>
+    <!-- Call settings, FDN screen, setting option name -->
+    <string name="sum_fdn_change_pin">"Ubah PIN untuk akses FDN"</string>
+    <!-- Call settings, FDN screen, setting option name -->
+    <string name="sum_fdn_manage_list">"Kelola daftar nomor telepon"</string>
+    <!-- Voice privacy on CDMA is an added layer of voice encryption. Theoretically, it would be harder to break in to a phone call with this feature enabled. -->
+    <string name="voice_privacy">"Privasi suara"</string>
+    <string name="voice_privacy_summary">"Aktifkan mode privasi yang ditingkatkan"</string>
+    <string name="tty_mode_option_title">"Mode TTY"</string>
+    <string name="tty_mode_option_summary">"Setel Mode TTY"</string>
+    <string name="auto_retry_mode_title">"Coba lagi otomatis"</string>
+    <string name="auto_retry_mode_summary">"Aktifkan mode Coba lagi otomatis"</string>
+    <!-- TTY Mode change is NOT allowed during a video call -->
+    <string name="tty_mode_not_allowed_video_call">"Perubahan Mode TTY tidak diizinkan selama video call"</string>
+    <!-- FDN list screen: menu item label -->
+    <string name="menu_add">"Tambahkan kontak"</string>
+    <!-- FDN list screen: menu item label -->
+    <string name="menu_edit">"Edit kontak"</string>
+    <!-- FDN list screen: menu item label -->
+    <string name="menu_delete">"Hapus kontak"</string>
+    <!-- FDN related strings -->
+    <!-- Label for PIN2 entry screen -->
+    <string name="get_pin2">"Ketik PIN2"</string>
+    <!-- "Edit FDN Contact" screen: Label for the "name" text field -->
+    <string name="name">"Nama"</string>
+    <!-- "Edit FDN Contact" screen: Label for the "number" text field -->
+    <string name="number">"Nomor"</string>
+    <!-- "Edit FDN Contact" screen: Button label for "save" action -->
+    <string name="save">"Simpan"</string>
+    <!-- Title of "Edit FDN Contact" screen for a new contact -->
+    <string name="add_fdn_contact">"Tambahkan nomor panggilan tetap"</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="adding_fdn_contact">"Menambahkan nomor panggilan tetap..."</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="fdn_contact_added">"Nomor panggilan tetap ditambahkan."</string>
+    <!-- Title of "Edit FDN Contact" screen when editing an already-existing contact -->
+    <string name="edit_fdn_contact">"Edit nomor panggilan tetap"</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="updating_fdn_contact">"Memperbarui nomor panggilan tetap..."</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="fdn_contact_updated">"Nomor panggilan tetap diperbarui."</string>
+    <!-- Title of "Delete FDN Contact" screen -->
+    <string name="delete_fdn_contact">"Hapus nomor panggilan tetap"</string>
+    <!-- "Delete FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="deleting_fdn_contact">"Menghapus nomor panggilan tetap..."</string>
+    <!-- "Delete FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="fdn_contact_deleted">"Nomor panggilan tetap dihapus."</string>
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="pin2_invalid">"FDN tidak diperbarui karena Anda memasukkan PIN yang salah."</string>
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="fdn_invalid_number">"FDN tidak diperbarui karena nomor kosong atau melampaui 20 angka."</string>
+    <!-- FDN settings: error message displayed in a popup (toast), when the entered
+         FDN number was inappropriate, OR, PIN2 the user entered was incorrect.
+         Because of API restriction, there's no way to determine which is the exact
+         cause of the failure.
+         [CHAR LIMIT=NONE] -->
+    <string name="pin2_or_fdn_invalid">"FDN tidak diperbarui. PIN2 salah, atau nomor telepon ditolak."</string>
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="fdn_failed">"Operasi FDN gagal."</string>
+    <string name="fdn_service_unavailable">"Layanan FDN tidak tersedia."</string>
+    <!-- ADN related strings -->
+    <!-- Placeholder text displayed while loading the list of SIM contacts -->
+    <string name="simContacts_emptyLoading">"Membaca dari kartu SIM\u2026"</string>
+    <!-- Title of the activity shown for Exporting contacts to SIM.  -->
+    <string name="exportContacts">"Mengekspor kontak ke kartu SIM\u2026"</string>
+    <!-- Call settings, string that appears on FDN contact list when there are no contacts on the SIM. -->
+    <string name="simContacts_empty">"Tidak ada kontak pada Kartu SIM."</string>
+    <!-- Appears when user tries to import contacts in SIM during airplane mode [CHAR LIMIT=NONE] -->
+    <string name="simContacts_airplaneMode">"Nonaktifkan mode pesawat untuk mengimpor kontak dari kartu SIM."</string>
+    <!-- Title of the List shown for SIM Contacts Management Activity.  -->
+    <string name="simContacts_title">"Pilih kontak untuk diimpor"</string>
+    <!-- Title of the dialog shown for SIM contact related operations. -->
+    <string name="Result_title">"Hasil..."</string>
+    <!-- SIM PIN strings -->
+    <!-- Title of "Enable/disable SIM PIN" screen -->
+    <string name="enable_pin">"Aktifkan/nonaktifkan PIN SIM"</string>
+    <!-- Title of "Change SIM PIN" screen -->
+    <string name="change_pin">"Ubah PIN SIM"</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="enter_pin_text">"PIN SIM:"</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="oldPinLabel">"PIN lama"</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="newPinLabel">"PIN Baru"</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="confirmPinLabel">"Konfirmasi PIN baru"</string>
+    <!-- SIM PIN screen: error message -->
+    <string name="badPin">"PIN lama yang Anda masukkan salah. Coba lagi."</string>
+    <!-- SIM PIN screen: error message -->
+    <string name="mismatchPin">"PIN yang Anda masukkan tidak cocok. Coba lagi."</string>
+    <!-- SIM PIN screen: error message when PIN is too short or too long -->
+    <string name="invalidPin">"Ketikkan PIN berupa 4 sampai 8 angka."</string>
+    <!-- Title of "Disable SIM PIN" screen -->
+    <string name="disable_sim_pin">"Hapus PIN SIM"</string>
+    <!-- Title of "Enable SIM PIN" screen -->
+    <string name="enable_sim_pin">"Setel PIN SIM"</string>
+    <!-- SIM PIN screen: progress message displayed while enabling -->
+    <string name="enable_in_progress">"Menyetel PIN\u2026"</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="enable_pin_ok">"PIN disetel"</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="disable_pin_ok">"PIN dihapus"</string>
+    <!-- SIM PIN screen: error message displayed in a popup (toast) -->
+    <string name="pin_failed">"PIN salah"</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="pin_changed">"PIN diperbarui"</string>
+    <!-- SIM PIN screen: error message displayed in a dialog -->
+    <string name="puk_requested">"Sandi salah. PIN kini diblokir. PUK diperlukan."</string>
+    <!-- SIM PIN2 strings -->
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="enter_pin2_text">"PIN2"</string>
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="oldPin2Label">"PIN2 yang lama"</string>
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="newPin2Label">"PIN2 Baru"</string>
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="confirmPin2Label">"Konfirmasi PIN2 baru"</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="badPuk2">"PUK2 salah. Coba lagi."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="badPin2">"PIN2 lama salah. Coba lagi."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="mismatchPin2">"PIN2 tidak cocok. Coba lagi."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="invalidPin2">"Masukkan PIN2 berisi 4 hingga 8 angka."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="invalidPuk2">"Masukkan PUK2 berisi 8 angka."</string>
+    <!-- SIM PIN2 screen: status message displayed in a popup (toast) -->
+    <string name="pin2_changed">"PIN2 diperbarui"</string>
+    <!-- SIM PIN2 screen: label for PUK2 entry widget -->
+    <string name="label_puk2_code">"Masukkan kode PUK2"</string>
+    <!-- SIM PIN2 screen: error message displayed in a dialog -->
+    <string name="fdn_enable_puk2_requested">"Sandi salah. PIN2 kini Diblokir. Untuk mencoba lagi, ubah PIN 2."</string>
+    <!-- SIM PIN2 screen: error message displayed in a dialog -->
+    <string name="puk2_requested">"Sandi salah. SIM kini dikunci. Masukkan PUK2."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="puk2_blocked">"PUK2 diblokir selamanya."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="pin2_attempts">"\nTersisa <xliff:g id="NUMBER">%d</xliff:g> upaya lagi."</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="pin2_unblocked">"PIN2 tidak lagi diblokir"</string>
+    <!-- SIM PIN screen: error message shown in dialog when there is a network or sim error.
+         [CHAR LIMIT=NONE] -->
+    <string name="pin2_error_exception">"Kesalahan jaringan atau kartu SIM"</string>
+    <!-- SIM PIN screen: button label -->
+    <string name="doneButton">"Selesai"</string>
+    <!-- Call settings screen, Set voicemail dialog title -->
+    <string name="voicemail_settings_number_label">"Nomor kotak pesan"</string>
+    <!-- Card titles -->
+    <!-- In-call screen: status label for a call in the "dialing" state -->
+    <string name="card_title_dialing">"Memanggil"</string>
+    <!-- In-call screen: status label for a re-dialing call -->
+    <string name="card_title_redialing">"Memanggil ulang"</string>
+    <!-- In-call screen: status label for a conference call -->
+    <string name="card_title_conf_call">"Telewicara"</string>
+    <!-- In-call screen: status label for an incoming call -->
+    <string name="card_title_incoming_call">"Panggilan masuk"</string>
+    <!-- In-call screen: status label displayed briefly after a call ends -->
+    <string name="card_title_call_ended">"Panggilan diakhiri"</string>
+    <!-- In-call screen: status label for call that's on hold -->
+    <string name="card_title_on_hold">"Ditangguhkan"</string>
+    <!-- In-call screen: status label for a call that's in the process of hanging up -->
+    <string name="card_title_hanging_up">"Menutup panggilan"</string>
+    <!-- In-call screen: status label for a call that's in CDMA flash mode -->
+    <string name="card_title_in_call">"Sedang dalam panggilan"</string>
+    <!-- In-call screen: status label for Unconditional Call Forwarding enabled  -->
+    <string name="card_title_unconditionalCF">"Penerusan Panggilan Tanpa Syarat diaktifkan"</string>
+    <!-- In-call screen: status label for Conditional Call Forwarding enabled  -->
+    <string name="card_title_conditionalCF">"Penerusan Panggilan Bersyarat diaktifkan"</string>
+    <!-- In-call screen: status label for a forwarded MO call  -->
+    <string name="card_title_MOcall_forwarding">"Panggilan Keluar yang Diteruskan"</string>
+    <!-- In-call screen: status label when Call waiting is enabled on remote party  -->
+    <string name="card_title_calliswaiting">"Panggilan Tunggu"</string>
+    <!-- In-call screen: status label for MO call, when the caller & callee both
+            belng to a CUG group -->
+    <string name="card_title_cugcall">"Panggilan CUG"</string>
+    <!-- In-call screen: status label when MO calls are barred -->
+    <string name="card_title_outgoing_barred">"Panggilan Keluar Diblokir"</string>
+    <!-- In-call screen: status label for MO calls, when incoming calls are barred
+            at remote party -->
+    <string name="card_title_incoming_barred">"Panggilan Masuk Diblokir"</string>
+    <!-- In-call screen: status label for MO calls when CLIR Suppression is rejected -->
+    <string name="card_title_clir_suppression_rejected">"Pencegahan CLIR Ditolak"</string>
+    <!-- In-call screen: status label when MO call gets deflected to another party -->
+    <string name="card_title_call_deflected">"Panggilan Dibelokkan"</string>
+    <!-- In-call screen: status label for incoming call being forwarded to other remote party  -->
+    <string name="card_title_MTcall_forwarding">"Panggilan Masuk Diteruskan"</string>
+    <!-- In-call screen: status label for incoming call forwarded from other remote party -->
+    <string name="card_title_forwarded_MTcall">"Panggilan Masuk yang Diteruskan"</string>
+    <!-- In-call screen: status label for incoming call which is answered & then put on hold  -->
+    <string name="card_title_callonhold">"Ditunda"</string>
+    <!-- In-call screen: status label for incoming call put on hold & then retreived back -->
+    <string name="card_title_callretrieved">"Panggilan Diambil"</string>
+    <!-- In-call screen: status label for incoming call which is part of MultiParty Call -->
+    <string name="card_title_multipartycall">"Panggilan Multi-Pihak"</string>
+    <!-- In-call screen: status label for incoming call which is answered,
+            put on hold & then released -->
+    <string name="card_title_callonhold_released">"Panggilan Dilepas"</string>
+    <!-- In-call screen: status label for incoming call forward check received -->
+    <string name="card_title_forwardcheckreceived">"Pemeriksaan Penerusan Panggilan Diterima"</string>
+    <!-- In-call screen: status label for incoming call connecting through ECT -->
+    <string name="card_title_callconnectingect">"Panggilan Menghubungi melalui ECT"</string>
+    <!-- In-call screen: status label for incoming call connected through ECT -->
+    <string name="card_title_callconnectedect">"Panggilan Terhubung melalui ECT"</string>
+    <!-- In-call screen: status label for incoming call is a deflected call -->
+    <string name="card_title_deflectedcall">"Panggilan yang Dibelokkan"</string>
+    <!-- Notification strings -->
+    <!-- Label for the "Voicemail" notification item, when expanded. -->
+    <string name="notification_voicemail_title">"Kotak pesan baru"</string>
+    <!-- Label for the expanded "Voicemail" notification item,
+         including a count of messages. -->
+    <string name="notification_voicemail_title_count">"Kotak pesan baru (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <!-- Message displayed in the "Voicemail" notification item, allowing the user
+         to dial the indicated number. -->
+    <string name="notification_voicemail_text_format">"Panggil <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <!-- Message displayed in the "Voicemail" notification item,
+         indicating that there's no voicemail number available -->
+    <string name="notification_voicemail_no_vm_number">"Nomor kotak pesan tidak dikenal"</string>
+    <!-- Label for the "No service" notification item, when expanded. -->
+    <string name="notification_network_selection_title">"Tidak ada layanan"</string>
+    <!-- Label for the expanded "No service" notification item, including the
+         operator name set by user -->
+    <string name="notification_network_selection_text">"Jaringan yang dipilih (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) tidak tersedia"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog. [CHAR_LIMIT=NONE] -->
+    <string name="incall_error_power_off">"Nonaktifkan mode pesawat untuk melakukan panggilan"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog when in airplane mode, WFC is enabled, not wifi-only, and not connected to wireless networks. [CHAR_LIMIT=NONE] -->
+    <string name="incall_error_power_off_wfc">"Nonaktifkan mode pesawat atau sambungkan ke jaringan nirkabel untuk melakukan panggilan"</string>
+    <!-- In-call screen: call failure message displayed when the user attempts to make a non-emergency call while the phone is in emergency callback mode. -->
+    <string name="incall_error_ecm_emergency_only">"Keluar dari mode telepon balik darurat untuk melakukan panggilan non-darurat."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog.
+         This string is currently unused (see comments in InCallScreen.java.) -->
+    <string name="incall_error_emergency_only">"Tidak terdaftar pada jaringan."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_out_of_service">"Jaringan seluler tidak tersedia."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_out_of_service_wfc">"Jaringan selular tidak tersedia. Sambungkan ke jaringan nirkabel untuk melakukan panggilan."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_no_phone_number_supplied">"Untuk melakukan panggilan telepon, masukkan nomor yang valid."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_call_failed">"Tidak dapat menelepon."</string>
+    <!-- In-call screen: status message displayed in a dialog when starting an MMI -->
+    <string name="incall_status_dialed_mmi">"Memulai urutan MMI..."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_unknown">"Layanan tidak didukung"</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_switch">"Tidak dapat berganti panggilan telepon."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_separate">"Tidak dapat memisahkan panggilan telepon."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_transfer">"Tidak dapat mentransfer."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_conference">"Tidak dapat melakukan telewicara."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_reject">"Tidak dapat menolak panggilan telepon."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_hangup">"Tidak dapat melepas panggilan telepon."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog when WFC is enabled, is wifi-only, and not connected to a wireless network. [CHAR_LIMIT=NONE] -->
+    <string name="incall_error_wfc_only_no_wireless_network">"Sambungkan ke jaringan nirkabel untuk melakukan panggilan"</string>
+    <!-- In-call screen: call failure message displayed in errror dialog -->
+    <string name="incall_error_local_low_battery">"Panggilan gagal karena baterai lemah!!!."</string>
+    <!-- In-call screen: call failure message displayed in errror dialog -->
+    <string name="incall_error_low_battery">"Panggilan gagal karena baterai perangkat jarak jauh lemah!!!."</string>
+    <!-- Dialog title for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_title">"Panggilan darurat"</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_message">"Menghidupkan radio..."</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_retry">"Tidak ada layanan. Mencoba lagi\u2026"</string>
+    <!-- Dialer text on Emergency Dialer -->
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_error">"Tidak dapat menelepon. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> bukan nomor darurat."</string>
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_empty_error">"Tidak dapat menelepon. Panggil nomor darurat."</string>
+    <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
+         to dial using the physical keyboard -->
+    <string name="dialerKeyboardHintText">"Gunakan keyboard untuk memanggil"</string>
+    <!-- Text for the onscreen "Hold" button -->
+    <string name="onscreenHoldText">"Tahan"</string>
+    <!-- Text for the onscreen "End call" button -->
+    <string name="onscreenEndCallText">"Akhiri"</string>
+    <!-- Text for the onscreen "Show Dialpad" button -->
+    <string name="onscreenShowDialpadText">"Dialpad"</string>
+    <!-- Text for the onscreen "Mute" button -->
+    <string name="onscreenMuteText">"Bungkam"</string>
+    <!-- Text for the onscreen "Add call" button -->
+    <string name="onscreenAddCallText">"Tambahkan panggilan"</string>
+    <!-- Text for the onscreen "Merge calls" button -->
+    <string name="onscreenMergeCallsText">"Gabungkan panggilan"</string>
+    <!-- Text for the onscreen "Swap calls" button -->
+    <string name="onscreenSwapCallsText">"Tukar"</string>
+    <!-- Text for the onscreen "Manage calls" button -->
+    <string name="onscreenManageCallsText">"Kelola panggilan"</string>
+    <!-- Text for the onscreen "Manage conference" button [CHAR LIMIT=20] -->
+    <string name="onscreenManageConferenceText">"Kelola konferensi"</string>
+    <!-- Text for the onscreen "Audio" button that lets you switch
+         between speaker / bluetooth / earpiece [CHAR LIMIT=10] -->
+    <string name="onscreenAudioText">"Audio"</string>
+    <!-- Text for the onscreen "Video call" button used to change a voice call
+         to a video call. [CHAR LIMIT=10] -->
+    <string name="onscreenVideoCallText">"Video call"</string>
+    <!-- Menu item label in SIM Contacts: Import a single contact entry from the SIM card -->
+    <string name="importSimEntry">"Impor"</string>
+    <!-- Menu item label in SIM Contacts: Import all contact entries from the SIM card -->
+    <string name="importAllSimEntries">"Impor semua"</string>
+    <!-- SIM Contacts: status message displayed while importing card -->
+    <string name="importingSimContacts">"Mengimpor kontak dari SIM"</string>
+    <!-- Import a single contact entry from contacts to the SIM card -->
+    <string name="importToFDNfromContacts">"Impor dari kontak"</string>
+    <!-- Hearing aid settings -->
+    <string name="hac_mode_title">"Alat bantu dengar"</string>
+    <string name="hac_mode_summary">"Hidupkan kompatibilitas alat bantu dengar"</string>
+    <!-- Service option entries.  -->
+    <string-array name="tty_mode_entries">
+        <item>"TTY Mati"</item>
+        <item>"TTY Penuh"</item>
+        <item>"TTY HCO"</item>
+        <item>"TTY VCO"</item>
+    </string-array>
+    <!-- Dtmf tones settings -->
+    <!-- Title for the DTMF Tones options displayed in Call Settings -->
+    <string name="dtmf_tones_title">"Nada DTMF"</string>
+    <!-- Summary for the DTMF Tones options displayed in Call Settings -->
+    <string name="dtmf_tones_summary">"Setel panjang nada DTMF"</string>
+    <!-- Options displayed as part of DTMF Tones in Call Settings -->
+    <string-array name="dtmf_tone_entries">
+      <item>"Normal"</item>
+      <item>"Jauh"</item>
+    </string-array>
+    <!-- Title for the dialog used to display CDMA DisplayInfo -->
+    <string name="network_info_message">"Pesan jaringan"</string>
+    <!-- Title for the dialog used to display a network error message to the user -->
+    <string name="network_error_message">"Pesan kesalahan"</string>
+    <!-- Shown in "Managed Roaming" dialog when registration is denied with rejCode 10. -->
+    <string name="managed_roaming_title">"Jelajah Terkontrol"</string>
+    <string name="managed_roaming_title_sub">"Roaming Dikelola (LANGGANAN<xliff:g id="index" example="1">%d</xliff:g>)"</string>
+    <string name="managed_roaming_dialog_content">"Jaringan dgn Layanan Terbatas ditemukan. Apakah Anda ingin memulai Pencarian Jaringan?"</string>
+    <!-- OTA-specific strings -->
+    <!-- Title shown on OTA screen -->
+    <string name="ota_title_activate">"Aktifkan ponsel Anda"</string>
+    <!-- Message displayed on the OTA activation screen. -->
+    <string name="ota_touch_activate">"Perlu dilakukan panggilan khusus untuk mengaktifkan layanan ponsel Anda. \n\nSetelah menekan “Aktifkan”, dengarkan instruksi yang diberikan untuk mengaktifkan ponsel."</string>
+    <!-- Title shown during Hands Free Activation -->
+    <string name="ota_hfa_activation_title">"Mengaktifkan..."</string>
+    <!-- Message shown during the hands free activation screen of the setup wizard. -->
+    <string name="ota_hfa_activation_dialog_message">"Ponsel mengaktifkan layanan data seluler Anda.\n\nIni dapat memakan waktu sampai 5 menit."</string>
+    <!-- Title of skip activation dialog -->
+    <string name="ota_skip_activation_dialog_title">"Lewati aktivasi?"</string>
+    <!-- Message displayed in skip activation dialog  -->
+    <string name="ota_skip_activation_dialog_message">"Jika Anda mengabaikan aktivasi, Anda tidak dapat melakukan panggilan atau menyambung ke jaringan data seluler (walaupun dapat menyambung ke jaringan Wi-Fi). Sampai ponsel diaktifkan, Anda akan diminta mengaktifkannya setiap kali ponsel dihidupkan."</string>
+    <!-- Label shown on dialog button that allows the user to skip activation -->
+    <string name="ota_skip_activation_dialog_skip_label">"Lewati"</string>
+    <!-- Button label within the OTA activation screen -->
+    <string name="ota_activate">"Aktifkan"</string>
+    <!-- Title text shown when phone activation is successful -->
+    <string name="ota_title_activate_success">"Ponsel telah aktif."</string>
+    <!-- Title text shown on screen where activation fails -->
+    <string name="ota_title_problem_with_activation">"Masalah dengan aktivasi"</string>
+    <!-- Message displayed on the OTA "listening" screen. This message
+         needs to be kept at 2 lines or less to be sure that there's
+         enough room for the dialpad. [CHAR LIMIT=80] -->
+    <string name="ota_listen">"Ikuti instruksi lisan sampai Anda mendengar aktivasi telah selesai."</string>
+    <!-- Button label within the OTA listen screen -->
+    <string name="ota_speaker">"Pengeras Suara"</string>
+    <!-- String to be displayed on OTA listen screen once user has selected the
+         correct option to begin provisioning -->
+    <string name="ota_progress">"Memprogram ponsel\u2026"</string>
+    <!-- String to display within the OTA Fail Notice dialog -->
+    <string name="ota_failure">"Tidak dapat memprogram ponsel"</string>
+    <!-- String to be displayed on the OTA Fail/Success screen upon successful provisioning -->
+    <string name="ota_successful">"Ponsel Anda sekarang diaktifkan. Mungkin dibutuhkan waktu hingga 15 menit sampai layanan dimulai."</string>
+    <!-- String to be displayed on the OTA Fail/Success screen upon unsuccessful provisioning -->
+    <string name="ota_unsuccessful">"Ponsel Anda tidak aktif. \nAnda mungkin perlu menemukan area dengan cakupan yang lebih baik (di dekat jendela atau di luar). \n\nCoba lagi atau hubungi layanan pelanggan untuk opsi lainnya."</string>
+    <!-- String to display within the OTA SPC Fail Notice dialog -->
+    <string name="ota_spc_failure">"KEGAGALAN SPC BERLEBIH"</string>
+    <!-- Button label in OTA listen screen that cancels activation and goes to the previous screen -->
+    <string name="ota_call_end">"Kembali"</string>
+    <!-- Button label shown on OTA error screen to allow the user to try again -->
+    <string name="ota_try_again">"Coba lagi"</string>
+    <!-- Button label shown on OTA screens that have a next screen -->
+    <string name="ota_next">"Berikutnya"</string>
+    <!-- Emergency Callback Mode (ECM) -->
+    <string name="ecm_exit_dialog">EcmExitDialog</string>
+    <!-- ECM: Status bar notification message -->
+    <string name="phone_entered_ecm_text">"Masukkan Mode Panggilan Balik Darurat"</string>
+    <!-- ECM: Notification title -->
+    <string name="phone_in_ecm_notification_title">"Mode Panggilan Balik Darurat"</string>
+    <!-- ECM: Notification body -->
+    <string name="phone_in_ecm_call_notification_text">"Sambungan data dinonaktifkan"</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Tidak ada sambungan data selama <xliff:g id="COUNT">%s</xliff:g> menit"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Tidak ada sambungan data selama <xliff:g id="COUNT">%s</xliff:g> menit"</item>
+    </plurals>
+    <!-- ECM: Dialog box message for exiting from the notifications screen -->
+    <plurals name="alert_dialog_exit_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Ponsel akan berada dalam mode Panggil Balik Darurat selama <xliff:g id="COUNT">%s</xliff:g> menit. Selama dalam mode ini, aplikasi yang menggunakan sambungan data tidak dapat dipakai. Apakah Anda ingin keluar sekarang?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Ponsel akan berada dalam mode Panggil Balik Darurat selama <xliff:g id="COUNT">%s</xliff:g> menit. Selama dalam mode ini, aplikasi yang menggunakan sambungan data tidak dapat dipakai. Apakah Anda ingin keluar sekarang?"</item>
+    </plurals>
+    <!-- ECM: Dialog box message for exiting from any other app -->
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Tindakan yang dipilih tidak tersedia saat berada dalam mode Panggil Balik Darurat. Ponsel akan berada dalam mode ini selama <xliff:g id="COUNT">%s</xliff:g> menit. Apakah Anda ingin keluar sekarang?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Tindakan yang dipilih tidak tersedia saat berada dalam mode Panggil Balik Darurat. Ponsel akan berada dalam mode ini untuk <xliff:g id="COUNT">%s</xliff:g> menit. Apakah Anda ingin keluar sekarang?"</item>
+    </plurals>
+    <!-- ECM: Dialog box message while in emergency call -->
+    <string name="alert_dialog_in_ecm_call">"Tindakan yang dipilih tidak tersedia ketika dalam panggilan darurat."</string>
+    <!-- ECM: Progress text -->
+    <string name="progress_dialog_exiting_ecm">"Keluar dari mode Panggilan Balik Darurat"</string>
+    <!-- ECM: ECM exit dialog choice -->
+    <string name="alert_dialog_yes">"Ya"</string>
+    <!-- ECM: ECM exit dialog choice -->
+    <string name="alert_dialog_no">"Tidak"</string>
+    <!-- ECM: ECM exit dialog choice -->
+    <string name="alert_dialog_dismiss">"Tutup"</string>
+    <!-- Preference for Voicemail service provider under "Voicemail" settings.
+         [CHAR LIMIT=40] -->
+    <string name="voicemail_provider">"Layanan"</string>
+    <!-- Preference for Voicemail setting of each provider.
+         [CHAR LIMIT=40] -->
+    <string name="voicemail_settings">"Penyiapan"</string>
+    <!-- String to display in voicemail number summary when no voicemail num is set -->
+    <string name="voicemail_number_not_set">"&lt;Tidak disetel&gt;"</string>
+    <!-- Title displayed above settings coming after voicemail in the call features screen -->
+    <string name="other_settings">"Setelan panggilan lainnya"</string>
+    <!-- Title displayed in the overlay when a call is placed using a 3rd party provider.
+         [CHAR LIMIT=40] -->
+    <string name="calling_via_template">"Memanggil via <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <!-- Use this as a default to describe the contact photo; currently for screen readers through accessibility. -->
+    <string name="contactPhoto">"foto kontak"</string>
+    <!-- Use this to describe the separate conference call button; currently for screen readers through accessibility. -->
+    <string name="goPrivate">"aktifkan pribadi"</string>
+    <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
+    <string name="selectContact">"pilih kontak"</string>
+    <!-- Dialog title to notify user that Voice calling is not supported
+         on this device. [CHAR LIMIT=40] -->
+    <string name="not_voice_capable">"Panggilan suara tidak didukung"</string>
+    <!-- String describing the Dial ImageButton
+         Used by AccessibilityService to announce the purpose of the button.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_dial_button">"panggil"</string>
+    <!-- Title for the vibration settings for voicemail notifications [CHAR LIMIT=40] -->
+    <string name="voicemail_notification_vibrate_when_title" msgid="8731372580674292759">"Getar"</string>
+    <!-- Dialog title for the vibration settings for voice mail notifications [CHAR LIMIT=40]-->
+    <string name="voicemail_notification_vibarte_when_dialog_title" msgid="8995274609647451109">"Getar"</string>
+    <!-- Visual voicemail on/off title [CHAR LIMIT=40] -->
+    <string name="voicemail_visual_voicemail_switch_title">"Kotak Pesan Visual"</string>
+    <!-- Voicemail ringtone title. The user clicks on this preference to select
+         which sound to play when a voicemail notification is received.
+         [CHAR LIMIT=30] -->
+    <string name="voicemail_notification_ringtone_title">"Suara"</string>
+    <!-- Title for the category "ringtone", which is shown above ringtone and vibration
+         related settings.
+         [CHAR LIMIT=30] -->
+    <string name="preference_category_ringtone">"Nada dering &amp; Getar"</string>
+    <!-- String resource for the font-family to use for the call setting activity's title
+         Do not translate. -->
+    <string name="call_settings_title_font_family">sans-serif-light</string>
+    <!-- Label for PSTN connection service. -->
+    <string name="pstn_connection_service_label">"Kartu SIM internal"</string>
+    <!-- Label for enabling video calling. -->
+    <string name="enable_video_calling_title">"Aktifkan video call"</string>
+    <!-- Message for dialog shown when the user tries to turn on video calling but enhanced 4G LTE
+         is disabled. They have to turn on Enhanced 4G LTE capability in network settings first. -->
+    <string name="enable_video_calling_dialog_msg">"Untuk mengaktifkan video call, Anda perlu mengaktifkan Mode LTE 4G yang Ditingkatkan di setelan jaringan."</string>
+    <!-- Label for action button in dialog which opens mobile network settings, for video calling
+         setting. -->
+    <string name="enable_video_calling_dialog_settings">"Setelan jaringan"</string>
+    <!-- Label for close button in dialog, for video calling setting. -->
+    <string name="enable_video_calling_dialog_close">"Tutup"</string>
+    <!-- Strings used in Settings->Sim cards for each installed Sim. -->
+    <string name="sim_label_emergency_calls">"Panggilan darurat"</string>
+    <string name="sim_description_emergency_calls">"Hanya panggilan darurat"</string>
+    <string name="sim_description_default">"Kartu SIM, slot: <xliff:g id="slot_id">%s</xliff:g>"</string>
+    <!-- Title for activity to control accessibility settings such as TTY mode and hearing aid
+         compatability. [CHAR LIMIT=40] -->
+    <string name="accessibility_settings_activity_title">"Aksesibilitas"</string>
+    <!-- Status hint label for an incoming call over a wifi network which has not been accepted yet.
+         [CHAR LIMIT=25] -->
+    <string name="status_hint_label_incoming_wifi_call">"Panggilan Wi-Fi masuk"</string>
+    <!-- Status hint label for a call being made over a wifi network. [CHAR LIMIT=25] -->
+    <string name="status_hint_label_wifi_call">"Panggilan Wi-Fi"</string>
+    <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
+    <string name="voicemail_notification_ringtone_key">voicemail_notification_ringtone_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
+    <string name="voicemail_notification_vibrate_key">voicemail_notification_vibrate_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for a visual voicemail preference. -->
+    <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for tty mode preference. -->
+    <string name="tty_mode_key">button_tty_mode_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
+    <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
+    <!-- Hint appearing below a selected action on the emergency dialer telling user to tap again to execute the action [CHAR LIMIT=NONE] -->
+    <string name="emergency_action_launch_hint">"Sentuh lagi untuk membuka"</string>
+    <!-- Strings for IMAP -->
+    <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
+       data was received.) [CHAR LIMIT=none] -->
+    <string name="message_decode_error">"Terjadi kesalahan saat mendekode pesan."</string>
+    <!-- Call failure reason: SIM card and roaming capabilities have already been activated. [CHAR LIMIT=NONE]-->
+    <string name="callFailed_cdma_activation">"Kartu SIM telah mengaktifkan layanan dan memperbarui kemampuan roaming ponsel."</string>
+    <!-- Sim contacts management -->
+    <string name="contactScreen">" Tambah/Edit Kontak SIM"</string>
+    <string name="exportContactScreen">" Ekspor kontak ponsel ke sim "</string>
+    <string name="addSimEntries">" Tambah Kontak SIM"</string>
+    <string name="deleteAllSimEntries">" Hapus Semua Kontak SIM"</string>
+    <string name="deleteSimContacts">"Menghapus Kontak SIM"</string>
+    <string name="editContact">" Edit"</string>
+    <string name="sendSms">" Mengirim SMS"</string>
+    <string name="delete">" Hapus"</string>
+    <string name="dial">" Panggil"</string>
+    <string name="enterName">" Masukkan Nama:"</string>
+    <string name="enterNumber">" Masukkan Nomor Telepon:"</string>
+    <string name="hintName">"Nama."</string>
+    <string name="hintPhonenumber">"Nomor Telepon."</string>
+    <string name="contactAddSuccess">" Berhasil menambahkan kontak ke SIM "</string>
+    <string name="contactAddFailed">" Gagal menambahkan kontak ke SIM !!!"</string>
+    <string name="contactUpdateSuccess">" Berhasil memperbarui kontak di SIM "</string>
+    <string name="contactUpdateFailed">" Gagal memperbarui kontak di SIM !!!"</string>
+    <string name="contactdeleteSuccess">" Berhasil menghapus kontak dari SIM "</string>
+    <string name="contactdeleteFailed">" Gagal menghapus kontak dari SIM !!!"</string>
+    <string name="allContactdeleteSuccess">" Berhasil menghapus semua kontak dari SIM "</string>
+    <string name="allContactdeleteFailed">" Gagal menghapus kontak dari SIM !!!"</string>
+    <string name="exportAllcontatsSuccess">"Berhasil mengekspor semua kontak ke SIM "</string>
+    <string name="exportAllcontatsFailed">" Gagal mengekspor semua kontak ke SIM !!!"</string>
+    <string name="exportAllcontatsNoContacts">" Tidak ada kontak untuk diekspor ke SIM!!!"</string>
+    <string name="cursorError">" Kursor tidak memiliki data yang benar !!! "</string>
+     <!-- XDivert Settings -->
+     <!-- Title for the XDivert Feature displayed in Call Settings -->
+     <string name="xdivert_title">"Pengalihan-X"</string>
+     <!-- Summary for the XDivert Feature displayed in Call Settings -->
+     <string name="xdivert_summary">"Setelan CFNRc"</string>
+    <string name="CFActivate">"Aktifkan"</string>
+    <string name="CFDeactivate">"Nonaktifkan"</string>
+    <string name="null_phone_number">"Nomor telepon tidak boleh nol !"</string>
+    <string name="labelCFDeactAll">"Nonaktifkan Semua"</string>
+    <string name="srvcc_video_message">"Panggilan video telah diturunkan ke panggilan suara 2G/3G, karena jaringan 4G tidak tersedia."</string>
+    <string name="srvcc_message">"Panggilan suara 4G telah diturunkan ke panggilan 2G/3G, karena jaringan 4G tidak tersedia."</string>
+    <string name="no_mobile_data">"Paket data seluler tidak tersedia"</string>
+    <string name="no_mobile_data_roaming">"Jelajah data tidak tersedia"</string>
+    <string name="sim_lock_with_limited_service_title">"Kunci Jaringan"</string>
+    <string name="sim_lock_with_limited_service_desc">"Perangkat ini dapat dibuka kuncinya secara jarak jauh jika memenuhi syarat. Harap gunakan aplikasi Pembuka Kunci Perangkat untuk membuka kunci perangkat. Pastikan perangkat memiliki konektivitas internet untuk menggunakan aplikasi Pembuka Kunci Perangkat"</string></resources>

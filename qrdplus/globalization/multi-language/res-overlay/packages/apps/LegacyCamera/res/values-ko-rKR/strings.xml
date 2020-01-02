@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General strings -->
+    <!-- title for the dialog showing the error of camera hardware -->
+    <string name="camera_error_title">"카메라 오류"</string>
+    <!-- message for the dialog showing the error of camera hardware -->
+    <string name="cannot_connect_camera">"카메라에 연결할 수 없습니다."</string>
+    <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
+    <string name="camera_disabled">"보안 정책으로 인해 카메라 사용이 중지되었습니다."</string>
+    <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
+    <string name="camera_label">"카메라"</string>
+    <!-- label for the 'video recording application shown in the top level 'all applications' -->
+    <string name="video_camera_label">"캠코더"</string>
+    <!-- label for the folder that contains Camera pictures in the gallery -->
+    <string name="gallery_camera_bucket_name">"카메라 사진"</string>
+    <!-- label for the folder that contains Camera videos in the gallery -->
+    <string name="gallery_camera_videos_bucket_name">"카메라 동영상"</string>
+    <!-- alert to the user to wait for some operation to complete -->
+    <string name="wait">"잠시 기다려 주세요..."</string>
+    <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
+    <string name="no_storage" product="nosdcard">"카메라를 사용하기 전에 USB 저장소를 마운트하세요."</string>
+    <!-- alert to the user that an SD card must be installed before using the camera -->
+    <string name="no_storage" product="default">"카메라를 사용하기 전에 SD 카드를 삽입하세요."</string>
+    <!-- alert to the user that the USB storage is too full to complete the operation [CHAR LIMIT=NONE] -->
+    <string name="not_enough_space" product="nosdcard">"USB 저장소가 꽉 찼습니다."</string>
+    <!-- alert to the user that the SD card is too full to complete the operation -->
+    <string name="not_enough_space" product="default">"SD 카드가 꽉 찼습니다."</string>
+    <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+    <string name="preparing_sd" product="nosdcard">"USB 저장소 준비 중\u2026"</string>
+    <!-- alert to the user that the SD card is being disk-checked -->
+    <string name="preparing_sd" product="default">"SD 카드 준비중..."</string>
+    <!-- alert to the user that the camera fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+    <string name="access_sd_fail" product="nosdcard">"USB 저장소에 액세스하지 못했습니다."</string>
+    <!-- alert to the user that the camera fails to read or write the SD card. -->
+    <string name="access_sd_fail" product="default">"SD 카드에 액세스하지 못했습니다."</string>
+    <!-- Confirmation dialog when restoring settings -->
+    <string name="confirm_restore_title">"기본값 복원"</string>
+    <string name="confirm_restore_message">"카메라 기본 설정값을 복원하시겠습니까?"</string>
+    <!-- button in review mode indicating that the video just taken should be played [CHAR LIMIT=10] -->
+    <string name="review_play">"재생"</string>
+    <!-- button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT=10] -->
+    <string name="review_cancel">"취소"</string>
+    <!-- button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT=10] -->
+    <string name="review_ok">"완료"</string>
+    <!-- button in review mode indicate the user want to retake another photo/video for attachment [CHAR LIMIT=10] -->
+    <string name="review_retake">"다시 촬영"</string>
+    <!-- Button indicating to go to the image gallery -->
+    <string name="camera_gallery_photos_text">"갤러리"</string>
+    <!-- Button indicating to switch to another camera -->
+    <string name="switch_camera_id">"카메라 방향 전환"</string>
+    <!-- A lable that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
+    <string name="time_lapse_title">"저속 촬영"</string>
+    <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
+    <string name="pref_camera_id_title">"카메라 선택"</string>
+    <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_back">"후방"</string>
+    <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_front">"전방"</string>
+    <!-- Settings screen, setting title text -->
+    <string name="pref_camera_recordlocation_title">"위치 저장"</string>
+    <!-- Settings screen, Record location dialog choices -->
+    <string name="pref_camera_recordlocation_entry_off">"사용 안함"</string>
+    <string name="pref_camera_recordlocation_entry_on">"사용"</string>
+    <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
+    <string name="pref_video_quality_title">"동영상 화질"</string>
+    <!-- Describes the preference dialog for choosing interval between frame capture for
+    time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
+    <string name="pref_video_time_lapse_frame_interval_title">"시간 경과 간격"</string>
+    <!-- Settings screen, Camera setting category title -->
+    <string name="pref_camera_settings_category">"카메라 설정"</string>
+    <!-- Settings screen, Camcorder setting category title -->
+    <string name="pref_camcorder_settings_category">"캠코더 설정"</string>
+    <!-- Settings screen, Picture size title -->
+    <string name="pref_camera_picturesize_title">"사진 크기"</string>
+    <!-- Settings screen, Picture size dialog radio button choices -->
+    <string name="pref_camera_picturesize_entry_2592x1936">"5M 픽셀"</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">"3M 픽셀"</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">"2M 픽셀"</string>
+    <string name="pref_camera_picturesize_entry_1280x960">"1.3M 픽셀"</string>
+    <string name="pref_camera_picturesize_entry_1024x768">"1M 픽셀"</string>
+    <string name="pref_camera_picturesize_entry_640x480">VGA</string>
+    <string name="pref_camera_picturesize_entry_320x240">QVGA</string>
+    <!-- Settings screen, Focus mode title -->
+    <string name="pref_camera_focusmode_title">"초점 모드"</string>
+    <!-- Settings screen, Focue mode dialog radio button choices -->
+    <string name="pref_camera_focusmode_entry_auto">"자동"</string>
+    <string name="pref_camera_focusmode_entry_infinity">"무한"</string>
+    <string name="pref_camera_focusmode_entry_macro">"매크로"</string>
+    <!-- Settings screen, Flash mode title -->
+    <string name="pref_camera_flashmode_title">"플래시 모드"</string>
+    <!-- Settings screen, Flash mode dialog radio button choices -->
+    <string name="pref_camera_flashmode_entry_auto">"자동"</string>
+    <string name="pref_camera_flashmode_entry_on">"사용"</string>
+    <string name="pref_camera_flashmode_entry_off">"사용 안함"</string>
+    <!-- Settings screen, white balance title -->
+    <string name="pref_camera_whitebalance_title">"화이트 밸런스"</string>
+    <!-- Settings screen, White balance dialog radio button choices -->
+    <string name="pref_camera_whitebalance_entry_auto">"자동"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">"백열"</string>
+    <string name="pref_camera_whitebalance_entry_daylight">"일광"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">"형광"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">"흐림"</string>
+    <!-- Settings screen, Select Scene mode -->
+    <string name="pref_camera_scenemode_title">"장면 모드"</string>
+    <!-- Settings menu, scene mode choices -->
+    <string name="pref_camera_scenemode_entry_auto">"자동"</string>
+    <!-- Scene mode that takes an image quickly with little motion blur. -->
+    <string name="pref_camera_scenemode_entry_action">"동작"</string>
+    <!-- Scene mode that takes long exposures to capture night scenes without flash. -->
+    <string name="pref_camera_scenemode_entry_night">"야간"</string>
+    <!-- Scene mode optimized for taking images in the sunset. -->
+    <string name="pref_camera_scenemode_entry_sunset">"일몰"</string>
+    <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_party">"파티"</string>
+    <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
+    <string name="not_selectable_in_scene_mode">"장면 모드에서 선택할 수 없습니다."</string>
+    <!-- Restore settings item in preference -->
+    <string name="pref_restore_title">"카메라 설정"</string>
+    <string name="pref_restore_detail">"기본값 복원"</string>
+    <!-- Exposure settings in preference -->
+    <string name="pref_exposure_title">"노출"</string>
+    <!-- Dialog "OK" button. Dismisses dialog. -->
+    <string name="dialog_ok">"확인"</string>
+    <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+    <string name="spaceIsLow_content" product="nosdcard">"USB 저장장치의 공간이 부족합니다. 화질 설정을 변경하거나 일부 이미지 또는 기타 파일을 삭제하세요."</string>
+    <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
+    <string name="spaceIsLow_content" product="default">"SD 카드의 공간이 부족합니다. 화질 설정을 변경하거나 일부 이미지 또는 기타 파일을 삭제하세요."</string>
+    <!-- The messsage shown when video record reaches size limit. -->
+    <string name="video_reach_size_limit">"크기 한도에 도달했습니다."</string>
+    <!-- The text of menu item to switch the mode to Camera. [CHAR LIMIT=NONE] -->
+    <string name="switch_to_camera_label">"카메라로 전환"</string>
+    <!-- The text of menu item to switch the mode to Video. [CHAR LIMIT=NONE] -->
+    <string name="switch_to_video_label">"동영상으로 전환"</string>
+    <!-- The text of menu item to switch the mode to Panorama. [CHAR LIMIT=NONE] -->
+    <string name="switch_to_panorama_label">"파노라마로 전환"</string>
+    <!-- Title of the dialog showing a list of applications that can share the captured picture. [CHAR LIMIT=30] -->
+    <string name="share_picture_via">"사진 공유 애플리케이션"</string>
+    <!-- Title of the dialog showing a list of applications that can share the captured video. [CHAR LIMIT=30] -->
+    <string name="share_video_via">"동영상 공유 애플리케이션"</string>
+    <!-- Toast saying that there is no picture to share. [CHAR LIMIT=30] -->
+    <string name="no_picture_to_share">"공유할 사진 없음"</string>
+    <!-- Toast saying that there is no video to share. [CHAR LIMIT=30] -->
+    <string name="no_video_to_share">"공유할 동영상 없음"</string>
+    <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=12] -->
+    <string name="pano_too_fast_prompt">"너무 빠름"</string>
+    <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
+    <string name="pano_dialog_prepare_preview">"파노라마 준비 중"</string>
+    <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
+    <string name="pano_dialog_panorama_failed">"파노라마를 저장하지 못했습니다."</string>
+    <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
+    <string name="pano_dialog_title">"파노라마"</string>
+    <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
+    <string name="pano_capture_indication">"파노라마 캡처 중"</string>
+    <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
+    <string name="pano_review_saving_indication_str">"저장 중\u2026"</string>
+    <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
+    <string name="tap_to_focus">"초점을 맞추려면 터치하세요."</string>
+    <!-- Title of video effect setting popup window -->
+    <string name="pref_video_effect_title">"효과"</string>
+    <!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
+    <string name="effect_none">"없음"</string>
+    <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
+    <string name="effect_goofy_face_squeeze">"찌그러뜨리기"</string>
+    <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
+    <string name="effect_goofy_face_big_eyes">"눈 크게"</string>
+    <!-- Effect setting item that makes mouth big. [CHAR LIMIT=14] -->
+    <string name="effect_goofy_face_big_mouth">"입 크게"</string>
+    <!-- Effect setting item that makes mouth small. [CHAR LIMIT=14] -->
+    <string name="effect_goofy_face_small_mouth">"입 작게"</string>
+    <!-- Effect setting item that makes nose big. [CHAR LIMIT=14] -->
+    <string name="effect_goofy_face_big_nose">"코 크게"</string>
+    <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
+    <string name="effect_goofy_face_small_eyes">"눈 작게"</string>
+    <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
+    <string name="effect_backdropper_space">"우주"</string>
+    <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
+    <string name="effect_backdropper_sunset">"일몰"</string>
+    <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
+    <string name="effect_backdropper_gallery">"내 동영상 선택"</string>
+    <!-- Message displayed in overlay during background replacement training [CHAR LIMIT=180]-->
+    <string name="bg_replacement_message">"기기를 내려놓습니다.\n잠시 동안 시야를 벗어납니다."</string>
+    <!-- Toast after trying to select a setting that is not allowed to change in effect [CHAR LIMIT=50] -->
+    <string name="not_selectable_in_effect">"효과를 사용 중일 때는 선택할 수 없습니다."</string>
+    <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=65] -->
+    <string name="video_snapshot_hint">"동영상을 촬영하는 동안 미리보기 화면을 터치하여 사진을 찍을 수 있습니다."</string>
+    <!-- Toast telling users video snapshot is disabled when the effects are on and a user tries to tap on the viewfinder [CHAR LIMIT=65] -->
+    <string name="disable_video_snapshot_hint">"특수 효과가 설정되어 있으면 동영상 스냅샷이 사용 중지됩니다."</string>
+    <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
+    <string name="clear_effects">"효과 제거"</string>
+    <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
+    <string name="effect_silly_faces">"웃긴 얼굴"</string>
+    <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
+    <string name="effect_background">"배경"</string>
+    <!-- The shutter button. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_shutter_button">"셔터 버튼"</string>
+    <!-- The button to review the thumbnail. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_review_thumbnail">"최근 사진"</string>
+    <!-- The front/back camera switch. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_camera_picker">"전방 및 후방 카메라 전환"</string>
+    <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_mode_picker">"카메라, 동영상 또는 파노라마 선택기"</string>
+    <!-- The button to switch to the second-level indicators of the camera settings. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_second_level_indicators">"설정 컨트롤 더보기"</string>
+    <!-- The button to back to the first-level indicators of the camera settings. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_back_to_first_level">"설정 컨트롤 닫기"</string>
+    <!-- The zoom control button. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_zoom_control">"확대/축소 컨트롤"</string>
+    <!-- The decrement button in camera preference such as exposure, picture size. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_decrement">"%1$s 축소"</string>
+    <!-- The increment button in camera preference such as exposure, picture size. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_increment">"%1$s 확대"</string>
+    <!-- The on/off switch in camera settings, such as store location. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_switch">"%1$s 전환"</string></resources>

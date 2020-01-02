@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtect"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"ຂໍ້ມູນແອັບ"</string>
+    <string name="title_trusted">"​ແອັບ​ທີ່​ເ​ຊື່​ອຖື​ໄດ້"</string>
+    <string name="title_about">"ກ່ຽວກັບ"</string>
+    <string name="title_settings">"​ການ​ຕັ້ງ​ຄ່າ"</string>
+    <string name="drawer_open_title">"® Snapdragon™ Smart Protect"</string>
+<string name="service_status_on">"ເປີດ"</string>
+    <string name="service_status_off">"ປິດ"</string>
+    <string name="err_title">"​ແອັບ​ພລິ​ເຄຊັນ​ຜິດພາດ"</string>
+    <string name="err_msg_init">"Snapdragon Smart Protect ບໍ່​ສາມາດ​ເລີ່​ມຫ້ອງ​ສະໝຸດ QSSP ​ໄດ້. ​ກຳລັງຢຸດການບໍລິການ"</string>
+    <string name="err_msg_load_model">"Snapdragon Smart Protect ບໍ່​ສາມາດ​​ໂຫຼດ​ແບບຢ່າງ​ໄດ້. ​ກຳລັງຢຸດການບໍລິການ"</string>
+    <string name="err_msg_malicious_alert">"Snapdragon Smart Protect ບໍ່​ສາມາດລົງທະບຽນ​ສຳລັບ​ການ​ເຕືອນ​ອັນຕະລາຍ​ໄດ້. ​ກຳລັງຢຸດການບໍລິການ"</string>
+    <string name="err_msg_benign_alert">"Snapdragon Smart Protect ບໍ່​ສາມາດລົງທະບຽນ​ສຳລັບ​ການ​ເຕືອນທີ່​ບໍ່​ເປັນ​ອັນຕະລາຍ​ໄດ້. ​ກຳລັງຢຸດການບໍລິການ"</string>
+    <string name="err_msg_service_not_up">"Snapdragon Smart Protect ບໍ່​ສາມາດ​​ຊອກ​ຫາ​ການ​ບໍລິການ​ໄດ້​ອີກ​ຕໍ່​ໄປ."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"ສະຫງວນລິຂະສິດ."</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ Smart Protect  ​ແມ່ນ​ຜະລິດ​ຕະພັນ​ຂອງ Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Qualcomm ​ແລະ Snapdragon ​ແມ່ນ​ເຄື່ອງໝາຍ​ການ​ຄ້າ​ຂອງ Qualcomm ​ເຊິ່ງ​ເປັນ​ບໍລິສັດ​ທີ່​ຈົດ​ທະບຽນ​ໃນ​ສະຫະລັດ ​ແລະ ປະ​ເທດ​ອື່ນ, ​ໃຊ້​​ໂດຍ​ມີ​ການ​ອະນຸຍາດ."</string>
+    <string name="btn_restore_default">"ຄືນການຕັ້ງຄ່າເລີ່ມຕົ້ນ"</string>
+    <string name="btn_clear_history">"​ລ້າງ​ປະຫວັດ​ການ​ປົກ​ປ້ອງ​ອັດ​ສະ​ລິ​ຍະ"</string>
+    <string name="trusted_btn">"​ເພີ່ມ​ໃສ່​ລາຍການ​ແອັບ​ທີ່​ເຊື່ອ​ຖື​ໄດ້"</string>
+    <string name="uninstall_btn">"ຖອນຕິດຕັ້ງ"</string>
+    <string name="details_btn">"ລາຍ​ລະ​ອຽດ"</string>
+    <string name="done_btn">"ແລ້ວໆ"</string>
+    <string name="remove_trusted_btn">"​ເອົາ​ອອກ​ຈາກ​ລາຍການ​ແອັບ​ທີ່​ເຊື່ອ​ຖື​ໄດ້"</string>
+    <string name="uninstall_confirm_message">"ທ່ານຕ້ອງການຖອນການຕິດຕັ້ງແອັບຯນີ້ບໍ່?"</string>
+    <string name="uninstall_success">"​ຖອນ​ຕິດ​ຕັ້​ງ​ແພັກ​ເກດ​ສຳ​ເລັດ​ແລ້ວ"</string>
+    <string name="uninstall_failed">"​ຖອນ​ຕິດ​ຕັ້​ງ​ແພັກ​ເກດ​ບໍ່ສຳ​ເລັດ​"</string>
+    <string name="clear_history_done">"ລ້າງ​ປະຫວັດ​ສຳ​ເລັດ​ແລ້ວ"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"® Snapdragon™ Smart Protect"</string>
+    <string name="drawer_threats">"ພົບ​​ໄພອັນຕະລາຍ (%1$s)"</string>
+    <string name="drawer_threat_null">"​ການ​ປົກ​ປ້ອງ​ຄວາມ​ເປັນ​ສ່ວນ​ຕົວ ​ແລະ ການ​ຄົ້ນ​ຫາ​ມາ​ລ​ແວ​ຕາມ​ເວລາ​ຈິງ​ໃນ​ອຸປະກອນ"</string>
+    <string name="drawer_option_dashboard">"ກະດານ​ຂໍ້​ມູນ"</string>
+    <string name="drawer_option_trusted_apps">"​ແອັບ​ທີ່​ເ​ຊື່​ອຖື​ໄດ້"</string>
+    <string name="drawer_option_settings">"​ການ​ຕັ້ງ​ຄ່າ"</string>
+    <string name="drawer_option_about">"ກ່ຽວກັບ"</string>
+    <string name="dashboard_list_title">"​ເລືອກ​ແອັບ​ເພື່ອ​ເບິ່ງລາຍ​ລະອຽດ ​ແລະ ຄຳ​ແນະນຳ​ຂອງ Snapdragon Smart Protect."</string>
+    <string name="dashboard_list_empty">"ບໍ່​ມີ​ການ​ຕິດຕາມ​ເບິ່ງ​ແອັບ​ໃດ."</string>
+    <string name="app_info_recommend">"ຄຳ​ແນະນຳ:"</string>
+    <string name="app_info_version">"ເວີ​ຊັນ"</string>
+    <string name="app_uninstalled">"​ແອັບ​ພລິ​ເຄຊັນ​ບໍ່​ໄດ້​ຢູ່​ທີ່ນັ້ນ​ໃນ​ອຸປະກອນ​ອີກ​ຕໍ່​ໄປ. ກົດ ຕົກລົງ ​ເພື່ອ​ອອກ."</string>
+    <string name="malicious_item_threat">"ພົບ Snapdragon Smart Protect:"</string>
+    <string name="malicious_item_confidence">"ລະດັບ​ຄວາມ​ເຊື່ອ​ໝັ້ນ:"</string>
+    <string name="malicious_item_analysis">"ການ​ວິ​ເຄາະ"</string>
+    <string name="malicious_recommend">"ຖອນການຕິດຕັ້ງ"</string>
+    <string name="good_threat">"​ບໍ່​ພົບ​ໄພ​ອັນຕະລາຍ​ໃດ."</string>
+    <string name="good_recommend">"​ເລືອກ​ ສຳ​ເລັດ​ແລ້ວ, ​ເພື່ອ​ວ່າ Snapdragon Smart Protect ຈະ​ສືບ​ຕໍ່​ຕິດຕາມ​ເບິ່ງ​ແອັບ​ນີ້."</string>
+    <string name="good_title">"ດີ"</string>
+    <string name="trusted_item_title">"Snapdragon Smart Protect ບໍ່​ຕິດຕາມ​ກິດຈະກຳ​ຂອງ %1$s, ​ເພາະວ່າ​ມັນ​ຢູ່​ໃນ​ລາຍການ​ແອັບ​ທີ່​ເຊື່ອ​ຖື​ໄດ້​ຂອງ​ທ່ານ.\n\nຖ້າ​ທ່ານ​ບໍ່​ແນ່​ໃຈ​ກ່ຽວ​ກັບ​ຄວາມ​ປອດ​ໄພ​ຂອງ​ແອັບ​ນີ້, ​ໃຫ້​ເອົາ​ມັນ​ອອກ​ຈາກ​ລາຍການ​ແອັບ​ທີ່​​ເຊື່ອ​ຖື​ໄດ້."</string>
+    <string name="trusted_list_title">"Snapdragon Smart Protect ບໍ່​ຕິດຕາມ​ແອັບ​ຢູ່​ໃນ​ລາຍການ​ນີ້."</string>
+    <string name="trusted_list_subtitle">"​ຖ້າ​ທ່ານ​ບໍ່​ແນ່​ໃຈ​ກ່ຽວ​ກັບ​ຄວາມ​ປອດ​ໄພ​ຂອງ​ແອັບ​ນີ້, ​ໃຫ້​ເອົາ​ມັນ​ອອກ​ຈາກ​ລາຍການ​ແອັບ​ທີ່​ເຊື່ອ​ຖື​ໄດ້."</string>
+    <string name="trusted_list_empty">"ບໍ່​ມີ​ແອັ​ໃດ​ໃນ​ລາຍການ​ແອັບ​ທີ່​ເຊື່ອ​ຖື​ໄດ້​ຂອງ​ທ່ານ."</string>
+    <string name="trusted_list_empty_desc">"ນີ້​ໃຫ້ການ​ປົກ​ປ້ອງ​ສູງ​ສຸດ​ແກ່​ທ່ານ, ​ເພາະວ່າ Snapdragon Smart Protect ກຳລັງ​ຕິດຕາມ​ເບິ່ງ​ທຸກ​ແອັບ​ຂອງ​ທ່ານ."</string>
+    <string name="trusted_confirm_message">"ທ່ານ​ຕ້ອງການ​ເພີ່ມ​ແອັບ​ນີ້​ໃສ່​ລາຍການ​ແອັບ​ທີ່​ເຊື່ອ​ຖື​ໄດ້​ຂອງ​ທ່ານ​ບໍ?\n\nຖ້າ​ທ່ານ​ບໍ່​ແນ່​ໃຈ​ກ່ຽວ​ກັບ​ຄວາມ​ປອດ​ໄພ​ຂອງ​ແອັບ​ນີ້, ​ໃຫ້​ເລືອກ ຍົກ​ເລີກ."</string>
+    <string name="malicious_ntf_message">"Snapdragon Smart Protect ກວດ​ພົບ​ກິດຈະກຳ​ທີ່​ເປັ​ນອັນຕະລາຍ​ໃນ %1$s."</string>
+    <string name="malicious_ntf_recommend">"ຄຳ​ແນະນຳ: ຖອນຕິດຕັ້ງ"</string>
+    <string name="malicious_dialog_title">"ອັນຕະລາຍ"</string>
+    <string name="malicious_text">"ອັນຕະລາຍ"</string>
+    <string name="malware_ntf_message">"Snapdragon Smart Protect ກວດ​ພົບມາລ​ແວ​ໃນ %1$s."</string>
+    <string name="malware_dialog_title">"​ພົບ​ມາລ​ແວ"</string>
+    <string name="malware_title">"​ມາ​ລ​ແວ"</string>
+    <string name="spyware_ntf_message">"Snapdragon Smart Protect ກວດ​ພົບສະ​ປາຍ​ແວ​ໃນ %1$s."</string>
+    <string name="spyware_dialog_title">"​ພົບ​ສະ​ປາຍ​ແວ"</string>
+    <string name="spyware_title">"​ສະ​ປາຍ​ແວ"</string>
+    <string name="adware_ntf_message">"Snapdragon Smart Protect ກວດ​ພົບ​ແອດ​ແວ​ໃນ %1$s."</string>
+    <string name="adware_dialog_title">"​ພົບ​ແອດ​ແວ"</string>
+    <string name="adware_title">"​ແອດ​ແວ"</string>
+<string name="err_no_app_dashborad">"​ລາຍການ​ແອັບ​ໃນ​ກະດານ​ຂໍ້​ມູນ​ຫວ່າງ​ເປົ່າ"</string>
+    <string name="analysis_title">"%1$s​ເປັນ​ໄປ​ໄດ້ທີ່​ຈະເປັນ​ອັນຕະລາຍຍ້ອນ​ເຫດຜົນ​ຕໍ່​ໄປ​ນີ້:"</string>
+    <string name="service_label">"ການ​ບໍລິການ Sphinx"</string>
+    <string name="unknown_code">" ລະຫັດ - %1$d"</string>
+    <string name="default_code_detail">"​ແອັບ​ທີ່​ກຳລັງ​ພະຍາຍາມ​ເຮັດ​ກິດຈະ​ກຳ​ທີ່​ເປັ​ນອັນຕະລາຍ."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"​ອາດ​ຈະ​ກຳລັງ​ເຮັດ​ກິດຈະກຳ​ທີ່​ອັນຕະລາຍ​ຢູ່​ໃນ​ອຸປະກອນ​ຂອງ​ທ່ານ."</item>
+        <item>"ມາລ​ແວ​ລະດັບ 1: ​ເຮັດ​ກິດຈະກຳ​ທີ່​ເປັ​ນອັນຕະລາຍຕໍ່​ກັບ​ເນື້ອ​ຫາ​ຂອງ​ຜູ້​ໃຊ້, ​ແອັບ​ພລິ​ເຄຊັນ ​ແລະ ອຸປະກອນ."</item>
+        <item>"ມາລ​ແວ​ລະດັບ 2: ​ເຮັດ​ກິດຈະກຳ​ທີ່​ອາດ​ຈະ​ເຮັດ​ໃຫ້​ຜູ້​ໃຊ້​ເສຍ​​ເງິນ."</item>
+        <item>"ສະ​ປາຍ​ແວ​ລະດັບ 3: ​ເປີດ​ເຜີຍ/ລັກ​ເອົາ​ເນື້ອ​ຫາ ​ແລະ ສືບ​ເອົາ​ຄວາມ​ລັບ​ຂອງ​ຜູ້​ໃຊ້."</item>
+        <item>"ສະ​ປາຍ​ແວ​ລະດັບ 4: ​ເປີດ​ເຜີຍ/​ລັກ​ເອົາ​ຂໍ້​ມູນ​ເມ​ຕາ​ຂອງ​ຜູ້​ໃຊ້."</item>
+        <item>"ສະ​ປາຍ​ແວ​ລະດັບ 5: ​ເປີດ​ເຜີຍ/​ລັກ​ເອົາ​ຂໍ້​ມູນ​ອ່ອນ​ໄຫວ​ຂອງ​ອຸປະກອນ."</item>
+        <item>"ອະ​ນອຍ​ແວ​ລະດັບ 6: ​ແອດ​ແວ​ທີ່​ຮ້າຍ​ກາດ ​ແລະ/​ຫຼື ​ແອັບ​ທີ່​ບຸກລຸກ."</item>
+    </string-array>
+    <string name="setting_level1_title">"ມາລ​ແວ​ລະດັບ 1"</string>
+    <string name="setting_level2_title">"ມາລ​ແວ​ລະດັບ 2"</string>
+    <string name="setting_level3_title">"ສະ​ປາຍ​ແວ​ລະດັບ 3"</string>
+    <string name="setting_level4_title">"ສະ​ປາຍ​ແວ​ລະດັບ 4"</string>
+    <string name="setting_level5_title">"ສະ​ປາຍ​ແວ​ລະດັບ 5"</string>
+    <string name="setting_level6_title">"​ແອດ​ແວ​ລະດັບ 6"</string>
+    <string name="setting_mode_title">"ໂຫມດ"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"​ປັອບອັບ ​ແລະ ການ​ເຕືອນ​ມາດຕະຖານ"</item>
+        <item>"​ການ​ເຕືອນ​ມາດຕະຖານ"</item>
+        <item>"​ບໍ່​ມີ​ການ​ເຕືອນ"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"​ໂໝດປົກກະຕິ"</item>
+        <item>"​ໂໝດປິດ​ສຽງ"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array></resources>

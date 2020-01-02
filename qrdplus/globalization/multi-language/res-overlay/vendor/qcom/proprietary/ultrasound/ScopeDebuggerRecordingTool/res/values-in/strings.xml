@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Alat Rekaman Scope Debugger"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Setelan"</string>
+    <add-resource type="string" name="instructions"/>
+    <string name="instructions">"Masukkan nama file (atau biarkan petunjuk sebagai nama file), dan tekan tombol untuk menyimpan sampah Scope Debugger"</string>
+    <add-resource type="string" name="button_text"/>
+    <string name="button_text">"Simpan!"</string>
+    <add-resource type="string" name="file_name_default"/>
+    <string name="file_name_default">"scope_debugger_rec"</string></resources>

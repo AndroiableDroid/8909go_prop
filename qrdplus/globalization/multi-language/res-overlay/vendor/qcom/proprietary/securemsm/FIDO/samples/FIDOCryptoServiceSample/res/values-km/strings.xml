@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"កម្មវិធីគំរូសេវាកម្មFidoCrypto"</string>
+    <string name="action_settings">"ការ​កំណត់"</string>
+    <string name="body_msg">"ការសាកល្បង FidoCryptoService"</string>
+    <string name="load">"ផ្ទុក"</string>
+    <string name="unload">"មិនអាចផ្ទុក"</string>
+    <string name="process">"ដំណើរការ"</string>
+    <string name="start">"ចាប់ផ្ដើម"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"ចងសេវាកម្ម FIDO"</string>
+    <string name="unbindFido">"ស្រាយសេវាកម្ម FIDO"</string>
+    <string name="setChallenge">"កំណត់បញ្ហាប្រឈម"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"ចងកម្មវិធីផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ"</string>
+    <string name="verifyUser">"ពិនិត្យអ្នកប្រើប្រាស់ / GetToken"</string>
+    <string name="GetInfo">"ទទួលយកព័ត៌មាន"</string>
+    <string name="Register">"ចុះឈ្មោះ"</string>
+    <string name="Deregister">"លុបឈ្មោះ"</string>
+    <string name="OpenSettings">"បើកការកំណត់"</string>
+    <string name="Sign">"ចុះហត្ថលេខា"</string>
+    <string name="MalformedRequest">"សំណើសុំមិនត្រឹមត្រូវ"</string>
+    <string name="selectAuth">"ជ្រើសកម្មវិធីផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ"</string>
+    <string name="getEnrollmentStatus">"ទទួលយកស្ថានភាពចុះឈ្មោះ"</string>
+    <string name="RegisterExt">"ចុះឈ្មោះ​ជាមួយផ្នែកបន្ថែម"</string>
+    <string name="SignExt">"ចុះហត្ថលេខាជាមួយ​ផ្នែក​បន្ថែម"</string>
+    <string name="encResult">"លទ្ធផលសង្ខេប"</string>
+    <string name="extResult">"កាលបរិច្ឆេទបន្ថែម"</string>
+    <string name="selectFidoOpText">"ជ្រើសប្រតិបត្តិការ FIDO"</string>
+    <string name="show_message_sui">"បង្ហាញ sui នៃសារ"</string>
+    <string name="fido_sui_service">"សេវា fido Sui"</string>
+    <string name="bindFidoSui">"ចង fido sui"</string>
+    <string name="unbindFidoSui">"ស្រាយ fido sui"</string>
+    <string name="suiResultTitle">"បង្ហាញ​សារលទ្ធផល sui"</string>
+    <string name="cancel_sui">"បោះបង់ sui"</string>
+    <string name="extensionText">"ប្រើផ្នែកបន្ថែម?"</string>
+    <string name="pngText">"ប្រើមាតិកា PNG?"</string>
+    <string name="fpText">"ស្នាមក្រយៅដៃសុវត្ថិភាព"</string>
+    <string-array name="authenticator_array">
+        <item>"មិនពេញចិត្តកម្មវិធីផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ"</item>
+        <item>"គំរូកម្មវិធីផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ"</item>
+        <item>"គំរូកម្មវិធីផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដែលមានសុវត្ថិភាព"</item>
+        <item>"កម្មវិធីផ្ទៀងផ្ទាត់​ផ្នែកបន្ថែមគំរូ"</item>
+        <item>"កម្មវិធីផ្ទៀង​ផ្ទាត់ផ្នែកបន្ថែមសុវត្ថិភាព"</item>
+        <item>"Auth នៃឧបករណ៍សុខភាព"</item>
+        <item>"កម្មវិធីផ្ទៀង​ផ្ទាត់ផ្នែកបន្ថែមសុវត្ថិភាព IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"ទទួលយកព័ត៌មាន"</item>
+        <item>"ចុះឈ្មោះ"</item>
+        <item>"លុបឈ្មោះ"</item>
+        <item>"បើក​ការ​កំណត់"</item>
+        <item>"ការលើកលែងមិនត្រឹមត្រូវ"</item>
+        <item>"ចុះហត្ថលេខា (Auth)"</item>
+        <item>"ចុះហត្ថលេខា (TX)"</item>
+    </string-array></resources>

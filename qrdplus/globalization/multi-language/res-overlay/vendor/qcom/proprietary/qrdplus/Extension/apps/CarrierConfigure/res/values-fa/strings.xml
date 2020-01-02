@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"پیکربندی شبکه مخابراتی"</string>
+    <string name="multisim_category_text">"پیکربندی چند سیم‌کارت"</string>
+    <string name="preset_category_text">"CHINA CARRIER"</string>
+    <string name="preset_category_text_default">"پیش‌فرض"</string>
+    <string name="preset_category_text_china">"شرکت مخابراتی چین"</string>
+    <string name="preset_category_text_regional">"منطقه‌ای"</string>
+    <string name="sim_ssss_text">"یک سیم‌کارت آماده به کار"</string>
+    <string name="sim_dsds_text">"دو سیم‌کارت آماده به کار"</string>
+    <string name="sim_dsda_text">"دو سیم کارت فعال"</string>
+    <string name="progress_wait">"در حال پیکربندی..."</string>
+    <string name="alert_update_sim_mode_title">"به‌روزرسانی حالت سیم‌کارت"</string>
+    <string name="alert_update_sim_mode_text">"تغییر حالت سیم‌کارت پس از راه‌اندازی تلفن عمل می‌کند. اکنون به‌روزرسانی شود؟"</string>
+    <string name="alert_switch_title">"تغییر وضعیت شبکه مخابراتی"</string>
+    <string name="alert_switch_text">"این عملکرد همه داده‌ها از جمله داده‌های پیکربندی چند سیم‌کارت را حذف می‌کند."</string>
+    <string name="alert_switch_error">"تغییر وضعیت شبکه مخابراتی ناموفق بود، لطفاً بررسی کنید فضای کافی وجود داشته باشد."</string>
+    <string name="notice_row_title">"نکته"</string>
+    <string name="notice_row_text">"تلفن شما روی وفق دادن سیم‌کارت تنظیم شده است. لطفاً برای آنکه پیکربندی جدید اثر کند، تلفن خود را راه‌اندازی مجدد کنید."</string>
+    <string name="notice_special_install_title">"توجه"</string>
+    <string name="notice_special_install_text">"تلفن شما روی وفق دادن سیم‌کارت تنظیم شده است. ولی با این کار همه داده‌ها پاک می‌شود، اکنون تنظیم شود؟"</string>
+    <string name="welcome_title">"خوش‌آمدید"</string>
+    <string name="welcome_message">"لطفاً زبانتان را انتخاب کنید"</string>
+    <string name="start_text">"شروع"</string>
+    <string name="emergency_call_text">"تماس اضطراری"</string>
+    <string name="trigger_title">"پیکربندی"</string>
+    <string name="trigger_message">"لطفاً بسته ای را انتخاب کنید"</string>
+    <string name="trigger_uninstall_message">"بسته‌ای با سیم‌کارت شما منطبق نیست. می‌توانید پیکربندی تلفن خود را به بسته اولیه برگردانید.‎\n\nپیکربندی تلفن خود را به تنظیم زیر برگردانید:"</string>
+    <string name="trigger_no_text">"پیکربندی نکنید"</string>
+    <string name="trigger_yes_text">"شروع پیکربندی"</string>
+    <string name="trigger_ask_text">"بعداً سوال شود"</string>
+    <string name="begin_config_text">"شروع پیکربندی"</string>
+    <string name="alter_no_carrier_selected">"شبکه مخابراتی انتخاب نشده است، لطفاً یک مورد یا بیشتر را انتخاب کنید."</string>
+    <string name="download_ota_package_title">"دانلود فایل‌های ota"</string>
+    <string name="download_ota_package_message">"در حال بارگیری..."</string>
+    <string name="alter_network_state_error">"لطفاً وضعیت شبکه را بررسی کنید."</string>
+    <string name="alter_file_not_found_error">"فایل ota در محل ذخیره قرار نگرفت، لطفاً وضعیت محل ذخیره را بررسی نمایید."</string>
+    <string name="carrier_clear_final_desc">"همه اطلاعات شخصی شما و پیکربندی شرکت مخابراتی پاک شود؟ نمی توانید این عملکرد را لغو کنید!"</string>
+    <string name="carrier_clear_final_button_text">"پاک کردن همهٔ موارد"</string>
+    <string name="carrier_clear_no_default_pack">"هیچ بسته پیش فرضی در دستگاهتان وجود ندارد."</string>
+    <string name="carrier_clear_parsing_not_finish">"هنوز در جستجوی بسته پیش فرض."</string></resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Налаштування"</string>
+    <string name="body_msg">"тестування FidoCryptoService"</string>
+    <string name="load">"завантажити"</string>
+    <string name="unload">"вивантажити"</string>
+    <string name="process">"Обробити"</string>
+    <string name="start">"почати"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"Пов’язати службу FIDO"</string>
+    <string name="unbindFido">"Відв’язати службу FIDO"</string>
+    <string name="setChallenge">"Налаштувати перевірку"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Пов’язати автентифікатор"</string>
+    <string name="verifyUser">"Перевірити користувача/отримати маркер"</string>
+    <string name="GetInfo">"Отримати інформацію"</string>
+    <string name="Register">"Зареєструватися"</string>
+    <string name="Deregister">"Скасувати реєстрацію"</string>
+    <string name="OpenSettings">"Відкрити параметри"</string>
+    <string name="Sign">"Підпис"</string>
+    <string name="MalformedRequest">"MalformedRequest"</string>
+    <string name="selectAuth">"Вибір автентифікатора"</string>
+    <string name="getEnrollmentStatus">"Отримати стан реєстрації"</string>
+    <string name="RegisterExt">"Зареєструватись у розширеннях"</string>
+    <string name="SignExt">"Увійти в розширення"</string>
+    <string name="encResult">"Сформований результат"</string>
+    <string name="extResult">"Дані розширення"</string>
+    <string name="selectFidoOpText">"вибрати операцію FIDO"</string>
+    <string name="show_message_sui">"показати повідомлення sui"</string>
+    <string name="fido_sui_service">"служба fido Sui"</string>
+    <string name="bindFidoSui">"пов’язати fido sui"</string>
+    <string name="unbindFidoSui">"відв’язати fido sui"</string>
+    <string name="suiResultTitle">"показати результат повідомлення sui"</string>
+    <string name="cancel_sui">"скасувати sui"</string>
+    <string name="extensionText">"Використовувати розширення?"</string>
+    <string name="pngText">"Використовувати вміст PNG?"</string>
+    <string name="fpText">"Захищений відбиток пальця"</string>
+    <string-array name="authenticator_array">
+        <item>"Імітація автентифікатора"</item>
+        <item>"Зразок автентифікатора"</item>
+        <item>"Зразок захищ. автентиф."</item>
+        <item>"Зразок автентифікатора розширення"</item>
+        <item>"Захищений автентифікатор розширення"</item>
+        <item>"Автентифікатор стану пристрою"</item>
+        <item>"Зразок зах. автентиф. IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Отримати інформацію"</item>
+        <item>"Зареєструватися"</item>
+        <item>"Скасувати реєстрацію"</item>
+        <item>"Відкрити налаштування"</item>
+        <item>"Недійсний виняток"</item>
+        <item>"Підпис (автентифікація)"</item>
+        <item>"Підпис (TX)"</item>
+    </string-array></resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string-array name="ScanRepetitionValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="ScanIntervalValues">
+        <item>"၀.၅ စက္ကန့်"</item>
+        <item>"၁.၀ စက္ကန့်"</item>
+        <item>"၂.၀ စက္ကန့်"</item>
+        <item>"၅.၀ စက္ကန့်"</item>
+    </string-array>
+    <string-array name="ScanTypeValues">
+        <item>"RTT1"</item>
+        <item>"RTT2"</item>
+        <item>"RTT3"</item>
+        <item>"အကောင်းဆုံး အားထုတ်မှု"</item>
+    </string-array>
+    <string-array name="ScanBandwidthValues">
+        <item>"၂၀ MHz"</item>
+        <item>"၄၀ MHz"</item>
+        <item>"၈၀ MHz"</item>
+        <item>"အလိုလို ရွေးချယ်ရန်"</item>
+    </string-array></resources>

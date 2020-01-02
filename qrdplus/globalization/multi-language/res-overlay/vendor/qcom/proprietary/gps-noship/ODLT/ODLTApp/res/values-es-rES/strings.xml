@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"Actividad de depuración GPS"</string>
+     <string name="cameraActivity">"Cámara"</string>
+     <string name="newTrackingSession">"Nueva sesión de seguimiento"</string>
+     <string name="newTrackingSession_nameLabel">"Nombre"</string>
+     <string name="newTrackingSession_numFixesLabel">"Núm. de correcciones"</string>
+     <string name="newTrackingSession_descriptionLabel">"Descripción"</string>
+     <string name="newTrackingSession_startButtonLabel">"Iniciar"</string>
+     <string name="testConfig">"Configuración de prueba"</string>
+     <string name="testConfig_configNameLabel">"Nombre config."</string>
+     <string name="testConfig_numFixesLabel">"Núm. correcciones (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"Descripción de configuración de prueba"</string>
+     <string name="testConfig_startButtonLabel">"Iniciar prueba"</string>
+     <string name="testConfig_RadioLabel">"Seguimiento aplicación o disparo único"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"Disparo único"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"Seguimiento de aplicación"</string>
+     <string name="testConfig_qosTimeoutLabel">"Tiempo de respuesta preferido (s)"</string>
+     <string name="testConfig_qosAccuracyLabel">"Precisión preferida (m)"</string>
+     <string name="testConfig_tbfLabel">"Intervalo mínimo (s)"</string>
+     <string name="testConfig_staticTruthLabel">"Posición real estática (comprobar para usar)"</string>
+     <string name="testConfig_latLabel">"Latitud"</string>
+     <string name="testConfig_lonLabel">"Longitud"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"API Loc"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"Servicio GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"Tipo de repetición"</string>
+     <string name="testConfig_apiTypeLabel">"Tipo de API"</string>
+    <string name="labelUnknownPrivacy">"desconocido"</string>
+    <string name="labelGetPrivacy">"Obtener privacidad"</string>
+    <string name="labelSetPrivacySetting">"Establecer privacidad"</string>
+    <string name="name_vzw_client">"Cliente Vzw"</string>
+    <string name="name_normal_client">"Android normal"</string>
+    <string name="LabelModeSel">"Modo"</string>
+    <string name="LabelNumFixSel">"Núm. corrección"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"Estado..."</string>
+    <string name="str_nodata">"Sin datos"</string>
+    <string name="str_waitingforposinfo">"\nEsperando información de posición...\n"</string>
+    <string name="str_searchingforsvs">"\nBuscando SV...\n"</string>
+    <string name="str_configsummary">"\nResumen de configuración\n"</string>
+    <string name="str_alarms">"\nAlarmas:\n\n"</string>
+    <string name="str_starttest">"Iniciar prueba"</string>
+    <string name="str_sessionplayback">"Reproducción de sesión"</string>
+    <string name="str_proximityalerts">"Alertas de proximidad"</string>
+    <string name="str_proximity_info">"Información de proximidad"</string>
+    <string name="str_options">"Opciones"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"Autónomo"</item>
+<item>"AFLT"</item>
+<item>"Velocidad optimizada"</item>
+<item>"Precisión optimizada"</item>
+<item>"Datos optimizados"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"Tiempo (s) entre correcciones"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"Dirección PDE"</string>
+<string name="LabelAccuracyH">"Precisión preferida (H, m)"</string>
+<string name="LabelAccuracyV">"Precisión preferida (V, m)"</string>
+<string name="LabelMaxResponseTime">"Tiempo de espera (s)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"Ejecutar con pila normal"</string>
+<string name="LabelRunOne">"Ejecutar VzW"</string>
+<string name="LabelRunState1">"Prueba 1 de FSM "</string>
+<string name="LabelRunState2">"Prueba 2 de FSM "</string>
+<string name="EnigneStatus">"Estado de motor"</string>
+<string name="NA">"N/A"</string>
+<string name="GpsStatus">"Estado de Gps"</string>
+<string name="Session">"Sesión"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"Tipo"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"Modo"</string>
+<string name="stop">"Detener"</string>
+<string name="labelPdePort">"Puerto PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"Solo 911"</item>
+<item>"SÍ"</item>
+</string-array>
+<string name="non_aiding">"Deseleccionar todas las asistencias"</string>
+<string name="all_aiding">"Seleccionar todas las asistencias"</string>
+<string name="done">"Eliminar seleccionado"</string>
+<string name="Ephemeris">"Efemérides"</string>
+<string name="GLO_Ephemeris">"Efemérides GLO"</string>
+<string name="Alamanac">"Almanaque"</string>
+<string name="GLO_Alamanac">"Almanaque GLO"</string>
+<string name="Alamanac_Corr">"Corr almanaque"</string>
+<string name="GLO_Alamanac_Corr">"Corr almanaque GLO"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"SV Steer"</string>
+<string name="GLO_SV_Steer">"GLO SV Steer"</string>
+<string name="Cell_DB_Info">"Info BD celda"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"Hora GPS"</string>
+<string name="GLO_Time">"Hora GLO"</string>
+<string name="Freq_Bias_Est">"Compensación freq est"</string>
+<string name="Time">"Hora"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"Salud"</string>
+<string name="SA_Data">"Datos SA"</string>
+<string name="position">"posición"</string>
+<string name="str_wbiq_runscript">"Ejecutar script"</string>
+<string name="str_wbiq_stopgps">"Salir de modo RF"</string>
+<string name="str_wbiq_startgps">"Entrar en modo RF"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"Registro en dispositivo automático"</string>
+<string name="str_wbiq_chk_delaystart">"Retrasar inicio(s)"</string>
+<string name="str_wbiq_chk_autostop">"Parada(s) automática(s)"</string>
+<string name="str_wbiq_chk_otfsa">"Habilitar OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"S"</string>
+<string name="str_proximity_clearalerts">"Borrar alertas"</string>
+<string name="str_proximity_savealertsfile">"Guardar archivo de alertas"</string>
+<string name="str_proximity_loadalertsfile">"Cargar archivo de alertas"</string>
+<string name="str_proximity_deletealertsfile">"Eliminar archivo de alertas"</string>
+<string name="str_proximity_logging">"Registro"</string>
+<string name="str_proximity_autostartenabled">"Inicio automático"</string>
+<string name="str_proximity_autostartfile">"Selecc. arch. de inicio auto."</string>
+<string name="str_proximity_smsnumber">"Número de notificación de SMS"</string>
+<string name="str_proximity_geofencelisttab_add">"Añadir"</string>
+<string name="str_proximity_geofencelisttab_delet">"Eliminar"</string>
+<string name="str_proximity_geofencelisttab_edit">"Editar"</string>
+<string name="str_locbatchingtab_btn_s">"S"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[Mediana, Mín., Máx.] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"Obtener lote"</string>
+<string name="str_powerest_summary">"Resumen:"</string>
+<string name="str_powerest_plot_label"/></resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014, Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Qualcomm Technologies Proprietary and Confidential.
+ -->
+
+<resources>
+    <!-- config for GPS HAL -->
+    <string-array translatable="false" name="config_gpsParameters">
+        <item>SUPL_HOST=221.176.0.55</item>
+        <item>SUPL_PORT=7275</item>
+    </string-array>
+</resources>

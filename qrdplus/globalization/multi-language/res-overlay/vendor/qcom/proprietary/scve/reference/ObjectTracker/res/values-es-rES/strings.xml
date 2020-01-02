@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Demo de seguimiento de objetos"</string>
+    <string name="open_camera_failed">"Hemos detectado un error al abrir la cámara en tu dispositivo.  Cierra las aplicaciones que puedan estar usando la cámara y vuelve a iniciar esta aplicación."</string>
+    <string name="snapshot_failed">"Hemos detectado un error al tomar una instantánea. Vuelve a examinar logcat para ver los detalles del error."</string>
+    <string name="video_recording_failed">"Hemos detectado un error durante la grabación del vídeo. Vuelve a examinar logcat para ver los detalles del error."</string>
+    <string name="settings">"Ajustes"</string>
+    <string name="switch_camera">"Cambiar cámara"</string>
+    <string name="switch_camera_mode">"Cambiar modo foto/vídeo"</string></resources>

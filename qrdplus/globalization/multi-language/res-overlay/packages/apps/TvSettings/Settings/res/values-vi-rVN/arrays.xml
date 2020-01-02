@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Display settings.  The delay in inactivity before the daydream starts. -->
+    <string-array name="sleep_timeout_entries">
+        <item>"5 phút"</item>
+        <item>"10 phút"</item>
+        <item>"15 phút"</item>
+        <item>"30 phút"</item>
+        <item>"1 giờ"</item>
+    </string-array>
+    <!-- Display settings.  The delay after the daydream starts when the screen goes off. -->
+    <string-array name="screen_off_timeout_entries">
+        <item>"30 phút"</item>
+        <item>"1 giờ"</item>
+        <item>"3 giờ"</item>
+        <item>"6 giờ"</item>
+        <item>"12 giờ"</item>
+        <item>"Không bao giờ"</item>
+    </string-array>
+    <!-- Titles for captioning typeface preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_typeface_selector_titles">
+        <item>"Mặc định"</item>
+        <item>"Sans-serif"</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>"Thông thường"</item>
+        <item>"Chữ thảo"</item>
+        <item>"Chữ viết hoa nhỏ"</item>
+    </string-array>
+    <!-- Titles for captioning font size preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_font_size_selector_titles">
+        <item>"Rất nhỏ"</item>
+        <item>"Nhỏ"</item>
+        <item>"Bình thường"</item>
+        <item>"Lớn"</item>
+        <item>"Rất lớn"</item>
+    </string-array>
+    <!-- Titles for captioning character edge type preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>"Không có"</item>
+        <item>"Viền ngoài"</item>
+        <item>"Bóng đổ"</item>
+        <item>"Tăng"</item>
+        <item>"Giảm"</item>
+    </string-array>
+    <!-- Titles for captioning opacity preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <!-- Titles for captioning text style preset preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_preset_selector_titles">
+        <item>"Chữ trắng trên nền đen"</item>
+        <item>"Chữ đen trên nền trắng"</item>
+        <item>"Chữ vàng trên nền đen"</item>
+        <item>"Chữ vàng trên nền xanh lam"</item>
+        <item>"Tùy chỉnh"</item>
+    </string-array></resources>

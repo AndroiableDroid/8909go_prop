@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Nastavitve SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Nastavitve digitalnega pisala Snapdragon"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"Onemogočeno"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"Podvoji"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"Način prikaza zunaj zaslona za starejšo aplikacijo:"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"Oddaljenost znotraj dosega (mm):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"Način porabe energije:"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"Optimiziranje natančnosti"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"Optimiziranje porabe energije"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"Vrsta vnosa:"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"Občutljivost miške:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"Počasno"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"Srednja"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"Hitro"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"Pisalo"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"Miš"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"Krmilna palica"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"Digitalno pisalo je izklopljeno"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"Digitalno pisalo je vklopljeno"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"Pametno stojalo"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"Pomikanje po zaslonu"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"Pomikanje zunaj zaslona"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"Največja oddaljenost:"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"Prikaz ikone za pomikanje"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"Gumb radirke"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"Kazalo gumbov:"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"Vedenje gumba za brisanje:"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"Pridržite, če želite izbrisati"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"Tapnite, če želite preklopiti"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"Lokacija zunaj zaslona v pokončnem načinu:"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"Leva stran"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"Desna stran"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"Ustavljanje pisala na zaslonu je izklopljeno"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"Zaženi pisalo ob zagonu"</string></resources>

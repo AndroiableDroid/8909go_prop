@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">P2PRanging</string>
+    <string name="action_settings">"Setări"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_Discovery">"Descoperire manuală"</string>
+    <string name="strings_setting_appversion">"Versiune aplicație: 2014.09.04"</string>
+    <string name="strings_setting_startscanresult">"N/A"</string>
+    <string name="strings_setting_scanrepetition">"Repetiție de scanare: "</string>
+    <string name="strings_setting_scaninterval">"Interval de scanare: "</string>
+    <string name="strings_setting_scantype">"Tip de scanare: "</string>
+    <string name="strings_setting_scanbandwidth">"Lățime de bandă scanare: "</string>
+    <string name="strings_setting_scanrttbias">"Bias RTT (ns): "</string>
+    <string name="strings_setting_scanrttBias_value">25</string>
+    <string name="strings_setting_button_clearoverlay">"Eliminați textul suprapus"</string>
+    <string name="strings_setting_button_hideshowoverlaytext">"Afișați/ascundeți textul suprapus"</string>
+    <string name="strings_start_peerrangescanbtn">"Începeți scanarea intervalului"</string>
+    <string name="strings_start_singlepeerrangescanbtn">"Scanare individuală"</string>
+    <string name="strings_start_measresulttitle">"Reprezentare grafică rezultat scanare(m)"</string>
+    <string name="strings_start_measresultdevice"></string>
+    <string name="strings_log_showerror">"Eroare"</string>
+    <string name="strings_log_showinfo">"Informaţii"</string>
+    <string name="strings_log_clear">"Eliminați jurnalul"</string>
+    <string name="strings_legend_mygo">"MyGO"</string>
+    <string name="strings_legend_cl">"CL"</string>
+    <string name="strings_legend_idle">"Inactiv"</string>
+    <string name="strings_legend_othergo">"Alt GO"</string>
+    <string name="strings_deviceinfo_mydevice">"Dispozitivul meu:"</string>
+    <string name="strings_deviceinfo_devicename">"Nume: N/A"</string>
+    <string name="strings_deviceinfo_mac">"MAC: N/A"</string>
+    <string name="strings_deviceinfo_channel">"Canal: N/A"</string>
+    <string name="strings_deviceinfo_group">"Grup: N/A"</string>
+    <string name="strings_connect_mypeers">"Persoanele mele: (faceți clic pentru conectare/deconectare)"</string></resources>

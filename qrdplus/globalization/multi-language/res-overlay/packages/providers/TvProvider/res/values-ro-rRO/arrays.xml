@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Category mapping from ATSC to canonical genre -->
+    <string-array name="genre_mapping_atsc">
+        <item>"Educație|EDUCAȚIE"</item>
+        <item>"Divertisment|DIVERTISMENT"</item>
+        <item>"Film|FILME"</item>
+        <item>"Știri|ȘTIRI"</item>
+        <item>"Religios|LIFE_STYLE"</item>
+        <item>"Sport|SPORT"</item>
+        <item>"Altele|ALTELE"</item>
+        <item>"Acțiune|FILME"</item>
+        <item>"Publicitate|ALTELE"</item>
+        <item>"Animat|FAMILY_KIDS"</item>
+        <item>"Antologie|DRAMĂ"</item>
+        <item>"Automobile|ALTELE"</item>
+        <item>"Premii|DIVERTISMENT"</item>
+        <item>"Baseball|SPORT"</item>
+        <item>"Baschet|SPORT"</item>
+        <item>"Buletin|ALTELE"</item>
+        <item>"Afaceri|ALTELE"</item>
+        <item>"Clasic|MUZICĂ"</item>
+        <item>"Colegiu|EDUCAȚIE"</item>
+        <item>"Combat|ALTELE"</item>
+        <item>"Comedie|COMEDIE"</item>
+        <item>"Comentariu|ALTELE"</item>
+        <item>"Concert|MUZICĂ"</item>
+        <item>"Consumator|ALTELE"</item>
+        <item>"Contemporan|ALTELE"</item>
+        <item>"Crimă|FILME"</item>
+        <item>"Dans|DIVERTISMENT"</item>
+        <item>"Documentar|ȘTIRI"</item>
+        <item>"Dramă|DRAMĂ"</item>
+        <item>"Elementar|EDUCAȚIE"</item>
+        <item>"Erotica|FILME"</item>
+        <item>"Antrenament|SPORT"</item>
+        <item>"Fantezie|FILME"</item>
+        <item>"Fermă|ALTELE"</item>
+        <item>"Modă|LIFE_STYLE"</item>
+        <item>"Ficțiune|ARTE"</item>
+        <item>"Mâncare|LIFE_STYLE"</item>
+        <item>"Fotbal|SPORT"</item>
+        <item>"Străin|ALTELE"</item>
+        <item>"Strângere de fonduri|ALTELE"</item>
+        <item>"Joc/Concurs|JOCURI"</item>
+        <item>"Grădină|LIFE_STYLE"</item>
+        <item>"Golf|SPORT"</item>
+        <item>"Guvern|ALTELE"</item>
+        <item>"Sănătate|LIFE_STYLE"</item>
+        <item>"Liceu|EDUCAȚIE"</item>
+        <item>"Istorie|EDUCAȚIE"</item>
+        <item>"Hobby|LIFE_STYLE"</item>
+        <item>"Hockey|SPORT"</item>
+        <item>"Casă|LIFE_STYLE"</item>
+        <item>"Horror|FILME"</item>
+        <item>"Informații|ȘTIRI"</item>
+        <item>"Instrucțiune|ALTELE"</item>
+        <item>"Internațional|Altele"</item>
+        <item>"Interviu|ALTELE"</item>
+        <item>"Limbă|EDUCAȚIE"</item>
+        <item>"Legal|ALTELE"</item>
+        <item>"Live|ALTELE"</item>
+        <item>"Local|ALTELE"</item>
+        <item>"Matematică|EDUCAȚIE"</item>
+        <item>"Medical|ALTELE"</item>
+        <item>"Întâlnire|ALTELE"</item>
+        <item>"Militar|ALTELE"</item>
+        <item>"Miniserie|DRAMĂ"</item>
+        <item>"Muzică|MUZICĂ"</item>
+        <item>"Mister|FILME"</item>
+        <item>"National|ALTELE"</item>
+        <item>"Natură|ANIMAL_WILDLIFE"</item>
+        <item>"Poliție|ALTELE"</item>
+        <item>"Politică|ALTELE"</item>
+        <item>"Premier|PREMIER"</item>
+        <item>"Preînregistrat|ALTELE"</item>
+        <item>"Produs|ALTELE"</item>
+        <item>"Profesional|ALTELE"</item>
+        <item>"Public|ALTELE"</item>
+        <item>"Curse|SPORT"</item>
+        <item>"Citire|ARTE"</item>
+        <item>"Reparații|ALTELE"</item>
+        <item>"Repetare|ALTELE"</item>
+        <item>"Cronică|ALTELE"</item>
+        <item>"Romance|FILME"</item>
+        <item>"Știință|TECH_SCIENCE"</item>
+        <item>"Serie|DRAMĂ"</item>
+        <item>"Serviciu|ALTELE"</item>
+        <item>"Shopping|SHOPPING"</item>
+        <item>"Telenovelă|DRAMĂ"</item>
+        <item>"Special|ALTELE"</item>
+        <item>"Suspans|FILME"</item>
+        <item>"Discuții|DIVERTISMENT"</item>
+        <item>"Tehnic|TECH_SCIENCE"</item>
+        <item>"Tenis|SPORT"</item>
+        <item>"Călătorie|CĂLĂTORIE"</item>
+        <item>"Varietate|DIVERTISMENT"</item>
+        <item>"Video|ARTE"</item>
+        <item>"Vreme|ȘTIRI"</item>
+        <item>"Western|ALTELE"</item>
+        <item>"Artă|ARTE"</item>
+        <item>"Curse auto|SPORT"</item>
+        <item>"Aviație|SPORT"</item>
+        <item>"Biografie|ȘTIRI"</item>
+        <item>"Plimbări cu barca|SPORT"</item>
+        <item>"Bowling|SPORT"</item>
+        <item>"Box|SPORT"</item>
+        <item>"Desene|FAMILY_KIDS"</item>
+        <item>"Copii|FAMILY_KIDS"</item>
+        <item>"Film clasic|FILME"</item>
+        <item>"Comunitate|ALTELE"</item>
+        <item>"Computere|TECH_SCIENCE"</item>
+        <item>"Muzică Country|MUZICĂ"</item>
+        <item>"Curte|ALTELE"</item>
+        <item>"Sporturi extreme|SPORT"</item>
+        <item>"Familie|FAMILY_KIDS"</item>
+        <item>"Financiar|ȘTIRI"</item>
+        <item>"Gimnastică|SPORT"</item>
+        <item>"Titluri|ȘTIRI"</item>
+        <item>"Curse de cai|SPORT"</item>
+        <item>"Vânătoare/Pescuit/Evenimente în aer liber|ANIMAL_WILDLIFE"</item>
+        <item>"Independent|ALTELE"</item>
+        <item>"Jazz|MUZICĂ"</item>
+        <item>"Revistă|ȘTIRI"</item>
+        <item>"Curse de motociclete|SPORT"</item>
+        <item>"Muzică/Film/Cărți|ALTELE"</item>
+        <item>"Știri internaționale|ȘTIRI"</item>
+        <item>"Știri locale|ȘTIRI"</item>
+        <item>"Știri naționale|ȘTIRI"</item>
+        <item>"Știri regionale|ȘTIRI"</item>
+        <item>"Olimpiadă|SPORT"</item>
+        <item>"Original|FILME"</item>
+        <item>"Artele spectacolului|ARTE"</item>
+        <item>"Animale de casă/Animale|ANIMAL_WILDLIFE"</item>
+        <item>"Pop|MUZICĂ"</item>
+        <item>"Rock &amp; Roll|MUZICĂ"</item>
+        <item>"Sci-Fi|FILME"</item>
+        <item>"Autodezvoltare|EDUCAȚIE"</item>
+        <item>"Sitcom|DRAMĂ"</item>
+        <item>"Skating|SPORT"</item>
+        <item>"Ski|SPORT"</item>
+        <item>"Fotbal|SPORT"</item>
+        <item>"Pistă/Teren|SPORT"</item>
+        <item>"Adevărat|ALTELE"</item>
+        <item>"Volei|SPORT"</item>
+        <item>"Wrestling|SPORT"</item>
+    </string-array>
+    <!-- Category mapping from DVB to canonical genre -->
+    <string-array name="genre_mapping_dvb">
+        <item>"film/dramă|FILME"</item>
+        <item>"detectiv/thriller|FILME"</item>
+        <item>"aventură/western/război|FILME"</item>
+        <item>"science fiction/fantezie/horror|FILME"</item>
+        <item>"comedie|COMEDIE"</item>
+        <item>"telenovelă/melodramă/folclor|DRAMĂ"</item>
+        <item>"romance|FILME"</item>
+        <item>"serios/clasic/religios/istoric/dramă|FILME"</item>
+        <item>"film pentru adulți/dramă|FILME"</item>
+        <item>"știri/probleme curente|ȘTIRI"</item>
+        <item>"știri/prognoză meteo|ȘTIRI"</item>
+        <item>"revistă de știri|ȘTIRI"</item>
+        <item>"documentar|ȘTIRI"</item>
+        <item>"discuție/interviu/dezbatere|ȘTIRI"</item>
+        <item>"emisiune/joc televizat|DIVERTISMENT"</item>
+        <item>"joc televizat/emisiune concurs/concurs|JOCURI"</item>
+        <item>"spectacol de varietăți|DIVERTISMENT"</item>
+        <item>"talk show|DIVERTISMENT"</item>
+        <item>"sport|SPORT"</item>
+        <item>"evenimente speciale (Jocuri Olimpice, Cupa Mondială etc.)|SPORT"</item>
+        <item>"reviste sportive|SPORT"</item>
+        <item>"fotbal/fotbal|SPORT"</item>
+        <item>"tenis/squash|SPORT"</item>
+        <item>"sporturi în echipă (excluzând fotbalul)|SPORT"</item>
+        <item>"atletism|SPORT"</item>
+        <item>"sporturi cu motor|SPORT"</item>
+        <item>"sporturi pe apă|SPORT"</item>
+        <item>"sporturi de iarnă|SPORT"</item>
+        <item>"echitație|SPORT"</item>
+        <item>"arte marțiale|SPORT"</item>
+        <item>"programe pentru copii/tineri|FAMILY_KIDS"</item>
+        <item>"programe pentru copii preșcolari|FAMILY_KIDS"</item>
+        <item>"programe de divertisment pentru 6-14|FAMILY_KIDS"</item>
+        <item>"programe de divertisment pentru 10-16|FAMILY_KIDS"</item>
+        <item>"programe informaționale/educaționale/școlare|FAMILY_KIDS"</item>
+        <item>"desene animate/păpuși|FAMILY_KIDS"</item>
+        <item>"muzică/balet/dans|MUZICĂ"</item>
+        <item>"rock/pop|MUZICĂ"</item>
+        <item>"muzică serioasă/muzică clasică|MUZICĂ"</item>
+        <item>"folk/muzică tradițională|MUZICĂ"</item>
+        <item>"jazz|MUZICĂ"</item>
+        <item>"musical/operă|MUZICĂ"</item>
+        <item>"balet|DIVERTISMENT"</item>
+        <item>"arte/cultură|ARTE"</item>
+        <item>"artele spectacolului|ARTE"</item>
+        <item>"arte frumoase|ARTE"</item>
+        <item>"religie|LIFE_STYLE"</item>
+        <item>"cultură populară/arte tradiționale|LIFE_STYLE"</item>
+        <item>"literatură|ARTE"</item>
+        <item>"film/cinema|ARTE"</item>
+        <item>"film experimental/video|ARTE"</item>
+        <item>"transmisie/presă|ARTE"</item>
+        <item>"media nou|ARTE"</item>
+        <item>"arte/reviste culturale|ARTE"</item>
+        <item>"modă|LIFE_STYLE"</item>
+        <item>"social/probleme politice/economie|ALTELE"</item>
+        <item>"reviste/rapoarte/documentar|ȘTIRI"</item>
+        <item>"economie/consultanță socială|ALTELE"</item>
+        <item>"persoane remarcabile|ALTELE"</item>
+        <item>"educație/știință/subiecte factuale|EDUCAȚIE"</item>
+        <item>"natură/animale/mediu|ANIMAL_WILDLIFE"</item>
+        <item>"tehnologie/științe naturale|TECH_SCIENCE"</item>
+        <item>"medicină/fiziologie/psihologie|TECH_SCIENCE"</item>
+        <item>"țări străine/expediții|EDUCAȚIE"</item>
+        <item>"social/științe spirituale|TECH_SCIENCE"</item>
+        <item>"educație suplimentară|EDUCAȚIE"</item>
+        <item>"limbi|EDUCAȚIE"</item>
+        <item>"activități recreative|LIFE_STYLE"</item>
+        <item>"turism/călătorie|CĂLĂTORIE"</item>
+        <item>"artizanat|LIFE_STYLE"</item>
+        <item>"automobilism|LIFE_STYLE"</item>
+        <item>"fitness &amp; sănătate|LIFE_STYLE"</item>
+        <item>"gătit|LIFE_STYLE"</item>
+        <item>"publicitate/shopping|SHOPPING"</item>
+        <item>"grădinărit|LIFE_STYLE"</item>
+        <item>"limbă originală|ALTELE"</item>
+        <item>"alb-negru|ALTELE"</item>
+        <item>"nepublicat|ALTELE"</item>
+        <item>"transmisie live|ALTELE"</item>
+    </string-array>
+    <!-- Category mapping from ISDB to canonical genre -->
+    <string-array name="genre_mapping_isdb">
+        <item>"Animație|FILME"</item>
+        <item>"Baseball|SPORT"</item>
+        <item>"Cântece pentru copii|MUZICĂ"</item>
+        <item>"Clasic, operă|MUZICĂ"</item>
+        <item>"Varietate de gătit|DIVERTISMENT"</item>
+        <item>"Program de comedie|DIVERTISMENT"</item>
+        <item>"Poveste comică, Divertisment|DIVERTISMENT"</item>
+        <item>"Computer, jocuri TV|TECH_SCIENCE"</item>
+        <item>"Conversație, limbi|EDUCAȚIE"</item>
+        <item>"Dans, Balet|DIVERTISMENT"</item>
+        <item>"Discuție, conferință|ȘTIRI"</item>
+        <item>"Economie, raport de piață|ȘTIRI"</item>
+        <item>"Problemă educațională|EDUCAȚIE"</item>
+        <item>"Evenimente|DIVERTISMENT"</item>
+        <item>"Modă|LIFE_STYLE"</item>
+        <item>"Muzică folk, muzică globală|MUZICĂ"</item>
+        <item>"Joc|JOCURI"</item>
+        <item>"Grădinărit, animale de casă, artizanat|LIFE_STYLE"</item>
+        <item>"Golf|SPORT"</item>
+        <item>"Bârfă/tabloid|DIVERTISMENT"</item>
+        <item>"Gourmet, gătit|LIFE_STYLE"</item>
+        <item>"Sănătate, tratament medical|LIFE_STYLE"</item>
+        <item>"Hobby/Educație|LIFE_STYLE"</item>
+        <item>"Cursă de cai, cursă publică|SPORTS"</item>
+        <item>"Animație japoneză|FAMILY_KIDS"</item>
+        <item>"Baladă japoneză, muzică tradițională japoneză|MUSIC"</item>
+        <item>"Șah japonez (shogi) și go|JOCURI"</item>
+        <item>"Drame japoneze|DRAMĂ"</item>
+        <item>"Filme japoneze|FILME"</item>
+        <item>"Rock japonez, muzică pop|MUZICĂ"</item>
+        <item>"Jazz, fusion|MUZICĂ"</item>
+        <item>"Elevi de gimnaziu și liceu|EDUCAȚIE"</item>
+        <item>"Kabuki, dramă clasică|DRAMĂ"</item>
+        <item>"Karaoke, concursuri de cântat pentru amatori|MUZICĂ"</item>
+        <item>"Educație pe termen lung, calificări|EDUCAȚIE"</item>
+        <item>"Copii mici, școlari|EDUCAȚIE"</item>
+        <item>"Concert live|MUZICĂ"</item>
+        <item>"Stil de viață, casă|LIFE_STYLE"</item>
+        <item>"Program local|ȘTIRI"</item>
+        <item>"Mah-jong, jocuri de pinball|JOCURI"</item>
+        <item>"Maraton, atletism, înot|SPORT"</item>
+        <item>"Sporturi marine, sporturi de iarnă|SPORTURI"</item>
+        <item>"Dramă modernă, dramă western|DRAMĂ"</item>
+        <item>"Sporturi cu motor|SPORT"</item>
+        <item>"Musical|MUZICĂ"</item>
+        <item>"Muzică, artă, artă industrială|ARTE"</item>
+        <item>"Varietate de muzică|DIVERTISMENT"</item>
+        <item>"Analiză de știri|ȘTIRI"</item>
+        <item>"Jocuri olimpice, internaționale|SPORT"</item>
+        <item>"Alte jocuri cu mingea|SPORT"</item>
+        <item>"Animație de peste ocean|FAMILY_KIDS"</item>
+        <item>"Drame de peste ocean|DRAMĂ"</item>
+        <item>"Raport de peste ocean, internațional|ȘTIRI"</item>
+        <item>"Filme de peste ocean|FILME"</item>
+        <item>"Rock de peste ocean, muzică pop|MUZICĂ"</item>
+        <item>"Drame de epocă|DRAMĂ"</item>
+        <item>"Politică, adunare națională|ȘTIRI"</item>
+        <item>"Cântece populare, cântece populare japoneze (cântece enka)|MUZICĂ"</item>
+        <item>"Emisiune concurs|JOCURI"</item>
+        <item>"Clasament, muzică la cerere|MUZICĂ"</item>
+        <item>"Obișnuit, general|ȘTIRI"</item>
+        <item>"Shopping, afaceri prin corespondență|SHOPPING"</item>
+        <item>"Fotbal|SPORT"</item>
+        <item>"Efecte speciale|FAMILY_KIDS"</item>
+        <item>"Program special, documentar|NEWS"</item>
+        <item>"Raport special|ȘTIRI"</item>
+        <item>"Știri sportive|SPORT"</item>
+        <item>"Sumo, sporturi combative|SPORT"</item>
+        <item>"Varietate de discuții|DIVERTISMENT"</item>
+        <item>"Varietate tur|DIVERTISMENT"</item>
+        <item>"Raport de trafic|ȘTIRI"</item>
+        <item>"Excursie, pescuit, divertisment în aer liber|ANIMAL_WILDLIFE"</item>
+        <item>"Studenți universitari, examinări|EDUCAȚIE"</item>
+        <item>"Prognoză meteo|ȘTIRI"</item>
+    </string-array>
+    <!-- Category mapping from ISDB in Brazil to canonical genre -->
+    <string-array name="genre_mapping_isdb_br">
+        <item>"Biografia|NEWS"</item>
+        <item>"Culinária|LIFE_STYLE"</item>
+        <item>"Documentário|ȘTIRI"</item>
+        <item>"Educativo|EDUCAȚIE"</item>
+        <item>"Erótico|FILME"</item>
+        <item>"Esporte|SPORT"</item>
+        <item>"Filme|FILME"</item>
+        <item>"Joc televizat|JOCURI"</item>
+        <item>"Humorístico|COMEDIE"</item>
+        <item>"Infantil|FAMILY_KIDS"</item>
+        <item>"Informação|LIFE_STYLE"</item>
+        <item>"Jornalismo|ȘTIRI"</item>
+        <item>"Minissérie|DRAMĂ"</item>
+        <item>"Moda|LIFE_STYLE"</item>
+        <item>"Musical|MUZICĂ"</item>
+        <item>"Premiação|DIVERTISMENT"</item>
+        <item>"Reality show|DIVERTISMENT"</item>
+        <item>"Religioso|LIFE_STYLE"</item>
+        <item>"Reportagem|ȘTIRI"</item>
+        <item>"Rural|LIFE_STYLE"</item>
+        <item>"Saúde|LIFE_STYLE"</item>
+        <item>"Série|DRAMĂ"</item>
+        <item>"Série/seriado|DRAMĂ"</item>
+        <item>"Spectacol|DIVERTISMENT"</item>
+        <item>"Telejornais|ȘTIRI"</item>
+        <item>"Televendas|SHOPPING"</item>
+        <item>"Turismo|CĂLĂTORIE"</item>
+        <item>"Variedade|DIVERTISMENT"</item>
+        <item>"Auditorium|DIVERTISMENT"</item>
+        <item>"Premii|DIVERTISMENT"</item>
+        <item>"Biografie|ȘTIRI"</item>
+        <item>"Copil|FAMILY_KIDS"</item>
+        <item>"Copii|FAMILY_KIDS"</item>
+        <item>"Comic|COMEDIE"</item>
+        <item>"Gătit|LIFE_STYLE"</item>
+        <item>"Țară|LIFE_STYLE"</item>
+        <item>"Discuție/interviu|ȘTIRI"</item>
+        <item>"Discuție|ȘTIRI"</item>
+        <item>"Documentar|ȘTIRI"</item>
+        <item>"Educație|EDUCAȚIE"</item>
+        <item>"Educativ|EDUCAȚIE"</item>
+        <item>"Servicii de inginerie|TECH_SCIENCE"</item>
+        <item>"Erotic|FILME"</item>
+        <item>"Modă|LIFE_STYLE"</item>
+        <item>"Feminin|DIVERTISMENT"</item>
+        <item>"Joc televizat|JOCURI"</item>
+        <item>"Sănătate|LIFE_STYLE"</item>
+        <item>"Umor|COMEDIE"</item>
+        <item>"Informații|LIFE_STYLE"</item>
+        <item>"Interviu|ȘTIRI"</item>
+        <item>"Jurnalism|ȘTIRI"</item>
+        <item>"Producere|DIVERTISMENT"</item>
+        <item>"Miniserie|DRAMĂ"</item>
+        <item>"Miniserie|DRAMĂ"</item>
+        <item>"Film|FILME"</item>
+        <item>"Film|FILME"</item>
+        <item>"Musical|DIVERTISMENT"</item>
+        <item>"Știri|ȘTIRI"</item>
+        <item>"Acordare de premii|SHOPPING"</item>
+        <item>"Tombolă|SHOPPING"</item>
+        <item>"Tombolă, vânzări la televiziune, acordare de premii|SHOPPING"</item>
+        <item>"Reality show|DIVERTISMENT"</item>
+        <item>"Religios|LIFE_STYLE"</item>
+        <item>"Raportare|ȘTIRI"</item>
+        <item>"Raport|ȘTIRI"</item>
+        <item>"Rural|LIFE_STYLE"</item>
+        <item>"Serie|DRAMĂ"</item>
+        <item>"Serie / emisiune TV|DRAMĂ"</item>
+        <item>"Spectacol|DIVERTISMENT"</item>
+        <item>"Telenovelă|DRAMĂ"</item>
+        <item>"Sport|SPORT"</item>
+        <item>"Sport|SPORT"</item>
+        <item>"Vânzări prin telefon|SHOPPING"</item>
+        <item>"Vânzări televizate|SHOPPING"</item>
+        <item>"Turism|CĂLĂTORIE"</item>
+        <item>"Călătorie|CĂLĂTORIE"</item>
+        <item>"Știri TV|ȘTIRI"</item>
+        <item>"Varietate|DIVERTISMENT"</item>
+        <item>"Spectacol de varietăți|DIVERTISMENT"</item>
+    </string-array></resources>

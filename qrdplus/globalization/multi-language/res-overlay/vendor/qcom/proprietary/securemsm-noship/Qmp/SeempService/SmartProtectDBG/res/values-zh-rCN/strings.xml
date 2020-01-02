@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"智能保护 DBG"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ 智能保护"</string>
+    <string name="title_app_info">"应用信息"</string>
+    <string name="title_trusted">"信任的应用"</string>
+    <string name="title_about">"关于"</string>
+    <string name="title_settings">"设置"</string>
+    <string name="drawer_open_title">"骁龙智能保护"</string>
+<string name="service_status_on">"开启"</string>
+    <string name="service_status_off">"关闭"</string>
+    <string name="err_title">"应用错误"</string>
+    <string name="err_msg_init">"骁龙智能保护无法初始化 QSSP 库。正在停止服务"</string>
+    <string name="err_msg_load_model">"骁龙智能保护无法加载模型。正在停止服务"</string>
+    <string name="err_msg_malicious_alert">"骁龙智能保护无法注册恶意警报。正在停止服务"</string>
+    <string name="err_msg_benign_alert">"骁龙智能保护无法注册善意警报。正在停止服务"</string>
+    <string name="err_msg_service_not_up">"骁龙智能保护无法再查找任何服务。"</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"保留所有权利。"</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ 智能保护是 Qualcomm Technologies, Inc. 的一款产品。"</string>
+    <string name="about_information_line2">"Qualcomm 和骁龙是 Qualcomm Incorporated 在美国和其他国家/地区的注册商标，具有使用许可。"</string>
+    <string name="btn_restore_default">"还原默认设置"</string>
+    <string name="btn_clear_history">"清除智能保护历史记录"</string>
+    <string name="trusted_btn">"添加到信任的应用列表"</string>
+    <string name="uninstall_btn">"卸载"</string>
+    <string name="details_btn">"详情"</string>
+    <string name="done_btn">"完成"</string>
+    <string name="remove_trusted_btn">"从信任的应用列表中移除"</string>
+    <string name="uninstall_confirm_message">"要卸载此应用吗？?"</string>
+    <string name="uninstall_success">"软件包卸载成功"</string>
+    <string name="uninstall_failed">"软件包卸载失败"</string>
+    <string name="clear_history_done">"已成功清除历史记录"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"骁龙智能保护"</string>
+    <string name="drawer_threats">"检测到威胁 (%1$s)"</string>
+    <string name="drawer_threat_null">"设备内置的实时隐私保护和恶意软件检测"</string>
+    <string name="drawer_option_dashboard">"仪表板"</string>
+    <string name="drawer_option_trusted_apps">"信任的应用"</string>
+    <string name="drawer_option_settings">"设置"</string>
+    <string name="drawer_option_about">"关于"</string>
+    <string name="dashboard_list_title">"选择某个应用以查看骁龙智能保护详情和建议。"</string>
+    <string name="dashboard_list_empty">"没有正被监控的应用。"</string>
+    <string name="app_info_recommend">"建议："</string>
+    <string name="app_info_version">"版本"</string>
+    <string name="app_uninstalled">"设备上没有任何应用。按“确定”以退出。"</string>
+    <string name="malicious_item_threat">"检测到骁龙智能保护："</string>
+    <string name="malicious_item_confidence">"置信度级别："</string>
+    <string name="malicious_item_analysis">"分析"</string>
+    <string name="malicious_recommend">"卸载"</string>
+    <string name="good_threat">"没有检测到任何威胁。"</string>
+    <string name="good_recommend">"选择“完成”，以便骁龙智能保护将继续监控此应用。"</string>
+    <string name="good_title">"较强"</string>
+    <string name="trusted_item_title">"骁龙智能保护不监控 %1$s 的活动，因为其位于您信任的应用列表中。\n\n如果不确定此应用是否安全，请将其从信任的应用列表中移除。"</string>
+    <string name="trusted_list_title">"骁龙智能保护不监控此列表上的应用。"</string>
+    <string name="trusted_list_subtitle">"如果不确定此应用是否安全，请将其从信任的应用列表中移除。"</string>
+    <string name="trusted_list_empty">"信任的应用列表中没有任何应用。"</string>
+    <string name="trusted_list_empty_desc">"由于骁龙智能保护会监控所有应用，因此可最大限度地为您提供保护。"</string>
+    <string name="trusted_confirm_message">"要将此应用添加到信任的应用列表中吗？\n\n如果不确定此应用是否安全，请选择“取消”。"</string>
+    <string name="malicious_ntf_message">"骁龙智能保护检测到 %1$s 中存在恶意活动。"</string>
+    <string name="malicious_ntf_recommend">"建议：卸载"</string>
+    <string name="malicious_dialog_title">"恶意"</string>
+    <string name="malicious_text">"恶意"</string>
+    <string name="malware_ntf_message">"骁龙智能保护检测到 %1$s 中存在恶意软件。"</string>
+    <string name="malware_dialog_title">"检测到恶意软件"</string>
+    <string name="malware_title">"恶意软件"</string>
+    <string name="spyware_ntf_message">"骁龙智能保护检测到 %1$s 中存在间谍软件。"</string>
+    <string name="spyware_dialog_title">"检测到间谍软件"</string>
+    <string name="spyware_title">"间谍软件"</string>
+    <string name="adware_ntf_message">"骁龙智能保护检测到 %1$s 中存在广告软件。"</string>
+    <string name="adware_dialog_title">"检测到广告软件"</string>
+    <string name="adware_title">"广告软件"</string>
+<string name="err_no_app_dashborad">"仪表板应用列表为空"</string>
+    <string name="analysis_title">"%1$s 可能是恶意软件，原因如下："</string>
+    <string name="service_label">"Sphinx 服务"</string>
+    <string name="unknown_code">" 代码 - %1$d"</string>
+    <string name="default_code_detail">"应用尝试执行恶意活动。"</string>
+    <string-array name="malicious_ntf_info">
+        <item>"可能会在您的设备上执行有害活动。"</item>
+        <item>"1 级恶意软件：对用户内容、应用和设备执行有害活动。"</item>
+        <item>"2 级恶意软件：执行可能会向用户收费的活动。"</item>
+        <item>"3 级间谍软件：泄露/窃取内容并主动监视用户。"</item>
+        <item>"4 级间谍软件：泄露/窃取用户元数据信息。"</item>
+        <item>"5 级间谍软件：泄露/窃取设备敏感信息。"</item>
+        <item>"6 级骚扰软件：越权广告软件和/或入侵式应用。"</item>
+    </string-array>
+    <string name="setting_level1_title">"1 级恶意软件"</string>
+    <string name="setting_level2_title">"2 级恶意软件"</string>
+    <string name="setting_level3_title">"3 级间谍软件"</string>
+    <string name="setting_level4_title">"4 级间谍软件"</string>
+    <string name="setting_level5_title">"5 级间谍软件"</string>
+    <string name="setting_level6_title">"6 级广告软件"</string>
+    <string name="setting_mode_title">"模式"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"弹出警报和标准警报"</item>
+        <item>"标准警报"</item>
+        <item>"无警报"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"普通模式"</item>
+        <item>"静音模式"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<string name="monitor_feature_title">"监控功能"</string>
+    <string name="err_msg_no_rfm">"骁龙智能保护无法查找设备上的 rfm 文件"</string>
+    <string name="err_msg_monitor">"骁龙智能保护无法监控功能"</string>
+    <string name="title_debug">"调试"</string>
+    <string name="drawer_option_debug">"调试"</string>
+    <string name="set_rfm_file">"选择 RFM 文件"</string>
+    <string name="debug_rfm_model">"RFM 文件"</string>
+    <string name="debug_mnf_apply">"监控功能"</string></resources>

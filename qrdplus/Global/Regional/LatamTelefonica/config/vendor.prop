@@ -1,0 +1,26 @@
+#
+# ADDITIONAL_FEATURE_PROPERTIES FOR LatamTelefonica SPEC
+#
+####################################################
+#Set the current spec as LatamTelefonica#
+persist.env.spec=LatamTelefonica
+
+#set system locale#
+persist.sys.locale=es-ES
+
+#set system timezone#
+persist.sys.timezone=Europe/Madrid
+
+#Set the SIM model for DSDS. ssss - Single model, dsds - Dual model.#
+persist.radio.multisim.config=ssss
+
+# Set Network mode option #
+ro.telephony.default_network=9
+
+# Default for Settings.Global.DATA_ROAMING
+ro.com.android.dataroaming=false
+# Default for Settings.Global.MOBILE_DATA
+ro.com.android.mobiledata=true
+
+# Enable NSRM
+persist.dpm.feature=4

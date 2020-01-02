@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"دوربین اجتماعی"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"هنگام تأیید یا درخواست مجوزها، با مشکل مواجه شدیم. برای جزئیات بیشتر لطفاً logcat را بررسی کنید."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"ارسال (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"اتصال دوربین قطع شد"</string>
+    <string name="camera_preview_error_camera_error">"خطا از دوربین: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"عکس گرفته نشد"</string>
+    <string name="camera_preview_error_still_image_save_failed">"هنگام ذخیره عکس در گالری، با مشکل مواجه شدیم"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"تنظیمات"</string>
+    <string name="camera_settings_category_camera_settings">"تنظیم دوربین"</string>
+    <string name="camera_settings_category_fr_settings">"تنظیمات تشخیص چهره"</string>
+    <string name="camera_settings_category_debug_settings">"تنظیمات رفع اشکال"</string>
+    <string name="camera_settings_fr_database_cleared">"پایگاه داده تشخیص چهره پاک شد"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"رد کردن"</string>
+    <string name="picture_review_send_faces">"ارسال (%d)"</string>
+    <string name="picture_review_no_faces">"کسی در این عکس پیدا نشد"</string>
+    <string name="picture_review_error_face_recognition">"در تشخیص چهره‌ها با مشکل مواجه شدیم"</string>
+    <string name="picture_review_error_face_enroll">"متأسفانه هنگام ذخیره این چهره با مشکل مواجه شدیم. لطفاً از این سوژه عکس دیگری بگیرید و دوباره امتحان کنید."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"مخاطب دیگر...."</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"تنظیمات اشتراک‌گذاری"</string>
+    <string name="fr_share_settings_button_just_once">"فقط یک بار"</string>
+    <string name="fr_share_settings_button_always">"همیشه"</string>
+    <string name="fr_share_settings_share_method_sms">"پیام"</string>
+    <string name="fr_share_settings_share_method_email">"ایمیل"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"این را امتحان کنید!"</string>
+    <string name="social_sharing_error_no_email_app">"برنامه‌ای ندارید که قادر به ارسال ایمیل باشد"</string></resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">EmbmsTestApp</string>
+    <string name="embms_test_app">"eMBMS परीक्षण ऐप"</string>
+    <string name="bind_service">"सेवा आबद्ध करें"</string>
+    <string name="unbind_service">"सेवा मुक्त करें"</string>
+    <string name="kill_process">"प्रक्रिया समाप्त करें"</string>
+    <string name="register">"कॉलबैक पंजीकृत करें"</string>
+    <string name="deregister">"कॉलबैक का पंजीकरण रद्द करें"</string>
+    <string name="enable">"eMBMS को सक्षम कर रहा है"</string>
+    <string name="disable">"eMBMS को अक्षम कर रहा है"</string>
+    <string name="activate">"TMGI को सक्रिय कर रहा है"</string>
+    <string name="deactivate">"TMGI को निष्क्रिय कर रहा है"</string>
+    <string name="enter_Tmgi">"TMGI दशमलव में दर्ज करें"</string>
+    <string name="get_active">"कार्य सूची प्राप्त करें"</string>
+    <string name="get_available">"Avl सूची प्राप्त करें"</string>
+    <string name="get_coverage">"Cov स्थिति प्राप्त करें"</string>
+    <string name="get_log_packet_id">"लॉग पैकेट ID प्राप्त करें"</string>
+    <string name="deliver_log_packet">"Dlver लॉग पैकेट"</string>
+    <string name="get_e911_state">"E911 स्थिति प्राप्त करें"</string></resources>

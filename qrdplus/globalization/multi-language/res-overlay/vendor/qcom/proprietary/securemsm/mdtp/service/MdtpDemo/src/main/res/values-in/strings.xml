@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"Apl Pengguna MDTP: Layar Utama"</string>
+    <string name="config_app">"Apl Pengguna MDTP: Konfigurasi"</string>
+    <string name="server_app">"Server MDTP: Layar Utama"</string>
+    <string name="action_settings">"Setelan"</string>
+    <string name="label_1_1">"Status MDTP:"</string>
+    <string name="state_deactivated">"Dinonaktifkan"</string>
+    <string name="state_activated">"Diaktifkan"</string>
+    <string name="configuration">"Konfigurasi (hanya sebelum aktivasi)"</string>
+    <string name="service_activate">"Meminta aktivasi MDTP dari layanan MDTP"</string>
+    <string name="service_deactivate">"Meminta aktivasi MDTP dari layanan-layanan MDTP"</string>
+    <string name="local_deactivate">"Penonaktifan MDTP lokal (menggunakan PIN)"</string>
+    <string name="service_console">"Konsol Layanan MDTP"</string>
+    <string name="title_activity_configuration">"Konfigurasi Pengguna"</string>
+    <string name="label_2_1">"Gunakan PIN Lokal:"</string>
+    <string name="label_2_2">"PIN:"</string>
+    <string name="gen_rand_pin">"Membuat PIN Acak"</string>
+    <string name="label_2_3">"Rasio Verifikasi:"</string>
+    <string name="label_2_5">"Rasio Verifikasi:"</string>
+    <string name="label_2_6">"File/direktori tambahan untuk memverifikasi:"</string>
+    <string name="reset">"Reset ke default"</string>
+    <string name="label_3_1">"Mengirim perintah dari server ke perangkat:"</string>
+    <string name="activate">"Aktifkan"</string>
+    <string name="deactivate">"Nonaktifkan"</string>
+    <string name="locksim">"Kunci SIM"</string>
+    <string name="unlocksim">"Buka kunci SIM"</string>
+    <string name="killfunc">"Hilangkan fungsionalitas"</string>
+    <string name="restorefunc">"Pulihkan fungsionalitas"</string>
+    <string name="label_3_2">"Permintaan penonaktifan  MDTP:"</string>
+    <string name="notallowed">"Tidak diizinkan"</string>
+    <string name="allowed">"Diizinkan"</string>
+    <string name="label_3_3">"Permintaan untuk membebaskan SetupWizard:"</string>
+    <string name="label_3_4">"Log Layanan:"</string>
+    <string name="wizard_app_loading_title">"SetupWizard MDTP: Menginisialisasi..."</string>
+    <string name="label_4_1">"SetupWizard diblokir karena status MDTP diaktifkan"</string>
+    <string name="label_4_2">"Opsi A: Tetap aktifkan MDTP, tetapi minta otorisasi server"</string>
+    <string name="wiz_unblock">"Meminta pembebasan SetupWizard dari Layanan MDTP"</string>
+    <string name="wiz_cont">"Lanjutkan (dioorisasi oleh server)"</string>
+    <string name="label_4_3">"Opsi B: Menonaktifkan MDTP (akan membebaskan SetupWizard)"</string>
+    <string name="wiz_remote">"Meminta penonaktifan MDTP Jarak Jauh"</string>
+    <string name="wiz_local">"Penonaktifan MDTP lokal"</string>
+    <string name="label_4_4">"SetupWizard dapat dilanjutkan karena status MDTP TIDAK diaktifkan"</string>
+    <string name="wiz_complete">"Lengkapi SetupWizard (status MDTP tidak diaktifkan)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"Setup Wizard"</string>
+    <string name="label_signup_message">"MDTP saat ini tidak diaktifkan.\nApakah Anda ingin mengaktifkannya?"</string>
+    <string name="label_signup_message_activated">"MDTP berhasil diaktifkan!"</string>
+    <string name="skip_activation">"Lewati Aktivasi"</string>
+    <string name="emergency_dialer">"Aplikasi Telepon Darurat"</string>
+    <string name="wiz_title_sign_up">"SetupWizard MDTP - Daftar"</string>
+    <string name="wiz_title_reset_prot">"SetupWizard MDTP - Proteksi Setelan Pabrik"</string>
+    <string name="wiz_title_boot_block">"SetupWizard MDTP - Perangkat Diblokir"</string>
+    <string name="block_boot_warning_text">"MDTP memblokir perangkat ini karena masalah internal.\n\nSilakan boot ulang perangkat."</string>
+    <string name="start_wifi_wizard">"Setel WiFi"</string>
+    <string name="default_pin_hint">"PIN default adalah 11111"</string>
+    <string name="pin_dialog_title">"PIN Penonaktifan Lokal MDTP Wajib Diisi"</string>
+    <string name="pin_input_validation_warning">"Input harus 5 digit dan berupa angka"</string></resources>

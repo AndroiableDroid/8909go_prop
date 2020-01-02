@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"STA"</string>
+    <string name="title_settings_activity">"Cài đặt"</string>
+    <string name="title_contact_activity">"Thêm địa chỉ liên hệ"</string>
+    <string name="title_event_activity">"Thêm sự kiện"</string>
+    <string name="title_add_field">"Chọn nhãn"</string>
+    <string name="title_text_activity">"Kết quả"</string>
+    <string name="title_pick_datetime">"Chọn ngày giờ"</string>
+    <string name="title_app_message">"Tin nhắn"</string>
+    <string name="menu_item_copy">"Sao chép"</string>
+    <string name="menu_item_edit">"Sửa"</string>
+    <string name="date_picker_ok">"OK"</string>
+    <string name="date_picker_cancel">"Hủy"</string>
+    <string name="dropdown_none_option">"Không"</string>
+    <string name="scan_more">"Tìm kiếm thêm"</string>
+    <string name="bar_save_option">"Lưu"</string>
+    <string name="bar_done_option">"Xong"</string>
+    <string name="camera_option_open_image">"Mở ảnh"</string>
+    <string name="camera_option_settings">"Cài đặt"</string>
+    <string name="text_action_search">"Tìm kiếm"</string>
+    <string name="text_action_translate">"Dịch"</string>
+    <string name="text_action_copy">"Sao chép"</string>
+    <string name="translate_url">"https://translate.google.com/m/translate#auto/"</string>
+    <string name="instruction_camera">"Sử dụng máy ảnh để trích xuất thông tin hữu ích từ danh thiếp, tờ bướm và hình ảnh khác"</string>
+    <string name="instruction_dont_show">"Không hiển thị lại"</string>
+    <string name="instruction_dismiss_button">"OK"</string>
+    <string name="message_no_more_fields">"Không còn trường để thêm"</string>
+    <string name="message_contact_saved">"Đã lưu liên hệ thành công."</string>
+    <string name="message_calendar_saved">"Đã lưu sự kiện trên lịch thành công."</string>
+    <string name="message_text_copied">"Đã sao chép văn bản."</string>
+    <string name="message_no_matching_app">"Không có ứng dụng nào để xử lý"</string>
+    <string name="message_gallery_pan_zoom">"Bạn có thể xoay máy hoặc thu phóng để nhận dạng mẫu hình từ ảnh này."</string>
+    <string name="message_restart_scanning">"Vui lòng chạm để bắt đầu."</string>
+    <string name="message_no_dates">"Không có ngày nào được nhận dạng"</string>
+    <string name="message_hold_steady">"Hướng vào văn bản và giữ chắc chắn"</string>
+    <!-- Error information -->
+    <string name="error_prefix">" Lỗi: 0x"</string>
+    <string name="error_title">"Lỗi"</string>
+    <string name="error_dismiss_button">"OK"</string>
+    <string name="error_camera_failed">"Khởi tạo máy ảnh không thành công."</string>
+    <string name="error_camera_snapshot_failed">"Máy ảnh không thể chụp nhanh ảnh."</string>
+    <string name="error_galleryImage_load">"Ứng dụng không tải được ảnh."</string>
+    <string name="error_api_frame_timeout">"Không có văn bản nào được nhận dạng."</string>
+    <string name="error_api_init_failed">"Khởi tạo Api STA không thành công."</string>
+    <string name="error_api_parsing_failed">"Api STA không phân tích được ảnh, thử lại."</string>
+    <string name="error_api_no_records">"Không có văn bản nào được nhận dạng."</string>
+    <string name="error_api_restart_failed">"Khởi động lại API không thành công."</string>
+    <string name="error_api_no_new_records">"Không tìm thấy thông tin mới nào."</string>
+    <string name="error_min_max_limit">"Vui lòng nhập một giá trị giữa %1$s và %2$s"</string>
+    <string name="error_no_sta_data_selected">"Vui lòng chọn ít nhất một mục."</string>
+    <!-- Contact information -->
+    <string name="contact_name_field_caption">"TÊN"</string>
+    <string name="contact_nickname_field_caption">"BIỆT HIỆU"</string>
+    <string name="contact_nickname_field_name">"Biệt hiệu"</string>
+    <string name="contact_title_field_caption">"TIÊU ĐỀ"</string>
+    <string name="contact_company_field_caption">"CÔNG TY"</string>
+    <string name="contact_phone_work_field_caption">"ĐIỆN THOẠI"</string>
+    <string name="contact_phone_work_field_name">"Điện thoại (công việc)"</string>
+    <string name="contact_phone_mobile_field_caption">"ĐIỆN THOẠI"</string>
+    <string name="contact_phone_mobile_field_name">"Điện thoại (di động)"</string>
+    <string name="contact_phone_home_field_caption">"ĐIỆN THOẠI"</string>
+    <string name="contact_phone_home_field_name">"Điện thoại (nhà riêng)"</string>
+    <string name="contact_phone_fax_field_caption">"ĐIỆN THOẠI"</string>
+    <string name="contact_phone_fax_field_name">"Điện thoại (fax)"</string>
+    <string name="contact_address_field_caption">"ĐỊA CHỈ"</string>
+    <string name="contact_address_field_name">"Địa chỉ"</string>
+    <string name="contact_email_field_caption">"EMAIL"</string>
+    <string name="contact_email_field_name">"Email"</string>
+    <string name="contact_website_field_caption">"TRANG WEB"</string>
+    <string name="contact_website_field_name">"Trang web"</string>
+    <string name="contact_im_field_caption">"IM"</string>
+    <string name="contact_relationship_field_caption">"QUAN HỆ"</string>
+    <string name="contact_relationship_field_name">"Quan hệ"</string>
+    <string name="contact_notes_field_caption">"GHI CHÚ"</string>
+    <string name="contact_notes_field_name">"Ghi chú"</string>
+    <!-- Event information -->
+    <string name="event_title_field_caption">"TIÊU ĐỀ"</string>
+    <string name="event_from_date_field_caption">"TỪ"</string>
+    <string name="event_to_date_field_caption">"TỚI"</string>
+    <string name="event_location_field_caption">"VỊ TRÍ"</string>
+    <string name="event_location_field_name">"Vị trí"</string>
+    <string name="event_all_day_field_caption">"CẢ NGÀY"</string>
+    <string name="event_repeat_field_caption">"LẶP LẠI"</string>
+    <string name="event_details_field_caption">"CHI TIẾT"</string>
+    <string name="event_details_field_name">"Chi tiết"</string>
+    <string name="event_participants_field_caption">"THÀNH VIÊN"</string>
+    <string name="event_participants_field_name">"Thành viên"</string>
+    <string name="event_date_time_format_long">"EEE M/d/yyyy h:mm a"</string>
+    <string name="event_date_time_format_small">"M/d/yyyy h:mm a"</string>
+    <string name="event_date_format_long">"EEE M/d/yyyy"</string>
+    <string name="event_date_format_small">"MMM d, yyyy"</string>
+    <string name="event_date_format_month_small">"MMM"</string>
+    <string name="event_date_format_month_full">"MMMM"</string>
+    <string name="event_date_format_year">"yyyy"</string>
+    <string name="event_date_format_weekday">"EEE"</string>
+    <string name="event_date_format_small_no_year">"EEE MMM d"</string>
+    <string name="event_time_format">"h:mm a"</string>
+    <string name="event_date_separator">"-"</string>
+    <string name="preview_type_key">"com.qualcomm.qti.sta.captureui.CameraActivity.preview_type"</string>
+    <string name="preview_type_button">"nút"</string>
+    <string name="preview_type_auto">"tự động"</string>
+    <!-- Repeat -->
+    <string name="repeat_title">"Lặp lại"</string>
+    <string name="repeat_button_cancel">"Hủy"</string>
+    <string name="repeat_button_ok">"OK"</string>
+    <string name="repeat_summary_one_time">"Sự kiện diễn ra một lần"</string>
+    <string name="repeat_summary_daily">"Hàng ngày"</string>
+    <string name="repeat_summary_daily_every">"Mỗi %1$s ngày"</string>
+    <string name="repeat_summary_weekly">"Hàng tuần mỗi %1$s"</string>
+    <string name="repeat_summary_weekly_every">"Mỗi %1$s tuần %2$s"</string>
+    <string name="repeat_summary_monthly_date">"Hàng tháng vào ngày %1$s"</string>
+    <string name="repeat_summary_monthly_day">"Hàng tháng mỗi %1$s"</string>
+    <string name="repeat_summary_monthly_date_every">"Mỗi %1$s tháng vào ngày %2$s"</string>
+    <string name="repeat_summary_monthly_day_every">"Mỗi %1$s tháng mỗi %2$s"</string>
+    <string name="repeat_summary_yearly">"Hàng năm mỗi %1$s"</string>
+    <string name="repeat_summary_yearly_every">"Mỗi %1$s năm %2$s"</string>
+    <string name="repeat_summary_till_date">"cho đến %1$s"</string>
+    <string name="repeat_summary_till_events">"cho %1$s lần"</string>
+    <string name="repeat_summary_till_one_event">"cho 1 lần"</string>
+    <string name="repeat_title_pick_date">"Chọn ngày"</string>
+    <string name="repeat_one_time">"Sự kiện diễn ra một lần"</string>
+    <string name="repeat_daily">"Lặp lại hàng ngày"</string>
+    <string name="repeat_weekly">"Lặp lại hàng tuần"</string>
+    <string name="repeat_monthly">"Lặp lại hàng tháng"</string>
+    <string name="repeat_yearly">"Lặp lại hàng năm"</string>
+    <string name="repeat_till_day">"ngày"</string>
+    <string name="repeat_till_week">"tuần"</string>
+    <string name="repeat_till_month">"tháng"</string>
+    <string name="repeat_till_year">"năm"</string>
+    <string name="sunday_name">"CN"</string>
+    <string name="monday_name">"T2"</string>
+    <string name="tuesday_name">"T3"</string>
+    <string name="wednesday_name">"T4"</string>
+    <string name="thursday_name">"T5"</string>
+    <string name="friday_name">"T6"</string>
+    <string name="saturday_name">"T7"</string>
+    <string-array name="number_texts">
+        <item>"đầu tiên"</item>
+        <item>"thứ hai"</item>
+        <item>"thứ ba"</item>
+        <item>"thứ tư"</item>
+        <item>"thứ năm"</item>
+    </string-array>
+    <string-array name="two_letter_day_names">
+        <item>"CN"</item>
+        <item>"T2"</item>
+        <item>"T3"</item>
+        <item>"T4"</item>
+        <item>"T5"</item>
+        <item>"T6"</item>
+        <item>"T7"</item>
+    </string-array>
+    <string-array name="short_day_names">
+        <item>@string/sunday_name</item>
+        <item>@string/monday_name</item>
+        <item>@string/tuesday_name</item>
+        <item>@string/wednesday_name</item>
+        <item>@string/thursday_name</item>
+        <item>@string/friday_name</item>
+        <item>@string/saturday_name</item>
+    </string-array>
+    <string-array name="complete_day_names">
+        <item>"Chủ nhật"</item>
+        <item>"Thứ Hai"</item>
+        <item>"Thứ Ba"</item>
+        <item>"Thứ Tư"</item>
+        <item>"Thứ Năm"</item>
+        <item>"Thứ Sáu"</item>
+        <item>"Thứ Bảy"</item>
+    </string-array>
+    <string name="repeat_month_same_date">"Vào cùng một ngày trong mỗi tháng"</string>
+    <string name="repeat_month_same_day">"Vào mỗi"</string>
+    <string name="repeat_every_caption">"Mỗi"</string>
+    <string-array name="till_types">
+        <item>"Vĩnh viễn"</item>
+        <item>"Cho đến"</item>
+        <item>"Lặp lại"</item>
+    </string-array>
+    <!-- Settings -->
+    <string name="setting_sta_data_type">"Loại dữ liệu STA"</string>
+    <string name="setting_sta_locale_type">"STA cục bộ"</string>
+    <string name="setting_text_record_mode">"Chế độ máy ảnh"</string>
+    <string name="setting_camera_steady_duration">"Thời gian ổn định máy ảnh (theo phút)"</string>
+    <string name="setting_camera_move_threshold">"Ngưỡng di chuyển máy ảnh"</string>
+    <string name="setting_sta_locale_usa">"HOA KỲ"</string>
+    <string name="setting_sta_locale_china">"TRUNG QUỐC"</string>
+    <string name="setting_sta_locale_korea">"HÀN QUỐC"</string>
+    <string name="setting_default_sta_locale">@string/setting_sta_locale_usa</string>
+    <string name="setting_text_record_snapshot_mode">"Chụp nhanh"</string>
+    <string name="setting_text_record_preview_mode">"Xem trước"</string>
+    <string name="setting_default_text_record_mode">@string/setting_text_record_snapshot_mode</string>
+    <string name="setting_sta_language_usa">"t.Anh"</string>
+    <string name="setting_sta_language_china">"t.Trung"</string>
+    <string name="setting_sta_langauge_korea">"t.Hàn"</string>
+    <string-array name="setting_sta_data_type_options">
+        <item>"Email"</item>
+        <item>"URL"</item>
+        <item>"Số điện thoại"</item>
+        <item>"Địa chỉ"</item>
+        <item>"Ngày"</item>
+        <item>"Chung"</item>
+    </string-array>
+    <string-array name="setting_sta_data_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type">
+        <item>"HOA KỲ"</item>
+        <item>"Trung Quốc"</item>
+        <item>"Triều Tiên"</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type_values">
+        <item>@string/setting_sta_locale_usa</item>
+        <item>@string/setting_sta_locale_china</item>
+        <item>@string/setting_sta_locale_korea</item>
+    </string-array>
+    <string-array name="setting_text_record_options">
+        <item>@string/setting_text_record_snapshot_mode</item>
+        <item>@string/setting_text_record_preview_mode</item>
+    </string-array>
+    <string name="settings_scve_mode">"Chế độ hoạt động SCVE"</string>
+    <string-array name="settings_scve_mode_entries">
+        <item>"Mặc định"</item>
+        <item>"Gỡ tải CPU"</item>
+        <item>"Hiệu suất"</item>
+        </string-array>
+    <string-array name="settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+    </string-array>
+    <string name="settings_scve_mode_default">0</string></resources>

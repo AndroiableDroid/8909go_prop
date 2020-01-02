@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Cámara social"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"Encontramos un error al verificar o solicitar permisos. Revisa el logcat para ver más detalles."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Enviar (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"Conexión a cámara perdida"</string>
+    <string name="camera_preview_error_camera_error">"Error de cámara: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Error al tomar la imagen"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Se encontró un error al guardar la imagen en la galería"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Configuración"</string>
+    <string name="camera_settings_category_camera_settings">"Configuración cámara"</string>
+    <string name="camera_settings_category_fr_settings">"Configuración de reconocimiento de cara"</string>
+    <string name="camera_settings_category_debug_settings">"Config. depuración"</string>
+    <string name="camera_settings_fr_database_cleared">"Base de datos de reconocimiento de caras eliminada"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Ignorar"</string>
+    <string name="picture_review_send_faces">"Enviar (%d)"</string>
+    <string name="picture_review_no_faces">"No se detectó nadie en esta foto"</string>
+    <string name="picture_review_error_face_recognition">"Se detectó un error al reconocer caras"</string>
+    <string name="picture_review_error_face_enroll">"Se encontró un error al guardar esta cara. Toma otra foto e intenta de nuevo."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Otro contacto"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Compartir configuración"</string>
+    <string name="fr_share_settings_button_just_once">"Solo una vez"</string>
+    <string name="fr_share_settings_button_always">"Siempre"</string>
+    <string name="fr_share_settings_share_method_sms">"Mensaje"</string>
+    <string name="fr_share_settings_share_method_email">"Correo"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Ve esto"</string>
+    <string name="social_sharing_error_no_email_app">"No tienes una aplicación capaz de enviar correo electrónico"</string></resources>

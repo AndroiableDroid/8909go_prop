@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"Hoạt động gỡ lỗi GPS"</string>
+     <string name="cameraActivity">"Máy ảnh"</string>
+     <string name="newTrackingSession">"Phiên theo dõi mới"</string>
+     <string name="newTrackingSession_nameLabel">"Tên"</string>
+     <string name="newTrackingSession_numFixesLabel">"Sửa lỗi số"</string>
+     <string name="newTrackingSession_descriptionLabel">"Mô tả"</string>
+     <string name="newTrackingSession_startButtonLabel">"Bắt đầu"</string>
+     <string name="testConfig">"Thử nghiệm cấu hình"</string>
+     <string name="testConfig_configNameLabel">"Tên cấu hình"</string>
+     <string name="testConfig_numFixesLabel">"Sửa lỗi số (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"Mô tả thử nghiệm cấu hình"</string>
+     <string name="testConfig_startButtonLabel">"Bắt đầu thử nghiệm"</string>
+     <string name="testConfig_RadioLabel">"Theo dõi ứng dụng hoặc Thử một lần"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"Thử một lần"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"Theo dõi ứng dụng"</string>
+     <string name="testConfig_qosTimeoutLabel">"Thời gian phản hồi ưu tiên (giây)"</string>
+     <string name="testConfig_qosAccuracyLabel">"Độ chính xác ưu tiên (m)"</string>
+     <string name="testConfig_tbfLabel">"Khoảng thời gian tối thiểu (giây)"</string>
+     <string name="testConfig_staticTruthLabel">"Vị trí thực tĩnh (kiểm tra để sử dụng)"</string>
+     <string name="testConfig_latLabel">"Vĩ độ"</string>
+     <string name="testConfig_lonLabel">"Kinh độ"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"Loc API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"Dịch vụ GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"Loại lặp lại"</string>
+     <string name="testConfig_apiTypeLabel">"Loại API"</string>
+    <string name="labelUnknownPrivacy">"không xác định"</string>
+    <string name="labelGetPrivacy">"Nhận bảo mật"</string>
+    <string name="labelSetPrivacySetting">"Đặt bảo mật"</string>
+    <string name="name_vzw_client">"Máy khách Vzw"</string>
+    <string name="name_normal_client">"Android thông thường"</string>
+    <string name="LabelModeSel">"Chế độ"</string>
+    <string name="LabelNumFixSel">"Số lần sửa lỗi"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"Trạng thái..."</string>
+    <string name="str_nodata">"Không có dữ liệu"</string>
+    <string name="str_waitingforposinfo">"\nĐang đợi Thông tin vị trí...\n"</string>
+    <string name="str_searchingforsvs">"\nĐang tìm kiếm SVs...\n"</string>
+    <string name="str_configsummary">"\nTóm tắt cấu hình\n"</string>
+    <string name="str_alarms">"\nBáo thức:\n\n"</string>
+    <string name="str_starttest">"Bắt đầu thử nghiệm"</string>
+    <string name="str_sessionplayback">"Phát lại phiên"</string>
+    <string name="str_proximityalerts">"Cảnh báo tiệm cận"</string>
+    <string name="str_proximity_info">"Thông tin tiệm cận"</string>
+    <string name="str_options">"Tùy chọn"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"Độc lập"</item>
+<item>"AFLT"</item>
+<item>"Đã tối ưu hóa tốc độ"</item>
+<item>"Đã tối ưu hóa độ chính xác"</item>
+<item>"Đã tối ưu hóa dữ liệu"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"Thời gian (giây) giữa các lần sửa"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"Địa chỉ PDE"</string>
+<string name="LabelAccuracyH">"Độ chính xác ưu tiên (H, m)"</string>
+<string name="LabelAccuracyV">"Độ chính xác ưu tiên (V, m)"</string>
+<string name="LabelMaxResponseTime">"Thời gian chờ (giây)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"Chạy với xếp thông thường"</string>
+<string name="LabelRunOne">"Chạy VzW"</string>
+<string name="LabelRunState1">"Thử nghiệm FSM 1"</string>
+<string name="LabelRunState2">"Thử nghiệm FSM 2"</string>
+<string name="EnigneStatus">"Trạng thái Enigne"</string>
+<string name="NA">"N/A"</string>
+<string name="GpsStatus">"Trạng thái Gps"</string>
+<string name="Session">"Phiên"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"Loại"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"Dừng và Đi tới"</string>
+<string name="Mode">"Chế độ"</string>
+<string name="stop">"Dừng"</string>
+<string name="labelPdePort">"Cổng PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"Chỉ 911"</item>
+<item>"BẬT"</item>
+</string-array>
+<string name="non_aiding">"Bỏ chọn tất cả hỗ trợ"</string>
+<string name="all_aiding">"Chọn tất cả hỗ trợ"</string>
+<string name="done">"Đã chọn xóa"</string>
+<string name="Ephemeris">"Lịch thiên văn"</string>
+<string name="GLO_Ephemeris">"Lịch thiên văn GLO"</string>
+<string name="Alamanac">"Lịch"</string>
+<string name="GLO_Alamanac">"Lịch GLO"</string>
+<string name="Alamanac_Corr">"Chỉnh sửa lịch"</string>
+<string name="GLO_Alamanac_Corr">"Chỉnh sửa lịch GLO"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"Dẫn hướng SV"</string>
+<string name="GLO_SV_Steer">"Dẫn hướng GLO SV"</string>
+<string name="Cell_DB_Info">"Thông tin DB di động"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"Thời gian GPS"</string>
+<string name="GLO_Time">"Thời gian GLO"</string>
+<string name="Freq_Bias_Est">"Độ lệch tần số giờ chuẩn miền Đông"</string>
+<string name="Time">"Thời gian"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"Sức khỏe"</string>
+<string name="SA_Data">"Dữ liệu SA"</string>
+<string name="position">"vị trí"</string>
+<string name="str_wbiq_runscript">"Chạy tập lệnh"</string>
+<string name="str_wbiq_stopgps">"Thoát chế độ RF"</string>
+<string name="str_wbiq_startgps">"Vào chế độ RF"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"Ghi nhật ký trên thiết bị tự động"</string>
+<string name="str_wbiq_chk_delaystart">"Trì hoãn khởi động"</string>
+<string name="str_wbiq_chk_autostop">"Tự động dừng"</string>
+<string name="str_wbiq_chk_otfsa">"Bật OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"G"</string>
+<string name="str_proximity_clearalerts">"Xóa cảnh báo"</string>
+<string name="str_proximity_savealertsfile">"Lưu tệp cảnh báo"</string>
+<string name="str_proximity_loadalertsfile">"Tải tệp cảnh báo"</string>
+<string name="str_proximity_deletealertsfile">"Xóa tệp cảnh báo"</string>
+<string name="str_proximity_logging">"Ghi nhật ký"</string>
+<string name="str_proximity_autostartenabled">"Tự động khởi động"</string>
+<string name="str_proximity_autostartfile">"Chọn tệp tự động khởi động"</string>
+<string name="str_proximity_smsnumber">"Số thông báo SMS"</string>
+<string name="str_proximity_geofencelisttab_add">"Thêm"</string>
+<string name="str_proximity_geofencelisttab_delet">"Xóa"</string>
+<string name="str_proximity_geofencelisttab_edit">"Sửa"</string>
+<string name="str_locbatchingtab_btn_s">"G"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[Trung bình, Tối thiểu, Tối đa] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"Tải lô"</string>
+<string name="str_powerest_summary">"Tóm tắt:"</string>
+<string name="str_powerest_plot_label"/></resources>

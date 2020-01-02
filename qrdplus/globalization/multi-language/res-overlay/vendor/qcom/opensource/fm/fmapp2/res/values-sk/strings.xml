@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Rádio FM"</string>
+    <string name="tx_app_name">"FM Tx"</string>
+    <string name="default_sleep"></string>
+    <string name="menu_add_to_preset">"Pridať k predvoľbám"</string>
+    <string name="menu_settings">"Nastavenia"</string>
+    <string name="menu_record_start">"Spustiť záznam"</string>
+    <string name="menu_record_stop">"Zastaviť záznam"</string>
+    <string name="menu_all_channels">"Všetky kanály"</string>
+    <string name="app_label_all_channels">"Všetky kanály"</string>
+    <string name="button_ok">"OK"</string>
+    <string name="button_cancel">"Zrušiť"</string>
+    <string name="button_delete">"Odstrániť"</string>
+    <string name="error_sdcard_access">"Nemožný prístup ku karte SD"</string>
+    <string name="fm_service_started">"Služba FM"</string>
+    <string name="menu_sleep">"Režim spánku"</string>
+    <string name="menu_sleep_cancel">"Zrušiť spánok"</string>
+    <string name="menu_wired_headset">"Wired Headset"</string>
+    <string name="menu_speaker_on">"Zapnúť reproduktor"</string>
+    <string name="menu_display_tags">"Zobraziť značky"</string>
+    <string name="menu_speaker_off">"Vypnúť reproduktor"</string>
+    <string name="menu_scan_start">"Vyhľadávanie"</string>
+    <string name="menu_scan_stop">"Zastaviť vyhľadávanie"</string>
+    <string name="menu_stats">"Štatistiky FM RF"</string>
+    <string name="button_text_stop">"Zastaviť"</string>
+    <string name="msg_seeking">"Vyhľadávanie stanice FM"</string>
+    <string name="msg_scanning">"Vyhľadávanie všetkých staníc FM"</string>
+    <string name="msg_scanning_pty">"Vyhľadávanie <xliff:g id="pty_name">%1$s</xliff:g>"</string>
+    <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
+    <string name="msg_searching">"Vyhľadávanie staníc so silným signálom na vytvorenie zoznamu predvolieb "</string>
+    <string name="msg_searching_title">"Automatický výber predvolieb"</string>
+    <string name="msg_weak_searching">"Vyhľadávanie frekvencií na prenos"</string>
+    <string name="msg_noantenna">"Na použitie FM rádia zapojte náhlavnú súpravu "</string>
+    <string name="msg_headsetpluggedin">"Na použitie FM Tx odpojte všetky náhlavné súpravy"</string>
+    <string name="msg_callactive">"FM Tx nie je počas aktívneho hovoru podporované"</string>
+    <string name="dialog_sleep_title">"Zvoľte čas automatického vypnutia spánku"</string>
+        <string name="preset_select_name">"Vybrať <xliff:g id="preset_name">%1$s</xliff:g>"</string>
+        <string name="presetlist_select_name">"Vybrať <xliff:g id="presetlist_name">%1$s</xliff:g>"</string>
+    <string name="presetlist_add_new">"Pridať nový zoznam"</string>
+    <string name="dialog_presetlist_title">"Zoznamy predvolieb"</string>
+        <string name="presetlist_prefix_name">FM - </string>
+        <string name="dialog_presetlist_rename_title">"Zadajte názov "</string>
+        <string name="dialog_preset_rename_title">"Zadajte názov "</string>
+        <string name="presetlist_delete_name">"Vymazať <xliff:g id="presetlist_name">%1$s</xliff:g> a súvisiace stanice?"</string>
+        <string name="presetlist_autoselect_title">"Potvrdiť automatický výber"</string>
+        <string name="presetlist_autoselect_name">"Automatický výber vymaže všetky predvoľby v zozname <xliff:g id="presetlist_name">%1$s</xliff:g>. Pokračovať?"</string>
+        <string name="fmtx_autoselect_name">"Automatický výber vymaže všetky predvoľby. Pokračovať?"</string>
+    <string name="enter_frequency">"Naladiť na stanicu"</string>
+    <string name="enter_new_frequency_title">"Zadať frekvenciu "</string>
+    <string name="preset_now_playing">"Práve sa prehráva"</string>
+        <string name="preset_pref_title">"<xliff:g id="preset_name">%1$s</xliff:g>  (<xliff:g id="preset_freq">%2$s</xliff:g>)"</string>
+        <string name="preset_delete_title">"Vymazať predvoľbu"</string>
+        <string name="preset_delete_name">"Vymazať <xliff:g id="preset_name">%1$s</xliff:g> z <xliff:g id="presetlist_name">%2$s</xliff:g>"</string>
+        <string name="preset_confirm_delete_name">"Vymazať <xliff:g id="preset_name">%1$s</xliff:g> z <xliff:g id="presetlist_name">%2$s</xliff:g>?"</string>
+    <string name="preset_name_dialog_title">"Zadajte názov "</string>
+    <string name="preset_name_summary">"<xliff:g id="preset_name">%1$s</xliff:g> "</string>
+    <string name="preset_name_title">"Premenovať"</string>
+    <string name="preset_search_title">"Hľadať"</string>
+    <string name="preset_search_name">"Vyhľadať <xliff:g id="preset_name">%1$s</xliff:g>"</string>
+    <string name="preset_preference_title">"FM stanice v <xliff:g id="preset_name">%1$s</xliff:g> "</string>
+    <string name="preset_empty_title">"V zozname nie sú žiadne stanice"</string>
+    <string name="preset_empty_add_summary">"Pridať stanice"</string>
+    <string name="preset_add">"Pridať"</string>
+    <string name="preset_replace">"Nahradiť"</string>
+    <string name="preset_tune">"Naladiť"</string>
+    <string name="preset_rename">"Premenovať"</string>
+    <string name="preset_delete">"Odstrániť"</string>
+    <string name="preset_search">"Vyhľadať <xliff:g id="preset_pi">%1$s</xliff:g>  "</string>
+    <string name="stat_notif_frequency">"Rádiová stanica FM <xliff:g id="frequency">%1$s</xliff:g> MHz"</string>
+    <string name="stat_notif_tx_frequency">"FM vysielanie na frekvencii: <xliff:g id="frequency">%1$s</xliff:g>"</string>
+    <string name="sel_band_menu">"Zvoliť regionálne pásmo"</string>
+    <string name="test_menu">"Zvoliť test"</string>
+    <string name="settings_menu">"Nastavenia"</string>
+    <string name="regional_band">"Regionálne pásmo"</string>
+    <string name="aud_output_mode">"Režim výstupu zvuku"</string>
+    <string name="sel_audio_output">"Zvoliť výstup zvuku"</string>
+    <string name="record_dur">"Trvanie nahrávania"</string>
+    <string name="sel_rec_dur">"Zvoliť trvanie nahrávania"</string>
+    <string name="auto_select_af">"Alternatívna frekvencia"</string>
+    <string name="auto_select_af_enabled">"Automatický výber je zapnutý"</string>
+    <string name="auto_select_af_disabled">"Automatický výber je vypnutý"</string>
+    <string name="fac_defaults">"Späť na výrobné nastavenia"</string>
+    <string name="revert_to_fac">"Späť na výrobné nastavenia"</string>
+    <string name="settings_back">"Späť"</string>
+    <string name="settings_revert_confirm_title">"Potvrdiť obnovenie nastavení"</string>
+    <string name="settings_revert_confirm_msg">"Týmto sa vymažú všetky nastavenia vrátane predvolieb"</string>
+    <string name="settings_back_summary">"Návrat na predošlé zobrazenie"</string>
+    <string name="settings_revert_defaults_title">"Späť na výrobné nastavenia"</string>
+    <string name="settings_revert_defaults_summary">"Obnoviť všetky nastavenia"</string>
+    <string name="audio_type_stereo">"Stereo"</string>
+    <string name="audio_type_mono">"Mono"</string>
+    <string name="default_band">"Spojené štáty americké"</string>
+    <string name="default_audio">"Stereo"</string>
+    <string name="default_record_duration">"5 minút"</string>
+    <string name="factory_reset_dialog_title">"Potvrdiť obnovenie"</string>
+    <string name="factory_reset_dialog_message">"Týmto sa vymažú všetky nastavenia vrátane predvolieb"</string>
+    <string name="station_move">"Presunúť"</string>
+    <string name="station_edit">"Upraviť"</string>
+    <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
+   <string name="no_storage">"Pred spustením nahrávania vložte kartu SD."</string>
+   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+   <string name="preparing_sd">"Príprava karty SD"</string>
+   <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+   <string name="access_sd_fail">"Nepodarilo sa získať prístup ku karte SD."</string>
+   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+   <string name="spaceIsLow_content">"Na karte SD je málo miesta. Zmeňte nastavenie kvality alebo odstráňte niektoré obrázky či iné súbory."</string>
+   <!-- The messsage shown when FM record reaches size limit. -->
+   <string name="FMRecording_reach_size_limit">"Bolo dosiahnuté obmedzenie veľkosti."</string>
+    <string name="delete_station_title">"Odstrániť"</string>
+    <string name="find_af_station">"Nájsť"</string>
+    <string name="menu_add_list">"Pridať zoznam"</string>
+    <string name="menu_rename_list">"Premenovať zoznam"</string>
+    <string name="menu_reorder_list">"Preskupiť zoznam"</string>
+    <string name="menu_scan_for_preset">"Vyhľadať predvoľby"</string>
+    <string name="menu_delete_list">"Odstrániť zoznam"</string>
+    <string name="alert_dialog_ok">"OK"</string>
+    <string name="alert_dialog_cancel">"Zrušiť"</string>
+    <!-- The messsage shown when long pressed on a station. -->
+    <string name="alert_dialog_hint">"Zadajte názov"</string>
+    <string name="search_dialog_title">"Vyhľadať stanice"</string>
+    <string name="search_category_key">search_category_type</string>
+    <string name="search_category">"Zvoliť typ vyhľadávania"</string>
+    <string name="search_category_title">"Typ vyhľadávania"</string>
+    <string name="default_search_category">"Hľadať"</string>
+    <string name="search_category_tune">"Naladiť"</string>
+    <string name="search_category_type_key">search_category_value_type</string>
+    <string name="search_category_type">"Zvoliť vyhľadávanie podľa typu programu"</string>
+    <string name="search_category_type_title">"Vyhľadať podľa typu programu"</string>
+    <string name="default_search_category_type">"Všetky stanice"</string>
+    <string name="presets_back">"Späť"</string>
+    <string name="presets_back_summary">"Návrat na predošlé zobrazenie"</string>
+    <string name="nav_mode_presets">"Predvoľby"</string>
+    <string name="nav_mode_stations">"Stanice"</string>
+    <string name="prog_service_string"></string>
+    <string name="radio_text_string">"Toto je dlhá textová správa rádia, ktorú je potrebné rolovať"</string>
+    <string name="eradio_text_string">"Predĺžená rádiová textová správa"</string>
+    <string name="pty_string"></string>
+    <string name="frequency_string"></string>
+    <string name="station_id_string"></string>
+        <string name="fm_command_timeout_title">"Časový limit vypršal"</string>
+        <string name="fm_tune_timeout_msg">"Pri ladení stanice FM nebola prijatá žiadna odpoveď. Ak problém pretrváva, vypnite FM a následne ho znova zapnite."</string>
+        <string name="fm_command_failed_title">"Činnosť FM zlyhala"</string>
+        <string name="fm_cmd_failed_msg">"Činnosť FM zlyhala. Ak problém pretrváva, vypnite FM a následne ho znova zapnite. "</string>
+        <string name="fm_cmd_failed_msg_hdmi">"Činnosť FM zlyhala. Súčinnosť FM a HDMI nie je podporovaná.  "</string>
+        <string name="fm_cmd_failed_call_on">"Činnosť FM zlyhala. Počas hovoru nie je povolený zvuk z FM. "</string>
+    <!-- Do not translate. Duration format. -->
+    <string name="durationformat"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+    <string name="default_record"></string>
+    <string name="default_preset_list_name">" Zoznam FM "</string>
+    <string name="default_station"> FM </string>
+    <string name="default_blank"> </string>
+    <string name="add_station">+</string>
+    <string name="stop_scanning">"Zastaviť vyhľadávanie"</string>
+    <string name="transmit_msg_string">"Vysielanie na frekvencii:"</string>
+    <!-- the name under which recordings will be visible in the media database is formatted like this -->
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <!-- all recordings will show up in the media database with this 'artist' name -->
+    <string name="audio_db_artist_name">"Moje FM nahrávky"</string>
+    <!-- all recordings will show up in the media database with this 'album' name -->
+    <string name="audio_db_album_name">"FM nahrávky"</string>
+    <!-- all recordings will show up in the media database in a playlist with this name -->
+    <string name="audio_db_playlist_name">"FM nahrávky"</string>
+    <string name="test_prompt">"Vyberte si test"</string>
+    <string name="test_run">"Spustiť test"</string>
+    <string name="set_rmmsi_delta">"Konfigurovať RMSSI Delta"</string>
+    <string name="set_sigth">"Konfigurovať prah signálu"</string>
+    <string name="type_rd"></string>
+    <string name="srch_params">"Konfigurovať RMSSI Delta"</string>
+    <string name="srch_params_1">"Konfigurovať prah signálu "</string>
+    <string name="enter_rssi">"Zadať RMSSI Delta"</string>
+    <string name="enter_sigth">"Zadať prah signálu"</string>
+    <string name="enter_SinrSmplsCnt">"Zadať počet vzoriek SINR"</string>
+    <string name="set_SinrSmplsCnt">"Konfigurovať vzorky SINR"</string>
+    <string name="enter_SinrTh">"Zadať prah SINR"</string>
+    <string name="set_SinrTh">"Konfigurovať prah SINR"</string>
+    <string name="enter_IntfLowTh">"Zadať prah Intf Det Low"</string>
+    <string name="set_IntfLowTh">"Konfigurovať prah Intf Det Low"</string>
+    <string name="enter_IntfHighTh">"Zadať prah Intf Det High"</string>
+    <string name="set_IntfHighTh">"Konfigurovať prah Intf Det High"</string>
+    <string name="station_name">"Stanica:"</string>
+    <string name="station_exists">"Táto frekvencia už existuje!"</string>
+    <string name="station_list_delete_station">"Odstrániť:<xliff:g id="name">%s</xliff:g>"</string>
+    <string name="station_list_delete_station_prompt">"Naozaj chcete vymazať <xliff:g id="name">%s</xliff:g>."</string>
+    <string name="station_name_empty">"Názov stanice je prázdny. Zadajte ho znova."</string>
+    <string name="station_name_exist">"Stanica s názvom \"<xliff:g id="name">%s</xliff:g>\" už existuje. Zadajte iný názov."</string>
+    <string name="enter_SinrFirstStage">"Zadať prvú úroveň SINR"</string>
+    <string name="set_SinrFirstStage">"Konfigurovať prvú úroveň SINR"</string>
+    <string name="enter_RmssiFirstStage">"Zadať prvú úroveň RMSSI"</string>
+    <string name="set_RmssiFirstStage">"Konfigurovať prvú úroveň RMSSI"</string>
+    <string name="enter_CF0Th12">"Zadať prah CF0"</string>
+    <string name="set_CF0Th12">"Konfigurovať prah CF0"</string>
+    <string name="search_algo_mpx">"Algoritmus MPX_DCC"</string>
+    <string name="search_algo_sinrint">"Algoritmus SINR_INTF"</string>
+    <string name="enter_AfJmpRmssiTh">"Zadať prah AF Jump RMSSI"</string>
+    <string name="set_AfJmpRmssiTh">"Konfigurovať prah AF Jump RMSSI"</string>
+    <string name="enter_GdChRmssiTh">"Zadať prah dobrého kanálu RMSSI"</string>
+    <string name="set_GdChRmssiTh">"Konfigurovať prah dobrého kanálu RMSSI"</string>
+    <string name="enter_AfJmpRmssiSmplsCnt">"Zadať počet vzoriek AF Jump RMSSI"</string>
+    <string name="set_AfJmpRmssiSmplsCnt">"Konfigurovať počet vzoriek AF Jump RMSSI"</string>
+    <string name="rt_plus_tags">"Značky"</string>
+    <string name="enter_RxRePeatCount">"Zadať počet RxRePeat"</string>
+    <string name="set_RxRePeatCount">"Konfigurovať počet RxRePeat"</string>
+    <string name="enter_BlendSinrHi">"Zadať hodnotu Sig Blend SinrHi"</string>
+    <string name="set_BlendSinrHi">"Konfigurovať hodnotu Sig Blend SinrHi"</string>
+    <string name="enter_BlendRmssiHi">"Zadať hodnotu Sig Blend RmssiHi"</string>
+    <string name="set_BlendRmssiHi">"Konfigurovať hodnotu Sig Blend RmssiHi"</string>
+    <string name="enter_RssiTh">"Zadať prah RSSI"</string>
+    <string name="set_RssiTh">"Konfigurovať prah RSSI"</string>
+    <string name="enter_AfJumpRssiTh">"Zadať prah AF jump RSSI"</string>
+    <string name="set_AfJumpRssiTh">"Konfigurovať prah AF jump RSSI"</string>
+    <string name="enter_RdsFifoCnt">"Zadať počet RDS FIFO"</string>
+    <string name="set_RdsFifoCnt">"Konfigurovať počet RDS FIFO"</string>
+    <string name="usr_def_band_min">"Limit nižšej frekvencie (v Mhz)"</string>
+    <string name="usr_def_band_max">"Limit vyššej frekvencie (v Mhz)"</string>
+    <string name="sel_chanl_spacing">"Zvoliť rozostup kanálov"</string>
+    <string name="chanl_spacing">"Rozostup kanálov"</string>
+    <string name="band_method_prompt">"Zvoliť spôsob"</string>
+    <string name="enter_start_delay_time">"Začať čas oneskorenia"</string>
+    <string name="enter_dwell_time">"Čas zdržovania"</string>
+    <string name="band_sweep_setting">"Nastavenie vyčistenia"</string>
+    <string name="band_sweep_setting_set">"Nastaviť"</string>
+    <string name="band_sweep_setting_cancel">"Zrušiť"</string>
+    <string name="band_sweep_choose">"Zvoliť spôsob vyčistenia pásma"</string>
+    <string name="set">"Nastaviť"</string>
+    <string name="cancel">"Zrušiť"</string>
+    <string name="user_defind_band_msg">"Zadajte frekvenciu v rozsahu 76,0 – 108,0 s minimálne 1 rozostupom kanálov a rozmedzím 100 KHz medzi maximálnou a minimálnou frekvenciou"</string>
+    <string name="save_record_file">"Nahratý súbor FM bol uložený do <xliff:g id="record_file">%1$s</xliff:g>"</string></resources>

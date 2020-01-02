@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incoming_call_failed_low_battery">"Niepowodzenie połączenia przychodzącego ze względu na zbliżające się rozładowanie baterii."</string>
+    <!-- Notification manager HD icon title. -->
+    <string name="device_is_hd_capable">"Urządzenie obsługuje format HD"</string>
+    <string name="call_hold_label">"Wstrzymanie połączenia:"</string>
+    <string name="call_resume_label">"Wznowienie połączenia:"</string>
+    <string name="error_msg_failed">" Niepowodzenie"</string>
+    <string name="error_msg_cancelled">" Anulowano"</string>
+    <string name="error_msg_reinvite_collision">" Kolizja ponownego zaproszenia"</string>
+    <string name="handover_from_wifi_to_lte">"Aby uzyskać lepszą jakość, przełącz się na sieć LTE"</string>
+    <!-- Wifi calling QuickSettings strings -->
+    <string name="wifi_calling_on">"Połączenia przez Wi-Fi włączone"</string>
+    <string name="wifi_calling_off">"Połączenia przez Wi-Fi wyłączone"</string></resources>

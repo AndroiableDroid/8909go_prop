@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Category mapping from ATSC to canonical genre -->
+    <string-array name="genre_mapping_atsc">
+        <item>"Vzdelávanie|VZDELÁVANIE"</item>
+        <item>"Zábava|ZÁBAVA"</item>
+        <item>"Filmy|FILMY"</item>
+        <item>"Správy|SPRÁVY"</item>
+        <item>"Náboženské|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Športy|ŠPORT"</item>
+        <item>"Iné|INÉ"</item>
+        <item>"Akčné|FILMY"</item>
+        <item>"Reklama|INÉ"</item>
+        <item>"Animované|RODINA_DETI"</item>
+        <item>"Výber|DRÁMA"</item>
+        <item>"Automoto|INÉ"</item>
+        <item>"Ceny|ZÁBAVA"</item>
+        <item>"Basebal|ŠPORT"</item>
+        <item>"Basketbal|ŠPORT"</item>
+        <item>"Bulletin|INÉ"</item>
+        <item>"Podnikanie|INÉ"</item>
+        <item>"Klasika|HUDBA"</item>
+        <item>"Univerzita|VZDELÁVANIE"</item>
+        <item>"Boj|INÉ"</item>
+        <item>"Komédia|KOMÉDIA"</item>
+        <item>"Komentáre|INÉ"</item>
+        <item>"Koncert|HUDBA"</item>
+        <item>"Spotrebiteľ|INÉ"</item>
+        <item>"Súčasné|INÉ"</item>
+        <item>"Krimi|FILMY"</item>
+        <item>"Tanec|ZÁBAVA"</item>
+        <item>"Dokumentárny|SPRÁVY"</item>
+        <item>"Dráma|DRÁMA"</item>
+        <item>"Základné|VZDELÁVANIE"</item>
+        <item>"Erotické|FILMY"</item>
+        <item>"Cvičenie|ŠPORT"</item>
+        <item>"Fantasy|FILMY"</item>
+        <item>"Farma|INÉ"</item>
+        <item>"Móda|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Fikcia|UMENIE"</item>
+        <item>"Jedlo|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Futbal|ŠPORT"</item>
+        <item>"Zahraničné|INÉ"</item>
+        <item>"Dobročinné|INÉ"</item>
+        <item>"Hra/kvíz|HRY"</item>
+        <item>"Záhrada|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Golf|ŠPORT"</item>
+        <item>"Vládne|INÉ"</item>
+        <item>"Zdravie|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Stredná škola|VZDELÁVANIE"</item>
+        <item>"História|VZDELÁVANIE"</item>
+        <item>"Voľný čas|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Hokej|ŠPORT"</item>
+        <item>"Domov|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Horor|FILMY"</item>
+        <item>"Informácie|SPRÁVY"</item>
+        <item>"Inštruktážne|INÉ"</item>
+        <item>"Medzinárodné|INÉ"</item>
+        <item>"Interview|INÉ"</item>
+        <item>"Jazyk|VZDELÁVANIE"</item>
+        <item>"Právne|INÉ"</item>
+        <item>"Naživo|INÉ"</item>
+        <item>"Miestne|INÉ"</item>
+        <item>"Matematika|VZDELÁVANIE"</item>
+        <item>"Lekárske|INÉ"</item>
+        <item>"Stretnutie|INÉ"</item>
+        <item>"Vojenské|INÉ"</item>
+        <item>"Minisérie|DRÁMA"</item>
+        <item>"Hudba|HUDBA"</item>
+        <item>"Záhady|FILMY"</item>
+        <item>"Národné|INÉ"</item>
+        <item>"Príroda|ZVIERATÁ_VO_VOĽNEJ_PRÍRODE"</item>
+        <item>"Polícia|INÉ"</item>
+        <item>"Politika|INÉ"</item>
+        <item>"Premiéry|PREMIÉRY"</item>
+        <item>"Zo záznamu|INÉ"</item>
+        <item>"Produkt|INÉ"</item>
+        <item>"Odborné|INÉ"</item>
+        <item>"Verejné|INÉ"</item>
+        <item>"Preteky|ŠPORT"</item>
+        <item>"Čítanie|UMENIE"</item>
+        <item>"Opravy|INÉ"</item>
+        <item>"Opakované|INÉ"</item>
+        <item>"Prehľady|INÉ"</item>
+        <item>"Romantické|FILMY"</item>
+        <item>"Veda|TECHNOLÓGIE_VEDA"</item>
+        <item>"Seriály|DRÁMA"</item>
+        <item>"Služby|INÉ"</item>
+        <item>"Nakupovanie|NAKUPOVANIE"</item>
+        <item>"Telenovela|DRÁMA"</item>
+        <item>"Špeciálne|INÉ"</item>
+        <item>"Triler|FILMY"</item>
+        <item>"Rozhovory|ZÁBAVA"</item>
+        <item>"Technické|TECHNOLÓGIE_VEDA"</item>
+        <item>"Tenis|ŠPORT"</item>
+        <item>"Cestovanie|CESTOVANIE"</item>
+        <item>"Rôzne|ZÁBAVA"</item>
+        <item>"Video|UMENIE"</item>
+        <item>"Počasie|SPRÁVY"</item>
+        <item>"Western|INÉ"</item>
+        <item>"Umenie|UMENIE"</item>
+        <item>"Automobilové preteky|ŠPORT"</item>
+        <item>"Letectvo|ŠPORT"</item>
+        <item>"Biografie|SPRÁVY"</item>
+        <item>"Veslárstvo|ŠPORT"</item>
+        <item>"Bowling|ŠPORT"</item>
+        <item>"Box|ŠPORT"</item>
+        <item>"Kreslené|RODINA_DETI"</item>
+        <item>"Detské|RODINA_DETI"</item>
+        <item>"Klasika|FILMY"</item>
+        <item>"Komunitné|INÉ"</item>
+        <item>"Počítače|TECHNOLÓGIE_VEDA"</item>
+        <item>"Country|HUDBA"</item>
+        <item>"Súdne|INÉ"</item>
+        <item>"Extrémne športy|ŠPORT"</item>
+        <item>"Rodina|RODINA_DETI"</item>
+        <item>"Finančné|SPRÁVY"</item>
+        <item>"Gymnastika|ŠPORT"</item>
+        <item>"Hlavné správy|SPRÁVY"</item>
+        <item>"Dostihy|ŠPORT"</item>
+        <item>"Lov/rybárčenie/v prírode|ZVIERATÁ_VO_VOĽNEJ_PRÍRODE"</item>
+        <item>"Nezávislé|INÉ"</item>
+        <item>"Jazz|HUDBA"</item>
+        <item>"Časopis|SPRÁVY"</item>
+        <item>"Motocyklové preteky|ŠPORT"</item>
+        <item>"Hudba/film/knihy|INÉ"</item>
+        <item>"Medzinárodné správy|SPRÁVY"</item>
+        <item>"Miestne správy|SPRÁVY"</item>
+        <item>"Národné správy|SPRÁVY"</item>
+        <item>"Regionálne správy|SPRÁVY"</item>
+        <item>"♠Olympiáda|ŠPORT"</item>
+        <item>"Pôvodné|FILMY"</item>
+        <item>"Scénické umenia|UMENIE"</item>
+        <item>"Domáce zvieratá/zvieratá|ZVIERATÁ_VO_VOĽNEJ_PRÍRODE"</item>
+        <item>"Pop|HUDBA"</item>
+        <item>"Rock &amp; Roll|HUDBA"</item>
+        <item>"Sci-Fi|FILMY"</item>
+        <item>"Sebarozvoj|VZDELÁVANIE"</item>
+        <item>"Sitkom|DRÁMA"</item>
+        <item>"Korčuľovanie|ŠPORT"</item>
+        <item>"Lyžovanie|ŠPORT"</item>
+        <item>"Futbal|ŠPORT"</item>
+        <item>"Stopovanie/lovecké športy|ŠPORT"</item>
+        <item>"Pravda|INÉ"</item>
+        <item>"Volejbal|ŠPORT"</item>
+        <item>"Wrestling|ŠPORT"</item>
+    </string-array>
+    <!-- Category mapping from DVB to canonical genre -->
+    <string-array name="genre_mapping_dvb">
+        <item>"film/dráma|FILMY"</item>
+        <item>"detektívny/triler|FILMY"</item>
+        <item>"dobrodružný/western/vojnový|FILMY"</item>
+        <item>"vedecko-fantastický/fantasy/horor|FILMY"</item>
+        <item>"komédia|KOMÉDIA"</item>
+        <item>"telenovela/melodráma/folklórny|DRÁMA"</item>
+        <item>"romantické|FILMY"</item>
+        <item>"vážny/klasický/náboženský/historický film/dráma|FILMY"</item>
+        <item>"pre dospelých/dráma|FILMY"</item>
+        <item>"správy/aktuálne|SPRÁVY"</item>
+        <item>"správy/počasie|SPRÁVY"</item>
+        <item>"informačný žurnál|SPRÁVY"</item>
+        <item>"dokumentárny|SPRÁVY"</item>
+        <item>"diskusia/rozhovor/debata|SPRÁVY"</item>
+        <item>"šou/súťaže|ZÁBAVA"</item>
+        <item>"súťaž/kvíz/preteky|HRY"</item>
+        <item>"varieté|ZÁBAVA"</item>
+        <item>"diskusná relácia|ZÁBAVA"</item>
+        <item>"športy|ŠPORT"</item>
+        <item>"špeciálne udalosti (olympijské hry, svetový pohár a pod.)|ŠPORT"</item>
+        <item>"športové magazíny|ŠPORT"</item>
+        <item>"americký futbal/futbal|ŠPORT"</item>
+        <item>"tenis/squash|ŠPORT"</item>
+        <item>"tímové športy (okrem futbalu)|ŠPORT"</item>
+        <item>"atletika|ŠPORT"</item>
+        <item>"motorové športy|ŠPORT"</item>
+        <item>"vodné športy|ŠPORT"</item>
+        <item>"zimné športy|ŠPORT"</item>
+        <item>"jazdecké|ŠPORT"</item>
+        <item>"bojové športy|ŠPORT"</item>
+        <item>"detské/pre mládež|RODINA_DETI"</item>
+        <item>"programy pre deti v predškolskom veku|RODINA_DETI"</item>
+        <item>"zábavné programy pre deti 6 až 14|RODINA_DETI"</item>
+        <item>"zábavné programy pre deti 10 až 16|RODINA_DETI"</item>
+        <item>"informačné/vzdelávacie/školské programy|RODINA_DETI"</item>
+        <item>"kreslené/bábkové|RODINA_DETI"</item>
+        <item>"hudobné/balet/tanec|HUDBA"</item>
+        <item>"rock/pop|HUDBA"</item>
+        <item>"vážna hudba/klasická hudba|HUDBA"</item>
+        <item>"folk/tradičná hudba|HUDBA"</item>
+        <item>"jazz|HUDBA"</item>
+        <item>"hudobné/opera|HUDBA"</item>
+        <item>"balet|ZÁBAVA"</item>
+        <item>"umenia/kultúra|UMENIE"</item>
+        <item>"scénické umenia|UMENIE"</item>
+        <item>"krásne umenie|UMENIE"</item>
+        <item>"náboženstvo|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"populárna kultúra/tradičné umenie|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"literatúra|UMENIE"</item>
+        <item>"film/kino|UMENIE"</item>
+        <item>"experimentálny film/video|UMENIE"</item>
+        <item>"rozhlas/tlač|UMENIE"</item>
+        <item>"nové média|UMENIE"</item>
+        <item>"umelecké/kultúrne magazíny|UMENIE"</item>
+        <item>"móda|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"sociálne/politické otázky/ekonomika|INÉ"</item>
+        <item>"magazíny/reportáže/dokumentárne|SPRÁVY"</item>
+        <item>"ekonomické/sociálne poradenstvo|SPRÁVY"</item>
+        <item>"pozoruhodní ľudia|INÉ"</item>
+        <item>"vzdelávanie/veda/fakty|VZDELÁVANIE"</item>
+        <item>"príroda/zvieratá/životné prostredie|ZVIERATÁ_VO_VOĽNEJ_PRÍRODE"</item>
+        <item>"technológia/prírodné vedy|TECHNOLÓGIE_VEDA"</item>
+        <item>"medicína/fyziológia/psychológia|TECHNOLÓGIE_VEDA"</item>
+        <item>"zahraničie/expedície|VZDELÁVANIE"</item>
+        <item>"sociálne/duchovné vedy|TECHNOLÓGIE_VEDA"</item>
+        <item>"ďalšie vzdelávanie|VZDELÁVANIE"</item>
+        <item>"jazyky|VZDELÁVANIE"</item>
+        <item>"voľnočasové aktivity|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"turistika/cestovanie|CESTOVANIE"</item>
+        <item>"remeslá|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"motorizmus|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"fitness a zdravie|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"varenie|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"reklama/nakupovanie|NAKUPOVANIE"</item>
+        <item>"záhradkárstvo|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"pôvodné jazyky|INÉ"</item>
+        <item>"čiernobiele|INÉ"</item>
+        <item>"nepublikované|INÉ"</item>
+        <item>"živé vysielanie|INÉ"</item>
+    </string-array>
+    <!-- Category mapping from ISDB to canonical genre -->
+    <string-array name="genre_mapping_isdb">
+        <item>"Animácie|FILMY"</item>
+        <item>"Basebal|ŠPORT"</item>
+        <item>"Detské pesničky|HUDBA"</item>
+        <item>"Klasika, opera|HUDBA"</item>
+        <item>"Varieté o varení|ZÁBAVA"</item>
+        <item>"Komediálne programy|ZÁBAVA"</item>
+        <item>"Humoristické, zábava|ZÁBAVA"</item>
+        <item>"Počítač, TV hry|TECHNOLÓGIE_VEDA"</item>
+        <item>"Konverzácia, jazyky|VZDELÁVANIE"</item>
+        <item>"Tanec, balet|ZÁBAVA"</item>
+        <item>"Diskusie, konferencie|SPRÁVY"</item>
+        <item>"Ekonomika, trhové správy|SPRÁVY"</item>
+        <item>"Problém vo vzdelávaní|VZDELÁVANIE"</item>
+        <item>"Udalosti|ZÁBAVA"</item>
+        <item>"Móda|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Folková hudba, world music|HUDBA"</item>
+        <item>"Hry|HRY"</item>
+        <item>"Záhradkárstvo, domáce zvieratá, ručné práce|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Golf|ŠPORT"</item>
+        <item>"Bulvár/bulvárna talkshow|ZÁBAVA"</item>
+        <item>"Gurmánske, varenie|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Zdravie, lekárske postupy|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Koníčky/vzdelávanie|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Dostihy, verejné preteky|ŠPORT"</item>
+        <item>"Japonské animované|RODINA_DETI"</item>
+        <item>"Japonská balada, japonská tradičná hudba|HUDBA"</item>
+        <item>"Japonský šach (šogi) a go|HRY"</item>
+        <item>"Japonské drámy|DRÁMA"</item>
+        <item>"Japonské filmy|FILMY"</item>
+        <item>"Japonský rock, pop|HUDBA"</item>
+        <item>"Jazz, fusion|HUDBA"</item>
+        <item>"Študenti nižšej a vyššej strednej školy|VZDELÁVANIE"</item>
+        <item>"Kabuki, klasická dráma|DRÁMA"</item>
+        <item>"Karaoke, súťaže amatérskych spevákov|HUDBA"</item>
+        <item>"Celoživotné vzdelávanie, kvalifikácie|VZDELÁVANIE"</item>
+        <item>"Malé deti, školáci|VZDELÁVANIE"</item>
+        <item>"Živé koncerty|HUDBA"</item>
+        <item>"Bývanie, domov|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Miestny program|SPRÁVY"</item>
+        <item>"Mah-jong, pinball|HRY"</item>
+        <item>"Maratón, atletické športy, plávanie|ŠPORT"</item>
+        <item>"Morské športy, zimné športy|ŠPORT"</item>
+        <item>"Moderná dráma, westernová dráma|DRÁMA"</item>
+        <item>"Motošporty|ŠPORT"</item>
+        <item>"Hudobné|HUDBA"</item>
+        <item>"Hudba, umenie, umelecký priemysel|UMENIE"</item>
+        <item>"Hudobné varieté|ZÁBAVA"</item>
+        <item>"Tlačová analýza|SPRÁVY"</item>
+        <item>"Olympiáda, medzinárodné hry|ŠPORT"</item>
+        <item>"Iné loptové hry|ŠPORT"</item>
+        <item>"Zámorské animácie|RODINA_DETI"</item>
+        <item>"Zámorské drámy|DRÁMA"</item>
+        <item>"Zámorská, medzinárodná reportáž|SPRÁVY"</item>
+        <item>"Zámorské filmy|FILMY"</item>
+        <item>"Zámorský rock, pop|HUDBA"</item>
+        <item>"Dobové drámy|DRÁMA"</item>
+        <item>"Politika, národné zhromaždenie|SPRÁVY"</item>
+        <item>"Populárne skladby, japonské populárne skladby (enka)|HUDBA"</item>
+        <item>"Kvíz|HRY"</item>
+        <item>"Hodnotenie, hudba na želanie|HUDBA"</item>
+        <item>"Pravidelné, všeobecné|SPRÁVY"</item>
+        <item>"Nakupovanie, zásielková služba|NAKUPOVANIE"</item>
+        <item>"Futbal|ŠPORT"</item>
+        <item>"Špeciálne efekty|RODINA_DETI"</item>
+        <item>"Špeciálny program, dokumenty|SPRÁVY"</item>
+        <item>"Špeciálna reportáž|SPRÁVY"</item>
+        <item>"Športové správy|ŠPORT"</item>
+        <item>"Sumo, bojové športy|ŠPORT"</item>
+        <item>"Talkshow varieté|ZÁBAVA"</item>
+        <item>"Putovné varieté|ZÁBAVA"</item>
+        <item>"Dopravné správy|SPRÁVY"</item>
+        <item>"Výlet, rybárčenie, zábava v prírode|ZVIERATÁ_VO_VOĽNEJ_PRÍRODE"</item>
+        <item>"Univerzitní študenti, skúšky|VZDELÁVANIE"</item>
+        <item>"Správy o počasí|SPRÁVY"</item>
+    </string-array>
+    <!-- Category mapping from ISDB in Brazil to canonical genre -->
+    <string-array name="genre_mapping_isdb_br">
+        <item>"Biografia|SPRÁVY"</item>
+        <item>"Culinária|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Documentário|AKTUALITY"</item>
+        <item>"Educativo|VZDELÁVANIE"</item>
+        <item>"Erótico|FILMY"</item>
+        <item>"Esporte|ŠPORT"</item>
+        <item>"Filme|FILMY"</item>
+        <item>"Game show|HRY"</item>
+        <item>"Humorístico|KOMÉDIE"</item>
+        <item>"Infantil|DETI_RODINA"</item>
+        <item>"Informação|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Jornalismo|AKTUALITY"</item>
+        <item>"Minissérie|DRAMATICKÉ"</item>
+        <item>"Moda|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Hudobné|HUDBA"</item>
+        <item>"Premiação|ZÁBAVA"</item>
+        <item>"Reality show|ZÁBAVA"</item>
+        <item>"Religioso|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Reportagem|AKTUALITY"</item>
+        <item>"Rural|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Saúde|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Série|DRAMATICKÉ"</item>
+        <item>"Série/seriado|DRAMATICKÉ"</item>
+        <item>"Show|ZÁBAVA"</item>
+        <item>"Telejornais|AKTUALITY"</item>
+        <item>"Televendas|NÁKUPY"</item>
+        <item>"Turismo|CESTOVANIE"</item>
+        <item>"Variedade|ZÁBAVA"</item>
+        <item>"Auditorium|ZÁBAVA"</item>
+        <item>"Ceny|ZÁBAVA"</item>
+        <item>"Biografie|SPRÁVY"</item>
+        <item>"Deti|FAMILY_KIDS"</item>
+        <item>"Detské|RODINA_DETI"</item>
+        <item>"Komické|KOMÉDIA"</item>
+        <item>"Varenie|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Vidiek|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Diskusia/rozhovor|SPRÁVY"</item>
+        <item>"Diskusia|SPRÁVY"</item>
+        <item>"Dokumentárny|SPRÁVY"</item>
+        <item>"Vzdelávanie|VZDELÁVANIE"</item>
+        <item>"Vzdelávacie|VZDELÁVANIE"</item>
+        <item>"Technické služby|TECHNOLÓGIE_VEDA"</item>
+        <item>"Erotické|FILMY"</item>
+        <item>"Móda|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Ženské|ZÁBAVA"</item>
+        <item>"Game show|HRY"</item>
+        <item>"Zdravie|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Humorné|KOMÉDIA"</item>
+        <item>"Informačné|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Rozhovor|SPRÁVY"</item>
+        <item>"Žurnalizmus|SPRÁVY"</item>
+        <item>"O filme|ZÁBAVA"</item>
+        <item>"Miniseriál|DRÁMA"</item>
+        <item>"Minisérie|DRÁMA"</item>
+        <item>"Film|FILMY"</item>
+        <item>"Filmy|FILMY"</item>
+        <item>"Hudobné|ZÁBAVA"</item>
+        <item>"Správy|SPRÁVY"</item>
+        <item>"Oceňovanie|NAKUPOVANIE"</item>
+        <item>"Lotéria|NAKUPOVANIE"</item>
+        <item>"Lotéria, televízny predaj, oceňovanie|NAKUPOVANIE"</item>
+        <item>"Reality show|ZÁBAVA"</item>
+        <item>"Náboženské|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Žurnalistika|SPRÁVY"</item>
+        <item>"Reportáž|SPRÁVY"</item>
+        <item>"Rural|ŽIVOTNÝ_ŠTÝL"</item>
+        <item>"Seriály|DRÁMA"</item>
+        <item>"Seriály/TV program|DRÁMA"</item>
+        <item>"Show|ZÁBAVA"</item>
+        <item>"Telenovela|DRÁMA"</item>
+        <item>"Šport|ŠPORT"</item>
+        <item>"Športy|ŠPORT"</item>
+        <item>"TV predaj|NAKUPOVANIE"</item>
+        <item>"TV predaje|NAKUPOVANIE"</item>
+        <item>"Turistika|CESTOVANIE"</item>
+        <item>"Cestovanie|CESTOVANIE"</item>
+        <item>"TV správy|SPRÁVY"</item>
+        <item>"Rôzne|ZÁBAVA"</item>
+        <item>"Varieté|ZÁBAVA"</item>
+    </string-array></resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"Ainayakumb\'yaQ"</string>
+    <string-array name="LogLevelOptions">
+        <item>"Maneno"</item>
+        <item>"Tatua"</item>
+        <item>"Maelezo"</item>
+        <item>"Onyo"</item>
+        <item>"Hitilafu"</item>
+        <item>"Hatari"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"Kadi ya SD"</item>
+        <item>"Hifadhi ya ndani"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"Haikuweza kuandika katika faili ya logi. Ujumbe wa logi hauhifadhiwi. Mchakato wa kuweka logi utarejeshwa kiotomatiki pindi faili ya logi itakapopatikana tena"</string>
+    <string name="err_lowspace">"Nafasi iliyosalia ni ndogo. Ujumbe wa logi hauhifadhiwi. Mchakato wa kuweka logi utarejeshwa kiotomatiki pindi nafasi ya kutosha itakapopatikana"</string>
+  <string name="txtTag_text">"jina la lebo"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"Maelezo ya Logcat"</string></resources>

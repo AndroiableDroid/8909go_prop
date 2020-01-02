@@ -1,0 +1,11 @@
+PRODUCT_COPY_FILES += vendor/qcom/proprietary/prebuilt_HY11/target/product/msm8909/system/framework/cneapiclient.jar:system/framework/cneapiclient.jar
+PRODUCT_COPY_FILES += vendor/qcom/proprietary/prebuilt_HY11/target/product/msm8909/system/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar
+PRODUCT_COPY_FILES += vendor/qcom/proprietary/prebuilt_HY11/target/product/msm8909/system/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar
+PRODUCT_COPY_FILES += vendor/qcom/proprietary/prebuilt_HY11/target/product/msm8909/system/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar
+PRODUCT_COPY_FILES += vendor/qcom/proprietary/prebuilt_HY11/target/product/msm8909/system/framework/dpmapi.jar:system/framework/dpmapi.jar
+PRODUCT_COPY_FILES += vendor/qcom/proprietary/prebuilt_HY11/target/product/msm8909/system/framework/embmslibrary.jar:system/framework/embmslibrary.jar
+PRODUCT_COPY_FILES += vendor/qcom/proprietary/prebuilt_HY11/target/product/msm8909/system/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar
+PRODUCT_COPY_FILES += vendor/qcom/proprietary/prebuilt_HY11/target/product/msm8909/system/framework/oem-services.jar:system/framework/oem-services.jar
+PRODUCT_COPY_FILES += vendor/qcom/proprietary/prebuilt_HY11/target/product/msm8909/system/framework/qmapbridge.jar:system/framework/qmapbridge.jar
+PRODUCT_COPY_FILES += vendor/qcom/proprietary/prebuilt_HY11/target/product/msm8909/system/framework/tcmclient.jar:system/framework/tcmclient.jar
+PRODUCT_COPY_FILES += vendor/qcom/proprietary/prebuilt_HY11/target/product/msm8909/system/framework/uimservicelibrary.jar:system/framework/uimservicelibrary.jar

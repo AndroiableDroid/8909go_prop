@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Assertive-Display-Einstellungen"</string>
+        <add-resource type="string" name="ad_settings_title"/>
+    <string name="ad_settings_title">"Assertive-Display-Einstellungen"</string>
+        <add-resource type="string" name="ad_enable_title"/>
+    <string name="ad_enable_title">"Assertive Display aktivieren"</string>
+        <add-resource type="string" name="ad_enable_summary_on"/>
+    <string name="ad_enable_summary_on">"Anzeige wird an die Umgebungsbedingungen angepasst"</string>
+        <add-resource type="string" name="ad_enable_summary_off"/>
+    <string name="ad_enable_summary_off">"Das Anzeigeerlebnis für Umgebungsbedingungen wird nicht optimiert"</string>
+        <add-resource type="string" name="ad_info_default"/>
+    <string name="ad_info_default">"Unbekannter Anrufer"</string>
+        <add-resource type="string" name="ad_version_title"/>
+    <string name="ad_version_title">"AD-Version"</string>
+        <add-resource type="string" name="ad_assertive_title"/>
+    <string name="ad_assertive_title">"Anpassungsgrad"</string>
+        <add-resource type="string" name="ad_assertive_summary"/>
+    <string name="ad_assertive_summary">"Legt das Anpassungsniveau fest"</string>
+        <add-resource type="string" name="ad_assertive_default"/>
+    <string name="ad_assertive_default">128</string>
+        <add-resource type="string" name="ad_assertive_max"/>
+    <string name="ad_assertive_max">255</string></resources>

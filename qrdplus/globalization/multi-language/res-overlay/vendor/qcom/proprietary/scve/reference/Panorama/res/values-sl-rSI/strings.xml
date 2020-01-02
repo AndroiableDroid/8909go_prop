@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Uporabniški vmesnik panorame"</string>
+    <string name="title_loading">"Se nalaga!"</string>
+    <string name="msg_loading">"Obdelovanje ..."</string>
+    <string name="panorama_saved">"Panorama je uspešno shranjena v galerijo fotografij vaše naprave"</string>
+    <string name="panorama_generate_result_failed">"Poskusite znova."</string>
+    <string name="error_dialog_title">"Napaka aplikacije"</string>
+    <string name="btn_ok">"V redu"</string>
+    <string name="btn_txt_save">"Shrani sliko"</string>
+    <string name="err_library_loading">"Aplikacija ni naložila izvornih knjižnic."</string>
+    <string name="err_camera_init">"Kamera se ni inicializirala."</string>
+    <string name="err_sensors_init">"Senzorji se niso inicializirali."</string>
+    <string name="err_pano_init">"Panorama API se ni inicializiral."</string>
+    <string name="err_sensors_failed">"Senzorji se niso inicializirali."</string>
+    <string name="err_zsl_failed">"ZSL za to napravo ni podprt."</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"Seja se ni začela"</string>
+    <string name="err_queue_full">"Čakalna vrsta je polna"</string>
+    <string name="err_max_key_frames">"Doseženo najvišje število slik"</string>
+    <string name="err_no_frame_overlap">"Med slikami ni prekrivanja"</string>
+    <string name="err_inconsistent_direction">"Smer ni enakomerna"</string>
+    <string name="err_result_not_ready">"Rezultat ni pripravljen"</string>
+    <string name="err_frame_no_feature">"Slika ni primerna za panoramo"</string>
+    <string name="err_direction_changed">"Spremenjena smer, kliknite V redu in preverite zajeto panoramsko sliko."</string>
+    <string name="err_panorama_loading">"Nalaganje panoramske slike ne uspe."</string>
+    <string name="err_panorama_saving">"Shranjevanje panoramske slike ne uspe."</string>
+    <string name="err_api_capturing">"Snemanje panoramske slike ni uspelo."</string>
+    <string name="err_api_halted">"Snemanje panoramske slike zaustavljeno, kliknite V redu in preverite zajeto panoramsko sliko."</string>
+    <string name="err_max_limit">"Dosežena omejitev števila slik, kliknite V redu in preverite zajeto panoramsko sliko."</string>
+    <string name="err_no_prv">"Predogled ni posnet."</string>
+    <string name="title_settings">"Nastavitve"</string>
+    <string name="camera_settings">"Nastavitve fotoaparata"</string>
+    <string name="camera_settings_picture_size">"Ločljivost"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"2048 x 1536"</item>
+        <item>"1920 x 1080"</item>
+        <item>"4208 x 3120"</item>
+        <item>"4000 x 3000"</item>
+        <item>"3200 x 2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600 x 1200"</item>
+        <item>"1280 x 720"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string name="camera_settings_exposure_compensation">"Korekcija osvetlitve"</string>
+    <string name="camera_settings_white_balance">"Ravnovesje beline"</string>
+    <string-array name="camera_settings_white_balance_entries">
+        <item>"Samodejno"</item>
+        <item>"Dnevna svetloba"</item>
+        <item>"Fluorescenčno"</item>
+        <item>"Žareče"</item>
+        <item>"Senca"</item>
+        <item>"Mrak"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values">
+        <item>"auto"</item>
+        <item>"daylight"</item>
+        <item>"fluorescent"</item>
+        <item>"incandescent"</item>
+        <item>"shade"</item>
+        <item>"twilight"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values_camera2">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>7</item>
+    </string-array>
+    <string name="camera_settings_scene_mode">"Način prizora"</string>
+    <string-array name="camera_settings_scene_mode_entries">
+        <item>"Dejanje"</item>
+        <item>"Samodejno"</item>
+        <item>"Noč"</item>
+        <item>"Stranka"</item>
+        <item>"Sončni zahod"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values">
+        <item>"action"</item>
+        <item>"auto"</item>
+        <item>"night"</item>
+        <item>"party"</item>
+        <item>"sunset"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values_camera2">
+        <item>2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"Način ostrenja"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"Stalno (videoposnetek)"</item>
+        <item>"Neskončno"</item>
+        <item>"Nespremenljivo"</item>
+        <item>"Stalno (fotografija)"</item>
+        <item>"Samodejno"</item>
+        <item>"Povečana globina polja"</item>
+        <item>"Makro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"fixed"</item>
+        <item>"continuous-picture"</item>
+        <item>"auto"</item>
+        <item>"edof"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>3</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_iso">ISO</string>
+    <string-array name="camera_settings_iso_entries">
+        <item>"Samodejno"</item>
+        <item>"Zmanjšanje tresljajev rok"</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="camera_settings_iso_values">
+        <item>"auto"</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>"ISO3200"</item>
+    </string-array>
+    <string name="camera_settings_iso_default">ISO800</string>
+    <string name="pano_settings">"Nastavitve panorame"</string>
+    <string name="pano_settings_scve_mode">"Način delovanja SCVE"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"Privzeto"</item>
+        <item>"Preložitev CPE"</item>
+        <item>"Izvajanje"</item>
+        <item>"Nizka poraba"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_image_compress_level">"Stopnja stiskanja slike"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_3a_lock">"Zakleni AE/AF/AWB med snemanjem panorame"</string>
+    <string-array name="pano_settings_enable_3a_lock_entries">
+        <item>"Ne"</item>
+        <item>"Da"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_3a_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_3a_lock_default">"true"</string>
+    <string name="debug_settings">"Nastavitve odpravljanja napak"</string>
+    <string name="debug_settings_enable_loggings">"Podrobno zapisovanje v dnevnik"</string>
+    <string-array name="debug_settings_enable_loggings_entries">
+        <item>"Izklopljeno"</item>
+        <item>"Vklop"</item>
+    </string-array>
+    <string-array name="debug_settings_enable_loggings_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_enable_loggings_default">"false"</string>
+    <string name="debug_settings_save_preview_frames">"Shrani slike za predogled na kartico SD"</string>
+    <string-array name="debug_settings_save_preview_frames_entries">
+        <item>"Ne"</item>
+        <item>"Da"</item>
+    </string-array>
+    <string-array name="debug_settings_save_preview_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_preview_frames_default">"false"</string>
+    <string name="debug_settings_save_key_frames">"Shrani glavne slike na kartico SD"</string>
+    <string-array name="debug_settings_save_key_frames_entries">
+        <item>"Ne"</item>
+        <item>"Da"</item>
+    </string-array>
+    <string-array name="debug_settings_save_key_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_key_frames_default">"false"</string>
+    <!-- PanoramaViewer -->
+    <string name="share_button_text">"Deli panoramsko sliko"</string></resources>

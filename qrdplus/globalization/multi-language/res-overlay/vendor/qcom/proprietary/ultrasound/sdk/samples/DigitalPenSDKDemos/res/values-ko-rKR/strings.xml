@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK 데모"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"확장된 오프스크린"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"백그라운드 측면 채널"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"손가락과 스타일러스+압력 비교"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"축 기울기"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"가리키기와 측면 버튼"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"지우개 및 지우개 우회"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"이 데모는 오프스크린 기능을 보여 줍니다.\n\n1. 오프스크린에서 그리면 오른쪽에 드로잉이 표시됩니다.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. 가상 화면의 오른쪽 맨 아래 모서리에 버튼이 있습니다.  버튼을 다른 높이에서 가리키면 원의 불투명도가 변경됩니다.\n\n3. 버튼을 눌러 원의 색을 변경합니다. "</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"이 데모는 온스크린/오프스크린 상태일 때 백그라운드 측면 채널이 작동할 수 있는 방법을 보여 줍니다.\n\n1. 오프스크린에서 그리면 드로잉이 표시됩니다.\n\n2. 이제 다른 앱으로 전환하거나 오프스크린으로 설정합니다. 그래도 드로잉은 기록됩니다."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"온스크린 가리키기"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. 다른 높이에서 화면을 가리킵니다.\n\n2. 스위치를 사용하여 가리키기를 사용하지 않도록 설정합니다.\n\n3. 슬라이더를 사용하여 가리키기 이벤트의 최대 거리를 설정합니다.\n\n4. 측면 단추를 누르면 가리키기 원의 색이 변경됩니다."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. 전역 설정에서 지우개 버튼이 되도록 SDP 버튼을 구성하세요.\n\n2. 그립니다.\n\n3. 탭하여 전환으로 지우개를 설정합니다. 지우개 버튼을 누르고 지웁니다. 지우개 버튼을 다시 누르면 펜 모드로 전환됩니다. \n\n4. 유지하여 지우기로 지우개를 설정합니다. 이제 즉각적인 터치로 지울 수 있습니다.\n\n5. 이제 지우개 우회 스위치를 사용하여 지우개 기능을 사용하지 않도록 설정합니다."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"지우개 우회"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"캔버스 지우기"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"펜으로 그린 후 손가락으로 그립니다.\n이 두 가지 방법은 각각 다른 색에서 인식됩니다.\n스트로크 너비는 압력으로 설정되며 숫자로 볼 수 있습니다."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"압력"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

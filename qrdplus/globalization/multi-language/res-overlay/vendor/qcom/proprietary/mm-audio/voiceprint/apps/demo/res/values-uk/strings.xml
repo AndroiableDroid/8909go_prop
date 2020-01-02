@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"У добі двадцять чотири години"</string>
+    <string name="hi_snapdragon">"Вітаю, Snapdragon"</string>
+    <string name="hey_snapdragon">"Привіт, Snapdragon"</string>
+    <string name="my_voice">"Мій голос – це мій пароль"</string>
+    <string name="make_my_day">"Порадуйте мене"</string>
+    <string name="tomorrow_is_another">"Завтра буде новий день"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"Ласкаво просимо до Сан-Дієго"</string>
+    <string name="okay_google">"О’кей, Google"</string>
+    <string name="open_my_email">"Відкрити мою електронну пошту"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"Голосовий друк"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"Налаштування"</string>
+    <string name="action_add">"Додати"</string>
+    <string name="title_activity_main_with_fragment">"MainWithFragmentActivity"</string>
+    <string name="tap_mic_start">"Торкніться мікрофона, щоб почати"</string>
+    <string name="tap_mic_stop">"Торкніться мікрофона, щоб зупинити"</string>
+    <string name="say_key_phrase">"Скажіть \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"Скажіть фразу \"&lt;b&gt;%1$s&lt;/b&gt;\" ще раз."</string>
+    <string name="say_one_of_key_phrases">"Скажіть одну з парольних фраз"</string>
+    <string name="phrase_recognized">"Фразу \"&lt;b&gt;%1$s&lt;/b&gt;\" розпізнано "</string>
+    <string name="recording_length_exceeded">"Перевищено довжину запису"</string>
+    <string name="recording_length_exceeded_msg">"Довжину запису перевищено. Повторіть спробу."</string>
+    <string name="delete_all">"Видалити все"</string>
+    <string name="delete_all_msg">"Справді видалити всі зареєстровані шаблони?"</string>
+    <string name="got_it">"Чудово! Зрозуміло."</string>
+    <string name="set_key_phrase">"Установити парольну фразу"</string>
+    <string name="set_key_phrase_name">"Установити назву парольної фрази"</string>
+    <string name="set_key_phrase_action">"Установити дію"</string>
+    <string name="change_key_phrase_action">"Редагувати дію"</string>
+    <string name="phrase_strength">"Надійність фрази"</string>
+    <string name="phrase_strength_hint">"Спробуйте фразу, що містить принаймні три слова."</string>
+    <string name="register_phrase">"Зареєструвати фразу"</string>
+    <string name="register_phrase_hint">"Для розпізнавання вашого голосу запишіть фразу \"&lt;b&gt;%1$s&lt;/b&gt;\" тричі."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" Записуйте в тихому приміщенні.\n\n"<b>"2."</b>" Тримайте телефон на відстані від рота.\n\n"<b>"3."</b>" Скажіть парольну фразу звичайним тоном."</string>
+    <string name="ready_to_record">"ДОБРЕ, УСЕ ГОТОВО ДО ЗАПИСУВАННЯ"</string>
+    <string name="oops">"Помилка. Повторіть спробу."</string>
+    <string name="say_the_phrase">"Скажіть фразу \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"Фразу \"&lt;b&gt;%1$s&lt;/b&gt;\" зареєстровано"</string>
+    <string name="say_the_phrase_few_more">"Скажіть \"&lt;b&gt;%1$s&lt;/b&gt;\" ще кілька разів"</string>
+    <string name="voice_print">"Голосовий друк"</string>
+    <string name="cancel">"Скасувати"</string>
+    <string name="voice_level">"Рівень голосу"</string>
+    <string name="background_noise">"Фоновий шум"</string>
+    <string name="cap_done">"ГОТОВО"</string>
+    <string name="cap_record">"ЗАПИСАТИ"</string>
+    <string name="cap_next">"ДАЛІ"</string>
+    <string name="cap_ok">"OK"</string>
+    <string name="next">"Далі"</string>
+    <string name="new_key_phrase">"Нова парольна фраза"</string>
+    <string name="edit_keyphrases">"Редагувати парольні фрази"</string>
+    <string name="set_name">"Установити назву"</string>
+    <string name="select_key_phrase">"Вибрати парольну фразу"</string>
+    <string name="set_action">"Установити дію"</string>
+    <string name="registration_complete">"Реєстрацію завершено"</string>
+    <string name="confirm_pin">"Підтвердити PIN-код"</string>
+    <string name="confirm_pin_msg">"Введіть PIN-код пристрою, щоб редагувати парольні фрази."</string>
+    <string name="your_key_phrase">"Ваша парольна фраза"</string>
+    <string name="cap_redo">"ПОВТОРИТИ"</string>
+    <string name="cap_redo_previous">"ПОВТОРИТИ ПОПЕРЕДНЄ"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"Шукати в рекомендованих фразах"</string>
+    <string name="create_your_own">"Створити власну фразу"</string>
+    <string name="skip">"Пропустити"</string>
+    <string name="none">"Немає"</string>
+    <string name="enter_pin">"Введіть PIN-код пристрою, щоб редагувати парольні фрази."</string>
+    <string name="your_key_phrase_name">"Назва вашої парольної фрази"</string>
+    <string name="new_key_phrase_name">"Нова назва парольної фрази"</string>
+    <string name="set_service_to_launch">"Установити запуск служби"</string>
+    <string name="email">"Електронна пошта"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"Надіслати текстове повідомлення"</string>
+    <string name="use_selected_phrase">"Використовувати вибрану фразу"</string>
+    <string name="about">"Про програму"</string>
+    <string name="edit_key_phrases">"Редагувати парольні фрази"</string>
+    <string name="invalid_phrasename_title">"Недійсна назва фрази"</string>
+    <string name="invalid_phrasename_msg">"Потрібно вказати назву фрази."</string>
+    <string name="duplicate_phrasename_msg">"Така назва фрази вже існує. Спробуйте іншу назву."</string>
+    <string name="invalid_phrase_title">"Недійсна фраза"</string>
+    <string name="invalid_phrase_msg">"Потрібно ввести фразу."</string>
+    <string name="edit_action">"Змінити дію"</string>
+    <string name="threshold">"Межа"</string>
+    <string name="delete_phrase">"Видалити фразу"</string>
+    <string name="rename">"Змінити назву"</string>
+    <string name="rename_keyphrase">"Змінити назву парольної фрази"</string>
+    <string name="adjust_keyword_sensitivity">"Налаштувати чутливість ключового слова"</string>
+    <string name="adjust_keyword_sensitivity_summary">"Можна налаштувати чутливість, щоб допускати варіації під час розпізнавання парольної фрази."</string>
+    <string name="sensitivity">"Чутливість"</string>
+    <string name="low_sensitivity">"Низька чутливість"</string>
+    <string name="med_sensitivity">"Середня чутливість"</string>
+    <string name="high_sensitivity">"Висока чутливість"</string>
+    <string name="low">"НИЗЬКА"</string>
+    <string name="med">"СЕРЕДНЯ"</string>
+    <string name="high">"ВИСОКИЙ"</string>
+    <string name="low_sensitivity_summary">"Допускає більше варіацій у процесі розпізнавання фрази."</string>
+    <string name="med_sensitivity_summary">"Допускає певні варіації в процесі розпізнавання фрази, але деякі парольні фрази можуть не розпізнаватися."</string>
+    <string name="high_sensitivity_summary">"Додатковий захист. Деякі парольні фрази можуть не розпізнаватися."</string>
+    <string name="keyword_sensitivity">"Чутливість ключового слова"</string>
+    <string name="delete_phrase_msg">"Справді видалити фразу \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"Голосовий друк недоступний"</string>
+    <string name="voice_print_not_available_msg">"Голосовий друк не ввімкнено на цьому пристрої."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"Успішно видалено"</string>
+    <string name="delete_success_msg">"Модель парольної фрази видалено."</string>
+    <string name="delete_fail_title">"Не вдалося видалити"</string>
+    <string name="delete_fail_msg">"Під час видалення моделі парольної фрази сталася помилка."</string>
+    <string name="rename_success_title">"Успішно перейменовано"</string>
+    <string name="rename_success_msg">"Модель парольної фрази перейменовано."</string>
+    <string name="rename_fail_title">"Не вдалося перейменувати"</string>
+    <string name="rename_fail_msg">"Під час перейменування моделі парольної фрази сталася помилка."</string>
+    <string name="pin_validation">"Перевірка PIN-коду"</string>
+    <string name="pin_failed">"Введено недійсний PIN-код!"</string>
+    <string name="registration_failed">"Не вдалося зареєструвати"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"Порогове значення користувачів"</string>
+    <string name="spoof_score">"Порогове значення спуфінгу"</string>
+    <string name="thresholds">"Порогові значення"</string>
+    <string name="save">"Зберегти"</string>
+    <string name="sentence_score_msg">"Встановити порогове значення речення"</string>
+    <string name="user_score_msg">"Встановити порогове значення користувачів"</string>
+    <string name="spoof_score_msg">"Встановити порогове значення спуфінгу"</string>
+    <string name="sentence_score">"Порогове значення речення"</string></resources>

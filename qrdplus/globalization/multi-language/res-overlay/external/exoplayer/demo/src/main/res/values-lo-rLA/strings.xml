@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The user visible name of the application. [CHAR LIMIT=20] -->
+  <string name="application_name">"ການ​ສາທິດ ExoPlayer"</string>
+  <string name="enable_background_audio">"ຫຼິ້ນ​ໃນ​ພື້ນ​ຫຼັງ"</string>
+  <string name="video">"ວິດີໂອ"</string>
+  <string name="audio">"ສຽງ"</string>
+  <string name="text">"ຂໍ້ຄວາມ"</string>
+  <string name="logging">"ການ​ບັນທຶກ"</string>
+  <string name="logging_normal">"ປົກ​ກ​ະ​ຕິ"</string>
+  <string name="logging_verbose">"ລາຍ​ລະອຽດ"</string>
+  <string name="retry">"ລອງໃໝ່"</string>
+  <string name="off">"[ປິດ]"</string>
+  <string name="error_drm_not_supported">"ເນື້ອ​ໃນ​ປົກ​ປ້ອງ​ໄວ້​ບໍ່​ຮອງ​ຮັບ​ຢູ່​ໃນ​ລະ​ດັບ API ລຸ່ມ​ນີ້ 18 "</string>
+  <string name="error_drm_unsupported_scheme">"ອຸ​ປະ​ກອນ​ນີ້​ບໍ່​ຮອງ​ຮັບ​ຢູ່​ໃນ​ຕົວ DRM ທີ່​ຕ້ອງ​ການ "</string>
+  <string name="error_drm_unknown">"ເກີດ​ຄວາມຂັດຂ້ອງ DRM ບໍ່​ຮູ້​ຈັກ​ຂຶ້ນ "</string>
+  <string name="error_no_decoder">"ອຸ​ປະ​ກອນ​ນີ້​ບໍ່​​ມີ​ເຄື່ອງ​ຖອດ​ລະ​ຫັດ​ໃຫ້ສຳ​ລັບ <xliff:g id="mime_type">%1$s</xliff:g>"</string>
+  <string name="error_no_secure_decoder">"ອຸ​ປະ​ກອນ​ນີ້​ບໍ່​​ມີ​ເຄື່ອງ​ຖອດ​ລະ​ຫັດ​ທີ່​ປອດ​ໄພໃຫ້ສຳ​ລັບ  <xliff:g id="mime_type">%1$s</xliff:g>"</string>
+  <string name="error_querying_decoders">"ບໍ່​ສາ​ມາດ​ຖາມ​ເຄື່ອງ​ຖອດ​ລະ​ຫັດ​ອຸ​ປະ​ກອນ​ໄດ້ "</string>
+  <string name="error_instantiating_decoder">"ບໍ່​ສາ​ມາດ​ຍົກ​ຕົວ​​ຢ່າງ​ເຄື່ອງ​ຖອດ​ລະ​ຫັດ​ໄດ້ <xliff:g id="decoder_name">%1$s</xliff:g>"</string>
+  <string name="storage_permission_denied">"ການ​ອະ​ນຸ​ຍາດ​ເຂົ້າ​ຫາ​ບ່ອນ​ຈັດ​ເກັບ​ຂໍ້​ມູນ​ຖືກ​ປະ​ຕິ​ເສດ​ໄປ "</string></resources>

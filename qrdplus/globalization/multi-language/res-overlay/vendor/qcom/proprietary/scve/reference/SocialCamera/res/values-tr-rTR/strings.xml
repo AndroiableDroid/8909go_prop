@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Sosyal Kamera"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"İzinleri doğrularken ya da talep ederken bir hata ile karşılaştık. Daha ayrıntılı bilgi için lütfen logcat aracını kontrol edin."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Gönder (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"Kamera bağlantısı kesildi"</string>
+    <string name="camera_preview_error_camera_error">"Kamera hatası: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Resim çekilemedi"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Resmi galerinize kaydederken bir hata ile karşılaştık"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Ayarlar"</string>
+    <string name="camera_settings_category_camera_settings">"Kamera Ayarları"</string>
+    <string name="camera_settings_category_fr_settings">"Yüz Tanıma Ayarları"</string>
+    <string name="camera_settings_category_debug_settings">"Hata Ayıklama Ayarları"</string>
+    <string name="camera_settings_fr_database_cleared">"Yüz tanıma veritabanı temizlendi"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Kapat"</string>
+    <string name="picture_review_send_faces">"Gönder (%d)"</string>
+    <string name="picture_review_no_faces">"Bu fotoğrafta herhangi bir kişi bulanamadı"</string>
+    <string name="picture_review_error_face_recognition">"Yüzleri tanırken bir hata ile karşılaştık"</string>
+    <string name="picture_review_error_face_enroll">"Üzgünüz, bu yüzü kaydederken bir hata ile karşılaştık. Lütfen konunun bir başka resmini çekin ve yeniden deneyin."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Diğer Kişi..."</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Ayarları paylaş"</string>
+    <string name="fr_share_settings_button_just_once">"Yalnızca Bir Defa"</string>
+    <string name="fr_share_settings_button_always">"Her zaman"</string>
+    <string name="fr_share_settings_share_method_sms">"Mesaj gönder"</string>
+    <string name="fr_share_settings_share_method_email">"E-posta"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Şuna bir bakın!"</string>
+    <string name="social_sharing_error_no_email_app">"E-posta gönderme yeteneğine sahip bir uygulamanız yok"</string></resources>

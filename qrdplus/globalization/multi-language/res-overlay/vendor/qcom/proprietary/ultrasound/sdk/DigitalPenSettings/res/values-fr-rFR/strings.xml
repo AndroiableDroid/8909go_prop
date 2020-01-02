@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Paramètres SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Paramètres du stylo numérique Snapdragon"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"Désactivée"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"Dupliquer"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"Mode Hors écran de l\'ancienne application :"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"Distance de portée (mm) :"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"Mode Alimentation :"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"Optimiser précision"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"Optimiser alimentation"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"Type d\'entrée :"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"Sensibilité souris :"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"Lente"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"Moyenne"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"Rapide"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"Stylet"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"Souris"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"Manette"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"Stylo numérique désactivé"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"Stylo numérique activé"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"Support plus intelligent"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"Survol sur l\'écran"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"Survol hors écran"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"Distance max. :"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"Afficher icône Survol"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"Bouton Gomme"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"Index boutons :"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"Comportement gomme :"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"Tenir pour effacer"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"Appuyer pour changer"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"Emplacement hors écran en Portrait :"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"Côté gauche"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"Côté droit"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"Arrêter stylo sur écran désactivé"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"Activer stylo au démarrage"</string></resources>

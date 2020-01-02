@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoService 示例应用"</string>
+    <string name="action_settings">"设置"</string>
+    <string name="body_msg">"测试 FidoCryptoService"</string>
+    <string name="load">"加载"</string>
+    <string name="unload">"卸载"</string>
+    <string name="process">"处理"</string>
+    <string name="start">"开始"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"绑定 FIDO 服务"</string>
+    <string name="unbindFido">"取消绑定 FIDO 服务"</string>
+    <string name="setChallenge">"设置挑战"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"绑定身份验证程序"</string>
+    <string name="verifyUser">"验证用户/获取令牌"</string>
+    <string name="GetInfo">"获取信息"</string>
+    <string name="Register">"注册"</string>
+    <string name="Deregister">"取消注册"</string>
+    <string name="OpenSettings">"打开设置"</string>
+    <string name="Sign">"登录"</string>
+    <string name="MalformedRequest">"格式不正确的请求"</string>
+    <string name="selectAuth">"选择身份验证程序"</string>
+    <string name="getEnrollmentStatus">"获取注册状态"</string>
+    <string name="RegisterExt">"使用扩展名注册"</string>
+    <string name="SignExt">"用扩展名登录"</string>
+    <string name="encResult">"封装结果"</string>
+    <string name="extResult">"扩展名数据"</string>
+    <string name="selectFidoOpText">"选择 FIDO 操作"</string>
+    <string name="show_message_sui">"显示消息 sui"</string>
+    <string name="fido_sui_service">"fido Sui 服务"</string>
+    <string name="bindFidoSui">"绑定 fido sui"</string>
+    <string name="unbindFidoSui">"取消绑定 fido sui"</string>
+    <string name="suiResultTitle">"显示消息 sui 结果"</string>
+    <string name="cancel_sui">"取消 sui"</string>
+    <string name="extensionText">"要使用扩展名吗？"</string>
+    <string name="pngText">"要使用 PNG 内容吗？"</string>
+    <string name="fpText">"安全指纹"</string>
+    <string-array name="authenticator_array">
+        <item>"模拟身份验证程序"</item>
+        <item>"身份验证程序示例"</item>
+        <item>"身份验证程序安全示例"</item>
+        <item>"扩展名身份验证程序示例"</item>
+        <item>"安全扩展名身份验证程序"</item>
+        <item>"设备运行状况身份验证"</item>
+        <item>"身份验证程序安全示例 IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"获取信息"</item>
+        <item>"注册"</item>
+        <item>"取消注册"</item>
+        <item>"打开设置"</item>
+        <item>"格式异常"</item>
+        <item>"登录（身份验证）"</item>
+        <item>"登录 (TX)"</item>
+    </string-array></resources>

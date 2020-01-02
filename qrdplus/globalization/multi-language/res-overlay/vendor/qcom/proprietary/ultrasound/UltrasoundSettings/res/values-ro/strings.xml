@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+   <add-resource type="string" name="app_name"/>
+    <string name="app_name">ultrasound_settings</string>
+   <!-- Ultrasound settings -->
+   <add-resource type="string" name="UltrasoundSettings"/>
+    <string name="UltrasoundSettings">"Setări depanare ultrasunete"</string>
+   <add-resource type="string" name="tester_button"/>
+    <string name="tester_button">"Tester"</string>
+   <add-resource type="string" name="tester_settings_summary"/>
+    <string name="tester_settings_summary">"Setări opțiuni de afișare tester"</string>
+   <add-resource type="string" name="digital_pen_button"/>
+    <string name="digital_pen_button">"Stilou digital"</string>
+   <add-resource type="string" name="digital_pen_settings_summary"/>
+    <string name="digital_pen_settings_summary">"Setări opțiuni de afișare stilou digital"</string>
+   <add-resource type="string" name="gesture_button"/>
+    <string name="gesture_button">"Gest"</string>
+   <add-resource type="string" name="sync_gesture_button"/>
+    <string name="sync_gesture_button">"Gest de sincronizare"</string>
+   <add-resource type="string" name="gesture_settings_summary"/>
+    <string name="gesture_settings_summary">"Setări opțiuni de afișare gest"</string>
+   <add-resource type="string" name="sync_gesture_settings_summary"/>
+    <string name="sync_gesture_settings_summary">"Setări opțiuni de afișare gest de sincronizare"</string>
+   <add-resource type="string" name="hovering_button"/>
+    <string name="hovering_button">"Se trece cu mouse-ul"</string>
+   <add-resource type="string" name="hovering_settings_summary"/>
+    <string name="hovering_settings_summary">"Setări opțiuni de afișare trecere cu mouse-ul"</string>
+   <add-resource type="string" name="P2P_button"/>
+    <string name="P2P_button">"P2P"</string>
+   <add-resource type="string" name="p2p_settings_summary"/>
+    <string name="p2p_settings_summary">"Setări opțiuni de afișare P2P"</string>
+   <add-resource type="string" name="recording_button"/>
+    <string name="recording_button">"Se înregistrează"</string>
+   <add-resource type="string" name="recording_settings_summary"/>
+    <string name="recording_settings_summary">"Opțiune trecere cu mouse-ul de afișare înregistrare și opțiune de înregistrare gest  "</string>
+   <add-resource type="string" name="proximity_button"/>
+    <string name="proximity_button">"Proximitate"</string>
+   <add-resource type="string" name="proximity_settings_summary"/>
+    <string name="proximity_settings_summary">"Setări opțiuni de afișare de proximitate"</string>
+   <add-resource type="string" name="version_button"/>
+    <string name="version_button">"Versiune"</string>
+   <add-resource type="string" name="start_on_boot_title"/>
+    <string name="start_on_boot_title">"Inițializați pornirea"</string>
+   <add-resource type="string" name="choose_file_title"/>
+    <string name="choose_file_title">"Fișier de configurare Daemon (.cfg)"</string>
+   <add-resource type="string" name="choose_xml_file_title"/>
+    <string name="choose_xml_file_title">"Fișier de configurare serviciu (.xml)"</string>
+   <string-array name="files_list">
+   </string-array>
+   <add-resource type="string" name="dsp_version_title"/>
+    <string name="dsp_version_title">"Versiune DSP"</string>
+   <add-resource type="string" name="debug_title"/>
+    <string name="debug_title">"Mod de depanare"</string>
+   <add-resource type="string" name="timestamp_title"/>
+    <string name="timestamp_title">"Anexați marcajul temporal"</string>
+   <!-- Common settings -->
+   <add-resource type="string" name="frame_file_title"/>
+    <string name="frame_file_title">"Fișier cadre"</string>
+   <add-resource type="string" name="frame_count_title"/>
+    <string name="frame_count_title">"Număr cadre"</string>
+   <!-- Tester settings -->
+   <add-resource type="string" name="TesterSettings"/>
+    <string name="TesterSettings">"Setări tester"</string>
+   <add-resource type="string" name="tester_Status_title"/>
+    <string name="tester_Status_title">"Stare tester"</string>
+   <add-resource type="string" name="frame_file_format_title"/>
+    <string name="frame_file_format_title">"Format fișier cadre"</string>
+   <add-resource type="array" name="files_format"/>
+    <string-array name="files_format">
+      <item>"Brut"</item>
+      <item>"Wav"</item>
+   </string-array>
+   <!-- Digital Pen settings -->
+   <add-resource type="string" name="DigitalPenSettings"/>
+    <string name="DigitalPenSettings">"Setări stilou digital"</string>
+   <add-resource type="string" name="digital_pen_status_title"/>
+    <string name="digital_pen_status_title">"Stare stilou"</string>
+   <add-resource type="string" name="calib_title"/>
+    <string name="calib_title">"Mod de calibrare"</string>
+   <add-resource type="string" name="coord_file_title"/>
+    <string name="coord_file_title">"Fișiere coordonate"</string>
+   <add-resource type="string" name="coord_count_title"/>
+    <string name="coord_count_title">"Număr coordonate"</string>
+   <add-resource type="string" name="timeout_title"/>
+    <string name="timeout_title">"Timp limită"</string>
+   <!-- Gesture settings -->
+   <add-resource type="string" name="GestureSettings"/>
+    <string name="GestureSettings">"Setări gesturi"</string>
+   <add-resource type="string" name="gesture_status_title"/>
+    <string name="gesture_status_title">"Stare gesturi"</string>
+   <!-- Sync Gesture settings -->
+   <add-resource type="string" name="SyncGestureSettings"/>
+    <string name="SyncGestureSettings">"Setări gesturi de sincronizare"</string>
+   <add-resource type="string" name="sync_gesture_status_title"/>
+    <string name="sync_gesture_status_title">"Stare gest de sincronizare"</string>
+   <!-- P2P settings -->
+   <add-resource type="string" name="P2PSettings"/>
+    <string name="P2PSettings">"Setări P2P"</string>
+   <add-resource type="string" name="p2p_status_title"/>
+    <string name="p2p_status_title">"Stare P2P"</string>
+   <add-resource type="string" name="device_id_title"/>
+    <string name="device_id_title">"Dispozitiv ID"</string>
+   <add-resource type="string" name="pattern_type_title"/>
+    <string name="pattern_type_title">"Tip model"</string>
+   <!-- Hovering settings -->
+   <add-resource type="string" name="HoveringSettings"/>
+    <string name="HoveringSettings">"Setări trecere cu mouse-ul"</string>
+   <add-resource type="string" name="hovering_status_title"/>
+    <string name="hovering_status_title">"Stare trece cu mouse-ul"</string>
+   <!-- Recording settings -->
+   <add-resource type="string" name="RecordingSettings"/>
+    <string name="RecordingSettings">"Setări de înregistrare"</string>
+   <add-resource type="string" name="recording_status_title"/>
+    <string name="recording_status_title">"Stare de înregistrare"</string>
+   <!-- Proximity settings -->
+   <add-resource type="string" name="ProximitySettings"/>
+    <string name="ProximitySettings">"Setări de proximitate"</string>
+   <add-resource type="string" name="proximity_status_title"/>
+    <string name="proximity_status_title">"Stare proximitate"</string>
+   <add-resource type="string" name="force_using_cfg_title"/>
+    <string name="force_using_cfg_title">"Forțați utilizând Cfg selectat"</string>
+   <add-resource type="array" name="test_type_array"/>
+    <string-array name="test_type_array">
+      <item>"Gest"</item>
+      <item>"Se trece cu mouse-ul"</item>
+      <item>"Proximitate"</item>
+   </string-array>
+   <add-resource type="string" name="gesture_first_text"/>
+    <string name="gesture_first_text">"Gata?"</string>
+   <!-- Gesture Recording -->
+   <add-resource type="string" name="name_text"/>
+    <string name="name_text">"Nume"</string>
+   <add-resource type="string" name="location_text"/>
+    <string name="location_text">"Locație"</string>
+   <add-resource type="string" name="comments_text"/>
+    <string name="comments_text">"Comentarii"</string>
+   <add-resource type="string" name="type_text"/>
+    <string name="type_text">"Tip"</string>
+   <add-resource type="string" name="cfg_file_text"/>
+    <string name="cfg_file_text">"Fișier Cfg"</string>
+   <add-resource type="string" name="record_location_text"/>
+    <string name="record_location_text">"Locație de înregistrare"</string>
+   <add-resource type="string" name="user_notice_text"/>
+    <string name="user_notice_text">"Asigurați-vă că fișierul cfg selectat se potrivește nevoilor  "</string>
+   <add-resource type="string" name="button_text"/>
+    <string name="button_text">"Începeți"</string>
+   <add-resource type="string" name="clr_persist"/>
+    <string name="clr_persist">"Eliminați datele persistente"</string></resources>

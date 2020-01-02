@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources version="1.1">
+    <!-- mmi main-->
+    <string name="btn_all">"TOATE"</string>
+    <string name="btn_failed">"EȘUAT"</string>
+    <string name="btn_runall">"EXECUȚIE TOTALĂ"</string>
+    <string name="btn_reset">"RESETARE"</string>
+    <string name="btn_reboot">"REPORNIRE"</string>
+    <string name="btn_poweroff">"ÎNTRERUPERE ALIMENTARE"</string>
+    <string name="btn_pass">"TRECERE"</string>
+    <string name="btn_fail">"EROARE"</string>
+    <string name="btn_ok">"OK"</string>
+    <string name="btn_cancel">"Anulaţi"</string>
+    <string name="btn_pageup">"SUS"</string>
+    <string name="btn_pagedown">"JOS"</string>
+    <string name="finish">"FINALIZARE"</string>
+    <string name="test_report">"RAPORT DE TEST"</string>
+    <!-- common strings -->
+    <string name="on">"ACTIV"</string>
+    <string name="off">"INACTIV"</string>
+    <string name="present">"detectat"</string>
+    <string name="absent">"nedetectat"</string>
+    <string name="notice">"Începeți testul, așteptați..."</string>
+    <string name="reset_notice">"doriți să eliminați rezultatul testului?"</string>
+    <string name="reboot_poweroff_notice">"(1)  Oprire       "</string>
+    <string name="reboot_ffbm_notice">"(2)  Reporniți la FFBM  "</string>
+    <string name="reboot_android_notice">"(3)  Reporniți la Android"</string>
+    <string name="reboot_notice">"selectați modul de repornire"</string>
+    <string name="pcba_title">"Porniți testul PCBA"</string>
+    <string name="exit">"IEȘIRE"</string>
+    <!-- system information -->
+    <string name="system_info">"INFORMAȚII SISTEM"</string>
+    <!-- example information -->
+    <string name="example">"exemplu"</string>
+    <!-- camera case -->
+    <string name="camera_back">"CAMERĂ SPATE"</string>
+    <string name="camera_back_main">"CAMERĂ SPATE PRINCIPALĂ"</string>
+    <string name="camera_back_aux">"CAMERĂ SPATE AUXILIARĂ"</string>
+    <string name="camera_back_1st">"CAMERĂ SPATE 1"</string>
+    <string name="camera_back_2nd">"CAMERĂ SPATE 2"</string>
+    <string name="camera_front">"CAMERĂ FAȚĂ"</string>
+    <string name="snapshot">"INSTANTANEU"</string>
+    <!-- battery case -->
+    <string name="battery">"BATERIE"</string>
+    <string name="battery_instruction">"Atașați/detașați cablul USB ...."</string>
+    <string name="battery_title">"Atașați/detașați încărcătorul. Confirmați valorile modificate?"</string>
+    <string name="battery_health">"Buna funcţionare a bateriei:"</string>
+    <string name="battery_status">"Stare baterie"</string>
+    <string name="battery_voltage">"voltaj baterie:"</string>
+    <string name="charging_indicate">"Vedeți indicația LED?"</string>
+    <string name="discharge_indicate">"Baterie încărcată, descărcați-o și conectați-o din nou."</string>
+    <!-- SMB case -->
+    <string name="smb">"SMB"</string>
+    <!-- lcd case -->
+    <string name="lcd">"LCD"</string>
+    <string name="next">"ÎNAINTE"</string>
+    <!-- LCD_BACKLIGHT case -->
+    <string name="lcd_backlight">"ILUMINARE DE FUNDAL LCD"</string>
+    <string name="lcd_backlight_on">"ILUMINARE DE FUNDAL LCD ACTIVATĂ"</string>
+    <string name="lcd_backlight_off">"ILUMINARE DE FUNDAL LCD DEZACTIVATĂ"</string>
+    <!-- keypad backlight case -->
+    <string name="button_backlight">"ILUMINARE DE FUNDAL TASTATURĂ"</string>
+    <string name="button_backlight_on">"ILUMINARE DE FUNDAL TASTATURĂ ACTIVATĂ"</string>
+    <string name="button_backlight_off">"ILUMINARE DE FUNDAL TASTATURĂ DEZACTIVATĂ"</string>
+    <!-- flashlight case -->
+    <string name="flashlight">"LANTERNĂ"</string>
+    <string name="flashlight_1">"FLASHLIGHT_1"</string>
+    <string name="flashlight_on">"FLASHLIGHT_ON"</string>
+    <string name="flashlight_off">"FLASHLIGHT_OFF"</string>
+    <!-- leds case -->
+    <string name="led_red">"LED ROȘU"</string>
+    <string name="led_red_on">"LED ROȘU PORNIT"</string>
+    <string name="led_red_off">"LED ROȘU OPRIT"</string>
+    <string name="led_blue">"LED ALBASTRU"</string>
+    <string name="led_blue_on">"LED ALBASTRU PORNIT"</string>
+    <string name="led_blue_off">"LED ALBASTRU OPRIT"</string>
+    <string name="led_green">"LED VERDE"</string>
+    <string name="led_green_on">"LED VERDE PORNIT"</string>
+    <string name="led_green_off">"LED VERDE OPRIT"</string>
+    <!-- sensors case -->
+    <string name="gyroscope">"SENZOR GIROSCOP"</string>
+    <string name="gsensor">"SENZOR ACCELEROMETRU"</string>
+    <string name="psensor">"SENZOR DE PROXIMITATE"</string>
+    <string name="lsensor">"SENZOR DE LUMINĂ"</string>
+    <string name="msensor">"SENZOR MAGNETOMETRU"</string>
+    <string name="calibration">"CALIBRARE"</string>
+    <string name="lsensor_instruction">"Acoperiți senzorul de lumină și verificați rezultatul"</string>
+    <string name="psensor_instruction">"Acoperiți senzorul de proximitate și verificați rezultatul"</string>
+    <string name="msensor_instruction">"Efectuați mișcarea în formă de ∞/8/S pentru a calibra senzorul de magnetometru și verificați rezultatul"</string>
+    <!-- sdcard case -->
+    <string name="sdcard">"SDCARD"</string>
+    <string name="emmc">"EMMC"</string>
+    <string name="storage">"STOCARE"</string>
+    <string name="sdcard_present">"Card SD detectat"</string>
+    <string name="sdcard_absent">"Card SD nedetectat"</string>
+    <string name="sdcard_capacity">"Capacitate card SD"</string>
+    <string name="sdcard_used_space">"Spațiu utilizat card SD"</string>
+    <string name="sdcard_free_space">"Spațiu liber card SD"</string>
+    <!-- memory case -->
+    <string name="memory">"MEMORIE"</string>
+    <!-- cpu case -->
+    <string name="cpu">"CPU"</string>
+    <!-- simcard case -->
+    <string name="simcard1">SIMCARD1</string>
+    <string name="simcard2">SIMCARD2</string>
+    <string name="detecting">"se detectează..."</string>
+    <!-- touch case -->
+    <string name="touch">"ATINGEȚI"</string>
+    <!-- key case -->
+    <string name="key">"CHEIE"</string>
+    <string name="btn_home">"PAGINĂ DE PORNIRE"</string>
+    <string name="btn_menu">"MENIU"</string>
+    <string name="btn_back">"ÎNAPOI"</string>
+    <string name="btn_volumeup">"CREȘTERE VOLUM"</string>
+    <string name="btn_volumedown">"REDUCERE VOLUM"</string>
+    <string name="btn_power">"ALIMENTARE"</string>
+    <string name="btn_snapshot">"INSTANTANEU CAMERĂ"</string>
+    <!-- headset_key case -->
+    <string name="headset_key">"CHEIE CĂȘTI"</string>
+    <string name="btn_guidance">"Introduceți căștile și apăsați cheia de închidere pentru a verifica"</string>
+    <string name="btn_headphone_insert">"INTRODUCERE CĂȘTI"</string>
+    <string name="btn_microphone_insert">"INTRODUCERE MICROFON"</string>
+    <string name="btn_hangup">"ÎNCHIDERE"</string>
+    <!-- vibrator case -->
+    <string name="vibrator">"VIBRATOR"</string>
+    <string name="vibrator_on">"VIBRATOR PORNIT"</string>
+    <string name="vibrator_off">"VIBRATOR OPRIT"</string>
+    <string name="vibrating">"Vibrează"</string>
+    <!-- audio case -->
+    <string name="handset">"RECEPTOR AUDIO"</string>
+    <string name="audio_handset_play">"REDARE RECEPTOR AUDIO"</string>
+    <string name="audio_handset_play_instruction">"Verificați redarea muzicii prin căștile de la receptor"</string>
+    <string name="headset">"CĂȘTI AUDIO"</string>
+    <string name="audio_headset_loopback">"REACȚIE ÎN BUCLĂ SET AUDIO"</string>
+    <string name="audio_headset_loopback_instruction">"Conectați căștile....  vorbiți în microfonul căștilor pentru a verifica testul de reacție în buclă a căștilor"</string>
+    <string name="audio_headset_instruction">"Conectați căștile....  vorbiți în microfonul căștilor pentru a verifica testul de reacție în buclă a căștilor"</string>
+    <string name="loudspeaker">"DIFUZOR AUDIO"</string>
+    <string name="audio_loudspeaker_play">"REDARE DIFUZOR AUDIO"</string>
+    <string name="audio_loudspeaker_play_instruction">"Verificați redarea muzicii prin difuzor"</string>
+    <string name="primary_mic">"MICROFON PRIMAR"</string>
+    <string name="audio_primary_mic">"MICROFON PRIMAR"</string>
+    <string name="audio_primary_mic_instruction">"Vorbiți în microfonul primar și așteptați redarea mesajului înregistrat anterior prin difuzor"</string>
+    <string name="audio_noise_mic">"MICROFON ZGOMOT"</string>
+    <string name="audio_noise_mic_instruction">"Vorbiți în microfonul de zgomot și așteptați redarea mesajului înregistrat anterior prin difuzor"</string>
+    <string name="audio_top_mic">"MICROFON SUPERIOR"</string>
+    <string name="audio_top_mic_instruction">"Vorbiți în microfonul superior și așteptați mesajul înregistrat anterior prin intermediul difuzorului"</string>
+    <string name="primary_mic_test">"Vorbiți în microfonul primar și așteptați redarea mesajului înregistrat anterior prin difuzor"</string>
+    <string name="handset_record">"Vorbiți în microfonul receptorului pentru"</string>
+    <string name="handset_playback">"Verificați redarea mesajului înregistrat anterior prin căștile de la receptor"</string>
+    <string name="handset_play">"Verificați redarea muzicii prin căștile de la receptor"</string>
+    <string name="headset_record">"Vorbiți în microfonul căștilor pentru"</string>
+    <string name="headset_playback">"Verificați redarea mesajului înregistrat anterior prin intermediul căștilor"</string>
+    <string name="headset_loopback">"Introduceți căștilor și vorbiți în microfonul căștilor pentru a verifica testul de reacție în buclă a căștilor"</string>
+    <string name="loudspeaker_playback">"Verificați redarea mesajului înregistrat anterior prin intermediul difuzorului"</string>
+    <string name="loudspeaker_play">"Verificați redarea muzicii prin difuzor"</string>
+    <string name="headset_second_record">"Vorbiți în microfonul secundar pentru"</string>
+    <string name="seconds">"secunde"</string>
+    <!-- wifi case -->
+    <string name="wifi">"WIFI"</string>
+    <!-- fm case -->
+    <string name="fm">FM</string>
+    <string name="next_tune">"CĂUTARE URMĂTOARE &gt;&gt;"</string>
+    <string name="playing_tune">"Se redă melodia"</string>
+    <string name="config_audio">"Începeți să configurați calea audio pentru FM"</string>
+    <string name="search_tune">"Se caută melodia disponibilă ..."</string>
+    <!-- bluetooth case -->
+    <string name="bluetooth">"BLUETOOTH"</string>
+    <!-- gps case -->
+    <string name="gps">"GPS"</string>
+    <string name="run_garden_app">"Executați garden_app..."</string>
+    <!-- nfc case -->
+    <string name="nfc">"NFC"</string>
+    <!-- test report -->
+    <string name="fail_items">"ELEMENTE ERONATE"</string></resources>

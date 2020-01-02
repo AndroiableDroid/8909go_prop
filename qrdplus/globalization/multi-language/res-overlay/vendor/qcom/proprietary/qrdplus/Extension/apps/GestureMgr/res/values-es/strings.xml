@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Gestos"</string>
+    <string name="toast_gesture_exist">"El gesto ya existe."</string>
+    <string name="category_off_screen_gestures">"Gesto de pantalla oscura"</string>
+    <string name="category_other_gestures">"Otros"</string>
+    <string name="summary_silent_gesture">"Durante las llamadas entrantes o las llamadas de vídeo, voltea el teléfono para silenciar las llamadas entrantes."</string>
+    <string name="title_silent_gesture">"Silenciar llamadas entrantes"</string>
+    <string name="switch_on">"Sí"</string>
+    <string name="switch_off">"No"</string>
+    <string name="title_gesture_action">"Acción"</string>
+    <string name="title_gesture_customize">"Personalizar gesto"</string>
+    <string name="summary_gesture_setting">"Cuando la pantalla está apagada, dibuja este gesto para: %1$s"</string>
+    <string name="menu_save">"Guardar"</string>
+    <string name="menu_discard">"Descartar"</string>
+    <string name="menu_reset">"Restablecer configuración"</string>
+    <string name="menu_clear">"Borrar"</string>
+    <string name="menu_ok">"Aceptar"</string>
+    <string name="toast_gesture_saved">"Gesto guardado"</string>
+    <string name="toast_gesture_error">"Error del gesto"</string>
+    <string name="message_discard">"¿Seguro que quieres descartar los cambios?"</string>
+    <string name="message_reset_default">"¿Restablecer este gesto a los ajustes predeterminados?"</string>
+    <string name="summary_gesture_customize">"Dibuja el gesto del cliente para: %1$s"</string></resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IMS settings related strings -->
+    <!-- Title displayed IMS account settings in the sip settings category. [CHAR LIMIT=NONE] -->
+    <string name="ims_settings">"IMS کی سیٹنگز"</string>
+    <string name="ims_vt_call_quality_title">"VT کال کا معیار"</string>
+    <string name="ims_vt_call_quality_low">"کم"</string>
+    <string name="ims_vt_call_quality_high">"اعلی"</string>
+    <string name="ims_vt_call_quality_unknown">"نامعلوم"</string>
+    <string name="ims_vt_call_quality_set_failed">"ویڈیو کال کے معیار کو سیٹ کرنے میں ناکام"</string>
+    <string name="ims_get_packet_count_failed">"پیکٹ شمار حاصل کرنا ناکام ہوگیا۔"</string>
+    <string name="ims_get_packet_error_count_failed">"پیکٹ خرابی شمار حاصل کرنا ناکام ہوگیا۔"</string>
+    <string name="ims_get_packet_count_label">"پیکٹ شمار حاصل کرنے کے لیے یہا کلک کریں"</string>
+    <string name="ims_get_packet_error_count_label">"پیکٹ خرابی شمار حاصل کرنے کے لیے یہا کلک کریں"</string>
+    <string name="qti_ims_call_deflect_title">"انحرافی نمبر پر کال کریں"</string>
+    <string name="qti_ims_number_not_set">"سیٹ نہیں ہے"</string>
+    <!-- IMS to CS Retry setting title.  [CHAR LIMIT=30] -->
+    <string name="ims_to_cs_retry_title">"CS دوبارہ کوشش"</string>
+    <!-- IMS to CS Retry setting summary.  [CHAR LIMIT=80] -->
+    <string name="ims_to_cs_retry_summary">"خودکار طور پر دوبارہ کوشش باقاعدہ صوتی مواصلاتی (تجویز کردہ)"</string></resources>

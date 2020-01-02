@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Main app title [CHAR LIMIT=40] -->
+    <string name="settings_app_name">"ဆက်တင်များ"</string>
+    <!-- Leanback Launcher App Title for main Settings app [CHAR LIMIT=40] -->
+    <string name="launcher_settings_app_name">"ဆက်တင်များ"</string>
+    <!-- Leanback Launcher App Title for Network settings app [CHAR LIMIT=40] -->
+    <string name="launcher_network_app_name">"ကွန်ရက်"</string>
+    <!-- Leanback Launcher App Title for Restricted Profile app [CHAR LIMIT=40] -->
+    <string name="launcher_restricted_profile_app_name">"ကန့်သတ် ပရိုဖိုင်"</string>
+    <!-- Top level headers -->
+    <!-- Header title for device [CHAR LIMIT=50] -->
+    <string name="header_category_device">"ကိရိယာ"</string>
+    <!-- Header title for preferences [CHAR LIMIT=50] -->
+    <string name="header_category_preferences">"ဦးစားပေးချက်များ"</string>
+    <!-- Header title for accessories [CHAR LIMIT=50] -->
+    <string name="header_category_accessories">"အဝေးထိန်း &amp; အသုံးအဆောင်များ"</string>
+    <!-- Header title for personal [CHAR LIMIT=50] -->
+    <string name="header_category_personal">"ကိုယ်ရေး"</string>
+    <!-- Account preferences -->
+    <!-- Preference which adds an account [CHAR LIMIT=50] -->
+    <string name="add_account">"အကောင့် ထည့်ရန်"</string>
+    <!-- Header for sync [CHAR LIMIT=50] -->
+    <string name="account_header_sync">"စင့်က်"</string>
+    <!-- Header for remove account [CHAR LIMIT=50] -->
+    <string name="account_header_remove_account">"အကောင့်ကို ဖယ်ရှားရန်"</string>
+    <!-- Sync item label: control sync settings [CHAR LIMIT=100] -->
+    <string name="account_sync">"စင့်က် လုပ်ပြီးသား appများကို ရွေးရန်"</string>
+    <!-- Label for action to sync now [CHAR LIMIT=50] -->
+    <string name="sync_now">"ယခု စင့်က် လုပ်ရန်"</string>
+    <!-- Label for action saying that we are syncing now [CHAR LIMIT=50] -->
+    <string name="sync_cancel">"စင့်က် မလုပ်တော့"</string>
+    <!-- Sync status: in progress [CHAR LIMIT=50]-->
+    <string name="sync_in_progress">"စင့်က် လုပ်နေ\u2026"</string>
+    <!-- Sync status: last synced [CHAR LIMIT=50]-->
+    <string name="last_synced">"နောက်ဆုံး စင့်က် လုပ်မှု <xliff:g id="TIME">%1s</xliff:g>"</string>
+    <!-- Sync status: disabled [CHAR LIMIT=50] -->
+    <string name="sync_disabled">"ပိတ်ထား"</string>
+    <!-- Sync description if sync is failing [CHAR LIMIT=NONE] -->
+    <string name="sync_is_failing">"Sync သည် ချက်ချင်း အလုပ် မလုပ်သေးပါ။ ၎င်းသည် မကြာခင်တွင် ပြန်လာပါမည်။"</string>
+    <!-- Remove account item label: remove the account [CHAR LIMIT=30] -->
+    <string name="account_remove">"အကောင့်ကို ဖယ်ရှားရန်"</string>
+    <!-- Message posted if removing the account fails. [CHAR LIMIT=NONE] -->
+    <string name="account_remove_failed">"အကောင့်ကို ဖယ်ရှား မရနိုင်"</string>
+    <!-- Connectivity preferences -->
+    <!-- Top level network card title. [CHAR LIMIT=50] -->
+    <string name="connectivity_network">"ကွန်ရက်"</string>
+    <!-- Preference which manages wifi settings. [CHAR LIMIT=50] -->
+    <string name="connectivity_wifi">"ကြိုးမဲ့"</string>
+    <!-- Preference which manages ethernet settings. [CHAR LIMIT=50] -->
+    <string name="connectivity_ethernet">"အီသာနက်"</string>
+    <!-- Title for always scan wifi. [CHAR LIMIT=50] -->
+    <string name="wifi_setting_always_scan">"စကင်န်လုပ်ခြင်း အမြဲတန်းရနိုင်ရန်"</string>
+    <!-- Context help for always scan wifi. [CHAR LIMIT=200] -->
+    <string name="wifi_setting_always_scan_context">"ဝိုင်ဖိုင် ပိတ်ထားလျှင်ပင်၊ google၏ တည်နေရာဝန်ဆောင်မှုနှင့် အခြား app များအား ကွန်ယက်အတွက် စကင်န်ဖတ်ခွင့်ပြုရန်"</string>
+    <!-- Title for enable wifi. [CHAR LIMIT=50] -->
+    <string name="wifi_setting_enable_wifi">"ဝိုင်ဖိုင်"</string>
+    <!-- Device preferences -->
+    <!-- Preference which changes daydream settings. [CHAR LIMIT=50] -->
+    <string name="device_daydream">"နေ့ခင်းအိပ်မက်"</string>
+    <!-- Preference which changes display settings. [CHAR LIMIT=50] -->
+    <string name="device_display">"မြင်ကွင်း"</string>
+    <!-- Preference and title which changes system sounds settings. [CHAR LIMIT=50] -->
+    <string name="device_sound_effects">"စနစ်၏ အသံများ"</string>
+    <!-- Preference which manages apps. [CHAR LIMIT=50] -->
+    <string name="device_apps">"Appများ"</string>
+    <!-- Preference which shows storage status. [CHAR LIMIT=50] -->
+    <string name="device_storage_reset">"သိုလှောင်မှု &amp; ပြန်ညှိရန်"</string>
+    <!-- Preference which shows storage status. [CHAR LIMIT=50] -->
+    <string name="device_storage">"သိုလှောင်မှု"</string>
+    <!-- Preference which manages backup settings. [CHAR LIMIT=50] -->
+    <string name="device_backup_restore">"ဘက်အာပ် လုပ်ခြင်း &amp; ပြန်လည်ဖေါ်ထုတ်ခြင်း"</string>
+    <!-- Preference which shows reset options [CHAR LIMIT=50] -->
+    <string name="device_reset">"စက်ရုံအတိုင်း ပြန်ညှိရန်"</string>
+    <!-- Preference which sets the device's display calibration. [CHAR LIMIT=50] -->
+    <string name="device_calibration">"စံကိုက်ညှိမှု"</string>
+        <!-- Title of dialog asking user to confirm before clearing all caches. [CHAR LIMIT=48] -->
+    <string name="device_storage_clear_cache_title">"ကရှ်ဒေတာများကို ရှင်းမည်လား?"</string>
+    <!-- Message of dialog asking user to confirm before clearing all caches. [CHAR LIMIT=48] -->
+    <string name="device_storage_clear_cache_message">"apps အားလုံးအတွက် ကရှ်ဒေတာများကို ရှင်းမည်။"</string>
+    <!-- Browse Header for downloaded apps under device settings. [CHAR LIMIT=50] -->
+    <string name="apps_downloaded">"ဒေါင်းလုဒ် လုပ်ထားသည့် Appများ"</string>
+    <!-- Browse Header for all apps under device settings. [CHAR LIMIT=50] -->
+    <string name="apps_system">"စနစ် Appများ"</string>
+    <!-- Browse Header for running apps under device settings. [CHAR LIMIT=50] -->
+    <string name="apps_running">"ဖွင့်သုံးနေသည့် Appများ"</string>
+    <!-- Remote and Accessories -->
+    <!-- Preference which manages pairing new accessories. [CHAR LIMIT=50] -->
+    <string name="accessories_add">"အသုံးအဆောင်များ ထည့်ရန်"</string>
+    <!-- Preference which manages WiFi display settings. [CHAR LIMIT=50] -->
+    <string name="accessories_wifi_display">"ကြိုးမဲ့ မြင်ကွင်း"</string>
+    <!-- Device Paring Status: Pairing. [CHAR LIMIT=50] -->
+    <string name="accessory_state_pairing">"တွဲချိတ်နေ\u2026"</string>
+    <!-- Device Paring Status: Connecting. [CHAR LIMIT=50] -->
+    <string name="accessory_state_connecting">"ချိတ်ဆက်နေ..."</string>
+    <!-- Device Paring Status: Error. [CHAR LIMIT=50] -->
+    <string name="accessory_state_error">"ချိတ်တွဲ မရနိုင်ခဲ့"</string>
+    <!-- Device Paring Status: Canceled. [CHAR LIMIT=50] -->
+    <string name="accessory_state_canceled">"ထားတော့"</string>
+    <!-- Device Paring Status: Pairing Complete. [CHAR LIMIT=50] -->
+    <string name="accessory_state_paired">"ချိတ်တွဲထား"</string>
+    <!-- Preference which manages a single Paired Bluetooth accessory. [CHAR LIMIT=50] -->
+    <string name="accessory_options">"အသုံးအဆောင်"</string>
+    <!-- Preference for renaming a paired Bluetooth accessory[CHAR LIMIT=50] -->
+    <string name="accessory_rename">"အမည်ပြောင်းရန်"</string>
+    <!-- Preference for unpairing a Bluetooth accessory[CHAR LIMIT=50] -->
+    <string name="accessory_unpair">"တွဲချိတ်မှုဖြုတ်ရန်"</string>
+    <!-- Preference for displaying battery level percentage. % symbol if used must be escaped as %% [CHAR LIMIT=150] -->
+    <string name="accessory_battery">"ဘက်ထရီ <xliff:g id="PERCENTAGE">%1$d</xliff:g>%%"</string>
+    <!-- Description shown while we are waiting for a device unpair operation to finish[CHAR LIMIT=50] -->
+    <string name="accessory_unpairing">"ကိရိယာကို တွဲထားမှုမှ ဖြုတ်နေ\u2026"</string>
+    <!-- Description for Connected accessory[CHAR LIMIT=50] -->
+    <string name="accessory_connected">"ချိတ်ဆက်ထား"</string>
+    <!-- Remote and Accessories -->
+    <!-- Description text for new accessories pairing screen. [CHAR LIMIT=150] -->
+    <string name="accessories_add_title">"အသုံးအဆောင်များကို ရှာဖွေနေ\u2026"</string>
+    <!-- Description text for bluetooth device pairing instructions. [CHAR LIMIT=150] -->
+    <string name="accessories_add_bluetooth_inst">"သင်၏ ဘလူးတုသ် ကိရိယာများကို မချိတ်တွဲမီ၊ ၎င်းတို့ ချိတ်တွဲရေး မုဒ် ထဲမှာ ရှိနေတာကို စစ်ကြည့်ပါ"</string>
+    <!-- Description text for autopairing when the user is in the pairing activity due to pressing the back HW button.  %1 will be replaced with the countdown value. [CHAR LIMIT=150] -->
+    <string name="accessories_autopair_msg">"ကိရိယာ တစ်ခုကို တွေ့ရှိခဲ့ရာ <xliff:g id="COUNTDOWN">%1$s</xliff:g> စက္ကန့် အတွင်းမှာ အလိုအလျောက် ချိတ်တွဲလိမ့်မည်"</string>
+    <!-- Description text for pairing screen with multiple devices found. [CHAR LIMIT=150] -->
+    <string name="accessories_add_title_multiple">"ကိရိယာ အများအပြားကို ရှာတွေ့ခဲ့"</string>
+    <!-- Description text for selecting a device to pair, when multiple devices are detected. [CHAR LIMIT=150] -->
+    <string name="accessories_add_multiple">"အခြား ကိရိယာကို ရွေးရန်၊ ဒီကိရိယာ ထဲက ချိတ်တွဲရေး ခလုတ်ကို နှိပ်ပါ"</string>
+    <!-- Description text for pairing with the selected device, when multiple devices are detected. [CHAR LIMIT=150] -->
+    <string name="accessories_add_multiple_select">"ရွေးထားသည့် ကိရိယာနှင့် ချိတ်တွဲရန်၊ ကိရိယာ၏ ချိတ်တွဲရေး ခလုတ်ကို နှိပ်ထားပြီး &amp; ၅ စက္ကန့်ကြာ ကိုင်ထားပါ"</string>
+    <!-- Error message displayed to the user indicating that a selected action is not supported on this device. [CHAR LIMIT=150] -->
+    <string name="error_action_not_supported">"ဒီလုပ်ဆော်င်ချက်ကို မပံ့ပိုးပါ"</string>
+    <!-- Title for the dialog to enter PIN. [CHAR LIMIT=40] -->
+    <string name="bluetooth_pairing_request">"ဘလူးတုသ် တွဲချိတ်ရန် တောင်းခံချက်"</string>
+    <!-- Message for confirmation of passkey to complete pairing. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_confirm_passkey_msg">"&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt; နှင့် ချိတ်တွဲရန်၊ ၎င်းက သော့တံ: &lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt; ကို ပြသနေတာ သေချာပါစေ"</string>
+    <!-- Message when bluetooth incoming pairing request for (2.1 devices) dialog is showing [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_incoming_pairing_msg">"ထံမှ: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt; ဒီကိရိယာနှင့် ချိတ်တွဲရမလား?"</string>
+    <!-- Message when bluetooth dialog when passkey or pin needs to be displayed. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_display_passkey_pin_msg">"&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt; နှင့် ချိတ်တွဲရန်၊ ၎င်းပေါ်မှာ: &lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt; ဆိုပြီး တိုက်ရိုက်ပါ၊ ၎င်းနောက် ပြန်သွားရန် သို့မဟုတ် အင်တာကို နှိပ်ပါ။"</string>
+    <!-- Message when bluetooth dialog for pin entry is showing. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_enter_pin_msg">"&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt; နှင့် ချိတ်တွဲရန်၊ လိုအပ်သည့် ကိရိယာ၏ PIN ကို ရိုက်ထည့်ပါ:"</string>
+    <!-- Message when bluetooth dialog for passkey entry is showing. [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_enter_passkey_msg">"ချိတ်တွဲရန်: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt; ကိရိယာ အတွက် လိုအပ်သည့် သော့တံကို ရိုက်ထည့်ပါ:"</string>
+    <!-- Bluetooth PIN hint text (below the text entry box). [CHAR LIMIT=30] -->
+    <string name="bluetooth_pin_values_hint">"ပုံမှန်အားဖြင့် ၀၀၀၀ သို့မဟုတ် ၁၂၃၄"</string>
+    <!-- Action title for Confirming the Bluetooth secure Pair action [CHAR LIMIT=50] -->
+    <string name="bluetooth_pair">"ချိတ်တွဲရန်"</string>
+    <!-- Action title for Cancelling the Bluetooth secure Pair action [CHAR LIMIT=50] -->
+    <string name="bluetooth_cancel">"ထားတော့"</string>
+    <!-- System -->
+    <!-- Preference which manages cast settings. [CHAR LIMIT=50] -->
+    <string name="system_cast">"Google Cast"</string>
+    <!-- Preference which manages date / time settings. [CHAR LIMIT=50] -->
+    <string name="system_date_time">"နေ့စွဲ&amp; အချိန်"</string>
+    <!-- Preference which manages language settings. [CHAR LIMIT=50] -->
+    <string name="system_language">"ဘာသာစကား"</string>
+    <!-- Preference which manages input method settings. [CHAR LIMIT=50] -->
+    <string name="system_keyboard">"ကီးဘုတ်"</string>
+    <!-- Preference which manages home screen settings. [CHAR LIMIT=50] -->
+    <string name="system_home">"မျက်နှာစာဖန်သားပြင်ပုံစံ"</string>
+    <!-- Preference which manages search and google now settings. [CHAR LIMIT=50] -->
+    <string name="system_search">"ရှာဖွေရန်"</string>
+    <!-- Preference which manages security settings. [CHAR LIMIT=50] -->
+    <string name="system_security">"လုံခြုံရေး &amp; ကန့်သတ်ချက်များ"</string>
+    <!-- Preference which manages speech recognition settings. [CHAR LIMIT=50] -->
+    <string name="system_speech">"နှုတ်စကား"</string>
+    <!-- Preference which manages TV inputs. [CHAR LIMIT=50] -->
+    <string name="system_inputs">"ထည့်သွင်းမှုများ"</string>
+    <!-- Preference which manages accessibility settings. [CHAR LIMIT=50] -->
+    <string name="system_accessibility">"ရယူသုံးနိုင်မှု"</string>
+    <!-- Preference which manages developer options. [CHAR LIMIT=50] -->
+    <string name="system_developer_options">"ပြုစုပေးခဲ့သူ အတွက် ရွေးစရာများ"</string>
+    <!-- Label for no accessibility color or opacity [CHAR LIMIT=50] -->
+    <string name="accessibility_none">"မရှိ"</string>
+    <!-- Preference which manages Diagnostic and Usage reporting -->
+    <string name="system_diagnostic">"သုံးစွဲမှု &amp; ပြဿနာရှာဖွေမှု"</string>
+    <!-- About -->
+    <!-- Preference which shows system update status. [CHAR LIMIT=50] -->
+    <string name="about_system_update">"စနစ် မွမ်းမံမှု"</string>
+    <!-- Preference which shows about screen with legal info, model, etc. [CHAR LIMIT=50] -->
+    <string name="about_preference">"အကြောင်း"</string>
+    <!-- Preference which shows name of device as it will appear when being accessed remotely [CHAR LIMIT=50] -->
+    <string name="device_name">"ကိရိယာ အမည်"</string>
+    <!-- Button to reboot the device [CHAR LIMIT=40] -->
+    <string name="restart_button_label">"အစက ပြန်စရန်"</string>
+    <!-- Preference which shows legal info. [CHAR LIMIT=50] -->
+    <string name="about_legal_info">"ဥပဒေဆိုင်ရာ အချက်အလက်များ"</string>
+    <!-- Preference which shows open source licenses [CHAR LIMIT=50]-->
+    <string name="about_legal_license">"အခမဲ့ ရင်းမြစ် လိုင်စင်များ"</string>
+    <!-- Preference which shows terms of service and privacy info [CHAR LIMIT=50]-->
+    <string name="about_terms_of_service">"Google၏ ဥပဒေရေးရာ"</string>
+    <!-- Toast message displayed if the license data is unavailable [CHAR LIMIT=100] -->
+    <string name="about_license_activity_unavailable">"လိုင်စင် ဒေတာကို ရှာမရ"</string>
+    <!-- Preference which shows model. [CHAR LIMIT=50] -->
+    <string name="about_model">"မော်ဒယ်"</string>
+    <!-- Preference which shows version. [CHAR LIMIT=50] -->
+    <string name="about_version">"ဗားရှင်း"</string>
+    <!-- Preference which shows serial number. [CHAR LIMIT=50] -->
+    <string name="about_serial">"အမှတ်စဉ်"</string>
+    <!-- Preference which shows build version. [CHAR LIMIT=50] -->
+    <string name="about_build">"တည်ဆောက်မှု"</string>
+    <!-- Device Info screen. Countdown for user taps to enable development settings [CHAR LIMIT=NONE] -->
+    <plurals name="show_dev_countdown">
+        <item quantity="one">"သင်သည် ယခု ပြုစုသူ တစ်ဦး ဖြစ်လာရန် ခြေလှမ်း <xliff:g id="STEP_COUNT">%1$d</xliff:g> လိုပါတော့သည်"</item>
+        <item quantity="other">"သင်သည် ယခု ပြုစုသူ တစ်ဦး ဖြစ်လာရန် ခြေလှမ်း <xliff:g id="STEP_COUNT">%1$d</xliff:g> လိုပါတော့သည်"</item>
+    </plurals>
+    <!-- Preference which shows ads settings. [CHAR LIMIT=50] -->
+    <string name="about_ads">"ကြော်ငြာများ"</string>
+    <!-- Device Info screen. Confirmation that developer settings are enabled [CHAR LIMIT=NONE] -->
+    <string name="show_dev_on">"သင်သည် ယခု ပြုစုသူတစ်ဦး ဖြစ်လာပြီ!"</string>
+    <!-- Device Info screen. Okay we get it, stop pressing, you already have it on [CHAR LIMIT=NONE] -->
+    <string name="show_dev_already">"မလိုတော့ပါ၊ သင်သည် ပြုစုသူ တစ်ယောက် ဖြစ်နေပါပြီ။"</string>
+    <!-- Wifi -->
+    <!-- wifi signal strength array [CHAR LIMIT=30] -->
+    <string-array name="wifi_signal_strength">
+        <item>"ညံ့"</item>
+        <item>"သင့်တင့်"</item>
+        <item>"ကောင်း"</item>
+        <item>"အလွန်ကောင်း"</item>
+    </string-array>
+    <!-- titles for connection status -->
+    <!-- label mac address [CHAR LIMIT=50] -->
+    <string name="title_mac_address">"MAC လိပ်စာ"</string>
+    <!-- label signal strength [CHAR LIMIT=50] -->
+    <string name="title_signal_strength">"ထုတ်လွင့်မှု အား"</string>
+    <!-- label IP address [CHAR LIMIT=50] -->
+    <string name="title_ip_address">"IP လိပ်စာ"</string>
+    <!-- label SSID [CHAR LIMIT=50] -->
+    <string name="title_ssid">"ကြိုးမဲ့ ကွန်ရက်ကို ထည့်သွင်းရန်"</string>
+    <!-- label internet connection [CHAR LIMIT=50] -->
+    <string name="title_internet_connection">"အင်တာနက် ချိတ်ဆက်မှု"</string>
+    <!-- contents for connection status -->
+    <!-- Connected [CHAR LIMIT=50] -->
+    <string name="connected">"ချိတ်ဆက်ထား"</string>
+    <!-- Not connected [CHAR LIMIT=50] -->
+    <string name="not_connected">"ချိတ်ဆက် မထား"</string>
+    <!-- Wifi setting headers [CHAR LIMIT=50] -->
+    <string name="wifi_setting_header_available_networks">"ကြိုးမဲ့"</string>
+    <string name="wifi_setting_header_other_options">"အခြား ရွေးစရာများ"</string>
+    <string name="wifi_setting_see_all">"အားလုံးကို ကြည့်ရန်"</string>
+    <string name="wifi_setting_available_networks">"ရနိုင်သည့် ကွန်ရက်များ"</string>
+    <!-- Other Options under Wifi Settings headers [CHAR LIMIT=50] -->
+    <string name="wifi_setting_other_options_wps">"WPS မှတစ်ဆင့် ချိတ်ဆက်ရန်"</string>
+    <string name="wifi_setting_other_options_add_network">"ကွန်ရက် အသစ် ထည့်ရန်"</string>
+    <!-- Strings for Add Network under Connectivity Setting -->
+    <!-- Security type title on add network form page [CHAR LIMIT=30] -->
+    <string name="security_type">"လုံခြုံရေး ပုံစံ"</string>
+    <!-- Title for connecting to a WPS network in setup mode [CHAR LIMIT=30] -->
+    <string name="wps_network">"WPS မှတစ်ဆင့် ချိတ်ဆက်ရန်"</string>
+    <!-- Title for adding hidden network in setup mode [CHAR LIMIT=30] -->
+    <string name="other_network">"အခြား ကွန်ရက်\u2026"</string>
+    <!-- Skip configuring a Wi-Fi network during device setup [CHAR LIMIT=30]-->
+    <string name="skip_network">"ကျော်ရန်"</string>
+    <!-- Wifi Security type indicating no security [CHAR LIMIT=30] -->
+    <string name="wifi_security_type_none">"မရှိ"</string>
+    <!-- Wifi Security type indicating WEP security [CHAR LIMIT=30] -->
+    <string name="wifi_security_type_wep">"WEP"</string>
+    <!-- Wifi Security type indicating WPA/WPA2 security [CHAR LIMIT=30] -->
+    <string name="wifi_security_type_wpa">"WPA/WPA2 PSK"</string>
+    <!-- Wifi Security type indicating EAP security [CHAR LIMIT=30] -->
+    <string name="wifi_security_type_eap">"802.1x EAP"</string>
+    <!-- Title to show when no wifi networks are available [CHAR LIMIT=80] -->
+    <string name="title_wifi_no_networks_available">"စကင် လုပ်နေ\u2026"</string>
+    <!-- Title to show when wifi fails to save [CHAR LIMIT=80] -->
+    <string name="title_wifi_could_not_save">"<xliff:g id="SSID">%1$s</xliff:g>အတွက် စီစဉ်ဖွဲစည်းမှုကို မသိမ်းဆည်း နိုင်ခဲ့ပါ။"</string>
+    <!-- Title to show when wifi fails to connect [CHAR LIMIT=80] -->
+    <string name="title_wifi_could_not_connect">"<xliff:g id="SSID">%1$s</xliff:g>သို့ ချိတ်ဆက် မရခဲ့ပါ။"</string>
+    <!-- Title to show when wifi fails to connect due to timeout [CHAR LIMIT=80] -->
+    <string name="title_wifi_could_not_connect_timeout">"<xliff:g id="SSID">%1$s</xliff:g>ကို ရှာမတွေ့ခဲ့"</string>
+    <!-- Title to show when wifi fails to connect due to authentication failure [CHAR LIMIT=80] -->
+    <string name="title_wifi_could_not_connect_authentication_failure">"ကြိုးမဲ့ စကားဝှက် မမှန်"</string>
+    <!-- Title to show when the wifi ap rejects the connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_could_not_connect_ap_reject">"ကြိုးမဲ့ ကွန်ရက်က ချိတ်ဆက်မှုကို လက်မခံခဲ့"</string>
+    <!-- Title to show when asking if advanced settings should be used for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_advanced_options">"<xliff:g id="SSID">%1$s</xliff:g> ပရော့က်စီ နှင့် IP ဆက်တင်များကို စီစဉ်မလား?"</string>
+    <!-- Title to show when asking if a proxy should be used for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_proxy_settings">"ပရော့က်စီ ဆက်တင်များ"</string>
+    <!-- Title to show when asking for the proxy hostname for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_proxy_hostname">"ပရော့က်စီ ဟို့စ်အမည်:"</string>
+    <!-- Title to show when asking for the proxy port for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_proxy_port">"ပရော့က်စီ ပို့တ်:"</string>
+    <!-- Title to show when asking for which domains bypass the proxy for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_proxy_bypass">"\u2026အတွက် လမ်းလွဲရေး ပရော့က်စီ"</string>
+    <!-- Title to show when asking how an ip should be assigned for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_ip_settings">"IP ဆက်တင်များ"</string>
+    <!-- Title to show when asking for the static ip address to use for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_ip_address">"IP လိပ်စာ:"</string>
+    <!-- Title to show when asking for the gateway's ip address for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_gateway">"ဝင်ပေါက်"</string>
+    <!-- Title to show when asking for the network prefix length for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_network_prefix_length">"ကွန်ရက် ရှေ့ဆက်ပုဒ် အရှည်:"</string>
+    <!-- Title to show when asking for the first DNS to use for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_dns1">"DNS 1:"</string>
+    <!-- Title to show when asking for the second DNS to use for this wifi connection [CHAR LIMIT=80] -->
+    <string name="title_wifi_dns2">"DNS 2:"</string>
+    <!-- Title to show when the proxy settings are invalid [CHAR LIMIT=80] -->
+    <string name="title_wifi_proxy_settings_invalid">"ပရော့က်စီ ဆက်တင်များ မမှန်"</string>
+    <!-- Title to show when the ip settings are invalid [CHAR LIMIT=80] -->
+    <string name="title_wifi_ip_settings_invalid">"IP ဆက်တင်များ မမှန်"</string>
+    <!-- Title to show when the ip settings are invalid [CHAR LIMIT=80] -->
+    <string name="title_wifi_known_network">"<xliff:g id="SSID">%1$s</xliff:g> မှာ သိမ်းဆည်းထားသည့် ကွန်ရက်ပါ"</string>
+    <!-- Label for action to try to connect to wifi again [CHAR LIMIT=50] -->
+    <string name="wifi_action_try_again">"ထပ် စမ်းပါ"</string>
+    <!-- Label for action to go back to the list of wifi networks [CHAR LIMIT=50] -->
+    <string name="wifi_action_view_available_networks">"ရနိုင်သည့် ကွန်ရက်များကို ကြည့်ရန်"</string>
+    <!-- Message to show when wifi is connecting [CHAR LIMIT=80] -->
+    <string name="wifi_connecting">"<xliff:g id="SSID">%1$s</xliff:g>သို့ ချိတ်ဆက်နေ"</string>
+    <!-- Message to show when wifi is saving a new configuration [CHAR LIMIT=80] -->
+    <string name="wifi_saving">"<xliff:g id="SSID">%1$s</xliff:g>အတွက် စီစဉ်ဖွဲ့စည်းမှုကို သိမ်းဆည်းနေ"</string>
+    <!-- Title for action to connect to the wifi network [CHAR LIMIT=80] -->
+    <string name="wifi_connect">"ချိတ်ဆက်ရန်"</string>
+    <!-- Title for action to forget the wifi network configuration [CHAR LIMIT=80] -->
+    <string name="wifi_forget_network">"ကွန်ရက်ကို မေ့ပစ်ရန်"</string>
+    <!-- Description for action to forget the wifi network configuration [CHAR LIMIT=100] -->
+    <string name="wifi_forget_network_description">"၎င်းက ဒီကွန်ရက်ကို ချိတ်ဆက်စဉ် အသုံးပြုခဲ့သည့် အချက်အလက်များကို၊ သိမ်းဆည်းခဲ့သည့် စကားဝှက် တစ်ခုခု အပါအဝင်ကို၊ ရှင်းပစ်သည်။"</string>
+    <!-- Label for action to accept the currently connected wifi network [CHAR LIMIT=50] -->
+    <string name="wifi_action_ok">"အိုကေ"</string>
+    <!-- Label for action to try to connect to a different wifi network [CHAR LIMIT=50] -->
+    <string name="wifi_action_change_network">"ပြောင်းလဲရန်"</string>
+    <!-- Label for action to not try to connect to a different wifi network [CHAR LIMIT=50] -->
+    <string name="wifi_action_dont_change_network">"မပြောင်းလဲပါနှင့်"</string>
+    <!-- Label for action to use advanced settings for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_advanced_yes">"အိုကေ"</string>
+    <!-- Label for action to not use advanced settings for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_advanced_no">"မသုံးရန် (အကြံပြုထား)"</string>
+    <!-- Label for action to not use a proxy for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_proxy_none">"မရှိ"</string>
+    <!-- Label for action to setup a proxy for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_proxy_manual">"လက်ဖြင့်"</string>
+    <!-- Label for action to use dhcp to obtain an ip address for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_dhcp">"DHCP"</string>
+    <!-- Label for action to setup static ip information for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_static">"ငြိမ်နေသော"</string>
+    <!-- Title for action to show status information for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_status_info">"အခြေအနေ အင်ဖို"</string>
+    <!-- Title for action to setup advanced options for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_advanced_options_title">"အဆင့်မြင့် ရွေးစရာများ"</string>
+    <!-- Error message if the IP address is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_ip_address">"မှန်ကန်သည့် IP လိပ်စာကို ရိုက်ထည့်ပါ"</string>
+    <!-- Error message if the gateway is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_gateway">"မှန်ကန်သည့် ဝင်ပေါက် လိပ်စာကို ထည့်သွင်းပါ"</string>
+    <!-- Error message if the dns is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_dns">"မှန်ကန်သည့် DNS လိပ်စာကို ထည့်သွင်းပါ။"</string>
+    <!-- Error message if the network prefix length is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_network_prefix_length">"၀ နှင့် ၃၂ အကြားရှိ ကွန်ရက် ရှေ့ဆက်ပုဒ် ထည့်ပါ။"</string>
+    <!-- Hint text for the IP address -->
+    <string name="wifi_ip_address_hint">"မှန်ကန်သည့် IP လိပ်စာကို ထည့်သွင်းပါ။ \nဥပမာ: 192.168.1.128"</string>
+    <!-- Hint text for DNS -->
+    <string name="wifi_dns1_hint">"မှန်ကန်သည့် IP လိပ်စာကို ထည့်ပါ သို့မဟုတ် ဗလာ ချန်ထားခဲ့ပါ။\nဥပမာ၊ ၈။၈။၈။၈။"</string>
+    <!-- Hint text for DNS -->
+    <string name="wifi_dns2_hint">"မှန်ကန်သည့် IP လိပ်စာကို ထည့်ပါ သို့မဟုတ် ဗလာ ချန်ထားခဲ့ပါ။\nဥပမာ၊ ၈။၈။၄။၄။"</string>
+    <!-- Hint text for the gateway -->
+    <string name="wifi_gateway_hint">"မှန်ကန်သည့် ip လိပ်စာကို ရိုက်ထည့်ပါ သို့မဟတ် ဗလာ ချန်ထားခဲ့ပါ။ \n ဥပမာ: 192.168.1.1"</string>
+    <!-- Hint text for network prefix length -->
+    <string name="wifi_network_prefix_length_hint">"ကွန်ရက် မှန်ကန်သည့် ရှေ့ဆက်ပုဒ်ကို အရှည်ကို ထည့်သွင်းပါ။\nဥပမာ: ၂၄"</string>
+    <!-- HTTP proxy settings. The error if the hostname is not valid -->
+    <string name="proxy_error_invalid_host">"ဟို့စ်အမည် မမှန်ပါ"</string>
+    <!-- HTTP proxy settings. The error if the exclusion list is not valid -->
+    <string name="proxy_error_invalid_exclusion_list">"ဒီချန်လှပ် စာရင်း မမှန်ပါ။ ချန်လှပ်ထားသည့် ဒိုမိန်းများ၏ စာရင်းကို ကော်မာ ထည့်ပေးလျက် ခြားပေးရန် လိုသည်။"</string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_empty_port">"ပို့တ် အကွက်ကို ဗလာ မဖြစ်နိုင်ပါ"</string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_empty_host_set_port">"ဟို့စ် အကွက် ဗလာဖြစ်နေလျှင်၊ ပို့တ် အကွက်ကို ဗလာ ချန်ထားပါ"</string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_invalid_port">"ပို့တ် မမှန်ပါ"</string>
+    <!-- HTTP proxy settings. Warning message about limited application support [CHAR LIMIT=100]-->
+    <string name="proxy_warning_limited_support">"HTTP ပရော့က်စီကို ဘရောင်ဇာက သုံးသော်လည်း အခြား appများက သုံးချင်မှ သုံးကြမည်"</string>
+    <!-- HTTP proxy settings. The hint text field for port. -->
+    <string name="proxy_port_hint">"မှန်ကန်သည့် ပို့တ်ကို ရိုက်ထည့်ပါ။ \nဥပမာ: ၈၀၈၀"</string>
+    <!-- HTTP proxy settings. The hint text for proxy exclusion list.-->
+    <string name="proxy_exclusionlist_hint">"ခြွင်းချက် ဒိုမိန်းများ အတွက် ကော်မာဖြင့် ခြားထားသည့် စာရင်းကို ထည့်ပေးပါ သို့မဟုတ် ဗလာ ချန်ထားပါ။ \nဥပမာ: example.com,mycomp.test.com,localhost"</string>
+    <!-- HTTP proxy settings. The hint text field for the hostname. -->
+    <string name="proxy_hostname_hint">"မှန်ကန်သည့် ဟို့စ် အမည်ကို ထည့်သွင်းပါ။ \nဥပမာ: proxy.example.com"</string>
+    <!-- Title to show indicating the user is connected [CHAR LIMIT=100] -->
+    <string name="wifi_summary_title_connected">"ကွန်ရက် ချိတ်ဆက်ထား"</string>
+    <!-- Title to show indicating the user is not connected [CHAR LIMIT=100] -->
+    <string name="wifi_summary_title_not_connected">"ကွန်ရက်ကို မချိတ်ဆက်ရသေးပါ"</string>
+    <!-- Title to show when wifi is already connected [CHAR LIMIT=100] -->
+    <string name="wifi_summary_description_connected_to_wifi_network">"<xliff:g id="SSID">%1$s</xliff:g>သို့ ချိတ်ဆက်ထားပြီးနေပြီ။ အခြား ကွန်ရက်သို့ ချိတ်ဆက်ရမလား?"</string>
+    <!-- Name to use when we don't know the name of the wifi network the device is connected to [CHAR LIMIT=20] -->
+    <string name="wifi_summary_unknown_network">"မသိရ ကွန်ရက်"</string>
+    <!-- Strings for Ethernet under Connectivity Setting -->
+    <!-- Title for OK [CHAR LIMIT=50] -->
+    <string name="title_ok">"အိုကေ"</string>
+    <!-- Title for DNS 2 [CHAR LIMIT=50] -->
+    <string name="title_cancel">"ထားတော့"</string>
+    <!-- Storage settings screen heading. This is displayed above items that pertain to the phone's internal storage [CHAR LIMIT=50] -->
+    <string name="storage_title">"သိုလှောင်မှု"</string>
+    <!-- Storage settings title. The amount of free space for some storage partition.  For example, this is listed under both the "Internal phone storage" section and the "SD card" section. [CHAR LIMIT=50] -->
+    <string name="storage_available">"ရနိုင်သော"</string>
+    <!-- Storage settings screen heading.  The total amount of storage space for some storage partition.  For example, this is listed under both the "Internal phone storage" section and the "SD card" section [CHAR LIMIT=50] -->
+    <string name="storage_size">"စုစုပေါင်း နေရာ: <xliff:g id="TOTAL_SPACE">%1$s</xliff:g>"</string>
+    <!-- Storage settings summary. Displayed when the total memory usage is being calculated. Will be replaced with a number like "12.3 GB" when finished calucating. [CHAR LIMIT=30] -->
+    <string name="storage_calculating_size">"တွက်ချက်နေ\u2026"</string>
+    <!-- Storage settings title. Displayed as a title when showing the total usage of applications installed. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="storage_apps_usage">"Appများ"</string>
+    <!-- Storage settings title. Displayed as a title when showing the total usage of /sdcard/Download on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="storage_downloads_usage">"ဒေါင်းလုဒ်များ"</string>
+    <!-- Storage settings title. Displayed as a title when showing the total usage of all pictures, videos in /sdcard/DCIM, /sdcard/Pictures folders on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="storage_dcim_usage">"ဓာတ်ပုံများ &amp; ဗီဒီယိုများ"</string>
+    <!-- Storage settings title. Displayed as a title when showing the total usage of audio files in /sdcard on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="storage_music_usage">"အသံ"</string>
+    <!-- Storage settings title. Displayed as a title when showing the total usage of misc files on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="storage_media_misc_usage">"အထွေထွေ"</string>
+    <!-- Storage settings title. Displayed as a title when showing the total usage of all cached data on device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
+    <string name="storage_media_cache_usage">"ကက်ရှလုပ်ထား ဒေတာ"</string>
+    <!-- Storage settings eject action [CHAR LIMIT=50] -->
+    <string name="storage_eject">"ထုတ်မည်"</string>
+    <!-- Storage settings erase and format action [CHAR LIMIT=50] -->
+    <string name="storage_format">"ပယ်ဖျက်ရန် &amp; amp; ဖောမတ်ချရန်"</string>
+    <!-- Storage settings format for internal storage action [CHAR LIMIT=50] -->
+    <string name="storage_format_for_private">"စက်ကိရိယာသိုလှောင်မှုအဖြစ် ဖောမတ်ချပါ"</string>
+    <!-- Description for a storage volume which is not currently connected to the device -->
+    <string name="storage_not_connected">"ချိတ်ဆက် မထား"</string>
+    <!-- Storage settings migrate primary storage action [CHAR_LIMIT=50] -->
+    <string name="storage_migrate">"ဒေတာ ရွှေ့ပြောင်းရန်"</string>
+    <!-- Storage settings forget action [CHAR_LIMIT=50] -->
+    <string name="storage_forget">"ဤစက်တွင်းသိုလှောင်မှုကို မေ့ပစ်မည်"</string>
+    <!-- Storage settings forget description [CHAR_LIMIT=NONE] -->
+    <string name="storage_forget_wall_of_text">"ဤဒရိုက်တွင်ပါသော အပ်ဖ်များ သို့မဟုတ် ဒေတာကို အသုံးပြုရန်၊ ၎င်းကို ပြန်လည်ထည့်သွင်းပါ။ တစ်နည်းအားဖြင့်၊ အကယ်၍ ဒရိုက်အား မရရှိနိုင်လျှင် ဤသိုလှောင်မှုကို မေ့ပစ်ရန် သင်ရွေးချယ်နိုင်သည်။ \n\nအကယ်၍ မေ့ပစ်မည်ကို သင်ရွေးချယ်ခဲ့လျှင်၊ ဒရိုက်တွင်ပါဝင်သော ဒေတာများအားလုံး ထာဝရဆုံးရှုံးသွားပါလိမ့်မည်။ \n\nအပ်ဖ်များကို သင်နောင်တွင် ပြန်လည်ထည့်သွင်းနိုင်သော်လည်း၊ ဤဒရိုက်တွင် သိမ်းဆည်းထားသော ဒေတာများအား ဆုံးရှုံးပါလိမ့်မည်။"</string>
+    <!-- Header title for device storage [CHAR_LIMIT=50] -->
+    <string name="storage_device_storage_section">"စက်ပစ္စည်းသိုလှောင်မှု"</string>
+    <!-- Header title for removable storage [CHAR_LIMIT=50] -->
+    <string name="storage_removable_storage_section">"ဖြုတ်၍ရသည့် သိုလှောင်မှု"</string>
+    <!-- Header title for device reset [CHAR_LIMIT=50] -->
+    <string name="storage_reset_section">"ပြန်ညှိရန်"</string>
+    <!-- Toast informing that storage mount operation was successful. [CHAR LIMIT=64]-->
+    <string name="storage_mount_success">"<xliff:g id="NAME">%1$s</xliff:g> ကိုတပ်ဆင်ထားသည်"</string>
+    <!-- Toast informing that storage unmount operation failed. [CHAR LIMIT=64]-->
+    <string name="storage_mount_failure">"<xliff:g id="NAME">%1$s</xliff:g> ကိုတပ်ဆင်၍မရပါ"</string>
+    <!-- Toast informing that storage unmount operation was successful. [CHAR LIMIT=64]-->
+    <string name="storage_unmount_success">"<xliff:g id="NAME">%1$s</xliff:g> ကိုလုံခြုံစွာ ထုတ်လိုက်ပြီ"</string>
+    <!-- Toast informing that storage unmount operation failed. [CHAR LIMIT=64]-->
+    <string name="storage_unmount_failure">"<xliff:g id="NAME">%1$s</xliff:g> ကိုလုံခြုံစွာ မထုတ်နိုင်ပါ"</string>
+    <!-- Toast informing that storage unmount operation failed because the volume couldn't be found. [CHAR LIMIT=64]-->
+    <string name="storage_unmount_failure_cant_find">"ထုတ်ရန် ဒရိုက်ကို ရှာမတွေ့ပါ"</string>
+    <!-- Toast informing that storage format operation was successful. [CHAR LIMIT=64]-->
+    <string name="storage_format_success">"<xliff:g id="NAME">%1$s</xliff:g> အားဖောမတ်ချပြီးပြီဖြစ်သည်"</string>
+    <!-- Toast informing that storage format operation failed. [CHAR LIMIT=64]-->
+    <string name="storage_format_failure">"<xliff:g id="NAME">%1$s</xliff:g> အားဖောမတ်မလုပ်နိုင်ပါ"</string>
+    <!-- Title for wizard screen for formatting storage as internal [CHAR LIMIT=64] -->
+    <string name="storage_wizard_format_as_private_title">"အတွင်းသိုလှောင်မှုအဖြစ် ဖောမတ်ချရန်"</string>
+    <!-- Description for wizard screen for formatting storage as internal [CHAR LIMIT=NONE] -->
+    <string name="storage_wizard_format_as_private_description">"လုံခြုံစေရန်အတွက် USB drive ကိုဖောမတ်ချရန်လိုအပ်ပါသည်။လုံခြုံစွာဖောမတ်ချပြီးတဲ့အခါဤ drive ကိုဤစက်ပစ္စည်းနှင့်တွဲသုံးနိုင်ပါလိမ့်မည်။ ဖောမတ်ချခြင်းသည် drive မှာလက်ရှိ‌သိုလှောင်ထားသောအချက်အလက်ကိုပျက်စီးဆုံးရှုံးစေပါသည်။အချက်အလက်ပျက်စီးဆုံးရှုံးခြင်းမှရှောင်ရှားရန်အရံကူးယူထားပါ။"</string>
+    <!-- Title for wizard screen for formatting storage as internal [CHAR LIMIT=64] -->
+    <string name="storage_wizard_format_as_public_title">"ဖျက်မည် &amp; ပုံစံချမည်"</string>
+    <!-- Description for wizard screen for formatting storage as internal [CHAR LIMIT=NONE] -->
+    <string name="storage_wizard_format_as_public_description">"ပုံစံချပြီးနောက်၊ ဤ USB ဒရိုက်ကို အခြားစက်ပစ္စည်းများတွင် အသုံးပြုနိုင်ပါမည်။ ဒေတာများအားလုံး ဖျက်လိုက်ပါပြီ။ အပ်ဖ်များကို အခြားအတွင်းသိုလှောင်မှုသို့ ဦးစွာအရံကူးယူထားရန် စဉ်းစားပါ။"</string>
+    <!-- Title for wizard progress screen for formatting drive [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_format_progress_title">"USB Drive အား ပုံစံပြင်နေစဉ်\u2026"</string>
+    <!-- Description for wizard progress screen for formatting drive [CHAR_LIMIT=NONE] -->
+    <string name="storage_wizard_format_progress_description">"ခဏ ကြာနိုင်ပါသည်။ Drive အား ဖယ်ရှားမပစ်ပါနှင့်။"</string>
+    <!-- Title for wizard confirmation screen for migrating data to new drive [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_migrate_confirm_title">"<xliff:g id="NAME">%1$s</xliff:g> သို့ ဒေတာများ ရွှေ့ပါ"</string>
+    <!-- Description for wizard confirmation screen for migrating data to new drive [CHAR_LIMIT=NONE] -->
+    <string name="storage_wizard_migrate_confirm_description">"သင့် ဓာတ်ပုံများ၊ ဖိုင်များနှင့် app ဒေတာများအား <xliff:g id="NAME">%1$s</xliff:g> သို့ ရွှေ့ပါ။ မိနစ်အနည်းငယ် ကြာနိုင်သည်။ ရွှေ့နေစဉ် အချို့ app များ အလုပ်ကောင်းကောင်းလုပ်မည် မဟုတ်ပါ။"</string>
+    <!-- Positive action for wizard confirmation screen for migrating data to new drive [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_migrate_confirm_action_move_now">"ယခုရွှေ့မည်"</string>
+    <!-- Negative action for wizard confirmation screen for migrating data to new drive [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_migrate_confirm_action_move_later">"နောက်မှ ရွှေ့မည်"</string>
+    <!-- Success toast for migrating data [CHAR_LIMIT=100] -->
+    <string name="storage_wizard_migrate_toast_success">"<xliff:g id="NAME">%1$s</xliff:g> သို့ ပြောင်းရွှေ့ပြီးဖြစ်၏"</string>
+    <!-- Failure toast for migrating data [CHAR_LIMIT=100] -->
+    <string name="storage_wizard_migrate_toast_failure">"<xliff:g id="NAME">%1$s</xliff:g> သို့ ပြောင်းရွှေ့နိုင်ခြင်း မရှိပါ"</string>
+    <!-- Title for wizard progress screen for migrating data to new drive [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_migrate_progress_title">"<xliff:g id="NAME">%1$s</xliff:g> သို့ ဒေတာများ ရွှေ့နေစဉ်\u2026"</string>
+    <!-- Description for wizard progress screen for migrating data to new drive [CHAR_LIMIT=NONE] -->
+    <string name="storage_wizard_migrate_progress_description">"ခဏ ကြာနိုင်သည်။ Drive အား မဖယ်ရှားပါနှင့်။ \n ရွှေ့နေစဉ် အချို့ app များ အလုပ်ကောင်းကောင်းလုပ်မည် မဟုတ်ပါ။"</string>
+    <!-- Title for warning dialog for slow drives [CHAR_LIMIT=64] -->
+    <string name="storage_wizard_format_slow_title">"ဤ drive နှေးကွေးပုံပေါ်၏။"</string>
+    <!-- Summary for warning dialog for slow drives [CHAR_LIMIT=NONE] -->
+    <string name="storage_wizard_format_slow_summary">"သင် ဆက်လက်သွားနိုင်သော်လည်း၊ ဤနေရာသို့ ရွှေ့ထားပြီးဖြစ်သော apps များသည် အထစ်အငေါ့ဖြစ်နိုင်ပြီး ဒေတာ အပြောင်းအလဲပြုရာတွင် ကြာမြင့်နိုင်သည်။ ပိုမိုကောင်းမွန်သော စွမ်းဆောင်ရည်အတွက် ပိုမြန်သော drive အား သုံးရန်စဉ်းစားပါ။"</string>
+    <!-- Format action for wizard screen for formatting storage [CHAR LIMIT=50] -->
+    <string name="storage_wizard_format_action">"ဖောမတ်ချရန်"</string>
+    <!-- Back up apps action for wizard screen for formatting storage [CHAR LIMIT=50]-->
+    <string name="storage_wizard_backup_apps_action">"အပ်ဖ်များ အရံကူးထားမည်"</string>
+    <!-- Back up apps title [CHAR LIMIT=50] -->
+    <string name="storage_wizard_back_up_apps_title">"<xliff:g id="NAME">%1$s</xliff:g> မှာသိမ်းထားသောအပ်ဖ်များ"</string>
+    <!-- Back up apps title [CHAR LIMIT=50] -->
+    <string name="storage_wizard_back_up_apps_and_data_title">"<xliff:g id="NAME">%1$s</xliff:g> မှာသိမ်းထားသောအပ်ဖ်များနှင့်အချက်အလက်"</string>
+    <!-- Back up apps storage available description [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_back_up_apps_space_available">"<xliff:g id="SIZE">%1$s</xliff:g> ရနိုင်သည်"</string>
+    <!-- Title for wizard screen for ejecting internal storage [CHAR LIMIT=64] -->
+    <string name="storage_wizard_eject_internal_title">"အတွင်းသိုလှောင်မှုကို ထုတ်မည်"</string>
+    <!-- Description for wizard screen for ejecting internal storage [CHAR LIMIT=NONE] -->
+    <string name="storage_wizard_eject_internal_description">"ဤစက်ပစ္စည်းသတိုလှောင်မှုရှိ အပ်များသည် ၎င်းကိုထုတ်လိုက်လျှင် အလုပ်လုပ်တော့မည်မဟုတ်ပါ။ ဤ USB ဒရိုက်သည် ဤစက်ပစ္စည်းပပေါ်တွင် အလုပ်လုပ်ရန်အတွက်သာ ပုံစံချထားခြင်းဖြစ်သည်။ ၎င်းသည် အခြားများတွင် အလုပ်လုပ်မည်မဟုတ်ပါ။"</string>
+    <!-- Title for wizard progress screen for ejecting a drive [CHAR_LIMIT=64] -->
+    <string name="sotrage_wizard_eject_progress_title">"<xliff:g id="NAME">%1$s</xliff:g> ထုတ်နေသည်\u2026"</string>
+    <!-- Title for wizard screen for moving apps [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_move_app_title">"အသုံးပြုပြီး သိုလှောင်ရုံ"</string>
+    <!-- Title for wizard progress screen for moving apps [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_move_app_progress_title">"<xliff:g id="NAME">%1$s</xliff:g>ရွှေ့နေသည်\u2026"</string>
+    <!-- Description for wizard progress screen for moving apps [CHAR_LIMIT=NONE] -->
+    <string name="storage_wizard_move_app_progress_description">"ရွှေ့လျားနေစဉ် ဒရိုက်ကို မဖယ်ရှားပါနှင့်။ \nရွှေ့လျားခြင်း မပြီးသ၍ ဤစက်ပစ္စည်းပေါ်ရှိ <xliff:g id="APPNAME">%1$s</xliff:g> အပ်ဖ်သည် ရနိုင်မည်မဟုတ်ပါ။"</string>
+    <!-- Title for wizard screen for forgetting private storage [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_forget_confirm_title">"စက်တွင်းသိုလှောင်မှုကို မေ့ပစ်မည်လား?"</string>
+    <!-- Description for wizard screen for forgetting private storage [CHAR_LIMIT=NONE] -->
+    <string name="storage_wizard_forget_confirm_description">"\'မေ့ပစ်မည်\'နှင့်အတူ ဤဒရိုက်တွင် သင်သိမ်းဆည်းထားသည့် သင့်ဒေတာများအားလုံး ထာဝရပျောက်ဆုံးသွားပါလိမ့်မည်။ သင်ဆက်လက်လုပ်ဆောင်လိုပါသလား?"</string>
+    <!-- Action for wizard screen for forgetting private storage [CHAR_LIMIT=50] -->
+    <string name="storage_wizard_forget_action">"မေ့ပစ်ရန်"</string>
+    <!-- Title for new storage activity [CHAR_LIMIT=50] -->
+    <string name="storage_new_title">"USB ဒရိုက် ချိတ်ဆက်ပြီးပါပြီ"</string>
+    <!-- Browse action for new storage activity [CHAR_LIMIT=50] -->
+    <string name="storage_new_action_browse">"ရှာကြည့်ရန်..."</string>
+    <!-- Adopt action for new storage activity [CHAR_LIMIT=50] -->
+    <string name="storage_new_action_adopt">"အတွင်းသိုလှောင်မှုအဖြစ် တပ်ဆင်မည်"</string>
+    <!-- Format as removable action for new storage activity [CHAR_LIMIT=50] -->
+    <string name="storage_new_action_format_public">"ဖြုတ်၍ရသော သိုလှောင်မှဒ"</string>
+    <!-- Eject action for new storage activity [CHAR_LIMIT=50] -->
+    <string name="storage_new_action_eject">"ထုတ်မည်"</string>
+    <!-- Title for missing storage activity shown when a drive is removed [CHAR_LIMIT=50] -->
+    <string name="storage_missing_title">"<xliff:g id="NAME">%1$s</xliff:g> ဖယ်ရှားလိုက်ပါပြီ"</string>
+    <!-- Description for missing storage activity shown when a drive is removed [CHAR_LIMIT=NONE] -->
+    <string name="storage_missing_description">"ဒရိုက်အား ပြန်လည်မချိတ်ဆက်မှီအထိ အချို့အပ်ဖ်များသည် ရနိုင်မည်မဟုတ်ပါ သို့မဟုတ် ပုံမှန်အလုပ်လုပ်မည်မဟုတ်ပါ။"</string>
+    <!-- Manage applications, text for move error messages -->
+    <string name="insufficient_storage">"သိမ်းဆည်းရန်နေရာအလုံအလောက်မရှိပါ"</string>
+    <string name="does_not_exist">"အပလီကေးရှင်းမှာ မရှိပါ"</string>
+    <string name="app_forward_locked">"အပ်ပလီကေးရှင်းမှာ ကူးမယူနိုင်ရန်ပြုလုပ်ထားသည်။"</string>
+    <string name="invalid_location">"ထည့်သွင်းသည့်နေရာ မမှန်ကန်ပါ"</string>
+    <string name="system_package">"ပြင်ပမီဒီယာတွင် စနစ်တိုးမြင့်ခြင်းအား မပြုလုပ်နိုင်ပါ"</string>
+    <!-- Learn more action title [CHAR_LIMIT=50] -->
+    <string name="learn_more_action">"ပိုမိုလေ့လာရန်"</string>
+    <!-- Action to retry WPS scanning [CHAR LIMIT=50] -->
+    <string name="wifi_wps_retry_scan">"ထပ်စမ်း"</string>
+    <!-- Message indicating we are scanning for WPS routers [CHAR LIMIT=150] -->
+    <string name="wifi_wps_title">"WPS ရူးတားကို ရှာနေ\u2026"</string>
+    <!-- Message describing how to turn on WPS on a router [CHAR LIMIT=150] -->
+    <string name="wifi_wps_instructions">"သင်၏ ရောက်တာ ပေါ်က ကြိုးမဲ့ ကာကွယ်မှု စဖွင့်သတ်မှတ်ရေး ခလုတ်ကို နှိပ်ပါ။ \n၎င်းကို \"WPS\" ဆိုပြီး ခေါ်ဝေါ်နိုင်သည် သို့မဟုတ် ဘယ်ဘက်ရှိ သင်္ကေတ ပါရှိနိုင်သည်။"</string>
+    <!-- Title Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pin">"PIN <xliff:g id="NUMBER">%1$s</xliff:g>ကို သင်၏ ကြိုးမဲ့ ရူးတားမှာ ထည့်ပေးပါ"</string>
+    <!-- Description Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pin_description">"သင်က PIN ကို ထည့်ပေးလိုက်သည့် နောက်မှာ သတ်မှတ်မှု ပြီးဆုံးရန် ၂ မိနစ် အထိ ကြာနိုင်သည်"</string>
+    <!-- Text displayed when WPS fails to start [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_generic">"ကြိုးမဲ့ ရူးတားကို မတွေ့နိုင်ခဲ့"</string>
+    <!-- Text displayed when WPS fails due to WEP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_wep">"ကြိုးမဲ့ လုံခြုံရေး ဆက်တင်  (WEP) ကို မပံ့ပိုးပါ"</string>
+    <!-- Text displayed when WPS fails to TKIP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_tkip">"ကြိုးမဲ့ လုံခြုံရေး ဆက်တင် (TKIP) ကို မပံ့ပိုးပါ"</string>
+    <!-- Text displayed when WPS fails due to another session [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_overlap">"နောက် WPS ချိတ်ဆက်မှု တစ်ခု ပြုလုပ်နေသည်။ မိနစ် အနည်းငယ် အကြာမှာ ထပ်စမ်းပါ။"</string>
+    <!-- Title for Date in System Settings Date Time [CHAR LIMIT=50] -->
+    <string name="system_date">"ရက်စွဲ"</string>
+    <!-- Title for Time in System Settings Date Time [CHAR LIMIT=50] -->
+    <string name="system_time">"အချိန်"</string>
+    <!-- Title for Set Date in System Settings Date Time [CHAR LIMIT=50] -->
+    <string name="system_set_date">"ရက်စွဲ  သတ်မှတ်ရန်"</string>
+    <!-- Title for Set Time in System Settings Date Time [CHAR LIMIT=50] -->
+    <string name="system_set_time">"အချိန် သတ်မှတ်ရန်"</string>
+    <!-- Title for Set Time Zone in System Settings Date Time [CHAR LIMIT=50] -->
+    <string name="system_set_time_zone">"အချိန် ဇုန်ကို သတ်မှတ်ရန်"</string>
+    <!-- Format string for displaying the current time zone, eg "GMT-08:00, Pacific Standard Time" [CHAR LIMIT=10] -->
+    <string name="desc_set_time_zone">"<xliff:g id="OFFSET">%1$s</xliff:g>, <xliff:g id="NAME">%2$s</xliff:g>"</string>
+    <!-- Title for Set time format in System Settings Date Time [CHAR LIMIT=50] -->
+    <string name="system_set_time_format">"၂၄ နာရီပုံစံကို သုံးမည်"</string>
+    <!-- Format string for displaying the current time format (12/24 hour) [CHAR LIMIT=10] -->
+    <string name="desc_set_time_format">"<xliff:g id="STATE">%1$s</xliff:g> (<xliff:g id="SAMPLE">%2$s</xliff:g>)"</string>
+    <!-- Title for automatic date & time [CHAR LIMIT = 80] -->
+    <string name="system_auto_date_time">"အလိုအလျောက် ရက်စွဲ &amp; အချိန်"</string>
+    <!-- Description for using automatic date & time in date time settings [CHAR LIMIT=100] -->
+    <string name="desc_auto_date_time">"ကွန်ရက်မှပေးသော အချိန်ကို အသုံးပြုရန်"</string>
+    <!-- Title for Location in System Settings [CHAR LIMIT=50] -->
+    <string name="system_location">"တည်နေရာ"</string>
+    <!-- Description for Location in System Settings [CHAR LIMIT=NONE] -->
+    <string name="system_desc_location">"သင်၏ ခွင့်ပြုချက်ကို တောင်းခံခဲ့ကြသည့် appများက သင်၏ တည်နေရာ အချက်အလက်များကို အသုံးပြုကြပါစေ။"</string>
+    <!-- Title for confirming location consent [CHAR LIMIT=50] -->
+    <string name="system_network_location_confirm">"တည်နေရာ သဘောတူခွင့်ပြုချက်"</string>
+    <!-- [CHAR LIMIT=30] Location settings screen, setting preference screen box label for location mode -->
+    <string name="location_mode_title">"မုဒ်"</string>
+    <!-- [CHAR LIMIT=30] Location settings screen, sub category for recent location requests -->
+    <string name="location_category_recent_location_requests">"မကြာမီက တည်နေရာ တောင်းခံမှုများ"</string>
+    <!-- Location settings screen, displayed when there's no recent app accessing location -->
+    <string name="location_no_recent_apps">"မည်သည့် appကမှ မကြာမီတုန်းက တည်နေရာကို မတောင်းခံခဲ့ပါ။"</string>
+    <!-- [CHAR LIMIT=30] Location settings screen, recent location requests high battery use-->
+    <string name="location_high_battery_use">"ဘက်ထရီ သုံးစွဲမှု များသော"</string>
+    <!-- [CHAR LIMIT=30] Location settings screen, recent location requests low battery use-->
+    <string name="location_low_battery_use">"ဘက်ထရီ သုံးမှု နည်း"</string>
+    <!-- [CHAR LIMIT=130] Location mode screen, description for wifi mode -->
+    <string name="location_mode_wifi_description">"တည်နေရာကို ခန့်မှန်းရန် ကြိုးမဲ့ကို သုံးပါ"</string>
+    <!-- [CHAR LIMIT=60] Label for the status of location -->
+    <string name="location_status">"တည်နေရာ အခြေအနေ"</string>
+    <!-- [CHAR LIMIT=60] Title for location services in locations settings -->
+    <string name="location_services">"တည်နေရာ ဝန်ဆောင်မှုများ"</string>
+    <!-- [CHAR LIMIT=20] Title for status on for location services -->
+    <string name="on">"ဖွင့်ရန်"</string>
+    <!-- [CHAR LIMIT=20] Title for status off for location services -->
+    <string name="off">"မရှိ"</string>
+    <!-- [CAR LIMIT=100] Location services screen title for Google location services -->
+    <string name="google_location_services_title">"Google တည်နေရာ ဝန်ဆောင်မှုများ"</string>
+    <!-- [CAR LIMIT=100] Location services screen title for third party location services -->
+    <string name="third_party_location_services_title">"အခြားသူတို့၏ တည်နေရာ ဝန်ဆောင်မှုများ"</string>
+    <!-- [CHAR LIMIT=100] Location services screen, title for Location reporting -->
+    <string name="location_reporting">"တည်နေရာကို အစီရင်ခံခြင်း"</string>
+    <!-- [CHAR LIMIT=100] Location services screen, title for Location history -->
+    <string name="location_history">"တည်နေရာ မှတ်တမ်း"</string>
+    <!-- [CHAR LIMIT=300] Location reporting screen, description -->
+    <string name="location_reporting_desc">"Google သည် ဒီအင်္ဂါရပ်ကို Google Now နှင့် Google မြေပုံများလို ထုတ်ကုန်များ ထဲမှာ အသုံးပြုပါသည်။ တည်နေရာ အစီရင်ခံမှုကို ဖွင့်ထားခြင်းက သင့် ကိရိယာ၏ နောက်ဆုံး တည်နေရာ ဒေတာကို Google အကောင့်နှင့် ဆက်နွှယ်လျက် အသုံးပြုခြင်း နှင့် သိုလှောင်ခြင်းကို ခွင့်ပြုသည်။"</string>
+    <!-- [CHAR LIMIT=500] Location history screen, description -->
+    <string name="location_history_desc">"တည်နေရာ မှတ်တမ်းကို ဒီအကောင့် အတွက် ဖွင့်ထားလျှင်၊ Google သည် သင်၏ appများ သုံးနိုင်ဖို့ သင့်ကိရိယာ၏ တည်နေရာကို သိုလှောင်ပေးသည်။\n\nဥပမာ၊ Google မြေပုံများက သင့်အား လမ်းညွှန်းမှုများကို ပေးနိုင်သလို၊ Google Now က ယာဉ်ကူးပြောင်းမှု အကြောင်းကို အသိပေးနိုင်သည်။ \n\nသင်သည် တည်နေရာ မှတ်တမ်းကို အချိန်မရွေး ပိတ်ပစ်နိုင်သည်၊ သို့သော် ထိုသို့ လုပ်မှုက ၎င်းကို ဖျက်မည် မဟုတ်ပါ။ သင်၏ တည်နေရာ မှတ်တမ်းကို ကြည့်ရန် နှင့် စီမံကွပ်ကဲရန်၊ maps.google.com/locationhistory ကို ဝင်ကြည့်ပါ။"</string>
+    <!-- [CHAR LIMIT=100] Location history screen, title for delete location history -->
+    <string name="delete_location_history_title">"တည်နေရာ မှတ်တမ်း ဖျက်ရန်"</string>
+    <!-- [CHAR LIMIT=300] Location history screen, description for delete location history -->
+    <string name="delete_location_history_desc">"၎င်းက ဒီ Google အကောင့် အတွက် ဒီကိရိယာ ထံမှ သိုလှောင်ခဲ့သည့် တည်နေရာ မှတ်တမ်း အားလုံးကို ဖျက်ပစ်မည်။ သင်သည် ဒီဖျက်မှုကို ပြန်မပြင်နိုင်ပါ။ အချို့ appများ၊ Google ယခု အပါအဝင်၊ အလုပ်လုပ်မှု ရပ်တန့်ကြမည်။"</string>
+    <!-- Title for services in accessibility settings [CHAR LIMIT=50] -->
+    <string name="system_services">"ဝန်ဆောင်မှုများ"</string>
+    <!-- Title and description for accessibility service setting [CHAR LIMIT=50] -->
+    <string name="accessibility_service_settings">"ဝန်ဆောင်မှု ဆက်တင်များ"</string>
+    <!-- Title and description for accessibility captions setting [CHAR LIMIT=50] -->
+    <string name="accessibility_captions">"စာတန်းများ"</string>
+    <!-- Title and description for accessibility captions description [CHAR LIMIT=NONE] -->
+    <string name="accessibility_captions_description">"ဗီဒီယိုမှာ အပိတ် စာတန်း စာသား အတွက် ဆက်တင်များ"</string>
+    <!-- Title for captions display setting [CHAR LIMIT=50] -->
+    <string name="captions_display">"မြင်ကွင်း"</string>
+    <!-- Subtext used under the captions_display string to denote that captions will be shown. [CHAR LIMIT=50] -->
+    <string name="captions_display_on">"ဖွင့်ထား"</string>
+    <!-- Subtext used under the captions_display string to denote that captions will NOT be shown. [CHAR LIMIT=50] -->
+    <string name="captions_display_off">"ပိတ်ထား"</string>
+    <!-- Description for captions display setting [CHAR LIMIT=100] -->
+    <string name="display_options">"မြင်ကွင်း ရွေးစရာများ"</string>
+    <!-- Title for captions configure setting [CHAR LIMIT=50] -->
+    <string name="captions_configure">"စီစဉ်ပေးရန်"</string>
+    <!-- Title for captions language setting [CHAR LIMIT=50] -->
+    <string name="captions_lanaguage">"ဘာသာစကား"</string>
+    <!-- Title for captions text size setting [CHAR LIMIT=50] -->
+    <string name="captions_textsize">"စာလုံး ဆိုက်"</string>
+    <!-- Title for captions style setting [CHAR LIMIT=50] -->
+    <string name="captions_captionstyle">"စာတန်း စတိုင်"</string>
+    <!-- Title for custom captions settings [CHAR LIMIT=50] -->
+    <string name="captions_customoptions">"စိတ်ကြိုက် ရွေးစရာများ"</string>
+    <!-- Title for captions font family setting [CHAR LIMIT=50] -->
+    <string name="captions_fontfamily">"ဖွန့် မိသားစု"</string>
+    <!-- Title for captions text color setting [CHAR LIMIT=50] -->
+    <string name="captions_textcolor">"စာလုံး အရောင်"</string>
+    <!-- Title for captions edge type setting [CHAR LIMIT=50] -->
+    <string name="captions_edgetype">"အနားသတ် ပုံစံ"</string>
+    <!-- Title for captions edge color setting [CHAR LIMIT=50] -->
+    <string name="captions_edgecolor">"အနားသတ် အရောင်"</string>
+    <!-- Title for captions background color setting [CHAR LIMIT=50] -->
+    <string name="captions_backgroundcolor">"နောက်ခံ အရောင်"</string>
+    <!-- Title for captions bacground opacity setting [CHAR LIMIT=50] -->
+    <string name="captions_backgroundopacity">"နောက်ခံ အလင်းပိတ်မှု"</string>
+    <!-- Sample text for previewing video caption preferences. [CHAR LIMIT=NONE] -->
+    <string name="captioning_preview_text">"စာတန်းများကို ဤသို့ မြင်ရမည်"</string>
+    <!-- Title for captions text opacity setting [CHAR LIMIT=50] -->
+    <string name="captions_textopacity">"စာသား အလင်းပိတ်မှု"</string>
+    <!-- Title for captions window color setting [CHAR LIMIT=50] -->
+    <string name="captions_windowcolor">"ဝင်ဒိုး အရောင်"</string>
+    <!-- Title for captions window opacity setting [CHAR LIMIT=50] -->
+    <string name="captions_windowopacity">"ဝင်ဒိုး အလင်းပိတ်မှု"</string>
+    <!-- Label for the color white. [CHAR LIMIT=35] -->
+    <string name="color_white">"အဖြူ"</string>
+    <!-- Label for the color black. [CHAR LIMIT=35] -->
+    <string name="color_black">"အမည်း"</string>
+    <!-- Label for the color red. [CHAR LIMIT=35] -->
+    <string name="color_red">"အနီ"</string>
+    <!-- Label for the color green. [CHAR LIMIT=35] -->
+    <string name="color_green">"အစိမ်း"</string>
+    <!-- Label for the color blue. [CHAR LIMIT=35] -->
+    <string name="color_blue">"အပြာ"</string>
+    <!-- Label for the color cyan. [CHAR LIMIT=35] -->
+    <string name="color_cyan">"စိမ်းပြာ"</string>
+    <!-- Label for the color yellow. [CHAR LIMIT=35] -->
+    <string name="color_yellow">"အဝါ"</string>
+    <!-- Label for the color magenta. [CHAR LIMIT=35] -->
+    <string name="color_magenta">"ပန်းခရမ်း"</string>
+    <!-- Title for accessibility service status [CHAR LIMIT=50] -->
+    <string name="system_accessibility_status">"ပြည်နယ်"</string>
+    <!-- Title for accessibility service configuration [CHAR LIMIT=50] -->
+    <string name="system_accessibility_config">"စီစဉ်ဖွဲ့စည်းမှု"</string>
+    <!-- Title for confirmation screen when turning ON accessibility service[CHAR LIMIT=50] -->
+    <string name="system_accessibility_service_on_confirm_title">"<xliff:g id="SERVICE">%1$s</xliff:g>ကိုသုံးမလား?"</string>
+    <!-- Description for confirmation screen when turning ON accessibility service[[CHAR LIMIT=NONE] -->
+    <string name="system_accessibility_service_on_confirm_desc">"<xliff:g id="SERVICE">%1$s</xliff:g> သည် သက် ရိုက်ထည့်သည့် စာသား အားလုံးကို၊ စကားဝှက်များမှ အပ၊ စုစည်းနိုင်သည်။ ၎င်းထဲမှာ အကြွေးကဒ် နံပါတ်များလို ကိုယ်ရေး ဒေတာများ ပါဝင်ကြသည်။"</string>
+    <!-- Title for confirmation screen when turning OFF accessibility service[CHAR LIMIT=50] -->
+    <string name="system_accessibility_service_off_confirm_title">"<xliff:g id="SERVICE">%1$s</xliff:g> ကိုရပ်မလား?"</string>
+    <!-- Description for confirmation screen when turning OFF accessibility service[[CHAR LIMIT=NONE] -->
+    <string name="system_accessibility_service_off_confirm_desc">"အိုကေကို ရွေးလိုက်ခြင်းက <xliff:g id="SERVICE">%1$s</xliff:g>ကို ရပ်ပစ်မည်။"</string>
+    <!-- Title for text to speech output in accessibility settings [CHAR LIMIT=50] -->
+    <string name="system_accessibility_tts_output">"စာသားမှ နှုတ်စကားသို့"</string>
+    <!-- Title for Set Speak passwords in System Settings Accessibility [CHAR LIMIT=50] -->
+    <string name="system_speak_passwords">"စကားဝှက်ကို ပြောပေးရန်"</string>
+    <!-- Title for Set Preferred engine in System Settings Accessibility [CHAR LIMIT=50] -->
+    <string name="system_preferred_engine">"ပိုနှစ်သက်သော အင်ဂျင်"</string>
+    <!-- Title for Set Speech rate in System Settings Accessibility [CHAR LIMIT=50] -->
+    <string name="system_speech_rate">"စကားပြောနှုန်း"</string>
+    <!-- Title for Set Play sample in System Settings Accessibility [CHAR LIMIT=50] -->
+    <string name="system_play_sample">"နမူနာကို ဖွင့်ရန်"</string>
+    <!-- Title for Set Install voice data in System Settings Accessibility [CHAR LIMIT=50] -->
+    <string name="system_install_voice_data">"အသံ ဒေတာကို တပ်ဆင်ပေးခြင်း"</string>
+    <!-- Title for Set General in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_general">"အထွေထွေ"</string>
+    <!-- Title for Set Debugging in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_debugging">"ဒီဘာဂင်"</string>
+    <!-- Title for Set Input in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_input">"ရိုက်သွင်းမှု"</string>
+    <!-- Title for Set Drawing in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_drawing">"ပုံရေးဆွဲခြင်း"</string>
+    <!-- Title for Set Monitoring in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_monitoring">"စောင့်ကြပ်ခြင်း"</string>
+    <!-- Title for Set Apps in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_apps">"Appများ"</string>
+    <!-- Title for Set Stay awake in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_stay_awake">"ဖွင့်လျက် ရှိနေရန်"</string>
+    <!-- Title for Set HDCP checking in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_hdcp_checking">"HDCP စစ်ဆေးနေ"</string>
+    <!-- Title for HDMI optimization in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_hdmi_optimization">"HDMI ဆီလျော်အောင် လုပ်ပေးခြင်း"</string>
+    <!-- Title for reboot confirmation in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_reboot_confirm">"ယခု ပြန်ဖွင့်ရမလား?"</string>
+    <!-- Description for reboot confirmation in System Settings Developer options [CHAR LIMIT=150] -->
+    <string name="system_desc_reboot_confirm">"ဒီဆက်တင်ကို မွမ်းမံရန်၊ သင်၏ ကိရိယာကို ပြန်ပြီးဖွင့်ပေးရန် လိုသည်။"</string>
+    <!-- Title for HDCP checking option in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_never_check">"မည်သည့်အခါမှ မစစ်ဆေးပါနှင့်"</string>
+    <!-- Title for HDCP checking option in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_check_for_drm_content_only">"DRM အကြောင်းအရာကိုသာ စစ်ဆေးရန်"</string>
+    <!-- Title for HDCP checking option in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_always_check">"အမြဲတမ်း စစ်ဆေးရန်"</string>
+    <!-- Title for Bluetooth HCI logging Developer option [CHAR LIMIT=50] -->
+    <string name="system_bt_hci_log">"ဘလူးတုသ် HCI မှတ်သားထားခြင်း"</string>
+    <!-- Title for Set Email address in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_email_address">"အီးမေးလ် လိပ်စာ"</string>
+    <!-- Title for Set USB debugging in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_usb_debugging">"USB ဒီဘာဂင်"</string>
+    <!-- Title for Set Allow mock locations in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_allow_mock_locations">"ပုံစံတု တည်နေရာများကို ခွင့်ပြုရန်"</string>
+    <!-- Title for Set Select debug app in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_select_debug_app">"ဒီဘာဂ် လုပ်ပေးမည့် appကို ရွေးရန်"</string>
+    <!-- Title for Set Wait for debugger in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_wait_for_debugger">"ဒီဘာဂါးကို စောင့်ရန်"</string>
+    <!-- Title for Set Verify apps over USB in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_verify_apps_over_usb">"USB ထဲရှိ appများ စိစစ်ရန်"</string>
+    <!-- Description for Set verify apps over USB in system settings develop opetions [CHAR LIMIT=150] -->
+    <string name="system_desc_verify_apps_over_usb">"ADB/ADT မှတစ်ဆင့် တပ်ဆင်ခဲ့သည့် appများကို အန္တရာယ် အပြုအမူများ အတွက် စစ်ကြည့်ရန်"</string>
+    <!-- Title for WiFi Verbose Logging in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_wifi_verbose_logging">"ကြိုးမဲ့ ပြည့်ပြည့်စုံစုံ မှတ်သားခြင်း"</string>
+    <!-- Description for Wifi Verbose Logging in system settings develop opetions [CHAR LIMIT=150] -->
+    <string name="system_desc_wifi_verbose_logging">"ကြိုးမဲ့  ပြည့်ပြည့်စုံစုံ မှတ်သားခြင်းကို ဖွင့်ရန်"</string>
+    <!-- Title for Set Show touches in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_touches">"ထိတွေ့မှုများကို ပြရန်"</string>
+    <!-- Title for Set Pointer location in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_pointer_location">"ညွှန်းမြား၏ တည်နေရာ"</string>
+    <!-- Title for Set Show layout bounds in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_layout_bounds">"အဆင်အပြင် ဘောင်များကို ပြရန်"</string>
+    <!-- Title for Set Show GPU view updates in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_gpu_view_updates">"GPU မြင်ကွင်း မွမ်းမံမှုများကို ပြရန်"</string>
+    <!-- Title for Set Show hardware layer in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_hardware_layer">"ဟာ့ဒ်ဝဲ အလွှာကို ပြရန်"</string>
+    <!-- Title for Set Show GPU overdraw in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_gpu_overdraw">"GPU ကျော်လွန်မှုကို ပြရန်"</string>
+    <!-- Title for Set Show surface updates in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_surface_updates">"မျက်နှာပြင် မွမ်းမံမှုများကို ပြရန်"</string>
+    <!-- Title for Set Window animation scale in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_window_animation_scale">"ဝင်ဒိုး လှုပ်ရှားပုံများ စကေး"</string>
+    <!-- Title for Set Transition animation scale in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_transition_animation_scale">"အသွင်ပြောင်း လှုပ်ရှားပုံ စကေး"</string>
+    <!-- Title for Set Animator duration scale in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_animator_duration_scale">"လှုပ်ရှားပုံများ ကြာမှု စကေး"</string>
+    <!-- Title for Set Strict mode enabled in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_strict_mode_enabled">"တင်းကြပ် မုဒ် ဖွင့်ထား"</string>
+    <!-- Title for Set Show CPU usage in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_cpu_usage">"CPU အသုံးပြုမှုကို ပြသရန်"</string>
+    <!-- Title for Set Profile GPU rendering in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_profile_gpu_rendering">"ပရိုဖိုင် GPU တင်ဆက်နေ"</string>
+    <!-- Title for Set Enable traces in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_enable_traces">"ခြေရာခံမှု ဖွင့်ထားရန်"</string>
+    <!-- Title for Set Don't keep activities in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_dont_keep_activities">"လှုပ်ရှားမှုများကို သိမ်းမထားပါနှင့်"</string>
+    <!-- Title for Set Background process limit in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_background_process_limit">"နောက်ခံ လုပ်ငန်းစဉ် ကန့်သတ်ချက်"</string>
+    <!-- Title for Set Show all ANRs in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_show_all_anrs">"ANRများ အားလုံးကို ပြသရန်"</string>
+    <!-- Description for stay awake System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_stay_awake">"အနားယူမှု ပိတ်ထားရန်"</string>
+    <!-- Description for hdcp checking System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_hdcp_checking">"DRM အကြောင်းအရာ အတွက်သာ သုံးရန်"</string>
+    <!-- Description for HDMI optimization System Settings Developer options [CHAR LIMIT=200] -->
+    <string name="system_desc_hdmi_optimization">"ပြသမှုကို အများဆုံး ပြတ်သားမှု သို့မဟုတ် ပုံရွေ့ရှားနှုန်း အတွက် ဆီလျော်အောင် လုပ်ပေးပါ။ ဒါက Ultra HD ပြကွက်များကိုသာ အကျိုးသက်ရောက်သည်။ ဒီဆက်တင်များကို ပြောင်းလဲခြင်းက သင့်ကိရိယာကို ပြန်ပြီးဖွင့်မည်။"</string>
+    <!-- Description for Bluetooth HCI Logging Developer option [CHAR LIMIT=100] -->
+    <string name="system_desc_bt_hci_log">"ဘလူးတုသ် HCI ဆိုင်ရာ မှတ်သားခြင်းကို  ဖွင့်ရန်"</string>
+    <!-- Description for usb debugging in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_usb_debugging">"USB ချိတ်ဆက်ထား ချိန်မှာ ဒီဘာဂ် မုဒ်"</string>
+    <!-- Description for wait for debugger in System Settings Developer options [CHAR LIMIT=120] -->
+    <string name="system_desc_wait_for_debugger">"ဒီဘာဂ် လုပ်ထားသည့် အပလီကေးရှင်းသည် မလုပ်ကိုင်မီမှာ ဒီဘာဂါးကို ပူးတွဲပေးမှာကို စောင့်ရသည်။"</string>
+    <!-- Description for show layout bounds in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_show_layout_bounds">"ကလီပ် အနားသတ်များ၊ မာဂျင်များ စသဖြင့် ပြပါ။"</string>
+    <!-- Description for show GPU view updates in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_show_gpu_view_updates">"GPU နှင့်အတူ ရေးဆွဲထားလျှင် ၀င်ဒိုးများ အတွင်းပိုင်း လျှပ်တပြက် မြင်ကွင်းများ"</string>
+    <!-- Description for show hardware layer in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_show_hardware_layer">"ဟာ့ဒ်ဝဲ အလွှာများကို မွမ်းမံ ချိန်မှာ အစိမ်းရောင်ဖြင့် လင်းပြရန်"</string>
+    <!-- Description for show gpu overdraw in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_show_gpu_overdraw">"အကောင်းဆုံးမှ အဆိုးဆုံးဆီသို့: အပြာ၊ အစိမ်း၊ အနီဖျော့၊ အနီ"</string>
+    <!-- Description for show surface updates in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_show_surface_updates">"ဝင်ဒိုး မျက်နှာပြင်များ တစ်ခုလုံးကို မွမ်းမံ နေချိန်မှာ လင်းပြရန်"</string>
+    <!-- Description for strict mode enabled in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_strict_mode_enabled">"appများက ပင်မ အမျှင်တန်းမှာ ရေရှည် လုပ်ငန်းများ လုပ်ကိုင်နေချိန်မှာ မျက်နှာပြင်ကို လင်းပြရန်"</string>
+    <!-- Description for show cpu usage in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_show_cpu_usage">"လက်ရှိ CPU အသုံးပြုမှုကို မျက်နှာပြင် ပေါ်တွင် ပြသမှု"</string>
+    <!-- Description for profile GPU rendering in System Settings Developer options [CHAR LIMIT=100] -->
+    <string name="system_desc_profile_gpu_rendering">"adb အခွံ dumpsys gfxinfo ထဲက တင်ဆက်မှု အချိန်ကို တိုင်းထွာသည်။"</string>
+    <!-- General use strings -->
+    <!-- Title for an action which turns a feature on [CHAR LIMIT=30] -->
+    <string name="action_on_title">"ဖွင့်ရန်"</string>
+    <!-- Title for an action which turns a feature off [CHAR LIMIT=30] -->
+    <string name="action_off_title">"မရှိ"</string>
+    <!-- Title for a status description saying that a feature is on [CHAR LIMIT=30] -->
+    <string name="action_on_description">"ဖွင့်ရန်"</string>
+    <!-- Title for a status description saying that a feature is off [CHAR LIMIT=30] -->
+    <string name="action_off_description">"မရှိ"</string>
+    <!-- Title for action which denotes the user agrees [CHAR LIMIT=50] -->
+    <string name="agree">"သဘောတူ"</string>
+    <!-- Title for action which denotes the user disagrees [CHAR LIMIT=50] -->
+    <string name="disagree">"သဘောမတူ"</string>
+    <!-- Security -->
+    <!-- Title for action to allow installation of applications from unknown sources [CHAR LIMIT=50]-->
+    <string name="security_unknown_sources_title">"မသိရသော ရင်းမြစ်များ"</string>
+    <!-- Description for action to allow installation of applications from unknown sources [CHAR LIMIT=NONE]-->
+    <string name="security_unknown_sources_desc">"ပလေး စတိုး မဟုတ်သည့် အခြား အရင်းအမြစ်များမှ appများ တပ်ဆင်မှုကို ခွင့်ပြုရန်"</string>
+    <!-- Description for confirmation to allow installation of applications from unknown sources [CHAR LIMIT=NONE]-->
+    <string name="security_unknown_sources_confirm_desc">"သင်၏ ကိရိယာ နှင့် ကိုယ်ရေး ဒေတာများမှာ မသိရသည့် ရင်းမြစ်များထဲက appများ၏ တိုက်ခိုက်မှု​ကြောင့် ပိုပြီး ထိခိုက်ပျက်စီးမှာ စိုးရပါသည်။ ယင်း appများကို အသုံးပြုမှုကြောင့် သင့် ကိရိယာ ထိခိုက်ခံရမှာ သို့မဟုတ် ဒေတာ ဆုံးရှုံးခံရမှာ အတွက် သင်သည်သာ လုံးဝ တာဝန်ရှိတာကို သင် သဘောတူပါသည်။"</string>
+    <!-- Title for action to warn before installing applications that may cause harm [CHAR LIMIT=50]-->
+    <string name="security_verify_apps_title">"appများကို စိစစ်ရန်"</string>
+    <!-- Description for action to warn before installing of applications that may cause harm [CHAR LIMIT=NONE]-->
+    <string name="security_verify_apps_desc">"အန္တရာယ် ဖြစ်စေနိုင်သော appများကို ခွင့်မပြုရန် သို့မဟုတ် မတပ်ဆင်မီ သတိပေးရန်"</string>
+    <!-- Summary for HDCP checking preference. [CHAR LIMIT=100]-->
+    <string name="system_hdcp_checking_never">"မည်သည့်အခါမှ"</string>
+    <!-- Summary for HDCP checking preference. [CHAR LIMIT=100]-->
+    <string name="system_hdcp_checking_drm">"DRM အကြောင်းအရာ အတွက်"</string>
+    <!-- Summary for HDCP checking preference. [CHAR LIMIT=100]-->
+    <string name="system_hdcp_checking_always">"အမြဲတမ်း"</string>
+    <!-- Title for HDMI optimization preference value [CHAR LIMIT=60] -->
+    <string name="system_hdmi_optimization_best_resolution">"အကောင်းဆုံး ပြတ်သားမှု"</string>
+    <!-- Title for HDMI optimization preference value [CHAR LIMIT=60] -->
+    <string name="system_hdmi_optimization_best_framerate">"အကောင်းဆုံး ဘောင်နှုန်း"</string>
+    <!-- Title for debug overdraw preference. [CHAR LIMIT=35] -->
+    <string name="system_hw_overdraw_off">"ပိတ်ထား"</string>
+    <!-- Title for debug overdraw preference. [CHAR LIMIT=35] -->
+    <string name="system_hw_overdraw_areas">"ကျော်လွန် ဧရိယာများကို ပြရန်"</string>
+    <!-- Title for debug overdraw preference. [CHAR LIMIT=35] -->
+    <string name="system_hw_overdraw_counter">"ကျော်လွန် ရေတွက်မှုကို ပြရန်"</string>
+    <!-- UI debug setting: label for app picker to select no application [CHAR LIMIT=50] -->
+    <string name="no_application">"တခုမှမရှိ"</string>
+    <!-- Title for OpenGL traces preference. [CHAR LIMIT=35] -->
+    <string name="enable_opengl_traces_none">"မရှိ"</string>
+    <!-- Title for OpenGL traces preference. Do not translate "Logcat" [CHAR LIMIT=35] -->
+    <string name="enable_opengl_traces_logcat">Logcat</string>
+    <!-- Title for OpenGL traces preference. Do not translate "Systrace" [CHAR LIMIT=35] -->
+    <string name="enable_opengl_traces_systrace">Systrace (Graphics)</string>
+    <!-- Title for OpenGL traces preference. "Call stack" is a developer term. Do not translate "glGetError" [CHAR LIMIT=35] -->
+    <string name="enable_opengl_traces_error">Call stack on glGetError</string>
+    <!-- Titles for window animation scale preference. [CHAR LIMIT=35] -->
+    <string-array name="animation_scale_entries">
+        <item>"လှုပ်ရှားများကို ပိတ်ရန်"</item>
+        <item>"လှုပ်ရှားပုံများ စကေး ၀.၅ဆ"</item>
+        <item>"လှုပ်ရှားပုံများ စကေး ၁x"</item>
+        <item>"လှုပ်ရှားပုံများ စကေး ၁.၅ဆ"</item>
+        <item>"လှုပ်ရှားပုံများ ၂x"</item>
+        <item>"လှုပ်ရှားပုံများ စကေး ၅x"</item>
+        <item>"လှုပ်ရှားပုံများ စကေး ၁၀x"</item>
+    </string-array>
+    <!-- Title for frame time tracking preference. [CHAR LIMIT=35] -->
+    <string name="track_frame_time_off">"ပိတ်ထား"</string>
+    <!-- Title for frame time tracking preference. [CHAR LIMIT=35] -->
+    <string name="track_frame_time_bars">"မျက်နှာပြင်ပေါ်မှာ ဘားတန်းများလို"</string>
+    <!-- Title for frame time tracking preference. Do not translate "adb shell dumpsys gfxinfo" [CHAR LIMIT=35] -->
+    <string name="track_frame_time_gfxinfo">In adb shell dumpsys gfxinfo</string>
+    <!-- Title for app process limit preference. [CHAR LIMIT=35] -->
+    <string name="app_process_limit_standard">"ပုံမှန် ကန့်သတ်ချက်"</string>
+    <!-- Title for app process limit preference. [CHAR LIMIT=35] -->
+    <string name="app_process_limit_zero">"နောက်ခံ လုပ်ငန်းစဉ်များ မရှိ"</string>
+    <!-- Title for app process limit preference. [CHAR LIMIT=35] -->
+    <string name="app_process_limit_one">"အများဆုံး လုပ်ငန်းစဉ် 1 ခု"</string>
+    <!-- Title for app process limit preference. [CHAR LIMIT=35] -->
+    <string name="app_process_limit_two">"အများဆုံး လုပ်ငန်းစဉ် 2 ခု"</string>
+    <!-- Title for app process limit preference. [CHAR LIMIT=35] -->
+    <string name="app_process_limit_three">"အများဆုံး လုပ်ငန်းစဉ် 3 ခု"</string>
+    <!-- Title for app process limit preference. [CHAR LIMIT=35] -->
+    <string name="app_process_limit_four">"အများဆုံး လုပ်ငန်းစဉ် 4 ခု"</string>
+    <!-- TTS settings -->
+    <!-- Text-to-speech speech rate choice [CHAR LIMIT=30] -->
+    <string name="tts_rate_very_slow">"အလွန်နှေး"</string>
+    <!-- Text-to-speech speech rate choice [CHAR LIMIT=30] -->
+    <string name="tts_rate_slow">"နှေး"</string>
+    <!-- Text-to-speech speech rate choice [CHAR LIMIT=30] -->
+    <string name="tts_rate_normal">"ပုံမှန်"</string>
+    <!-- Text-to-speech speech rate choice [CHAR LIMIT=30] -->
+    <string name="tts_rate_fast">"အမြန်"</string>
+    <!-- Text-to-speech speech rate choice [CHAR LIMIT=30] -->
+    <string name="tts_rate_very_fast">"သိပ်မြန်"</string>
+    <!-- Keyboard Settings -->
+    <!-- Title for Current Keyboard [CHAR LIMIT=80] -->
+    <string name="title_current_keyboard">"လက်ရှိ ကီးဘုတ်"</string>
+    <!-- Title for configure current keyboard [CHAR LIMIT=80] -->
+    <string name="title_configure">"စီစဉ်ဖွဲ့စည်းရန်"</string>
+    <!-- Description for configure current keyboard [CHAR LIMIT=100] -->
+    <string name="desc_configure_keyboard">"ကီးဘုတ် ရွေးစရာများ"</string>
+    <!-- String shown when computing the total size of an application's cache or data files. [CHAR LIMIT=30] -->
+    <string name="computing_size">"တွက်ချက်နေ\u2026"</string>
+    <!-- Title for selecting wifi network [CHAR LIMIT=150] -->
+    <string name="title_select_wifi_network">"သင်၏ ကြိုးမဲ့ ကွန်ရက်ကို ရွေးရန်"</string>
+    <!-- Action option which allows the change of the name this device is known by other wifi display devices [CHAR LIMIT=40] -->
+    <string name="accessories_wifi_display_rename_device">"အမည်ပြောင်းရန်"</string>
+    <!-- Action option which allows the enabling or disabling of wifi display [CHAR LIMIT=40] -->
+    <string name="accessories_wifi_display_enable">"ကြိုးမဲ့ မြင်ကွင်း"</string>
+    <!-- Action option which allows the enabling or disabling the PIN requirement of wifi display [CHAR LIMIT=40] -->
+    <string name="accessories_wifi_display_pin_required">"PIN လိုအပ်"</string>
+    <!-- Disambiguation Activity-->
+    <!-- Title of intent resolver activity when selecting an application to run. [CHAR LIMIT=50]-->
+    <string name="whichApplication">"လုပ်ဆောင်ချက် ပြီးဆုံးစေရန် အသုံးပြုရမည်မှာ"</string>
+    <!-- Quetsion about always using the selected application resolution in the future. See the "Complete action using" dialog title [CHAR LIMIT=50]-->
+    <string name="alwaysUseQuestion">"ဒီလုပ်ဆောင်ချက် အတွက် အမြဲတမ်း ဒီရွေးစရာကို သုံးမလား?"</string>
+    <!-- Option to always use the selected application resolution in the future. See the "Complete action using" dialog title [CHAR LIMIT=50]-->
+    <string name="alwaysUseOption">"အမြဲတမ်း သုံးရန်"</string>
+    <!-- Option to only use the selected option this time. See the "Complete action using" dialog title [CHAR LIMIT=50]-->
+    <string name="justOnceOption">"တစ်ကြိမ်တည်းသာ"</string>
+    <!-- Text to display when there are no activities found to display in the activity chooser. See the whichApplication title.[CHAR LIMIT=50] -->
+    <string name="noApplications">"ဘယ် appကမှ ဒီ လုပ်ဆောင်ချက်ကို မလုပ်ကိုင်နိုင်ပါ။"</string>
+    <!-- Action to go back to the previous screen, when no apps have been found to perform the requested action. [CHAR LIMIT=50]-->
+    <string name="noAppsGoBack">"နောက်သို့"</string>
+    <!-- TV input settings row -->
+    <string name="inputs_inputs">"ထည့်သွင်းမှုများ"</string>
+    <!-- Header of HDMI CEC device control [CHAR LIMIT=50] -->
+    <string name="inputs_header_cec">"Consumer Electronic Control (CEC)"</string>
+    <!-- Title of CEC device settings [CHAR LIMIT=30] -->
+    <string name="inputs_cec_settings">"ကိရိယာ ထိန်းချုပ်ရေး ဆက်တင်များ"</string>
+    <!-- Name of predefined name for TV input (Blu-ray player) [CHAR LIMIT=30] -->
+    <string name="inputs_blu_ray">"Blu-ray"</string>
+    <!-- Name of predefined name for TV input (Cable TV) [CHAR LIMIT=30] -->
+    <string name="inputs_cable">"ကြိုးတီဗီ"</string>
+    <!-- Name of predefined name for TV input (DVD player) [CHAR LIMIT=30] -->
+    <string name="inputs_dvd">DVD</string>
+    <!-- Name of predefined name for TV input (Gaming device) [CHAR LIMIT=30] -->
+    <string name="inputs_game">"ဂိမ်း ခလုတ်ခုံ"</string>
+    <!-- Name of predefined name for TV input (Aux) [CHAR LIMIT=30] -->
+    <string name="inputs_aux">"Aux"</string>
+    <!-- Title of using customized name for a TV input [CHAR LIMIT=30] -->
+    <string name="inputs_custom_name">"စိတ်တိုင်းကျ အမည်"</string>
+    <!-- Title of option to hide. It will describe current state of the inputs instead of the action [CHAR LIMIT=30] -->
+    <string name="inputs_hide">"ဝှက်ထား၏"</string>
+    <!-- Description of option to hide [CHAR LIMIT=100] -->
+    <string name="inputs_hide_desc">"ထည့်သွင်းမှုများကို ပြောင်းလဲလျှင် ပြမည် မဟုတ်"</string>
+    <!-- Title format of entering custom label activity [CHAR LIMIT=30] -->
+    <string name="inputs_custom_title">"စိတ်တိုင်းကျ အမည်:"</string>
+    <!-- Option to enable HDMI control [CHAR LIMIT=30] -->
+    <string name="inputs_hdmi_control">"HDMI ထိန်းချုပ်မှု"</string>
+    <!-- Description of HDMI control option [CHAR LIMIT=50] -->
+    <string name="inputs_hdmi_control_desc">"တီဗီကို HDMI ကိရိယာများကို ထိန်းချုပ်ခွင့် ပြုရန်"</string>
+    <!-- Option to enable device auto power off [CHAR LIMIT=30] -->
+    <string name="inputs_device_auto_off">"ကိရိယာ ပါဝါ အော်တို ပိတ်ရန်"</string>
+    <!-- Description of device auto power off option [CHAR LIMIT=50] -->
+    <string name="inputs_device_auto_off_desc">"တီဗီကို HDMI ကိရိယာများဖြင့် ပါဝါ ပိတ်ရန်"</string>
+    <!-- Option to enable TV auto power on [CHAR LIMIT=30] -->
+    <string name="inputs_tv_auto_on">"တီဗီ အော်တို ပါဝါ ဖွင့်ရန်"</string>
+    <!-- Description of TV auto power on [CHAR LIMIT=50] -->
+    <string name="inputs_tv_auto_on_desc">"တီဗီကို HDMI ကိရိယာဖြင့် ပါဝါ ဖွင့်ရန်"</string>
+    <!-- Header for connected TV input(s) [CHAR LIMIT=30] -->
+    <plurals name="inputs_header_connected_input">
+        <item quantity="one">"ထည့်သွင်းမှု ချိတ်ဆက်ပြီး"</item>
+        <item quantity="other">"ထည့်သွင်းမှုများ ချိတ်ဆက်ပြီး"</item>
+    </plurals>
+    <!-- Header for standby TV input(s) [CHAR LIMIT=30] -->
+    <plurals name="inputs_header_standby_input">
+        <item quantity="one">"ထည့်သွင်းမှု အရန်သင့်ရှိ"</item>
+        <item quantity="other">"ထည့်သွင်းမှုများ အရန်သင့်ရှိ"</item>
+    </plurals>
+    <!-- Header for disconnected TV input(s) [CHAR LIMIT=30] -->
+    <plurals name="inputs_header_disconnected_input">
+        <item quantity="one">"ထည့်သွင်းမှု မချိတ်ဆက်မိ"</item>
+        <item quantity="other">"ထည့်သွင်းမှုများ မချိတ်ဆက်မိ"</item>
+    </plurals>
+    <!-- Summary for add restricted profile entry in the choice dialog [CHAR LIMIT=none] -->
+    <string name="user_add_profile_item_summary">"သင့်အက​ောင့်ရှိ app များနှင့် တစ်ခြားအရာများအား ဝင်ခွင့်အကန့်အသတ်ရှိခြင်း"</string>
+    <!-- User details new restricted profile name [CHAR LIMIT=30] -->
+    <string name="user_new_profile_name">"ကန့်သတ် ပရိုဖိုင်"</string>
+    <!-- Summary for app entries that are controlled by another entry [CHAR LIMIT=none] -->
+    <string name="user_restrictions_controlled_by">"<xliff:g id="APP">%1$s</xliff:g>မှထိန်းချုပ်ထားသည်"</string>
+    <!-- Summary for apps that aren't supported in limited users [CHAR LIMIT=none] -->
+    <string name="app_not_supported_in_limited">"ဒီappကို ကန့်သတ် ပရိုဖိုင်များတွင် မပံ့ပိုးပါ။"</string>
+    <!-- Summary text for apps that are allowed to access accounts from the primary user [CHAR LIMIT=none] -->
+    <string name="app_sees_restricted_accounts">"ဒီappသည် သင့်အကောင့်များကို ရယူနိုင်သည်။"</string>
+    <!-- Restrictions title for allowing location sharing [CHAR LIMIT=35] -->
+    <string name="restriction_location_enable_title">"တည်နေရာ"</string>
+    <!-- Restrictions summary for allowing location sharing [CHAR LIMIT=100] -->
+    <string name="restriction_location_enable_summary">"သင့်တည်နေရာ သတင်းအချက်အလက်ကို  appများအား သုံးခွင့်ပြုရန်"</string>
+    <!-- Action to switch to a restricted profile [CHAR LIMIT=100] -->
+    <string name="restricted_profile_switch_to">"ကန့်သတ် ပရိုဖိုင်သို့ ဝင်ရန်"</string>
+    <!-- Action to switch out of a restricted profile [CHAR LIMIT=100] -->
+    <string name="restricted_profile_switch_out">"ကန့်သတ် ပရိုဖိုင်မှ ထွက်ရန်"</string>
+    <!-- Title for action to delete a restricted profile [CHAR LIMIT=100] -->
+    <string name="restricted_profile_delete_title">"ကန့်သတ်ပရိုဖိုင်အား ဖျက်ရန်"</string>
+    <!-- Title for action to configure a restricted profile [CHAR LIMIT=100] -->
+    <string name="restricted_profile_configure_title">"ဆက်တင်များ"</string>
+    <!-- Title for action to configure apps for a restricted profile [CHAR LIMIT=100] -->
+    <string name="restricted_profile_configure_apps_title">"ခွင့်ပြုထားသော app များ"</string>
+    <!-- Description for action to configure apps for a restricted profile indicating number of allow apps will be ready in a moment [CHAR LIMIT=100] -->
+    <plurals name="restricted_profile_configure_apps_description">
+        <item quantity="one">"app ၁ ခု ခွင့်ပြုသည်"</item>
+        <item quantity="other">"appများ %d ခွင့်ပြုသည်"</item>
+    </plurals>
+    <!-- An action label indicating the package will be or is allowed [CHAR LIMIT=100] -->
+    <string name="restricted_profile_allowed">"ခွင့်ပြုသည်"</string>
+    <!-- An action label indicating the package will be or is not allowed [CHAR LIMIT=100] -->
+    <string name="restricted_profile_not_allowed">"ခွင့်မပြုပါ"</string>
+    <!-- Action to customize restrictions for a package [CHAR LIMIT=100] -->
+    <string name="restricted_profile_customize_restrictions">"ကန့်သတ်ချက်များ ပြင်ဆင်ရန်"</string>
+    <!-- Description for action to configure apps for a restricted profile indicating the number of allow apps [CHAR LIMIT=100] -->
+    <string name="restricted_profile_configure_apps_description_loading">"ခဏလေး\u2026"</string>
+    <!-- Title for action to change the PIN code to use when exiting restricted profile [CHAR LIMIT=100] -->
+    <string name="restricted_profile_change_password_title">"pin ကို ပြောင်းရန်"</string>
+    <!-- Description for action to configure an application's restriction [CHAR LIMIT=200] -->
+    <string name="restriction_description">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
+    <!-- Title of PIN dialog when an user is asked to enter PIN to unlock channel.
+         [CHAR LIMIT=50] -->
+    <string name="pin_enter_unlock_channel">"ဤချာနယ် ကြည့်ရန် PIN ရိုက်ထည့်ပါ"</string>
+    <!-- Title of PIN dialog when an user is asked to enter PIN to unlock program.
+         [CHAR LIMIT=50] -->
+    <string name="pin_enter_unlock_program">"ဤအစီအစဉ် ကြည့်ရန် PIN ရိုက်ထည့်ပါ"</string>
+    <!-- Title of PIN dialog when an user tries to change Parental control setting.
+         [CHAR LIMIT=50] -->
+    <string name="pin_enter_pin">"PIN ရိုက်ထည့်ရန်"</string>
+    <!-- Title of PIN dialog when an user is asked to set a PIN for the first time.
+         [CHAR LIMIT=50] -->
+    <string name="pin_enter_new_pin">"PIN အသစ်ကို သတ်မှတ်ပေးရန်"</string>
+    <!-- Title of PIN dialog when an user is asked to set a PIN. [CHAR LIMIT=50] -->
+    <string name="pin_enter_again">"PIN အသစ်ကို ပြန်ရိုက်ထည့်ရန်"</string>
+    <!-- Title of PIN dialog when an user is about to change older PIN. [CHAR LIMIT=50] -->
+    <string name="pin_enter_old_pin">"PIN အဟောင်းကို ရိုက်ထည့်ရန်"</string>
+    <!-- Message shown in the dialog when the user entered the wrong. [CHAR LIMIT=128] -->
+    <string name="pin_enter_wrong_seconds">"PIN အမှာ ၅ ကြိမ် သင်ရိုက်ထည့်ခဲ့သည်။ <xliff:g id="RELATIVE_TIME_SPAN">%1$d</xliff:g> စက္ကန့်အကြာတွင် ထပ်မံကြိုးစားပါ \n"</string>
+    <!-- Toast message when an user entered wrong PIN. [CHAR LIMIT=128] -->
+    <string name="pin_toast_wrong">"PIN မှားနေ၏၊ ထပ် စမ်းပါ"</string>
+    <!-- Toast message when an user couldn't pass the PIN confirmation. [CHAR LIMIT=128] -->
+    <string name="pin_toast_not_match">"PIN မှာ မတိုက်ဆိုင်ပါ၊ ထပ်ပြီး စမ်းပါ။"</string>
+    <!-- Message displayed to prompt the user to input the network password, ^1 will be replaced with the name of the network and should be a possive form related to password [CHAR LIMIT=NONE] -->
+    <string name="wifi_setup_input_password">"<xliff:g id="SSID">%1$s</xliff:g>အတွက် သင်၏ စကားဝှက်ကို ထည့်သွင်းရန်"</string>
+    <!-- Message displayed when the selected Wi-Fi network has been connected to [CHAR LIMIT=40] -->
+    <string name="wifi_setup_connection_success">"အောင်မြင်စွာ ချိတ်ဆက်ပြီးပါပြီ"</string>
+    <!-- Message displayed when the Wi-Fi network's configuration has been saved [CHAR LIMIT=40] -->
+    <string name="wifi_setup_save_success">"အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ။"</string>
+    <!-- Application management application version label [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_version">"ဗားရှင်း <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
+    <!-- Application management description for opening the application [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_open">"ဖွင့်ထား"</string>
+    <!-- Application management choice for force stopping the application [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_force_stop">"အတင်း ရပ်ခိုင်းရန်"</string>
+    <!-- Application management description for force stopping the application [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_force_stop_desc">"သင်က app တစ်ခုကို အတင်း ရပ်ခိုင်းခဲ့လျှင် ၎င်း၏ ပြုမူပုံ မှားယွင်းနိုင်သည်။"</string>
+    <!-- Application management choice for uninstalling the application [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_uninstall">"ဖြုတ်ရန်"</string>
+    <!-- Application management description for uninstalling the application [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_uninstall_desc">"ဒီအပလီကေးရှင်းကို ဖြုတ်ချင်ပါသလား?"</string>
+    <!-- Application management choice for uninstalling updates for the application [CHAR_LIMIT=40] -->
+    <string name="device_apps_app_management_uninstall_updates">"အပ်ဒိတ်များကိုဖယ်ထုတ်မည်လား?"</string>
+    <!-- Application management description for uninstalling updates for the application [CHAR_LIMIT=NONE] -->
+    <string name="device_apps_app_management_uninstall_updates_desc">"ဤAndroidစနစ်အပလီကေးရှင်းထဲရှိအပ်ဒိတ်များအားလုံးအား ထုတ်မည်"</string>
+    <!-- Application management choice for disabling the application [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_disable">"ပိတ်ထားရန်"</string>
+    <!-- Application management description for disabling the application [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_disable_desc">"ဤ app အားသင်ပိတ်လိုသလား?"</string>
+    <!-- Application management choice for enabling the application [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_enable">"ဖွင့်ရန်"</string>
+    <!-- Application management description for enabling the application [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_enable_desc">"ဤ app အားသင်ဖွင့်လိုသလား?"</string>
+    <!-- Application management choice for displaying the application's size [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_storage_used">"အသုံးပြုပြီး သိုလှောင်ရုံ"</string>
+    <!-- Application management description for displaying the applicantion's size [CHAR_LIMIT=NONE] -->
+    <string name="device_apps_app_management_storage_used_desc">"<xliff:g id="SIZE">%1$s</xliff:g> ကို <xliff:g id="VOLUME">%2$s</xliff:g> တွင်သုံးခဲ့သည်"</string>
+    <!-- Application management choice for clearing the application's data [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_clear_data">"ဒေတာကို ရှင်းလင်းရန်"</string>
+    <!-- Application management description for clearing the application's data [CHAR LIMIT=NONE] -->
+    <string name="device_apps_app_management_clear_data_desc">"ဤအပ်ဖ်၏ ဒေတာများအားလုံး ထာဝရဖျက်ပစ်ပါမည်။ \n၎င်းတွင် ဖိုင်များအားလုံး၊ ဆက်တင်များ၊ အကောင့်များ၊ ဒေတာဘေ့စ်များ၊ စသည်တို့ပါဝင်သည်။"</string>
+    <!-- Application management choice for clearing the application's default actions [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_clear_default">"ပုံသေများကို ရှင်းလင်းရန်"</string>
+    <!-- Application management description for defaults are set for the application [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_clear_default_set">"အချို့သော လုပ်ဆောင်မှုများအတွက် ဤ app ကိုဖွင့်ရန်သတ်မှတ်ပါ"</string>
+    <!-- Application management description for defaults aren't set for the application [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_clear_default_none">"ပုံသေများ သတ်မှတ် မထား"</string>
+    <!-- Application management choice for clearing the application's cache [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_clear_cache">"ကက်ရှကို ရှင်းလင်းရန်"</string>
+    <!-- Application management choice for changing the application's notifications option [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_notifications">"အကြောင်းကြားချက်များ"</string>
+    <!-- Application management choice for displaying the application's permissions [CHAR LIMIT=40] -->
+    <string name="device_apps_app_management_permissions">"ခွင့်ပြုချက်များ"</string>
+    <!-- General settings choice for agreeing to the displayed action [CHAR LIMIT=40] -->
+    <string name="settings_ok">"အိုကေ"</string>
+    <!-- General settings choice for disagreeing with the displayed action [CHAR LIMIT=40] -->
+    <string name="settings_cancel">"ဖျက်သိမ်းရန်"</string>
+    <!-- General settings choice for on [CHAR LIMIT=40] -->
+    <string name="settings_on">"ဖွင့်ထား"</string>
+    <!-- General settings choice for off [CHAR LIMIT=40] -->
+    <string name="settings_off">"ပိတ်ထား"</string>
+    <!-- Daydream choice for not having a daydream [CHAR LIMIT=40] -->
+    <string name="device_daydreams_none">"မရှိ"</string>
+    <!-- Daydream choice for selecting a different daydream [CHAR LIMIT=40] -->
+    <string name="device_daydreams_select">"နေ့ခင်းအိပ်မက်"</string>
+    <!-- Daydream choice for testing the selected daydream [CHAR LIMIT=40] -->
+    <string name="device_daydreams_test">"ယခု စတင်ပါ"</string>
+    <!-- Daydream choice for configuring the time before the device goes to sleep [CHAR LIMIT=40] -->
+    <string name="device_daydreams_sleep">"နေ့ခင်းအိပ်မက် အချိန်"</string>
+    <!-- Daydream description for configuring the time before the device goes to sleep [CHAR LIMIT=NONE] -->
+    <string name="device_daydreams_sleep_description">"ဒီမလှုပ်ရှားမှု ကာလ နောက်မှာ နေ့ခင်းအိပ်မက်မှု စတင်သည်။ နေ့ခင်းအိပ်မက်ကို ရွေးမထားလျှင်၊ ပြကွက်ကို ပိတ်လိုက်မည်။"</string>
+    <!-- Daydream summary for displaying the time before the device goes to sleep -->
+    <string name="device_daydreams_sleep_summary">"လှုပ်ရှားမှုမရှိခြင်း၏ <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> ပြီးနောက်"</string>
+    <!-- Daydream choice for configuring the time before the device's screen goes off after dreaming [CHAR LIMIT=40] -->
+    <string name="device_daydreams_screen_off">"နားရန် အချိန်"</string>
+    <!-- Daydream description for configuring the time before the device's screen goes off after dreaming [CHAR LIMIT=NONE] -->
+    <string name="device_daydreams_screen_off_description">"မလှုပ်ရှားမှု ဒီကာလ နောက်မှာ မျက်နှာပြင် ပိတ်သွားမည်။"</string>
+    <!-- Default summary text of the "Configure backup account" setting [CHAR LIMIT=80] -->
+    <string name="backup_configure_account_default_summary">"မည်သည့်အကောင့်မှ ဒေတာအရံသင့်သိမ်းဆည်းခြင်းကို လောလောဆယ်မှာ သိုလှောင်ခြင်း မပြုလုပ်ပါ။"</string>
+    <!-- Dialog title for confirmation to erase backup data from server -->
+    <string name="backup_erase_dialog_title"></string>
+    <!-- Dialog title for confirmation to erase backup data from server -->
+    <string name="backup_erase_dialog_message">"သင်၏ ကြိုးမဲ့ စကားဝှက်များ၊ စာညှပ်များ၊ အခြား ဆက်တင်များ၊ နှင့် app ဒေတာအရံသင့်သိမ်းဆည်းမှု ရပ်စဲလိုက်ကာ Google ဆာဗာများ၏ ကော်ပီ အားလုံးကို ဖျက်ပစ်လိုပါသလား။"</string>
+    <!-- Privacy choice for configuring backing up data [CHAR LIMIT=40] -->
+    <string name="privacy_backup_data">"ကျွန်ုပ်ဒေတာများကို အရန်ထားခြင်း"</string>
+    <!-- Privacy choice for choosing which account to backup [CHAR LIMIT=40] -->
+    <string name="privacy_backup_account">"အရန်ထားသည့် အကောင့်"</string>
+    <!-- Privacy choice for configuring automatic restore [CHAR LIMIT=40] -->
+    <string name="privacy_automatic_restore">"အလိုအလျောက် ပြန်လည်ဖေါ်ထုတ်ရန်"</string>
+    <!-- Factory reset choice for initiating a factory reset [CHAR LIMIT=40] -->
+    <string name="factory_reset_device">"ကိရိယာကို ပြန်ညှိပါ"</string>
+    <!-- Factory reset description about what happens when you perform a factory reset [CHAR LIMIT=NONE] -->
+    <string name="factory_reset_description">"ဒီလုပ်ရပ်က သင့် ကိရိယာ ထဲက ဒေတာများ အားလုံးကို ဖျက်ပစ်မှာ ဖြစ်ပြီး၊ ပါဝင်ကြမည်မှာ: သင်၏ Google အကောင့်၊ စနစ် နှင့် app ဒေတာ နှင့် ဆက်တင်များ၊ ပြီးတော့ ဒေါင်းလုဒ် လုပ်ပြီး appများ။"</string>
+    <!-- Factory reset screen, message on screen after user selects Reset phone button -->
+    <string name="confirm_factory_reset_description">"သင့် ကိုယ်ပိုင် အချက်အလက်များ နှင့် ဒေါင်းလုဒ် ပြုလုပ်ထားသည့် appများ အားလုံးကို ဖျက်မလား? ဒီ လုပ်ဆောင်ချက်ကို သင်သည် ပြန်ပြောင်း၍ မရနိုင်ပါ!"</string>
+    <!-- Factory reset screen, button on screen after user selects Reset phone button -->
+    <string name="confirm_factory_reset_device">"အရာတိုင်းကို ဖျက်ပစ်ရန်"</string>
+    <!-- Title for screen where user selects a name for their device [CHAR LIMIT=NONE] -->
+    <string name="select_title">"သင်၏ ^1 အတွက် အမည်ကို ရွေးပါ"</string>
+    <!-- Description for screen where user selects a name for their device [CHAR LIMIT=NONE] -->
+    <string name="select_description">"အမည် ရှိခြင်းက သင်၏ ^1 ကို သင်၏ ဖုန်း၊ တက်ဘလက်၊ သို့မဟုတ် ကွန်ပျူတာလို အခြား ကိရိယာများမှ သုံးမှုကို ပြသပေးမည်။"</string>
+    <!-- Rooms where a user's device might be placed [CHAR LIMIT=40] -->
+    <string-array name="rooms">
+        <!-- [CHAR LIMIT=40] -->
+        <item>"ဧည့်ခန်း"</item>
+        <!-- [CHAR LIMIT=40] -->
+        <item>"မီဒီယာ အခန်း"</item>
+        <!-- [CHAR LIMIT=40] -->
+        <item>"မိသားစု အခန်း"</item>
+        <!-- [CHAR LIMIT=40] -->
+        <item>"ထမင်းစားခန်း"</item>
+        <!-- [CHAR LIMIT=40] -->
+        <item>"အိမ်မွေးတိရစ္ဆာန်အခန်း"</item>
+        <!-- [CHAR LIMIT=40] -->
+        <item>"အိပ်ခန်း"</item>
+        <!-- [CHAR LIMIT=40] -->
+        <item>"မီးဖိုချောင်"</item>
+    </string-array>
+    <!-- String displayed for option where user will type in a room name rather than selecting from the list of defaults [CHAR LIMIT=40] -->
+    <string name="custom_room">"စိတ်ကြိုက် အမည်ကို ရိုက်ထည့်ရန်\u2026"</string>
+    <!-- Title of settings summary/status screen [CHAR LIMIT=100] -->
+    <string name="settings_status_title">"ဒီ ^1 ကို အမည်ပေးထားပြီ"</string>
+    <!-- Description on summary/status screen that tells you what the name of your device is [CHAR LIMIT=NONE] -->
+    <string name="settings_status_description">"\"^1\" မှာ ဒီ^2 ၏ အမည် ဖြစ်သည်။ သင် အဲဒါကို ပြောင်းလဲချင်ပါသလား?"</string>
+    <!-- The 'yes' or 'edit' equivalent in a yes/no choice circumstance [CHAR LIMIT=30] -->
+    <string name="change_setting">"ပြောင်းလဲရန်"</string>
+    <!-- The 'no' or  'keep the same' equivalent in a yes/no choice circumstance [CHAR LIMIT=30]-->
+    <string name="keep_settings">"မပြောင်းလဲပါနှင့်"</string>
+    <!-- Group header for app permissions [CHAR LIMIT=20] -->
+    <string name="apps_permissions">"ခွင့်ပြုချက်များ"</string>
+    <!-- Item title for app permissions [CHAR LIMIT=20] -->
+    <string name="device_apps_permissions">"App ခွင့်ပြုချက်များ"</string>
+    <!-- Summary of number of apps currently granted a single permission [CHAR LIMIT=45] -->
+    <string name="app_permissions_group_summary">"<xliff:g id="COUNT_0">%d</xliff:g> /<xliff:g id="COUNT_1">%d</xliff:g> app များ ခွင့်ပြုထား၏"</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
+    <string name="security_patch">"Android လုံခြုံမှု ပက်ခ်ျ အဆင့်"</string></resources>

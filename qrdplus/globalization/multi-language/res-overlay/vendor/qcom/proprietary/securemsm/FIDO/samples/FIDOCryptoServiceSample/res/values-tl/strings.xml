@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Mga Setting"</string>
+    <string name="body_msg">"sinusubok ang FidoCryptoService"</string>
+    <string name="load">"i-load"</string>
+    <string name="unload">"i-unload"</string>
+    <string name="process">"Proseso"</string>
+    <string name="start">"magsimula"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"I-bind ang Serbisyong FIDO"</string>
+    <string name="unbindFido">"I-unbind ang Serbisyong FIDO"</string>
+    <string name="setChallenge">"I-set ang Challenge"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"I-bind ang Authenticator"</string>
+    <string name="verifyUser">"VerifyUser / GetToken"</string>
+    <string name="GetInfo">"KuninangInfo"</string>
+    <string name="Register">"Irehistro"</string>
+    <string name="Deregister">"Tanggalin sa pagkakarehistro"</string>
+    <string name="OpenSettings">"BuksanangmgaSetting"</string>
+    <string name="Sign">"Lumagda"</string>
+    <string name="MalformedRequest">"Mali ang Pagkakagawang Kahilingan"</string>
+    <string name="selectAuth">"Pumili ng Authenticator"</string>
+    <string name="getEnrollmentStatus">"Kunin ang Enrollment Status"</string>
+    <string name="RegisterExt">"Magrehistro gamit ang Mga Extension"</string>
+    <string name="SignExt">"Lumagda gamit ang Mga Extension"</string>
+    <string name="encResult">"Encapsulated na Resulta"</string>
+    <string name="extResult">"Datos ng Extension"</string>
+    <string name="selectFidoOpText">"piliin ang FIDO operation"</string>
+    <string name="show_message_sui">"ipakita ang mensaheng sui"</string>
+    <string name="fido_sui_service">"serbisyong fido Sui"</string>
+    <string name="bindFidoSui">"i-bind ang fido sui"</string>
+    <string name="unbindFidoSui">"i-unbind ang fido sui"</string>
+    <string name="suiResultTitle">"ipakita ang resultang sui ng mensahe"</string>
+    <string name="cancel_sui">"kanselahin ang sui"</string>
+    <string name="extensionText">"Gumamit ng Mga Extension?"</string>
+    <string name="pngText">"Gumamit ng Nilalamang PNG?"</string>
+    <string name="fpText">"Ligtas na Fingerprint"</string>
+    <string-array name="authenticator_array">
+        <item>"Mock na Authenticator"</item>
+        <item>"Sample na Authenticator"</item>
+        <item>"Secure na Sample Authenticator"</item>
+        <item>"Sample na Pagpapatunay ng Extension"</item>
+        <item>"Ligtas na Pagpapatunay ng Extension"</item>
+        <item>"Pahintulot sa Kalusugan ng Aparato"</item>
+        <item>"SecureLigtas na Pagpapatunay ng Sample IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Kumuha ng Impormasyon"</item>
+        <item>"Irehistro"</item>
+        <item>"Tanggalin sa pagkakarehistro"</item>
+        <item>"Buksan ang Mga Setting"</item>
+        <item>"Malformed na Exception"</item>
+        <item>"Lagda (Auth)"</item>
+        <item>"Lagda (TX)"</item>
+    </string-array></resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"QC Gallery Scene Detect"</string>
+    <add-resource type="string" name="app_description"/>
+    <string name="app_description">"Rilevamento automatico della scena delle immagini."</string>
+    <add-resource type="string" name="settings_menu"/>
+    <string name="settings_menu">"Impostazioni"</string>
+    <add-resource type="string" name="about_menu"/>
+    <string name="about_menu">"Info su"</string>
+    <add-resource type="string" name="clearassetdatabase_menu"/>
+    <string name="clearassetdatabase_menu">"Cancella database"</string>
+    <add-resource type="string" name="resetapp_menu"/>
+    <string name="resetapp_menu">"Reimposta app"</string>
+    <add-resource type="string" name="imageview_description"/>
+    <string name="imageview_description">"Miniatura immagine"</string>
+    <!--  filter UI -->
+    <add-resource type="string" name="filter_filter_header_text"/>
+    <string name="filter_filter_header_text">"Filtra"</string>
+    <add-resource type="string" name="reset_filter_button_text"/>
+    <string name="reset_filter_button_text">"Cancella"</string>
+    <add-resource type="string" name="udc_add_dialog_title"/>
+    <string name="udc_add_dialog_title">"Aggiungi nuovo concetto"</string>
+    <add-resource type="string" name="udc_add_dialog_ok"/>
+    <string name="udc_add_dialog_ok">"Aggiungi"</string>
+    <add-resource type="string" name="udc_add_dialog_cancel"/>
+    <string name="udc_add_dialog_cancel">"Annulla"</string>
+    <!-- gallery mode processing -->
+    <add-resource type="string" name="engine_notification_title"/>
+    <string name="engine_notification_title">"Qualcomm Technologies Inc, Zeroth SceneDetect"</string>
+    <add-resource type="string" name="engine_notification_scanning"/>
+    <string name="engine_notification_scanning">"SceneDetect sta eseguendo la scansione del tuo dispositivo\u2026"</string>
+    <add-resource type="string" name="engine_notification_analyzing"/>
+    <string name="engine_notification_analyzing">"SceneDetect sta analizzando le tue foto\u2026"</string>
+    <add-resource type="string" name="engine_notification_training"/>
+    <string name="engine_notification_training">"SceneDetect sta aggiornando i tuoi modelli\u2026"</string>
+    <add-resource type="string" name="engine_notification_storing"/>
+    <string name="engine_notification_storing">"Archiviazione dei risultati della classificazione nel database..."</string>
+    <!--  first part: number, second part: already formatted minutes or seconds -->
+    <add-resource type="string" name="engine_notification_togo"/>
+    <string name="engine_notification_togo">"SceneDetect sta analizzando le tue foto: %1$d da eseguire, %2$s rimanenti."</string>
+    <add-resource type="string" name="engine_notification_togo_minutes"/>
+    <string name="engine_notification_togo_minutes">"%1$d minuti"</string>
+    <add-resource type="string" name="engine_notification_togo_minute"/>
+    <string name="engine_notification_togo_minute">"1 minuto"</string>
+    <add-resource type="string" name="engine_notification_togo_seconds"/>
+    <string name="engine_notification_togo_seconds">"%1$d secondi"</string>
+    <add-resource type="string" name="loading_notification"/>
+    <string name="loading_notification">"Caricamento in corso\u2026"</string>
+    <!-- used in parsing preference values for threshold file -->
+    <add-resource type="string" name="asset_prefix"/>
+    <string name="asset_prefix">"risorse://"</string>
+    <add-resource type="string" name="sdcard_prefix"/>
+    <string name="sdcard_prefix">"scheda SD://"</string>
+    <add-resource type="string" name="splash_screen_logo_image"/>
+    <string name="splash_screen_logo_image">"Immagine del logo della schermata iniziale."</string>
+    <add-resource type="string" name="all_photos"/>
+    <string name="all_photos">"Tutte le foto"</string>
+    <add-resource type="string" name="all_videos"/>
+    <string name="all_videos">"Tutti i video"</string>
+    <add-resource type="string" name="all_media"/>
+    <string name="all_media">"Tutti i media"</string>
+    <add-resource type="string" name="album_title"/>
+    <string name="album_title">"Album"</string>
+    <!-- not used for some reason
+    <string name="gallery_bic_tab_title">Filter</string> -->
+    <add-resource type="string" name="gallery_udc_tab_title"/>
+    <string name="gallery_udc_tab_title">"Personale"</string>
+    <add-resource type="string" name="positive_example_desc"/>
+    <string name="positive_example_desc">"Immagine utilizzata come esempio di formazione positiva"</string>
+    <add-resource type="string" name="negative_example_desc"/>
+    <string name="negative_example_desc">"Immagine utilizzata come esempio di formazione negativa"</string>
+    <add-resource type="string" name="video_notification"/>
+    <string name="video_notification">"VIDEO"</string>
+    <add-resource type="string" name="create_udc_action_title"/>
+    <string name="create_udc_action_title">"Crea concetto"</string>
+    <add-resource type="string" name="add_positive_training_example_title"/>
+    <string name="add_positive_training_example_title">"Aggiungi positivo"</string>
+    <add-resource type="string" name="add_negative_training_example_title"/>
+    <string name="add_negative_training_example_title">"Aggiungi negativo"</string>
+    <add-resource type="string" name="train_udc_multiselect_title"/>
+    <string name="train_udc_multiselect_title">"Concetto formazione"</string>
+    <add-resource type="string" name="create_udc_multiselect_title"/>
+    <string name="create_udc_multiselect_title">"Crea concetto"</string>
+    <add-resource type="string" name="multiselect_num_selected_suffix"/>
+    <string name="multiselect_num_selected_suffix">"selezionato"</string></resources>

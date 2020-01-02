@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK демонстрације"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Проширени приказ ван екрана"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Бочни канал у позадини"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Прст насупрот оловке + притисак"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Нагиб осе"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Лебдење и бочно дугме"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Брисач и заобилажење брисача"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"Ова демонстрација приказује функцију ван екрана.\n\n1. Цртајте ван екрана и гледајте свој цртеж са десне стране.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. У доњем десном углу виртуелног екрана постоји дугме. Пређите мишем преко њега на различитим висинама да бисте променили прозирност круга.\n\n3. Притисните га да бисте променили боју круга."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"Ова демонстрација приказује како бочни канал у позадини може да функционише док је екран укључен или искључен.\n\n1. Цртајте ван екрана и гледајте свој цртеж.\n\n2. Потом се пребаците на другу апликацију или искључите екран – цртеж се и даље снима."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Прелазак мишем преко екрана"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Пређите мишем преко екрана на различитим висинама.\n\n2. Онемогућите лебдење помоћу прекидача.\n\n3. Помоћу клизача подесите максималну удаљеност за догађаје лебдење.\n\n4. Притиском на бочну дугмад ће се променити боја круга преласка мишем."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. Конфигуришите SDP дугме као дугме брисача у глобалним подешавањима.\n\n2. Цртајте.\n\n3. Подесите брисач на „Додирните да бисте укључили/искључили“. Притисните дугме брисача. Избришите. Поновним притиском на дугме брисача се пребацујете на режим оловке.\n\n4. Подесите брисач на „Задржите да бисте избрисали“. Сада можете да бришете непосредним додиром.\n\n5. Сада употребите прекидач за заобилажење брисача да бисте онемогућили функцију брисача."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Заобилажење брисача"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Платно брисача"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Цртајте оловком, а затим помоћу прста.\nОва два метода се разликују по боји.\nШирина линије се одређује притиском, што је такође нумерички видљиво."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Притисак"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

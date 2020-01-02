@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources version="1.1">
+    <!-- mmi main-->
+    <string name="btn_all">"VŠETKO"</string>
+    <string name="btn_failed">"ZLYHANIE"</string>
+    <string name="btn_runall">"SPUSTIŤ VŠETKY"</string>
+    <string name="btn_reset">"OBNOVIŤ"</string>
+    <string name="btn_reboot">"REŠTARTOVAŤ"</string>
+    <string name="btn_poweroff">"VYPNÚŤ"</string>
+    <string name="btn_pass">"ÚSPEŠNE"</string>
+    <string name="btn_fail">"ZLYHANIE"</string>
+    <string name="btn_ok">"OK"</string>
+    <string name="btn_cancel">"ZRUŠIŤ"</string>
+    <string name="btn_pageup">"NAHOR"</string>
+    <string name="btn_pagedown">"NADOL"</string>
+    <string name="finish">"DOKONČIŤ"</string>
+    <string name="test_report">"HLÁSENIE TESTU"</string>
+    <!-- common strings -->
+    <string name="on">"Zapnuté"</string>
+    <string name="off">"VYPNUTÉ"</string>
+    <string name="present">"zistené"</string>
+    <string name="absent">"nezistené"</string>
+    <string name="notice">"Test sa spúšťa. Čakajte..."</string>
+    <string name="reset_notice">"želáte si vymazať výsledok testu?"</string>
+    <string name="reboot_poweroff_notice">"(1)  Vypnúť       "</string>
+    <string name="reboot_ffbm_notice">"(2)  Reštartovať do FFBM  "</string>
+    <string name="reboot_android_notice">"(3)  Reštartovať do systému Android"</string>
+    <string name="reboot_notice">"zvoľte režim reštartovania"</string>
+    <string name="pcba_title">"Spustiť test PCBA"</string>
+    <string name="exit">"UKONČIŤ"</string>
+    <!-- system information -->
+    <string name="system_info">"INFORMÁCIE O SYSTÉME"</string>
+    <!-- example information -->
+    <string name="example">"príklad"</string>
+    <!-- camera case -->
+    <string name="camera_back">"ZADNÁ KAMERA
+"</string>
+    <string name="camera_back_main">"ZADNÁ HLAVNÁ KAMERA"</string>
+    <string name="camera_back_aux">"ZADNÁ PRÍD. KAMERA
+"</string>
+    <string name="camera_back_1st">"ZADNÁ KAMERA 1
+"</string>
+    <string name="camera_back_2nd">"ZADNÁ KAMERA 2
+"</string>
+    <string name="camera_front">"PREDNÁ KAMERA
+"</string>
+    <string name="snapshot">"SNÍMKA"</string>
+    <!-- battery case -->
+    <string name="battery">"BATÉRIA"</string>
+    <string name="battery_instruction">"Pripojte/odpojte kábel USB..."</string>
+    <string name="battery_title">"Pripojte/odpojte nabíjačku. Potvrdiť zmenu hodnôt?"</string>
+    <string name="battery_health">"zdravie batérie"</string>
+    <string name="battery_status">"stav batérie"</string>
+    <string name="battery_voltage">"napätie batérie"</string>
+    <string name="charging_indicate">"Vidíte LED kontrolku?"</string>
+    <string name="discharge_indicate">"Batéria je nabitá. Chvíľu ju vybíjajte a potom znova zapojte."</string>
+    <!-- SMB case -->
+    <string name="smb">"SMB"</string>
+    <!-- lcd case -->
+    <string name="lcd">"LCD"</string>
+    <string name="next">"ĎALEJ"</string>
+    <!-- LCD_BACKLIGHT case -->
+    <string name="lcd_backlight">"PODSVIETENIE LCD"</string>
+    <string name="lcd_backlight_on">"PODSVIETENIE LCD ZAP"</string>
+    <string name="lcd_backlight_off">"PODSVIETENIE LCD VYP"</string>
+    <!-- keypad backlight case -->
+    <string name="button_backlight">"PODSVIETENIE KLÁVESNICE"</string>
+    <string name="button_backlight_on">"PODSVIETENIE KLÁVESNICE ZAP"</string>
+    <string name="button_backlight_off">"PODSVIETENIE KLÁVESNICE VYP"</string>
+    <!-- flashlight case -->
+    <string name="flashlight">"BATERKA"</string>
+    <string name="flashlight_1">"FLASHLIGHT_1"</string>
+    <string name="flashlight_on">"BATERKA_ZAP"</string>
+    <string name="flashlight_off">"BATERKA_VYP"</string>
+    <!-- leds case -->
+    <string name="led_red">"ČERVENÁ LED"</string>
+    <string name="led_red_on">"ČERVENÁ LED ZAP"</string>
+    <string name="led_red_off">"ČERVENÁ LED VYP"</string>
+    <string name="led_blue">"MODRÁ LED"</string>
+    <string name="led_blue_on">"MODRÁ LED ZAP"</string>
+    <string name="led_blue_off">"MODRÁ LED VYP"</string>
+    <string name="led_green">"ZELENÁ LED"</string>
+    <string name="led_green_on">"ZELENÁ LED ZAP"</string>
+    <string name="led_green_off">"ZELENÁ LED VYP"</string>
+    <!-- sensors case -->
+    <string name="gyroscope">"GYROSKOPICKÝ SNÍMAČ"</string>
+    <string name="gsensor">"AKCELEROMETRICKÝ SNÍMAČ"</string>
+    <string name="psensor">"SNÍMAČ BLÍZKOSTI"</string>
+    <string name="lsensor">"SVETELNÝ SNÍMAČ"</string>
+    <string name="msensor">"MAGNETOMETRICKÝ SNÍMAČ"</string>
+    <string name="calibration">"KALIBRÁCIA"</string>
+    <string name="lsensor_instruction">"Zakryte svetelný senzor a skontrolujte výsledok"</string>
+    <string name="psensor_instruction">"Zakryte senzor priblíženia a skontrolujte výsledok"</string>
+    <string name="msensor_instruction">"Urobte pohyby v tvare ∞/8/S na kalibráciu senzora magnetometra a skontrolujte výsledok"</string>
+    <!-- sdcard case -->
+    <string name="sdcard">"SDKARTA"</string>
+    <string name="emmc">"EMMC"</string>
+    <string name="storage">"ÚLOŽISKO"</string>
+    <string name="sdcard_present">"Bola zistená karta SD"</string>
+    <string name="sdcard_absent">"Karta SD nebola zistená"</string>
+    <string name="sdcard_capacity">"Kapacita karty SD"</string>
+    <string name="sdcard_used_space">"Využité miesto na karte SD"</string>
+    <string name="sdcard_free_space">"Voľné miesto na karte SD"</string>
+    <!-- memory case -->
+    <string name="memory">"PAMÄŤ"</string>
+    <!-- cpu case -->
+    <string name="cpu">"CPU"</string>
+    <!-- simcard case -->
+    <string name="simcard1">SIMCARD1</string>
+    <string name="simcard2">SIMCARD2</string>
+    <string name="detecting">"zisťovanie..."</string>
+    <!-- touch case -->
+    <string name="touch">"DOTKNÚŤ"</string>
+    <!-- key case -->
+    <string name="key">"KLÁVES"</string>
+    <string name="btn_home">"DOMOV"</string>
+    <string name="btn_menu">"PONUKA"</string>
+    <string name="btn_back">"SPÄŤ"</string>
+    <string name="btn_volumeup">"HLASNEJŠIE"</string>
+    <string name="btn_volumedown">"TICHŠIE"</string>
+    <string name="btn_power">"NAPÁJANIE"</string>
+    <string name="btn_snapshot">"SNÍMKA KAMEROU"</string>
+    <!-- headset_key case -->
+    <string name="headset_key">"NÁHLAVNÁ SÚPRAVA PRIPOJENÁ
+"</string>
+    <string name="btn_guidance">"Pripojte náhlavnú súpravu a stlačte tlačidlo zavesenia, aby ste overili"</string>
+    <string name="btn_headphone_insert">"SLÚCHADLÁ PRIPOJENÉ"</string>
+    <string name="btn_microphone_insert">"MIKROFÓN PRIPOJENÝ
+"</string>
+    <string name="btn_hangup">"POLOŽIŤ"</string>
+    <!-- vibrator case -->
+    <string name="vibrator">"VIBRÁCIA"</string>
+    <string name="vibrator_on">"VIBRÁCIA ZAP"</string>
+    <string name="vibrator_off">"VIBRÁCIA VYP"</string>
+    <string name="vibrating">"Vibrovanie..."</string>
+    <!-- audio case -->
+    <string name="handset">"AUDIO SLÚCHADLO"</string>
+    <string name="audio_handset_play">"PREHRATIE CEZ AUDIO SLÚCHADLO"</string>
+    <string name="audio_handset_play_instruction">"Skúste prehrať hudbu cez slúchadlo"</string>
+    <string name="headset">"AUDIO NÁHLAVNÁ SÚPRAVA"</string>
+    <string name="audio_headset_loopback">"AUDIO NÁHLAVNÁ SÚPRAVA – SPÄTNÁ SLUČKA"</string>
+    <string name="audio_headset_loopback_instruction">"Zapojte náhlavnú súpravu...slučku náhlavnej súpravy overte tak, že budete hovoriť do mikrofónu náhlavnej súpravy"</string>
+    <string name="audio_headset_instruction">"Zapojte náhlavnú súpravu...slučku náhlavnej súpravy overte tak, že budete hovoriť do mikrofónu náhlavnej súpravy"</string>
+    <string name="loudspeaker">"AUDIO REPRODUKTOR"</string>
+    <string name="audio_loudspeaker_play">"PREHRATIE CEZ AUDIO REPRODUKTOR"</string>
+    <string name="audio_loudspeaker_play_instruction">"Skúste prehrať hudbu cez reproduktor"</string>
+    <string name="primary_mic">"PRIMÁRNY MIKROFÓN"</string>
+    <string name="audio_primary_mic">"PRIMÁRNY MIKROFÓN"</string>
+    <string name="audio_primary_mic_instruction">"Hovorte do hlavného mikrofónu a počkajte na prehratie nahratej správy cez reproduktor"</string>
+    <string name="audio_noise_mic">"MIKROFÓN POZADIA"</string>
+    <string name="audio_noise_mic_instruction">"Hovorte do mikrofónu na potlačenie šumu a počkajte na prehratie nahratej správy cez reproduktor"</string>
+    <string name="audio_top_mic">"VRCHNÝ MIKROFÓN"</string>
+    <string name="audio_top_mic_instruction">"Hovorte do horného mikrofónu a počkajte na prehratie nahratej správy cez reproduktor"</string>
+    <string name="primary_mic_test">"Hovorte do hlavného mikrofónu a počkajte na prehratie nahratej správy cez reproduktor"</string>
+    <string name="handset_record">"Hovorte do mikrofónu slúchadla na"</string>
+    <string name="handset_playback">"Prehratím nahratej správy cez slúchadlo si overte možnosť prehrávania"</string>
+    <string name="handset_play">"Skúste prehrať hudbu cez slúchadlo"</string>
+    <string name="headset_record">"Hovorte do mikrofónu slúchadla na"</string>
+    <string name="headset_playback">"Prehratím nahratej správy cez náhlavnú súpravu si overte možnosť prehrávania"</string>
+    <string name="headset_loopback">"Aby ste overili funkciu slučky náhlavnej súpravy, zapojte náhlavnú súpravu a hovorte do jej mikrofónu"</string>
+    <string name="loudspeaker_playback">"Prehratím nahratej správy cez reproduktor si overte možnosť prehrávania"</string>
+    <string name="loudspeaker_play">"Skúste prehrať hudbu cez reproduktor"</string>
+    <string name="headset_second_record">"Hovorte do druhého mikrofónu na"</string>
+    <string name="seconds">"s"</string>
+    <!-- wifi case -->
+    <string name="wifi">"WIFI"</string>
+    <!-- fm case -->
+    <string name="fm">FM</string>
+    <string name="next_tune">"HĽADAŤ ĎALŠIE &gt;&gt;"</string>
+    <string name="playing_tune">"Ladenie prehrávania"</string>
+    <string name="config_audio">"Po spustení nakonfigurujte zvukovú cestu k FM"</string>
+    <string name="search_tune">"Vyhľadávanie dostupného ladenia..."</string>
+    <!-- bluetooth case -->
+    <string name="bluetooth">"BLUETOOTH"</string>
+    <!-- gps case -->
+    <string name="gps">"GPS"</string>
+    <string name="run_garden_app">"Spustiť garden_app..."</string>
+    <!-- nfc case -->
+    <string name="nfc">"NFC"</string>
+    <!-- test report -->
+    <string name="fail_items">"ZLYHANÉ POLOŽKY"</string></resources>

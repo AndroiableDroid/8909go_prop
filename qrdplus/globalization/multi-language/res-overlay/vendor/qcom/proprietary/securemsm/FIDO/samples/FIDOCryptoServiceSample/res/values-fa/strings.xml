@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"تنظیمات"</string>
+    <string name="body_msg">"testing FidoCryptoService"</string>
+    <string name="load">"بارگیری"</string>
+    <string name="unload">"تخلیه بار"</string>
+    <string name="process">"پردازش"</string>
+    <string name="start">"شروع"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"اتصال به سرویس FIDO"</string>
+    <string name="unbindFido">"لغو اتصال سرویس FIDO"</string>
+    <string name="setChallenge">"تنظیم چالش"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"تأییدکننده اتصال"</string>
+    <string name="verifyUser">"تأیید کاربر / دریافت نشانه"</string>
+    <string name="GetInfo">"دریافت اطلاعات"</string>
+    <string name="Register">"ثبت"</string>
+    <string name="Deregister">"لغو ثبت"</string>
+    <string name="OpenSettings">"باز کردن تنظیمات"</string>
+    <string name="Sign">"علامت"</string>
+    <string name="MalformedRequest">"MalformedRequest"</string>
+    <string name="selectAuth">"انتخاب تأییدکننده"</string>
+    <string name="getEnrollmentStatus">"دریافت وضعیت ثبت نام"</string>
+    <string name="RegisterExt">"ثبت با افزونه"</string>
+    <string name="SignExt">"ورود به سیستم با افزونه"</string>
+    <string name="encResult">"نتیجه خلاصه"</string>
+    <string name="extResult">"داده‌های افزونه"</string>
+    <string name="selectFidoOpText">"انتخاب عملکرد FIDO"</string>
+    <string name="show_message_sui">"نمایش sui پیام"</string>
+    <string name="fido_sui_service">"سرویس fido Sui"</string>
+    <string name="bindFidoSui">"اتصال به fido sui"</string>
+    <string name="unbindFidoSui">"لغو اتصال fido sui"</string>
+    <string name="suiResultTitle">"نمایش نتیجه sui پیام"</string>
+    <string name="cancel_sui">"لغو sui"</string>
+    <string name="extensionText">"از افزونه استفاده شود؟"</string>
+    <string name="pngText">"از محتوای PNG استفاده شود؟"</string>
+    <string name="fpText">"اثر انگشت امن"</string>
+    <string-array name="authenticator_array">
+        <item>"تأییدکننده کاذب"</item>
+        <item>"تأییدکننده نمونه"</item>
+        <item>"تأییدکننده نمونه امن"</item>
+        <item>"تأییدکننده اعتبار افزونه نمونه"</item>
+        <item>"تأییدکننده اعتبار افزونه امن"</item>
+        <item>"تأییدکننده اعتبار سلامت دستگاه"</item>
+        <item>"تأییدکننده اعتبار نمونه امن IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"دریافت اطلاعات"</item>
+        <item>"ثبت"</item>
+        <item>"لغو ثبت"</item>
+        <item>"باز کردن تنظیمات"</item>
+        <item>"استثنای نادرست"</item>
+        <item>"نشان (تأییداعتبار)"</item>
+        <item>"نشان (TX)"</item>
+    </string-array></resources>

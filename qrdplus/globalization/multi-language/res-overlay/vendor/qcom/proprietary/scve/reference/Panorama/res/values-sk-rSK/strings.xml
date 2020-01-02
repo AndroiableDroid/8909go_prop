@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Rozhranie Panoráma"</string>
+    <string name="title_loading">"Načítava sa!"</string>
+    <string name="msg_loading">"Spracúva sa\u2026"</string>
+    <string name="panorama_saved">"Panoráma sa úspešne uložila do fotogalérie vo vašom zariadení"</string>
+    <string name="panorama_generate_result_failed">"Ľutujeme, skúste to znovu."</string>
+    <string name="error_dialog_title">"Chyba aplikácie"</string>
+    <string name="btn_ok">"OK"</string>
+    <string name="btn_txt_save">"Uložiť obrázok"</string>
+    <string name="err_library_loading">"Aplikácii sa nepodarilo načítať natívne knižnice."</string>
+    <string name="err_camera_init">"Fotoaparát sa nepodarilo inicializovať."</string>
+    <string name="err_sensors_init">"Senzory sa nepodarilo inicializovať."</string>
+    <string name="err_pano_init">"Rozhranie API aplikácie Panoráma sa nepodarilo inicializovať."</string>
+    <string name="err_sensors_failed">"Senzory sa nepodarilo inicializovať."</string>
+    <string name="err_zsl_failed">"Režim ZSL nie je pre toto zariadenie podporovaný."</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"Relácia sa neinicializovala"</string>
+    <string name="err_queue_full">"Rad je plný"</string>
+    <string name="err_max_key_frames">"Dosiahol sa maximálny počet snímok"</string>
+    <string name="err_no_frame_overlap">"Žiadne prekrytie medzi snímkami"</string>
+    <string name="err_inconsistent_direction">"Smer nie je konzistentný"</string>
+    <string name="err_result_not_ready">"Výsledok nie je pripravený"</string>
+    <string name="err_frame_no_feature">"Snímka nemá dostatok charakteristických znakov"</string>
+    <string name="err_direction_changed">"Smer sa zmenil, kliknite na tlačidlo OK na zobrazenie zosnímaného panoramatického obrázka."</string>
+    <string name="err_panorama_loading">"Načítanie panoramatického obrázka zlyhalo."</string>
+    <string name="err_panorama_saving">"Uloženie panoramatického obrázka zlyhalo."</string>
+    <string name="err_api_capturing">"Snímanie panorámy zlyhalo."</string>
+    <string name="err_api_halted">"Snímanie panorámy je zastavené, kliknite na tlačidlo OK na zobrazenie zosnímaného panoramatického obrázka."</string>
+    <string name="err_max_limit">"Dosiahol sa maximálny počet snímok, kliknite na tlačidlo OK na zobrazenie zosnímaného panoramatického obrázka."</string>
+    <string name="err_no_prv">"Nezosnímala sa žiadna ukážka."</string>
+    <string name="title_settings">"Nastavenia"</string>
+    <string name="camera_settings">"Nastavenia fotoaparátu"</string>
+    <string name="camera_settings_picture_size">"Rozlíšenie"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string name="camera_settings_exposure_compensation">"Kompenzácia expozície"</string>
+    <string name="camera_settings_white_balance">"Vyváženie bielej"</string>
+    <string-array name="camera_settings_white_balance_entries">
+        <item>"Auto"</item>
+        <item>"Denné svetlo"</item>
+        <item>"Svetielkujúce"</item>
+        <item>"Žiariace"</item>
+        <item>"Tieň"</item>
+        <item>"Súmrak"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values">
+        <item>"auto"</item>
+        <item>"daylight"</item>
+        <item>"fluorescent"</item>
+        <item>"incandescent"</item>
+        <item>"shade"</item>
+        <item>"twilight"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values_camera2">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>7</item>
+    </string-array>
+    <string name="camera_settings_scene_mode">"Režim scény"</string>
+    <string-array name="camera_settings_scene_mode_entries">
+        <item>"Akcia"</item>
+        <item>"Auto"</item>
+        <item>"Noc"</item>
+        <item>"Strana"</item>
+        <item>"Západ slnka"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values">
+        <item>"action"</item>
+        <item>"auto"</item>
+        <item>"night"</item>
+        <item>"party"</item>
+        <item>"sunset"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values_camera2">
+        <item>2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"Režim zaostrenia"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"Priebežný (video)"</item>
+        <item>"Nekonečno"</item>
+        <item>"Pevné"</item>
+        <item>"Priebežný (fotografia)"</item>
+        <item>"Auto"</item>
+        <item>"Zväčšená hĺbka ostrosti"</item>
+        <item>"Makro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"fixed"</item>
+        <item>"continuous-picture"</item>
+        <item>"auto"</item>
+        <item>"edof"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>3</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_iso">ISO</string>
+    <string-array name="camera_settings_iso_entries">
+        <item>"Auto"</item>
+        <item>"Redukcia chvenia ruky"</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="camera_settings_iso_values">
+        <item>"auto"</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>"ISO3200"</item>
+    </string-array>
+    <string name="camera_settings_iso_default">ISO800</string>
+    <string name="pano_settings">"Nastavenia panorámy"</string>
+    <string name="pano_settings_scve_mode">"Prevádzkový režim SCVE"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"Predvolené"</item>
+        <item>"Zníženie zaťaženia CPU"</item>
+        <item>"Výkonnosť"</item>
+        <item>"Nízky výkon"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_image_compress_level">"Úroveň kompresie obrázka"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_3a_lock">"Uzamknutie AE/AF/AWB počas snímania panorámy"</string>
+    <string-array name="pano_settings_enable_3a_lock_entries">
+        <item>"Nie"</item>
+        <item>"Áno"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_3a_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_3a_lock_default">"true"</string>
+    <string name="debug_settings">"Nastavenia ladenia"</string>
+    <string name="debug_settings_enable_loggings">"Podrobné zapisovanie do denníka"</string>
+    <string-array name="debug_settings_enable_loggings_entries">
+        <item>"Vypnuté"</item>
+        <item>"Zapnuté"</item>
+    </string-array>
+    <string-array name="debug_settings_enable_loggings_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_enable_loggings_default">"false"</string>
+    <string name="debug_settings_save_preview_frames">"Ukladanie snímok s ukážkou na kartu SD"</string>
+    <string-array name="debug_settings_save_preview_frames_entries">
+        <item>"Nie"</item>
+        <item>"Áno"</item>
+    </string-array>
+    <string-array name="debug_settings_save_preview_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_preview_frames_default">"false"</string>
+    <string name="debug_settings_save_key_frames">"Ukladanie kľúčových snímok na kartu SD"</string>
+    <string-array name="debug_settings_save_key_frames_entries">
+        <item>"Nie"</item>
+        <item>"Áno"</item>
+    </string-array>
+    <string-array name="debug_settings_save_key_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_key_frames_default">"false"</string>
+    <!-- PanoramaViewer -->
+    <string name="share_button_text">"Zdieľať panoramatický obrázok"</string></resources>

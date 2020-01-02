@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"STA"</string>
+    <string name="title_settings_activity">"ဆက်တင်များ"</string>
+    <string name="title_contact_activity">"လိပ်စာထပ်ထည့်ပါ"</string>
+    <string name="title_event_activity">"အစီအစဉ် ထည့်ပါ"</string>
+    <string name="title_add_field">"ခေါင်းစဉ် ရွေးချယ်ပါ"</string>
+    <string name="title_text_activity">"ရလဒ်များ"</string>
+    <string name="title_pick_datetime">"နေ့စွဲ အချိန် ရွေးပါ"</string>
+    <string name="title_app_message">"စာတို"</string>
+    <string name="menu_item_copy">"ကူးခြင်း"</string>
+    <string name="menu_item_edit">"တည်းဖြတ်"</string>
+    <string name="date_picker_ok">"ကောင်းပြီ"</string>
+    <string name="date_picker_cancel">"ထားတော့"</string>
+    <string name="dropdown_none_option">"တစ်ခုမှမဟုတ်"</string>
+    <string name="scan_more">"ထပ်မံ ရှာဖွေပါ"</string>
+    <string name="bar_save_option">"သိမ်းပါ"</string>
+    <string name="bar_done_option">"ပြီးပါပြီ"</string>
+    <string name="camera_option_open_image">"ပုံရိပ် ဖွင့်ပါ"</string>
+    <string name="camera_option_settings">"ဆက်တင်များ"</string>
+    <string name="text_action_search">"ရှာဖွေခြင်း"</string>
+    <string name="text_action_translate">"ဘာသာပြန်"</string>
+    <string name="text_action_copy">"ကူးခြင်း"</string>
+    <string name="translate_url">"https://translate.google.com/m/translate#auto/"</string>
+    <string name="instruction_camera">"စီးပွားရေးလုပ်ငန်း ကဒ်များ၊ ကြော်ငြာကဒ်များနှင့် အခြားပုံရိပ်များမှ အသုံးတည့်သည့်အချက်အလက်ကို ထုတ်နုတ်ရန် သင်၏ကင်မရာကို အသုံးပြုပါ"</string>
+    <string name="instruction_dont_show">"၎င်းကိုထပ်မံမပြသပါနှင့်"</string>
+    <string name="instruction_dismiss_button">"ကောင်းပြီ"</string>
+    <string name="message_no_more_fields">"နောက်ထပ် ထည့်ရန်မအောင်မြင်ပါ"</string>
+    <string name="message_contact_saved">"အဆက်အသွယ်ကို အောင်မြင်စွာ သိမ်းဆည်းထားသည်။"</string>
+    <string name="message_calendar_saved">"ပြက္ခဒိန်အစီအစဉ်ကို အောင်မြင်စွာ သိမ်းဆည်းထားသည်။"</string>
+    <string name="message_text_copied">"စာသားကို ကူးယူထားသည်။"</string>
+    <string name="message_no_matching_app">"ဖြေရှင်းရန် အပလီကေးရှင်းမရှိပါ"</string>
+    <string name="message_gallery_pan_zoom">"ဤရုပ်ပုံမှ ပတ်တန်ကို အမှတ်အသားပြုရန် ရုပ်ငြိမ်လှုပ်ရှားမှုနှင့် ချုံ့ချဲ့ပြုလုပ်နိုင်သည်။"</string>
+    <string name="message_restart_scanning">"ပြန်လည်စတင်ရန် ကျေးဇူးပြု၍နှိပ်ပါ။"</string>
+    <string name="message_no_dates">"နေ့စွဲများကို အမှတ်အသားပြုမထားပါ"</string>
+    <string name="message_hold_steady">"စာသားကို ချိန်ထားပြီး ဖြည်းညှင်းစွာနှိပ်ပါ"</string>
+    <!-- Error information -->
+    <string name="error_prefix">" အမှား : 0x"</string>
+    <string name="error_title">"အမှား"</string>
+    <string name="error_dismiss_button">"ကောင်းပြီ"</string>
+    <string name="error_camera_failed">"ကင်မရာကို အစပျိုးလုပ်ဆောင်ရန် မအောင်မြင်ပါ။"</string>
+    <string name="error_camera_snapshot_failed">"ကင်မရာကို လျှပ်တပြက်ရိုက်ချက် ရိုက်ယူရန် မအောင်မြင်ပါ။"</string>
+    <string name="error_galleryImage_load">"ပုံရိပ်တင်ပို့လုပ်ဆောင်ရန် အပလီကေးရှင်း မအောင်မြင်ပါ။"</string>
+    <string name="error_api_frame_timeout">"No text recognized."</string>
+    <string name="error_api_init_failed">"STA Api ကို အစပျိုးလုပ်ဆောင်ရန် မအောင်မြင်ပါ။"</string>
+    <string name="error_api_parsing_failed">"ပုံရိပ်ကို သုံးသပ်ရန် STA Api မအောင်မြင်ပါ၊ ထပ်မံကြိုးစားပါ။"</string>
+    <string name="error_api_no_records">"No text recognized."</string>
+    <string name="error_api_restart_failed">"API ပြန်လည်စတင်ရန် မအောင်မြင်ပါ။"</string>
+    <string name="error_api_no_new_records">"အချက်အလက်အသစ် ရှာမတွေ့ပါ။"</string>
+    <string name="error_min_max_limit">"%1$s နှင့် အကြား တန်ဖိုးတစ်ခု ထည့်သွင်းပါ%2$s"</string>
+    <string name="error_no_sta_data_selected">"ကျေးဇူးပြု၍ အနည်းဆုံး တစ်ခုကိုရွေးချယ်ပါ။"</string>
+    <!-- Contact information -->
+    <string name="contact_name_field_caption">"အမည်"</string>
+    <string name="contact_nickname_field_caption">"အခြားအမည်"</string>
+    <string name="contact_nickname_field_name">"နာမည်ပြောင်"</string>
+    <string name="contact_title_field_caption">"TITLE"</string>
+    <string name="contact_company_field_caption">"ကုမ္ပဏီ"</string>
+    <string name="contact_phone_work_field_caption">"ဖုန်း"</string>
+    <string name="contact_phone_work_field_name">"ဖုန်း (အလုပ်)"</string>
+    <string name="contact_phone_mobile_field_caption">"ဖုန်း"</string>
+    <string name="contact_phone_mobile_field_name">"ဖုန်း (မိုဘိုင်း)"</string>
+    <string name="contact_phone_home_field_caption">"ဖုန်း"</string>
+    <string name="contact_phone_home_field_name">"ဖုန်း (အိမ်)"</string>
+    <string name="contact_phone_fax_field_caption">"ဖုန်း"</string>
+    <string name="contact_phone_fax_field_name">"ဖုန်း (ဖက်စ်)"</string>
+    <string name="contact_address_field_caption">"လိပ်စာ"</string>
+    <string name="contact_address_field_name">"လိပ်စာ"</string>
+    <string name="contact_email_field_caption">"အီးမေးလ်"</string>
+    <string name="contact_email_field_name">"အီးမေးလ်"</string>
+    <string name="contact_website_field_caption">"ဝဘ်ဆိုဒ်"</string>
+    <string name="contact_website_field_name">"ဝက်ဘ်ဆိုက်"</string>
+    <string name="contact_im_field_caption">"IM"</string>
+    <string name="contact_relationship_field_caption">"တော်စပ်ပုံ"</string>
+    <string name="contact_relationship_field_name">"တော်စပ်ပုံ"</string>
+    <string name="contact_notes_field_caption">"မှတ်ချက်များ"</string>
+    <string name="contact_notes_field_name">"မှတ်စုများ"</string>
+    <!-- Event information -->
+    <string name="event_title_field_caption">"TITLE"</string>
+    <string name="event_from_date_field_caption">"မှ"</string>
+    <string name="event_to_date_field_caption">"သို့"</string>
+    <string name="event_location_field_caption">"တည်နေရာ -"</string>
+    <string name="event_location_field_name">"တည်နေရာ"</string>
+    <string name="event_all_day_field_caption">"နေ့တိုင်း"</string>
+    <string name="event_repeat_field_caption">"ထပ်တလဲလဲ"</string>
+    <string name="event_details_field_caption">"အသေးစိတ်အချက်များ"</string>
+    <string name="event_details_field_name">"အသေးစိတ်များ"</string>
+    <string name="event_participants_field_caption">"အဖွဲ့ဝင်များ"</string>
+    <string name="event_participants_field_name">"အဖွဲ့ဝင်များ"</string>
+    <string name="event_date_time_format_long">"EEE လ/ရက်/ခုနှစ် နာရီ:မိနစ် a"</string>
+    <string name="event_date_time_format_small">"လ/ရက်/ခုနှစ် နာရီ:မိနစ် a"</string>
+    <string name="event_date_format_long">"EEE လ/ရက်/ခုနှစ်"</string>
+    <string name="event_date_format_small">"လ ရက်၊ ခုနှစ်"</string>
+    <string name="event_date_format_month_small">"လ"</string>
+    <string name="event_date_format_month_full">"လ"</string>
+    <string name="event_date_format_year">"ခုနှစ်"</string>
+    <string name="event_date_format_weekday">"EEE"</string>
+    <string name="event_date_format_small_no_year">"EEE လ ရက်"</string>
+    <string name="event_time_format">"h:mm a"</string>
+    <string name="event_date_separator">"-"</string>
+    <string name="preview_type_key">"com.qualcomm.qti.sta.captureui.CameraActivity.preview_type"</string>
+    <string name="preview_type_button">"ခလုတ်"</string>
+    <string name="preview_type_auto">"အလိုအလျောက်"</string>
+    <!-- Repeat -->
+    <string name="repeat_title">"ထပ်လုပ်ရန်"</string>
+    <string name="repeat_button_cancel">"ထားတော့"</string>
+    <string name="repeat_button_ok">"ကောင်းပြီ"</string>
+    <string name="repeat_summary_one_time">"တစ်ကြိမ် ဖြစ်ရပ်"</string>
+    <string name="repeat_summary_daily">"နေ့စဉ်"</string>
+    <string name="repeat_summary_daily_every">"%1$s ရက်တိုင်း"</string>
+    <string name="repeat_summary_weekly">"အပတ်စဉ်တိုင်း%1$s"</string>
+    <string name="repeat_summary_weekly_every">"%1$s သီတင်းပတ်တိုင်း%2$s"</string>
+    <string name="repeat_summary_monthly_date">"လစဉ် နေ့တွင်%1$s"</string>
+    <string name="repeat_summary_monthly_day">"လစဉ်တိုင်း%1$s"</string>
+    <string name="repeat_summary_monthly_date_every">"လစဉ် %1$s လတိုင်း နေ့တွင်%2$s"</string>
+    <string name="repeat_summary_monthly_day_every">"လစဉ် %1$s လတိုင်း နေ့တွင်%2$s"</string>
+    <string name="repeat_summary_yearly">"နှစ်စဉ်တိုင်း%1$s"</string>
+    <string name="repeat_summary_yearly_every">"%1$s နှစ်တိုင်း%2$s"</string>
+    <string name="repeat_summary_till_date">"မတိုင်မီ%1$s"</string>
+    <string name="repeat_summary_till_events">"အရာဝတ္ထု %1$s ခုအတွက်"</string>
+    <string name="repeat_summary_till_one_event">"1 က်ြိမ်အတွက်"</string>
+    <string name="repeat_title_pick_date">"နေ့စွဲ သတ်မှတ်ပါ"</string>
+    <string name="repeat_one_time">"တစ်ကြိမ် ဖြစ်ရပ်"</string>
+    <string name="repeat_daily">"နေ့စဉ် ထပ်တလဲလဲ"</string>
+    <string name="repeat_weekly">"အပတ်စဉ် ထပ်တလဲလဲ"</string>
+    <string name="repeat_monthly">"လစဉ် ထပ်တလဲလဲ"</string>
+    <string name="repeat_yearly">"နှစ်စဉ် ထပ်တလဲလဲ"</string>
+    <string name="repeat_till_day">"ရက်"</string>
+    <string name="repeat_till_week">"အပတ်"</string>
+    <string name="repeat_till_month">"လ"</string>
+    <string name="repeat_till_year">"နှစ်"</string>
+    <string name="sunday_name">"တနင်္ဂနွေ"</string>
+    <string name="monday_name">"တနင်္လာ"</string>
+    <string name="tuesday_name">"အင်္ဂါ"</string>
+    <string name="wednesday_name">"ဗုဒ္ဓဟူး"</string>
+    <string name="thursday_name">"ကြာသပတေး"</string>
+    <string name="friday_name">"သောကြာ"</string>
+    <string name="saturday_name">"စနေ"</string>
+    <string-array name="number_texts">
+        <item>"ပထမ"</item>
+        <item>"ဒု​တိ​ယ​"</item>
+        <item>"တတိယ"</item>
+        <item>"စတုတ္ထ"</item>
+        <item>"ငါးရက်မြောက်"</item>
+    </string-array>
+    <string-array name="two_letter_day_names">
+        <item>"တနင်္ဂနွေ"</item>
+        <item>"တနင်္လာ"</item>
+        <item>"အင်္ဂါ"</item>
+        <item>"ဗုဒ္ဓဟူး"</item>
+        <item>"ကြာသပတေး"</item>
+        <item>"သောကြာ"</item>
+        <item>"စနေ"</item>
+    </string-array>
+    <string-array name="short_day_names">
+        <item>@string/sunday_name</item>
+        <item>@string/monday_name</item>
+        <item>@string/tuesday_name</item>
+        <item>@string/wednesday_name</item>
+        <item>@string/thursday_name</item>
+        <item>@string/friday_name</item>
+        <item>@string/saturday_name</item>
+    </string-array>
+    <string-array name="complete_day_names">
+        <item>"တနင်္ဂနွေ"</item>
+        <item>"တနင်္လာ"</item>
+        <item>"အင်္ဂါ"</item>
+        <item>"ဗုဒ္ဓဟူး"</item>
+        <item>"ကြာသပတေး"</item>
+        <item>"သောကြာ"</item>
+        <item>"စနေ"</item>
+    </string-array>
+    <string name="repeat_month_same_date">"တစ်လစီ၌ တူညီသောနေ့တွင်"</string>
+    <string name="repeat_month_same_day">"တိုင်းတွင်"</string>
+    <string name="repeat_every_caption">"တိုင်း"</string>
+    <string-array name="till_types">
+        <item>"ထာဝရ"</item>
+        <item>"မတိုင်မီ"</item>
+        <item>"ထပ်မံလုပ်ဆောင်မှုများ"</item>
+    </string-array>
+    <!-- Settings -->
+    <string name="setting_sta_data_type">"STA ဒေတာ အမျိုးအစားများ"</string>
+    <string name="setting_sta_locale_type">"STA ဒေသတွင်း"</string>
+    <string name="setting_text_record_mode">"ကင်မရာ အနေအထား"</string>
+    <string name="setting_camera_steady_duration">"ကင်မရာ အရံသင့် ကြာချိန် (ms တွင်)"</string>
+    <string name="setting_camera_move_threshold">"ကင်မရာ ရွေ့လျားမှု သတ်မှတ်ချက်အဆင့်"</string>
+    <string name="setting_sta_locale_usa">"USA"</string>
+    <string name="setting_sta_locale_china">"CHN"</string>
+    <string name="setting_sta_locale_korea">"KOR"</string>
+    <string name="setting_default_sta_locale">@string/setting_sta_locale_usa</string>
+    <string name="setting_text_record_snapshot_mode">"လျှပ်တပြက်ရိုက်ချက်"</string>
+    <string name="setting_text_record_preview_mode">"ကြိုတင်ကြည့်ပါ"</string>
+    <string name="setting_default_text_record_mode">@string/setting_text_record_snapshot_mode</string>
+    <string name="setting_sta_language_usa">"en"</string>
+    <string name="setting_sta_language_china">"zh-CN"</string>
+    <string name="setting_sta_langauge_korea">"ko"</string>
+    <string-array name="setting_sta_data_type_options">
+        <item>"အီးမေးလ်"</item>
+        <item>"URL"</item>
+        <item>"ဖုန်းနံပါတ်"</item>
+        <item>"လိပ်စာ"</item>
+        <item>"ရက်စွဲ"</item>
+        <item>"ယေဘုယျ"</item>
+    </string-array>
+    <string-array name="setting_sta_data_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type">
+        <item>"USA"</item>
+        <item>"တရုတ်နိုင်ငံ"</item>
+        <item>"ကိုရီးယား"</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type_values">
+        <item>@string/setting_sta_locale_usa</item>
+        <item>@string/setting_sta_locale_china</item>
+        <item>@string/setting_sta_locale_korea</item>
+    </string-array>
+    <string-array name="setting_text_record_options">
+        <item>@string/setting_text_record_snapshot_mode</item>
+        <item>@string/setting_text_record_preview_mode</item>
+    </string-array>
+    <string name="settings_scve_mode">"SCVE လုပ်ဆောင်ချက် အနေအထား"</string>
+    <string-array name="settings_scve_mode_entries">
+        <item>"ပုံသေ"</item>
+        <item>"CPU အပိတ်လုပ်ဆောင်မှု"</item>
+        <item>"ဖျော်ဖြေတင်ဆက်မှု"</item>
+        </string-array>
+    <string-array name="settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+    </string-array>
+    <string name="settings_scve_mode_default">0</string></resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Wfd کلائنٹ"</string>
+    <string name="preferences_name">"ترجیحات"</string>
+    <string name="advanced_preferences_name">"اعلی ترجیحات"</string>
+    <string name="surface_activity_name">"سطحی سرگرمی"</string>
+    <string name="wfd_resolution_settings">wfd_resolution_settings</string>
+	<string name="resolution_list_title">"مطلوب ریزولوشن"</string>
+	<string name="resolution_list_summary">"ریزولوشن منتخب کریں"</string>
+	<string name="resolution_dialog_title">"ریزولوشن کا انتخاب کریں"</string>
+	<string name="resolution_list_options_default_values">0</string>
+	<string name="wfd_bitrate_settings">wfd_bitrate_settings</string>
+	<string name="bitrate_list_title">"مطلوب بِٹ ریٹ"</string>
+	<string name="bitrate_list_summary">"بِٹ ریٹ منتخب کریں"</string>
+	<string name="bitrate_dialog_title">"بِٹ ریٹ چنیں"</string>
+	<string name="bitrate_list_options_default_values">12</string>
+	<string name="btn_source">"ماخذ"</string>
+	<string name="btn_sink">"سنک"</string>
+	<string name="btn_find">"ڈھونڈیں"</string>
+    <string name="btn_create_group">"گروپ تخلیق کریں"</string>
+    <string name="btn_remove_group">"گروپ ہٹائیں"</string>
+	<string name="btn_blank">"سادہ"</string>
+	<string name="tv_peers">"ہمسر"</string>
+	<string name="btn_play_pause">"پلے کریں"</string>
+	<string name="btn_standby_resume">"اسٹینڈ بائی"</string>
+	<string name="btn_teardown">"چیر پھاڑ"</string>
+	<string name="btn_start_stop_uibc">"UIBC شروع کریں"</string>
+	<string name="btn_transport_udp_tcp">"TCP"</string>
+	<string name="btn_flush">"FLUSH"</string>
+    <string name="btn_enable_disable_ds">"DS کو فعال کریں"</string>
+    <string name="enable_p2p_button">"P2P آن/آف"</string>
+    <string name="discover_peers_button">"دریافت کریں"</string>
+    <string name="connect_peer_button">"مربوط کریں"</string>
+    <string name="connect_options_peer_button">"مربوط کرنے کے اختیارات"</string>
+    <string name="disconnect_peer_button">"منقطع کریں"</string>
+    <string name="start_client_button">"سیشن شروع کریں"</string>
+    <string name="start_uibc_button">"UIBC شروع کریں"</string>
+    <string name="empty"></string>
+    <string name="yes">"ہاں"</string>
+    <string name="no">"نہیں"</string>
+    <string name="client_text">"یہ آلہ بطور کلائنٹ کام کرے گا۔ مقامی (ذخیرہ شدہ) فائل چننے کے لیے گیلری بٹن پر کلک کریں"</string>
+    <string name="empty_message">"کوئی آلات نہیں ملے۔ کاروائی بار سے تلاش بٹن منتخب کریں۔"</string>
+    <string name="p2p_off_warning">"سسٹم ترتیبات میں سے P2P فعال کریں"</string>
+    <string name="group_owner_text">"کیا میں گروپ کا مالک ہوں؟ "</string>
+    <string name="toggle">"ٹوگل کریں"</string>
+    <string name="filter">"فلٹر کریں"</string>
+    <string name="position">"پوزیشن"</string>
+    <string name="expanded">"پھیلایا ہوا"</string></resources>

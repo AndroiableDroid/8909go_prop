@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"STA"</string>
+    <string name="title_settings_activity">"Einstellungen"</string>
+    <string name="title_contact_activity">"Kontakt hinzufügen"</string>
+    <string name="title_event_activity">"Termin hinzufügen"</string>
+    <string name="title_add_field">"Label auswählen"</string>
+    <string name="title_text_activity">"Suchergebnisse"</string>
+    <string name="title_pick_datetime">"Datum/Uhrzeit wählen"</string>
+    <string name="title_app_message">"Nachricht"</string>
+    <string name="menu_item_copy">"Kopieren"</string>
+    <string name="menu_item_edit">"Bearbeiten"</string>
+    <string name="date_picker_ok">"OK"</string>
+    <string name="date_picker_cancel">"Abbrechen"</string>
+    <string name="dropdown_none_option">"Kein"</string>
+    <string name="scan_more">"Mehr suchen"</string>
+    <string name="bar_save_option">"Speichern"</string>
+    <string name="bar_done_option">"Fertig"</string>
+    <string name="camera_option_open_image">"Bild öffnen"</string>
+    <string name="camera_option_settings">"Einstellungen"</string>
+    <string name="text_action_search">"Suchen"</string>
+    <string name="text_action_translate">"Übersetzen"</string>
+    <string name="text_action_copy">"Kopieren"</string>
+    <string name="translate_url">"https://translate.google.com/m/translate#auto/"</string>
+    <string name="instruction_camera">"Sie können mit Ihrer Kamera nützliche Informationen von Visitenkarten, Flyern und anderen Bildern erfassen."</string>
+    <string name="instruction_dont_show">"Nicht erneut anzeigen"</string>
+    <string name="instruction_dismiss_button">"OK"</string>
+    <string name="message_no_more_fields">"Keine hinzuzuf. Felder mehr"</string>
+    <string name="message_contact_saved">"Kontakt erfolgreich gespeichert."</string>
+    <string name="message_calendar_saved">"Kalendertermin erfolgreich gespeichert"</string>
+    <string name="message_text_copied">"Text kopiert."</string>
+    <string name="message_no_matching_app">"Keine App dafür"</string>
+    <string name="message_gallery_pan_zoom">"Durch Schwenken oder Zoomen können Sie das Muster von diesem Foto erkennen."</string>
+    <string name="message_restart_scanning">"Zum Neustarten berühren."</string>
+    <string name="message_no_dates">"Kein Datum erkannt"</string>
+    <string name="message_hold_steady">"Auf Text richten und ruhig halten"</string>
+    <!-- Error information -->
+    <string name="error_prefix">" Fehler: 0x"</string>
+    <string name="error_title">"Fehler"</string>
+    <string name="error_dismiss_button">"OK"</string>
+    <string name="error_camera_failed">"Kamera wurde nicht initialisiert."</string>
+    <string name="error_camera_snapshot_failed">"Kamera hat Schnappschuss nicht aufgenommen."</string>
+    <string name="error_galleryImage_load">"Kamera hat Bild nicht geladen."</string>
+    <string name="error_api_frame_timeout">"Kein Text erkannt."</string>
+    <string name="error_api_init_failed">"STA-API wurde nicht intialisiert."</string>
+    <string name="error_api_parsing_failed">"STA-API konnte Bild nicht parsen. Bitte erneut versuchen."</string>
+    <string name="error_api_no_records">"Kein Text erkannt."</string>
+    <string name="error_api_restart_failed">"API-Neustart fehlgeschlagen."</string>
+    <string name="error_api_no_new_records">"Keine neuen Informationen."</string>
+    <string name="error_min_max_limit">"Geben Sie einen Wert ein zwischen %1$s und %2$s"</string>
+    <string name="error_no_sta_data_selected">"Wählen Sie mindestens eins aus."</string>
+    <!-- Contact information -->
+    <string name="contact_name_field_caption">"NAME"</string>
+    <string name="contact_nickname_field_caption">"NICKNAME"</string>
+    <string name="contact_nickname_field_name">"Nickname"</string>
+    <string name="contact_title_field_caption">"TITEL"</string>
+    <string name="contact_company_field_caption">"FIRMA"</string>
+    <string name="contact_phone_work_field_caption">"TELEFON"</string>
+    <string name="contact_phone_work_field_name">"Telefon (dienstl.)"</string>
+    <string name="contact_phone_mobile_field_caption">"TELEFON"</string>
+    <string name="contact_phone_mobile_field_name">"Telefon (mobil)"</string>
+    <string name="contact_phone_home_field_caption">"TELEFON"</string>
+    <string name="contact_phone_home_field_name">"Telefon (privat)"</string>
+    <string name="contact_phone_fax_field_caption">"TELEFON"</string>
+    <string name="contact_phone_fax_field_name">"Telefon (Fax)"</string>
+    <string name="contact_address_field_caption">"ADRESSE"</string>
+    <string name="contact_address_field_name">"Adresse"</string>
+    <string name="contact_email_field_caption">"E-MAIL"</string>
+    <string name="contact_email_field_name">"E-Mail"</string>
+    <string name="contact_website_field_caption">"WEBSITE"</string>
+    <string name="contact_website_field_name">"Website"</string>
+    <string name="contact_im_field_caption">"Chat"</string>
+    <string name="contact_relationship_field_caption">"BEZIEHUNG"</string>
+    <string name="contact_relationship_field_name">"Beziehung"</string>
+    <string name="contact_notes_field_caption">"NOTIZEN"</string>
+    <string name="contact_notes_field_name">"Notizen"</string>
+    <!-- Event information -->
+    <string name="event_title_field_caption">"TITEL"</string>
+    <string name="event_from_date_field_caption">"VON"</string>
+    <string name="event_to_date_field_caption">"AN"</string>
+    <string name="event_location_field_caption">"Standort"</string>
+    <string name="event_location_field_name">"Standort"</string>
+    <string name="event_all_day_field_caption">"GANZTÄGIG"</string>
+    <string name="event_repeat_field_caption">"WIEDERH."</string>
+    <string name="event_details_field_caption">"DETAILS"</string>
+    <string name="event_details_field_name">"Details"</string>
+    <string name="event_participants_field_caption">"MITGLIEDER"</string>
+    <string name="event_participants_field_name">"Mitglieder"</string>
+    <string name="event_date_time_format_long">"EEE M/d/yyyy h:mm a"</string>
+    <string name="event_date_time_format_small">"M/d/yyyy h:mm a"</string>
+    <string name="event_date_format_long">"EEE M/d/yyyy"</string>
+    <string name="event_date_format_small">"MMM d, yyyy"</string>
+    <string name="event_date_format_month_small">"MMM"</string>
+    <string name="event_date_format_month_full">"MMMM"</string>
+    <string name="event_date_format_year">"yyyy"</string>
+    <string name="event_date_format_weekday">"EEE"</string>
+    <string name="event_date_format_small_no_year">"EEE MMM d"</string>
+    <string name="event_time_format">"h:mm a"</string>
+    <string name="event_date_separator">"-"</string>
+    <string name="preview_type_key">"com.qualcomm.qti.sta.captureui.CameraActivity.preview_type"</string>
+    <string name="preview_type_button">"Taste"</string>
+    <string name="preview_type_auto">"automatisch"</string>
+    <!-- Repeat -->
+    <string name="repeat_title">"Wiederholen"</string>
+    <string name="repeat_button_cancel">"Abbrechen"</string>
+    <string name="repeat_button_ok">"OK"</string>
+    <string name="repeat_summary_one_time">"Einmaliger Termin"</string>
+    <string name="repeat_summary_daily">"Täglich"</string>
+    <string name="repeat_summary_daily_every">"Alle %1$s Tage"</string>
+    <string name="repeat_summary_weekly">"Wöchentlich jeden%1$s"</string>
+    <string name="repeat_summary_weekly_every">"Alle %1$s Wochen%2$s"</string>
+    <string name="repeat_summary_monthly_date">"Monatlich am%1$s"</string>
+    <string name="repeat_summary_monthly_day">"Monatlich jeden%1$s"</string>
+    <string name="repeat_summary_monthly_date_every">"Alle %1$s Monate am%2$s"</string>
+    <string name="repeat_summary_monthly_day_every">"Alle %1$s Monate jeden%2$s"</string>
+    <string name="repeat_summary_yearly">"Jährlich jeden%1$s"</string>
+    <string name="repeat_summary_yearly_every">"Alle %1$s Jahre%2$s"</string>
+    <string name="repeat_summary_till_date">"bis%1$s"</string>
+    <string name="repeat_summary_till_events">"%1$s Mal"</string>
+    <string name="repeat_summary_till_one_event">"Einmal"</string>
+    <string name="repeat_title_pick_date">"Datum wählen"</string>
+    <string name="repeat_one_time">"Einmaliger Termin"</string>
+    <string name="repeat_daily">"Wdh. Täglich"</string>
+    <string name="repeat_weekly">"Wdh. Wöchentlich"</string>
+    <string name="repeat_monthly">"Wdh. Monatlich"</string>
+    <string name="repeat_yearly">"Wdh. Jährlich"</string>
+    <string name="repeat_till_day">"Tag"</string>
+    <string name="repeat_till_week">"Woche"</string>
+    <string name="repeat_till_month">"Monat"</string>
+    <string name="repeat_till_year">"Jahr"</string>
+    <string name="sunday_name">"So"</string>
+    <string name="monday_name">"Mo"</string>
+    <string name="tuesday_name">"Di"</string>
+    <string name="wednesday_name">"Mi"</string>
+    <string name="thursday_name">"Do"</string>
+    <string name="friday_name">"Fr"</string>
+    <string name="saturday_name">"Sa"</string>
+    <string-array name="number_texts">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"fünfter"</item>
+    </string-array>
+    <string-array name="two_letter_day_names">
+        <item>"SO"</item>
+        <item>"MO"</item>
+        <item>"DI"</item>
+        <item>"MI"</item>
+        <item>"DO"</item>
+        <item>"FR"</item>
+        <item>"SA"</item>
+    </string-array>
+    <string-array name="short_day_names">
+        <item>@string/sunday_name</item>
+        <item>@string/monday_name</item>
+        <item>@string/tuesday_name</item>
+        <item>@string/wednesday_name</item>
+        <item>@string/thursday_name</item>
+        <item>@string/friday_name</item>
+        <item>@string/saturday_name</item>
+    </string-array>
+    <string-array name="complete_day_names">
+        <item>"Sonntag"</item>
+        <item>"Montag"</item>
+        <item>"Dienstag"</item>
+        <item>"Mittwoch"</item>
+        <item>"Donnerstag"</item>
+        <item>"Freitag"</item>
+        <item>"Samstag"</item>
+    </string-array>
+    <string name="repeat_month_same_date">"Jeden Monat am gleichen Tag"</string>
+    <string name="repeat_month_same_day">"An jedem"</string>
+    <string name="repeat_every_caption">"Jeden"</string>
+    <string-array name="till_types">
+        <item>"Dauerhaft"</item>
+        <item>"Bis"</item>
+        <item>"Wiederholungen"</item>
+    </string-array>
+    <!-- Settings -->
+    <string name="setting_sta_data_type">"STA-Datentypen"</string>
+    <string name="setting_sta_locale_type">"STA-Sprache"</string>
+    <string name="setting_text_record_mode">"Kameramodus"</string>
+    <string name="setting_camera_steady_duration">"Kamera-Stillhaltedauer (in ms)"</string>
+    <string name="setting_camera_move_threshold">"Schwelle Kamerabewegung"</string>
+    <string name="setting_sta_locale_usa">"USA"</string>
+    <string name="setting_sta_locale_china">"CHN"</string>
+    <string name="setting_sta_locale_korea">"KOR"</string>
+    <string name="setting_default_sta_locale">@string/setting_sta_locale_usa</string>
+    <string name="setting_text_record_snapshot_mode">"Schnappschuss"</string>
+    <string name="setting_text_record_preview_mode">"Vorschau"</string>
+    <string name="setting_default_text_record_mode">@string/setting_text_record_snapshot_mode</string>
+    <string name="setting_sta_language_usa">"en"</string>
+    <string name="setting_sta_language_china">"zh-CN"</string>
+    <string name="setting_sta_langauge_korea">"ko"</string>
+    <string-array name="setting_sta_data_type_options">
+        <item>"E-Mail"</item>
+        <item>"URL"</item>
+        <item>"Telefonnummer"</item>
+        <item>"Adresse"</item>
+        <item>"Datum"</item>
+        <item>"Allgemein"</item>
+    </string-array>
+    <string-array name="setting_sta_data_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type">
+        <item>"USA"</item>
+        <item>"China"</item>
+        <item>"Korea"</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type_values">
+        <item>@string/setting_sta_locale_usa</item>
+        <item>@string/setting_sta_locale_china</item>
+        <item>@string/setting_sta_locale_korea</item>
+    </string-array>
+    <string-array name="setting_text_record_options">
+        <item>@string/setting_text_record_snapshot_mode</item>
+        <item>@string/setting_text_record_preview_mode</item>
+    </string-array>
+    <string name="settings_scve_mode">"SCVE-Betriebsmodus"</string>
+    <string-array name="settings_scve_mode_entries">
+        <item>"Standard"</item>
+        <item>"CPU-Entlastung"</item>
+        <item>"Leistung"</item>
+        </string-array>
+    <string-array name="settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+    </string-array>
+    <string name="settings_scve_mode_default">0</string></resources>

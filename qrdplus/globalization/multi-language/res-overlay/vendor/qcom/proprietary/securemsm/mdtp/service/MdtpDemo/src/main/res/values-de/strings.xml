@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"MDTP-Benutzer-App: Hauptbildschirm"</string>
+    <string name="config_app">"MDTP-Benutzer-App: Konfiguration"</string>
+    <string name="server_app">"MDTP-Server: Hauptbildschirm"</string>
+    <string name="action_settings">"Einstellungen"</string>
+    <string name="label_1_1">"MDTP-Status:"</string>
+    <string name="state_deactivated">"Deaktiviert"</string>
+    <string name="state_activated">"Aktiviert"</string>
+    <string name="configuration">"Konfiguration (nur vor Aktivierung)"</string>
+    <string name="service_activate">"MDTP-Aktiv. von MDTP-Diensten anf."</string>
+    <string name="service_deactivate">"MDTP-Deaktiv. von MDTP-Diensten anf."</string>
+    <string name="local_deactivate">"Lokal MDTP-Deaktivierung (mit PIN)"</string>
+    <string name="service_console">"MDTP-Dienste-Konsole"</string>
+    <string name="title_activity_configuration">"Benutzerkonfig."</string>
+    <string name="label_2_1">"Lokale PIN verw.:"</string>
+    <string name="label_2_2">"PIN:"</string>
+    <string name="gen_rand_pin">"Zufalls-PIN generieren"</string>
+    <string name="label_2_3">"Verifiz.verhältnis:"</string>
+    <string name="label_2_5">"SIM-Lock aktivieren:"</string>
+    <string name="label_2_6">"Weitere zu überpr. Dateien/Verz.:"</string>
+    <string name="reset">"Auf Standard zurücksetzen"</string>
+    <string name="label_3_1">"Befehle v. Server an Gerät senden:"</string>
+    <string name="activate">"Aktivieren"</string>
+    <string name="deactivate">"Deaktivieren"</string>
+    <string name="locksim">"SIM sperren"</string>
+    <string name="unlocksim">"SIM entsperren"</string>
+    <string name="killfunc">"Beenden-Funkt."</string>
+    <string name="restorefunc">"Wiederherstellen-Funkt."</string>
+    <string name="label_3_2">"Anfragen f. MDTP-Deaktiv.:"</string>
+    <string name="notallowed">"Nicht zugelassen"</string>
+    <string name="allowed">"Zugelassen"</string>
+    <string name="label_3_3">"Anfragen f. Setup-Assist.-Entsperrg.:"</string>
+    <string name="label_3_4">"Dienstprotok.:"</string>
+    <string name="wizard_app_loading_title">"MDTP Setup-Assistent: Wird initialisiert..."</string>
+    <string name="label_4_1">"Setup-Assistent ist gesperrt, da MDTP-Status aktiviert"</string>
+    <string name="label_4_2">"Option A: MDTP aktiviert lassen, aber Serverautorisierung anfordern"</string>
+    <string name="wiz_unblock">"Entsperrung des Setup-Assistenten bei MDTP-Diensten anfordern"</string>
+    <string name="wiz_cont">"Fortfahren (von Server autorisiert)"</string>
+    <string name="label_4_3">"Option B: MDTP deaktivieren (entfernt Sperre des Setup-Assistenten)"</string>
+    <string name="wiz_remote">"Remote-MDTP-Deaktivierung anfordern"</string>
+    <string name="wiz_local">"Lokale MDTP-Deaktivierung"</string>
+    <string name="label_4_4">"Setup-Assistent darf fortfahren, da MDTP-Status NICHT aktiviert ist"</string>
+    <string name="wiz_complete">"Setup-Assistent abschließen (MDTP-Status ist nicht aktiviert)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"Setup-Assistent"</string>
+    <string name="label_signup_message">"MDTP ist derzeit nicht aktiviert.\nSoll es aktiviert werden?"</string>
+    <string name="label_signup_message_activated">"MDTP wurde erfolgreich aktiviert."</string>
+    <string name="skip_activation">"Aktivierung überspr."</string>
+    <string name="emergency_dialer">"Notruf"</string>
+    <string name="wiz_title_sign_up">"MDTP Setup-Assistent - Anmelden"</string>
+    <string name="wiz_title_reset_prot">"MDTP Setup-Assistent - Rücksetzschutz"</string>
+    <string name="wiz_title_boot_block">"MDTP Setup-Assistent - Gerät ist gesperrt"</string>
+    <string name="block_boot_warning_text">"MDTP hat dieses Gerät aufgrund eines internen Fehlers gesperrt.\n\nStarten Sie das Gerät neu."</string>
+    <string name="start_wifi_wizard">"Wi-Fi-Setup"</string>
+    <string name="default_pin_hint">"Standard-PIN: 11111"</string>
+    <string name="pin_dialog_title">"PIN für lokale MDTP-Deaktivierung erf."</string>
+    <string name="pin_input_validation_warning">"Wert muss 5 Ziffern umfassen"</string></resources>

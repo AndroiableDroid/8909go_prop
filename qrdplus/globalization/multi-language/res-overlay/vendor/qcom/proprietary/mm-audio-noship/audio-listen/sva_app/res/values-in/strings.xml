@@ -1,0 +1,249 @@
+<?xml version="1.0" standalone="no"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SVA 2.0"</string>
+    <add-resource type="string" name="dialog_cancel"/>
+    <string name="dialog_cancel">"Batal"</string>
+    <add-resource type="string" name="dialog_save"/>
+    <string name="dialog_save">"Simpan"</string>
+    <add-resource type="string" name="dialog_ok"/>
+    <string name="dialog_ok">"OKE"</string>
+    <add-resource type="string" name="dialog_delete"/>
+    <string name="dialog_delete">"Hapus"</string>
+    <string name="none"/>
+    <add-resource type="string" name="detection_menu_voicerequests"/>
+    <string name="detection_menu_voicerequests">"Permintaan Suara"</string>
+    <add-resource type="string" name="detection_menu_settings"/>
+    <string name="detection_menu_settings">"Setelan"</string>
+    <add-resource type="string" name="detection_menu_version"/>
+    <string name="detection_menu_version">"Nomor Versi"</string>
+    <add-resource type="string" name="detection_menu_testone"/>
+    <string name="detection_menu_testone">"Tes Permintaan Suara"</string>
+    <add-resource type="string" name="home_menu_query"/>
+    <string name="home_menu_query">"Pertanyaan"</string>
+    <add-resource type="string" name="home_soundmodel"/>
+    <string name="home_soundmodel">"Model Suara"</string>
+    <add-resource type="string" name="home_startvoiceactivation"/>
+    <string name="home_startvoiceactivation">"Mulai Deteksi"</string>
+    <add-resource type="string" name="home_stopvoiceactivation"/>
+    <string name="home_stopvoiceactivation">"Hentikan Deteksi"</string>
+    <add-resource type="string" name="home_advanceddetail"/>
+    <string name="home_advanceddetail">"RINCIAN LEBIH LANJUT"</string>
+    <add-resource type="string" name="detection_advanceddetail_keyworduser"/>
+    <string name="detection_advanceddetail_keyworduser">"Kata kunci:"</string>
+    <add-resource type="string" name="home_advanceddetail_user"/>
+    <string name="home_advanceddetail_user">"Pengguna:"</string>
+    <add-resource type="string" name="detection_advanceddetail_detections"/>
+    <string name="detection_advanceddetail_detections">"Deteksi:"</string>
+    <add-resource type="string" name="detection_advanceddetail_keyphrase"/>
+    <string name="detection_advanceddetail_keyphrase">"Frasa kunci:"</string>
+    <add-resource type="string" name="detection_advanceddetail_user"/>
+    <string name="detection_advanceddetail_user">"Pengguna:"</string>
+    <add-resource type="string" name="detection_advanceddetail_voicerequests"/>
+    <string name="detection_advanceddetail_voicerequests">"Permintaan Suara:"</string>
+    <add-resource type="string" name="detection_advanceddetail_initialdetections"/>
+    <string name="detection_advanceddetail_initialdetections">0</string>
+    <add-resource type="string" name="detection_advanceddetail_initialscore"/>
+    <string name="detection_advanceddetail_initialscore">0</string>
+    <add-resource type="string" name="detection_advanceddetail_initialvoicerequests"/>
+    <string name="detection_advanceddetail_initialvoicerequests">0</string>
+    <add-resource type="string" name="detection_advanceddetail_scorepossible"/>
+    <string name="detection_advanceddetail_scorepossible">/100</string>
+    <add-resource type="string" name="home_dialog_startingvoiceactivation"/>
+    <string name="home_dialog_startingvoiceactivation">"Memulai Aktivasi Suara"</string>
+    <add-resource type="string" name="home_dialog_stoppingvoiceactivation"/>
+    <string name="home_dialog_stoppingvoiceactivation">"Menghentikan Aktivasi Suara"</string>
+    <add-resource type="string" name="home_dialog_pleasewait"/>
+    <string name="home_dialog_pleasewait">"Harap tunggu... "</string>
+    <add-resource type="string" name="home_dialog_badlibs_title"/>
+    <string name="home_dialog_badlibs_title">"listenlib Hilang/Tidak Kompatibel"</string>
+    <add-resource type="string" name="home_dialog_badlibs_message"/>
+    <string name="home_dialog_badlibs_message">"Tidak dapat melanjutkan. Silakan klikOK untuk menutup aplikasi."</string>
+    <add-resource type="string" name="soundmodels_top_title"/>
+    <string name="soundmodels_top_title">"Model Suara"</string>
+    <add-resource type="string" name="soundmodels_dialog_createyourown"/>
+    <string name="soundmodels_dialog_createyourown">"Buat sendiri..."</string>
+    <add-resource type="string" name="soundmodels_dialog_invalidselection"/>
+    <string name="soundmodels_dialog_invalidselection">"Pilihan tidak valid"</string>
+    <add-resource type="string" name="soundmodels_dialog_createyourownmultiselecterror"/>
+    <string name="soundmodels_dialog_createyourownmultiselecterror">"Jika Anda ingin membuat kata kunci Anda sendiri, silakan pilih opsi \"Buat sendiri...\" saja."</string>
+    <add-resource type="string" name="soundmodels_dialog_namekeyphrase_title"/>
+    <string name="soundmodels_dialog_namekeyphrase_title">"Beri Nama Frasa Kunci Baru"</string>
+    <add-resource type="string" name="soundmodels_dialog_namekeyphrase_message"/>
+    <string name="soundmodels_dialog_namekeyphrase_message">"Masukkan nama untuk frasa kunci baru:"</string>
+    <add-resource type="string" name="soundmodels_dialog_namesoundmodel_title"/>
+    <string name="soundmodels_dialog_namesoundmodel_title">"Beri Nama Model Suara Baru"</string>
+    <add-resource type="string" name="soundmodels_dialog_namesoundmodel_message"/>
+    <string name="soundmodels_dialog_namesoundmodel_message">"Masukkan nama baru untuk "</string>
+    <add-resource type="string" name="soundmodels_dialog_adduser_title"/>
+    <string name="soundmodels_dialog_adduser_title">"Tambahkan Pengguna Baru"</string>
+    <add-resource type="string" name="soundmodels_dialog_adduser_message"/>
+    <string name="soundmodels_dialog_adduser_message">"Masukkan nama pengguna untuk dilatih:"</string>
+    <add-resource type="string" name="soundmodels_dialog_adduser_starttrainging"/>
+    <string name="soundmodels_dialog_adduser_starttrainging">"Mulai Latihan"</string>
+    <add-resource type="string" name="soundmodels_dialog_deletesoundmodel_title"/>
+    <string name="soundmodels_dialog_deletesoundmodel_title">"Hapus Model Suara"</string>
+    <add-resource type="string" name="soundmodels_dialog_train_title"/>
+    <string name="soundmodels_dialog_train_title">"Latih Model Suara"</string>
+    <add-resource type="string" name="soundmodels_dialog_train_content"/>
+    <string name="soundmodels_dialog_train_content">"Latihan diperlukan untuk menciptakan model suara untuk pengguna ini."</string>
+    <add-resource type="string" name="soundmodels_dialog_option_deletesoundmodel"/>
+    <string name="soundmodels_dialog_option_deletesoundmodel">"Hapus Model Suara"</string>
+    <add-resource type="string" name="soundmodels_dialog_option_starttrain"/>
+    <string name="soundmodels_dialog_option_starttrain">"Mulai latihan"</string>
+    <add-resource type="string" name="soundmodels_dialog_selectakeyphrase_title"/>
+    <string name="soundmodels_dialog_selectakeyphrase_title">"Pilih Frasa kunci"</string>
+    <add-resource type="string" name="soundmodels_dialog_duplicate_title"/>
+    <string name="soundmodels_dialog_duplicate_title">"Model Suara Sudah Ada"</string>
+    <add-resource type="string" name="soundmodels_dialog_duplicate_message"/>
+    <string name="soundmodels_dialog_duplicate_message">"Nama model suara tersebut sudah diambil. Silakan coba lagi."</string>
+    <add-resource type="string" name="soundmodels_dialog_invalidsm_title"/>
+    <string name="soundmodels_dialog_invalidsm_title">"Nama Model Suara Tidak Valid"</string>
+    <add-resource type="string" name="soundmodels_dialog_invalidsm_message"/>
+    <string name="soundmodels_dialog_invalidsm_message">"Nama model suara tidak boleh kosong."</string>
+    <add-resource type="string" name="soundmodel_listitem_name"/>
+    <string name="soundmodel_listitem_name">"Nama Model Suara"</string>
+    <add-resource type="string" name="soundmodel_listitem_sessions"/>
+    <string name="soundmodel_listitem_sessions">"Sesi:"</string>
+    <add-resource type="string" name="soundmodeldetails_top_title"/>
+    <string name="soundmodeldetails_top_title">"Rincian Model Suara"</string>
+    <add-resource type="string" name="soundmodeldetails_smtype"/>
+    <string name="soundmodeldetails_smtype">"Bergantung pada pengguna"</string>
+    <add-resource type="string" name="soundmodeldetails_adduser"/>
+    <string name="soundmodeldetails_adduser">"Tambah pengguna..."</string>
+    <add-resource type="string" name="soundmodeldetails_dialog_setconfidencelevel_title"/>
+    <string name="soundmodeldetails_dialog_setconfidencelevel_title">"Atur Tingkat Kepercayaan"</string>
+    <string name="soundmodeldetails_dialog_setconfidencelevel_message"/>
+    <add-resource type="string" name="soundmodeldetails_dialog_duplicateuser_title"/>
+    <string name="soundmodeldetails_dialog_duplicateuser_title">"Pengguna Telah Terlatih"</string>
+    <add-resource type="string" name="soundmodeldetails_dialog_duplicateuser_message"/>
+    <string name="soundmodeldetails_dialog_duplicateuser_message">"Sudah ada data pelatihan bagi pengguna dengan nama tersebut. Silakan pilih pengguna lain."</string>
+    <add-resource type="string" name="soundmodels_dialog_invaliduser_title"/>
+    <string name="soundmodels_dialog_invaliduser_title">"Nama Pengguna Tidak Valid"</string>
+    <add-resource type="string" name="soundmodels_dialog_invaliduser_message"/>
+    <string name="soundmodels_dialog_invaliduser_message">"Nama pengguna tidak boleh kosong."</string>
+    <add-resource type="string" name="soundmodeldetails_dialog_selectsession_title"/>
+    <string name="soundmodeldetails_dialog_selectsession_title">"Pilih Sesi"</string>
+    <add-resource type="string" name="soundmodeldetails_popup_copy"/>
+    <string name="soundmodeldetails_popup_copy">"Salin Model Suara"</string>
+    <add-resource type="string" name="soundmodeldetails_popup_merge"/>
+    <string name="soundmodeldetails_popup_merge">"Gabungkan Model Suara"</string>
+    <add-resource type="string" name="soundmodels_dialog_selectsm_title"/>
+    <string name="soundmodels_dialog_selectsm_title">"Pilih Model Suara"</string>
+    <add-resource type="string" name="soundmodeldetails_popup_delete"/>
+    <string name="soundmodeldetails_popup_delete">"Hapus Model Suara"</string>
+    <add-resource type="string" name="training_welcome_unkownuser"/>
+    <string name="training_welcome_unkownuser">"Pengguna Tidak Diketahui"</string>
+    <add-resource type="string" name="training_welcome_notice"/>
+    <string name="training_welcome_notice">"Untuk membantu saya mengenali suara Anda, silakan rekam diri sendiri mengucapkan kata kunci lima kali."</string>
+    <add-resource type="string" name="training_welcome_recording_tip_title"/>
+    <string name="training_welcome_recording_tip_title">"TIP PEREKAMAN"</string>
+    <add-resource type="string" name="training_welcome_recording_tip"/>
+    <string name="training_welcome_recording_tip">"1. Posisikan telepon di depan Anda dengan jarak sekitar satu lengan. \n2.Rekam di tempat sepi dengan sedikit suara bising di latar belakang. \n3.Berbicara dengan jelas, keras, dan dengan gaya memerintah."</string>
+    <add-resource type="string" name="training_recording_recording"/>
+    <string name="training_recording_recording">"MEREKAM..."</string>
+    <add-resource type="string" name="training_recording_processing"/>
+    <string name="training_recording_processing">"MEMPROSES..."</string>
+    <add-resource type="string" name="training_recording_complete"/>
+    <string name="training_recording_complete">"SELESAI!"</string>
+    <add-resource type="string" name="training_recording_notice_good"/>
+    <string name="training_recording_notice_good">"Sempurna!\nTetap berbicara seperti itu!"</string>
+    <add-resource type="string" name="training_recording_notice_bad"/>
+    <string name="training_recording_notice_bad">"Ada masalah dengan rekaman Anda. Silakan coba lagi."</string>
+    <add-resource type="string" name="training_recording_continue"/>
+    <string name="training_recording_continue">"Lanjutkan"</string>
+    <add-resource type="string" name="training_dialog_createsoundmodel"/>
+    <string name="training_dialog_createsoundmodel">"Membuat model suara yang dipersonalisasi."</string>
+    <add-resource type="string" name="training_dialog_close_title"/>
+    <string name="training_dialog_close_title">"Anda yakin ingin menutup?"</string>
+    <add-resource type="string" name="training_dialog_close_message"/>
+    <string name="training_dialog_close_message">"Semua rekaman latihan saat ini akan dihapus."</string>
+    <add-resource type="string" name="training_dialog_smcreatefailed_title"/>
+    <string name="training_dialog_smcreatefailed_title">"Pembuatan Model Suara Gagal"</string>
+    <add-resource type="string" name="training_dialog_smcreatefailed_message"/>
+    <string name="training_dialog_smcreatefailed_message">"Kami tidak dapat membuat model suara yang dipersonalisasi. Silakan coba lagi."</string>
+    <!-- new training -->
+    <add-resource type="string" name="training_welcome_recording_tip1"/>
+    <string name="training_welcome_recording_tip1">" Pegang telepon dengan jarak sejengkal dari mulut."</string>
+    <add-resource type="string" name="training_welcome_recording_tip2"/>
+    <string name="training_welcome_recording_tip2">" Rekam di tempat sunyi dengan kebisingan latar minimum."</string>
+    <add-resource type="string" name="training_welcome_recording_tip3"/>
+    <string name="training_welcome_recording_tip3">" Berbicara dengan jelas, kencang, dan dalam gaya memerintah."</string>
+    <add-resource type="string" name="training_tapMic"/>
+    <string name="training_tapMic">"Ketuk tombol mikrofon untuk mulai"</string>
+    <add-resource type="string" name="home_keyphrase_message"/>
+    <string name="home_keyphrase_message">"Hai Snapdragon"</string>
+    <add-resource type="string" name="training_one"/>
+    <string name="training_one">1.</string>
+    <add-resource type="string" name="training_two"/>
+    <string name="training_two">2.</string>
+    <add-resource type="string" name="training_three"/>
+    <string name="training_three">3.</string>
+    <add-resource type="string" name="training_unknownuser"/>
+    <string name="training_unknownuser">"Pengguna Tidak Diketahui"</string>
+    <add-resource type="string" name="training_welcomenotice"/>
+    <string name="training_welcomenotice">"Untuk membantu saya mengenali suara Anda, silakan rekam diri sendiri mengucapkan frasa kunci lima kali."</string>
+    <!-- end new training -->
+	<add-resource type="string" name="voicerequests_title"/>
+    <string name="voicerequests_title">"Permintaan Suara"</string>
+    <add-resource type="string" name="voicerequests_menu_refresh"/>
+    <string name="voicerequests_menu_refresh">"Segarkan Daftar"</string>
+    <add-resource type="string" name="voicerequests_menu_deleteall"/>
+    <string name="voicerequests_menu_deleteall">"Hapus Semua"</string>
+    <add-resource type="string" name="voicerequests_dialog_deleteall_title"/>
+    <string name="voicerequests_dialog_deleteall_title">"Konfirmasi Penghapusan"</string>
+    <add-resource type="string" name="settings_top_title"/>
+    <string name="settings_top_title">"Setelan"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels"/>
+    <string name="settings_defaultconfidencelevels">"TINGKAT KEPERCAYAAN DEFAULT"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels_keyphrase"/>
+    <string name="settings_defaultconfidencelevels_keyphrase">"Tingkat Kepercayaan Frasa Kunci Default"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels_user"/>
+    <string name="settings_defaultconfidencelevels_user">"Tingkat Kepercayaan Pengguna Default"</string>
+    <add-resource type="string" name="settings_defaultconfidencelevels_training"/>
+    <string name="settings_defaultconfidencelevels_training">"Tingkat Kepercayaan Latihan Default"</string>
+    <add-resource type="string" name="settings_options"/>
+    <string name="settings_options">"OPSI"</string>
+    <add-resource type="string" name="settings_options_listen"/>
+    <string name="settings_options_listen">"Dengar"</string>
+    <add-resource type="string" name="settings_options_listen_desc"/>
+    <string name="settings_options_listen_desc">"Aktifkan/Nonaktifkan Dengar"</string>
+    <add-resource type="string" name="settings_options_voiceactivation"/>
+    <string name="settings_options_voiceactivation">"Aktivasi Suara"</string>
+    <add-resource type="string" name="settings_options_voiceactivation_desc"/>
+    <string name="settings_options_voiceactivation_desc">"Aktifkan/Nonaktifkan Aktivasi Suara"</string>
+    <add-resource type="string" name="settings_options_detectiontone"/>
+    <string name="settings_options_detectiontone">"Nada Deteksi"</string>
+    <add-resource type="string" name="settings_options_detectiontone_desc"/>
+    <string name="settings_options_detectiontone_desc">"Aktifkan/Nonaktifkan Nada Untuk Deteksi"</string>
+    <add-resource type="string" name="settings_options_advanced"/>
+    <string name="settings_options_advanced">"Rincian Lebih Lanjut"</string>
+    <add-resource type="string" name="settings_options_advanced_desc"/>
+    <string name="settings_options_advanced_desc">"Tampilkan rincian lainnya"</string>
+    <add-resource type="string" name="settings_registrationoptions"/>
+    <string name="settings_registrationoptions">"OPSI REGISTRASI"</string>
+    <add-resource type="string" name="settings_registrationoptions_description"/>
+    <string name="settings_registrationoptions_description">"Perubahan akan diterapkan pada registrasi berikutnya."</string>
+    <add-resource type="string" name="settings_registrationoptions_userverification"/>
+    <string name="settings_registrationoptions_userverification">"Verifikasi Pengguna"</string>
+    <add-resource type="string" name="settings_registrationoptions_userverification_desc"/>
+    <string name="settings_registrationoptions_userverification_desc">"Aktifkan/Nonaktifkan Verifikasi Pengguna"</string>
+    <add-resource type="string" name="settings_registrationoptions_voicerequests"/>
+    <string name="settings_registrationoptions_voicerequests">"Permintaan Suara"</string>
+    <add-resource type="string" name="settings_registrationoptions_voicerequests_desc"/>
+    <string name="settings_registrationoptions_voicerequests_desc">"Aktifkan permintaan suara setelah frasa kunci"</string>
+    <add-resource type="string" name="settings_registrationoptions_voicerequestlength"/>
+    <string name="settings_registrationoptions_voicerequestlength">"Panjang (dalam detik) Permintaan Suara"</string>
+    <add-resource type="string" name="settings_registrationoptions_failurefeedback"/>
+    <string name="settings_registrationoptions_failurefeedback">"Umpan Balik Tidak Terdeteksi"</string>
+    <add-resource type="string" name="settings_registrationoptions_failurefeedback_desc"/>
+    <string name="settings_registrationoptions_failurefeedback_desc">"Aktifkan/Nonaktifkan Umpan Balik Kegagalan Deteksi"</string>
+    <add-resource type="string" name="settings_toast_smdependentcheckbox"/>
+    <string name="settings_toast_smdependentcheckbox">"Perubahan ini tidak akan berpengaruh hingga model suara berikutnya didaftarkan."</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Setelan"</string></resources>

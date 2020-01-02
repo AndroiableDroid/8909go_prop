@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"กิจกรรมการแก้ไขข้อบกพร่องของGPS"</string>
+     <string name="cameraActivity">"กล้องถ่ายรูป"</string>
+     <string name="newTrackingSession">"เซสชันการติดตามใหม่"</string>
+     <string name="newTrackingSession_nameLabel">"ชื่อ"</string>
+     <string name="newTrackingSession_numFixesLabel">"หมายเลขคงที่"</string>
+     <string name="newTrackingSession_descriptionLabel">"คำอธิบาย"</string>
+     <string name="newTrackingSession_startButtonLabel">"เริ่มต้น"</string>
+     <string name="testConfig">"การตั้งค่าการทดสอบ"</string>
+     <string name="testConfig_configNameLabel">"ชื้อการตั้งค่า"</string>
+     <string name="testConfig_numFixesLabel">"ตัวเลขคงที่ (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"คำอธิบายการตั้งค่าการทดสอบ"</string>
+     <string name="testConfig_startButtonLabel">"เริ่มการทดสอบ"</string>
+     <string name="testConfig_RadioLabel">"การติดตามแอป หรือ ถ่ายครั้งเดียว"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"ถ่ายครั้งเดียว"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"การติดตามแอป"</string>
+     <string name="testConfig_qosTimeoutLabel">"เวลาตอบสนองที่ต้องการ (วินาที)"</string>
+     <string name="testConfig_qosAccuracyLabel">"ความแม่นยำที่ต้องการ (นาที)"</string>
+     <string name="testConfig_tbfLabel">"ช่วงเวลาขั้นต่ำ (วินาที)"</string>
+     <string name="testConfig_staticTruthLabel">"ตำแหน่งที่ถูกต้องตามสถิติ (ทำเครื่องหมายเพื่อใช้)"</string>
+     <string name="testConfig_latLabel">"เส้นรุ้ง"</string>
+     <string name="testConfig_lonLabel">"เส้นแวง"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"Loc API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"บริการ GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"ประเภทการปรากฏซ้ำ"</string>
+     <string name="testConfig_apiTypeLabel">"ประเภท API"</string>
+    <string name="labelUnknownPrivacy">"ไม่รู้จัก"</string>
+    <string name="labelGetPrivacy">"รับความเป็นส่วนตัว"</string>
+    <string name="labelSetPrivacySetting">"ตั้งความเป็นส่วนตัว"</string>
+    <string name="name_vzw_client">"ลูกค้า Vzw"</string>
+    <string name="name_normal_client">"Android ปกติ"</string>
+    <string name="LabelModeSel">"โหมด"</string>
+    <string name="LabelNumFixSel">"# ของค่าคงที่"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"รัฐ..."</string>
+    <string name="str_nodata">"ไม่มีข้อมูล"</string>
+    <string name="str_waitingforposinfo">"\nกำลังรอข้อมูลตำแหน่ง...\n"</string>
+    <string name="str_searchingforsvs">"\nกำลังค้นหาเซิร์ฟเวอร์...\n"</string>
+    <string name="str_configsummary">"\nตั้งค่าการสรุป\n"</string>
+    <string name="str_alarms">"\nการปลุก:\n\n"</string>
+    <string name="str_starttest">"เริ่มการทดสอบ"</string>
+    <string name="str_sessionplayback">"การเล่นเซสชัน"</string>
+    <string name="str_proximityalerts">"การแจ้งเตือนพร็อกซิมิตี"</string>
+    <string name="str_proximity_info">"ข้อมูลพร็อกซิมิตี"</string>
+    <string name="str_options">"ตัวเลือก"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"สแตนด์อโลน"</item>
+<item>"AFLT"</item>
+<item>"ความเร็วที่เพิ่มประสิทธิภาพ"</item>
+<item>"ความแม่นยำที่เพิ่มประสิทธิภาพ"</item>
+<item>"ข้อมูลที่เพิ่มประสิทธิภาพ"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"เวลา (วินาที) ระหว่างค่าคงที"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"ที่อยู่ PDE"</string>
+<string name="LabelAccuracyH">"ความแม่นยำที่ต้องการ (ชั่วโมง นาที)"</string>
+<string name="LabelAccuracyV">"ความแม่นยำที่ต้องการ (V นาที)"</string>
+<string name="LabelMaxResponseTime">"หมดเวลา (วินาที)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"เรียกใช้งานด้วยกองซ้อนปกติ"</string>
+<string name="LabelRunOne">"เรียกใช้งาน VzW"</string>
+<string name="LabelRunState1">"ทดสอบ FSM 1"</string>
+<string name="LabelRunState2">"ทดสอบ FSM 2"</string>
+<string name="EnigneStatus">"สถานะเครื่องจักร"</string>
+<string name="NA">"N/A"</string>
+<string name="GpsStatus">"สถานะ Gps"</string>
+<string name="Session">"เซสชัน"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"ประเภท"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"โหมด"</string>
+<string name="stop">"หยุด"</string>
+<string name="labelPdePort">"พอร์ต PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"911 เท่านั้น"</item>
+<item>"เปิด"</item>
+</string-array>
+<string name="non_aiding">"ยกเลิกการเลือกการช่วยเหลือทั่งหมด"</string>
+<string name="all_aiding">"เลือกการช่วยเหลือทั้งหมด"</string>
+<string name="done">"ลบที่เลือกไว้"</string>
+<string name="Ephemeris">"ปฏิทินดาวเคราะห์"</string>
+<string name="GLO_Ephemeris">"ปฏิทินดาวเคราะห์ GLO"</string>
+<string name="Alamanac">"ปฏิทินโหราศาสตร์"</string>
+<string name="GLO_Alamanac">"ปฏิทินโหราศาสตร์ GLO"</string>
+<string name="Alamanac_Corr">"ปฏิทินโหราศาสตร์ Corr"</string>
+<string name="GLO_Alamanac_Corr">"ปฏิทินโหราศาสตร์ GLO Corr"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"SV Steer"</string>
+<string name="GLO_SV_Steer">"GLO SV Steer"</string>
+<string name="Cell_DB_Info">"ข้อมูลเซล DB"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"เวลา GPS"</string>
+<string name="GLO_Time">"เวลา GLO"</string>
+<string name="Freq_Bias_Est">"Freq Bias Est"</string>
+<string name="Time">"เวลา"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"สุขภาพ"</string>
+<string name="SA_Data">"ข้อมูล SA"</string>
+<string name="position">"ตำแหน่ง"</string>
+<string name="str_wbiq_runscript">"เรียกใช้งานคำสั่ง"</string>
+<string name="str_wbiq_stopgps">"ออกจากโหมด RF"</string>
+<string name="str_wbiq_startgps">"เข้าสู่โหมด RF"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"การติดตามบนอุปกรณ์อัตโนมัติ"</string>
+<string name="str_wbiq_chk_delaystart">"หน่วงเวลาการเริ่ม"</string>
+<string name="str_wbiq_chk_autostop">"หยุดอัตโนมัติ"</string>
+<string name="str_wbiq_chk_otfsa">"เปิดการทำงานOTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"S"</string>
+<string name="str_proximity_clearalerts">"ล้างการแจ้งเตือน"</string>
+<string name="str_proximity_savealertsfile">"บันทึกไฟล์แจ้งเตือน"</string>
+<string name="str_proximity_loadalertsfile">"โหลดไฟล์แจ้งเตือน"</string>
+<string name="str_proximity_deletealertsfile">"ลบไฟล์แจ้งเตือน"</string>
+<string name="str_proximity_logging">"กำลังบันทึก"</string>
+<string name="str_proximity_autostartenabled">"เริ่มอัตโนมัติ"</string>
+<string name="str_proximity_autostartfile">"เลือกเริ่มไฟล์อัตโนมัติ"</string>
+<string name="str_proximity_smsnumber">"หมายเลขการแจ้งเตือน SMS"</string>
+<string name="str_proximity_geofencelisttab_add">"เพิ่ม"</string>
+<string name="str_proximity_geofencelisttab_delet">"ลบ"</string>
+<string name="str_proximity_geofencelisttab_edit">"แก้ไข"</string>
+<string name="str_locbatchingtab_btn_s">"S"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[ค่าเฉลี่ย ต่ำสุด สูงสุด] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"รับกลุ่ม"</string>
+<string name="str_powerest_summary">"การสรุป:"</string>
+<string name="str_powerest_plot_label"/></resources>

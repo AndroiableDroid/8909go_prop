@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+   <add-resource type="string" name="app_name"/>
+    <string name="app_name">ultrasound_settings</string>
+   <!-- Ultrasound settings -->
+   <add-resource type="string" name="UltrasoundSettings"/>
+    <string name="UltrasoundSettings">"আল্ট্রাসাউন্ড ডিবাগ সেটিংস"</string>
+   <add-resource type="string" name="tester_button"/>
+    <string name="tester_button">"পরীক্ষক"</string>
+   <add-resource type="string" name="tester_settings_summary"/>
+    <string name="tester_settings_summary">"পরীক্ষক প্রদর্শন বিকল্প সেটিংস"</string>
+   <add-resource type="string" name="digital_pen_button"/>
+    <string name="digital_pen_button">"ডিজিট্যাল পেন"</string>
+   <add-resource type="string" name="digital_pen_settings_summary"/>
+    <string name="digital_pen_settings_summary">"ডিজিট্যাল পেন প্রদর্শন বিকল্প সেটিংস"</string>
+   <add-resource type="string" name="gesture_button"/>
+    <string name="gesture_button">"ইঙ্গিত"</string>
+   <add-resource type="string" name="sync_gesture_button"/>
+    <string name="sync_gesture_button">"ইঙ্গিত সিঙ্ক করুন"</string>
+   <add-resource type="string" name="gesture_settings_summary"/>
+    <string name="gesture_settings_summary">"ইঙ্গিত প্রদর্শন বিকল্প সেটিংস"</string>
+   <add-resource type="string" name="sync_gesture_settings_summary"/>
+    <string name="sync_gesture_settings_summary">"ইঙ্গিত প্রদর্শন বিকল্প সেটিংস সিঙ্ক করুন"</string>
+   <add-resource type="string" name="hovering_button"/>
+    <string name="hovering_button">"হোভারিং"</string>
+   <add-resource type="string" name="hovering_settings_summary"/>
+    <string name="hovering_settings_summary">"হোভারিং প্রদর্শন বিকল্প সেটিংস"</string>
+   <add-resource type="string" name="P2P_button"/>
+    <string name="P2P_button">"P2P"</string>
+   <add-resource type="string" name="p2p_settings_summary"/>
+    <string name="p2p_settings_summary">"P2P প্রদর্শন বিকল্প সেটিংস"</string>
+   <add-resource type="string" name="recording_button"/>
+    <string name="recording_button">"রেকর্ডিং"</string>
+   <add-resource type="string" name="recording_settings_summary"/>
+    <string name="recording_settings_summary">"রেকর্ডিং প্রদর্শন হোভারিং এবং ইঙ্গিত রেকর্ডিং বিকল্প  "</string>
+   <add-resource type="string" name="proximity_button"/>
+    <string name="proximity_button">"নৈকট্য"</string>
+   <add-resource type="string" name="proximity_settings_summary"/>
+    <string name="proximity_settings_summary">"নৈকট্য প্রদর্শন বিকল্প সেটিংস"</string>
+   <add-resource type="string" name="version_button"/>
+    <string name="version_button">"সংস্করণ"</string>
+   <add-resource type="string" name="start_on_boot_title"/>
+    <string name="start_on_boot_title">"বুটে শুরু করুন"</string>
+   <add-resource type="string" name="choose_file_title"/>
+    <string name="choose_file_title">"ডেমন কনফিগারেশন ফাইল (.cfg)"</string>
+   <add-resource type="string" name="choose_xml_file_title"/>
+    <string name="choose_xml_file_title">"পরিষেবা কনফিগারেশনের মোড (.xml)"</string>
+   <string-array name="files_list">
+   </string-array>
+   <add-resource type="string" name="dsp_version_title"/>
+    <string name="dsp_version_title">"DSP সংস্করণ"</string>
+   <add-resource type="string" name="debug_title"/>
+    <string name="debug_title">"ডিবাগ মোড"</string>
+   <add-resource type="string" name="timestamp_title"/>
+    <string name="timestamp_title">"টাইমস্ট্যাম্প সংযোজন করুন"</string>
+   <!-- Common settings -->
+   <add-resource type="string" name="frame_file_title"/>
+    <string name="frame_file_title">"ফ্রেম ফাইল"</string>
+   <add-resource type="string" name="frame_count_title"/>
+    <string name="frame_count_title">"ফ্রেম কাউন্ট"</string>
+   <!-- Tester settings -->
+   <add-resource type="string" name="TesterSettings"/>
+    <string name="TesterSettings">"পরীক্ষক সেটিংস"</string>
+   <add-resource type="string" name="tester_Status_title"/>
+    <string name="tester_Status_title">"পরীক্ষক স্থিতি"</string>
+   <add-resource type="string" name="frame_file_format_title"/>
+    <string name="frame_file_format_title">"ফ্রেম ফাইল ফর্ম্যাট"</string>
+   <add-resource type="array" name="files_format"/>
+    <string-array name="files_format">
+      <item>"র‌্য"</item>
+      <item>"Wav"</item>
+   </string-array>
+   <!-- Digital Pen settings -->
+   <add-resource type="string" name="DigitalPenSettings"/>
+    <string name="DigitalPenSettings">"ডিজিট্যাল পেন সেটিংস"</string>
+   <add-resource type="string" name="digital_pen_status_title"/>
+    <string name="digital_pen_status_title">"পেন স্থিতি"</string>
+   <add-resource type="string" name="calib_title"/>
+    <string name="calib_title">"ক্যালিব্রেশন মোড"</string>
+   <add-resource type="string" name="coord_file_title"/>
+    <string name="coord_file_title">"ফাইল সমন্বিত করে"</string>
+   <add-resource type="string" name="coord_count_title"/>
+    <string name="coord_count_title">"সংখ্যা সমন্বিত করে"</string>
+   <add-resource type="string" name="timeout_title"/>
+    <string name="timeout_title">"টাইমআউট"</string>
+   <!-- Gesture settings -->
+   <add-resource type="string" name="GestureSettings"/>
+    <string name="GestureSettings">"ইঙ্গিত সেটিংস"</string>
+   <add-resource type="string" name="gesture_status_title"/>
+    <string name="gesture_status_title">"ইঙ্গিত স্থিতি"</string>
+   <!-- Sync Gesture settings -->
+   <add-resource type="string" name="SyncGestureSettings"/>
+    <string name="SyncGestureSettings">"ইঙ্গিত সেটিংস সিঙ্ক করুন"</string>
+   <add-resource type="string" name="sync_gesture_status_title"/>
+    <string name="sync_gesture_status_title">"ইঙ্গিত স্থিতি সিঙ্ক করুন"</string>
+   <!-- P2P settings -->
+   <add-resource type="string" name="P2PSettings"/>
+    <string name="P2PSettings">"P2P সেটিংস"</string>
+   <add-resource type="string" name="p2p_status_title"/>
+    <string name="p2p_status_title">"P2P স্থিতি"</string>
+   <add-resource type="string" name="device_id_title"/>
+    <string name="device_id_title">"ডিভাইস আইডি"</string>
+   <add-resource type="string" name="pattern_type_title"/>
+    <string name="pattern_type_title">"নকশার প্রকার"</string>
+   <!-- Hovering settings -->
+   <add-resource type="string" name="HoveringSettings"/>
+    <string name="HoveringSettings">"হোভারিং সেটিংস"</string>
+   <add-resource type="string" name="hovering_status_title"/>
+    <string name="hovering_status_title">"হোভারিং স্থিতি"</string>
+   <!-- Recording settings -->
+   <add-resource type="string" name="RecordingSettings"/>
+    <string name="RecordingSettings">"রেকর্ডিং সেটিংস"</string>
+   <add-resource type="string" name="recording_status_title"/>
+    <string name="recording_status_title">"রেকর্ডিং স্থিতি"</string>
+   <!-- Proximity settings -->
+   <add-resource type="string" name="ProximitySettings"/>
+    <string name="ProximitySettings">"নৈকট্য সেটিংস"</string>
+   <add-resource type="string" name="proximity_status_title"/>
+    <string name="proximity_status_title">"নৈকট্য স্থিতি"</string>
+   <add-resource type="string" name="force_using_cfg_title"/>
+    <string name="force_using_cfg_title">"মনোনীন Cfg ব্যবহারে জোর দিন"</string>
+   <add-resource type="array" name="test_type_array"/>
+    <string-array name="test_type_array">
+      <item>"ইঙ্গিত"</item>
+      <item>"হোভারিং"</item>
+      <item>"নৈকট্য"</item>
+   </string-array>
+   <add-resource type="string" name="gesture_first_text"/>
+    <string name="gesture_first_text">"প্রস্তুত?"</string>
+   <!-- Gesture Recording -->
+   <add-resource type="string" name="name_text"/>
+    <string name="name_text">"নাম"</string>
+   <add-resource type="string" name="location_text"/>
+    <string name="location_text">"অবস্থান"</string>
+   <add-resource type="string" name="comments_text"/>
+    <string name="comments_text">"মন্তব্যগুলি"</string>
+   <add-resource type="string" name="type_text"/>
+    <string name="type_text">"ধরন"</string>
+   <add-resource type="string" name="cfg_file_text"/>
+    <string name="cfg_file_text">"Cfg ফাইল"</string>
+   <add-resource type="string" name="record_location_text"/>
+    <string name="record_location_text">"রেকর্ডিং অবস্থান"</string>
+   <add-resource type="string" name="user_notice_text"/>
+    <string name="user_notice_text">"নির্বাচিত cfg ফাইল আপনার প্রয়োজনীয়তা পূরণ করে কিনা দয়া করে তা নিশ্চিত করুন  "</string>
+   <add-resource type="string" name="button_text"/>
+    <string name="button_text">"আরম্ভ করুন"</string>
+   <add-resource type="string" name="clr_persist"/>
+    <string name="clr_persist">"অবিরাম ডেটা সাফ করুন"</string></resources>

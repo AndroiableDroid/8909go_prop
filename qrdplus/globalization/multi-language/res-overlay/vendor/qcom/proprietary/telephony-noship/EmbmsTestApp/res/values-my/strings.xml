@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">EmbmsTestApp</string>
+    <string name="embms_test_app">"eMBMS စမ်းသပ်မှု အက်ပ်"</string>
+    <string name="bind_service">"ဝန်ဆောင်မှု စုစည်းလုပ်ဆောင်ပါ"</string>
+    <string name="unbind_service">"ဝန်ဆောင်မှု စုစည်းလုပ်ဆောင်မှုဖြုတ်ပါ"</string>
+    <string name="kill_process">"လုပ်ငန်းစဉ် ဖျက်ပါ"</string>
+    <string name="register">"Callbacks ကို မှတ်ပုံတင်ပါ"</string>
+    <string name="deregister">"Callbacks ကို မှတ်ပုံတင်ဖြုတ်ပါ"</string>
+    <string name="enable">"eMBMS ဖွင့်နေသည်"</string>
+    <string name="disable">"eMBMS ပိတ်နေသည်"</string>
+    <string name="activate">"TMGI သက်ဝင်လုပ်ဆောင်နေသည်"</string>
+    <string name="deactivate">"TMGI သက်ဝင်လုပ်ဆောင်မှုဖြုတ်နေသည်"</string>
+    <string name="enter_Tmgi">"ဒဿမကိန်းဖြင့် TMGI ထည့်သွင်းပါ"</string>
+    <string name="get_active">"Act စာရင်း ရယူပါ"</string>
+    <string name="get_available">"Avl စာရင်း ရယူပါ"</string>
+    <string name="get_coverage">"Cov အခြေအနေ ရယူပါ"</string>
+    <string name="get_log_packet_id">"မှတ်တမ်း ပက်ကေ့ရှ် ID များ ရယူပါ"</string>
+    <string name="deliver_log_packet">"Dlver မှတ်တမ်း ပက်ကေ့ရှ်"</string>
+    <string name="get_e911_state">"E911 အခြေအနေ ရယူပါ"</string></resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Phát hiện cảnh bộ sưu tập QC"</string>
+    <add-resource type="string" name="app_description"/>
+    <string name="app_description">"Tự động phát hiện cảnh trong ảnh."</string>
+    <add-resource type="string" name="settings_menu"/>
+    <string name="settings_menu">"Cài đặt"</string>
+    <add-resource type="string" name="about_menu"/>
+    <string name="about_menu">"Thông tin"</string>
+    <add-resource type="string" name="clearassetdatabase_menu"/>
+    <string name="clearassetdatabase_menu">"Xóa cơ sở dữ liệu"</string>
+    <add-resource type="string" name="resetapp_menu"/>
+    <string name="resetapp_menu">"Đặt lại ứng dụng"</string>
+    <add-resource type="string" name="imageview_description"/>
+    <string name="imageview_description">"Hình thu nhỏ của ảnh"</string>
+    <!--  filter UI -->
+    <add-resource type="string" name="filter_filter_header_text"/>
+    <string name="filter_filter_header_text">"Bộ lọc"</string>
+    <add-resource type="string" name="reset_filter_button_text"/>
+    <string name="reset_filter_button_text">"Xóa"</string>
+    <add-resource type="string" name="udc_add_dialog_title"/>
+    <string name="udc_add_dialog_title">"Thêm khái niệm mới"</string>
+    <add-resource type="string" name="udc_add_dialog_ok"/>
+    <string name="udc_add_dialog_ok">"Thêm"</string>
+    <add-resource type="string" name="udc_add_dialog_cancel"/>
+    <string name="udc_add_dialog_cancel">"Hủy"</string>
+    <!-- gallery mode processing -->
+    <add-resource type="string" name="engine_notification_title"/>
+    <string name="engine_notification_title">"Qualcomm Technologies Inc, Phát hiện cảnh đầu tiên"</string>
+    <add-resource type="string" name="engine_notification_scanning"/>
+    <string name="engine_notification_scanning">"Phát hiện cảnh đang quét thiết bị của bạn\u2026"</string>
+    <add-resource type="string" name="engine_notification_analyzing"/>
+    <string name="engine_notification_analyzing">"Phát hiện cảnh đang phân tích ảnh của bạn\u2026"</string>
+    <add-resource type="string" name="engine_notification_training"/>
+    <string name="engine_notification_training">"Phát hiện cảnh đang cập nhật model của bạn\u2026"</string>
+    <add-resource type="string" name="engine_notification_storing"/>
+    <string name="engine_notification_storing">"Đang lưu kết quả phân loại vào cơ sở dữ liệu..."</string>
+    <!--  first part: number, second part: already formatted minutes or seconds -->
+    <add-resource type="string" name="engine_notification_togo"/>
+    <string name="engine_notification_togo">"Phát hiện cảnh đang phân tích ảnh của bạn: %1$d để đến, còn lại %2$s."</string>
+    <add-resource type="string" name="engine_notification_togo_minutes"/>
+    <string name="engine_notification_togo_minutes">"%1$d phút"</string>
+    <add-resource type="string" name="engine_notification_togo_minute"/>
+    <string name="engine_notification_togo_minute">"1 phút"</string>
+    <add-resource type="string" name="engine_notification_togo_seconds"/>
+    <string name="engine_notification_togo_seconds">"%1$d giây"</string>
+    <add-resource type="string" name="loading_notification"/>
+    <string name="loading_notification">"Đang tải\u2026"</string>
+    <!-- used in parsing preference values for threshold file -->
+    <add-resource type="string" name="asset_prefix"/>
+    <string name="asset_prefix">"Tài nguyên://"</string>
+    <add-resource type="string" name="sdcard_prefix"/>
+    <string name="sdcard_prefix">"thẻ sd://"</string>
+    <add-resource type="string" name="splash_screen_logo_image"/>
+    <string name="splash_screen_logo_image">"Hình ảnh logo màn hình chào mừng."</string>
+    <add-resource type="string" name="all_photos"/>
+    <string name="all_photos">"Tất cả ảnh"</string>
+    <add-resource type="string" name="all_videos"/>
+    <string name="all_videos">"Tất cả video"</string>
+    <add-resource type="string" name="all_media"/>
+    <string name="all_media">"Tất cả phương tiện"</string>
+    <add-resource type="string" name="album_title"/>
+    <string name="album_title">"Album"</string>
+    <!-- not used for some reason
+    <string name="gallery_bic_tab_title">Filter</string> -->
+    <add-resource type="string" name="gallery_udc_tab_title"/>
+    <string name="gallery_udc_tab_title">"Cá nhân"</string>
+    <add-resource type="string" name="positive_example_desc"/>
+    <string name="positive_example_desc">"Ảnh được sử dụng làm ví dụ đào tạo tích cực"</string>
+    <add-resource type="string" name="negative_example_desc"/>
+    <string name="negative_example_desc">"Ảnh được sử dụng làm ví dụ đào tạo tiêu cực"</string>
+    <add-resource type="string" name="video_notification"/>
+    <string name="video_notification">"VIDEO"</string>
+    <add-resource type="string" name="create_udc_action_title"/>
+    <string name="create_udc_action_title">"Tạo khái niệm"</string>
+    <add-resource type="string" name="add_positive_training_example_title"/>
+    <string name="add_positive_training_example_title">"Thêm tích cực"</string>
+    <add-resource type="string" name="add_negative_training_example_title"/>
+    <string name="add_negative_training_example_title">"Thêm tiêu cực"</string>
+    <add-resource type="string" name="train_udc_multiselect_title"/>
+    <string name="train_udc_multiselect_title">"Khái niệm đào tạo"</string>
+    <add-resource type="string" name="create_udc_multiselect_title"/>
+    <string name="create_udc_multiselect_title">"Tạo khái niệm"</string>
+    <add-resource type="string" name="multiselect_num_selected_suffix"/>
+    <string name="multiselect_num_selected_suffix">"được chọn"</string></resources>

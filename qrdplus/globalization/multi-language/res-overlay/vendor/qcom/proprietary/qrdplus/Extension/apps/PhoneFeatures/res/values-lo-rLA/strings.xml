@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+  All Rights Reserved.
+  Confidential and Proprietary - Qualcomm Technologies, Inc.
+ -->
+<resources>
+    <string name="message_no_sdcard">"ກະລຸນາໃສ່ແຜ່ນ SD"</string>
+    <string name="message_internal_error">"ຜິດພາດໃນການອັດບັນທຶກ"</string>
+    <string name="message_success">"ໄຟລ໌ບັນທຶກໃສ່ %1$s ແລ້ວ"</string>
+    <string name="message_record_started">"ການອັດບັນທຶກໄດ້ເລີ່ມແລ້ວ"</string>
+    <string name="message_recording">"ອັດສຽງການໂທ"</string>
+    <string name="message_not_incall">"ພຽງແຕ່ເປີດໃຊ້ເມື່ອຢູ່ໃນການໂທເທົ່ານັ້ນ"</string>
+    <string name="message_sdcard_full">"ບໍ່ມີພື້ນທີ່ວ່າງເຫຼືອໃນບ່ອນເກັບຂໍ້ມູນພາຍນອກຂອງທ່ານ"</string>
+    <string name="no_sim_message">"ບໍ່ມີແຜ່ນ SIM ໃນໂທລະສັບ\nກະລຸນາໃສ່ແຜ່ນ SIM"</string>
+    <string name="sim_changed_message">"ແຜ່ນຊີມໃໝ່ບໍ່ພ້ອມໃຊ້ງານ. ກະລຸນາກຳນົດຄ່າການສະໝັກໃຊ້"</string>
+    <string name="sim_changed_title">"ກຳນົດຄ່າການສະໝັກໃຊ້"</string>
+    <string name="sim_info">"ຂໍ້ມູນແຜ່ນ SIM"</string>
+    <string name="close">"ປິດ"</string>
+    <string name="change">"ຕັ້ງ"</string>
+    <string name="new_sim_detected">"ໄດ້ກວດພົບແຜ່ນ SIM ໃໝ່:"</string>
+    <string name="default_sim_setting">"ການຕັ້ງຄ່າ SIM ເລີ່ມຕົ້ນເປັນ:"</string>
+    <string name="mobile_data">"ຂໍ້ມນມືຖື: "</string>
+    <string name="slot">"ຊ່ອງໃສ່"</string>
+    <string name="carrier_name">"(ຊື່ຜູ້ໃຫ້ບໍລິການ)"</string>
+    <string name="mobile_data_on">"ເປີດ"</string>
+    <string name="mobile_data_off">"ປິດ"</string>
+    <string name="sim_absent">"ບໍ່ຢູ່"</string>
+    <string name="sim_cmcc">"ໄຊນາໂມໄບລ"</string>
+    <string name="sim_ct">"ໄຊນ່າ ເທເລຄອມ"</string>
+    <string name="sim_cu">"ໄຊນາຢູນິຄອມ"</string>
+    <string name="sim_unknown">"ບໍ່ຮູ້ຈັກ"</string>
+    <string name="alert_roaming_messgae">"ໂທລະສັບຢູ່ໃນການໃຊ້ງານຂ້າມເຂດ. ການໃຊ້ຂໍ້ມູນຂ້າມເຂດອາດຈະກໍ່ໃຫ້ເກີດການຄິດຄ່າຂໍ້ມູນຈຳນວນຫຼາຍ"</string>
+    <string name="alert_not_ct_uicc_card">"ແຜ່ນ SIM ບໍ່ຖືກກັບອຸປະກອນ, ກະລຸນາປ່ຽນແຜ່ນ 4G SIM ຈາກ China Telecom"</string>
+    <string name="multi_sim_settings_title">"ການຕັ້ງຄ່າສອງ SIM"</string>
+    <string name="lte_switch_unavailable">"ຕົວປ່ຽນແຜ່ນ 4G/3G SIM ບໍ່ມີໃຫ້ໃຊ້ງານ"</string>
+    <string name="lte_recognize_summary">"ພົບແຜ່ນ 4G/3G SIM, ທ່ານຕ້ອງຕັ້ງແຜ່ນ 4G/3G SIM ເລີ່ມຕົ້ນ:"</string>
+    <string name="lte_select_summary">"ແຜ່ນ SIM ທີ່ເລືອກຈະຖືກຮັບຮູ້ເປັນແຜ່ນ 4G/3G ແລະອັນອື່ນເປັນແຜ່ນ 2G."</string>
+    <string name="lte_checkbox_text">"ຕັ້ງຂໍ້ມູນມືຖືໃຫ້ແຜ່ນ SIM ທີ່ເລືອກ ເມື່ອມີການປ່ຽນ 4G/3G SIM"</string>
+    <string name="select_ok">"ຕົກລົງ"</string>
+    <string name="lte_select_title">"ແຜ່ນ 4G/3G SIM ເລີ່ມຕົ້ນ"</string>
+    <string name="lte_recognition_title">"ການຮັບຮູ້ແຜ່ນ SIM"</string>
+    <string name="reg_failed">"ການລົງທະບຽນບໍ່ສໍາເລັດ"</string>
+    <string name="reg_suc">"ການລົງທະບຽນສໍາເລັດແລ້ວ"</string>
+    <string name="reg_failed_msg">"ການລົງທະບຽນ 4G/3G SIM ເລີ່ມຕົ້ນບໍ່ສຳເລັດ, %1$s ຈະຖືກຮັບຮູ້ເປັນແຜ່ນ 2G SIM."</string>
+    <string name="lte_set">"ຕັ້ງ"</string>
+    <string name="lte_setting">"ແຜ່ນ 4G/3G SIM ເລີ່ມຕົ້ນກຳລັງຖືກຕັ້ງ"</string>
+    <string name="select_continue">"ສືບຕໍ່"</string>
+    <string name="select_cancel">"ຍົກ​ເລີກ"</string>
+    <string name="china_mobile">"ໄຊນາໂມໄບລ"</string>
+    <string name="china_unicom">"ໄຊນາຢູນິຄອມ"</string>
+    <string name="china_telecom">"ໄຊນ່າ ເທເລຄອມ"</string>
+    <string name="china_mobile_one">"ໄຊນ່າ ໂມໄບລ 01"</string>
+    <string name="china_mobile_two">"ໄຊນ່າ ໂມໄບລ 02"</string>
+    <string name="china_unicom_one">"ໄຊນາຢູນິຄອມ 01"</string>
+    <string name="china_unicom_two">"ໄຊນາຢູນິຄອມ 02"</string>
+    <string name="china_telecom_one">"ໄຊນ່າ ເທເລຄອມ 01"</string>
+    <string name="china_telecom_two">"ໄຊນ່າ ເທເລຄອມ 02"</string>
+    <string name="title_dialog_duration">"​ໄລຍະ​ເວລາ"</string>
+    <string name="duration_format">"%1$d ນາທີ %2$d ວິນາທີ"</string>
+    <string name="alert_title">"ເຕືອນ"</string>
+    <string name="message_not_registered_in_tdd">"ບໍ່ສາມາດຈົດທະບຽນໃນການບໍລີິການຂໍ້ມູນ 4G ເທົ່ານັ້ນ, ອອກບໍ?"</string>
+    <string name="message_tdd_data_only">"ປະຈຸບັນຢູ່ໃນໂໝດຂໍ້ມູນ 4G ເທົ່ານັ້ນທີ່ບໍ່ສາມາດໃຫ້ການດຳເນີນການນີ້ໄດ້, ທ່ານຕ້ອງການອອກຈາກໂໝດຂໍ້ມູນ 4G ເທົ່ານັ້ນບໍ?"</string>
+    <string name="choose_yes">"ແມ່ນ"</string>
+    <string name="choose_no">"ບໍ່"</string>
+    <string name="sim_card_number_title">SIM %1$d</string>
+    <string name="def_callRecord_savePath">"CallRecord"</string>
+    <!-- UPLMN Prefer -->
+    <string name="uplmn_list_setting_title">"ເຄືອຂ່າຍທີ່ເລືອກໄວ້"</string>
+    <string name="network_id">"ID ເຄືອຂ່າຍ"</string>
+    <string name="dialog_network_priority_title">"ລໍາດັບຄວາມສໍາຄັນ"</string>
+    <string name="uplmn_list_setting_add_plmn">"PLMN ​ໃໝ່"</string>
+    <string name="gsm_umts_network_preferences_title">"ໂໝດເຄືອຂ່າຍ"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"ໂໝດເຄືອຂ່າຍ"</string>
+    <string name="voicemail_number_not_set">"&lt;ຍັງບໍ່ໄດ້ຕັ້ງ&gt;"</string>
+    <string name="save">"ບັນທຶກ"</string>
+    <string name="reading_settings">"ກຳລັງອ່ານການຕັ້ງຄ່າ"</string>
+    <string name="updating_settings">"ກຳລັງອັບເດດການຕັ້ງຄ່າ"</string>
+    <!-- Title for the dialog alerting user CT card in wrong slot -->
+    <string name="alert_ct_in_wrong_slot_title">"​ແຜ່ນ​ກາດ ChinaTelecom ​ຖືກ​ສຽບໃສ່ຊ່ອງ​ບໍ່​ຖືກຕ້ອງ"</string>
+    <!-- Message for the dialog alerting user CT card in wrong slot -->
+    <string name="alert_ct_in_wrong_slot_message">"​ໃນ​ປັດຈຸ​ບັນ ມີ​ແຕ່​ຊ່ອງທີ 1 ​ເທົ່າ​ນັ້ນ​ທີ່​ຮອງ​ຮັບ​ແຜ່ນ​ກາດ​ ChinaTelecom, ຖ້າ​ທ່ານ​ໃສ່​ແຜ່ນ​ກາດ ChinaTelecom ​ໃນ​ຊ່ອງ​ທີ 2, ມັນອາດຈະໃຊ້ບໍ່ໄດ້, ກະລຸນາໃສ່ແຜ່ນກາດ ChinaTelecom ຄືນໃໝ່ໃນຊ່ອງທີ່ຖືກຕ້ອງ."</string></resources>

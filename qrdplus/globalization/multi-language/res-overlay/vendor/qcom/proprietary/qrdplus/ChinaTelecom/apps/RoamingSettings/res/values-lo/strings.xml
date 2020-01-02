@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"ການຕັ້ງຄ່າການໃຊ້ງານຂ້າມເຂດ"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"ເປີດ"</string>
+    <string name="data_roaming_title">"ເຊື່ອມຕໍ່ບໍລິການຂໍ້ມູນເມື່ອໂຣມມິງ"</string>
+    <string name="manual_select_network">"ຄູ່ມືການເລືອກເຄືອຂ່າຍ"</string>
+    <string name="roaming_card_info">"ຈະໃຊ້ບັດທຸລະກິດໂທລະສັບມືຖືເປັນບຸລິມະສິດກ່ອນ"</string>
+    <string name="network_select_success_info">"ການລົງທະບຽນສໍາເລັດໃນ “<xliff:g id="name">%s</xliff:g>” ເຄືອຂ່າຍ, ການລົງທະບຽນອັດຕະໂນມັດຈະເກີດຂື້ນເມື່ອເຄືອຂ່າຍໃຊ້ບໍ່ໄດ້"</string>
+    <string name="network_select_failure_info">"ເຄືອຂ່າຍ “<xliff:g id="name">%s</xliff:g>” ທີ່ເຈົ້າເລືອກໃຊ້ບໍ່ໄດ້, ເລີ່ມລົງທະບຽນໃຊ້ເຄືອຂ່າຍອື່ນແບບອັດຕະໂນມັດ"</string>
+    <string name="network_auto_success_info">"ສໍາເລັດການລົງທະບຽນເຄືອຂ່າຍ ແບບອັດຕະໂນມັດ"</string>
+    <string name="network_auto_failure_info">"ເຄືອຂ່າຍ GSM ທີ່ເຈົ້າເລືອກຍັງໃຊ້ບໍ່ໄດ້, ເລີ່ມລົງທະບຽນໃຊ້ເຄືອຂ່າຍອື່ນແບບອັດຕະໂນມັດ"</string>
+    <string name="manual_select_network_tip">"ການດໍາເນີນການນີ້ ສາມາດໃຊ້ໄດ້ເມື່ອເວລາ"</string>
+    <string name="gsm_network_list_title">"ການຄັດເລືອກເຄືອຂ່າຍ"</string>
+    <string name="searching_cdma_network_title">"ປະຈຸບັນກໍາລັງຄົ້ນຫາເຄືອຂ່າຍ cdma ......"</string>
+    <string name="searching_gsm_network_title">"ປະຈຸບັນກໍາລັງຄົ້ນຫາເຄືອຂ່າຍ gsm ......"</string>
+    <string name="empty_networks_list">"ບໍ່ພົບເຄືອຂ່າຍ."</string>
+    <string name="register_on_network">"ກຳລັງລົງທະບຽນກັບ <xliff:g id="NETWORK">%s</xliff:g>\u2026"</string>
+    <string name="register_automatically">"ການລົງທະບຽນອັດຕະໂນມັດ\u2026"</string>
+    <string name="network_select_setting">"ການຕັ້ງຄ່າເຄືອຂ່າຍ"</string>
+    <string name="roaming_hotline">"ສາຍດ່ວນໂທຂ້າມເຂດແດນ +8618918910000"</string>
+    <string name="carrier_names">"ໄຊນ່າ ເທເລຄອມ"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"ການປີດຂໍ້ມູນ..."</string>
+    <string name="unable_to_disable_data">"ບໍ່ສາມາດໃນການປີດໃຊ້ຂໍ້ມູນ."</string>
+    <string name="avoid_cur_nwk_succeeded">"ເພີ່ມເຄືອຂ່າຍປະຈຸບັນໄປໃສ່ລາຍຊື່ທີ່ຫຼີກລ້ຽງ."</string>
+    <string name="avoid_cur_nwk_failed">"ບໍ່ສາມາດເພີ່ມເຄືອຂ່າຍປະຈຸບັນໄປໃສ່ລາຍຊື່ທີ່ຫຼີກລ້ຽງ."</string>
+    <string name="clear_nwk_list_succeeded">"ລ້າງລາຍຊື່ເຄືອຂ່າຍທີ່ຫຼີກລ້ຽງ."</string>
+    <string name="clear_nwk_list_failed">"ບໍ່ສາມາດລົບອອກບັນຊີລາຍຊື່ເຄືອຂ່າຍທີ່ຫຼີກລ້ຽງ."</string>
+    <string name="ok_btn">"ຕົກລົງ"</string>
+    <string name="cancel_btn">"ຍົກ​ເລີກ"</string>
+    <string name="confirm_avoid">"ເຈົ້າແນ່ໃຈແລ້ວບໍ່ ວ່າເຈົ້າຕ້ອງການຫຼີກລ້ຽງເຄືອຂ່າຍທີ່ໃຊ້ປະຈຸບັນ?"</string>
+    <string name="confirm_clear">"ເຈົ້າແນ່ໃຈແລ້ວບໍ່ ວ່າເຈົ້າຕ້ອງການລົບອອກລາຍຊື່ເຄືອຂ່າຍທີ່ຫຼີກລ້ຽງ?"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"CDMA ຄັດເລືອກ"</string>
+    <string name="pref_gsm_choose_title">"GSM ຄັດເລືອກ"</string>
+    <string name="pref_network_info_title">"ຂໍ້ມູນເຄືອຂ່າຍປະຈຸບັນ"</string>
+    <string name="alert_msg_enable_card">"ເຈົ້າຕ້ອງການເປີດໃຊ້ງານບັດນີ້ບໍ່?"</string>
+    <string name="alert_msg_disable_card">"ເຈົ້າຕ້ອງການປິດໃຊ້ງານບັດນີ້ບໍ່?"</string>
+    <string name="progress_msg_enable_card">"ເປີດໃຊ້ງານບັດນີ້, ກະລຸນາລໍຖ້າ..."</string>
+    <string name="progress_msg_disable_card">"ປິດໃຊ້ງານບັດນີ້, ກະລຸນາລໍຖ້າ..."</string>
+    <string name="operation_success">"ການດໍາເນີນງານສໍາເລັດ"</string>
+    <string name="operation_failure">"ການດໍາເນີນງານລົ້ມແຫຼວ"</string>
+    <string name="result_btn">"ຕົກລົງ"</string>
+    <string name="alert_data_roaming_title">"ອະນຸຍາດໃຊ້ຂໍ້ມູນຂ້າມແດນ"</string>
+    <string name="alert_data_roaming_msg">"ເມື່ອທ່ານອະນຸຍາດໃຫ້ໃຊ້ການໂຣມມິງຂໍ້ມູນ ທ່ານອາດຈະຕ້ອງເສຍຄ່າໃຊ້ຈ່າຍການໂຣມມິງຫຼາຍ!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"ບໍ່ຮູ້ຈັກ"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"ຍັງບໍ່ສາມາດໃຊ້ໄດ້"</string>
+    <string name="status_network_type">"ປະເພດເຄືອຂ່າຍໂທລະສັບມືຖື"</string>
+    <string name="status_signal_strength">"ຄວາມແຮງສັນຍານ"</string>
+    <string name="status_prl_version">"PRL ເວີຊັນ"</string>
+    <string name="status_data_state">"ເຄືອຂ່າຍໂທລະສັບມືຖືຂອງລັດ"</string>
+    <string name="status_netowrk_title">"ສະຖານະຂອງຊີມໃນປະຈຸບັນ"</string>
+    <string name="status_operator_name">"ຊື່ຜູ້ໃຫ້ບໍລິການ"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"CELL ID"</string>
+    <string name="status_sms_center_number">"ໝາຍເລກສູນບໍລິການ Sms"</string>
+    <string name="status_pnl_version">"ຕ້ອງການເວີຊັນລາຍຊື່ເຄືອຂ່າຍ"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"ຄູ່ມືສະຫຼັບຫາເຄືອຂ່າຍຕໍ່ໄປ"</string>
+    <string name="avoid_discription">"ຄໍາແນະນໍາ:\n  ການເລືອກເຄືອຂ່າຍແບບອັດຕະໂນມັດແມ່ນ ຄ່າເລີ່ມຕົ້ນໃນລະບົບ CDMA, ບໍ່ຈໍາເປັນຕ້ອງມີຄູ່ມືການຄັດເລືອກ, ແຕ່ຖ້າວ່າເຄືອຂ່າຍປະຈຸບັນບໍ່ສາມາດໃຊ້ໄດ້, ລອງໃຊ້ຄູ່ມືສະຫຼັບຫາເຄືອຂ່າຍຕໍ່ໄປ. "</string>
+    <string name="attention_dialog_title">"ຂໍ້ຄວນຄຳນຶງ"</string>
+    <string name="disable_both_sim_error_msg">"ບໍ່ສາມາດປິດໃຊ້ງານທັງສອງຊີມໃນເວລາດຽວກັນ"</string>
+    <string name="China_Mobile">"ໄຊນາໂມໄບລ"</string>
+    <string name="China_Unicom">"ໄຊນາຢູນິຄອມ"</string>
+    <string name="China_Telecom">"ໄຊນ່າ ເທເລຄອມ"</string></resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"CarrierLoadService"</string>
+    <string name="edit_title">"Aktivované hodnoty"</string>
+    <string name="trigger_on_off_title">"Aktivovať operátora"</string>
+    <string name="trigger_path_title">"Vyhľadať operátora podľa cesty:"</string>
+    <string name="trigger_brand_title">"Vyhľadať operátora podľa značky:"</string>
+    <string name="trigger_target_title">"Vyhľadať operátora podľa cieľa:"</string>
+    <string name="trigger_path_hint">"Uložená cesta k operátorovi"</string>
+    <string name="trigger_brand_hint">"Značka"</string>
+    <string name="trigger_target_hint">"Cieľ"</string>
+    <string name="trigger_start">"Spustiť na pozadí"</string>
+    <string name="trigger_exit">"Uložiť a ukončiť"</string>
+    <string name="toast_trigger_enabled">"Spúšťač bol zapnutý"</string>
+    <string name="toast_trigger_disabled">"Spúšťač bol vypnutý"</string>
+    <string name="toast_trigger_start">"Vynútiť spúšťač na pozadí"</string>
+    <string name="toast_filebased_switch_enabled">"Zapnutý prepínač operátora podľa súboru"</string>
+    <string name="toast_filebased_switch_disabled">"Prepínač operátora podľa súboru je vypnutý, následne sa zapne blokový prepínač"</string>
+    <string name="toast_blockbased_switch_enabled">"Blokované prepnutie operátora zapnuté"</string>
+    <string name="toast_blockbased_switch_disabled">"Blokované prepnutie operátora vypnuté"</string></resources>

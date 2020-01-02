@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Ajustes de visualización asertiva"</string>
+        <add-resource type="string" name="ad_settings_title"/>
+    <string name="ad_settings_title">"Ajustes de visualización asertiva"</string>
+        <add-resource type="string" name="ad_enable_title"/>
+    <string name="ad_enable_title">"Habilitar visualización asertiva"</string>
+        <add-resource type="string" name="ad_enable_summary_on"/>
+    <string name="ad_enable_summary_on">"Mejorar la visualización en función de las condiciones ambientales"</string>
+        <add-resource type="string" name="ad_enable_summary_off"/>
+    <string name="ad_enable_summary_off">"La experiencia de visualización no mejorará según las condiciones ambientales"</string>
+        <add-resource type="string" name="ad_info_default"/>
+    <string name="ad_info_default">"Desconocido"</string>
+        <add-resource type="string" name="ad_version_title"/>
+    <string name="ad_version_title">"Versión de AD"</string>
+        <add-resource type="string" name="ad_assertive_title"/>
+    <string name="ad_assertive_title">"Asertividad"</string>
+        <add-resource type="string" name="ad_assertive_summary"/>
+    <string name="ad_assertive_summary">"Establece el valor de asertividad"</string>
+        <add-resource type="string" name="ad_assertive_default"/>
+    <string name="ad_assertive_default">128</string>
+        <add-resource type="string" name="ad_assertive_max"/>
+    <string name="ad_assertive_max">255</string></resources>

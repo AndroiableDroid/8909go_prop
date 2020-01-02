@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"STA"</string>
+    <string name="title_settings_activity">"الإعدادات"</string>
+    <string name="title_contact_activity">"إضافة جهة اتصال"</string>
+    <string name="title_event_activity">"إضافة حدث"</string>
+    <string name="title_add_field">"تحديد تسمية"</string>
+    <string name="title_text_activity">"النتائج"</string>
+    <string name="title_pick_datetime">"اختيار تاريخ ووقت"</string>
+    <string name="title_app_message">"رسالة"</string>
+    <string name="menu_item_copy">"نسخ"</string>
+    <string name="menu_item_edit">"تعديل"</string>
+    <string name="date_picker_ok">"موافق"</string>
+    <string name="date_picker_cancel">"إلغاء"</string>
+    <string name="dropdown_none_option">"لا شيء"</string>
+    <string name="scan_more">"اكتشف المزيد"</string>
+    <string name="bar_save_option">"حفظ"</string>
+    <string name="bar_done_option">"تم"</string>
+    <string name="camera_option_open_image">"فتح صورة"</string>
+    <string name="camera_option_settings">"الإعدادات"</string>
+    <string name="text_action_search">"بحث"</string>
+    <string name="text_action_translate">"ترجمة"</string>
+    <string name="text_action_copy">"نسخ"</string>
+    <string name="translate_url">"https://translate.google.com/m/translate#auto/‎"</string>
+    <string name="instruction_camera">"استخدم الكاميرا لاستخراج معلومات مفيدة من بطاقات الأعمال، ومن النشرات الإعلانية وغيرها من الصور."</string>
+    <string name="instruction_dont_show">"عدم الإظهار مرةً أخرى"</string>
+    <string name="instruction_dismiss_button">"موافق"</string>
+    <string name="message_no_more_fields">"لا توجد حقول أخرى لإضافتها"</string>
+    <string name="message_contact_saved">"تم حفظ جهة الاتصال بنجاح."</string>
+    <string name="message_calendar_saved">"تم حفظ حدث التقويم بنجاح."</string>
+    <string name="message_text_copied">"تم نسخ النص."</string>
+    <string name="message_no_matching_app">"لا يوجد تطبيق للمعالجة"</string>
+    <string name="message_gallery_pan_zoom">"يمكنك التحريك أو التكبير/التصغير للتعرف على نمط من هذه الصورة."</string>
+    <string name="message_restart_scanning">"الرجاء النقر لإعادة التشغيل."</string>
+    <string name="message_no_dates">"لم يتم التعرف على أي تاريخ"</string>
+    <string name="message_hold_steady">"أشِر إلى النص وثبت يدك"</string>
+    <!-- Error information -->
+    <string name="error_prefix">" الخطأ: 0x"</string>
+    <string name="error_title">"خطأ"</string>
+    <string name="error_dismiss_button">"موافق"</string>
+    <string name="error_camera_failed">"فشلت تهيئة الكاميرا."</string>
+    <string name="error_camera_snapshot_failed">"فشلت الكاميرا في التقاط لقطة سريعة."</string>
+    <string name="error_galleryImage_load">"فشل التطبيق في تحميل الصورة."</string>
+    <string name="error_api_frame_timeout">"لم يتم التعرف على أي نص."</string>
+    <string name="error_api_init_failed">"فشلت تهيئة STA Api."</string>
+    <string name="error_api_parsing_failed">"فشل STA Api في تحليل الصورة، حاول مرةً أخرى."</string>
+    <string name="error_api_no_records">"لم يتم التعرف على أي نص."</string>
+    <string name="error_api_restart_failed">"فشلت إعادة تشغيل API."</string>
+    <string name="error_api_no_new_records">"لم يتم العثور على معلومات جديدة."</string>
+    <string name="error_min_max_limit">"الرجاء إدخال قيمة بين %1$s و%2$s"</string>
+    <string name="error_no_sta_data_selected">"الرجاء تحديد واحد على الأقل."</string>
+    <!-- Contact information -->
+    <string name="contact_name_field_caption">"الاسم"</string>
+    <string name="contact_nickname_field_caption">"اللقب"</string>
+    <string name="contact_nickname_field_name">"اللقب"</string>
+    <string name="contact_title_field_caption">"المسمى الوظيفي"</string>
+    <string name="contact_company_field_caption">"الشركة"</string>
+    <string name="contact_phone_work_field_caption">"هاتف"</string>
+    <string name="contact_phone_work_field_name">"رقم الهاتف (العمل)"</string>
+    <string name="contact_phone_mobile_field_caption">"هاتف"</string>
+    <string name="contact_phone_mobile_field_name">"رقم الهاتف (المحمول)"</string>
+    <string name="contact_phone_home_field_caption">"هاتف"</string>
+    <string name="contact_phone_home_field_name">"رقم الهاتف (المنزل)"</string>
+    <string name="contact_phone_fax_field_caption">"هاتف"</string>
+    <string name="contact_phone_fax_field_name">"رقم الهاتف (الفاكس)"</string>
+    <string name="contact_address_field_caption">"العنوان"</string>
+    <string name="contact_address_field_name">"العنوان"</string>
+    <string name="contact_email_field_caption">"البريد الإلكتروني"</string>
+    <string name="contact_email_field_name">"بريد إلكتروني"</string>
+    <string name="contact_website_field_caption">"موقع الويب"</string>
+    <string name="contact_website_field_name">"موقع الويب"</string>
+    <string name="contact_im_field_caption">"المراسلة الفورية"</string>
+    <string name="contact_relationship_field_caption">"العلاقة"</string>
+    <string name="contact_relationship_field_name">"العلاقة"</string>
+    <string name="contact_notes_field_caption">"ملاحظات"</string>
+    <string name="contact_notes_field_name">"ملاحظات"</string>
+    <!-- Event information -->
+    <string name="event_title_field_caption">"المسمى الوظيفي"</string>
+    <string name="event_from_date_field_caption">"من"</string>
+    <string name="event_to_date_field_caption">"إلى"</string>
+    <string name="event_location_field_caption">"الموقع"</string>
+    <string name="event_location_field_name">"الموقع"</string>
+    <string name="event_all_day_field_caption">"طوال اليوم"</string>
+    <string name="event_repeat_field_caption">"تكرار"</string>
+    <string name="event_details_field_caption">"التفاصيل"</string>
+    <string name="event_details_field_name">"التفاصيل"</string>
+    <string name="event_participants_field_caption">"الأعضاء"</string>
+    <string name="event_participants_field_name">"الأعضاء"</string>
+    <string name="event_date_time_format_long">"EEE شهر/يوم/سنة ساعة:دقيقة a"</string>
+    <string name="event_date_time_format_small">"شهر/يوم/سنة ساعة:دقيقة a"</string>
+    <string name="event_date_format_long">"EEE شهر/يوم/سنة"</string>
+    <string name="event_date_format_small">"شهر يوم، سنة"</string>
+    <string name="event_date_format_month_small">"شهر"</string>
+    <string name="event_date_format_month_full">"شهر"</string>
+    <string name="event_date_format_year">"سنة"</string>
+    <string name="event_date_format_weekday">"EEE"</string>
+    <string name="event_date_format_small_no_year">"EEE شهر يوم"</string>
+    <string name="event_time_format">"ساعة: دقيقة صباحًا"</string>
+    <string name="event_date_separator">"-"</string>
+    <string name="preview_type_key">"com.qualcomm.qti.sta.captureui.CameraActivity.preview_type"</string>
+    <string name="preview_type_button">"زر"</string>
+    <string name="preview_type_auto">"تلقائي"</string>
+    <!-- Repeat -->
+    <string name="repeat_title">"التكرار"</string>
+    <string name="repeat_button_cancel">"إلغاء"</string>
+    <string name="repeat_button_ok">"موافق"</string>
+    <string name="repeat_summary_one_time">"حدث لمرة واحدة"</string>
+    <string name="repeat_summary_daily">"يوميًا"</string>
+    <string name="repeat_summary_daily_every">"كل %1$s يومًا"</string>
+    <string name="repeat_summary_weekly">"أسبوعيًا كل%1$s"</string>
+    <string name="repeat_summary_weekly_every">"كل %1$s أسبوع%2$s"</string>
+    <string name="repeat_summary_monthly_date">"شهريًا في يوم%1$s"</string>
+    <string name="repeat_summary_monthly_day">"شهريًا كل%1$s"</string>
+    <string name="repeat_summary_monthly_date_every">"كل %1$s شهر في يوم %2$s"</string>
+    <string name="repeat_summary_monthly_day_every">"كل %1$s شهر كل%2$s"</string>
+    <string name="repeat_summary_yearly">"سنويًا كل%1$s"</string>
+    <string name="repeat_summary_yearly_every">"كل %1$s سنةً%2$s"</string>
+    <string name="repeat_summary_till_date">"حتى %1$s"</string>
+    <string name="repeat_summary_till_events">"لعدد %1$s مرة"</string>
+    <string name="repeat_summary_till_one_event">"لمرة واحدة"</string>
+    <string name="repeat_title_pick_date">"اختر تاريخًا"</string>
+    <string name="repeat_one_time">"حدث لمرة واحدة"</string>
+    <string name="repeat_daily">"التكرار يوميًا"</string>
+    <string name="repeat_weekly">"التكرار أسبوعيًا"</string>
+    <string name="repeat_monthly">"التكرار شهريًا"</string>
+    <string name="repeat_yearly">"التكرار سنويًا"</string>
+    <string name="repeat_till_day">"يوم"</string>
+    <string name="repeat_till_week">"أسبوع"</string>
+    <string name="repeat_till_month">"شهر"</string>
+    <string name="repeat_till_year">"سنة"</string>
+    <string name="sunday_name">"أحد"</string>
+    <string name="monday_name">"اثنين"</string>
+    <string name="tuesday_name">"ثلاثاء"</string>
+    <string name="wednesday_name">"أربعاء"</string>
+    <string name="thursday_name">"خميس"</string>
+    <string name="friday_name">"جمعة"</string>
+    <string name="saturday_name">"سبت"</string>
+    <string-array name="number_texts">
+        <item>"أول"</item>
+        <item>"ثانية"</item>
+        <item>"الثالث"</item>
+        <item>"الرابع"</item>
+        <item>"الخامس"</item>
+    </string-array>
+    <string-array name="two_letter_day_names">
+        <item>"أحد"</item>
+        <item>"اثنين"</item>
+        <item>"ثلاثاء"</item>
+        <item>"أربعاء"</item>
+        <item>"خميس"</item>
+        <item>"جمعة"</item>
+        <item>"سبت"</item>
+    </string-array>
+    <string-array name="short_day_names">
+        <item>@string/sunday_name</item>
+        <item>@string/monday_name</item>
+        <item>@string/tuesday_name</item>
+        <item>@string/wednesday_name</item>
+        <item>@string/thursday_name</item>
+        <item>@string/friday_name</item>
+        <item>@string/saturday_name</item>
+    </string-array>
+    <string-array name="complete_day_names">
+        <item>"الأحد"</item>
+        <item>"الاثنين"</item>
+        <item>"الثلاثاء"</item>
+        <item>"الأربعاء"</item>
+        <item>"الخميس"</item>
+        <item>"الجمعة"</item>
+        <item>"السبت"</item>
+    </string-array>
+    <string name="repeat_month_same_date">"في نفس التاريخ من كل شهر"</string>
+    <string name="repeat_month_same_day">"في كل"</string>
+    <string name="repeat_every_caption">"كل"</string>
+    <string-array name="till_types">
+        <item>"للأبد"</item>
+        <item>"حتى"</item>
+        <item>"التكرارات"</item>
+    </string-array>
+    <!-- Settings -->
+    <string name="setting_sta_data_type">"أنواع بيانات STA"</string>
+    <string name="setting_sta_locale_type">"إعدادات STA المحلية"</string>
+    <string name="setting_text_record_mode">"وضع الكاميرا"</string>
+    <string name="setting_camera_steady_duration">"مدة ثبات الكاميرا (بالمللي ثانية)"</string>
+    <string name="setting_camera_move_threshold">"حد حركة الكاميرا"</string>
+    <string name="setting_sta_locale_usa">"الولايات المتحدة الأمريكية"</string>
+    <string name="setting_sta_locale_china">"الصين"</string>
+    <string name="setting_sta_locale_korea">"كوريا"</string>
+    <string name="setting_default_sta_locale">@string/setting_sta_locale_usa</string>
+    <string name="setting_text_record_snapshot_mode">"لقطة سريعة"</string>
+    <string name="setting_text_record_preview_mode">"معاينة"</string>
+    <string name="setting_default_text_record_mode">@string/setting_text_record_snapshot_mode</string>
+    <string name="setting_sta_language_usa">"الإنجليزية"</string>
+    <string name="setting_sta_language_china">"الصينية المبسطة"</string>
+    <string name="setting_sta_langauge_korea">"الكورية"</string>
+    <string-array name="setting_sta_data_type_options">
+        <item>"بريد إلكتروني"</item>
+        <item>"‏عنوان URL"</item>
+        <item>"رقم الهاتف"</item>
+        <item>"العنوان"</item>
+        <item>"التاريخ"</item>
+        <item>"عام"</item>
+    </string-array>
+    <string-array name="setting_sta_data_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type">
+        <item>"الولايات المتحدة الأمريكية"</item>
+        <item>"الصين"</item>
+        <item>"كوريا"</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type_values">
+        <item>@string/setting_sta_locale_usa</item>
+        <item>@string/setting_sta_locale_china</item>
+        <item>@string/setting_sta_locale_korea</item>
+    </string-array>
+    <string-array name="setting_text_record_options">
+        <item>@string/setting_text_record_snapshot_mode</item>
+        <item>@string/setting_text_record_preview_mode</item>
+    </string-array>
+    <string name="settings_scve_mode">"وضع تشغيل SCVE"</string>
+    <string-array name="settings_scve_mode_entries">
+        <item>"افتراضي"</item>
+        <item>"إلغاء تحميل CPU"</item>
+        <item>"الأداء"</item>
+        </string-array>
+    <string-array name="settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+    </string-array>
+    <string name="settings_scve_mode_default">0</string></resources>

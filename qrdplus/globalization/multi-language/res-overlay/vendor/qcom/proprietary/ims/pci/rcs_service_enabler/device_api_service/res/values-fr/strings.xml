@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service a été retiré, veuillez le réinstaller !"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"Mettre à jour les données du texte du profil"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"Mettre à jour les données de portrait du profil"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Supprimer tous les messages"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Définir un nouveau responsable pour la discussion de groupe"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Modifier le sujet de la discussion de groupe"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Modifier le surnom d\'un membre dans la discussion de groupe"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Accepter une invitation à participer à la discussion de groupe"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Quitter la discussion de groupe"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Supprimer des participants de la discussion de groupe"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"Fermer une discussion de groupe"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Faire attention à un compte public"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Ne pas faire attention à un compte public"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"Signaler un compte public"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"autorisation pour API sensible"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"%1$d application(s) autorisée(s) (total de %2$d)"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"Ne plus jamais demander"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"OK"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Annuler"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Cette opération est conçue pour %1$s. Le refus d\'autorisation risque d\'entraîner un fonctionnement anormal."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"Autorisation de %1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"Vous devez autoriser %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"Vous devez autoriser la carte SD."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"Vous devez donner des autorisations aux contacts."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"Vous devez donner des autorisations pour les SMS."</string></resources>

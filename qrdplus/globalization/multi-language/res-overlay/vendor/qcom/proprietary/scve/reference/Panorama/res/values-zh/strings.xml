@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"全景用户界面"</string>
+    <string name="title_loading">"正在加载！"</string>
+    <string name="msg_loading">"正在处理\u2026"</string>
+    <string name="panorama_saved">"全景图已成功保存到您设备的图片库"</string>
+    <string name="panorama_generate_result_failed">"抱歉，请重试。"</string>
+    <string name="error_dialog_title">"应用错误"</string>
+    <string name="btn_ok">"确定"</string>
+    <string name="btn_txt_save">"保存图片"</string>
+    <string name="err_library_loading">"应用无法加载本地库。"</string>
+    <string name="err_camera_init">"无法初始化相机。"</string>
+    <string name="err_sensors_init">"无法初始化传感器。"</string>
+    <string name="err_pano_init">"无法初始化全景 API。"</string>
+    <string name="err_sensors_failed">"无法初始化传感器。"</string>
+    <string name="err_zsl_failed">"此设备不支持 ZSL。"</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"未发起会话"</string>
+    <string name="err_queue_full">"队列已满"</string>
+    <string name="err_max_key_frames">"已达到帧数上限"</string>
+    <string name="err_no_frame_overlap">"各帧之间无重叠"</string>
+    <string name="err_inconsistent_direction">"方向不一致"</string>
+    <string name="err_result_not_ready">"结果未就绪"</string>
+    <string name="err_frame_no_feature">"帧功能不足"</string>
+    <string name="err_direction_changed">"方向已更改，请点击“确定”以查看拍摄的全景图片。"</string>
+    <string name="err_panorama_loading">"全景图片加载失败。"</string>
+    <string name="err_panorama_saving">"全景图片保存失败。"</string>
+    <string name="err_api_capturing">"全景图拍摄失败。"</string>
+    <string name="err_api_halted">"全景图拍摄中止，请点击“确定”以查看拍摄的全景图片。"</string>
+    <string name="err_max_limit">"已达到帧数上限，请点击“确定”以查看拍摄的全景图片。"</string>
+    <string name="err_no_prv">"未拍摄预览。"</string>
+    <string name="title_settings">"设置"</string>
+    <string name="camera_settings">"相机设置"</string>
+    <string name="camera_settings_picture_size">"分辨率"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string name="camera_settings_exposure_compensation">"曝光补偿"</string>
+    <string name="camera_settings_white_balance">"白平衡"</string>
+    <string-array name="camera_settings_white_balance_entries">
+        <item>"自动"</item>
+        <item>"日光"</item>
+        <item>"荧光"</item>
+        <item>"白炽光"</item>
+        <item>"阴影"</item>
+        <item>"黎明"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values">
+        <item>"auto"</item>
+        <item>"daylight"</item>
+        <item>"fluorescent"</item>
+        <item>"incandescent"</item>
+        <item>"shade"</item>
+        <item>"twilight"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values_camera2">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>7</item>
+    </string-array>
+    <string name="camera_settings_scene_mode">"场景模式"</string>
+    <string-array name="camera_settings_scene_mode_entries">
+        <item>"运动"</item>
+        <item>"自动"</item>
+        <item>"夜景"</item>
+        <item>"派对"</item>
+        <item>"日落"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values">
+        <item>"action"</item>
+        <item>"auto"</item>
+        <item>"night"</item>
+        <item>"party"</item>
+        <item>"sunset"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values_camera2">
+        <item>2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"对焦模式"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"连拍（视频）"</item>
+        <item>"无限远"</item>
+        <item>"固定"</item>
+        <item>"连拍（照片）"</item>
+        <item>"自动"</item>
+        <item>"扩展景深"</item>
+        <item>"微距"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"fixed"</item>
+        <item>"continuous-picture"</item>
+        <item>"auto"</item>
+        <item>"edof"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>3</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_iso">ISO</string>
+    <string-array name="camera_settings_iso_entries">
+        <item>"自动"</item>
+        <item>"手部防抖"</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="camera_settings_iso_values">
+        <item>"auto"</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>"ISO3200"</item>
+    </string-array>
+    <string name="camera_settings_iso_default">ISO800</string>
+    <string name="pano_settings">"全景设置"</string>
+    <string name="pano_settings_scve_mode">"SCVE 操作模式"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"默认"</item>
+        <item>"CPU 分流"</item>
+        <item>"性能"</item>
+        <item>"低功率"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_image_compress_level">"图片压缩级别"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_3a_lock">"在拍摄全景图的过程中锁定 AE/AF/AWB"</string>
+    <string-array name="pano_settings_enable_3a_lock_entries">
+        <item>"否"</item>
+        <item>"是"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_3a_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_3a_lock_default">"true"</string>
+    <string name="debug_settings">"调试设置"</string>
+    <string name="debug_settings_enable_loggings">"详细日志记录"</string>
+    <string-array name="debug_settings_enable_loggings_entries">
+        <item>"关闭"</item>
+        <item>"开启"</item>
+    </string-array>
+    <string-array name="debug_settings_enable_loggings_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_enable_loggings_default">"false"</string>
+    <string name="debug_settings_save_preview_frames">"将预览帧保存至 SD 卡"</string>
+    <string-array name="debug_settings_save_preview_frames_entries">
+        <item>"否"</item>
+        <item>"是"</item>
+    </string-array>
+    <string-array name="debug_settings_save_preview_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_preview_frames_default">"false"</string>
+    <string name="debug_settings_save_key_frames">"将关键帧保存至 SD 卡"</string>
+    <string-array name="debug_settings_save_key_frames_entries">
+        <item>"否"</item>
+        <item>"是"</item>
+    </string-array>
+    <string-array name="debug_settings_save_key_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_key_frames_default">"false"</string>
+    <!-- PanoramaViewer -->
+    <string name="share_button_text">"分享全景图片"</string></resources>

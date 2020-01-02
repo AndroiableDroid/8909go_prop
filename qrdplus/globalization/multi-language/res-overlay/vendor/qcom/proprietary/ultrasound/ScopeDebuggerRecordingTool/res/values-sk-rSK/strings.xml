@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Nástroj rozsahu ladenia nahrávania"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Nastavenia"</string>
+    <add-resource type="string" name="instructions"/>
+    <string name="instructions">"Zadajte názov súboru (alebo ponechajte ako názov súboru návrh) a stlačte tlačidlo na uloženie pamäte ladiča rozsahu"</string>
+    <add-resource type="string" name="button_text"/>
+    <string name="button_text">"Uložiť!"</string>
+    <add-resource type="string" name="file_name_default"/>
+    <string name="file_name_default">"scope_debugger_rec"</string></resources>

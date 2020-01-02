@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"Há vinte e quatro horas em um dia"</string>
+    <string name="hi_snapdragon">"Olá, Snapdragon"</string>
+    <string name="hey_snapdragon">"Olá Snapdragon"</string>
+    <string name="my_voice">"Minha voz é minha senha"</string>
+    <string name="make_my_day">"Faz meu dia feliz"</string>
+    <string name="tomorrow_is_another">"Amanhã é outro dia"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"Bem-vindo a San Diego"</string>
+    <string name="okay_google">"Ok, Google"</string>
+    <string name="open_my_email">"Abra o Meu E-mail"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"Voice Print"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"Configurações"</string>
+    <string name="action_add">"Adicionar"</string>
+    <string name="title_activity_main_with_fragment">"MainWithFragmentActivity"</string>
+    <string name="tap_mic_start">"Toque no Microfone para Iniciar"</string>
+    <string name="tap_mic_stop">"Toque no Microfone para Parar"</string>
+    <string name="say_key_phrase">"Diga\"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"Diga a frase \"&lt;b&gt;%1$s&lt;/b&gt;\" mais uma vez."</string>
+    <string name="say_one_of_key_phrases">"Diga uma das Frases Chave"</string>
+    <string name="phrase_recognized">"A frase \"&lt;b&gt;%1$s&lt;/b&gt;\" foi reconhecida "</string>
+    <string name="recording_length_exceeded">"Duração da Gravação Excedida"</string>
+    <string name="recording_length_exceeded_msg">"A duração da gravação foi excedida. Tente novamente."</string>
+    <string name="delete_all">"Excluir tudo"</string>
+    <string name="delete_all_msg">"Tem certeza de que deseja excluir todos os modelos registrados?"</string>
+    <string name="got_it">"Ótimo! Entendi."</string>
+    <string name="set_key_phrase">"Definir Frase Chave"</string>
+    <string name="set_key_phrase_name">"Definir Nome da Senha"</string>
+    <string name="set_key_phrase_action">"Definir Ação"</string>
+    <string name="change_key_phrase_action">"Alterar Ação"</string>
+    <string name="phrase_strength">"Comprimento da Frase"</string>
+    <string name="phrase_strength_hint">"Tente uma frase contendo pelo menos três palavras."</string>
+    <string name="register_phrase">"Registrar Frase"</string>
+    <string name="register_phrase_hint">"Para ajudar a reconhecer sua voz, grave a frase \"&lt;b&gt;%1$s&lt;/b&gt;\" três vezes."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" Grave em um local silencioso.\n\n"<b>"2."</b>" Mantenha o telefone longe da boca.\n\n"<b>"3."</b>" Diga sua senha naturalmente."</string>
+    <string name="ready_to_record">"OK, ESTOU PRONTO PARA GRAVAR"</string>
+    <string name="oops">"Epa! Tente novamente."</string>
+    <string name="say_the_phrase">"Diga a frase \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"A frase \"&lt;b&gt;%1$s&lt;/b&gt;\" foi registrada"</string>
+    <string name="say_the_phrase_few_more">"Diga \"&lt;b&gt;%1$s&lt;/b&gt;\" mais algumas vezes"</string>
+    <string name="voice_print">"Voice Print"</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="voice_level">"Nível de Voz"</string>
+    <string name="background_noise">"Ruído em plano de fundo"</string>
+    <string name="cap_done">"CONCLUÍDO"</string>
+    <string name="cap_record">"GRAVAR"</string>
+    <string name="cap_next">"PRÓXIMO"</string>
+    <string name="cap_ok">"OK"</string>
+    <string name="next">"Avançar"</string>
+    <string name="new_key_phrase">"Nova Senha"</string>
+    <string name="edit_keyphrases">"Editar Senhas"</string>
+    <string name="set_name">"Definir Nome"</string>
+    <string name="select_key_phrase">"Selecionar Senha"</string>
+    <string name="set_action">"Definir Ação"</string>
+    <string name="registration_complete">"Registro Completo"</string>
+    <string name="confirm_pin">"Confirmar Número do PIN"</string>
+    <string name="confirm_pin_msg">"Informe o número do PIN do dispositivo para editar as senhas."</string>
+    <string name="your_key_phrase">"Sua Senha"</string>
+    <string name="cap_redo">"REFAZER"</string>
+    <string name="cap_redo_previous">"REFAZER ÚLTIMA AÇÃO"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"Procurar Frases Recomendadas"</string>
+    <string name="create_your_own">"Criar Sua Própria Frase"</string>
+    <string name="skip">"Ignorar"</string>
+    <string name="none">"Nenhum"</string>
+    <string name="enter_pin">"Informe o número do PIN do dispositivo para editar as senhas."</string>
+    <string name="your_key_phrase_name">"Nome da Sua Senha"</string>
+    <string name="new_key_phrase_name">"Nome da Nova Senha"</string>
+    <string name="set_service_to_launch">"Definir serviço a ser iniciado"</string>
+    <string name="email">"E-mail"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"Enviar Mensagem de Texto"</string>
+    <string name="use_selected_phrase">"Usar Frase Selecionada"</string>
+    <string name="about">"Sobre"</string>
+    <string name="edit_key_phrases">"Editar Senhas"</string>
+    <string name="invalid_phrasename_title">"Nome da Frase Inválido"</string>
+    <string name="invalid_phrasename_msg">"O Nome da Frase não pode estar vazio."</string>
+    <string name="duplicate_phrasename_msg">"O Nome da Frase já existe. Tente um nome diferente."</string>
+    <string name="invalid_phrase_title">"Frase inválida"</string>
+    <string name="invalid_phrase_msg">"A Frase não pode estar vazia."</string>
+    <string name="edit_action">"Editar Ação"</string>
+    <string name="threshold">"Limite"</string>
+    <string name="delete_phrase">"Excluir Frase"</string>
+    <string name="rename">"Alterar Nome"</string>
+    <string name="rename_keyphrase">"Alterar Nome da Senha"</string>
+    <string name="adjust_keyword_sensitivity">"Ajustar a Sensibilidade da Palavra-chave"</string>
+    <string name="adjust_keyword_sensitivity_summary">"A sensibilidade pode ser ajustada para permitir alguma variação no reconhecimento da senha."</string>
+    <string name="sensitivity">"Sensibilidade"</string>
+    <string name="low_sensitivity">"Sensibilidade Baixa"</string>
+    <string name="med_sensitivity">"Sensibilidade Média"</string>
+    <string name="high_sensitivity">"Sensibilidade Alta"</string>
+    <string name="low">"BAIXA"</string>
+    <string name="med">"MÉD"</string>
+    <string name="high">"ALTO"</string>
+    <string name="low_sensitivity_summary">"Aceitar mais variações no processo de reconhecimento da senha."</string>
+    <string name="med_sensitivity_summary">"Aceita alguma variação no processo de reconhecimento da frase chave, mas pode impedir que algumas senhas sejam reconhecidas."</string>
+    <string name="high_sensitivity_summary">"Segurança adicional, mas podem impedir que algumas senhas sejam reconhecidas."</string>
+    <string name="keyword_sensitivity">"Sensibilidade da palavra-chave"</string>
+    <string name="delete_phrase_msg">"Tem certeza de que deseja excluir a frase \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"Voice Print Não Disponível"</string>
+    <string name="voice_print_not_available_msg">"O Voice Print não está habilitado neste dispositivo."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"Exclusão bem-sucedida"</string>
+    <string name="delete_success_msg">"O modelo de frase-chave foi excluído."</string>
+    <string name="delete_fail_title">"Falha na exclusão"</string>
+    <string name="delete_fail_msg">"Foi encontrado um erro ao excluir o modelo de frase-chave."</string>
+    <string name="rename_success_title">"Renomeação bem-sucedida"</string>
+    <string name="rename_success_msg">"O modelo de frase-chave foi renomeado."</string>
+    <string name="rename_fail_title">"Falha na renomeação"</string>
+    <string name="rename_fail_msg">"Foi encontrado um erro ao renomear o modelo de frase-chave."</string>
+    <string name="pin_validation">"Validação do PIN"</string>
+    <string name="pin_failed">"Entrada de PIN inválida"</string>
+    <string name="registration_failed">"Falha de registro"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"Limite de Usuário"</string>
+    <string name="spoof_score">"Limite de Falsificação"</string>
+    <string name="thresholds">"Limites"</string>
+    <string name="save">"Salvar"</string>
+    <string name="sentence_score_msg">"Definir Limite da Frase"</string>
+    <string name="user_score_msg">"Definir Limite de Usuário"</string>
+    <string name="spoof_score_msg">"Definir Limite de Falsificação"</string>
+    <string name="sentence_score">"Limite da Frase"</string></resources>

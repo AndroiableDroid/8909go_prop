@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Настройки SVI"</string>
+        <add-resource type="string" name="svi_settings_title"/>
+    <string name="svi_settings_title">"Настройки дисплея SVI"</string>
+        <add-resource type="string" name="svi_enable_title"/>
+    <string name="svi_enable_title">"Включить дисплей SVI"</string>
+        <add-resource type="string" name="svi_enable_summary_on"/>
+    <string name="svi_enable_summary_on">"Расширение возможностей просмотра в зависимости от внешних условий освещенности"</string>
+        <add-resource type="string" name="svi_enable_summary_off"/>
+    <string name="svi_enable_summary_off">"Внешние условия освещенности не улучшат комфортность восприятия изображения"</string>
+        <add-resource type="string" name="svi_info_default"/>
+    <string name="svi_info_default">"Неизвестно"</string>
+        <add-resource type="string" name="svi_version_title"/>
+    <string name="svi_version_title">"Версия SVI"</string></resources>

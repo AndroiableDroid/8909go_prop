@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Associazione SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Snapdragon Digital Pen Pairing"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Impostazioni"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"OK"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"Scegli la posizione penna da mostrare"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"Selezionare il numero di serie della nuova penna"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"Selezionare il tipo di penna da usare"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"Avvia associazione"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"Tenere la penna perpendicolarmente all\'interno del cerchio per avviare l\'associazione"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"Associazione manuale"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"Associazione semi-automatica"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"Scegli metodo di associazione"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"Associa nuova penna"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"Gestisci penne associate"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"Calibrazione SW"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"Tenere la penna perpendicolarmente all\'interno del cerchio per avviare l\'associazione.\nUna volta completata l\'operazione, verrà avviata la calibrazione."</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"Service Center Tester"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"Tenere la penna perpendicolarmente all\'interno del cerchio per avviare l\'associazione.\nUna volta completata l\'operazione, verrà avviato il test."</string></resources>

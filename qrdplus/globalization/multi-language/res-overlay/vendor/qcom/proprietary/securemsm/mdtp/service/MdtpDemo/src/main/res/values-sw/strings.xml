@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"DemoyaMdtp"</string>
+    <string name="user_app">"Programu ya Mtumiaji ya MDTP: Skrini Kuu"</string>
+    <string name="config_app">"Programu ya Mtumiaji ya MDTP: Usanidi"</string>
+    <string name="server_app">"Seva ya MDTP: Skrini Kuu"</string>
+    <string name="action_settings">"Mipangilio"</string>
+    <string name="label_1_1">"Hali ya MDTP:"</string>
+    <string name="state_deactivated">"Imezimwa"</string>
+    <string name="state_activated">"Imewashwa"</string>
+    <string name="configuration">"Usanidi (kabla ya kuwasha pekee)"</string>
+    <string name="service_activate">"Omba kuwashiwa MDTP kutoka huduma za MDTP"</string>
+    <string name="service_deactivate">"Omba kuzimiwa MDTP kutoka huduma za MDTP"</string>
+    <string name="local_deactivate">"Kuzimiwa MDTP kwenye kifaa (ukitumia PIN)"</string>
+    <string name="service_console">"Kiweko cha Huduma ya MDTP "</string>
+    <string name="title_activity_configuration">"Usanidi wa Mtumiaji"</string>
+    <string name="label_2_1">"Tumia PIN ya Kifaa:"</string>
+    <string name="label_2_2">"PIN:"</string>
+    <string name="gen_rand_pin">"Zalisha PIN Bila Utaratibu Maalum"</string>
+    <string name="label_2_3">"Usawa wa Uthibitishaji:"</string>
+    <string name="label_2_5">"Washa Kufuli ya SIM:"</string>
+    <string name="label_2_6">"Faili/saraka mbadala za kuthibitishwa:"</string>
+    <string name="reset">"Rudisha kwenye chaguo-msingi"</string>
+    <string name="label_3_1">"Tuma amri kutoka kwenye seva hadi kwenye kifaa:"</string>
+    <string name="activate">"Washa"</string>
+    <string name="deactivate">"Zima"</string>
+    <string name="locksim">"Funga SIM"</string>
+    <string name="unlocksim">"Fungua SIM"</string>
+    <string name="killfunc">"Sitisha utendaji"</string>
+    <string name="restorefunc">"Rejesha utendaji"</string>
+    <string name="label_3_2">"Maombi ya kuzima MDTP:"</string>
+    <string name="notallowed">"Hairuhusiwi"</string>
+    <string name="allowed">"Imeruhusiwa"</string>
+    <string name="label_3_3">"Maombi ya kuondoa kizuizi cha MwongozowaKusanidi:"</string>
+    <string name="label_3_4">"Logi ya Huduma:"</string>
+    <string name="wizard_app_loading_title">"MwongozowaKusanidi wa MDTP: Inaanzishwa..."</string>
+    <string name="label_4_1">"MwongozowaKusanidi umezuiwa kwa sababu hali ya MDTP imewashwa"</string>
+    <string name="label_4_2">"Chaguo la A: Endelea kuwasha MDTP, lakini omba uidhinishaji wa seva"</string>
+    <string name="wiz_unblock">"Omba kuondoa kizuizi cha MwongozowaKusanidi kutoka kwenye Huduma za MDTP"</string>
+    <string name="wiz_cont">"Endelea (imeidhinishwa na seva)"</string>
+    <string name="label_4_3">"Chaguo la B: Zima MDTP (kizuizi cha MwongozowaKusanidi kitaondolewa)"</string>
+    <string name="wiz_remote">"Omba kuzimiwa MDTP kutoka Mbali"</string>
+    <string name="wiz_local">"Kuzimiwa MDTP kwenye kifaa"</string>
+    <string name="label_4_4">"MwongozowaKusanidi umeruhusiwa kuendelea kwa sababu hali ya MDTP HAIJAWASHWA"</string>
+    <string name="wiz_complete">"Kamilisha MwongozowaKusanidi (hali ya MDTP haijawashwa)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"Mwongozo wa Usanidi"</string>
+    <string name="label_signup_message">"MDTP kwa sasa haijawashwa.\nUngependa kuiwasha?"</string>
+    <string name="label_signup_message_activated">"MDTP imefaulu kuwashwa!"</string>
+    <string name="skip_activation">"Ruka Hatua ya Kuwasha"</string>
+    <string name="emergency_dialer">"Kipigaji cha Dhararu"</string>
+    <string name="wiz_title_sign_up">"MwongozowaKusanidi wa MDTP- Jisajili"</string>
+    <string name="wiz_title_reset_prot">"MwongozowaKusanidi wa MDTP - Ulinzi wa Kuweka Upya Hadi Hali ya Kiwandani"</string>
+    <string name="wiz_title_boot_block">"MwongozowaKusanidi wa MDTP- Kifaa Kimezuiwa"</string>
+    <string name="block_boot_warning_text">"MDTP imezuia kifaa hiki kufuatia hitilafu ya ndani.\n\nTafadhali washa kifaa hiki tena."</string>
+    <string name="start_wifi_wizard">"Sanidi WiFi"</string>
+    <string name="default_pin_hint">"PIN chaguo-msingi ni 11111"</string>
+    <string name="pin_dialog_title">"PIN ya MDTP ya Kuzimiwa Ndani ya Kifaa Inahitajika"</string>
+    <string name="pin_input_validation_warning">"Lazima uweke herufi na nambari 5"</string></resources>

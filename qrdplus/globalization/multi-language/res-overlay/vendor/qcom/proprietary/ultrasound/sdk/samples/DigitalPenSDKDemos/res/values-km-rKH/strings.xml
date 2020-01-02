@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"ការសាកល្បង SDP SDK"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"បានពង្រីកអេក្រង់បិទ"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"ជ្រុង​ផ្ទៃខាងក្រោយ-ឆានែល"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"ម្រាមដៃ និង Stylus + សម្ពាធ"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"ផ្ទាំងអ័ក្ស"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"សំកាំង និងប៊ុតុចចំហៀង"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"ជ័រលុប និង​ឆ្លងកាត់ជ័រលុប"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"ការសាកល្បងនេះ​បង្ហាញ​លក្ខណៈពិសេសបិទអេក្រង់។\n\n1. គូសអេក្រង់បិទ និងមើល​គំនូររបស់អ្នកនៅខាងស្ដាំ។\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. នៅជ្រុង​ខាងស្ដាំផ្នែកខាងក្រោម​នៃអេក្រង់​និម្មិត​មានប៊ូតុងមួយ។ សំកាំងពីលើ​វានៅកម្ពស់ខុសៗគ្នាដើម្បីផ្លាស់ប្ដូរ​ភាពស្រអាប់​របស់រង្វង់។\n\n3. ចុច​លើវាដើម្បី​ផ្លាស់ប្ដូរពណ៌​របស់រង្វង់។"</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"ការសាកល្បងនេះ​បង្ហាញអំពីរបៀប​ដែល​ឆានែល​ជ្រុង​ផ្ទៃខាងក្រោយ​អាចប្រតិបត្តិការបាន​នៅពេល​អេក្រង់បើក ឬបិទ។\n\n1. គូស​អេក្រង់បិទ និងមើល​គំនូសអូសរបស់អ្នក។\n\n2. ឥឡូវ​ប្ដូរទៅកម្មវិធីមួយ​ផ្សេងទៀត ឬ​កំណត់​អេក្រង់បិទ - គំនូររបស់អ្នក​នៅតែត្រូវបានថត។"</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"សំកាំងពេលអេក្រង់បើក"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. សំកាំងពីលើ​អេក្រង់នៅកម្ពស់ខុសៗគ្នា។\n\n2. ប្រើ​កុងតាក់​ដើម្បីបិទ​ការសំកាំង។\n\n3. ប្រើគ្រាប់រំកិល​ដើម្បីកំណត់​ចម្ងាយ​អតិបរមា​សម្រាប់​ព្រឹត្តិការណ៍សំកាំង។\n\n4. ការចុចប៊ូតុងចំហៀង​នឹងផ្លាស់ប្ដូរពណ៌របស់​រង្វង់សំកាំង។"</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. សូមកំណត់រចនាសម្ព័ន្ធ​ប៊ូតុង SDP ឲ្យ​ក្លាយជា​ប៊ូតុងជ័រលុប​នៅក្នុងការកំណត់ជាសកល។\n\n2. គូស។\n\n3. កំណត់​ជ័រលុប​សម្រាប់ប៉ះបិទបើក។ ចុចប៊ូតុងជ័រលុប​។ លុប។ ចុច​ប៊ូតុងជ័រលុប​ម្ដងទៀត ប្ដូរទៅម៉ូដប៊ិច។\n\n4. កំណត់​ជ័រលុប​ដើម្បីកាន់លុប។ ឥឡូវអ្នកអាច​លុប​ចំណុចប៉ះភ្លាមៗ។\n\n5. ឥឡូវប្រើ​កុងតាក់​ឆ្លងកាត់ជ័រលុប​ដើម្បីបិទ​មុខងារជ័រលុប។"</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"ឆ្លងកាត់ជ័រលុប"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"លុបផ្ទាំងកំណាត់"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"គូរជាមួយ​ប៊ិច បន្ទាប់មកជាមួយម្រាមដៃរបស់អ្នក។\nវិធីសាស្ត្រពីរយ៉ាងត្រូវបានទទួលស្គាល់ដោយពណ៌។\nទទឺងស្នាម​ត្រូវបានកំណត់​ដោយ​សម្ពាធ ដែល​ត្រូវបានមើលឃើញជាលេខផងដែរ។"</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"សម្ពាធ"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

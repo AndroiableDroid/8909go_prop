@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"STA"</string>
+    <string name="title_settings_activity">"การตั้งค่า"</string>
+    <string name="title_contact_activity">"เพิ่มรายชื่อผู้ติดต่อ"</string>
+    <string name="title_event_activity">"เพิ่มเหตุการณ์"</string>
+    <string name="title_add_field">"เลือกป้าย"</string>
+    <string name="title_text_activity">"ผลการค้นหา"</string>
+    <string name="title_pick_datetime">"เลือกวันที่"</string>
+    <string name="title_app_message">"ข้อความ"</string>
+    <string name="menu_item_copy">"คัดลอก"</string>
+    <string name="menu_item_edit">"แก้ไข"</string>
+    <string name="date_picker_ok">"ตกลง"</string>
+    <string name="date_picker_cancel">"ยกเลิก"</string>
+    <string name="dropdown_none_option">"ไม่มี"</string>
+    <string name="scan_more">"ค้าหาเพิ่มเติม"</string>
+    <string name="bar_save_option">"บันทึก"</string>
+    <string name="bar_done_option">"เสร็จสิ้น"</string>
+    <string name="camera_option_open_image">"เปิดรูปภาพ"</string>
+    <string name="camera_option_settings">"การตั้งค่า"</string>
+    <string name="text_action_search">"ค้นหา"</string>
+    <string name="text_action_translate">"แปล"</string>
+    <string name="text_action_copy">"คัดลอก"</string>
+    <string name="translate_url">"https://translate.google.com/m/translate#auto/"</string>
+    <string name="instruction_camera">"ใช้กล้องของคุณเพื่อดึงเอาข้อมูลที่มีประโยชน์จากนามบัตร ใบปลิว และรูปภาพอื่นๆ"</string>
+    <string name="instruction_dont_show">"ไม่ต้องแสดงอีก"</string>
+    <string name="instruction_dismiss_button">"ตกลง"</string>
+    <string name="message_no_more_fields">"ไม่มีพื้นที่ให้เพิ่มอีก"</string>
+    <string name="message_contact_saved">"รายชื่อติดต่อถูกบันทึกเสร็จสิ้น"</string>
+    <string name="message_calendar_saved">"เหตุการณ์ในปฏิทินถูกบันทึกเสร็จสิ้น"</string>
+    <string name="message_text_copied">"ข้อความถูกคัดลอก"</string>
+    <string name="message_no_matching_app">"ไม่มีแอปพลิเคชั่น"</string>
+    <string name="message_gallery_pan_zoom">"คุณสามารถเลื่อนหรือขยายเพื่อจดจำรูปแบบของรูปภาพนี้"</string>
+    <string name="message_restart_scanning">"โปรดแตะเพื่อรีสตาร์ท"</string>
+    <string name="message_no_dates">"ไม่มีวันที่ให้ทำการจดจำ"</string>
+    <string name="message_hold_steady">"ชี้ไปที่ข้อความและถือให้นิ่ง"</string>
+    <!-- Error information -->
+    <string name="error_prefix">" ผิดพลาด: 0x"</string>
+    <string name="error_title">"ข้อผิดพลาด"</string>
+    <string name="error_dismiss_button">"ตกลง"</string>
+    <string name="error_camera_failed">"กล้องล้มเหลวในการเริ่มใช้งาน"</string>
+    <string name="error_camera_snapshot_failed">"กล้องล้มเหลวในการถ่ายสแนปช็อต"</string>
+    <string name="error_galleryImage_load">"แอปพลิเคชั่นล้มเหลวในการโหลดรูปภาพ"</string>
+    <string name="error_api_frame_timeout">"ไม่มีข้อความให้ทำการจดจำ"</string>
+    <string name="error_api_init_failed">"STA Api ล้มเหลวในการเริ่มใช้งาน"</string>
+    <string name="error_api_parsing_failed">"STA Api ล้มเหลวในการกระจายภาพ โปรดลองอีกครั้ง"</string>
+    <string name="error_api_no_records">"ไม่มีข้อความให้ทำการจดจำ"</string>
+    <string name="error_api_restart_failed">"การรีสตาร์ท API ล้มเหลว"</string>
+    <string name="error_api_no_new_records">"ไม่พบข้อมูลใหม่"</string>
+    <string name="error_min_max_limit">"โปรดใส่ค่าระหว่าง %1$s และ %2$s"</string>
+    <string name="error_no_sta_data_selected">"โปรดเลือกอย่างน้อยหนึ่งอย่าง"</string>
+    <!-- Contact information -->
+    <string name="contact_name_field_caption">"ชื่อ"</string>
+    <string name="contact_nickname_field_caption">"ชื่อเล่น"</string>
+    <string name="contact_nickname_field_name">"ชื่อเล่น"</string>
+    <string name="contact_title_field_caption">"ตำแหน่ง"</string>
+    <string name="contact_company_field_caption">"บริษัท"</string>
+    <string name="contact_phone_work_field_caption">"โทรศัพท์"</string>
+    <string name="contact_phone_work_field_name">"โทรศัพท์ (ที่ทำงาน)"</string>
+    <string name="contact_phone_mobile_field_caption">"โทรศัพท์"</string>
+    <string name="contact_phone_mobile_field_name">"โทรศัพท์ (มือถือ)"</string>
+    <string name="contact_phone_home_field_caption">"โทรศัพท์"</string>
+    <string name="contact_phone_home_field_name">"โทรศัพท์ (บ้าน)"</string>
+    <string name="contact_phone_fax_field_caption">"โทรศัพท์"</string>
+    <string name="contact_phone_fax_field_name">"โทรศัพท์ (แฟกซ์)"</string>
+    <string name="contact_address_field_caption">"ที่อยู่"</string>
+    <string name="contact_address_field_name">"ที่อยู่"</string>
+    <string name="contact_email_field_caption">"อีเมล"</string>
+    <string name="contact_email_field_name">"อีเมล"</string>
+    <string name="contact_website_field_caption">"เวปไซต์"</string>
+    <string name="contact_website_field_name">"เว็บไซต์"</string>
+    <string name="contact_im_field_caption">"IM"</string>
+    <string name="contact_relationship_field_caption">"ความสัมพันธ์"</string>
+    <string name="contact_relationship_field_name">"ความสัมพันธ์"</string>
+    <string name="contact_notes_field_caption">"หมายเหตุ"</string>
+    <string name="contact_notes_field_name">"หมายเหตุ"</string>
+    <!-- Event information -->
+    <string name="event_title_field_caption">"ตำแหน่ง"</string>
+    <string name="event_from_date_field_caption">"จาก"</string>
+    <string name="event_to_date_field_caption">"ถึง"</string>
+    <string name="event_location_field_caption">"ตำแหน่ง"</string>
+    <string name="event_location_field_name">"ตำแหน่ง"</string>
+    <string name="event_all_day_field_caption">"ตลอดวัน"</string>
+    <string name="event_repeat_field_caption">"ซ้ำ"</string>
+    <string name="event_details_field_caption">"รายละเอียด"</string>
+    <string name="event_details_field_name">"รายละเอียด"</string>
+    <string name="event_participants_field_caption">"สมาชิก"</string>
+    <string name="event_participants_field_name">"สมาชิก"</string>
+    <string name="event_date_time_format_long">"EEE M/d/yyyy h:mm a"</string>
+    <string name="event_date_time_format_small">"M/d/yyyy h:mm a"</string>
+    <string name="event_date_format_long">"EEE M/d/yyyy"</string>
+    <string name="event_date_format_small">"MMM d, yyyy"</string>
+    <string name="event_date_format_month_small">"MMM"</string>
+    <string name="event_date_format_month_full">"MMMM"</string>
+    <string name="event_date_format_year">"yyyy"</string>
+    <string name="event_date_format_weekday">"EEE"</string>
+    <string name="event_date_format_small_no_year">"EEE MMM d"</string>
+    <string name="event_time_format">"h:mm a"</string>
+    <string name="event_date_separator">"-"</string>
+    <string name="preview_type_key">"com.qualcomm.qti.sta.captureui.CameraActivity.preview_type"</string>
+    <string name="preview_type_button">"ปุ่ม"</string>
+    <string name="preview_type_auto">"อัตโนมัติ"</string>
+    <!-- Repeat -->
+    <string name="repeat_title">"ตั้งซ้ำ"</string>
+    <string name="repeat_button_cancel">"ยกเลิก"</string>
+    <string name="repeat_button_ok">"ตกลง"</string>
+    <string name="repeat_summary_one_time">"กิจกรรมที่เกิดขึ้นครั้งเดียว"</string>
+    <string name="repeat_summary_daily">"รายวัน"</string>
+    <string name="repeat_summary_daily_every">"ทุกๆ %1$s วัน"</string>
+    <string name="repeat_summary_weekly">"ทุกสัปดาห์ %1$s"</string>
+    <string name="repeat_summary_weekly_every">"ทุกๆ %1$s สัปดาห์ %2$s"</string>
+    <string name="repeat_summary_monthly_date">"ทุกเดือนในวัน %1$s"</string>
+    <string name="repeat_summary_monthly_day">"ทุกเดือน %1$s"</string>
+    <string name="repeat_summary_monthly_date_every">"ทุกๆ %1$s เดือนในวัน %2$s"</string>
+    <string name="repeat_summary_monthly_day_every">"ทุกๆ %1$s เดือน ทุกๆ %2$s"</string>
+    <string name="repeat_summary_yearly">"ทุกปี %1$s"</string>
+    <string name="repeat_summary_yearly_every">"ทุกๆ %1$s ปี %2$s"</string>
+    <string name="repeat_summary_till_date">"จนถึงl %1$s"</string>
+    <string name="repeat_summary_till_events">"เป็นจำนวน %1$s ครั้ง"</string>
+    <string name="repeat_summary_till_one_event">"เป็นจำนวน 1 ครั้ง"</string>
+    <string name="repeat_title_pick_date">"เลือกวัน"</string>
+    <string name="repeat_one_time">"กิจกรรมที่เกิดขึ้นครั้งเดียว"</string>
+    <string name="repeat_daily">"ซ้ำทุกวัน"</string>
+    <string name="repeat_weekly">"ซ้ำทุกสัปดาห์"</string>
+    <string name="repeat_monthly">"ซ้ำทุกเดือน"</string>
+    <string name="repeat_yearly">"ซ้ำทุกปี"</string>
+    <string name="repeat_till_day">"วัน"</string>
+    <string name="repeat_till_week">"สัปดาห์"</string>
+    <string name="repeat_till_month">"เดือน"</string>
+    <string name="repeat_till_year">"ปี"</string>
+    <string name="sunday_name">"อา."</string>
+    <string name="monday_name">"จ."</string>
+    <string name="tuesday_name">"อ."</string>
+    <string name="wednesday_name">"พ."</string>
+    <string name="thursday_name">"พฤ."</string>
+    <string name="friday_name">"ศ."</string>
+    <string name="saturday_name">"ส."</string>
+    <string-array name="number_texts">
+        <item>"แรก"</item>
+        <item>"วินาที"</item>
+        <item>"ที่สาม"</item>
+        <item>"ที่สี่"</item>
+        <item>"วันที่ห้า"</item>
+    </string-array>
+    <string-array name="two_letter_day_names">
+        <item>"ส."</item>
+        <item>"จ."</item>
+        <item>"อ."</item>
+        <item>"พ."</item>
+        <item>"พฤ."</item>
+        <item>"ศ."</item>
+        <item>"ส."</item>
+    </string-array>
+    <string-array name="short_day_names">
+        <item>@string/sunday_name</item>
+        <item>@string/monday_name</item>
+        <item>@string/tuesday_name</item>
+        <item>@string/wednesday_name</item>
+        <item>@string/thursday_name</item>
+        <item>@string/friday_name</item>
+        <item>@string/saturday_name</item>
+    </string-array>
+    <string-array name="complete_day_names">
+        <item>"วันอาทิตย์"</item>
+        <item>"วันจันทร์"</item>
+        <item>"วันอังคาร"</item>
+        <item>"วันพุธ"</item>
+        <item>"วันพฤหัสบดี"</item>
+        <item>"วันศุกร์"</item>
+        <item>"วันเสาร์"</item>
+    </string-array>
+    <string name="repeat_month_same_date">"ในวันเดียวกันของแต่ละเดือน"</string>
+    <string name="repeat_month_same_day">"ในทุกๆ"</string>
+    <string name="repeat_every_caption">"ทุกๆ"</string>
+    <string-array name="till_types">
+        <item>"ตลอดไป"</item>
+        <item>"จนถึง"</item>
+        <item>"การทำซ้ำ"</item>
+    </string-array>
+    <!-- Settings -->
+    <string name="setting_sta_data_type">"ประเภทข้อมูล STA"</string>
+    <string name="setting_sta_locale_type">"ตำแหน่ง STA"</string>
+    <string name="setting_text_record_mode">"โหมดกล้อง"</string>
+    <string name="setting_camera_steady_duration">"ช่วงเวลาที่กล้องนิ่ง (ในหน่วย ms)"</string>
+    <string name="setting_camera_move_threshold">"เกณฑ์การเคลื่อนกล้อง"</string>
+    <string name="setting_sta_locale_usa">"USA"</string>
+    <string name="setting_sta_locale_china">"CHN"</string>
+    <string name="setting_sta_locale_korea">"KOR"</string>
+    <string name="setting_default_sta_locale">@string/setting_sta_locale_usa</string>
+    <string name="setting_text_record_snapshot_mode">"สแนปช็อต"</string>
+    <string name="setting_text_record_preview_mode">"แสดงตัวอย่าง"</string>
+    <string name="setting_default_text_record_mode">@string/setting_text_record_snapshot_mode</string>
+    <string name="setting_sta_language_usa">"en"</string>
+    <string name="setting_sta_language_china">"zh-CN"</string>
+    <string name="setting_sta_langauge_korea">"ko"</string>
+    <string-array name="setting_sta_data_type_options">
+        <item>"อีเมล"</item>
+        <item>"URL"</item>
+        <item>"หมายเลขโทรศัพท์"</item>
+        <item>"ที่อยู่"</item>
+        <item>"วันที่"</item>
+        <item>"ทั่วไป"</item>
+    </string-array>
+    <string-array name="setting_sta_data_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type">
+        <item>"USA"</item>
+        <item>"จีน"</item>
+        <item>"เกาหลี"</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type_values">
+        <item>@string/setting_sta_locale_usa</item>
+        <item>@string/setting_sta_locale_china</item>
+        <item>@string/setting_sta_locale_korea</item>
+    </string-array>
+    <string-array name="setting_text_record_options">
+        <item>@string/setting_text_record_snapshot_mode</item>
+        <item>@string/setting_text_record_preview_mode</item>
+    </string-array>
+    <string name="settings_scve_mode">"โหมดการใช้งาน SCVE"</string>
+    <string-array name="settings_scve_mode_entries">
+        <item>"เริ่มต้น"</item>
+        <item>"CPU ออฟโหลด"</item>
+        <item>"ประสิทธิภาพ"</item>
+        </string-array>
+    <string-array name="settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+    </string-array>
+    <string name="settings_scve_mode_default">0</string></resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Nastavitve"</string>
+    <string name="body_msg">"preskušanje storitve FidoCryptoService"</string>
+    <string name="load">"nalaganje"</string>
+    <string name="unload">"odstranjevanje"</string>
+    <string name="process">"Proces"</string>
+    <string name="start">"začetek"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"Povezava storitve FIDO"</string>
+    <string name="unbindFido">"Prekinitev povezave storitve FIDO"</string>
+    <string name="setChallenge">"Nastavitev izziva"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Overovitelj povezovanja"</string>
+    <string name="verifyUser">"Preveri uporabnika/Pridobi žeton"</string>
+    <string name="GetInfo">"Pridobi informacije"</string>
+    <string name="Register">"Registracija"</string>
+    <string name="Deregister">"Preklic registracije"</string>
+    <string name="OpenSettings">"Odpri nastavitve"</string>
+    <string name="Sign">"Znak"</string>
+    <string name="MalformedRequest">"MalformedRequest"</string>
+    <string name="selectAuth">"Izbira overovitelja"</string>
+    <string name="getEnrollmentStatus">"Pridobitev stanja včlanitve"</string>
+    <string name="RegisterExt">"Registracija z razširitvami"</string>
+    <string name="SignExt">"Prijava z razširitvami"</string>
+    <string name="encResult">"Vključen rezultat"</string>
+    <string name="extResult">"Podatki razširitve"</string>
+    <string name="selectFidoOpText">"izberi delovanje storitve FIDO"</string>
+    <string name="show_message_sui">"prikaži sui za sporočila"</string>
+    <string name="fido_sui_service">"storitve fido Sui"</string>
+    <string name="bindFidoSui">"povezava storitve fido sui"</string>
+    <string name="unbindFidoSui">"prekinitev povezave storitve fido sui"</string>
+    <string name="suiResultTitle">"prikaži sporočilo z rezultatom sui"</string>
+    <string name="cancel_sui">"prekliči sui"</string>
+    <string name="extensionText">"Želite uporabiti razširitve?"</string>
+    <string name="pngText">"Želite uporabiti vsebino PNG?"</string>
+    <string name="fpText">"Varen prstni odtis"</string>
+    <string-array name="authenticator_array">
+        <item>"Lažni overovitelj"</item>
+        <item>"Vzorčni overovitelj"</item>
+        <item>"Varni vzorčni overovitelj"</item>
+        <item>"Vzorčni overovitelj razširitev"</item>
+        <item>"Varni overovitelj razširitev"</item>
+        <item>"Preverjanje zdravja naprave"</item>
+        <item>"Varni vzorčni overovitelj IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Pridobi informacije"</item>
+        <item>"Registracija"</item>
+        <item>"Preklic registracije"</item>
+        <item>"Odpri nastavitve"</item>
+        <item>"Popačena izjema"</item>
+        <item>"Znak (Preverjanje)"</item>
+        <item>"Znak (TX)"</item>
+    </string-array></resources>

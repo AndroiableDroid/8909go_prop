@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"সামাজিক ক্যামেরা"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"অনুমতিগুলির যাচাই বা অনুরোধ করার সময় আমরা ত্রুটির সম্মুখীন হয়েছি। আরও বিবরণের জন্য অনুগ্রহ করে লগক্যাট পরীক্ষা করুন।"</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"প্রেরণ করুন (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"ক্যামেরার সঙ্গে সংযোগ বিচ্ছিন্ন হয়েছে"</string>
+    <string name="camera_preview_error_camera_error">"ক্যামেরা থেকে প্রাপ্ত ত্রুটি: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"ছবি তুলতে ব্যর্থ হয়েছে"</string>
+    <string name="camera_preview_error_still_image_save_failed">"ছবিটিকে আপনার গ্যালারিতে সংরক্ষণ করার সময় আমরা ত্রুটির সম্মুখীন হয়েছি"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"সেটিংস"</string>
+    <string name="camera_settings_category_camera_settings">"ক্যামেরা সেটিংস"</string>
+    <string name="camera_settings_category_fr_settings">"মুখমন্ডল শনাক্তকরণ সেটিংস"</string>
+    <string name="camera_settings_category_debug_settings">"ডিবাগ সেটিংস"</string>
+    <string name="camera_settings_fr_database_cleared">"মুখমন্ডল শনাক্তকরণের ডেটাবেস সাফ করা হয়েছে"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"বাতিল করা"</string>
+    <string name="picture_review_send_faces">"প্রেরণ করুন (%d)"</string>
+    <string name="picture_review_no_faces">"এই ছবিতে কোনো ব্যক্তিকে পাওয়া যায়নি"</string>
+    <string name="picture_review_error_face_recognition">"মুখমন্ডল শনাক্ত করার সময় আমরা ত্রুটির সম্মুখীন হয়েছি"</string>
+    <string name="picture_review_error_face_enroll">"দুঃখিত, এই মুখমন্ডলটি সংরক্ষণ করার সময় আমরা ত্রুটির সম্মুখীন হয়েছি। অনুগ্রহ করে বিষয়টির আরেকটি ছবি তুলুন এবং আবার চেষ্টা করুন।"</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"অন্যান্য পরিচিতি\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"শেয়ার করার সেটিংস"</string>
+    <string name="fr_share_settings_button_just_once">"শুধুমাত্র একবার"</string>
+    <string name="fr_share_settings_button_always">"সর্বদা"</string>
+    <string name="fr_share_settings_share_method_sms">"SMS"</string>
+    <string name="fr_share_settings_share_method_email">"ইমেল"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"এটি দেখুন!"</string>
+    <string name="social_sharing_error_no_email_app">"আপনার কাছে ইমেল প্রেরণ করার জন্য সক্ষম কোনো অ্যাপ নেই"</string></resources>

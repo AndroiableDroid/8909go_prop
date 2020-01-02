@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Svetový čas"</string>
+    <string name="delete_timezone_title">"Vymazať čas"</string>
+    <string name="delete_timezone_tip">"Vymazať tento čas?"</string>
+    <string name="add_custom_timezone">"Vlastné časové pásmo"</string>
+    <string name="custom_timezone_header">"Časové pásmo"</string>
+    <string name="label_city">"Mesto"</string>
+    <string name="city_field_empty_prompt">"Vyplňte pole Mesto."</string>
+    <string name="hour_field_empty_prompt">"Vyplňte pole Hodina."</string>
+    <string name="minute_field_empty_prompt">"Vyplňte pole Minúta."</string>
+    <string name="hint_city">"Mesto (povinné)"</string>
+    <string name="label_gmt">"GMT"</string>
+    <string name="sign_pos">+ </string>
+    <string name="sign_neg">"- "</string>
+    <string name="hour_label">"HH"</string>
+    <string name="default_hour">0</string>
+    <string name="minute_label">"MM"</string>
+    <string name="default_minute">0</string>
+    <string name="add_timezone">"Pridať časové pásmo"</string>
+    <string name="timezone_header">"Časové pásmo"</string>
+    <string name="clock_reach_max">"NIE JE MOŽNÉ pridať ďalšie časy. Najprv vymažte zbytočný čas."</string>
+    <string name="illegal_city_name">"Neplatný názov mesta."</string>
+    <string-array name="city_names">
+        <item>"Apia"</item>  <!-- 1 -->
+        <item>"Midwayské ostrovy"</item>  <!-- 2 -->
+        <item>"Niue"</item>  <!-- 3 -->
+        <item>"Pago Pago"</item>  <!-- 4 -->
+        <item>"Samoa"</item>  <!-- 5 -->
+        <item>"Tokelau"</item>  <!-- 6 -->
+        <item>"Honolulu"</item>  <!-- 7 -->
+        <item>"Cookove ostrovy"</item>  <!-- 8 -->
+        <item>"Tahiti"</item>  <!-- 9 -->
+        <item>"Havaj"</item>  <!-- 10 -->
+        <item>"Markézy"</item>  <!-- 11 -->
+        <item>"Aleuty"</item>  <!-- 12 -->
+        <item>"Adak"</item>  <!-- 13 -->
+        <item>"Gambier"</item>  <!-- 14 -->
+        <item>"Anchorage"</item>  <!-- 15 -->
+        <item>"Juneau"</item>  <!-- 16 -->
+        <item>"Yakutat"</item>  <!-- 17 -->
+        <item>"Aljaška"</item>  <!-- 18 -->
+        <item>"Ensenada"</item>  <!-- 19 -->
+        <item>"Los Angeles"</item>  <!-- 20 -->
+        <item>"Tijuana"</item>  <!-- 21 -->
+        <item>"Vancouver"</item>  <!-- 22 -->
+        <item>"Whitehorse"</item>  <!-- 23 -->
+        <item>"Yukon"</item>  <!-- 24 -->
+        <item>"Chihuahua"</item>  <!-- 25 -->
+        <item>"Dawson Creek"</item>  <!-- 26 -->
+        <item>"Hermosillo"</item>  <!-- 27 -->
+        <item>"Arizona"</item>  <!-- 28 -->
+        <item>"Cambridge Bay"</item>  <!-- 29 -->
+        <item>"Edmonton"</item>  <!-- 30 -->
+        <item>"Inuvik"</item>  <!-- 31 -->
+        <item>"Yellowknife"</item>  <!-- 32 -->
+        <item>"Belize"</item>  <!-- 33 -->
+        <item>"Cancún"</item>  <!-- 34 -->
+        <item>"Denver"</item>  <!-- 35 -->
+        <item>"Kostarika"</item>  <!-- 36 -->
+        <item>"Salvádor"</item>  <!-- 37 -->
+        <item>"Guatemala"</item>  <!-- 38 -->
+        <item>"Regina"</item>  <!-- 39 -->
+        <item>"Mexiko (mesto)"</item>  <!-- 40 -->
+        <item>"Chicago"</item>  <!-- 41 -->
+        <item>"Menominee"</item>  <!-- 42 -->
+        <item>"Bogota"</item>  <!-- 43 -->
+        <item>"Havana"</item>  <!-- 44 -->
+        <item>"Jamajka"</item>  <!-- 45 -->
+        <item>"Lima"</item>  <!-- 46 -->
+        <item>"Panama"</item>  <!-- 47 -->
+        <item>"Kuba"</item>  <!-- 48 -->
+        <item>"Venezuela"</item>  <!-- 49 -->
+        <item>"Detroit"</item>  <!-- 50 -->
+        <item>"Fort Wayne"</item>  <!-- 51 -->
+        <item>"Michigan"</item>  <!-- 52 -->
+        <item>"Guyana"</item>  <!-- 53 -->
+        <item>"Východný čas"</item>  <!-- 54 -->
+        <item>"Atlantický čas"</item>  <!-- 55 -->
+        <item>"Manaus"</item>  <!-- 56 -->
+        <item>"Portoriko"</item>  <!-- 57 -->
+        <item>"Asunción"</item>  <!-- 58 -->
+        <item>"Santiago"</item>  <!-- 59 -->
+        <item>"Buenos Aires"</item>  <!-- 60 -->
+        <item>"Grónsko"</item>  <!-- 61 -->
+        <item>"Newfoundland"</item>  <!-- 62 -->
+        <item>"St. Johns"</item>  <!-- 63 -->
+        <item>"Brazília"</item>  <!-- 64 -->
+        <item>"Montevideo"</item>  <!-- 65 -->
+        <item>"Stredoatlantická oblasť"</item>  <!-- 66 -->
+        <item>"Kapverdy"</item>  <!-- 67 -->
+        <item>"Azory"</item>  <!-- 68 -->
+        <item>"Casablanca"</item>  <!-- 69 -->
+        <item>"Konakry"</item>  <!-- 70 -->
+        <item>"Reykjavík"</item>  <!-- 71 -->
+        <item>"Eire"</item>  <!-- 72 -->
+        <item>"Belfast"</item>  <!-- 73 -->
+        <item>"Dublin"</item>  <!-- 74 -->
+        <item>"Lisabon"</item>  <!-- 75 -->
+        <item>"Londýn"</item>  <!-- 76 -->
+        <item>"Island"</item>  <!-- 77 -->
+        <item>"Portugalsko"</item>  <!-- 78 -->
+        <item>"Alžír"</item>  <!-- 79 -->
+        <item>"Tunis"</item>  <!-- 80 -->
+        <item>"Berlín"</item>  <!-- 81 -->
+        <item>"Budapešť"</item>  <!-- 82 -->
+        <item>"Kodaň"</item>  <!-- 83 -->
+        <item>"Luxemburg"</item>  <!-- 84 -->
+        <item>"Madrid"</item>  <!-- 85 -->
+        <item>"Malta"</item>  <!-- 86 -->
+        <item>"Monako"</item>  <!-- 87 -->
+        <item>"Oslo"</item>  <!-- 88 -->
+        <item>"Paríž"</item>  <!-- 89 -->
+        <item>"Rím"</item>  <!-- 90 -->
+        <item>"Vatikán"</item>  <!-- 91 -->
+        <item>"Viedeň"</item>  <!-- 92 -->
+        <item>"Varšava"</item>  <!-- 93 -->
+        <item>"Zürich"</item>  <!-- 94 -->
+        <item>"Poľsko"</item>  <!-- 95 -->
+        <item>"Západoafrický čas"</item>  <!-- 96 -->
+        <item>"Amsterdam"</item>  <!-- 97 -->
+        <item>"Belehrad"</item>  <!-- 98 -->
+        <item>"Brusel"</item>  <!-- 99 -->
+        <item>"Sarajevo"</item>  <!-- 100 -->
+        <item>"Windhoek"</item>  <!-- 101 -->
+        <item>"Káhira"</item>  <!-- 102 -->
+        <item>"Jeruzalem"</item>  <!-- 103 -->
+        <item>"Harare"</item>  <!-- 104 -->
+        <item>"Ammán"</item>  <!-- 105 -->
+        <item>"Atény"</item>  <!-- 106 -->
+        <item>"Bejrút"</item>  <!-- 107 -->
+        <item>"Gaza"</item>  <!-- 108 -->
+        <item>"Istanbul"</item>  <!-- 109 -->
+        <item>"Atény"</item>  <!-- 110 -->
+        <item>"Helsinki"</item>  <!-- 111 -->
+        <item>"Minsk"</item>  <!-- 112 -->
+        <item>"Izrael"</item>  <!-- 113 -->
+        <item>"Líbya"</item>  <!-- 114 -->
+        <item>"Turecko"</item>  <!-- 115 -->
+        <item>"Bagdad"</item>  <!-- 116 -->
+        <item>"Kuvajt"</item>  <!-- 117 -->
+        <item>"Katar"</item>  <!-- 118 -->
+        <item>"Nairobi"</item>  <!-- 119 -->
+        <item>"Moskva"</item>  <!-- 120 -->
+        <item>"Teherán"</item>  <!-- 121 -->
+        <item>"Irán"</item>  <!-- 122 -->
+        <item>"Tbilisi"</item>  <!-- 123 -->
+        <item>"Dubaj"</item>  <!-- 124 -->
+        <item>"Baku"</item>  <!-- 125 -->
+        <item>"Jerevan"</item>  <!-- 126 -->
+        <item>"Kábul"</item>  <!-- 127 -->
+        <item>"Islamabad"</item>  <!-- 128 -->
+        <item>"Oral"</item>  <!-- 129 -->
+        <item>"Jekaterinburg"</item>  <!-- 130 -->
+        <item>"Kalkata"</item>  <!-- 131 -->
+        <item>"Srí Lanka"</item>  <!-- 132 -->
+        <item>"Káthmandu"</item>  <!-- 133 -->
+        <item>"Astana"</item>  <!-- 134 -->
+        <item>"Rangún"</item>  <!-- 135 -->
+        <item>"Bangkok"</item>  <!-- 136 -->
+        <item>"Jakarta"</item>  <!-- 137 -->
+        <item>"Saigon"</item>  <!-- 138 -->
+        <item>"Vientian"</item>  <!-- 139 -->
+        <item>"Krasnojarsk"</item>  <!-- 140 -->
+        <item>"Peking"</item>  <!-- 141 -->
+        <item>"Hongkong"</item>  <!-- 142 -->
+        <item>"Singapur"</item>  <!-- 143 -->
+        <item>"Manila"</item>  <!-- 144 -->
+        <item>"Kuala Lumpur"</item>  <!-- 145 -->
+        <item>"Perth"</item>  <!-- 146 -->
+        <item>"Taipei"</item>  <!-- 147 -->
+        <item>"Irkutsk"</item>  <!-- 148 -->
+        <item>"Pchjongjang"</item>  <!-- 149 -->
+        <item>"Soul"</item>  <!-- 150 -->
+        <item>"Tokio"</item>  <!-- 151 -->
+        <item>"Japonsko"</item>  <!-- 152 -->
+        <item>"Jakutsk"</item>  <!-- 153 -->
+        <item>"Darwin"</item>  <!-- 154 -->
+        <item>"Brisbane"</item>  <!-- 155 -->
+        <item>"Guam"</item>  <!-- 156 -->
+        <item>"Vladivostok"</item>  <!-- 157 -->
+        <item>"Adelaide"</item>  <!-- 158 -->
+        <item>"Hobart"</item>  <!-- 159 -->
+        <item>"Sydney"</item>  <!-- 160 -->
+        <item>"Magadan"</item>  <!-- 161 -->
+        <item>"Marshallove ostrovy"</item>  <!-- 162 -->
+        <item>"Fidži"</item>  <!-- 163 -->
+        <item>"Auckland"</item>  <!-- 164 -->
+        <item>"Tonga"</item>  <!-- 165 -->
+    </string-array></resources>

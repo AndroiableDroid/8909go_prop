@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IMS settings related strings -->
+    <!-- Title displayed IMS account settings in the sip settings category. [CHAR LIMIT=NONE] -->
+    <string name="ims_settings">"إعدادات IMS"</string>
+    <string name="ims_vt_call_quality_title">"جودة مكالمة VT"</string>
+    <string name="ims_vt_call_quality_low">"منخفضة"</string>
+    <string name="ims_vt_call_quality_high">"مرتفعة"</string>
+    <string name="ims_vt_call_quality_unknown">"غير معروف"</string>
+    <string name="ims_vt_call_quality_set_failed">"فشل تعيين جودة الفيديو"</string>
+    <string name="ims_get_packet_count_failed">"فشل الحصول على عدد الحزم"</string>
+    <string name="ims_get_packet_error_count_failed">"فشل الحصول على عدد الحزم التي تتضمن أخطاءً"</string>
+    <string name="ims_get_packet_count_label">"انقر هنا للحصول على عدد الحزم"</string>
+    <string name="ims_get_packet_error_count_label">"انقر هنا للحصول على عدد الحزم التي تتضمن أخطاءً"</string>
+    <string name="qti_ims_call_deflect_title">"الاتصال بالرقم المحوّل"</string>
+    <string name="qti_ims_number_not_set">"لم يتم الضبط"</string>
+    <!-- IMS to CS Retry setting title.  [CHAR LIMIT=30] -->
+    <string name="ims_to_cs_retry_title">"إعادة محاولة تحويل برنامج نصي معقد لنص أساسي"</string>
+    <!-- IMS to CS Retry setting summary.  [CHAR LIMIT=80] -->
+    <string name="ims_to_cs_retry_summary">"إعادة المحاولة تلقائيًا مع اتصالات صوتية عادية (موصى بها)"</string></resources>

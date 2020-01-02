@@ -1,0 +1,113 @@
+<resources>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+    <string name="app_name">"SeempJService"</string>
+    <string-array name="cause_description_array">
+<item>"6:3:Uygulama kullanıcı için görünür değilken ya da uygulama arka planda çalışırken kullanıcı girişlerini / etkileşimlerini araştırıyor"</item>
+    <item>"7:5:Şüpheli android kullanıcı kimliği kullanımı "</item>
+    <item>"8:5:Uygulama arka planda çalışırken şüpheli android kullanıcı kimliği kullanımı"</item>
+    <item>"9:5:Hassas cihaz bilgilerine şüpheli erişim"</item>
+    <item>"10:5:Uygulama arka planda çalışırken hassas cihaz bilgilerine şüpheli erişim"</item>
+    <item>"11:4:Telefon numarasına şüpheli erişim"</item>
+    <item>"12:4:Uygulamanın kullanıcı ile etkileşim içinde olmadığı sırada telefon numarasına erişim"</item>
+    <item>"13:2:Uygulama yetkisiz telefon araması yapmaya çalışıyor"</item>
+    <item>"14:2:Uygulama arka planda çalışırken yetkisiz telefon araması yapmaya çalışıyor"</item>
+    <item>"15:4:Hassas kullanıcı hesabı bilgilerine anormal erişim"</item>
+    <item>"16:4:Uygulamanın kullanıcı ile etkileşim içinde olmadığı sırada hassas kullanıcı hesabı bilgilerine anormal erişim"</item>
+    <item>"17:4:Uygulama kullanıcıya bildirmeksizin hassas kullanıcı hesabı bilgilerine erişiyor"</item>
+    <item>"18:4:Uygulama arka planda çalışırken kullanıcıya bildirmeksizin hassas kullanıcı hesabı bilgilerine erişiyor"</item>
+    <item>"19:3:Hassas tarayıcı bilgilerine şüpheli erişim"</item>
+    <item>"20:3:Uygulama arka planda çalışırken hassas tarayıcı bilgilerine şüpheli erişim"</item>
+    <item>"21:3:Uygulamanın kullanıcı ile etkileşim içinde olmadığı sırada hassas tarayıcı bilgilerine (hassas kullanıcı bilgilerini içerebilir) erişim"</item>
+    <item>"22:3:Uygulamanın kullanıcı ile etkileşim içinde olmadığı ve arka planda çalıştığı sırada hassas tarayıcı bilgilerine (hassas kullanıcı bilgilerini içerebilir) erişim"</item>
+    <item>"23:6:Anormal/aşırı kısayol kurulumu"</item>
+    <item>"24:6:Uygulama arka planda çalışırken kısayol kurmaya çalışıyor"</item>
+    <item>"25:6:Uygulama kullanıcı ile etkileşim olmaksızın kısayol kurmaya çalışıyor"</item>
+    <item>"26:6:Uygulama arka planda çalışırken ve kullanıcı ile etkileşim olmaksızın kısayol kurmaya çalışıyor"</item>
+    <item>"27:4:Hassas takvim bilgilerine erişim"</item>
+    <item>"28:4:Uygulama arka planda çalışırken hassas takvim bilgilerine erişim"</item>
+    <item>"29:1:Kullanıcı ile etkileşim olmaksızın takvime bilgi/etkinlik girişi"</item>
+    <item>"30:1:Uygulama arka planda çalışırken etkileşim olmaksızın takvime bilgi/etkinlik girişi"</item>
+    <item>"31:5:Lokasyon bilgilerine anormal / aşırı erişim"</item>
+    <item>"32:5:Uygulama arka planda çalışırken lokasyon bilgilerine anormal / aşırı erişim"</item>
+    <item>"37:3:Şüpheli kamera kullanımı (fotoğraf ve video çekilmesi dahil olabilir)"</item>
+    <item>"38:3:Uygulama arka planda çalışırken şüpheli kamera kullanımı (fotoğraf ve video çekilmesi dahil olabilir)"</item>
+    <item>"39:3:Fotoğraf çekilmesi (video dahil olabilir) ve bunların bir uzak sunucuya iletilmesi"</item>
+    <item>"40:3:Uygulama arka planda çalışırken fotoğraf çekilmesi (video dahil olabilir) ve bunların bir uzak sunucuya iletilmesi"</item>
+    <item>"41:3:Kullanıcı etkileşimi olmaksızın fotoğraf çekilmesi (video dahil olabilir)"</item>
+    <item>"42:3:Kullanıcı etkileşimi olmaksızın ve uygulama arka planda çalışırken fotoğraf çekilmesi (video dahil olabilir)"</item>
+    <item>"43:3:Kullanıcı etkileşimi olmaksızın fotoğraf çekilmesi (video dahil olabilir) ve bunların bir uzak sunucuya iletilmesi"</item>
+    <item>"44:3:Kullanıcı etkileşimi olmaksızın ve uygulama arka planda çalışırken fotoğraf çekilmesi (video dahil olabilir) ve bunların bir uzak sunucuya iletilmesi"</item>
+    <item>"45:3:Şüpheli video kamera kullanımı (fotoğraf ve video çekilmesi dahil olabilir)"</item>
+    <item>"46:3:Uygulama arka planda çalışırken şüpheli video kamera kullanımı (fotoğraf ve video çekilmesi dahil olabilir)"</item>
+    <item>"47:3:Video çekilmesi ve bunların bir uzak sunucuya iletilmesi"</item>
+    <item>"48:3:Uygulama arka planda çalışırken video çekilmesi ve bunların bir uzak sunucuya iletilmesi"</item>
+    <item>"49:3:Kullanıcı etkileşimi olmaksızın video çekilmesi"</item>
+    <item>"50:3:Kullanıcı etkileşimi olmaksızın ve uygulama arka planda çalışırken video çekilmesi"</item>
+    <item>"51:3:Kullanıcı etkileşimi olmaksızın video çekilmesi ve bunların bir uzak sunucuya iletilmesi"</item>
+    <item>"52:3:Kullanıcı etkileşimi olmaksızın ve uygulama arka planda çalışırken video çekilmesi ve bunların bir uzak sunucuya iletilmesi"</item>
+    <item>"53:3:Mikrofon verilerinin şüpheli biçimde kaydedilmesi"</item>
+    <item>"54:3:Uygulama arka planda çalışırken mikrofon verilerinin şüpheli biçimde kaydedilmesi"</item>
+    <item>"55:3:Mikrofon verilerinin şüpheli biçimde kaydedilmesi ve uzak sunucuya iletilmesi"</item>
+    <item>"56:3:Uygulama arka planda çalışırken mikrofon verilerinin kaydedilmesi ve bunların bir uzak sunucuya iletilmesi"</item>
+    <item>"57:3:Kullanıcının uygulama ile etkileşim kurmadığı sırada mikrofon verilerinin şüpheli biçimde kaydedilmesi"</item>
+    <item>"58:3:Kullanıcının uygulama ile etkileşim kurmadığı ve uygulamanın arka planda çalıştığı sırada mikrofon verilerinin kaydedilmesi"</item>
+    <item>"59:3:Uygulamanın kullanıcı ile etkileşim kurmadığı sırada mikrofon verilerinin şüpheli biçimde kaydedilmesi ve aktarılması"</item>
+    <item>"60:3:Uygulamanın kullanıcı ile etkileşim kurmadığı ve arka planda çalıştığı sırada mikrofon verilerinin kaydedilmesi ve aktarılması"</item>
+    <item>"61:2:Şüpheli SMS etkinliği: SMS göndermeye çalışıyor (potansiyel olarak premium numaralara pahalı SMS)"</item>
+    <item>"62:2:Uygulama arka planda çalışırken SMS göndermeye çalışıyor (potansiyel olarak premium numaralara pahalı SMS)"</item>
+    <item>"63:2:Şüpheli SMS etkinliği: Uygulama kullanıcı etkileşimi olmaksızın SMS gönderiyor (potansiyel olarak premium numaralara pahalı SMS)"</item>
+    <item>"64:2:Uygulama kullanıcı etkileşimi olmaksızın ve arka planda çalışırken SMS gönderiyor (potansiyel olarak premium numaralara pahalı SMS)"</item>
+    <item>"65:3:SMS\'lere şüpheli erişim (açma ve okuma dahil)"</item>
+    <item>"66:3:Uygulama arka planda çalışırken SMS\'lere erişim ve SMS\'lerin okunması"</item>
+    <item>"67:3:Herhangi bir kullanıcı etkileşimi olmaksızın SMS\'lere erişim ve SMS\'lerin okunması"</item>
+    <item>"68:3:Uygulama arka planda çalışırken herhangi bir kullanıcı etkileşimi olmaksızın SMS\'lere erişim ve SMS\'lerin okunması"</item>
+    <item>"69:3:Sensör bilgilerine aşırı/anormal erişim"</item>
+    <item>"70:3:Uygulama arka planda çalışırken sensör bilgilerine anormal / aşırı erişim"</item>
+    <item>"71:3:MMS iletilerine şüpheli biçimde müdahale"</item>
+    <item>"72:3:Uygulama arka planda çalışırken MMS iletilerine şüpheli biçimde müdahale"</item>
+    <item>"73:3:Kullanıcı etkileşimi olmaksızın MMS iletilerine şüpheli biçimde müdahale"</item>
+    <item>"74:3:Uygulama arka planda çalışırken ve kullanıcı etkileşimi olmaksızın MMS iletilerine şüpheli biçimde müdahale"</item>
+    <item>"75:4:Bir veya daha fazla kişi bilgisine anormal erişim"</item>
+    <item>"76:4:Uygulama arka planda çalışırken bir veya daha fazla kişi bilgisine anormal erişim"</item>
+    <item>"77:4:Uygulamanın kullanıcı ile etkileşim içinde olmadığı sırada bir veya daha fazla kişi listesine erişim"</item>
+    <item>"78:4:Uygulamanın kullanıcı ile etkileşim içinde olmadığı ve arka planda çalıştığı sırada bir veya daha fazla kişi listesine erişim"</item>
+    <item>"79:1:Şüpheli üçüncü kişi uygulaması kurulumu"</item>
+    <item>"80:1:Uygulama arka planda çalışırken şüpheli üçüncü kişi uygulaması kurulumu"</item>
+    <item>"81:1:Uygulamanın kullanıcı ile etkileşim kurmadığı sırada şüpheli üçüncü kişi uygulaması kurulumu"</item>
+    <item>"82:1:Uygulamanın kullanıcı ile etkileşim kurmadığı ve arka planda çalıştığı sırada şüpheli üçüncü kişi uygulaması kurulumu"</item>
+    <item>"83:5:Android kullanıcı kimliğinin aşırı/anormal iletimi"</item>
+    <item>"84:5:Uygulama arka planda çalışırken android kullanıcı kimliğinin aşırı/anormal iletimi"</item>
+    <item>"85:5:Hassas cihaz bilgilerine erişim ve bunların aktarımı (IMEI, SIM seri numarası ve diğer operatörle bağlantılı bilgiler dahil olabilir)"</item>
+    <item>"86:5:Uygulama arka planda çalışırken hassas cihaz bilgilerine erişim ve bunların aktarımı (IMEI, SIM seri numarası ve diğer operatörle bağlantılı bilgiler dahil olabilir)"</item>
+    <item>"87:4:Kullanıcı telefon numarasına erişim ve telefon numarasının bir uzak sunucuya aktarılması"</item>
+    <item>"88:4:Uygulama arka planda çalışırken kullanıcı telefon numarasına erişim ve telefon numarasının bir uzak sunucuya aktarılması"</item>
+    <item>"89:4:Hassas kullanıcı hesabı bilgilerinin / kimlik bilgilerinin (kredi kartı ya da diğer finansal bilgiler dahil olabilir) anormal biçimde aktarılması"</item>
+    <item>"90:4:Uygulama arka planda çalışırken hassas kullanıcı hesabı bilgilerinin / kimlik bilgilerinin (kredi kartı ya da diğer finansal bilgiler dahil olabilir) anormal biçimde aktarılması"</item>
+    <item>"91:3:Hassas tarayıcı içeriğine (hassas kullanıcı bilgilerini içerebilir) erişim ve bunların aktarılması"</item>
+    <item>"92:3:Uygulama arka planda çalışırken hassas tarayıcı içeriğine (hassas kullanıcı bilgilerini içerebilir) erişim ve bunların aktarılması"</item>
+    <item>"93:3:Hassas tarayıcı içeriğine (hassas kullanıcı bilgilerini içerebilir) erişim ve bunların aktarılması"</item>
+    <item>"94:3:Uygulama arka planda çalışırken hassas tarayıcı içeriğine (hassas kullanıcı bilgilerini içerebilir) erişim ve bunların aktarılması"</item>
+    <item>"95:4:Takvim bilgilerinin (hassas kullanıcı bilgilerini içerebilir) bir uzak sunucuya aktarılması"</item>
+    <item>"96:4:Uygulama arka planda çalışırken takvim bilgilerinin (hassas kullanıcı bilgilerini içerebilir) bir uzak sunucuya aktarılması"</item>
+    <item>"97:5:Lokasyon bilgilerine anormal / aşırı erişim ve bu bilgilerin aktarılması"</item>
+    <item>"98:5:Uygulama arka planda çalışırken lokasyon bilgilerine anormal / aşırı erişim ve bu bilgilerin aktarılması"</item>
+    <item>"99:5:Lokasyon bilgilerine anormal / aşırı erişim ve bu bilgilerin aktarılması"</item>
+    <item>"100:5:Uygulama arka planda çalışırken lokasyon bilgilerine anormal / aşırı erişim ve bu bilgilerin aktarılması"</item>
+    <item>"101:3:Sensör bilgilerinin aşırı/anormal aktarılması"</item>
+    <item>"102:3:Uygulama arka planda çalışırken sensör bilgilerinin aşırı/anormal aktarılması"</item>
+    <item>"103:4:Bir veya daha fazla kişi listesine erişim ve bunların bir uzak sunucuya aktarılması"</item>
+    <item>"104:4:Uygulama arka planda çalışırken bir veya daha fazla kişi listesine erişim ve bunların bir uzak sunucuya aktarılması"</item>
+    <item>"105:4:Kullanıcı etkileşimi olmaksızın bir veya daha fazla kişi listesine erişim ve bunların bir uzak sunucuya aktarılması"</item>
+    <item>"106:4:Uygulama arka planda çalışırken ve kullanıcı etkileşimi olmaksızın bir veya daha fazla kişi listesine erişim ve bunların bir uzak sunucuya aktarılması"</item>
+    <item>"109:3:Sensör bilgilerine aşırı/anormal erişim"</item>
+    <item>"110:3:Uygulama arka planda çalışırken sensör bilgilerine anormal / aşırı erişim"</item>
+    <item>"121:5:Cihaz kimliği ile bağlantılı ayarlara şüpheli erişim"</item>
+    <item>"122:5:Uygulama arka planda çalışırken cihaz kimliği ayarlarına şüpheli erişim"</item>
+    <item>"162:3:Uygulama arka planda çalışırken uçak modu ayarlarında şüpheli değişiklik"</item>
+    <item>"164:3:Uygulama arka planda çalışırken alarm ayarlarında şüpheli değişiklik"</item>
+    <item>"202:3:Uygulama arka planda çalışırken WiFi durumunda şüpheli değişiklik"</item>
+    </string-array></resources>

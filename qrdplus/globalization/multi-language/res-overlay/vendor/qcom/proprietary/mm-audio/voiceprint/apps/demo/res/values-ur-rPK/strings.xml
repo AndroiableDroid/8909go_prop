@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"ایک دن میں چوبیس گھنٹے ہوتے ہیں"</string>
+    <string name="hi_snapdragon">"ہائے Snapdragon"</string>
+    <string name="hey_snapdragon">"Hey Snapdragon"</string>
+    <string name="my_voice">"میری آواز میرا پاس ورڈ ہے"</string>
+    <string name="make_my_day">"میرا دن اچھا بناؤ"</string>
+    <string name="tomorrow_is_another">"کل ایک اور دن ہے"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"سان ڈیگو میں خوش آمدید"</string>
+    <string name="okay_google">"Google ٹھیک ہے"</string>
+    <string name="open_my_email">"ای میل کھولیں"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"صوتی پرنٹ"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"ترتیبات"</string>
+    <string name="action_add">"شامل کریں"</string>
+    <string name="title_activity_main_with_fragment">"فریگمنٹ سرگرمیکے ساتھ بنیادی"</string>
+    <string name="tap_mic_start">"شروع کرنے کیلئے مائیک پر تھپتھپائیں"</string>
+    <string name="tap_mic_stop">"رکنے کیلئے مائیک پر تھپتھپائیں"</string>
+    <string name="say_key_phrase">"کہو\"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"ایک بار مزید فقرہ \"&lt;b&gt;%1$s&lt;/b&gt;\" کہیں۔"</string>
+    <string name="say_one_of_key_phrases">"چند کلیدی جملوں میں سے ایک کہیں"</string>
+    <string name="phrase_recognized">"فقرہ \"&lt;b&gt;%1$s&lt;/b&gt;\" کو پہچانا جاتا ہے "</string>
+    <string name="recording_length_exceeded">"ریکارڈنگ کی لمبائی حد سے متجاوز ہوئی"</string>
+    <string name="recording_length_exceeded_msg">"ریکارڈنگ کی لمبائی حد وقت متجاوز ہو گئی ہے۔ براہ مہربانی دوبارہ کوشش کریں۔"</string>
+    <string name="delete_all">"سبھی کو حذف کریں"</string>
+    <string name="delete_all_msg">"کیا آپ کو یقین ہے کہ آپ تمام انرول شدہ ٹیمپلیٹس حذف کرنا چاہتے ہیں؟"</string>
+    <string name="got_it">"زبردست! میں سمجھ گیا۔"</string>
+    <string name="set_key_phrase">"کلیدی جملے متعین کریں"</string>
+    <string name="set_key_phrase_name">"کلیدی جملوں کے نام متعین کریں"</string>
+    <string name="set_key_phrase_action">"کارروائی متعین کریں"</string>
+    <string name="change_key_phrase_action">"کارروائی تبدیل کریں"</string>
+    <string name="phrase_strength">"جملوں کی طاقت"</string>
+    <string name="phrase_strength_hint">"کم از کم تین الفاظ پر مشتمل فقرہ آزمائیں۔"</string>
+    <string name="register_phrase">"جملے کو رجسٹر کریں"</string>
+    <string name="register_phrase_hint">"مجھے آپ کی آواز کو پہچاننے میں مدد دینے کے لئے، براہ مہربانی فقرہ \"&lt;b&gt;%1$s&lt;/b&gt;\" کو تین بار ریکارڈ کریں۔"</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" ایک خاموش کمرے میں ریکارڈ کریں۔\n\n"<b>"2."</b>" اپنے فون کو اپنے منہ سے دور رکھیں۔\n\n"<b>"3."</b>" اپنے قدرتی جملے قدرتی انداز میں کہیں"</string>
+    <string name="ready_to_record">"ٹھیک ہے، میں ریکارڈ کرنے کے لئے تیار ہوں"</string>
+    <string name="oops">"افوہ! دوبارہ کوشش کریں۔"</string>
+    <string name="say_the_phrase">"فقرہ کہیں\"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"فقرہ \"&lt;b&gt;%1$s&lt;/b&gt;\" کو رجسٹر کر لیا گیا ہے"</string>
+    <string name="say_the_phrase_few_more">"چند ایک بار مزید \"&lt;b&gt;%1$s&lt;/b&gt;\" کہیں"</string>
+    <string name="voice_print">"صوتی پرنٹ"</string>
+    <string name="cancel">"منسوخ کریں"</string>
+    <string name="voice_level">"آواز کا درجہ"</string>
+    <string name="background_noise">"پس منظر شور"</string>
+    <string name="cap_done">"ہو گیا"</string>
+    <string name="cap_record">"ریکارڈ کریں"</string>
+    <string name="cap_next">"اگلا"</string>
+    <string name="cap_ok">"ٹھیک ہے"</string>
+    <string name="next">"اگلا"</string>
+    <string name="new_key_phrase">"نیا کلیدی فقرہ"</string>
+    <string name="edit_keyphrases">"کلیدی جملون کی تدوین کریں"</string>
+    <string name="set_name">"نام متعین کریں"</string>
+    <string name="select_key_phrase">"کلیدی جملے متعین کریں"</string>
+    <string name="set_action">"کارروائی متعین کریں"</string>
+    <string name="registration_complete">"رجسٹریشن مکمل"</string>
+    <string name="confirm_pin">"PIN نمبر کی تصدیق کریں"</string>
+    <string name="confirm_pin_msg">"کلیدی جملوں کی تدوین کرنے کے لئے آلہ PIN نمبر داخل کریں۔"</string>
+    <string name="your_key_phrase">"آپ کا کلیدی فقرہ"</string>
+    <string name="cap_redo">"دوبارہ کریں"</string>
+    <string name="cap_redo_previous">"سابقہ کو دوبارہ کریں"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"سفارش کردہ جملے براؤز کریں"</string>
+    <string name="create_your_own">"اپنا ذاتی فقرہ بنائیں"</string>
+    <string name="skip">"نظر انداز کریں"</string>
+    <string name="none">"کوئی نہیں"</string>
+    <string name="enter_pin">"کلیدی جملوں کی تدوین کرنے کے لئے آلہ PIN نمبر داخل کریں۔"</string>
+    <string name="your_key_phrase_name">"آپ کا کلیدی فقرہ کا نام"</string>
+    <string name="new_key_phrase_name">"نئے کلیدی فقرہ کا نام"</string>
+    <string name="set_service_to_launch">"اجراء کرنے کے لئے سروس متعین کریں"</string>
+    <string name="email">"ای میل"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"متنی پیغام ارسال کریں"</string>
+    <string name="use_selected_phrase">"منتخب شدہ فقرہ استعمال کریں"</string>
+    <string name="about">"بارے میں"</string>
+    <string name="edit_key_phrases">"کلیدی جملون کی تدوین کریں"</string>
+    <string name="invalid_phrasename_title">"غیرمجاز فقرہ نام"</string>
+    <string name="invalid_phrasename_msg">"فقرہ کا نام خالی نہیں ہو سکتا۔"</string>
+    <string name="duplicate_phrasename_msg">"فقرہ کا نام پہلے سے موجود ہے۔ ایک مختلف نام آزمائیں"</string>
+    <string name="invalid_phrase_title">"غیرمجاز فقرہ"</string>
+    <string name="invalid_phrase_msg">"فقرہ خالی نہیں ہو سکتا ہے۔"</string>
+    <string name="edit_action">"کارروائی کی تدوین کریں"</string>
+    <string name="threshold">"دہلیز"</string>
+    <string name="delete_phrase">"فقرہ کو حذف کریں"</string>
+    <string name="rename">"نام تبدیل کریں"</string>
+    <string name="rename_keyphrase">"کلیدی فقرہ نام تبدیل کریں"</string>
+    <string name="adjust_keyword_sensitivity">"کلیدی لفظ حساسیت کو مطابق بنائیں"</string>
+    <string name="adjust_keyword_sensitivity_summary">"کلیدی فقرے اعتراف میں کچھ مختلف حالتوں کے لئے اجازت دینے کے لئے حساسیت کو مطابق بنایا جا سکتا ہے۔"</string>
+    <string name="sensitivity">"حساسیت"</string>
+    <string name="low_sensitivity">"کم حساسیت"</string>
+    <string name="med_sensitivity">"درمیانی حساسیت"</string>
+    <string name="high_sensitivity">"زیادہ حساسیت"</string>
+    <string name="low">"کم"</string>
+    <string name="med">"درمیانی"</string>
+    <string name="high">"بلند"</string>
+    <string name="low_sensitivity_summary">"کلیدی فقرے شناخت کے عمل میں زیادہ مختلف حالت قبول کریں۔"</string>
+    <string name="med_sensitivity_summary">"کلیدی فقرے تسلیم کے عمل میں کچھ مختلف حالتوں کو قبول کرتا ہے، لیکن کچھ اہم فقروں کو پہچانے جانے سے روک سکتا ہے۔"</string>
+    <string name="high_sensitivity_summary">"اضافی سیکورٹی، لیکن کچھ کلیدی فقروں کو پہچانے جانے سے روک سکتا ہے۔"</string>
+    <string name="keyword_sensitivity">"کلیدی لفظ حساسیت"</string>
+    <string name="delete_phrase_msg">"کیا آپ کو یقین ہے کہ آپ \"%1$s\" فقرہ حذف کرنا چاہتے ہيں؟"</string>
+    <string name="voice_print_not_available_title">"صوتی پرنٹ دستیاب نہیں ہے"</string>
+    <string name="voice_print_not_available_msg">"اس آلہ پر صوتی پرنٹ اہل کردہ نہیں ہے۔"</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"حذف میں کامیابی ہوئی"</string>
+    <string name="delete_success_msg">"کلیدی جملہ ماڈل کو حذف کر دیا گیا ہے۔"</string>
+    <string name="delete_fail_title">"حذف کرنا ناکام ہوا"</string>
+    <string name="delete_fail_msg">"کلیدی فقرہ ماڈل کو حذف کرنے میں ایک نقص کا سامنا ہوا۔"</string>
+    <string name="rename_success_title">"نیا نام دینا کامیاب ہوا"</string>
+    <string name="rename_success_msg">"کلیدی فقرہ ماڈل کو نیا نام دیا جا چکا ہے۔"</string>
+    <string name="rename_fail_title">"نیا نام دینا ناکام ہوا"</string>
+    <string name="rename_fail_msg">"کلیدی فقرہ ماڈل کا نیا نام دینے میں ایک نقص کا سامنا ہوا۔"</string>
+    <string name="pin_validation">"PIN جواز دہی"</string>
+    <string name="pin_failed">"غیردرست PIN اندراج!"</string>
+    <string name="registration_failed">"اندراج کاری میں ناکامی ہوئی"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"صارف کی دہلیز"</string>
+    <string name="spoof_score">"دھوکے کی دہلیز"</string>
+    <string name="thresholds">"دہلیزیں"</string>
+    <string name="save">"محفوظ کریں"</string>
+    <string name="sentence_score_msg">"جملے کی دہلیز سیٹ کریں"</string>
+    <string name="user_score_msg">"صارف کی دہلیز سیٹ کریں"</string>
+    <string name="spoof_score_msg">"دھوکے کی دہلیز سیٹ کریں"</string>
+    <string name="sentence_score">"جملے کی دہلیز"</string></resources>

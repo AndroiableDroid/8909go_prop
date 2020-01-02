@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Rcs App!</string>
+    <string name="app_name">"RCS"</string>
+    <string name="phoneAppLabel">"Telefon"</string>
+    <string name="share_file">"FS"</string>
+    <string name="share_image">"IS"</string>
+    <string name="im">"IM"</string>
+    <string name="share_video">"VS"</string>
+    <string name="share_image1">"Distrib"</string>
+    <string name="cancel">"Anulaţi"</string>
+    <string name="StartRCS">StartRCS</string>
+    <string name="StopRCS">"Opriți RCS"</string>
+    <string name="UnknownUser">"Necunoscut"</string>
+    <string name="UnknownNumber">"Niciun număr"</string>
+    <string name="Uri">sip:8888888888@verizon.com </string>
+    <string name="CapabilityUpdatedTime">"Capacitate actualizată ultima dată pe 25 septembrie 2012 10:35pm"</string>
+    <string name="ShareFile">"FT"</string>
+    <string name="ShareImage">"Partajați imaginea"</string>
+    <string name="ShareVideo">"Partajați videoclipul"</string>
+    <string name="Prefix">"Prefixul"</string>
+    <string name="Suffix">"Sufix"</string>
+    <string name="ApplyPrefix">"Aplicați prefixul tuturor"</string>
+    <string name="ApplySuffix">"Aplicați sufixul tuturor"</string>
+    <string name="ImChatTitle"></string>
+    <string name="ImStatusTitle">"Stare: "</string>
+    <string name="SendImText">"Trimiteţi"</string>
+    <string name="FileName">"Nume fișier"</string>
+    <string name="TransferStatus">"Se transferă"</string>
+    <string name="SettingsTitle">"Setare capacitate"</string>
+    <string name="FileShare">"Partajare fișier"</string>
+    <string name="InstantMessage">"Mesaj instant"</string>
+    <string name="ImageShare">"Partajare imagine"</string>
+    <string name="VideoShare">"Partajare video"</string>
+    <string name="Save">"Salvaţi"</string>
+    <string name="StopSharing">"Opriți partajarea"</string>
+    <string name="StopReceiving">"Opriți primirea"</string>
+    <string name="EndCall">"Încheiați apelul"</string>
+    <string name="TransferFile">"Transferați fișierul"</string>
+    <string name="Config_test">"Testați configurarea"</string>
+    <string name="IS_Transfer">"Transfer imagine"</string>
+    <string name="Ft_Receive">Ft_Receive</string>
+    <string name="UserName">"Nume utilizator"</string>
+    <string name="vt">"VT "</string>
+    <string name="volte">"VOLTE"</string>
+    <string name="TransferDone">"Terminat"</string>
+    <string name="TransferAborted">"Întrerupt"</string>
+    <string name="TransferCancelled">"Anulat"</string>
+    <string name="FileTransfer">"Transfer de fişier"</string>
+    <string name="AddressBook">"Agendă"</string>
+    <string name="ContactCapability">"Capacitate agendă"</string>
+    <string name="AddUsers">"Adăugați utilizatorii"</string>
+    <string name="imsenablertext">"Activator IMS"</string>
+    <string name="publishtext">"Publicare"</string>
+    <string name="subscribepollingtext">"Preluare disponibilitate"</string>
+    <string name="subscribesimpletext">"Sondaj capacitate "</string>
+    <string name="unsubscribetext">"Anulare abonament"</string>
+    <string name="listsubscribesimpletext">"Listați sondajul de capacitate "</string>
+    <string name="listsubscribepollingtext">"Listați preluarea de disponibilitate"</string>
+    <string name="listunsubscribetext">"Listați anularea abonamentului"</string>
+    <string name="settingstext">"Setări"</string>
+    <string name="myinfotext">"Informațiile mele"</string>
+    <string name="myNumtext">"Numărul meu"</string>
+    <string name="uri1text">"Prefixul"</string>
+    <string name="uri2text">"Sufix"</string>
+    <string name="oktext">"OK"</string>
+    <string name="canceltext">"Anulaţi"</string>
+    <string name="publishbuttontext">"Publicare"</string>
+    <string name="publishstatustext">"Publicați noua stare"</string>
+    <string name="contactinfotext">"Informații de contact"</string>
+    <string name="personalinfotext">"Informații personale"</string>
+    <string name="serviceDescriptiontext">"Descriere serviciu"</string>
+    <string name="servicecaptext">"Capacități de serviciu"</string>
+    <string name="statusicontext">"Pictogramă de stare"</string>
+    <string name="descriptiontext">"Descriere"</string>
+    <string name="vertext">"Versiune"</string>
+    <string name="serviceIdtext">"Servicii Id"</string>
+    <string name="basicstatustext">"Stare de bază"</string>
+    <string name="timestamptext">"Marcaj temporal"</string>
+    <string name="isAudioSupportedtext">"Audio"</string>
+    <string name="isVideoSupportedtext">"Video"</string>
+    <string name="startvideocalltext">"Porniți apelul VT"</string>
+    <string name="startaudiocalltext">"Porniți apelul HD"</string>
+    <string name="donetext">"Terminat"</string>
+    <string name="bs_open_text">"Deschideți"</string>
+    <string name="bs_closed_text">"Închis"</string>
+    <string name="sc_supported_text">"Adevărat"</string>
+    <string name="sc_notsupported_text">"Fals"</string>
+    <string name="True">"Adevărat"</string>
+    <string name="False">"Fals"</string>
+    <string name="notify_settings_text">"Notificați setările de format"</string>
+    <string name="set_notify_fmt_text">"Setați formatul de notificare"</string>
+    <string name="set_text">"Setaţi"</string>
+    <string name="get_text">"Obțineți"</string>
+    <string name="timer_settings_text">"Setări temporizator"</string>
+    <string name="availability_cache_exp_text">"Expirare cache disponibilitate"</string>
+    <string name="capability_cache_exp_text">"Expirare cache capacitate"</string>
+    <string name="capability_poll_interval_text">"Interval sondaj capacitate"</string>
+    <string name="capability_poll_list_exp_text">"Expirare abonament listă sondaje de capacitate"</string>
+    <string name="source_throttle_publish_text">"Publicare limitator sursă"</string>
+    <string name="retry_info_text">"Reîncercați setările"</string>
+    <string name="subscribe_retry_text">"Interval de reîncercare abonare"</string>
+    <string name="publish_retry_text">"Interval de reîncercare publicare"</string>
+    <string name="list_subscription_settings_text">"Listați setările de abonament"</string>
+    <string name="max_list_entries_text">"Intrări maxime la abonare listă"</string>
+    <string name="multi_select_text">"Includeți în abonarea listei"</string>
+    <string name="select_all_text">"Selectaţi-le pe toate"</string>
+    <string name="select_none_text">"Nicio selecție"</string>
+    <string name="fmt_struct_text">"Format struct"</string>
+    <string name="fmt_xml_text">"Format XML"</string>
+    <string name="event_report_settings_text">"Setări de raportare eveniment"</string>
+    <string name="enable_publish_trigger_ind_text">"Activați indicația declanșatorului de publicare"</string>
+    <string name="enable_enabler_state_ind_text">"Activați indicația se stare a activatorului"</string>
+    <string name="enable_notify_ind_text">"Activați indicarea de notificare"</string>
+    <string name="live_logging_text">"Înscriere în jurnal live"</string>
+    <string name="vt_settings_text">"Video "</string>
+    <string name="ft_settings_text">"Transfer de fişier "</string>
+    <string name="chat_settings_text">"Conversaţi prin chat "</string>
+    <string name="vt_setting">"Setări video"</string>
+    <string name="data_status">"Stare date mobile"</string>
+    <string name="data_on_off_status">"Date pentru mobil : "</string>
+    <string name="refresh_contacts_text">"Actualizați"</string>
+    <!-- STRING FOR RELIANCE MODE -->
+    <string name="RelianceMode">"Mod de încredere"</string>
+    <string name="SipOption">"Opțiune SIP"</string>
+    <string name="OneShotMessage">"Mesaj dintr-o singură încercare"</string>
+    <string name="ShortCode">"Cod scurt"</string>
+    <string name="RelSetting">"Setări"</string>
+    <string name="Auto">"Automat"</string>
+    <string name="Manual">"Manual"</string>
+    <string name="StatusText">"Text stare"</string>
+    <string name="StatusMsg">"Mesaj de stare"</string>
+    <string name="Disposition">"Dispoziție"</string>
+    <string name="ExpiryTime">"Timp expirare"</string>
+    <string name="DisplayNoti">"Notificare afișare/expediere"</string>
+    <string name="DeliveryNoti">"Notificare de expediere"</string>
+    <string name="StatusOffline">"Offline"</string>
+    <string name="StautsOnline">"Online"</string>
+    <string name="StatusAway">"Plecat(ă)"</string>
+    <string name="StatusBusy">"Ocupat(ă)"</string>
+    <string name="StatusMsg_prompt">"Selectați starea"</string>
+    <string name="smAction_prompt">"Selectați acțiunea"</string>
+    <string name="SCAction">"Acțiune"</string>
+    <string name="MessageBody">"Corp mesaj"</string>
+    <string name="browse">"Răsfoiți fișierul"</string>
+    <string name="activeOneShotText">"Activați Dintr-o singură încercare"</string>
+    <string name="groupCreateText">"Creaţi grupul"</string>
+    <string-array name="smAction_arrays">
+        <item>"Interogare bilanț"</item>
+        <item>"Reîncărcare bilanț"</item>
+        <item>"Interogare sumă nefacturată"</item>
+        <item>"Transfer bilanț/credit"</item>
+        <item>"Creare grup"</item>
+        <item>"Actualizare grup"</item>
+        <item>"Ștergere grup"</item>
+        <item>"Alte acțiuni"</item>
+    </string-array>
+    <!-- STRINGS for ATT -->
+    <string name="group_sessions_text">"Sesiuni de grup"</string>
+    <string name="active_sessions_text">"Sesiuni active"</string>
+    <string name="list_query_text">"Interogare listă"</string>
+    <string name="individual_query_text">"Interogare individuală"</string>
+    <string name="config_text">"Config"</string>
+    <string name="sm_text">"SM"</string>
+    <string name="service_text">"ACTIVARE/DEZACTIVARE serviciu "</string>
+    <string name="presence_text">"Prezență"</string>
+    <string name="standalone_text">"Autonom"</string>
+    <string name="browse_text">"Răsfoiți fișierul XML"</string>
+    <string name="xml_text">"Conținut XML:"</string>
+    <string name="name_text">"Nume"</string>
+    <string name="to_text">"Către"</string>
+    <string name="cc_text">"Cc"</string>
+    <string name="bcc_text">"Bcc"</string>
+    <string name="start_group_sm_text">"Porniți SM grup"</string>
+    <string name="start_group_chat_text">"Porniți chatul de grup"</string>
+    <string name="group_query_text">"Interogare grup"</string>
+    <string name="send_delivery_text">"Trimiteți expedierea"</string>
+    <string name="send_display_text">"Trimiteți afișarea"</string>
+    <string name="request_delivery_text">"Solicitați expedierea"</string>
+    <string name="request_display_text">"Solicitați afișarea"</string>
+    <string name="display_display_title_text">" Setări pentru notificări"</string></resources>

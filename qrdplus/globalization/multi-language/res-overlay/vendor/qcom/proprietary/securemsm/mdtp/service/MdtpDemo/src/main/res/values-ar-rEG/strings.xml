@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"عرض توضيحي حول Mdtp"</string>
+    <string name="user_app">"تطبيق MDTP للمستخدمين: الشاشة الرئيسية"</string>
+    <string name="config_app">"تطبيق MDTP للمستخدمين: التهيئة"</string>
+    <string name="server_app">"خادم MDTP: الشاشة الرئيسية"</string>
+    <string name="action_settings">"الإعدادات"</string>
+    <string name="label_1_1">"حالة MDTP:"</string>
+    <string name="state_deactivated">"تم إلغاء التنشيط"</string>
+    <string name="state_activated">"منشّط"</string>
+    <string name="configuration">"التكوين (قبل التنشيط فقط)"</string>
+    <string name="service_activate">"طلب تنشيط MDTP من خدمات MDTP"</string>
+    <string name="service_deactivate">"طلب إلغاء تنشيط MDTP من خدمات MDTP"</string>
+    <string name="local_deactivate">"إلغاء تنشيط MDTP المحلي (باستخدام رمز PIN)"</string>
+    <string name="service_console">"وحدة التحكم بخدمات MDTP"</string>
+    <string name="title_activity_configuration">"تكوين المستخدم"</string>
+    <string name="label_2_1">"استخدام رمز PIN المحلي:"</string>
+    <string name="label_2_2">"‏رمز PIN:"</string>
+    <string name="gen_rand_pin">"توليد رمز PIN عشوائي"</string>
+    <string name="label_2_3">"معدل التحقق:"</string>
+    <string name="label_2_5">"تمكين قفل SIM:"</string>
+    <string name="label_2_6">"ملفات/أدلة إضافية للتحقق:"</string>
+    <string name="reset">"إعادة تعيين إلى الإعدادات الافتراضية"</string>
+    <string name="label_3_1">"إرسال الأوامر من الخادم إلى الجهاز:"</string>
+    <string name="activate">"تنشيط"</string>
+    <string name="deactivate">"إلغاء التنشيط"</string>
+    <string name="locksim">"قفل SIM"</string>
+    <string name="unlocksim">"إلغاء قفل SIM"</string>
+    <string name="killfunc">"إيقاف الوظائف"</string>
+    <string name="restorefunc">"استعادة الوظائف"</string>
+    <string name="label_3_2">"طلبات إلغاء تنشيط MDTP:"</string>
+    <string name="notallowed">"غير مسموح بها"</string>
+    <string name="allowed">"مسموح بها"</string>
+    <string name="label_3_3">"طلبات إلغاء حظر معالج الإعداد SetupWizard:"</string>
+    <string name="label_3_4">"سجل الخدمة:"</string>
+    <string name="wizard_app_loading_title">"معالج إعداد SetupWizard MDTP: يتم التهيئة..."</string>
+    <string name="label_4_1">"تم حظر معالج الإعداد SetupWizard لأن حالة MDTP نشطة"</string>
+    <string name="label_4_2">"الخيار أ: المحافظة على تنشيط MDTP مع طلب تخويل الخادم"</string>
+    <string name="wiz_unblock">"طلب إلغاء حظر معالج الإعداد SetupWizard من خدمات MDTP"</string>
+    <string name="wiz_cont">"متابعة (تمت التخويل من الخادم)"</string>
+    <string name="label_4_3">"الخيار ب: إلغاء تنشيط MDTP (سيؤدي إلى إزالة حظر معالج الإعداد SetupWizard)"</string>
+    <string name="wiz_remote">"اطلب إلغاء تنشيط MDTP عن بعد"</string>
+    <string name="wiz_local">"إلغاء تنشيط MDTP المحلي"</string>
+    <string name="label_4_4">"يُسمح لمعالج الإعداد SetupWizard بالمتابعة لأن حالة MDTP هي \"غير\" نشط"</string>
+    <string name="wiz_complete">"إكمال معالج الإعداد SetupWizard (حالة MDTP غير نشطة)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"معالج الإعداد"</string>
+    <string name="label_signup_message">"MDTP غير نشط حاليًا.\nهل ترغب في تنشيطه؟"</string>
+    <string name="label_signup_message_activated">"تم تنشيط MDTP بنجاح!"</string>
+    <string name="skip_activation">"تخطي التنشيط"</string>
+    <string name="emergency_dialer">"طالب الطوارئ"</string>
+    <string name="wiz_title_sign_up">"معالج الإعداد SetupWizard MDTP - التسجيل"</string>
+    <string name="wiz_title_reset_prot">"معالج الإعداد SetupWizard MDTP -لحماية إعادة تعيين إعدادات المصنع"</string>
+    <string name="wiz_title_boot_block">"معالج الإعداد SetupWizard MDTP - الجهاز محظور"</string>
+    <string name="block_boot_warning_text">"لقد حظر MDTP هذا الجهاز بسبب خطأ داخلي.\n\nالرجاء إعادة تمهيد الجهاز."</string>
+    <string name="start_wifi_wizard">"إعداد WiFi"</string>
+    <string name="default_pin_hint">"رمز PIN الافتراضي هو 11111"</string>
+    <string name="pin_dialog_title">"مطلوب رمز PIN لإلغاء تنشيط MDTP المحلي"</string>
+    <string name="pin_input_validation_warning">"يجب أن يكون الإدخال مكونًا من 5 أرقام عددية"</string></resources>

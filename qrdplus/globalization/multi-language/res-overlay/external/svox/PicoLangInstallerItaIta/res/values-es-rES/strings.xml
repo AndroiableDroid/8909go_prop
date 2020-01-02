@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+**
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <!-- This is the name and title of the application that installs the required files for speech synthesis on the user's SD card  -->
+    <string name="app_name">"Instalador de datos de síntesis de voz"</string>
+    <!-- After launching the application that installs the required files for speech synthesis on the user's SD card, this message is shown during the installation  -->
+    <string name="installing_message">"Instalando archivos de datos de voz en tarjeta SD..."</string>
+    <!-- After the successful installation of the required files for speech synthesis, the installer shows this message to the user  -->
+    <string name="uninstall_message">"Los archivos de datos de voz se han instalado correctamente. Puedes eliminar este instalador de forma segura."</string>
+    <!-- Text on the button to let the user remove from the phone the application that was just run (the voice data installer)   -->
+    <string name="uninstall">"Desinstalar"</string>
+    <!-- Text shown to the user when the application that tries to install voice data files on the user's SD card failed the installation  -->
+    <string name="retry_message">"No se han podido instalar los archivos de datos de voz. Asegúrate de que la tarjeta SD esté insertada en el dispositivo y tenga un mínimo de 6 MB de espacio libre. Si la tarjeta ya está insertada en el dispositivo, prueba a extraerla y volver a introducirla."</string>
+    <!-- Text on the button to let the user try one more time to install the installation of the voice data files   -->
+    <string name="retry">"Reintentar"</string></resources>

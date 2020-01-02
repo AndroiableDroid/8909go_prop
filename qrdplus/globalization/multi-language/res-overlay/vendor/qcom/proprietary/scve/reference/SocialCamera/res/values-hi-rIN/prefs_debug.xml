@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"डीबग मेट्रिक्स डिस्पले करें"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"चित्र सहेजें"</string>
+    <string name="debug_pref_save_pictures_desc">"SD कार्ड में कैप्‍चर किए गए चित्र सहेजें"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"पूर्वावलोकन फ़्रेम्स सहेजें"</string>
+    <string name="debug_pref_save_preview_frames_desc">"SD कार्ड में पूर्वावलोकन फ़्रेम्स सहेजें"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"पूर्वावलोकन फ़्रेम समाप्त करने की अनुमति दें"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"पूर्वावलोकन फ़्रेम्स सहेजते समय, फ़्रेम रेट बनाए रखने के लिए फ़्रेम्स समाप्त करने की अनुमति दें"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"चेहरे की पहचान वर्बोस लॉगिंग सक्षम करें"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

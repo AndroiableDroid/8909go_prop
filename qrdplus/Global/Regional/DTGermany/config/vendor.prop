@@ -1,0 +1,23 @@
+#Copyright (c) 2016 Qualcomm Technologies, Inc.
+#All Rights Reserved.
+#Confidential and Proprietary - Qualcomm Technologies, Inc.
+#
+# ADDITIONAL_FEATURE_PROPERTIES FOR DTGermany SPEC
+#
+
+#Set the current spec as DTGermany#
+persist.env.spec=DTGermany
+
+#set system locale#
+persist.sys.locale=de-DE
+
+#set system timezone#
+persist.sys.timezone=Europe/Berlin
+
+# Default for Settings.Global.DATA_ROAMING
+ro.com.android.dataroaming=false
+
+#set system build number (Settings->About phone-->Build number)#
+ro.build.display.id=false
+
+ro.com.google.clientidbase.am = android-tmobile-{country}

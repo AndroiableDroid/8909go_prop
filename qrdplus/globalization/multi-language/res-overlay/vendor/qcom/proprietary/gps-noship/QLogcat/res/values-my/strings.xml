@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"ပိုမိုမှတ်တမ်းပြုပါ"</item>
+        <item>"အမှားရှာ-ဖယ်"</item>
+        <item>"အချက်အလက်"</item>
+        <item>"သတိပေးချက်"</item>
+        <item>"အမှား"</item>
+        <item>"ဆိုးရွား"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"SD ကတ်"</item>
+        <item>"စနစ်တွင်းပါ မန်မိုရီ"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"မှတ်တမ်းဖိုင်တွင် ရေး၍ မရနိုင်ပါ။ မှတ်တမ်း မက်ဆေ့ချ်များကို သိမ်းဆည်းမထားပါ။ မှတ်တမ်းပြုမှုဖြစ်စဉ်သည် မှတ်တမ်းဖိုင် ထပ်မံရရှိသည့်အခါ အလိုအလျောက် ပြန်လည်စတင်သွားမည်"</string>
+    <string name="err_lowspace">"နေရာလွတ်နည်းမှုကို တွေ့ရှိထားသည်။ မှတ်တမ်း မက်ဆေ့ချ်များကို သိမ်းဆည်းမထားပါ။ မှတ်တမ်းပြုမှုဖြစ်စဉ်သည် နေရာလွတ် အလုံအလောက်ရှိသည့်အခါ အလိုအလျောက် ပြန်လည်စတင်သွားမည်"</string>
+  <string name="txtTag_text">"တဂ် အမည်"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"Logcat ဖော်ပြချက်"</string></resources>

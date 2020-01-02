@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/**
+ * Copyright (C) 2014 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- General provisioning strings used for both device owner and work profile provisioning -->
+  <!-- Title of the provisioning error dialog. [CHAR LIMIT=45] -->
+  <string name="provisioning_error_title">"Petit problème\u2026"</string>
+  <!-- Work profile provisioning flow UI. -->
+  <!-- User consent -->
+  <!-- Title of all work profile setup screens. [CHAR LIMIT=NONE] -->
+  <string name="setup_work_profile">"Configurer votre profil"</string>
+  <!-- The text that asks for user consent to create a work profile [CHAR LIMIT=NONE] -->
+  <string name="company_controls_workspace">"Ce profil est contrôlé et sécurisé par votre entreprise. Vous contrôlez tout le reste sur votre appareil."</string>
+  <!-- The text that asks for user consent to set up a work device [CHAR LIMIT=NONE] -->
+  <string name="company_controls_device">"Cet appareil sera contrôlé et sécurisé par votre organisation."</string>
+  <!-- String shown above the icon of the app that will control the work profile after it is set up. [CHAR LIMIT=NONE]-->
+  <string name="the_following_is_your_mdm">"L\'application suivante devra pouvoir accéder à ce profil :"</string>
+  <!-- String shown above the icon of the app that will control the work device after it is set up. [CHAR LIMIT=NONE]-->
+  <string name="the_following_is_your_mdm_for_device">"L\'application suivante gérera votre appareil :"</string>
+  <!-- String for positive button on user consent dialog for creating a profile [CHAR LIMIT=NONE] -->
+  <string name="set_up">"Configurer"</string>
+  <!-- Progress text shown when setting up work profile [CHAR LIMIT=NONE] -->
+  <string name="setting_up_workspace">"Configuration de votre profil professionnel en cours\u2026"</string>
+  <!-- Text in a pop-up that asks the user to confirm that they allow the mobile device management app to take control of the profile they are creating. [CHAR LIMIT=NONE]-->
+  <string name="admin_has_ability_to_monitor_profile">"Votre administrateur peut contrôler et gérer les paramètres, l\'accès aux contenus de l\'entreprise, les applications, les autorisations et les données associées à ce profil, y compris l\'activité réseau et les données de localisation de votre appareil."</string>
+  <!-- Text in a pop-up that asks the user to confirm that they allow the mobile device management app to take control of the device. [CHAR LIMIT=NONE]-->
+  <string name="admin_has_ability_to_monitor_device">"Votre administrateur peut contrôler et gérer les paramètres, l\'accès aux contenus de l\'entreprise, les applications, les autorisations et les données associées à cet appareil, y compris l\'activité réseau et les informations de localisation de votre appareil."</string>
+  <!-- Text in a pop-up that asks the user to confirm that theft protection will be disabled. [CHAR LIMIT=NONE]-->
+  <string name="theft_protection_disabled_warning">"Si vous continuez, les fonctionnalités de protection contre le vol ne seront pas activées. Pour activer la protection contre le vol, annulez la procédure maintenant et configurez votre appareil comme appareil personnel."</string>
+  <!-- String telling the user how to get more information about their work profile-->
+  <string name="contact_your_admin_for_more_info">"Contactez votre administrateur pour obtenir plus d\'informations, y compris les règles de confidentialité de votre organisation."</string>
+  <!-- Text on the link that will forward the user to a website with more information about work profiles [CHAR LIMIT=30]-->
+  <string name="learn_more_link">"En savoir plus"</string>
+  <!-- Text on negative button in a popup shown to the user to confirm that they want to start setting up a work profile [CHAR LIMIT=15]-->
+  <string name="cancel_setup">"ANNULER"</string>
+  <!-- Text on positive button in a popup shown to the user to confirm that they want to start setting up a work profile [CHAR LIMIT=15]-->
+  <string name="ok_setup">"OK"</string>
+  <!-- Default profile name used for the creation of work profiles. [CHAR LIMIT=NONE] -->
+  <string name="default_managed_profile_name">"Profil professionnel"</string>
+  <!-- Title on the dialog that prompts the user to confirm that they really want to delete their existing work profile-->
+  <string name="delete_profile_title">"Supprimer le profil professionnel ?"</string>
+  <!-- Opening string on the dialog that prompts the user to confirm that they really want to delete
+       their existing work profile. The administration app icon and name appear after the final
+       colon. [CHAR LIMIT=NONE] -->
+  <string name="opening_paragraph_delete_profile_unknown_company">"Un profil professionnel existe déjà et est géré par :"</string>
+    <!-- Opening string on the dialog that prompts the user to confirm that they really want to delete
+         their existing work profile. The administration app icon and name appear after the final
+         colon, the %s is replaced by the domain name of the organization that owns the work
+         profile. [CHAR LIMIT=NONE] -->
+  <string name="opening_paragraph_delete_profile_known_company">"Ce profil professionnel est géré pour %s avec l\'application suivante :"</string>
+  <!-- String on the dialog that links through to more information about the profile management application. -->
+  <string name="read_more_delete_profile">"Avant de continuer, "<a href="#read_this_link">"lisez ces informations"</a>"."</string>
+  <!-- String on the dialog that prompts the user to confirm that they really want to delete their existing work profile-->
+  <string name="sure_you_want_to_delete_profile">"Si vous continuez, toutes les applications et les données associées à ce profil seront supprimées."</string>
+  <!-- String on the button that triggers the deletion of a work profile.-->
+  <string name="delete_profile">"SUPPRIMER"</string>
+  <!-- String on the button that cancels out of the deletion of a work profile.-->
+  <string name="cancel_delete_profile">"ANNULER"</string>
+  <!-- String shown on prompt for user to encrypt and reboot the device, in case of profile setup [CHAR LIMIT=NONE]-->
+  <string name="encrypt_device_text_for_profile_owner_setup">"Pour poursuivre la configuration de votre profil professionnel, vous devez chiffrer les données de votre appareil. Cette opération peut prendre un certain temps."</string>
+  <!-- String shown on prompt for user to encrypt and reboot the device, in case of device setup [CHAR LIMIT=NONE]-->
+  <string name="encrypt_device_text_for_device_owner_setup">"Pour continuer la configuration de votre appareil, vous devez chiffrer les données qu\'il contient. Cette opération peut prendre un certain temps."</string>
+  <!-- String shown on button for user to cancel setup when asked to encrypt device. [CHAR LIMIT=20]-->
+  <string name="encrypt_device_cancel">"ANNULER"</string>
+  <!-- String shown on button for user to continue to settings to encrypt the device. [CHAR LIMIT=20]-->
+  <string name="encrypt_device_launch_settings">"CHIFFRER"</string>
+  <!-- Title for reminder notification to resume provisioning after encryption [CHAR LIMIT=30] -->
+  <string name="continue_provisioning_notify_title">"Chiffrement terminé"</string>
+  <!-- Body for reminder notification to resume provisioning after encryption [CHAR LIMIT=NONE] -->
+  <string name="continue_provisioning_notify_text">"Appuyez pour continuer la configuration de votre profil professionnel."</string>
+  <!-- Explains the failure and what to do to next. [CHAR LIMIT=NONE] -->
+  <string name="managed_provisioning_error_text">"Impossible de configurer votre profil professionnel. Contactez votre service informatique, ou réessayez plus tard."</string>
+  <!-- Error string displayed if this device doesn't support work profiles. -->
+  <string name="managed_provisioning_not_supported">"Votre appareil n\'est pas compatible avec les profils professionnels."</string>
+  <!-- Error string displayed if the user that initiated the provisioning is not the user owner. -->
+  <string name="user_is_not_owner">"Les profils professionnels doivent être configurés par l\'utilisateur principal de l\'appareil."</string>
+  <!-- Error string displayed if provisioning was initiated on a device with a Device Owner -->
+  <string name="device_owner_exists">"Impossible de configurer des profils professionnels sur un appareil géré."</string>
+  <!-- Error string displayed if maximum user limit is reached -->
+  <string name="maximum_user_limit_reached">"Impossible de créer un profil professionnel, car vous avez atteint le nombre maximal d\'utilisateurs sur votre appareil. Veuillez supprimer au moins un profil utilisateur, puis réessayer."</string>
+  <!-- Error string displayed if the selected launcher doesn't support work profiles. -->
+  <string name="managed_provisioning_not_supported_by_launcher">"Votre profil professionnel n\'est pas compatible avec cette application de lanceur. Vous devez utiliser un lanceur compatible."</string>
+  <!-- Button text for the button that cancels provisioning  -->
+  <string name="cancel_provisioning">"ANNULER"</string>
+  <!-- Button text for the button that opens the launcher picker  -->
+  <string name="pick_launcher">"OK"</string>
+  <!-- Device owner provisioning flow UI. -->
+  <!-- Default username for the user of the owned device. [CHAR LIMIT=45] -->
+  <string name="default_owned_device_username">"Utilisateur de l\'appareil professionnel"</string>
+  <!-- Title of the work device setup screen. [CHAR LIMIT=NONE] -->
+  <string name="setup_work_device">"Configurer l\'appareil"</string>
+  <!-- Progress text indicating that the setup data is processed. [CHAR LIMIT=45] -->
+  <string name="progress_data_process">"Traitement des données de configuration\u2026"</string>
+  <!-- Progress text indicating that wifi is set up. [CHAR LIMIT=45] -->
+  <string name="progress_connect_to_wifi">"Connexion au réseau Wi-Fi en cours\u2026"</string>
+  <!-- Progress text indicating that the device admin package is being downloaded. [CHAR LIMIT=45] -->
+  <string name="progress_download">"Téléchargement application d\'administration\u2026"</string>
+  <!-- Progress text indicating that the device admin package is being installed. [CHAR LIMIT=45] -->
+  <string name="progress_install">"Installation application d\'administration\u2026"</string>
+  <!-- Progress text indicating that the device admin package is set as ownder. [CHAR LIMIT=45] -->
+  <string name="progress_set_owner">"Définition du propriétaire de l\'appareil\u2026"</string>
+  <!-- Message of the cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_cancel_message">"Arrêter la configuration et effacer les données de votre appareil ?"</string>
+  <!-- Cancel button text of the cancel dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_cancel_cancel">"ANNULER"</string>
+  <!-- OK button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_error_ok">"OK"</string>
+  <!-- Reset button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_error_reset">"RÉINITIALISER"</string>
+  <!-- Message of the error dialog in case of an unspecified error. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_general">"Impossible de configurer votre appareil. Contactez votre service informatique."</string>
+  <!-- Message of the error dialog when already provisioned. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_already_provisioned">"Cet appareil est déjà configuré."</string>
+  <!-- Message of the error dialog when a secondary user has already been provisioned. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_already_provisioned_user">"Cet appareil est déjà configuré pour cet utilisateur."</string>
+  <!-- Message of the error dialog when setting up wifi failed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_wifi">"Impossible de se connecter au réseau Wi-Fi."</string>
+  <!-- Message of the error dialog when passing factory reset protection fails. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_frp">"Cet appareil est verrouillé par la protection contre le rétablissement de la configuration d\'usine. Veuillez contacter votre service informatique."</string>
+  <!-- Message informing the user that the factory reset protection partition is being erased [CHAR LIMIT=30] -->
+  <string name="frp_clear_progress_title">"Suppression en cours"</string>
+  <!-- Progress screen text shown while erasing the factory reset protection partition [CHAR LIMIT=75] -->
+  <string name="frp_clear_progress_text">"Veuillez patienter..."</string>
+  <!-- Message of the error dialog when data integrity check fails. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_hash_mismatch">"Impossible d\'utiliser l\'application d\'administration en raison d\'une erreur de somme de contrôle. Contactez votre service informatique."</string>
+  <!-- Message of the error dialog when device owner apk could not be downloaded. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_download_failed">"Impossible de télécharger l\'application d\'administration."</string>
+  <!-- Message of the error dialog when package to install is invalid. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_invalid">"Impossible d\'utiliser l\'application d\'administration. Des composants sont manquants ou corrompus. Contactez votre service informatique."</string>
+  <!-- Message of the error dialog when the name of the admin package to be installed is invalid. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_name_invalid">"Impossible d\'installer l\'application d\'administration. Le nom du package n\'est pas valide. Contactez votre service informatique."</string>
+  <!-- Message of the error dialog when package could not be installed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_installation_failed">"Impossible d\'installer l\'application d\'administration."</string>
+  <!-- Message of the error dialog when device admin package is not installed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_not_installed">"L\'application d\'administration n\'est pas installée sur votre appareil."</string>
+  <!-- Message of the cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="profile_owner_cancel_message">"Arrêter la configuration ?"</string>
+  <!-- Cancel button text of the cancel dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancel_cancel">"NON"</string>
+  <!-- OK button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancel_ok">"OUI"</string>
+  <!-- Message of the cancel progress dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancelling">"Annulation en cours\u2026"</string>
+  <!-- Title of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_later_title">"Arrêter la configuration du profil ?"</string>
+  <!-- Message of the work profile setup cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="work_profile_setup_later_message">"Vous avez la possibilité de configurer votre profil professionnel plus tard à l\'aide de l\'application de gestion d\'appareil utilisée par votre organisation."</string>
+  <!-- Cancel button text of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_continue">"CONTINUER"</string>
+  <!-- OK button text of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_stop">"ARRÊTER"</string>
+  <!-- CertService -->
+  <!-- Title of a status bar notification for a service which installs CA certificates to secondary users. [CHAR LIMIT=45] -->
+  <string name="provisioning">"Configuration en cours"</string>
+  <!-- Content of a status bar notification for a service which installs CA certificates to secondary users. [CHAR LIMIT=45] -->
+  <string name="copying_certs">"Configuration des certificats CA en cours\u2026"</string>
+  <!-- Accessibility Descriptions -->
+  <!-- Accessibility description for the profile setup screen showing organization info. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_start_setup">"Configurer votre profil. Lancement de la configuration."</string>
+  <!-- Accessibility description for the profile setup screen showing encryption info. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_encryption">"Configurer votre profil. Chiffrement."</string>
+  <!-- Accessibility description for the profile setup screen showing progress. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_progress">"Configurer votre profil. Affichage de la progression."</string>
+  <!-- Accessibility description for the device setup screen showing company info. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_start_setup">"Configurer votre appareil. Lancement de la configuration."</string>
+  <!-- Accessibility description for the device setup screen showing encryption info. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_encryption">"Configurer votre appareil. Chiffrement."</string>
+  <!-- Accessibility description for the device setup screen showing progress. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_progress">"Configurer votre appareil. Affichage de la progression."</string>
+  <!-- Accessibility description for the learn more link in user consent dialog. [CHAR LIMIT=NONE] -->
+  <string name="learn_more_label">"Bouton \"En savoir plus\""</string>
+  <!-- Accessibility description for the company icon. [CHAR LIMIT=NONE] -->
+  <string name="mdm_icon_label">"Icône <xliff:g id="ICON_LABEL">%1$s</xliff:g>"</string></resources>

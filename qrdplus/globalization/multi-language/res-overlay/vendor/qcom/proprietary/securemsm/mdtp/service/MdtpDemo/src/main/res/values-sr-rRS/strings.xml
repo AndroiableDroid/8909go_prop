@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Mdtp демонстрација"</string>
+    <string name="user_app">"MDTP апликација за корисника: Почетни екран"</string>
+    <string name="config_app">"MDTP апликација за корисника: Конфигурација"</string>
+    <string name="server_app">"MDTP сервер: Почетни екран"</string>
+    <string name="action_settings">"Подешавања"</string>
+    <string name="label_1_1">"MDTP статус:"</string>
+    <string name="state_deactivated">"Деактивирано"</string>
+    <string name="state_activated">"Активирано"</string>
+    <string name="configuration">"Конфигурација (само пре активације)"</string>
+    <string name="service_activate">"Захтевај активацију MDTP од MDTP услуга"</string>
+    <string name="service_deactivate">"Захтевај деактивацију MDTP од MDTP услуга"</string>
+    <string name="local_deactivate">"Локална деактивација MDTP (помоћу PIN кода)"</string>
+    <string name="service_console">"Конзола MDTP услуга"</string>
+    <string name="title_activity_configuration">"Конфигурација корисника"</string>
+    <string name="label_2_1">"Користи локални PIN код:"</string>
+    <string name="label_2_2">"PIN код:"</string>
+    <string name="gen_rand_pin">"Генериши произвољан PIN код"</string>
+    <string name="label_2_3">"Размера провере:"</string>
+    <string name="label_2_5">"Омогући закључавање SIM-а:"</string>
+    <string name="label_2_6">"Додатне датотеке/директоријуми за потврду:"</string>
+    <string name="reset">"Поново постави на подразумевано"</string>
+    <string name="label_3_1">"Пошаљи команде са сервера на уређај:"</string>
+    <string name="activate">"Активирај"</string>
+    <string name="deactivate">"Деактивирај"</string>
+    <string name="locksim">"Закључај SIM"</string>
+    <string name="unlocksim">"Откључај SIM"</string>
+    <string name="killfunc">"Уклони функционалност"</string>
+    <string name="restorefunc">"Врати функционалност"</string>
+    <string name="label_3_2">"Захтеви за деактивацију MDTP:"</string>
+    <string name="notallowed">"Није дозвољено"</string>
+    <string name="allowed">"Дозвољено"</string>
+    <string name="label_3_3">"Захтеви за деблокирање чаробњака за подешавање:"</string>
+    <string name="label_3_4">"Евиденција услуга:"</string>
+    <string name="wizard_app_loading_title">"Чаробњак за подешавање MDTP: Покретање..."</string>
+    <string name="label_4_1">"Чаробњак за подешавање је блокиран јер је MDTP активиран"</string>
+    <string name="label_4_2">"Опција A: Остави MDTP активиран, али захтевај ауторизацију сервера"</string>
+    <string name="wiz_unblock">"Захтевај деблокирање чаробњака за подешавање од MDTP услуга"</string>
+    <string name="wiz_cont">"Настави (ауторизовано од стране сервера)"</string>
+    <string name="label_4_3">"Опција B: Деактивирај MDTP (уклониће блокаду чаробњака за подешавање)"</string>
+    <string name="wiz_remote">"Захтевај даљинску деактивацију MDTP"</string>
+    <string name="wiz_local">"Локална деактивација MDTP"</string>
+    <string name="label_4_4">"Чаробњак за подешавање може да настави јер MDTP НИЈЕ активиран"</string>
+    <string name="wiz_complete">"Доврши чаробњак за подешавање (MDTP неактивиран)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"Чаробњак за подешавање"</string>
+    <string name="label_signup_message">"MDTP тренутно није активиран.\nЖелите ли да га активирате?"</string>
+    <string name="label_signup_message_activated">"MDTP је успешно активиран!"</string>
+    <string name="skip_activation">"Прескочи активацију"</string>
+    <string name="emergency_dialer">"Хитни позиви"</string>
+    <string name="wiz_title_sign_up">"Чаробњак за подешавање MDTP - пријави се"</string>
+    <string name="wiz_title_reset_prot">"Чаробњак за подешавање MDTР – заштита успостављања фабричких вредности"</string>
+    <string name="wiz_title_boot_block">"Чаробњак за подешавање MDTP - уређај је блокиран"</string>
+    <string name="block_boot_warning_text">"MDTP је блокирао овај уређај због унутрашње грешке.\n\nПоново покрените уређај."</string>
+    <string name="start_wifi_wizard">"Подеси WiFi"</string>
+    <string name="default_pin_hint">"Подразумевани PIN код је 11111"</string>
+    <string name="pin_dialog_title">"MDTP локална деактивација PIN код обавезан"</string>
+    <string name="pin_input_validation_warning">"Унос мора садржати 5 цифара и бити нумерички"</string></resources>

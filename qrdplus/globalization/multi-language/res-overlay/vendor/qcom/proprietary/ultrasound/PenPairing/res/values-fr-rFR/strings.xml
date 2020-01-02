@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Couplage SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Couplage du stylo numérique Snapdragon"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Paramètres"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"OK"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"Choisir la position de stylo à afficher"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"Choisissez le numéro de série du nouveau stylo"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"Choisissez le type de stylo que vous souhaitez utiliser"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"Commencer le couplage"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"Maintenez le stylo orthogonalement à l\'intérieur du cercle pour démarrer le processus de couplage"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"Couplage manuel"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"Couplage semi-automatique"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"Choisir une méthode de couplage"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"Coupler nouveau stylo"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"Gérer les stylos couplés"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"Étalonnage SW"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"Maintenez le stylo orthogonalement à l\'intérieur du cercle pour démarrer le processus de couplage.\nUne fois terminé, le processus d\'étalonnage peut commencer."</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"Test du centre de service"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"Maintenez le stylo orthogonalement à l\'intérieur du cercle pour démarrer le processus de couplage.\nUne fois terminé, le processus de test peut commencer."</string></resources>

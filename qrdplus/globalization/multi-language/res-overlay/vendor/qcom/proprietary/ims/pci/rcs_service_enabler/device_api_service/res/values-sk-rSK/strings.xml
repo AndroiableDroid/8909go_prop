@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service bola odstránená. Preinštalujte ju!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"Aktualizovať textové údaje profilu"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"Aktualizovať údaje portrétu profilu"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Odstrániť všetky správy"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Nastaviť nového predsedajúceho skup. rozhovoru"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Upraviť predmet skup. rozhovoru"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Upraviť prezývku člena skup. rozhovoru"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Prijať pozvánku na vstup do skup. rozhovoru"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Opustiť skup. rozhovor"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Vyhodiť účastníkov skup. rozhovoru"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"Zrušiť skup. rozhovor"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Dávať pozor na verejný účet"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Nedávať pozor na verejný účet"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"Nahlásiť verejný účet"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"citlivé povolenie api"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"autorizované aplikácie %1$d (celkom %2$d)"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"Túto otázku už nezobrazovať"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"OK"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Zrušiť"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Táto operácia je určená pre %1$s. Zrušenie povolenia môže spôsobiť, že nebude správne fungovať."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"Povolenie %1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"Musíte povoliť %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"Musíte udeliť povolenie na kartu SD."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"Musíte udeliť povolenie na kontakty."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"Musíte udeliť povolenie na SMS."</string></resources>

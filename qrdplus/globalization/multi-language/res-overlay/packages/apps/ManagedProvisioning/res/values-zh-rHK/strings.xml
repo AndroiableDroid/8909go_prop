@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/**
+ * Copyright (C) 2014 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- General provisioning strings used for both device owner and work profile provisioning -->
+  <!-- Title of the provisioning error dialog. [CHAR LIMIT=45] -->
+  <string name="provisioning_error_title">"糟糕！"</string>
+  <!-- Work profile provisioning flow UI. -->
+  <!-- User consent -->
+  <!-- Title of all work profile setup screens. [CHAR LIMIT=NONE] -->
+  <string name="setup_work_profile">"設定您的設定檔"</string>
+  <!-- The text that asks for user consent to create a work profile [CHAR LIMIT=NONE] -->
+  <string name="company_controls_workspace">"貴機構可控制這個設定檔並確保其安全；裝置上的其他所有內容則由您自行管理。"</string>
+  <!-- The text that asks for user consent to set up a work device [CHAR LIMIT=NONE] -->
+  <string name="company_controls_device">"您的機構將會控制此裝置，並保障裝置安全。"</string>
+  <!-- String shown above the icon of the app that will control the work profile after it is set up. [CHAR LIMIT=NONE]-->
+  <string name="the_following_is_your_mdm">"下列應用程式需要存取這個設定檔："</string>
+  <!-- String shown above the icon of the app that will control the work device after it is set up. [CHAR LIMIT=NONE]-->
+  <string name="the_following_is_your_mdm_for_device">"下列應用程式將管理您的裝置："</string>
+  <!-- String for positive button on user consent dialog for creating a profile [CHAR LIMIT=NONE] -->
+  <string name="set_up">"設定"</string>
+  <!-- Progress text shown when setting up work profile [CHAR LIMIT=NONE] -->
+  <string name="setting_up_workspace">"正在設定您的工作設定檔\u2026"</string>
+  <!-- Text in a pop-up that asks the user to confirm that they allow the mobile device management app to take control of the profile they are creating. [CHAR LIMIT=NONE]-->
+  <string name="admin_has_ability_to_monitor_profile">"您的管理員可以監控並管理與這個設定檔相關聯的設定、企業存取、應用程式、權限和資料，包括網絡活動和您的裝置位置資料。"</string>
+  <!-- Text in a pop-up that asks the user to confirm that they allow the mobile device management app to take control of the device. [CHAR LIMIT=NONE]-->
+  <string name="admin_has_ability_to_monitor_device">"您的管理員可以監控並管理與這部裝置相關聯的設定、企業存取、應用程式、權限和資料，包括網絡活動和您的裝置位置資料。"</string>
+  <!-- Text in a pop-up that asks the user to confirm that theft protection will be disabled. [CHAR LIMIT=NONE]-->
+  <string name="theft_protection_disabled_warning">"如要繼續，盜用防護功能將會停用。如要開啟盜用防護功能，請即取消並將此裝置設定為個人裝置。"</string>
+  <!-- String telling the user how to get more information about their work profile-->
+  <string name="contact_your_admin_for_more_info">"如需詳細資訊，包括貴機構的私隱權政策，請與您的管理員聯絡。"</string>
+  <!-- Text on the link that will forward the user to a website with more information about work profiles [CHAR LIMIT=30]-->
+  <string name="learn_more_link">"瞭解詳情"</string>
+  <!-- Text on negative button in a popup shown to the user to confirm that they want to start setting up a work profile [CHAR LIMIT=15]-->
+  <string name="cancel_setup">"取消"</string>
+  <!-- Text on positive button in a popup shown to the user to confirm that they want to start setting up a work profile [CHAR LIMIT=15]-->
+  <string name="ok_setup">"確定"</string>
+  <!-- Default profile name used for the creation of work profiles. [CHAR LIMIT=NONE] -->
+  <string name="default_managed_profile_name">"公司檔案"</string>
+  <!-- Title on the dialog that prompts the user to confirm that they really want to delete their existing work profile-->
+  <string name="delete_profile_title">"要移除工作設定檔嗎？"</string>
+  <!-- Opening string on the dialog that prompts the user to confirm that they really want to delete
+       their existing work profile. The administration app icon and name appear after the final
+       colon. [CHAR LIMIT=NONE] -->
+  <string name="opening_paragraph_delete_profile_unknown_company">"工作設定檔已存在，並由以下應用程式管理："</string>
+    <!-- Opening string on the dialog that prompts the user to confirm that they really want to delete
+         their existing work profile. The administration app icon and name appear after the final
+         colon, the %s is replaced by the domain name of the organization that owns the work
+         profile. [CHAR LIMIT=NONE] -->
+  <string name="opening_paragraph_delete_profile_known_company">"這個「%s」的工作設定檔由以下應用程式管理："</string>
+  <!-- String on the dialog that links through to more information about the profile management application. -->
+  <string name="read_more_delete_profile">"請在開始前"<a href="#read_this_link">"閱讀此資訊"</a>"。"</string>
+  <!-- String on the dialog that prompts the user to confirm that they really want to delete their existing work profile-->
+  <string name="sure_you_want_to_delete_profile">"如果繼續，此設定檔中的所有應用程式和資料將被刪除。"</string>
+  <!-- String on the button that triggers the deletion of a work profile.-->
+  <string name="delete_profile">"刪除"</string>
+  <!-- String on the button that cancels out of the deletion of a work profile.-->
+  <string name="cancel_delete_profile">"取消"</string>
+  <!-- String shown on prompt for user to encrypt and reboot the device, in case of profile setup [CHAR LIMIT=NONE]-->
+  <string name="encrypt_device_text_for_profile_owner_setup">"如要繼續設定公司檔案，您必須為裝置加密。這項操作可能需要一段時間才能完成。"</string>
+  <!-- String shown on prompt for user to encrypt and reboot the device, in case of device setup [CHAR LIMIT=NONE]-->
+  <string name="encrypt_device_text_for_device_owner_setup">"如要繼續設定您的裝置，您必須加密裝置。這項操作可能需要一段時間。"</string>
+  <!-- String shown on button for user to cancel setup when asked to encrypt device. [CHAR LIMIT=20]-->
+  <string name="encrypt_device_cancel">"取消"</string>
+  <!-- String shown on button for user to continue to settings to encrypt the device. [CHAR LIMIT=20]-->
+  <string name="encrypt_device_launch_settings">"加密"</string>
+  <!-- Title for reminder notification to resume provisioning after encryption [CHAR LIMIT=30] -->
+  <string name="continue_provisioning_notify_title">"加密完成"</string>
+  <!-- Body for reminder notification to resume provisioning after encryption [CHAR LIMIT=NONE] -->
+  <string name="continue_provisioning_notify_text">"輕觸即可繼續設定您的公司檔案"</string>
+  <!-- Explains the failure and what to do to next. [CHAR LIMIT=NONE] -->
+  <string name="managed_provisioning_error_text">"無法設定您的公司檔案，請與您的 IT 部門聯絡或稍後再試。"</string>
+  <!-- Error string displayed if this device doesn't support work profiles. -->
+  <string name="managed_provisioning_not_supported">"您的裝置不支援公司檔案"</string>
+  <!-- Error string displayed if the user that initiated the provisioning is not the user owner. -->
+  <string name="user_is_not_owner">"工作設定檔必須由裝置的主要使用者設定"</string>
+  <!-- Error string displayed if provisioning was initiated on a device with a Device Owner -->
+  <string name="device_owner_exists">"受管理的裝置無法設定公司檔案"</string>
+  <!-- Error string displayed if maximum user limit is reached -->
+  <string name="maximum_user_limit_reached">"裝置使用者人數已滿，無法建立工作設定檔。請刪除至少一位使用者，然後重試。"</string>
+  <!-- Error string displayed if the selected launcher doesn't support work profiles. -->
+  <string name="managed_provisioning_not_supported_by_launcher">"這個應用程式啟動器不支援您的公司檔案，請切換至相容的應用程式啟動器。"</string>
+  <!-- Button text for the button that cancels provisioning  -->
+  <string name="cancel_provisioning">"取消"</string>
+  <!-- Button text for the button that opens the launcher picker  -->
+  <string name="pick_launcher">"確定"</string>
+  <!-- Device owner provisioning flow UI. -->
+  <!-- Default username for the user of the owned device. [CHAR LIMIT=45] -->
+  <string name="default_owned_device_username">"工作裝置的使用者"</string>
+  <!-- Title of the work device setup screen. [CHAR LIMIT=NONE] -->
+  <string name="setup_work_device">"設定您的裝置"</string>
+  <!-- Progress text indicating that the setup data is processed. [CHAR LIMIT=45] -->
+  <string name="progress_data_process">"正在處理設定資料\u2026"</string>
+  <!-- Progress text indicating that wifi is set up. [CHAR LIMIT=45] -->
+  <string name="progress_connect_to_wifi">"正在連線至 Wi-Fi\u2026"</string>
+  <!-- Progress text indicating that the device admin package is being downloaded. [CHAR LIMIT=45] -->
+  <string name="progress_download">"正在下載管理員應用程式\u2026"</string>
+  <!-- Progress text indicating that the device admin package is being installed. [CHAR LIMIT=45] -->
+  <string name="progress_install">"正在安裝管理員應用程式\u2026"</string>
+  <!-- Progress text indicating that the device admin package is set as ownder. [CHAR LIMIT=45] -->
+  <string name="progress_set_owner">"正在設定裝置擁有者\u2026"</string>
+  <!-- Message of the cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_cancel_message">"停止設定並清除您的裝置資料？"</string>
+  <!-- Cancel button text of the cancel dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_cancel_cancel">"取消"</string>
+  <!-- OK button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_error_ok">"確定"</string>
+  <!-- Reset button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_error_reset">"重設"</string>
+  <!-- Message of the error dialog in case of an unspecified error. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_general">"無法設定您的裝置，請與您的 IT 部門聯絡。"</string>
+  <!-- Message of the error dialog when already provisioned. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_already_provisioned">"已完成裝置設定。"</string>
+  <!-- Message of the error dialog when a secondary user has already been provisioned. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_already_provisioned_user">"已為此使用者完成裝置設定。"</string>
+  <!-- Message of the error dialog when setting up wifi failed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_wifi">"無法連線至 Wi-Fi"</string>
+  <!-- Message of the error dialog when passing factory reset protection fails. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_frp">"這個裝置已由原廠設定保護鎖定。請與您的 IT 部門聯絡。"</string>
+  <!-- Message informing the user that the factory reset protection partition is being erased [CHAR LIMIT=30] -->
+  <string name="frp_clear_progress_title">"正在清除"</string>
+  <!-- Progress screen text shown while erasing the factory reset protection partition [CHAR LIMIT=75] -->
+  <string name="frp_clear_progress_text">"請稍候\u2026"</string>
+  <!-- Message of the error dialog when data integrity check fails. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_hash_mismatch">"管理員應用程式因校驗和錯誤而無法使用，請與您的 IT 部門聯絡。"</string>
+  <!-- Message of the error dialog when device owner apk could not be downloaded. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_download_failed">"無法下載管理員應用程式"</string>
+  <!-- Message of the error dialog when package to install is invalid. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_invalid">"管理員應用程式因缺少部分元件或已損毀而無法使用，請與您的 IT 部門聯絡。"</string>
+  <!-- Message of the error dialog when the name of the admin package to be installed is invalid. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_name_invalid">"無法安裝管理員應用程式。套裝名稱無效，請與您的 IT 部門聯絡。"</string>
+  <!-- Message of the error dialog when package could not be installed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_installation_failed">"無法安裝管理員應用程式"</string>
+  <!-- Message of the error dialog when device admin package is not installed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_not_installed">"您的裝置尚未安裝管理員應用程式"</string>
+  <!-- Message of the cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="profile_owner_cancel_message">"要停止設定嗎？"</string>
+  <!-- Cancel button text of the cancel dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancel_cancel">"否"</string>
+  <!-- OK button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancel_ok">"是"</string>
+  <!-- Message of the cancel progress dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancelling">"正在取消..."</string>
+  <!-- Title of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_later_title">"停止設定設定檔？"</string>
+  <!-- Message of the work profile setup cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="work_profile_setup_later_message">"您可以稍後透過您的機構所使用的裝置管理應用程式，設定您的工作設定檔。"</string>
+  <!-- Cancel button text of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_continue">"繼續"</string>
+  <!-- OK button text of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_stop">"停止"</string>
+  <!-- CertService -->
+  <!-- Title of a status bar notification for a service which installs CA certificates to secondary users. [CHAR LIMIT=45] -->
+  <string name="provisioning">"佈建中"</string>
+  <!-- Content of a status bar notification for a service which installs CA certificates to secondary users. [CHAR LIMIT=45] -->
+  <string name="copying_certs">"正在設定 CA 憑證"</string>
+  <!-- Accessibility Descriptions -->
+  <!-- Accessibility description for the profile setup screen showing organization info. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_start_setup">"設定您的設定檔：開始設定"</string>
+  <!-- Accessibility description for the profile setup screen showing encryption info. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_encryption">"設定您的設定檔：加密"</string>
+  <!-- Accessibility description for the profile setup screen showing progress. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_progress">"設定您的設定檔：正在顯示進度"</string>
+  <!-- Accessibility description for the device setup screen showing company info. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_start_setup">"設定您的裝置：開始設定"</string>
+  <!-- Accessibility description for the device setup screen showing encryption info. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_encryption">"設定您的裝置：加密"</string>
+  <!-- Accessibility description for the device setup screen showing progress. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_progress">"設定您的裝置：正在顯示進度"</string>
+  <!-- Accessibility description for the learn more link in user consent dialog. [CHAR LIMIT=NONE] -->
+  <string name="learn_more_label">" 瞭解詳情按鈕"</string>
+  <!-- Accessibility description for the company icon. [CHAR LIMIT=NONE] -->
+  <string name="mdm_icon_label">"<xliff:g id="ICON_LABEL">%1$s</xliff:g>圖示"</string></resources>

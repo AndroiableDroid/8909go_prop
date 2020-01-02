@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Demo ng Object Tracker"</string>
+    <string name="open_camera_failed">"Nagkaroon kami ng error sa pagbukas sa camera sa device mo.  Pakisara ang iba pang mga app na maaaring gumagamit sa camera at muling ilunsad ang app na ito."</string>
+    <string name="snapshot_failed">"Nagkaroon kami ng error habang kumukuha ng snapshot. Pakisuri ang  logcat para sa mga detalye ng error."</string>
+    <string name="video_recording_failed">"Nagkaroon kami ng error habang nagre-record ng video. Pakisuri ang  logcat para sa mga detalye ng error."</string>
+    <string name="settings">"Mga setting"</string>
+    <string name="switch_camera">"Lumipat ng camera"</string>
+    <string name="switch_camera_mode">"Lumipat ng photo/video mode"</string></resources>

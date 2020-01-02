@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Official label of the phone app, as seen in "Manage Applications"
+         and other settings UIs.  This is the version of the label for
+         tablet devices, where the phone app handles mobile data but not
+         actual phone calls. -->
+    <string name="phoneAppLabel" product="tablet">"ຂໍ້​ມູນ​ເຊວ​ລູ​ລາ"</string>
+    <!-- Official label of the phone app, as seen in "Manage Applications"
+         and other settings UIs. -->
+    <string name="phoneAppLabel" product="default">"ການ​ບໍ​ລິ​ການ​ໂທ​ລະ​ສັບ"</string>
+    <!-- Screen title for Emergency Dialer UI -->
+    <string name="emergencyDialerIconLabel">"ໂປຣແກຣມໂທອອກສຸກເສີນ"</string>
+    <!-- Activity label for the in-call UI -->
+    <string name="phoneIconLabel">"ໂທລະສັບ"</string>
+    <!-- Title of FDN list screen -->
+    <string name="fdnListLabel">"ລາຍຊື່ FDN"</string>
+    <!-- Call status -->
+    <!-- Incoming call screen, name of "unknown" caller -->
+    <string name="unknown">"ບໍ່ຮູ້ຈັກ"</string>
+    <!-- Incoming call screen, string when number hidden -->
+    <string name="private_num">"ເບີສ່ວນໂຕ"</string>
+    <!-- Incoming call screen, string when called from a pay phone -->
+    <string name="payphone">"ຕູ້​ໂທ​ລະ​ສັບ​ສາ​ທາ​ລະ​ນະ"</string>
+    <!-- In-call screen: status label for a call that's on hold -->
+    <string name="onHold">"ພັກສາຍຊົ່ວຄາວ"</string>
+    <!-- Possible error messages with outgoing calls -->
+    <string name="mmiStarted">"ເລີ່ມລະຫັດ MMI ແລ້ວ"</string>
+    <!-- Dialog label when a USSD code starts running -->
+    <string name="ussdRunning">"ກຳລັງແລ່ນລະຫັດ USSD..."</string>
+    <!-- Dialog label when an MMI code is canceled -->
+    <string name="mmiCancelled">"ຍົກເລີກລະຫັດ MMI ແລ້ວ"</string>
+    <!-- Label for "cancel" button on the MMI dialog -->
+    <string name="cancel">"ຍົກເລີກ"</string>
+    <!-- Toast string displayed to user if the input in MMI dialog is < 1 or > 160 -->
+    <string name="enter_input">"ຂໍ້ຄວາມ USSD ຕ້ອງມີໂຕອັກສອນລະຫວ່າງ <xliff:g id="MIN_LEN">%d</xliff:g> ແລະ <xliff:g id="MAX_LEN">%d</xliff:g> ໂຕ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ."</string>
+    <!-- Label for "Manage conference call" panel [CHAR LIMIT=40] -->
+    <string name="manageConferenceLabel">"ຈັດການການປະຊຸມສາຍ"</string>
+    <!-- Positive button label ("OK") used in several dialogs in the phone UI [CHAR LIMIT=10] -->
+    <string name="ok">"ຕົກລົງ"</string>
+    <!-- "Audio mode" popup menu: Item label to select the speakerphone [CHAR LIMIT=25] -->
+    <string name="audio_mode_speaker">"ລຳໂພງ"</string>
+    <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
+    <string name="audio_mode_earpiece">"ຊຸດຫູຟັງ"</string>
+    <!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
+    <string name="audio_mode_wired_headset">"ຊຸດຫູຟັງແບບມີສາຍ"</string>
+    <!-- "Audio mode" popup menu: Item label to select the bluetooth headset [CHAR LIMIT=25] -->
+    <string name="audio_mode_bluetooth">"Bluetooth"</string>
+    <!-- post dial -->
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "wait" character in a phone number to be dialed; this dialog asks the
+         user if it's OK to send the numbers following the "wait". -->
+    <string name="wait_prompt_str">"ສົ່ງໂທນສຽງຕໍ່ໄປນີ້ບໍ່?\n"</string>
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "PAUSE" character in a phone number to be dialed; this dialog gives
+         informative message to the user to show the sending numbers following the "Pause". -->
+    <string name="pause_prompt_str">"ກຳລັງສົ່ງໂທນສຽງ\n"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog -->
+    <string name="send_button">"ສົ່ງ"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_yes">"ຕົກລົງ"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_no">"ບໍ່"</string>
+    <!-- In-call screen: on the "wild" character dialog, this is the label
+         for a text widget that lets the user enter the digits that should
+         replace the "wild" character. -->
+    <string name="wild_prompt_str">"ແທນທີ່ \"ໂຕອັກສອນທົດແທນ\" ດ້ວຍ"</string>
+    <!-- missing voicemail number -->
+    <!-- Title of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number">"ບໍ່ມີເບີຂໍ້ຄວາມສຽງ"</string>
+    <!-- Body text of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number_msg">"ບໍ່ມີເບີຂໍ້ຄວາມສຽງຖືກບັນທຶກໃນ SIM card."</string>
+    <!-- Button label on the "Missing voicemail number" dialog -->
+    <string name="add_vm_number_str">"ເພີ່ມໝາຍເລກ"</string>
+    <!-- Status message displayed on SIM PIN unlock panel -->
+    <string name="puk_unlocked">"ຍົກເລີກການປິດກັ້ນ SIM card ຂອງທ່ານແລ້ວ. ໂທລະສັບຂອງທ່ານກຳລັງຖືກປົດລັອກ..."</string>
+    <!-- network depersonalization -->
+    <!-- Label text for PIN entry widget on SIM Network Depersonalization panel -->
+    <string name="label_ndp">"PIN ປົດລັອກເຄືອຂ່າຍ SIM"</string>
+    <!-- Button label on SIM Depersonalization panel -->
+    <string name="sim_ndp_unlock_text">"ປົດລັອກ"</string>
+    <!-- Button label on SIM Depersonalization panel -->
+    <string name="sim_ndp_dismiss_text">"ປິດໄວ້"</string>
+    <!-- Status message displayed on SIM Network Depersonalization panel -->
+    <string name="requesting_unlock">"ກຳລັງຮ້ອງຂໍການປົດລັອກເຄືອຂ່າຍ..."</string>
+    <!-- Error message displayed on SIM Network Depersonalization panel -->
+    <string name="unlock_failed">"ຄຳຂໍການປົດລັອກເຄືອຂ່າຍບໍ່ສຳເລັດ."</string>
+    <!-- Success message displayed on SIM Network Depersonalization panel -->
+    <string name="unlock_success">"ການປົດລັອກເຄືອຂ່າຍບໍ່ສຳເລັດ."</string>
+    <!-- settings strings -->
+    <!-- Error message for users that aren't allowed to modify Mobile Network settings [CHAR LIMIT=none] -->
+    <string name="mobile_network_settings_not_available">"​ການ​ຕັ້ງ​ຄ່າ​ເຄືອ​ຂ່າຍ​ມ​ື​ຖືບໍ່​ສາ​ມາດ​ໃຊ້​ໄດ້​ກັບ​ຜູ່​ໃຊ້​ນີ້"</string>
+    <!-- GSM Call settings screen, setting option name. [CHAR LIMIT=40] -->
+    <string name="labelGSMMore">"ການຕັ້ງຄ່າການໂທ GSM"</string>
+    <!-- GSM Call settings screen, setting option name with label indicating the SIM the settings
+         are applied to. [CHAR LIMIT=40] -->
+    <string name="labelGsmMore_with_label">"ການ​ຕັ້ງ​ຄ່າ GSM (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string name="labelCFType">"ຕັ້ງຄ່າສົ່ງການໂອນສາຍ"</string>
+    <string name="labelCFVoice">"ສຽງ"</string>
+    <string name="labelCFVideo">"ວິດີໂອ"</string>
+    <!-- CDMA Call settings screen, setting option name -->
+    <string name="labelCDMAMore">"ການຕັ້ງຄ່າໂທ CDMA"</string>
+    <!-- CDMA Call settings screen, setting option name with label indicating the SIM the settings
+         are applied to. [CHAR LIMIT=40] -->
+    <string name="labelCdmaMore_with_label">"ການ​ຕັ້ງ​ຄ່າ CDMA (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="apn_settings">"ຊື່ຂອງຈຸດການເຂົ້າເຖິງ (APN)"</string>
+    <!-- Label for the "Network settings" screen in the Settings UI -->
+    <string name="settings_label">"ການຕັ້ງຄ່າເຄືອຂ່າຍ"</string>
+    <!-- Label for settings screen for phone accounts. -->
+    <string name="phone_accounts">"​ການ​ຕັ້ງ​ຄ່າ​ບັນ​ຊີ​ໂທ​ລະ​ສັບ"</string>
+    <!-- Label for list item which opens a dialog to select the default outgoing account -->
+    <string name="phone_accounts_make_calls_with">"ເຮັດການໂທດ້ວຍ"</string>
+    <!-- Label for list item which opens a dialog to select the default outgoing account for SIP calls. -->
+    <string name="phone_accounts_make_sip_calls_with">"ເຮັດການໂທ SIP ດ້ວຍ"</string>
+    <!-- Entry in dialog to "ask first" for accounts when making a call -->
+    <string name="phone_accounts_ask_every_time">"ຖາມກ່ອນ"</string>
+    <!-- Label for heading of the per-account settings section in the phone accounts settings
+         screen. -->
+    <string name="phone_accounts_settings_header">"ການ​ຕັ້ງ​ຄ່າ"</string>
+    <!-- Label for invoking phone account selection screen -->
+    <string name="phone_accounts_choose_accounts">"ເລືອກບັນຊີ"</string>
+    <!-- Label for heading in the phone account selection screen -->
+    <string name="phone_accounts_selection_header">"ບັນຊີໂທລະສັບ"</string>
+    <!-- Title for the button to add a new sip account. [CHAR LIMIT=NONE] -->
+    <string name="phone_accounts_add_sip_account">"ເພີ່ມບັນຊີ SIP"</string>
+    <!-- Description label for icon to configure a phone account's settings. -->
+    <string name="phone_accounts_configure_account_settings">"ກຳນົດການຕັ້ງຄ່າບັນຊີ"</string>
+    <!-- Label for heading that takes user to the list of calling accounts where they can enable
+         and disable all accounts. -->
+    <string name="phone_accounts_all_calling_accounts">"ທຸກ​ບັນ​ຊີ​ການ​ໂທ"</string>
+    <!-- Summary for all-calling-account setting indicating that is where the user goes to enable
+         and disable phone accounts. -->
+    <string name="phone_accounts_all_calling_accounts_summary">"ເລືອກວ່າ​ຈະ​ໃຫ້​ບັນ​ຊີ​ໃດ​ໂທ"</string>
+    <!-- Title for setting to select Wi-Fi call manager account -->
+    <string name="wifi_calling">"ການ​ໂທ Wi-Fi"</string>
+    <!-- Built-in label for the default connection service setting. -->
+    <string name="connection_service_default_label">"ບໍ​ລິ​ການ​ການ​ເຊື່ອມ​ຕໍ່​ທີ່​ມີ​ມາ​ນຳ"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="voicemail">"ຂໍ້ຄວາມສຽງ"</string>
+    <!-- Title of the "Voicemail" settings screen, with a text label identifying which SIM the settings are for. -->
+    <string name="voicemail_settings_with_label">"ຂໍ້​ຄວາມ​ສຽງ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Call forwarding dialog box, voicemail number prefix -->
+    <string name="voicemail_abbreviated">"VM​:"</string>
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="networks">"ຜູ່ໃຫ້ບໍລິການເຄືອຂ່າຍ"</string>
+    <!-- Cell Broadcast settings title.  [CHAR LIMIT=50] -->
+    <string name="cell_broadcast_settings">"ອອກອາກາດສຸກເສີນ"</string>
+    <!-- Call settings screen title -->
+    <string name="call_settings">"ການຕັ້ງຄ່າການໂທ"</string>
+    <!-- GSM Call settings screen, setting option name -->
+    <string name="additional_gsm_call_settings">"ການຕັ້ງຄ່າເພີ່ມເຕີມ"</string>
+    <!-- GSM Call settings screen, setting option name, with label identifying the SIM the settings are for. -->
+    <string name="additional_gsm_call_settings_with_label">"ການ​ຕັ້ງ​ຄ່າ​ເພີ່ມ​ເຕີມ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- GSM-only Call settings screen, setting option name-->
+    <string name="sum_gsm_call_settings">"ການຕັ້ງຄ່າເພີ່ມເຕີມສະເພາະຂອງການໂທ GSM"</string>
+    <!-- CDMA Call settings screen, setting option name -->
+    <string name="additional_cdma_call_settings">"ການຕັ້ງຄ່າການໂທ CDMA ເພີ່ມເຕີມ"</string>
+    <!-- CDMA-only Call settings screen, setting option name-->
+    <string name="sum_cdma_call_settings">"ການຕັ້ງຄ່າການໂທສະເພາະ CDMA ເພີ່ມເຕີມ"</string>
+    <!-- Call setting screen, nework service setting name -->
+    <string name="labelNwService">"ການຕັ້ງຄ່າບໍລິການເຄືອຂ່າຍ"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="labelCallerId">"ໝາຍເລກຜູ່ໂທ"</string>
+    <!-- Additional call settings screen, setting summary text when the setting is being loaded [CHAR LIMIT=40] -->
+    <string name="sum_loading_settings">"ກຳລັງໂຫລດການຕັ້ງຄ່າ..."</string>
+    <!-- Additional call settings screen, setting summary text when Caller ID is hidden -->
+    <string name="sum_hide_caller_id">"ເບີໂທຖືກເຊື່ອງໃນເວລາໂທອອກ"</string>
+    <!-- Additional call settings screen, setting summary text when Caller ID is shown -->
+    <string name="sum_show_caller_id">"ໝາຍເລກທີ່ສະແດງໃນເວລາໂທອອກ"</string>
+    <!-- Additional call settings screen, setting summary text for default Caller ID value -->
+    <string name="sum_default_caller_id">"ໃຊ້ການຕັ້ງຄ່າເລີ່ມຕົ້ນຂອງຜູ່ໃຫ້ບໍລິການ ເພື່ອສະແດງໝາຍເລກຂອງຂ້ອຍໃນການໂທອອກ"</string>
+    <!-- Additional call settings screen, setting check box name -->
+    <string name="labelCW">"ສາຍຊ້ອນ"</string>
+    <!-- Additional call settings screen, setting summary text when call waiting check box is selected -->
+    <string name="sum_cw_enabled">"ແຈ້ງເຕືອນຂ້ອຍຫາກມີສາຍໂທເຂົ້າ ໃນລະຫວ່າງການໂທໃດນຶ່ງ"</string>
+    <!-- Additional call settings screen, setting summary text when call waiting check box is clear -->
+    <string name="sum_cw_disabled">"ແຈ້ງເຕືອນຂ້ອຍຫາກມີສາຍໂທເຂົ້າ ໃນລະຫວ່າງການໂທໃດນຶ່ງ"</string>
+    <!-- Call forwarding settings screen, section heading -->
+    <string name="call_forwarding_settings">"ການຕັ້ງຄ່າໂອນສາຍ"</string>
+    <!-- Call forwarding settings screen, section heading, with a label identifying the SIM the settings are for. -->
+    <string name="call_forwarding_settings_with_label">"ການ​ຕັ້ງ​ຄ່າ​ການ​ໂອນ​ສາຍ​ໂທ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="labelCF">"ການໂອນສາຍ"</string>
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFU">"ໂອນສາຍທຸກຄັ້ງ"</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFU">"ໃຊ້ເບີນີ້ສະເໝີ"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding all calls -->
+    <string name="sum_cfu_enabled_indicator">"ໂອນສາຍທັງໝົດ"</string>
+    <!-- Call forwarding settings screen, setting summary text the Always forward is set -->
+    <string name="sum_cfu_enabled">"ໂອນສາຍທັງໝົດໄປທີ່ <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <!-- Call forwarding settings screen, Always forward is enabled but the number is unavailable -->
+    <string name="sum_cfu_enabled_no_number">"ໝາຍເລກບໍ່ສາມາດໃຊ້ໄດ້"</string>
+    <!-- Call forwarding settings screen, setting summary text when Always forward is disabled -->
+    <string name="sum_cfu_disabled">"ປິດການນຳໃຊ້ແລ້ວ"</string>
+    <!-- Call forwarding settings screen, setting timer info for cfut case -->
+    <string name="set_time_period">"ຕັ້ງຄ່າໄລຍະເວລາ"</string>
+    <string name="all_day">"ໝົດມື້"</string>
+    <string name="time_interval_char">: </string>
+    <string name="time_start">"ຈາກ"</string>
+    <string name="time_start_hour">"ເວລາເລີ່ມຕົ້ນຊົ່ວໂມງ"</string>
+    <string name="time_start_minute">"ເວລາເລ່ີມຕົ້ນນາທີ"</string>
+    <string name="time_end">"ຫາ"</string>
+    <string name="time_end_hour">"ເວລາສິ້ນສຸດຊົ່ວໂມງ"</string>
+    <string name="time_end_minute">"ເວລາສິ້ນສຸດນາທີ"</string>
+    <string name="time_formate_am">"ເຊົ້າ"</string>
+    <string name="time_formate_pm">"ແລງ"</string>
+    <string name="cf_setting_mobile_data_alert">"ກະລຸນາເປີດຂໍ້ມູນມືຖື ແລະຮັບປະກັນວ່າ WLAN ປິດຢູ່"</string>
+    <string name="cf_setting_mobile_data_roaming_alert">"ກະ​ລຸ​ນາ​ເປີດ​ໂຣມ​ມິງ​ຂໍ້​ມູນ"</string>
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFB">"ເມື່ອ​ບໍ່​ຫວ່າງ"</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFB">"ເບີໂທເມື່ອສາຍບໍ່ຫວ່າງ"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding to specific number when busy -->
+    <string name="sum_cfb_enabled">"ໂອນສາຍໄປໃຫ້ <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding when busy is disabled -->
+    <string name="sum_cfb_disabled">"ປິດ"</string>
+    <!-- Error message displayed after failing to disable forwarding calls when the phone is busy -->
+    <string name="disable_cfb_forbidden">"ຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ບໍ່ຮອງຮັບການປິດການໂອນສາຍ ເມື່ອໂທລະສັບຂອງທ່ານສາຍບໍ່ຫວ່າງ."</string>
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFNRy">"ເມື່ອ​ບໍ່​ມີ​ຜູ້​ຮັບ​ສາຍ"</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFNRy">"ເບີໂທເມື່ອບໍ່ມີຄົນຮັບສາຍ"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding to a specific number when unanswered -->
+    <string name="sum_cfnry_enabled">"ໂອນສາຍໄປໃຫ້ <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <!-- Call forwarding settings screen, setting summary text when Forward when unanswered is disabled -->
+    <string name="sum_cfnry_disabled">"ປິດ"</string>
+    <!-- Error message displayed after failing to disable forwarding calls when the phone does not answer -->
+    <string name="disable_cfnry_forbidden">"ຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ບໍ່ຮອງຮັບການປິດການໂອນສາຍ ເມື່ອໂທລະສັບຂອງທ່ານບໍ່ມີຜູ່ຮັບສາຍ."</string>
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFNRc">"ເມື່ອ​ບໍ່​ສາ​ມາດ​ຕິດ​ຕໍ່ໄດ້"</string>
+    <string name="labelCFNRc_cdma">"ໂອນສາຍຢ່າງຈະແຈ້ງ"</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFNRc">"ເບີໂທເມື່ອຕິດຕໍ່ບໍ່ໄດ້"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding to a specific number when unreachable-->
+    <string name="sum_cfnrc_enabled">"ໂອນສາຍໄປໃຫ້ <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <!-- Call forwarding settings screen, setting summary text when Forward when unreachable is disabled -->
+    <string name="sum_cfnrc_disabled">"ປິດການນຳໃຊ້ແລ້ວ"</string>
+    <!-- Error message displayed after failing to disable forwarding calls when the phone is unreachable -->
+    <string name="disable_cfnrc_forbidden">"ຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ບໍ່ຮອງຮັບການປິດການໂອນສາຍ ເມື່ອໂທລະສັບຂອງທ່ານບໍ່ມີສັນຍານ."</string>
+    <!-- Title of the progress dialog displayed while updating Call settings -->
+    <string name="updating_title">"ການຕັ້ງຄ່າການໂທ"</string>
+    <!-- Toast in Call settings when asked to launch settings for a secondary user -->
+    <string name="call_settings_primary_user_only">"ສາມາດປ່ຽນແປງການຕ້ັງຄ່າການໂທໄດ້ໂດຍຜູ້ໃຊ້ຫຼັກເທົ່ານັ້ນ."</string>
+    <!-- Title of the "Call settings" settings screen, with a text label identifying which SIM the settings are for. -->
+    <string name="call_settings_with_label">"ການ​ຕັ້ງ​ຄ່າ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Title of the alert dialog displayed if an error occurs while updating Call settings -->
+    <string name="error_updating_title">"ການຕັ້ງຄ່າການໂທຜິດພາດ"</string>
+    <!-- Toast in Call settings dialog while settings are being read -->
+    <string name="reading_settings">"ກຳລັງອ່ານການຕັ້ງຄ່າ..."</string>
+    <!-- Toast in Call settings dialog while settings are being saved -->
+    <string name="updating_settings">"ກຳລັງອັບເດດການຕັ້ງຄ່າ..."</string>
+    <!-- Toast in Call settings dialog while settings are being reverted -->
+    <string name="reverting_settings">"ກຳລັງຖອນຄືນການຕັ້ງຄ່າ..."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="response_error">"ໄດ້ຮັບການຕອບກັບທີ່ບໍ່ຄາດຄິດຈາກເຄືອຂ່າຍ."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="exception_error">"ເຄືອຂ່າຍ ຫຼື SIM card ຜິດພາດ."</string>
+    <!-- Status message displayed in the "Call settings error" dialog when
+         current SS request is modified to a different request by STK CC -->
+    <string name="stk_cc_ss_to_dial_error">"ຄຳຮ້ອງ SS ຖືກດັດແປງເປັນຄຳຮ້ອງຂໍ DIAL ແລ້ວ."</string>
+    <string name="stk_cc_ss_to_ussd_error">"ຄຳຮ້ອງ SS ຖືກດັດແປງເປັນຄຳຮ້ອງຂໍ USSD ແລ້ວ."</string>
+    <string name="stk_cc_ss_to_ss_error">"ຄຳຮ້ອງ SS ຖືກດັດແປງເປັນຄຳຮ້ອງຂໍ SS ແລ້ວ."</string>
+    <!-- Status message displayed in the "Call settings error" dialog when operation fails due to FDN
+         [CHAR LIMIT=NONE] -->
+    <string name="fdn_check_failure">"ການຕັ້ງຄ່າແອັບຯໝາຍເລກຈຳກັດການໂທອອກ ຂອງໂທລະສັບທ່ານຖືກເປີດໃຊ້ຢູ່ ເຊິ່ງຈະເຮັດໃຫ້ຄຸນສົມບັດທີ່ກ່ຽວກັບການໂທບາງຢ່າງ ບໍ່ສາມາດໃຊ້ໄດ້."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="radio_off_error">"ເປີດໃຊ້ວິທະຍຸກ່ອນການເບິ່ງການຕັ້ງຄ່າເຫຼົ່ານີ້."</string>
+    <!-- Button label used to dismiss the "Call settings error" dialog -->
+    <string name="close_dialog">"ຕົກລົງ"</string>
+    <!-- Button label used in several settings-related dialogs -->
+    <string name="enable">"ເປີດ​"</string>
+    <!-- Button label used in several settings-related dialogs -->
+    <string name="disable">"ປິດ"</string>
+    <!-- Button label which indicates the user wants to update a stored
+         phone number; used in several settings-related dialogs -->
+    <string name="change_num">"ອັບເດດ"</string>
+    <!-- Phone settings: Caller ID preference values -->
+    <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
+        <item>"ເຄືອຂ່າຍເລີ່ມຕົ້ນ"</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
+        <item>"ເຊື່ອງເບີໂທ"</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
+        <item>"ສະແດງເບີໂທ"</item>
+    </string-array>
+    <!-- voicemail setting strings -->
+    <!-- Call settings screen, Set voicemail number dialog text -->
+    <string name="vm_changed">"ປ່ຽນໝາຍເລກຂໍ້ຄວາມສຽງແລ້ວ."</string>
+    <!-- Call settings screen, Set voicemail number dialog text -->
+    <string name="vm_change_failed">"ບໍ່ສາມາດປ່ຽນເບີຂໍ້ຄວາມສຽງໄດ້.\nຕິດຕໍ່ຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ຫາກວ່າຍັງປະສົບບັນຫານີ້ຢູ່."</string>
+    <!-- Call settings screen, displayed when vm provider supplied forwarding number change fails-->
+    <string name="fw_change_failed">"ບໍ່ສາມາດປ່ຽນເບີໂອນສາຍໄດ້.\nກະລຸນາຕິດຕໍ່ຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ຫາກຍັງປະສົບບັນຫານີ້ຢູ່."</string>
+    <!-- Call settings screen, displayed when forwarding number read fails-->
+    <string name="fw_get_in_vm_failed">"ບໍ່ສາມາດດຶງຂໍ້ມູນການຕັ້ງຄ່າ ແລະບັນທຶກການຕັ້ງຄ່າເບີໂອນສາຍໃນປັດຈຸບັນໄດ້.\nສະລັບໄປໃຊ້ຜູ່ໃຫ້ບໍລິການໃໝ່ຕໍ່ເລີຍ?"</string>
+    <!-- Call settings screen, Set voicemail number dialog text -->
+    <string name="no_change">"ບໍ່ມີການປ່ຽນແປງເກີດຂຶ້ນ."</string>
+    <!-- Call settings screen, "Voicemail" provider setting summary text when no provider is selected -->
+    <string name="sum_voicemail_choose_provider">"ເລືອກບໍລິການຂໍ້ຄວາມສຽງ"</string>
+    <!-- Call settings screen, "Voicemail" screen, default option - Your Carrier -->
+    <string name="voicemail_default">"ຜູ່ໃຫ້ບໍລິການຂອງຂ້ອຍ"</string>
+    <!-- networks setting strings -->
+    <!-- Mobile network settings screen title -->
+    <string name="mobile_networks">"ການ​ຕັ້ງ​ຄ່າ​ເຄືອ​ຂ່າຍ​ມື​ຖື"</string>
+    <!-- Available networks screen title/heading -->
+    <string name="label_available">"ເຄືອຂ່າຍທີ່ມີ"</string>
+    <!-- Mobile network settings screen, toast when searching for available networks -->
+    <string name="load_networks_progress">"ກຳລັງຊອກຫາ..."</string>
+    <!-- Available networks screen, text when no networks are found -->
+    <string name="empty_networks_list">"ບໍ່ພົບເຄືອຂ່າຍ."</string>
+    <!-- Available networks screen, setting option name -->
+    <string name="search_networks">"ຊອກຫາເຄືອຂ່າຍ"</string>
+    <!-- Available networks screen, toast when an error is encountered when searching for networks -->
+    <string name="network_query_error">"ເກີດຄວາມຜິດພາດໃນລະຫວ່າງການຊອກຫາເຄືອຂ່າຍ."</string>
+    <!-- Available networks screen, toast when registering on a specific network -->
+    <string name="register_on_network">"ກຳລັງລົງທະບຽນກັບ <xliff:g id="NETWORK">%s</xliff:g>\u2026"</string>
+    <!-- Available networks screen, toast when SIM card isn't allowed on a network -->
+    <string name="not_allowed">"SIM card ຂອງທ່ານບໍ່ອະນຸຍາດໃຫ້ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍນີ້."</string>
+    <!-- Available networks screen, toast when unable to connect to a network temporarily -->
+    <string name="connect_later">"ບໍ່ສາມາດເຊື່ອມຕໍ່ຫາເຄືອຂ່າຍນີ້ໃນເວລານີ້ໄດ້. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ."</string>
+    <!-- Available networks screen, toast when registered on a specific network -->
+    <string name="registration_done">"ລົງທະບຽນໃນເຄືອຂ່າຍແລ້ວ."</string>
+    <!-- Mobile network settings screen setting option summary text -->
+    <string name="sum_carrier_select">"ເລືອກເຄືອຂ່າຍຜູ່ໃຫ້ບໍລິການ"</string>
+    <!-- Available networks screen, setting summary text -->
+    <string name="sum_search_networks">"ຊອກຫາເຄືອຂ່າຍທີ່ມີທັງໝົດ"</string>
+    <!-- Available networks screen, setting option name -->
+    <string name="select_automatically">"ເລືອກອັດຕະໂນມັດ"</string>
+    <!-- Available networks screen, setting summary text -->
+    <string name="sum_select_automatically">"ເລືອກເຄືອຂ່າຍທີ່ຕ້ອງການອັດຕະໂນມັດ"</string>
+    <string name="register_automatically">"ການລົງທະບຽນອັດຕະໂນມັດ..."</string>
+    <string name="preferred_network_mode_title">"ປະ​ເພດ​ເຄືອ​ຂ່າຍທີ່ຕ້ອງການ"</string>
+    <string name="preferred_network_mode_summary">"ປ່ຽນຮູບແບບປະຕິບັດການຂອງເຄືອຂ່າຍ"</string>
+    <string name="preferred_network_mode_dialogtitle">"ປະ​ເພດ​ເຄືອ​ຂ່າຍທີ່ຕ້ອງການ"</string>
+    <!-- Mobile network settings, summary for preferred network mode WCDMA preferred[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_wcdma_perf_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: ຕ້ອງການ WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode GSM [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_gsm_only_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: GSM ເທົ່ານັ້ນ"</string>
+    <!-- Mobile network settings, summary for preferred network mode WCDMA only [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_wcdma_only_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: WCDMA ເທົ່ານັ້ນ"</string>
+    <!-- Mobile network settings, summary for preferred network mode GSM / UMTS [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_gsm_wcdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: GSM / WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_cdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: CDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA / EvDo [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_cdma_evdo_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: CDMA / EvDo"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA only [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_cdma_only_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: CDMA ເທົ່ານັ້ນ"</string>
+    <!-- Mobile network settings, summary for preferred network mode EvDo only [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_evdo_only_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: EvDo ເທົ່ານັ້ນ"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: CDMA/EvDo/GSM/WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode LTE [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode GSM/WCDMA/LTE [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_gsm_wcdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: GSM/WCDMA/LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA+LTE/EVDO[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_cdma_evdo_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: CDMA+LTE/EVDO"</string>
+    <!-- Mobile network settings, summary for preferred network mode Global[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_global_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: ທົ່ວໂລກ"</string>
+    <!-- Mobile network settings, summary for preferred network mode LTE / WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_wcdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: LTE / WCDMA"</string>
+     <!-- Mobile network settings, summary for preferred network mode LTE / GSM / UMTS [CHAR LIMIT=100] -->
+     <string name="preferred_network_mode_lte_gsm_umts_summary">"ໂໝດ​ເຄືອ​ຂ່າຍ​ທີ່​ເລືອກ: LTE / GSM / UMTS"</string>
+     <!-- Mobile network settings, summary for preferred network mode LTE / CDMA [CHAR LIMIT=100] -->
+     <string name="preferred_network_mode_lte_cdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: LTE / CDMA"</string>
+    <!-- In-call screen: call failure reason (call denied because call barring
+            is ON on MT side ) -->
+    <string name="callFailed_incoming_cb_enabled">"ຝ່າຍໄດ້ຫ້າມທຸກສາຍໂທເຂົ້າ."</string>
+    <!-- In-call screen: status label for an incoming call that is not answered and forwarded  -->
+    <string name="callUnanswered_forwarded">"ສາຍທີ່ບໍ່ໄດ້ຮັບ ແລະໂອນສາຍ"</string>
+        <!-- Mobile network settings, summary for preferred network mode TD-SCDMA only[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_only_summary">"ໂໝດເຄືອຂ່າຍທີ່ເລືອກ: TD-SCDMA ເທົ່ານັ້ນ"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_wcdma_summary">"ໂໝດເຄືອຂ່າຍທີ່ເລືອກ: TD-SCDMA / WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / LTE[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_lte_summary">"ໂໝດເຄືອຂ່າຍທີ່ເລືອກ: TD-SCDMA / LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / GSM[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_summary">"ໂໝດເຄືອຂ່າຍທີ່ເລືອກ: TD-SCDMA / GSM"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / GSM / LTE[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_lte_summary">"ໂໝດເຄືອຂ່າຍທີ່ເລືອກ: TD-SCDMA/GSM/LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / GSM / WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_summary">"ໂໝດເຄືອຂ່າຍທີ່ເລືອກ: TD-SCDMA/GSM/WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / WCDMA/ LTE[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_wcdma_lte_summary">"ໂໝດເຄືອຂ່າຍທີ່ເລືອກ: TD-SCDMA/WCDMA/LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / GSM / WCDMA/ LTE[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_summary">"ໂໝດເຄືອຂ່າຍທີ່ເລືອກ: TD-SCDMA/GSM/WCDMA/LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA/CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_summary">"ໂໝດ​ເຄືອ​ຂ່າຍ​ທີ່​ມັກ: TD-SCDMA/GSM/WCDMA/CDMA/EvDohzwlocked"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA/LTE/CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_lte_cdma_evdo_gsm_wcdma_summary">"ໂໝດເຄືອຂ່າຍທີ່ເລືອກ: TD-SCDMA/LTE/CDMA/EvDo/GSM/WCDMA"</string>
+     <!-- Mobile network settings, summary for preferred network mode TDSCDMTA [CHAR LIMIT=100] -->
+     <string name="preferred_network_mode_tdscdma_summary">"ຮູບແບບເຄືອຂ່າຍທີ່ຕ້ອງການ: TDSCDMA"</string>
+    <string-array name="preferred_network_mode_choices">
+        <item>"TD-SCDMA/LTE/CDMA/EVDO/GSM/WCDMA "</item>
+        <item>"TD-SCDMA/GSM/WCDMA/CDMA/EVDO "</item>
+        <item>"TD-SCDMA/GSM/WCDMA/LTE"</item>
+        <item>"TD-SCDMA/WCDMA/LTE"</item>
+        <item>"TD-SCDMA/GSM/WCDMA"</item>
+        <item>"TD-SCDMA/GSM/LTE"</item>
+        <item>"TD-SCDMA/GSM"</item>
+        <item>"TD-SCDMA/LTE"</item>
+        <item>"TD-SCDMA/WCDMA"</item>
+        <item>"TD-SCDMA only"</item>
+        <item>"LTE / WCDMA"</item>
+        <item>"LTE"</item>
+        <item>"Global"</item>
+        <item>"GSM/WCDMA/LTE"</item>
+        <item>"CDMA + LTE/EvDo"</item>
+        <item>"CDMA/EvDo/GSM/WCDMA"</item>
+        <item>"EvDo only"</item>
+        <item>"CDMA w/o EvDo"</item>
+        <item>"CDMA/EvDo auto"</item>
+        <item>"GSM/WCDMA auto"</item>
+        <item>"WCDMA only"</item>
+        <item>"GSM only"</item>
+        <item>"GSM/WCDMA preferred"</item>
+    </string-array>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA/CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_cdma_evdo_gsm_wcdma_summary">"ໂໝດ​ເຄືອ​ຂ່າຍ​ທີ່​ມັກ: TD-SCDMA/CDMA/EvDo/GSM/WCDMA"</string>
+    <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">"TD-SCDMA/LTE/GSM/WCDMA/CDMA/EVDO"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">"TD-SCDMA/GSM/WCDMA/CDMA/EVDO w/o EVDO"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_choice">"TD-SCDMA/GSM/WCDMA/LTE"</string>
+    <string name="preferred_network_mode_td_scdma_wcdma_lte_choice">"TD-SCDMA/WCDMA/LTE"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_choice">"TD-SCDMA/GSM/WCDMA"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_lte_choice">"TD-SCDMA/GSM/LTE"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_choice">"TD-SCDMA/GSM"</string>
+    <string name="preferred_network_mode_td_scdma_lte_choice">"TD-SCDMA/LTE"</string>
+    <string name="preferred_network_mode_td_scdma_wcdma_choice">"TD-SCDMA/WCDMA"</string>
+    <string name="preferred_network_mode_td_scdma_only_choice">"TD-SCDMA only"</string>
+    <string name="preferred_network_mode_lte_wcdma_choice">"LTE / WCDMA"</string>
+    <string name="preferred_network_mode_lte_choice">"LTE"</string>
+    <string name="preferred_network_mode_global_choice">"ທົ່ວໂລກ"</string>
+    <string name="preferred_network_mode_gsm_wcdma_lte_choice">"GSM/WCDMA/LTE"</string>
+    <string name="preferred_network_mode_cdma_lte_evdo_choice">"CDMA + LTE/EvDo"</string>
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">"CDMA/EvDo/GSM/WCDMA"</string>
+    <string name="preferred_network_mode_evdo_only_choice">"EvDo only"</string>
+    <string name="preferred_network_mode_cdma_wo_evdo_choice">"CDMA w/o EvDo"</string>
+    <string name="preferred_network_mode_cdma_evdo_auto_choice">"CDMA/EvDo auto"</string>
+    <string name="preferred_network_mode_gsm_wcdma_auto_choice">"GSM/WCDMA auto"</string>
+    <string name="preferred_network_mode_wcdma_only_choice">"WCDMA only"</string>
+    <string name="preferred_network_mode_gsm_only_choice">"GSM only"</string>
+    <string name="preferred_network_mode_gsm_wcama_preferred_choice">"GSM/WCDMA preferred"</string>
+    <!-- Cellular network 4G title [CHAR LIMIT=30] -->
+    <string name="enhanced_4g_lte_mode_title">"ໂໝດ 4G LTE ທີ່ປັບປຸງ"</string>
+    <!-- Cellular network 4G summary [CHAR LIMIT=80] -->
+    <string name="enhanced_4g_lte_mode_summary">"ໃຊ້ການບໍລິການ LTE ເພື່ອປັບປຸງສຽງ ແລະການບໍລິການອື່ນ (ແນະນໍາ)"</string>
+    <!-- Enable 4G title.   -->
+    <string name="lte_4g_settings_title">"ເປີດ/ປິດ ການນຳໃຊ້ 4G"</string>
+    <!-- Enable 4G summary.    -->
+    <string name="lte_4g_settings_summaryOn">"ໂທລະສັບຈະປ່ຽນເປັນ 3G/2G ແລະ 4G ຈະຖືກປິດການນຳໃຊ້."</string>
+    <!-- Enable 4G dialog prompt text.   -->
+    <string name="lte_4g_settings_summaryOff">"ໂທລະສັບຈະປ່ຽນຈາກ 3G/2G ເປັນ 4G, ບາງໂປຣແກຣມທີ່ເຮັດວຽກຢູ່ອາດຢຸດເຮັດວຽກ."</string>
+    <!-- Mobile network settings screen, data enabling checkbox name -->
+    <string name="data_enabled">"ເປີດໃຊ້ເດຕາ"</string>
+    <!-- Mobile network settings screen, setting summary text when check box is not selected (explains what selecting it would do) [CHAR LIMITS=40] -->
+    <string name="data_enable_summary">"​ອະ​ນຸ​ຍາດ​ໃຫ້​ໃຊ້​ຂໍ້​ມູນ"</string>
+    <!-- Mobile network settings screen, setting check box name -->
+    <string name="roaming">"ການໂຣມມິງຂໍ້ມູນ"</string>
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="roaming_enable">"ເຊື່ອມຕໍ່ບໍລິການຂໍ້ມູນເມື່ອໂຣມມິງ"</string>
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="roaming_disable">"ເຊື່ອມຕໍ່ບໍລິການຂໍ້ມູນເມື່ອໂຣມມິງ"</string>
+    <!-- Mobile network settings UI: notification message shown when you
+         lose data connectivity because you're roaming and you have the
+         "data roaming" feature turned off. -->
+    <string name="roaming_reenable_message">"ທ່ານໄດ້ຖືກຕັດການເຊື່ອມຕໍ່ຂໍ້ມູນ ເນື່ອງຈາກທ່ານອອກຈາກເຄືອຂ່າຍພາຍໃນ ໂດຍທີ່ປິດການໂຣມມິງໄວ້."</string>
+    <!-- Mobile network settings screen, dialog message when user selects the Data roaming check box -->
+    <string name="roaming_warning">"ທ່ານ​ອາດ​ຈະ​ເສຍ​ຄ່າ​ໃຊ້​ຈ່າຍ​ຫຼາຍ."</string>
+    <!-- Mobile network settings screen, dialog message title when user selects the Data roaming check box -->
+    <string name="roaming_alert_title">"ອະນຸຍາດໃຫ້ໂຣມມິງຂໍ້ມູນບໍ?"</string>
+    <string name=" hide_error_from_network_text">"ບໍ່ສາມາດດຳເນີນການຮ້ອງຂໍໄດ້"</string>
+    <string name="gsm_umts_options">"ໂຕເລືອກ GSM/UMTS"</string>
+    <string name="call_forward_option">"ຕົວເລືອກການໂອນສາຍ"</string>
+    <string name="cdma_options">"ໂຕເລືອກ CDMA"</string>
+    <string name="call_barring">"ຈຳກັດການໂທ"</string>
+    <string name="call_barring_outgoing">"ການໂທອອກຖືກຍົກເວັ້ນ"</string>
+    <string-array name="call_barring_outgoing_display_values">
+        <item>"ປິດ"</item>
+        <item>"ການໂທຂ້າມເຂດລະຫວ່າງປະເທດ"</item>
+        <item>"ໂທຕ່າງປະເທດ"</item>
+        <item>"ການໂທອອກ"</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_values">
+        <item><xliff:g>-1</xliff:g></item>
+        <item><xliff:g>2</xliff:g></item>
+        <item><xliff:g>1</xliff:g></item>
+        <item><xliff:g>0</xliff:g></item>
+    </string-array>
+    <string-array name="call_barring_incoming_display_values">
+        <item>"ປິດ"</item>
+        <item>"ການໃຊ້ງານຂ້າມເຂດ"</item>
+        <item>"ທັງໝົດ"</item>
+    </string-array>
+    <string name="call_barring_incoming">"ການຫ້າມສາຍເຂົ້າມາ"</string>
+    <string-array name="call_barring_incoming_values">
+        <item><xliff:g>-2</xliff:g></item>
+        <item><xliff:g>4</xliff:g></item>
+        <item><xliff:g>3</xliff:g></item>
+    </string-array>
+    <string name="input_password">"ລະຫັດປ້ອນຂໍ້ຄວາມ​​"</string>
+    <string name="labelCbCancelAll">"ຍົກເລີກການຈຳກັດການໂທ"</string>
+    <string name="psw_enter_old">"ລະຫັດເກົ່າ"</string>
+    <string name="labelCbChangePassword">"ປ່ຽນລະຫັດ"</string>
+    <string name="psw_enter_new">"ລະຫັດຜ່ານໃໝ່"</string>
+    <string name="invalidPsw">"ປ້ອນລະຫັດຜ່ານຂອງທ່ານ (4 - 8 ຕົວເລກ)"</string>
+    <string name="psw_reenter_new">"ໃສ່ລະຫັດຂອງທ່ານເຂົ້າໄປໃໝ່"</string>
+    <string name="no_call_barring">"ບໍ່ມີການຈຳກັດການໂທ"</string>
+    <string name="cb_psw_dont_match">"ລະຫັດຜ່ານບໍ່ກົງກັນ"</string>
+    <string name="operation_successfully">"ການດຳເນີນງານສຳເລັດແລ້ວ!"</string>
+    <!-- Screen option on the mobile network settings to go into data usage settings -->
+    <string name="throttle_data_usage">"ການນຳໃຊ້ຂໍ້ມູນ"</string>
+    <!-- Data usage settings screen option for checking the current usage -->
+    <string name="throttle_current_usage">"ຂໍ້ມູນທີ່ໃຊ້ໃນໄລຍະເວລາປັດຈຸບັນ"</string>
+    <!-- Data usage settings screen option for time frame-->
+    <string name="throttle_time_frame">"ໄລຍະເວລາການໃຊ້ຂໍ້ມູນ"</string>
+    <!-- Data usage settings screen option for throttling rate-->
+    <string name="throttle_rate">"ນະໂຍບາຍອັດຕາການໃຊ້ຂໍ້ມູນ"</string>
+    <!-- Data usage settings screen option for accessing the carrier website-->
+    <string name="throttle_help">"ສຶກສາເພີ່ມເຕີມ"</string>
+    <string name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) ຈາກ <xliff:g id="USED_2">%3$s</xliff:g> ໄລຍະສູງສຸດ\nໄລຍະຕໍ່ໄປຈະເລີ່ມໃນອີກ <xliff:g id="USED_3">%4$d</xliff:g> ມື້ (<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) ຈາກ <xliff:g id="USED_2">%3$s</xliff:g> ໄລຍະເວລາສູງສຸດ"</string>
+    <string name="throttle_data_rate_reduced_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> ເກີນຂີດຈຳກັດ\nອັດຕາຂໍ້ມູນຖືກຫຼຸດລົງເປັນ <xliff:g id="USED_1">%2$d</xliff:g> Kb/s"</string>
+    <string name="throttle_time_frame_subtext">"<xliff:g id="USED_0">%1$d</xliff:g>\u066A ຂອງຮອບຜ່ານໄປ\nໄລຍະຕໍ່ໄປຈະເລີ່ມໃນອີກ <xliff:g id="USED_1">%2$d</xliff:g> ມື້ (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+    <string name="throttle_rate_subtext">"ອັດຕາຂໍ້ມູນຖືກຫຼຸດລົງເປັນ <xliff:g id="USED">%1$d</xliff:g> Kb/s ຫາກໃຊ້ເກີນປະລິມານທີ່ຈຳກັດໄວ້"</string>
+    <string name="throttle_help_subtext">"ຂໍ້ມູນ​ເພີ່ມເຕີມກ່ຽວກັບ​ນະໂຍບາຍການ​ໃຊ້​ຂໍ້ມູນເຄືອຂ່າຍມືຖື​ຂອງຜູ່ໃຫ້​ບໍລິການ​ຂອງທ່ານ"</string>
+    <string name="cell_broadcast_sms">"ຂໍ້ຄວາມ SMS ຈາກເຄືອຂ່າຍ"</string>
+    <string name="enable_disable_cell_bc_sms">"ຂໍ້ຄວາມ SMS ຈາກເຄືອຂ່າຍ"</string>
+    <string name="cell_bc_sms_enable">"ເປີດຂໍ້ຄວາມ SMS ຈາກເຄືອຂ່າຍແລ້ວ"</string>
+    <string name="cell_bc_sms_disable">"ປິດຂໍ້ຄວາມ SMS ຈາກເຄືອຂ່າຍແລ້ວ"</string>
+    <string name="cb_sms_settings">"ການຕັ້ງຄ່າຂໍ້ຄວາມ SMS ຈາກເຄືອຂ່າຍ"</string>
+    <string name="enable_disable_emergency_broadcast">"ການຈາຍຂໍ້ມູນສຸກເສີນ"</string>
+    <string name="emergency_broadcast_enable">"ເປີດການຈາຍຂໍ້ມູນສຸກເສີນແລ້ວ"</string>
+    <string name="emergency_broadcast_disable">"ປິດການຈາຍຂໍ້ມູນສຸກເສີນແລ້ວ"</string>
+    <string name="enable_disable_administrative">"ການເບິ່ງແຍງລະບົບ"</string>
+    <string name="administrative_enable">"ເປີດການນຳໃຊ້ຜູ່ເບິ່ງແຍງລະບົບ"</string>
+    <string name="administrative_disable">"ປິດການນຳໃຊ້ຜູ່ເບິ່ງແຍງລະບົບ"</string>
+    <string name="enable_disable_maintenance">"ການບໍາ​ລຸງ​ຮັກ​ສາ"</string>
+    <string name="maintenance_enable">"ເປີດການບຳລຸງຮັກສາແລ້ວ"</string>
+    <string name="maintenance_disable">"ປິດການບຳລຸງຮັກສາແລ້ວ"</string>
+    <string name="general_news_settings">"ຂ່າວ​ທົ່ວ​ໄປ"</string>
+    <string name="bf_news_settings">"ຂ່າວທຸລະກິດ ແລະການເງິນ"</string>
+    <string name="sports_news_settings">"ຂ່າວກິລາ"</string>
+    <string name="entertainment_news_settings">"ຂ່າວ​ບັນ​ເທີງ"</string>
+    <string name="enable_disable_local">"ທ້ອງຖິ່ນ"</string>
+    <string name="local_enable">"ເປີດຂ່າວທ້ອງຖິ່ນແລ້ວ"</string>
+    <string name="local_disable">"ປິດຂ່າວທ້ອງຖິ່ນແລ້ວ"</string>
+    <string name="enable_disable_regional">"ລະດັບພາກພື້ນ"</string>
+    <string name="regional_enable">"ເປີດຂ່າວພາກພື້ນແລ້ວ"</string>
+    <string name="regional_disable">"ປິດຂ່າວພາກພື້ນແລ້ວ"</string>
+    <string name="enable_disable_national">"ພາຍໃນປະເທດ"</string>
+    <string name="national_enable">"ເປີດໃຊ້ຂ່າວພາຍໃນປະເທດແລ້ວ"</string>
+    <string name="national_disable">"ປິດໃຊ້ຂ່າວພາຍໃນປະເທດແລ້ວ"</string>
+    <string name="enable_disable_international">"ສາກົນ"</string>
+    <string name="international_enable">"ເປີດໃຊ້ຂ່າວສາກົນແລ້ວ"</string>
+    <string name="international_disable">"ປິດໃຊ້ຂ່າວສາກົນແລ້ວ"</string>
+    <string name="list_language_title">"ພາສາ"</string>
+    <string name="list_language_summary">"ເລືອກພາສາສຳລັບຂ່າວ"</string>
+    <string-array name="list_language_entries">
+        <item>"ພາສາ​ອັງກິດ"</item>
+        <item>"ຝຣັ່ງ"</item>
+        <item>"ສະແປນນິຊ"</item>
+        <item>"ຍີ່ປຸ່ນ"</item>
+        <item>"ເກົາຫຼີ"</item>
+        <item>"ຈີນ"</item>
+        <item>"ຮີບຣິວ"</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">"ພາ​ສາ"</string>
+    <string name="enable_disable_local_weather">"ສະພາບອາກາດໃນທ້ອງຖິ່ນ"</string>
+    <string name="local_weather_enable">"ເປີດສະພາບອາກາດທ້ອງຖິ່ນແລ້ວ"</string>
+    <string name="local_weather_disable">"ປິດສະພາບອາກາດທ້ອງຖິ່ນແລ້ວ"</string>
+    <string name="enable_disable_atr">"ລາຍງານການຈະລາຈອນໃນພື້ນທີ່"</string>
+    <string name="atr_enable">"ເປີດການລາຍງານຈະລາຈອນໃນພື້ນທີ່ແລ້ວ"</string>
+    <string name="atr_disable">"ປິດການລາຍງານຈະລາຈອນໃນພື້ນທີ່ແລ້ວ"</string>
+    <string name="enable_disable_lafs">"ຕາຕາລາງຖ້ຽວບິນຂອງສະໜາມບິນທ້ອງຖິ່ນ"</string>
+    <string name="lafs_enable">"ເປີດການນຳໃຊ້ຕາຕາລາງຖ້ຽວບິນ ໃນສະໜາມບິນທ້ອງຖິ່ນແລ້ວ"</string>
+    <string name="lafs_disable">"ປິດການນຳໃຊ້ຕາຕາລາງຖ້ຽວບິນ ໃນສະໜາມບິນທ້ອງຖິ່ນແລ້ວ"</string>
+    <string name="enable_disable_restaurants">"ຮ້ານ​ອາ​ຫານ"</string>
+    <string name="restaurants_enable">"ເປີດໃຊ້ຮ້ານອາຫານແລ້ວ"</string>
+    <string name="restaurants_disable">"ປິດໃຊ້ຮ້ານອາຫານແລ້ວ"</string>
+    <string name="enable_disable_lodgings">"ທີ່ພັກ"</string>
+    <string name="lodgings_enable">"ເປີດການນຳໃຊ້ບ່ອນພັກແລ້ວ"</string>
+    <string name="lodgings_disable">"ປິດການນຳໃຊ້ບ່ອນພັກແລ້ວ"</string>
+    <string name="enable_disable_retail_directory">"ສາ​ລະ​ບົບ​ຍ່ອຍ"</string>
+    <string name="retail_directory_enable">"ເປີດໃຊ້ສາ​ລະ​ບົບ​ຍ່ອຍ​ແລ້ວ"</string>
+    <string name="retail_directory_disable">"ປິດໃຊ້ສາ​ລະ​ບົບ​ຍ່ອຍ​ແລ້ວ"</string>
+    <string name="enable_disable_advertisements">"ໂຄ​ສະ​ນາ"</string>
+    <string name="advertisements_enable">"ເປີດການໂຄສະນາແລ້ວ"</string>
+    <string name="advertisements_disable">"ປິດການໂຄສະນາແລ້ວ"</string>
+    <string name="enable_disable_stock_quotes">"ລາຄາຮຸ້ນ"</string>
+    <string name="stock_quotes_enable">"ເປີດການໃຊ້ລາຄາຮຸ້ນແລ້ວ"</string>
+    <string name="stock_quotes_disable">"ປິດການໃຊ້ລາຄາຮຸ້ນແລ້ວ"</string>
+    <string name="enable_disable_eo">"ໂອກາດການໄດ້ເຮັດວຽກ"</string>
+    <string name="eo_enable">"ເປິດໃຊ້ໂອກາດການໄດ້ເຮັດວຽກແລ້ວ"</string>
+    <string name="eo_disable">"ປິດໃຊ້ໂອກາດການໄດ້ເຮັດວຽກແລ້ວ"</string>
+    <string name="enable_disable_mhh">"ການແພດ, ສຸຂະພາບ ແລະໂຮງໝໍ"</string>
+    <string name="mhh_enable">"ເປີດໃຊ້ການແພດ, ສຸຂະພາບ ແລະໂຮງໝໍແລ້ວ"</string>
+    <string name="mhh_disable">"ປິດໃຊ້ການແພດ, ສຸຂະພາບ ແລະໂຮງໝໍແລ້ວ"</string>
+    <string name="enable_disable_technology_news">"ຂ່າວເທັກໂນໂລຢີ"</string>
+    <string name="technology_news_enable">"ເປີດໃຊ້ຂ່າວເທັກໂນໂລຢີແລ້ວ"</string>
+    <string name="technology_news_disable">"ປິດໃຊ້ຂ່າວເທັກໂນໂລຢີແລ້ວ"</string>
+    <string name="enable_disable_multi_category">"ຫຼາຍໝວດໝູ່"</string>
+    <string name="multi_category_enable">"ເປີດການນຳໃຊ້ຫຼາຍໝວດໝູ່ແລ້ວ"</string>
+    <string name="multi_category_disable">"ປິດການນຳໃຊ້ຫຼາຍໝວດໝູ່ແລ້ວ"</string>
+    <string name="network_lte">"LTE (ແນະ​ນໍາ​)"</string>
+    <string name="network_4G">"4G (ແນະ​ນໍາ​)"</string>
+    <string name="network_global">"ທົ່ວໂລກ"</string>
+    <string name="network_tdscdma">"TDSCDMA ເທົ່າ​ນັ້ນ"</string>
+    <!-- CDMA System select strings -->
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="cdma_system_select_title">"ການເລືອກລະບົບ"</string>
+    <!-- Mobile network settings screen, setting summary text -->
+    <string name="cdma_system_select_summary">"ປ່ຽນຮູບແບບການໂຣມມິງ CDMA"</string>
+    <!-- System select settings screen title -->
+    <string name="cdma_system_select_dialogtitle">"ການເລືອກລະບົບ"</string>
+    <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
+        <item>"ໂທຫາເບີເທົ່ານັ້ນ"</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
+        <item>"ອັດ​ຕະ​ໂນ​ມັດ"</item>
+    </string-array>
+    <string name="cdma_subscription_title">"ການລົງທະບຽນຮັບຂໍ້ມູນ CDMA"</string>
+    <string name="cdma_subscription_summary">"ປ່ຽນລະຫັດວ່າ RUIM/SIM ແລະ NV"</string>
+    <string name="cdma_subscription_dialogtitle">"ການລົງທະບຽນຮັບຂໍ້ມູນ"</string>
+    <string-array name="cdma_subscription_choices">
+        <item>"RUIM/SIM"</item>
+        <item>"NV"</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    <!-- Preference title with which users can activate CDMA network [CHAR LIMIT=30] -->
+    <string name="cdma_activate_device">"ເປີດນຳໃຊ້ອຸປະກອນ"</string>
+    <!-- Preference title for launching an account manager page for prepaid LTE [CHAR LIMIT=30] -->
+    <string name="cdma_lte_data_service">"ຕັ້ງຄ່າບໍລິການຂໍ້ມູນ"</string>
+    <!-- A menu item in "Mobile network settings" that allows the user to update the phone
+         with mobile operator specific settings. [CHAR LIMIT=25] -->
+    <string name="carrier_settings_title">"ການຕັ້ງຄ່າຜູ່ໃຫ້ບໍລິການ"</string>
+    <!-- FDN settings strings -->
+    <!-- Label for "Fixed Dialing Number" settings in call settings. -->
+    <string name="fdn">"ໝາຍເລກຈຳກັດການໂທອອກ"</string>
+    <!-- Title for "Fixed Dialing Number" settings, with a label to identify the SIM the settings
+        apply to. -->
+    <string name="fdn_with_label">"ເບີ​ໂທ​ອອກ​ທີ່​ກຳ​ນົດ​ໄວ້ (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Call settings screen, button label that takes you to the Fixed Dialing Number management screen -->
+    <string name="manage_fdn_list">"ລາຍ​ຊື່ FDN"</string>
+    <!-- Title for settings screen to manage Fixed Dialing Number contacts, with a label to identify
+         the SIM the settings apply to. -->
+    <string name="fdn_list_with_label">"ລາຍ​ຊື່ FDN (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Call settings screen, preference item label -->
+    <string name="fdn_activation">"ການເປີດໃຊ້ FDN"</string>
+    <!-- Call settings setting option name when FDN is enabled -->
+    <string name="fdn_enabled">"ເປີດໃຊ້ໝາຍເລກຈຳກັດການໂທອອກແລ້ວ."</string>
+    <!-- Call settings setting option name  when FDN is disabled-->
+    <string name="fdn_disabled">"ປິດການໃຊ້ໝາຍເລກຈຳກັດການໂທອອກແລ້ວ"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="enable_fdn">"ເປີດນຳໃຊ້ FDN"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="disable_fdn">"ປິດການນຳໃຊ້ FDN"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="change_pin2">"ປ່ຽນລະຫັດ PIN2"</string>
+    <!-- Call settings screen, setting option name when FDN is enabled -->
+    <string name="enable_fdn_ok">"ປິດການໃຊ້ FDN"</string>
+    <!-- Call settings screen, setting option name when FDN is disabled -->
+    <string name="disable_fdn_ok">"ເປີດການນຳໃຊ້ FDN"</string>
+    <!-- Call settings screen, setting summary text -->
+    <string name="sum_fdn">"ຈັດການໝາຍເລກຈຳກັດການໂທອອກ"</string>
+    <!-- Call settings, FDN screen, setting option name -->
+    <string name="sum_fdn_change_pin">"ປ່ຽນ PIN ສຳລັບການເຂົ້າເຖິງ FDN"</string>
+    <!-- Call settings, FDN screen, setting option name -->
+    <string name="sum_fdn_manage_list">"ຈັດການລາຍຊື່ໝາຍເລກໂທລະສັບ"</string>
+    <!-- Voice privacy on CDMA is an added layer of voice encryption. Theoretically, it would be harder to break in to a phone call with this feature enabled. -->
+    <string name="voice_privacy">"ຄວາມເປັນສ່ວນໂຕໃນການໂທດ້ວຍສຽງ"</string>
+    <string name="voice_privacy_summary">"ເປີດໃຊ້ຮູບແບບຄວາມເປັນສ່ວນໂຕເພີ່ມເຕີມ"</string>
+    <string name="tty_mode_option_title">"ຮູບ​ແບບ TTY"</string>
+    <string name="tty_mode_option_summary">"ຕັ້ງຮູບ​ແບບ TTY"</string>
+    <string name="auto_retry_mode_title">"ລອງໃໝ່ອັດຕະໂນມັດ"</string>
+    <string name="auto_retry_mode_summary">"ເປີດໃຊ້ການລອງໃໝ່ອັດຕະໂນມັດ"</string>
+    <!-- TTY Mode change is NOT allowed during a video call -->
+    <string name="tty_mode_not_allowed_video_call">"ບໍ່​ອະ​ນຸ​ຍາດ​ໃຫ້​ປ່ຽນ​ໂໝດ TTY ຢູ່​ໃນ​ລະ​ຫວ່າງ​ການ​ໂທວິ​ດີ​ໂອ"</string>
+    <!-- FDN list screen: menu item label -->
+    <string name="menu_add">"ເພີ່ມລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <!-- FDN list screen: menu item label -->
+    <string name="menu_edit">"ແກ້ໄຂລາຍຊື່ຜູ້ຕິດຕໍ່"</string>
+    <!-- FDN list screen: menu item label -->
+    <string name="menu_delete">"ລຶບລາຍຊື່ຜູ້ຕິດຕໍ່"</string>
+    <!-- FDN related strings -->
+    <!-- Label for PIN2 entry screen -->
+    <string name="get_pin2">"ພິມລະຫັດ PIN2"</string>
+    <!-- "Edit FDN Contact" screen: Label for the "name" text field -->
+    <string name="name">"ຊື່"</string>
+    <!-- "Edit FDN Contact" screen: Label for the "number" text field -->
+    <string name="number">"ໝາຍເລກ"</string>
+    <!-- "Edit FDN Contact" screen: Button label for "save" action -->
+    <string name="save">"ບັນທຶກ"</string>
+    <!-- Title of "Edit FDN Contact" screen for a new contact -->
+    <string name="add_fdn_contact">"ເພີ່ມໝາຍເລກຈຳກັດການໂທ"</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="adding_fdn_contact">"ກຳລັງເພີ່ມໝາຍເລກຈຳກັດການໂທ..."</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="fdn_contact_added">"ເພີ່ມໝາຍເລກຈຳກັດການໂທອອກແລ້ວ."</string>
+    <!-- Title of "Edit FDN Contact" screen when editing an already-existing contact -->
+    <string name="edit_fdn_contact">"ແກ້ໄຂໝາຍເລກຈຳກັດການໂທ"</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="updating_fdn_contact">"ກຳລັງອັບເດດໝາຍເລກຈຳກັດການໂທອອກ..."</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="fdn_contact_updated">"ອັບເດດໝາຍເລກຈຳກັດການໂທອອກແລ້ວ."</string>
+    <!-- Title of "Delete FDN Contact" screen -->
+    <string name="delete_fdn_contact">"ລຶບເບີຈຳກັດການໂທອອກ"</string>
+    <!-- "Delete FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="deleting_fdn_contact">"ກຳລັງລຶບເບີໂທຈຳກັດການໂທອອກ..."</string>
+    <!-- "Delete FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="fdn_contact_deleted">"ລຶບໝາຍເລກຈຳກັດການໂທອອກແລ້ວ."</string>
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="pin2_invalid">"FDN ບໍ່ໄດ້ອັບເດດເທື່ອ ເນື່ອງຈາກທ່ານໃສ່ລະຫັດ PIN ບໍ່ຖືກຕ້ອງ."</string>
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="fdn_invalid_number">"FDN ບໍ່​ຖືກ​ອັບ​ເດດ ​ເພາະວ່າ​ໝາຍ​ເລກ​ຫວ່າງ​ເປົ່າ ຫຼື​ເກີນ 20 ຕົວ​ເລກ."</string>
+    <!-- FDN settings: error message displayed in a popup (toast), when the entered
+         FDN number was inappropriate, OR, PIN2 the user entered was incorrect.
+         Because of API restriction, there's no way to determine which is the exact
+         cause of the failure.
+         [CHAR LIMIT=NONE] -->
+    <string name="pin2_or_fdn_invalid">"FDN ບໍ່ໄດ້ອັບເດດເທື່ອ. ລະຫັດ PIN2 ບໍ່ຖືກຕ້ອງ ຫຼືເບີໂທລະສັບຖືກປະຕິເສດ."</string>
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="fdn_failed">"FDN ເຮັດວຽກລົ້ມເຫຼວ!"</string>
+    <string name="fdn_service_unavailable">"ການບໍລິການ FDN ບໍ່ມີໃຫ້ໃຊ້ງານ."</string>
+    <!-- ADN related strings -->
+    <!-- Placeholder text displayed while loading the list of SIM contacts -->
+    <string name="simContacts_emptyLoading">"ກຳລັງອ່ານຈາກ SIM card..."</string>
+    <!-- Title of the activity shown for Exporting contacts to SIM.  -->
+    <string name="exportContacts">"ກຳລັງສົ່ງອອກລາຍຊື່ຫາແຜ່ນ SIM\u2026"</string>
+    <!-- Call settings, string that appears on FDN contact list when there are no contacts on the SIM. -->
+    <string name="simContacts_empty">"ບໍ່ມີລາຍຊື່ຜູ່ຕິດຕໍ່ໃນ SIM card ຂອງທ່ານ."</string>
+    <!-- Appears when user tries to import contacts in SIM during airplane mode [CHAR LIMIT=NONE] -->
+    <string name="simContacts_airplaneMode">"ປິດໂໝດເຄື່ອງບິນເພື່ອນໍາເຂົ້າລາຍຊື່ຈາກແຜ່ນ SIM."</string>
+    <!-- Title of the List shown for SIM Contacts Management Activity.  -->
+    <string name="simContacts_title">"ເລືອກລາຍຊື່ເພື່ອນຳເຂົ້າ"</string>
+    <!-- Title of the dialog shown for SIM contact related operations. -->
+    <string name="Result_title">"ຜົນຮັບ..."</string>
+    <!-- SIM PIN strings -->
+    <!-- Title of "Enable/disable SIM PIN" screen -->
+    <string name="enable_pin">"ປິດ/ເປີດ ການນຳໃຊ້ PIN ຂອງ SIM"</string>
+    <!-- Title of "Change SIM PIN" screen -->
+    <string name="change_pin">"ປ່ຽນລະຫັດ PIN ຂອງ SIM"</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="enter_pin_text">"PIN ຂອງ SIM:"</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="oldPinLabel">"ລະຫັດ PIN ເກົ່າ"</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="newPinLabel">"ລະຫັດ PIN ໃໝ່"</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="confirmPinLabel">"ຢືນຢັນລະຫັດ PIN ໃໝ່"</string>
+    <!-- SIM PIN screen: error message -->
+    <string name="badPin">"ລະຫັດ PIN ເກົ່າທີ່ທ່ານພິມນັ້ນບໍ່ຖືກຕ້ອງ. ກະລຸນາລອງອີກຄັ້ງ."</string>
+    <!-- SIM PIN screen: error message -->
+    <string name="mismatchPin">"ລະຫັດ PIN ທີ່ທ່ານພິມນັ້ນບໍ່ກົງກັນ. ກະລຸນາລອງໃໝ່."</string>
+    <!-- SIM PIN screen: error message when PIN is too short or too long -->
+    <string name="invalidPin">"ພິມລະຫັດ PIN ທີ່ມີ 4 ຫາ 8 ໂຕເລກ."</string>
+    <!-- Title of "Disable SIM PIN" screen -->
+    <string name="disable_sim_pin">"ລຶບ SIM PIN"</string>
+    <!-- Title of "Enable SIM PIN" screen -->
+    <string name="enable_sim_pin">"ຕັ້ງ SIM PIN"</string>
+    <!-- SIM PIN screen: progress message displayed while enabling -->
+    <string name="enable_in_progress">"ກຳ​ລັງ​ຕັ້ງ PIN\u2026"</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="enable_pin_ok">"ຕັ້ງ PIN ແລ້ວ"</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="disable_pin_ok">"ລຶບ PIN ແລ້ວ"</string>
+    <!-- SIM PIN screen: error message displayed in a popup (toast) -->
+    <string name="pin_failed">"PIN ​ບໍ່​ຖືກ​ຕ້ອງ"</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="pin_changed">"ອັບ​ເດດ PIN ແລ້ວ"</string>
+    <!-- SIM PIN screen: error message displayed in a dialog -->
+    <string name="puk_requested">"ລະ​ຫັດ​ຜ່ານ​ບໍ່​ຖືກ​ຕ້ອງ. PIN ຖືກ​ລັອກ​ແລ້ວ​ດຽວ​ນີ້. ຂໍ PUK ແລ້ວ."</string>
+    <!-- SIM PIN2 strings -->
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="enter_pin2_text">"PIN2"</string>
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="oldPin2Label">"ລະຫັດ PIN2 ເກົ່າ"</string>
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="newPin2Label">"ລະຫັດ PIN2 ໃໝ່"</string>
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="confirmPin2Label">"ຢືນຢັນລະຫັດ PIN2 ໃໝ່"</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="badPuk2">"PUK2 ບໍ່​ຖືກ​ຕ້ອງ. ລອງ​ໃໝ່​ອີກ."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="badPin2">"PIN2 ເກົ່າ​ບໍ່​ຖືກ​ຕ້ອງ. ລອງ​ໃໝ່​ອີກ."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="mismatchPin2">"PIN2 ບໍ່​ກົງ​ກັນ. ລອງ​ໃໝ່​ອີກ."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="invalidPin2">"ປ້ອນ PIN2 ທີ່​ມີ 4 ຫາ 8 ຕົວ​ເລກ​ເຂົ້າ​ໄປ."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="invalidPuk2">"ປ້ອນ PUK2 ທີ່​ມີ 8 ຕົວ​ເລກ​ເຂົ້າ​ໄປ."</string>
+    <!-- SIM PIN2 screen: status message displayed in a popup (toast) -->
+    <string name="pin2_changed">"ອັບ​ເດດ PIN2 ແລ້ວ"</string>
+    <!-- SIM PIN2 screen: label for PUK2 entry widget -->
+    <string name="label_puk2_code">"ປ້ອນ​ລະ​ຫັດ PUK2 ເຂົ້າ​ໄປ"</string>
+    <!-- SIM PIN2 screen: error message displayed in a dialog -->
+    <string name="fdn_enable_puk2_requested">"ລະ​ຫັດ​ຜ່ານ​ບໍ່​ຖືກ​ຕ້ອງ. PIN2 ຖືກບ​ລັອກ​ແລ້ວ​ດຽວ​ນີ້. ລອງ​ໃໝ່​ອີກ, ປ່ຽນ PIN 2."</string>
+    <!-- SIM PIN2 screen: error message displayed in a dialog -->
+    <string name="puk2_requested">"ລະ​ຫັດ​ຜ່ານ​ບໍ່​ຖືກ​ຕ້ອງ​. SIM ຖືກ​ລັອກ​ແລ້ວ​ດຽວ​ນີ້​. ປ້ອນ PUK2 ເຂົ້າ​ໄປ​."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="puk2_blocked">"PUK2 ຖືກບລັອກຢ່າງຖາວອນແລ້ວ."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="pin2_attempts">"\nທ່ານ​ຍັງ​ພະ​ຍາ​ຍາມ​ໄດ້​ອີກ <xliff:g id="NUMBER">%d</xliff:g> ຄັ້ງ."</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="pin2_unblocked">"PIN2 ບໍ່​ຖືກ​ບ​ລັອກ​ອີກ"</string>
+    <!-- SIM PIN screen: error message shown in dialog when there is a network or sim error.
+         [CHAR LIMIT=NONE] -->
+    <string name="pin2_error_exception">"ເຄືອຂ່າຍ ຫຼື SIM card ຜິດພາດ"</string>
+    <!-- SIM PIN screen: button label -->
+    <string name="doneButton">"ແລ້ວໆ"</string>
+    <!-- Call settings screen, Set voicemail dialog title -->
+    <string name="voicemail_settings_number_label">"ເບີຂໍ້ຄວາມສຽງ"</string>
+    <!-- Card titles -->
+    <!-- In-call screen: status label for a call in the "dialing" state -->
+    <string name="card_title_dialing">"ກຳລັງໂທ"</string>
+    <!-- In-call screen: status label for a re-dialing call -->
+    <string name="card_title_redialing">"ກຳ​ລັງ​ໂທ​ຄືນ"</string>
+    <!-- In-call screen: status label for a conference call -->
+    <string name="card_title_conf_call">"ປະຊຸມສາຍ"</string>
+    <!-- In-call screen: status label for an incoming call -->
+    <string name="card_title_incoming_call">"ສາຍໂທເຂົ້າ"</string>
+    <!-- In-call screen: status label displayed briefly after a call ends -->
+    <string name="card_title_call_ended">"ວາງສາຍແລ້ວ"</string>
+    <!-- In-call screen: status label for call that's on hold -->
+    <string name="card_title_on_hold">"ພັກສາຍຊົ່ວຄາວ"</string>
+    <!-- In-call screen: status label for a call that's in the process of hanging up -->
+    <string name="card_title_hanging_up">"ກຳລັງວາງສາຍ"</string>
+    <!-- In-call screen: status label for a call that's in CDMA flash mode -->
+    <string name="card_title_in_call">"ກຳລັງໃຊ້ສາຍ"</string>
+    <!-- In-call screen: status label for Unconditional Call Forwarding enabled  -->
+    <string name="card_title_unconditionalCF">"ການໂອນສາຍແບບບໍ່ມີເງື່ອນໄຂຖືກເປີດໃຊ້ງານ"</string>
+    <!-- In-call screen: status label for Conditional Call Forwarding enabled  -->
+    <string name="card_title_conditionalCF">"ການໂອນສາຍແບບມີເງື່ອນໄຂຖືກເປີດໃຊ້ງານ"</string>
+    <!-- In-call screen: status label for a forwarded MO call  -->
+    <string name="card_title_MOcall_forwarding">"ສາຍໂທອອກທີ່ຖືກໂອນ"</string>
+    <!-- In-call screen: status label when Call waiting is enabled on remote party  -->
+    <string name="card_title_calliswaiting">"ການລໍສາຍ"</string>
+    <!-- In-call screen: status label for MO call, when the caller & callee both
+            belng to a CUG group -->
+    <string name="card_title_cugcall">"ການໂທ CUG"</string>
+    <!-- In-call screen: status label when MO calls are barred -->
+    <string name="card_title_outgoing_barred">"ສາຍໂທອອກຖືກຈຳກັດ"</string>
+    <!-- In-call screen: status label for MO calls, when incoming calls are barred
+            at remote party -->
+    <string name="card_title_incoming_barred">"ສາຍໂທເຂົ້າຖືກຈຳກັດ."</string>
+    <!-- In-call screen: status label for MO calls when CLIR Suppression is rejected -->
+    <string name="card_title_clir_suppression_rejected">"ການລະງັບ CLIR ຖືກປະຕິເສດ."</string>
+    <!-- In-call screen: status label when MO call gets deflected to another party -->
+    <string name="card_title_call_deflected">"ການໂທຖືກປ່ຽນທິດທາງ."</string>
+    <!-- In-call screen: status label for incoming call being forwarded to other remote party  -->
+    <string name="card_title_MTcall_forwarding">"ສາຍໂທເຂົ້າຖືກໂອນ"</string>
+    <!-- In-call screen: status label for incoming call forwarded from other remote party -->
+    <string name="card_title_forwarded_MTcall">"ສາຍໂທເຂົ້າທີ່ຖືກໂອນ"</string>
+    <!-- In-call screen: status label for incoming call which is answered & then put on hold  -->
+    <string name="card_title_callonhold">"ພັັກສາຍ"</string>
+    <!-- In-call screen: status label for incoming call put on hold & then retreived back -->
+    <string name="card_title_callretrieved">"ກູ້ການໂທຄືນແລ້ວ"</string>
+    <!-- In-call screen: status label for incoming call which is part of MultiParty Call -->
+    <string name="card_title_multipartycall">"ການໂທຫຼາຍຝ່າຍ"</string>
+    <!-- In-call screen: status label for incoming call which is answered,
+            put on hold & then released -->
+    <string name="card_title_callonhold_released">"ການໂທປົດປ່ອຍແລ້ວ"</string>
+    <!-- In-call screen: status label for incoming call forward check received -->
+    <string name="card_title_forwardcheckreceived">"ການກວດການໂອນສາຍໄດ້ຮັບແລ້ວ."</string>
+    <!-- In-call screen: status label for incoming call connecting through ECT -->
+    <string name="card_title_callconnectingect">"ການໂທກຳລັງເຊື່ອມຕໍ່ກັບ ECT"</string>
+    <!-- In-call screen: status label for incoming call connected through ECT -->
+    <string name="card_title_callconnectedect">"ການໂທໄດ້ເຊື່ອມຕໍ່ກັບ ECT ແລ້ວ"</string>
+    <!-- In-call screen: status label for incoming call is a deflected call -->
+    <string name="card_title_deflectedcall">"ການໂທທີ່ຖືກປ່ຽນທິດທາງ"</string>
+    <!-- Notification strings -->
+    <!-- Label for the "Voicemail" notification item, when expanded. -->
+    <string name="notification_voicemail_title">"ຂໍ້ຄວາມສຽງໃໝ່"</string>
+    <!-- Label for the expanded "Voicemail" notification item,
+         including a count of messages. -->
+    <string name="notification_voicemail_title_count">"ຂໍ້ຄວາມສຽງໃໝ່ (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <!-- Message displayed in the "Voicemail" notification item, allowing the user
+         to dial the indicated number. -->
+    <string name="notification_voicemail_text_format">"ໂທຫາ <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <!-- Message displayed in the "Voicemail" notification item,
+         indicating that there's no voicemail number available -->
+    <string name="notification_voicemail_no_vm_number">"ບໍ່ຮູ້ຈັກເບີຂໍ້ຄວາມສຽງ"</string>
+    <!-- Label for the "No service" notification item, when expanded. -->
+    <string name="notification_network_selection_title">"ບໍ່ມີບໍລິການ"</string>
+    <!-- Label for the expanded "No service" notification item, including the
+         operator name set by user -->
+    <string name="notification_network_selection_text">"ບໍ່ສາມາດໃຊ້ເຄືອຂ່າຍທີ່ເລືອກ (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) ໄດ້"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog. [CHAR_LIMIT=NONE] -->
+    <string name="incall_error_power_off">"ປິດໂໝດເຄື່ອງບິນເພື່ອເຮັດການໂທ."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog when in airplane mode, WFC is enabled, not wifi-only, and not connected to wireless networks. [CHAR_LIMIT=NONE] -->
+    <string name="incall_error_power_off_wfc">"ປິດໂໝດເຄື່ອງບິນ ຫຼືເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍໄຮ້ສາຍເພື່ອເຮັດການໂທ."</string>
+    <!-- In-call screen: call failure message displayed when the user attempts to make a non-emergency call while the phone is in emergency callback mode. -->
+    <string name="incall_error_ecm_emergency_only">"ອອກ​ຈາກໂໝດ​ໂທ​ກັບ​ສຸກ​ເສີນ ເພື່ອ​ເຮັດ​ການ​ໂທ​ປົກກະຕິ."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog.
+         This string is currently unused (see comments in InCallScreen.java.) -->
+    <string name="incall_error_emergency_only">"ບໍ່ໄດ້ລົງທະບຽນໃນເຄືອຂ່າຍ."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_out_of_service">"ບໍ່​ມີ​ເຄືອ​ຂ່າຍ​ມື​ຖື​ທີ່​ສາ​ມາດ​ໃຊ້​ໄດ້."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_out_of_service_wfc">"ເຄືອຂ່າຍເຊລລູລາບໍ່ພ້ອມໃຊ້ງານ. ໃຫ້ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍໄຮ້ສາຍເພື່ອເຮັດການໂທ."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_no_phone_number_supplied">"ເພື່ອ​ທີ່​ຈະ​ໂທ, ປ້ອນ​ເບີ​ໂທ​ທີ່​ໃຊ້​ໄດ້​ເຂົ້າ​ໄປ."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_call_failed">"ບໍ່​ສາ​ມາດ​ໂທ​ໄດ້."</string>
+    <!-- In-call screen: status message displayed in a dialog when starting an MMI -->
+    <string name="incall_status_dialed_mmi">"ກຳລັງເລີ່ມຕົ້ນລຳດັບ MMI..."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_unknown">"ການ​ບໍ​ລິ​ການ​ບໍ່​ຮອງ​ຮັບ"</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_switch">"ບໍ່​ສາ​ມາດ​ສະ​ຫຼັບ​ສາ​ຍ​ໂທ​ໄດ້."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_separate">"ບໍ່​ສາ​ມາດ​ແຍກ​ສາຍ​ໂທ​ໄດ້."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_transfer">"ບໍ່​ສາ​ມາດ​ໂອນ​ໄດ້."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_conference">"ບໍ່ສາມາດປະຊຸມສາຍໄດ້."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_reject">"ບໍ່​ສາ​ມາດ​ປະ​ຕິ​ເສດ​ສາຍ​ໂທ​ໄດ້."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_hangup">"ບໍ່​ສາ​ມາດ​ປ່ອຍ​ສາຍ​ໂທ​ໄດ້."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog when WFC is enabled, is wifi-only, and not connected to a wireless network. [CHAR_LIMIT=NONE] -->
+    <string name="incall_error_wfc_only_no_wireless_network">"ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍໄຮ້ສາຍເພື່ອເຮັດການໂທ."</string>
+    <!-- In-call screen: call failure message displayed in errror dialog -->
+    <string name="incall_error_local_low_battery">"ການໂທບໍ່ສຳເລັດເນື່ອງຈາກແບັດເຕີຣີຕໍ່າ!!!."</string>
+    <!-- In-call screen: call failure message displayed in errror dialog -->
+    <string name="incall_error_low_battery">"ການໂທບໍ່ສຳເລັດເນື່ອງຈາກແບັດເຕີຣີຂອງອຸປະກອນທາງໄກຕໍ່າ!!!."</string>
+    <!-- Dialog title for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_title">"ໂທສຸກເສີນ"</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_message">"ກຳລັງເປີດໃຊ້ວິທະຍຸ..."</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_retry">"ບໍ່​ມີ​ການ​ບໍ​ລິ​ການ. ກຳ​ລັງ​ລອງ​ໃໝ່​ອີກ\u2026"</string>
+    <!-- Dialer text on Emergency Dialer -->
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_error">"ບໍ່​ສາ​ມາດ​ໂທ​ໄດ້. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> ບໍ່​ແມ່ນ​ເບີ​ໂທ​ສຸກ​ເສີນ."</string>
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_empty_error">"ບໍ່​ສາ​ມາດ​ໂທ​ໄດ້. ກົດ​ເບີ​ໂທ​ສຸກ​ເສີນ."</string>
+    <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
+         to dial using the physical keyboard -->
+    <string name="dialerKeyboardHintText">"ໃຊ້ແປ້ນພິມເພື່ອກົດໂທ"</string>
+    <!-- Text for the onscreen "Hold" button -->
+    <string name="onscreenHoldText">"ພັກສາຍຊົ່ວຄາວ"</string>
+    <!-- Text for the onscreen "End call" button -->
+    <string name="onscreenEndCallText">"ວາງສາຍ"</string>
+    <!-- Text for the onscreen "Show Dialpad" button -->
+    <string name="onscreenShowDialpadText">"ແປ້ນໂທ"</string>
+    <!-- Text for the onscreen "Mute" button -->
+    <string name="onscreenMuteText">"ປິດສຽງ"</string>
+    <!-- Text for the onscreen "Add call" button -->
+    <string name="onscreenAddCallText">"ເພີ່ມການໂທ"</string>
+    <!-- Text for the onscreen "Merge calls" button -->
+    <string name="onscreenMergeCallsText">"ຮວມສາຍ"</string>
+    <!-- Text for the onscreen "Swap calls" button -->
+    <string name="onscreenSwapCallsText">"ສະລັບ"</string>
+    <!-- Text for the onscreen "Manage calls" button -->
+    <string name="onscreenManageCallsText">"ຈັດການການໂທ"</string>
+    <!-- Text for the onscreen "Manage conference" button [CHAR LIMIT=20] -->
+    <string name="onscreenManageConferenceText">"ຈັດການການປະຊຸມສາຍ"</string>
+    <!-- Text for the onscreen "Audio" button that lets you switch
+         between speaker / bluetooth / earpiece [CHAR LIMIT=10] -->
+    <string name="onscreenAudioText">"ສຽງ"</string>
+    <!-- Text for the onscreen "Video call" button used to change a voice call
+         to a video call. [CHAR LIMIT=10] -->
+    <string name="onscreenVideoCallText">"ໂທແບບເຫັນໜ້າ"</string>
+    <!-- Menu item label in SIM Contacts: Import a single contact entry from the SIM card -->
+    <string name="importSimEntry">"ນຳເຂົ້າ"</string>
+    <!-- Menu item label in SIM Contacts: Import all contact entries from the SIM card -->
+    <string name="importAllSimEntries">"ນຳເຂົ້າທັງໝົດ"</string>
+    <!-- SIM Contacts: status message displayed while importing card -->
+    <string name="importingSimContacts">"ກຳລັງນຳເຂົ້າລາຍຊື່ຜູ່ຕິດຕໍ່ຈາກ SIM"</string>
+    <!-- Import a single contact entry from contacts to the SIM card -->
+    <string name="importToFDNfromContacts">"ນຳເຂົ້າຈາກລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <!-- Hearing aid settings -->
+    <string name="hac_mode_title">"ການຊ່ວຍໄດ້ຍິນ"</string>
+    <string name="hac_mode_summary">"ເປີດໃຊ້ການຊ່ວຍໄດ້ຍິນ"</string>
+    <!-- Service option entries.  -->
+    <string-array name="tty_mode_entries">
+        <item>"TTY ປິດ"</item>
+        <item>"TTY ເຕັມ"</item>
+        <item>"TTY HCO"</item>
+        <item>"TTY VCO"</item>
+    </string-array>
+    <!-- Dtmf tones settings -->
+    <!-- Title for the DTMF Tones options displayed in Call Settings -->
+    <string name="dtmf_tones_title">"ໂທນສຽງ DTMF"</string>
+    <!-- Summary for the DTMF Tones options displayed in Call Settings -->
+    <string name="dtmf_tones_summary">"ຕັ້ງຄ່າຄວາມຍາວຂອງສຽງ DTMF"</string>
+    <!-- Options displayed as part of DTMF Tones in Call Settings -->
+    <string-array name="dtmf_tone_entries">
+      <item>"ປົກກະຕິ"</item>
+      <item>"ຍາວ"</item>
+    </string-array>
+    <!-- Title for the dialog used to display CDMA DisplayInfo -->
+    <string name="network_info_message">"ຂໍ້ຄວາມເຄືອຂ່າຍ"</string>
+    <!-- Title for the dialog used to display a network error message to the user -->
+    <string name="network_error_message">"ຂໍ້ຄວາມຜິດພາດ"</string>
+    <!-- Shown in "Managed Roaming" dialog when registration is denied with rejCode 10. -->
+    <string name="managed_roaming_title">"ຈັດການການໃຊ້ງານຂ້າມເຂດແລ້ວ"</string>
+    <string name="managed_roaming_title_sub">"ຈັດການການໃຊ້ງານຂ້າມເຂດ (SUB<xliff:g id="index" example="1">%d</xliff:g>)"</string>
+    <string name="managed_roaming_dialog_content">"ພົບເຄືອຂ່າຍທີ່ມີການບໍລິການຈໍາກັດ. ທ່ານຕ້ອງການລິເລີ່ມການຄົ້ນຫາເຄືອຂ່າຍບໍ?"</string>
+    <!-- OTA-specific strings -->
+    <!-- Title shown on OTA screen -->
+    <string name="ota_title_activate">"ເປີດນຳໃຊ້ໂທລະສັບຂອງທ່ານ"</string>
+    <!-- Message displayed on the OTA activation screen. -->
+    <string name="ota_touch_activate">"ຕ້ອງໃຊ້ການໂທພິເສດ ເພື່ອເປີດນຳໃຊ້ບໍລິການໂທລະສັບຂອງທ່ານ. \n\nຫຼັງຈາກກົດປຸ່ມ “ເປີດນຳໃຊ້” ແລ້ວ, ໃຫ້ຟັງຄຳແນະນຳທີ່ລະບຸເພື່ອເປີດນຳໃຊ້ໂທລະສັບຂອງທ່ານ."</string>
+    <!-- Title shown during Hands Free Activation -->
+    <string name="ota_hfa_activation_title">"ກຳລັງເປີດນຳໃຊ້..."</string>
+    <!-- Message shown during the hands free activation screen of the setup wizard. -->
+    <string name="ota_hfa_activation_dialog_message">"ໂທລະສັບກຳລັງເປີດນຳໃຊ້ບໍລິການຂໍ້ມູນມືຖືຂອງທ່ານ.\n\nຂັ້ນຕອນນີ້ອາດໃຊ້ເວລາເຖິງ 5 ນາທີ."</string>
+    <!-- Title of skip activation dialog -->
+    <string name="ota_skip_activation_dialog_title">"ຂ້າມການເປີດນຳໃຊ້?"</string>
+    <!-- Message displayed in skip activation dialog  -->
+    <string name="ota_skip_activation_dialog_message">"ຫາກທ່ານຂ້າມການເປີດນຳໃຊ້, ທ່ານຈະບໍ່ສາມາດໂທອອກ ຫຼືເຊື່ອມຕໍ່ເຄືອຂ່າຍຂໍ້ມູນມືຖືໄດ້ (ເຖິງແມ່ນວ່າ ທ່ານຈະສາມາດເຊື່ອມຕໍ່ຫາເຄືອຂ່າຍ Wi-Fi). ທ່ານຈະຖືກຖາມໃຫ້ເປີດນຳໃຊ້ທຸກຄັ້ງທີ່ທ່ານເປີດເຄື່ອງ, ຈົນກວ່າທ່ານຈະສຳເລັດຂັ້ນຕອນ ການເປີດນຳໃຊ້ໂທລະສັບຂອງທ່ານ."</string>
+    <!-- Label shown on dialog button that allows the user to skip activation -->
+    <string name="ota_skip_activation_dialog_skip_label">"ຂ້າມ"</string>
+    <!-- Button label within the OTA activation screen -->
+    <string name="ota_activate">"ເປີດນຳໃຊ້"</string>
+    <!-- Title text shown when phone activation is successful -->
+    <string name="ota_title_activate_success">"ໂທລະສັບຖືກເປີດນຳໃຊ້ແລ້ວ."</string>
+    <!-- Title text shown on screen where activation fails -->
+    <string name="ota_title_problem_with_activation">"ເກີດບັນຫາໃນການເປີດນຳໃຊ້"</string>
+    <!-- Message displayed on the OTA "listening" screen. This message
+         needs to be kept at 2 lines or less to be sure that there's
+         enough room for the dialpad. [CHAR LIMIT=80] -->
+    <string name="ota_listen">"ປະຕິບັດຕາມຄຳແນະນຳທີ່ໄດ້ຍິນ ຈົນກວ່າທ່ານໄດ້ຍິນວ່າຂັ້ນຕອນການເປີດນຳໃຊ້ສຳເລັດແລ້ວ."</string>
+    <!-- Button label within the OTA listen screen -->
+    <string name="ota_speaker">"ລຳໂພງ"</string>
+    <!-- String to be displayed on OTA listen screen once user has selected the
+         correct option to begin provisioning -->
+    <string name="ota_progress">"ກຳ​ລັງ​ຕັ້ງ​ໂປ​ຣ​ແກ​ຣມ​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ\u2026"</string>
+    <!-- String to display within the OTA Fail Notice dialog -->
+    <string name="ota_failure">"ບໍ່​ສາ​ມາດດ​ຕັ້ງ​ໂປ​ຣ​ແກ​ຣມ​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ​ໄດ້"</string>
+    <!-- String to be displayed on the OTA Fail/Success screen upon successful provisioning -->
+    <string name="ota_successful">"ຕອນນີ້ໂທລະສັບຂອງທ່ານຖືກເປີດນຳໃຊ້ແລ້ວ. ມັນອາດໃຊ້ເວລາເຖິງ 15 ນາທີເພື່ອໃຫ້ບໍລິການຕ່າງໆ ເລີ່ມເຮັດວຽກໄດ້."</string>
+    <!-- String to be displayed on the OTA Fail/Success screen upon unsuccessful provisioning -->
+    <string name="ota_unsuccessful">"ໂທລະສັບຂອງທ່ານຍັງບໍ່ໄດ້ເປີດນຳໃຊ້ເທື່ອ. \nທ່ານອາດຕ້ອງຊອກຫາບ່ອນທີ່ມີສັນຍານດີກວ່າ (ເຊັ່ນ: ໃກ້ປ່ອງຢ້ຽມ ຫຼືຢູ່ນອກຕຶກອາຄານ). \n\nລອງໃໝ່ອີກຄັ້ງ ຫຼືໂທຫາສູນບໍລິການສຳລັບທາງເລືອກເພີ່ມເຕີມ."</string>
+    <!-- String to display within the OTA SPC Fail Notice dialog -->
+    <string name="ota_spc_failure">"SPC ສ່ວນເກີນລົ້ມເຫລວ"</string>
+    <!-- Button label in OTA listen screen that cancels activation and goes to the previous screen -->
+    <string name="ota_call_end">"ກັບຄືນ"</string>
+    <!-- Button label shown on OTA error screen to allow the user to try again -->
+    <string name="ota_try_again">"ລອງອີກຄັ້ງ"</string>
+    <!-- Button label shown on OTA screens that have a next screen -->
+    <string name="ota_next">"ຕໍ່ໄປ"</string>
+    <!-- Emergency Callback Mode (ECM) -->
+    <string name="ecm_exit_dialog">EcmExitDialog</string>
+    <!-- ECM: Status bar notification message -->
+    <string name="phone_entered_ecm_text">"ເຂົ້າສູ່ໂໝດໂທກັບສຸກເສີນແລ້ວ"</string>
+    <!-- ECM: Notification title -->
+    <string name="phone_in_ecm_notification_title">"ໂໝດໂທກັບສຸກເສີນ"</string>
+    <!-- ECM: Notification body -->
+    <string name="phone_in_ecm_call_notification_text">"ປິດການເຊື່ອມຕໍ່ຂໍ້ມູນແລ້ວ"</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <!-- number of minutes is one -->
+        <item quantity="one">"ບໍ່ສາມາດໃຊ້ການເຊື່ອມຕໍ່ຂໍ້ມູນໄດ້ເປັນເວລາ <xliff:g id="COUNT">%s</xliff:g> ນາທີ"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"ບໍ່ສາມາດເຊື່ອມຕໍ່ຂໍ້ມູນໄດ້ເປັນເວລາ <xliff:g id="COUNT">%s</xliff:g> ນາທີ"</item>
+    </plurals>
+    <!-- ECM: Dialog box message for exiting from the notifications screen -->
+    <plurals name="alert_dialog_exit_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"ໂທລະສັບຈະຢູ່ໃນໂໝດການໂທກັບສຸກເສີນ ເປັນເວລາ <xliff:g id="COUNT">%s</xliff:g> ນາທີ. ໃນລະຫວ່າງທີ່ຢູ່ໃນໂໝດນີ້ ຈະບໍ່ມີແອັບຯໃດສາມາດໃຊ້ການເຊື່ອມຕໍ່ຂໍ້ມູນໄດ້. ທ່ານຕ້ອງການອອກດຽວນີ້ບໍ່?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"ໂທລະສັບຈະຢູ່ໃນໂໝດການໂທກັບສຸກເສີນ ເປັນເວລາ <xliff:g id="COUNT">%s</xliff:g> ນາທີ. ໃນລະຫວ່າງທີ່ຢູ່ໃນໂໝດນີ້ ຈະບໍ່ມີແອັບພລິເຄຊັນໃດສາມາດໃຊ້ການເຊື່ອມຕໍ່ຂໍ້ມູນໄດ້. ທ່ານຕ້ອງການອອກດຽວນີ້ບໍ່?"</item>
+    </plurals>
+    <!-- ECM: Dialog box message for exiting from any other app -->
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"ການດຳເນີນການທີ່ເລືອກ ບໍ່ສາມາດໃຊ້ໄດ້ໃນຂະນະທີ່ຢູ່ໃນໂໝດໂທກັບສຸກເສີນ. ໂທລະສັບຈະຢູ່ໃນໂໝດນີ້ອີກ <xliff:g id="COUNT">%s</xliff:g> ນາທີ. ທ່ານຕ້ອງການອອກດຽວນີ້ບໍ່?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"ການດຳເນີນການທີ່ເລືອກ ບໍ່ສາມາດໃຊ້ໄດ້ໃນຂະນະທີ່ຢູ່ໃນໂໝດໂທກັບສຸກເສີນ. ໂທລະສັບຈະຢູ່ໃນໂໝດນີ້ອີກ <xliff:g id="COUNT">%s</xliff:g> ນາທີ. ທ່ານຕ້ອງການອອກດຽວນີ້ບໍ່?"</item>
+    </plurals>
+    <!-- ECM: Dialog box message while in emergency call -->
+    <string name="alert_dialog_in_ecm_call">"ການດຳເນີນການທີ່ເລືອກ ບໍ່ສາມາດໃຊ້ໄດ້ໃນຂະນະທີ່ຢູ່ໃນການໂທສຸກເສີນ."</string>
+    <!-- ECM: Progress text -->
+    <string name="progress_dialog_exiting_ecm">"ກຳລັງອອກຈາກໂໝດໂທກັບສຸກເສີນ"</string>
+    <!-- ECM: ECM exit dialog choice -->
+    <string name="alert_dialog_yes">"ຕົກລົງ"</string>
+    <!-- ECM: ECM exit dialog choice -->
+    <string name="alert_dialog_no">"ບໍ່"</string>
+    <!-- ECM: ECM exit dialog choice -->
+    <string name="alert_dialog_dismiss">"ປິດໄວ້"</string>
+    <!-- Preference for Voicemail service provider under "Voicemail" settings.
+         [CHAR LIMIT=40] -->
+    <string name="voicemail_provider">"ບໍລິການ"</string>
+    <!-- Preference for Voicemail setting of each provider.
+         [CHAR LIMIT=40] -->
+    <string name="voicemail_settings">"ຕັ້ງຄ່າ"</string>
+    <!-- String to display in voicemail number summary when no voicemail num is set -->
+    <string name="voicemail_number_not_set">"&lt;ຍັງບໍ່ໄດ້ຕັ້ງ&gt;"</string>
+    <!-- Title displayed above settings coming after voicemail in the call features screen -->
+    <string name="other_settings">"ການຕັ້ງຄ່າການໂທອື່ນໆ"</string>
+    <!-- Title displayed in the overlay when a call is placed using a 3rd party provider.
+         [CHAR LIMIT=40] -->
+    <string name="calling_via_template">"ກຳລັງໂທຜ່ານ <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <!-- Use this as a default to describe the contact photo; currently for screen readers through accessibility. -->
+    <string name="contactPhoto">"ຮູບພາບລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <!-- Use this to describe the separate conference call button; currently for screen readers through accessibility. -->
+    <string name="goPrivate">"ໃຊ້ແບບສ່ວນໂຕ"</string>
+    <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
+    <string name="selectContact">"ເລືອກລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <!-- Dialog title to notify user that Voice calling is not supported
+         on this device. [CHAR LIMIT=40] -->
+    <string name="not_voice_capable">"ບໍ່ຮອງຮັບການໂທດ້ວຍສຽງ"</string>
+    <!-- String describing the Dial ImageButton
+         Used by AccessibilityService to announce the purpose of the button.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_dial_button">"ປຸ່ມໂທ"</string>
+    <!-- Title for the vibration settings for voicemail notifications [CHAR LIMIT=40] -->
+    <string name="voicemail_notification_vibrate_when_title" msgid="8731372580674292759">"ສັ່ນເຕືອນ"</string>
+    <!-- Dialog title for the vibration settings for voice mail notifications [CHAR LIMIT=40]-->
+    <string name="voicemail_notification_vibarte_when_dialog_title" msgid="8995274609647451109">"ສັ່ນເຕືອນ"</string>
+    <!-- Visual voicemail on/off title [CHAR LIMIT=40] -->
+    <string name="voicemail_visual_voicemail_switch_title">"ຂໍ້​ຄວາມ​ສຽງ​ປະ​ກອບ​ພາບ"</string>
+    <!-- Voicemail ringtone title. The user clicks on this preference to select
+         which sound to play when a voicemail notification is received.
+         [CHAR LIMIT=30] -->
+    <string name="voicemail_notification_ringtone_title">"ສຽງ"</string>
+    <!-- Title for the category "ringtone", which is shown above ringtone and vibration
+         related settings.
+         [CHAR LIMIT=30] -->
+    <string name="preference_category_ringtone">"ຣິງໂທນ &amp; ການສັ່ນເຕືອນ"</string>
+    <!-- String resource for the font-family to use for the call setting activity's title
+         Do not translate. -->
+    <string name="call_settings_title_font_family">sans-serif-light</string>
+    <!-- Label for PSTN connection service. -->
+    <string name="pstn_connection_service_label">"SIM ກາດ​ທີ່​ມາ​ກັບ​ເຄື່ອງ"</string>
+    <!-- Label for enabling video calling. -->
+    <string name="enable_video_calling_title">"​ເປີດ​ການ​ໂທ​ດ້ວຍ​ວິ​ດີ​ໂອ"</string>
+    <!-- Message for dialog shown when the user tries to turn on video calling but enhanced 4G LTE
+         is disabled. They have to turn on Enhanced 4G LTE capability in network settings first. -->
+    <string name="enable_video_calling_dialog_msg">"ເພື່ອ​ເປີດ​ການ​ໂທວິ​ດີ​ໂອ, ທ່ານ​ຕ້ອງ​ເປີດ​ໃຊ້​ງານ​ໂໝດ Enhanced 4G LTE​ ຢູ່​ໃນ​ການ​ຕັ້ງ​ຄ່າ​ເຄືອ​ຂ່າຍ."</string>
+    <!-- Label for action button in dialog which opens mobile network settings, for video calling
+         setting. -->
+    <string name="enable_video_calling_dialog_settings">"ການ​ຕັ້ງ​ຄ່າ​ເຄືອ​ຂ່າຍ"</string>
+    <!-- Label for close button in dialog, for video calling setting. -->
+    <string name="enable_video_calling_dialog_close">"ປິດ"</string>
+    <!-- Strings used in Settings->Sim cards for each installed Sim. -->
+    <string name="sim_label_emergency_calls">"ໂທສຸກເສີນ"</string>
+    <string name="sim_description_emergency_calls">"ໂທສຸກເສີນເທົ່ານັ້ນ"</string>
+    <string name="sim_description_default">"ແຜ່ນ SIM, ຊ່ອງ: <xliff:g id="slot_id">%s</xliff:g>"</string>
+    <!-- Title for activity to control accessibility settings such as TTY mode and hearing aid
+         compatability. [CHAR LIMIT=40] -->
+    <string name="accessibility_settings_activity_title">"​ການ​ຊ່ວຍ​ເຂົ້າ​ເຖິງ"</string>
+    <!-- Status hint label for an incoming call over a wifi network which has not been accepted yet.
+         [CHAR LIMIT=25] -->
+    <string name="status_hint_label_incoming_wifi_call">"ສາຍໂທເຂົ້າ Wi-Fi"</string>
+    <!-- Status hint label for a call being made over a wifi network. [CHAR LIMIT=25] -->
+    <string name="status_hint_label_wifi_call">"ການ​ໂທ Wi-Fi"</string>
+    <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
+    <string name="voicemail_notification_ringtone_key">voicemail_notification_ringtone_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
+    <string name="voicemail_notification_vibrate_key">voicemail_notification_vibrate_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for a visual voicemail preference. -->
+    <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for tty mode preference. -->
+    <string name="tty_mode_key">button_tty_mode_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
+    <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
+    <!-- Hint appearing below a selected action on the emergency dialer telling user to tap again to execute the action [CHAR LIMIT=NONE] -->
+    <string name="emergency_action_launch_hint">"​ແຕະ​ອີກ​ເທື່ອ​ນຶ່ງ​ເພື່ອ​ເປີດ"</string>
+    <!-- Strings for IMAP -->
+    <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
+       data was received.) [CHAR LIMIT=none] -->
+    <string name="message_decode_error">"ມີຂໍ້ຜິດພາດໃນລະຫວ່າງຖອດລະຫັດຂໍ້ຄວາມດັ່ງກ່າວ."</string>
+    <!-- Call failure reason: SIM card and roaming capabilities have already been activated. [CHAR LIMIT=NONE]-->
+    <string name="callFailed_cdma_activation">"ແຜ່ນ SIM ໄດ້ເປີດໃຊ້ງານການບໍລິການຂອງທ່ານ ແລະອັບເດດຄວາມສາມາດໃຊ້ງານຂ້າມເຂດຂອງໂທລະສັບຂອງທ່ານແລ້ວ."</string>
+    <!-- Sim contacts management -->
+    <string name="contactScreen">" ເພີ່ມ/ແກ້ໄຂລາຍຊື່ໃນ SIM"</string>
+    <string name="exportContactScreen">" ສົ່ງອອກລາຍຊື່ໃນໂທລະສັບໃສ່ແຜ່ນ sim "</string>
+    <string name="addSimEntries">" ເພີ່ມລາຍຊື່ລາຍໃນ SIM"</string>
+    <string name="deleteAllSimEntries">" ລຶບລາຍຊື່ທັງໝົດໃນ SIM"</string>
+    <string name="deleteSimContacts">"ກໍາລັງລຶບລາຍຊື່ໃນ SIM"</string>
+    <string name="editContact">" ແກ້ໄຂ"</string>
+    <string name="sendSms">" ສົ່ງ SMS"</string>
+    <string name="delete">" ລຶບ"</string>
+    <string name="dial">" ໂທອອກ"</string>
+    <string name="enterName">" ປ້ອນຊື່:"</string>
+    <string name="enterNumber">" ປ້ອນເບີໂທລະສັບ:"</string>
+    <string name="hintName">"ຊື່."</string>
+    <string name="hintPhonenumber">"ໝາຍເລກໂທລະສັບ."</string>
+    <string name="contactAddSuccess">" ເພີ່ມລາຍຊື່ໃສ່ SIM ສຳເລັດແລ້ວ "</string>
+    <string name="contactAddFailed">" ເພີ່ມລາຍ​ການໃສ່ SIM ບໍ່ສຳເລັດ !!!"</string>
+    <string name="contactUpdateSuccess">" ອັບເດດລາຍຊື່ໃນ SIM ສຳເລັດແລ້ວ "</string>
+    <string name="contactUpdateFailed">" ອັບເດດລາຍຊື່ໃນ SIM ບໍ່ສໍາເລັດ !!!"</string>
+    <string name="contactdeleteSuccess">" ລືຶບລາຍຊື່ອອກຈາກ SIM ສຳເລັດແລ້ວ "</string>
+    <string name="contactdeleteFailed">" ລຶບລາຍຊື່ອອກຈາກ SIM ບໍ່ສຳເລັດ !!!"</string>
+    <string name="allContactdeleteSuccess">" ລຶບລາຍຊື່ອອກຈາກ SIM ສຳເລັດແລ້ວ "</string>
+    <string name="allContactdeleteFailed">" ລຶບທຸກລາຍຊື່ອອກຈາກ SIM ບໍ່ສຳເລັດ !!!"</string>
+    <string name="exportAllcontatsSuccess">"ສົ່ງອອກທຸກລາຍຊື່ໃສ່ SIM ສຳເລັດແລ້ວ "</string>
+    <string name="exportAllcontatsFailed">" ສົ່ງອອກທຸກລາຍຊື່ໃສ່ SIM ບໍ່ສຳເລັດ !!!"</string>
+    <string name="exportAllcontatsNoContacts">" ບໍ່ພົບລາຍຊື່ໃດທີ່ຈະສົ່ງອອກໃສ່ SIM !!!"</string>
+    <string name="cursorError">" ເຄີເຊີບໍ່ມີຂໍ້ມູນທີ່ຖືກຕ້ອງ !!! "</string>
+     <!-- XDivert Settings -->
+     <!-- Title for the XDivert Feature displayed in Call Settings -->
+     <string name="xdivert_title">"X-Divert"</string>
+     <!-- Summary for the XDivert Feature displayed in Call Settings -->
+     <string name="xdivert_summary">"ການຕັ້ງຄ່າ CFNRc"</string>
+    <string name="CFActivate">"​ເປີດ​ໃຊ້​ງານ"</string>
+    <string name="CFDeactivate">"ປິດການໃຊ້ງານ"</string>
+    <string name="null_phone_number">"ເບີໂທລະສັບບໍ່ມີຕົວອັກສອນພິເສດ !"</string>
+    <string name="labelCFDeactAll">"ປິດໃຊ້ງານທັງໝົດ"</string>
+    <string name="srvcc_video_message">"ການໂທວິດີໂອໄດ້ຖືກປ່ຽນເປັນການໂທດ້ວຍສຽງ 2G/3G ເພາະວ່າເຄືອຂ່າຍ 4G ບໍ່ມີໃຫ້ໃຊ້ງານ."</string>
+    <string name="srvcc_message">"ການໂທດ້ວຍການເປີດໃຊ້ງານສຽງ 4G ໄດ້ຖືກປ່ຽນເປັນການໂທດ້ວຍສຽງ 2G/3G ເພາະວ່າເຄືອຂ່າຍ 4G ບໍ່ມີໃຫ້ໃຊ້ງານ."</string>
+    <string name="no_mobile_data">"ຂໍ້ມູນຂອງມືຖືບໍ່ສາມາດໃຊ້ໄດ້"</string>
+    <string name="no_mobile_data_roaming">"ບໍ່​ມີ​ການ​ໂຣມ​ມິງ​ຂໍ້​ມູນ​ຢູ່"</string>
+    <string name="sim_lock_with_limited_service_title">"ລັອກເຄືອຂ່າຍ"</string>
+    <string name="sim_lock_with_limited_service_desc">"ອຸ​ປະ​ກອນ​ນີ້​ສາ​ມາດ​ຖືກ​ປົດ​ລັອກ​ໄດ້​ໂດຍ​ທາງ​ໄກ ຖ້າ​ມີ​ສິດ​ໄດ້​ຮັບ. ກະ​ລຸ​ນາ​ໃຊ້​ແອັບ​ພ​ລິ​ເຄ​ຊັນ​ປົດ​ລັອກ​ອຸ​ປະ​ກອນ ເພື່ອ​ປົດ​ລັອກ​ອຸ​ປະ​ກອນ. ເບິ່ງ​ໃຫ້​ແນ່​ໃຈ​ວ່າ ອຸ​ປະ​ກອນ​ມີ​ການ​ເຊື່ອມ​ຕໍ່​ອິນ​ເຕີ​ເນັດ​ໄດ້​ແລ້ວ ເພື່ອ​ໃຊ້​ແອັບ​ພ​ລິ​ເຄ​ຊັນ​ປົດ​ລັອກ​ອຸ​ປະ​ກອນ"</string></resources>

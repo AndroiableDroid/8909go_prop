@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Application name -->
+    <string name="application_name">"Launcher၃"</string>
+    <!-- Accessibility-facing application name -->
+    <string name="home">"အိမ်"</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">"Android Core အက်ပ်"</string>
+    <!-- Default folder name -->
+    <string name="folder_name"></string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
+    <string name="activity_not_found">"အက်ပ် တွင် ထည့်မရပါ။"</string>
+    <!-- SafeMode shortcut error string -->
+    <string name="safemode_shortcut_error">"ဒေါင်းလုဒ် အက်ပ်ကို လုံခြုံရေး မုဒ်ထဲမှာ ပိတ်ထား"</string>
+    <!--  Labels for the tabs in the customize drawer -->
+    <string name="widgets_tab_label">"ကိရိယာအသေးများ"</string>
+    <string name="widget_adder">"ကိရိယာအသေးများ"</string>
+    <string name="toggle_weight_watcher">"Mem ကိုပြရန်"</string>
+    <!-- AppsCustomize pane -->
+    <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
+    <string name="long_press_widget_to_add">"ထိပါ &amp; ၀စ်ဂျက်စ်ယူရန် ကိုင်ထားပါ။"</string>
+    <!-- Market button text.  The market button text is removed in Launcher.java
+         in the Phone UI. [CHAR LIMIT=32] -->
+    <string name="market">"ဆိုင်"</string>
+    <!-- The format string for the dimensions of a widget in the drawer -->
+    <!-- There is a special version of this format string for Farsi -->
+    <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
+    <!-- External-drop widget error string.  This is the error that is shown
+         when you drag and item into the homescreen and it is unable to fit,
+         or an error is encountered. [CHAR_LIMIT=50] -->
+    <string name="external_drop_widget_error">"ဤပင်မစခရင်တွင် အရာတ္ထုများကို လွှတ်မချနိုင်ပါ။"</string>
+    <!-- External-drop widget pick title.  This is shown as the title of the
+         dialog which allows you to pick which widgets to handle a particular
+         drop if there are multiple choices. [CHAR_LIMIT=35] -->
+    <string name="external_drop_widget_pick_title">"ဖန်တီးမှုပြုရန် ၀စ်ဂျက်စ်ကို ရွေးချယ်ပါ"</string>
+    <!-- Folders -->
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">"ဖိုင်အမည်"</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">"ဖိုင်အမည်ပြောင်းပါ"</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">"အိုကေ"</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">"ပယ်ဖျက်ပါ"</string>
+    <!-- Shortcuts -->
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item">"ပင်မစခရင် သို့ ထည့်မည်"</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">"အက်ပ်များ"</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcut
+s -->
+    <string name="group_shortcuts">"ရှော့ကတ် ကီးများ"</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all widgets/gadgets -->
+    <string name="group_widgets">"ကိရိယာအသေးများ"</string>
+    <!-- Error message when user has filled all their home screens -->
+    <string name="completely_out_of_space">"သင့် ပင်မစခရင်များတွင် နေရာထပ်မရှိတော့ပါ။"</string>
+    <!-- Error message when user has filled a home screen -->
+    <string name="out_of_space">"သင့် ပင်မစခရင်တွင် နေရာထပ်မရှိတော့ပါ။"</string>
+    <!-- Error message when user has filled the hotseat -->
+    <string name="hotseat_out_of_space">"အနှစ်သက်ဆုံးများ ထားရာတွင် နေရာလွတ် မကျန်တော့ပါ"</string>
+    <!-- Error message when user tries to drop an invalid item on the hotseat -->
+    <string name="invalid_hotseat_item">"ဤ၀စ်ဂျက်မှာ အနှစ်သက်ဆုံးအရာများထားရာနေရာ အတွက် ကြီးလွန်းနေပါသည်"</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">"\"<xliff:g id="name" example="Browser">%s</xliff:g>\" ရှော့ကတ်ကို ဖန်တီးပြီးဖြစ်သည်။"</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">"\"<xliff:g id="name" example="Browser">%s</xliff:g>\" ရှော့ကတ်ကို ဖယ်ရှားပြီးဖြစ်သည်။"</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">"\"<xliff:g id="name" example="Browser">%s</xliff:g>\" ရှော့ကတ် ရှိနှင့်ပြီးသားဖြစ်သည်။"</string>
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">"ရှော့ကတ်ကို ရွေးပါ"</string>
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <string name="title_select_application">"အက်ပ် ရွေးပါ"</string>
+    <!-- All applications label -->
+    <string name="all_apps_button_label">"အက်ပ်များ"</string>
+    <!-- Label for button in all applications label to go back home (to the workspace / desktop)
+         for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_home_button_label">"မူလနေရာ"</string>
+    <!-- Label for trash icon on workspace. Meant to communicate the idea of removing the
+         icon/widget from the home screen, but not permanently. [CHAR_LIMIT=30] -->
+    <string name="delete_zone_label_workspace">"ဖယ်ရှားပါ"</string>
+    <!-- Label for trash icon in All Apps. The icon/widget will become completely unavailable on the
+         device. [CHAR_LIMIT=30]-->
+    <string name="delete_zone_label_all_apps">"ပြန်ဖြုတ်ပါ"</string>
+    <!-- Label for delete drop target. [CHAR_LIMIT=30] -->
+    <string name="delete_target_label">"ဖယ်ရှားပါ"</string>
+    <!-- Label for uninstall drop target. [CHAR_LIMIT=30]-->
+    <string name="delete_target_uninstall_label">"ပြန်ဖြုတ်ခြင်း"</string>
+    <!-- Label for the info icon. [CHAR_LIMIT=30] -->
+    <string name="info_target_label">"အက်ပ် အချက်အလက်"</string>
+    <!-- Label for the rename drop target. [CHAR_LIMIT=30] -->
+    <string name="rename_target_label">"အမည်ပြန်ပေးပါ"</string>
+    <string name="rename_desc_label">"အတိုကောက်အမည် ပြောင်းရန်။ ။"</string>
+    <!-- Accessibility: Search button -->
+    <string name="accessibility_search_button">"ရှာဖွေပါ"</string>
+    <!-- Accessibility: Voice Search button -->
+    <string name="accessibility_voice_search_button">"အသံ ရှာဖွေမှု"</string>
+    <!-- Accessibility: AllApps button -->
+    <string name="accessibility_all_apps_button">"အက်ပ်များ"</string>
+    <!-- Accessibility: Delete button -->
+    <string name="accessibility_delete_button">"ဖယ်ရှားပါ"</string>
+    <!-- Label for trash icon in All Apps, when an updated system app is selected. The update will
+         be uninstalled. [CHAR_LIMIT=30] -->
+    <string name="delete_zone_label_all_apps_system_app">"အပ်ဒိတ် ပြန်ဖြုတ်မည်"</string>
+    <!--  Strings for the contextual action bar (CAB) in All Apps -->
+    <!-- Describes the button for uninstalling the currently selected application.
+         Text is not displayed, but provided for accessibility. [CHAR_LIMIT=none] -->
+    <string name="cab_menu_delete_app">"အက်ပ် ဖြုတ်ပါမည်"</string>
+    <!-- Describes the button for getting details/info about currently selected application.
+         Text is not displayed, but provided for accessibility. [CHAR_LIMIT=none] -->
+    <string name="cab_menu_app_info">"အက်ပ် အသေးစိတ်"</string>
+    <!-- Appears in the CAB when an app is selected in All Apps or Customize mode. [CHAR_LIMIT=50] -->
+    <string name="cab_app_selection_text">"အက်ပ် 1 ခု ရွေးထားပြီး"</string>
+    <!-- Appears in the CAB when a widget is selected in Customize mode. [CHAR_LIMIT=50] -->
+    <string name="cab_widget_selection_text">"ကိရိယာအသေး 1 ခု ရွေးချယ်ပြီး"</string>
+    <!-- Appears in the CAB when a folder is selected in Customize mode. [CHAR_LIMIT=50] -->
+    <string name="cab_folder_selection_text">"ဖိုင် 1 ခု ရွေးချယ်ပြီး"</string>
+    <!-- Appears in the CAB when a shortcut is selected in Customize mode. [CHAR_LIMIT=50] -->
+    <string name="cab_shortcut_selection_text">"ရှော့ကတ် 1 ခု ရွေးပြီး"</string>
+    <!-- Permissions: -->
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">"ရှော့ကတ်များ ထည့်မည်"</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">"အသုံးပြုသူမှ လုပ်ဆောင်ခြင်းမပါပဲ ရှော့ကတ်များကို ထည့်ရန်  အက်ပ် ကို ခွင့်ပြုပါ။"</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">"ရှော့ကတ်များကို ဖြုတ်ပါ"</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">"အသုံးပြုသူမှ လုပ်ဆောင်ခြင်းမပါပဲ ရှော့ကတ်များကို ဖယ်ရှားရန်  အက်ပ် ကို ခွင့်ပြုပါ။"</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">"မူလစာမျက်နှာဆက်တင်နှင့် ရှော့ကတ်များကို ဖတ်ပါ"</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">"ဆက်တင်များနှင့် မူလစာမျက်နှာရှိ ရှော့ကတ်များကိုဖတ်ရန် အက်ပ် ကို ခွင့်ပြုပါ။"</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">"မူလစာမျက်နှာ ဆက်တင်များနှင့် ရှော့ကတ်များကို ရေးပါ"</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">"မူလစာမျက်နှာရှိ ဆက်တင်များနှင့် ရှော့ကတ်များကို ပြောင်းရန် အက်ပ် ကို ခွင့်ပြုပါ။"</string>
+    <!-- Widgets: -->
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">"၀စ်ဂျက်စ်ကို တင်နေစဉ်တွင် ပြသနာရှိနေသည်"</string>
+    <!-- Text to show user in place of a gadget when it is not yet initialized. -->
+    <string name="gadget_setup_text">"တပ်ဆင်သည်"</string>
+    <!-- Text to inform the user that they can't uninstall a system application -->
+    <string name="uninstall_system_app_text">"ဤ အက်ပ် တွင် နည်းစနစ်ပိုင်းပိုင်းဆိုင်ရာဖြစ်၍ မဖြုတ်ပစ်နိုင်ပါ။"</string>
+    <!-- Title of the Android Dreams (screensaver) module -->
+    <string name="dream_name">"ရော့ကက်လောင်ချာ"</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">"အမည်မဲ့ ဖိုင်"</string>
+    <!-- Accessibility -->
+    <!-- The format string for Workspace descriptions [CHAR_LIMIT=none] -->
+    <string name="workspace_description_format">"ပင်မစခရင် %1$d"</string>
+    <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
+    <string name="default_scroll_format">"%2$d ၏ စာမျက်နှာ %1$d"</string>
+    <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
+    <string name="workspace_scroll_format">"%2$d ၏မူလ စခရင် %1$d"</string>
+    <!-- The format string for AppsCustomize Apps page scroll text [CHAR_LIMIT=none] -->
+    <string name="apps_customize_apps_scroll_format">"%2$d ၏အက်ပ် စာမျက်နှာ %1$d"</string>
+    <!-- The format string for AppsCustomize Apps page scroll text [CHAR_LIMIT=none] -->
+    <string name="apps_customize_widgets_scroll_format">"%2$d ၏ ၀စ်ဂျက်စ်စာမျက်နှာ %1$d"</string>
+    <!-- Clings -->
+    <!-- The title text for the workspace cling [CHAR_LIMIT=30] -->
+    <string name="first_run_cling_title">"ကြိုဆိုပါသည်"</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=60] -->
+    <string name="first_run_cling_description">"ကိုယ့်အိမ်ကိုယ့်ယာလို သဘောထားပါ"</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=60] -->
+    <string name="first_run_cling_custom_content_hint"></string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=60] -->
+    <string name="first_run_cling_search_bar_hint"></string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=60] -->
+    <string name="first_run_cling_create_screens_hint">"အက်ပ် နှင့် ဖိုဒါများအတွက် ဖန်သားပြင်မှာ ထပ်ထည့်ပါ"</string>
+    <!-- The title text for the migration cling [CHAR_LIMIT=30] -->
+    <string name="migration_cling_title">"အက်ပ်ပုံညွှန််းများကို ကူးယူပါ"</string>
+    <!-- The description of what migration does [CHAR_LIMIT=70] -->
+    <string name="migration_cling_description">"ပင်မစာမျက်နှာအဟောင်းမှ ပုံညွှန််းများ နှင့် ဖိုဒါများကို ယူလာပါမလား"</string>
+    <!-- The description of the button to migrate apps from another launcher [CHAR_LIMIT=30] -->
+    <string name="migration_cling_copy_apps">"COPY ICONS"</string>
+    <!-- The description of the button to use the default launcher layout [CHAR_LIMIT=30] -->
+    <string name="migration_cling_use_default">"START FRESH"</string>
+    <!-- The title text for the workspace cling [CHAR_LIMIT=30] -->
+    <string name="workspace_cling_title">"စနစ်တကျဖြစ်အောင် ပြုလုပ်ပါ"</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=70] -->
+    <string name="workspace_cling_move_item">"နောက်ခံကို ဖိကိုင်၍ နောက်ခံပုံ၊၀စ်ဂျက်များ၊ဆက်တင်များကို ထိန်းချုပ်ပါ"</string>
+    <!-- The title text for workspace longpress action [CHAR_LIMIT=40] -->
+    <string name="workspace_cling_longpress_title">"နောက်ခံပုံများ၊ အလှဆင်ဆော့ဖ်၀ဲများ၊ နှင့် ဆက်တင်များ"</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=70] -->
+    <string name="workspace_cling_longpress_description">"စိတ်ကြိုက်လုပ်ဆောင်ရန် နောက်ခံကို ထိ နှင့် ဖိထားပါ"</string>
+    <!-- The description of the button to dismiss the cling [CHAR_LIMIT=30] -->
+    <string name="workspace_cling_longpress_dismiss">"၄င်းကို ယူပါ"</string>
+    <!-- The title text for the Folder cling [CHAR_LIMIT=30] -->
+    <string name="folder_cling_title">"ဤမှာ ဖိုဒါတစ်ခုဖြစ်ပါသည်"</string>
+    <!-- The description of how to create a folder [CHAR_LIMIT=70] -->
+    <string name="folder_cling_create_folder">"ဤကဲ့သို့လုပ်ရန်အတွက်၊ အက်ပ်တစ်ခုကို ဖိကိုင်ပြီး နောက်တစ်ခုပေါ်သို့ ရွှေ့လိုက်ပါ"</string>
+    <!-- The text on the button to dismiss a cling [CHAR_LIMIT=30] -->
+    <string name="cling_dismiss">"အိုကေ"</string>
+    <!-- Error message on dummy custom cling layout [DO NOT TRANSLATE] -->
+    <string name="dummy_custom_cling_error_message">Error: custom workspace layout passed in but custom cling was not overwritten</string>
+    <add-resource type="string" name="default_folder_name"/>
+    <!-- Folder accessibility -->
+    <!-- The format string for when a folder is opened, speaks the dimensions -->
+    <string name="folder_opened">"ဖိုင်ဖွင့်ထားပါသည် <xliff:g id="width" example="5">%1$d</xliff:g> အားဖြင့် <xliff:g id="height" example="3">%2$d</xliff:g>"</string>
+    <!-- Instruction that clicking outside will close folder -->
+    <string name="folder_tap_to_close">"ဖိုင်နှင့် နီးစေရန် ထိလိုက်ပါ"</string>
+    <!-- Instruction that clicking outside will commit folder rename -->
+    <string name="folder_tap_to_rename">"အမည်ပြောင်းခြင်းကို မှတ်ထားရန် ထိလိုက်ပါ"</string>
+    <!-- Indication that folder closed -->
+    <string name="folder_closed">"ဖိုင်ပိတ်ထားသည်"</string>
+    <!-- Folder renamed format -->
+    <string name="folder_renamed">"ဖိုင်တွင် <xliff:g id="name" example="Games">%1$s</xliff:g> သို့ အမည်ပြောင်းသွားပါပြီ"</string>
+    <!-- Folder name format -->
+    <string name="folder_name_format">"ဖိုင်: <xliff:g id="name" example="Games">%1$s</xliff:g>"</string>
+    <!-- Debug-only activity name. [DO NOT TRANSLATE] -->
+    <string name="debug_memory_activity">* HPROF</string>
+    <!-- Strings for the customization mode -->
+    <!-- Text for widget add button -->
+    <string name="widget_button_text">"ကိရိယာအသေးများ"</string>
+    <!-- Text for wallpaper change button -->
+    <string name="wallpaper_button_text">"နောက်ခံပုံ"</string>
+    <!-- Text for settings button -->
+    <string name="settings_button_text">"ဆက်တင်များ"</string>
+    <!-- Text for manage apps button -->
+    <string name="manage_apps_button_text">"အက်ပ်များ"</string>
+    <!-- Text for add new workspace button -->
+    <string name="add_workspace_button_text">"မူလနေရာအသစ်"</string>
+    <string name="add_workspace_error">"မူလနေရာတွင် အတိုကောက် သို့ ဝီးဂျတ် မရှိပါ။"</string>
+    <!-- Label on an icon that references an uninstalled package, that is going to be installed at some point. [CHAR_LIMIT=15] -->
+    <string name="package_state_enqueued">"စောင့်နေသည်"</string>
+    <!-- Label on an icon that references an uninstalled package, that is currently being downloaded. [CHAR_LIMIT=15] -->
+    <string name="package_state_downloading">"ဒေါင်းလုဒ်ယူနေဆဲ"</string>
+    <!-- Label on an icon that references an uninstalled package, that is currently being installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_installing">"တပ်ဆင်နေ"</string>
+    <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">"အမည်မသိ"</string>
+    <!-- Label on an icon that references an uninstalled package, for which restore from market has failed. [CHAR_LIMIT=15] -->
+    <string name="package_state_error">"ပြန်မဖေါ်ခဲ့"</string>
+    <!-- Button for abandoned promises dialog, that removes all abandoned promise icons. -->
+    <string name="abandoned_clean_all">"အားလုံး ဖယ်ရှားရန်"</string>
+    <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
+    <string name="abandoned_clean_this">"ဖယ်ရှားပါ"</string>
+    <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+    <string name="abandoned_search">"ရှာဖွေပါ"</string>
+    <!-- Title for abandoned promise dialog. -->
+    <string name="abandoned_promises_title">"အက်ပ် မတပ်ဆင်ရသေးပါ"</string>
+    <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
+    The second "it" refers to the app. -->
+    <string name="abandoned_promise_explanation">"ဤအိုင်ကွန်အတွက် အက်ပ် အားမထည့်သွင်းထားပါ။ ၄င်းအား သင်ဖယ်ရှားနိုင် သို့မဟုတ် အက်ပ် ကိုရှာကာ ၄င်းကို ကိုယ်တိုင် ထည့်သွင်းနိုင်သည်။  "</string>
+    <string name="config_regional_customize_default_browser_title"></string>
+    <string name="can_not_input_rename">"မှားနေသောအမည်ကို မထည့်သွင်းပါနှင့်"</string></resources>

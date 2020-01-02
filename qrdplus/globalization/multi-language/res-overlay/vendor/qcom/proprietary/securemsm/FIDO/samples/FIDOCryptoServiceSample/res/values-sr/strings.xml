@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Подешавања"</string>
+    <string name="body_msg">"тестирање FidoCryptoService"</string>
+    <string name="load">"учитај"</string>
+    <string name="unload">"уклони"</string>
+    <string name="process">"Процес"</string>
+    <string name="start">"покрени"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"Повезивање FIDO услуге"</string>
+    <string name="unbindFido">"Развезивање FIDO услуге"</string>
+    <string name="setChallenge">"Подеси изазов"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Повежи потврду аутентичности"</string>
+    <string name="verifyUser">"Потврди корисника/Узми токен"</string>
+    <string name="GetInfo">"GetInfo"</string>
+    <string name="Register">"Региструј"</string>
+    <string name="Deregister">"Опозови регистрацију"</string>
+    <string name="OpenSettings">"OpenSettings"</string>
+    <string name="Sign">"Звук"</string>
+    <string name="MalformedRequest">"MalformedRequest"</string>
+    <string name="selectAuth">"Изаберите потврду аутентичности"</string>
+    <string name="getEnrollmentStatus">"Статус уписивања"</string>
+    <string name="RegisterExt">"Региструј се са проширењима"</string>
+    <string name="SignExt">"Пријави се са проширењима"</string>
+    <string name="encResult">"Капсулирани резултат"</string>
+    <string name="extResult">"Подаци проширења"</string>
+    <string name="selectFidoOpText">"изабери FIDO операцију"</string>
+    <string name="show_message_sui">"прикажи sui поруке"</string>
+    <string name="fido_sui_service">"fido Sui услуга"</string>
+    <string name="bindFidoSui">"повежи fido sui"</string>
+    <string name="unbindFidoSui">"развежи fido sui"</string>
+    <string name="suiResultTitle">"прикажи резултат sui поруке"</string>
+    <string name="cancel_sui">"откажи sui"</string>
+    <string name="extensionText">"Користи проширења?"</string>
+    <string name="pngText">"Користи PNG садржај?"</string>
+    <string name="fpText">"Безбедан отисак прста"</string>
+    <string-array name="authenticator_array">
+        <item>"Лажна потврда аутентичности"</item>
+        <item>"Пример потврде аутентич."</item>
+        <item>"Пример безбед. потврде аутентич."</item>
+        <item>"Ауторизатор узорка проширења"</item>
+        <item>"Ауторизатор узорка проширења"</item>
+        <item>"Аут. ваљаности уређаја"</item>
+        <item>"Ауторизатор безбедног узорка IАут2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Прибави информације"</item>
+        <item>"Региструј"</item>
+        <item>"Опозови регистрацију"</item>
+        <item>"Отвори подешавања"</item>
+        <item>"Погрешан изузетак"</item>
+        <item>"Пријава (Аут)"</item>
+        <item>"Пријава (TX)"</item>
+    </string-array></resources>

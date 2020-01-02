@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+  ~ Copyright (c) 2015, The Linux Foundation. All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are
+  ~ met:
+  ~      Redistributions of source code must retain the above copyright
+  ~       notice, this list of conditions and the following disclaimer.
+  ~      Redistributions in binary form must reproduce the above
+  ~       copyright notice, this list of conditions and the following
+  ~       disclaimer in the documentation and/or other materials provided
+  ~       with the distribution.
+  ~      Neither the name of The Linux Foundation nor the names of its
+  ~       contributors may be used to endorse or promote products derived
+  ~       from this software without specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+  ~ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  ~ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+  ~ ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+  ~ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  ~ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  ~ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+  ~ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+  ~ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  ~ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  ~
+  -->
+<!-- The xml contains Qti specific resource strings neede for any value added features. -->
+<resources>
+    <!-- Call substate label -->
+    <string name="call_substate_label">" Substatus panggilan - \u000a"</string>
+    <!-- Call substate label for call resumed -->
+    <string name="call_substate_call_resumed">"Dilanjutkan\u000a"</string>
+    <!-- Call substate label for call connected suspended (audio) -->
+    <string name="call_substate_connected_suspended_audio">"Hubungan Tertunda (Audio) \u000a"</string>
+    <!-- Call substate label for call connected suspended (video) -->
+    <string name="call_substate_connected_suspended_video">"Hubungan Tertunda (Video)\u000a"</string>
+    <!-- Call substate label for avp retry -->
+    <string name="call_substate_avp_retry">"Coba Lagi Avp\u000a"</string>
+    <!-- Video quality changed message -->
+    <string name="video_quality_changed">" Kualitas video diubah ke \u0020"</string>
+    <!-- Video quality High -->
+    <string name="video_quality_high">"Tinggi"</string>
+    <!-- Video quality Medium -->
+    <string name="video_quality_medium">"Sedang"</string>
+    <!-- Video quality Low -->
+    <string name="video_quality_low">"Rendah"</string>
+    <!-- Video quality Unknown -->
+    <string name="video_quality_unknown">"Tidak diketahui"</string>
+    <!-- Message indicating that Video Started flowing for IMS-VT calls -->
+    <string name="player_started">"Pemain Memulai"</string>
+    <!-- Message indicating that Video Stopped flowing for IMS-VT calls -->
+    <string name="player_stopped">"Pemain Berhenti"</string>
+    <!-- Message indicating that camera failure has occurred for the selected camera and
+         as result camera is not ready -->
+    <string name="camera_not_ready">"Kamera belum siap"</string>
+    <!-- Message indicating that camera is ready/available -->
+    <string name="camera_ready">"Kamera siap"</string>
+    <!-- Message indicating unknown call session event -->
+    <string name="unknown_call_session_event">"Kejadian sesi panggilan tidak diketahui"</string>
+    <!-- Message indicating data usage -->
+    <string name="data_usage_label">"Penggunaan data : "</string>
+    <!-- Modify call error cause -->
+    <string name="modify_call_failed_due_to_low_battery">"Modifikasi panggilan gagal karena baterai lemah."</string>
+    <!-- Message indicating video calls not allowed if user enabled TTY Mode -->
+    <string name="video_call_not_allowed_if_tty_enabled">"Silakan nonaktifkan Mode TTY untuk memperbarui ke panggilan video."</string>
+    <!-- Text for the onscreen "Add Participant" button -->
+    <string name="onscreenAddParticipant">"Tambahkan peserta"</string>
+    <!-- Description of the deflect target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="qti_description_target_deflect">"Pengalihan"</string>
+    <string name="qti_description_deflect_error">"Nomor belum diset. Berikan nomor melalui setelan IMS dan ulangi."</string>
+    <string name="qti_description_deflect_service_error">"Layanan Pengalihan Panggilan tidak didukung."</string>
+    <!-- Message indicating call failed due to handover not feasible -->
+    <string name="call_failed_ho_not_feasible">"Panggilan sebagai LTE telah diakhiri dan pengalihan ke 3G/2G tidak dimungkinkan."</string>
+    <!-- Title of the IMS to CS redial dialog -->
+    <string name="cs_redial_option">"Opsi Panggil Ulang"</string>
+    <!-- Message text of the IMS to CS redial dialog -->
+    <string name="cs_redial_msg">"Tidak dapat melakukan Panggilan Video IMS, coba panggil sebagai panggilan suara non-IMS?"</string>
+    <!-- Yes option of the IMS to CS redial dialog -->
+    <string name="cs_redial_yes">"Ya"</string>
+    <!-- No option of the IMS to CS redial dialog -->
+    <string name="cs_redial_no">"Tidak"</string>
+    <!-- Session modify cause unspecified -->
+    <string name="session_modify_cause_unspecified"></string>
+    <!-- Session modify cause code upgrade local request -->
+    <string name="session_modify_cause_upgrade_local_request">"Panggilan ditingkatkan atas permintaan pengguna"</string>
+    <!-- Session modify cause code upgrade remote request -->
+    <string name="session_modify_cause_upgrade_remote_request">"Panggilan ditingkatkan atas permintaan pengguna jarak jauh"</string>
+    <!-- Session modify cause code downgrade local request -->
+    <string name="session_modify_cause_downgrade_local_request">"Panggilan diturunkan atas permintaan pengguna"</string>
+    <!-- Session modify cause code downgrade remote request -->
+    <string name="session_modify_cause_downgrade_remote_request">"Panggilan diturunkan atas permintaan pengguna jarak jauh"</string>
+    <!-- Session modify cause code downgrade rtp timeout -->
+    <string name="session_modify_cause_downgrade_rtp_timeout">"Panggilan diturunkan karena waktu RTP habis"</string>
+    <!-- Session modify cause code downgrade qos -->
+    <string name="session_modify_cause_downgrade_qos">"Panggilan diturunkan karena kualitas layanan"</string>
+    <!-- Session modify cause code downgrade packet loss -->
+    <string name="session_modify_cause_downgrade_packet_loss">"Panggilan diturunkan karena hilangnya paket"</string>
+    <!-- Session modify cause code downgrade low thrput -->
+    <string name="session_modify_cause_downgrade_low_thrput">"Panggilan diturunkan karena throughput rendah"</string>
+    <!-- Session modify cause code downgrade thermal mitigation -->
+    <string name="session_modify_cause_downgrade_thermal_mitigation">"Panggilan diturunkan karena mitigasi termal"</string>
+    <!-- Session modify cause code downgrade lipsync -->
+    <string name="session_modify_cause_downgrade_lipsync">"Panggilan diturunkan karena sinkronisasi gerak bibir tidak berfungsi"</string>
+    <!-- Session modify cause code downgrade generic error -->
+    <string name="session_modify_cause_downgrade_generic_error">"Panggilan diturunkan karena kesalahan generik"</string>
+    <!-- Title for low battery alert dialogue -->
+    <string name="low_battery">"Baterai Lemah"</string>
+    <!-- Yes option of the low battery alert dialog -->
+    <string name="low_battery_yes">"Ya"</string>
+    <!-- No option of the low battery alert dialog -->
+    <string name="low_battery_no">"Tidak"</string>
+    <!-- Message text of the low battery alert dialog in cases when video call can be downgraded to voice call -->
+    <string name="low_battery_downgrade_to_voice_msg">"Apakah Anda ingin mengubah panggilan video menjadi panggilan suara?"</string>
+    <!-- Message text of the low battery alert dialog in cases video call doesn't have downgrade capabilities -->
+    <string name="low_battery_hangup_msg">"Apakah Anda ingin mengakhiri panggilan?"</string>
+    <!-- Description of the call transfer related strings [CHAR LIMIT=NONE] -->
+    <string name="qti_ims_transfer_num_error">"Nomor belum diset. Berikan nomor melalui setelan IMS dan ulangi."</string>
+    <string name="qti_ims_transfer_request_error">"Permohonan Transfer Panggilan gagal."</string>
+    <string name="qti_ims_transfer_request_success">"Permohonan Transfer Panggilan berhasil."</string>
+    <!-- Text for the onscreen "blind transfer" button -->
+    <string name="qti_ims_onscreenBlindTransfer">"Transfer Tak Terjamin"</string>
+    <!-- Text for the onscreen "assured transfer" button -->
+    <string name="qti_ims_onscreenAssuredTransfer">"Transfer Terjamin"</string>
+    <!-- Text for the onscreen "consultative transfer" button -->
+    <string name="qti_ims_onscreenConsultativeTransfer">"Transfer Konsultatif"</string>
+    <!-- Text for operator specific emergency number -->
+    <add-resource type="string" name="emergency_call_dialog_number_for_display_operator"/>
+    <string name="emergency_call_dialog_number_for_display_operator">"Darurat"</string></resources>

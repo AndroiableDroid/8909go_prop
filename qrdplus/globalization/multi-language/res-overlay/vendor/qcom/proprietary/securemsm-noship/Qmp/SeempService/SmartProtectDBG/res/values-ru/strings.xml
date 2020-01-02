@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtectDBG"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"О приложении"</string>
+    <string name="title_trusted">"Доверенные приложения"</string>
+    <string name="title_about">"Сведения"</string>
+    <string name="title_settings">"Настройки"</string>
+    <string name="drawer_open_title">"Snapdragon Smart Protect"</string>
+<string name="service_status_on">"Вкл"</string>
+    <string name="service_status_off">"Отключено"</string>
+    <string name="err_title">"Ошибка приложения"</string>
+    <string name="err_msg_init">"Snapdragon Smart Protect не может инициализировать библиотеку QSSP. Остановка службы"</string>
+    <string name="err_msg_load_model">"Snapdragon Smart Protect не может загрузить модель. Остановка службы"</string>
+    <string name="err_msg_malicious_alert">"Snapdragon Smart Protect не может зарегистрировать оповещения о вредоносных действиях. Остановка службы"</string>
+    <string name="err_msg_benign_alert">"Snapdragon Smart Protect не может зарегистрировать оповещения о неопасных действиях. Остановка службы"</string>
+    <string name="err_msg_service_not_up">"Snapdragon Smart Protect больше не может найти службу."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© Qualcomm Technologies Inc, 2015."</string>
+    <string name="about_copyright_line2">"Все права защищены."</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ Smart Protect является продуктом компании Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Qualcomm и Snapdragon являются товарными знаками компании Qualcomm Incorporated, зарегистрированными в США и других странах, используемые с разрешения."</string>
+    <string name="btn_restore_default">"ВОССТАНОВИТЬ НАСТРОЙКИ ПО УМОЛЧАНИЮ"</string>
+    <string name="btn_clear_history">"ОЧИСТИТЬ ЖУРНАЛ SMART PROTECT"</string>
+    <string name="trusted_btn">"ДОБАВИТЬ В СПИСОК ДОВЕРЕННЫХ ПРИЛОЖЕНИЙ"</string>
+    <string name="uninstall_btn">"УДАЛИТЬ"</string>
+    <string name="details_btn">"СВЕДЕНИЯ"</string>
+    <string name="done_btn">"ГОТОВО"</string>
+    <string name="remove_trusted_btn">"УДАЛИТЬ ИЗ СПИСКА ДОВЕРЕННЫХ ПРИЛОЖЕНИЙ"</string>
+    <string name="uninstall_confirm_message">"Удалить приложение?"</string>
+    <string name="uninstall_success">"Пакет успешно удален"</string>
+    <string name="uninstall_failed">"Ошибка при удалении пакета"</string>
+    <string name="clear_history_done">"Журнал успешно очищен"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon Smart Protect"</string>
+    <string name="drawer_threats">"Обнаружены угрозы (%1$s)"</string>
+    <string name="drawer_threat_null">"Защита конфиденциальных данных и обнаружение вредоносных программ в режиме реального времени на устройстве"</string>
+    <string name="drawer_option_dashboard">"Панель"</string>
+    <string name="drawer_option_trusted_apps">"Доверенные приложения"</string>
+    <string name="drawer_option_settings">"Настройки"</string>
+    <string name="drawer_option_about">"Сведения"</string>
+    <string name="dashboard_list_title">"Выберите приложение, чтобы просмотреть информацию и рекомендации Snapdragon Smart Protect."</string>
+    <string name="dashboard_list_empty">"Нет отслеживаемых приложений."</string>
+    <string name="app_info_recommend">"Рекомендация:"</string>
+    <string name="app_info_version">"версия"</string>
+    <string name="app_uninstalled">"Приложение больше не установлено на устройстве. Нажмите кнопку \"ОК\" для выхода."</string>
+    <string name="malicious_item_threat">"Приложение Snapdragon Smart Protect обнаружило:"</string>
+    <string name="malicious_item_confidence">"Уровень конфиденциальности:"</string>
+    <string name="malicious_item_analysis">"Анализ"</string>
+    <string name="malicious_recommend">"Удалить"</string>
+    <string name="good_threat">"Угрозы не обнаружены."</string>
+    <string name="good_recommend">"Нажмите кнопку \"Готово\", чтобы приложение Snapdragon Smart Protect продолжало отслеживать это приложение."</string>
+    <string name="good_title">"Хороший"</string>
+    <string name="trusted_item_title">"Snapdragon Smart Protect не отслеживает активность приложения %1$s, так как оно находится в списке доверенных приложений.\n\nЕсли вы не уверены в безопасности этого приложения, удалите его из списка доверенных приложений."</string>
+    <string name="trusted_list_title">"Snapdragon Smart Protect не отслеживает приложения из этого списка."</string>
+    <string name="trusted_list_subtitle">"Если вы не уверены в безопасности этого приложения, удалите его из списка доверенных приложений."</string>
+    <string name="trusted_list_empty">"Нет приложений в списке доверенных приложений."</string>
+    <string name="trusted_list_empty_desc">"В связи с тем, что Snapdragon Smart Protect отслеживает все приложения, обеспечивается максимальная защита."</string>
+    <string name="trusted_confirm_message">"Добавить это приложение в список доверенных приложений?\n\nЕсли вы не уверены в безопасности этого приложения, нажмите кнопку \"Отмена\"."</string>
+    <string name="malicious_ntf_message">"Приложение Snapdragon Smart Protect обнаружило вредоносную активность в приложении %1$s."</string>
+    <string name="malicious_ntf_recommend">"Рекомендация: Удалить"</string>
+    <string name="malicious_dialog_title">"Вредоносная активность"</string>
+    <string name="malicious_text">"Вредоносная активность"</string>
+    <string name="malware_ntf_message">"Приложение Snapdragon Smart Protect обнаружило вредоносную программу в %1$s."</string>
+    <string name="malware_dialog_title">"Обнаружена вредоносная программа"</string>
+    <string name="malware_title">"Вредоносная программа"</string>
+    <string name="spyware_ntf_message">"Приложение Snapdragon Smart Protect обнаружило шпионскую программу в %1$s."</string>
+    <string name="spyware_dialog_title">"Обнаружена шпионская программа"</string>
+    <string name="spyware_title">"Шпионская программа"</string>
+    <string name="adware_ntf_message">"Приложение Snapdragon Smart Protect обнаружило рекламную программу в %1$s."</string>
+    <string name="adware_dialog_title">"Обнаружена рекламная программа"</string>
+    <string name="adware_title">"Рекламная программа"</string>
+<string name="err_no_app_dashborad">"список приложений панели пуст"</string>
+    <string name="analysis_title">"%1$s ,вероятно, несет вредоносную активность по следующим причинам:"</string>
+    <string name="service_label">"Служба Sphinx"</string>
+    <string name="unknown_code">" Код: %1$d"</string>
+    <string name="default_code_detail">"Приложение пытается совершить вредоносное действие."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"Возможно, на устройстве выполняется опасное действие."</item>
+        <item>"Вредоносная программа, уровень 1: Опасные действия в пользовательском контенте, приложениях и на устройстве."</item>
+        <item>"Вредоносная программа, уровень 2: Действия, которые могут привести к непредвиденным расходам."</item>
+        <item>"Шпионская программа, уровень 3: Утечка или кража контента, а также активная шпионское слежение за пользователем."</item>
+        <item>"Шпионская программа, уровень 4: Утечка или кража метаданных пользователя."</item>
+        <item>"Шпионская программа, уровень 5: Утечка или кража конфиденциальной информации устройства."</item>
+        <item>"Программа с назойливыми напоминаниями о регистрации, уровень 6: Программа с агрессивными назойливыми напоминаниями о регистрации и/или вредное приложение."</item>
+    </string-array>
+    <string name="setting_level1_title">"Вредоносная программа, уровень 1"</string>
+    <string name="setting_level2_title">"Вредоносная программа, уровень 2"</string>
+    <string name="setting_level3_title">"Шпионская программа, уровень 3"</string>
+    <string name="setting_level4_title">"Шпионская программа, уровень 4"</string>
+    <string name="setting_level5_title">"Шпионская программа, уровень 5"</string>
+    <string name="setting_level6_title">"Программа с назойливыми напоминаниями о регистрации, уровень 6"</string>
+    <string name="setting_mode_title">"Режим"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"Всплывающее и стандартное оповещение"</item>
+        <item>"Стандартное оповещение"</item>
+        <item>"Нет оповещений"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"Обычный режим"</item>
+        <item>"Режим без звука"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<string name="monitor_feature_title">"Функция отслеживания"</string>
+    <string name="err_msg_no_rfm">"Snapdragon Smart Protect не может найти файлы RFM на устройстве"</string>
+    <string name="err_msg_monitor">"Snapdragon Smart Protect не может отслеживать функции"</string>
+    <string name="title_debug">"Выполнить отладку"</string>
+    <string name="drawer_option_debug">"Выполнить отладку"</string>
+    <string name="set_rfm_file">"Выбрать файл RFM"</string>
+    <string name="debug_rfm_model">"Файл RFM"</string>
+    <string name="debug_mnf_apply">"Функция отслеживания"</string></resources>

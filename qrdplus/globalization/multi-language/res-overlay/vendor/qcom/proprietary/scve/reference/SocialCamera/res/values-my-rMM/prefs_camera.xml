@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"ကင်မရာ"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"ဦးစားပေး"</item>
+        <item>"ရှေ့-မျက်နှာပြင်"</item>
+        <item>"ကင်မရာ 3"</item>
+        <item>"ကင်မရာ 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"ပုံအရွယ်အစား"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9.7MP၊ 16:9)"</item>
+        <item>"3840x2160 (8.3MP၊ 16:9၊ UHD 4K)"</item>
+        <item>"3200x1800 (5.8MP၊ 16:9၊ WQXGA+)"</item>
+        <item>"2688x1512 (4.1MP၊ 16:9)"</item>
+        <item>"2592x1458 (3.8MP၊ 16:9)"</item>
+        <item>"1920x1080 (2.1MP၊ 16:9၊ HD 1080p)"</item>
+        <item>"1280x720 (0.9MP၊ 16:9၊ HD 720p)"</item>
+        <item>"864x480 (0.4MP၊ 16:9)"</item>
+        <item>"4160x3120 (13MP၊ 4:3)"</item>
+        <item>"4000x3000 (12MP၊ 4:3)"</item>
+        <item>"3264x2448 (8MP၊ 4:3)"</item>
+        <item>"3200x2400 (7.7MP၊ 4:3၊ QUXGA)"</item>
+        <item>"2592x1944 (5MP၊ 4:3)"</item>
+        <item>"2048x1536 (3.1MP၊ 4:3၊ QXGA)"</item>
+        <item>"1920x1440 (2.8MP၊ 4:3)"</item>
+        <item>"1600x1200 (1.9MP၊ 4:3၊ UXGA)"</item>
+        <item>"1280x960 (1.2MP၊ 4:3၊ UVGA)"</item>
+        <item>"1024x768 (0.8MP၊ 4:3၊ XGA)"</item>
+        <item>"800x600 (0.5MP၊ 4:3၊ SVGA)"</item>
+        <item>"640x480 (0.3MP၊ 4:3၊ VGA)"</item>
+        <item>"320x240 (0.1MP၊ 4:3၊ QVGA)"</item>
+        <item>"3264x2176 (7.1MP၊ 3:2)"</item>
+        <item>"2592x1728 (4.5MP၊ 3:2)"</item>
+        <item>"720x480 (0.3MP၊ 3:2)"</item>
+        <item>"4160x2774 (11.5MP၊ 3:2)"</item>
+        <item>"2976x2976 (8.9MP၊ 1:1)"</item>
+        <item>"1280x768 (1MP၊ 5:3)"</item>
+        <item>"800x480 (0.4MP၊ 5:3)"</item>
+        <item>"352x288 (0.1MP၊ 11:9)"</item>
+        <item>"176x144 (0MP၊ 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"ကြိုတင်ကြည့်ရှုမှု အရွယ်အစား"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"ပြသကွက်အရွယ်အစား ကိုက်ညီပါ"</item>
+        <item>"မြင့်မားသည့်-ပုံရိပ်ပြတ်သားမှု ကြိုတင်ကြည့်ရှုခြင်း (4MP အထိ)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"ရှုခင်း"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"အလိုအလျောက်"</item>
+        <item>"လှုပ်ရှားမှု ရိုက်ချက်"</item>
+        <item>"ဘားကုဒ်"</item>
+        <item>"ကမ်းခြေ"</item>
+        <item>"ဖယောင်းတိုင်မီး"</item>
+        <item>"မျက်နှာများ"</item>
+        <item>"မီးပန်း"</item>
+        <item>HDR</item>
+        <item>"မြန်နှုန်း-မြင့် ဗီဒီယို"</item>
+        <item>"အလျားလိုက်မြင်ကွင်း"</item>
+        <item>"ည"</item>
+        <item>"ပါတီ"</item>
+        <item>"လူများ"</item>
+        <item>"ညအချိန်ရှိ လူများ"</item>
+        <item>"နှင်း"</item>
+        <item>"အားကစားများ"</item>
+        <item>"ငြိမ်သက်စွာ ရိုက်ချက်"</item>
+        <item>"ဆည်းဆာ"</item>
+        <item>"ဇာတ်ရုံ"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"သတ်မှတ်ချက် အထိန်း"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"အလိုအလျောက်"</item>
+        <item>"အတိအကျ"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"လျော်ကြေး သတ်မှတ်မှု"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"ဆုံချက်"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"အလိုအလျောက်"</item>
+        <item>"အတိအကျ"</item>
+        <item>"ဆက်တိုက် (ဓာတ်ပုံ)"</item>
+        <item>"ဆက်တိုက် (ဗီဒီယို)"</item>
+        <item>"မခရို"</item>
+        <item>"မြင်ကွင်းအကျယ် တိုးချဲ့ထားသည်"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"အဖြူရောင်ဟန်ချက် အထိန်း"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"အလိုအလျောက်"</item>
+        <item>"ပိတ်ထားရသည်"</item>
+        <item>"အလင်းရောင် ထွက်ရှိမှု"</item>
+        <item>"ဓာတ်မီးချောင်း အလင်းရောင်ထွက်ရှိမှု"</item>
+        <item>"အရောင်ရင့် ဓာတ်မီးချောင်း အလင်းရောင်ထွက်ရှိမှု"</item>
+        <item>"နေ့အလင်းရောင်"</item>
+        <item>"တိမ်ထူသည့်နေ့"</item>
+        <item>"အရိပ်"</item>
+        <item>"ညနေဆည်းဆာ"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"မီးထိုး"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"အလိုအလျောက်"</item>
+        <item>"ဖွင့်ပါ"</item>
+        <item>"ပိတ်ထားရသည်"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"ဆူညံမှု လျှော့ချခြင်း"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"ဖွင့်ပါ"</item>
+        <item>"ပိတ်ထားရသည်"</item>
+        <item>"အဆင့်မြင့်-အရည်အသွေး"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"မှန်ဘီလူးများ လှုပ်ခါမှု ပြင်ဆင်ချက်"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"ဖွင့်ပါ"</item>
+        <item>"ပိတ်ထားရသည်"</item>
+        <item>"အဆင့်မြင့်-အရည်အသွေး"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"မှားယွင်းမှု ပြင်ဆင်ချက်"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"ဖွင့်ပါ"</item>
+        <item>"ပိတ်ထားရသည်"</item>
+        <item>"အဆင့်မြင့်-အရည်အသွေး"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"Edge တိုးမြှင့်ခြင်း"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"ဖွင့်ပါ"</item>
+        <item>"ပိတ်ထားရသည်"</item>
+        <item>"အဆင့်မြင့်-အရည်အသွေး"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"သီးခြား pixel ပြင်ဆင်ချက်"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"ဖွင့်ပါ"</item>
+        <item>"ပိတ်ထားရသည်"</item>
+        <item>"အဆင့်မြင့်-အရည်အသွေး"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"တည်ငြိမ်မှု အနေအထား"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"ပိတ်ထားရသည်"</item>
+        <item>"အမြင်အာရုံ"</item>
+        <item>"ဒီဂျစ်တယ်"</item>
+    </string-array></resources>

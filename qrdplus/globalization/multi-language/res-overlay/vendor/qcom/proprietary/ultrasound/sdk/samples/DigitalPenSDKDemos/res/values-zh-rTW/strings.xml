@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK 示範"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"延伸的螢幕外功能"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"背景側通道"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"手指對比手寫筆 + 壓力"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"軸傾斜"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"懸停及側按鈕"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"橡皮擦及橡皮擦略過"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"本示範演示了螢幕外功能。\n\n1. 在螢幕外繪圖，並查看右側繪圖。\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. 在虛擬螢幕的右下角，有一個按鈕。以不同的高度將游標懸停在其上方，可變更圓圈的透明度。\n\n3. 按下該按鈕可變更圓圈的顏色。"</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"此示範展示背景側通道在螢幕開啓或關閉時是如何運作的。\n\n1. 在螢幕外繪圖，並查看繪圖。\n\n2. 現在切換到其他應用程式或將螢幕設定為關閉 - 系統仍會記錄您的繪圖。"</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"螢幕上懸停"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. 以不同的高度將游標懸停在螢幕上方。\n\n2. 使用切換功能停用懸停。\n\n3. 使用滑桿設定懸停活動的最大距離。\n\n4. 按下側按鈕將變更懸停圓圈的顏色。"</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. 請在全域設定中將 SDP 按鈕設定為橡皮擦按鈕。\n\n2. 繪圖。\n\n3. 將橡皮擦設定為 [輕觸即可切換]。按下橡皮擦按鈕。開始清除。再次按下橡皮擦按鈕，可切換到筆模式。\n\n4. 將橡皮擦設定為 [按住即可清除]。現在只需輕觸即可立即清除。\n\n5. 現在使用橡皮擦略過切換功能即可停用橡皮擦功能。"</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"橡皮擦略過"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"清除畫布"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"先用筆繪製，然後用您的手指繪製。\n這兩種方法可用不同顏色進行識別。\n筆觸寬度可透過壓力設定，同時也會以數字形式顯示。"</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"壓力"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

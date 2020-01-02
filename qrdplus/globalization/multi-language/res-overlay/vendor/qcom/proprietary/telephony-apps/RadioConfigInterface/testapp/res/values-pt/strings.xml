@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">RadioConfigTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">"Configurações"</string>
+    <string name="intro_text">"Consulte a lista de itens abaixo para obter infos sobre as ids de item.  E nos campos de texto abaixo, insira as ids de item e valores de item separados por vírgulas. Sem espaços extra.  Apenas números inteiros. No momento o GET está suspenso."</string>
+    <string name="item_ids">"Ids de item:"</string>
+    <string name="item_values">"Valores de item"</string>
+    <string name="set">"Definir"</string>
+    <string name="refresh">"Atualizar"</string>
+    <string name="get">"Obter"</string>
+    <string name="items_info">"Infos dos itens:"</string></resources>

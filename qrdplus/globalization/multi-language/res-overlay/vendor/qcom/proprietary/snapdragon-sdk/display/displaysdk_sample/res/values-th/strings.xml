@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"ตัวอย่าง SDK การแสดงผล"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"คุณสมบัติการแสดงผล"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"สมดุลสี"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"ตัวจัดการโหมด"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"โหมดใหม่"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"ลบโหมด"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"แก้ไขโหมด"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"ยกเลิก"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"คุณสมบัติการแสดงผล"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"เปิดใช้งานโหมด"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"ป้อนชื่อโหมด"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"บันทึกโหมด"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"เลือกรูปภาพ"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"ไม่รองรับประเภทการแสดงผลที่มีให้ ตรวจสอบว่าใช้งาน connect() แล้ว"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"ไม่รองรับคุณสมบัติสมดุลสี"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"ไม่รองรับคุณสมบัติแบ็คไลท์การปรับตัว"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"ไม่รองรับคุณสมบัติสีในความจำใบไม้"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"ไม่รองรับคุณสมบัติสีในความจำผิวหนัง"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"ไม่รองรับคุณสมบัติสีในความจำท้องฟ้า"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"ไม่รองรับคุณสมบัติการปรับภาพ"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"ไม่รองรับคุณสมบัติการมองเห็นในแสงแดด"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"ไม่สามารถสร้างโหมดใหม่ได้"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"ไม่สามารถแก้ไขโหมดได้"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"เพิ่มรูปภาพจากแกลเลอรี"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"ตกลง"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"ใช่"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"ไม่"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"ไม่มีโหมดการแสดงผลบนอุปกรณ์ของคุณ"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"ไม่รองรับ FEATURE_COLOR_MODE_SELECTION"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"ไม่รองรับ FEATURE_COLOR_MODE_MANAGEMENT"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"ไม่มีฟังก์ชันการแสดงผลที่ต้องการ"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"การลบโหมดการแสดงผลล้มเหลว"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"การเปิดใช้งานโหมดการแสดงผลล้มเหลว"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"โหมดการแสดงผลไม่สามารถตั้งเป็นค่าเริ่มต้นได้"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"โปรดเลือกโหมดก่อน"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"โปรดป้อนชื่อสำหรับโหมด"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"สร้างโหมดใหม่แล้ว"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"ตั้งค่าเริ่มต้น"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"โหมดที่เลือกเป็นโหมดระบบ ไม่สามารถแก้ไขได้ คุณต้องการสร้างโหมดใหม่ตามโหมดที่เลือกหรือไม่"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"โหมดที่เลือกเป็นโหมดระบบ ไม่สามารถลบได้"</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"ไม่สามารถเชื่อมต่อกับบริการการแสดงผลที่ต้องการได้"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" โหมดถูกเปิดใช้งาน"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" โหมดถูกลบ"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"สมดุลสี"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"การมองเห็นในแสงแดด"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"การปรับภาพ"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"สีในความจำใบไม้"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"สี"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"ความอิ่มตัว"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"ความเข้มสี"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"สีในความจำผิวหนัง"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"สีในความจำท้องฟ้า"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" แบ็คไลท์การปรับตัว"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"เปิดใช้งาน SVI"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"เปิดใช้งานสีในความจำใบไม้"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"เปิดใช้งานสีในความจำผิวหนัง"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"เปิดใช้งานสีในความจำท้องฟ้า"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"เปิดใช้งานการปรับภาพ"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"เปิดใช้งานแบ็คไลท์การปรับตัว"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"เปิดใช้งานการปรับภาพการลดสี"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"เกณฑ์ความอิ่มตัวสี"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"สี"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"ความอิ่มตัว"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"ความเข้มสี"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"เปรียบต่าง"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"สูง"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"ปานกลาง"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"ต่ำ"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"อัตโนมัติ"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"รีเฟรช"</string></resources>

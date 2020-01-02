@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Scope Debugger रिकॉर्डिंग टूल"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"सेटिंग्स"</string>
+    <add-resource type="string" name="instructions"/>
+    <string name="instructions">"कोई फ़ाइल नाम दर्ज करें (या फ़ाइल नाम के रूप में संकेत छोड़ें), और Scope Debugger के डंप को संग्रहीत करने के लिए बटन दबाएँ"</string>
+    <add-resource type="string" name="button_text"/>
+    <string name="button_text">"इसे सुरक्षित करें!"</string>
+    <add-resource type="string" name="file_name_default"/>
+    <string name="file_name_default">"scope_debugger_rec"</string></resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"servizio_rcs rimosso; installarlo di nuovo."</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"Aggiorna dati testo del profilo"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"Aggiornati dati ritratto del profilo"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Elimina tutti i messaggi"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Imposta un nuovo presidente nella chat di gruppo"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Modifica oggetto nella chat di gruppo"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Modifica nome alternativo nella chat di gruppo"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Accetta un invito per partecipare a una chat di gruppo"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Abbandona chat di gruppo"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Rimuovi partecipanti nella chat di gruppo"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"Ignora una chat di gruppo"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Presta attenzione a un account pubblico"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Non prestare attenzione a un account pubblico"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"Segnala un account pubblico"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"autorizzazione API sensibile"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"%1$d app autorizzata/e (totale: %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"Non chiedere più"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"OK"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Annulla"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Questa operazione è stata progettata per %1$s; se si nega l\'autorizzazione, il funzionamento potrebbe non essere quello previsto."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"Autorizzazione di %1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"È necessario concedere %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"È necessario concedere l\'autorizzazione per sdcard."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"È necessario concedere l\'autorizzazione per i contatti."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"È necessario concedere l\'autorizzazione per gli SMS."</string></resources>

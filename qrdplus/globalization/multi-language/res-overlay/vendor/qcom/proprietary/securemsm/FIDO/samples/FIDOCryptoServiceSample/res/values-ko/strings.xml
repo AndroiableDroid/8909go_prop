@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCrypto 서비스 샘플 앱"</string>
+    <string name="action_settings">"설정"</string>
+    <string name="body_msg">"FidoCrypto 서비스 테스트"</string>
+    <string name="load">"로드"</string>
+    <string name="unload">"언로드"</string>
+    <string name="process">"프로세스"</string>
+    <string name="start">"시작"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"FIDO 서비스 연결"</string>
+    <string name="unbindFido">"FIDO 서비스 연결 해제"</string>
+    <string name="setChallenge">"챌린지 설정"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"인증자 연결"</string>
+    <string name="verifyUser">"사용자 확인 / 토큰 가져오기"</string>
+    <string name="GetInfo">"정보 가져오기"</string>
+    <string name="Register">"등록"</string>
+    <string name="Deregister">"등록 취소"</string>
+    <string name="OpenSettings">"설정 열기"</string>
+    <string name="Sign">"서명"</string>
+    <string name="MalformedRequest">"잘못된 요청"</string>
+    <string name="selectAuth">"인증자 선택"</string>
+    <string name="getEnrollmentStatus">"등록 상태 가져오기"</string>
+    <string name="RegisterExt">"확장에 등록"</string>
+    <string name="SignExt">"확장으로 서명"</string>
+    <string name="encResult">"캡슐화된 결과"</string>
+    <string name="extResult">"확장 데이터"</string>
+    <string name="selectFidoOpText">"FIDO 작업 선택"</string>
+    <string name="show_message_sui">"sui 메시지 표시"</string>
+    <string name="fido_sui_service">"fido Sui 서비스"</string>
+    <string name="bindFidoSui">"fido sui 연결"</string>
+    <string name="unbindFidoSui">"fido sui 연결 해제"</string>
+    <string name="suiResultTitle">"메시지 sui 결과 표시"</string>
+    <string name="cancel_sui">"sui 취소"</string>
+    <string name="extensionText">"확장을 사용하시겠습니까?"</string>
+    <string name="pngText">"PNG 콘텐츠를 사용하시겠습니까?"</string>
+    <string name="fpText">"보안 지문"</string>
+    <string-array name="authenticator_array">
+        <item>"모의 인증자"</item>
+        <item>"샘플 인증자"</item>
+        <item>"보안 샘플 인증자"</item>
+        <item>"샘플 확장 인증자"</item>
+        <item>"보안 확장 인증자"</item>
+        <item>"기기 상태 인증자"</item>
+        <item>"보안 샘플 인증자 IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"정보 가져오기"</item>
+        <item>"등록"</item>
+        <item>"등록 취소"</item>
+        <item>"설정 열기"</item>
+        <item>"잘못된 예외"</item>
+        <item>"서명(인증)"</item>
+        <item>"서명(TX)"</item>
+    </string-array></resources>

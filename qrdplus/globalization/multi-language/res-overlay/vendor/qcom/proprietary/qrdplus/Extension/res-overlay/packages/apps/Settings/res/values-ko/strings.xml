@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Overlay Wi\u2011Fi to WLAN -->
+    <string name="radio_controls_summary">"WLAN, 블루투스, 비행기 모드, 셀룰러 네트워크 및 VPN 관리"</string>
+    <string name="wifi_assistant_intro_setup">"WLAN 도우미\n소개"</string>
+    <string name="wifi_assistant_card_message">"WLAN 도우미를 사용하여 사용 가능한 네트워크에 자동으로 연결합니다."</string>
+    <string name="wifi_assistant_title">"WLAN 도우미"</string>
+    <string name="wifi_assistant_title_message">"Google WLAN 도우미를 통해 사용하기 가장 적합한 WLAN에 자동으로 연결할 수 있습니다."</string>
+    <string name="wifi_assistant_explanation_message">"Google WLAN 도우미는 사용 가능한 네트워크를 감지하여 속도와 안정성이 가장 뛰어난 네트워크에 기기를 연결합니다."</string>
+    <string name="wifi_assistant_vpn_message">"데이터를 보호하기 위해 Google WLAN 도우미는 Google 서버를 통해 보안 VPN 연결을 제공합니다."</string>
+    <string name="wifi_assistant_dialog_message">"WLAN 도우미는 네트워크 트래픽을 모니터링할 수 있도록 VPN 연결을 설정하려고 합니다.  해당 소스를 신뢰할 수 있는 경우에만 수락하세요."</string>
+    <string name="wifi_assistant_permission_accepted">"“Google WLAN 도우미”에 VPN 연결을 설정할 수 있는 권한을 부여했습니다. 즉, 이 앱에서 네트워크 트래픽을 모니터링할 수 있습니다."</string>
+    <string name="wifi_quick_toggle_title">"WLAN"</string>
+    <string name="wifi_quick_toggle_summary">"WLAN 켜기"</string>
+    <string name="wifi_settings">"WLAN"</string>
+    <string name="wifi_settings_category">"WLAN 설정"</string>
+    <string name="wifi_settings_title">"WLAN"</string>
+    <string name="wifi_setup_wizard_title">"WLAN 선택"</string>
+    <string name="wifi_select_network">"WLAN 선택"</string>
+    <string name="wifi_starting">"WLAN을 켜는 중\u2026"</string>
+    <string name="wifi_stopping">"WLAN을 끄는 중\u2026"</string>
+    <string name="wifi_poor_network_detection_summary">"인터넷 연결이 원활하지 않은 경우 WLAN 네트워크를 사용하지 않음"</string>
+    <string name="wifi_scan_always_available_summary">"WLAN이 꺼진 경우에도 Google 위치 서비스 및 기타 앱이 네트워크를 검색하도록 합니다."</string>
+    <string name="wifi_automatically_manage_title">"WLAN 자동 관리"</string>
+    <string name="wifi_automatically_manage_summary">"WLAN 도우미를 통해 WLAN 연결을 관리합니다."</string>
+    <string name="wifi_assistant_setting_title">"WLAN 도우미"</string>
+    <string name="wifi_assistant_setting_summary">"Google WLAN 도우미"</string>
+    <string name="wifi_setting_sleep_policy_title">"절전 모드 동안 WLAN 연결 유지"</string>
+    <string name="wifi_setting_on_during_sleep_title">"절전 모드 동안 WLAN 사용"</string>
+    <string name="wifi_suspend_optimizations">"WLAN 최적화"</string>
+    <string name="wifi_suspend_optimizations_summary">"WLAN이 사용 중일 때 배터리 사용량 최소화"</string>
+    <string name="wifi_limit_optimizations_summary">"WLAN에 사용되는 배터리 제한"</string>
+    <string name="wifi_access_points">"WLAN 네트워크"</string>
+    <string name="wifi_menu_p2p">"WLAN Direct"</string>
+    <string name="wifi_empty_list_wifi_off">"사용 가능한 네트워크를 보려면 WLAN을 켜세요."</string>
+    <string name="wifi_empty_list_wifi_on">"WLAN 네트워크를 검색하는 중\u2026"</string>
+    <string name="wifi_empty_list_user_restricted">"WLAN 네트워크를 변경할 권한이 없습니다."</string>
+    <string name="wifi_required_info_text">"설정을 완료하려면 태블릿이 WLAN에 액세스해야 합니다. 설정 후에는 셀룰러 데이터와 WLAN 간에 전환할 수 있습니다."</string>
+    <string name="wifi_wps_setup_title">"WLAN 보호 설정"</string>
+    <string name="wifi_wps_onstart_pbc">"라우터에서 WLAN 보호 설정 버튼을 누르세요 \"WPS\"라고 줄여 부르기도 하며 다음 기호를 포함할 수도 있습니다."</string>
+    <string name="wifi_wps_onstart_pin">"WLAN 라우터에 PIN <xliff:g id="number">%1$s</xliff:g>을(를) 입력하세요. 설정을 완료하는 데 최대 2분이 소요됩니다."</string>
+    <string name="wifi_wps_connected">"WLAN 네트워크 <xliff:g id="network_name">%s</xliff:g>에 연결됨"</string>
+    <string name="wifi_skipped_message" product="tablet">"경고: WLAN을 건너뛰면 태블릿에서 초기 다운로드와 업데이트에 셀룰러 데이터만 사용합니다. 데이터 요금 부담을 줄이려면 WLAN에 연결하세요."</string>
+    <string name="wifi_skipped_message" product="device">"경고: WLAN을 건너뛰면 기기에서 초기 다운로드와 업데이트에 셀룰러 데이터만 사용합니다. 데이터 요금 부담을 줄이려면 WLAN에 연결하세요."</string>
+    <string name="wifi_skipped_message" product="default">"경고: WLAN을 건너뛰면 휴대전화에서 초기 다운로드와 업데이트에 셀룰러 데이터만 사용합니다. 데이터 요금 부담을 줄이려면 WLAN에 연결하세요."</string>
+    <string name="wifi_and_mobile_skipped_message" product="tablet">"경고: WLAN을 건너뛰면 태블릿에서 초기 다운로드 또는 업데이트를 위해 사용할 인터넷에 연결되지 않습니다."</string>
+    <string name="wifi_and_mobile_skipped_message" product="device">"경고: WLAN을 건너뛰면 기기에서 초기 다운로드 또는 업데이트를 위해 사용할 인터넷에 연결되지 않습니다."</string>
+    <string name="wifi_and_mobile_skipped_message" product="default">"경고: WLAN을 건너뛰면 휴대전화에서 초기 다운로드 또는 업데이트를 위해 사용할 인터넷에 연결되지 않습니다."</string>
+    <string name="wifi_connect_failed_message" product="tablet">"해당 태블릿에서 이 WLAN 네트워크에 연결할 수 없습니다."</string>
+    <string name="wifi_connect_failed_message" product="device">"해당 기기에서 이 WLAN 네트워크에 연결할 수 없습니다."</string>
+    <string name="wifi_connect_failed_message" product="default">"해당 휴대전화에서 이 WLAN 네트워크에 연결할 수 없습니다."</string>
+    <string name="wifi_advanced_titlebar">"고급 WLAN"</string>
+    <string name="wifi_setting_frequency_band_title">"WLAN 주파수 대역"</string>
+    <string name="wifi_p2p_settings_title">"WLAN Direct"</string>
+    <string name="wifi_tether_checkbox_text">"휴대용 WLAN 핫스팟"</string>
+    <string name="wifi_hotspot_checkbox_text">"WLAN 핫스팟"</string>
+    <string name="wifi_hotspot_checkbox_text_summary">"셀룰러 연결을 사용하여 WLAN 네트워크 제공"</string>
+    <string name="wifi_tether_failed_subtext">"휴대용 WLAN 핫스팟 오류"</string>
+    <string name="wifi_tether_configure_ap_text">"WLAN 핫스팟 설정"</string>
+    <string name="wifi_hotspot_configure_ap_text">"WLAN 핫스팟 설정"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">"AndroidAP WPA2 PSK 휴대용 WLAN 핫스팟"</string>
+    <string name="wifi_tether_configure_subtext">"<xliff:g id="network_ssid">%1$s</xliff:g> <xliff:g id="network_security">%2$s</xliff:g> 휴대용 WLAN 핫스팟"</string>
+    <string name="status_wifi_mac_address">"WLAN MAC 주소"</string>
+    <string name="network_scorer_change_active_dialog_title">"WLAN 도우미를 변경하시겠습니까?"</string>
+    <string name="location_mode_high_accuracy_description">"GPS, WLAN 및 셀룰러 네트워크를 사용하여 위치를 찾습니다. "</string>
+    <string name="location_mode_battery_saving_description">"WLAN 및 셀룰러 네트워크를 사용하여 위치를 찾습니다."</string>
+    <string name="location_network_based">"WLAN 및 셀룰러 네트워크 위치"</string>
+    <string name="location_neighborhood_level_wifi">"WLAN에서 측정된 위치"</string>
+    <string name="wifi_verbose_logging">"WLAN 상세 로깅 사용"</string>
+    <string name="wifi_aggressive_handover">"WLAN-셀룰러 적극 핸드오버"</string>
+    <string name="wifi_allow_scan_with_traffic">"WLAN 로밍 검색 항상 허용"</string>
+    <string name="wifi_verbose_logging_summary">"WLAN 로깅 수준을 높이고, WLAN 선택기에서 SSID RSSI당 값을 표시합니다."</string>
+    <string name="wifi_aggressive_handover_summary">"사용 설정하면 WLAN 신호가 약할 때 데이터 연결을 WLAN에서 셀룰러로 더욱 적극적으로 핸드오버합니다."</string>
+    <string name="wifi_allow_scan_with_traffic_summary">"인터페이스에 표시되는 데이터 트래픽의 양을 기반으로 WLAN 로밍 검색을 허용하거나 허용하지 않습니다."</string>
+    <string name="battery_stats_wifi_running_label">"WLAN"</string>
+    <string name="wifi_on_time">"WLAN 사용 시간"</string>
+    <string name="bluetooth_on_time">"WLAN 사용 시간"</string>
+    <string name="power_wifi">"WLAN"</string>
+    <string name="usage_type_wifi_running">"WLAN 실행 중"</string>
+    <string name="usage_type_data_wifi_send">"WLAN 패킷 전송"</string>
+    <string name="usage_type_data_wifi_recv">"WLAN 패킷 수신"</string>
+    <string name="battery_action_wifi">"WLAN 설정"</string>
+    <string name="battery_desc_wifi">"WLAN 배터리 사용량"</string>
+    <string name="battery_sugg_wifi">"사용 중이 아니거나 사용할 수 없을 때 WLAN 끄기"</string>
+    <string name="gadget_toggle_wifi">"WLAN 설정 업데이트 중"</string>
+    <string name="gadget_state_template">"<xliff:g name="feature" example="WLAN">%1$s</xliff:g> <xliff:g name="state" example="off">%2$s</xliff:g>"</string>
+    <string name="gadget_wifi">"WLAN"</string>
+    <string name="backup_data_summary">"앱 데이터, WLAN 비밀번호 및 기타 설정을 Google 서버에 백업"</string>
+    <string name="backup_erase_dialog_message">"WLAN 비밀번호, 북마크, 기타 설정 및 앱 데이터 백업을 중지하고 Google 서버에 있는 모든 사본을 지우시겠습니까?"</string>
+    <string name="wifi_setup_title">"WLAN 설정"</string>
+    <string name="wifi_setup_title_editing_network">"WLAN 네트워크 <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>에 연결"</string>
+    <string name="wifi_setup_title_connecting_network">"WLAN 네트워크 <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>에 연결하는 중\u2026"</string>
+    <string name="wifi_setup_title_connected_network">"WLAN 네트워크 <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>에 연결됨"</string>
+    <string name="wifi_setup_eap_not_supported">"설정하는 동안에는 EAP WLAN 연결을 구성할 수 없습니다. 설정한 후에 설정 &gt; 무선 및 네트워크에서 구성할 수 있습니다."</string>
+    <string name="wifi_setup_description_connected">"설정을 계속하려면 "<b>"다음"</b>"을 터치하세요.\n\n다른 WLAN 네트워크에 연결하려면 "<b>"뒤로"</b>"를 터치하세요."</string>
+    <string name="data_usage_menu_show_wifi">"WLAN 표시"</string>
+    <string name="data_usage_menu_hide_wifi">"WLAN 숨기기"</string>
+    <string name="data_usage_disable_wifi_limit">"WLAN 데이터 한도 설정"</string>
+    <string name="data_usage_tab_wifi">"WLAN"</string>
+    <string name="data_usage_restrict_background">"백그라운드 셀룰러 데이터를 제한하는 경우 WLAN에 연결되지 않으면 일부 앱과 서비스가 작동하지 않습니다."</string>
+    <string name="data_usage_restrict_background_multiuser" product="tablet">"백그라운드 셀룰러 데이터를 제한하는 경우 WLAN에 연결되지 않으면 일부 앱과 서비스가 작동하지 않습니다.\n\n이 설정은 이 태블릿의 모든 사용자에게 영향을 줍니다."</string>
+    <string name="data_usage_restrict_background_multiuser" product="default">"백그라운드 셀룰러 데이터를 제한하는 경우 WLAN에 연결되지 않으면 일부 앱과 서비스가 작동하지 않습니다.\n\n이 설정은 이 휴대전화의 모든 사용자에게 영향을 줍니다."</string>
+    <string name="data_usage_metered_wifi">"종량제 WLAN 네트워크"</string>
+    <string name="data_usage_metered_wifi_disabled">"종량제 네트워크를 선택하려면 WLAN을 켜세요."</string>
+    <string name="restriction_wifi_config_title">"WLAN 및 모바일"</string>
+    <string name="restriction_wifi_config_summary">"WLAN 및 모바일 설정을 수정하도록 허용"</string>
+    <!-- Overlay wi-fi to WLAN -->
+    <string name="keywords_wifi">"Wi-Fi WLAN 네트워크 연결"</string>
+    <string name="setup_wifi_nfc_tag">"WLAN NFC 태그 설정"</string>
+    <string name="wifi_scan_notify_text_location_on">"위치 정확성 개선 등의 목적으로 WLAN이 꺼져 있을 때도 Google 및 기타 앱이 근처 네트워크를 검색할 수 있습니다. 이 기능을 사용하지 않으려면 고급 &gt; 네트워크 항상 검색으로 이동하세요."</string>
+    <string name="wifi_scan_notify_text_location_off">"WLAN이 꺼져 있을 때도 앱이 근처 네트워크를 검색할 수 있습니다. 이 기능을 사용하지 않으려면 고급 &gt; 네트워크 항상 검색으로 이동하세요."</string>
+    <string name="wifi_scan_always_turnon_message">"위치 정확성 개선 등의 목적으로 WLAN이 꺼져 있을 때에도 <xliff:g id="app_name">%1$s</xliff:g>에서 네트워크 검색을 켭니다.\n\n검색하려는 모든 앱에 대해 이를 허용하시겠습니까?"</string></resources>

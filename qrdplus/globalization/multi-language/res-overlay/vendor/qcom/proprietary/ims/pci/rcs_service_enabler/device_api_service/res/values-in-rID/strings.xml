@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service telah dihapus, harap install ulang!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"Perbarui data teks profil"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"Perbarui data potret profil"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Hapus semua pesan"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Tentukan ketua di obrolan grup"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Modifikasi subjek di obrolan grup"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Modifikasi nama alias member di obrolan grup"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Terima undangan untuk bergabung di obrolan grup"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Keluar dari obrolan grup"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Keluarkan anggota dari obrolan grup"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"Hentikan obrolan grup"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Perhatikan akun publik"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Tidak perhatikan akun publik"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"Laporkan akun publik"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"izin api sensitif"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"aplikasi %1$d terotoriasi (total %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"Jangan tanya lagi"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"OKE"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Batal"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Operasi ini dirancang untuk %1$s,  Menolak izin mungkin menyebabkan pengoperasian tidak lagi berfungsi sesuai tujuan."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"Izin untuk%1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"Anda perlu mengizinkan %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"Anda perlu mengizinkan untuk kartu sd."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"Anda perlu mengizinkan untuk kontak."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"Anda perlu mengizinkan untuk sms."</string></resources>

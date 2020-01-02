@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"CleverCapture"</string>
+    <string name="error_dialog_title">"ایپلیکیشن نقص"</string>
+    <string name="btn_ok">"ٹھیک ہے"</string>
+    <string name="err_library_loading">"منفی لائبریریوں کو لوڈ کرنے میں ایپلیکیشن کی ناکامی۔"</string>
+    <string name="err_camera_init">"کیمرہ شروع ہونے میں ناکام ہوا۔"</string>
+    <string name="err_sensors_init">"سینسرز شروع ہونے میں ناکام ہوئے۔"</string>
+    <string name="err_cc_init">"CleverCapture API شروع ہونے میں ناکام ہوئی۔"</string>
+    <string name="err_sensors_failed">"سینسرز شروع ہونے میں ناکام ہوئے۔"</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"سیشن کا اجراء نہ ہوا"</string>
+    <string name="err_queue_full">"قطار مکمل"</string>
+    <string name="title_settings">"ترتیبات"</string>
+    <string name="camera_settings">"کیمرہ ترتیبات"</string>
+    <string name="camera_settings_picture_size">"تصویر کا سائز"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"1280x720"</item>
+        <item>"1600x1200"</item>
+        <item>"1920x1080"</item>
+        <item>"2048x1536"</item>
+        <item>"3200x2400"</item>
+        <item>"4000x3000"</item>
+        <item>"4208x3120"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"1280x720"</item>
+        <item>"1600x1200"</item>
+        <item>"1920x1080"</item>
+        <item>"2048x1536"</item>
+        <item>"3200x2400"</item>
+        <item>"4000x3000"</item>
+        <item>"4208x3120"</item>
+    </string-array>
+    <string name="camera_settings_preview_size">"پیش نظارہ سائز"</string>
+    <string-array name="camera_settings_preview_size_entries">
+        <item>"1280x720"</item>
+        <item>"1280x960"</item>
+        <item>"1920x1080"</item>
+    </string-array>
+    <string-array name="camera_settings_preview_size_values">
+        <item>"1280x720"</item>
+        <item>"1280x960"</item>
+        <item>"1920x1080"</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"فوکس وضع"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"خودکار"</item>
+        <item>"جاری (تصویر)"</item>
+        <item>"جاری (ویڈیو)"</item>
+        <item>"لامحدود"</item>
+        <item>"میکرو"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"auto"</item>
+        <item>"continuous-picture"</item>
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>1</item>
+        <item>4</item>
+        <item>3</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_antibanding">"اینٹی بینڈنگ"</string>
+    <string-array name="camera_settings_antibanding_entries">
+        <item>"خودکار"</item>
+        <item>"50HZ"</item>
+        <item>"60HZ"</item>
+        <item>"آف"</item>
+    </string-array>
+    <string-array name="camera_settings_antibanding_values">
+        <item>"auto"</item>
+        <item>"50hz"</item>
+        <item>"60hz"</item>
+        <item>"off"</item>
+    </string-array>
+    <string-array name="camera_settings_antibanding_values_camera2">
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string name="camera_settings_video_stabilization">"ویڈیو استحکام"</string>
+    <string-array name="camera_settings_video_stabilization_entries">
+        <item>"غیر فعال کریں"</item>
+        <item>"فعال کریں"</item>
+    </string-array>
+    <string-array name="camera_settings_video_stabilization_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="camera_settings_video_stabilization_default">1</string>
+    <string name="pano_settings">"CleverCapture ترتیبات"</string>
+    <string name="pano_settings_scve_mode">"SCVE آپریشن موڈ"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"ڈیفالٹ"</item>
+        <item>"کارکردگی"</item>
+        <item>"CPU آف لوڈ"</item>
+        <item>"کم پاور"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_zoom_cfg">"زوم کریں"</string>
+    <string-array name="pano_settings_zoom_cfg_entries">
+        <item>"غیر فعال کریں"</item>
+        <item>"فعال کریں"</item>
+    </string-array>
+    <string-array name="pano_settings_zoom_cfg_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pano_settings_zoom_cfg_default">0</string>
+    <string name="pano_settings_motion_cfg">"ہاتھ کی حرکت کے دوران کوئی حرکت نہیں"</string>
+    <string-array name="pano_settings_motion_cfg_entries">
+        <item>"غیر فعال کریں"</item>
+        <item>"فعال کریں"</item>
+    </string-array>
+    <string-array name="pano_settings_motion_cfg_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pano_settings_motion_cfg_default">1</string>
+    <string name="pano_settings_focus_cfg">"ارتکاز کے دوران کوئی تصویر نہیں"</string>
+    <string-array name="pano_settings_focus_cfg_entries">
+        <item>"غیر فعال کریں"</item>
+        <item>"فعال کریں"</item>
+    </string-array>
+    <string-array name="pano_settings_focus_cfg_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pano_settings_focus_cfg_default">0</string>
+    <string name="pano_settings_image_compress_level">"شبیہہ دباؤ درجہ"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_ae_awb_lock">"AE/AWB مقفل کو اہل بنائیں"</string>
+    <string-array name="pano_settings_enable_ae_awb_lock_entries">
+        <item>"نہیں"</item>
+        <item>"ہاں"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_ae_awb_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_ae_awb_lock_default">"false"</string>
+    <string name="cc_settings_burst_number">"برسٹ نمبر"</string>
+    <string-array name="cc_settings_burst_number_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="cc_settings_burst_number_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+   <string name="cc_settings_burst_number_default">3</string>
+    <string name="cc_settings_burst_interval">"برسٹ وقفہ"</string>
+    <string-array name="cc_settings_burst_interval_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="cc_settings_burst_interval_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string name="cc_settings_burst_interval_default">1</string></resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">"메모장"</string>
+    <string name="live_folder_name">"메모"</string>
+    <string name="title_edit_title">"메모 제목:"</string>
+    <string name="title_create">"새 메모"</string>
+    <string name="title_edit">"편집: %1$s"</string>
+    <string name="title_notes_list">"메모"</string>
+    <string name="menu_add">"새 메모"</string>
+    <string name="menu_save">"저장"</string>
+    <string name="menu_delete">"삭제"</string>
+    <string name="menu_delete_selected">"선택됨"</string>
+    <string name="menu_delete_sel">"선택..."</string>
+    <string name="menu_delete_all">"모두 삭제"</string>
+    <string name="menu_deselect_all">"모두 선택 취소"</string>
+    <string name="menu_select_all">"모두 선택"</string>
+    <string name="confirm_delete_notes">"메모가 삭제됩니다."</string>
+    <string name="confirm_delete_notes_single">"메모가 삭제됩니다."</string>
+    <string name="msg_this">"이"</string>
+    <string name="msg_all">"전체"</string>
+    <string name="menu_open">"열기"</string>
+    <string name="menu_revert">"변경 사항 되돌리기"</string>
+    <string name="menu_copy">"복사"</string>
+    <string name="menu_paste">"붙여넣기"</string>
+    <string name="button_ok">"확인"</string>
+    <string name="text_title">"제목:"</string>
+    <string name="resolve_edit">"메모 편집"</string>
+    <string name="resolve_title">"제목 편집"</string>
+    <string name="error_title">"오류"</string>
+    <string name="error_message">"메모를 로드하는 동안 오류가 발생했습니다."</string>
+    <string name="nothing_to_save">"저장할 작업이 없습니다."</string>
+    <string name="content_full">"현재 콘텐츠가 길이 제한에 도달했습니다!"</string>
+    <string name="emptyNotesText">"여기에 추가한 메모가 표시됩니다."</string></resources>

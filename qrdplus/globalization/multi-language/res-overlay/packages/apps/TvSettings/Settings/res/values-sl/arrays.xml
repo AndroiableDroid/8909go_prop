@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Display settings.  The delay in inactivity before the daydream starts. -->
+    <string-array name="sleep_timeout_entries">
+        <item>"5 min"</item>
+        <item>"10 min"</item>
+        <item>"15 min"</item>
+        <item>"30 min"</item>
+        <item>"1 h"</item>
+    </string-array>
+    <!-- Display settings.  The delay after the daydream starts when the screen goes off. -->
+    <string-array name="screen_off_timeout_entries">
+        <item>"30 min"</item>
+        <item>"1 h"</item>
+        <item>"3 h"</item>
+        <item>"6 h"</item>
+        <item>"12 h"</item>
+        <item>"Nikoli"</item>
+    </string-array>
+    <!-- Titles for captioning typeface preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_typeface_selector_titles">
+        <item>"Privzeto"</item>
+        <item>"Sans-serif"</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>"Vsakdanje"</item>
+        <item>"Ležeče"</item>
+        <item>"Pomanjšane velike črke"</item>
+    </string-array>
+    <!-- Titles for captioning font size preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_font_size_selector_titles">
+        <item>"Zelo majhna"</item>
+        <item>"Majhna"</item>
+        <item>"Navadna"</item>
+        <item>"Velika"</item>
+        <item>"Zelo velika"</item>
+    </string-array>
+    <!-- Titles for captioning character edge type preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>"Brez"</item>
+        <item>"Oris"</item>
+        <item>"Senca"</item>
+        <item>"Dvignjeno"</item>
+        <item>"Znižano"</item>
+    </string-array>
+    <!-- Titles for captioning opacity preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <!-- Titles for captioning text style preset preference. [CHAR LIMIT=35] -->
+    <string-array name="captioning_preset_selector_titles">
+        <item>"Belo na črnem"</item>
+        <item>"Črno na belem"</item>
+        <item>"Rumeno na črnem"</item>
+        <item>"Rumeno na modrem"</item>
+        <item>"Po meri"</item>
+    </string-array></resources>

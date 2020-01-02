@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"មានម្ភៃបួនម៉ោងក្នុងមួយថ្ងៃ"</string>
+    <string name="hi_snapdragon">"សួស្ដី Snapdragon"</string>
+    <string name="hey_snapdragon">"ហេ Snapdragon"</string>
+    <string name="my_voice">"សំឡេងរបស់ខ្ញុំគឺជាពាក្យសម្ងាត់របស់ខ្ញុំ"</string>
+    <string name="make_my_day">"ធ្វើឲ្យថ្ងៃនេះមានប្រយោជន៍"</string>
+    <string name="tomorrow_is_another">"ថ្ងៃស្អែកគឺជាថ្ងៃផ្សេងទៀត"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"សូមស្វាគមន៍មកកាន់សាន់ដ្យេហ្គោ"</string>
+    <string name="okay_google">"Okay Google"</string>
+    <string name="open_my_email">"បើក​អ៊ីម៉ែលរបស់ខ្ញុំ"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"ការបោះពុម្ពសំឡេង"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"ការ​កំណត់"</string>
+    <string name="action_add">"បន្ថែម"</string>
+    <string name="title_activity_main_with_fragment">"MainWithFragmentActivity"</string>
+    <string name="tap_mic_start">"ប៉ះម៉ៃក្រូហ្វូនដើម្បីចាប់ផ្ដើម"</string>
+    <string name="tap_mic_stop">"ប៉ះម៉ៃក្រូហ្វូនដើម្បីឈប់"</string>
+    <string name="say_key_phrase">"និយាយ \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"និយាយ​ឃ្លា \"&lt;b&gt;%1$s&lt;/b&gt;\" ម្ដងទៀត។"</string>
+    <string name="say_one_of_key_phrases">"និយាយឃ្លាគន្លឹះមួយ"</string>
+    <string name="phrase_recognized">"ឃ្លា \"&lt;b&gt;%1$s&lt;/b&gt;\" ត្រូវបានទទួលស្គាល់ "</string>
+    <string name="recording_length_exceeded">"រយៈពេលសំឡេងបានលើសកំណត់"</string>
+    <string name="recording_length_exceeded_msg">"រយៈពេល​ថតសំឡេង​ត្រូវបានលើសកំណត់។ សូមព្យាយាម​ម្ដងទៀត។"</string>
+    <string name="delete_all">"លុប​ទាំង​អស់"</string>
+    <string name="delete_all_msg">"តើអ្នកពិតជាចង់​លុប​ពុម្ពគំរូ​ដែលបានចុះឈ្មោះ​ទាំងអស់​ឬ?"</string>
+    <string name="got_it">"អស្ចារ្យ! ខ្ញុំយល់។"</string>
+    <string name="set_key_phrase">"កំណត់ឃ្លាគន្លឹះ"</string>
+    <string name="set_key_phrase_name">"កំណត់​ឈ្មោះឃ្លាគន្លឹះ"</string>
+    <string name="set_key_phrase_action">"កំណត់សកម្មភាព"</string>
+    <string name="change_key_phrase_action">"ផ្លាស់ប្ដូរសកម្មភាព"</string>
+    <string name="phrase_strength">"ប្រវែងឃ្លា"</string>
+    <string name="phrase_strength_hint">"សាកល្បងប្រើ​ឃ្លា​ដែលមានយ៉ាងហោចណាស់បីពាក្យ។"</string>
+    <string name="register_phrase">"ចុះឈ្មោះឃ្លា"</string>
+    <string name="register_phrase_hint">"ដើម្បីជួយ​ឲ្យខ្ញុំស្គាល់សំឡេងរបស់អ្នក សូម​ថតសំឡេងឃ្លា \"&lt;b&gt;%1$s&lt;/b&gt;\" បីដង។"</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" ថតសំឡេងនៅក្នុងបន្ទប់ស្ងាត់។\n\n"<b>"2."</b>" កាន់ទូរស័ព្ទឲ្យឆ្ងាយ​ពីមាត់របស់អ្នក។\n\n"<b>"3."</b>" និយាយ​ឃ្លាគន្លឹះរបស់អ្នកតាមធ​ម្មតា។"</string>
+    <string name="ready_to_record">"អូខេ ខ្ញុំរួចរាល់ដើម្បីថតសំឡេងហើយ"</string>
+    <string name="oops">"អុព្ហ! ព្យាយាមម្ដងទៀត។"</string>
+    <string name="say_the_phrase">"និយាយឃ្លា \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"ឃ្លា \"&lt;b&gt;%1$s&lt;/b&gt;\" ត្រូវបានចុះឈ្មោះ"</string>
+    <string name="say_the_phrase_few_more">"និយាយ \"&lt;b&gt;%1$s&lt;/b&gt;\" ពីរបីដងទៀត"</string>
+    <string name="voice_print">"ការបោះពុម្ពសំឡេង"</string>
+    <string name="cancel">"បោះ​បង់"</string>
+    <string name="voice_level">"កម្រិតសំឡេង"</string>
+    <string name="background_noise">"សំឡេងរំខានផ្ទៃខាងក្រោយ"</string>
+    <string name="cap_done">"រួចរាល់"</string>
+    <string name="cap_record">"ថតសំឡេង"</string>
+    <string name="cap_next">"បន្ទាប់"</string>
+    <string name="cap_ok">"យល់ព្រម"</string>
+    <string name="next">"បន្ទាប់"</string>
+    <string name="new_key_phrase">"ឃ្លាគន្លឹះថ្មី"</string>
+    <string name="edit_keyphrases">"កែសម្រួលឃ្លាគន្លឹះ"</string>
+    <string name="set_name">"កំណត់ឈ្មោះ"</string>
+    <string name="select_key_phrase">"ជ្រើសឃ្លាគន្លឹះ"</string>
+    <string name="set_action">"កំណត់សកម្មភាព"</string>
+    <string name="registration_complete">"ការចុះឈ្មោះបានបញ្ចប់"</string>
+    <string name="confirm_pin">"បញ្ជាក់លេខ PIN"</string>
+    <string name="confirm_pin_msg">"វាយបញ្ចូល​លេខ PIN ឧបករណ៍​ដើម្បី​កែសម្រូល​ឃ្លា​គន្លឹះ។"</string>
+    <string name="your_key_phrase">"ឃ្លាគន្លឹះរបស់អ្នក"</string>
+    <string name="cap_redo">"ធ្វើឡើងវិញ"</string>
+    <string name="cap_redo_previous">"ធ្វើឃ្លាមុនឡើងវិញ"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"រកមើលឃ្លាដែលបានផ្ដល់អនុសាសន៍"</string>
+    <string name="create_your_own">"បង្កើតឃ្លា​ផ្ទាល់ខ្លួន​របស់អ្នក"</string>
+    <string name="skip">"រំលង"</string>
+    <string name="none">"គ្មាន"</string>
+    <string name="enter_pin">"វាយបញ្ចូល​លេខ PIN ឧបករណ៍​ដើម្បី​កែសម្រូល​ឃ្លា​គន្លឹះ។"</string>
+    <string name="your_key_phrase_name">"ឈ្មោះ​ឃ្លាគន្លឹះ​របស់អ្នក"</string>
+    <string name="new_key_phrase_name">"ឈ្មោះ​ឃ្លា​គន្លឹះថ្មី"</string>
+    <string name="set_service_to_launch">"កំណត់សេវាដើម្បីចាប់ផ្ដើម"</string>
+    <string name="email">"អ៊ីមែល"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"ផ្ញើសារជាអក្សរ"</string>
+    <string name="use_selected_phrase">"ប្រើ​ឃ្លាដែលបានជ្រើសរើស"</string>
+    <string name="about">"អំពី"</string>
+    <string name="edit_key_phrases">"កែសម្រួលឃ្លាគន្លឹះ"</string>
+    <string name="invalid_phrasename_title">"ឈ្មោះឃ្លាមិនត្រឹមត្រូវ"</string>
+    <string name="invalid_phrasename_msg">"ឈ្មោះឃ្លាមិនអាចទទេបានទេ។"</string>
+    <string name="duplicate_phrasename_msg">"ឈ្មោះឃ្លានោះមានរួចហើយ។ សាកល្បងឈ្មោះផ្សេង។"</string>
+    <string name="invalid_phrase_title">"ឃ្លាមិនត្រឹមត្រូវ"</string>
+    <string name="invalid_phrase_msg">"ឃ្លាមិនអាចទទេបានទេ។"</string>
+    <string name="edit_action">"កែសម្រួលសកម្មភា"</string>
+    <string name="threshold">"កម្រិតពន្លឺ"</string>
+    <string name="delete_phrase">"លុបឃ្លា"</string>
+    <string name="rename">"ប្ដូរឈ្មោះ"</string>
+    <string name="rename_keyphrase">"ប្ដូរឈ្មោះឃ្លាគន្លឹះ"</string>
+    <string name="adjust_keyword_sensitivity">"កែតម្រូវ​ភាពប្រែប្រួលពាក្យគន្លឹះ"</string>
+    <string name="adjust_keyword_sensitivity_summary">"ភាពប្រែប្រួល​អាចត្រូវបានកែតម្រូវ​ដើម្បីអនុញ្ញាត​ឲ្យវ៉ារ្យ៉ង់មួយចំនួន​នៅក្នុង​ការទទួលស្គាល់​ឃ្លាគន្លឹះ។"</string>
+    <string name="sensitivity">"ភាពប្រែប្រួល​"</string>
+    <string name="low_sensitivity">"ភាពប្រែប្រួល​ទាប"</string>
+    <string name="med_sensitivity">"ភាពប្រែប្រួល​មធ្យម"</string>
+    <string name="high_sensitivity">"ភាពប្រែប្រួល​ខ្ពស់"</string>
+    <string name="low">"ទាប"</string>
+    <string name="med">"មធ្យម"</string>
+    <string name="high">"ខ្ពស់"</string>
+    <string name="low_sensitivity_summary">"ទទួលយក​វ៉ារ្យ៉ង់បន្ថែមទៀត​នៅក្នុងដំណើរការ​ទទួលស្គាល់​ឃ្លាគន្លឹះ។"</string>
+    <string name="med_sensitivity_summary">"ទទួលយក​វ៉ារ្យ៉ង់បន្ថែមទៀត​នៅក្នុងដំណើរការ​ទទួលស្គាល់​ឃ្លាគន្លឹះ ប៉ុន្តែអាចនឹងរារាំង​ឃ្លាគន្លឹះមួយចំនួន​មិន​ឲ្យ​ត្រូវបាន​ស្គាល់។"</string>
+    <string name="high_sensitivity_summary">"សន្តិសុខបន្ថែម ប៉ុន្តែអាចនឹងរារាំង​ឃ្លាគន្លឹះមួយចំនួន​មិន​ឲ្យ​ត្រូវបាន​ស្គាល់។"</string>
+    <string name="keyword_sensitivity">"ភាពប្រែប្រួលនៃពាក្យគន្លឹះ"</string>
+    <string name="delete_phrase_msg">"តើអ្នកពិតជាចង់​លុប \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"មិនមានការបោះពុម្ពសំឡេង"</string>
+    <string name="voice_print_not_available_msg">"ការបោះពុម្ពសំឡេង​មិនត្រូវបានបើក​នៅលើឧបករណ៍​នេះទេ។"</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"លុបដោយជោគជ័យ"</string>
+    <string name="delete_success_msg">"ម៉ូដែល​ឃ្លាគន្លឹះ​ត្រូវបាន​លុប។"</string>
+    <string name="delete_fail_title">"លុប​បានបរាជ័យ"</string>
+    <string name="delete_fail_msg">"កំហុសមួយបានកើត​ឡើង​ក្នុងពេលលុបម៉ូដែល​ឃ្លាគន្លឹះ។"</string>
+    <string name="rename_success_title">"ប្ដូរឈ្មោះដោយជោគជ័យ"</string>
+    <string name="rename_success_msg">"ម៉ូដែល​ឃ្លាគន្លឹះ​ត្រូវបានប្ដូរឈ្មោះ។"</string>
+    <string name="rename_fail_title">"ប្ដូរឈ្មោះបានបរាជ័យ"</string>
+    <string name="rename_fail_msg">"កំហុសមួយបានកើតឡើង​ក្នុងពេលប្ដូរឈ្មោះម៉ូដែល​ឃ្លាគន្លឹះ។"</string>
+    <string name="pin_validation">"ការធ្វើឲ្យ PIN មានសុពលភាព"</string>
+    <string name="pin_failed">"ធាតុ​បញ្ចូល PIN មិនត្រឹមត្រូវ!"</string>
+    <string name="registration_failed">"ការចុះឈ្មោះបានបរាជ័យ"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"កម្រិតពន្លឺអ្នកប្រើ"</string>
+    <string name="spoof_score">"កម្រិតពន្លឺបង្កើនសមត្ថភាពបញ្ជូនសារ"</string>
+    <string name="thresholds">"កម្រិតពន្លឺនានា"</string>
+    <string name="save">"រក្សាទុក"</string>
+    <string name="sentence_score_msg">"កំណត់កម្រិតពន្លឺប្រយោគ"</string>
+    <string name="user_score_msg">"កំណត់កម្រិតពន្លឺអ្នកប្រើ"</string>
+    <string name="spoof_score_msg">"កំណត់កម្រិតពន្លឺបង្កើនសមត្ថភាពបញ្ជូនសារ"</string>
+    <string name="sentence_score">"កម្រិតពន្លឺប្រយោគ"</string></resources>

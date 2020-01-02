@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Ayarlar"</string>
+    <string name="body_msg">"FidoCryptoService test ediliyor"</string>
+    <string name="load">"yükle"</string>
+    <string name="unload">"boşalt"</string>
+    <string name="process">"İşle"</string>
+    <string name="start">"başlat"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"FIDO Hizmetini Bağla"</string>
+    <string name="unbindFido">"FIDO Hizmetini Ayır"</string>
+    <string name="setChallenge">"Görevi Ayarla"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Kimlik Doğrulayıcıya Bağlan"</string>
+    <string name="verifyUser">"KullanıcıyıDoğrula / KoduAl"</string>
+    <string name="GetInfo">"GetInfo"</string>
+    <string name="Register">"Kaydet"</string>
+    <string name="Deregister">"Kaydı Sil"</string>
+    <string name="OpenSettings">"OpenSettings"</string>
+    <string name="Sign">"Giriş Yap"</string>
+    <string name="MalformedRequest">"MalformedRequest"</string>
+    <string name="selectAuth">"Kimlik Doğrulayıcıyı Seç"</string>
+    <string name="getEnrollmentStatus">"Kayıt Durumunu Al"</string>
+    <string name="RegisterExt">"Uzantılarla Kaydol"</string>
+    <string name="SignExt">"Uzantılarla İmzala"</string>
+    <string name="encResult">"Kapsüllenmiş Sonuç"</string>
+    <string name="extResult">"Uzantı Verileri"</string>
+    <string name="selectFidoOpText">"FIDO işlemini seç"</string>
+    <string name="show_message_sui">"mesaj dize tanıtıcısını göster"</string>
+    <string name="fido_sui_service">"fido dize tanıtıcısı hizmeti"</string>
+    <string name="bindFidoSui">"fido dize tanıtıcısını bağla"</string>
+    <string name="unbindFidoSui">"fido dize tanıtıcısını ayır"</string>
+    <string name="suiResultTitle">"mesaj dize tanıtıcısı sonucunu göster"</string>
+    <string name="cancel_sui">"dize tanıtıcısını iptal et"</string>
+    <string name="extensionText">"Uzantılar kullanılsın mı?"</string>
+    <string name="pngText">"PNG İçeriği kullanılsın mı?"</string>
+    <string name="fpText">"Güvenli Parmak İzi"</string>
+    <string-array name="authenticator_array">
+        <item>"Sahte Kimlik Doğrulayıcı"</item>
+        <item>"Örnek Kimlik Doğrulayıcı"</item>
+        <item>"Güvenli Örnek Kimlik Doğrulayıcı"</item>
+        <item>"Örnek Uzantı Kimlik Doğrulayıcı"</item>
+        <item>"Güvenli Uzantı Kimlik Doğrulayıcı"</item>
+        <item>"Cihaz Durumu Doğrulama"</item>
+        <item>"Güvenli Örnek Kimlik Doğrulayıcı IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Bilgi Al"</item>
+        <item>"Kaydet"</item>
+        <item>"Kaydı Sil"</item>
+        <item>"Ayarları Aç"</item>
+        <item>"Hatalı Oluşturulmuş Özel Durum"</item>
+        <item>"İmza (Kimlik Doğrulama)"</item>
+        <item>"İmza (TX)"</item>
+    </string-array></resources>

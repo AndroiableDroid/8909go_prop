@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+ * Copyright (c) 2013, The Linux Foundation. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *        * Redistributions of source code must retain the above copyright
+ *            notice, this list of conditions and the following disclaimer.
+ *        * Redistributions in binary form must reproduce the above copyright
+ *            notice, this list of conditions and the following disclaimer in the
+ *            documentation and/or other materials provided with the distribution.
+ *        * Neither the name of The Linux Foundation nor
+ *            the names of its contributors may be used to endorse or promote
+ *            products derived from this software without specific prior written
+ *            permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NON-INFRINGEMENT ARE DISCLAIMED.    IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+-->
+<resources>
+    <string name="off">"OFF"</string>
+    <string name="mild">"가벼움"</string>
+    <string name="high">"높음"</string>
+    <string name="link">"링크 손실 수준"</string>
+    <string name="path">"경로 손실 수준"</string>
+    <string name="threshold">"임계값 설정"</string>
+    <string name="threshold_min">"최소 임계값"</string>
+    <string name="threshold_max">"최대 임계값"</string>
+    <string name="app_name">"근접 모니터"</string>
+    <string name="action_settings">"설정"</string>
+    <string name="menu_disconnect">"연결 해제"</string>
+    <string name="menu_connect">"연결"</string>
+    <string name="menu_stop">"중지"</string>
+    <string name="connected">"연결된 기기"</string>
+    <string name="paired">"페어링된 기기에 연결"</string>
+    <string name="scan">"기기 검색"</string>
+    <string name="connect_to">"기기에 연결"</string>
+    <string name="history">"알림 기록"</string>
+    <string name="device_address">"연결"</string>
+    <string name="title">"블루투스 기기 주소 삽입"</string>
+    <string name="connect">"연결"</string></resources>

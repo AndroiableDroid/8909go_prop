@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="file_not_exist">"ফাইল বিদ্যমান নয়"</string>
+    <string name="show_properties">"বিশিষ্টতা প্রদর্শন করুন"</string>
+    <string name="app_name">"Drm"</string>
+    <string name="buy_license">"লাইসেন্স কিনুন"</string>
+    <string name="drm_activity">"Drm কার্যকলাপ"</string>
+    <string name="open_files">"ফাইল খুলুন"</string>
+    <string name="service_connected">"আহা, DRM পরিষেবা সংযুক্ত, দারুন"</string>
+    <string name="service_disconnected">"ওহো, DRM পরিষেবার সংযোগ বিচ্ছিন্ন, দারুন"</string>
+    <string name="service_binded">"আহা, DRM পরিষেবা বাইন্ড করা হয়েছে, দারুন"</string>
+    <string name="service_unbinded">"ওহো, DRM পরিষেবা আনবাইন্ড করা হয়েছে, দারুন"</string>
+    <string name="tv_fl">"আপনি এই বিষয়বস্তু কোনো সীমাবদ্ধতা ছাড়াই উপভোগ করতে পারবেন"</string>
+    <string name="tv_cantbuy">"আপনার কাছে কোনো বৈধ লাইসেন্স নেই, কিন্তু আমরা লাইসেন্স ঠিকানা প্রাপ্ত করতে পারছি না বলে আপনার জন্য লাইসেন্স কিনতে পারব না"</string>
+    <string name="tv_wantbuy">"আপনার কাছে কোনো বৈধ লাইসেন্স নেই, আপনি কি আরও কয়েকটি কিনতে চান?"</string>
+    <string name="tv_buyviapc">"দুঃখিত... আমরা OTA-এর মাধ্যমে লাইসেন্স প্রাপ্ত করতে পারি না, অনুগ্রহ করে সেগুলিকে MTP-র মাধ্যমে PC থেকে প্রাপ্ত করুন"</string>
+    <string name="tv_finishdownload">"ফাইলটি %%% ইনস্টল করা হয়েছে। আপনি কি সেটি খুলতে চান?"</string>
+    <string name="sdcard_busy">"SD কার্ড এখন ব্যস্ত। SD কার্ড অ্যাক্সেস করার অনুমতি দিতে অনুগ্রহ করে USB সঞ্চয়স্থান মোড থেকে প্রস্থান করুন।"</string>
+    <string name="yes">"হ্যাঁ"</string>
+    <string name="no">"না"</string>
+    <string name="ok">"ওকে"</string>
+    <string name="file_not_supported">"CD/SD Drm ফাইলগুলি সমর্থিত নয়"</string>
+    <string name="no_rights">"এই ফাইলের কোনো অধিকার উপলভ্য নয় :("</string>
+    <string name="execute_permission">"অনুমতি সম্পাদন করুন"</string>
+    <string name="play_permission">"প্লে অনুমতি"</string>
+    <string name="display_permission">"প্রদর্শন অনুমতি"</string>
+    <string name="print_permission">"মুদ্রণ অনুমতি"</string>
+    <string name="license">"লাইসেন্স"</string>
+    <string name="of">"এর"</string>
+    <string name="count">"গণনা"</string>
+    <string name="interval_str">"বিরতি"</string>
+    <string name="start_date">"সূচনা তারিখ"</string>
+    <string name="end_date">"সমাপ্তি তারিখ"</string>
+    <string name="seconds">"সেকেন্ড"</string>
+    <string name="no_activitiy_found">"ঠিকানা পরিচালনা করার কোনো কার্যকলাপ খুঁজে পাওয়া যায়নি: "</string></resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of The Linux Foundation nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Strings for step option settins -->
+    <string name="setp_option_name">"Paso"</string>
+    <string name="step_option_desc">"Personalizar paso avance rápido/rebobinar"</string>
+    <string name="setp_option_three_second">"3 segundos"</string>
+    <string name="setp_option_six_second">"6 segundos"</string>
+    <string name="loop">"Repetir"</string>
+    <string name="single">"Única"</string>
+    <string name="stereo">"Estéreo"</string>
+    <string name="speaker_on">"Altavoz ACTIVADO"</string>
+    <string name="speaker_off">"Altavoz DESACTIVADO"</string>
+    <string name="speaker_need_headset">"Primero conecta unos auriculares."</string>
+    <string name="single_track">"Pista única"</string>
+    <string name="media_detail">"Detalles multimedia"</string>
+    <string name="input_url">"Entrada URL"</string>
+    <string name="streaming_settings">"Ajustes de Streaming"</string>
+    <string name="next">"Siguiente"</string>
+    <string name="previous">"Previo"</string>
+    <string name="rtp_rtcp">"RTP/RTCP"</string>
+    <string name="min_port">"puerto mín:"</string>
+    <string name="max_port">"puerto máx:"</string>
+    <string name="buffer_size">"Tamaño de Búffer"</string>
+    <string name="apn">"APN preferido"</string>
+    <string name="rtp_min_port">"Puerto mín.:"</string>
+    <string name="rtp_max_port">"Puerto máx.:"</string>
+    <string name="set_rtp_min_port">"Establecer puerto mín."</string>
+    <string name="set_rtp_max_port">"Establecer puerto máx."</string>
+    <string name="set_buffer_size">"Establecer tamaño de búffer"</string>
+    <string name="set_apn">"Seleccionar APN preferido"</string>
+    <string name="setting">"Configuración"</string>
+    <string name="server_timeout_title">"Tiempo de espera de servidor agotado"</string>
+    <string name="server_timeout_message">"¿Conectar de nuevo al servidor para reproducir el vídeo?"</string>
+    <string name="videoview_error_text_cannot_connect_retry">"Error de conexión, intenta conectar de nuevo con %1$d..."</string>
+    <string name="media_controller_live">"En vivo"</string>
+    <string name="media_controller_playing">"Reproduciendo"</string>
+    <string name="media_controller_connecting">"Conectando..."</string>
+    <string name="bookmark_add">"Añadir marcador"</string>
+    <string name="bookmark_display">"Mostrar marcadores"</string>
+    <string name="bookmark_empty">"Sin marcadores"</string>
+    <string name="bookmark_exist">"Mismos marcadores en historial"</string>
+    <string name="bookmark_add_success">"Marcadores añadidos con éxito"</string>
+    <string name="bookmark_list">"Marcadores"</string>
+    <string name="bookmark_title">"Título"</string>
+    <string name="bookmark_location">"Ubicación"</string>
+    <string name="delete_all">"Borrar todo"</string>
+    <string name="default_title">"Título por defecto"</string></resources>

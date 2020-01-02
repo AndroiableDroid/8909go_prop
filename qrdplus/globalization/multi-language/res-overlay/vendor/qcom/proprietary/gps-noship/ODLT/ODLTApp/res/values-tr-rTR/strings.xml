@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"GPS Hata Ayıklama Etkinliği"</string>
+     <string name="cameraActivity">"Kamera"</string>
+     <string name="newTrackingSession">"Yeni Takip Oturumu"</string>
+     <string name="newTrackingSession_nameLabel">"Ad"</string>
+     <string name="newTrackingSession_numFixesLabel">"Sabit Numara"</string>
+     <string name="newTrackingSession_descriptionLabel">"Açıklama"</string>
+     <string name="newTrackingSession_startButtonLabel">"Başlat"</string>
+     <string name="testConfig">"Test Yapılandırması"</string>
+     <string name="testConfig_configNameLabel">"Yapılandırma Adı"</string>
+     <string name="testConfig_numFixesLabel">"Sabit Numara (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"Test Yapılandırma Açıklaması"</string>
+     <string name="testConfig_startButtonLabel">"Testi Başlat"</string>
+     <string name="testConfig_RadioLabel">"Uygulama Takibi veya Tek Çekim"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"Tek Çekim"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"Uygulama Takibi"</string>
+     <string name="testConfig_qosTimeoutLabel">"Tercih Edilen Resp Süresi (sn)"</string>
+     <string name="testConfig_qosAccuracyLabel">"Tercih Edilen Doğruluk (dak)"</string>
+     <string name="testConfig_tbfLabel">"Minimum Aralık (sn)"</string>
+     <string name="testConfig_staticTruthLabel">"Statik Doğruluk Konumu (kullanmak için kontrol et)"</string>
+     <string name="testConfig_latLabel">"Enlem"</string>
+     <string name="testConfig_lonLabel">"Boylam"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"Loc API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"GPL Hizmeti"</string>
+     <string name="testConfig_sessionTypeLabel">"Yineleme Türü"</string>
+     <string name="testConfig_apiTypeLabel">"API Türü"</string>
+    <string name="labelUnknownPrivacy">"bilinmiyor"</string>
+    <string name="labelGetPrivacy">"Gizlilik Edin"</string>
+    <string name="labelSetPrivacySetting">"Gizliliği Ayarla"</string>
+    <string name="name_vzw_client">"Vzw İstemcisi"</string>
+    <string name="name_normal_client">"Normal Android"</string>
+    <string name="LabelModeSel">"Mod"</string>
+    <string name="LabelNumFixSel">"Sabit No"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"Durum..."</string>
+    <string name="str_nodata">"Veri Yok"</string>
+    <string name="str_waitingforposinfo">"\nKonum Bilgisi Bekleniyor...\n"</string>
+    <string name="str_searchingforsvs">"\nSV\'ler aranıyor...\n"</string>
+    <string name="str_configsummary">"\nYapılandırma Özeti\n"</string>
+    <string name="str_alarms">"\nAlarmlar:\n\n"</string>
+    <string name="str_starttest">"Testi Başlat"</string>
+    <string name="str_sessionplayback">"Oturum Oynatma"</string>
+    <string name="str_proximityalerts">"Yakınlık Uyarıları"</string>
+    <string name="str_proximity_info">"Yakınlık Bilgisi"</string>
+    <string name="str_options">"Seçenekler"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"Bağımsız"</item>
+<item>"AFLT"</item>
+<item>"Hız Optimize Edildi"</item>
+<item>"Doğruluk Optimize Edildi"</item>
+<item>"Veri Optimize Edildi"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"Onarım arasındaki süre (sn)"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"PDE Addr"</string>
+<string name="LabelAccuracyH">"Tercih edilen doğruluk (Sa, dak)"</string>
+<string name="LabelAccuracyV">"Tercih edilen doğruluk (V, dak)"</string>
+<string name="LabelMaxResponseTime">"Zaman aşımı (sn)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"Normal yığınla çalıştır"</string>
+<string name="LabelRunOne">"VzW\'yi çalıştır"</string>
+<string name="LabelRunState1">"FSM Testi 1"</string>
+<string name="LabelRunState2">"FSM Testi 2"</string>
+<string name="EnigneStatus">"Enigne Durumu"</string>
+<string name="NA">"Yok"</string>
+<string name="GpsStatus">"Gps Durumu"</string>
+<string name="Session">"Oturum"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"Tür"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"Mod"</string>
+<string name="stop">"Durdur"</string>
+<string name="labelPdePort">"PDE Bağlantı Noktası"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"Yalnızca 911"</item>
+<item>"AÇIK"</item>
+</string-array>
+<string name="non_aiding">"Tüm Yardımın Seçimini Kaldır"</string>
+<string name="all_aiding">"Tüm Yardımı Seç"</string>
+<string name="done">"Seçileni Sil"</string>
+<string name="Ephemeris">"Efemeri"</string>
+<string name="GLO_Ephemeris">"GLO Efemerisi"</string>
+<string name="Alamanac">"Almanak"</string>
+<string name="GLO_Alamanac">"GLO Almanağı"</string>
+<string name="Alamanac_Corr">"Almanak Corr"</string>
+<string name="GLO_Alamanac_Corr">"GLO Almanağı Corr"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"SV Rotası"</string>
+<string name="GLO_SV_Steer">"GLO SV Rotası"</string>
+<string name="Cell_DB_Info">"DB Hücresi Bilgisi"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"GPS Saati"</string>
+<string name="GLO_Time">"GLO Saati"</string>
+<string name="Freq_Bias_Est">"Frek Dengelemesi Est"</string>
+<string name="Time">"Saat"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"Sağlık"</string>
+<string name="SA_Data">"SA Verileri"</string>
+<string name="position">"konum"</string>
+<string name="str_wbiq_runscript">"Komut Dizesini Çalıştır"</string>
+<string name="str_wbiq_stopgps">"RF Modundan Çık"</string>
+<string name="str_wbiq_startgps">"RF Moduna Gir"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"Otomatik Cihaz Kaydı Tutma"</string>
+<string name="str_wbiq_chk_delaystart">"Başlangıcı (Başlangıçları) Geciktir"</string>
+<string name="str_wbiq_chk_autostop">"Otomatik Durdurma(lar)"</string>
+<string name="str_wbiq_chk_otfsa">"OTFSA\'yı Etkinleştir"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"Sn"</string>
+<string name="str_proximity_clearalerts">"Uyarıları Temizle"</string>
+<string name="str_proximity_savealertsfile">"Uyarılar Dosyasını Kaydet"</string>
+<string name="str_proximity_loadalertsfile">"Uyarılar Dosyasını Yükle"</string>
+<string name="str_proximity_deletealertsfile">"Uyarılar Dosyasını Sil"</string>
+<string name="str_proximity_logging">"Kayıt Tutma"</string>
+<string name="str_proximity_autostartenabled">"Otomatik Başlat"</string>
+<string name="str_proximity_autostartfile">"Dosyayý Otomatik Baþlatmayý Seç"</string>
+<string name="str_proximity_smsnumber">"SMS Bildirimi Sayısı"</string>
+<string name="str_proximity_geofencelisttab_add">"Ekle"</string>
+<string name="str_proximity_geofencelisttab_delet">"Sil"</string>
+<string name="str_proximity_geofencelisttab_edit">"Düzenle"</string>
+<string name="str_locbatchingtab_btn_s">"Sn"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[Ortalama, Min, Maks] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"Yığını Al"</string>
+<string name="str_powerest_summary">"Özet:"</string>
+<string name="str_powerest_plot_label"/></resources>

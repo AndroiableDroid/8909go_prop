@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Overlay Wi\u2011Fi to WLAN -->
+    <string name="radio_controls_summary">"Gestionați WLAN, Bluetooth, modul avion, rețelele mobile și VPN-urile"</string>
+    <string name="wifi_assistant_intro_setup">"Se introduce\nAsistentul WLAN"</string>
+    <string name="wifi_assistant_card_message">"Conectați-vă automat la rețelele disponibile cu un asistent WLAN."</string>
+    <string name="wifi_assistant_title">"Asistent WLAN"</string>
+    <string name="wifi_assistant_title_message">"Asistentul Google WLAN se conectează automat la cel mai bună WLAN disponibilă"</string>
+    <string name="wifi_assistant_explanation_message">"Asistentul Google WLAN detectează rețelele disponibile și conectează dispozitivul la unul cu viteză și fiabilitate optime."</string>
+    <string name="wifi_assistant_vpn_message">"Pentru a ajuta la protecția datelor, asistentul Google WLAN poate furniza o conexiune VPN sigură prin serverele Google."</string>
+    <string name="wifi_assistant_dialog_message">"Asistentul WLAN vrea să configureze o conexiune VPN care îi permite să monitorizeze traficul de rețea.  Acceptați numai dacă aveți încredere în sursă."</string>
+    <string name="wifi_assistant_permission_accepted">"Aveți permisiunea “Asistent Google WLAN” pentru a configura o conexiune VPN. Acest lucru înseamnă că aplicația poate monitoriza traficul în rețea."</string>
+    <string name="wifi_quick_toggle_title">"WLAN"</string>
+    <string name="wifi_quick_toggle_summary">"Activați WLAN"</string>
+    <string name="wifi_settings">"WLAN"</string>
+    <string name="wifi_settings_category">"Setări WLAN"</string>
+    <string name="wifi_settings_title">"WLAN"</string>
+    <string name="wifi_setup_wizard_title">"Selectați WLAN"</string>
+    <string name="wifi_select_network">"Selectați WLAN"</string>
+    <string name="wifi_starting">"Se activează WLAN\u2026"</string>
+    <string name="wifi_stopping">"Se dezactivează WLAN\u2026"</string>
+    <string name="wifi_poor_network_detection_summary">"Nu utilizați o rețea WLAN decât dacă are o conexiune bună la internet"</string>
+    <string name="wifi_scan_always_available_summary">"Permite serviciului de localizare Google și celorlalte aplicații să scaneze după rețele, chiar dacă WLAN este dezactivată"</string>
+    <string name="wifi_automatically_manage_title">"Gestionați automat WLAN"</string>
+    <string name="wifi_automatically_manage_summary">"Permiteți unui asistent WLAN să gestioneze conexiunea WLAN"</string>
+    <string name="wifi_assistant_setting_title">"Asistent WLAN"</string>
+    <string name="wifi_assistant_setting_summary">"Asistent Google WLAN"</string>
+    <string name="wifi_setting_sleep_policy_title">"Păstrați WLAN activat în timpul somnului"</string>
+    <string name="wifi_setting_on_during_sleep_title">"WLAN activat în timpul somnului"</string>
+    <string name="wifi_suspend_optimizations">"Optimizare WLAN"</string>
+    <string name="wifi_suspend_optimizations_summary">"Minimizați utilizarea bateriei când WLAN este activat"</string>
+    <string name="wifi_limit_optimizations_summary">"Limită baterie utilizată de WLAN"</string>
+    <string name="wifi_access_points">"Rețele WLAN"</string>
+    <string name="wifi_menu_p2p">"WLAN Direct"</string>
+    <string name="wifi_empty_list_wifi_off">"Pentru a vedea rețelele disponibile, activați WLAN."</string>
+    <string name="wifi_empty_list_wifi_on">"Se caută rețele WLAN\u2026"</string>
+    <string name="wifi_empty_list_user_restricted">"Nu aveți permisiunea de modificare a rețelei WLAN."</string>
+    <string name="wifi_required_info_text">"Pentru a finaliza configurarea, tableta are nevoie de acces la WLAN. După configurare, puteți comuta între datele mobile și WLAN."</string>
+    <string name="wifi_wps_setup_title">"Configurare protejată WLAN"</string>
+    <string name="wifi_wps_onstart_pbc">"Apăsați butonul Configurare protejată WLAN de pe router. Acesta poate apărea ca „WPS” sau poate conține acest simbol:"</string>
+    <string name="wifi_wps_onstart_pin">"Introduceți PIN-ul <xliff:g id="number">%1$s</xliff:g> pe routerul WLAN. Finalizarea configurării poate dura până la două minute."</string>
+    <string name="wifi_wps_connected">"Conectat la rețeaua WLAN <xliff:g id="network_name">%s</xliff:g>"</string>
+    <string name="wifi_skipped_message" product="tablet">"AVERTISMENT: dacă omiteți WLAN, tableta va utiliza numai datele mobile pentru descărcările și actualizările inițiale. Pentru a evita taxele de date posibile, conectați-vă la WLAN."</string>
+    <string name="wifi_skipped_message" product="device">"AVERTISMENT: dacă omiteți WLAN, dispozitivul va utiliza doar datele mobile pentru descărcări și actualizări inițiale. Pentru a evita taxele de date posibile, conectați-vă la WLAN."</string>
+    <string name="wifi_skipped_message" product="default">"AVERTISMENT: dacă omiteți WLAN, telefonul va utiliza doar datele mobile descărcările și actualizările inițiale. Pentru a evita taxele de date posibile, conectați-vă la WLAN."</string>
+    <string name="wifi_and_mobile_skipped_message" product="tablet">"AVERTISMENT: Dacă omiteți WLAN, tableta nu va avea o conexiune la internet pentru utilizarea cu orice descărcări sau actualizări inițiale."</string>
+    <string name="wifi_and_mobile_skipped_message" product="device">"AVERTISMENT: Dacă omiteți WLAN, dispozitivul nu va avea o conexiune la internet pentru utilizarea cu orice descărcări sau actualizări inițiale."</string>
+    <string name="wifi_and_mobile_skipped_message" product="default">"AVERTISMENT: Dacă omiteți WLAN, telefonul nu va avea o conexiune la internet pentru utilizarea cu orice descărcări sau actualizări inițiale."</string>
+    <string name="wifi_connect_failed_message" product="tablet">"Tableta nu s-a putut conecta la această rețea WLAN."</string>
+    <string name="wifi_connect_failed_message" product="device">"Dispozitivul nu s-a putut conecta la această rețea WLAN."</string>
+    <string name="wifi_connect_failed_message" product="default">"Telefonul nu s-a putut conecta la această rețea WLAN."</string>
+    <string name="wifi_advanced_titlebar">"WLAN avansată"</string>
+    <string name="wifi_setting_frequency_band_title">"Bandă de frecvență WLAN"</string>
+    <string name="wifi_p2p_settings_title">"WLAN Direct"</string>
+    <string name="wifi_tether_checkbox_text">"Hotspot WLAN portabil"</string>
+    <string name="wifi_hotspot_checkbox_text">"Hotspot WLAN"</string>
+    <string name="wifi_hotspot_checkbox_text_summary">"Utilizați conexiunea mobilă pentru a furniza rețeaua WLAN"</string>
+    <string name="wifi_tether_failed_subtext">"Eroare hotspot WLAN portabil"</string>
+    <string name="wifi_tether_configure_ap_text">"Configurați hotspotul WLAN"</string>
+    <string name="wifi_hotspot_configure_ap_text">"Configurare hotspot WLAN"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">"Hotspot WLAN portabil AndroidAP WPA2 PSK"</string>
+    <string name="wifi_tether_configure_subtext">"<xliff:g id="network_ssid">%1$s</xliff:g> <xliff:g id="network_security">%2$s</xliff:g> hotspot WLAN portabil"</string>
+    <string name="status_wifi_mac_address">"Adresă WLAN MAC"</string>
+    <string name="network_scorer_change_active_dialog_title">"Modificați asistentul WLAN?"</string>
+    <string name="location_mode_high_accuracy_description">"Utilizați GPS, WLAN și rețelele mobile pentru a determina locația "</string>
+    <string name="location_mode_battery_saving_description">"Utilizați WLAN și rețelele mobile pentru a determina locația"</string>
+    <string name="location_network_based">"Locație WLAN și rețea mobilă"</string>
+    <string name="location_neighborhood_level_wifi">"Locație determinată de WLAN"</string>
+    <string name="wifi_verbose_logging">"Activați înregistrarea detaliată în jurnalul de informații Wi-Fi"</string>
+    <string name="wifi_aggressive_handover">"Înlocuire Wi-Fi cu mobil agresivă"</string>
+    <string name="wifi_allow_scan_with_traffic">"Permiteți întotdeauna scanarea traficului WLAN "</string>
+    <string name="wifi_verbose_logging_summary">"Măriți nivelul de înregistrare în jurnalul WLAN, afișați per SSID RSSI în selector WLAN"</string>
+    <string name="wifi_aggressive_handover_summary">"Când este activată, WLAN va fi mai agresivă la predarea conexiunii de date către mobil când semnalul WLAN este slab"</string>
+    <string name="wifi_allow_scan_with_traffic_summary">"Permiteți/Nu permiteți scanarea traficului WLAN în funcție de traficul de date din interfață"</string>
+    <string name="battery_stats_wifi_running_label">"WLAN"</string>
+    <string name="wifi_on_time">"WLAN la timp"</string>
+    <string name="bluetooth_on_time">"WLAN la timp"</string>
+    <string name="power_wifi">"WLAN"</string>
+    <string name="usage_type_wifi_running">"WLAN pornită"</string>
+    <string name="usage_type_data_wifi_send">"Pachete WLAN trimise"</string>
+    <string name="usage_type_data_wifi_recv">"Pachete WLAN primite"</string>
+    <string name="battery_action_wifi">"Setări WLAN"</string>
+    <string name="battery_desc_wifi">"Baterie utilizată de WLAN"</string>
+    <string name="battery_sugg_wifi">"Dezactivați WLAN atunci când nu o utilizați sau când nu este disponibilă"</string>
+    <string name="gadget_toggle_wifi">"Se actualizează setarea WLAN"</string>
+    <string name="gadget_state_template">"<xliff:g name="feature" example="WLAN">%1$s</xliff:g> <xliff:g name="state" example="off">%2$s</xliff:g>"</string>
+    <string name="gadget_wifi">"WLAN"</string>
+    <string name="backup_data_summary">"Creaţi copii de rezervă pentru datele de aplicații, parolele WLAN și alte setări ale serverelor Google"</string>
+    <string name="backup_erase_dialog_message">"Opriți crearea copiilor de rezervă pentru parolele WLAN, marcaje, alte setări și date de aplicații și ștergeți toate copiile de pe serverele Google?"</string>
+    <string name="wifi_setup_title">"Configurare WLAN"</string>
+    <string name="wifi_setup_title_editing_network">"Conectați-vă la rețeaua WLAN <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>"</string>
+    <string name="wifi_setup_title_connecting_network">"Se conectează la rețeaua WLAN <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>\u2026"</string>
+    <string name="wifi_setup_title_connected_network">"Conectat la rețeaua WLAN <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>"</string>
+    <string name="wifi_setup_eap_not_supported">"Nu puteți configura o conexiune EAP WLAN în timpul configurării. După instalare, puteți face acest lucru în Setări &gt; Rețele wireless."</string>
+    <string name="wifi_setup_description_connected">"Atingeți "<b>"Înainte"</b>" pentru a continua configurarea.\n\nAtingeți "<b>"Înapoi"</b>" pentru a vă conecta la o rețea WLAN diferită."</string>
+    <string name="data_usage_menu_show_wifi">"Afișați WLAN"</string>
+    <string name="data_usage_menu_hide_wifi">"Ascundeți WLAN"</string>
+    <string name="data_usage_disable_wifi_limit">"Setați limita de date WLAN"</string>
+    <string name="data_usage_tab_wifi">"WLAN"</string>
+    <string name="data_usage_restrict_background">"Dacă restricționați datele mobile de fundal, unele aplicații și servicii nu vor funcționa decât dacă sunteți conectat(ă) la WLAN."</string>
+    <string name="data_usage_restrict_background_multiuser" product="tablet">"Dacă restricționați datele mobile de fundal, unele aplicații și servicii nu vor funcționa decât dacă sunteți conectat(ă) la WLAN.\n\nAceastă setare afectează toţi utilizatorii de pe această tabletă."</string>
+    <string name="data_usage_restrict_background_multiuser" product="default">"Dacă restricționați datele mobile de fundal, unele aplicații și servicii nu vor funcționa decât dacă sunteți conectat(ă) la WLAN.\n\nAceastă setare afectează toţi utilizatorii de pe acest telefon."</string>
+    <string name="data_usage_metered_wifi">"Rețele WLAN contorizate"</string>
+    <string name="data_usage_metered_wifi_disabled">"Pentru a selecta rețelele contorizate, activați WLAN."</string>
+    <string name="restriction_wifi_config_title">"WLAN și mobile"</string>
+    <string name="restriction_wifi_config_summary">"Permiteți modificarea setărilor WLAN și mobile"</string>
+    <!-- Overlay wi-fi to WLAN -->
+    <string name="keywords_wifi">"conexiune rețea wifi WLAN"</string>
+    <string name="setup_wifi_nfc_tag">"Configurați eticheta WLAN NFC"</string>
+    <string name="wifi_scan_notify_text_location_on">"Pentru a îmbunătăți precizia locației, dar și în alte scopuri, Google și alte aplicații pot căuta rețele în apropiere, chiar dacă rețeaua WLAN este dezactivată. Dacă nu doriți acest lucru, accesați Avansate &gt; Scanare mereu disponibilă."</string>
+    <string name="wifi_scan_notify_text_location_off">"Aplicațiile pot căuta rețele în apropiere, chiar dacă rețeaua WLAN este dezactivată. Dacă nu doriți acest lucru, accesați Avansate &gt; Scanare mereu disponibilă."</string>
+    <string name="wifi_scan_always_turnon_message">"Pentru a îmbunătăți precizia locației, precum și pentru alte scopuri, <xliff:g id="app_name">%1$s</xliff:g> solicită permisiunea să activeze scanarea rețelelor, chiar și atunci când rețeaua WLAN este dezactivată.\n\nPermiteți acest lucru pentru toate aplicațiile care solicită scanarea?"</string></resources>

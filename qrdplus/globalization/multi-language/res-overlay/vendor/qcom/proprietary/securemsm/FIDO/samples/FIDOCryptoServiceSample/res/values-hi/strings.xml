@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"सेटिंग्स"</string>
+    <string name="body_msg">"FidoCryptoService का परीक्षण करना"</string>
+    <string name="load">"लोड करें"</string>
+    <string name="unload">"अनलोड करें"</string>
+    <string name="process">"प्रक्रिया"</string>
+    <string name="start">"प्रारंभ करें"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"FIDO सेवा आबद्ध करें"</string>
+    <string name="unbindFido">"FIDO सेवा मुक्त करें"</string>
+    <string name="setChallenge">"चुनौती सेट करें"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"प्रमाणक आबद्ध करें"</string>
+    <string name="verifyUser">"उपयोगकर्ता सत्यापित करें / टोकन प्राप्त करें"</string>
+    <string name="GetInfo">"जानकारी प्राप्त करें"</string>
+    <string name="Register">"पंजीकृत करें"</string>
+    <string name="Deregister">"पंजीकरण रद्द करें"</string>
+    <string name="OpenSettings">"सेटिंग्स खोलें"</string>
+    <string name="Sign">"साइन करें"</string>
+    <string name="MalformedRequest">"दूषित अनुरोध"</string>
+    <string name="selectAuth">"प्रमाणक चुनें"</string>
+    <string name="getEnrollmentStatus">"नामांकन स्थिति प्राप्त करें"</string>
+    <string name="RegisterExt">"एक्‍सटेंशन्स के साथ पंजीकृत करें"</string>
+    <string name="SignExt">"एक्‍सटेंशन्स के साथ साइन करें"</string>
+    <string name="encResult">"संपुटित परिणाम"</string>
+    <string name="extResult">"एक्‍सटेंशन डेटा"</string>
+    <string name="selectFidoOpText">"FIDO कार्यवाही चुनें"</string>
+    <string name="show_message_sui">"संदेश sui दिखाएँ"</string>
+    <string name="fido_sui_service">"fido Sui सेवा"</string>
+    <string name="bindFidoSui">"fido sui आबद्ध करें"</string>
+    <string name="unbindFidoSui">"fido sui मुक्त करें"</string>
+    <string name="suiResultTitle">"संदेश sui परिणाम दिखाएँ"</string>
+    <string name="cancel_sui">"sui रद्द करें"</string>
+    <string name="extensionText">"एक्‍सटेंशन्स का उपयोग करें?"</string>
+    <string name="pngText">"PNG सामग्री का उपयोग करें?"</string>
+    <string name="fpText">"सुरक्षित फ़िंगरप्रिंट"</string>
+    <string-array name="authenticator_array">
+        <item>"कृत्रिम प्रमाणक"</item>
+        <item>"नमूना प्रमाणक"</item>
+        <item>"सुरक्षित नमूना प्रमाणक"</item>
+        <item>"नमूना एक्‍सटेंशन प्रमाणक"</item>
+        <item>"सुरक्षित एक्‍सटेंशन प्रमाणक"</item>
+        <item>"डिवाइस स्वास्थ्य Auth"</item>
+        <item>"सुरक्षित नमूना प्रमाणक IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"जानकारी प्राप्त करें"</item>
+        <item>"पंजीकृत करें"</item>
+        <item>"पंजीकरण रद्द करें"</item>
+        <item>"सेटिंग्स खोलें"</item>
+        <item>"विकृत अपवाद"</item>
+        <item>"साइन (Auth)"</item>
+        <item>"साइन (TX)"</item>
+    </string-array></resources>

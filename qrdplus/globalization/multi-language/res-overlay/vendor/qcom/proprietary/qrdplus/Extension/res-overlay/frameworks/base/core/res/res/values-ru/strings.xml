@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_accessWifiState">"просмотр подключений к WLAN"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_accessWifiState">"Позволяет просматривать информацию о  сетях WLAN в приложении, например, о состоянии сети WLAN (вкл. или откл.) и именах устройств, подключенных по WLAN."</string>
+    <string name="permlab_changeWifiState">"подключение к сети WLAN и отключение от нее"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiState">"Обеспечивает подключение приложения к  точкам доступа WLAN, отключение от них и изменение настроек устройства, относящихся к WLAN."</string>
+    <string name="permlab_changeWifiMulticastState">"разрешить прием WLAN Multicast"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="tablet">"Позволяет приложению принимать  пакеты, передаваемые по WLAN в многоадресном режиме на все устройства (а не только на данный планшет). Потребляемая мощность при этом выше, чем в одноадресном режиме."</string>
+    <string name="permdesc_changeWifiMulticastState" product="default">"Позволяет приложению принимать  данные, передаваемые по WLAN в многоадресном режиме на все устройства (а не только на данный планшет). Потребляемая мощность при этом выше, чем в одноадресном режиме."</string>
+    <string name="wifi_available_sign_in">"Вход в WLAN"</string>
+    <string name="wifi_watchdog_network_disabled">"Невозможно подключиться к WLAN"</string>
+    <string name="wifi_p2p_dialog_title">"WLAN Direct"</string>
+    <string name="wifi_p2p_turnon_message">"Запускается WLAN Direct. Клиент/точка доступа WLAN отключится."</string>
+    <string name="wifi_p2p_failed_message">"Невозможно запустить WLAN Direct."</string>
+    <string name="wifi_p2p_enabled_notification_title">"WLAN Direct вкл."</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="tablet">"Планшет будет отключен от WLAN на время подключения к устройству <xliff:g id="device_name">%1$s</xliff:g>"</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="default">"Телефон будет отключен от WLAN на время подключения к устройству <xliff:g id="device_name">%1$s</xliff:g>"</string>
+    <!-- Notification title when WLAN data usage has exceeded limit threshold, and has been disabled. [CHAR LIMIT=32] -->
+    <string name="data_usage_wifi_limit_title">"Передача данных по WLAN откл."</string>
+    <!-- Notification title when WLAN data usage has exceeded limit threshold. [CHAR LIMIT=32] -->
+    <string name="data_usage_wifi_limit_snoozed_title">"Превышен объем передачи данных по WLAN"</string>
+    <!--<string name="permlab_configureWifiDisplay">configure WLAN displays</string>-->
+    <!--<string name="permdesc_configureWifiDisplay">Allows the app to configure and connect to WLAN displays.</string>-->
+    <!--<string name="permlab_controlWifiDisplay">control WLAN displays</string>-->
+    <!--<string name="permdesc_controlWifiDisplay">Allows the app to control low-level features of WLAN displays.</string>-->
+    <!-- A notification is shown when there are open wireless networks nearby.  This is the notification's title. -->
+    <plurals name="wifi_available">
+        <item quantity="one">"Доступна сеть WLAN"</item>
+        <item quantity="other">"Доступны сети WLAN"</item>
+    </plurals>
+    <!-- A notification is shown when there are open wireless networks nearby.  This is the notification's message. -->
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">"Доступна открытая сеть WLAN"</item>
+        <item quantity="other">"Доступны открытые сети WLAN"</item>
+    </plurals></resources>

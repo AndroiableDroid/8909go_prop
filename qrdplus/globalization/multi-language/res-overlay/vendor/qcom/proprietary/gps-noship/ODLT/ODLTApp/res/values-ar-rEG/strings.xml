@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"نشاط تصحيح أخطاء GPS"</string>
+     <string name="cameraActivity">"كاميرا"</string>
+     <string name="newTrackingSession">"جلسة تعقب جديدة"</string>
+     <string name="newTrackingSession_nameLabel">"الاسم"</string>
+     <string name="newTrackingSession_numFixesLabel">"تصحيح الأرقام"</string>
+     <string name="newTrackingSession_descriptionLabel">"الوصف"</string>
+     <string name="newTrackingSession_startButtonLabel">"بدء"</string>
+     <string name="testConfig">"اختبار التكوين"</string>
+     <string name="testConfig_configNameLabel">"اسم التكوين"</string>
+     <string name="testConfig_numFixesLabel">"تصحيح الأرقام (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"وصف تكوين الاختبار"</string>
+     <string name="testConfig_startButtonLabel">"بدء الاختبار"</string>
+     <string name="testConfig_RadioLabel">"مسار التطبيق أو لقطة واحدة"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"لقطة واحدة"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"مسار التطبيق"</string>
+     <string name="testConfig_qosTimeoutLabel">"وقت الاستجابة المفضل (الثواني)"</string>
+     <string name="testConfig_qosAccuracyLabel">"الدقة المفضلة (الدقائق)"</string>
+     <string name="testConfig_tbfLabel">"الحد الأدنى من الفاصل الزمني (الثواني)"</string>
+     <string name="testConfig_staticTruthLabel">"وضع الثقة الثابت (فحص للاستخدام)"</string>
+     <string name="testConfig_latLabel">"خط العرض"</string>
+     <string name="testConfig_lonLabel">"خط الطول"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"واجهة برمجة التطبيقات (API) لـ Loc"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"خدمة GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"نوع التكرار"</string>
+     <string name="testConfig_apiTypeLabel">"نوع API"</string>
+    <string name="labelUnknownPrivacy">"غير معروف"</string>
+    <string name="labelGetPrivacy">"الحصول على الخصوصية"</string>
+    <string name="labelSetPrivacySetting">"ضبط الخصوصية"</string>
+    <string name="name_vzw_client">"عميل Vzw"</string>
+    <string name="name_normal_client">"Android عادي"</string>
+    <string name="LabelModeSel">"الوضع"</string>
+    <string name="LabelNumFixSel">"عدد التصحيحات"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"الحالة..."</string>
+    <string name="str_nodata">"لا توجد بيانات"</string>
+    <string name="str_waitingforposinfo">"\nجارٍ الانتظار لمعلومات الوضع...\n"</string>
+    <string name="str_searchingforsvs">"\nجارٍ البحث عن SVs...\n"</string>
+    <string name="str_configsummary">"\nملخص التكوين\n"</string>
+    <string name="str_alarms">"\nالتنبيهات:\n\n"</string>
+    <string name="str_starttest">"بدء الاختبار"</string>
+    <string name="str_sessionplayback">"تشغيل الجلسة"</string>
+    <string name="str_proximityalerts">"تنبيهات التقارب"</string>
+    <string name="str_proximity_info">"معلومات التقارب"</string>
+    <string name="str_options">"الخيارات"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"مستقل"</item>
+<item>"AFLT"</item>
+<item>"تم تحسين السرعة"</item>
+<item>"تم تحسين الدقة"</item>
+<item>"تم تحسين البيانات"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"الوقت (ثوانٍ) بين الإصلاح"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"عنوان PDE"</string>
+<string name="LabelAccuracyH">"الدقة المفضلة (H, m)"</string>
+<string name="LabelAccuracyV">"الدقة المفضلة (V, m)"</string>
+<string name="LabelMaxResponseTime">"المهلة الزمنية (الثواني)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"تشغيل بالتكديس الطبيعي"</string>
+<string name="LabelRunOne">"تشغيل VzW"</string>
+<string name="LabelRunState1">"اختبار FSM 1"</string>
+<string name="LabelRunState2">"اختبار FSM 2"</string>
+<string name="EnigneStatus">"حالة Enigne"</string>
+<string name="NA">"غير متاح"</string>
+<string name="GpsStatus">"حالة Gps"</string>
+<string name="Session">"الجلسة"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"النوع"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"الوضع"</string>
+<string name="stop">"إيقاف"</string>
+<string name="labelPdePort">"منفذ PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"911 فقط"</item>
+<item>"تشغيل"</item>
+</string-array>
+<string name="non_aiding">"إلغاء تحديد كل أدوات المساعدة"</string>
+<string name="all_aiding">"تحديد كل أدوات المساعدة"</string>
+<string name="done">"حذف العناصر المحددة"</string>
+<string name="Ephemeris">"Ephemeris"</string>
+<string name="GLO_Ephemeris">"GLO Ephemeris"</string>
+<string name="Alamanac">"Alamanac"</string>
+<string name="GLO_Alamanac">"GLO Alamanac"</string>
+<string name="Alamanac_Corr">"Alamanac Corr"</string>
+<string name="GLO_Alamanac_Corr">"GLO Alamanac Corr"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"توجيه SV"</string>
+<string name="GLO_SV_Steer">"GLO SV Steer"</string>
+<string name="Cell_DB_Info">"معلومات قاعدة بيانات الخلايا"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"وقت GPS"</string>
+<string name="GLO_Time">"وقت GLO"</string>
+<string name="Freq_Bias_Est">"تقدير نزعة التكرار"</string>
+<string name="Time">"الوقت"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"الصحة"</string>
+<string name="SA_Data">"بيانات SA"</string>
+<string name="position">"الموضع"</string>
+<string name="str_wbiq_runscript">"تشغيل البرنامج النصي"</string>
+<string name="str_wbiq_stopgps">"الخروج من الوضع RF"</string>
+<string name="str_wbiq_startgps">"الدخول في الوضع RF"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"تسجيل الدخول التلقائي إلى الجهاز"</string>
+<string name="str_wbiq_chk_delaystart">"بداية (بدايات) التأخير"</string>
+<string name="str_wbiq_chk_autostop">"الوقفة (الوقفات) التلقائية"</string>
+<string name="str_wbiq_chk_otfsa">"تمكين OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"ث"</string>
+<string name="str_proximity_clearalerts">"مسح التنبيهات"</string>
+<string name="str_proximity_savealertsfile">"حفظ ملف التنبيهات"</string>
+<string name="str_proximity_loadalertsfile">"تحميل ملف التنبيهات"</string>
+<string name="str_proximity_deletealertsfile">"حذف ملف التنبيهات"</string>
+<string name="str_proximity_logging">"تسجيل الدخول"</string>
+<string name="str_proximity_autostartenabled">"التشغيل التلقائي"</string>
+<string name="str_proximity_autostartfile">"حدد ملف التشغيل التلقائي"</string>
+<string name="str_proximity_smsnumber">"رقم الإشعار برسالة قصيرة SMS"</string>
+<string name="str_proximity_geofencelisttab_add">"إضافة"</string>
+<string name="str_proximity_geofencelisttab_delet">"حذف"</string>
+<string name="str_proximity_geofencelisttab_edit">"تحرير"</string>
+<string name="str_locbatchingtab_btn_s">"ث"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"بايت"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[متوسط، الحد الأدنى، الحد الأقصى] =‎             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"استدعاء المجموعات"</string>
+<string name="str_powerest_summary">"الملخص:"</string>
+<string name="str_powerest_plot_label"/></resources>

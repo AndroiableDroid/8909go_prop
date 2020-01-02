@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_услуга је уклоњена, поново је инсталирајте!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"Ажурирај текстуалне податке профила"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"Ажурирај податке портрета профила"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Избриши све поруке"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Постави нову главну особу у групном дописивању"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Измени наслов групног дописивања"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Измени надимак члана у групном дописивању"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Прихвати позив за придруживање групном дописивању"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Одустани од групног дописивања"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Избаци учеснике из групног дописивања"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"Одбаци групно дописивање"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Обрати пажњу на јавни налог"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Не обраћај пажњу на јавни налог"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"Пријави јавни налог"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"осетљива дозвола api"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"одобрене %1$d апликације (укупно %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"Никада више не тражи"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"У реду"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Откажи"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Ова операција је дизајнирана за %1$s, Одбијање дозволе може да доведе до тога да она више не ради како би требало."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"Дозвола за %1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"Морате да дозволите %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"Морате да одобрите приступ sd картици."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"Морате да одобрите приступ контактима."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"Морате да одобрите приступ sms."</string></resources>

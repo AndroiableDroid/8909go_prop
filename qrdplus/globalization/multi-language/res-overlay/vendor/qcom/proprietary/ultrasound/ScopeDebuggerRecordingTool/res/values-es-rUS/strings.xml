@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Herramienta de Grabación Scope Debugger"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Configuración"</string>
+    <add-resource type="string" name="instructions"/>
+    <string name="instructions">"Introduce un nombre de archivo (o deja la sugerencia como nombre de archivo), y pulsa el botón para almacenar el volcado de Scope Debugger"</string>
+    <add-resource type="string" name="button_text"/>
+    <string name="button_text">"Guardarlo"</string>
+    <add-resource type="string" name="file_name_default"/>
+    <string name="file_name_default">"scope_debugger_rec"</string></resources>

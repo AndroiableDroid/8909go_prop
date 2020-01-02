@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service вилучено, установіть повторно!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"Оновити текстові дані профілю"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"Оновити дані портрета профілю"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Видалити всі повідомлення"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Установити нового голову групового чату"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Змінити тему групового чату"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Змінити псевдонім учасника в груповому чаті"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Прийняти запрошення до групового чату"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Вийти з групового чату"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Вилучити учасників із групового чату"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"Розпустити груповий чат"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Звертати увагу на публічний обліковий запис"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Не звертати уваги на публічний обліковий запис"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"Повідомити про публічний обліковий запис"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"конфіденційний дозвіл api"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"авторизовано програм: %1$d (усього: %2$d)"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"Більше не запитувати"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"OK"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Скасувати"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Ось для чого призначена ця операція: %1$s. Якщо відхилити дозвіл, вона може не працювати належним чином."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"Дозвіл %1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"Потрібно дозволити %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"Потрібно надати дозвіл картці SD."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"Потрібно надати дозвіл контактам."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"Потрібно надати дозвіл SMS."</string></resources>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Radio FM"</string>
+    <string name="tx_app_name">"FM Tx"</string>
+    <string name="default_sleep"></string>
+    <string name="menu_add_to_preset">"Adăugați la Presetări"</string>
+    <string name="menu_settings">"Setări"</string>
+    <string name="menu_record_start">"Începeți înregistrarea"</string>
+    <string name="menu_record_stop">"Opriți înregistrarea"</string>
+    <string name="menu_all_channels">"Toate canalele"</string>
+    <string name="app_label_all_channels">"Toate canalele"</string>
+    <string name="button_ok">"OK"</string>
+    <string name="button_cancel">"Anulaţi"</string>
+    <string name="button_delete">"Ștergeţi"</string>
+    <string name="error_sdcard_access">"Imposibil de accesat cardul SD"</string>
+    <string name="fm_service_started">"Serviciu FM"</string>
+    <string name="menu_sleep">"Inactivitate"</string>
+    <string name="menu_sleep_cancel">"Anulați Inactivitate"</string>
+    <string name="menu_wired_headset">"Cască cu fir"</string>
+    <string name="menu_speaker_on">"Activați difuzorul"</string>
+    <string name="menu_display_tags">"Afișați etichetele"</string>
+    <string name="menu_speaker_off">"Dezactivați difuzorul"</string>
+    <string name="menu_scan_start">"Scanaţi"</string>
+    <string name="menu_scan_stop">"nu mai căutați"</string>
+    <string name="menu_stats">"Stări FM RF"</string>
+    <string name="button_text_stop">"Opriţi"</string>
+    <string name="msg_seeking">"Se caută postul FM"</string>
+    <string name="msg_scanning">"Se scanează după toate posturile FM"</string>
+    <string name="msg_scanning_pty">"Se scanează după <xliff:g id="pty_name">%1$s</xliff:g>"</string>
+    <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
+    <string name="msg_searching">"Se caută posturi puternice pentru a se crea o listă de presetări "</string>
+    <string name="msg_searching_title">"Selectare automată presetări"</string>
+    <string name="msg_weak_searching">"Se căută frecvențele de transmisie"</string>
+    <string name="msg_noantenna">"Căutați căștile pentru a utiliza radio FM "</string>
+    <string name="msg_headsetpluggedin">"Deconectați toate căștile pentru utilizarea FM Tx"</string>
+    <string name="msg_callactive">"FM Tx nu este acceptat când există un apel de voce activ"</string>
+    <string name="dialog_sleep_title">"Selectați Oprire automată timp de inactivitate"</string>
+        <string name="preset_select_name">"Selectați <xliff:g id="preset_name">%1$s</xliff:g>"</string>
+        <string name="presetlist_select_name">"Selectați <xliff:g id="presetlist_name">%1$s</xliff:g>"</string>
+    <string name="presetlist_add_new">"Adăugați lista nouă"</string>
+    <string name="dialog_presetlist_title">"Liste presetări"</string>
+        <string name="presetlist_prefix_name">FM - </string>
+        <string name="dialog_presetlist_rename_title">"Introduceți un nume "</string>
+        <string name="dialog_preset_rename_title">"Introduceți un nume "</string>
+        <string name="presetlist_delete_name">"Ștergeți <xliff:g id="presetlist_name">%1$s</xliff:g> și posturile sale?"</string>
+        <string name="presetlist_autoselect_title">"Confirmare Selectare automată"</string>
+        <string name="presetlist_autoselect_name">"Selectare automată va șterge toate presetările din listă <xliff:g id="presetlist_name">%1$s</xliff:g>, continuați?"</string>
+        <string name="fmtx_autoselect_name">"Selectare automată va șterge toate presetările, continuați?"</string>
+    <string name="enter_frequency">"Reglare la post"</string>
+    <string name="enter_new_frequency_title">"Introduceți frecvența "</string>
+    <string name="preset_now_playing">"Acum se redă "</string>
+        <string name="preset_pref_title">"<xliff:g id="preset_name">%1$s</xliff:g>  (<xliff:g id="preset_freq">%2$s</xliff:g>)"</string>
+        <string name="preset_delete_title">"Ștergeți presetarea"</string>
+        <string name="preset_delete_name">"Ștergeți <xliff:g id="preset_name">%1$s</xliff:g>  din <xliff:g id="presetlist_name">%2$s</xliff:g>"</string>
+        <string name="preset_confirm_delete_name">"Ștergeți <xliff:g id="preset_name">%1$s</xliff:g>  din <xliff:g id="presetlist_name">%2$s</xliff:g> ?"</string>
+    <string name="preset_name_dialog_title">"Introduceți un nume "</string>
+    <string name="preset_name_summary">"<xliff:g id="preset_name">%1$s</xliff:g> "</string>
+    <string name="preset_name_title">"Redenumiți"</string>
+    <string name="preset_search_title">"Căutați"</string>
+    <string name="preset_search_name">"Căutați după <xliff:g id="preset_name">%1$s</xliff:g>"</string>
+    <string name="preset_preference_title">"Posturi FM în <xliff:g id="preset_name">%1$s</xliff:g> "</string>
+    <string name="preset_empty_title">"Nu există posturi în listă"</string>
+    <string name="preset_empty_add_summary">"Adăugați posturi"</string>
+    <string name="preset_add">"Adăugaţi"</string>
+    <string name="preset_replace">"Înlocuiţi"</string>
+    <string name="preset_tune">"Reglare"</string>
+    <string name="preset_rename">"Redenumiți"</string>
+    <string name="preset_delete">"Ștergeți"</string>
+    <string name="preset_search">"Căutați după <xliff:g id="preset_pi">%1$s</xliff:g>  "</string>
+    <string name="stat_notif_frequency">"Post radio FM <xliff:g id="frequency">%1$s</xliff:g> MHz"</string>
+    <string name="stat_notif_tx_frequency">"Transmisie FM la: <xliff:g id="frequency">%1$s</xliff:g>"</string>
+    <string name="sel_band_menu">"Selectați banda regională"</string>
+    <string name="test_menu">"Selectați testul"</string>
+    <string name="settings_menu">"Setări"</string>
+    <string name="regional_band">"Bandă regională"</string>
+    <string name="aud_output_mode">"Mod de ieșire audio"</string>
+    <string name="sel_audio_output">"Selectați ieșirea audio"</string>
+    <string name="record_dur">"Durată de înregistrare"</string>
+    <string name="sel_rec_dur">"Selectați durata de înregistrare"</string>
+    <string name="auto_select_af">"Frecvență alternativă"</string>
+    <string name="auto_select_af_enabled">"Selectare automată activată"</string>
+    <string name="auto_select_af_disabled">"Selectare automată dezactivată"</string>
+    <string name="fac_defaults">"Reveniți la setările prestabilite din fabrică"</string>
+    <string name="revert_to_fac">"Reveniți la setările prestabilite din fabrică"</string>
+    <string name="settings_back">"Înapoi"</string>
+    <string name="settings_revert_confirm_title">"Confirmați resetarea setărilor"</string>
+    <string name="settings_revert_confirm_msg">"Această acțiune va șterge toate setările, inclusiv presetările"</string>
+    <string name="settings_back_summary">"Reveniți la vizualizarea anterioară"</string>
+    <string name="settings_revert_defaults_title">"Reveniți la setările prestabilite din fabrică"</string>
+    <string name="settings_revert_defaults_summary">"Resetați toate setările"</string>
+    <string name="audio_type_stereo">"Stereo"</string>
+    <string name="audio_type_mono">"Mono"</string>
+    <string name="default_band">"Statele Unite"</string>
+    <string name="default_audio">"Stereo"</string>
+    <string name="default_record_duration">"5 minute"</string>
+    <string name="factory_reset_dialog_title">"Confirmați resetarea"</string>
+    <string name="factory_reset_dialog_message">"Această acțiune va șterge toate setările, inclusiv presetările"</string>
+    <string name="station_move">"Mutaţi"</string>
+    <string name="station_edit">"Editați"</string>
+    <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
+   <string name="no_storage">"Montați cardul SD înainte de a începe înregistrarea."</string>
+   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+   <string name="preparing_sd">"Se pregăteşte cardul SD"</string>
+   <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+   <string name="access_sd_fail">"Nu s-a putut accesa cardul SD."</string>
+   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+   <string name="spaceIsLow_content">"Stocarea cardului SD nu mai prezintă spațiu suficient. Schimbați setarea de calitate sau ştergeţi câteva imagini sau alte fişiere."</string>
+   <!-- The messsage shown when FM record reaches size limit. -->
+   <string name="FMRecording_reach_size_limit">"Dimensiune limită atinsă."</string>
+    <string name="delete_station_title">"Ștergeți"</string>
+    <string name="find_af_station">"Găsiţi"</string>
+    <string name="menu_add_list">"Adăugați lista"</string>
+    <string name="menu_rename_list">"Redenumiți lista"</string>
+    <string name="menu_reorder_list">"Reordonați lista"</string>
+    <string name="menu_scan_for_preset">"Scanați după presetări"</string>
+    <string name="menu_delete_list">"Ștergeți lista"</string>
+    <string name="alert_dialog_ok">"OK"</string>
+    <string name="alert_dialog_cancel">"Anulaţi"</string>
+    <!-- The messsage shown when long pressed on a station. -->
+    <string name="alert_dialog_hint">"Introduceți un nume"</string>
+    <string name="search_dialog_title">"Scanați posturile"</string>
+    <string name="search_category_key">search_category_type</string>
+    <string name="search_category">"Selectați tipul de căutare"</string>
+    <string name="search_category_title">"Tip de căutare"</string>
+    <string name="default_search_category">"Căutați"</string>
+    <string name="search_category_tune">"Reglare"</string>
+    <string name="search_category_type_key">search_category_value_type</string>
+    <string name="search_category_type">"Selectați căutarea după tipul de program"</string>
+    <string name="search_category_type_title">"Căutați după tipul de program"</string>
+    <string name="default_search_category_type">"Toate posturile"</string>
+    <string name="presets_back">"Înapoi"</string>
+    <string name="presets_back_summary">"Reveniți la vizualizarea anterioară"</string>
+    <string name="nav_mode_presets">"Presetările"</string>
+    <string name="nav_mode_stations">"	Posturi"</string>
+    <string name="prog_service_string"></string>
+    <string name="radio_text_string">"Acesta este mesajul de șir de text radio care trebuie derulat"</string>
+    <string name="eradio_text_string">"Mesaj text radio extins"</string>
+    <string name="pty_string"></string>
+    <string name="frequency_string"></string>
+    <string name="station_id_string"></string>
+        <string name="fm_command_timeout_title">"Timp limită"</string>
+        <string name="fm_tune_timeout_msg">"Nu a fost primit niciun răspuns la reglarea postului FM. Dacă problema persistă, dezactivați și reactivați FM."</string>
+        <string name="fm_command_failed_title">"Operație FM eșuată"</string>
+        <string name="fm_cmd_failed_msg">"Operație FM eșuată. Dacă problema persistă, dezactivați și reactivați FM. "</string>
+        <string name="fm_cmd_failed_msg_hdmi">"Operație FM eșuată. Apariția FM și HDMI nu este acceptată.  "</string>
+        <string name="fm_cmd_failed_call_on">"Operație FM eșuată. Audio FM nu este permis în timpul apelului. "</string>
+    <!-- Do not translate. Duration format. -->
+    <string name="durationformat"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+    <string name="default_record"></string>
+    <string name="default_preset_list_name">" Listă FM "</string>
+    <string name="default_station"> FM </string>
+    <string name="default_blank"> </string>
+    <string name="add_station">+</string>
+    <string name="stop_scanning">"Opriți scanarea"</string>
+    <string name="transmit_msg_string">"Transmisie la:"</string>
+    <!-- the name under which recordings will be visible in the media database is formatted like this -->
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <!-- all recordings will show up in the media database with this 'artist' name -->
+    <string name="audio_db_artist_name">"Înregistrările mele FM"</string>
+    <!-- all recordings will show up in the media database with this 'album' name -->
+    <string name="audio_db_album_name">"Înregistrări FM"</string>
+    <!-- all recordings will show up in the media database in a playlist with this name -->
+    <string name="audio_db_playlist_name">"Înregistrări FM"</string>
+    <string name="test_prompt">"Selectați un test"</string>
+    <string name="test_run">"Executați testul"</string>
+    <string name="set_rmmsi_delta">"Configurați RMSSI Delta"</string>
+    <string name="set_sigth">"Configurați semnalul Th"</string>
+    <string name="type_rd"></string>
+    <string name="srch_params">"Configurați RMSSI Delta"</string>
+    <string name="srch_params_1">"Configurați semnalul Th "</string>
+    <string name="enter_rssi">"Introduceți RMSSI Delta"</string>
+    <string name="enter_sigth">"Introduceți semnalul Th"</string>
+    <string name="enter_SinrSmplsCnt">"Introduceți numărul de mostre SINR"</string>
+    <string name="set_SinrSmplsCnt">"Configurați mostrele SINR"</string>
+    <string name="enter_SinrTh">"Introduceți pragul SINR"</string>
+    <string name="set_SinrTh">"Configurați pragul SINR"</string>
+    <string name="enter_IntfLowTh">"Introduceți pragul inferior Intf Det"</string>
+    <string name="set_IntfLowTh">"Configurați pragul inferior Intf Det"</string>
+    <string name="enter_IntfHighTh">"Introduceți pragul superior Intf Det"</string>
+    <string name="set_IntfHighTh">"Configurați pragul superior Intf Det"</string>
+    <string name="station_name">"Stație:"</string>
+    <string name="station_exists">"Această frecvență există deja!"</string>
+    <string name="station_list_delete_station">"Ștergere:<xliff:g id="name">%s</xliff:g>"</string>
+    <string name="station_list_delete_station_prompt">"Sigur doriți să ștergeți <xliff:g id="name">%s</xliff:g> ."</string>
+    <string name="station_name_empty">"Numele postului este gol, introduceți din nou."</string>
+    <string name="station_name_exist">"Există deja un post cu numele \"<xliff:g id="name">%s</xliff:g>\". Introduceți un alt nume."</string>
+    <string name="enter_SinrFirstStage">"Introduceți prima etapă Sinr"</string>
+    <string name="set_SinrFirstStage">"Configurați prima etapă Sinr"</string>
+    <string name="enter_RmssiFirstStage">"Introduceți prima etapă Rmssi"</string>
+    <string name="set_RmssiFirstStage">"Configurați prima etapă Rmssi"</string>
+    <string name="enter_CF0Th12">"Introduceți pragul CF0"</string>
+    <string name="set_CF0Th12">"Configurați pragul CF0"</string>
+    <string name="search_algo_mpx">"Algo MPX_DCC"</string>
+    <string name="search_algo_sinrint">"Algo SINR_INTF"</string>
+    <string name="enter_AfJmpRmssiTh">"Introduceți pragul Af Jump Rmssi"</string>
+    <string name="set_AfJmpRmssiTh">"Configurați pragul Af Jump Rmssi"</string>
+    <string name="enter_GdChRmssiTh">"Introduceți pragul Rmssi pentru canalul bun"</string>
+    <string name="set_GdChRmssiTh">"Configurați pragul Rmssi pentru canalul bun"</string>
+    <string name="enter_AfJmpRmssiSmplsCnt">"Introduceți numărul de mostre Af Jump Rmssi"</string>
+    <string name="set_AfJmpRmssiSmplsCnt">"Configurați numărul de mostre Af Jump Rmssi"</string>
+    <string name="rt_plus_tags">"Etichete"</string>
+    <string name="enter_RxRePeatCount">"Introduceți numărul RxRePeat"</string>
+    <string name="set_RxRePeatCount">"Configurați numărul RxRePeat"</string>
+    <string name="enter_BlendSinrHi">"Introduceți valoarea Sig Blend SinrHi"</string>
+    <string name="set_BlendSinrHi">"Configurați valoarea Sig Blend SinrHi"</string>
+    <string name="enter_BlendRmssiHi">"Introduceți valoarea Sig Blend RmssiHi"</string>
+    <string name="set_BlendRmssiHi">"Configurați valoarea Sig Blend RmssiHi"</string>
+    <string name="enter_RssiTh">"Introduceți pragul RSSI"</string>
+    <string name="set_RssiTh">"Configurați pragul RSSI"</string>
+    <string name="enter_AfJumpRssiTh">"Introduceți pragul AF jump RSSI"</string>
+    <string name="set_AfJumpRssiTh">"Configurați pragul AF jump RSSI"</string>
+    <string name="enter_RdsFifoCnt">"Introduceți numărul RDS FIFO"</string>
+    <string name="set_RdsFifoCnt">"Configurați numărul RDS FIFO"</string>
+    <string name="usr_def_band_min">"Limită frecvență inferioară(în Mhz)"</string>
+    <string name="usr_def_band_max">"Limită frecvență superioară(în Mhz)"</string>
+    <string name="sel_chanl_spacing">"Selectați spațierea canalelor"</string>
+    <string name="chanl_spacing">"Spațiere canale"</string>
+    <string name="band_method_prompt">"Selectați metoda"</string>
+    <string name="enter_start_delay_time">"Timp de întârziere pornire"</string>
+    <string name="enter_dwell_time">"Timp de staționare"</string>
+    <string name="band_sweep_setting">"Comutați setarea"</string>
+    <string name="band_sweep_setting_set">"Setaţi"</string>
+    <string name="band_sweep_setting_cancel">"Anulaţi"</string>
+    <string name="band_sweep_choose">"Selectați modul de comutare a benzii"</string>
+    <string name="set">"Setaţi"</string>
+    <string name="cancel">"Anulaţi"</string>
+    <string name="user_defind_band_msg">"Introduceți frecvența de la intervalul 76.0 - 108.0, cu min 1 spațiere de canal și 100KHz spațiu între frecvența maximă, minimă"</string>
+    <string name="save_record_file">"Fișiere înregistrat FM salvat la <xliff:g id="record_file">%1$s</xliff:g>"</string></resources>

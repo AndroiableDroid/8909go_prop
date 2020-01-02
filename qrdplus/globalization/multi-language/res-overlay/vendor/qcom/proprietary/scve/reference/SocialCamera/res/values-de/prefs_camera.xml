@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"Kamera"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"Primär"</item>
+        <item>"Von vorne"</item>
+        <item>"Kamera 3"</item>
+        <item>"Kamera 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"Bildgröße"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9,7 MP, 16:9)"</item>
+        <item>"3840x2160 (8,3 MP, 16:9, UHD 4K)"</item>
+        <item>"3200x1800 (5,8 MP, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (4,1 MP, 16:9)"</item>
+        <item>"2592x1458 (3,8 MP, 16:9)"</item>
+        <item>"1920x1080 (2,1 MP, 16:9, HD 1080 p)"</item>
+        <item>"1280x720 (0,9 MP, 16:9, HD 720 p)"</item>
+        <item>"864x480 (0,4 MP, 16:9)"</item>
+        <item>"4160x3120 (13MP, 4:3)"</item>
+        <item>"4000x3000 (12MP, 4:3)"</item>
+        <item>"3264x2448 (8MP, 4:3)"</item>
+        <item>"3200x2400 (7,7 MP, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (5MP, 4:3)"</item>
+        <item>"2048x1536 (3,1 MP, 4:3, QUXGA)"</item>
+        <item>"1920x1440 (2,8 MP, 4:3)"</item>
+        <item>"1600x1200 (1,9 MP, 4:3, UXGA)"</item>
+        <item>"1280x960 (1,2 MP, 4:3, UVGA)"</item>
+        <item>"1024x768 (0,8 MP, 4:3, XGA)"</item>
+        <item>"800x600 (0,5 MP, 4:3, SVGA)"</item>
+        <item>"640x480 (0,3 MP, 4:3, VGA)"</item>
+        <item>"320x240 (0,1 MP, 4:3, QVGA)"</item>
+        <item>"3264x2176 (7,1 MP, 3:2)"</item>
+        <item>"2592x1728 (4,5 MP, 3:2)"</item>
+        <item>"720x480 (0,3 MP, 3:2)"</item>
+        <item>"4160x2774 (11,5 MP, 3:2)"</item>
+        <item>"2976x2976 (8,9 MP, 1:1)"</item>
+        <item>"1280x768 (1MP, 5:3)"</item>
+        <item>"800x480 (0,4 MP, 5:3)"</item>
+        <item>"352x288 (0,1 MP, 11:9)"</item>
+        <item>"176x144 (0MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"Vorschaugröße"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"Anzeigegröße anp."</item>
+        <item>"Hochaufl. Vorschau (bis zu 4 MP)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"Szenenmodus"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"Automatisch"</item>
+        <item>"Momentaufn."</item>
+        <item>"Barcode"</item>
+        <item>"Strand"</item>
+        <item>"Kerzenschein"</item>
+        <item>"Gesichter"</item>
+        <item>"Feuerwerk"</item>
+        <item>HDR</item>
+        <item>"Hochgeschw.-Video"</item>
+        <item>"Landschaften"</item>
+        <item>"Nachtaufnahme"</item>
+        <item>"Party"</item>
+        <item>"Personen"</item>
+        <item>"Menschen bei Nacht"</item>
+        <item>"Schnee"</item>
+        <item>"Sport"</item>
+        <item>"Ruhige Aufn."</item>
+        <item>"Sonnenuntergang"</item>
+        <item>"Theater"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"Belichtungssteuerg."</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"Automatisch"</item>
+        <item>"Fest"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"Belichtungskorrektur"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"Fokus"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"Automatisch"</item>
+        <item>"Fest"</item>
+        <item>"Kontinuierlich (Bild)"</item>
+        <item>"Kontinuierlich (Video)"</item>
+        <item>"Makro"</item>
+        <item>"Erw. Schärfentiefe"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"Weißabgleichsteuerg."</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"Automatisch"</item>
+        <item>"Aus"</item>
+        <item>"Glühlampenlicht"</item>
+        <item>"Neonlicht"</item>
+        <item>"Warmes Neonlicht"</item>
+        <item>"Tageslicht"</item>
+        <item>"Bewölkt"</item>
+        <item>"Schatten"</item>
+        <item>"Dämmerung"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"Blitz"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"Automatisch"</item>
+        <item>"An"</item>
+        <item>"Aus"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"Störungsreduktion"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"An"</item>
+        <item>"Aus"</item>
+        <item>"Hohe Qualität"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"Tönungskorrektur"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"An"</item>
+        <item>"Aus"</item>
+        <item>"Hohe Qualität"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"Aberrationskorrektur"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"An"</item>
+        <item>"Aus"</item>
+        <item>"Hohe Qualität"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"Kantenschärfung"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"An"</item>
+        <item>"Aus"</item>
+        <item>"Hohe Qualität"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"Hotpixel-Korrektur "</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"An"</item>
+        <item>"Aus"</item>
+        <item>"Hohe Qualität"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"Stabilisierungsmodus"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"Aus"</item>
+        <item>"Optisch"</item>
+        <item>"Digital"</item>
+    </string-array></resources>

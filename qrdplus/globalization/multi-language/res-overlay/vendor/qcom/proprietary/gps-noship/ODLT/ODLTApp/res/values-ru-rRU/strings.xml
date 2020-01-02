@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"Действия по отладке GPS"</string>
+     <string name="cameraActivity">"Фотоаппарат"</string>
+     <string name="newTrackingSession">"Создать сеанс отслеживания"</string>
+     <string name="newTrackingSession_nameLabel">"Название"</string>
+     <string name="newTrackingSession_numFixesLabel">"Количество исправлений"</string>
+     <string name="newTrackingSession_descriptionLabel">"Описание"</string>
+     <string name="newTrackingSession_startButtonLabel">"Начать"</string>
+     <string name="testConfig">"Проверить настройки"</string>
+     <string name="testConfig_configNameLabel">"Имя настройки"</string>
+     <string name="testConfig_numFixesLabel">"Количество исправлений (1 - 99999)"</string>
+     <string name="testConfig_descriptionLabel">"Описание проверки настроек"</string>
+     <string name="testConfig_startButtonLabel">"Запуск проверки"</string>
+     <string name="testConfig_RadioLabel">"Отслеживание приложений или однократная проверка"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"Однократно"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"Отслеживание приложений"</string>
+     <string name="testConfig_qosTimeoutLabel">"Предпочтительное время ответа (сек.)"</string>
+     <string name="testConfig_qosAccuracyLabel">"Предпочтительная точность (м)"</string>
+     <string name="testConfig_tbfLabel">"Минимальный интервал (сек.)"</string>
+     <string name="testConfig_staticTruthLabel">"Статическое правильное положение (отметить для использования)"</string>
+     <string name="testConfig_latLabel">"Широта"</string>
+     <string name="testConfig_lonLabel">"Долгота"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"Loc API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"Служба GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"Тип повторения"</string>
+     <string name="testConfig_apiTypeLabel">"API Тип"</string>
+    <string name="labelUnknownPrivacy">"неизвестно"</string>
+    <string name="labelGetPrivacy">"Получить данные о конфиденциальности"</string>
+    <string name="labelSetPrivacySetting">"Установить настройки конфиденциальности"</string>
+    <string name="name_vzw_client">"Клиент Vzw"</string>
+    <string name="name_normal_client">"Обычный клиент Android"</string>
+    <string name="LabelModeSel">"Режим"</string>
+    <string name="LabelNumFixSel">"Номер исправления"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"Штат..."</string>
+    <string name="str_nodata">"Сигнал передачи данных отсутствует"</string>
+    <string name="str_waitingforposinfo">"\nОжидание информации о положении...\n"</string>
+    <string name="str_searchingforsvs">"\nПоиск SV...\n"</string>
+    <string name="str_configsummary">"\nСводные данные о настройках\n"</string>
+    <string name="str_alarms">"\nБудильник:\n\n"</string>
+    <string name="str_starttest">"Запуск проверки"</string>
+    <string name="str_sessionplayback">"Воспроизведение сеанса"</string>
+    <string name="str_proximityalerts">"Опов. о прибл."</string>
+    <string name="str_proximity_info">"Информация о приближении"</string>
+    <string name="str_options">"Настройки"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"Автономный"</item>
+<item>"AFLT"</item>
+<item>"Скорость настроена"</item>
+<item>"Точность настроена"</item>
+<item>"Данные оптимизированы"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"Время до исправления (сек.)"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"Адрес PDE"</string>
+<string name="LabelAccuracyH">"Предпочтительная точность (Н, м)"</string>
+<string name="LabelAccuracyV">"Предпочтительная точность (В, м)"</string>
+<string name="LabelMaxResponseTime">"Время ожидания (сек.)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"Запустить обычный стэк"</string>
+<string name="LabelRunOne">"Запустить клиента VzW"</string>
+<string name="LabelRunState1">"Тест 1 FSM"</string>
+<string name="LabelRunState2">"Тест 2 FSM"</string>
+<string name="EnigneStatus">"Состояние системы"</string>
+<string name="NA">"Недоступно"</string>
+<string name="GpsStatus">"Состояние GPS"</string>
+<string name="Session">"Сеанс"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"Тип"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"Режим"</string>
+<string name="stop">"Стоп"</string>
+<string name="labelPdePort">"Порт PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"Только 911"</item>
+<item>"ВКЛ"</item>
+</string-array>
+<string name="non_aiding">"Снять выделение со всех спец. возможностей"</string>
+<string name="all_aiding">"Выделить всех спец. возможности"</string>
+<string name="done">"Удалить выбранное"</string>
+<string name="Ephemeris">"Эфемериды"</string>
+<string name="GLO_Ephemeris">"Эфемериды GLO"</string>
+<string name="Alamanac">"Альманах"</string>
+<string name="GLO_Alamanac">"Альманах GLO"</string>
+<string name="Alamanac_Corr">"Кор. альманаха"</string>
+<string name="GLO_Alamanac_Corr">"Кор. альманаха GLO"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"Подсказка SV"</string>
+<string name="GLO_SV_Steer">"Подсказка GLO SV"</string>
+<string name="Cell_DB_Info">"Информация о БД телефона"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"Время GPS"</string>
+<string name="GLO_Time">"Время GLO"</string>
+<string name="Freq_Bias_Est">"Freq Bias Est"</string>
+<string name="Time">"Время"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"Угроза здоровью"</string>
+<string name="SA_Data">"Данные SA"</string>
+<string name="position">"позиция"</string>
+<string name="str_wbiq_runscript">"Запуск скрипта"</string>
+<string name="str_wbiq_stopgps">"Выйти их режима RF"</string>
+<string name="str_wbiq_startgps">"Войти в режим RF"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"Автоматические ведение журнала на устройстве"</string>
+<string name="str_wbiq_chk_delaystart">"Начало задержки (с)"</string>
+<string name="str_wbiq_chk_autostop">"Автоматическая остановка (с)"</string>
+<string name="str_wbiq_chk_otfsa">"Включить OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"с"</string>
+<string name="str_proximity_clearalerts">"Очистить список оповещений"</string>
+<string name="str_proximity_savealertsfile">"Сохранить файл оповещений"</string>
+<string name="str_proximity_loadalertsfile">"Загрузить файл оповещений"</string>
+<string name="str_proximity_deletealertsfile">"Удалить файл оповещений"</string>
+<string name="str_proximity_logging">"Ведение журнала"</string>
+<string name="str_proximity_autostartenabled">"Автозапуск"</string>
+<string name="str_proximity_autostartfile">"Выбр. файл автом. запуска"</string>
+<string name="str_proximity_smsnumber">"Номер SMS-уведомления"</string>
+<string name="str_proximity_geofencelisttab_add">"Добав."</string>
+<string name="str_proximity_geofencelisttab_delet">"Удал."</string>
+<string name="str_proximity_geofencelisttab_edit">"Измен."</string>
+<string name="str_locbatchingtab_btn_s">"S"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[cред., мин., макс.] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"Получить пакет"</string>
+<string name="str_powerest_summary">"Сводные данные:"</string>
+<string name="str_powerest_plot_label"/></resources>

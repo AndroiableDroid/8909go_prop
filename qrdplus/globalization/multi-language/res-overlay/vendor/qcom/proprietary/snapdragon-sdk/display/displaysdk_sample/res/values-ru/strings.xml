@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Пример SDK дисплея"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"Дисплей"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"Цветовой баланс"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"Диспетчер режимов"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"Новый режим"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"Удалить режим"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"Редактировать режим"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"Отмена"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"Дисплей"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"Активировать режим"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"Ввести название режима"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"Сохр. реж"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"ВЫБРАТЬ ФОТО"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"Выбранный тип отображения не поддерживается. Убедитесь, что была вызвана функция connect()"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"Функция цветового баланса не поддерживается"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"Функция \'Адаптивная подсветка\' не поддерживается"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"Функция \'Стандартный цвет — серо-зеленый\' не поддерживается"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"Функция \'Стандартный цвет — телесный\' не поддерживается"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"Функция \'Стандартный цвет — небесно-голубой\' не поддерживается"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"Функция \'Настройка изображения\' не поддерживается"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"Функция \'НА СОЛНЦЕ\' не поддерживается"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"Не удалось создать новый режим"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"Не удалось изменить режим"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"Добавить изображение из галереи"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"ОК"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"Да"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"Нет"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"На устройстве нет режимов отображения"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"FEATURE_COLOR_MODE_SELECTION не поддерживается"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"FEATURE_COLOR_MODE_MANAGEMENT не поддерживается"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"Требуемая функция отображения недоступна"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"Не удалось удалить режим отображения"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"Не удалось активировать режим отображения"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"Не удалось установить режим отображения по умолчанию"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"Сначала выберите режим"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"Введите название для режима"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"Создан новый режим"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"Установить по умолчанию"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"Выбранный режим является системным, поэтому его невозможно изменить. Создать новый режим на основе выбранного?"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"Выбранный режим является системным, поэтому его невозможно удалить"</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"Не удалось подключиться к требуемой службе отображения"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" Режим активирован"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" Режим удален"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"Цветовой баланс"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"НА СОЛНЦЕ"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"Настройка изображения"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"Станд. цвет — серо-зеленый"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"Оттенок"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"Насыщенность"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"Интенсивность"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"Станд. цвет — телесный"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"Станд. цвет — небесно-голубой"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" Адаптивная подсветка"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"Включить SVI"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"Включить \'Стандартный цвет — серо-зеленый\'"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"Включить \'Стандартный цвет — телесный\'"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"Включить \'Стандартный цвет — небесно-голубой\'"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"Включить \"Настройка изображения\""</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"Включить адаптивную подсветку"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"Включить \"Настройка изображения — уменьшение насыщенности\""</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"Порог насыщенности"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"Оттенок"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"Насыщенность"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"Интенсивность"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"Контраст"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"Выс."</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"Сред."</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"Низ."</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"Авто"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"Обновить"</string></resources>

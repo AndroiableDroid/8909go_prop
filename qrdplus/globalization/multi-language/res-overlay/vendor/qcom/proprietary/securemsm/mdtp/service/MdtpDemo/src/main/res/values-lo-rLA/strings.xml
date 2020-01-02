@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"​ແອັບ​ຜູ້​ໃຊ້ MDTP: ໜ້າ​ຈໍ​ຫຼັກ"</string>
+    <string name="config_app">"​ແອັບ​ຜູ້​ໃຊ້ MDTP: ການ​ກຳນົດ​ຄ່າ"</string>
+    <string name="server_app">"​ເຊີບ​ເວີ MDTP: ໜ້າ​ຈໍ​ຫຼັກ"</string>
+    <string name="action_settings">"​ການ​ຕັ້ງ​ຄ່າ"</string>
+    <string name="label_1_1">"ສະຖານະ MDTP:"</string>
+    <string name="state_deactivated">"ປິດ​ໃຊ້ງານ​ແລ້ວ"</string>
+    <string name="state_activated">"​​ເປີດ​​ໃຊ້ແລ້ວ"</string>
+    <string name="configuration">"ການ​ກຳນົດ​ຄ່າ (ກ່ອນ​ການ​ເປີດ​​ໃຊ້ເທົ່າ​ນັ້ນ)"</string>
+    <string name="service_activate">"ຮ້ອງ​ຂໍ​ການ​ເປີດ​​ໃຊ້ MDTP ຈາກ​ການ​ບໍລິການ MDTP"</string>
+    <string name="service_deactivate">"ຮ້ອງ​ຂໍ​ການ​ປິດ​​ໃຊ້ MDTP ຈາກ​ການ​ບໍລິການ MDTP"</string>
+    <string name="local_deactivate">"ການ​ປິດ​​ໃຊ້ MDTP ພາຍ​ໃນ​ເຄື່ອງ (​ໂດຍ​ໃຊ້ PIN)"</string>
+    <string name="service_console">"​ຄອນ​ໂຊນ​ການ​ບໍລິການ MDTP"</string>
+    <string name="title_activity_configuration">"ການ​ກຳນົດ​ຄ່າ​ຂອງ​ຜູ້​ໃຊ້"</string>
+    <string name="label_2_1">"PIN ພາຍ​ໃນ​ເຄື່ອງ:"</string>
+    <string name="label_2_2">"PIN:"</string>
+    <string name="gen_rand_pin">"ສ້າງ PIN ​ແບບ​ສຸ່ມ​ເລືອກ"</string>
+    <string name="label_2_3">"​ອັດຕາ​ສ່ວນການກວດ​ສອບ:"</string>
+    <string name="label_2_5">"​ເປີດ​ໃຊ້​ການ​ລັອກ SIM:"</string>
+    <string name="label_2_6">"​ໄຟ​ລ໌/​ໄດ​ເຣັກທໍຣີ​ເພີ່ມ​ເຕີມ​ເພື່ອ​ກວດ​ສອບ:"</string>
+    <string name="reset">"ຣີເຊັດກັບໄປຄ່າເລີ່ມຕົ້ນ"</string>
+    <string name="label_3_1">"ສົ່ງ​ຄຳ​ສັ່ງ​ຈາກ​ເຊີບ​ເວີ​ຫາ​ອຸປະກອນ:"</string>
+    <string name="activate">"ເປິດນຳໃຊ້"</string>
+    <string name="deactivate">"ປິດການນຳໃຊ້"</string>
+    <string name="locksim">"ລັອກ SIM"</string>
+    <string name="unlocksim">"ປົດ​ລັອກ SIM"</string>
+    <string name="killfunc">"ທຳລາຍ​ຟັງ​ຊັນ​​​ໃຊ້​ງານ"</string>
+    <string name="restorefunc">"​ກູ້​ຄືນ​ຟັງ​ຊັນ​​ໃຊ້ງານ"</string>
+    <string name="label_3_2">"ການ​ຮ້ອງ​ຂໍ​ສຳລັບ​ການ​ປິດ​​ໃຊ້ MDTP:"</string>
+    <string name="notallowed">"ບໍ່​ອະນຸຍາດ"</string>
+    <string name="allowed">"ອະນຸຍາດແລ້ວ"</string>
+    <string name="label_3_3">"ການ​ຮ້ອງ​ຂໍ​ສຳລັບ​ການ​ຍົ​ກ​ເລີກ​ການບລັອກຕົວ​ຊ່ວຍ​ສ້າງການ​ຕັ້ງ:"</string>
+    <string name="label_3_4">"​ບັນທຶກ​ການ​ບໍລິການ:"</string>
+    <string name="wizard_app_loading_title">"ຕົວ​ຊ່ວຍ​ສ້າງ​ການ​ຕັ້ງ MDTP: ກຳລັງລິເລີ່ມ..."</string>
+    <string name="label_4_1">"ຕົວ​ຊ່ວຍ​ສ້າງ​ການ​ຕິດ​ຕັ້ງ​ຖືກ​ບລັອກ​ໄວ້ ​ເພາະວ່າສະຖານະ MDTP ຖືກ​ເປີດ​​ໃຊ້"</string>
+    <string name="label_4_2">"ທາງເລືອກ A: ຮັກສາ MDTP ​ໃຫ້​ເປີດ​ໃຊ້, ​ແຕ່​ຮ້ອງ​ຂໍ​ການ​ອະນຸຍາດ​ເຊີບ​ເວີ"</string>
+    <string name="wiz_unblock">"ຮ້ອງ​ຂໍ​ການ​ຍົກ​ເລີກ​ການບລັອກຕົວ​ຊ່ວຍ​ສ້າງ​ການ​ຕິດ​ຕັ້ງ​ຈາກ​ການ​ບໍລິການ MDTP"</string>
+    <string name="wiz_cont">"ສືບ​ຕໍ່ (ອະນຸຍາດ​ໂດຍ​ເຊີບ​ເວີ)"</string>
+    <string name="label_4_3">"ທາງເລືອກ B: ປິດ​​ໃຊ້ MDTP (ຈະ​ເອົາ​ການບລັອກຕົວ​ຊ່ວຍ​ສ້າງ​ການ​ຕິດ​ຕັ້ງ)"</string>
+    <string name="wiz_remote">"ການ​ຮ້ອງ​ຂໍ​ການ​ປິດ​​ໃຊ້ MDTP ທາງ​ໄກ"</string>
+    <string name="wiz_local">"ການ​ປິດ​​ໃຊ້ MDTP ພາຍ​ໃນ​ເຄື່ອງ"</string>
+    <string name="label_4_4">"ຕົວ​ຊ່ວຍ​ສ້າງ​ການ​ຕິດ​ຕັ້ງ​ໄດ້​ຮັບ​ອະນຸຍາດ​ໃຫ້​ສືບ​ຕໍ່ ​ເພາະວ່າ​ສະຖານະ MDTP ບໍ່​ຖືກ​ເປີດ​​ໃຊ້"</string>
+    <string name="wiz_complete">"​ເຮັດ​ສຳ​ເລັດ​ຕົວ​ຊ່ວຍ​ສ້າງ​ການ​ຕິດ​ຕັ້ງ (ສະຖານະ MDTP ບໍ່​ຖືກ​ເປີດ​​ໃຊ້)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"​ຕົວ​ຊ່ວຍ​ສ້າງ​ການ​ຕິດ​ຕັ້ງ"</string>
+    <string name="label_signup_message">"MDTP ບໍ່​ຖືກ​ເປີດ​​ໃຊ້​ໃນ​ຂະນະ​ນີ້.\nທ່ານ​ຕ້ອງການ​ເປີດ​​ໃຊ້ມັນ​ບໍ?"</string>
+    <string name="label_signup_message_activated">"MDTP ຖືກ​ເປີດ​​ໃຊ້ສຳ​ເລັດ​ແລ້ວ!"</string>
+    <string name="skip_activation">"ຂ້າມການເປີດ​​ໃຊ້"</string>
+    <string name="emergency_dialer">"ໂປຣແກຣມໂທອອກສຸກເສີນ"</string>
+    <string name="wiz_title_sign_up">"ຕົວ​ຊ່ວຍ​ສ້າງ​ການ​ຕິດ​ຕັ້ງ MDTP - ລົງທະບຽນ"</string>
+    <string name="wiz_title_reset_prot">"ຕົວ​ຊ່ວຍ​ສ້າງ​ການ​ຕິດ​ຕັ້ງ MDTP - ການ​ປ້ອງ​ກັນການ​ຕັ້ງ​ຄືນ​​ເປັນ​ຄ່າ​ໂຮງງານ"</string>
+    <string name="wiz_title_boot_block">"ຕົວ​ຊ່ວຍ​ສ້າງການ​ຕິດ​ຕັ້ງ MDTP - ອຸປະກອນ​ຖືກ​ບລັອກ​ໄວ້"</string>
+    <string name="block_boot_warning_text">"MDTP ​ໄດ້​ບລັອກອຸປະກອນ​ນີ້ ​ເນື່ອງ​ຈາກ​ຄວາມ​ຜິດພາດ​ພາຍ​ໃນ.\n\nກະລຸນາ​ປິດ​ເປີດ​ອຸປະກອນ​ໃໝ່."</string>
+    <string name="start_wifi_wizard">"ຕັ້ງ WiFi"</string>
+    <string name="default_pin_hint">"PIN ​ຄ່າ​ເລີ່​ມຕົ້ນ​ແມ່ນ 11111"</string>
+    <string name="pin_dialog_title">"ຈຳ​ເປັນ​ຕ້ອງ​ມີ PIN ສຳລັບ​ການ​ປິດ​ໃຊ້ MDTP ພາຍ​ໃນ​ເຄື່ອງ"</string>
+    <string name="pin_input_validation_warning">"ຄ່າ​ທີ່​ປ້ອນ​ເຂົ້າ​ຕ້ອງ​ແມ່ນ 5 ຕົວ​ເລກ"</string></resources>

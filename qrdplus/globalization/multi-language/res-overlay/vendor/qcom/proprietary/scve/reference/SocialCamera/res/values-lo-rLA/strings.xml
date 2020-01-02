@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"ກ້ອງຖ່າຍຮູບ​​ສຳລັບເຄື​ອຂ່າຍສັງຄົມ"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"​ພວກ​ເຮົາ​ພົບ​ຄວາມ​ຜິດພາດ​ ​ໃນ​ຂະນະ​ກວດ​ສອບ ຫຼືຮ້ອງ​ຂໍ​ເອາການ​ອະນຸຍາດ. ​ກະລຸນາ​ກວດ​ເບິ່ງ ປະ​ເພດ​ບັນທຶກ​ສຳລັບ​ລາ​ຍລະອຽດ."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"​ສົ່ງ (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"​ເສຍ​ການ​ເຊື່ອມ​ຕໍ່​ກັບ​ກ້ອງຖ່າຍ​ຮູບ"</string>
+    <string name="camera_preview_error_camera_error">"ຄວາມ​ຜິດພາດ​ຈາກ​ກ້ອງຖ່າຍຮູບ: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"ຖ່າຍຮູບບໍ່ສໍາເລັດ"</string>
+    <string name="camera_preview_error_still_image_save_failed">"ພວກ​ເຮົາ​ພົບ​ຄວາມ​ຜິດພາດ​ ​ໃນ​ຂະນະ​ທີ່​ບັນທຶກ​ຮູບ​ໃສ່​ຄັງ​ຮູບ​ຂອງ​ທ່ານ"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"​ການ​ຕັ້ງ​ຄ່າ"</string>
+    <string name="camera_settings_category_camera_settings">"​ການ​ຕັ້ງຄ່າ​ກ້ອງຖ່າຍຮູບ"</string>
+    <string name="camera_settings_category_fr_settings">"​ການ​ຕັ້ງ​ຄ່າການຮັບຮູ້ໃບໜ້າ"</string>
+    <string name="camera_settings_category_debug_settings">"​ການ​ຕັ້ງ​ຄ່າ​ການ​ແກ້​ໄຂບັນຫາ"</string>
+    <string name="camera_settings_fr_database_cleared">"​ຖານ​ຂໍ້​ມູນ​ການ​ຮັບ​ຮູ້​ໃບ​ໜ້າ​ຖືກ​ລ້າງ​ແລ້ວ"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"ປິດໄວ້"</string>
+    <string name="picture_review_send_faces">"​ສົ່ງ (%d)"</string>
+    <string name="picture_review_no_faces">"​ບໍ່​ພົບ​ໃຜ​ໃນ​ຮູບ​ຖ່າຍ​ນີ້"</string>
+    <string name="picture_review_error_face_recognition">"​ພວກ​ເຮົາ​ພົບ​ຄວາມ​ຜິດພາດ​ ​ໃນ​ຂະນະ​ຮັບຮູ້​ໃບ​ໜ້າ"</string>
+    <string name="picture_review_error_face_enroll">"​ຂໍອະ​ໄພ, ​ພວກ​ເຮົາ​ພົບ​ຄວາມ​ຜິດພາດ​ ​ໃນ​ຂະນະບັນທຶກ​ໃບ​ໜ້ານີ້. ກະລຸນາ​ຖ່າຍຮູບ​ອື່ນ​ຂອງ​ວັດຖຸນ​ນັ້ນ ​ແລະ​ລອງ​ໃໝ່."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"ລາຍ​ຊື່​ອື່ນ..."</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"​ແບ່ງປັນ​ການ​ຕັ້ງ​ຄ່າ"</string>
+    <string name="fr_share_settings_button_just_once">"​ພຽງ​ຄັ້ງ​ດຽວ​"</string>
+    <string name="fr_share_settings_button_always">"ທຸກຄັ້ງ"</string>
+    <string name="fr_share_settings_share_method_sms">"ຂໍ້ຄວາມ"</string>
+    <string name="fr_share_settings_share_method_email">"ອີເມວ"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"ລອງ​ອັນ​ນີ້!"</string>
+    <string name="social_sharing_error_no_email_app">"ທ່ານ​ບໍ່​ມີ​ແອັບທີ່​ສາມາດ​ສົ່ງ​ອີ​ເມ​ວ​ໄດ້"</string></resources>

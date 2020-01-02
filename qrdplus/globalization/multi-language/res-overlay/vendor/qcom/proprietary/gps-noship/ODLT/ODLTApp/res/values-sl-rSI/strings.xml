@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"Aktivnost odpravljanja napak v GPS-u"</string>
+     <string name="cameraActivity">"Fotoaparat"</string>
+     <string name="newTrackingSession">"Nova seja za sledenje"</string>
+     <string name="newTrackingSession_nameLabel">"Ime"</string>
+     <string name="newTrackingSession_numFixesLabel">"Število popravkov"</string>
+     <string name="newTrackingSession_descriptionLabel">"Opis"</string>
+     <string name="newTrackingSession_startButtonLabel">"Začni"</string>
+     <string name="testConfig">"Preskusna konfiguracija"</string>
+     <string name="testConfig_configNameLabel">"Ime konfiguracije"</string>
+     <string name="testConfig_numFixesLabel">"Število popravkov (1–99.999)"</string>
+     <string name="testConfig_descriptionLabel">"Opis preskusa konfiguracije"</string>
+     <string name="testConfig_startButtonLabel">"Začni preskus"</string>
+     <string name="testConfig_RadioLabel">"Sledenje aplikacijam ali enkratni poskus"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"Enkratni poskus"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"Sledenje aplikacijam"</string>
+     <string name="testConfig_qosTimeoutLabel">"Prednostni odzivni čas (s)"</string>
+     <string name="testConfig_qosAccuracyLabel">"Prednostna natančnost (m)"</string>
+     <string name="testConfig_tbfLabel">"Najkrajši interval (s)"</string>
+     <string name="testConfig_staticTruthLabel">"Položaj statične resnice (za uporabo označite)"</string>
+     <string name="testConfig_latLabel">"Širina"</string>
+     <string name="testConfig_lonLabel">"Dolžina"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"Loc API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"Storitev GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"Vrsta ponovitve"</string>
+     <string name="testConfig_apiTypeLabel">"API Vrsta"</string>
+    <string name="labelUnknownPrivacy">"neznano"</string>
+    <string name="labelGetPrivacy">"Omogoči zasebnost"</string>
+    <string name="labelSetPrivacySetting">"Nastavi zasebnost"</string>
+    <string name="name_vzw_client">"Odjemalec Vzw"</string>
+    <string name="name_normal_client">"Navadni sistem Android"</string>
+    <string name="LabelModeSel">"Način"</string>
+    <string name="LabelNumFixSel">"Št. popravka"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"Država..."</string>
+    <string name="str_nodata">"Ni podatkov"</string>
+    <string name="str_waitingforposinfo">"\nČakanje na informacije o položaju ...\n"</string>
+    <string name="str_searchingforsvs">"\nIskanje SV ...\n"</string>
+    <string name="str_configsummary">"\nPovzetek konfiguracije\n"</string>
+    <string name="str_alarms">"\nAlarmi:\n\n"</string>
+    <string name="str_starttest">"Začni preskus"</string>
+    <string name="str_sessionplayback">"Predvajanje seje"</string>
+    <string name="str_proximityalerts">"Opozorila o bližini"</string>
+    <string name="str_proximity_info">"Informacije o bližini"</string>
+    <string name="str_options">"Možnosti"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"Samostojen"</item>
+<item>"AFLT"</item>
+<item>"Hitrost optimizirana"</item>
+<item>"Natančnost optimizirana"</item>
+<item>"Podatki optimizirani"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"Čas (s) med popravki"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"Naslov PDE"</string>
+<string name="LabelAccuracyH">"Prednostna točnost (H, m)"</string>
+<string name="LabelAccuracyV">"Prednostna točnost (V, m)"</string>
+<string name="LabelMaxResponseTime">"Časovna omejitev (s)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"Zagon z običajnim skladom"</string>
+<string name="LabelRunOne">"Zagon VzW"</string>
+<string name="LabelRunState1">"Preskus FSM 1"</string>
+<string name="LabelRunState2">"Preskus FSM 2"</string>
+<string name="EnigneStatus">"Stanje mehanizma"</string>
+<string name="NA">"Ni podano"</string>
+<string name="GpsStatus">"Stanje GPS-a"</string>
+<string name="Session">"Seja"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"Vrsta"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"Način"</string>
+<string name="stop">"Zaustavi"</string>
+<string name="labelPdePort">"Vrata PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"911 Samo"</item>
+<item>"VKLOP"</item>
+</string-array>
+<string name="non_aiding">"Počisti vso pomoč "</string>
+<string name="all_aiding">"Izberi vso pomoč"</string>
+<string name="done">"Izbriši Izbrano"</string>
+<string name="Ephemeris">"Ephemeris"</string>
+<string name="GLO_Ephemeris">"GLO Ephemeris"</string>
+<string name="Alamanac">"Alamanac"</string>
+<string name="GLO_Alamanac">"GLO Alamanac"</string>
+<string name="Alamanac_Corr">"Alamanac Corr"</string>
+<string name="GLO_Alamanac_Corr">"GLO Alamanac Corr"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"SV Steer"</string>
+<string name="GLO_SV_Steer">"GLO SV Steer"</string>
+<string name="Cell_DB_Info">"Informacije o zbirki podatkov celice"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"Čas GPS"</string>
+<string name="GLO_Time">"Čas GLO"</string>
+<string name="Freq_Bias_Est">"Freq Bias Est"</string>
+<string name="Time">"Ura"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"Zdravje"</string>
+<string name="SA_Data">"Podatki SA"</string>
+<string name="position">"položaj"</string>
+<string name="str_wbiq_runscript">"Zagon skripta"</string>
+<string name="str_wbiq_stopgps">"Izhod iz načina RF"</string>
+<string name="str_wbiq_startgps">"Vstop v način RF"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"Samodejno zapisovanje dnevnika na napravi"</string>
+<string name="str_wbiq_chk_delaystart">"Odloži zagon(e)"</string>
+<string name="str_wbiq_chk_autostop">"Samodejna zaustavitev"</string>
+<string name="str_wbiq_chk_otfsa">"Omogoči OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"S"</string>
+<string name="str_proximity_clearalerts">"Počisti opozorila"</string>
+<string name="str_proximity_savealertsfile">"Shrani datoteko z opozorili"</string>
+<string name="str_proximity_loadalertsfile">"Naloži datoteko z opozorili"</string>
+<string name="str_proximity_deletealertsfile">"Izbriši datoteko z opozorili"</string>
+<string name="str_proximity_logging">"Zapisovanje dnevnika"</string>
+<string name="str_proximity_autostartenabled">"Samodejni Zagon"</string>
+<string name="str_proximity_autostartfile">"Izberi samodejni zagon datoteke"</string>
+<string name="str_proximity_smsnumber">"Številka obvestila SMS"</string>
+<string name="str_proximity_geofencelisttab_add">"Dodaj"</string>
+<string name="str_proximity_geofencelisttab_delet">"Izbriši"</string>
+<string name="str_proximity_geofencelisttab_edit">"Uredi"</string>
+<string name="str_locbatchingtab_btn_s">"S"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[povpr., najm., najv.] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"Pridobi paket"</string>
+<string name="str_powerest_summary">"Povzetek:"</string>
+<string name="str_powerest_plot_label"/></resources>

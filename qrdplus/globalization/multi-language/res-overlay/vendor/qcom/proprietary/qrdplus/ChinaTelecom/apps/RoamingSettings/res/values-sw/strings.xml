@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Mipangilio ya Utambizi"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"Imefunguliwa"</string>
+    <string name="data_roaming_title">"Unganisha huduma ya data wakati niko nje ya mtandao wangu wa kawaida"</string>
+    <string name="manual_select_network">"Uchaguzi wa Mikono wa Mtandao"</string>
+    <string name="roaming_card_info">"Nitatumia chaguo la kipaumbele la kadi ya biashara ya vifaa vya mkononi"</string>
+    <string name="network_select_success_info">"Umefaulu kujisajili kwenye mtandao wa “<xliff:g id="name">%s</xliff:g>” , usajili wa kiotomatiki utafanyika wakati mtandao haupatikani"</string>
+    <string name="network_select_failure_info">"Mtandao wa “<xliff:g id="name">%s</xliff:g>” uliochagua haupatikani, anza kujisajili kwenye mtandao mwingine kiotomatiki"</string>
+    <string name="network_auto_success_info">"Umefaulu kujisajili kwenye mtandao kiotomatiki"</string>
+    <string name="network_auto_failure_info">"Mtandao wa GSM uliochagua haupaikani, anza kujisajili kwenye mtandao mwingine kiotomatiki"</string>
+    <string name="manual_select_network_tip">"Hatua hii ni sahihi tu wakati"</string>
+    <string name="gsm_network_list_title">"Mtandao unaoweza kuchaguliwa"</string>
+    <string name="searching_cdma_network_title">"Itafuta mtandao wa cdma sasa......"</string>
+    <string name="searching_gsm_network_title">"Itafuta mtandao wa gsm sasa......"</string>
+    <string name="empty_networks_list">"Hakuna mitandao iliyopatikana."</string>
+    <string name="register_on_network">"Inasajili kwa <xliff:g id="NETWORK">%s</xliff:g>\u2026.."</string>
+    <string name="register_automatically">"Usajili otomatiki\u2026"</string>
+    <string name="network_select_setting">"Mipangilio ya mtandao"</string>
+    <string name="roaming_hotline">"Nambari ya dharura ya +8618918910000"</string>
+    <string name="carrier_names">"China Telecom"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"Data inazimwa..."</string>
+    <string name="unable_to_disable_data">"Data haikuweza kuzimwa."</string>
+    <string name="avoid_cur_nwk_succeeded">"Mtandao wa sasa umeongezwa kwenye orodha ya mitandao ya kuepuka."</string>
+    <string name="avoid_cur_nwk_failed">"Mtandao wa sasa haukuweza kuongezwa kwenye orodha ya mitandao ya kuepuka."</string>
+    <string name="clear_nwk_list_succeeded">"Orodha ya mitandao ya kuepuka imefutwa."</string>
+    <string name="clear_nwk_list_failed">"Orodha ya mitandao ya kuepuka haikuweza kufutwa."</string>
+    <string name="ok_btn">"Sawa"</string>
+    <string name="cancel_btn">"Ghairi"</string>
+    <string name="confirm_avoid">"Una uhakika ungependa kufuta mtandao wa sasa?"</string>
+    <string name="confirm_clear">"Una uhakika ungependa kufuta orodha ya mitandao ya kuepuka?"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"Chaguo la CDMA"</string>
+    <string name="pref_gsm_choose_title">"Chaguo la GSM"</string>
+    <string name="pref_network_info_title">"Maelezo ya mtandao wa sasa"</string>
+    <string name="alert_msg_enable_card">"Ungependa kuwasha kadi hii?"</string>
+    <string name="alert_msg_disable_card">"Ungependa kuzima kadi hii?"</string>
+    <string name="progress_msg_enable_card">"Kadi hii inawashwa, tafadhali subiri..."</string>
+    <string name="progress_msg_disable_card">"Kadi hii inazimwa, tafadhali subiri..."</string>
+    <string name="operation_success">"Hatua hii imefaulu"</string>
+    <string name="operation_failure">"Hatua hii haijafaulu"</string>
+    <string name="result_btn">"Sawa"</string>
+    <string name="alert_data_roaming_title">"Ruhusu data kupitia mitandao mingine"</string>
+    <string name="alert_data_roaming_msg">"Ukiruhusu data kupitia mitandao mingine, unaweza kupata gharama kubwa ya kupitia mitandao mingine!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"Haijulikani"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"Haipatikani"</string>
+    <string name="status_network_type">"Aina ya mtandao wa vifaa vya mkononi"</string>
+    <string name="status_signal_strength">"Nguvu za mawimbi"</string>
+    <string name="status_prl_version">"Toleo la PRL"</string>
+    <string name="status_data_state">"Hali ya mtandao wa vifaa vya mkononi"</string>
+    <string name="status_netowrk_title">"Hali ya Sim ya sasa"</string>
+    <string name="status_operator_name">"Jina la opereta"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"KITAMBULISHO CHA SELI"</string>
+    <string name="status_sms_center_number">"Nambari ya kituo cha Sms"</string>
+    <string name="status_pnl_version">"Toleo la orodha inayopendelewa ya mtandao"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"badili mwenyewe hadi mtandao unaofuata"</string>
+    <string name="avoid_discription">"maagizo:\n  chagua kiotomatiki mfumo wa CDMA, hakuna haja ya kuchagua mwenyewe,lakini kama mtandao wa sasa hauwezi kutumika, jaribu kubadilisha mwenyewe hadi mtandao unaofuata. "</string>
+    <string name="attention_dialog_title">"Tahadhari"</string>
+    <string name="disable_both_sim_error_msg">"Huwezi kuzima SIM zote mbili wakati mmoja"</string>
+    <string name="China_Mobile">"China Mobile"</string>
+    <string name="China_Unicom">"China Unicom"</string>
+    <string name="China_Telecom">"China Telecom"</string></resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Împerechere SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Împerechere stilou digital Snapdragon"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Setări"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"OK"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"Alegeți poziția stiloului pentru afișare"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"Alegeți numărul seriei pentru stiloul nou"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"Alegeți tipul stiloului pe care doriți să îl utilizați"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"Porniți împerecherea"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"Țineți stiloul ortogonal în interiorul cercului pentru a începe procesul de împerechere"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"Împerechere manuală"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"Împerechere semiautomată"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"Alegeți o metodă de împerechere"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"Împerecheați un nou stilou"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"Gestionați stilourile împerecheate"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"Calibrare SW"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"Țineți stiloul ortogonal în interiorul cercului pentru a începe procesul de împerechere.\nDupă finalizarea cu succes, procesul de calibrare va porni."</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"Tester centru de servicii"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"Țineți stiloul ortogonal în interiorul cercului pentru a începe procesul de împerechere.\nDupă finalizarea cu succes, procesul de testare va porni."</string></resources>

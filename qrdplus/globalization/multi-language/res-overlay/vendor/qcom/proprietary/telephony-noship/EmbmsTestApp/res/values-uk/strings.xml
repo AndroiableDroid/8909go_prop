@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">EmbmsTestApp</string>
+    <string name="embms_test_app">"Програма тестування eMBMS"</string>
+    <string name="bind_service">"Пов’язати службу"</string>
+    <string name="unbind_service">"Відв’язати службу"</string>
+    <string name="kill_process">"Завершити процес"</string>
+    <string name="register">"Реєструвати зворотні виклики"</string>
+    <string name="deregister">"Скасувати реєстрацію зворотних викликів"</string>
+    <string name="enable">"Увімкнення eMBMS"</string>
+    <string name="disable">"Вимкнення eMBMS"</string>
+    <string name="activate">"Увімкнення TMGI"</string>
+    <string name="deactivate">"Вимкнення TMGI"</string>
+    <string name="enter_Tmgi">"Вкажіть значення TMGI як десятковий дріб"</string>
+    <string name="get_active">"Отримати список активних"</string>
+    <string name="get_available">"Отримати список доступних"</string>
+    <string name="get_coverage">"Отримати стан покриття"</string>
+    <string name="get_log_packet_id">"Отримати ідентифікатори пакетів журналу"</string>
+    <string name="deliver_log_packet">"Доставити пакет журналу"</string>
+    <string name="get_e911_state">"Отримати стан E911"</string></resources>

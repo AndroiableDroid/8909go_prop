@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Wfd 클라이언트"</string>
+    <string name="preferences_name">"환경설정"</string>
+    <string name="advanced_preferences_name">"고급 환경설정"</string>
+    <string name="surface_activity_name">"표면 활동"</string>
+    <string name="wfd_resolution_settings">wfd_resolution_settings</string>
+	<string name="resolution_list_title">"원하는 해상도"</string>
+	<string name="resolution_list_summary">"해상도 선택"</string>
+	<string name="resolution_dialog_title">"해상도 선택"</string>
+	<string name="resolution_list_options_default_values">0</string>
+	<string name="wfd_bitrate_settings">wfd_bitrate_settings</string>
+	<string name="bitrate_list_title">"원하는 비트 전송률"</string>
+	<string name="bitrate_list_summary">"비트 전송률 선택"</string>
+	<string name="bitrate_dialog_title">"비트 전송률 선택"</string>
+	<string name="bitrate_list_options_default_values">12</string>
+	<string name="btn_source">"소스"</string>
+	<string name="btn_sink">"싱크"</string>
+	<string name="btn_find">"찾기"</string>
+    <string name="btn_create_group">"그룹 만들기"</string>
+    <string name="btn_remove_group">"그룹 제거"</string>
+	<string name="btn_blank">"비어 있음"</string>
+	<string name="tv_peers">"피어"</string>
+	<string name="btn_play_pause">"재생"</string>
+	<string name="btn_standby_resume">"대기"</string>
+	<string name="btn_teardown">"해체"</string>
+	<string name="btn_start_stop_uibc">"UIBC 시작"</string>
+	<string name="btn_transport_udp_tcp">"TCP"</string>
+	<string name="btn_flush">"플러시"</string>
+    <string name="btn_enable_disable_ds">"DS 사용"</string>
+    <string name="enable_p2p_button">"P2P 켜기/끄기"</string>
+    <string name="discover_peers_button">"검색"</string>
+    <string name="connect_peer_button">"연결"</string>
+    <string name="connect_options_peer_button">"연결 옵션"</string>
+    <string name="disconnect_peer_button">"연결 해제"</string>
+    <string name="start_client_button">"세션 시작"</string>
+    <string name="start_uibc_button">"UIBC 시작"</string>
+    <string name="empty"></string>
+    <string name="yes">"예"</string>
+    <string name="no">"아니요"</string>
+    <string name="client_text">"이 기기를 클라이언트로 사용합니다. 로컬(저장된) 파일을 선택하려면 갤러리 버튼을 클릭하세요."</string>
+    <string name="empty_message">"기기를 찾을 수 없습니다. 작업 모음에서 검색 버튼을 선택하세요."</string>
+    <string name="p2p_off_warning">"시스템 설정에서 P2P 사용"</string>
+    <string name="group_owner_text">"그룹 소유자입니까? "</string>
+    <string name="toggle">"전환"</string>
+    <string name="filter">"필터"</string>
+    <string name="position">"위치"</string>
+    <string name="expanded">"펼침"</string></resources>

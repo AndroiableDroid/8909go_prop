@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (c) 2014, The Linux Foundation. All rights reserved.
+     Not a Contribution.
+     Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <!-- Label for the this application displayed on-screen when this application must be represented to the user. -->
+    <string name="app_label">"ໂມງ"</string>
+    <!-- Title for AlarmClock activity -->
+    <!-- Label for the Alarms activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="alarm_list_title">"ໂມງປຸກ"</string>
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">"ເພີ່ມໂມງປຸກ"</string>
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">"ໂມງຕັ້ງໂຕະ"</string>
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+    <string name="menu_edit_alarm">"ແກ້ໄຂໂມງປຸກ"</string>
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">"ລຶບໂມງປຸກ"</string>
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="enable_alarm">"ເປີດໂມງປຸກ"</string>
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="disable_alarm">"ປິດໂມງປຸກ"</string>
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">"ລຶບໂມງປຸກນີ້?"</string>
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+    <string name="show_clock">"ສະແດງໂມງ"</string>
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+    <string name="hide_clock">"ເຊື່ອງໂມງ"</string>
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">"ປ້າຍກຳກັບ"</string>
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">"ໂມງປຸກ"</string>
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <!-- Also label for the old Alarms dialog activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="set_alarm">"ຕັ້ງໂມງປຸກ"</string>
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">"ສັ່ນເຕືອນ"</string>
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">"ປຸກຊ້ຳ"</string>
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">"ສຽງໂມງປຸກ"</string>
+    <!-- Label on expanded alarm edit view indicating the ringtone is custom. -->
+    <string name="custom_ringtone">"ສຽງ​ໂທ​ເຂົ້າ​ແບບ​ກຳນົດ​ເອງ"</string>
+    <!-- Label on expanded alarm edit view. -->
+    <string name="ringtone">"ສຽງໂມງປຸກ"</string>
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">"ເວລາ"</string>
+    <!-- Label shown when user is setting up non-repeating alarm for tomorrow [CHAR LIMIT=15] -->
+    <string name="alarm_tomorrow">"ມື້ອື່ນ"</string>
+    <!-- Label shown when user is setting up non-repeating alarm for later today [CHAR LIMIT=15] -->
+    <string name="alarm_today">"ມື້ນີ້"</string>
+    <!-- The text shown above the clock when alarm is alerting [CHAR LIMIT=10] -->
+    <string name="alarm_alert_wake_up">"ຕື່ນ!"</string>
+    <!-- The text shown as an option to dismiss an alerting alarm [CHAR LIMIT=5] -->
+    <string name="alarm_alert_off_action_text">"ປິດ"</string>
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_alert_dismiss_text">"ປິດ"</string>
+    <!-- Button labels on the pre-dismiss alarm notifications: Dismiss now -->
+    <string name="alarm_alert_dismiss_now_text">"ປິດໄວ້ກ່ອນຕອນນີ້"</string>
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
+         unattended for a number of minutes.  It tells the user that
+         the alarm has been silenced.-->
+    <string name="alarm_missed_title">"ໂມງປຸກທີ່ພາດ"</string>
+    <string name="alarm_missed_text">"<xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g>"</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+         together with the number of minutes in two separate lines. For example:
+             Snoozed
+             10 min
+         [CHAR LIMIT=10]
+    -->
+    <string name="alarm_alert_snoozed_text">"​ເລື່ອນ​ແລ້ວ"</string>
+    <!-- The text shown after user snoozed an alerting alarm. The text will be shown
+         together with the word 'Snoozed' in two separate lines or example:
+             Snoozed
+             10 min
+         [CHAR LIMIT=10]
+    -->
+    <plurals name="alarm_alert_snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one">"1 ນ​ທ"</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> ນ​ທ"</item>
+    </plurals>
+    <!-- The text shown after user dismissed an alerting alarm [CHAR LIMIT=15] -->
+    <string name="alarm_alert_off_text">"​ປິດ​ໂມງ​ປຸກ"</string>
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_snooze_text">"ປິດສຽງເຕືອນຊົ່ວຄາວ"</string>
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
+         dialog. Says the alarm will snooze for xxx minutes.  -->
+    <plurals name="alarm_alert_snooze_set">
+        <!-- Duration for one minute -->
+        <item quantity="one">"ປິດສຽງເຕືອນຊົ່ວຄາວ 1 ນາທີ."</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">"ປິດສຽງເຕືອນຊົ່ວຄາວ <xliff:g id="MINUTES">%d</xliff:g> ນາທີ."</item>
+    </plurals>
+    <!-- Text to appear inside a notification while an alarm is snoozing. -->
+    <string name="alarm_alert_snooze_until">"ປິດສຽງເຕືອນຊົ່ວຄາວຈົນກວ່າຈະຮອດ <xliff:g id="TIME">%s</xliff:g>"</string>
+    <!-- Text to appear in the notification title while an alarm is about to go off. -->
+    <string name="alarm_alert_predismiss_title">"ໂມງປຸກຖັດໄປ"</string>
+    <!-- Text to appear in when trying to view a missed alarm that has been deleted -->
+    <string name="missed_alarm_has_been_deleted">"ການຕັ້ງໂມງປຸກທີ່ພາດໄປນັ້ນຖືກລຶບແລ້ວ"</string>
+    <!-- 0: nothing
+         1: days
+         2:      hours
+         3: days hours
+         4:            minutes
+         5: days       minutes
+         6:      hours minutes
+         7: days hours minutes
+    -->
+    <!-- Timer notification: how long from now until timer goes off. -->
+    <string-array name="timer_notifications">
+        <item>"ເຫຼືອໜ້ອຍກວ່າ 1 ນາທີ"</item>
+        <item>"ຍັງເຫຼືອ <xliff:g id="HOURS">%1$s</xliff:g>"</item>
+        <item>"ຍັງເຫຼືອ <xliff:g id="MINUTES">%2$s</xliff:g>"</item>
+        <item>"ຍັງເຫຼືອ <xliff:g id="HOURS">%1$s</xliff:g> <xliff:g id="MINUTES">%2$s</xliff:g>"</item>
+    </string-array>
+    <!-- Alarm confirmation toast: Describes how long from now until
+         alarm fires -->
+    <string-array name="alarm_set">
+        <item>"ໂມງປຸກຖືກຕັ້ງໄວ້ໜ້ອຍກວ່າ 1 ນາທີຫ່າງຈາກຕອນນີ້."</item>
+        <item>"ໂມງປຸກຕັ້ງໄວ້ <xliff:g id="DAYS">%1$s</xliff:g> ຈາກຕອນນີ້."</item>
+        <item>"ໂມງປຸກຖືກຕັ້ງໄວ້ <xliff:g id="HOURS">%2$s</xliff:g> ຈາກຕອນນີ້."</item>
+        <item>"ໂມງປຸກຖືກຕັ້ງໄວ້ <xliff:g id="DAYS">%1$s</xliff:g> ແລະ <xliff:g id="HOURS">%2$s</xliff:g> ຈາກຕອນນີ້."</item>
+        <item>"ໂມງປຸກຖືກຕັ້ງໄວ້ <xliff:g id="MINUTES">%3$s</xliff:g> ຈາກຕອນນີ້."</item>
+        <item>"ໂມງປຸກຖືກຕັ້ງໄວ້ <xliff:g id="DAYS">%1$s</xliff:g> ແລະ <xliff:g id="MINUTES">%3$s</xliff:g> ຈາກຕອນນີ້."</item>
+        <item>"ໂມງປຸກຖືກຕັ້ງໄວ້ <xliff:g id="HOURS">%2$s</xliff:g> ແລະ <xliff:g id="MINUTES">%3$s</xliff:g> ຈາກຕອນນີ້."</item>
+        <item>"ໂມງປຸກຖືກຕັ້ງໄວ້ <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g>, ແລະ <xliff:g id="MINUTES">%3$s</xliff:g> ຈາກຕອນນີ້."</item>
+    </string-array>
+    <!-- Alarm confirmation toast: days -->
+    <plurals name="days">
+        <!-- Duration for one day -->
+        <item quantity="one">"1 ວັນ"</item>
+        <!-- Duration for more than one day -->
+        <item quantity="other">"<xliff:g id="number" example="7">%s</xliff:g>ວັນ"</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: hours -->
+    <plurals name="hours">
+        <!-- Duration for one hour -->
+        <item quantity="one">"1 ຊົ່ວໂມງ"</item>
+        <!-- Duration for more than one hour -->
+        <item quantity="other">"<xliff:g id="number" example="7">%s</xliff:g> ຊົ່ວໂມງ"</item>
+    </plurals>
+    <!-- Alarm confirmation toast and timer notification: minutes -->
+    <plurals name="minutes">
+        <!-- Duration for one minute -->
+        <item quantity="one">"1 ນາທີ"</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">"<xliff:g id="number" example="7">%s</xliff:g>ນາທີ"</item>
+    </plurals>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to repeat every day -->
+    <string name="every_day">"ທຸກໆມື້"</string>
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: concatenate days with
+         this character, i.e. "Mon, Tue, Wed" -->
+    <string name="day_concat">", "</string>
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
+         select a clock to display -->
+    <string name="clock_instructions">"ເລືອກໂມງ"</string>
+    <!-- Label for analog clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="analog_gadget">"ໂມງເຂັມ"</string>
+    <!-- Help activity name -->
+    <string name="help">"ຊ່ວຍເຫຼືອ"</string>
+    <!-- Settings activity name -->
+    <!-- Label for the Settings activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="settings">"ຕັ້ງຄ່າ"</string>
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">"ຄວາມຍາວການປິດສຽງເຕືອນຊົ່ວຄາວ"</string>
+    <plurals name="snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one">"1 ນາທີ"</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">"<xliff:g id="NUMBER">%s</xliff:g> ນາທີ"</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <!-- Duration for one minute -->
+        <item quantity="one">"ນາທີ"</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">"ນາທີ"</item>
+    </plurals>
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">"ປິດສຽງຫຼັງຈາກ"</string>
+    <!-- Auto silence summary string set based on the preference value. -->
+    <plurals name="auto_silence_summary">
+        <!-- Duration for one minute -->
+        <item quantity="one">"1 ນາທີ"</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">"<xliff:g id="formatted_number" example="7">%s</xliff:g> ນາທີ"</item>
+    </plurals>
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">"ບໍ່ໃຊ້"</string>
+    <string name="default_auto_silence_value">10</string>
+    <!-- Entries listed in the ListPreference when invoking the auto silence
+         preference. -->
+    <string-array name="auto_silence_entries">
+      <item>"1 ນາທີ"</item>
+      <item>"5 ນາທີ"</item>
+      <item>"10 ນາທີ"</item>
+      <item>"15 ນາທີ"</item>
+      <item>"20 ນາທີ"</item>
+      <item>"25 ນາທີ"</item>
+      <item>"ບໍ່ໃຊ້"</item>
+      </string-array>
+    <!-- Week start day preference title. -->
+    <string name="week_start_title">"ເລີ່ມ​ຕົ້ນ​ອາ​ທິດ"</string>
+    <!-- Entries listed in ListPreference for start day. -->
+    <string-array name="week_start_entries">
+        <item>"ວັນເສົາ"</item>
+        <item>"ວັນອາທິດ"</item>
+        <item>"ວັນຈັນ"</item>
+    </string-array>
+    <!-- Done button when editing an alarm. -->
+    <string name="done">"ແລ້ວໆ"</string>
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">"ປ່ຽນກັບ"</string>
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">"ລຶບ"</string>
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">"ລະດັບສຽງໂມງປຸກ"</string>
+    <!-- Summary for the alarm preference when silent is chosen. -->
+    <string name="silent_alarm_summary">"ງຽບ"</string>
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">"ປິດສຽງເຕືອນຊົ່ວຄາວ ຫຼືປິດໂມງປຸກ."</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label">"<xliff:g id="LABEL">%s</xliff:g> (ຖືກປິດສຽງເຕືອນຊົ່ວຄາວ)"</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">"ໂມງປຸກຖືກຕັ້ງໄວ້ທີ່ <xliff:g id="TIME">%s</xliff:g>. ແຕະເພື່ອຍົກເລີກ."</string>
+    <!-- Title of the setting to change hardware button behavior. This string
+         should be changed for each piece of hardware. [CHAR LIMIT=20] -->
+    <string name="volume_button_setting_title">"ປຸ່ມປັບລະດັບສຽງ"</string>
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="volume_button_dialog_title">"ການເຮັດວຽກຂອງປຸ່ມ"</string>
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+      <item>"ປິດສຽງເຕືອນຊົ່ວຄາວ"</item>
+      <item>"ປິດ"</item>
+      <item>"ບໍ່ເຮັດຫຍັງ"</item>
+      </string-array>
+    <!-- Title of the ringtone setting. -->
+    <string name="default_ringtone_setting_title">"ຕັ້ງສຽງຣິງໂທນເລີ່ມຕົ້ນ"</string>
+    <!-- Accessibility labels for Clock activity buttons -->
+    <string name="alarm_button_description">"ໂມງປຸກ"</string>
+    <string name="gallery_button_description">"ຄັງຮູບພາບ"</string>
+    <string name="music_button_description">"ດົນຕີ"</string>
+    <string name="nightmode_button_description">"ຜ່ອນແສງ"</string>
+    <string name="home_button_description">"ໂປຣແກຣມເອີ້ນໃຊ້ວຽກ"</string>
+    <string name="desk_clock_button_description">"ໂມງທີ່ສະແດງ"</string>
+    <!-- Accessibility labels for alarm buttons -->
+    <string name="label_description">"ປ້າຍກຳກັບ"</string>
+    <string name="ringtone_description">"ສຽງໂມງປຸກ"</string>
+    <!-- What to show the user if the weather widget exists but fails to
+         respond. This is a sign of an error; if the weather widget is not
+         present on the device, we show nothing at all. -->
+    <string name="weather_fetch_failure">"ຂໍ້ມູນສະພາບອາກາດບໍ່ສາມາດໃຊ້ໄດ້ໃນເວລານີ້."</string>
+    <!-- A description for the DeskClock alarm sound playback service.
+         [CHAR LIMIT=NONE] -->
+    <string name="alarm_klaxon_service_desc">"ບໍລິການຫຼິ້ນສຽງສຳລັບການປຸກ ທີ່ຕັ້ງໄວ້ໃນໂປຣແກຣມໂມງ."</string>
+    <!-- String displayed as the alert summary while loading the alert name from
+         the media player. [CHAR LIMIT=NONE] -->
+    <string name="loading_ringtone">"ກຳລັງໂຫລດສຽງປຸກ..."</string>
+    <!-- A description for the DeskClock timer sound playback service.
+         [CHAR LIMIT=NONE] -->
+    <string name="timer_ring_service_desc">"ບໍລິການຫຼິ້ນສຽງສຳລັບໂມງນັບຖອຍຫຼັງ ທີ່ຕັ້ງຢູ່ໃນໂປຣແກຣມໂມງ."</string>
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">"ຕັ້ງໂມງປຸກ"</string>
+    <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm_with_existing"><xliff:g id="time">%s</xliff:g></string>
+    <!--  ActionBar strings -->
+    <!-- Describes the purpose of the tab button which which switches the activity to the Alarm page -->
+    <string name="menu_alarm">"ໂມງປຸກ"</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Timer page -->
+    <string name="menu_timer">"ໂມງນັບຖອຍຫຼັງ"</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Clock page -->
+    <string name="menu_clock">"ໂມງ"</string>
+    <!-- Describes the purpose of the tab button which which switches the activity to the Stopwatch page -->
+    <string name="menu_stopwatch">"ໂມງຈັບເວລາ"</string>
+    <!-- Clock view buttons strings-->
+    <!-- Describes the purpose of the button to start the activity to add/edit/delete alarms -->
+    <string name="button_alarms">"ເພີ່ມໂມງປຸກ"</string>
+    <!-- Describes the purpose of the button which provides a list of cities for the world clock settings -->
+    <string name="button_cities">"ເມືອງ"</string>
+    <!-- Describes the purpose of the button which pops up a menu of setting choices -->
+    <string name="button_menu">"ທາງເລືອກເພີ່ມເຕີມ"</string>
+    <!-- Menu item on most screens to get to more settings -->
+    <string name="menu_item_settings">"ຕັ້ງຄ່າ"</string>
+    <!-- Menu item on most screens to get to the help information -->
+    <string name="menu_item_help">"ຊ່ວຍເຫຼືອ"</string>
+    <!-- Menu item on clock screen to enter night mode. -->
+    <string name="menu_item_night_mode">"ໂໝດກາງຄືນ"</string>
+    <!-- Menu item on Cities screen to sort by GMT offset -->
+    <string name="menu_item_sort_by_gmt_offset">"ຮຽງຕາມເວລາ"</string>
+    <!-- Menu item on Cities screen to sort by alphabetical order -->
+    <string name="menu_item_sort_by_name">"ຮຽງຕາມຊື່"</string>
+    <!-- Label for selected cities in Cities list view -->
+    <string name="selected_cities_label">"ເມືອງທີ່ເລືອກແລ້ວ"</string>
+    <!-- Stop Watch strings -->
+    <!-- Describes the purpose of the button to resume running a stopwatch -->
+    <string name="sw_resume_button">"ສືບຕໍ່"</string>
+    <!-- Describes the purpose of the button to begin running a stopwatch -->
+    <string name="sw_start_button">"ເລີ່ມ"</string>
+    <!-- Describes the purpose of the button to pause a stopwatch. -->
+    <string name="sw_stop_button">"ຢຸດ"</string>
+    <!-- Describes the purpose of the button to record current the stopwatch value into the4 collection of lap times. -->
+    <string name="sw_lap_button">"ຮອບ"</string>
+    <!-- Describes the purpose of the button to return the stopwatch to zero and remove the lap times. -->
+    <string name="sw_reset_button">"ນັບໃໝ່"</string>
+    <!-- Describes the purpose of the button to share the stopwatch value.
+         Also used as title for chooser when sharing stopwatch results. -->
+    <string name="sw_share_button">"ແບ່ງປັນ"</string>
+    <!-- Abbreviation for temporal hours [CHAR LIMIT=1] -->
+    <string name="hours_label">"ຊ"</string>
+    <!-- Abbreviation for temporal minutes [CHAR LIMIT=1] -->
+    <string name="minutes_label">"ນ"</string>
+    <!-- Abbreviation for temporal seconds [CHAR LIMIT=1] -->
+    <string name="seconds_label">"ວິ"</string>
+    <!-- Accessibility strings -->
+    <string name="hours_label_description">"ຊົ່ວໂມງ"</string>
+    <string name="minutes_label_description">"ນາທີ"</string>
+    <string name="seconds_label_description">"ວິນາທີ"</string>
+    <string name="zero">0</string>
+    <!--  Stopwatch share strings -->
+    <!-- Sentence within the message created to share the total time recorded within the stopwatch -->
+    <string name="sw_share_main">"ເວລາຂອງຂ້ອຍແມ່ນ <xliff:g id="TIME">%s</xliff:g>"</string>
+    <!-- Header within the message created to share a list of lap times (a new line is appended to this) -->
+    <string name="sw_share_laps">"ເວລາຮອບ:"</string>
+    <!-- Label to enumerate the number of laps in the notification the user has counted -->
+    <string name="sw_notification_lap_number">"ຮອບ <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <!-- Label to enumerate the number of laps the user has counted -->
+    <string-array name="sw_lap_number_set" translatable="true">
+        <item>"# <xliff:g id="NUMBER">%d</xliff:g>"</item>
+        <item>"# <xliff:g id="NUMBER">%02d</xliff:g>"</item>
+    </string-array>
+    <!-- Stopwatch accessibility strings -->
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <item quantity="one">"1 ຊົ່ວໂມງ"</item>
+        <!-- more -->
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> ຊົ່ວໂມງ"</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <item quantity="one">"1 ນາທີ"</item>
+        <!-- more -->
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> ນາທີ"</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <item quantity="one">"1 ວິນາທີ"</item>
+        <!-- more -->
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> ວິນາທີ"</item>
+    </plurals>
+    <!-- timer strings -->
+    <!-- Describes the purpose of the button to add a new timer -->
+    <string name="timer_add_timer">"ເພີ່ມໂມງນັບຖອຍຫຼັງ"</string>
+    <!-- Describes the purpose of the button to begin or continue running a timer -->
+    <string name="timer_start">"ເລີ່ມ"</string>
+    <!-- Describes the purpose of the button to delete a timer. -->
+    <string name="timer_delete">"ລຶບ"</string>
+    <!-- Talkback description for deleting a number. -->
+    <string name="timer_descriptive_delete">"ລຶບ <xliff:g id="NUMBER_STRING">%s</xliff:g>"</string>
+    <!-- Describes the purpose of the button increase the remaining time on a timer by one minute. -->
+    <string name="timer_plus_one">"ເພີ່ມ 1 ນາທີ"</string>
+    <!-- Like "timer_plus_one", but with 'minute' abbreviated for the notification. -->
+    <string name="timer_plus_1_min">"ເພີ່ມ 1 ນາທີ"</string>
+    <!-- Describes the purpose of the button to stop the timer. -->
+    <string name="timer_stop">"ຢຸດ"</string>
+    <!-- Describes the purpose of the button to stop and delete the timer. -->
+    <string name="timer_done">"ແລ້ວໆ"</string>
+    <!-- Describes the purpose of the button to return the timer to it's original starting value. -->
+    <string name="timer_reset">"ນັບໃໝ່"</string>
+    <!-- Describes the purpose of the button to discard the current dialog values. Will also close the dialog if other time's exist -->
+    <string name="timer_cancel">"ຍົກເລີກ"</string>
+    <!-- Notification content shown when a timer has completed and has no more time remaining -->
+    <string name="timer_times_up">"ໝົດເວລາ"</string>
+    <!-- Label associated with a notification for a Timer -->
+    <string name="timer_notification_label">"ໂມງນັບຖອຍຫລັງ"</string>
+    <!-- Toast content shown when user attempts to create a new timer when there are already 4 timers -->
+    <string name="timers_max_count_reached">"ໂຕ​ຈັບ​ເວ​ລາ​ສູງ​ສຸດ 4 ອັນ"</string>
+    <!-- Jocular content that user may append when sharing the lap times -->
+    <string-array name="sw_share_strings" translatable="true">
+        <item>"ທ່ານໄວປານຜີພຸ້ນນໍ້."</item>
+        <item>"ຂໍໃຫ້ມີຄວາມສຸກກັບໝາກຜົນຈາກເຫື່ອແຮງຂອງທ່ານ."</item>
+        <item>"Android ເປັນທີ່ຮູ້ຈັກໃນເລື່ອງຄວາມໄວ, ແຕ່ກໍຍັງບໍ່ໄວຊ່ຳເຈົ້າ!"</item>
+        <item>"ເຫີ່."</item>
+        <item>"ເວລາຂັ້ນເທບ."</item>
+        <item>"ຊ່າງເປັນຄວາມໄວອັນມະຫາສານ."</item>
+        <item>"ມາເດີນທາງຂ້າມເວລາກັນອີກບາດນຶ່ງເທາະ."</item>
+        <item>"ພຽງແຕ່ໂດດໄປທາງຊ້າຍ."</item>
+        <item>"ທ່ານມີຖາດສີສຳລັບຄວາມໄວ."</item>
+        <item>"ຄວາມໄວໂຟໂຕນິກ."</item>
+    </string-array>
+    <!-- Title with the clock on the main page displaying the user's regular timezone (shows when automatic_home_clock enabled) -->
+    <string name="home_label">"ຫນ້າທໍາອິດ"</string>
+    <!-- Label for the Cities activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="cities_activity_title">"ເມືອງ"</string>
+    <!-- Settings strings -->
+    <!-- Header in the preferences settings for the section pertaining to clocks on the main fragment -->
+    <string name="clock_settings">"ໂມງ"</string>
+    <!-- Header for a Clock Dream Setting referring to choosing analog or digital style -->
+    <string name="clock_style">"ຮູບແບບ"</string>
+    <!-- Entries listed in the ListPreference when invoking the clock style
+         preference. -->
+    <string-array name="clock_style_entries">
+      <item>"ໂມງເຂັມ"</item>
+      <item>"ດິຈິຕອນ"</item>
+    </string-array>
+    <!-- Title for an option that will automtically show a clock representing the user's regular timezone on the main fragment whenever the user leaves their regular timezone-->
+    <string name="automatic_home_clock">"ສະແດງໂມງທ້ອງຖິ່ນອັດຕະໂນມັດ"</string>
+    <!-- Describes the functionality provided by the automatic_home_clock option -->
+    <string name="automatic_home_clock_summary">"ໃນລະຫວ່າງການເດີນທາງ ໃນຂົງເຂດທີ່ເຂດເວລາແຕກຕ່າງກັນ, ໃຫ້ເພີ່ມໂມງທ້ອງຖິ່ນຂອງທ່ານ"</string>
+    <!-- Title in the preferences change the time zone for the user's home -->
+    <string name="home_time_zone">"ເຂດເວລາໂມງທ້ອງຖິ່ນ"</string>
+    <!-- Title in a list dialog box to pick a time zone for the user's home -->
+    <string name="home_time_zone_title">"ເຂດເວລາໂມງທ້ອງຖິ່ນ"</string>
+    <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+    <string name="time_picker_cancel">"ຍົກເລີກ"</string>
+    <!-- Textual content of the button to update an alarm with the current dialog values -->
+    <string name="time_picker_set">"ຕົກລົງ"</string>
+    <string name="time_picker_time_seperator">:</string>
+    <!--  place holder for am/pm label when it is not set -->
+    <string name="time_picker_ampm_label">--</string>
+    <!-- add 00 as minutes to the time when pressing this button -->
+    <string name="time_picker_00_label">:00</string>
+    <!-- add 30 as minutes to the time when pressing this button -->
+    <string name="time_picker_30_label">:30</string>
+    <!-- Choices for timezones, must be kept in sync with timezone_values. CHAR LIMIT=25] -->
+    <string-array name="timezone_labels">
+        <item>"ໝູ່ເກາະມາແຊວ"</item>
+        <item>"ເກາະມິດເວ"</item>
+        <item>"ຮາວາຍ"</item>
+        <item>"ລັດອາລາສກາ"</item>
+        <item>"ເວລາແປຊິຟິກ"</item>
+        <item>"ເມືອງຕິຈວນນາ"</item>
+        <item>"ລັດອາຣິໂຊນາ"</item>
+        <item>"ເມືອງຈິຮົວຮົວ"</item>
+        <item>"ເວລາເມົາເທນ"</item>
+        <item>"ອາເມລິກາກາງ"</item>
+        <item>"ເວລາກາງ"</item>
+        <item>"ແມັກຊີໂກ ຊີຕີ້"</item>
+        <item>"ຊາເກັດເຊວານ"</item>
+        <item>"ເມືອງໂບໂກຕ່າ"</item>
+        <item>"ເວລາຕາເວັນອອກ"</item>
+        <item>"ເວັນເນຊູເອລາ"</item>
+        <item>"ເວລາອັດລັນຕິກ (ບາບາໂດສ)"</item>
+        <item>"ເວລາອັດລັນຕິກ (ການາດາ)"</item>
+        <item>"ເມືອງມານາອຸສ"</item>
+        <item>"ເມືອງຊານຕິເອໂກ"</item>
+        <item>"ນິວຟາວແລນ"</item>
+        <item>"ເມືລອງບຣາສຊິເລຍ"</item>
+        <item>"ນະຄອນຫຼວງບູໂນສໄອເຣັສ"</item>
+        <item>"ເກາະກຣີນແລນ"</item>
+        <item>"ມອນເຕວິດີໂອ"</item>
+        <item>"ມິດ-ແອັດລານຕິກ"</item>
+        <item>"ເມືອງອາໂຊເຣັສ"</item>
+        <item>"ໝູ່ເກາະເຄບເວີເດ"</item>
+        <item>"ເມືອງຄາຊາບລັງກາ"</item>
+        <item>"ລອນດອນ, ນະຄອນຫຼວງດັບບລິນ"</item>
+        <item>"ນະຄອນຫຼວງອໍາສະເຕີດໍາ, ນະຄອນຫຼວງແບັກແລ່ງ"</item>
+        <item>"ເມືອງເບລເກຣດ"</item>
+        <item>"ນະຄອນຫຼວງບຣຸກແຊນ"</item>
+        <item>"ຊາຣາເຈໂວ"</item>
+        <item>"ເມືອງວິນໂຮເອັກ"</item>
+        <item>"ເວລາອາຟຣິກາຕາເວັນຕົກ"</item>
+        <item>"ເມືອງຫຼວງອໍາມັນ, ຈໍແດນ"</item>
+        <item>"ເມືອງເອເທັນ, ນະຄອນຫຼວງອິສຕານບູລ"</item>
+        <item>"ນະຄອນຫຼວງເບຣຸສ, ເລບານອນ"</item>
+        <item>"ນະຄອນຫຼວງໄຄໂຣ"</item>
+        <item>"ເຮວຊິງກິ"</item>
+        <item>"ເຢຣູຊາແລັມ"</item>
+        <item>"ມິນສກ໌"</item>
+        <item>"ນະຄອນຫຼວງຮາຣາເຣ"</item>
+        <item>"ແບັກແດດ"</item>
+        <item>"ມອສໂຄ"</item>
+        <item>"ຄູເວດ"</item>
+        <item>"ໄນໂຣບີ"</item>
+        <item>"ເຕຣານ"</item>
+        <item>"ບາຄຸ"</item>
+        <item>"ທິບິລິຊີ"</item>
+        <item>"ເຢເຣວານ"</item>
+        <item>"ດູໄບ"</item>
+        <item>"ຄາບູ"</item>
+        <item>"ອິສລາມາບັດ, ກາຣາຈິ"</item>
+        <item>"ຢູໂຣເຊກ"</item>
+        <item>"ເຢກັດເທຣິນເບີກ"</item>
+        <item>"ໂຄຄາຕາ"</item>
+        <item>"ສີລັງກາ"</item>
+        <item>"ຄັດມັນດູ"</item>
+        <item>"ເອັສຕານາ"</item>
+        <item>"ຢາງກອນ"</item>
+        <item>"ຄຣາສໂນຢາກ"</item>
+        <item>"ບາງກອກ"</item>
+        <item>"ປັກກິ່ງ"</item>
+        <item>"ຮົງກົງ"</item>
+        <item>"ອຽກຄຸກສ໌ຄ"</item>
+        <item>"ກົວລາ ລຳເປີ"</item>
+        <item>"ເພີດ"</item>
+        <item>"ໄທເປ"</item>
+        <item>"ໂຊ"</item>
+        <item>"ໂຕກຽວ, ໂອຊາກາ"</item>
+        <item>"ຢາຄຸດສ໌ຄ"</item>
+        <item>"ອາເດວເລດ"</item>
+        <item>"ດາວິນ"</item>
+        <item>"ບຣິສເບນ"</item>
+        <item>"ໂຮບາດ"</item>
+        <item>"ຊິດນີ, ແຄນເບີຣາ"</item>
+        <item>"ວະລາດິໂວສໂຕກ"</item>
+        <item>"ກວມ"</item>
+        <item>"ມາກາດານ"</item>
+        <item>"ອັອກແລນ"</item>
+        <item>"ຟີຈິ"</item>
+        <item>"ທອງກາ"</item>
+        <item>"ຈາກາຕາ"</item>
+    </string-array>
+     <!-- Header in the preferences settings for the section pertaining to alarms -->
+     <string name="alarm_settings">"ໂມງປຸກ"</string>
+     <!-- Describes the running service for the stopwatch -->
+     <string name="stopwatch_service_desc">"ບໍລິການຂອງໂມງຈັບເວລາ ເພື່ອສະແດງໃນການແຈ້ງເຕືອນ."</string>
+     <!-- Desription for the stopped stop watch -->
+     <string name="swn_stopped">"ຢຸດແລ້ວ"</string>
+    <!-- Text instruction for dismiss alarm on alarm lock screen. The dismiss button will still
+         be on the right even on RTL languages so please do not reverse this during
+         translation. -->
+    <string name="description_direction_right">"​ປັດ​ໄປ​ຂວາ​ເພື່ອ​ປິດ​ໄວ້"</string>
+    <!-- Text instruction for snooze alarm on alarm lock screen. The snooze button will still
+         be on the left even on RTL languages so please do not reverse this during
+         translation. -->
+    <string name="description_direction_left">"​ປັດ​ໄປ​ຊ້າຍ​ເພື່ອ​ເລື່ອນ​ອອກ​ໄປ​ກ່ອນ"</string>
+    <!-- Text instruction for alarm icon on alarm lock screen. The snooze button will still
+         be on the left even on RTL languages so please do not reverse this during
+         translation. -->
+    <string name="description_direction_both">"ປັດ​ໄປ​ທາງ​ຊ້າຍ​ເພື່ອ​ເລື່ອນ ຫຼື​ທາງ​ຂວາ ເພື່ອ​ປິດ​ໄວ້"</string>
+    <!-- Notification title when timer is stopped. -->
+    <string name="timer_stopped">"ຢຸດນັບຖອຍຫຼັງແລ້ວ"</string>
+    <!-- Notification title when multiple timers are stopped. -->
+    <string name="timers_stopped">"<xliff:g id="NUMBER">%d</xliff:g> ໂມງນັບຖອຍຫຼັງຢຸດແລ້ວ"</string>
+    <!-- Notification text when multiple timers are stopped. -->
+    <string name="all_timers_stopped_notif">"ແຕະເພື່ອເບິ່ງໂຕຈັບເວລາຂອງທ່ານ"</string>
+    <!-- Notification title when at least one timer, of those in use, is counting down. -->
+    <string name="timers_in_use">"<xliff:g id="NUMBER">%d</xliff:g> ໂມງນັບຖອຍຫຼັງ"</string>
+    <!-- Notification text when at least one timer, of those in use, is counting down. -->
+    <string name="next_timer_notif">"ໂມງຈັບເວລາຄັ້ງຕໍ່ໄປ: <xliff:g id="TIME_REMAINING">%s</xliff:g>"</string>
+    <!-- screensaver settings strings -->
+    <!-- Label for the screen saver activity displayed on-screen when that activity must be represented to the user. -->
+    <string name="screensaver_settings">"ຕັ້ງຄ່າ Dream"</string>
+    <!-- Title for check box to pick intensity of display diminuation during dream mode -->
+    <string name="night_mode_title">"ໂໝດກາງຄືນ"</string>
+    <!-- Describes intensity of display diminuation during dream mode -->
+    <string name="night_mode_summary">"ຜ່ອນແສງໜ້າຈໍອ່ອນໆ (ສຳລັບຫ້ອງທີ່ມືດຫຼາຍ)"</string>
+    <!-- Description of the down caret in the alarm alert screen to expand the alarm content to edit perspective. [CHAR LIMIT=NONE] -->
+    <string name="expand_alarm">"ຂະຫຍາຍໂມງປຸກ"</string>
+    <!-- Description of the up caret in the alarm alert screen to collapse the alarm content to summary perspective. [CHAR LIMIT=NONE] -->
+    <string name="collapse_alarm">"ຫຍໍ້ແຖບໂມງປຸກ"</string>
+    <!-- Description of the button to undo change to alarm -->
+    <string name="alarm_undo">"ຍົກເລີກ"</string>
+    <!-- Toast content when an alarm was deleted  -->
+    <string name="alarm_deleted">"ໂມງປຸກຖືກລຶບແລ້ວ."</string>
+    <!-- Select the source of the alarm -->
+    <string name="alarm_select">"ເລືອກປະເພດໂມງປຸກ"</string>
+    <!-- Select the ringtone as alarm -->
+    <string name="alarm_select_ringtone">"ສຽງໂມງປຸກ"</string>
+    <!-- Select the alarm from external device -->
+    <string name="alarm_select_external">"ດົນຕີ"</string>
+    <!-- Ok for selection -->
+    <string name="alarm_select_ok">"ຕົກລົງ"</string>
+    <!-- Cancel for selection -->
+    <string name="alarm_select_cancel">"ຍົກເລີກ"</string>
+    <!-- slash between date and next alarm in the clock -->
+    <string name="slash"> / </string>
+    <!-- slash between date and next alarm in the clock -->
+    <string name="world_day_of_week_label"> / <xliff:g id="label">%s</xliff:g></string>
+    <!-- Description of field showing the next alarm time in the clock page, for accessibility. -->
+    <string name="next_alarm_description">"ໂມງປຸກຄັ້ງຕໍ່ໄປ: <xliff:g id="ALARM_TIME">%s</xliff:g>"</string>
+    <!-- Displays the number of alarms selected from the list of alarms. -->
+    <string name="alarms_selected">"ເລືອກ <xliff:g id="ALARMS">%d</xliff:g>"</string>
+    <!-- message used by the talkback accessebility app to say that something was deleted -->
+    <string name="deleted_message">"ລຶບແລ້ວ"</string>
+    <!-- Alarm deletion confirmation message-->
+    <plurals name="alarm_delete_confirmation">
+        <!-- Confirmation for one alarm -->
+        <item quantity="one">"ລຶບໂມງປຸກທີ່ເລືອກ?"</item>
+        <!-- Confirmation more than one alarm  -->
+        <item quantity="other">"ລຶບໂມງປຸກທີ່ເລືອກ?"</item>
+    </plurals>
+    <!-- Timer deletion confirmation -->
+    <string name="timer_delete_confirmation">"ລຶບໂມງນັບຖອຍຫລັງນີ້?"</string>
+    <!-- world clock deletion confirmation -->
+    <string name="city_delete_confirmation">"ລຶບເມືອງນີ້ອອກ?"</string>
+    <!-- Label for digital clock gadget displayed on-screen when that gadget is represented to the user. -->
+    <string name="digital_gadget">"ໂມງດິຈິຕອນ"</string>
+    <!-- String for no alarms -->
+    <string name="no_alarms">"ບໍ່ມີການຕັ້ງໂມງປຸກ"</string>
+    <!-- String for no alarms set [CHAR LIMIT=24] -->
+    <string name="no_alarms_set">"​ບໍ່​ໄດ້​ຕັ້ງ​ໂມງ​ປຸກ"</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">"ບໍ່ມີການຕັ້ງໂມງປຸກແລ້ວ"</string>
+    <!--
+        String that represents time format for 12-hour time.
+        h represents hour in range (1-12) with the minimum number of digits
+        mm represents minute with leading 0 in case of values < 10
+        a represents am/pm
+        Ex: h:mm a = 12:54 am, 8:05 pm
+    -->
+    <string name="time_format_12_mode">"h:mm a"</string>
+    <!--
+        String that represents time format for 24-hour time.
+        k represents hour in range (0-23) with the minimum number of digits
+        mm represents minute with leading 0 in case of values < 10
+        Ex: k:mm = 13:51, 5:05
+    -->
+    <string name="time_format_24_mode">"k:mm"</string>
+    <!--
+        String that represents weekday, time format for 12-hour time.
+        EEE represents weekday name in short form (ex. Mon, Tue, Wed)
+        h represents hour in range (1-12) with the minimum number of digits
+        mm represents minute with leading 0 in case of values < 10
+        a represents am/pm
+        Ex: EEE, h:mm a = Mon, 2:55 pm
+    -->
+    <string name="weekday_time_format_12_mode">"EEE, h:mm a"</string>
+    <!--
+        String that represents weekday, time format for 24-hour time.
+        EEE represents weekday name in short form (ex. Mon, Tue, Wed)
+        k represents hour in range (0-23) with the minimum number of digits
+        mm represents minute with leading 0 in case of values < 10
+        Ex: EEE, k:mm = Mon, 2:55
+    -->
+    <string name="weekday_time_format_24_mode">"EEE, k:mm"</string>
+    <!-- String that represents that invalid time for an alarm was specified, e.g. 23:00am
+     or 27:68pm.
+    First %d represents hour, second %d represents minutes, %s represents am/pm,
+    If no am/pm is passed in (e.g. the locale uses 24h time) only hour and minute are printed.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="invalid_time">"ເວ​ລາ​ໃຊ້​ບໍ່​ໄດ້ <xliff:g id="INVALID_HOUR">%d</xliff:g>:<xliff:g id="INVALID_MINUTES">%d</xliff:g> <xliff:g id="INVALID_AMPM">%s</xliff:g>"</string>
+    <!-- String that represents that no alarm has been specified for a requested hour:minutes.
+    This happens when a user sends a voice command 'dismiss my alarm at 3:00pm' but they have no
+    alarms specified for that time. %s represents the time of the alarm.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_alarm_at">"ບໍ່​ມີ​ໂມງ​ປຸກ​ຕັ້ງ​ໄວ້​ໃນ​ເວ​ລາ <xliff:g id="ALARM_TIME_HOUR">%d</xliff:g>:<xliff:g id="ALARM_TIME_MINUTES">%d</xliff:g>"</string>
+    <!-- String that represents that the user doesn't have any alarms scheduled. This happens when
+    a user sends a voice command 'dismiss next alarm' or 'dismiss all of my alarms' but they have
+    no alarms scheduled in the app.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_scheduled_alarms">"ບໍ່​ມີ​ການ​ເຕືອນ​ກຳ​ນົດ​ໄວ້"</string>
+    <!-- String that represents that the user specified that they want to select an alarm to
+    dismiss by specifying a 'label' but they didn't specify any labels.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_label_specified">"ບໍ່​ມີ​ປ້າຍ​ໝາຍ​ລະ​ບຸ​ໄວ້"</string>
+    <!-- String that represents that no alarm has been specified for a requested label.
+    This happens when a user sends a voice command 'dismiss my alarm with label pick up kids'
+     but they have no alarms with that label.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_alarms_with_label">"ບໍ່​ມີ​ໂມງ​ປຸກ​ຢູ່​ໃນ​ປ້າຍ​ໝາຍ"</string>
+    <!-- String that represents that the user has sent a voice command 'start a stopwatch' when
+    the stopwatch was already running so the command wasn't executed.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_already_running">"ໂມງ​ຈັບ​ເວ​ລາ​ແລ່ນ​ຢູ່​ແລ້ວ"</string>
+    <!-- String that represents that the user has sent a voice command 'stop the stopwatch' or
+    'lap the stopwatch' when the stopwatch wasn't running so the command wasn't executed.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_isnt_running">"ໂມງ​ຈັບ​ເວ​ລາ​ບໍ່​ແລ່ນ​ຢູ່"</string>
+    <!-- String that represents that the user has sent a voice command 'reset the stopwatch' or
+     when the stopwatch was running so the command wasn't executed.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_cant_be_reset_because_is_running">"ບໍ່​ສາ​ມາດ​ຕັ້ງ​ໂມງ​ຈັບ​ເວ​ລາ​ໄດ້ ເພາະ​ວ່າ​ມັນ​ກຳ​ລັງ​ແລ່ນ"</string>
+    <!-- String that represents that the user has successfully sent a voice command stopping
+     the stopwatch.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_stopped">"ໂມງ​ຈັບ​ເວ​ລາ​ຢຸດ​ແລ້ວ"</string>
+    <!-- String that represents that the user has successfully sent a voice command resetting
+    the stopwatch.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_reset">"ຕັ້ງ​ໂມງ​ຈັບ​ເວ​ລາ​ຄືນ​ໃໝ່​ແລ້ວ"</string>
+    <!-- String that represents that the user has successfully sent a voice command lapping
+    the stopwatch.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_lapped">"ໂມງຈັບເວລາຮອບ​ແລ້ວ"</string>
+    <!-- String that represents that the user has successfully sent a voice command starting
+    the stopwatch.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="stopwatch_started">"​ໂມງ​ຈັບ​ເວ​ລາເລີ່ມ​ຕົ້ນ​ແລ້ວ"</string>
+    <!-- String that represents that the user has sent a voice command 'dismiss my alarm at 3pm' when
+    there was no alarm scheduled for that time (they might have had an alarm for 3pm on the list
+    but it was disabled).
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_alarm_scheduled_for_this_time">"ບໍ່​ມີໂມງ​ປຸກ​ກຳ​ນົດ​ເວ​ລາ​ໃຫ້ກັບ​ເວ​ລາ​ນີ້"</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
+    %s represents alarm time, e.g. 14:20
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="alarm_is_dismissed">"<xliff:g id="ALARM_TIME">%s</xliff:g> ໂມງ​ປຸກ​ຖືກ​ປິດ​ໄວ້​ແລ້ວ"</string>
+    <!-- String that represents that the user has dismissed an alarm through a voice action.
+    %s represents alarm time, e.g. 14:20
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="alarm_is_set">"ໂມງ​ປຸກ​ຖືກ​ຕັ້ງ​ໃນ​ເວ​ລາ <xliff:g id="ALARM_TIME">%s</xliff:g>"</string>
+    <!-- String that represents that the user attempted to send a voice action 'delete a timer'
+    when there were no timers available.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_timer_set">"ບໍ່​ມີການ​ຈັບ​ເວ​ລາ​ກຳ​ນົດ​ໄວ້"</string>
+    <!-- String that represents that the user has successfully deleted a timer through a voice action.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_deleted">"ລຶບ​ເຄື່ອງ​ຈັບ​ເວ​ລາ​ແລ້ວ"</string>
+    <!-- String that represents that the user has attempted to start a timer when a timer was
+    already running.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_already_running">"ເຄື່ອງ​ຈັບ​ເວ​ລາ​ແລ່ນ​ຢູ່​ແລ້ວ"</string>
+    <!-- String that represents that the user has attempted to start or reset a timer when
+     there were more than 1 timer of desired state in which case it's ambiguous
+     which timer the user meant.
+    [CHAR LIMIT=NONE]
+     -->
+    <string name="multiple_timers_available">"ບໍ່​ສາ​ມາດ​ດຳ​ເນີນ​ການ​ຂໍ​ຂອ​ງ​ທ່ານ​ໃຫ້​ສຳ​ເລັດ​ໄດ້, ມີ​ການ​ຈັບ​ເວ​ລາ​ຫຼາຍ​ອັນ​ຢູ່​ໃຫ້"</string>
+    <!-- String that represents that the user has successfully started a timer through a voice action.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_started">"​ເລີ່ມ​ການ​ຈັບ​ເວ​ລາ​ແລ້ວ"</string>
+    <!-- String that represents that the user has successfully created a timer through a voice action.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_created">"ສ້າງ​ການ​ຕັ້ງ​ເວ​ລາ​ແລ້ວ"</string>
+    <!-- String that represents that the user attempted to start a timer through a voice action
+    but specified invalid length.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="invalid_timer_length">"ຄວາມ​ຍາວ​ການ​ຕັ້ງ​ເວ​ລາ​ບໍ່​ຖື​ກ​ຕ້ອງ"</string>
+    <!-- String that represents that the user has successfully reset a timer through a voice action.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_was_reset">"ການ​ຈັດ​ເວ​ລາ​ຕັ້ງ​ຄ່າ​ຄືນ​ໃໝ່​ແລ້ວ"</string>
+    <!-- String that represents that the user attempted to reset a timer through a voice action but
+    the timer wasn't stopped (resetting is only allowed when a timer is stopped).
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_cant_be_reset_because_its_running">"ບໍ່​ສາ​ມາ​ຕັ້ງ​ຄ່າການ​ຈັບ​ເວ​ລາ​ຄືນ​ໃໝ່​ໄດ້ ເພາະ​ວ່າ​ມັນ​ກຳ​ລັງ​ແລ່ນ​ຢູ່. ຢຸດການ​ຈັບ​ເວ​ລາ ເພື່ອ​ຕັ້ງ​ຄືນ​ໃໝ່."</string>
+    <!-- String that represents that the user attempted to stop a timer through a voice action but
+    the timer was already stopped (resetting is only allowed when a timer is stopped).
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="timer_already_stopped">"ເຄື່ອງ​ຈັບ​ເວ​ລາ​ຢຸດ​ແລ້ວ"</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
+    a voice action
+    but they didn't specify a city so no world clock was selected.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_city_selected">"ບໍ່​ມີ​ເມືອງ​ຖືກ​ເລືອກ​ໄວ້"</string>
+    <!-- String that represents that the user attempted to add or delete a world clock through
+    a voice action
+    but the city they specified wasn't listed in the database.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="the_city_you_specified_is_not_available">"ບໍ່​ມີ​ເມືອງ​ທີ່​ທ່ານ​ລະ​ບຸນັ້ນ​ຢູ່"</string>
+    <!-- String that represents that the user attempted to add a world clock through a voice action
+    but the city they specified is already added to the list.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="the_city_already_added">"ເພີ່ມ​ເມືອງນັ້ນ​ໃສ່​ຮຽບ​ຮ້ອຍ​ແລ້ວ"</string>
+    <!-- String that represents that the user successfully added a world clock through a
+    voice action
+    %s represents the name of the city they added.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="city_added">"<xliff:g id="CITY_NAME">%s</xliff:g> ເພີ່ມ​ໃສ່​ແລ້ວ"</string>
+    <!-- String that represents that the user successfully deleted a world clock through
+    a voice action
+    %s represents the name of the city they deleted.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="city_deleted">"<xliff:g id="CITY_NAME">%s</xliff:g> ລຶບ​ແລ້ວ"</string>
+    <!-- String that represents that the user attempted to dismiss an alarm that is more than
+    24 hours away
+    %s represents the time of the alarm (e.g. 15:39)
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"<xliff:g id="ALARM_TIME">%s</xliff:g> ໂມງ​ປຸກ​ບໍ່​ສາ​ມາດ​ປ່ອຍ​ໄວ້​ໄດ້, ຍັງ​ຫຼາຍ​ກ່​ວາ 24 ຊົ່ວ​ໂມງ"</string>
+    <!-- String that shows up in the action bar for the Picker Activity
+         where a use gets to pick which alarm to dismiss
+   [CHAR LIMIT=NONE]
+   -->
+    <string name="dismiss_alarm">"ບອກເລີກ​ການ​ເຕືອນ​"</string>
+    <!-- String that represents that further action is needed from the user in case their
+    voice command was ambiguous or there are more than 1 alarms that match their request.
+    The user needs to choose an alarm they want to dismiss through the UI
+   [CHAR LIMIT=NONE]
+   -->
+    <string name="pick_alarm_to_dismiss">"ເລືອກວ່າ​ຈະ​ປິດ​ໂມງ​ປຸກ​ໃດ​ໄວ້"</string>
+    <!-- String that represents that the user doesn't have any alarms firing at the moment.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="no_firing_alarms">"ບໍ່​ມີ​ສັນ​ຍານ​ເຕືອນ​ໄຟ​ໄໝ້"</string>
+    <!-- String that represents that the user has snoozed an alarm through a voice action for 10
+    minutes.
+    %s represents alarm time, e.g. 14:20
+    [CHAR LIMIT=NONE]
+    -->
+    <string name="alarm_is_snoozed">"<xliff:g id="ALARM_TIME">%s</xliff:g> ໂມງ​ປຸກ​ຖືກ​ເລື່ອນ​ແຈ້ງ​ເຕືອນ​ໄປ​ເປັນ​ເວ​ລາ 10 ວິ​ນາ​ທີ"</string>
+    <!-- Ringtone selection default" -->
+    <string name="ringtone_default">"ສຽງໂທເຂົ້າເລີ່ມຕົ້ນ"</string>
+    <string name="power_on_text">"ເປີດເຄື່ອງ"</string>
+    <string name="power_on_yes_text">"ແມ່ນ"</string>
+    <string name="power_on_no_text">"ບໍ່"</string></resources>

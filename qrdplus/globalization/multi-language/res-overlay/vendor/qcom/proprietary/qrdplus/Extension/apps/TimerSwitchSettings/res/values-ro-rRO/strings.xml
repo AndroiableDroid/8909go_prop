@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Activare și dezactivare programată"</string>
+    <string name="timer_switch">"Comutator temporizator"</string>
+    <string name="switch_on">"Activare programată"</string>
+    <string name="switch_off">"Dezactivare programată"</string>
+    <string name="every_day">"În fiecare zi"</string>
+    <string name="switch_on_time">"Setați ora de pornire"</string>
+    <string name="switch_off_time">"Setați ora de oprire"</string>
+    <string name="date_time_24hour">"Utilizaţi formatul de 24 de ore"</string>
+    <string name="date_time_date_format">"Selectați formatul de dată"</string>
+    <string name="label">"Etichetă"</string>
+    <string name="switch_repeat">"Repetați"</string>
+    <string name="expand_switch">"Extindeți comutarea"</string>
+    <string name="collapse_switch">"Restrângeți comutarea"</string>
+    <!-- Context Menu Item on Timer Switch Settings screen: Reset switch -->
+    <string name="reset_switch">"Resetați comutarea"</string>
+    <string name="day">"1 zi"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> (de) zile"</string>
+    <string name="hour">"1 oră"</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g> (de) ore"</string>
+    <string name="minute">"1 minut"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> minute"</string>
+    <string name="never">"Niciodată"</string>
+    <string name="day_concat">", "</string>
+    <string-array name="switch_set">
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> setat pentru mai puțin de 1 minut de acum."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> setat pentru <xliff:g id="DAYS" example="2 days">%2$s</xliff:g> de acum."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> setat pentru <xliff:g id="HOURS" example="2 hours">%3$s</xliff:g> de acum."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> setat pentru <xliff:g id="DAYS" example="2 days">%2$s</xliff:g> și <xliff:g id="HOURS" example="2 hours">%3$s</xliff:g> de acum."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> setat pentru <xliff:g id="MINUTES" example="2 minutes">%4$s</xliff:g> de acum."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> setat pentru <xliff:g id="DAYS" example="2 days">%2$s</xliff:g> și <xliff:g id="MINUTES" example="2 minutes">%4$s</xliff:g> de acum."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> setat pentru <xliff:g id="HOURS" example="2 hours">%3$s</xliff:g> și <xliff:g id="MINUTES" example="2 minutes">%4$s</xliff:g> de acum."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> setat pentru <xliff:g id="DAYS" example="2 days">%2$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%3$s</xliff:g> și <xliff:g id="MINUTES" example="2 minutes">%4$s</xliff:g> de acum."</item>
+    </string-array>
+    <string name="switch_off_dialog_cancel">"Anulaţi"</string>
+    <string name="switch_off_dialog_ok">"Oprire"</string>
+    <string name="switch_off_dialog_title">"Dezactivare programată"</string>
+    <string name="switch_off_message">"Telefonul se va opri în <xliff:g id="seconds">%s</xliff:g> secunde"</string>
+    <string name="switch_off_message_second">"Telefonul se va opri într-o <xliff:g id="second">%s</xliff:g> secundă"</string></resources>

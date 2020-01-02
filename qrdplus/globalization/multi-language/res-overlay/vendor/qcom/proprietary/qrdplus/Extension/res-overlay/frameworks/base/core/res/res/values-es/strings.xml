@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_accessWifiState">"ver conexiones WLAN"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_accessWifiState">"Permite que la aplicación vea información sobre conexión a redes WLAN (por ejemplo, si está habilitada la conexión WLAN y el nombre de los dispositivos WLAN conectados)."</string>
+    <string name="permlab_changeWifiState">"conectarse a WLAN y desconectarse de esta red"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiState">"Permite que la aplicación se conecte a puntos de acceso WLAN y se desconecte de ellos y que realice cambios en la configuración de redes WLAN del dispositivo."</string>
+    <string name="permlab_changeWifiMulticastState">"permitir recepción multidifusión WLAN"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="tablet">"Permite que la aplicación reciba paquetes enviados a todos los dispositivos de una red WLAN que utilicen direcciones de multidifusión, no solo al tablet.  Utiliza más batería que el modo de no multidifusión."</string>
+    <string name="permdesc_changeWifiMulticastState" product="default">"Permite que la aplicación reciba paquetes enviados a todos los dispositivos de una red WLAN que utilicen direcciones de multidifusión, no solo al teléfono.  Utiliza más batería que el modo de no multidifusión."</string>
+    <string name="wifi_available_sign_in">"Iniciar sesión en la red WLAN"</string>
+    <string name="wifi_watchdog_network_disabled">"No se pudo conectar a WLAN"</string>
+    <string name="wifi_p2p_dialog_title">"WLAN Directo"</string>
+    <string name="wifi_p2p_turnon_message">"Inicia WLAN Directo. Se desactivará el funcionamiento de la zona Internet o del cliente WLAN."</string>
+    <string name="wifi_p2p_failed_message">"No se ha podido iniciar WLAN Directo."</string>
+    <string name="wifi_p2p_enabled_notification_title">"WLAN Directo está encendido"</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="tablet">"El tablet se desconectará temporalmente de la red WLAN mientras esté conectado a <xliff:g id="device_name">%1$s</xliff:g>"</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="default">"El teléfono se desconectará temporalmente de la red WLAN mientras esté conectado a <xliff:g id="device_name">%1$s</xliff:g>"</string>
+    <!-- Notification title when WLAN data usage has exceeded limit threshold, and has been disabled. [CHAR LIMIT=32] -->
+    <string name="data_usage_wifi_limit_title">"Datos WLAN desactivados"</string>
+    <!-- Notification title when WLAN data usage has exceeded limit threshold. [CHAR LIMIT=32] -->
+    <string name="data_usage_wifi_limit_snoozed_title">"Límite de datos WLAN superado"</string>
+    <!--<string name="permlab_configureWifiDisplay">configure WLAN displays</string>-->
+    <!--<string name="permdesc_configureWifiDisplay">Allows the app to configure and connect to WLAN displays.</string>-->
+    <!--<string name="permlab_controlWifiDisplay">control WLAN displays</string>-->
+    <!--<string name="permdesc_controlWifiDisplay">Allows the app to control low-level features of WLAN displays.</string>-->
+    <!-- A notification is shown when there are open wireless networks nearby.  This is the notification's title. -->
+    <plurals name="wifi_available">
+        <item quantity="one">"Red WLAN disponible"</item>
+        <item quantity="other">"Redes WLAN disponibles"</item>
+    </plurals>
+    <!-- A notification is shown when there are open wireless networks nearby.  This is the notification's message. -->
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">"Red WLAN abierta disponible"</item>
+        <item quantity="other">"Redes WLAN abiertas disponibles"</item>
+    </plurals></resources>

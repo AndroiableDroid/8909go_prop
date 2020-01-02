@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"عرض توضيحي حول متعقب الكائنات"</string>
+    <string name="open_camera_failed">"حدث خطأ عند فتح الكاميرا على الجهاز.  يرجى إغلاق التطبيقات الأخرى التي قد تكون تستخدم الكاميرا وتشغيل هذا التطبيق مجددًا."</string>
+    <string name="snapshot_failed">"حدث خطأ عند التقاط لقطة سريعة. يرجى التحقق من logcat  للحصول على تفاصيل حول الخطأ."</string>
+    <string name="video_recording_failed">"حدث خطأ عند تسجيل الفيديو. يرجى  التحقق من logcat للحصول على تفاصيل حول الخطأ."</string>
+    <string name="settings">"الإعدادات"</string>
+    <string name="switch_camera">"تبديل الكاميرا"</string>
+    <string name="switch_camera_mode">"تبديل وضع الصورة/الفيديو"</string></resources>

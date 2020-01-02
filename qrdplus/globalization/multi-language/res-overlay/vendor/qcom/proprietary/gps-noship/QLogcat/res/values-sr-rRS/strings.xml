@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"Детаљна евиденција"</item>
+        <item>"Отклањање грешака"</item>
+        <item>"Информације"</item>
+        <item>"Упозорење"</item>
+        <item>"Грешка"</item>
+        <item>"Фатално"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"SD картица"</item>
+        <item>"Интерна меморија"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"Није могуће уписивање у датотеку евиденције. Поруке евиденције се не чувају. Процес евиденције ће се аутоматски наставити чим датотека евиденције буде поново доступна"</string>
+    <string name="err_lowspace">"Детектовано је да понестаје простора. Поруке евиденције се не чувају. Процес евиденције ће се аутоматски наставити чим буде довољно простора"</string>
+  <string name="txtTag_text">"tagname"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"Logcat – опис"</string></resources>

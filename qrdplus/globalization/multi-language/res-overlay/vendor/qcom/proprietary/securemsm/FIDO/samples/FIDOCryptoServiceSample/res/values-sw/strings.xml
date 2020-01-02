@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"ProgramuyaSampuliyaHudumayaFidoCrypto"</string>
+    <string name="action_settings">"Mipangilio"</string>
+    <string name="body_msg">"FidoCryptoService inajaribiwa"</string>
+    <string name="load">"pakia"</string>
+    <string name="unload">"pakua"</string>
+    <string name="process">"Mchakato"</string>
+    <string name="start">"anzisha"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"Funga Huduma ya FIDO"</string>
+    <string name="unbindFido">"Fungua Huduma ya FIDO"</string>
+    <string name="setChallenge">"Weka Changamoto"</string>
+    <string name="fidoCryptoJNI">"JNIyafidoCrypto"</string>
+    <string name="bind">"Kithibitishaji Kufunga"</string>
+    <string name="verifyUser">"ThibitishaMtumiaji/ PataVocha"</string>
+    <string name="GetInfo">"PataMaelezo"</string>
+    <string name="Register">"Sajili"</string>
+    <string name="Deregister">"Ondoa Usajili"</string>
+    <string name="OpenSettings">"FunguaMipangilio"</string>
+    <string name="Sign">"Saini"</string>
+    <string name="MalformedRequest">"OmbiMbaya"</string>
+    <string name="selectAuth">"Chagua Kithibitishaji"</string>
+    <string name="getEnrollmentStatus">"Pokea Hali ya Uandikishaji"</string>
+    <string name="RegisterExt">"Jisajili kwa Viendelezi"</string>
+    <string name="SignExt">"Weka Saini kwa Viendelezi"</string>
+    <string name="encResult">"Matokeo Yaliyofungashwa"</string>
+    <string name="extResult">"Data ya Kiendelezi"</string>
+    <string name="selectFidoOpText">"chagua uendeshaji wa FIDO"</string>
+    <string name="show_message_sui">"onyesha sui ya ujumbe"</string>
+    <string name="fido_sui_service">"Huduma ya Sui ya fido"</string>
+    <string name="bindFidoSui">"funga sui ya fido"</string>
+    <string name="unbindFidoSui">"fungua sui ya fido"</string>
+    <string name="suiResultTitle">"onyesha matokeo ya sui ya ujumbe"</string>
+    <string name="cancel_sui">"ghairi sui"</string>
+    <string name="extensionText">"Ungependa kutumia Viendelezi?"</string>
+    <string name="pngText">"Ungependa kutumia maudhui ya PNG?"</string>
+    <string name="fpText">"Imarisha Usalama wa Alama ya Kidole"</string>
+    <string-array name="authenticator_array">
+        <item>"Tathmini Kithibitishaji"</item>
+        <item>"Chukua Sampuli ya Kithibitishaji"</item>
+        <item>"Linda Sampuli ya Kithibitishaji"</item>
+        <item>"Kithibitishaji cha Sampuli ya Kiendelezi"</item>
+        <item>"Kithibitishaji Salama cha Kiendelezi"</item>
+        <item>"Kith cha Ubora wa Kifaa"</item>
+        <item>"Kithibitishaji Salama cha Kiendelezi cha IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Pata Maelezo"</item>
+        <item>"Sajili"</item>
+        <item>"Ondoa Usajili"</item>
+        <item>"Fungua Mipangilio"</item>
+        <item>"Utengaji Ulioumbizwa Vibaya"</item>
+        <item>"Ishara (Kith)"</item>
+        <item>"Ishara (TX)"</item>
+    </string-array></resources>

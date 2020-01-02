@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Official label of the phone app, as seen in "Manage Applications"
+         and other settings UIs.  This is the version of the label for
+         tablet devices, where the phone app handles mobile data but not
+         actual phone calls. -->
+    <string name="phoneAppLabel" product="tablet">"Data ya Simu za Mkononi"</string>
+    <!-- Official label of the phone app, as seen in "Manage Applications"
+         and other settings UIs. -->
+    <string name="phoneAppLabel" product="default">"Huduma za Simu"</string>
+    <!-- Screen title for Emergency Dialer UI -->
+    <string name="emergencyDialerIconLabel">"Kipigaji cha Dhararu"</string>
+    <!-- Activity label for the in-call UI -->
+    <string name="phoneIconLabel">"Simu"</string>
+    <!-- Title of FDN list screen -->
+    <string name="fdnListLabel">"Orodha ya FDN"</string>
+    <!-- Call status -->
+    <!-- Incoming call screen, name of "unknown" caller -->
+    <string name="unknown">"Haijulikani"</string>
+    <!-- Incoming call screen, string when number hidden -->
+    <string name="private_num">" Number isiyojulikana"</string>
+    <!-- Incoming call screen, string when called from a pay phone -->
+    <string name="payphone">"Simu ya kulipia"</string>
+    <!-- In-call screen: status label for a call that's on hold -->
+    <string name="onHold">"Inangoja"</string>
+    <!-- Possible error messages with outgoing calls -->
+    <string name="mmiStarted">"Msimbo wa MMI  umeanza"</string>
+    <!-- Dialog label when a USSD code starts running -->
+    <string name="ussdRunning">"Msimbo wa USSD unafungua"</string>
+    <!-- Dialog label when an MMI code is canceled -->
+    <string name="mmiCancelled">"Msimbo wa MMI umeghairiwa"</string>
+    <!-- Label for "cancel" button on the MMI dialog -->
+    <string name="cancel">"Ghairi"</string>
+    <!-- Toast string displayed to user if the input in MMI dialog is < 1 or > 160 -->
+    <string name="enter_input">"Ujumbe wa USSD lazima uwe kati ya herufi <xliff:g id="MIN_LEN">%d</xliff:g> na <xliff:g id="MAX_LEN">%d</xliff:g>. Tafadhali jaribu tena."</string>
+    <!-- Label for "Manage conference call" panel [CHAR LIMIT=40] -->
+    <string name="manageConferenceLabel">"Dhibiti simu ya kongamano"</string>
+    <!-- Positive button label ("OK") used in several dialogs in the phone UI [CHAR LIMIT=10] -->
+    <string name="ok">"Sawa"</string>
+    <!-- "Audio mode" popup menu: Item label to select the speakerphone [CHAR LIMIT=25] -->
+    <string name="audio_mode_speaker">"Spika"</string>
+    <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
+    <string name="audio_mode_earpiece">"Kipaza sauti cha kichwani"</string>
+    <!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
+    <string name="audio_mode_wired_headset">"Viskizi vya maskio pasiwaya"</string>
+    <!-- "Audio mode" popup menu: Item label to select the bluetooth headset [CHAR LIMIT=25] -->
+    <string name="audio_mode_bluetooth">"Bluetooth"</string>
+    <!-- post dial -->
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "wait" character in a phone number to be dialed; this dialog asks the
+         user if it's OK to send the numbers following the "wait". -->
+    <string name="wait_prompt_str">"Ungependa kutuma toni zifuatazo? \n"</string>
+    <!-- In-call screen: body text of the dialog that appears when we encounter
+         the "PAUSE" character in a phone number to be dialed; this dialog gives
+         informative message to the user to show the sending numbers following the "Pause". -->
+    <string name="pause_prompt_str">"Inatuma toni\n"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog -->
+    <string name="send_button">"Tuma"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_yes">"Ndiyo"</string>
+    <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
+    <string name="pause_prompt_no">"Hapana"</string>
+    <!-- In-call screen: on the "wild" character dialog, this is the label
+         for a text widget that lets the user enter the digits that should
+         replace the "wild" character. -->
+    <string name="wild_prompt_str">"Badilisha kibambo egemezi na"</string>
+    <!-- missing voicemail number -->
+    <!-- Title of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number">"Nambari ya sauti inayokosekana"</string>
+    <!-- Body text of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number_msg">"Hakuna nambari ya ujumbe wa sauti iliyohifadhiwa katika SIM kadi."</string>
+    <!-- Button label on the "Missing voicemail number" dialog -->
+    <string name="add_vm_number_str">"Ongeza nambari"</string>
+    <!-- Status message displayed on SIM PIN unlock panel -->
+    <string name="puk_unlocked">"Kadi yako ya simu imefunguliwa. Simu yangu inafungua\u2026."</string>
+    <!-- network depersonalization -->
+    <!-- Label text for PIN entry widget on SIM Network Depersonalization panel -->
+    <string name="label_ndp">"PIN ya kufungua mtandao wa SIM"</string>
+    <!-- Button label on SIM Depersonalization panel -->
+    <string name="sim_ndp_unlock_text">"Fungua"</string>
+    <!-- Button label on SIM Depersonalization panel -->
+    <string name="sim_ndp_dismiss_text">"Kataa"</string>
+    <!-- Status message displayed on SIM Network Depersonalization panel -->
+    <string name="requesting_unlock">"Inaomba mtandao ufunguliwe\u2026."</string>
+    <!-- Error message displayed on SIM Network Depersonalization panel -->
+    <string name="unlock_failed">"Ombi la kufungua mtandao halijafaulu."</string>
+    <!-- Success message displayed on SIM Network Depersonalization panel -->
+    <string name="unlock_success">"Umefaulu kufungua mtandao."</string>
+    <!-- settings strings -->
+    <!-- Error message for users that aren't allowed to modify Mobile Network settings [CHAR LIMIT=none] -->
+    <string name="mobile_network_settings_not_available">"Mipangilio ya mitandao ya simu za mkononi haipatikani kwa mtumiaji huyu"</string>
+    <!-- GSM Call settings screen, setting option name. [CHAR LIMIT=40] -->
+    <string name="labelGSMMore">"Mipangilio ya simu ya GSM"</string>
+    <!-- GSM Call settings screen, setting option name with label indicating the SIM the settings
+         are applied to. [CHAR LIMIT=40] -->
+    <string name="labelGsmMore_with_label">"Mipangilio ya simu ya GSM (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <string name="labelCFType">"Mipangilio ya Kusambaza Simu"</string>
+    <string name="labelCFVoice">"Sauti"</string>
+    <string name="labelCFVideo">"Video"</string>
+    <!-- CDMA Call settings screen, setting option name -->
+    <string name="labelCDMAMore">"Mipangilio ya simu ya CDMA"</string>
+    <!-- CDMA Call settings screen, setting option name with label indicating the SIM the settings
+         are applied to. [CHAR LIMIT=40] -->
+    <string name="labelCdmaMore_with_label">"Mipangilio ya simu ya CDMA (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="apn_settings">"Majina ya Milango ya Kufikia"</string>
+    <!-- Label for the "Network settings" screen in the Settings UI -->
+    <string name="settings_label">"Mipangilio ya mtandao"</string>
+    <!-- Label for settings screen for phone accounts. -->
+    <string name="phone_accounts">"Akaunti za kupiga simu"</string>
+    <!-- Label for list item which opens a dialog to select the default outgoing account -->
+    <string name="phone_accounts_make_calls_with">"Piga simu na"</string>
+    <!-- Label for list item which opens a dialog to select the default outgoing account for SIP calls. -->
+    <string name="phone_accounts_make_sip_calls_with">"Piga simu za SIP na"</string>
+    <!-- Entry in dialog to "ask first" for accounts when making a call -->
+    <string name="phone_accounts_ask_every_time">"Uliza kwanza"</string>
+    <!-- Label for heading of the per-account settings section in the phone accounts settings
+         screen. -->
+    <string name="phone_accounts_settings_header">"Mipangilio"</string>
+    <!-- Label for invoking phone account selection screen -->
+    <string name="phone_accounts_choose_accounts">"Chagua akaunti"</string>
+    <!-- Label for heading in the phone account selection screen -->
+    <string name="phone_accounts_selection_header">"Akaunti za simu"</string>
+    <!-- Title for the button to add a new sip account. [CHAR LIMIT=NONE] -->
+    <string name="phone_accounts_add_sip_account">"Ongeza akaunti ya SIP"</string>
+    <!-- Description label for icon to configure a phone account's settings. -->
+    <string name="phone_accounts_configure_account_settings">"Sanidi mipangilio ya akaunti"</string>
+    <!-- Label for heading that takes user to the list of calling accounts where they can enable
+         and disable all accounts. -->
+    <string name="phone_accounts_all_calling_accounts">"Akaunti zote za simu"</string>
+    <!-- Summary for all-calling-account setting indicating that is where the user goes to enable
+         and disable phone accounts. -->
+    <string name="phone_accounts_all_calling_accounts_summary">"Chagua akaunti ambazo zinaweza kupiga simu"</string>
+    <!-- Title for setting to select Wi-Fi call manager account -->
+    <string name="wifi_calling">"Upigaji simu kwa Wi-Fi"</string>
+    <!-- Built-in label for the default connection service setting. -->
+    <string name="connection_service_default_label">"Huduma ya muunganisho iliyojengewa ndani"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="voicemail">"Barua ya sauti"</string>
+    <!-- Title of the "Voicemail" settings screen, with a text label identifying which SIM the settings are for. -->
+    <string name="voicemail_settings_with_label">"Ujumbe wa sauti (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Call forwarding dialog box, voicemail number prefix -->
+    <string name="voicemail_abbreviated">"VM:"</string>
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="networks">"Kampuni zinazotoa huduma"</string>
+    <!-- Cell Broadcast settings title.  [CHAR LIMIT=50] -->
+    <string name="cell_broadcast_settings">"Matangazo ya dharura"</string>
+    <!-- Call settings screen title -->
+    <string name="call_settings">"Mipangilio ya simu"</string>
+    <!-- GSM Call settings screen, setting option name -->
+    <string name="additional_gsm_call_settings">"Mipangilio ya ziada"</string>
+    <!-- GSM Call settings screen, setting option name, with label identifying the SIM the settings are for. -->
+    <string name="additional_gsm_call_settings_with_label">"Mipangilio ya ziada (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- GSM-only Call settings screen, setting option name-->
+    <string name="sum_gsm_call_settings">"Mipangilio ya ziada ya simu ya GSM tu"</string>
+    <!-- CDMA Call settings screen, setting option name -->
+    <string name="additional_cdma_call_settings">"Mipangilio ya ziada ya simu ya CDMA"</string>
+    <!-- CDMA-only Call settings screen, setting option name-->
+    <string name="sum_cdma_call_settings">"Mipangilio ya ziada ya simu ya CDMA tu"</string>
+    <!-- Call setting screen, nework service setting name -->
+    <string name="labelNwService">"Mipangilio ya huduma ya mtandao"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="labelCallerId">"Kitambulisho cha mpigaji SIM"</string>
+    <!-- Additional call settings screen, setting summary text when the setting is being loaded [CHAR LIMIT=40] -->
+    <string name="sum_loading_settings">"Inapakia mipangilio..."</string>
+    <!-- Additional call settings screen, setting summary text when Caller ID is hidden -->
+    <string name="sum_hide_caller_id">"Nambari imefichwa kwa simu unayopiga"</string>
+    <!-- Additional call settings screen, setting summary text when Caller ID is shown -->
+    <string name="sum_show_caller_id">"Namba inaonekana kwa simu zinazopigwa"</string>
+    <!-- Additional call settings screen, setting summary text for default Caller ID value -->
+    <string name="sum_default_caller_id">"Tumia mipangilio ya kiendesha chaguo-msingi kuonyesha namba kwa simu zinazopigwa"</string>
+    <!-- Additional call settings screen, setting check box name -->
+    <string name="labelCW">"Simu inasubiriwa"</string>
+    <!-- Additional call settings screen, setting summary text when call waiting check box is selected -->
+    <string name="sum_cw_enabled">"Wakati wa simu, niarifu juu ya simu zinazoingia"</string>
+    <!-- Additional call settings screen, setting summary text when call waiting check box is clear -->
+    <string name="sum_cw_disabled">"Wakati wa simu, niarifu kuhusu simu zinazoingia"</string>
+    <!-- Call forwarding settings screen, section heading -->
+    <string name="call_forwarding_settings">"Mipangilio ya kusambaza simu"</string>
+    <!-- Call forwarding settings screen, section heading, with a label identifying the SIM the settings are for. -->
+    <string name="call_forwarding_settings_with_label">"Mipangilio ya kusambaza simu (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="labelCF">"Kusambaza simu"</string>
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFU">"Sambaza kila wakati"</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFU">"Kila wakati tumia nambari hii"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding all calls -->
+    <string name="sum_cfu_enabled_indicator">"Inasambaza  simu zote"</string>
+    <!-- Call forwarding settings screen, setting summary text the Always forward is set -->
+    <string name="sum_cfu_enabled">"Inasambaza simu zote kwa <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <!-- Call forwarding settings screen, Always forward is enabled but the number is unavailable -->
+    <string name="sum_cfu_enabled_no_number">"Nambari haipatikani"</string>
+    <!-- Call forwarding settings screen, setting summary text when Always forward is disabled -->
+    <string name="sum_cfu_disabled">"Imelemazwa"</string>
+    <!-- Call forwarding settings screen, setting timer info for cfut case -->
+    <string name="set_time_period">"Weka muda"</string>
+    <string name="all_day">"Siku nzima"</string>
+    <string name="time_interval_char">: </string>
+    <string name="time_start">"Kuanzia"</string>
+    <string name="time_start_hour">"saa ya muda kuanza"</string>
+    <string name="time_start_minute">"dakika ya muda kuanza"</string>
+    <string name="time_end">"Hadi"</string>
+    <string name="time_end_hour">"saa ya kumaliza muda"</string>
+    <string name="time_end_minute">"dakika ya kumaliza muda"</string>
+    <string name="time_formate_am">"AM"</string>
+    <string name="time_formate_pm">"PM"</string>
+    <string name="cf_setting_mobile_data_alert">"Tafadhali washa data ya simu ya mkononi na uhakikishe kwamba WLAN imezimwa"</string>
+    <string name="cf_setting_mobile_data_roaming_alert">"Tafadhali washa utambizi wa data"</string>
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFB">"Wakati nina shughuli"</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFB">"Wakati namba inatumika"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding to specific number when busy -->
+    <string name="sum_cfb_enabled">"Inasambaza kwa <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding when busy is disabled -->
+    <string name="sum_cfb_disabled">"Umezimwa"</string>
+    <!-- Error message displayed after failing to disable forwarding calls when the phone is busy -->
+    <string name="disable_cfb_forbidden">"Mtoa huduma wako haauni ulemezaji wa kusambaza simu wakati simu yako inashughuli."</string>
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFNRy">"Nisipojibu"</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFNRy">"Weka namba wakati haijajibiwa"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding to a specific number when unanswered -->
+    <string name="sum_cfnry_enabled">"Inasambaza kwa <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <!-- Call forwarding settings screen, setting summary text when Forward when unanswered is disabled -->
+    <string name="sum_cfnry_disabled">"Umezimwa"</string>
+    <!-- Error message displayed after failing to disable forwarding calls when the phone does not answer -->
+    <string name="disable_cfnry_forbidden">"Mtoa huduma wako haauni ulemezaji wa kusambaza simu wakati simu yako haijibu."</string>
+    <!-- Call forwarding settings screen, setting option name -->
+    <string name="labelCFNRc">"Ikiwa sipatikani"</string>
+    <string name="labelCFNRc_cdma">"Sambaza kwa Uthabiti"</string>
+    <!-- Call forwarding dialog box, text field label -->
+    <string name="messageCFNRc">"Wakati namba haipatikani"</string>
+    <!-- Call forwarding settings screen, setting summary text when forwarding to a specific number when unreachable-->
+    <string name="sum_cfnrc_enabled">"Inasambaza kwa <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <!-- Call forwarding settings screen, setting summary text when Forward when unreachable is disabled -->
+    <string name="sum_cfnrc_disabled">"Imelemazwa"</string>
+    <!-- Error message displayed after failing to disable forwarding calls when the phone is unreachable -->
+    <string name="disable_cfnrc_forbidden">"Mtoa huduma wako haauni ulemezaji wa kusambaza simu wakati simu yako haifikiwi."</string>
+    <!-- Title of the progress dialog displayed while updating Call settings -->
+    <string name="updating_title">"Mipangilio ya simu"</string>
+    <!-- Toast in Call settings when asked to launch settings for a secondary user -->
+    <string name="call_settings_primary_user_only">"Mipangilio ya simu inaweza tu kubadilisha na mtumiaji wa kwanza."</string>
+    <!-- Title of the "Call settings" settings screen, with a text label identifying which SIM the settings are for. -->
+    <string name="call_settings_with_label">"Mipangilio (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Title of the alert dialog displayed if an error occurs while updating Call settings -->
+    <string name="error_updating_title">"Hitlafu ya mipangilio ya kupiga simu"</string>
+    <!-- Toast in Call settings dialog while settings are being read -->
+    <string name="reading_settings">"Inasoma mipangilio\u2026."</string>
+    <!-- Toast in Call settings dialog while settings are being saved -->
+    <string name="updating_settings">"Inaboresha mipangilio\u2026"</string>
+    <!-- Toast in Call settings dialog while settings are being reverted -->
+    <string name="reverting_settings">"Inageuza mipangilio..."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="response_error">"Jibu lisilotarajiwa kutoka kwa mtandao."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="exception_error">"Hitilafu ya Mtandao au SIM kadi"</string>
+    <!-- Status message displayed in the "Call settings error" dialog when
+         current SS request is modified to a different request by STK CC -->
+    <string name="stk_cc_ss_to_dial_error">"Ombi la SS limerekebishwa kuwa ombi la DIAL."</string>
+    <string name="stk_cc_ss_to_ussd_error">"Ombi la SS limerekebishwa kuwa ombi la USSD."</string>
+    <string name="stk_cc_ss_to_ss_error">"Ombi la SS limerekebishwa kuwa ombi la SS."</string>
+    <!-- Status message displayed in the "Call settings error" dialog when operation fails due to FDN
+         [CHAR LIMIT=NONE] -->
+    <string name="fdn_check_failure">"Mpangilio wa programu ya simu yako wa Kupigia Nambari Fulani Pekee umewashwa. Kutokana na hayo, baadhi ya vipengele vinavyohusiana na simu havifanyi kazi."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="radio_off_error">"Washa redio kabla ya kutazama mipangilio hii."</string>
+    <!-- Button label used to dismiss the "Call settings error" dialog -->
+    <string name="close_dialog">"Sawa"</string>
+    <!-- Button label used in several settings-related dialogs -->
+    <string name="enable">"Washa"</string>
+    <!-- Button label used in several settings-related dialogs -->
+    <string name="disable">"Zima"</string>
+    <!-- Button label which indicates the user wants to update a stored
+         phone number; used in several settings-related dialogs -->
+    <string name="change_num">"Sasisha"</string>
+    <!-- Phone settings: Caller ID preference values -->
+    <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
+        <item>"Chaguo-msingi la mtandao"</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
+        <item>"Ficha nambari"</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
+        <item>"Onyesha nambari"</item>
+    </string-array>
+    <!-- voicemail setting strings -->
+    <!-- Call settings screen, Set voicemail number dialog text -->
+    <string name="vm_changed">"Nambari ya ujumbe wa sauti haijabadilishwa"</string>
+    <!-- Call settings screen, Set voicemail number dialog text -->
+    <string name="vm_change_failed">"Haikuweza kubadilisha namba ya ujumbe wa sauti.\nWasiliana na mtoa huduma wako shida hii ikiendelea."</string>
+    <!-- Call settings screen, displayed when vm provider supplied forwarding number change fails-->
+    <string name="fw_change_failed">"Haikuweza kubadilisha namba ya kusambaza.\nWasiliana na mtoa huduma wako shida hii ikiendelea."</string>
+    <!-- Call settings screen, displayed when forwarding number read fails-->
+    <string name="fw_get_in_vm_failed">"Haikuweza kuepua na kuhifadhi mipangilio ya nambari ya  usambazaji. \n Hata hivyo swichi kwa mtoahuduma  mpya?"</string>
+    <!-- Call settings screen, Set voicemail number dialog text -->
+    <string name="no_change">"Hakuna mabadiliko yaliyofanywa"</string>
+    <!-- Call settings screen, "Voicemail" provider setting summary text when no provider is selected -->
+    <string name="sum_voicemail_choose_provider">"Chagua huduma ya barua ya sauti"</string>
+    <!-- Call settings screen, "Voicemail" screen, default option - Your Carrier -->
+    <string name="voicemail_default">"Mtoa huduma wangu"</string>
+    <!-- networks setting strings -->
+    <!-- Mobile network settings screen title -->
+    <string name="mobile_networks">"Mipangilio ya mitandao ya simu za mkononi"</string>
+    <!-- Available networks screen title/heading -->
+    <string name="label_available">"Mitandao inayopatikana"</string>
+    <!-- Mobile network settings screen, toast when searching for available networks -->
+    <string name="load_networks_progress">"Inatafuta\u2026"</string>
+    <!-- Available networks screen, text when no networks are found -->
+    <string name="empty_networks_list">"Hakuna mitandao iliyopatikana."</string>
+    <!-- Available networks screen, setting option name -->
+    <string name="search_networks">"Tafuta mitandao"</string>
+    <!-- Available networks screen, toast when an error is encountered when searching for networks -->
+    <string name="network_query_error">"Hitilafu wakati wa utafutaji wa mitandao."</string>
+    <!-- Available networks screen, toast when registering on a specific network -->
+    <string name="register_on_network">"Inasajili kwa <xliff:g id="NETWORK">%s</xliff:g>\u2026.."</string>
+    <!-- Available networks screen, toast when SIM card isn't allowed on a network -->
+    <string name="not_allowed">"SIM kadi yako hairuhusu muunganisho wa mtandao huu."</string>
+    <!-- Available networks screen, toast when unable to connect to a network temporarily -->
+    <string name="connect_later">"Haiwezi kuunganisha na mtandao huu hivi sasa. Jaribu tena baadaye."</string>
+    <!-- Available networks screen, toast when registered on a specific network -->
+    <string name="registration_done">"Imesajiliwa katika mtandao"</string>
+    <!-- Mobile network settings screen setting option summary text -->
+    <string name="sum_carrier_select">"Chagua mtoa huduma"</string>
+    <!-- Available networks screen, setting summary text -->
+    <string name="sum_search_networks">"Tafuta mitandao yote inayopatikana"</string>
+    <!-- Available networks screen, setting option name -->
+    <string name="select_automatically">"Chagua kiotomatiki"</string>
+    <!-- Available networks screen, setting summary text -->
+    <string name="sum_select_automatically">"Chagua mtandao unaoupendelea kiotomatiki"</string>
+    <string name="register_automatically">"Usajili otomatiki..."</string>
+    <string name="preferred_network_mode_title">"Aina ya mtandao unaopendekezwa"</string>
+    <string name="preferred_network_mode_summary">"Badilisha gumzo ya utendaji wa mtandao"</string>
+    <string name="preferred_network_mode_dialogtitle">"Aina ya mtandao unaopendekezwa"</string>
+    <!-- Mobile network settings, summary for preferred network mode WCDMA preferred[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_wcdma_perf_summary">"Modi pendekezwa ya mtandao: WCDMA pendekezwa"</string>
+    <!-- Mobile network settings, summary for preferred network mode GSM [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_gsm_only_summary">"Modi pendekezwa ya mtandao: GSM  pekee"</string>
+    <!-- Mobile network settings, summary for preferred network mode WCDMA only [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_wcdma_only_summary">"Modi pendekezwa ya mtandao: WCDMA pekee"</string>
+    <!-- Mobile network settings, summary for preferred network mode GSM / UMTS [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_gsm_wcdma_summary">"Modi pendekezwa ya mtandao: GSM / WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_cdma_summary">"Modi pendekezwa ya mtandao: CDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA / EvDo [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_cdma_evdo_summary">"Modi pendekezwa ya mtandao: CDMA / EvDo"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA only [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_cdma_only_summary">"Modi pendekezwa ya mtandao: CDMA pekee"</string>
+    <!-- Mobile network settings, summary for preferred network mode EvDo only [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_evdo_only_summary">"Modi pendekezwa ya mtandao:  EvDo pekee"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">"Hali ya mtandao inayopendelewa: CDMA/EvDo/GSM/WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode LTE [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_summary">"Hali ya mtandao inayopendelewa: LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode GSM/WCDMA/LTE [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_gsm_wcdma_summary">"Hali ya mtandao inayopendelewa: GSM/WCDMA/LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode CDMA+LTE/EVDO[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_cdma_evdo_summary">"Hali ya mtandao inayopendelewa: CDMA+LTE/EVDO"</string>
+    <!-- Mobile network settings, summary for preferred network mode Global[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_global_summary">"Hali ya mtandao inayopendelewa: Ulimwenguni Kote"</string>
+    <!-- Mobile network settings, summary for preferred network mode LTE / WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_wcdma_summary">"Hali ya mtandao inayopendelewa: LTE / WCDMA"</string>
+     <!-- Mobile network settings, summary for preferred network mode LTE / GSM / UMTS [CHAR LIMIT=100] -->
+     <string name="preferred_network_mode_lte_gsm_umts_summary">"Hali ya mtandao inayopendelewa: LTE / GSM / UMTS"</string>
+     <!-- Mobile network settings, summary for preferred network mode LTE / CDMA [CHAR LIMIT=100] -->
+     <string name="preferred_network_mode_lte_cdma_summary">"Modi pendekezwa ya mtandao:  LTE / CDMA"</string>
+    <!-- In-call screen: call failure reason (call denied because call barring
+            is ON on MT side ) -->
+    <string name="callFailed_incoming_cb_enabled">"Mshiriki amezuia simu zote zinazoingia."</string>
+    <!-- In-call screen: status label for an incoming call that is not answered and forwarded  -->
+    <string name="callUnanswered_forwarded">"Simu Haijajibiwa na Imesambazwa"</string>
+        <!-- Mobile network settings, summary for preferred network mode TD-SCDMA only[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_only_summary">"Modi ya mtandao unaopendelewa: TD-SCDMA peke yake"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_wcdma_summary">"Modi ya mtandao unaopendelewa: TD-SCDMA / WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / LTE[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_lte_summary">"Modi ya mtandao unaopendelewa: TD-SCDMA / LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / GSM[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_summary">"Modi ya mtandao unaopendelewa: TD-SCDMA / GSM"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / GSM / LTE[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_lte_summary">"Modi ya mtandao unaopendelewa: TD-SCDMA/GSM/LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / GSM / WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_summary">"Modi ya mtandao unaopendelewa: TD-SCDMA/GSM/WCDMA"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / WCDMA/ LTE[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_wcdma_lte_summary">"Modi ya mtandao unaopendelewa: TD-SCDMA/WCDMA/LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA / GSM / WCDMA/ LTE[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_summary">"Modi ya mtandao unaopendelewa: TD-SCDMA/GSM/WCDMA/LTE"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA/CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_summary">"Modi ya mtandao unaopendelewa: TD-SCDMA/GSM/WCDMA/CDMA/EvDo"</string>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA/LTE/CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_lte_cdma_evdo_gsm_wcdma_summary">"Modi ya mtandao unaopendelewa: TD-SCDMA/LTE/CDMA/EvDo/GSM/WCDMA"</string>
+     <!-- Mobile network settings, summary for preferred network mode TDSCDMTA [CHAR LIMIT=100] -->
+     <string name="preferred_network_mode_tdscdma_summary">"Hali ya mtandao inayopendelewa: TDSCDMA"</string>
+    <string-array name="preferred_network_mode_choices">
+        <item>"TD-SCDMA/LTE/CDMA/EVDO/GSM/WCDMA "</item>
+        <item>"TD-SCDMA/GSM/WCDMA/CDMA/EVDO "</item>
+        <item>"TD-SCDMA/GSM/WCDMA/LTE"</item>
+        <item>"TD-SCDMA/WCDMA/LTE"</item>
+        <item>"TD-SCDMA/GSM/WCDMA"</item>
+        <item>"TD-SCDMA/GSM/LTE"</item>
+        <item>"TD-SCDMA/GSM"</item>
+        <item>"TD-SCDMA/LTE"</item>
+        <item>"TD-SCDMA/WCDMA"</item>
+        <item>"TD-SCDMA only"</item>
+        <item>"LTE / WCDMA"</item>
+        <item>"LTE"</item>
+        <item>"Global"</item>
+        <item>"GSM/WCDMA/LTE"</item>
+        <item>"CDMA + LTE/EvDo"</item>
+        <item>"CDMA/EvDo/GSM/WCDMA"</item>
+        <item>"EvDo only"</item>
+        <item>"CDMA w/o EvDo"</item>
+        <item>"CDMA/EvDo auto"</item>
+        <item>"GSM/WCDMA auto"</item>
+        <item>"WCDMA only"</item>
+        <item>"GSM only"</item>
+        <item>"GSM/WCDMA preferred"</item>
+    </string-array>
+    <!-- Mobile network settings, summary for preferred network mode TD-SCDMA/CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_td_scdma_cdma_evdo_gsm_wcdma_summary">"Modi ya mtandao unaopendelewa: TD-SCDMA/CDMA/EvDo/GSM/WCDMA"</string>
+    <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">"TD-SCDMA/LTE/GSM/WCDMA/CDMA/EVDO"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">"TD-SCDMA/GSM/WCDMA/CDMA/EVDO"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_choice">"TD-SCDMA/GSM/WCDMA/LTE"</string>
+    <string name="preferred_network_mode_td_scdma_wcdma_lte_choice">"TD-SCDMA/WCDMA/LTE"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_choice">"TD-SCDMA/GSM/WCDMA"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_lte_choice">"TD-SCDMA/GSM/LTE"</string>
+    <string name="preferred_network_mode_td_scdma_gsm_choice">"TD-SCDMA/GSM"</string>
+    <string name="preferred_network_mode_td_scdma_lte_choice">"TD-SCDMA/LTE"</string>
+    <string name="preferred_network_mode_td_scdma_wcdma_choice">"TD-SCDMA/WCDMA"</string>
+    <string name="preferred_network_mode_td_scdma_only_choice">"TD-SCDMA only"</string>
+    <string name="preferred_network_mode_lte_wcdma_choice">"LTE / WCDMA"</string>
+    <string name="preferred_network_mode_lte_choice">"LTE"</string>
+    <string name="preferred_network_mode_global_choice">"Ulimwenguni Kote"</string>
+    <string name="preferred_network_mode_gsm_wcdma_lte_choice">"GSM/WCDMA/LTE"</string>
+    <string name="preferred_network_mode_cdma_lte_evdo_choice">"CDMA + LTE/EvDo"</string>
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">"CDMA/EvDo/GSM/WCDMA"</string>
+    <string name="preferred_network_mode_evdo_only_choice">"EvDo only"</string>
+    <string name="preferred_network_mode_cdma_wo_evdo_choice">"CDMA w/o EvDo"</string>
+    <string name="preferred_network_mode_cdma_evdo_auto_choice">"CDMA/EvDo auto"</string>
+    <string name="preferred_network_mode_gsm_wcdma_auto_choice">"GSM/WCDMA auto"</string>
+    <string name="preferred_network_mode_wcdma_only_choice">"WCDMA only"</string>
+    <string name="preferred_network_mode_gsm_only_choice">"GSM only"</string>
+    <string name="preferred_network_mode_gsm_wcama_preferred_choice">"GSM/WCDMA preferred"</string>
+    <!-- Cellular network 4G title [CHAR LIMIT=30] -->
+    <string name="enhanced_4g_lte_mode_title">"Modi Bora ya 4G LTE"</string>
+    <!-- Cellular network 4G summary [CHAR LIMIT=80] -->
+    <string name="enhanced_4g_lte_mode_summary">"Tumia huduma za LTE kuboresha sauti na mawasiliano mengine (inapendekezwa)"</string>
+    <!-- Enable 4G title.   -->
+    <string name="lte_4g_settings_title">"Wezesha/Lemaza 4G"</string>
+    <!-- Enable 4G summary.    -->
+    <string name="lte_4g_settings_summaryOn">"Simu itabadilika kuwa 3G/2G na 4G italemazwa."</string>
+    <!-- Enable 4G dialog prompt text.   -->
+    <string name="lte_4g_settings_summaryOff">"Simu itabadilisha kutoka 3G/2G hadi 4G, baadhi ya kazi zinazoendelea zinaweza kusimama."</string>
+    <!-- Mobile network settings screen, data enabling checkbox name -->
+    <string name="data_enabled">"Data imewashwa"</string>
+    <!-- Mobile network settings screen, setting summary text when check box is not selected (explains what selecting it would do) [CHAR LIMITS=40] -->
+    <string name="data_enable_summary">"Ruhusu matumizi ya data"</string>
+    <!-- Mobile network settings screen, setting check box name -->
+    <string name="roaming">"Utumiaji data nje ya mtandao wako wa kawaida"</string>
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="roaming_enable">"Unganisha huduma ya data wakati niko nje ya mtandao wangu wa kawaida"</string>
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="roaming_disable">"Unganisha huduma ya data wakati niko nje ya mtandao wangu wa kawaida"</string>
+    <!-- Mobile network settings UI: notification message shown when you
+         lose data connectivity because you're roaming and you have the
+         "data roaming" feature turned off. -->
+    <string name="roaming_reenable_message">"Umepoteza muunganisho wa data kwa sababu uliondoka kwenye mtandao wako wa kawaida ukiwa umezima utumiaji data nje ya mtandao wa kawaida."</string>
+    <!-- Mobile network settings screen, dialog message when user selects the Data roaming check box -->
+    <string name="roaming_warning">"Unaweza kutozwa gharama kubwa."</string>
+    <!-- Mobile network settings screen, dialog message title when user selects the Data roaming check box -->
+    <string name="roaming_alert_title">"Je, ungependa kuruhusu matumizi ya intaneti ukiwa nje ya mtandao wako wa kawaida?"</string>
+    <string name=" hide_error_from_network_text">"Ombi Halikuweza Kuchakatwa"</string>
+    <string name="gsm_umts_options">"Chaguo za GSM/UMTS"</string>
+    <string name="call_forward_option">"Chaguo za KusambazaSimu"</string>
+    <string name="cdma_options">"Chaguo za CDMA"</string>
+    <string name="call_barring">"Uzuiaji wa simu"</string>
+    <string name="call_barring_outgoing">"Uzuiaji wa simu ya kutoka"</string>
+    <string-array name="call_barring_outgoing_display_values">
+        <item>"Zima"</item>
+        <item>"Simu ya utambizi wa kimataifa"</item>
+        <item>"Simu ya kimataifa"</item>
+        <item>"Simu ya kutoka"</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_values">
+        <item><xliff:g>-1</xliff:g></item>
+        <item><xliff:g>2</xliff:g></item>
+        <item><xliff:g>1</xliff:g></item>
+        <item><xliff:g>0</xliff:g></item>
+    </string-array>
+    <string-array name="call_barring_incoming_display_values">
+        <item>"Zima"</item>
+        <item>"Utambizi"</item>
+        <item>"Zote"</item>
+    </string-array>
+    <string name="call_barring_incoming">"Uzuiaji wa simu inayoingia"</string>
+    <string-array name="call_barring_incoming_values">
+        <item><xliff:g>-2</xliff:g></item>
+        <item><xliff:g>4</xliff:g></item>
+        <item><xliff:g>3</xliff:g></item>
+    </string-array>
+    <string name="input_password">"Ingiza nenosiri"</string>
+    <string name="labelCbCancelAll">"Ghairi uzuiaji wote wa simu"</string>
+    <string name="psw_enter_old">"Nenosiri la zamani"</string>
+    <string name="labelCbChangePassword">"Badilisha nenosiri"</string>
+    <string name="psw_enter_new">"Nenosiri lipya"</string>
+    <string name="invalidPsw">"Ingiza nenosiri lako (nambari 4 - 8)"</string>
+    <string name="psw_reenter_new">"Ingiza nenosiri lako upya"</string>
+    <string name="no_call_barring">"Hakuna uzuiaji wa simu"</string>
+    <string name="cb_psw_dont_match">"Nenosiri halilingani"</string>
+    <string name="operation_successfully">"Utendaji umefanikiwa!"</string>
+    <!-- Screen option on the mobile network settings to go into data usage settings -->
+    <string name="throttle_data_usage">"Matumizi ya data"</string>
+    <!-- Data usage settings screen option for checking the current usage -->
+    <string name="throttle_current_usage">"Data iliyotumika katika kipindi cha sasa"</string>
+    <!-- Data usage settings screen option for time frame-->
+    <string name="throttle_time_frame">"Muda wa matumizi ya data"</string>
+    <!-- Data usage settings screen option for throttling rate-->
+    <string name="throttle_rate">"Sera ya kasi ya data"</string>
+    <!-- Data usage settings screen option for accessing the carrier website-->
+    <string name="throttle_help">"Pata maelezo zaidi"</string>
+    <string name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) ya<xliff:g id="USED_2">%3$s</xliff:g> muda wa kiwango cha juu\nMuda unaofuata unaanza baada ya siku<xliff:g id="USED_3">%4$d</xliff:g>(<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (asilimia <xliff:g id="USED_1">%2$d</xliff:g>) ya upeo wa muda wa <xliff:g id="USED_2">%3$s</xliff:g>"</string>
+    <string name="throttle_data_rate_reduced_subtext">"Upeo wa <xliff:g id="USED_0">%1$s</xliff:g> umepitwa\nKasi ya data imepunguzwa hadi kilobaiti <xliff:g id="USED_1">%2$d</xliff:g> kwa sekunde"</string>
+    <string name="throttle_time_frame_subtext">"<xliff:g id="USED_0">%1$d</xliff:g>\u066A ya mzunguko imekamilika\nMuda ufuatao unaanza baada ya siku <xliff:g id="USED_1">%2$d</xliff:g> (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+    <string name="throttle_rate_subtext">"Kasi ya data imepunguzwa hadi kilibaiti <xliff:g id="USED">%1$d</xliff:g> kwa sekunde kama kiwango cha matumizi ya data kimepitwa"</string>
+    <string name="throttle_help_subtext">"Maelezo zaidi kuhusu sera ya matumizi ya data ya mtandao wa simu za mkononi ya mtoa huduma wako"</string>
+    <string name="cell_broadcast_sms">"SMS ya Matangazo ya Simu"</string>
+    <string name="enable_disable_cell_bc_sms">"SMS ya Kutangaza Seli"</string>
+    <string name="cell_bc_sms_enable">"SMS ya Kutangaza Seli imewezeshwa"</string>
+    <string name="cell_bc_sms_disable">"SMS ya Kutangaza Seli imelemazwa"</string>
+    <string name="cb_sms_settings">"Mipangilio ya SMS ya Matangazo ya Simu"</string>
+    <string name="enable_disable_emergency_broadcast">"Tangazo la Dharura"</string>
+    <string name="emergency_broadcast_enable">"Utangazaji wa Dharura umewezeshwa"</string>
+    <string name="emergency_broadcast_disable">"Tangazo la Dharura limelemazwa"</string>
+    <string name="enable_disable_administrative">"Usimamizi"</string>
+    <string name="administrative_enable">"Usimamizi umewezeshwa"</string>
+    <string name="administrative_disable">"Usimamizi umelemazwa"</string>
+    <string name="enable_disable_maintenance">"Matengenezo"</string>
+    <string name="maintenance_enable">"Matengenezo yamewezeshwa"</string>
+    <string name="maintenance_disable">"Ukarabati umelemazwa"</string>
+    <string name="general_news_settings">"Habari za Jumla"</string>
+    <string name="bf_news_settings">"Habari za Biashara na za Fedha"</string>
+    <string name="sports_news_settings">"Habari za Michezo"</string>
+    <string name="entertainment_news_settings">"Habari za Burudani"</string>
+    <string name="enable_disable_local">"Ya nchini"</string>
+    <string name="local_enable">"Habari za nchini zimewezeshwa"</string>
+    <string name="local_disable">"Habari za nchini zimelemazwa"</string>
+    <string name="enable_disable_regional">"Eneo"</string>
+    <string name="regional_enable">"Habari za mkoa zimewezeshwa"</string>
+    <string name="regional_disable">"Habari za Mkoa zimelemazwa"</string>
+    <string name="enable_disable_national">"Kitaifa"</string>
+    <string name="national_enable">"Habari za kitaifa zimewezeshwa"</string>
+    <string name="national_disable">"Habari za kitaifa zimelemazwa"</string>
+    <string name="enable_disable_international">"Kimataifa"</string>
+    <string name="international_enable">"Habari za kimataifa zimewezeshwa"</string>
+    <string name="international_disable">"Habari za kimataifa zimelemazwa"</string>
+    <string name="list_language_title">"Lugha"</string>
+    <string name="list_language_summary">"Chagua lugha ya habari"</string>
+    <string-array name="list_language_entries">
+        <item>"Kiingereza"</item>
+        <item>"Kifaransa"</item>
+        <item>"Kihispania"</item>
+        <item>"Kijapani"</item>
+        <item>"Kikorea"</item>
+        <item>"Kichina"</item>
+        <item>"Kiyahudi"</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">"Lugha"</string>
+    <string name="enable_disable_local_weather">"Hali ya hewa ya Nchini"</string>
+    <string name="local_weather_enable">"Hali ya hewa ya Nchini imewezeshwa"</string>
+    <string name="local_weather_disable">"Hali ya hewa ya eneo imelemazwa"</string>
+    <string name="enable_disable_atr">"Ripoti za Trafiki za Eneo"</string>
+    <string name="atr_enable">"Ripoti za Trafiki ya Eneo zimewezeshwa"</string>
+    <string name="atr_disable">"Ripoti za Trafiki ya Eneo zimelemazwa"</string>
+    <string name="enable_disable_lafs">"Ratiba za Ndege katiks Uwanja wa Ndege wa Eneo"</string>
+    <string name="lafs_enable">"Ratiba za Ndege zinazotoka Uwanja wa ndege wa nchini zimewezeshwa"</string>
+    <string name="lafs_disable">"Ratiba za Ndege zinazotoka Uwanja wa ndege wa nchini zimelemazwa"</string>
+    <string name="enable_disable_restaurants">"Mikahawa"</string>
+    <string name="restaurants_enable">"Mikahawa imewezeshwa"</string>
+    <string name="restaurants_disable">"Mikahawa imelemazwa"</string>
+    <string name="enable_disable_lodgings">"Nyumba"</string>
+    <string name="lodgings_enable">"Nyumba zimewezeshwa"</string>
+    <string name="lodgings_disable">"Nyumba zimelemzwa"</string>
+    <string name="enable_disable_retail_directory">"Saraka ya Rejareja"</string>
+    <string name="retail_directory_enable">"Saraka ya Rejareja imewezeshwa"</string>
+    <string name="retail_directory_disable">"Saraka ya Rejareja imelemazwa"</string>
+    <string name="enable_disable_advertisements">"Matangazo"</string>
+    <string name="advertisements_enable">"Matangazo yamewezeshwa"</string>
+    <string name="advertisements_disable">"Matangazo yamelemazwa"</string>
+    <string name="enable_disable_stock_quotes">"Nukuu za Hisa"</string>
+    <string name="stock_quotes_enable">"Nukuu za Hisa zimewezeshwa"</string>
+    <string name="stock_quotes_disable">"Nukuu za Hisa zimelemazwa"</string>
+    <string name="enable_disable_eo">"Nafasi za Ajira"</string>
+    <string name="eo_enable">"Nafasi za Ajira zimewezeshwa"</string>
+    <string name="eo_disable">"Nafasi za Ajira zimelemazwa"</string>
+    <string name="enable_disable_mhh">"Tiba, Afya, na Hospitali"</string>
+    <string name="mhh_enable">"Tiba, Afya, na Hospitali imewezeshwa"</string>
+    <string name="mhh_disable">"Tiba, Afya, na Hospitali imelemazwa"</string>
+    <string name="enable_disable_technology_news">"Habari za Teknolojia"</string>
+    <string name="technology_news_enable">"Habari za Teknolojia zimewezeshwa"</string>
+    <string name="technology_news_disable">"Habari za Teknolojia zimelemazwa"</string>
+    <string name="enable_disable_multi_category">"Kategoria anuwai"</string>
+    <string name="multi_category_enable">"Kategoria anuwai imewezeshwa"</string>
+    <string name="multi_category_disable">"Kategoria anuwai imelemazwa"</string>
+    <string name="network_lte">"LTE (inapendekezwa)"</string>
+    <string name="network_4G">"4G (inapendekezwa)"</string>
+    <string name="network_global">"Ulimwenguni Kote"</string>
+    <string name="network_tdscdma">"TDSCDMA Pekee"</string>
+    <!-- CDMA System select strings -->
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="cdma_system_select_title">"Chagua mfumo"</string>
+    <!-- Mobile network settings screen, setting summary text -->
+    <string name="cdma_system_select_summary">"Badilisha hali ya urandaji ya CDMA"</string>
+    <!-- System select settings screen title -->
+    <string name="cdma_system_select_dialogtitle">"Chagua mfumo"</string>
+    <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
+        <item>"Nyumbani tu"</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
+        <item>"Otomatiki"</item>
+    </string-array>
+    <string name="cdma_subscription_title">"Usajili wa CDMA"</string>
+    <string name="cdma_subscription_summary">"Badilisha kati ya RUIM/SIM na NV"</string>
+    <string name="cdma_subscription_dialogtitle">"usajili"</string>
+    <string-array name="cdma_subscription_choices">
+        <item>"RUIM/SIM"</item>
+        <item>"NV"</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    <!-- Preference title with which users can activate CDMA network [CHAR LIMIT=30] -->
+    <string name="cdma_activate_device">"Wezesha kifaa"</string>
+    <!-- Preference title for launching an account manager page for prepaid LTE [CHAR LIMIT=30] -->
+    <string name="cdma_lte_data_service">"Sanidi huduma ya data"</string>
+    <!-- A menu item in "Mobile network settings" that allows the user to update the phone
+         with mobile operator specific settings. [CHAR LIMIT=25] -->
+    <string name="carrier_settings_title">"Mipangilio ya mtoa huduma"</string>
+    <!-- FDN settings strings -->
+    <!-- Label for "Fixed Dialing Number" settings in call settings. -->
+    <string name="fdn">"Nambari za kupiga zisizobadilishwa"</string>
+    <!-- Title for "Fixed Dialing Number" settings, with a label to identify the SIM the settings
+        apply to. -->
+    <string name="fdn_with_label">"Nambari za Kupiga Simu Zisizobadilika (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Call settings screen, button label that takes you to the Fixed Dialing Number management screen -->
+    <string name="manage_fdn_list">"Orodha ya FDN"</string>
+    <!-- Title for settings screen to manage Fixed Dialing Number contacts, with a label to identify
+         the SIM the settings apply to. -->
+    <string name="fdn_list_with_label">"Orodha ya Nambari za Kupiga Simu Zisizobadilika (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)"</string>
+    <!-- Call settings screen, preference item label -->
+    <string name="fdn_activation">"Uwezeshaji wa FDN"</string>
+    <!-- Call settings setting option name when FDN is enabled -->
+    <string name="fdn_enabled">"Nambari za upigaji simu zilizobanwa zimelemazwa"</string>
+    <!-- Call settings setting option name  when FDN is disabled-->
+    <string name="fdn_disabled">"Nambari za upigaji simu zilizobanwa zimelemazwa"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="enable_fdn">"Washa FDN"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="disable_fdn">"Lemaza FDN"</string>
+    <!-- Call settings screen, setting option name -->
+    <string name="change_pin2">"Badilisha PIN2"</string>
+    <!-- Call settings screen, setting option name when FDN is enabled -->
+    <string name="enable_fdn_ok">"Lemaza FDN"</string>
+    <!-- Call settings screen, setting option name when FDN is disabled -->
+    <string name="disable_fdn_ok">"Washa FDN"</string>
+    <!-- Call settings screen, setting summary text -->
+    <string name="sum_fdn">"Dhibiti nambari Za Upigaji simu Zilizobanwa"</string>
+    <!-- Call settings, FDN screen, setting option name -->
+    <string name="sum_fdn_change_pin">"Badilisha nenosiri la kufikia FDN"</string>
+    <!-- Call settings, FDN screen, setting option name -->
+    <string name="sum_fdn_manage_list">"Dhibiti orodha ya nambari ya simu"</string>
+    <!-- Voice privacy on CDMA is an added layer of voice encryption. Theoretically, it would be harder to break in to a phone call with this feature enabled. -->
+    <string name="voice_privacy">"Faragha ya sauti"</string>
+    <string name="voice_privacy_summary">"Wezesha gumzo ya faragha iliyoboreshwa"</string>
+    <string name="tty_mode_option_title">"Hali ya TTY"</string>
+    <string name="tty_mode_option_summary">"Weka hali ya TTY"</string>
+    <string name="auto_retry_mode_title">"Jaribu tena Kiotomatiki"</string>
+    <string name="auto_retry_mode_summary">"Wezesha hali ya kujaribu tena Kiotomatiki"</string>
+    <!-- TTY Mode change is NOT allowed during a video call -->
+    <string name="tty_mode_not_allowed_video_call">"Kubadilisha Hali ya TTY hakuruhusiwi wakati wa hangout ya video"</string>
+    <!-- FDN list screen: menu item label -->
+    <string name="menu_add">"Ongeza anwani"</string>
+    <!-- FDN list screen: menu item label -->
+    <string name="menu_edit">"Hariri anwani"</string>
+    <!-- FDN list screen: menu item label -->
+    <string name="menu_delete">"Futa anwani"</string>
+    <!-- FDN related strings -->
+    <!-- Label for PIN2 entry screen -->
+    <string name="get_pin2">"Chapa PIN2"</string>
+    <!-- "Edit FDN Contact" screen: Label for the "name" text field -->
+    <string name="name">"Jina"</string>
+    <!-- "Edit FDN Contact" screen: Label for the "number" text field -->
+    <string name="number">"Nambari"</string>
+    <!-- "Edit FDN Contact" screen: Button label for "save" action -->
+    <string name="save">"Hifadhi"</string>
+    <!-- Title of "Edit FDN Contact" screen for a new contact -->
+    <string name="add_fdn_contact">"Ongeza nambari za upigaji simu uliobanwa"</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="adding_fdn_contact">"Inaongeza nambari ya upigaji uliobanwa..."</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="fdn_contact_added">"Nambari ya upigaji simu uliobanwa imeongezwa."</string>
+    <!-- Title of "Edit FDN Contact" screen when editing an already-existing contact -->
+    <string name="edit_fdn_contact">"Hariri nambari za kudumu"</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="updating_fdn_contact">"Inasasisha nambari ya upigaji simu uliobanwa..."</string>
+    <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="fdn_contact_updated">"Nambari ya upigaji simu uliobanwa imesasishwa."</string>
+    <!-- Title of "Delete FDN Contact" screen -->
+    <string name="delete_fdn_contact">"Futa namba ya upigaji simu ya kudumu"</string>
+    <!-- "Delete FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="deleting_fdn_contact">"Inafuta nambari ya upigaji simu uliobanwa..."</string>
+    <!-- "Delete FDN Contact" screen: status message displayed in a popup (toast) -->
+    <string name="fdn_contact_deleted">"Nambari ya upigaji simu uliobanwa imefutwa"</string>
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="pin2_invalid">"FDN haikusasishwa kwa sababu uliweka PIN isiyo sahihi."</string>
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="fdn_invalid_number">"FDN Haikusasishwa kwa sababu nambari hii ni tupu au inazidi tarakimu 20."</string>
+    <!-- FDN settings: error message displayed in a popup (toast), when the entered
+         FDN number was inappropriate, OR, PIN2 the user entered was incorrect.
+         Because of API restriction, there's no way to determine which is the exact
+         cause of the failure.
+         [CHAR LIMIT=NONE] -->
+    <string name="pin2_or_fdn_invalid">"FDN haikusasishwa. PIN2 haikuwa sahihi, au namba ya simu ilikataliwa."</string>
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="fdn_failed">"Utendakazi wa FDN ulishindwa."</string>
+    <string name="fdn_service_unavailable">"Huduma ya FDN haipatikani."</string>
+    <!-- ADN related strings -->
+    <!-- Placeholder text displayed while loading the list of SIM contacts -->
+    <string name="simContacts_emptyLoading">"Inasoma kutoka kwa SIM kadi\u2026"</string>
+    <!-- Title of the activity shown for Exporting contacts to SIM.  -->
+    <string name="exportContacts">"Uhamishaji wa waasiliani kwa kadi ya SIM\u2026"</string>
+    <!-- Call settings, string that appears on FDN contact list when there are no contacts on the SIM. -->
+    <string name="simContacts_empty">"Hakuna anwani kwenye SIM kadi yako."</string>
+    <!-- Appears when user tries to import contacts in SIM during airplane mode [CHAR LIMIT=NONE] -->
+    <string name="simContacts_airplaneMode">"Zima hali ya ndegeni ili uingize anwani kutoka kadi ya SIM"</string>
+    <!-- Title of the List shown for SIM Contacts Management Activity.  -->
+    <string name="simContacts_title">"Chagua anwani za kuingiza"</string>
+    <!-- Title of the dialog shown for SIM contact related operations. -->
+    <string name="Result_title">"Matokeo..."</string>
+    <!-- SIM PIN strings -->
+    <!-- Title of "Enable/disable SIM PIN" screen -->
+    <string name="enable_pin">"Wezesha/zima nenosiri la SIM"</string>
+    <!-- Title of "Change SIM PIN" screen -->
+    <string name="change_pin">"Badilisha nenosiri la SIM"</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="enter_pin_text">"PIN ya SIM:"</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="oldPinLabel">"PIN ya zamani"</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="newPinLabel">"PIN mpya"</string>
+    <!-- SIM PIN screen: label for PIN entry widget -->
+    <string name="confirmPinLabel">"Thibitisha PIN mpya"</string>
+    <!-- SIM PIN screen: error message -->
+    <string name="badPin">"PIN ya zamani uliyochapa sio sahihi. Jaribu tena."</string>
+    <!-- SIM PIN screen: error message -->
+    <string name="mismatchPin">"PIN ulizochapa hazilingani. Jaribu tena."</string>
+    <!-- SIM PIN screen: error message when PIN is too short or too long -->
+    <string name="invalidPin">"Chapisha nenosiri lenye nambari kati ya 4 na 8."</string>
+    <!-- Title of "Disable SIM PIN" screen -->
+    <string name="disable_sim_pin">"Ondoa PIN ya SIM"</string>
+    <!-- Title of "Enable SIM PIN" screen -->
+    <string name="enable_sim_pin">"Weka PIN ya SIM"</string>
+    <!-- SIM PIN screen: progress message displayed while enabling -->
+    <string name="enable_in_progress">"Inaweka PIN\u2026"</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="enable_pin_ok">"PIN imewekwa"</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="disable_pin_ok">"PIN imeondolewa"</string>
+    <!-- SIM PIN screen: error message displayed in a popup (toast) -->
+    <string name="pin_failed">"PIN si sahihi"</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="pin_changed">"PIN imesasishwa"</string>
+    <!-- SIM PIN screen: error message displayed in a dialog -->
+    <string name="puk_requested">"Nenosiri si sahihi. PIN sasa imezuiwa. PUK imeombwa."</string>
+    <!-- SIM PIN2 strings -->
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="enter_pin2_text">"PIN2"</string>
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="oldPin2Label">"Nenosiri la zamani"</string>
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="newPin2Label">"Nenosiri la 2 mpya"</string>
+    <!-- SIM PIN2 screen: label for PIN entry widget -->
+    <string name="confirmPin2Label">"Thibitisha nenosiri la pili mpya"</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="badPuk2">"PUK2 si sahihi. Jaribu tena."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="badPin2">"PIN2 ya zamani si sahihi. Jaribu tena."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="mismatchPin2">"PIN2 hazilingani. Jaribu tena."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="invalidPin2">"Weka PIN2 iliyo na kati ya nambari 4 hadi 8."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="invalidPuk2">"Weka PUK2 yenye nambari 8."</string>
+    <!-- SIM PIN2 screen: status message displayed in a popup (toast) -->
+    <string name="pin2_changed">"PIN2 imesasishwa"</string>
+    <!-- SIM PIN2 screen: label for PUK2 entry widget -->
+    <string name="label_puk2_code">"Weka msimbo wa PUK2"</string>
+    <!-- SIM PIN2 screen: error message displayed in a dialog -->
+    <string name="fdn_enable_puk2_requested">"Nenosiri si sahihi. PIN2 sasa Imezuiwa. Ili ujaribu tena, badilisha PIN 2."</string>
+    <!-- SIM PIN2 screen: error message displayed in a dialog -->
+    <string name="puk2_requested">"Nenosiri si sahihi. SIM sasa imefungwa. Weka PUK2."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="puk2_blocked">"PUK2 Imezuiwa kabisa."</string>
+    <!-- SIM PIN2 screen: error message -->
+    <string name="pin2_attempts">"\nUna majaribio <xliff:g id="NUMBER">%d</xliff:g> yaliyobaki."</string>
+    <!-- SIM PIN screen: status message displayed in a popup (toast) -->
+    <string name="pin2_unblocked">"PIN2 sasa haijazuiwa"</string>
+    <!-- SIM PIN screen: error message shown in dialog when there is a network or sim error.
+         [CHAR LIMIT=NONE] -->
+    <string name="pin2_error_exception">"Hitilafu ya Mtandao au SIM kadi"</string>
+    <!-- SIM PIN screen: button label -->
+    <string name="doneButton">"GOTOKA"</string>
+    <!-- Call settings screen, Set voicemail dialog title -->
+    <string name="voicemail_settings_number_label">"Nambari ya ujumbe wa sauti"</string>
+    <!-- Card titles -->
+    <!-- In-call screen: status label for a call in the "dialing" state -->
+    <string name="card_title_dialing">"Inapiga"</string>
+    <!-- In-call screen: status label for a re-dialing call -->
+    <string name="card_title_redialing">"Inapiga simu tena"</string>
+    <!-- In-call screen: status label for a conference call -->
+    <string name="card_title_conf_call">"Simu ya kongamano"</string>
+    <!-- In-call screen: status label for an incoming call -->
+    <string name="card_title_incoming_call">"Simu inayoingia"</string>
+    <!-- In-call screen: status label displayed briefly after a call ends -->
+    <string name="card_title_call_ended">"Simu imekamilika"</string>
+    <!-- In-call screen: status label for call that's on hold -->
+    <string name="card_title_on_hold">"Inangoja"</string>
+    <!-- In-call screen: status label for a call that's in the process of hanging up -->
+    <string name="card_title_hanging_up">"Kukata simu"</string>
+    <!-- In-call screen: status label for a call that's in CDMA flash mode -->
+    <string name="card_title_in_call">"Katika simu"</string>
+    <!-- In-call screen: status label for Unconditional Call Forwarding enabled  -->
+    <string name="card_title_unconditionalCF">"Usambazaji wa Simu Bila Vikwazo umewezeshwa"</string>
+    <!-- In-call screen: status label for Conditional Call Forwarding enabled  -->
+    <string name="card_title_conditionalCF">"Usambazaji wenye Vikwazo umewezeshwa"</string>
+    <!-- In-call screen: status label for a forwarded MO call  -->
+    <string name="card_title_MOcall_forwarding">"Simu ya Kutoka Iliyosambazwa"</string>
+    <!-- In-call screen: status label when Call waiting is enabled on remote party  -->
+    <string name="card_title_calliswaiting">"Kusubiri kwa Simu"</string>
+    <!-- In-call screen: status label for MO call, when the caller & callee both
+            belng to a CUG group -->
+    <string name="card_title_cugcall">"Simu ya CUG"</string>
+    <!-- In-call screen: status label when MO calls are barred -->
+    <string name="card_title_outgoing_barred">"Simu za Kutoka Zimezuiwa"</string>
+    <!-- In-call screen: status label for MO calls, when incoming calls are barred
+            at remote party -->
+    <string name="card_title_incoming_barred">"Zimu za Kuingia Zimezuiwa"</string>
+    <!-- In-call screen: status label for MO calls when CLIR Suppression is rejected -->
+    <string name="card_title_clir_suppression_rejected">"Ukandamizaji wa CLIR Umekataliwa"</string>
+    <!-- In-call screen: status label when MO call gets deflected to another party -->
+    <string name="card_title_call_deflected">"Simu Imekengeushwa"</string>
+    <!-- In-call screen: status label for incoming call being forwarded to other remote party  -->
+    <string name="card_title_MTcall_forwarding">"Simu ya Kuingia Imesambazwa"</string>
+    <!-- In-call screen: status label for incoming call forwarded from other remote party -->
+    <string name="card_title_forwarded_MTcall">"Simu ya Kuingia Iliyosambazwa"</string>
+    <!-- In-call screen: status label for incoming call which is answered & then put on hold  -->
+    <string name="card_title_callonhold">"Weka Simu Isubiri"</string>
+    <!-- In-call screen: status label for incoming call put on hold & then retreived back -->
+    <string name="card_title_callretrieved">"Simu Imeepuliwa"</string>
+    <!-- In-call screen: status label for incoming call which is part of MultiParty Call -->
+    <string name="card_title_multipartycall">"Simu za Watu Wengi"</string>
+    <!-- In-call screen: status label for incoming call which is answered,
+            put on hold & then released -->
+    <string name="card_title_callonhold_released">"Simu Imewachiliwa"</string>
+    <!-- In-call screen: status label for incoming call forward check received -->
+    <string name="card_title_forwardcheckreceived">"Ukaguzi wa Usambazaji Umepokewa"</string>
+    <!-- In-call screen: status label for incoming call connecting through ECT -->
+    <string name="card_title_callconnectingect">"Unnganisha wa Simu ECT"</string>
+    <!-- In-call screen: status label for incoming call connected through ECT -->
+    <string name="card_title_callconnectedect">"Simu Imeunganishwa ECT"</string>
+    <!-- In-call screen: status label for incoming call is a deflected call -->
+    <string name="card_title_deflectedcall">"Simu Iliyokengeushwa"</string>
+    <!-- Notification strings -->
+    <!-- Label for the "Voicemail" notification item, when expanded. -->
+    <string name="notification_voicemail_title">"Ujumbe mpya wa sauti"</string>
+    <!-- Label for the expanded "Voicemail" notification item,
+         including a count of messages. -->
+    <string name="notification_voicemail_title_count">"Barua mpya ya sauti <xliff:g id="COUNT">%d</xliff:g>"</string>
+    <!-- Message displayed in the "Voicemail" notification item, allowing the user
+         to dial the indicated number. -->
+    <string name="notification_voicemail_text_format">"Piga <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <!-- Message displayed in the "Voicemail" notification item,
+         indicating that there's no voicemail number available -->
+    <string name="notification_voicemail_no_vm_number">"Nambari ya ujumbe wa sauti haijulikani."</string>
+    <!-- Label for the "No service" notification item, when expanded. -->
+    <string name="notification_network_selection_title">"Hakuna huduma"</string>
+    <!-- Label for the expanded "No service" notification item, including the
+         operator name set by user -->
+    <string name="notification_network_selection_text">"Mtandao uliochaguliwa <xliff:g id="OPERATOR_NAME">%s</xliff:g> haupatikani"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog. [CHAR_LIMIT=NONE] -->
+    <string name="incall_error_power_off">"Zima hali ya ndegeni ili upige simu."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog when in airplane mode, WFC is enabled, not wifi-only, and not connected to wireless networks. [CHAR_LIMIT=NONE] -->
+    <string name="incall_error_power_off_wfc">"Zima hali ya ndegeni au uunganishe kwenye mtandao pasiwaya ili upige simu."</string>
+    <!-- In-call screen: call failure message displayed when the user attempts to make a non-emergency call while the phone is in emergency callback mode. -->
+    <string name="incall_error_ecm_emergency_only">"Ondoka kwenye hali ya kupiga simu za dharura ili upige simu zisizokuwa za dharura."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog.
+         This string is currently unused (see comments in InCallScreen.java.) -->
+    <string name="incall_error_emergency_only">"Haijasajiliwa kwa mitandao"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_out_of_service">"Mitandao ya simu za mkononi haipatikani"</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_out_of_service_wfc">"Huduma ya mtandao wa simu za mkononi haupatikani. Unganisha kwenye mtandao pasiwaya ili upige simu."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_no_phone_number_supplied">"Ili upige simu, weka nambari sahihi."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog -->
+    <string name="incall_error_call_failed">"Haiwezi kupiga simu."</string>
+    <!-- In-call screen: status message displayed in a dialog when starting an MMI -->
+    <string name="incall_status_dialed_mmi">"Inaanzisha msururu wa MMI\u2026"</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_unknown">"Huduma haiwezi kutumika."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_switch">"Haiwezi kubadili simu."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_separate">"Haiwezi kutenganisha simu."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_transfer">"Haiwezi kuhamisha."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_conference">"Imeshindwa kupigia watu wengi."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_reject">"Haiwezi kukataa simu."</string>
+    <!-- In-call screen: message displayed in an error dialog -->
+    <string name="incall_error_supp_service_hangup">"Haiwezi kutoa simu."</string>
+    <!-- In-call screen: call failure message displayed in an error dialog when WFC is enabled, is wifi-only, and not connected to a wireless network. [CHAR_LIMIT=NONE] -->
+    <string name="incall_error_wfc_only_no_wireless_network">"Unganisha kwenye mtandao pasiwaya ili upige simu."</string>
+    <!-- In-call screen: call failure message displayed in errror dialog -->
+    <string name="incall_error_local_low_battery">"Simu haikuweza kupigwa kwa sababu betri haina chaji!!!."</string>
+    <!-- In-call screen: call failure message displayed in errror dialog -->
+    <string name="incall_error_low_battery">"Simu haikuweza kupigwa kwa sababu betri ya kifaa cha mbali haina chaji!!!."</string>
+    <!-- Dialog title for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_title">"Simu ya dharura"</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_message">"Inawasha redio..."</string>
+    <!-- Status message for the "radio enable" UI for emergency calls -->
+    <string name="emergency_enable_radio_dialog_retry">"Hakuna huduma. Inajaribu tena..."</string>
+    <!-- Dialer text on Emergency Dialer -->
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_error">"Haiwezi kupiga simu. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> si nambari ya dharura."</string>
+    <!-- Emergency dialer: message displayed in an error dialog -->
+    <string name="dial_emergency_empty_error">"Haiwezi kupiga simu. Piga simu nambari ya dharura."</string>
+    <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
+         to dial using the physical keyboard -->
+    <string name="dialerKeyboardHintText">"Tumia kibodi kubonyeza"</string>
+    <!-- Text for the onscreen "Hold" button -->
+    <string name="onscreenHoldText">"Shikilia"</string>
+    <!-- Text for the onscreen "End call" button -->
+    <string name="onscreenEndCallText">"Mwisho"</string>
+    <!-- Text for the onscreen "Show Dialpad" button -->
+    <string name="onscreenShowDialpadText">"Kibao cha kupiga"</string>
+    <!-- Text for the onscreen "Mute" button -->
+    <string name="onscreenMuteText">"Nyamazisha"</string>
+    <!-- Text for the onscreen "Add call" button -->
+    <string name="onscreenAddCallText">"Ongeza simu"</string>
+    <!-- Text for the onscreen "Merge calls" button -->
+    <string name="onscreenMergeCallsText">"Changanyisha simu"</string>
+    <!-- Text for the onscreen "Swap calls" button -->
+    <string name="onscreenSwapCallsText">"Badili"</string>
+    <!-- Text for the onscreen "Manage calls" button -->
+    <string name="onscreenManageCallsText">"Dhibiti simu"</string>
+    <!-- Text for the onscreen "Manage conference" button [CHAR LIMIT=20] -->
+    <string name="onscreenManageConferenceText">"Dhibiti kongamano"</string>
+    <!-- Text for the onscreen "Audio" button that lets you switch
+         between speaker / bluetooth / earpiece [CHAR LIMIT=10] -->
+    <string name="onscreenAudioText">"Kusikika"</string>
+    <!-- Text for the onscreen "Video call" button used to change a voice call
+         to a video call. [CHAR LIMIT=10] -->
+    <string name="onscreenVideoCallText">"Hangout ya Video"</string>
+    <!-- Menu item label in SIM Contacts: Import a single contact entry from the SIM card -->
+    <string name="importSimEntry">"Ingiza"</string>
+    <!-- Menu item label in SIM Contacts: Import all contact entries from the SIM card -->
+    <string name="importAllSimEntries">"Leta zote"</string>
+    <!-- SIM Contacts: status message displayed while importing card -->
+    <string name="importingSimContacts">"Inaleta anwani za SIM"</string>
+    <!-- Import a single contact entry from contacts to the SIM card -->
+    <string name="importToFDNfromContacts">"Ingiza kutoka kwa anwani"</string>
+    <!-- Hearing aid settings -->
+    <string name="hac_mode_title">"Vifaa vya kusaidia kusikia"</string>
+    <string name="hac_mode_summary">"Washa utangamano wa kifaa cha kusaidia kusikia"</string>
+    <!-- Service option entries.  -->
+    <string-array name="tty_mode_entries">
+        <item>"Zima TTY"</item>
+        <item>"TTY Kamili"</item>
+        <item>"TTY HCO"</item>
+        <item>"TTY VCO"</item>
+    </string-array>
+    <!-- Dtmf tones settings -->
+    <!-- Title for the DTMF Tones options displayed in Call Settings -->
+    <string name="dtmf_tones_title">"Toni za DTMF"</string>
+    <!-- Summary for the DTMF Tones options displayed in Call Settings -->
+    <string name="dtmf_tones_summary">"Weka urefu wa toni za DTMF"</string>
+    <!-- Options displayed as part of DTMF Tones in Call Settings -->
+    <string-array name="dtmf_tone_entries">
+      <item>"Kawaida"</item>
+      <item>"Ndefu"</item>
+    </string-array>
+    <!-- Title for the dialog used to display CDMA DisplayInfo -->
+    <string name="network_info_message">"Ujumbe wa mtandao"</string>
+    <!-- Title for the dialog used to display a network error message to the user -->
+    <string name="network_error_message">"Ujumbe wa hitilafu"</string>
+    <!-- Shown in "Managed Roaming" dialog when registration is denied with rejCode 10. -->
+    <string name="managed_roaming_title">"Utambizi Uliodhibitiwa"</string>
+    <string name="managed_roaming_title_sub">"Utambizi Uliodhibitiwa (SUB<xliff:g id="index" example="1">%d</xliff:g>)"</string>
+    <string name="managed_roaming_dialog_content">"Mtandao ulio na Huduma yenye Kikomo umepatikana. Je, unataka kuanzisha Utafutaji wa Mtandao?"</string>
+    <!-- OTA-specific strings -->
+    <!-- Title shown on OTA screen -->
+    <string name="ota_title_activate">"Wezesha simu yako"</string>
+    <!-- Message displayed on the OTA activation screen. -->
+    <string name="ota_touch_activate">"Simu maalum inahitaji kupigwa ili kuamilisha huduma ya simu yako. \n\n Baada ya kubonyeza \"Amilisha\", sikiliza maagizo yaliyotolewa ili kuamilisha simu yako."</string>
+    <!-- Title shown during Hands Free Activation -->
+    <string name="ota_hfa_activation_title">"Inawasha..."</string>
+    <!-- Message shown during the hands free activation screen of the setup wizard. -->
+    <string name="ota_hfa_activation_dialog_message">"Simu inawasha huduma yako ya data kwa vifaa vya mkononi.\n \n Hii inaweza kuchukua hadi dakika 5."</string>
+    <!-- Title of skip activation dialog -->
+    <string name="ota_skip_activation_dialog_title">"Ruka uwezeshaji?"</string>
+    <!-- Message displayed in skip activation dialog  -->
+    <string name="ota_skip_activation_dialog_message">"Kama utaruka kuwezesha, hauwezi kupiga simu au kuunganisha kwa mitandao ya data ya simu (ingawaje unaweza kuunganisha kwa mitandao-hewa). Hadi uiwezeshe simu yako, utaulizwa uiwezeshe kila utakapoiwasha."</string>
+    <!-- Label shown on dialog button that allows the user to skip activation -->
+    <string name="ota_skip_activation_dialog_skip_label">"Ruka"</string>
+    <!-- Button label within the OTA activation screen -->
+    <string name="ota_activate">"Washa"</string>
+    <!-- Title text shown when phone activation is successful -->
+    <string name="ota_title_activate_success">"Simu imeamilishwa."</string>
+    <!-- Title text shown on screen where activation fails -->
+    <string name="ota_title_problem_with_activation">"Tatizo na uamilisho"</string>
+    <!-- Message displayed on the OTA "listening" screen. This message
+         needs to be kept at 2 lines or less to be sure that there's
+         enough room for the dialpad. [CHAR LIMIT=80] -->
+    <string name="ota_listen">"Fuata maagizo yanayotamkwa hadi usikie kwamba uwezeshaji umekamilika."</string>
+    <!-- Button label within the OTA listen screen -->
+    <string name="ota_speaker">"Spika"</string>
+    <!-- String to be displayed on OTA listen screen once user has selected the
+         correct option to begin provisioning -->
+    <string name="ota_progress">"Inasanidi simu yako..."</string>
+    <!-- String to display within the OTA Fail Notice dialog -->
+    <string name="ota_failure">"Haikuweza kusanidi simu yako"</string>
+    <!-- String to be displayed on the OTA Fail/Success screen upon successful provisioning -->
+    <string name="ota_successful">"Simu yako imeamilishwa sasa. Huenda ikachukua hadi dakika 15 kwa huduma kuanza."</string>
+    <!-- String to be displayed on the OTA Fail/Success screen upon unsuccessful provisioning -->
+    <string name="ota_unsuccessful">"Simu yako haikuamilishwa. \n Huenda ukahitaji kupata eneo lenye mtandao bora (karibu na dirisha, au nje). \n\nJaribu tena au piga simu kwa huduma ya wateja kwa chaguo zaidi."</string>
+    <!-- String to display within the OTA SPC Fail Notice dialog -->
+    <string name="ota_spc_failure">"USHINDE ZAIDI WA SPC"</string>
+    <!-- Button label in OTA listen screen that cancels activation and goes to the previous screen -->
+    <string name="ota_call_end">"Nyuma"</string>
+    <!-- Button label shown on OTA error screen to allow the user to try again -->
+    <string name="ota_try_again">"Jaribu tena"</string>
+    <!-- Button label shown on OTA screens that have a next screen -->
+    <string name="ota_next">"Ifuatayo"</string>
+    <!-- Emergency Callback Mode (ECM) -->
+    <string name="ecm_exit_dialog">EcmExitDialog</string>
+    <!-- ECM: Status bar notification message -->
+    <string name="phone_entered_ecm_text">"Umeingia katika gumzo ya kupiga tena simu ya Dharura"</string>
+    <!-- ECM: Notification title -->
+    <string name="phone_in_ecm_notification_title">"hali ya kupiga tena simu ya Dharura"</string>
+    <!-- ECM: Notification body -->
+    <string name="phone_in_ecm_call_notification_text">"Muunganisho wa data umelemazwa"</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Hakuna muunganisho wa data kwa dakika <xliff:g id="COUNT">%s</xliff:g>"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Hakuna data ya muunganisho kwa dakika <xliff:g id="COUNT">%s</xliff:g>"</item>
+    </plurals>
+    <!-- ECM: Dialog box message for exiting from the notifications screen -->
+    <plurals name="alert_dialog_exit_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Simu itakuwa katika hali ya Kupiga tena Simu ya Dharura kwa dakika <xliff:g id="COUNT">%s</xliff:g>. Ukiwa katika hali hii hakuna programu zinazotumia muunganisho wa data zinazoweza kutumika. Je, unataka kutoka sasa?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Simu itakuwa katika hali ya Kupiga tena Simu ya Dharura kwa dakika <xliff:g id="COUNT">%s</xliff:g>. Ukiwa katika hali hii hakuna programu zinazotumia muunganisho wa data zinazoweza kutumika. Je, unataka kutoka sasa?"</item>
+    </plurals>
+    <!-- ECM: Dialog box message for exiting from any other app -->
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Tendo lililochaguliwa halipatikana wakati iko katika hali ya kupiga tena simu ya dharura. Simu itakuwa katika hali hii kwa dakika <xliff:g id="COUNT">%s</xliff:g>. Je, unataka kutoka sasa?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Kitendo kilichochaguliwa hakipatikani katika hali ya Kupiga Tena Simu ya Dharura. Simu itakuwa katika hali hii kwa dakika <xliff:g id="COUNT">%s</xliff:g>. Je, unataka kutoka sasa?"</item>
+    </plurals>
+    <!-- ECM: Dialog box message while in emergency call -->
+    <string name="alert_dialog_in_ecm_call">"Kitendo kilichochaguliwa hakipatikani ikiwa katika simu ya dharura."</string>
+    <!-- ECM: Progress text -->
+    <string name="progress_dialog_exiting_ecm">"Inatoka kwa hali ya Kupiga tena simu ya Dharura"</string>
+    <!-- ECM: ECM exit dialog choice -->
+    <string name="alert_dialog_yes">"Ndiyo"</string>
+    <!-- ECM: ECM exit dialog choice -->
+    <string name="alert_dialog_no">"Hapana"</string>
+    <!-- ECM: ECM exit dialog choice -->
+    <string name="alert_dialog_dismiss">"Kataa"</string>
+    <!-- Preference for Voicemail service provider under "Voicemail" settings.
+         [CHAR LIMIT=40] -->
+    <string name="voicemail_provider">"Huduma"</string>
+    <!-- Preference for Voicemail setting of each provider.
+         [CHAR LIMIT=40] -->
+    <string name="voicemail_settings">"Sanidi"</string>
+    <!-- String to display in voicemail number summary when no voicemail num is set -->
+    <string name="voicemail_number_not_set">"&lt;Haijawekwa&gt;"</string>
+    <!-- Title displayed above settings coming after voicemail in the call features screen -->
+    <string name="other_settings">"Mipangilio mingine ya simu"</string>
+    <!-- Title displayed in the overlay when a call is placed using a 3rd party provider.
+         [CHAR LIMIT=40] -->
+    <string name="calling_via_template">"Kupiga simu kupitia <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <!-- Use this as a default to describe the contact photo; currently for screen readers through accessibility. -->
+    <string name="contactPhoto">"picha ya anwani"</string>
+    <!-- Use this to describe the separate conference call button; currently for screen readers through accessibility. -->
+    <string name="goPrivate">"nenda kwa faragha"</string>
+    <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
+    <string name="selectContact">"chagua anwani"</string>
+    <!-- Dialog title to notify user that Voice calling is not supported
+         on this device. [CHAR LIMIT=40] -->
+    <string name="not_voice_capable">"Upigaji simu za sauti hauhimiliwi"</string>
+    <!-- String describing the Dial ImageButton
+         Used by AccessibilityService to announce the purpose of the button.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_dial_button">"piga simu"</string>
+    <!-- Title for the vibration settings for voicemail notifications [CHAR LIMIT=40] -->
+    <string name="voicemail_notification_vibrate_when_title" msgid="8731372580674292759">"Mtetemo"</string>
+    <!-- Dialog title for the vibration settings for voice mail notifications [CHAR LIMIT=40]-->
+    <string name="voicemail_notification_vibarte_when_dialog_title" msgid="8995274609647451109">"Mtetemo"</string>
+    <!-- Visual voicemail on/off title [CHAR LIMIT=40] -->
+    <string name="voicemail_visual_voicemail_switch_title">"Ujumbe wa Sauti Unaoonekana"</string>
+    <!-- Voicemail ringtone title. The user clicks on this preference to select
+         which sound to play when a voicemail notification is received.
+         [CHAR LIMIT=30] -->
+    <string name="voicemail_notification_ringtone_title">"Sauti"</string>
+    <!-- Title for the category "ringtone", which is shown above ringtone and vibration
+         related settings.
+         [CHAR LIMIT=30] -->
+    <string name="preference_category_ringtone">"Mlio wa simu na Mtetemo"</string>
+    <!-- String resource for the font-family to use for the call setting activity's title
+         Do not translate. -->
+    <string name="call_settings_title_font_family">sans-serif-light</string>
+    <!-- Label for PSTN connection service. -->
+    <string name="pstn_connection_service_label">"SIM kadi zilizojengewa ndani"</string>
+    <!-- Label for enabling video calling. -->
+    <string name="enable_video_calling_title">"Washa Hangout ya video"</string>
+    <!-- Message for dialog shown when the user tries to turn on video calling but enhanced 4G LTE
+         is disabled. They have to turn on Enhanced 4G LTE capability in network settings first. -->
+    <string name="enable_video_calling_dialog_msg">"Ili uwashe kutumia Hangout ya Video, inabidi uwashe Hali Iliyoimarishwa ya 4G LTE katika mipangilio ya mtandao."</string>
+    <!-- Label for action button in dialog which opens mobile network settings, for video calling
+         setting. -->
+    <string name="enable_video_calling_dialog_settings">"Mipangilio ya mtandao"</string>
+    <!-- Label for close button in dialog, for video calling setting. -->
+    <string name="enable_video_calling_dialog_close">"Funga"</string>
+    <!-- Strings used in Settings->Sim cards for each installed Sim. -->
+    <string name="sim_label_emergency_calls">"Simu za dharura"</string>
+    <string name="sim_description_emergency_calls">"Simu za dharura peke yake"</string>
+    <string name="sim_description_default">"Kadi ya SIM, sloti: <xliff:g id="slot_id">%s</xliff:g>"</string>
+    <!-- Title for activity to control accessibility settings such as TTY mode and hearing aid
+         compatability. [CHAR LIMIT=40] -->
+    <string name="accessibility_settings_activity_title">"Zana za walio na matatizo ya kuona au kusikia"</string>
+    <!-- Status hint label for an incoming call over a wifi network which has not been accepted yet.
+         [CHAR LIMIT=25] -->
+    <string name="status_hint_label_incoming_wifi_call">"Simu ya Wi-Fi inayoingia"</string>
+    <!-- Status hint label for a call being made over a wifi network. [CHAR LIMIT=25] -->
+    <string name="status_hint_label_wifi_call">"Simu ya Wi-Fi"</string>
+    <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
+    <string name="voicemail_notification_ringtone_key">voicemail_notification_ringtone_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
+    <string name="voicemail_notification_vibrate_key">voicemail_notification_vibrate_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for a visual voicemail preference. -->
+    <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for tty mode preference. -->
+    <string name="tty_mode_key">button_tty_mode_key</string>
+    <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
+    <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
+    <!-- Hint appearing below a selected action on the emergency dialer telling user to tap again to execute the action [CHAR LIMIT=NONE] -->
+    <string name="emergency_action_launch_hint">"Gusa tena ili ufungue"</string>
+    <!-- Strings for IMAP -->
+    <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
+       data was received.) [CHAR LIMIT=none] -->
+    <string name="message_decode_error">"Hitilafu imetokea wakati wa usimbuaji wa ujumbe."</string>
+    <!-- Call failure reason: SIM card and roaming capabilities have already been activated. [CHAR LIMIT=NONE]-->
+    <string name="callFailed_cdma_activation">"SIM kadi yako imeanzisha huduma yako na kusasisha uwezo wa simu yako wa kutumia mitandao mingine."</string>
+    <!-- Sim contacts management -->
+    <string name="contactScreen">" Ongeza/Hariri Mwasiliani wa SIM"</string>
+    <string name="exportContactScreen">" Hamisha waasiliani wa simu kwenye sim "</string>
+    <string name="addSimEntries">" Ongeza Mwasiliani wa SIM"</string>
+    <string name="deleteAllSimEntries">" Futa Waasiliani Wote wa SIM"</string>
+    <string name="deleteSimContacts">"Kufuta waasiliani wa SIM"</string>
+    <string name="editContact">" Hariri"</string>
+    <string name="sendSms">" Tuma SMS"</string>
+    <string name="delete">" Futa"</string>
+    <string name="dial">" Dayo"</string>
+    <string name="enterName">" Ingiza Jina:"</string>
+    <string name="enterNumber">" Ingiza Nambari ya Simu:"</string>
+    <string name="hintName">"Jina."</string>
+    <string name="hintPhonenumber">"Nambari ya Simu."</string>
+    <string name="contactAddSuccess">" Imefaulu kuongeza mwasiliani kwenye SIM "</string>
+    <string name="contactAddFailed">" Haijafaulu kuongeza mwasiliani kwenye SIM !!!"</string>
+    <string name="contactUpdateSuccess">" Imefaulu kusasisha mwasiliani katika SIM "</string>
+    <string name="contactUpdateFailed">" Haijafaulu kusasisha mwasiliani katika SIM !!!"</string>
+    <string name="contactdeleteSuccess">" Imefaulu kufuta mwasiliani kutoka kwa SIM "</string>
+    <string name="contactdeleteFailed">" Haijafaulu kufuta mwasiliani kutoka SIM !!!"</string>
+    <string name="allContactdeleteSuccess">" Imefaulu kufuta waasiliani wote kutoka kwa SIM "</string>
+    <string name="allContactdeleteFailed">" Haijafaulu ufuta waasiliani wote kutoka kwa SIM !!!"</string>
+    <string name="exportAllcontatsSuccess">"Imefaulu kuhamisha waasiliani wote kwenye SIM "</string>
+    <string name="exportAllcontatsFailed">" Haijafaulu kuhamisha waasiliani wote kwenye SIM !!!"</string>
+    <string name="exportAllcontatsNoContacts">" Hakuna Waasiliani wamepatikana kuhamisha kwenye SIM !!!"</string>
+    <string name="cursorError">" Kidosa hakina data inayofaa !!! "</string>
+     <!-- XDivert Settings -->
+     <!-- Title for the XDivert Feature displayed in Call Settings -->
+     <string name="xdivert_title">"X-Divert"</string>
+     <!-- Summary for the XDivert Feature displayed in Call Settings -->
+     <string name="xdivert_summary">"Mipangilio ya CFNRc"</string>
+    <string name="CFActivate">"Washa"</string>
+    <string name="CFDeactivate">"Zima"</string>
+    <string name="null_phone_number">"Sehemu ya nambari ya simu haiwezi kuwa tupu !"</string>
+    <string name="labelCFDeactAll">"Amilishua Zote"</string>
+    <string name="srvcc_video_message">"Simu ya video imeshushwa hadi simu ya sauti ya 2G/3G, kwa sababu mtandao wa 4G haupatikani."</string>
+    <string name="srvcc_message">"Simu ya 4G imeshushwa hadi simu ya sauti ya 2G/3G, kwa sababu mtandao wa 4G haupatikani."</string>
+    <string name="no_mobile_data">"Data ya simu ya mkononi haipatikani"</string>
+    <string name="no_mobile_data_roaming">"Utambizi wa data haupatikani"</string>
+    <string name="sim_lock_with_limited_service_title">"Kufunga Mtandao"</string>
+    <string name="sim_lock_with_limited_service_desc">"Kifaa hiki kinaweza kufungwa kwa muda mfupi ikiwa kinafaa. Tafadhali ttumia programu ya Kufungua Kifaa ili ufungue kifaa hiki. Hakikisha kwamba kifaa hiki kimeunganishwa kwenye mtandao ili utumie programu ya Kufungua Kifaa"</string></resources>

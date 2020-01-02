@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"عرض قياسات التصحيح"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"حفظ الصور"</string>
+    <string name="debug_pref_save_pictures_desc">"حفظ الصور الملتقطة في بطاقة SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"حفظ إطارات المعاينة"</string>
+    <string name="debug_pref_save_preview_frames_desc">"حفظ إطارات المعاينة في بطاقة SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"السماح بإسقاط إطار المعاينة"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"عند حفظ إطارات المعاينة، اسمح بإسقاط الإطارات للحفاظ على معدل الإطارات"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"تمكين التسجيل المطوّل لميزة التعرف إلى الوجوه"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

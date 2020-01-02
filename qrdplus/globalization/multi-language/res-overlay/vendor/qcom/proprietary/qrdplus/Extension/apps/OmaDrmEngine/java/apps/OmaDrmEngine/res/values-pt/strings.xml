@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Mecanismo OMA DRM"</string>
+    <string name="activity_name_image_viewer">"Visualizador de imagens DRM"</string>
+    <string name="permission_label_access_drm_data">"Permissão de acesso do plug-in OMA DRM"</string>
+    <string name="permission_desc_access_drm_data">"Conceder acesso às informações de licença do plug-in OMA DRM."</string>
+    <string name="license_expired">"Licença expirada"</string>
+    <string name="license_expired_message">"Não é possível abrir o arquivo DRM"</string>
+    <string name="buy_license">"Comprar licença"</string>
+    <string name="menu_set_as_wallpaper">"Definir plano de fundo"</string>
+    <string name="menu_details">"Detalhes"</string>
+    <string name="drm_details_title">"Detalhes DRM"</string>
+    <string name="dialog_close">"Fechar"</string>
+    <string name="drm_rights_message">"Êxito ao salvar os direitos OMA DRM"</string>
+    <string name="drm_text_count">"Cont. restante : "</string>
+    <string name="drm_text_date_start">"De:  "</string>
+    <string name="drm_text_date_end">"Até:  "</string>
+    <string name="drm_text_fwd_lk">"Ilimitado "</string>
+    <string name="drm_text_license">"Licença DRM:  "</string>
+    <string name="drm_text_play">"Reproduzir"</string>
+    <string name="drm_text_display">"Tela"</string>
+    <string name="drm_text_title">"Título:  "</string>
+    <string name="drm_text_location">"Local:  "</string>
+    <string name="drm_text_mime_type">"Tipo MIME:  "</string>
+    <string name="error_unable_to_view">"Imagem não encontrada"</string></resources>

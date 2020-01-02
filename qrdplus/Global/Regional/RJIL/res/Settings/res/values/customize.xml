@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) 2016 Qualcomm Technologies, Inc.
+All Rights Reserved.
+Confidential and Proprietary - Qualcomm Technologies, Inc
+-->
+<resources>
+
+    <!-- Whether to show RJIL layout -->
+    <bool name="config_settings_rjil_layout">true</bool>
+    <!-- Whether Customize show storage screen config -->
+    <bool name="show_storage_screen_config">true</bool>
+
+    <!-- whether to show font size dialog config -->
+    <bool name="show_font_size_config">true</bool>
+    <!-- Whether to show a preference item for battery percentage
+         in ("Battery") for India RJIL -->
+    <bool name="config_show_battery_percentage">true</bool>
+</resources>

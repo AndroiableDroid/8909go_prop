@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Nástroj Oma Drm"</string>
+    <string name="activity_name_image_viewer">"Prehliadač obrázkov DRM"</string>
+    <string name="permission_label_access_drm_data">"Povolenie na prístup dplnku OMA DRM"</string>
+    <string name="permission_desc_access_drm_data">"Udeliť povolenie na prístup k informáciám o licencii pre dplnok OMA DRM."</string>
+    <string name="license_expired">"Platnosť licencie vypršala"</string>
+    <string name="license_expired_message">"Nepodarilo sa otvoriť súbor DRM"</string>
+    <string name="buy_license">"Zakúpiť licenciu"</string>
+    <string name="menu_set_as_wallpaper">"Nastaviť tapetu"</string>
+    <string name="menu_details">"Podrobnosti"</string>
+    <string name="drm_details_title">"Podrobnosti DRM"</string>
+    <string name="dialog_close">"Zavrieť"</string>
+    <string name="drm_rights_message">"Práva OMA DRM sa úspešne uložili"</string>
+    <string name="drm_text_count">"Zostáva: "</string>
+    <string name="drm_text_date_start">"Od: "</string>
+    <string name="drm_text_date_end">"Do: "</string>
+    <string name="drm_text_fwd_lk">"Neobmedzené "</string>
+    <string name="drm_text_license">"Licencia DRM: "</string>
+    <string name="drm_text_play">"Prehrať"</string>
+    <string name="drm_text_display">"Zobraziť"</string>
+    <string name="drm_text_title">"Názov: "</string>
+    <string name="drm_text_location">"Poloha: "</string>
+    <string name="drm_text_mime_type">"Typ MIME: "</string>
+    <string name="error_unable_to_view">"Obraz sa nenašiel"</string></resources>

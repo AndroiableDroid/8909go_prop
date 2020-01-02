@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"کیمرا"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"بنیادی"</item>
+        <item>"سامنے کی جانب کا کیمرہ"</item>
+        <item>"کیمرا 3"</item>
+        <item>"کیمرا 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"تصویر کا سائز"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9.7MP, 16:9)"</item>
+        <item>"3840x2160 (8.3MP, 16:9, UHD 4K)"</item>
+        <item>"3200x1800 (5.8MP, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (4.1MP, 16:9)"</item>
+        <item>"2592x1458 (3.8MP, 16:9)"</item>
+        <item>"1920x1080 (2.1MP, 16:9, HD 1080p)"</item>
+        <item>"1280x720 (0.9MP, 16:9, HD 720p)"</item>
+        <item>"864x480 (0.4MP, 16:9)"</item>
+        <item>"4160x3120 (13MP, 4:3)"</item>
+        <item>"4000x3000 (12MP, 4:3)"</item>
+        <item>"3264x2448 (8MP, 4:3)"</item>
+        <item>"3200x2400 (7.7MP, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (5MP, 4:3)"</item>
+        <item>"2048x1536 (3.1MP, 4:3, QXGA)"</item>
+        <item>"1920x1440 (2.8MP, 4:3)"</item>
+        <item>"1600x1200 (1.9MP, 4:3, UXGA)"</item>
+        <item>"1280x960 (1.2MP, 4:3, UVGA)"</item>
+        <item>"1024x768 (0.8MP, 4:3, XGA)"</item>
+        <item>"800x600 (0.5MP, 4:3, SVGA)"</item>
+        <item>"640x480 (0.3MP, 4:3, VGA)"</item>
+        <item>"320x240 (0.1MP, 4:3, QVGA)"</item>
+        <item>"3264x2176 (7.1MP, 3:2)"</item>
+        <item>"2592x1728 (4.5MP, 3:2)"</item>
+        <item>"720x480 (0.3MP, 3:2)"</item>
+        <item>"4160x2774 (11.5MP, 3:2)"</item>
+        <item>"2976x2976 (8.9MP, 1:1)"</item>
+        <item>"1280x768 (1MP, 5:3)"</item>
+        <item>"800x480 (0.4MP, 5:3)"</item>
+        <item>"352x288 (0.1MP, 11:9)"</item>
+        <item>"176x144 (0MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"پیش نظارہ سائز"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"ڈسپلے کا سائز مماثل کریں"</item>
+        <item>"زیادہ-ریزولیوشن پیش نظارہ (4MP تک)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"منظر وضع"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"خودکار"</item>
+        <item>"کارروائی شاٹ"</item>
+        <item>"بارکوڈ"</item>
+        <item>"ساحل سمندر"</item>
+        <item>"شمع کی روشنی"</item>
+        <item>"چہرے"</item>
+        <item>"آتش بازی"</item>
+        <item>HDR</item>
+        <item>"ہائی اسپیڈ ویڈیو"</item>
+        <item>"لینڈ اسکیپس"</item>
+        <item>"رات"</item>
+        <item>"پارٹی"</item>
+        <item>"لوگ"</item>
+        <item>"رات کے وقت لوگ"</item>
+        <item>"برف"</item>
+        <item>"اسپورٹس"</item>
+        <item>"مستحکم شاٹ"</item>
+        <item>"غروب آفتاب"</item>
+        <item>"تھیٹر"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"نمائش کنٹرول"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"خودکار"</item>
+        <item>"مقرر"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"نمائش تلافی"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"فوکس"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"خودکار"</item>
+        <item>"مقرر"</item>
+        <item>"جاری (تصویر)"</item>
+        <item>"جاری (ویڈیو)"</item>
+        <item>"میکرو"</item>
+        <item>"قطعہ کی توسیعی گہرائی"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"وہائٹ بیلنس کنٹرول"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"خودکار"</item>
+        <item>"آف"</item>
+        <item>"تیز چمک روشنی"</item>
+        <item>"فلوریسنٹ روشنی"</item>
+        <item>"گرم فلوروسینٹ"</item>
+        <item>"دن کی روشنی"</item>
+        <item>"بادل دار دن"</item>
+        <item>"سایہ"</item>
+        <item>"دھندلکا"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"فلیش"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"خودکار"</item>
+        <item>"آن"</item>
+        <item>"آف"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"شور میں کمی"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"آن"</item>
+        <item>"آف"</item>
+        <item>"اعلٰی معیار"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"لینس سایہ کی تصحیح"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"آن"</item>
+        <item>"آف"</item>
+        <item>"اعلٰی معیار"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"انحراف کی تصحیح"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"آن"</item>
+        <item>"آف"</item>
+        <item>"اعلٰی معیار"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"کنارے کو بڑھانا"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"آن"</item>
+        <item>"آف"</item>
+        <item>"اعلٰی معیار"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"گرم پکسل تصحیح"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"آن"</item>
+        <item>"آف"</item>
+        <item>"اعلٰی معیار"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"استحکام موڈ"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"آف"</item>
+        <item>"بصری"</item>
+        <item>"ڈیجیٹل"</item>
+    </string-array></resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+**
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <!-- This is the name and title of the application that installs the required files for speech synthesis on the user's SD card  -->
+    <string name="app_name">"Inštalátor údajov na syntézu reči (ITA-ITA)"</string>
+    <!-- After launching the application that installs the required files for speech synthesis on the user's SD card, this message is shown during the installation  -->
+    <string name="installing_message">"Inštalácia hlasových údajov na kartu SD."</string>
+    <!-- After the successful installation of the required files for speech synthesis, the installer shows this message to the user  -->
+    <string name="uninstall_message">"Hlasové údaje boli úspešne nainštalované. Inštalačný program môžete bezpečne odstrániť."</string>
+    <!-- Text on the button to let the user remove from the phone the application that was just run (the voice data installer)   -->
+    <string name="uninstall">"Odinštalovať"</string>
+    <!-- Text shown to the user when the application that tries to install voice data files on the user's SD card failed the installation  -->
+    <string name="retry_message">"Hlasové údaje sa nepodarilo nainštalovať. Uistite sa, že je v zariadení vložená karta SD a že obsahuje aspoň 6 MB voľného priestoru. If your card is already in your device, please try removing the card and reinserting it."</string>
+    <!-- Text on the button to let the user try one more time to install the installation of the voice data files   -->
+    <string name="retry">"Skúsiť znovu"</string></resources>

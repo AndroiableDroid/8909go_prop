@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"แสดงการแก้ปัญหาเมตริก"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"บันทึกรูปภาพ"</string>
+    <string name="debug_pref_save_pictures_desc">"บันทึกรูปภาพที่ถ่ายไปยังการ์ด SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"บันทึกเฟรมตัวอย่าง"</string>
+    <string name="debug_pref_save_preview_frames_desc">"บันทึกเฟรมตัวอย่างไปยังการ์ด SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"อนุญาตให้วางเฟรมตัวอย่าง"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"เมื่อทำการบันทึกเฟรมตัวอย่าง อนุญาตให้วางเฟรมเพื่อรักษาอัตราเฟรม"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"เปิดใช้งานบันทึกรายละเอียดการจดจำใบหน้า"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

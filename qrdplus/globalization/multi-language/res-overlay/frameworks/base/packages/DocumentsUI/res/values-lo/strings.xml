@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2013 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of the documents application [CHAR LIMIT=32] -->
+    <string name="app_label">"ເອ​ກະ​ສານ"</string>
+    <!-- Action bar title prompting user to choose a location to open a document from [CHAR LIMIT=32] -->
+    <string name="title_open">"ເປີດ​ຈາກ"</string>
+    <!-- Action bar title prompting user to choose a location to save a document to [CHAR LIMIT=32] -->
+    <string name="title_save">"ບັນທຶກໄປທີ່"</string>
+    <!-- Menu item that creates a new directory/folder at the current location [CHAR LIMIT=24] -->
+    <string name="menu_create_dir">"ສ້າງໂຟນເດີ"</string>
+    <!-- Menu item that switches view to show documents as a large-format grid of thumbnails [CHAR LIMIT=24] -->
+    <string name="menu_grid">"ມຸມມອງແບບຊ່ອງ"</string>
+    <!-- Menu item that switches view to show documents as a list [CHAR LIMIT=24] -->
+    <string name="menu_list">"ມຸມມອງແບບລາຍຊື່"</string>
+    <!-- Menu item that switches the criteria with which documents are sorted [CHAR LIMIT=24] -->
+    <string name="menu_sort">"ຮຽງລຳດັບຕາມ"</string>
+    <!-- Menu item that enters a mode to search for documents [CHAR LIMIT=24] -->
+    <string name="menu_search">"ຊອກຫາ"</string>
+    <!-- Menu item that enters activity to change settings [CHAR LIMIT=24] -->
+    <string name="menu_settings">"ການຕັ້ງຄ່າ"</string>
+    <!-- Menu item title that opens the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_open">"ເປີດ"</string>
+    <!-- Menu item title that saves the current document [CHAR LIMIT=24] -->
+    <string name="menu_save">"ບັນທຶກ"</string>
+    <!-- Menu item title that shares the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_share">"ແບ່ງປັນ"</string>
+    <!-- Menu item title that deletes the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_delete">"ລຶບ"</string>
+    <!-- Menu item title that selects all documents in the current directory [CHAR LIMIT=24] -->
+    <string name="menu_select_all">"ເລືອກທັງຫມົດ"</string>
+    <!-- Menu item title that copies the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_copy">"ອັດ​ສຳ​ເນົາ​ໃສ່\u2026"</string>
+    <!-- Menu item that reveals internal storage built into the device [CHAR LIMIT=24] -->
+    <string name="menu_advanced_show" product="nosdcard">"ສະແດງ​ໂຕເກັບ​ຂໍ້ມູນພາຍໃນ"</string>
+    <!-- Menu item that reveals SD cards built into the device [CHAR LIMIT=24] -->
+    <string name="menu_advanced_show" product="default">"ສະແດງ SD ກາດ"</string>
+    <!-- Menu item that hides internal storage built into the device [CHAR LIMIT=24] -->
+    <string name="menu_advanced_hide" product="nosdcard">"ເຊື່ອງ​ໂຕ​ເກັບຂໍ້ມູນ​ພາຍໃນ"</string>
+    <!-- Menu item that hides SD cards built into the device [CHAR LIMIT=24] -->
+    <string name="menu_advanced_hide" product="default">"ເຊື່ອງ SD ກາດ"</string>
+    <!-- Menu item that reveals the sizes of displayed files [CHAR LIMIT=24] -->
+    <string name="menu_file_size_show">"ສະແດງ​ຂະໜາດ​ໄຟລ໌"</string>
+    <!-- Menu item that hides the sizes of displayed files [CHAR LIMIT=24] -->
+    <string name="menu_file_size_hide">"ເຊື່ອງ​ຂະ​ຫນາດ​ໄຟລ໌"</string>
+    <!-- Button label that select the current directory [CHAR LIMIT=24] -->
+    <string name="button_select">"ເລືອກ"</string>
+    <!-- Button label that copies files to the current directory [CHAR LIMIT=24] -->
+    <string name="button_copy">"ສຳເນົາ"</string>
+    <!-- Mode that sorts documents by their display name alphabetically [CHAR LIMIT=24] -->
+    <string name="sort_name">"ຕາມຊື່"</string>
+    <!-- Mode that sorts documents by their last modified time in descending order; most recent first [CHAR LIMIT=24] -->
+    <string name="sort_date">"ຕາມວັນທີທີ່ແກ້ໄຂ"</string>
+    <!-- Mode that sorts documents by their file size in descending order; largest first [CHAR LIMIT=24] -->
+    <string name="sort_size">"ຕາມຂະໜາດ"</string>
+    <!-- Accessibility title to open the drawer showing all roots where documents can be stored [CHAR LIMIT=32] -->
+    <string name="drawer_open">"ສະແດງ roots"</string>
+    <!-- Accessibility title to close the drawer showing all roots where documents can be stored [CHAR LIMIT=32] -->
+    <string name="drawer_close">"ເຊື່ອງ roots"</string>
+    <!-- Toast shown when saving a document failed with an error [CHAR LIMIT=48] -->
+    <string name="save_error">"ການບັນທຶກເອກະສານລົ້ມເຫລວ"</string>
+    <!-- Toast shown when creating a folder failed with an error [CHAR LIMIT=48] -->
+    <string name="create_error">"ການ​ສ້າງ​ໂຟນ​ເດີລົ້ມເຫຼວ"</string>
+    <!-- Error message shown when querying for a list of documents failed [CHAR LIMIT=48] -->
+    <string name="query_error">"ການຊອກຫາເອກະສານລົ້ມເຫຼວ"</string>
+    <!-- Title of storage root location that contains recently modified or used documents [CHAR LIMIT=24] -->
+    <string name="root_recent">"ຫາກໍໃຊ້"</string>
+    <!-- Subtitle of storage root indicating the total free space available, in bytes [CHAR LIMIT=24] -->
+    <string name="root_available_bytes">"ຟຣີ <xliff:g id="SIZE">%1$s</xliff:g>"</string>
+    <!-- Header title for list of storage roots that contains cloud services [CHAR LIMIT=24] -->
+    <string name="root_type_service">"ບໍລິການບ່ອນຈັດເກັບຂໍ້ມູນ"</string>
+    <!-- Header title for list of storage roots that contains shortcuts to documents that may be available elsewhere [CHAR LIMIT=24] -->
+    <string name="root_type_shortcut">"ທາງລັດ"</string>
+    <!-- Header title for list of storage roots that contains physical devices [CHAR LIMIT=24] -->
+    <string name="root_type_device">"ອຸປະກອນ"</string>
+    <!-- Header title for list of additional apps that can provide documents [CHAR LIMIT=24] -->
+    <string name="root_type_apps">"ແອັບຯອື່ນໆ"</string>
+    <!-- Text shown when a directory of documents is empty [CHAR LIMIT=24] -->
+    <string name="empty">"ບໍ່ມີລາຍການ"</string>
+    <!-- Toast shown when no app can be found to open the selected document [CHAR LIMIT=48] -->
+    <string name="toast_no_application">"ບໍ່ສາມດາເປີດໄຟລ໌ໄດ້"</string>
+    <!-- Toast shown when some of the selected documents failed to be deleted [CHAR LIMIT=48] -->
+    <string name="toast_failed_delete">"ບໍ່ສາມາດລຶບບາງເອກະສານໄດ້"</string>
+    <!-- Title of dialog when prompting user to select an app to share documents with [CHAR LIMIT=32] -->
+    <string name="share_via">"ແບ່ງປັນຜ່ານ"</string>
+    <!-- Title of the copy notification [CHAR LIMIT=24] -->
+    <string name="copy_notification_title">"ກຳ​ລັງ​ອັດ​ສຳ​ເນົາ​ໄຟ​ລ໌"</string>
+    <!-- Text shown on the copy notification to indicate remaining time, in minutes [CHAR LIMIT=24] -->
+    <string name="copy_remaining">"<xliff:g id="DURATION">%s</xliff:g> ຍັງ​ເຫຼືອ​ຢູ່"</string>
+    <!-- Toast shown when a file copy is kicked off -->
+    <plurals name="copy_begin">
+        <item quantity="one">"ກຳ​ລັງ​ອັດ​ສຳ​ເນົາ <xliff:g id="COUNT">%1$d</xliff:g> ໄຟ​ລ໌."</item>
+        <item quantity="other">"ກຳ​ລັງ​ອັດ​ສຳ​ເນົາ <xliff:g id="COUNT">%1$d</xliff:g> ໄຟ​ລ໌."</item>
+    </plurals>
+    <!-- Text shown on the copy notification while DocumentsUI performs setup in preparation for copying files [CHAR LIMIT=32] -->
+    <string name="copy_preparing">"ກຳ​ລັງ​ກຽມ​ອັດ​ສຳ​ເນົາ\u2026"</string>
+    <!-- Title of the copy error notification [CHAR LIMIT=48] -->
+    <plurals name="copy_error_notification_title">
+        <item quantity="one">"ບໍ່​ສາ​ມາດອັດ​ສຳ​ເນົາ <xliff:g id="COUNT">%1$d</xliff:g> ໄຟ​ລ໌ໄດ້"</item>
+        <item quantity="other">"ບໍ່​ສາ​ມາດອັດ​ສຳ​ເນົາ <xliff:g id="COUNT">%1$d</xliff:g> ໄຟ​ລ໌​ໄດ້"</item>
+    </plurals>
+    <!-- Second line for notifications saying that more information will be shown after touching [CHAR LIMIT=48] -->
+    <string name="notification_touch_for_details">"ສຳ​ພັດເພື່ອເບິ່ງລາຍລະອຽດ"</string>
+    <!-- Label of a dialog button for retrying a failed operation [CHAR LIMIT=24] -->
+    <string name="retry">"ລອງໃໝ່"</string>
+    <!-- Contents of the copying failure alert dialog. [CHAR LIMIT=48] -->
+    <string name="copy_failure_alert_content">"ໄຟ​ລ໌​ເຫຼົ່າ​ນີ້​ບໍ່​ຖື​ກ​ອັດ​ສຳ​ເນົາ: <xliff:g id="LIST">%1$s</xliff:g>"</string></resources>

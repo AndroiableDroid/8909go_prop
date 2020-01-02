@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtect"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"অ্যাপ তথ্য"</string>
+    <string name="title_trusted">"বিশ্বস্ত অ্যাপ"</string>
+    <string name="title_about">"সম্বন্ধে"</string>
+    <string name="title_settings">"সেটিংস"</string>
+    <string name="drawer_open_title">"Snapdragon Smart Protect"</string>
+<string name="service_status_on">"চালু"</string>
+    <string name="service_status_off">"বন্ধ"</string>
+    <string name="err_title">"অ্যাপ্লিকেশন ত্রুটি"</string>
+    <string name="err_msg_init">"Snapdragon Smart Protect QSSP লাইব্রেরি আরম্ভ করতে অক্ষম। পরিষেবা স্থগিত করা হচ্ছে"</string>
+    <string name="err_msg_load_model">"Snapdragon Smart Protect মডেলটিকে লোড করতে অক্ষম। পরিষেবা স্থগিত করা হচ্ছে"</string>
+    <string name="err_msg_malicious_alert">"Snapdragon Smart Protect ক্ষতিকারক সতর্কতাগুলিকে রেজিস্টার করতে অক্ষম। পরিষেবা স্থগিত করা হচ্ছে"</string>
+    <string name="err_msg_benign_alert">"Snapdragon Smart Protect অনুকূল সতর্কতাগুলিকে রেজিস্টার করতে অক্ষম। পরিষেবা স্থগিত করা হচ্ছে"</string>
+    <string name="err_msg_service_not_up">"Snapdragon Smart Protect আর কোনো পরিষেবা খুঁজতে অক্ষম।"</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"সমস্ত স্বত্ব সংরক্ষিত।"</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ Smart Protect হল Qualcomm Technologies, Inc.-এর একটি প্রোডাক্ট।"</string>
+    <string name="about_information_line2">"Qualcomm এবং Snapdragon হল Qualcomm Incorporated-এর ট্রেডমার্ক, এগুলি মার্কিন যুক্তরাষ্ট্র এবং অন্যান্য দেশে রেজিস্টার করা হয়েছে, এবং অনুমতির অধীনে ব্যবহার করা হয়।"</string>
+    <string name="btn_restore_default">"ডিফল্ট সেটিংস রিস্টোর করুন"</string>
+    <string name="btn_clear_history">"SMART PROTECT ইতিহাস সাফ করুন"</string>
+    <string name="trusted_btn">"বিশ্বস্ত অ্যাপগুলির তালিকায় যোগ করুন"</string>
+    <string name="uninstall_btn">"আনইনস্টল করুন"</string>
+    <string name="details_btn">"বিবরণ"</string>
+    <string name="done_btn">"হয়ে গেছে"</string>
+    <string name="remove_trusted_btn">"বিশ্বস্ত অ্যাপগুলির তালিকা থেকে অপসারণ করুন"</string>
+    <string name="uninstall_confirm_message">"আপনি কি এই অ্যাপটি ইনস্টল করতে চান?"</string>
+    <string name="uninstall_success">"প্যাকেজ সফলভাবে আনইনস্টল করা হয়েছে"</string>
+    <string name="uninstall_failed">"প্যাকেজ আনইনস্টল ব্যর্থ হয়েছে"</string>
+    <string name="clear_history_done">"ইতিহাস সফলভাবে সাফ করা হয়েছে"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon Smart Protect"</string>
+    <string name="drawer_threats">"বিপদ শনাক্ত করা হয়েছে (%1$s)"</string>
+    <string name="drawer_threat_null">"প্রকৃত-সময়ে, ডিভাইসে গোপনীয়তা সংক্রান্ত সুরক্ষা এবং ম্যালওয়্যার শনাক্তকরণ"</string>
+    <string name="drawer_option_dashboard">"ড্যাশবোর্ড"</string>
+    <string name="drawer_option_trusted_apps">"বিশ্বস্ত অ্যাপ"</string>
+    <string name="drawer_option_settings">"সেটিংস"</string>
+    <string name="drawer_option_about">"সম্বন্ধে"</string>
+    <string name="dashboard_list_title">"Snapdragon Smart Protect প্রদত্ত বিবরণ ও প্রস্তাবগুলি দেখার জন্য একটি অ্যাপ নির্বাচন করুন।"</string>
+    <string name="dashboard_list_empty">"কোনো অ্যাপ মনিটার করা হচ্ছে না।"</string>
+    <string name="app_info_recommend">"প্রস্তাব:"</string>
+    <string name="app_info_version">"সংস্করণ"</string>
+    <string name="app_uninstalled">"অ্যাপ্লিকেশনটি আর ডিভাইসে নেই। প্রস্থান করতে ঠিক টিপুন।"</string>
+    <string name="malicious_item_threat">"Snapdragon Smart Protect শনাক্ত করা হয়েছে:"</string>
+    <string name="malicious_item_confidence">"বিশ্বস্ততার স্তর:"</string>
+    <string name="malicious_item_analysis">"বিশ্লেষণ"</string>
+    <string name="malicious_recommend">"সংস্থাপন প্রত্যাহার করুন"</string>
+    <string name="good_threat">"কোনো বিপদ শনাক্ত করা হয়নি।"</string>
+    <string name="good_recommend">"সম্পন্ন নির্বাচন করুন, যার ফলে Snapdragon Smart Protect এই অ্যাপটিকে মনিটার করা অবিরত রাখবে।"</string>
+    <string name="good_title">"ভাল"</string>
+    <string name="trusted_item_title">"Snapdragon Smart Protect %1$s-এর কার্যকলাপ মনিটার করেনা, কারণ সেটি আপনার বিশ্বস্ত অ্যাপগুলির তালিকাতে আছে।\n\nআপনি এই অ্যাপটির নিরাপত্তা সম্বন্ধে সুনিশ্চিত না হলে, সেটিকে বিশ্বস্ত অ্যাপগুলির তালিকা থেকে অপসারণ করুন।"</string>
+    <string name="trusted_list_title">"Snapdragon Smart Protect এই তালিকায় থাকা অ্যাপগুলিকে মনিটার করেনা।"</string>
+    <string name="trusted_list_subtitle">"আপনি এই অ্যাপটির নিরাপত্তা সম্বন্ধে সুনিশ্চিত না হলে, সেটিকে বিশ্বস্ত অ্যাপগুলির তালিকা থেকে অপসারণ করুন।"</string>
+    <string name="trusted_list_empty">"আপনার বিশ্বস্ত অ্যাপগুলির তালিকাতে কোনো অ্যাপ নেই।"</string>
+    <string name="trusted_list_empty_desc">"এটি আপনাকে সর্বাধিক সুরক্ষা প্রদান করে, কারণ Snapdragon Smart Protect আপনার সমস্ত অ্যাপ মনিটার করছে।"</string>
+    <string name="trusted_confirm_message">"আপনি কি এই অ্যাপটিকে আপনার বিশ্বস্ত অ্যাপগুলির তালিকাতে যোগ করতে চান?\n\nআপনি এই অ্যাপটির নিরাপত্তা সম্বন্ধে সুনিশ্চিত না হলে, বাতিল নির্বাচন করুন।"</string>
+    <string name="malicious_ntf_message">"Snapdragon Smart Protect %1$s-এ ক্ষতিকারক কার্যকলাপ শনাক্ত করেছে।"</string>
+    <string name="malicious_ntf_recommend">"প্রস্তাব: আনইনস্টল করুন"</string>
+    <string name="malicious_dialog_title">"ক্ষতিকারক"</string>
+    <string name="malicious_text">"ক্ষতিকারক"</string>
+    <string name="malware_ntf_message">"Snapdragon Smart Protect %1$s-এ ম্যালওয়্যার শনাক্ত করেছে।"</string>
+    <string name="malware_dialog_title">"ম্যালওয়্যার শনাক্ত করা হয়েছে"</string>
+    <string name="malware_title">"ম্যালওয়্যার"</string>
+    <string name="spyware_ntf_message">"Snapdragon Smart Protect %1$s-এ স্পাইওয়্যার শনাক্ত করেছে।"</string>
+    <string name="spyware_dialog_title">"স্পাইওয়্যার শনাক্ত করা হয়েছে"</string>
+    <string name="spyware_title">"স্পাইওয়্যার"</string>
+    <string name="adware_ntf_message">"Snapdragon Smart Protect %1$s-এ অ্যাডওয়্যার শনাক্ত করেছে।"</string>
+    <string name="adware_dialog_title">"অ্যাডওয়্যার শনাক্ত করা হয়েছে"</string>
+    <string name="adware_title">"অ্যাডওয়্যার"</string>
+<string name="err_no_app_dashborad">"ড্যাশবোর্ড অ্যাপ তালিকাটি খালি"</string>
+    <string name="analysis_title">"নিম্নোক্ত কারণগুলির জন্য %1$s ক্ষতিকারক হতে পারে:"</string>
+    <string name="service_label">"Sphinx পরিষেবা"</string>
+    <string name="unknown_code">" কোড - %1$d"</string>
+    <string name="default_code_detail">"অ্যাপ ক্ষতিকারক কার্যকলাপ করার চেষ্টা করছে।"</string>
+    <string-array name="malicious_ntf_info">
+        <item>"হতে পারে আপনার ডিভাইসে ক্ষতিকারক কার্যকলাপ সম্পাদন করছে।"</item>
+        <item>"লেভেল 1 ম্যালওয়্যার: ব্যবহারকারীর বিষয়বস্তু, বিভিন্ন অ্যাপ্লিকেশন এবং ডিভাইসে ক্ষতিকারক কার্যকলাপ সম্পাদন করে।"</item>
+        <item>"লেভেল 2 ম্যালওয়্যার: এমন কিছু কার্যকলাপ সম্পাদন করে যার ফলে ব্যবহারকারীকে অর্থ প্রদান করতে হতে পারে।"</item>
+        <item>"লেভেল 3 স্পাইওয়্যার: বিষয়বস্তু ফাঁস/চুরি করে এবং ব্যবহারকারীর উপর সক্রিয়ভাবে গুপ্তচরের মত কাজ করে।"</item>
+        <item>"লেভেল 4 স্পাইওয়্যার: মেটা ব্যবহারকারী তথ্য ফাঁস/চুরি করে।"</item>
+        <item>"লেভেল 5 স্পাইওয়্যার: ডিভাইসের পক্ষে সংবেদনশীল তথ্য ফাঁস/চুরি করে।"</item>
+        <item>"লেভেল 6 অ্যানয়ওয়্যার: আগ্রাসী অ্যাডওয়্যার এবং/অথবা অনধিকারপ্রবেশমূলক অ্যাপ।"</item>
+    </string-array>
+    <string name="setting_level1_title">"লেভেল 1 ম্যালওয়্যার"</string>
+    <string name="setting_level2_title">"লেভেল 2 ম্যালওয়্যার"</string>
+    <string name="setting_level3_title">"লেভেল 3 স্পাইওয়্যার"</string>
+    <string name="setting_level4_title">"লেভেল 4 স্পাইওয়্যার"</string>
+    <string name="setting_level5_title">"লেভেল 5 স্পাইওয়্যার"</string>
+    <string name="setting_level6_title">"লেভেল 6 অ্যাডওয়্যার"</string>
+    <string name="setting_mode_title">"মোড"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"পপ আপ ও সাধারণ সতর্কতা"</item>
+        <item>"সাধারণ সতর্কতা"</item>
+        <item>"কোনো সতর্কতা নয়"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"স্বাভাবিক মোড"</item>
+        <item>"নীরব মোড"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array></resources>

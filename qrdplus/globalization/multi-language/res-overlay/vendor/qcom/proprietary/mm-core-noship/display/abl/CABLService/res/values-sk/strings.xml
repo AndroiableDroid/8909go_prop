@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Nastavenia prispôsobenia podsvietenia podľa obsahu"</string>
+        <add-resource type="string" name="cabl_settings_title"/>
+    <string name="cabl_settings_title">"Nastavenia prispôsobenia podsvietenia podľa obsahu"</string>
+        <add-resource type="string" name="cabl_enable_title"/>
+    <string name="cabl_enable_title">"Zapnúť prispôsobenie podsvietenia podľa obsahu"</string>
+        <add-resource type="string" name="cabl_enable_summary_on"/>
+    <string name="cabl_enable_summary_on">"Podsvietenie sa prispôsobí na základe zobrazovaného obsahu"</string>
+        <add-resource type="string" name="cabl_enable_summary_off"/>
+    <string name="cabl_enable_summary_off">"Podsvietenie sa nebude prispôsobovať zobrazovanému obsahu"</string>
+        <add-resource type="string" name="cabl_levels_title"/>
+    <string name="cabl_levels_title">"Úroveň kvality obrazu"</string>
+        <add-resource type="string" name="cabl_levels_summary"/>
+    <string name="cabl_levels_summary">"Ak nastavíte nižšiu úroveň kvality, pokúsi sa funkcia CABL ušetriť čo najviac energie bez toho, aby výrazne ovplyvnila zobrazený obsah. Ak nastavíte automatickú úroveň kvality, funkcia CABL sa pokúsi maximalizovať úsporu energie na základe automatického zisťovania zobrazovaného obsahu."</string>
+        <add-resource type="string" name="cabl_level_default"/>
+    <string name="cabl_level_default">"Auto"</string>
+        <add-resource type="string" name="cabl_info_default"/>
+    <string name="cabl_info_default">"Bez názvu"</string>
+        <add-resource type="string" name="cabl_version_title"/>
+    <string name="cabl_version_title">"Verzia prispôsobenia podsvietenia podľa obsahu"</string></resources>

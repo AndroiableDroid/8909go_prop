@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"ApMstSrvFidoCrypto"</string>
+    <string name="action_settings">"Setări"</string>
+    <string name="body_msg">"se testează FidoCryptoService"</string>
+    <string name="load">"încărcare"</string>
+    <string name="unload">"descărcare"</string>
+    <string name="process">"proces"</string>
+    <string name="start">"porniţi"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"Conectare serviciu FIDO"</string>
+    <string name="unbindFido">"Deconectare serviciu FIDO"</string>
+    <string name="setChallenge">"Setați provocarea"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Asociați autentificatorul"</string>
+    <string name="verifyUser">"Verificare utilizator/obţinere token"</string>
+    <string name="GetInfo">"Obținere info."</string>
+    <string name="Register">"Înregistrați-vă"</string>
+    <string name="Deregister">"Anulați înregistrarea"</string>
+    <string name="OpenSettings">"Deschidere Setări"</string>
+    <string name="Sign">"Conectare"</string>
+    <string name="MalformedRequest">"Solicitare incorectă"</string>
+    <string name="selectAuth">"Selectați autentificatorul"</string>
+    <string name="getEnrollmentStatus">"ObţStareÎnscriere"</string>
+    <string name="RegisterExt">"Înregistrare cu extensii"</string>
+    <string name="SignExt">"Semnare cu extensii"</string>
+    <string name="encResult">"Rezultat încapsulat"</string>
+    <string name="extResult">"Date extensie"</string>
+    <string name="selectFidoOpText">"selectare operaţie FIDO"</string>
+    <string name="show_message_sui">"afişare sui mesaj"</string>
+    <string name="fido_sui_service">"serviciu fido Sui"</string>
+    <string name="bindFidoSui">"conectare fido sui"</string>
+    <string name="unbindFidoSui">"deconectare fido sui"</string>
+    <string name="suiResultTitle">"afişare rezultat sui mesaj"</string>
+    <string name="cancel_sui">"anulare sui"</string>
+    <string name="extensionText">"Utilizare extensii?"</string>
+    <string name="pngText">"Utilizare conţinut PNG?"</string>
+    <string name="fpText">"Securizare amprentă"</string>
+    <string-array name="authenticator_array">
+        <item>"Autentificator fictiv"</item>
+        <item>"Autentificator mostră"</item>
+        <item>"Asigurați autentificatorul mostră"</item>
+        <item>"Autentificator extensie eşantion"</item>
+        <item>"Autentificator extensie sigură"</item>
+        <item>"Aut. stare dispozitiv"</item>
+        <item>"Autentificator eşantion sigur IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Obţinere info."</item>
+        <item>"Înregistrați-vă"</item>
+        <item>"Anulați înregistrarea"</item>
+        <item>"Deschidere Setări"</item>
+        <item>"Excepţie incorect formată"</item>
+        <item>"Semnare (Aut.)"</item>
+        <item>"Semnare (TX)"</item>
+    </string-array></resources>

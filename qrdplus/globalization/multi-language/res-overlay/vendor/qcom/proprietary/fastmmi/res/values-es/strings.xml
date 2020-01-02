@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources version="1.1">
+    <!-- mmi main-->
+    <string name="btn_all">"TODO"</string>
+    <string name="btn_failed">"ERROR"</string>
+    <string name="btn_runall">"EJECUTAR TODO"</string>
+    <string name="btn_reset">"RESTABLECER"</string>
+    <string name="btn_reboot">"REINICIAR"</string>
+    <string name="btn_poweroff">"APAGAR"</string>
+    <string name="btn_pass">"PASAR"</string>
+    <string name="btn_fail">"ERROR"</string>
+    <string name="btn_ok">"Aceptar"</string>
+    <string name="btn_cancel">"CANCELAR"</string>
+    <string name="btn_pageup">"ARRIBA"</string>
+    <string name="btn_pagedown">"ABAJO"</string>
+    <string name="finish">"FINALIZAR"</string>
+    <string name="test_report">"INFORME DE PRUEBA"</string>
+    <!-- common strings -->
+    <string name="on">"SÍ"</string>
+    <string name="off">"NO"</string>
+    <string name="present">"detectado"</string>
+    <string name="absent">"no detectado"</string>
+    <string name="notice">"Espera. Se está iniciando la prueba..."</string>
+    <string name="reset_notice">"¿Quieres borrar el resultado de la prueba?"</string>
+    <string name="reboot_poweroff_notice">"(1)  Apagar       "</string>
+    <string name="reboot_ffbm_notice">"(2)  Reiniciar en FFBM  "</string>
+    <string name="reboot_android_notice">"(3)  Reiniciar en Android"</string>
+    <string name="reboot_notice">"selecciona el modo de reinicio"</string>
+    <string name="pcba_title">"Iniciar prueba PCBA"</string>
+    <string name="exit">"SALIR"</string>
+    <!-- system information -->
+    <string name="system_info">"INFORMACIÓN DE SISTEMA"</string>
+    <!-- example information -->
+    <string name="example">"ejemplo"</string>
+    <!-- camera case -->
+    <string name="camera_back">"CÁMARA TRASERA"</string>
+    <string name="camera_back_main">"CÁMARA TRASERA PRINCIPAL"</string>
+    <string name="camera_back_aux">"CÁMARA TRASERA AUXILIAR"</string>
+    <string name="camera_back_1st">"1ª CÁMARA TRASERA"</string>
+    <string name="camera_back_2nd">"2ª CÁMARA TRASERA"</string>
+    <string name="camera_front">"CÁMARA FRONTAL"</string>
+    <string name="snapshot">"INSTANTÁNEA"</string>
+    <!-- battery case -->
+    <string name="battery">"BATERÍA"</string>
+    <string name="battery_instruction">"Conecta o desconecta el cable USB..."</string>
+    <string name="battery_title">"Conecta o desconecta el cargador. ¿Quieres confirmar los valores que han cambiado?"</string>
+    <string name="battery_health">"mantenimiento de la batería"</string>
+    <string name="battery_status">"estado de la batería"</string>
+    <string name="battery_voltage">"voltaje de la batería"</string>
+    <string name="charging_indicate">"¿Puedes ver la indicación LED?"</string>
+    <string name="discharge_indicate">"Batería cargada. Déjala descargar unos minutos y vuelve a conectarla."</string>
+    <!-- SMB case -->
+    <string name="smb">"SMB"</string>
+    <!-- lcd case -->
+    <string name="lcd">"LCD"</string>
+    <string name="next">"SIGUIENTE"</string>
+    <!-- LCD_BACKLIGHT case -->
+    <string name="lcd_backlight">"RETROILUMINACIÓN LCD"</string>
+    <string name="lcd_backlight_on">"RETROILUMINACIÓN LCD ENCENDIDA"</string>
+    <string name="lcd_backlight_off">"RETROILUMINACIÓN LCD APAGADA"</string>
+    <!-- keypad backlight case -->
+    <string name="button_backlight">"RETROILUMINACIÓN DEL TECLADO"</string>
+    <string name="button_backlight_on">"RETROILUMINACIÓN TECLADO ENCENDIDA"</string>
+    <string name="button_backlight_off">"RETROILUMINACIÓN TECLADO APAGADA"</string>
+    <!-- flashlight case -->
+    <string name="flashlight">"LINTERNA"</string>
+    <string name="flashlight_1">"FLASHLIGHT_1"</string>
+    <string name="flashlight_on">"LINTERNA ENCENDIDA"</string>
+    <string name="flashlight_off">"LINTERNA APAGADA"</string>
+    <!-- leds case -->
+    <string name="led_red">"LED ROJO"</string>
+    <string name="led_red_on">"LED ROJO ENCENDIDO"</string>
+    <string name="led_red_off">"LED ROJO APAGADO"</string>
+    <string name="led_blue">"LED AZUL"</string>
+    <string name="led_blue_on">"LED AZUL ENCENDIDO"</string>
+    <string name="led_blue_off">"LED AZUL APAGADO"</string>
+    <string name="led_green">"LED VERDE"</string>
+    <string name="led_green_on">"LED VERDE ENCENDIDO"</string>
+    <string name="led_green_off">"LED VERDE APAGADO"</string>
+    <!-- sensors case -->
+    <string name="gyroscope">"SENSOR GIROSCÓPICO"</string>
+    <string name="gsensor">"SENSOR DEL ACELERÓMETRO"</string>
+    <string name="psensor">"SENSOR DE PROXIMIDAD"</string>
+    <string name="lsensor">"SENSOR DE LUZ"</string>
+    <string name="msensor">"SENSOR DEL MAGNETÓMETRO"</string>
+    <string name="calibration">"CALIBRACIÓN"</string>
+    <string name="lsensor_instruction">"Tapa el sensor de luz y comprueba el resultado"</string>
+    <string name="psensor_instruction">"Tapa el sensor de proximidad y comprueba el resultado"</string>
+    <string name="msensor_instruction">"Realiza un movimiento en forma de ∞/8/S para calibrar el sensor del magnetómetro y comprueba el resultado"</string>
+    <!-- sdcard case -->
+    <string name="sdcard">"TARJETA SD"</string>
+    <string name="emmc">"EMMC"</string>
+    <string name="storage">"ALMACENAMIENTO"</string>
+    <string name="sdcard_present">"Tarjeta SD detectada"</string>
+    <string name="sdcard_absent">"Tarjeta SD no detectada"</string>
+    <string name="sdcard_capacity">"Capacidad de la tarjeta SD"</string>
+    <string name="sdcard_used_space">"Espacio usado de la tarjeta SD"</string>
+    <string name="sdcard_free_space">"Espacio libre de la tarjeta SD"</string>
+    <!-- memory case -->
+    <string name="memory">"MEMORIA"</string>
+    <!-- cpu case -->
+    <string name="cpu">"CPU"</string>
+    <!-- simcard case -->
+    <string name="simcard1">SIMCARD1</string>
+    <string name="simcard2">SIMCARD2</string>
+    <string name="detecting">"detectando..."</string>
+    <!-- touch case -->
+    <string name="touch">"TÁCTIL"</string>
+    <!-- key case -->
+    <string name="key">"TECLA"</string>
+    <string name="btn_home">"INICIO"</string>
+    <string name="btn_menu">"MENÚ"</string>
+    <string name="btn_back">"ATRÁS"</string>
+    <string name="btn_volumeup">"SUBIR VOLUMEN"</string>
+    <string name="btn_volumedown">"BAJAR VOLUMEN"</string>
+    <string name="btn_power">"ALIMENTACIÓN"</string>
+    <string name="btn_snapshot">"INSTANTÁNEA DE CÁMARA"</string>
+    <!-- headset_key case -->
+    <string name="headset_key">"TECLA DE AURICULARES"</string>
+    <string name="btn_guidance">"Inserta los auriculares y, para verificar, pulsa la tecla para colgar"</string>
+    <string name="btn_headphone_insert">"INSERCIÓN DE LOS AURICULARES"</string>
+    <string name="btn_microphone_insert">"INSERCIÓN DEL MICRÓFONO"</string>
+    <string name="btn_hangup">"COLGAR"</string>
+    <!-- vibrator case -->
+    <string name="vibrator">"VIBRACIÓN"</string>
+    <string name="vibrator_on">"VIBRACIÓN ENCENDIDA"</string>
+    <string name="vibrator_off">"VIBRACIÓN APAGADA"</string>
+    <string name="vibrating">"Vibrando ..."</string>
+    <!-- audio case -->
+    <string name="handset">"AURICULAR DE AUDIO"</string>
+    <string name="audio_handset_play">"REPRODUCCIÓN DE AURICULAR DE AUDIO"</string>
+    <string name="audio_handset_play_instruction">"Verifica que la música se reproduzca a través del auricular"</string>
+    <string name="headset">"AURICULARES DE AUDIO"</string>
+    <string name="audio_headset_loopback">"BUCLE DE AURICULARES DE AUDIO"</string>
+    <string name="audio_headset_loopback_instruction">"Conecta los auriculares....  habla por su micrófono para verificar la prueba de bucle de los auriculares"</string>
+    <string name="audio_headset_instruction">"Conecta los auriculares....  habla por su micrófono para verificar la prueba de bucle de los auriculares"</string>
+    <string name="loudspeaker">"ALTAVOZ DE AUDIO"</string>
+    <string name="audio_loudspeaker_play">"REPRODUCCIÓN DE ALTAVOZ DE AUDIO"</string>
+    <string name="audio_loudspeaker_play_instruction">"Verifica que la música se reproduzca a través del altavoz"</string>
+    <string name="primary_mic">"MICRÓFONO PRINCIPAL"</string>
+    <string name="audio_primary_mic">"MICRÓFONO PRINCIPAL"</string>
+    <string name="audio_primary_mic_instruction">"Habla por el micrófono principal y espera a que se reproduzca el mensaje previamente grabado a través del altavoz"</string>
+    <string name="audio_noise_mic">"MICRÓFONO DE RUIDO"</string>
+    <string name="audio_noise_mic_instruction">"Habla por el micrófono de ruido y espera a que se reproduzca el mensaje previamente grabado a través del altavoz"</string>
+    <string name="audio_top_mic">"MICRÓFONO SUPERIOR"</string>
+    <string name="audio_top_mic_instruction">"Habla por el micrófono superior y espera a que se reproduzca el mensaje previamente grabado a través del altavoz"</string>
+    <string name="primary_mic_test">"Habla por el micrófono principal y espera a que se reproduzca el mensaje previamente grabado a través del altavoz"</string>
+    <string name="handset_record">"Habla por el micrófono del auricular durante"</string>
+    <string name="handset_playback">"Verifica la reproducción del mensaje previamente grabado a través del auricular"</string>
+    <string name="handset_play">"Verifica que la música se reproduzca a través del auricular"</string>
+    <string name="headset_record">"Habla por el micrófono de los auriculares durante"</string>
+    <string name="headset_playback">"Verifica la reproducción del mensaje previamente grabado a través de los auriculares"</string>
+    <string name="headset_loopback">"Inserta los auriculares y habla por su micrófono para verificar la prueba de bucle de los auriculares"</string>
+    <string name="loudspeaker_playback">"Verifica la reproducción del mensaje previamente grabado a través del altavoz"</string>
+    <string name="loudspeaker_play">"Verifica que la música se reproduzca a través del altavoz"</string>
+    <string name="headset_second_record">"Habla por el micrófono secundario durante"</string>
+    <string name="seconds">"segundos"</string>
+    <!-- wifi case -->
+    <string name="wifi">"WIFI"</string>
+    <!-- fm case -->
+    <string name="fm">FM</string>
+    <string name="next_tune">"BUSCAR SIGUIENTE &gt;&gt;"</string>
+    <string name="playing_tune">"Sintonía de reproducción"</string>
+    <string name="config_audio">"Empezar configuración de ruta de audio para FM"</string>
+    <string name="search_tune">"Buscando sintonía disponible..."</string>
+    <!-- bluetooth case -->
+    <string name="bluetooth">"BLUETOOTH"</string>
+    <!-- gps case -->
+    <string name="gps">"GPS"</string>
+    <string name="run_garden_app">"Ejecutar garden_app..."</string>
+    <!-- nfc case -->
+    <string name="nfc">"NFC"</string>
+    <!-- test report -->
+    <string name="fail_items">"ELEMENTOS ERRÓNEOS"</string></resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"ກ້ອງ"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"ຕົ້ນຕໍ"</item>
+        <item>"​ເບື້ອງ​ໜ້າ"</item>
+        <item>"ກ້ອງຖ່າຍຮູບ 3"</item>
+        <item>"ກ້ອງຖ່າຍຮູບ 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"ຂະໜາດຮູບ"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9.7MP, 16:9)"</item>
+        <item>"3840x2160 (8.3MP, 16:9, UHD 4K)"</item>
+        <item>"3200x1800 (5.8MP, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (4.1MP, 16:9)"</item>
+        <item>"2592x1458 (3.8MP, 16:9)"</item>
+        <item>"1920x1080 (2.1MP, 16:9, HD 1080p)"</item>
+        <item>"1280x720 (0.9MP, 16:9, HD 720p)"</item>
+        <item>"864x480 (0.4MP, 16:9)"</item>
+        <item>"4160x3120 (13MP, 4:3)"</item>
+        <item>"4000x3000 (12MP, 4:3)"</item>
+        <item>"3264x2448 (8MP, 4:3)"</item>
+        <item>"3200x2400 (7.7MP, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (5MP, 4:3)"</item>
+        <item>"2048x1536 (3.1MP, 4:3, QXGA)"</item>
+        <item>"1920x1440 (2.8MP, 4:3)"</item>
+        <item>"1600x1200 (1.9MP, 4:3, UXGA)"</item>
+        <item>"1280x960 (1.2MP, 4:3, UVGA)"</item>
+        <item>"1024x768 (0.8MP, 4:3, XGA)"</item>
+        <item>"800x600 (0.5MP, 4:3, SVGA)"</item>
+        <item>"640x480 (0.3MP, 4:3, VGA)"</item>
+        <item>"320x240 (0.1MP, 4:3, QVGA)"</item>
+        <item>"3264x2176 (7.1MP, 3:2)"</item>
+        <item>"2592x1728 (4.5MP, 3:2)"</item>
+        <item>"720x480 (0.3MP, 3:2)"</item>
+        <item>"4160x2774 (11.5MP, 3:2)"</item>
+        <item>"2976x2976 (8.9MP, 1:1)"</item>
+        <item>"1280x768 (1MP, 5:3)"</item>
+        <item>"800x480 (0.4MP, 5:3)"</item>
+        <item>"352x288 (0.1MP, 11:9)"</item>
+        <item>"176x144 (0MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"​ຂະໜາດ​ຕົວຢ່າງ"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"ພໍດີກັບ​ຂະໜາດ​ຈໍ​ສະ​ແດງ​ຜົນ"</item>
+        <item>"​ຕົວຢ່າງ​ຄວາມ​ລະອຽດ​ສູງ (ສູງ​ເຖິງ 4MP)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"ຮູບແບບສາກ"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"ອັດຕະໂນມັດ"</item>
+        <item>"ພາບ​ແອັກ​ຊັນ"</item>
+        <item>"​ບາ​ໂຄດ"</item>
+        <item>"ຫາດຊາຍ"</item>
+        <item>"ແສງທຽນ"</item>
+        <item>"​ໃບ​ໜ້າ"</item>
+        <item>"ບັ້ງໄຟດອກ"</item>
+        <item>HDR</item>
+        <item>"​ວິ​ດີ​ໂອ​ຄວາມ​ໄວ​ສູງ"</item>
+        <item>"​ພາບ​ທິວ​ທັດ"</item>
+        <item>"ກາງຄືນ"</item>
+        <item>"ງານລ້ຽງ"</item>
+        <item>"ຄົນ"</item>
+        <item>"ຜູ້​ຄົນ​ຕອນ​ກາງຄືນ"</item>
+        <item>"ຫິມະ"</item>
+        <item>"ກິລາ"</item>
+        <item>"​ການຖ່າຍ​ພາບ​ຄົງ​ທີ່"</item>
+        <item>"ຕາເວັນຕົກ"</item>
+        <item>"ໂຮງລະຄອນ"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"​ການ​ຄວບ​ຄຸມ​ການ​ຮັບ​​ແສງ"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"ອັດຕະໂນມັດ"</item>
+        <item>"ຄົງທີ່"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"ການ​ຊົດ​ເຊີຍ​ແສງ"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"ໂຟກັສ"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"ອັດຕະໂນມັດ"</item>
+        <item>"ຄົງທີ່"</item>
+        <item>"ຕໍ່​ເນື່ອງ (ຮູບ)"</item>
+        <item>"ຕໍ່​ເນື່ອງ (ວິ​ດີ​ໂອ)"</item>
+        <item>"ມາໂຄຣ"</item>
+        <item>"ຄວາມ​ເລິກ​ທີ່​ຂະຫຍາຍ​ອອກ"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"ການ​ຄວບ​ຄຸມສົມດຸນສີຂາວ"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"ອັດຕະໂນມັດ"</item>
+        <item>"ປິດ"</item>
+        <item>"​ແສງຮຸ່ງ​ສະຫວ່າງ"</item>
+        <item>"​ແສງ​ໄຟ​ນີອອນ"</item>
+        <item>"​ແສງ​ໄຟ​ນີອອນ​ອົບ​ອຸ່ນ"</item>
+        <item>"ແສງແດດ"</item>
+        <item>"ວັນ​ທີ່​ມືດ​ມົວ"</item>
+        <item>"​ເງົາ"</item>
+        <item>"ຕາ​ເວັນ​ຍໍ​ແສງ"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"ແຟລດ"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"ອັດຕະໂນມັດ"</item>
+        <item>"ເປີດ"</item>
+        <item>"ປິດ"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"ການຫຼຸດຜ່ອນ​ສຽງ​ລົບ​ການ"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"ເປີດ"</item>
+        <item>"ປິດ"</item>
+        <item>"​ຄຸນ​ນະພາ​ບສູງ"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"ການ​ແກ້​ໄຂ​ເລນ​ເປັນ​ເງົາ"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"ເປີດ"</item>
+        <item>"ປິດ"</item>
+        <item>"​ຄຸນ​ນະພາ​ບສູງ"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"ການ​ແກ້​ໄຂ​ຄວາມ​ຜິດ​ປົກກະຕິ"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"ເປີດ"</item>
+        <item>"ປິດ"</item>
+        <item>"​ຄຸນ​ນະພາ​ບສູງ"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"​ການ​ປັບ​ແຕ່​ງຂອບ"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"ເປີດ"</item>
+        <item>"ປິດ"</item>
+        <item>"​ຄຸນ​ນະພາ​ບສູງ"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"ການ​ແກ້​ໄຂ​ຮັອດພິກ​ເຊ​ລ"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"ເປີດ"</item>
+        <item>"ປິດ"</item>
+        <item>"​ຄຸນ​ນະພາ​ບສູງ"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"​ໂໝດປ້ອງ​ກັນ​ການ​ສັ່ນ"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"ປິດ"</item>
+        <item>"ກ່ຽວ​ກັບສາຍຕາ"</item>
+        <item>"ດິຈິຕອນ"</item>
+    </string-array></resources>

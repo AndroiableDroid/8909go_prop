@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"STA"</string>
+    <string name="title_settings_activity">"Подешавања"</string>
+    <string name="title_contact_activity">"Додај контакт"</string>
+    <string name="title_event_activity">"Додај догађај"</string>
+    <string name="title_add_field">"Изабери ознаку"</string>
+    <string name="title_text_activity">"Резултати"</string>
+    <string name="title_pick_datetime">"Изабери датум време"</string>
+    <string name="title_app_message">"Порука"</string>
+    <string name="menu_item_copy">"Копирај"</string>
+    <string name="menu_item_edit">"Измени"</string>
+    <string name="date_picker_ok">"У реду"</string>
+    <string name="date_picker_cancel">"Откажи"</string>
+    <string name="dropdown_none_option">"Без"</string>
+    <string name="scan_more">"Нађи више"</string>
+    <string name="bar_save_option">"Сачувај"</string>
+    <string name="bar_done_option">"Готово"</string>
+    <string name="camera_option_open_image">"Отвори слику"</string>
+    <string name="camera_option_settings">"Подешавања"</string>
+    <string name="text_action_search">"Претражи"</string>
+    <string name="text_action_translate">"Преведи"</string>
+    <string name="text_action_copy">"Копирај"</string>
+    <string name="translate_url">"https://translate.google.com/m/translate#auto/"</string>
+    <string name="instruction_camera">"Помоћу камере издвојте корисне информације са визиткарти, летака и других слика"</string>
+    <string name="instruction_dont_show">"Не приказуј поново"</string>
+    <string name="instruction_dismiss_button">"У реду"</string>
+    <string name="message_no_more_fields">"Нема више поља за додавање"</string>
+    <string name="message_contact_saved">"Контакт је успешно сачуван."</string>
+    <string name="message_calendar_saved">"Догађај календара је успешно сачуван."</string>
+    <string name="message_text_copied">"Текст је прекопиран."</string>
+    <string name="message_no_matching_app">"Нема апликације за обраду"</string>
+    <string name="message_gallery_pan_zoom">"Можете да користите пан приказ или увећање за препознавање обрасца ове фотографије."</string>
+    <string name="message_restart_scanning">"Додирните за поновно покретање."</string>
+    <string name="message_no_dates">"Нема препознатих датума"</string>
+    <string name="message_hold_steady">"Поставите на текст и задржите"</string>
+    <!-- Error information -->
+    <string name="error_prefix">" Грешка: 0x"</string>
+    <string name="error_title">"Грешка"</string>
+    <string name="error_dismiss_button">"У реду"</string>
+    <string name="error_camera_failed">"Покретање камере није успело."</string>
+    <string name="error_camera_snapshot_failed">"Камера није успела да ухвати снимак."</string>
+    <string name="error_galleryImage_load">"Апликација није успела да учита слику."</string>
+    <string name="error_api_frame_timeout">"Нема препознатог текста."</string>
+    <string name="error_api_init_failed">"Покретање STA Api није успело."</string>
+    <string name="error_api_parsing_failed">"STA Api није успело да анализира слику, покушајте поново."</string>
+    <string name="error_api_no_records">"Нема препознатог текста."</string>
+    <string name="error_api_restart_failed">"Поновно покретање API није успело."</string>
+    <string name="error_api_no_new_records">"Нису пронађене нове информације."</string>
+    <string name="error_min_max_limit">"Унесите вредност између %1$s и %2$s"</string>
+    <string name="error_no_sta_data_selected">"Изаберите најмање један."</string>
+    <!-- Contact information -->
+    <string name="contact_name_field_caption">"ИМЕ"</string>
+    <string name="contact_nickname_field_caption">"НАДИМАК"</string>
+    <string name="contact_nickname_field_name">"Надимак"</string>
+    <string name="contact_title_field_caption">"ТИТУЛА"</string>
+    <string name="contact_company_field_caption">"КОМПАНИЈА"</string>
+    <string name="contact_phone_work_field_caption">"ТЕЛЕФОН"</string>
+    <string name="contact_phone_work_field_name">"Телефон (на послу)"</string>
+    <string name="contact_phone_mobile_field_caption">"ТЕЛЕФОН"</string>
+    <string name="contact_phone_mobile_field_name">"Телефон (мобилни)"</string>
+    <string name="contact_phone_home_field_caption">"ТЕЛЕФОН"</string>
+    <string name="contact_phone_home_field_name">"Телефон (код куће)"</string>
+    <string name="contact_phone_fax_field_caption">"ТЕЛЕФОН"</string>
+    <string name="contact_phone_fax_field_name">"Телефон (факс)"</string>
+    <string name="contact_address_field_caption">"АДРЕСА"</string>
+    <string name="contact_address_field_name">"Адреса"</string>
+    <string name="contact_email_field_caption">"АДРЕСА Е-ПОШТЕ"</string>
+    <string name="contact_email_field_name">"Имејл"</string>
+    <string name="contact_website_field_caption">"ВЕБ ЛОКАЦИЈА"</string>
+    <string name="contact_website_field_name">"Веб-сајт"</string>
+    <string name="contact_im_field_caption">"Размена тренутних порука"</string>
+    <string name="contact_relationship_field_caption">"ВЕЗА"</string>
+    <string name="contact_relationship_field_name">"Однос"</string>
+    <string name="contact_notes_field_caption">"НАПОМЕНЕ"</string>
+    <string name="contact_notes_field_name">"Белешке"</string>
+    <!-- Event information -->
+    <string name="event_title_field_caption">"ТИТУЛА"</string>
+    <string name="event_from_date_field_caption">"ОД"</string>
+    <string name="event_to_date_field_caption">"ЗА"</string>
+    <string name="event_location_field_caption">"ЛОКАЦИЈА"</string>
+    <string name="event_location_field_name">"Локација"</string>
+    <string name="event_all_day_field_caption">"ЦЕЛОГ ДАНА"</string>
+    <string name="event_repeat_field_caption">"ПОНОВИ"</string>
+    <string name="event_details_field_caption">"ДЕТАЉИ"</string>
+    <string name="event_details_field_name">"Детаљи"</string>
+    <string name="event_participants_field_caption">"ЧЛАНОВИ"</string>
+    <string name="event_participants_field_name">"Чланови"</string>
+    <string name="event_date_time_format_long">"EEE M/d/yyyy h:mm a"</string>
+    <string name="event_date_time_format_small">"M/d/yyyy h:mm a"</string>
+    <string name="event_date_format_long">"EEE M/d/yyyy"</string>
+    <string name="event_date_format_small">"MMM d, yyyy"</string>
+    <string name="event_date_format_month_small">"MMM"</string>
+    <string name="event_date_format_month_full">"MMMM"</string>
+    <string name="event_date_format_year">"yyyy"</string>
+    <string name="event_date_format_weekday">"EEE"</string>
+    <string name="event_date_format_small_no_year">"EEE MMM d"</string>
+    <string name="event_time_format">"ч:мм а"</string>
+    <string name="event_date_separator">"-"</string>
+    <string name="preview_type_key">"com.qualcomm.qti.sta.captureui.CameraActivity.preview_type"</string>
+    <string name="preview_type_button">"дугме"</string>
+    <string name="preview_type_auto">"аутоматскo"</string>
+    <!-- Repeat -->
+    <string name="repeat_title">"Понављање"</string>
+    <string name="repeat_button_cancel">"Откажи"</string>
+    <string name="repeat_button_ok">"У реду"</string>
+    <string name="repeat_summary_one_time">"Догађај који се не понавља"</string>
+    <string name="repeat_summary_daily">"Дневно"</string>
+    <string name="repeat_summary_daily_every">"Сваких %1$s дана"</string>
+    <string name="repeat_summary_weekly">"Недељно на сваких %1$s"</string>
+    <string name="repeat_summary_weekly_every">"Сваких %1$s недеља %2$s"</string>
+    <string name="repeat_summary_monthly_date">"Месечно на дан %1$s"</string>
+    <string name="repeat_summary_monthly_day">"Месечно сваког %1$s"</string>
+    <string name="repeat_summary_monthly_date_every">"Сваког %1$s месеца на дан %2$s"</string>
+    <string name="repeat_summary_monthly_day_every">"Сваког %1$s месеца сваког %2$s"</string>
+    <string name="repeat_summary_yearly">"Годишње сваког %1$s"</string>
+    <string name="repeat_summary_yearly_every">"Сваких %1$s година %2$s"</string>
+    <string name="repeat_summary_till_date">"до %1$s"</string>
+    <string name="repeat_summary_till_events">"%1$s пута"</string>
+    <string name="repeat_summary_till_one_event">"1 пут"</string>
+    <string name="repeat_title_pick_date">"Изабери датум"</string>
+    <string name="repeat_one_time">"Догађај који се не понавља"</string>
+    <string name="repeat_daily">"Дневно понављање"</string>
+    <string name="repeat_weekly">"Недељно понављање"</string>
+    <string name="repeat_monthly">"Месечно понављање"</string>
+    <string name="repeat_yearly">"Годишње понављање"</string>
+    <string name="repeat_till_day">"дан"</string>
+    <string name="repeat_till_week">"недеља"</string>
+    <string name="repeat_till_month">"месец"</string>
+    <string name="repeat_till_year">"година"</string>
+    <string name="sunday_name">"Нед."</string>
+    <string name="monday_name">"Пон."</string>
+    <string name="tuesday_name">"Уто."</string>
+    <string name="wednesday_name">"Сре."</string>
+    <string name="thursday_name">"Чет."</string>
+    <string name="friday_name">"Пет."</string>
+    <string name="saturday_name">"Суб."</string>
+    <string-array name="number_texts">
+        <item>"први"</item>
+        <item>"други"</item>
+        <item>"трећи"</item>
+        <item>"четврти"</item>
+        <item>"пети"</item>
+    </string-array>
+    <string-array name="two_letter_day_names">
+        <item>"НЕ"</item>
+        <item>"ПО"</item>
+        <item>"УТ"</item>
+        <item>"СР"</item>
+        <item>"ЧЕ"</item>
+        <item>"ПЕ"</item>
+        <item>"СУ"</item>
+    </string-array>
+    <string-array name="short_day_names">
+        <item>@string/sunday_name</item>
+        <item>@string/monday_name</item>
+        <item>@string/tuesday_name</item>
+        <item>@string/wednesday_name</item>
+        <item>@string/thursday_name</item>
+        <item>@string/friday_name</item>
+        <item>@string/saturday_name</item>
+    </string-array>
+    <string-array name="complete_day_names">
+        <item>"недеља"</item>
+        <item>"понедељак"</item>
+        <item>"Уторак"</item>
+        <item>"Среда"</item>
+        <item>"Четвртак"</item>
+        <item>"Петак"</item>
+        <item>"субота"</item>
+    </string-array>
+    <string name="repeat_month_same_date">"Истог датума сваког месеца"</string>
+    <string name="repeat_month_same_day">"На сваких"</string>
+    <string name="repeat_every_caption">"Сваки"</string>
+    <string-array name="till_types">
+        <item>"Заувек"</item>
+        <item>"До"</item>
+        <item>"Понављања"</item>
+    </string-array>
+    <!-- Settings -->
+    <string name="setting_sta_data_type">"STA типови података"</string>
+    <string name="setting_sta_locale_type">"STA локално"</string>
+    <string name="setting_text_record_mode">"Режим камере"</string>
+    <string name="setting_camera_steady_duration">"Период мировања камере (у мс)"</string>
+    <string name="setting_camera_move_threshold">"Граница померања камере"</string>
+    <string name="setting_sta_locale_usa">"САД"</string>
+    <string name="setting_sta_locale_china">"КИН"</string>
+    <string name="setting_sta_locale_korea">"КОР"</string>
+    <string name="setting_default_sta_locale">@string/setting_sta_locale_usa</string>
+    <string name="setting_text_record_snapshot_mode">"Снимак"</string>
+    <string name="setting_text_record_preview_mode">"Преглед"</string>
+    <string name="setting_default_text_record_mode">@string/setting_text_record_snapshot_mode</string>
+    <string name="setting_sta_language_usa">"ен"</string>
+    <string name="setting_sta_language_china">"zh-CN"</string>
+    <string name="setting_sta_langauge_korea">"ko"</string>
+    <string-array name="setting_sta_data_type_options">
+        <item>"Имејл"</item>
+        <item>"URL"</item>
+        <item>"Број телефона"</item>
+        <item>"Адреса"</item>
+        <item>"Датум"</item>
+        <item>"Опште"</item>
+    </string-array>
+    <string-array name="setting_sta_data_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type">
+        <item>"САД"</item>
+        <item>"Кина"</item>
+        <item>"Кореја"</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type_values">
+        <item>@string/setting_sta_locale_usa</item>
+        <item>@string/setting_sta_locale_china</item>
+        <item>@string/setting_sta_locale_korea</item>
+    </string-array>
+    <string-array name="setting_text_record_options">
+        <item>@string/setting_text_record_snapshot_mode</item>
+        <item>@string/setting_text_record_preview_mode</item>
+    </string-array>
+    <string name="settings_scve_mode">"SCVE режим операције"</string>
+    <string-array name="settings_scve_mode_entries">
+        <item>"Подразумевано"</item>
+        <item>"CPU растерећење"</item>
+        <item>"Учинак"</item>
+        </string-array>
+    <string-array name="settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+    </string-array>
+    <string name="settings_scve_mode_default">0</string></resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"se ha eliminado el servicio_rcs, ¡vuelve a instalarlo!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"Actualizar datos de texto de perfil"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"Actualizar datos de verticalidad del perfil"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Eliminar todos los mensajes"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Establecer un nuevo moderador en charla de grupo"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Modificar asunto en charla de grupo"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Modificar apodo en charla de grupo"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Aceptar una invitación para unirse a una charla de grupo"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Salir de charla de grupo"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Expulsar participantes de charla de grupo"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"Ignorar una charla de grupo"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Interesarse por una cuenta pública"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Ignorar una cuenta pública"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"Denunciar una cuenta pública"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"permiso api confidencial"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"%1$d aplicaciones autorizadas (total de %2$d)"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"No volver a preguntar"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"Aceptar"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Cancelar"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Esta operación está diseñada para %1$s; denegar el permiso puede provocar que ya no funcione como se espera."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"Permiso de %1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"Debe permitir %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"Debe conceder permiso a la tarjeta SD."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"Debe conceder permiso a los contactos."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"Debe conceder permiso a los SMS."</string></resources>

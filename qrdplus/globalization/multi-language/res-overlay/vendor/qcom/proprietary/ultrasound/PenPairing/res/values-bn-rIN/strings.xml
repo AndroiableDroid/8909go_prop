@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP পেয়ারিং"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Snapdragon ডিজিটাল পেন পেয়ারিং"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"সেটিংস"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"ঠিক আছে"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"প্রদর্শন করার জন্য পেনের অবস্থান মনোনয়ন করুন"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"নতুন পেনের ক্রম সংখ্যা বাছুন"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"আপনি যে প্রকারের পেন ব্যবহার করতে চান তা বেছে নিন"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"পেয়ারিং শুরু করুন"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"পেয়ারিং প্রক্রিয়া শুরু করতে বৃত্তের ভিতরে পেনকে লম্বভাবে ধরুন"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"ম্যানুয়াল পেয়ারিং"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"আংশিক-স্বয়ংক্রিয় পেয়ারিং"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"একটি পেয়ারিং পদ্ধতি চয়ন করুন"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"একটি নতুন পেন পেয়ার করুন"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"পেয়ার করা পেনগুলি পরিচালনা করুন"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"SW ক্যালিব্রেশন"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"পেয়ারিংয়ের প্রক্রিয়াটি শুরু করতে পেনটি বৃত্তের মধ্যে সমকোণীয়ভাবে ধরে থাকুন।\nএকবার সফলভাবে সম্পূর্ণ হলে ক্যালিব্রেশনের প্রক্রিয়াটি শুরু হবে।"</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"পরিষেবা কেন্দ্রের পরীক্ষাকারী"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"পেয়ারিংয়ের প্রক্রিয়াটি শুরু করতে পেনটি বৃত্তের মধ্যে সমকোণীয়ভাবে ধরে থাকুন।\nএকবার সফলভাবে সম্পূর্ণ হলে পরীক্ষার প্রক্রিয়াটি শুরু হবে।"</string></resources>

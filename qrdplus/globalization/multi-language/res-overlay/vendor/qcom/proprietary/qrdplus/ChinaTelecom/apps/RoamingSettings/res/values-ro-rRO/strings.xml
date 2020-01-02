@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Setări Roaming"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"Deschideți"</string>
+    <string name="data_roaming_title">"Conectaţi-vă la serviciile de date în roaming"</string>
+    <string name="manual_select_network">"Selectare rețea manuală"</string>
+    <string name="roaming_card_info">"Va utiliza prioritatea cardului de afaceri mobil"</string>
+    <string name="network_select_success_info">"Înregistrare reușită la rețeaua “<xliff:g id="name">%s</xliff:g>”, înregistrarea automată va avea loc când rețeaua nu este disponibilă"</string>
+    <string name="network_select_failure_info">"Rețeaua “<xliff:g id="name">%s</xliff:g>” pe care ați selectat-o nu este disponibilă, începeți automat înregistrarea în altă rețea"</string>
+    <string name="network_auto_success_info">"Înregistrare automată reușită la rețea"</string>
+    <string name="network_auto_failure_info">"GSM-ul de rețea pe care l-ați selectat nu este disponibil, începeți automat înregistrarea în cealaltă rețea"</string>
+    <string name="manual_select_network_tip">"Această acțiune este disponibilă numai când"</string>
+    <string name="gsm_network_list_title">"Rețea selectabilă"</string>
+    <string name="searching_cdma_network_title">"Se caută rețeaua cdma......"</string>
+    <string name="searching_gsm_network_title">"Se caută rețeaua gsm......"</string>
+    <string name="empty_networks_list">"Nicio reţea găsită."</string>
+    <string name="register_on_network">"Se înregistrează pe <xliff:g id="NETWORK">%s</xliff:g>..."</string>
+    <string name="register_automatically">"Înregistrare automată..."</string>
+    <string name="network_select_setting">"Setare de rețea"</string>
+    <string name="roaming_hotline">"Linie de asistență Roaming +8618918910000"</string>
+    <string name="carrier_names">"China Telecom"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"Se dezactivează datele..."</string>
+    <string name="unable_to_disable_data">"Nu se pot dezactiva datele."</string>
+    <string name="avoid_cur_nwk_succeeded">"Rețeaua curentă a fost adăugată la lista de evitat."</string>
+    <string name="avoid_cur_nwk_failed">"Nu se poate adăuga rețeaua curentă la lista de evitat."</string>
+    <string name="clear_nwk_list_succeeded">"Lista de rețele de evitat a fost eliminată."</string>
+    <string name="clear_nwk_list_failed">"Nu se poate elimina lista de rețele de evitat."</string>
+    <string name="ok_btn">"OK"</string>
+    <string name="cancel_btn">"Anulaţi"</string>
+    <string name="confirm_avoid">"Sigur doriți să evitați rețeaua curentă?"</string>
+    <string name="confirm_clear">"Sigur doriți să eliminați lista de rețele de evitat?"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"Selectare CDMA"</string>
+    <string name="pref_gsm_choose_title">"Selectare GSM"</string>
+    <string name="pref_network_info_title">"Informații curente despre rețea"</string>
+    <string name="alert_msg_enable_card">"Doriți să activați acest card?"</string>
+    <string name="alert_msg_disable_card">"Doriți să dezactivați acest card?"</string>
+    <string name="progress_msg_enable_card">"Activați cardul, așteptați..."</string>
+    <string name="progress_msg_disable_card">"Dezactivați cardul, așteptați..."</string>
+    <string name="operation_success">"Operație reușită"</string>
+    <string name="operation_failure">"Eroare operație"</string>
+    <string name="result_btn">"OK"</string>
+    <string name="alert_data_roaming_title">"Permiteţi roamingul de date"</string>
+    <string name="alert_data_roaming_msg">"Când permiteţi roamingul de date puteţi acumula taxe considerabile pentru roaming!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"Necunoscut"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"Indisponibil"</string>
+    <string name="status_network_type">"Tip rețea mobilă"</string>
+    <string name="status_signal_strength">"Putere semnal"</string>
+    <string name="status_prl_version">"Versiune PRL"</string>
+    <string name="status_data_state">"Stare rețea mobilă"</string>
+    <string name="status_netowrk_title">"Stare curentă SIM"</string>
+    <string name="status_operator_name">"Nume operator"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"ID CELULĂ"</string>
+    <string name="status_sms_center_number">"Număr centru SMS"</string>
+    <string name="status_pnl_version">"Versiune listă rețea preferată"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"comutați manual la următoarea rețea"</string>
+    <string name="avoid_discription">"instrucțiune:\n  Rețeaua selectată automat este implicită în sistemul CDMA, nu este nevoie de selectare manuală, dar dacă nu se poate utiliza rețeaua curentă, încercați să comutați manual la următoarea rețea. "</string>
+    <string name="attention_dialog_title">"Atenţie"</string>
+    <string name="disable_both_sim_error_msg">"Nu se pot dezactiva ambele SIM-uri simultan"</string>
+    <string name="China_Mobile">"China Mobile"</string>
+    <string name="China_Unicom">"China Unicom"</string>
+    <string name="China_Telecom">"China Telecom"</string></resources>

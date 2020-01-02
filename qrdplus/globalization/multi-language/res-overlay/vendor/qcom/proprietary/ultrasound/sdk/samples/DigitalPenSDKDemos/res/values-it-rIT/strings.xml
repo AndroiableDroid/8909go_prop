@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Demo SDK SDP"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Fuori schermo esteso"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Canale laterale background"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Dito vs. stilo + pressione"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Inclinazione asse"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Passaggio e tasto laterale"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Gomma e bypass gomma"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"Questa demo fornisce la funzione fuori schermo.\n\n1. Disegna fuori schermo e guarda il tuo disegno a destra.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. Sull\'angolo in basso a destra dello schermo virtuale c\'è un tasto. Passaci sopra a diverse altezze per variare l\'opacità del cerchio.\n\n3. Premerlo per variare il colore del cerchio."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"Questa demo mostra come il canale laterale di background può funzionare mentre lo schermo è acceso o spento.\n\n1. Disegna fuori schermo e guarda il tuo disegno.\n\n2. Ora passa a un\'altra app, o disattiva lo schermo - il tuo disegno resta registrato."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Passa su schermo"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Passa sullo schermo a diverse altezze.\n\n2. Usa il commutatore per disabilitare il passaggio.\n\n3. Usa il cursore per impostare la distanza massima per gli eventi di hover.\n\n4. Premendo i tasti laterali varierà il colore del cerchio di passaggio."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. Configura il tasto SDP per fungere da tasto gomma nelle impostazioni globali.\n\n2. Disegna.\n\n3. Imposta la gomma su Tocca per attivare/disattivare. Premi il tasto gomma. Cancella. Premendo nuovamente il tasto gomma si passa alla modalità penna.\n\n4. Imposta la gomma su Tieni premuto per cancellare. Ora puoi cancellare con un tocco immediato.\n\n5. Usa ora il commutatore bypass della gomma per disattivare la funzionalità della gomma."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Bypass gomma"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Cancella tela"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Disegna con la penna e quindi con il dito.\nI due metodi vengono riconosciuti da un diverso colore.\nLa larghezza del tratto è impostata dalla pressione, che è visibile anche numericamente."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Pressione"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

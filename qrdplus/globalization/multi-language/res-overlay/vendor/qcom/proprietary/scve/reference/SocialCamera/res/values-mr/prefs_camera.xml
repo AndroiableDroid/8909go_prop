@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"कॅमेरा"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"प्राथमिक"</item>
+        <item>"समोरील-बाजू"</item>
+        <item>"कॅमेरा 3"</item>
+        <item>"कॅमेरा 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"चित्र आकार"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9.7MP, 16:9)"</item>
+        <item>"3840x2160 (8.3MP, 16:9, UHD 4K)"</item>
+        <item>"3200x1800 (5.8MP, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (4.1MP, 16:9)"</item>
+        <item>"2592x1458 (3.8MP, 16:9)"</item>
+        <item>"1920x1080 (2.1MP, 16:9, HD 1080p)"</item>
+        <item>"1280x720 (0.9MP, 16:9, HD 720p)"</item>
+        <item>"864x480 (0.4MP, 16:9)"</item>
+        <item>"4160x3120 (13MP, 4:3)"</item>
+        <item>"4000x3000 (12MP, 4:3)"</item>
+        <item>"3264x2448 (8MP, 4:3)"</item>
+        <item>"3200x2400 (7.7MP, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (5MP, 4:3)"</item>
+        <item>"2048x1536 (3.1MP, 4:3, QXGA)"</item>
+        <item>"1920x1440 (2.8MP, 4:3)"</item>
+        <item>"1600x1200 (1.9MP, 4:3, UXGA)"</item>
+        <item>"1280x960 (1.2MP, 4:3, UVGA)"</item>
+        <item>"1024x768 (0.8MP, 4:3, XGA)"</item>
+        <item>"800x600 (0.5MP, 4:3, SVGA)"</item>
+        <item>"640x480 (0.3MP, 4:3, VGA)"</item>
+        <item>"320x240 (0.1MP, 4:3, QVGA)"</item>
+        <item>"3264x2176 (7.1MP, 3:2)"</item>
+        <item>"2592x1728 (4.5MP, 3:2)"</item>
+        <item>"720x480 (0.3MP, 3:2)"</item>
+        <item>"4160x2774 (11.5MP, 3:2)"</item>
+        <item>"2976x2976 (8.9MP, 1:1)"</item>
+        <item>"1280x768 (1MP, 5:3)"</item>
+        <item>"800x480 (0.4MP, 5:3)"</item>
+        <item>"352x288 (0.1MP, 11:9)"</item>
+        <item>"176x144 (0MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"पूर्वावलोकन आकार"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"डिस्प्ले आकार जुळवा"</item>
+        <item>"उच्च-रिझोल्‍यूशन पूर्वावलोकन (4MP पर्यंत)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"सीन मोड"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"स्वयं"</item>
+        <item>"क्रिया शॉट"</item>
+        <item>"बारकोड"</item>
+        <item>"समुद्र किनारा"</item>
+        <item>"मेणबत्तीचा प्रकाश"</item>
+        <item>"चेहरे"</item>
+        <item>"आतषबाजी"</item>
+        <item>HDR</item>
+        <item>"उच्च-गती व्हिडिओ"</item>
+        <item>"लँडस्केप्स"</item>
+        <item>"रात्र"</item>
+        <item>"घराच्या आत"</item>
+        <item>"लोक"</item>
+        <item>"रात्रीचे लोक"</item>
+        <item>"हिम"</item>
+        <item>"क्रिडा"</item>
+        <item>"स्थिर शॉट"</item>
+        <item>"सूर्यास्त"</item>
+        <item>"सिनेमागृह"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"एक्स्पोजर नियंत्रण"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"स्वयं"</item>
+        <item>"निश्चित"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"एक्स्पोजर प्रतिपूर्ती"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"फोकस"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"स्वयं"</item>
+        <item>"निश्चित"</item>
+        <item>"सतत (चित्र)"</item>
+        <item>"सतत (व्हिडिओ)"</item>
+        <item>"मॅक्रो"</item>
+        <item>"विस्तारित फील्डची खोली"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"पांढरे समतोल नियंत्रण"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"स्वयं"</item>
+        <item>"बंद"</item>
+        <item>"तापदिप्त प्रकाशयोजना"</item>
+        <item>"फ्लूरोसेन्ट प्रकाशयोजना"</item>
+        <item>"उष्ण फ्लूरोसेन्ट प्रकाशयोजना"</item>
+        <item>"डेलाइट"</item>
+        <item>"ढगाळ दिवस"</item>
+        <item>"शेड"</item>
+        <item>"संधिप्रकाश"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"फ्लॅश"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"स्वयं"</item>
+        <item>"चालू"</item>
+        <item>"बंद"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"आवाज कमी करणे"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"चालू"</item>
+        <item>"बंद"</item>
+        <item>"उच्च-गुणवत्ता"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"लेन्ल शेडिंग सुधारणा"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"चालू"</item>
+        <item>"बंद"</item>
+        <item>"उच्च-गुणवत्ता"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"असामान्यतेमध्ये सुधारणा"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"चालू"</item>
+        <item>"बंद"</item>
+        <item>"उच्च-गुणवत्ता"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"कड एन्हान्समेंट"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"चालू"</item>
+        <item>"बंद"</item>
+        <item>"उच्च-गुणवत्ता"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"हॉट पिक्सेलमध्ये सुधारणा"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"चालू"</item>
+        <item>"बंद"</item>
+        <item>"उच्च-गुणवत्ता"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"स्‍टॅबिलायझेशन मोड"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"बंद"</item>
+        <item>"ऑप्टिकल"</item>
+        <item>"डिजिटल"</item>
+    </string-array></resources>

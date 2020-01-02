@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Configurare operator"</string>
+    <string name="multisim_category_text">"CONFIGURARE MULTISIM"</string>
+    <string name="preset_category_text">"OPERATOR CHINA"</string>
+    <string name="preset_category_text_default">"Prestabilit"</string>
+    <string name="preset_category_text_china">"Operator din China"</string>
+    <string name="preset_category_text_regional">"Regional"</string>
+    <string name="sim_ssss_text">"Standby individual SIM individual"</string>
+    <string name="sim_dsds_text">"Standby dublu Dual SIM"</string>
+    <string name="sim_dsda_text">"Dual SIM dublu activ"</string>
+    <string name="progress_wait">"Configurare ..."</string>
+    <string name="alert_update_sim_mode_title">"Actualizați modul SIM"</string>
+    <string name="alert_update_sim_mode_text">"Modificarea modului SIM va fi efectuată după repornirea telefonului. Doriți să actualizați acum?"</string>
+    <string name="alert_switch_title">"Comutați operatorul"</string>
+    <string name="alert_switch_text">"Această acțiune va șterge toate datele, inclusiv datele pentru configurarea multi-SIM."</string>
+    <string name="alert_switch_error">"Comutarea operatorului a eșuat, verificați dacă există suficient spațiu."</string>
+    <string name="notice_row_title">"Notă"</string>
+    <string name="notice_row_text">"Telefonul a fost setat pentru a se adapta cartelei SIM. Reporniți telefonul pentru a eficientiza noua configurare."</string>
+    <string name="notice_special_install_title">"Atenţie"</string>
+    <string name="notice_special_install_text">"Telefonul poate fi setat pentru a se adapta cardului SIM. Dar această acțiune va șterge toate datele, doriți să o setați acum?"</string>
+    <string name="welcome_title">"Bun venit"</string>
+    <string name="welcome_message">"Selectaţi-vă limba"</string>
+    <string name="start_text">"Porniţi"</string>
+    <string name="emergency_call_text">"Apel de urgenţă"</string>
+    <string name="trigger_title">"Configuraţi"</string>
+    <string name="trigger_message">"Selectaţi un pachet"</string>
+    <string name="trigger_uninstall_message">"Niciun pachet nu corespunde cartelei SIM. Telefonul poate fi configurat până la pachetul de bază.\n\nConfigurați telefonul până la:"</string>
+    <string name="trigger_no_text">"Nu configurați"</string>
+    <string name="trigger_yes_text">"Începeți configurarea"</string>
+    <string name="trigger_ask_text">"Întreabă-mă mai târziu"</string>
+    <string name="begin_config_text">"Începeți configurarea"</string>
+    <string name="alter_no_carrier_selected">"Nu există niciun operator selectat, selectați unul sau mai mulți."</string>
+    <string name="download_ota_package_title">"Descărcați fișierele OTA"</string>
+    <string name="download_ota_package_message">"Se încarcă ..."</string>
+    <string name="alter_network_state_error">"Verificați starea rețelei."</string>
+    <string name="alter_file_not_found_error">"Nu s-a putut stoca fișierul OTA, verificați starea de stocare."</string>
+    <string name="carrier_clear_final_desc">"Doriţi ştergerea tuturor informaţiilor dvs. personale şi a configuraţiei operatorului? Nu puteţi anula această acţiune!"</string>
+    <string name="carrier_clear_final_button_text">"Ștergeţi tot"</string>
+    <string name="carrier_clear_no_default_pack">"Nu există un pachet implicit în dispozitivul dvs."</string>
+    <string name="carrier_clear_parsing_not_finish">"Încă se caută pachetul implicit."</string></resources>

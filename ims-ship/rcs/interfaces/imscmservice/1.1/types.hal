@@ -1,0 +1,89 @@
+/*
+ * Copyright (c) 2017 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ */
+
+package com.qualcomm.qti.imscmservice@1.1;
+
+import @1.0::types;
+import @1.0::IMSCM_CONFIG_DATA;
+import @1.0::QIMSCM_USER_CONFIG;
+import @1.0::IMSCM_AUTOCONFIG_DATA;
+import @1.0::QIMS_CM_DEVICE_CONFIG;
+
+/*
+ * AutoConfig Trigger Reason
+ */
+enum IMSCM_AUTOCONFIG_TRIGGER_REASON : uint32_t {
+  IMSCM_AUTOCONFIG_USER_REQUEST = 0,    // Due to user request after version -2 received.
+  IMSCM_AUTOCONFIG_REFRESH_TOKEN,       // Refresh Token
+  IMSCM_AUTOCONFIG_INVALID_TOKEN,       // Token becomes invalid
+  IMSCM_AUTOCONFIG_INVALID_CREDENTIAL,  // Username/password/URL becomes invalid
+  IMSCM_AUTOCONFIG_CLIENT_CHANGE,       // RCS client has been changed.
+  IMSCM_AUTOCONFIG_DEVICE_UPGRADE,      // Device has been upgraded
+  IMSCM_AUTOCONFIG_FACTORY_RESET        // Factory reset.
+};
+
+/*
+ * AutoConfig Request Status
+ */
+enum IMSCM_AUTOCONFIG_REQUEST_STATUS : uint32_t {
+  IMSCM_AUTOCONFIG_CONNECTION_OFF = 0,
+  IMSCM_AUTOCONFIG_CONNECTION_ON
+};
+
+/*
+ * Adding PLANI header
+ */
+struct QIMS_CM_DEVICE_CONFIG {
+  bool    bUEBehindNAT;
+  /* Indicates whether the UE is behind NAT. */
+  bool    bIpSecEnabled;
+  /* Indicates whether IPSec is enabled. */
+  bool    bCompactFormEnabled;
+  /* Indicates whether compact form is enabled. */
+  bool    bKeepAliveEnableStatus;
+  /* Indicates whether keep alive is enabled. */
+  bool      bGruuEnabled;
+  /* Indicates whether GRUU is enabled. */
+  string    pStrSipOutBoundProxyName;
+  /* Outbound SIP proxy name/IP. */
+  uint32_t  iSipOutBoundProxyPort;
+  /* Outbound SIP proxy port. */
+  uint32_t  iPCSCFClientPort;
+  /* P-CSCF client port. */
+  uint32_t  iPCSCFServerPort;
+  /* P-CSCF server port. */
+  string    pArrAuthChallenge;
+  /* Authentication header. */
+  string    pArrNC;
+  /* Nonce count. */
+  string    pServiceRoute;
+  /* Service route value. */
+  string    pSecurityVerify;
+  /* Security verify value. */
+  uint32_t iPCSCFOldSAClientPort;
+  /* IPSec old SA PCSCF client port. */
+  uint32_t iTCPThresholdValue;
+  /** Configured TCP Threshold Value for SIP */
+  string    sPANI;
+  /* PANI header value. */
+  string    sPATH;
+  /* Path header value from IMS registration. */
+  string sUriUserPart;
+  /* URI user part in contact header */
+  string sPLANI;
+  /* PLANI header value */
+};
+
+/*
+ * Configuration Data Type
+ * object used in onConfigurationChange() callback
+ */
+struct IMSCM_CONFIG_DATA {
+  @1.0::QIMSCM_USER_CONFIG userConfig;
+  QIMS_CM_DEVICE_CONFIG deviceConfig;
+  @1.0::IMSCM_AUTOCONFIG_DATA autoConfig;
+};

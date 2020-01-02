@@ -1,0 +1,113 @@
+<resources>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+    <string name="app_name">"SeempJService"</string>
+    <string-array name="cause_description_array">
+<item>"6:3:Surveillance des entrées/interactions de l\'utilisateur pendant que l\'application n\'est pas visible par l\'utilisateur ou quand elle s\'exécute en arrière-plan"</item>
+    <item>"7:5:Usage suspect d\'un UID Android "</item>
+    <item>"8:5:Usage suspect d\'un UID Android pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"9:5:Accès suspect à des informations sensibles de l\'appareil"</item>
+    <item>"10:5:Accès suspect à des informations sensibles de l\'appareil pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"11:4:Accès suspect à un numéro de téléphone"</item>
+    <item>"12:4:Accès à un numéro de téléphone sans intervention de l\'utilisateur sur l\'application"</item>
+    <item>"13:2:l\'application tente d\'effectuer un appel téléphonique non autorisé"</item>
+    <item>"14:2:l\'application tente d\'effectuer un appel téléphonique non autorisé pendant qu\'elle s\'exécute en arrière-plan"</item>
+    <item>"15:4:Accès anormal à des informations sensibles du compte de l\'utilisateur"</item>
+    <item>"16:4:Accès anormal à des informations sensibles du compte de l\'utilisateur sans intervention de l\'utilisateur sur l\'application"</item>
+    <item>"17:4:17:4:Application accédant à des informations sensibles du compte de l\'utilisateur sans avertir ce dernier"</item>
+    <item>"18:4:Application accédant à des informations sensibles du compte de l\'utilisateur sans avertir ce dernier, alors qu\'elle s\'exécute en arrière-plan"</item>
+    <item>"19:3:Accès suspect à des informations sensibles du navigateur"</item>
+    <item>"20:3:Accès suspect à des informations sensibles du navigateur pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"21:3:Accès à des informations sensibles du navigateur (potentiellement des informations sensibles de l\'utilisateur) sans intervention de l\'utilisateur sur l\'application"</item>
+    <item>"22:3:accès à des informations sensibles du navigateur (peut inclure des informations sensibles de l\'utilisateur) sans intervention de l\'utilisateur sur l\'application et pendant que celle-ci s\'exécute en arrière-plan"</item>
+    <item>"23:6:installation anormale/excessive d\'un raccourci"</item>
+    <item>"24:6:application tentant d\'installer un raccourci pendant qu\'elle s\'exécute en arrière-plan"</item>
+    <item>"25:6:application tentant d\'installer un raccourci sans intervention de l\'utilisateur"</item>
+    <item>"26:6:application tentant d\'installer un raccourci sans intervention de l\'utilisateur et pendant qu\'elle s\'exécute en arrière-plan"</item>
+    <item>"27:4:Accès à des informations sensibles de calendrier"</item>
+    <item>"28:4:Accès à des informations sensibles de calendrier pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"29:1:Insertion d\'informations/événements dans le calendrier sans intervention de l\'utilisateur"</item>
+    <item>"30:1:Insertion d\'informations/événements dans le calendrier sans interaction pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"31:5:Accès anormal/excessif à des informations de localisation"</item>
+    <item>"32:5:Accès anormal/excessif à des informations de localisation pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"37:3:Utilisation suspecte de l\'appareil photo (peut inclure la prise de photos et de vidéos)"</item>
+    <item>"38:3:Utilisation suspecte de l\'appareil photo (peut inclure la prise de photos et de vidéos) pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"39:3:Enregistrement de photos (potentiellement de vidéos) et envoi de celles-ci à un serveur distant"</item>
+    <item>"40:3:Enregistrement de photos (potentiellement de vidéos) et envoi de celles-ci à un serveur distant pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"41:3:Enregistrement de photos (potentiellement de vidéos) sans intervention de l\'utilisateur"</item>
+    <item>"42:3:Enregistrement de photos (potentiellement de vidéos) sans intervention de l\'utilisateur et pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"43:3:Enregistrement de photos (potentiellement de vidéos) et envoi de celles-ci à un serveur distant sans intervention de l\'utilisateur"</item>
+    <item>"44:3:Enregistrement de photos (potentiellement de vidéos) et envoi de celles-ci à un serveur distant sans intervention de l\'utilisateur et pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"45:3:Utilisation suspecte de la caméra vidéo (peut inclure la prise de photos et de vidéos)"</item>
+    <item>"46:3:Utilisation suspecte de la caméra vidéo (peut inclure la prise de photos et de vidéos) pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"47:3:Enregistrement de vidéos et envoi de celles-ci à un serveur distant"</item>
+    <item>"48:3:Enregistrement de vidéos et envoi de celles-ci à un serveur distant pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"49:3:Enregistrement de vidéos sans intervention de l\'utilisateur"</item>
+    <item>"50:3:Enregistrement de vidéos sans intervention de l\'utilisateur et pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"51:3:Enregistrement de vidéos et envoi de celles-ci à un serveur distant sans intervention de l\'utilisateur"</item>
+    <item>"52:3:Enregistrement de vidéos et envoi de celles-ci à un serveur distant sans intervention de l\'utilisateur et pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"53:3:Enregistrement suspect de données de microphone"</item>
+    <item>"54:3:Enregistrement suspect de données de microphone pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"55:3:Enregistrement suspect de données de microphone et envoi de celles-ci à un serveur distant"</item>
+    <item>"56:3:Enregistrement de données de microphone et envoi de celles-ci à un serveur distant pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"57:3:Enregistrement suspect de données de microphone sans intervention de l\'utilisateur sur l\'application"</item>
+    <item>"58:3:Enregistrement de données de microphone sans intervention de l\'utilisateur sur l\'application et pendant que celle-ci s\'exécute en arrière-plan"</item>
+    <item>"59:3:Enregistrement suspect de données de microphone et envoi de celles-ci sans intervention de l\'utilisateur sur l\'application"</item>
+    <item>"60:3:enregistrement de données de microphone et envoi de celles-ci sans intervention de l\'utilisateur sur l\'application et que celle-ci s\'exécute en arrière-plan"</item>
+    <item>"61:2:Activité SMS suspecte : tentative d\'envoi d\'un SMS (potentiellement coûteux à des numéros surtaxés)"</item>
+    <item>"62:2:Une application tente d\'envoyer un SMS pendant qu\'elle s\'exécute en arrière-plan (SMS potentiellement coûteux à des numéros surtaxés)"</item>
+    <item>"63:2:Activité SMS suspecte : application envoyant un SMS (potentiellement coûteux à des numéros surtaxés) sans intervention de l\'utilisateur"</item>
+    <item>"64:2:Application envoyant un SMS (potentiellement coûteux à des numéros surtaxés) sans intervention de l\'utilisateur et pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"65:3:Accès suspect à un SMS (incluant ouverture et lecture)"</item>
+    <item>"66:3:Accès à un SMS et lecture de celui-ci pendant qu\'une application s\'exécute en arrière-plan"</item>
+    <item>"67:3:Accès à un SMS et lecture de celui-ci sans intervention de l\'utilisateur"</item>
+    <item>"68:3:Accès à un SMS et lecture de celui-ci sans intervention de l\'utilisateur pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"69:3:accès anormal/excessif aux informations d\'un capteur"</item>
+    <item>"70:3:accès excessif/anormal aux informations d\'un capteur pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"71:3:Interception suspecte de messages MMS"</item>
+    <item>"72:3:Interception suspecte de messages MMS pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"73:3:Interception suspecte de messages MMS sans intervention de l\'utilisateur"</item>
+    <item>"74:3:Interception suspecte de messages MMS sans intervention de l\'utilisateur pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"75:4:Accès anormal aux informations d\'un ou de plusieurs contacts"</item>
+    <item>"76:4:Accès anormal aux informations d\'un ou de plusieurs contacts pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"77:4:Accès à une ou plusieurs listes de contacts sans intervention de l\'utilisateur sur l\'application"</item>
+    <item>"78:4:Accès à une ou plusieurs listes de contacts sans intervention de l\'utilisateur sur l\'application et que celle-ci s\'exécute en arrière-plan"</item>
+    <item>"79:1:Installation suspecte d\'une application tierce"</item>
+    <item>"80:1:Installation suspecte d\'une application tierce pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"81:1:Installation suspecte d\'une application tierce sans intervention de l\'utilisateur sur l\'application"</item>
+    <item>"82:1:Installation suspecte d\'une application tierce sans intervention de l\'utilisateur sur l\'application et que celle-ci s\'exécute en arrière-plan"</item>
+    <item>"83:5:communication excessive/anormale d\'un UID Android"</item>
+    <item>"84:5:communication excessive/anormale d\'un UID Android pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"85:5:Accès à des informations sensibles d\'un appareil et envoi de celles-ci (peut inclure l\'IMEI, le numéro de série de la carte SIM et d\'autres informations liées à l\'opérateur)"</item>
+    <item>"86:5:Accès à des informations sensibles d\'un appareil et envoi de celles-ci (peut inclure l\'IMEI, le numéro de série de la carte SIM, et d\'autres informations liées à l\'opérateur) pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"87:4:Accès au numéro de téléphone d\'un utilisateur et envoi de celui-ci à un serveur distant"</item>
+    <item>"88:4:Accès au numéro de téléphone d\'un utilisateur et envoi de celui-ci à un serveur distant pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"89:4:Communication anormale d\'informations sensibles/informations d\'identification d\'un compte d\'utilisateur (peut inclure des informations de carte de crédit ou autres informations financières)"</item>
+    <item>"90:4:Communication anormale d\'informations sensibles/informations d\'identification d\'un compte d\'utilisateur (peut inclure des informations de carte de crédit ou autres informations financières) pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"91:3:accès à du contenu sensible de navigateur et communication de celui-ci (peut inclure des informations sensibles sur l\'utilisateur)"</item>
+    <item>"92:3:accès à du contenu sensible de navigateur et communication de celui-ci (peut inclure des informations sensibles sur l\'utilisateur) pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"93:3:accès à du contenu sensible de navigateur et communication de celui-ci (peut inclure des informations sensibles sur l\'utilisateur)"</item>
+    <item>"94:3:accès à du contenu sensible de navigateur et communication de celui-ci (peut inclure des informations sensibles sur l\'utilisateur) pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"95:4:Envoi d\'informations de calendrier à un serveur distant (peut inclure des informations sensibles de l\'utilisateur)"</item>
+    <item>"96:4:Envoi d\'informations de calendrier à un serveur distant (peut inclure des informations sensibles de l\'utilisateur) pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"97:5:Accès anormal/excessif à des informations de localisation et communication de celles-ci"</item>
+    <item>"98:5:Accès anormal/excessif à des informations de localisation et communication de celles-ci pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"99:5:Accès anormal/excessif à des informations de localisation et communication de celles-ci"</item>
+    <item>"100:5:Accès anormal/excessif à des informations de localisation et communication de celles-ci pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"101:3:Communication excessive/anormale d\'informations de capteur"</item>
+    <item>"102:3:Communication excessive/anormale d\'informations de capteur pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"103:4:Accès à une ou plusieurs listes de contacts et envoi de celles-ci à un serveur distant"</item>
+    <item>"104:4:Accès à une ou plusieurs listes de contacts et envoi de celles-ci à un serveur distant pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"105:4:Accès à une ou plusieurs listes de contacts et envoi de celles-ci à un serveur distant sans intervention de l\'utilisateur"</item>
+    <item>"106:4:Accès à une ou plusieurs listes de contacts et envoi de celles-ci à un serveur distant sans intervention de l\'utilisateur et pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"109:3:accès anormal/excessif aux informations d\'un capteur"</item>
+    <item>"110:3:accès excessif/anormal aux informations d\'un capteur pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"121:5:Accès suspect aux paramètres associés à l\'ID de l\'appareil"</item>
+    <item>"122:5:Accès suspect aux paramètres de l\'ID de l\'appareil pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"162:3:Modification suspecte des paramètres du mode avion pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"164:3:Modification suspecte des paramètres d\'alarme pendant que l\'application s\'exécute en arrière-plan"</item>
+    <item>"202:3:Modification suspecte de l\'état Wi-Fi pendant que l\'application s\'exécute en arrière-plan"</item>
+    </string-array></resources>

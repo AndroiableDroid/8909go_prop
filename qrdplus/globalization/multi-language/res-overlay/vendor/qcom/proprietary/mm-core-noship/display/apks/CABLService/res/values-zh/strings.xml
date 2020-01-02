@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <string name="app_name">"背光调节设置"</string>
+        <string name="cabl_settings_title">"背光调节设置"</string>
+        <string name="cabl_enable_title">"启用背光调节"</string>
+        <string name="cabl_enable_summary_on">"背光将根据屏幕内容重新调整"</string>
+        <string name="cabl_enable_summary_off">"背光不会根据屏幕内容重新调整"</string>
+        <string name="cabl_levels_title">"视觉品质级别"</string>
+        <string name="cabl_levels_summary">"品质级别较低表示 CABL 将尝试在不明显影响显示内容的情况下尽可能节省电量。自动视觉品质级别表示 CABL 将根据显示内容的自动检测类型尽可能节省电量。"</string>
+        <string name="cabl_level_default">"自动"</string>
+        <string name="cabl_info_default">"未知"</string>
+        <string name="cabl_version_title">"CABL 版本"</string></resources>

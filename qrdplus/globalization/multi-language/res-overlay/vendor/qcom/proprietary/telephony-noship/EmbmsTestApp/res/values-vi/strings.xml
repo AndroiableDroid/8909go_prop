@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">EmbmsTestApp</string>
+    <string name="embms_test_app">"Ứng dụng thử nghiệm eMBMS"</string>
+    <string name="bind_service">"Liên kết dịch vụ"</string>
+    <string name="unbind_service">"Ngắt liên kết dịch vụ"</string>
+    <string name="kill_process">"Quy trình tắt"</string>
+    <string name="register">"Đăng ký gọi lại"</string>
+    <string name="deregister">"Hủy đăng ký gọi lại"</string>
+    <string name="enable">"Đang bật eMBMS"</string>
+    <string name="disable">"Đang tắt eMBMS"</string>
+    <string name="activate">"Đang kích hoạt TMGI"</string>
+    <string name="deactivate">"Đang hủy kích hoạt TMGI"</string>
+    <string name="enter_Tmgi">"Nhập TMGI theo dạng thập phân"</string>
+    <string name="get_active">"Tải danh sách hoạt động"</string>
+    <string name="get_available">"Tải danh sách khả dụng"</string>
+    <string name="get_coverage">"Tải trạng thái phủ sóng"</string>
+    <string name="get_log_packet_id">"Tải ID gói nhật ký"</string>
+    <string name="deliver_log_packet">"Gửi gói nhật ký"</string>
+    <string name="get_e911_state">"Tải trạng thái E911"</string></resources>

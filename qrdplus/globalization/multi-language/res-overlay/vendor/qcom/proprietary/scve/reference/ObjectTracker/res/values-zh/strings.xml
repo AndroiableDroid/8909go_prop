@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"目标跟踪演示"</string>
+    <string name="open_camera_failed">"打开您设备上的相机时出现错误。请关闭其他可能正在使用相机的应用，然后重新启动该应用。"</string>
+    <string name="snapshot_failed">"拍摄快照时出现错误。请检查 Logcat 以获取错误详情。"</string>
+    <string name="video_recording_failed">"录制视频时出现错误。请检查 Logcat 以获取错误详情。"</string>
+    <string name="settings">"设置"</string>
+    <string name="switch_camera">"切换摄像头"</string>
+    <string name="switch_camera_mode">"切换照片/视频模式"</string></resources>

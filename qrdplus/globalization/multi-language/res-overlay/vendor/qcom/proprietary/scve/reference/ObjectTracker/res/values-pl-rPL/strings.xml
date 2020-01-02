@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Demo funkcji śledzenia obiektów"</string>
+    <string name="open_camera_failed">"Podczas otwierania aparatu w Twoim urządzeniu wystąpił błąd.  Zamknij inne aplikacje, które mogą korzystać z aparatu, a następnie ponownie uruchom tę aplikację."</string>
+    <string name="snapshot_failed">"Podczas robienia zdjęcia migawkowego wystąpił błąd. Sprawdź  logcat, aby uzyskać więcej informacji na temat tego błędu."</string>
+    <string name="video_recording_failed">"Podczas nagrywania filmu wystąpił błąd. Sprawdź  logcat, aby uzyskać więcej informacji na temat tego błędu."</string>
+    <string name="settings">"Ustawienia"</string>
+    <string name="switch_camera">"Przełącz aparat"</string>
+    <string name="switch_camera_mode">"Przełącz tryb zdjęć/filmu"</string></resources>

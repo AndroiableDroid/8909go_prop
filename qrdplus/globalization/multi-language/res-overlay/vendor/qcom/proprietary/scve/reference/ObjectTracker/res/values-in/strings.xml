@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Demo Pelacak Objek"</string>
+    <string name="open_camera_failed">"Kami mengalami masalah saat membuka kamera pada perangkat Anda.  Tutup aplikasi lain yang mungkin menggunakan kamera dan jalankan lagi aplikasi ini."</string>
+    <string name="snapshot_failed">"Kami mengalami masalah saat mengambil foto. Periksa  logcat untuk detail kesalahan."</string>
+    <string name="video_recording_failed">"Kami mengalami masalah saat merekam video. Periksa  logcat untuk detail kesalahan."</string>
+    <string name="settings">"Setelan"</string>
+    <string name="switch_camera">"Alihkan ke kamera"</string>
+    <string name="switch_camera_mode">"Alihkan ke mode foto/video"</string></resources>

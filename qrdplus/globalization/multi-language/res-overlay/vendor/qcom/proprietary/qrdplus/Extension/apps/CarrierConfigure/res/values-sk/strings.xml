@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Konfigurácia operátora"</string>
+    <string name="multisim_category_text">"KONFIGURÁCIA VIACERÝCH SIM"</string>
+    <string name="preset_category_text">"OPERÁTOR V ČÍNE"</string>
+    <string name="preset_category_text_default">"Predvolené"</string>
+    <string name="preset_category_text_china">"Operátor pre Čínu"</string>
+    <string name="preset_category_text_regional">"Regionálny"</string>
+    <string name="sim_ssss_text">"Jedna karta SIM, jeden pohotovostný režim"</string>
+    <string name="sim_dsds_text">"Duálna karta SIM, dva pohotovostné režimy"</string>
+    <string name="sim_dsda_text">"Duálna karta SIM, obidve aktívne"</string>
+    <string name="progress_wait">"Konfiguruje sa..."</string>
+    <string name="alert_update_sim_mode_title">"Aktualizovať režim karty SIM"</string>
+    <string name="alert_update_sim_mode_text">"Zmena režimu karty SIM sa prejaví po reštartovaní telefónu. Želáte si aktualizáciu vykonať teraz?"</string>
+    <string name="alert_switch_title">"Prepnúť operátora"</string>
+    <string name="alert_switch_text">"Tento úkon vymaže všetky dáta vrátane údajov konfigurácie viacerých kariet SIM."</string>
+    <string name="alert_switch_error">"Prepnutie operátora sa nepodarilo. Skontrolujte, či máte dostatok voľného miesta."</string>
+    <string name="notice_row_title">"Poznámka"</string>
+    <string name="notice_row_text">"Telefón bol nastavený, aby prijal vašu kartu SIM. Aby sa nová konfigurácia prejavila, reštartujte svoj telefón."</string>
+    <string name="notice_special_install_title">"Pozor"</string>
+    <string name="notice_special_install_text">"Telefón možno nastaviť, aby prijal vašu kartu SIM. Tento úkon však vymaže všetky dáta. Želáte si pokračovať v nastavení?"</string>
+    <string name="welcome_title">"Vitajte"</string>
+    <string name="welcome_message">"Vyberte jazyk"</string>
+    <string name="start_text">"Spustiť"</string>
+    <string name="emergency_call_text">"Tiesňové volanie"</string>
+    <string name="trigger_title">"Konfigurovať"</string>
+    <string name="trigger_message">"Vyberte jeden balík"</string>
+    <string name="trigger_uninstall_message">"S vašou kartou SIM nesúhlasí žiadny balíček. Váš telefón možno nakonfigurovať späť na základný balíček.\n\nKonfigurovať telefón späť na:"</string>
+    <string name="trigger_no_text">"Nekonfigurovať"</string>
+    <string name="trigger_yes_text">"Začať konfiguráciu"</string>
+    <string name="trigger_ask_text">"Opýtať sa neskôr"</string>
+    <string name="begin_config_text">"Začať konfiguráciu"</string>
+    <string name="alter_no_carrier_selected">"Nebol zvolený žiadny operátor. Vyberte jedného alebo viacerých."</string>
+    <string name="download_ota_package_title">"Stiahnuť súbory OTA"</string>
+    <string name="download_ota_package_message">"Načítava sa..."</string>
+    <string name="alter_network_state_error">"Skontrolujte stav siete."</string>
+    <string name="alter_file_not_found_error">"Súbor OTA nemožno uložiť. Skontrolujte stav úložiska."</string>
+    <string name="carrier_clear_final_desc">"Vymazať všetky vaše osobné informácie a konfiguráciu operátora? Tento úkon je nezvratný!"</string>
+    <string name="carrier_clear_final_button_text">"Vymazať všetko"</string>
+    <string name="carrier_clear_no_default_pack">"Vo vašom zariadení nie je žiadny predvolený balík."</string>
+    <string name="carrier_clear_parsing_not_finish">"Stále sa hľadá predvolený balík."</string></resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2013 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_label">"셸"</string>
+    <!-- Title of notification indicating a bugreport has been successfully captured. [CHAR LIMIT=50] -->
+    <string name="bugreport_finished_title">"버그 신고서 캡처됨"</string>
+    <!-- Text of notification indicating that swipe left will share the captured bugreport. [CHAR LIMIT=100] -->
+    <string name="bugreport_finished_text" product="watch">"왼쪽으로 스와이프하여 버그 신고서를 공유하세요."</string>
+    <!-- Text of notification indicating that touching will share the captured bugreport. [CHAR LIMIT=100] -->
+    <string name="bugreport_finished_text" product="default">"버그 신고서를 공유하려면 터치하세요."</string>
+    <!-- Body of dialog informing user about contents of a bugreport. [CHAR LIMIT=NONE] -->
+    <string name="bugreport_confirm">"버그 신고서는 시스템의 다양한 로그 파일 데이터(예: 개인 및 비공개 정보)를 포함합니다. 신뢰할 수 있는 앱과 사용자에게만 버그 신고서를 공유하세요."</string>
+    <!-- Checkbox that indicates this dialog should be shown again when the next bugreport is taken. [CHAR LIMIT=50] -->
+    <string name="bugreport_confirm_repeat">"다음에 이 메시지 표시"</string>
+    <!-- Title for documents backend that offers bugreports. -->
+    <string name="bugreport_storage_title">"버그 신고"</string></resources>

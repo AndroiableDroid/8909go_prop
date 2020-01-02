@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"បង្ហាញប្រព័ន្ធម៉ែត្រកែកំហុស"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"រក្សាទុករូបភាព"</string>
+    <string name="debug_pref_save_pictures_desc">"រក្សាទុក​រូបភាពដែលបានថត​ទៅកាន់កាត SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"រក្សាទុកស៊ុមមើលជាមុន"</string>
+    <string name="debug_pref_save_preview_frames_desc">"រក្សាទុកស៊ុមមើលជាមុនទៅកាន់កាត SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"អនុញ្ញាតឲ្យទម្លាក់ស៊ុមមើលជាមុន"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"នៅពេលរក្សាទុក​ស៊ុមមើលជាមុន ត្រូវអនុញ្ញាត​ឲ្យទម្លាក់ស៊ុម​ដើម្បីរក្សា​កម្រិតស៊ុម។"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"បើក​កំណត់ហេតុបរិយាយ​ការទទួលស្គាល់មុខ"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

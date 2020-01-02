@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Demo-uri SDP SDK"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Extins în afara ecranului"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Canal lateral fundal"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Deget vs. Stylus + presiune"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Înclinare axă"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Trecere cu mouse-ul și buton lateral"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Radieră şi evitare radieră"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"Acest demo arată funcţia în afara ecranului.\n\n1. Desenaţi în afara ecranului şi vedeţi desenul la dreapta.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. Există un buton în colţul din dreapta jos al ecranului virtual. Treceţi cu mouse-ul pe deasupra la diferite înălţimi pentru a modifica opacitatea cercului.\n\n3. Apăsați pentru a schimba culoarea cercului."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"Acest demo prezintă cum canalul lateral de fundal poate opera în timp ce ecranul este activat sau dezactivat.\n\n1. Desenați ecranul activat și vedeți desenul.\n\n2. Acum comutați la altă aplicație sau dezactivați ecranul - desenul este încă înregistrat."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Trecere cu mouse-ul pe ecran"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Treceți cu mouse-ul peste ecran la diferite înălţimi.\n\n2. Utilizați comutatorul pentru a dezactiva trecerea cu mouse-ul.\n\n3. Utilizați glisorul pentru a seta distanță maximă pentru trecerile cu mouse-ul.\n\n4. Apăsarea butoanelor laterale va schimba culoarea cercului de trecere cu mouse-ul."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. Configurați butonul SDP pentru a fi butonul radieră din setările globale.\n\n2. Desenați.\n\n3. Setați radiera la Atingere pentru comutare. Atingeți butonul radieră. Ștergeți. Apăsarea din nou a butonului radieră comută la modul stilou.\n\n4. Setați radiera la Menținere pentru ștergere. Acum puteți șterge prin atingere imediată.\n\n5. Acum ștergeți comutatorul de evitare a radierei pentru a dezactiva funcționalitatea radierei."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Evitare radieră"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Ștergeți pânza"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Desenați cu stiloul, apoi cu degetul.\nCele două metode sunt recunoscute prin culoarea diferită.\nGrosimea conturului este setată prin presiune, care este, de asemenea, vizibilă numeric."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Presiune"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

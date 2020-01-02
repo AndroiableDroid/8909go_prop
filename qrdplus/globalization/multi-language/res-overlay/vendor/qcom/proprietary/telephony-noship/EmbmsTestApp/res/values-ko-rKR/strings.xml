@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">EmbmsTestApp</string>
+    <string name="embms_test_app">"eMBMS 테스트 앱"</string>
+    <string name="bind_service">"서비스 연결"</string>
+    <string name="unbind_service">"서비스 연결 해제"</string>
+    <string name="kill_process">"프로세스 중지"</string>
+    <string name="register">"콜백 등록"</string>
+    <string name="deregister">"콜백 등록 취소"</string>
+    <string name="enable">"eMBMS 사용"</string>
+    <string name="disable">"eMBMS 사용 안 함"</string>
+    <string name="activate">"TMGI 활성화"</string>
+    <string name="deactivate">"TMGI 비활성화"</string>
+    <string name="enter_Tmgi">"10진수로 TMGI 입력"</string>
+    <string name="get_active">"Act 목록 가져오기"</string>
+    <string name="get_available">"Avl 목록 가져오기"</string>
+    <string name="get_coverage">"Cov 상태 가져오기"</string>
+    <string name="get_log_packet_id">"로그 패킷 ID 가져오기"</string>
+    <string name="deliver_log_packet">"Dlver 로그 패킷"</string>
+    <string name="get_e911_state">"E911 상태 가져오기"</string></resources>

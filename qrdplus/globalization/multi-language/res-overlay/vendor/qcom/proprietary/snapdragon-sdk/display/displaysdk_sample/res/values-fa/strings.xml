@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"نمایش نمونه SDK"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"ویژگی‌های نمایش"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"تعادل رنگ"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"مدیر حالت"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"حالت جدید"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"حذف حالت"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"ویرایش حالت"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"لغو"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"ویژگی‌های نمایش"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"فعال‌سازی حالت"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"نام حالت را وارد کنید"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"ذخیره حالت"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"انتخاب عکس"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"نوع نمایش ارائه شده پشتیبانی نمی‌شود. مطمئن شوید اتصال() درخواست شده باشد"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"ویژگی تعادل رنگ پشتیبانی نمی‌شود"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"ویژگی نور زمینه منطبق پشتیبانی نمی‌شود"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"ویژگی Memory Color Foliage پشتیبانی نمی‌شود"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"ویژگی Memory Color Skin پشتیبانی نمی‌شود"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"ویژگی Memory Color Sky پشتیبانی نمی‌شود"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"ویژگی تنظیم عکس پشتیبانی نمی‌شود"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"ویژگی دیداری نور خورشید پشتیبانی نمی‌شود"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"ایجاد حالت جدید ممکن نبود"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"اصلاح حالت ممکن نبود"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"افزودن تصویر از گالری"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"تأیید"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"بله"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"خیر"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"حالت نمایش در دستگاهتان وجود ندارد"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"FEATURE_COLOR_MODE_SELECTION پشتیبانی نمی‌شود"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"FEATURE_COLOR_MODE_MANAGEMENT پشتیبانی نمی‌شود"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"قابلیت نمایش مورد نیاز در دسترس نیست"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"حذف حالت نمایش ناموفق بود"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"فعال‌سازی حالت نمایش ناموفق بود"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"حالت نمایش را نمی‌توان به پیش‌فرض تنظیم کرد"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"لطفاً ابتدا یک حالت را انتخاب کنید"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"لطفاً برای حالت نامی انتخاب کنید"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"حالت جدید ایجاد شد"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"تنظیم پیش‌فرض"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"حالت انتخاب شده بعنوان حالت سیستم، قابل اصلاح نیست. آیا می‌خواهید حالت جدیدی براساس حالت انتخاب شده ایجاد کنید؟"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"حالت انتخاب شده به عنوان حالت سیستم را نمی‌توان حذف کرد"</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"اتصال به سرویس نمایش مورد نیاز ممکن نیست"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" حالت فعال‌سازی شد"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" حالت حذف شد"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"تعادل رنگ"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"قابلیت دید در نور خورشید"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"تنظیم عکس"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"Memcolor Foliage"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"رنگ‌مایه"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"اشباع رنگ"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"شدت"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"Memcolor Skin"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"Memcolor Sky"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" نور زمینه قابل تطبیق"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"فعال کردن SVI"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"فعال کردن Memory color foliage"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"فعال کردن Memory color skin"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"فعال کردن Memory color sky"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"فعال کردن تنظیم عکس"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"فعال کردن نور زمینه قابل تطبیق"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"فعال کردن لغو اشباع عکس"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"آستانه اشباع رنگ"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"رنگ‌مایه"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"اشباع رنگ"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"شدت"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"کنتراست"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"زیاد"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"متوسط"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"کم"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"خودکار"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"نوسازی"</string></resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IMS settings related strings -->
+    <!-- Title displayed IMS account settings in the sip settings category. [CHAR LIMIT=NONE] -->
+    <string name="ims_settings">"IMS 設定"</string>
+    <string name="ims_vt_call_quality_title">"VT 通話質素"</string>
+    <string name="ims_vt_call_quality_low">"低"</string>
+    <string name="ims_vt_call_quality_high">"高"</string>
+    <string name="ims_vt_call_quality_unknown">"未知"</string>
+    <string name="ims_vt_call_quality_set_failed">"無法設定影片質素"</string>
+    <string name="ims_get_packet_count_failed">"無法獲取數據包統計"</string>
+    <string name="ims_get_packet_error_count_failed">"無法獲取數據包錯誤統計"</string>
+    <string name="ims_get_packet_count_label">"點按這裡獲取數據包統計"</string>
+    <string name="ims_get_packet_error_count_label">"點按這裡獲取數據包錯誤統計"</string>
+    <string name="qti_ims_call_deflect_title">"通話轉向號碼"</string>
+    <string name="qti_ims_number_not_set">"未設定"</string>
+    <!-- IMS to CS Retry setting title.  [CHAR LIMIT=30] -->
+    <string name="ims_to_cs_retry_title">"重試 CS"</string>
+    <!-- IMS to CS Retry setting summary.  [CHAR LIMIT=80] -->
+    <string name="ims_to_cs_retry_summary">"自動以一般的音通信系統重試（建議）"</string></resources>

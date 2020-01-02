@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">P2PRanging</string>
+    <string name="action_settings">"设置"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_Discovery">"手动发现"</string>
+    <string name="strings_setting_appversion">"应用版本：2014.09.04"</string>
+    <string name="strings_setting_startscanresult">"N/A"</string>
+    <string name="strings_setting_scanrepetition">"扫描重复："</string>
+    <string name="strings_setting_scaninterval">"扫描间隔："</string>
+    <string name="strings_setting_scantype">"扫描类型："</string>
+    <string name="strings_setting_scanbandwidth">"扫描带宽："</string>
+    <string name="strings_setting_scanrttbias">"RTT 偏差 (ns)："</string>
+    <string name="strings_setting_scanrttBias_value">25</string>
+    <string name="strings_setting_button_clearoverlay">"清除叠加文字"</string>
+    <string name="strings_setting_button_hideshowoverlaytext">"隐藏/显示叠加文字"</string>
+    <string name="strings_start_peerrangescanbtn">"开始测距扫描"</string>
+    <string name="strings_start_singlepeerrangescanbtn">"单次扫描"</string>
+    <string name="strings_start_measresulttitle">"扫描结果绘图 (m)"</string>
+    <string name="strings_start_measresultdevice"></string>
+    <string name="strings_log_showerror">"错误"</string>
+    <string name="strings_log_showinfo">"信息"</string>
+    <string name="strings_log_clear">"ClearLog"</string>
+    <string name="strings_legend_mygo">"MyGO"</string>
+    <string name="strings_legend_cl">"CL"</string>
+    <string name="strings_legend_idle">"空闲"</string>
+    <string name="strings_legend_othergo">"OtherGO"</string>
+    <string name="strings_deviceinfo_mydevice">"我的设备："</string>
+    <string name="strings_deviceinfo_devicename">"名称：N/A"</string>
+    <string name="strings_deviceinfo_mac">"MAC:N/A"</string>
+    <string name="strings_deviceinfo_channel">"信道：N/A"</string>
+    <string name="strings_deviceinfo_group">"群组：N/A"</string>
+    <string name="strings_connect_mypeers">"我的对等设备：（点击以连接/断开连接）"</string></resources>

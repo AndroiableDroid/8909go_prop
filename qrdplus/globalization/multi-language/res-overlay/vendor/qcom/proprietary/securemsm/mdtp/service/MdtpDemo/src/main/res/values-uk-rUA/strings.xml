@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"Програма користувача MDTP: головний екран"</string>
+    <string name="config_app">"Програма користувача MDTP: конфігурація"</string>
+    <string name="server_app">"Сервер MDTP: головний екран"</string>
+    <string name="action_settings">"Налаштування"</string>
+    <string name="label_1_1">"Стан MDTP:"</string>
+    <string name="state_deactivated">"Деактивовано"</string>
+    <string name="state_activated">"Активовано"</string>
+    <string name="configuration">"Конфігурація (лише перед активацією)"</string>
+    <string name="service_activate">"Запитати активацію MDTP у служб MDTP"</string>
+    <string name="service_deactivate">"Запитати деактивацію MDTP у служб MDTP"</string>
+    <string name="local_deactivate">"Локальна деактивація MDTP (з використанням PIN-коду)"</string>
+    <string name="service_console">"Консоль служб MDTP"</string>
+    <string name="title_activity_configuration">"Конфігурація користувача"</string>
+    <string name="label_2_1">"Використовувати локальний PIN-код:"</string>
+    <string name="label_2_2">"PIN-код:"</string>
+    <string name="gen_rand_pin">"Створити довільний PIN-код"</string>
+    <string name="label_2_3">"Коефіцієнт перевірки:"</string>
+    <string name="label_2_5">"Увімкнути блокування SIM-картки:"</string>
+    <string name="label_2_6">"Додаткові файли/каталоги для перевірки:"</string>
+    <string name="reset">"Відновити стандартні налаштування"</string>
+    <string name="label_3_1">"Надсилати команди із сервера на пристрій:"</string>
+    <string name="activate">"Активувати"</string>
+    <string name="deactivate">"Деактивувати"</string>
+    <string name="locksim">"Блокувати SIM-картку"</string>
+    <string name="unlocksim">"Розблокувати SIM-картку"</string>
+    <string name="killfunc">"Зупинити функцію"</string>
+    <string name="restorefunc">"Відновити функцію"</string>
+    <string name="label_3_2">"Запити на деактивацію MDTP:"</string>
+    <string name="notallowed">"Не дозволено"</string>
+    <string name="allowed">"Дозволено"</string>
+    <string name="label_3_3">"Запити на розблокування SetupWizard:"</string>
+    <string name="label_3_4">"Журнал служби:"</string>
+    <string name="wizard_app_loading_title">"MDTP SetupWizard: Ініціалізація..."</string>
+    <string name="label_4_1">"SetupWizard заблоковано, тому що активовано MDTP"</string>
+    <string name="label_4_2">"Параметр А: залишити службу MDTP активованою, але запитати авторизацію сервера"</string>
+    <string name="wiz_unblock">"Запитати розблокування SetupWizard у служб MDTP"</string>
+    <string name="wiz_cont">"Продовжити (авторизовано із сервера)"</string>
+    <string name="label_4_3">"Параметр Б: деактивувати MDTP (блокування SetupWizard буде знято)"</string>
+    <string name="wiz_remote">"Запитати віддалену деактивацію MDTP"</string>
+    <string name="wiz_local">"Локальна деактивація MDTP"</string>
+    <string name="label_4_4">"SetupWizard може продовжувати роботу, тому що MDTP НЕ активовано"</string>
+    <string name="wiz_complete">"Завершити роботу SetupWizard (стан MDTP: не активовано)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"Майстер налаштування"</string>
+    <string name="label_signup_message">"MDTP зараз не активовано.\nАктивувати?"</string>
+    <string name="label_signup_message_activated">"MDTP успішно активовано!"</string>
+    <string name="skip_activation">"Пропустити активацію"</string>
+    <string name="emergency_dialer">"Аварійний телефон"</string>
+    <string name="wiz_title_sign_up">"MDTP SetupWizard – реєстрація"</string>
+    <string name="wiz_title_reset_prot">"MDTP SetupWizard – захист від скидання даних"</string>
+    <string name="wiz_title_boot_block">"MDTP SetupWizard – пристрій заблоковано"</string>
+    <string name="block_boot_warning_text">"Служба MDTP заблокувала цей пристрій через внутрішню помилку.\n\nПерезавантажте пристрій."</string>
+    <string name="start_wifi_wizard">"налаштування Wi-Fi"</string>
+    <string name="default_pin_hint">"Стандартний PIN-код: 11111"</string>
+    <string name="pin_dialog_title">"Потрібен PIN-код локальної деактивації MDTP"</string>
+    <string name="pin_input_validation_warning">"Потрібно ввести 5 цифр"</string></resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Mostrar indicadores de depuración"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"Guardar imágenes"</string>
+    <string name="debug_pref_save_pictures_desc">"Guardar imágenes capturadas en tarjeta SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"Guardar marcos de vista previa"</string>
+    <string name="debug_pref_save_preview_frames_desc">"Guardar marcos de vista previa en tarjeta SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Permitir eliminación de marcos de vista previa"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"Al guardar marcos de vista previa, permite su eliminación para mantener la velocidad"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Habilita el registro detallado del reconocimiento de cara"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

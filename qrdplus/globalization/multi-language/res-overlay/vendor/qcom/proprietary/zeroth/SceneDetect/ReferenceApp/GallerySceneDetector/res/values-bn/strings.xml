@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"QC Gallery Scene Detect"</string>
+    <add-resource type="string" name="app_description"/>
+    <string name="app_description">"ছবির মধ্যে দৃশ্যের স্বয়ংক্রিয় শনাক্তকরণ।"</string>
+    <add-resource type="string" name="settings_menu"/>
+    <string name="settings_menu">"সেটিংস"</string>
+    <add-resource type="string" name="about_menu"/>
+    <string name="about_menu">"সম্বন্ধে"</string>
+    <add-resource type="string" name="clearassetdatabase_menu"/>
+    <string name="clearassetdatabase_menu">"ডেটাবেস সাফ করুন"</string>
+    <add-resource type="string" name="resetapp_menu"/>
+    <string name="resetapp_menu">"অ্যাপ পুনঃসেট করুন"</string>
+    <add-resource type="string" name="imageview_description"/>
+    <string name="imageview_description">"ছবির থাম্বনেল"</string>
+    <!--  filter UI -->
+    <add-resource type="string" name="filter_filter_header_text"/>
+    <string name="filter_filter_header_text">"ফিল্টার করুন"</string>
+    <add-resource type="string" name="reset_filter_button_text"/>
+    <string name="reset_filter_button_text">"পরিষ্কার করুন"</string>
+    <add-resource type="string" name="udc_add_dialog_title"/>
+    <string name="udc_add_dialog_title">"নতুন ধারণা যোগ করুন"</string>
+    <add-resource type="string" name="udc_add_dialog_ok"/>
+    <string name="udc_add_dialog_ok">"যোগ করুন"</string>
+    <add-resource type="string" name="udc_add_dialog_cancel"/>
+    <string name="udc_add_dialog_cancel">"বাতিল"</string>
+    <!-- gallery mode processing -->
+    <add-resource type="string" name="engine_notification_title"/>
+    <string name="engine_notification_title">"Qualcomm Technologies Inc, Zeroth SceneDetect"</string>
+    <add-resource type="string" name="engine_notification_scanning"/>
+    <string name="engine_notification_scanning">"SceneDetect আপনার ডিভাইসকে স্ক্যান করছে\u2026"</string>
+    <add-resource type="string" name="engine_notification_analyzing"/>
+    <string name="engine_notification_analyzing">"SceneDetect আপনার ছবিগুলিকে বিশ্লেষণ করছে\u2026"</string>
+    <add-resource type="string" name="engine_notification_training"/>
+    <string name="engine_notification_training">"SceneDetect আপনার মডেলগুলিকে আপডেট করছে\u2026"</string>
+    <add-resource type="string" name="engine_notification_storing"/>
+    <string name="engine_notification_storing">"শ্রেণীবিভাগের ফলাফল ডেটাবেসে সঞ্চয় করা হচ্ছে..."</string>
+    <!--  first part: number, second part: already formatted minutes or seconds -->
+    <add-resource type="string" name="engine_notification_togo"/>
+    <string name="engine_notification_togo">"SceneDetect আপনার ছবিগুলিকে বিশ্লেষণ করছে: %1$d করতে হবে, %2$s বাকি আছে।"</string>
+    <add-resource type="string" name="engine_notification_togo_minutes"/>
+    <string name="engine_notification_togo_minutes">"%1$d মিনিট"</string>
+    <add-resource type="string" name="engine_notification_togo_minute"/>
+    <string name="engine_notification_togo_minute">"1 মিনিট"</string>
+    <add-resource type="string" name="engine_notification_togo_seconds"/>
+    <string name="engine_notification_togo_seconds">"%1$d সেকেন্ড"</string>
+    <add-resource type="string" name="loading_notification"/>
+    <string name="loading_notification">"লোড করা হচ্ছে\u2026"</string>
+    <!-- used in parsing preference values for threshold file -->
+    <add-resource type="string" name="asset_prefix"/>
+    <string name="asset_prefix">"assets://"</string>
+    <add-resource type="string" name="sdcard_prefix"/>
+    <string name="sdcard_prefix">"sdcard://"</string>
+    <add-resource type="string" name="splash_screen_logo_image"/>
+    <string name="splash_screen_logo_image">"স্প্ল্যাশ স্ক্রিন লোগোর ছবি।"</string>
+    <add-resource type="string" name="all_photos"/>
+    <string name="all_photos">"সব ছবি"</string>
+    <add-resource type="string" name="all_videos"/>
+    <string name="all_videos">"সব ভিডিও"</string>
+    <add-resource type="string" name="all_media"/>
+    <string name="all_media">"সব মিডিয়া"</string>
+    <add-resource type="string" name="album_title"/>
+    <string name="album_title">"অ্যালবাম"</string>
+    <!-- not used for some reason
+    <string name="gallery_bic_tab_title">Filter</string> -->
+    <add-resource type="string" name="gallery_udc_tab_title"/>
+    <string name="gallery_udc_tab_title">"ব্যক্তিগত"</string>
+    <add-resource type="string" name="positive_example_desc"/>
+    <string name="positive_example_desc">"ছবিটিকে একটি পজিটিভ প্রশিক্ষণের উদাহরণরূপে ব্যবহার করা হয়েছে"</string>
+    <add-resource type="string" name="negative_example_desc"/>
+    <string name="negative_example_desc">"ছবিটিকে একটি নেগেটিভ প্রশিক্ষণের উদাহরণরূপে ব্যবহার করা হয়েছে"</string>
+    <add-resource type="string" name="video_notification"/>
+    <string name="video_notification">"ভিডিও"</string>
+    <add-resource type="string" name="create_udc_action_title"/>
+    <string name="create_udc_action_title">"ধারণা তৈরি করুন"</string>
+    <add-resource type="string" name="add_positive_training_example_title"/>
+    <string name="add_positive_training_example_title">"পজিটিভ যোগ করুন"</string>
+    <add-resource type="string" name="add_negative_training_example_title"/>
+    <string name="add_negative_training_example_title">"নেগেটিভ যোগ করুন"</string>
+    <add-resource type="string" name="train_udc_multiselect_title"/>
+    <string name="train_udc_multiselect_title">"ধারণাকে প্রশিক্ষিত করুন"</string>
+    <add-resource type="string" name="create_udc_multiselect_title"/>
+    <string name="create_udc_multiselect_title">"ধারণা তৈরি করুন"</string>
+    <add-resource type="string" name="multiselect_num_selected_suffix"/>
+    <string name="multiselect_num_selected_suffix">"নির্বাচিত"</string></resources>

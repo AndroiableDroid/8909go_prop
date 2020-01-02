@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Predstavitve SDP SDK"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Razširjeno zunaj zaslona"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Stranski kanal v ozadju"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Prst ali pisalo + pritisk"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Nagib okoli osi"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Pomikanje in stranski gumb"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Radirka in izklop brisanja"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"Ta predstavitev prikazuje funkcijo delovanja zunaj zaslona.\n\n1. Rišite zunaj zaslona in si risbo oglejte na desni strani.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. V spodnjem desnem kotu navideznega zaslona je gumb. Če želite spremeniti prosojnost kroga, se pomikajte nad gumbom na različnih višinah.\n\n3. Pritisnite ga, da spremenite barvo kroga."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"V tej predstavitvi si lahko ogledate, kako deluje stranski kanal v ozadju, ko je zaslon vklopljen ali izklopljen.\n\n1. Rišite zunaj zaslona in si oglejte risbo.\n\n2. Nato preklopite na drugo aplikacijo ali izklopite zaslon – vaša risba je še vedno posneta."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Pomikanje po zaslonu"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Pomikajte se nad zaslonom na različnih višinah.\n\n2. Če želite onemogočiti pomikanje, uporabite stikalo.\n\n3. Uporabite drsnik, da nastavite največjo razdaljo za dogodke pomikanja.\n\n4. S pritiskanjem stranskih gumbov spremenite barvo kroga za pomikanje."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. V globalnih nastavitvah konfigurirajte gumb SDP tako, da bo to gumb radirke.\n\n2. Rišite.\n\n3. Nastavite radirko tako, da preklopite s tapom. Pritisnite gumb radirke. Če znova pritisnete gumb radirke, preklopite na način pisala.\n\n4. Nastavite radirko tako, da brišete s pridržanjem. Zdaj lahko brišete z neposrednim dotikom.\n\n5. Če želite onemogočiti funkcijo brisanja, uporabite stikalo za izklop brisanja."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Izklop brisanja"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Brisanje risalne površine"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Rišite s pisalom in nato s prstom.\nNačina lahko ločite po različnih barvah.\nŠirino poteze nastavite s pritiskom, kar je prikazano tudi s številkami."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Pritisk"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

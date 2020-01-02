@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK Demos"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Pinalawak sa Offscreen"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Background ng Side-Channel"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Daliri vs. Stylus + Presyur"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Tilt ng Axis"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Pag-hover at Side-Button"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Pambura at Bypass ng Pambura"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"Ipinapakita ng demo na ito ang off-screen feature.\n\n1. Magdrowing off-screen at tingnan ang iyong drowing sa kanan.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. Sa ibabang kanang sulok ng virtual screen may isang button. Mag-hover sa itaas nito sa iba\'t ibang taas upang palitan ang opacity ng bilog.\n\n3. Pindutin ito upang palitan ang kulay ng bilog."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"Ipinapakita ng demo na ito kung paano tatakbo ang background side channel habang naka-on o off ang screen.\n\n1. Mag-drowing off-screen at tingnan ang iyong drowing.\n\n2. Ngayon lumipat sa ibang app, o i-set na naka-off ang screen - nai-rerecord pa rin ang iyong drowing."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Hover sa On-Screen"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Mag-hover sa itaas ng screen sa iba\'t ibang taas.\n\n2. Gamitin ang paglipat upang i-disable ang pag-hover.\n\n3. Gamitin ang slider upang itakda ang pinakamalayong distansya para sa mga pag-hover na kaganapan.\n\n4. Papalitan ng pagpindot sa mga side-button ang kulay ng bilog ng hover."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. Paki-configure ang SDP button upang maging button ng pambura sa mga global setting.\n\n2. Magdrowing.\n\n3. I-set ang pambura sa Pindutin upang i-toggle. Pindutin ang button ng pambura. Burahin. Ang muling pagpindot sa button ng pambura ay maglilipat sa pen mode.\n\n4. Itakda ang pambura sa Hawakan upang burahin. Ngayon maaari ka nang magbura sa agarang paghawak.\n\n5. Ngayon gamitin ang paglipat ng bypass ng pambura upang i-disable ang paggana ng pambura."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Bypass ng pambura"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Canvas ng Pambura"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Magdrowing gamit ang pen, sa halip na ang iyong daliri.\nAng dalawang paraang ito ay nakikilala sa ibang kulay.\nAng lapad ng stroke ay itinatakda ng presyur, na nakikita rin bilang numero."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Presyur"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

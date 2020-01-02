@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SecProtect"</string>
+    <string name="settings">"설정"</string>
+    <string name="advanced">"고급"</string>
+    <string name="failed">"실패"</string>
+    <string name="help">"도움말"</string>
+    <string name="ok">"확인"</string>
+    <string name="cancel">"취소"</string>
+    <string name="login">"로그인"</string>
+    <!-- File protection -->
+    <string name="file_protection">"파일 보호"</string>
+    <!-- EncrypteData -->
+    <string name="encryptdata">"파일 암호화"</string>
+    <string name="encryptdata_title">"파일 암호화"</string>
+    <string name="encryptdata_summary">"파일 암호화 및 암호 해독"</string>
+    <string name="file_explorer_title">"암호화/암호 해독할 파일 선택"</string>
+    <string name="encrypt">"암호화"</string>
+    <string name="encrypting">"암호화 중"</string>
+    <string name="encrypt_summary">"파일 암호화"</string>
+    <string name="encrypt_hint">"암호화할 파일 선택"</string>
+    <string name="decrypt">"암호 해독"</string>
+    <string name="decrypting">"암호 해독 중"</string>
+    <string name="decrypt_summary">"암호화된 파일 암호 해독"</string>
+    <string name="decrypt_hint">"암호 해독할 암호화된 파일 선택"</string>
+    <string name="grant">"부여"</string>
+    <string name="deny">"거부"</string>
+    <string name="prompt">"사용자 통지"</string>
+    <!-- AuthAccess -->
+    <string name="remember_choice">"선택사항 기억"</string>
+    <string name="authaccess">"승인된 액세스"</string>
+    <string name="access_protected_data">"보호된 파일에 액세스 시도"</string>
+    <string name="authaccess_summary">"파일을 보호된 영역으로 이동합니다. 보호된 파일에 액세스하려면 승인이 필요합니다."</string>
+    <string name="authaccess_title">"승인된 액세스"</string>
+    <string name="protect">"보호"</string>
+    <string name="deprotect">"보호 해제"</string>
+    <string name="app_config">"앱 구성"</string>
+    <string name="password">"비밀번호"</string>
+    <string name="create_password">"비밀번호 만들기"</string>
+    <string name="confirm_password">"비밀번호 확인"</string>
+    <string name="change_password">"비밀번호 변경"</string>
+    <string name="empty_password_hint">"비밀번호를 입력하세요."</string>
+    <string name="empty_confirm_password_hint">"비밀번호를 확인하세요."</string>
+    <string name="inconsistent_password_hint">"비밀번호 불일치"</string>
+    <string name="input_restriction">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_</string>
+    <string name="create_password_hint">"암호화/암호 해독 전에 먼저 비밀번호를 설정하세요.\n나중에 암호화된 파일의 암호를 해독하는 데 이 비밀번호를 제공해야 합니다."</string>
+    <string name="password_error">"비밀번호 오류"</string>
+    <string name="password_wrong">"잘못된 비밀번호입니다"</string>
+    <string name="need_password_toast">"먼저 비밀번호를 설정하세요."</string>
+    <string name="no_record">"기록 없음"</string></resources>

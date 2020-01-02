@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"वर्बोस"</item>
+        <item>"डीबग करें"</item>
+        <item>"जानकारी"</item>
+        <item>"चेतावनी"</item>
+        <item>"त्रुटि"</item>
+        <item>"घातक"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"SD कार्ड"</item>
+        <item>"आंतरिक मेमोरी"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"लॉग फ़ाइल में लिखने में असमर्थ. लॉग संदेश सहेजे नहीं जा रहे हैं. लॉग फ़ाइल के पुनः उपलब्ध हो जाने पर लॉगिंग प्रक्रिया स्वचालित रूप से फिर से शुरू हो जाएगी"</string>
+    <string name="err_lowspace">"कम स्पेस होने का पता चला. लॉग संदेश सहेजे नहीं जा रहे हैं. पर्याप्‍त स्पेस हो जाने पर लॉगिंग प्रक्रिया स्वचालित रूप से फिर से शुरू हो जाएगी"</string>
+  <string name="txtTag_text">"टैग का नाम"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"Logcat विवरण"</string></resources>

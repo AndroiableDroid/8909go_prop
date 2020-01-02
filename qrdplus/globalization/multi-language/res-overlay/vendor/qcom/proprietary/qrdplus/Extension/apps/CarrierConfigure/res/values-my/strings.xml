@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"ဖုန်းကုမ္ပဏီ သီးသန့်စီစဉ်ထားရှိမှု"</string>
+    <string name="multisim_category_text">"အများအပြား သီးသန့်သတ်မှတ်ချက်"</string>
+    <string name="preset_category_text">"တရုတ် ဖုန်းဆက်သွယ်ရေး ဝန်ဆောင်မှု ပေးသူ"</string>
+    <string name="preset_category_text_default">"ပုံသေ"</string>
+    <string name="preset_category_text_china">"တရုတ် ဝန်ဆောင်မှုပေးသူ"</string>
+    <string name="preset_category_text_regional">"ဒေသဆိုင်ရာ"</string>
+    <string name="sim_ssss_text">"Sim တစ်ခု အရန် တစ်ခု"</string>
+    <string name="sim_dsds_text">"Sim နှစ်ခု အရန် နှစ်ခု"</string>
+    <string name="sim_dsda_text">"Sim နှစ်ခု လုပ်ဆောင်မှု နှစ်ခု"</string>
+    <string name="progress_wait">"စီစဉ် သတ်မှတ်နေသည်\u2026"</string>
+    <string name="alert_update_sim_mode_title">"SIM အနေအထားကို အပ်ဒိတ်လုပ်ပါ"</string>
+    <string name="alert_update_sim_mode_text">"SIM အနေအထား ပြောင်းလဲမှုသည် ဖုန်းကို ပြန်လုပ်ဆောင်စေပြီးသည့်နောက် အလုပ်လုပ်လိမ့်မည်။ ယခု အပ်ဒိတ်လုပ်လိုပါသလား?"</string>
+    <string name="alert_switch_title">"ဖုန်းဆက်သွယ်ရေး ၀န်ဆောင်မှုပေးသူ ပြောင်းပါ"</string>
+    <string name="alert_switch_text">"ဆင်းမ်-မျိုးစုံ သီးသန့် သတ်မှတ်ချက်အတွက် ဒေတာများအပါအဝင် ဒေတာအားလုံးကို ဤလုပ်ဆောင်ချက်က ဖျက်လိမ့်မည်။"</string>
+    <string name="alert_switch_error">"ဖုန်းဆက်သွယ်ရေး ၀န်ဆောင်မှုပေးသူ ပြောင်းခြင်း မအောင်မြင်ပါ၊ ကျေးဇူးပြု၍ လုံလောက်သော နေရာရှိမရှိ စစ်ဆေးပါ။"</string>
+    <string name="notice_row_title">"အသိပေးချက်"</string>
+    <string name="notice_row_text">"သင့် SIM ကတ်နှင့် လိုက်လျောညီထွေဆောင်ရွက်ရန် သင့်ဖုန်းကို သတ်မှတ်ထားပြီးပါပြီ။ ဖွဲ့စည်းတည်ဆောက်မှုအသစ်ကို ထိရောက်မှုရှိစေရန် သင့်ဖုန်းကို ပြန်လည်စတင်လုပ်ဆောင်ပါ။"</string>
+    <string name="notice_special_install_title">"ဂရုပြုရန်"</string>
+    <string name="notice_special_install_text">"သင့် SIM ကတ်နှင့် လိုက်လျောညီထွေ ဆောင်ရွက်ရန် သင့်ဖုန်းကို သတ်မှတ်နိုင်သည်။ သို့သော် ဤလုပ်ဆောင်ချက်က ဒေတာအားလုံးကို ဖျက်ပစ်လိမ့်မည်။ ယခု သတ်မှတ်လိုပါသလား?"</string>
+    <string name="welcome_title">"ကြိုဆိုပါ၏"</string>
+    <string name="welcome_message">"သင့်ဘာသာစကားကို ရွေးပါ"</string>
+    <string name="start_text">"စတင်ပါ"</string>
+    <string name="emergency_call_text">"အရေးပေါ် ဖုန်းခေါ်ဆိုမှု"</string>
+    <string name="trigger_title">"ပုံပေါ်စေသည်"</string>
+    <string name="trigger_message">"ပက်ကေ့ရှ်တစ်ခု ရွေးချယ်ပါ"</string>
+    <string name="trigger_uninstall_message">"Sim ကတ်နှင့် မည်သည့် အထုတ်မှ ကိုက်ညီခြင်းမရှိပါ။ သင့်ဖုန်းကို အခြေခံ အထုတ်နှင့် ပြန်လည် သတ်မှတ်နိုင်သည်။\n\nသင့်ဖုန်းကို ဖော်ပြပါသို့ ပြန်သတ်မှတ်ပါ-"</string>
+    <string name="trigger_no_text">"သီးသန့် မသတ်မှတ်ပါနှင့်"</string>
+    <string name="trigger_yes_text">"တပ်ဆင်မှုကို စတင်ပါ"</string>
+    <string name="trigger_ask_text">"နောက်မှ မေးပါ"</string>
+    <string name="begin_config_text">"တပ်ဆင်မှုကို စတင်ပါ"</string>
+    <string name="alter_no_carrier_selected">"မိုဘိုင်းအော်ပရေတာ ရွေးချယ်ထားခြင်းမရှိပါ၊ ကျေးဇူးပြု၍ တစ်ခု သို့မဟုတ် ပိုရွေးပါ။"</string>
+    <string name="download_ota_package_title">"ota ဖိုင်များ ဒေါင်းလုပ်လုပ်ပါ"</string>
+    <string name="download_ota_package_message">"လုပ်ဆောင်နေဆဲ..."</string>
+    <string name="alter_network_state_error">"ကွန်ယက်အခြေအနေကို ကျေးဇူးပြု၍ စစ်ဆေးပါ။"</string>
+    <string name="alter_file_not_found_error">"ota ဖိုင်ကို သိုလှောင်၍မရပါ၊ ကျေးဇူးပြု၍ သိုလှောင်မှုအခြေအနေကို စစ်ဆေးပါ။"</string>
+    <string name="carrier_clear_final_desc">"သင်၏ ကိုယ်ရေး အချက်အလက်အားလုံးနှင့် ဝန်ဆောင်ပေးသူ ဖွဲ့စည်းလုပ်ဆောင်ချက်ကို ဖျက်မလား? ဤလုပ်ဆောင်ချက်ကို ပြန်လည်လုပ်ဆောင်၍ မရနိုင်ပါ!"</string>
+    <string name="carrier_clear_final_button_text">"အားလုံးကိုဖျက်ရန်"</string>
+    <string name="carrier_clear_no_default_pack">"သင့်ကိရိယာတွင် မူလအစု မရှိပါ။"</string>
+    <string name="carrier_clear_parsing_not_finish">"မူလအစုကို ရှာဖွေနေဆဲဖြစ်သည်။"</string></resources>

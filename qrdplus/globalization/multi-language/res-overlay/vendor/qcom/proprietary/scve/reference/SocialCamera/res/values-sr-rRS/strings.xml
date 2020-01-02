@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Друштвена камера"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"Дошло је до грешке приликом проверавања или захтевања дозвола. За додатне детаље, погледајте logcat."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Пошаљи (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"Прекинута је веза са камером"</string>
+    <string name="camera_preview_error_camera_error">"Грешка камере: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Снимање слике није успело"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Дошло је до грешке приликом чувања слике у вашој галерији"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Подешавања"</string>
+    <string name="camera_settings_category_camera_settings">"Подешавања камере"</string>
+    <string name="camera_settings_category_fr_settings">"Подешавања препознавања лица"</string>
+    <string name="camera_settings_category_debug_settings">"Подешавања за отклањање грешке"</string>
+    <string name="camera_settings_fr_database_cleared">"База података препознавања лица је обрисана"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Одбаци"</string>
+    <string name="picture_review_send_faces">"Пошаљи (%d)"</string>
+    <string name="picture_review_no_faces">"Нико није пронађен на овој фотографији"</string>
+    <string name="picture_review_error_face_recognition">"Дошло је до грешке приликом препознавања лица"</string>
+    <string name="picture_review_error_face_enroll">"Нажалост, дошло је до грешке приликом чувања овог лица. Снимите још једну слику и покушајте поново."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Други контакт\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Подели подешавања"</string>
+    <string name="fr_share_settings_button_just_once">"Само једном"</string>
+    <string name="fr_share_settings_button_always">"Увек"</string>
+    <string name="fr_share_settings_share_method_sms">"Порука"</string>
+    <string name="fr_share_settings_share_method_email">"Имејл"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Vidi ovo!"</string>
+    <string name="social_sharing_error_no_email_app">"Немате апликацију која омогућава слање е-порука"</string></resources>

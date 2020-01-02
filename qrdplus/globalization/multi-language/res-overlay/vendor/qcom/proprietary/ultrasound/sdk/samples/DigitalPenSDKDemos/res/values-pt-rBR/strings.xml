@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Demos de SDK SDP"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Offscreen estendida"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Canal lateral em segundo plano"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Dedo x ponteira + pressão"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Inclinação do eixo"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Pairar e botão lateral"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Apagador e desvio do apagador"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"Este demo demonstra o recurso fora de tela.\n\n1. Desenhe fora da tela e veja seu desenho à direita.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. No canto inferior direito da tela virtual há um botão. Paire sobre ele em diferentes alturas para mudar a opacidade do círculo.\n\n3. Pressione-o para mudar a cor do círculo."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"Este demo mostra como o canal lateral em segundo plano pode funcionar quando a tela está ativada ou desativada.\n\n1. Desenhe fora da tela para ver seu desenho.\n\n2. Agora alterne para outro app ou desative a tela - seu desenho ainda estará registrado."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Pairar na tela"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Paire sobre a tela a diferentes alturas.\n\n2. Use o botão para desativar o recurso de pairar.\n\n3. Use a barra deslizante para definir a distância máxima dos eventos de pairar.\n\n4. Pressionar os botões laterais mudará a cor do círculo do recurso de pairar."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. Configure o botão SDP para ser o botão do apagador nas configurações globais.\n\n2. Desenhar.\n\n3. Defina o apagador para \"Tocar para alternar\". Pressione o botão do apagador. Apague. Pressione o botão novamente para alternar para o modo caneta.\n\n4. Defina o apagador para \"Manter para apagar\". Agora você pode apagar com um toque imediato.\n\n5. Agora use o botão do desvio do apagador para desativar a funcionalidade do apagador."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Desvio do apagador"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Apagar tela"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Desenhe com a caneta, depois com o dedo.\nOs dois métodos são reconhecidos por cores diferentes.\nA largura do traço é definida pela pressão, que também é visível numericamente."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Pressão"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

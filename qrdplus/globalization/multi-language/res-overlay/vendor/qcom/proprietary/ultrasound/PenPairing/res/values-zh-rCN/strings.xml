@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP 配对"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"骁龙数字笔配对"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"设置"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"确定"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"选择要显示的笔位置"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"选择新笔的序列号"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"选择要使用的笔类型"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"开始配对"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"在圆圈内垂直握笔以开始配对过程"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"手动配对"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"半自动配对"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"选择一种配对方式"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"配对新笔"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"管理已配对的笔"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"SW 校准"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"在圆圈内垂直握笔以开始配对过程。\n成功完成后，将开始校准过程。"</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"服务中心测试器"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"在圆圈内垂直握笔以开始配对过程。\n成功完成后，将开始测试过程。"</string></resources>

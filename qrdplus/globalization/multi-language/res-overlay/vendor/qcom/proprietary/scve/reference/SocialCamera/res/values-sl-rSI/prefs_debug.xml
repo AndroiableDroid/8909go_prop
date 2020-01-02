@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Prikaz podatkov odstranjevanja napak"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"Shrani slike"</string>
+    <string name="debug_pref_save_pictures_desc">"Shrani posnete slike na kartico SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"Shrani slike za predogled"</string>
+    <string name="debug_pref_save_preview_frames_desc">"Shrani slike za predogled na kartico SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Dovoli spuščanje slik predogleda"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"Pri shranjevanju slik predogleda dovoli spuščanje slik, da se ohrani število slik v sekundi"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Omogoči podrobno zapisovanje v dnevnik za prepoznavanje obraza"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

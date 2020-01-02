@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"Hay veinticuatro horas en un día"</string>
+    <string name="hi_snapdragon">"Hola Snapdragon"</string>
+    <string name="hey_snapdragon">"Hola Snapdragon"</string>
+    <string name="my_voice">"Mi voz es mi contraseña"</string>
+    <string name="make_my_day">"Alégrame el día"</string>
+    <string name="tomorrow_is_another">"Mañana es otro día"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"Bienvenido a San Diego"</string>
+    <string name="okay_google">"OK Google"</string>
+    <string name="open_my_email">"Abre Mi Correo electrónico"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"Impresión de voz"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"Ajustes"</string>
+    <string name="action_add">"Añadir"</string>
+    <string name="title_activity_main_with_fragment">"PrincipalConActividadFragmento"</string>
+    <string name="tap_mic_start">"Toca el micrófono para empezar"</string>
+    <string name="tap_mic_stop">"Toca el micrófono para parar"</string>
+    <string name="say_key_phrase">"Di\"&lt;b&gt;%1$s&lt;/b&gt;\" "</string>
+    <string name="say_one_more_time">"Di la frase \"&lt;b&gt;%1$s&lt;/b&gt;\" una vez más."</string>
+    <string name="say_one_of_key_phrases">"Di una de las frases clave"</string>
+    <string name="phrase_recognized">"Se reconoce la frase \"&lt;b&gt;%1$s&lt;/b&gt;\" "</string>
+    <string name="recording_length_exceeded">"Longitud de grabación excedida"</string>
+    <string name="recording_length_exceeded_msg">"Se ha excedido la longitud de grabación. Intenta de nuevo."</string>
+    <string name="delete_all">"Eliminar todo"</string>
+    <string name="delete_all_msg">"¿Seguro que quieres eliminar todas las plantillas inscritas?"</string>
+    <string name="got_it">"Magnífico. Comprendido."</string>
+    <string name="set_key_phrase">"Establecer frase clave"</string>
+    <string name="set_key_phrase_name">"Establecer nombre de frase clave"</string>
+    <string name="set_key_phrase_action">"Establecer acción"</string>
+    <string name="change_key_phrase_action">"Cambiar acción"</string>
+    <string name="phrase_strength">"Fuerza de la frase"</string>
+    <string name="phrase_strength_hint">"Trata con una frase que contenga al menos tres palabras."</string>
+    <string name="register_phrase">"Registrar frase"</string>
+    <string name="register_phrase_hint">"Para ayudarme a reconocer tu voz, graba la frase \"&lt;b&gt;%1$s&lt;/b&gt;\" tres veces."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" Graba en una habitación silenciosa.\n\n"<b>"2."</b>" Sostén el micrófono lejos de la boca.\n\n"<b>"3."</b>" Di tu frase clave de manera natural."</string>
+    <string name="ready_to_record">"BIEN. ESTOY LISTO PARA GRABAR"</string>
+    <string name="oops">"¡Ups! Intenta de nuevo"</string>
+    <string name="say_the_phrase">"Di la frase \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"La frase \"&lt;b&gt;%1$s&lt;/b&gt;\" se registró"</string>
+    <string name="say_the_phrase_few_more">"Di \"&lt;b&gt;%1$s&lt;/b&gt;\" unas cuantas veces más"</string>
+    <string name="voice_print">"Impresión de voz"</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="voice_level">"Nivel de voz"</string>
+    <string name="background_noise">"Ruido de fondo"</string>
+    <string name="cap_done">"LISTO"</string>
+    <string name="cap_record">"GRABAR"</string>
+    <string name="cap_next">"SIGUIENTE"</string>
+    <string name="cap_ok">"Aceptar"</string>
+    <string name="next">"Siguiente"</string>
+    <string name="new_key_phrase">"Nueva frase clave"</string>
+    <string name="edit_keyphrases">"Editar frases clave"</string>
+    <string name="set_name">"Establecer nombre"</string>
+    <string name="select_key_phrase">"Seleccionar frase clave"</string>
+    <string name="set_action">"Establecer acción"</string>
+    <string name="registration_complete">"Registro completo"</string>
+    <string name="confirm_pin">"Confirmar número de PIN"</string>
+    <string name="confirm_pin_msg">"Introduce el número de PIN del dispositivo para editar frases clave."</string>
+    <string name="your_key_phrase">"Tu frase clave"</string>
+    <string name="cap_redo">"REHACER"</string>
+    <string name="cap_redo_previous">"REHACER ANTERIOR"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"Explorar frases recomendadas"</string>
+    <string name="create_your_own">"Crea tu propia frase"</string>
+    <string name="skip">"Saltar"</string>
+    <string name="none">"Ninguno"</string>
+    <string name="enter_pin">"Introduce el número de PIN del dispositivo para editar frases clave."</string>
+    <string name="your_key_phrase_name">"Nombre de tu frase clave"</string>
+    <string name="new_key_phrase_name">"Nuevo nombre de la frase clave"</string>
+    <string name="set_service_to_launch">"Establecer servicio por lanzar"</string>
+    <string name="email">"Correo"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"Enviar mensaje de texto"</string>
+    <string name="use_selected_phrase">"Usar frase seleccionada"</string>
+    <string name="about">"Información"</string>
+    <string name="edit_key_phrases">"Editar frases clave"</string>
+    <string name="invalid_phrasename_title">"Nombre de frase no válido"</string>
+    <string name="invalid_phrasename_msg">"El nombre de la frase no puede estar vacío."</string>
+    <string name="duplicate_phrasename_msg">"El nombre de la frase ya existe. Prueba con un nombre diferente."</string>
+    <string name="invalid_phrase_title">"Frase inválida"</string>
+    <string name="invalid_phrase_msg">"La frase no puede estar vacía."</string>
+    <string name="edit_action">"Editar acción"</string>
+    <string name="threshold">"Umbral "</string>
+    <string name="delete_phrase">"Eliminar frase"</string>
+    <string name="rename">"Cambiar nombre"</string>
+    <string name="rename_keyphrase">"Cambiar nombre de frase clave"</string>
+    <string name="adjust_keyword_sensitivity">"Ajustar sensibilidad de palabra clave"</string>
+    <string name="adjust_keyword_sensitivity_summary">"La sensibilidad puede ajustarse para permitir alguna variación en el reconocimiento de la frase clave."</string>
+    <string name="sensitivity">"Sensibilidad"</string>
+    <string name="low_sensitivity">"Baja sensibilidad "</string>
+    <string name="med_sensitivity">"Sensibilidad media"</string>
+    <string name="high_sensitivity">"Alta sensibilidad"</string>
+    <string name="low">"BAJA"</string>
+    <string name="med">"MED"</string>
+    <string name="high">"ALTO"</string>
+    <string name="low_sensitivity_summary">"Aceptar más variación en el proceso de reconocimiento de la frase clave. "</string>
+    <string name="med_sensitivity_summary">"Acepta cierta variación en el proceso de reconocimiento de la frase clave, pero puede impedir que algunas frases claves sean reconocidas."</string>
+    <string name="high_sensitivity_summary">"Seguridad adicional, pero puede impedir que algunas frases claves sean reconocidas."</string>
+    <string name="keyword_sensitivity">"Sensibilidad de la palabra clave"</string>
+    <string name="delete_phrase_msg">"¿Estás seguro de que deseas eliminar la frase \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"Impresión de voz no disponible"</string>
+    <string name="voice_print_not_available_msg">"La impresión de voz no está activada en este dispositivo."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"Eliminación exitosa"</string>
+    <string name="delete_success_msg">"El modelo de la frase clave se ha eliminado."</string>
+    <string name="delete_fail_title">"Error en la eliminación"</string>
+    <string name="delete_fail_msg">"Error al eliminar el modelo de frase clave."</string>
+    <string name="rename_success_title">"Cambio de nombre exitoso"</string>
+    <string name="rename_success_msg">"Ha cambiado el nombre del modelo de la frase clave."</string>
+    <string name="rename_fail_title">"Error al cambiar el nombre"</string>
+    <string name="rename_fail_msg">"Error al cambiar el nombre del modelo de la frase clave."</string>
+    <string name="pin_validation">"Validación del PIN"</string>
+    <string name="pin_failed">"Entrada de PIN inválida"</string>
+    <string name="registration_failed">"Error durante la inscripción"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"Umbral de usuario"</string>
+    <string name="spoof_score">"Umbral de suplantación de identidad"</string>
+    <string name="thresholds">"Umbrales"</string>
+    <string name="save">"Guardar"</string>
+    <string name="sentence_score_msg">"Establecer umbral de frase"</string>
+    <string name="user_score_msg">"Establecer umbral de usuario"</string>
+    <string name="spoof_score_msg">"Establecer umbral de suplantación de identidad"</string>
+    <string name="sentence_score">"Umbral de frase"</string></resources>

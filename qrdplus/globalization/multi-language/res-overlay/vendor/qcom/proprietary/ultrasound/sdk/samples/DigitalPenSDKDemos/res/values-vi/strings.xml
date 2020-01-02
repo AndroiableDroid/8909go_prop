@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK Demos"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Ngoài màn hình mở rộng"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Kênh bên nền"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Ngón tay với Bút Stylus + Độ nhấn"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Nghiêng trục"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Rà và Nút bên"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Xóa và phân luồng xóa"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"Bản demo này minh họa tính năng ngoài màn hình.\n\n1. Vẽ ở ngoài màn hình và xem bản vẽ phía bên phải.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. Góc phải bên dưới của màn hình ảo có một nút. Rà phía trên nút ở độ cao khác nhau để thay đổi độ mờ đục của hình tròn.\n\n3. Nhấn nút để thay đổi màu của hình tròn."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"Bản demo này hiển thị cách kênh bên nền có thể hoạt động trong khi màn hình bật hoặc tắt.\n\n1. Vẽ ở ngoài màn hình và xem bản vẽ.\n\n2. Bây giờ chuyển sang ứng dụng khác hoặc tắt màn hình - bản vẽ của bạn vẫn được ghi."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Rà trên màn hình"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Rà trên màn hình ở độ cao khác nhau.\n\n2. Sử dụng công tắc để tắt rà.\n\n3. Sử dụng con trượt để đặt khoảng cách tối đã cho các sự kiện rà.\n\n4. Thao tác nhấn các nút bên sẽ thay đổi màu của hình tròn."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. Vui lòng cấu hình nút SDP thành nút xóa trong cài đặt chung.\n\n2. Vẽ.\n\n3. Đặt bộ xóa thành Chạm để chuyển. Nhấn nút xóa. Xóa. Nhấn lại nút xóa để chuyển sang chế độ bút.\n\n4. Đặt bộ xóa thành Giữ để xóa. Bây giờ bạn có thể xóa khi chạm trực tiếp.\n\n5. Bây giờ sử dụng công tắc phân luồng xóa để tắt chức năng bộ xóa."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Phân luồng xóa"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Xóa toan"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Vẽ bằng bút, rồi bằng ngón tay.\nHai phương pháp được nhận biết bằng màu khác nhau.\nĐộ đậm nét được thể hiện theo độ nhấn, cũng được biểu thị ở dạng số."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Độ nhấn"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

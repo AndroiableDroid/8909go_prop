@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Настройки роуминга"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"Открыть"</string>
+    <string name="data_roaming_title">"Подключаться к службам передачи данных в роуминге"</string>
+    <string name="manual_select_network">"Выбор сети вручную"</string>
+    <string name="roaming_card_info">"Приоритет мобильных бизнес-карт"</string>
+    <string name="network_select_success_info">"Выполнена регистрация в сети “<xliff:g id="name">%s</xliff:g>”. Автоматическая регистрация будет происходить при отсутствии доступа к сети"</string>
+    <string name="network_select_failure_info">"Выбранная сеть “<xliff:g id="name">%s</xliff:g>” недоступна. Выполняется автоматическая регистрация в другой сети"</string>
+    <string name="network_auto_success_info">"Выполнена автоматическая регистрация в сети"</string>
+    <string name="network_auto_failure_info">"Выбранная сеть GSM недоступна, выполняется автоматическая регистрация в другой сети"</string>
+    <string name="manual_select_network_tip">"Действие допустимо только временно"</string>
+    <string name="gsm_network_list_title">"Выборочная сеть"</string>
+    <string name="searching_cdma_network_title">"Выполняется поиск сети CDMA......"</string>
+    <string name="searching_gsm_network_title">"Выполняется поиск сети GSM......"</string>
+    <string name="empty_networks_list">"Сети не найдены."</string>
+    <string name="register_on_network">"Регистрация в сети <xliff:g id="NETWORK">%s</xliff:g>\u2026"</string>
+    <string name="register_automatically">"Автоматическая регистрация..."</string>
+    <string name="network_select_setting">"Настройки сети"</string>
+    <string name="roaming_hotline">"Тел. горячей линии для роуминге +8618918910000"</string>
+    <string name="carrier_names">"China Telecom"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"Отключение данных..."</string>
+    <string name="unable_to_disable_data">"Не удалось отключить данные."</string>
+    <string name="avoid_cur_nwk_succeeded">"Текущая сеть добавлена в список исключений."</string>
+    <string name="avoid_cur_nwk_failed">"Не удалось добавить текущую сеть в список исключений."</string>
+    <string name="clear_nwk_list_succeeded">"Список исключений сетей очищен."</string>
+    <string name="clear_nwk_list_failed">"Не удалось очистить список исключений сетей."</string>
+    <string name="ok_btn">"ОК"</string>
+    <string name="cancel_btn">"Отмена"</string>
+    <string name="confirm_avoid">"Избегать текущей сети?"</string>
+    <string name="confirm_clear">"Очистить список исключений сетей?"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"Выбор CDMA"</string>
+    <string name="pref_gsm_choose_title">"Выбор GSM"</string>
+    <string name="pref_network_info_title">"Информация о текущей сети"</string>
+    <string name="alert_msg_enable_card">"Подключить карту?"</string>
+    <string name="alert_msg_disable_card">"Отключить карту?"</string>
+    <string name="progress_msg_enable_card">"Происходит включение карты. Подождите..."</string>
+    <string name="progress_msg_disable_card">"Происходит отключение карты. Подождите..."</string>
+    <string name="operation_success">"Операция выполнена"</string>
+    <string name="operation_failure">"Сбой операции"</string>
+    <string name="result_btn">"ОК"</string>
+    <string name="alert_data_roaming_title">"Разрешить интернет-роуминг"</string>
+    <string name="alert_data_roaming_msg">"Возможны высокие расходы на использование роуминга!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"Неизвестно"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"Недоступно"</string>
+    <string name="status_network_type">"Тип мобильной сети"</string>
+    <string name="status_signal_strength">"Уровень сигнала"</string>
+    <string name="status_prl_version">"PRL Версия"</string>
+    <string name="status_data_state">"Состояние мобильной сети"</string>
+    <string name="status_netowrk_title">"Состояние текущей SIM-карты"</string>
+    <string name="status_operator_name">"Имя оператора"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"Идентификатор безопасности"</string>
+    <string name="status_nid">"Идентификатор сети"</string>
+    <string name="status_cell_id">"ИД мобильной сети"</string>
+    <string name="status_sms_center_number">"Номер SMS-центра"</string>
+    <string name="status_pnl_version">"Версия списка предпочтительных сетей"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"переключение на следующую сеть вручную"</string>
+    <string name="avoid_discription">"Инструкция:\n  в системе CDMA выполняется автоматический выбор сети, нет необходимости выбора вручную. Но если невозможно использовать текущую сеть, попробуйте вручную переключиться на следующую сеть. "</string>
+    <string name="attention_dialog_title">"Внимание"</string>
+    <string name="disable_both_sim_error_msg">"Невозможно одновременно отключить обе SIM-карты"</string>
+    <string name="China_Mobile">"China Mobile"</string>
+    <string name="China_Unicom">"China Unicom"</string>
+    <string name="China_Telecom">"China Telecom"</string></resources>

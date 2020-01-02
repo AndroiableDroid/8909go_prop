@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"ກຳນົດເວລາເປີດ ແລະປິດແລ້ວ"</string>
+    <string name="timer_switch">"ສະ​ຫຼັບຕົວຈັບເວລາ"</string>
+    <string name="switch_on">"ເປີດເຄື່ອງອັດຕະໂນມັດ"</string>
+    <string name="switch_off">"ປິດເຄື່ອງທີ່ກຳນົດເວລາໄວ້"</string>
+    <string name="every_day">"ທຸກໆມື້"</string>
+    <string name="switch_on_time">"ຕັ້ງເວລາເລີ່ມຕົ້ນ"</string>
+    <string name="switch_off_time">"ຕັ້ງເວລາປິດເຄື່ອງ"</string>
+    <string name="date_time_24hour">"ໃຊ້ຮູບແບບ 24-ຊົ່ວໂມງ"</string>
+    <string name="date_time_date_format">"ເລືອກຮູບແບບວັນທີ"</string>
+    <string name="label">"ປ້າຍໝາຍ"</string>
+    <string name="switch_repeat">"​ເຮັດຊໍ້າຄືນ​"</string>
+    <string name="expand_switch">"ສະວິດຂະຫຍາຍ"</string>
+    <string name="collapse_switch">"ສະວິດຫຍໍ້ລົງ"</string>
+    <!-- Context Menu Item on Timer Switch Settings screen: Reset switch -->
+    <string name="reset_switch">"ສະວິດຕັ້ງຄືນໃໝ່"</string>
+    <string name="day">"1 ວັນ"</string>
+    <string name="days">"<xliff:g id="days">%s</xliff:g> ວັນ"</string>
+    <string name="hour">"1 ຊົ່ວໂມງ"</string>
+    <string name="hours">"<xliff:g id="hours">%s</xliff:g> ຊົ່ວໂມງ"</string>
+    <string name="minute">"1 ນາທີ"</string>
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> ວັນ"</string>
+    <string name="never">"ບໍ່ເຄີຍ"</string>
+    <string name="day_concat">", "</string>
+    <string-array name="switch_set">
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> ຕັ້ງເປັນເວລານ້ອຍກວ່າ 1 ນາທີຈາກດຽວນີ້."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> ຕັ້ງເປັນເວລາ <xliff:g id="DAYS" example="2 days">%2$s</xliff:g> ຈາກດຽວນີ້."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> ຕັ້ງເປັນເວລາ <xliff:g id="HOURS" example="2 hours">%3$s</xliff:g> ຈາກດຽວນີ້."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> ຕັ້ງເປັນເວລາ <xliff:g id="DAYS" example="2 days">%2$s</xliff:g> ແລະ <xliff:g id="HOURS" example="2 hours">%3$s</xliff:g> ຈາກດຽວນີ້."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> ຕັ້ງເປັນເວລາ <xliff:g id="MINUTES" example="2 minutes">%4$s</xliff:g> ຈາກດຽວນີ້."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> ຕັ້ງເປັນເວລາ <xliff:g id="DAYS" example="2 days">%2$s</xliff:g> ແລະ <xliff:g id="MINUTES" example="2 minutes">%4$s</xliff:g> ຈາກດຽວນີ້."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> ຕັ້ງເປັນເວລາ <xliff:g id="HOURS" example="2 hours">%3$s</xliff:g> ແລະ <xliff:g id="MINUTES" example="2 minutes">%4$s</xliff:g> ຈາກດຽວນີ້."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> ຕັ້ງເປັນເວລາ <xliff:g id="DAYS" example="2 days">%2$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%3$s</xliff:g>, ແລະ <xliff:g id="MINUTES" example="2 minutes">%4$s</xliff:g> ຈາກດຽວນີ້."</item>
+    </string-array>
+    <string name="switch_off_dialog_cancel">"ຍົກ​ເລີກ"</string>
+    <string name="switch_off_dialog_ok">"ປິດເຄື່ອງ"</string>
+    <string name="switch_off_dialog_title">"ປິດເຄື່ອງທີ່ກຳນົດເວລາໄວ້"</string>
+    <string name="switch_off_message">"ໂທລະສັບຂອງທ່ານຈະປິດເຄື່ອງໃນ <xliff:g id="seconds">%s</xliff:g> ວິນາທີ"</string>
+    <string name="switch_off_message_second">"ໂທລະສັບຂອງທ່ານຈະປິດເຄື່ອງໃນ <xliff:g id="second">%s</xliff:g> ວິນາທີ"</string></resources>

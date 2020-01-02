@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"STA"</string>
+    <string name="title_settings_activity">"Настройки"</string>
+    <string name="title_contact_activity">"Добавить контакт"</string>
+    <string name="title_event_activity">"Добавить событие"</string>
+    <string name="title_add_field">"Выбрать ярлык"</string>
+    <string name="title_text_activity">"Результаты"</string>
+    <string name="title_pick_datetime">"Выбрать дату и время"</string>
+    <string name="title_app_message">"Написать"</string>
+    <string name="menu_item_copy">"Копировать"</string>
+    <string name="menu_item_edit">"Изменить"</string>
+    <string name="date_picker_ok">"ОК"</string>
+    <string name="date_picker_cancel">"Отмена"</string>
+    <string name="dropdown_none_option">"Без звука"</string>
+    <string name="scan_more">"Дополнительные сведения"</string>
+    <string name="bar_save_option">"Сохранить"</string>
+    <string name="bar_done_option">"Готово"</string>
+    <string name="camera_option_open_image">"Открыть изображение"</string>
+    <string name="camera_option_settings">"Настройки"</string>
+    <string name="text_action_search">"Поиск"</string>
+    <string name="text_action_translate">"Перевести"</string>
+    <string name="text_action_copy">"Копировать"</string>
+    <string name="translate_url">"https://translate.google.com/m/translate#auto/"</string>
+    <string name="instruction_camera">"Используйте камеру, чтобы извлечь полезную информацию с бизнес-карт, листовок и других изображений"</string>
+    <string name="instruction_dont_show">"Больше не показывать"</string>
+    <string name="instruction_dismiss_button">"ОК"</string>
+    <string name="message_no_more_fields">"Больше нет полей для добавления"</string>
+    <string name="message_contact_saved">"Контакт успешно сохранен."</string>
+    <string name="message_calendar_saved">"Событие успешно сохранено в календаре."</string>
+    <string name="message_text_copied">"Текст скопирован."</string>
+    <string name="message_no_matching_app">"Отсутствует приложение для обработки"</string>
+    <string name="message_gallery_pan_zoom">"Можно панорамировать или изменять размер, чтобы распознать графический ключ с этой фотографии."</string>
+    <string name="message_restart_scanning">"Коснитесь для перезагрузки."</string>
+    <string name="message_no_dates">"Нет распознанных дат"</string>
+    <string name="message_hold_steady">"Укажите на текст и удерживайте"</string>
+    <!-- Error information -->
+    <string name="error_prefix">" Ошибка: 0x"</string>
+    <string name="error_title">"Ошибка"</string>
+    <string name="error_dismiss_button">"ОК"</string>
+    <string name="error_camera_failed">"Ошибка камеры при инициализации."</string>
+    <string name="error_camera_snapshot_failed">"Ошибка камеры при захвате снимка экрана."</string>
+    <string name="error_galleryImage_load">"Ошибка приложения при загрузке изображения."</string>
+    <string name="error_api_frame_timeout">"Нет распознанного текста."</string>
+    <string name="error_api_init_failed">"Ошибка интерфейса STA API при инициализации."</string>
+    <string name="error_api_parsing_failed">"Ошибка интерфейса STA API при анализе изображения. Повторите попытку."</string>
+    <string name="error_api_no_records">"Нет распознанного текста."</string>
+    <string name="error_api_restart_failed">"Ошибка перезапуска интерфейса API."</string>
+    <string name="error_api_no_new_records">"Новые данные не найдены."</string>
+    <string name="error_min_max_limit">"Введите значение в диапазоне от %1$s до %2$s"</string>
+    <string name="error_no_sta_data_selected">"Выберите хотя бы одно значение."</string>
+    <!-- Contact information -->
+    <string name="contact_name_field_caption">"ИМЯ"</string>
+    <string name="contact_nickname_field_caption">"ПСЕВДОНИМ"</string>
+    <string name="contact_nickname_field_name">"Псевдоним"</string>
+    <string name="contact_title_field_caption">"ДОЛЖНОСТЬ"</string>
+    <string name="contact_company_field_caption">"КОМПАНИЯ"</string>
+    <string name="contact_phone_work_field_caption">"ТЕЛЕФОН"</string>
+    <string name="contact_phone_work_field_name">"Телефон (рабочий)"</string>
+    <string name="contact_phone_mobile_field_caption">"ТЕЛЕФОН"</string>
+    <string name="contact_phone_mobile_field_name">"Телефон (мобильный)"</string>
+    <string name="contact_phone_home_field_caption">"ТЕЛЕФОН"</string>
+    <string name="contact_phone_home_field_name">"Телефон (домашний)"</string>
+    <string name="contact_phone_fax_field_caption">"ТЕЛЕФОН"</string>
+    <string name="contact_phone_fax_field_name">"Телефон (факс)"</string>
+    <string name="contact_address_field_caption">"АДРЕС"</string>
+    <string name="contact_address_field_name">"Адрес"</string>
+    <string name="contact_email_field_caption">"ЭЛ. ПОЧТА"</string>
+    <string name="contact_email_field_name">"Эл. почта"</string>
+    <string name="contact_website_field_caption">"ВЕБ-САЙТ"</string>
+    <string name="contact_website_field_name">"Веб-сайт"</string>
+    <string name="contact_im_field_caption">"Чат"</string>
+    <string name="contact_relationship_field_caption">"ОТНОШЕНИЕ"</string>
+    <string name="contact_relationship_field_name">"Отношение"</string>
+    <string name="contact_notes_field_caption">"ПРИМЕЧАНИЯ"</string>
+    <string name="contact_notes_field_name">"Примечания"</string>
+    <!-- Event information -->
+    <string name="event_title_field_caption">"ДОЛЖНОСТЬ"</string>
+    <string name="event_from_date_field_caption">"С"</string>
+    <string name="event_to_date_field_caption">"ПО"</string>
+    <string name="event_location_field_caption">"МЕСТОПОЛОЖЕНИЕ"</string>
+    <string name="event_location_field_name">"Местоположение"</string>
+    <string name="event_all_day_field_caption">"ВЕСЬ ДЕНЬ"</string>
+    <string name="event_repeat_field_caption">"ПОВТОР"</string>
+    <string name="event_details_field_caption">"СВЕДЕНИЯ"</string>
+    <string name="event_details_field_name">"Сведения"</string>
+    <string name="event_participants_field_caption">"ЧЛЕНЫ"</string>
+    <string name="event_participants_field_name">"Члены"</string>
+    <string name="event_date_time_format_long">"EEE М/д/гггг ч:мм"</string>
+    <string name="event_date_time_format_small">"М/д/гггг ч:мм"</string>
+    <string name="event_date_format_long">"EEE М/д/гггг"</string>
+    <string name="event_date_format_small">"МММ д, гггг"</string>
+    <string name="event_date_format_month_small">"МММ"</string>
+    <string name="event_date_format_month_full">"ММММ"</string>
+    <string name="event_date_format_year">"гггг"</string>
+    <string name="event_date_format_weekday">"EEE"</string>
+    <string name="event_date_format_small_no_year">"EEE МММ д"</string>
+    <string name="event_time_format">"h:mm a"</string>
+    <string name="event_date_separator">"-"</string>
+    <string name="preview_type_key">"com.qualcomm.qti.sta.captureui.CameraActivity.preview_type"</string>
+    <string name="preview_type_button">"кнопка"</string>
+    <string name="preview_type_auto">"автонастройка"</string>
+    <!-- Repeat -->
+    <string name="repeat_title">"Повтор"</string>
+    <string name="repeat_button_cancel">"Отмена"</string>
+    <string name="repeat_button_ok">"ОК"</string>
+    <string name="repeat_summary_one_time">"Однократное событие"</string>
+    <string name="repeat_summary_daily">"Ежедневно"</string>
+    <string name="repeat_summary_daily_every">"Каждые %1$s дн."</string>
+    <string name="repeat_summary_weekly">"Еженедельно кажд. %1$s"</string>
+    <string name="repeat_summary_weekly_every">"Каждые %1$s нед.%2$s"</string>
+    <string name="repeat_summary_monthly_date">"Ежемесячно в указанный день: %1$s"</string>
+    <string name="repeat_summary_monthly_day">"Ежемесячно кажд. %1$s"</string>
+    <string name="repeat_summary_monthly_date_every">"Каждые %1$s мес. в указанный день: %2$s"</string>
+    <string name="repeat_summary_monthly_day_every">"Каждые %1$s мес. каждый следующий день: %2$s"</string>
+    <string name="repeat_summary_yearly">"Ежегодно каждый следующий день: %1$s"</string>
+    <string name="repeat_summary_yearly_every">"Каждые %1$s лет %2$s"</string>
+    <string name="repeat_summary_till_date">"до %1$s"</string>
+    <string name="repeat_summary_till_events">"%1$s раз"</string>
+    <string name="repeat_summary_till_one_event">"1 раз"</string>
+    <string name="repeat_title_pick_date">"Выбрать дату"</string>
+    <string name="repeat_one_time">"Однократное событие"</string>
+    <string name="repeat_daily">"Ежедневно"</string>
+    <string name="repeat_weekly">"Еженедельно"</string>
+    <string name="repeat_monthly">"Ежемесячно"</string>
+    <string name="repeat_yearly">"Ежегодно"</string>
+    <string name="repeat_till_day">"дн"</string>
+    <string name="repeat_till_week">"нед"</string>
+    <string name="repeat_till_month">"месяц"</string>
+    <string name="repeat_till_year">"г"</string>
+    <string name="sunday_name">"Вс"</string>
+    <string name="monday_name">"Пн"</string>
+    <string name="tuesday_name">"Вт"</string>
+    <string name="wednesday_name">"Ср"</string>
+    <string name="thursday_name">"Чт"</string>
+    <string name="friday_name">"Пт"</string>
+    <string name="saturday_name">"Сб"</string>
+    <string-array name="number_texts">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"пятый"</item>
+    </string-array>
+    <string-array name="two_letter_day_names">
+        <item>"Вс"</item>
+        <item>"Пн"</item>
+        <item>"Вт"</item>
+        <item>"Ср"</item>
+        <item>"Чт"</item>
+        <item>"Пт"</item>
+        <item>"Сб"</item>
+    </string-array>
+    <string-array name="short_day_names">
+        <item>@string/sunday_name</item>
+        <item>@string/monday_name</item>
+        <item>@string/tuesday_name</item>
+        <item>@string/wednesday_name</item>
+        <item>@string/thursday_name</item>
+        <item>@string/friday_name</item>
+        <item>@string/saturday_name</item>
+    </string-array>
+    <string-array name="complete_day_names">
+        <item>"Воскресенье"</item>
+        <item>"Понедельник"</item>
+        <item>"Вторник"</item>
+        <item>"Среда"</item>
+        <item>"Четверг"</item>
+        <item>"Пятница"</item>
+        <item>"Суббота"</item>
+    </string-array>
+    <string name="repeat_month_same_date">"В один и тот же день ежемес."</string>
+    <string name="repeat_month_same_day">"Кажд."</string>
+    <string name="repeat_every_caption">"Кажд."</string>
+    <string-array name="till_types">
+        <item>"Всегда"</item>
+        <item>"До"</item>
+        <item>"Повторы"</item>
+    </string-array>
+    <!-- Settings -->
+    <string name="setting_sta_data_type">"Типы данных STA"</string>
+    <string name="setting_sta_locale_type">"Языковой стандарт STA"</string>
+    <string name="setting_text_record_mode">"Режим камеры"</string>
+    <string name="setting_camera_steady_duration">"Продолжительность стабильной работы камеры (мс)"</string>
+    <string name="setting_camera_move_threshold">"Порог перемещения камеры"</string>
+    <string name="setting_sta_locale_usa">"USA"</string>
+    <string name="setting_sta_locale_china">"CHN"</string>
+    <string name="setting_sta_locale_korea">"KOR"</string>
+    <string name="setting_default_sta_locale">@string/setting_sta_locale_usa</string>
+    <string name="setting_text_record_snapshot_mode">"Снимок экрана"</string>
+    <string name="setting_text_record_preview_mode">"Показывать эскизы"</string>
+    <string name="setting_default_text_record_mode">@string/setting_text_record_snapshot_mode</string>
+    <string name="setting_sta_language_usa">"en"</string>
+    <string name="setting_sta_language_china">"zh-CN"</string>
+    <string name="setting_sta_langauge_korea">"ko"</string>
+    <string-array name="setting_sta_data_type_options">
+        <item>"Эл. почта"</item>
+        <item>"ввода URL"</item>
+        <item>"Номер телефона"</item>
+        <item>"Адрес"</item>
+        <item>"Дата"</item>
+        <item>"Основные"</item>
+    </string-array>
+    <string-array name="setting_sta_data_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type">
+        <item>"USA"</item>
+        <item>"Китай"</item>
+        <item>"Корея"</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type_values">
+        <item>@string/setting_sta_locale_usa</item>
+        <item>@string/setting_sta_locale_china</item>
+        <item>@string/setting_sta_locale_korea</item>
+    </string-array>
+    <string-array name="setting_text_record_options">
+        <item>@string/setting_text_record_snapshot_mode</item>
+        <item>@string/setting_text_record_preview_mode</item>
+    </string-array>
+    <string name="settings_scve_mode">"Режим работы SCVE"</string>
+    <string-array name="settings_scve_mode_entries">
+        <item>"По умолчанию"</item>
+        <item>"Разгрузка ЦП"</item>
+        <item>"Оценка доступной памяти"</item>
+        </string-array>
+    <string-array name="settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+    </string-array>
+    <string name="settings_scve_mode_default">0</string></resources>

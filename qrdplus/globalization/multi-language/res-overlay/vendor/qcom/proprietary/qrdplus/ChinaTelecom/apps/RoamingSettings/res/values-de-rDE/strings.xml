@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Roaming-Einstellungen"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"Öffnen"</string>
+    <string name="data_roaming_title">"Bei Roaming mit Datendienst verbinden"</string>
+    <string name="manual_select_network">"Manuelle Netzauswahl"</string>
+    <string name="roaming_card_info">"Mobile Business-Karte wird prioritär benutzt"</string>
+    <string name="network_select_success_info">"Erfolgreich registriert im Netz „<xliff:g id="name">%s</xliff:g>“. Die automatische Registrierung erfolgt, wenn das Netz nicht verfügbar ist"</string>
+    <string name="network_select_failure_info">"Das von Ihnen ausgewählte Netz „<xliff:g id="name">%s</xliff:g>“ ist nicht verfügbar. Automatische Registrierung in einem anderen Netz beginnen"</string>
+    <string name="network_auto_success_info">"Im Netz erfolgreich automatisch registrieren"</string>
+    <string name="network_auto_failure_info">"Das von Ihnen ausgewählte GSM-Netz ist nicht verfügbar. Automatische Registrierung in einem anderen Netz beginnen"</string>
+    <string name="manual_select_network_tip">"Diese Aktion ist nur gültig, wenn die Zeiten"</string>
+    <string name="gsm_network_list_title">"Auswählbares Netz"</string>
+    <string name="searching_cdma_network_title">"CDMA-Netz jetzt suchen ..."</string>
+    <string name="searching_gsm_network_title">"GSM-Netz jetzt suchen ..."</string>
+    <string name="empty_networks_list">"Keine Netzwerke gefunden"</string>
+    <string name="register_on_network">"Registrierung in <xliff:g id="NETWORK">%s</xliff:g> läuft..."</string>
+    <string name="register_automatically">"Automatische Registrierung..."</string>
+    <string name="network_select_setting">"Netzwerkeinstellungen"</string>
+    <string name="roaming_hotline">"Roaming-Hotline +8618918910000"</string>
+    <string name="carrier_names">"China Telecom"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"Datenverbindung wird deaktiviert ..."</string>
+    <string name="unable_to_disable_data">"Datenverbindung kann nicht deaktiviert werden."</string>
+    <string name="avoid_cur_nwk_succeeded">"Aktuelles Netz der Liste der zu vermeidenden Netze hinzugefügt."</string>
+    <string name="avoid_cur_nwk_failed">"Aktuelles Netz konnte der Liste der zu vermeidenden Netze nicht hinzugefügt werden."</string>
+    <string name="clear_nwk_list_succeeded">"Liste der zu vermeidenden Netze wurde bereinigt."</string>
+    <string name="clear_nwk_list_failed">"Die Liste der zu vermeidenden Netze konnte nicht bereinigt werden."</string>
+    <string name="ok_btn">"OK"</string>
+    <string name="cancel_btn">"Abbrechen"</string>
+    <string name="confirm_avoid">"Möchten Sie das aktuelle Netz wirklich vermeiden?"</string>
+    <string name="confirm_clear">"Möchten Sie die Liste der zu vermeidenden Netze wirklich bereinigen?"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"CDMA-Auswahl"</string>
+    <string name="pref_gsm_choose_title">"GSM-Auswahl"</string>
+    <string name="pref_network_info_title">"Informationen zum aktuellen Netz"</string>
+    <string name="alert_msg_enable_card">"Möchten Sie diese Karte aktivieren?"</string>
+    <string name="alert_msg_disable_card">"Möchten Sie diese Karte deaktivieren?"</string>
+    <string name="progress_msg_enable_card">"Diese Karte wird aktiviert, bitte warten ..."</string>
+    <string name="progress_msg_disable_card">"Diese Karte wird deaktiviert, bitte warten ..."</string>
+    <string name="operation_success">"Vorgang erfolgreich"</string>
+    <string name="operation_failure">"Vorgang fehlgeschlagen"</string>
+    <string name="result_btn">"OK"</string>
+    <string name="alert_data_roaming_title">"Daten-Roaming zulassen"</string>
+    <string name="alert_data_roaming_msg">"Wenn Sie Daten-Roaming zulassen, können hohe Roaming-Gebühren anfallen!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"Unbekannt"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"ASU"</string>
+    <string name="device_info_not_available">"Nicht verfügbar"</string>
+    <string name="status_network_type">"Typ des Mobilfunknetzes"</string>
+    <string name="status_signal_strength">"Signalstärke"</string>
+    <string name="status_prl_version">"PRL-Version"</string>
+    <string name="status_data_state">"Typ des Mobilfunknetzes"</string>
+    <string name="status_netowrk_title">"Aktueller Status der SIM-Karte"</string>
+    <string name="status_operator_name">"Name des Mobilfunkanbieters"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"ZELLEN-ID"</string>
+    <string name="status_sms_center_number">"SMS-Center-Nummer"</string>
+    <string name="status_pnl_version">"Version der Liste der bevorzugten Netze"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"Manuell zum nächsten Netz wechseln"</string>
+    <string name="avoid_discription">"Anweisung:\n  Eine manuelle Auswahl ist nicht nötig, da die automatische Netzauswahl standardmäßig im CDMA-System vorgegeben ist. Falls das aktuelle Netz jedoch nicht genutzt werden kann, versuchen Sie, manuell zum nächsten Netz zu wechseln. "</string>
+    <string name="attention_dialog_title">"Achtung"</string>
+    <string name="disable_both_sim_error_msg">"Es können nicht beide SIM-Karten gleichzeitig deaktiviert werden"</string>
+    <string name="China_Mobile">"China Mobile"</string>
+    <string name="China_Unicom">"China Unicom"</string>
+    <string name="China_Telecom">"China Telecom"</string></resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string-array name="render_mode_selector_entries">
+        <item>"ပုံမှန်"</item>
+        <item>"အထူးပြုလုပ်ချက်များ"</item>
+        <item>"PIP"</item>
+        <item>"ပုံကြီးချဲ့ပါ"</item>
+    </string-array>
+    <!-- These values must match the enum names of the RendererFactory.Type enum -->
+    <string-array name="render_mode_selector_values">
+        <item>"NORMAL"</item>
+        <item>"EFFECT"</item>
+        <item>"PICTURE_IN_PICTURE"</item>
+        <item>"MAGNIFY"</item>
+    </string-array></resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"GPS ডিবাগিং কার্যকলাপ"</string>
+     <string name="cameraActivity">"ক্যামেরা"</string>
+     <string name="newTrackingSession">"নতুন ট্র্যাকিং সেশন"</string>
+     <string name="newTrackingSession_nameLabel">"নাম"</string>
+     <string name="newTrackingSession_numFixesLabel">"নম্বর ফিক্স"</string>
+     <string name="newTrackingSession_descriptionLabel">"বর্ণনা"</string>
+     <string name="newTrackingSession_startButtonLabel">"চালু করুন"</string>
+     <string name="testConfig">"পরীক্ষা কনফিগারেশন"</string>
+     <string name="testConfig_configNameLabel">"কনফিগারেশন নাম"</string>
+     <string name="testConfig_numFixesLabel">"নম্বর ফিক্স (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"পরীক্ষা কনফিগারেশনের বিবরণ"</string>
+     <string name="testConfig_startButtonLabel">"পরীক্ষা আরম্ভ করুন"</string>
+     <string name="testConfig_RadioLabel">"অ্যাপ ট্র্যাক অথবা একক শট"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"একক শট"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"অ্যাপ ট্র্যাক"</string>
+     <string name="testConfig_qosTimeoutLabel">"পছন্দসই প্রতিক্রিয়া সময় (সেকেন্ড)"</string>
+     <string name="testConfig_qosAccuracyLabel">"পছন্দসই সঠিকতা (m)"</string>
+     <string name="testConfig_tbfLabel">"ন্যূনতম বিরতি (সেকেন্ড)"</string>
+     <string name="testConfig_staticTruthLabel">"স্ট্যাটিক সত্যের অবস্থান (ব্যবহার করতে চেক করুন)"</string>
+     <string name="testConfig_latLabel">"অক্ষাংশ"</string>
+     <string name="testConfig_lonLabel">"দ্রাঘিমাংশ"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"Loc API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"GPL পরিষেবা"</string>
+     <string name="testConfig_sessionTypeLabel">"পুনরাবৃত্তির প্রকার"</string>
+     <string name="testConfig_apiTypeLabel">"API প্রকার"</string>
+    <string name="labelUnknownPrivacy">"অজানা"</string>
+    <string name="labelGetPrivacy">"গোপনীয়তা প্রাপ্ত করুন"</string>
+    <string name="labelSetPrivacySetting">"গোপনীয়তা সেট করুন"</string>
+    <string name="name_vzw_client">"Vzw ক্লায়েন্ট"</string>
+    <string name="name_normal_client">"সাধারণ Android"</string>
+    <string name="LabelModeSel">"মোড"</string>
+    <string name="LabelNumFixSel">"ফিক্সের #"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"স্টেট..."</string>
+    <string name="str_nodata">"কোনো ডেটা নেই"</string>
+    <string name="str_waitingforposinfo">"\nঅবস্থান তথ্যের জন্য প্রতীক্ষারত...\n"</string>
+    <string name="str_searchingforsvs">"\nSV-গুলি অনুসন্ধান করছে...\n"</string>
+    <string name="str_configsummary">"\nকনফিগারেশন সারাংশ\n"</string>
+    <string name="str_alarms">"\nঅ্যালার্ম:\n\n"</string>
+    <string name="str_starttest">"পরীক্ষা আরম্ভ করুন"</string>
+    <string name="str_sessionplayback">"সেশন প্লেব্যাক"</string>
+    <string name="str_proximityalerts">"নৈকট্য সতর্কতা"</string>
+    <string name="str_proximity_info">"নৈকট্য তথ্য"</string>
+    <string name="str_options">"বিকল্পসমূহ"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"স্বতন্ত্র"</item>
+<item>"AFLT"</item>
+<item>"স্পীড অপ্টিমাইজ করা হয়েছে"</item>
+<item>"সঠিকতা অপ্টিমাইজ করা হয়েছে"</item>
+<item>"ডেটা অপ্টিমাইজ করা হয়েছে"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"ফিক্সের মধ্যবর্তী সময় (সেকেন্ড)"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"PDE ঠিকানা"</string>
+<string name="LabelAccuracyH">"পছন্দসই সঠিকতা (H, m)"</string>
+<string name="LabelAccuracyV">"পছন্দসই সঠিকতা (V, m)"</string>
+<string name="LabelMaxResponseTime">"সময় সমাপ্তি (সেকেন্ড)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"সাধারণ স্ট্যাকের সঙ্গে চালনা করুন"</string>
+<string name="LabelRunOne">"VzW চালনা করুন"</string>
+<string name="LabelRunState1">"FSM পরীক্ষা 1"</string>
+<string name="LabelRunState2">"FSM পরীক্ষা 2"</string>
+<string name="EnigneStatus">"ইঞ্জিন স্থিতি"</string>
+<string name="NA">"N/A"</string>
+<string name="GpsStatus">"Gps স্থিতি"</string>
+<string name="Session">"সেশন"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"ধরন"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"মোড"</string>
+<string name="stop">"থামুন"</string>
+<string name="labelPdePort">"PDE পোর্ট"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"শুধুমাত্র 911"</item>
+<item>"চালু"</item>
+</string-array>
+<string name="non_aiding">"সব সহায়তা অনির্বাচন করুন"</string>
+<string name="all_aiding">"সব সহায়তা নির্বাচন করুন"</string>
+<string name="done">"নির্বাচিত মুছুন"</string>
+<string name="Ephemeris">"পঞ্জিকা"</string>
+<string name="GLO_Ephemeris">"GLO পঞ্জিকা"</string>
+<string name="Alamanac">"বর্ষপঞ্জি"</string>
+<string name="GLO_Alamanac">"GLO বর্ষপঞ্জি"</string>
+<string name="Alamanac_Corr">"বর্ষপঞ্জি Corr"</string>
+<string name="GLO_Alamanac_Corr">"GLO বর্ষপঞ্জি Corr"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"SV স্টিয়ার"</string>
+<string name="GLO_SV_Steer">"GLO SV স্টিয়ার"</string>
+<string name="Cell_DB_Info">"সেল DB তথ্য"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"GPS সময়"</string>
+<string name="GLO_Time">"GLO সময়"</string>
+<string name="Freq_Bias_Est">"ফ্রিকোয়েন্সি বায়াস Est"</string>
+<string name="Time">"সময়"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"স্বাস্থ্য"</string>
+<string name="SA_Data">"SA ডেটা"</string>
+<string name="position">"স্থিতি"</string>
+<string name="str_wbiq_runscript">"স্ক্রিপ্ট চালনা করুন"</string>
+<string name="str_wbiq_stopgps">"RF মোড থেকে প্রস্থান করুন"</string>
+<string name="str_wbiq_startgps">"RF মোডে প্রবেশ করুন"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"স্বয়ংক্রিয় অন-ডিভাইস-লগিং"</string>
+<string name="str_wbiq_chk_delaystart">"বিলম্ব সূচনা"</string>
+<string name="str_wbiq_chk_autostop">"স্বতঃ স্থগিত"</string>
+<string name="str_wbiq_chk_otfsa">"OTFSA সক্ষম করুন"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"S"</string>
+<string name="str_proximity_clearalerts">"সতর্কতা পরিষ্কার করুন"</string>
+<string name="str_proximity_savealertsfile">"সতর্কতা ফাইল সংরক্ষণ করুন"</string>
+<string name="str_proximity_loadalertsfile">"সতর্কতা ফাইল লোড করুন"</string>
+<string name="str_proximity_deletealertsfile">"সতর্কতা ফাইল মুছুন"</string>
+<string name="str_proximity_logging">"লগিং"</string>
+<string name="str_proximity_autostartenabled">"স্বতঃ সূচনা"</string>
+<string name="str_proximity_autostartfile">"স্বতঃ সূচনা ফাইল নির্বাচন করুন"</string>
+<string name="str_proximity_smsnumber">"SMS বিজ্ঞপ্তি নম্বর"</string>
+<string name="str_proximity_geofencelisttab_add">"যোগ"</string>
+<string name="str_proximity_geofencelisttab_delet">"মুছুন"</string>
+<string name="str_proximity_geofencelisttab_edit">"সম্পাদনা"</string>
+<string name="str_locbatchingtab_btn_s">"S"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[Mean, Min, Max] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"ব্যাচ প্রাপ্ত করুন"</string>
+<string name="str_powerest_summary">"সারাংশ:"</string>
+<string name="str_powerest_plot_label"/></resources>

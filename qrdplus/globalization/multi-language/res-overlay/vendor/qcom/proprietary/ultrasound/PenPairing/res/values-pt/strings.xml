@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Pareamento SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Pareamento de caneta digital Snapdragon"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Configurações"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"OK"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"Escolher posição da caneta para exibição"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"Escolha o número de série da nova caneta"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"Escolha o tipo de caneta que deseja usar"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"Iniciar pareamento"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"Segure a caneta ortogonalmente dentro do círculo para iniciar o processo de pareamento"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"Pareamento manual"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"Pareamento Semi-Automático"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"Escolher novo método de pareamento"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"Parear caneta nova"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"Gerenciar canetas pareadas"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"Calibração SW"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"Segure a caneta ortogonalmente dentro do círculo para iniciar o processo de pareamento.\nUma vez concluído com sucesso, o processo de calibração vai começar."</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"Teste do Centro de serviço"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"Segure a caneta ortogonalmente dentro do círculo para iniciar o processo de pareamento.\nUma vez concluído com sucesso, o processo de teste vai começar."</string></resources>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Common string -->
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"OK"</string>
+    <add-resource type="string" name="yes"/>
+    <string name="yes">"Так"</string>
+    <add-resource type="string" name="no"/>
+    <string name="no">"Ні"</string>
+    <add-resource type="string" name="pass"/>
+    <string name="pass">"Зараховано"</string>
+    <add-resource type="string" name="fail"/>
+    <string name="fail">"Не зараховано"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Скасувати"</string>
+    <add-resource type="string" name="testing"/>
+    <string name="testing">"Тестування..."</string>
+    <add-resource type="string" name="initialize"/>
+    <string name="initialize">"Ініціалізація..."</string>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Заводський набір"</string>
+    <add-resource type="string" name="start"/>
+    <string name="start">"Почати"</string>
+    <add-resource type="string" name="scan"/>
+    <string name="scan">"Сканув"</string>
+    <add-resource type="string" name="device_open_fail"/>
+    <string name="device_open_fail">"Не вдалося відкрити пристрій!"</string>
+    <add-resource type="string" name="service_get_fail"/>
+    <string name="service_get_fail">"Не вдалося отримати службу!"</string>
+    <add-resource type="string" name="sensor_get_fail"/>
+    <string name="sensor_get_fail">"Не вдалося отримати датчик!"</string>
+    <add-resource type="string" name="sensor_register_fail"/>
+    <string name="sensor_register_fail">"Не вдалося зареєструвати датчик!"</string>
+    <add-resource type="string" name="test_pass"/>
+    <string name="test_pass">"Тестування пройдено"</string>
+    <add-resource type="string" name="scanning"/>
+    <string name="scanning">"Сканування..."</string>
+    <add-resource type="string" name="enabling"/>
+    <string name="enabling">"Увімкнення..."</string>
+    <add-resource type="string" name="disabling"/>
+    <string name="disabling">"Вимкнення..."</string>
+    <add-resource type="string" name="turning_on"/>
+    <string name="turning_on">"Увімкнення..."</string>
+    <add-resource type="string" name="turning_off"/>
+    <string name="turning_off">"Вимкнення..."</string>
+    <add-resource type="string" name="off"/>
+    <string name="off">"Вимкнено"</string>
+    <add-resource type="string" name="shake_hint"/>
+    <string name="shake_hint">"Закрийте світловий датчик руками щонайменше  двічі."</string>
+    <add-resource type="string" name="remove_headset"/>
+    <string name="remove_headset">"Відключіть гарнітуру"</string>
+    <add-resource type="string" name="insert_headset"/>
+    <string name="insert_headset">"Підключіть гарнітуру"</string>
+    <add-resource type="string" name="stop"/>
+    <string name="stop">"Зупинити"</string>
+    <add-resource type="string" name="play"/>
+    <string name="play">"Відтворити"</string>
+    <add-resource type="string" name="record"/>
+    <string name="record">"Запис"</string>
+    <add-resource type="string" name="time_out"/>
+    <string name="time_out">"Час очікування вийшов"</string>
+    <!-- ControlCenter -->
+    <add-resource type="string" name="clean_state"/>
+    <string name="clean_state">"Вихідний стан тестування"</string>
+    <add-resource type="string" name="uninstall"/>
+    <string name="uninstall">"Видалити"</string>
+    <add-resource type="string" name="control_center_quit_confirm"/>
+    <string name="control_center_quit_confirm">"Вийти?"</string>
+    <!-- Led -->
+    <!-- <string name="led_name">TriColor Led</string> -->
+    <!-- <string name="led_text">Light test sequence: red, green, blue</string> -->
+    <add-resource type="string" name="led_name"/>
+    <string name="led_name">"Світлодіод"</string>
+    <add-resource type="string" name="led_tri_text"/>
+    <string name="led_tri_text">"Послідовність перевірки світлодіода: червоний, зелений, синій"</string>
+    <add-resource type="string" name="led_dual_text"/>
+    <string name="led_dual_text">"Послідовність перевірки світлодіода: червоний, зелений"</string>
+    <add-resource type="string" name="led_confirm"/>
+    <string name="led_confirm">"Чи спостерігається потрібний колір світлодіода?"</string>
+    <!-- Flashlight -->
+    <add-resource type="string" name="flashlight_name"/>
+    <string name="flashlight_name">"Ліхтарик"</string>
+    <add-resource type="string" name="flashlight_confirm"/>
+    <string name="flashlight_confirm">"Ліхтарик ввімкнено?"</string>
+    <!-- KeypadBacklight -->
+    <add-resource type="string" name="keypadbacklight_name"/>
+    <string name="keypadbacklight_name">"Підсвітка клавіатури"</string>
+    <add-resource type="string" name="keypadbacklight_confirm"/>
+    <string name="keypadbacklight_confirm">"Чи ввімкнено підсвітку клавіатури?"</string>
+    <!-- SIM1 -->
+    <add-resource type="string" name="sim1_name"/>
+    <string name="sim1_name">SIM1</string>
+    <!-- SIM2 -->
+    <add-resource type="string" name="sim2_name"/>
+    <string name="sim2_name">SIM2</string>
+    <!-- TouchPanelEdge -->
+    <add-resource type="string" name="touchpanel_edge_name"/>
+    <string name="touchpanel_edge_name">"Край сенсорної панелі"</string>
+    <!-- TouchPanelKey -->
+    <add-resource type="string" name="touchpanel_key_name"/>
+    <string name="touchpanel_key_name">"Клавіша сенсорної панелі"</string>
+    <!-- Keypad -->
+    <add-resource type="string" name="keypad_name"/>
+    <string name="keypad_name">"Клавіатура"</string>
+    <add-resource type="string" name="keypad_text"/>
+    <string name="keypad_text">"Натисніть такі клавіші"</string>
+    <add-resource type="string" name="keypad_volume_up"/>
+    <string name="keypad_volume_up">"ЗБІЛЬШЕННЯ_ГУЧНОСТІ"</string>
+    <add-resource type="string" name="keypad_volume_down"/>
+    <string name="keypad_volume_down">"ЗМЕНШЕННЯ_ГУЧНОСТІ"</string>
+    <add-resource type="string" name="keypad_focus"/>
+    <string name="keypad_focus">"ФОКУС"</string>
+    <add-resource type="string" name="keypad_camera"/>
+    <string name="keypad_camera">"КАМЕРА"</string>
+    <!-- CameraBack -->
+    <add-resource type="string" name="cameraback_name"/>
+    <string name="cameraback_name">"Задня камера"</string>
+    <add-resource type="string" name="cameraback_takepicture"/>
+    <string name="cameraback_takepicture">"Зробити знімок"</string>
+    <add-resource type="string" name="cameraback_fail_open"/>
+    <string name="cameraback_fail_open">"Не вдалося відкрити камеру, перевірте правильність  встановлення програми!"</string>
+    <add-resource type="string" name="autofocus_fail"/>
+    <string name="autofocus_fail">"Збій автофокусу"</string>
+    <!-- CameraFront -->
+    <add-resource type="string" name="camerafront_name"/>
+    <string name="camerafront_name">"Фронтальна камера"</string>
+    <add-resource type="string" name="camerafront_takepicture"/>
+    <string name="camerafront_takepicture">"Зробити знімок"</string>
+    <!-- LCM -->
+    <add-resource type="string" name="lcm_name"/>
+    <string name="lcm_name">"LCM"</string>
+    <add-resource type="string" name="lcm_confirm"/>
+    <string name="lcm_confirm">"Виберіть"</string>
+    <!-- Vibrator -->
+    <add-resource type="string" name="vibrate_name"/>
+    <string name="vibrate_name">"Вібросигнал"</string>
+    <add-resource type="string" name="vibrate_confirm"/>
+    <string name="vibrate_confirm">"Виберіть"</string>
+    <add-resource type="string" name="vibrate_hint"/>
+    <string name="vibrate_hint">"Вібросигнал..."</string>
+    <!-- PSensor -->
+    <add-resource type="string" name="psensor_name"/>
+    <string name="psensor_name">"Датчик наближення"</string>
+    <add-resource type="string" name="psensor_title"/>
+    <string name="psensor_title">"Виконайте вказівки. На виконання кожного кроку слід виділити  щонайбільше 7 с"</string>
+    <add-resource type="string" name="psensor_to_cover"/>
+    <string name="psensor_to_cover">"Закрийте датчик наближення на понад 1 с"</string>
+    <add-resource type="string" name="psensor_to_uncover"/>
+    <string name="psensor_to_uncover">"Відкрийте датчик наближення на понад 1 с"</string>
+    <add-resource type="string" name="psensor_uncovered"/>
+    <string name="psensor_uncovered">"Відкрито"</string>
+    <add-resource type="string" name="psensor_covered"/>
+    <string name="psensor_covered">"Закрито"</string>
+    <add-resource type="string" name="psensor_verifying"/>
+    <string name="psensor_verifying">"Перевірка..."</string>
+    <add-resource type="string" name="psensor_sensor_unstable_fail"/>
+    <string name="psensor_sensor_unstable_fail">"Нестабільний датчик наближення"</string>
+    <!-- GSensor -->
+    <add-resource type="string" name="gsensor_name"/>
+    <string name="gsensor_name">"Гравітаційний датчик"</string>
+    <!-- MSensor -->
+    <add-resource type="string" name="msensor_name"/>
+    <string name="msensor_name">"Магнітний датчик"</string>
+    <!-- Gyroscope -->
+    <add-resource type="string" name="gyroscope_name"/>
+    <string name="gyroscope_name">"Гіроскоп"</string>
+    <!-- LightSensor -->
+    <add-resource type="string" name="lightsensor_name"/>
+    <string name="lightsensor_name">"Світловий датчик"</string>
+    <!-- SDCard -->
+    <add-resource type="string" name="sdcard_name"/>
+    <string name="sdcard_name">"Карта SD"</string>
+    <add-resource type="string" name="sdcard_wait"/>
+    <string name="sdcard_wait">"Зачекайте, здійснюється зчитування карти SD..."</string>
+    <add-resource type="string" name="sdcard_confirm"/>
+    <string name="sdcard_confirm">"Встановили карту SD?"</string>
+    <add-resource type="string" name="sdcard_to_remove"/>
+    <string name="sdcard_to_remove">"Вийміть карту SD"</string>
+    <add-resource type="string" name="sdcard_to_insert"/>
+    <string name="sdcard_to_insert">"Вставте карту SD"</string>
+    <!-- Bluetooth -->
+    <add-resource type="string" name="bluetooth_name"/>
+    <string name="bluetooth_name">"Bluetooth"</string>
+    <add-resource type="string" name="bluetooth_scan_start"/>
+    <string name="bluetooth_scan_start">"Сканування пристроїв..."</string>
+    <add-resource type="string" name="bluetooth_scan_finish"/>
+    <string name="bluetooth_scan_finish">"Завершити сканування"</string>
+    <add-resource type="string" name="bluetooth_turning_on"/>
+    <string name="bluetooth_turning_on">"Увімкнення bluetooth..."</string>
+    <add-resource type="string" name="bluetooth_scan_null"/>
+    <string name="bluetooth_scan_null">"Не знайдено жодних пристроїв"</string>
+    <!-- WiFi -->
+    <add-resource type="string" name="wifi_name"/>
+    <string name="wifi_name">"Wi-Fi"</string>
+    <add-resource type="string" name="wifi_text"/>
+    <string name="wifi_text">"        Тестування Wi-Fi буде завершено впродовж 30 секунд, зачекайте. "<string name="wifi_scan_failed">"Не вдалося виконати сканування!"</string></string>
+    <add-resource type="string" name="wifi_is_closing"/>
+    <string name="wifi_is_closing">"Wi-Fi закривається, спробуйте пізніше."</string>
+    <add-resource type="string" name="wifi_scan_null"/>
+    <string name="wifi_scan_null">"Не знайдено точок доступу."</string>
+    <add-resource type="string" name="wifi_state_unknown"/>
+    <string name="wifi_state_unknown">"Невідомий стан Wi-Fi, повторіть спробу."</string>
+    <!-- Handset -->
+    <add-resource type="string" name="handset_name"/>
+    <string name="handset_name">"Телефон"</string>
+    <add-resource type="string" name="handset_hint"/>
+    <string name="handset_hint">"Перевірка циклічного відтворення звуку на телефоні..."</string>
+    <add-resource type="string" name="handset_loopback"/>
+    <string name="handset_loopback">"Перевірка циклічного відтворення звуку на телефоні..."</string>
+    <add-resource type="string" name="handset_playing"/>
+    <string name="handset_playing">"Відтворення запису, прослухайте."</string>
+    <add-resource type="string" name="handset_confirm"/>
+    <string name="handset_confirm">"Чи чути звук?"</string>
+    <add-resource type="string" name="handset_record_first"/>
+    <string name="handset_record_first">"Спочатку натисніть кнопку Запис"</string>
+    <add-resource type="string" name="handset_replay_end"/>
+    <string name="handset_replay_end">"Досягнуто кінця."</string>
+    <add-resource type="string" name="handset_to_record"/>
+    <string name="handset_to_record">"Натисніть кнопку Запис, щоб записати звук."</string>
+    <add-resource type="string" name="handset_recording"/>
+    <string name="handset_recording">"Виконується запис, скажіть кілька слів у мікрофон і  натисніть кнопку Зупинити."</string>
+    <!-- Headset -->
+    <add-resource type="string" name="headset_name"/>
+    <string name="headset_name">"Гарнітура"</string>
+    <add-resource type="string" name="headset_hint"/>
+    <string name="headset_hint">"Гарнітура"</string>
+    <add-resource type="string" name="headset_recording"/>
+    <string name="headset_recording">"Виконується запис, скажіть кілька слів у мікрофон і  натисніть кнопку Зупинити."</string>
+    <add-resource type="string" name="headset_playing"/>
+    <string name="headset_playing">"Відтворення запису, прослухайте."</string>
+    <add-resource type="string" name="headset_confirm"/>
+    <string name="headset_confirm">"Чи чути звук?"</string>
+    <add-resource type="string" name="headset_record_first"/>
+    <string name="headset_record_first">"Спочатку натисніть кнопку Запис"</string>
+    <add-resource type="string" name="headset_replay_end"/>
+    <string name="headset_replay_end">"Досягнуто кінця."</string>
+    <add-resource type="string" name="headset_to_record"/>
+    <string name="headset_to_record">"Натисніть кнопку Запис, щоб записати звук."</string>
+    <!-- Speaker -->
+    <add-resource type="string" name="speaker_name"/>
+    <string name="speaker_name">"Динамік"</string>
+    <add-resource type="string" name="speaker_hint"/>
+    <string name="speaker_hint">"Чи чуєте ви музику?"</string>
+    <add-resource type="string" name="speaker_confirm"/>
+    <string name="speaker_confirm">"Чи чути звук?"</string>
+    <add-resource type="string" name="speaker_playing"/>
+    <string name="speaker_playing">"Відтворення..."</string>
+    <add-resource type="string" name="speaker_play_first"/>
+    <string name="speaker_play_first">"Спочатку натисніть кнопку Відтворити"</string>
+    <add-resource type="string" name="speaker_to_play"/>
+    <string name="speaker_to_play">"Натисніть кнопку Відтворити, щоб відтворити звук."</string>
+    <add-resource type="string" name="speaker_recording"/>
+    <string name="speaker_recording">"Виконується запис, говоріть"</string>
+    <!-- GPS -->
+    <add-resource type="string" name="gps_name"/>
+    <string name="gps_name">"GPS"</string>
+    <add-resource type="string" name="gps_enable_first"/>
+    <string name="gps_enable_first">"Спочатку ввімкніть GPS"</string>
+    <!-- FM -->
+    <add-resource type="string" name="fm_name"/>
+    <string name="fm_name">"FМ-радіо"</string>
+    <add-resource type="string" name="fm_search"/>
+    <string name="fm_search">"Пошук"</string>
+    <add-resource type="string" name="fm_confirm"/>
+    <string name="fm_confirm">"Чи чути звук?"</string>
+    <!-- Battery -->
+    <add-resource type="string" name="battery_name"/>
+    <string name="battery_name">"Акумулятор"</string>
+    <add-resource type="string" name="battery_voltage"/>
+    <string name="battery_voltage">"Напруга акумулятора="</string>
+    <!-- FuelGaugeCalibration -->
+    <add-resource type="string" name="fuelgauge_name"/>
+    <string name="fuelgauge_name">"Калібрування датчику рівня"</string>
+    <add-resource type="string" name="fuelgauge_hint"/>
+    <string name="fuelgauge_hint">"Калібрування датчика рівня пального буде завершено  впродовж 30 с, зачекайте..."</string>
+    <add-resource type="string" name="fuelgauge_processing"/>
+    <string name="fuelgauge_processing">"Обробка\u2026..."</string>
+    <!-- NFC -->
+    <add-resource type="string" name="nfc_name"/>
+    <string name="nfc_name">"NFC"</string>
+    <add-resource type="string" name="nfc_not_available"/>
+    <string name="nfc_not_available">"Функція NFC недоступна"</string>
+    <add-resource type="string" name="nfc_enable_first"/>
+    <string name="nfc_enable_first">"Увімкнути NFC..."</string>
+    <add-resource type="string" name="nfc_enable_fail"/>
+    <string name="nfc_enable_fail">"Неможливо увімкнути NFC"</string></resources>

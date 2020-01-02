@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"GPS ချို့ယွင်းချက်ရှာဖွေဖယ်ရှားမှု လုပ်ဆောင်ချက်"</string>
+     <string name="cameraActivity">"ကင်မရာ"</string>
+     <string name="newTrackingSession">"စောင့်ကြည့်မှုကာလသစ်"</string>
+     <string name="newTrackingSession_nameLabel">"အမည်"</string>
+     <string name="newTrackingSession_numFixesLabel">"ဖြေရှင်းထားသည့် အရေအတွက်"</string>
+     <string name="newTrackingSession_descriptionLabel">"ဖော်ပြချက်"</string>
+     <string name="newTrackingSession_startButtonLabel">"စတင်ပါ"</string>
+     <string name="testConfig">"ဖွဲ့စည်းလုပ်ဆောင်မှု စမ်းသပ်ပါ"</string>
+     <string name="testConfig_configNameLabel">"ဖွဲ့စည်းလုပ်ဆောင်မှု အမည်"</string>
+     <string name="testConfig_numFixesLabel">"ဖြေရှင်းထားသည့် အရေအတွက် (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"ဖွဲ့စည်းလုပ်ဆောင်မှု ကုဒ်ပြောင်းဖော်ခြင်း စမ်းသပ်ပါ"</string>
+     <string name="testConfig_startButtonLabel">"စမ်းသပ်မှု စတင်ပါ"</string>
+     <string name="testConfig_RadioLabel">"အက်ပ် စောင့်ကြည့်ပါ (သို့) တစ်ချက်တည်း ရိုက်ချက်"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"တစ်ချက်တည်း ရိုက်ချက်"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"အက်ပ် ခြေရာခံ"</string>
+     <string name="testConfig_qosTimeoutLabel">"ဦးစားပေး တုန့်ပြန်ချိန် (စက္ကန့်)"</string>
+     <string name="testConfig_qosAccuracyLabel">"ဦးစားပေး တိကျမှု (မိနစ်)"</string>
+     <string name="testConfig_tbfLabel">"အနည်းဆုံး ကြားကာလ (စက္ကန့်)"</string>
+     <string name="testConfig_staticTruthLabel">"ယုံကြည်ရသည့် တည်နေရာ စာရင်းဇယားပြုပါ (အသုံးပြုရန် စစ်ဆေးပါ)"</string>
+     <string name="testConfig_latLabel">"လတ္တီကျု"</string>
+     <string name="testConfig_lonLabel">"လောင်ဂျီကျု"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"အန်းဒရွိုက်"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"ရှာဖွေမှု API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"GPL ဝန်ဆောင်မှု"</string>
+     <string name="testConfig_sessionTypeLabel">"ပြန်လည်ပေါ်ပေါက်မှု အမျိုးအစား"</string>
+     <string name="testConfig_apiTypeLabel">"API အမျိုးအစား"</string>
+    <string name="labelUnknownPrivacy">"အမည်မသိ"</string>
+    <string name="labelGetPrivacy">"သီးသန့်ဖြစ်မှု ရယူပါ"</string>
+    <string name="labelSetPrivacySetting">"သီးသန့်ဖြစ်မှု သတ်မှတ်ပါ"</string>
+    <string name="name_vzw_client">"Vzw ဖောက်သည်"</string>
+    <string name="name_normal_client">"ပုံမှန် အန်းဒရွိုက်"</string>
+    <string name="LabelModeSel">"စနစ်"</string>
+    <string name="LabelNumFixSel">"ဖြေရှင်းမှု #"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"အခြေအနေ..."</string>
+    <string name="str_nodata">"ဒေတာ မရှိပါ"</string>
+    <string name="str_waitingforposinfo">"\nတည်နေရာ အချက်အလက်ရရန် စောင့်နေဆဲ...\n"</string>
+    <string name="str_searchingforsvs">"\nSV များ ရှာဖွေနေဆဲ...\n"</string>
+    <string name="str_configsummary">"\nဖွဲ့စည်းလုပ်ဆောင်မှု အကျဉ်းချုပ်\n"</string>
+    <string name="str_alarms">"\nနှိုးစက်များ-\n\n"</string>
+    <string name="str_starttest">"စမ်းသပ်မှု စတင်ပါ"</string>
+    <string name="str_sessionplayback">"ပြန်ဖွင့်မှု ကာလ"</string>
+    <string name="str_proximityalerts">"နီးကပ်မှု အသိပေးချက်"</string>
+    <string name="str_proximity_info">"နီးကပ်မှု အချက်အလက်"</string>
+    <string name="str_options">"ရွေးစရာများ"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"သီးခြားရပ်တည်မှု"</item>
+<item>"AFLT"</item>
+<item>"မြန်နှုန်း အကောင်းဆုံးလုပ်ထားသည်"</item>
+<item>"တိကျမှု အကောင်းဆုံးလုပ်ထားသည်"</item>
+<item>"ဒေတာ အကောင်းဆုံးလုပ်ထားသည်"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"ဖြေရှင်းမှုအကြား အချိန် (စက္ကန့်)"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"PDE လိပ်စာ"</string>
+<string name="LabelAccuracyH">"ဦးစားပေး တိကျမှု (H၊ m)"</string>
+<string name="LabelAccuracyV">"ဦးစားပေး တိကျမှု (V၊ m)"</string>
+<string name="LabelMaxResponseTime">"ကုန်ဆုံးချိန် (စက္ကန့်)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"ပုံမှန်အဆင့်ဖြင့် လုပ်ဆောင်ပါ"</string>
+<string name="LabelRunOne">"VzW ကို လုပ်ဆောင်ပါ"</string>
+<string name="LabelRunState1">"FSM စမ်းသပ်မှု 1"</string>
+<string name="LabelRunState2">"FSM စမ်းသပ်မှု 2"</string>
+<string name="EnigneStatus">"အင်ဂျင် အခြေအန"</string>
+<string name="NA">"N/A"</string>
+<string name="GpsStatus">"Gps အခြေအနေ"</string>
+<string name="Session">"ကာလ"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"အမျိုးအစား"</string>
+<string name="Loc">"ရှာဖွေမှု"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"စနစ်"</string>
+<string name="stop">"ရပ်ပါ"</string>
+<string name="labelPdePort">"PDE ပို့တ်"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"911 သာလျှင်"</item>
+<item>"ဖွင့်ပါ"</item>
+</string-array>
+<string name="non_aiding">"အကူအညီအားလုံး ရွေးချယ်မှုဖြုတ်ပါ"</string>
+<string name="all_aiding">"အကူအညီအားလုံး ရွေးချယ်ပါ"</string>
+<string name="done">"ရွေးချယ်ထားသည်ကို ဖျက်ပစ်ပါ"</string>
+<string name="Ephemeris">"ဒေတာဇယား"</string>
+<string name="GLO_Ephemeris">"GLO ဒေတာဇယား"</string>
+<string name="Alamanac">"ဒေတာဇယားပြ ပြက္ခဒိန်"</string>
+<string name="GLO_Alamanac">"GLO ဒေတာဇယားပြ ပြက္ခဒိန်"</string>
+<string name="Alamanac_Corr">"ဒေတာဇယားပြ ပြက္ခဒိန် Corr"</string>
+<string name="GLO_Alamanac_Corr">"GLO ဒေတာဇယားပြ ပြက္ခဒိန် Corr"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"SV စတီယာ"</string>
+<string name="GLO_SV_Steer">"GLO SV စတီယာ"</string>
+<string name="Cell_DB_Info">"ဆဲလ် DB အချက်အလက်"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"GPS အချိန်"</string>
+<string name="GLO_Time">"GLO အချိန်"</string>
+<string name="Freq_Bias_Est">"အရှေ့ပိုင်းဒေသ စံတော်ချိန် ဦးစားပေးကြိမ်နှုန်း"</string>
+<string name="Time">"အချိန်"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"ကျန်းမာရေး"</string>
+<string name="SA_Data">"SA ဒေတာ"</string>
+<string name="position">"အနေအထား"</string>
+<string name="str_wbiq_runscript">"စာသား လုပ်ဆောင်ပါ"</string>
+<string name="str_wbiq_stopgps">"RF အနေအထား ပိတ်ပါ"</string>
+<string name="str_wbiq_startgps">"RF အနေအထား ဝင်ရောက်ပါ"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"ကိရိယာ မှတ်တမ်းပြုမှု အလိုလိုဖွင့်ပါ"</string>
+<string name="str_wbiq_chk_delaystart">"စတင်မှု(များ) ရွှေ့ဆိုင်းပါ"</string>
+<string name="str_wbiq_chk_autostop">"အလိုလို ရပ်တန့်မှု(များ)"</string>
+<string name="str_wbiq_chk_otfsa">"OTFSA ဖွင့်ပါ"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"S"</string>
+<string name="str_proximity_clearalerts">"အသိပေးချက်များ ရှင်းလင်းပါ"</string>
+<string name="str_proximity_savealertsfile">"အသိပေးချက် ဖိုင်ကို သိမ်းဆည်းပါ"</string>
+<string name="str_proximity_loadalertsfile">"အသိပေးချက်ဖိုင် တင်ပို့လုပ်ဆောင်ပါ"</string>
+<string name="str_proximity_deletealertsfile">"အသိပေးချက် ဖိုင်ကို ဖျက်ပစ်ပါ"</string>
+<string name="str_proximity_logging">"မှတ်တမ်းပြုနေသည်"</string>
+<string name="str_proximity_autostartenabled">"အလိုလို စတင်ပါ"</string>
+<string name="str_proximity_autostartfile">"အလိုလို စတင်မှုဖိုင် ရွေးချယ်ပါ"</string>
+<string name="str_proximity_smsnumber">"SMS အသိပေးချက်နံပါတ်"</string>
+<string name="str_proximity_geofencelisttab_add">"ထည့်ပါ"</string>
+<string name="str_proximity_geofencelisttab_delet">"ဖျက်ပစ်ပါ"</string>
+<string name="str_proximity_geofencelisttab_edit">"တည်းဖြတ်ပါ"</string>
+<string name="str_locbatchingtab_btn_s">"S"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"ခုနှစ်"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[ဆိုလိုချက်၊ အနိမ့်ဆုံး၊ အမြင့်ဆုံး] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"အုပ်စုတွဲ ရယူပါ"</string>
+<string name="str_powerest_summary">"အကျဉ်းချုပ်-"</string>
+<string name="str_powerest_plot_label"/></resources>

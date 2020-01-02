@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_خدمت کو ہٹا دیا گیا ہے، براہ مہربانی اسے دوبارہ نصب کر لیں!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"پروفائل متن ڈیٹا کی تجدید کریں"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"پروفائل پورٹریٹ ڈیٹا کی تجدید کریں"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"تمام پیغامات کو حذف کریں"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"گروپ چیٹ میں ایک نیا چیئرمین متعین کریں"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"گروپ چیٹ میں موضوع میں ترمیم کریں"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"گروپ چیٹ میں میں رکن کی عرفیت میں ترمیم کریں"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"ایک گروپ چیٹ میں شمولیت کے لئے ایک دعوت قبول کریں"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"گروپ چیٹ کو چھوڑیں"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"گروپ چیٹ شرکاء کو باہر نکالیں"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"ایک گروپ چیٹ کو برخاست کریں"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"عوامی اکاؤنٹ پر توجہ دیں"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"عوامی اکاؤنٹ پر کوئی توجہ نہ دیں"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"ایک عوامی اکاؤنٹ کی رپورٹ کریں"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"حساس api اجازت"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"مجاز کردہ %1$d ایپ(س) (مجموعی %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"دوبارہ کبھی نہ پوچھیں"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"ٹھیک ہے"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"منسوخ کریں"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"یہ عمل کاری %1$s کے لئے مرتب کردہ ہے، اجازت سے انکار اس کے مزید اس طرح سے کام نہ کر سکنے کا باعث بن سکتا ہے جیسے مقصود ہے۔"</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"کی اجازت%1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"آپ کو اجازت دینے کی ضرورت ہے %1$s۔"</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"آپ کو sd کارڈ کو اجازت دینے کی ضرورت ہے۔"</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"آپ کو روابط کو اجازت دینے کی ضرورت ہے۔"</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"آپ کو ایس ایم ایس کو اجازت دینے کی ضرورت ہے۔"</string></resources>

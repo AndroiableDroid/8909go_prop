@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!-- Copyright (c) 2014 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Play Store title text [CHAR-LIMIT=30] -->
+    <string name="webviewgoogle_play_store_title">"Android System WebView"</string>
+    <!-- Play Store tagline text. [CHAR-LIMIT=80] -->
+    <string name="webviewgoogle_play_store_tagline">"使应用能够显示网页内容，由 Chrome 提供支持"</string>
+    <!-- Play Store description text. [CHAR-LIMIT=4000] -->
+    <string name="webviewgoogle_play_store_description">"Android Webview 是一项由 Chrome 提供支持的系统组件，使 Android 应用能够显示网页内容。该组件已经预装在您的设备上，您需要及时更新该组件，以确保系统拥有最新的安全更新，并修正其他错误。"</string></resources>

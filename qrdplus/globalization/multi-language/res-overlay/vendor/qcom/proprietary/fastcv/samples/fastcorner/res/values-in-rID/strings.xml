@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Aplikasi Sampel FastCV"</string>
+    <string name="label_text">"Ketik di sini: "</string>
+    <string name="textview01_text">"TextView01"</string>
+    <string name="startpreview_text">"Mulai"</string>
+    <string name="stoppreview_text">"Hentikan"</string>
+    <string name="settings">"Setelan"</string>
+    <string name="txtAcceleration">"Aktifkan/Nonaktifkan Akselerasi"</string>
+    <string name="about">"Tentang"</string>
+    <string name="versionNumber_text">"Versi FastCV"</string>
+    <string name="appName_text">"Nama aplikasi"</string>
+    <string name="appName">"Aplikasi Sampel Deteksi Sudut FastCV"</string>
+                <string-array name="cornerDetectorDownSampleArray">
+       <item>1 </item>
+       <item>2 </item>
+       <item>4 </item>
+       <item>8 </item>
+       <item>16 </item>
+    </string-array>
+    <string-array name="cornerDetectorDownSampleValuesArray">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+       <item>3</item>
+       <item>4</item>
+    </string-array>
+ <string-array name="cornerDetectorThresholdArray">
+       <item>5 </item>
+       <item>10 </item>
+       <item>20 </item>
+       <item>40 </item>
+       <item>80 </item>
+    </string-array>
+        <string-array name="cornerDetectorValuesArray">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+       <item>3</item>
+       <item>4</item>
+    </string-array>
+<string-array name="CameraOnOffArray">
+       <item>"Jendela Bidik Hidup "</item>
+       <item>"Jendela Bidik Mati "</item>
+    </string-array>
+    <string-array name="CameraOnOffValuesArray">
+       <item>0</item>
+       <item>1</item>
+       </string-array>
+<string-array name="CornerOnOnOffArray">
+       <item>"Nonaktifkan Lapisan Sudut  "</item>
+       <item>"Aktifkan Lapisan Sudut "</item>
+     </string-array>
+    <string-array name="CornerOnOffValuesArray">
+       <item>0</item>
+       <item>1</item>
+     </string-array>
+<string-array name="GaussianOnOffArray">
+       <item>"Nonaktifkan Filter Gauss 3x3  "</item>
+       <item>"Aktifkan Filter Gauss 3x3 "</item>
+     </string-array>
+    <string-array name="GaussianOnOffValuesArray">
+       <item>0</item>
+       <item>1</item>
+     </string-array></resources>

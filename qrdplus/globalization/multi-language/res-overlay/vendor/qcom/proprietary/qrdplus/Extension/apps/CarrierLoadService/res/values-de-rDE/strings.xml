@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"CarrierLoadService"</string>
+    <string name="edit_title">"Ausgelöste Werte"</string>
+    <string name="trigger_on_off_title">"Anbieter auslösen"</string>
+    <string name="trigger_path_title">"Anbieter suchen unter:"</string>
+    <string name="trigger_brand_title">"Anbieter suchen nach Marke:"</string>
+    <string name="trigger_target_title">"Anbieter suchen nach Ziel:"</string>
+    <string name="trigger_path_hint">"Anbieter-gespeicherter Pfad"</string>
+    <string name="trigger_brand_hint">"Marke"</string>
+    <string name="trigger_target_hint">"Ziel"</string>
+    <string name="trigger_start">"Im Hintergrund starten"</string>
+    <string name="trigger_exit">"Speichern und schließen"</string>
+    <string name="toast_trigger_enabled">"Auslöser aktiviert"</string>
+    <string name="toast_trigger_disabled">"Auslöser deaktiviert"</string>
+    <string name="toast_trigger_start">"Auslöser in Hintergrund zwingen"</string>
+    <string name="toast_filebased_switch_enabled">"Schalter für dateibasierten Mobilfunkanbieter aktiviert"</string>
+    <string name="toast_filebased_switch_disabled">"Schalter für dateibasierten Mobilfunkanbieter deaktiviert, dann Schalter für blockbasierten Schalter aktiviert"</string>
+    <string name="toast_blockbased_switch_enabled">"Schalter für blockbasierten Mobilfunkanbieter aktiviert"</string>
+    <string name="toast_blockbased_switch_disabled">"Schalter für blockbasierten Mobilfunkanbieter deaktiviert"</string></resources>

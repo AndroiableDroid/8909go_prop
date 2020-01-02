@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"Ein Tag hat 24 Stunden"</string>
+    <string name="hi_snapdragon">"Hallo, Snapdragon"</string>
+    <string name="hey_snapdragon">"Hey Snapdragon"</string>
+    <string name="my_voice">"Meine Stimme ist mein Passwort"</string>
+    <string name="make_my_day">"Versüße mir den Tag"</string>
+    <string name="tomorrow_is_another">"Morgen ist ein anderer Tag"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"Willkommen in San Diego"</string>
+    <string name="okay_google">"Okay Google"</string>
+    <string name="open_my_email">"Öffne meine E-Mail"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"Stimmabdruck"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"Einstellungen"</string>
+    <string name="action_add">"Hinzufügen"</string>
+    <string name="title_activity_main_with_fragment">"MainWithFragmentActivity"</string>
+    <string name="tap_mic_start">"Zum Starten Mikro antippen"</string>
+    <string name="tap_mic_stop">"Zum Stoppen Mikro antippen"</string>
+    <string name="say_key_phrase">"Sagen Sie\"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"Sagen Sie den Satz \"&lt;b&gt;%1$s&lt;/b&gt;\" noch einmal."</string>
+    <string name="say_one_of_key_phrases">"Sagen Sie einen der Schlüsselsätze"</string>
+    <string name="phrase_recognized">"Der Satz \"&lt;b&gt;%1$s&lt;/b&gt;\" wird erkannt "</string>
+    <string name="recording_length_exceeded">"Aufnahmelänge überschritten"</string>
+    <string name="recording_length_exceeded_msg">"Die Aufnahmelänge wurde überschritten. Wiederholen Sie den Vorgang."</string>
+    <string name="delete_all">"Alle Löschen"</string>
+    <string name="delete_all_msg">"Möchten Sie wirklich alle registrierten Vorlagen löschen?"</string>
+    <string name="got_it">"Sehr gut! OK."</string>
+    <string name="set_key_phrase">"Schlüsselsatz festl."</string>
+    <string name="set_key_phrase_name">"Schlüssels.-Name festl."</string>
+    <string name="set_key_phrase_action">"Aktion festl."</string>
+    <string name="change_key_phrase_action">"Aktion ändern"</string>
+    <string name="phrase_strength">"Satzstärke"</string>
+    <string name="phrase_strength_hint">"Der Satz sollte mindestens 3 Wörter enthalten."</string>
+    <string name="register_phrase">"Satz aufnehmen"</string>
+    <string name="register_phrase_hint">"Damit ich Ihre Stimme erkennen kann, nehmen Sie den Satz \"&lt;b&gt;%1$s&lt;/b&gt;\" bitte dreimal auf."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" Nehmen Sie in einem ruhigen Raum auf.\n\n"<b>"2."</b>" Halten Sie Ihr Telefon von Ihrem Mund weg.\n\n"<b>"3."</b>" Sprechen Sie den Schlüsselsatz natürlich."</string>
+    <string name="ready_to_record">"OK, ICH BIN BEREIT ZUR AUFNAHME"</string>
+    <string name="oops">"Hoppla! Bitte versuchen Sie es erneut."</string>
+    <string name="say_the_phrase">"Sprechen Sie den Satz\"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"Der Satz \"&lt;b&gt;%1$s&lt;/b&gt;\" wurde aufgenommen"</string>
+    <string name="say_the_phrase_few_more">"Sagen Sie mehrmals \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="voice_print">"Stimmabdruck"</string>
+    <string name="cancel">"Abbrechen"</string>
+    <string name="voice_level">"Stimmlautst."</string>
+    <string name="background_noise">"Nebengeräusche"</string>
+    <string name="cap_done">"Fertig"</string>
+    <string name="cap_record">"AUFNEHMEN"</string>
+    <string name="cap_next">"Weiter"</string>
+    <string name="cap_ok">"OK"</string>
+    <string name="next">"Weiter"</string>
+    <string name="new_key_phrase">"Neuer Schlüsselsatz"</string>
+    <string name="edit_keyphrases">"Schlüssels. bearbeiten"</string>
+    <string name="set_name">"Namen festl."</string>
+    <string name="select_key_phrase">"Schlüssels. ausw."</string>
+    <string name="set_action">"Aktion festl."</string>
+    <string name="registration_complete">"Registrierung abgeschlossen"</string>
+    <string name="confirm_pin">"PIN-Nr. bestätigen"</string>
+    <string name="confirm_pin_msg">"Geben Sie zur Bearbeitung von Schlüsselsätzen die PIN-Nr. des Geräts ein."</string>
+    <string name="your_key_phrase">"Ihr Schlüsselsatz"</string>
+    <string name="cap_redo">"WIEDERHOLEN"</string>
+    <string name="cap_redo_previous">"VORIG. WIEDERHOLEN"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"Empf. Sätze suchen"</string>
+    <string name="create_your_own">"Eigenen Satz erstellen"</string>
+    <string name="skip">"Überspringen"</string>
+    <string name="none">"Kein"</string>
+    <string name="enter_pin">"Geben Sie zur Bearbeitung von Schlüsselsätzen die PIN-Nr. des Geräts ein."</string>
+    <string name="your_key_phrase_name">"Schlüsselsatz-Name"</string>
+    <string name="new_key_phrase_name">"Neuer Schlüssels.-Name"</string>
+    <string name="set_service_to_launch">"Zu startenden Dienst festl."</string>
+    <string name="email">"E-Mail"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"Textnachricht senden"</string>
+    <string name="use_selected_phrase">"Ausgew. Satz verwenden"</string>
+    <string name="about">"Info"</string>
+    <string name="edit_key_phrases">"Schlüssels. bearbeiten"</string>
+    <string name="invalid_phrasename_title">"Ungültiger Satzname"</string>
+    <string name="invalid_phrasename_msg">"Der Satzname darf nicht leer sein."</string>
+    <string name="duplicate_phrasename_msg">"Dieser Satzname existiert bereits. Wählen Sie einen anderen Namen."</string>
+    <string name="invalid_phrase_title">"Ungültiger Satz"</string>
+    <string name="invalid_phrase_msg">"Der Satz darf nicht leer sein."</string>
+    <string name="edit_action">"Aktion bearb."</string>
+    <string name="threshold">"Schwelle"</string>
+    <string name="delete_phrase">"Satz löschen"</string>
+    <string name="rename">"Namen ändern"</string>
+    <string name="rename_keyphrase">"Schlüssels.-Namen ändern"</string>
+    <string name="adjust_keyword_sensitivity">"Schlüsselw.-Empf. anpassen"</string>
+    <string name="adjust_keyword_sensitivity_summary">"Die Empfindlichkeit kann angepasst werden, um eine gewisse Abweichung bei der Erkennung von Schlüsselsätzen zuzulassen."</string>
+    <string name="sensitivity">"Empfindlichkeit"</string>
+    <string name="low_sensitivity">"Empfindlichk. Gering"</string>
+    <string name="med_sensitivity">"Empfindlichk. Mittel"</string>
+    <string name="high_sensitivity">"Empfindlichk. Hoch"</string>
+    <string name="low">"NIED"</string>
+    <string name="med">"MITT"</string>
+    <string name="high">"STARK"</string>
+    <string name="low_sensitivity_summary">"Lässt eine größere Abweichung bei der Erkennung von Schlüsselsätzen zu."</string>
+    <string name="med_sensitivity_summary">"Lässt eine geringe Abweichung bei der Erkennung von Schlüsselsätzen zu, verhindert jedoch evtl. die Erkennung einiger Schlüsselsätze."</string>
+    <string name="high_sensitivity_summary">"Zusätzliche Sicherheit, verhindert jedoch evtl. die Erkennung einiger Schlüsselsätze."</string>
+    <string name="keyword_sensitivity">"Schlüsselw.-Empfindlichkeit"</string>
+    <string name="delete_phrase_msg">"Möchten Sie den Satz \"%1$s\" wirklich löschen?"</string>
+    <string name="voice_print_not_available_title">"Stimmabdruck nicht verfügbar"</string>
+    <string name="voice_print_not_available_msg">"Stimmabdruck ist auf diesem Gerät nicht verfügbar."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"Löschen erfolgreich"</string>
+    <string name="delete_success_msg">"Das Schlüsselsatzmodell wurde gelöscht."</string>
+    <string name="delete_fail_title">"Löschen fehlgeschlagen"</string>
+    <string name="delete_fail_msg">"Beim Löschen des Schlüsselsatzmodells ist ein Fehler aufgetreten."</string>
+    <string name="rename_success_title">"Umbenennen erfolgreich"</string>
+    <string name="rename_success_msg">"Das Schlüsselsatzmodell wurde umbenannt."</string>
+    <string name="rename_fail_title">"Umbenennen fehlgeschlagen"</string>
+    <string name="rename_fail_msg">"Beim Umbenennen des Schlüsselsatzmodells ist ein Fehler aufgetreten."</string>
+    <string name="pin_validation">"PIN-Validierung"</string>
+    <string name="pin_failed">"Ungültige PIN-Eingabe!"</string>
+    <string name="registration_failed">"Registrierung fehlgeschlagen"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"Benutzerschwelle"</string>
+    <string name="spoof_score">"Spoofing-Schwelle"</string>
+    <string name="thresholds">"Schwellen"</string>
+    <string name="save">"Speichern"</string>
+    <string name="sentence_score_msg">"Satzschwelle festlegen"</string>
+    <string name="user_score_msg">"Benutzerschwelle festlegen"</string>
+    <string name="spoof_score_msg">"Spoofing-Schwelle festlegen"</string>
+    <string name="sentence_score">"Satzschwelle"</string></resources>

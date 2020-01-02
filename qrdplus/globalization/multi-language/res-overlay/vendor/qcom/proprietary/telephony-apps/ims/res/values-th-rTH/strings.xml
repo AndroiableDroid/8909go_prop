@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incoming_call_failed_low_battery">"การรับสายโทรเข้าล้มเหลวเพราะแบตเตอรี่ต่ำ"</string>
+    <!-- Notification manager HD icon title. -->
+    <string name="device_is_hd_capable">"อุปกรณ์รองรับความสามารถแบบ HD"</string>
+    <string name="call_hold_label">"พักการโทร:"</string>
+    <string name="call_resume_label">"โทรต่อ:"</string>
+    <string name="error_msg_failed">" ล้มเหลว"</string>
+    <string name="error_msg_cancelled">" ยกเลิก"</string>
+    <string name="error_msg_reinvite_collision">" เชิญการชนซ้ำ"</string>
+    <string name="handover_from_wifi_to_lte">"การสลับไปเป็นเครือข่าย LTE เพื่อคุณภาพที่ดีกว่า"</string>
+    <!-- Wifi calling QuickSettings strings -->
+    <string name="wifi_calling_on">"เปิดการโทร Wifi"</string>
+    <string name="wifi_calling_off">"ปิดการโทร Wifi"</string></resources>

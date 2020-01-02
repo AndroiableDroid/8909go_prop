@@ -1,0 +1,113 @@
+<resources>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+    <string name="app_name">"SeempJService"</string>
+    <string-array name="cause_description_array">
+<item>"6:3:Mengintip input / interaksi pengguna saat aplikasi tidak terlihat oleh pengguna atau aplikasi berjalan di latar belakang"</item>
+    <item>"7:5:penggunaan mencurigakan dari android UID "</item>
+    <item>"8:5:penggunaan mencurigakan dari android UID saat aplikasi berjalan di latar belakang"</item>
+    <item>"9:5:Akses mencurigakan dari informasi sensitif perangkat"</item>
+    <item>"10:5:Akses mencurigakan dari informasi sensitif perangkat saat aplikasi berjalan di latar belakang"</item>
+    <item>"11:4:Akses mencurigakan dari nomor telepon"</item>
+    <item>"12:4:Mengakses nomor telepon saat aplikasi tidak berinteraksi dengan pengguna"</item>
+    <item>"13:2:aplikasi mencoba melakukan panggilan telepon yang tidak diizinkan"</item>
+    <item>"14:2:aplikasi mencoba panggilan telepon tidak diizinkan saat aplikasi berjalan di latar belakang"</item>
+    <item>"15:4:Akses abnormal terhadap informasi akun pengguna sensitif"</item>
+    <item>"16:4:Akses abnormal terhadap informasi akun pengguna sensitif saat aplikasi tidak berinteraksi dengan pengguna"</item>
+    <item>"17:4:Aplikasi mengakses informasi akun pengguna sensitif tanpa memberitahu pengguna"</item>
+    <item>"18:4:Aplikasi mengakses informasi akun pengguna sensitif tanpa memberitahu pengguna saat berada di latar belakang"</item>
+    <item>"19:3:Akses mencurigakan atas informasi browser sensitif"</item>
+    <item>"20:3:Akses mencurigakan atas informasi browser sensitif saat aplikasi berjalan di latar belakang"</item>
+    <item>"21:3:mengakses informasi browser sensitif (termasuk informasi browser sensitif)saat aplikasi tidak berinteraksi dengan pengguna"</item>
+    <item>"22:3:mengakses informasi browser sensitif (termasuk informasi browser sensitif)saat aplikasi tidak berinteraksi dengan pengguna dan berada di latar belakang"</item>
+    <item>"23:6:Pemasangan pintasan abnormal/berlebih"</item>
+    <item>"24:6:Pemasangan pintasan abnormal/berlebih saat berjalan di latar belakang"</item>
+    <item>"25:6:aplikasi mencoba memasang pintasan tanpa interaksi pengguna"</item>
+    <item>"26:6:aplikasi mencoba memasang pintasan tanpa interaksi pengguna dan saat berjalan di latar belakang"</item>
+    <item>"27:4:Mengakses informasi kalender sensitif"</item>
+    <item>"28:4:Mengakses informasi kalender sensitif saat aplikasi berjalan di latar belakang"</item>
+    <item>"29:1:Memasukkan informasi/acara ke kalender tanpa interaksi dengan pengguna"</item>
+    <item>"30:1:Memasukkan informasi/acara ke kalender tanpa interaksi saat aplikasi berjalan di latar belakang"</item>
+    <item>"31:5:Akses abnormal / Berlebih dari informasi lokasi"</item>
+    <item>"32:5:Akses abnormal / Berlebih dari informasi lokasi saat aplikasi berjalan di latar belakang"</item>
+    <item>"37:3:Penggunaan mencurigakan dari kamera (termasuk gambar dan video)"</item>
+    <item>"38:3:Penggunaan mencurigakan dari kamera (termasuk mengambil gambar dan video) saat aplikasi berjalan di latar belakang"</item>
+    <item>"339:3:Mengambil gambar (termasuk video) dan menghubungkannya dengan server jarak jauh"</item>
+    <item>"40:3:Mengambil gambar (termasuk video) dan menghubungkannya dengan server jarak jauh saat aplikasi berjalan di latar belakang"</item>
+    <item>"41:3:Mengambil gambar (termasuk video) tanpa interaksi pengguna"</item>
+    <item>"42:3:Mengambil gambar (termasuk video) tanpa interaksi pengguna dan saat aplikasi menjalankan latar belakang"</item>
+    <item>"43:3:Mengambil gambar (termasuk video) dan menghubungkannya dengan server jarak jauh tanpa interaksi pengguna"</item>
+    <item>"44:3:Mengambil gambar (termasuk video) dan menghubungkannya dengan server jarak jauh dan saat aplikasi menjalankan latar belakang"</item>
+    <item>"45:3:Penggunaan mencurigakan dari kamera video (termasuk gambar dan video)"</item>
+    <item>"46:3:Penggunaan mencurigakan dari kamera video (termasuk mengambil gambar dan video) saat aplikasi berjalan di latar belakang"</item>
+    <item>"47:3:Merekam video dan menghubungkannya ke server jarak jauh"</item>
+    <item>"48:3:Merekam video dan menghubungkannya ke server jarak jauh saat aplikasi berjalan di latar belakang"</item>
+    <item>"49:3:Merekam video tanpa interaksi pengguna"</item>
+    <item>"50:3:Merekam video tanpa interaksi pengguna dan saat aplikasi berjalan di latar belakang"</item>
+    <item>"51:3:Merekam video dan menghubungkannya ke server jarak jauh tanpa interaksi pengguna"</item>
+    <item>"52:3:Merekam video dan menghubungkannya ke server jarak jauh tanpa interaksi pengguna dan saat aplikasi menjalankan latar belakang"</item>
+    <item>"53:3:Rekaman mencurigakan dari data mikrofon"</item>
+    <item>"54:3:Rekaman mencurigakan dari data mikrofon saat aplikasi berjalan di latar belakang"</item>
+    <item>"55:3:Rekaman data mikrofon dan komunikasi ke server jarak jauh yang mencurigakan"</item>
+    <item>"56:3:Rekaman data mikrofon dan komunikasi ke server jarak jauh saat aplikasi berjalan di latar belakang"</item>
+    <item>"57:3:Data mikrofon rekaman yang mencurigakan saat pengguna tidak berinteraksi dengan aplikasi"</item>
+    <item>"58:3:Merekam data mikrofon saat pengguna tidak berinteraksi dengan aplikasi dan aplikasi berjalan di latar belakang"</item>
+    <item>"59:3:Rekaman dan data mikrofon kominkasi yang mencurigakan saat aplikasi tidak berinteraksi dengan pengguna"</item>
+    <item>"60:3:merekam dan menghubungkan data mikrofon saat aplikasi tidak berinteraksi dengan pengguna dan berjalan di latar belakang"</item>
+    <item>"61:2:Suspicious SMS activity: Mencoba mengirim SMS (kemungkinan mahal untuk nomor premium)"</item>
+    <item>"62:2:Aplikasi mencoba mengirim SMS saat berjalan di latar belakang (kemungkinan mahal untuk nomor premium)"</item>
+    <item>"63:2:Aktivitas SMS yang mencurigakan: Aplikasi mengirim SMS (kemungkinan mahal untuk nomor premium) tanpa interaksi pengguna"</item>
+    <item>"64:2:Aplikasi mengirim SMS (kemungkinan mahal untuk nomor premium) tanpa interaksi pengguna dansaat aplikasi berjalan di latar belakang"</item>
+    <item>"65:3:Akses mencurigakan ke SMS (termasuk membuka dan membaca)"</item>
+    <item>"66:3:Mengakses dan membaca SMS saat aplikasi berjalan di latar belakang"</item>
+    <item>"67:3:Mengakses dan membaca SMS tanpa interaksi pengguna"</item>
+    <item>"68:3:Mengakses dan membaca SMS tanpa interaksi pengguna saat aplikasi berjalan di latar belakang"</item>
+    <item>"69:3:akses berlebih/abnormal ke informasi sensor"</item>
+    <item>"70:3:akses berlebih/abnormal ke informasi sensor saat aplikasi berjalan di latar belakang"</item>
+    <item>"71:3:Penahahan mencurigakan dari pesan MMS"</item>
+    <item>"72:3:Penahahan mencurigakan dari pesan MMS saat aplikasi menjalankan latar belakang"</item>
+    <item>"73:3:Penahahan mencurigakan dari pesan MMS tanpa interaksi pengguna"</item>
+    <item>"74:3:Penahahan mencurigakan dari pesan MMS tanpa interaksi pengguna dan saat aplikasi berjalan di latar belakang"</item>
+    <item>"75:4:Akses abnormal dari satu atau lebih informasi kontak"</item>
+    <item>"76:4:Akses abnormal dari satu atau lebih informasi kontak saat aplikasi berjalan di latar belakang"</item>
+    <item>"77:4:Mengakses satu atau lebih daftar kontak saat aplikasi tidak berinteraksi dengan pengguna"</item>
+    <item>"78:4:Mengakses satu atau lebih daftar kontak saat aplikasi tidak berinteraksi dengan pengguna dan saat berjalan di latar belakang"</item>
+    <item>"79:1:Pemasangan aplikasi pihak ke-3 yang mencurigakan"</item>
+    <item>"80:1:Pemasangan aplikasi pihak ke-3 yang mencurigakan saat aplikasi berjalan di latar belakang"</item>
+    <item>"81:1:Pemasangan aplikasi pihak ke-3 yang mencurigakan saat aplikasi tidak berinteraksi dengan pengguna"</item>
+    <item>"82:1:Pemasangan aplikasi pihak ke-3 yang mencurigakan saat aplikasi tidak berinteraksi dengan pengguna dan berjalan di latar belakang"</item>
+    <item>"83:5:komunikasi android UID berlebih/abnormal"</item>
+    <item>"84:5:komunikasi android UID berlebih/abnormal saat aplikasi berjalan di latar belakang"</item>
+    <item>"85:5:Mengakses dan menghubungkan informasi perangkat sensitif (dapat berupa IMEI, nomor seri SIM, dan informasi terkait operator lainnya)"</item>
+    <item>"86:5:Mengakses dan menghubungkan informasi perangkat sensitif (dapat berupa IMEI, nomor seri SIM, dan informasi terkait operator lainnya) saat aplikasi berjalan di latar belakang"</item>
+    <item>"87:4:Mengakses dan menghubungkan nomor telepon pengguna ke server jarak jauh"</item>
+    <item>"88:4:Mengakses dan menghubungkan nomor telepon pengguna ke server jarak jauh saat aplikasi berjalan di latar belakang"</item>
+    <item>"89:4:Komunikasi abnormal dari informasi / kredensial akun pengguna sensitif (termasuk kartu kredit atau informasi keuangan lainnya)"</item>
+    <item>"90:4:Komunikasi abnormal dari informasi / kredensial akun pengguna sensitif (termasuk kartu kredit atau informasi keuangan lainnya) saat aplikasi berjalan di latar belakang"</item>
+    <item>"91:3:mengakses dan menghubungkan konten browser sensitif (termasuk informasi sensitif pengguna)"</item>
+    <item>"92:3:mengakses dan menghubungkan konten browser sensitif (termasuk informasi sensitif pengguna) saat aplikasi berjalan di latar belakang"</item>
+    <item>"93:3:mengakses dan menghubungkan konten browser sensitif (termasuk informasi sensitif pengguna)"</item>
+    <item>"94:3:mengakses dan menghubungkan konten browser sensitif (termasuk informasi sensitif pengguna) saat aplikasi berjalan di latar belakang"</item>
+    <item>"95:4:Menghubungkan informasi kalender ke server jarak jauh (termasuk yang berisi informasi sensitif pengguna)"</item>
+    <item>"96:4:Menghubungkan informasi kalender ke server jarak jauh (termasuk yang berisi informasi sensitif pengguna) saat aplikasi berjalan di latar belakang"</item>
+    <item>"97:5:Akses dan komunikasi informasi lokasi yang Abnormal / Berlebihan"</item>
+    <item>"98:5:Akses dan komunikasi informasi lokasi yang Abnormal / Berlebihan saat aplikasi berjalan di latar belakang"</item>
+    <item>"99:5:Akses dan komunikasi informasi lokasi yang Abnormal / Berlebihan"</item>
+    <item>"100:5:Akses dan komunikasi informasi lokasi yang Abnormal / Berlebihan saat aplikasi berjalan di latar belakang"</item>
+    <item>"101:3:Komunikasi informasi sensor yang Abnormal / Berlebihan"</item>
+    <item>"102:3:Kominunikasi informasi sensor yang Abnormal / Berlebihan saat aplikasi berjalan di latar belakang"</item>
+    <item>"103:4:Mengakses satu atau lebih daftar kontak dan menghubungkan ini ke server jarak jauh"</item>
+    <item>"104:4:Mengakses satu atau lebih daftar kontak dan menghubungkan ini ke server jarak jauh saat aplikasi berjalan di latar belakang"</item>
+    <item>"105:4:Mengakses satu atau lebih daftar kontak dan menghubungkan ini ke server jarak jauh tanpa interaksi pengguna"</item>
+    <item>"106:4:Mengakses satu atau lebih daftar kontak dan menghubungkan ini ke server jarak jauh tanpa interkasi pengguna dan saat aplikasi berjalan di latar belakang"</item>
+    <item>"109:3:akses berlebih/abnormal ke informasi sensor"</item>
+    <item>"110:3:akses berlebih/abnormal ke informasi sensor saat aplikasi berjalan di latar belakang"</item>
+    <item>"121:5:Akses mencurigakan ke ID pengguna terkait setelan"</item>
+    <item>"122:5:Akses mencurigakan ke ID pengguna terkait setelan saat aplikasi berjalan di latar belakang"</item>
+    <item>"162:3:Perubahan mencurigakan terhadap setelan mode pesawat saat aplikasi berjalan di latar belakang"</item>
+    <item>"164:3:Perubahan mencurigakan terhadap setelan alarm saat aplikasi berjalan di latar belakang"</item>
+    <item>"202:3:Modifikasi mencurigakan terhadap status WiFi saat aplikasi berjalan di latar belakang"</item>
+    </string-array></resources>

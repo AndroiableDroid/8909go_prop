@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"ການຕັ້ງຄ່າ"</string>
+    <string name="body_msg">"ທົດລອງ FidoCryptoService"</string>
+    <string name="load">"ໂຫຼດ"</string>
+    <string name="unload">"ບໍ່ໂຫຼດ"</string>
+    <string name="process">"ຂະບວນການ"</string>
+    <string name="start">"ເລີ່ມຕົ້ນ"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"ຜຸກມັດ​ການ​ບໍລິການ FIDO"</string>
+    <string name="unbindFido">"ຖອນ​ຜູກ​ມັດ​ການ​ບໍລິການ FIDO"</string>
+    <string name="setChallenge">"ກໍານົດສິ່ງທ້າທາຍ"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"ຜຸກຂາດ Authenticator"</string>
+    <string name="verifyUser">"ກວດ​ສອບ​ຜູ້​ໃຊ້ / ​ເອົາ​ໂທ​ເຄັນ"</string>
+    <string name="GetInfo">"ຮັບຂໍ້ມູນ"</string>
+    <string name="Register">"ການລົງທະບຽນ"</string>
+    <string name="Deregister">"ຍົກເລີກການລົງທະບຽນ"</string>
+    <string name="OpenSettings">"ເປີດການຕັ້ງຄ່າ"</string>
+    <string name="Sign">"ເຂົ້າສູ່ລະບົບ"</string>
+    <string name="MalformedRequest">"ການຂໍຜິດປົກກະຕິ"</string>
+    <string name="selectAuth">"ການຄັດເລືອກ Authenticator"</string>
+    <string name="getEnrollmentStatus">"ໄດ້ຮັບສະຖານະພາບການລົງທະບຽນ"</string>
+    <string name="RegisterExt">"​ລົງທະບຽນ​ດ້ວຍສ່ວນ​ຂະຫຍາຍ"</string>
+    <string name="SignExt">"​ເຊັນ​ຊື່​ດ້ວຍ​ສ່ວນ​ຂະຫຍາຍ"</string>
+    <string name="encResult">"ຜົນ​ຮັບ​ທີ່​ສະ​ແດງ​ຢ່າງ​ຈະ​ແຈ້ງ"</string>
+    <string name="extResult">"ຂໍ້​ມູນ​ສ່ວນ​ຂະ​ຫຍາ​ຍ"</string>
+    <string name="selectFidoOpText">"​ເລືອກການ​ບໍລິການ FIDO"</string>
+    <string name="show_message_sui">"ສະ​ແດງ​ຊຸດ​ຂໍ້ຄວາມ sui"</string>
+    <string name="fido_sui_service">"ການ​ບໍລິການ fido Sui"</string>
+    <string name="bindFidoSui">"ຜຸກມັດ​ fido sui"</string>
+    <string name="unbindFidoSui">"ຖອນຜຸກມັດ​ fido sui"</string>
+    <string name="suiResultTitle">"ສະ​ແດງ​ຜົນ​ຮັບ​ຂໍ້ຄວາມ sui"</string>
+    <string name="cancel_sui">"ຍົກ​​ເລີກ sui"</string>
+    <string name="extensionText">"​ໃຊ້​ສ່ວນ​ຂະຫຍາຍ​ບໍ?"</string>
+    <string name="pngText">"​ໃຊ້​ເນື້ອ​ຫາ PNG ບໍ?"</string>
+    <string name="fpText">"ລາຍ​ນິ້ວມື​ທີ່​ປອດ​ໄພ"</string>
+    <string-array name="authenticator_array">
+        <item>"ລອງ Authenticator"</item>
+        <item>"ຕົວຢ່າງ Authenticator"</item>
+        <item>"ຄວາມປອດໄພຕົວຢ່າງ Authenticator"</item>
+        <item>"ຕົວ​ຮອງ​ຮັບ​ສ່ວນ​ຂະຫຍາຍ​ຕົວຢ່າງ"</item>
+        <item>"ຕົວ​ຮອງ​ຮັບ​ສ່ວນ​ຂະຫຍາຍ​ທີ່​ປອດ​ໄພ"</item>
+        <item>"​ຕົວ​ຮອງ​ຮັບ​ສຸຂະພາບ​ອຸປະກອນ"</item>
+        <item>"ຕົວ​ຮອງ​ຮັບ​ຕົວຢ່າງ​ທີ່​ປອດ​ໄພ IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"​ເອົາ​ຂໍ້​ມູນ"</item>
+        <item>"ການລົງທະບຽນ"</item>
+        <item>"ຍົກເລີກການລົງທະບຽນ"</item>
+        <item>"ເປີດການຕັ້ງຄ່າ"</item>
+        <item>"ການ​ຍົກ​ເວັ້ນທີ່​ຜິດ​ຮູບ​ຮ່າງ"</item>
+        <item>"​ເຊັນ​ຊື່ (Auth)"</item>
+        <item>"​ເຊັນ​ຊື່ (TX)"</item>
+    </string-array></resources>

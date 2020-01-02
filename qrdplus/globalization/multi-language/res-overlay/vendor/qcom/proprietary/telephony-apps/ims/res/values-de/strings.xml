@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incoming_call_failed_low_battery">"Eingehender Anruf aufgrund eines niedrigen Akkustands fehlgeschlagen."</string>
+    <!-- Notification manager HD icon title. -->
+    <string name="device_is_hd_capable">"Gerät ist HD-fähig"</string>
+    <string name="call_hold_label">"Anruf gehalten:"</string>
+    <string name="call_resume_label">"Wiederaufnahme des gehaltenen Anrufs:"</string>
+    <string name="error_msg_failed">" Fehlgeschlagen"</string>
+    <string name="error_msg_cancelled">" Abgebrochen"</string>
+    <string name="error_msg_reinvite_collision">" Kollision bei erneuten Einladungen"</string>
+    <string name="handover_from_wifi_to_lte">"Für eine bessere Qualität zum LTE-Netzwerk wechseln"</string>
+    <!-- Wifi calling QuickSettings strings -->
+    <string name="wifi_calling_on">"WLAN-Anrufe aktiviert"</string>
+    <string name="wifi_calling_off">"WLAN-Anrufe deaktiviert"</string></resources>

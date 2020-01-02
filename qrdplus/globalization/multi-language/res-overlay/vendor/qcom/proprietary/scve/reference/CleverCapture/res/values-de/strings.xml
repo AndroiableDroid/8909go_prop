@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"CleverCapture"</string>
+    <string name="error_dialog_title">"Anwendungsfehler"</string>
+    <string name="btn_ok">"OK"</string>
+    <string name="err_library_loading">"App hat native Bibliotheken nicht geladen."</string>
+    <string name="err_camera_init">"Kamera wurde nicht initialisiert."</string>
+    <string name="err_sensors_init">"Sensoren wurden nicht initialisiert."</string>
+    <string name="err_cc_init">"CleverCapture-API wurde nicht initialisiert."</string>
+    <string name="err_sensors_failed">"Sensoren wurden nicht initialisiert."</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"Sitzung wurde nicht initialisiert"</string>
+    <string name="err_queue_full">"Warteschlange voll"</string>
+    <string name="title_settings">"Einstellungen"</string>
+    <string name="camera_settings">"Kameraeinstellungen"</string>
+    <string name="camera_settings_picture_size">"Bildgröße"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"1280x720"</item>
+        <item>"1600x1200"</item>
+        <item>"1920x1080"</item>
+        <item>"2048x1536"</item>
+        <item>"3200x2400"</item>
+        <item>"4000x3000"</item>
+        <item>"4208x3120"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"1280x720"</item>
+        <item>"1600x1200"</item>
+        <item>"1920x1080"</item>
+        <item>"2048x1536"</item>
+        <item>"3200x2400"</item>
+        <item>"4000x3000"</item>
+        <item>"4208x3120"</item>
+    </string-array>
+    <string name="camera_settings_preview_size">"Vorschaugröße"</string>
+    <string-array name="camera_settings_preview_size_entries">
+        <item>"1280x720"</item>
+        <item>"1280x960"</item>
+        <item>"1920x1080"</item>
+    </string-array>
+    <string-array name="camera_settings_preview_size_values">
+        <item>"1280x720"</item>
+        <item>"1280x960"</item>
+        <item>"1920x1080"</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"Fokussierungsmodus"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"Automatisch"</item>
+        <item>"Kontinuierlich (Bild)"</item>
+        <item>"Kontinuierlich (Video)"</item>
+        <item>"Unendlich"</item>
+        <item>"Makro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"auto"</item>
+        <item>"continuous-picture"</item>
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>1</item>
+        <item>4</item>
+        <item>3</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_antibanding">"Anti-Streifenbildung"</string>
+    <string-array name="camera_settings_antibanding_entries">
+        <item>"Automatisch"</item>
+        <item>"50 Hz"</item>
+        <item>"60 Hz"</item>
+        <item>"AUS"</item>
+    </string-array>
+    <string-array name="camera_settings_antibanding_values">
+        <item>"auto"</item>
+        <item>"50hz"</item>
+        <item>"60hz"</item>
+        <item>"off"</item>
+    </string-array>
+    <string-array name="camera_settings_antibanding_values_camera2">
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string name="camera_settings_video_stabilization">"Videostabilisierung"</string>
+    <string-array name="camera_settings_video_stabilization_entries">
+        <item>"Deaktivieren"</item>
+        <item>"Aktivieren"</item>
+    </string-array>
+    <string-array name="camera_settings_video_stabilization_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="camera_settings_video_stabilization_default">1</string>
+    <string name="pano_settings">"CleverCapture-Einstellungen"</string>
+    <string name="pano_settings_scve_mode">"SCVE-Betriebsmodus"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"Standard"</item>
+        <item>"Leistung"</item>
+        <item>"CPU-Entlastung"</item>
+        <item>"Geringe Energie"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_zoom_cfg">"Zoomen"</string>
+    <string-array name="pano_settings_zoom_cfg_entries">
+        <item>"Deaktivieren"</item>
+        <item>"Aktivieren"</item>
+    </string-array>
+    <string-array name="pano_settings_zoom_cfg_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pano_settings_zoom_cfg_default">0</string>
+    <string name="pano_settings_motion_cfg">"Kein Bild während Handbewegung"</string>
+    <string-array name="pano_settings_motion_cfg_entries">
+        <item>"Deaktivieren"</item>
+        <item>"Aktivieren"</item>
+    </string-array>
+    <string-array name="pano_settings_motion_cfg_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pano_settings_motion_cfg_default">1</string>
+    <string name="pano_settings_focus_cfg">"Kein Bild während Fokus"</string>
+    <string-array name="pano_settings_focus_cfg_entries">
+        <item>"Deaktivieren"</item>
+        <item>"Aktivieren"</item>
+    </string-array>
+    <string-array name="pano_settings_focus_cfg_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pano_settings_focus_cfg_default">0</string>
+    <string name="pano_settings_image_compress_level">"Bildkomprimierungsstufe"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_ae_awb_lock">"AE/AWB-Sperre aktiv."</string>
+    <string-array name="pano_settings_enable_ae_awb_lock_entries">
+        <item>"Nein"</item>
+        <item>"Ja"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_ae_awb_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_ae_awb_lock_default">"false"</string>
+    <string name="cc_settings_burst_number">"Sequenzanz."</string>
+    <string-array name="cc_settings_burst_number_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="cc_settings_burst_number_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+   <string name="cc_settings_burst_number_default">3</string>
+    <string name="cc_settings_burst_interval">"Sequenzinterv."</string>
+    <string-array name="cc_settings_burst_interval_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="cc_settings_burst_interval_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string name="cc_settings_burst_interval_default">1</string></resources>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"မြင်ကွင်းကျယ် UI"</string>
+    <string name="title_loading">"လုပ်ဆောင်နေသည်!"</string>
+    <string name="msg_loading">"လုပ်ငန်းစဉ် ဆောင်ရွက်နေဆဲ\u2026"</string>
+    <string name="panorama_saved">"မြင်ကွင်းကျယ်ကို သင့်ကိရိယာ၏ ရုပ်ပုံပြခန်းသို့ အောင်မြင်စွာ သိမ်းဆည်းထားသည်"</string>
+    <string name="panorama_generate_result_failed">"ဝမ်းနည်းပါသည်၊ ကျေးဇူးပြု၍ ၎င်းကိုထပ်မံကြိုးစားပါ။"</string>
+    <string name="error_dialog_title">"အပလီကေးရှင်း အမှား"</string>
+    <string name="btn_ok">"ကောင်းပြီ"</string>
+    <string name="btn_txt_save">"ပုံရိပ် သိမ်းဆည်းပါ"</string>
+    <string name="err_library_loading">"မူရင်းစာကြည့်တိုက်များသို့ လုပ်ဆောင်ရန် အပလီကေးရှင်း မအောင်မြင်ပါ။"</string>
+    <string name="err_camera_init">"ကင်မရာ အစပျိုးလုပ်ဆောင်မှု မအောင်မြင်ပါ။"</string>
+    <string name="err_sensors_init">"အာရုံခံများ အစပျိုးလုပ်ဆောင်မှု မအောင်မြင်ပါ။"</string>
+    <string name="err_pano_init">"မြင်ကွင်းကျယ် API အစပျိုးလုပ်ဆောင်ထားရန် မအောင်မြင်ပါ။"</string>
+    <string name="err_sensors_failed">"အာရုံခံများ အစပျိုးလုပ်ဆောင်မှု မအောင်မြင်ပါ။"</string>
+    <string name="err_zsl_failed">"ZSL ကို ဤကိရိယာအတွက် ပံ့ပိုးမထားပါ။"</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"ကဏ္ဍပိုင်းကို အစပျိုးလုပ်ဆောင်မထားပါ"</string>
+    <string name="err_queue_full">"အပြည့်စီပါ"</string>
+    <string name="err_max_key_frames">"ဘောင်များ အများဆုံးသို့ရောက်ရှိထားသည်"</string>
+    <string name="err_no_frame_overlap">"ဘောင်များအကြား ထပ်နေခြင်းမရှိပါ"</string>
+    <string name="err_inconsistent_direction">"ဦးတည်ချက် ကိုက်ညီမှုမရှိပါ"</string>
+    <string name="err_result_not_ready">"ရလဒ် အဆင်သင့်မဖြစ်ပါ"</string>
+    <string name="err_frame_no_feature">"ဘောင်တွင် လုံလောက်သည့်ဝိသေသမရှိပါ"</string>
+    <string name="err_direction_changed">"ဦးတည်ချက်ချက် ပြောင်းလဲထားသည်၊ ကျေးဇူးပြု၍ ရိုက်ယူထားသည့် မြင်ကွင်းကျယ်ပုံရိပ်ကို ကြည့်ရှုရန် အိုကေကိုနှိပ်ပါ။"</string>
+    <string name="err_panorama_loading">"မြင်ကွင်းကျယ်ပုံရိပ် လုပ်ဆောင်မှု မအောင်မြင်ပါ။"</string>
+    <string name="err_panorama_saving">"မြင်ကွင်းကျယ်ပုံရိပ် သိမ်းဆည်းမှု မအောင်မြင်ပါ။"</string>
+    <string name="err_api_capturing">"မြင်ကွင်းကျယ် ရိုက်ကူးမှု မအောင်မြင်ပါ။"</string>
+    <string name="err_api_halted">"မြင်ကွင်းကျယ် ရိုက်ကူးမှုကို ရပ်တန့်ထားသည်၊ ကျေးဇူးပြု၍ ရိုက်ယူထားသည့် မြင်ကွင်းကျယ် ပုံရိပ်ကို ကြည့်ရှုရန် အိုကေကိုနှိပ်ပါ။"</string>
+    <string name="err_max_limit">"ဘောင်များ အများဆုံးအကန့်အသတ်သို့ရောက်ရှိထားသည်၊ ကျေးဇူးပြု၍ ရိုက်ယူထားသည့် မြင်ကွင်းကျယ် ပုံရိပ်ကို ကြည့်ရှုရန် အိုကေကိုနှိပ်ပါ။"</string>
+    <string name="err_no_prv">"ရိုက်ယူထားသည့်ကို ကြိုတင်ကြည့်ရှုမှုမရှိပါ။"</string>
+    <string name="title_settings">"ဆက်တင်များ"</string>
+    <string name="camera_settings">"ကင်မရာ သတ်မှတ်ချက်များ"</string>
+    <string name="camera_settings_picture_size">"ပုံရိပ်ကြည်လင်ပြတ်သားမှု"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string name="camera_settings_exposure_compensation">"လျော်ကြေး သတ်မှတ်မှု"</string>
+    <string name="camera_settings_white_balance">"အဖြူရောင် ဟန်ချက်"</string>
+    <string-array name="camera_settings_white_balance_entries">
+        <item>"အလိုအလျောက်"</item>
+        <item>"နေ့အလင်းရောင်"</item>
+        <item>"မီးချောင်းအလင်း"</item>
+        <item>"အလွန်တောက်ပခြင်း"</item>
+        <item>"အရိပ်"</item>
+        <item>"ညနေဆည်းဆာ"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values">
+        <item>"auto"</item>
+        <item>"daylight"</item>
+        <item>"fluorescent"</item>
+        <item>"incandescent"</item>
+        <item>"shade"</item>
+        <item>"twilight"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values_camera2">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>7</item>
+    </string-array>
+    <string name="camera_settings_scene_mode">"ဖြစ်ပွားမှု အနေအထား"</string>
+    <string-array name="camera_settings_scene_mode_entries">
+        <item>"လှုပ်ရှားမှု"</item>
+        <item>"အလိုအလျောက်"</item>
+        <item>"ည"</item>
+        <item>"ပါတီ"</item>
+        <item>"ဆည်းဆာ"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values">
+        <item>"action"</item>
+        <item>"auto"</item>
+        <item>"night"</item>
+        <item>"party"</item>
+        <item>"sunset"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values_camera2">
+        <item>2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"ဆုံချက် အနေအထား"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"ဆက်တိုက် (ဗီဒီယို)"</item>
+        <item>"အင်ဖနတီ"</item>
+        <item>"အတိအကျ"</item>
+        <item>"ဆက်တိုက် (ဓာတ်ပုံ)"</item>
+        <item>"အလိုအလျောက်"</item>
+        <item>"မြင်ကွင်းအကျယ် တိုးချဲ့ထားသည်"</item>
+        <item>"မခရို"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"fixed"</item>
+        <item>"continuous-picture"</item>
+        <item>"auto"</item>
+        <item>"edof"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>3</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_iso">ISO</string>
+    <string-array name="camera_settings_iso_entries">
+        <item>"အလိုအလျောက်"</item>
+        <item>"လက်တုန်ခါမှု လျှော့ချခြင်း"</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="camera_settings_iso_values">
+        <item>"auto"</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>"ISO3200"</item>
+    </string-array>
+    <string name="camera_settings_iso_default">ISO800</string>
+    <string name="pano_settings">"မြင်ကွင်းကျယ် သတ်မှတ်ချက်များ"</string>
+    <string name="pano_settings_scve_mode">"SCVE လုပ်ဆောင်ချက် အနေအထား"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"ပုံသေ"</item>
+        <item>"CPU အပိတ်လုပ်ဆောင်မှု"</item>
+        <item>"ဖျော်ဖြေတင်ဆက်မှု"</item>
+        <item>"ပါဝါ နည်းနေသည်"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_image_compress_level">"ပုံရိပ် အသေးချုံ့အဆင့်"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_3a_lock">"မြင်ကွင်းကျယ် ရိုက်ယူစဉ်အတွင်း AE/AF/AWB ကိုသော့ချပါ"</string>
+    <string-array name="pano_settings_enable_3a_lock_entries">
+        <item>"မဟုတ်ပါ"</item>
+        <item>"ဟုတ်ကဲ့"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_3a_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_3a_lock_default">"true"</string>
+    <string name="debug_settings">"အမှားရှာဖွေပြင်ဆင်မှု သတ်မှတ်ချက်များ"</string>
+    <string name="debug_settings_enable_loggings">"အချက်အလက်များစွာ အသုံးပြုမှတ်တမ်းတင်ခြင်း"</string>
+    <string-array name="debug_settings_enable_loggings_entries">
+        <item>"ပိတ်ထားရသည်"</item>
+        <item>"ဖွင့်ပါ"</item>
+    </string-array>
+    <string-array name="debug_settings_enable_loggings_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_enable_loggings_default">"false"</string>
+    <string name="debug_settings_save_preview_frames">"ကြိုတင်ကြည့်ရှုမှုဘောင်များကို SD ကဒ်သို့ သိမ်းဆည်းပါ"</string>
+    <string-array name="debug_settings_save_preview_frames_entries">
+        <item>"မဟုတ်ပါ"</item>
+        <item>"ဟုတ်ကဲ့"</item>
+    </string-array>
+    <string-array name="debug_settings_save_preview_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_preview_frames_default">"false"</string>
+    <string name="debug_settings_save_key_frames">"ကီး ဘောင်များကို SD ကဒ်သို့ သိမ်းဆည်းပါ"</string>
+    <string-array name="debug_settings_save_key_frames_entries">
+        <item>"မဟုတ်ပါ"</item>
+        <item>"ဟုတ်ကဲ့"</item>
+    </string-array>
+    <string-array name="debug_settings_save_key_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_key_frames_default">"false"</string>
+    <!-- PanoramaViewer -->
+    <string name="share_button_text">"မြင်ကွင်းကျယ်ပုံရိပ် မျှဝေပါ"</string></resources>

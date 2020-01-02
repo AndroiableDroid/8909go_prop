@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Настройки"</string>
+    <string name="body_msg">"тестирование FidoCryptoService"</string>
+    <string name="load">"загрузить"</string>
+    <string name="unload">"отмена"</string>
+    <string name="process">"Обработать"</string>
+    <string name="start">"запуск"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"Подключить службу FIDO"</string>
+    <string name="unbindFido">"Отключить службу FIDO"</string>
+    <string name="setChallenge">"Установить задачу"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Подключить аутентификатор"</string>
+    <string name="verifyUser">"Проверить пользователя/получить маркер"</string>
+    <string name="GetInfo">"Получить информацию"</string>
+    <string name="Register">"Зарегистрировать"</string>
+    <string name="Deregister">"Отменить регистрацию"</string>
+    <string name="OpenSettings">"Открыть настройки"</string>
+    <string name="Sign">"Знак"</string>
+    <string name="MalformedRequest">"MalformedRequest"</string>
+    <string name="selectAuth">"Выбор аутентификатора"</string>
+    <string name="getEnrollmentStatus">"Узн. сост. регистр."</string>
+    <string name="RegisterExt">"Зарегистрировать с расширениями"</string>
+    <string name="SignExt">"Подписать с расширениями"</string>
+    <string name="encResult">"Инкапсулировать результат"</string>
+    <string name="extResult">"Данные расширения"</string>
+    <string name="selectFidoOpText">"выбрать операцию FIDO"</string>
+    <string name="show_message_sui">"показать сообщение sui"</string>
+    <string name="fido_sui_service">"служба fido Sui"</string>
+    <string name="bindFidoSui">"подключить fido sui"</string>
+    <string name="unbindFidoSui">"отключить fido sui"</string>
+    <string name="suiResultTitle">"показать результат сообщения sui"</string>
+    <string name="cancel_sui">"отменить sui"</string>
+    <string name="extensionText">"Использовать расширения?"</string>
+    <string name="pngText">"Использовать контент в формате PNG?"</string>
+    <string name="fpText">"Обеспечить безопасность отпечатка пальца"</string>
+    <string-array name="authenticator_array">
+        <item>"Имитация аутентификат."</item>
+        <item>"Образец аутентификат."</item>
+        <item>"Образец безопас. аутентификат."</item>
+        <item>"Безопас. аутентификатор расширений"</item>
+        <item>"Безопас. аутентификатор расширений"</item>
+        <item>"Аутентификатор работоспособности устройства"</item>
+        <item>"Образец безопас. аутентификат. IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Получить информацию"</item>
+        <item>"Зарегистрировать"</item>
+        <item>"Отменить регистрацию"</item>
+        <item>"Открыть окно настроек"</item>
+        <item>"Неправильно сформированное исключение"</item>
+        <item>"Знак (аутентификация)"</item>
+        <item>"Знак (TX)"</item>
+    </string-array></resources>

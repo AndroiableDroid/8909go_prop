@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"MDTP Kullanıcı Uygulaması: Ana Ekran"</string>
+    <string name="config_app">"MDTP Kullanıcı Uygulaması: Yapılandırma"</string>
+    <string name="server_app">"MDTP Sunucusu: Ana Ekran"</string>
+    <string name="action_settings">"Ayarlar"</string>
+    <string name="label_1_1">"MDTP Durumu:"</string>
+    <string name="state_deactivated">"Devre Dışı"</string>
+    <string name="state_activated">"Devrede"</string>
+    <string name="configuration">"Yapılandırma (yalnızca etkinleştirmeden önce)"</string>
+    <string name="service_activate">"MDTP hizmetlerinden MDTP etkinleştirme talep et"</string>
+    <string name="service_deactivate">"MDTP hizmetlerinden MDTP devre dışı bırakma talep et"</string>
+    <string name="local_deactivate">"Yerel MDTP devre dışı bırakma (PIN kullanarak)"</string>
+    <string name="service_console">"MDTP Hizmetleri konsolu"</string>
+    <string name="title_activity_configuration">"Kullanıcı Yapılandırması"</string>
+    <string name="label_2_1">"Yerel PIN Kullan:"</string>
+    <string name="label_2_2">"PIN:"</string>
+    <string name="gen_rand_pin">"Rastgele PIN Oluştur"</string>
+    <string name="label_2_3">"Doğrulama Oranı:"</string>
+    <string name="label_2_5">"SIM Kilidini Etkinleştir:"</string>
+    <string name="label_2_6">"Doğrulanacak ek dosyalar/dizinler:"</string>
+    <string name="reset">"Varsayılanlara sıfırla"</string>
+    <string name="label_3_1">"Sunucudan cihaza komutlar gönder:"</string>
+    <string name="activate">"Etkinleştir"</string>
+    <string name="deactivate">"Etkinliğini Kaldır"</string>
+    <string name="locksim">"SIM kartı kilitle"</string>
+    <string name="unlocksim">"SIM kart kilidini aç"</string>
+    <string name="killfunc">"İşlevi sonlandır"</string>
+    <string name="restorefunc">"İşlevi geri yükle"</string>
+    <string name="label_3_2">"MDTP devre dışı bırakma talepleri:"</string>
+    <string name="notallowed">"İzin verilmiyor"</string>
+    <string name="allowed">"İzin veriliyor"</string>
+    <string name="label_3_3">"SetupWizard engellemesini kaldırma talepleri:"</string>
+    <string name="label_3_4">"Hizmet Günlüğü:"</string>
+    <string name="wizard_app_loading_title">"MDTP SetupWizard: Başlatılıyor..."</string>
+    <string name="label_4_1">"MDTP durumu etkinleştirilmiş olduğundan SetupWizard engellendi"</string>
+    <string name="label_4_2">"Seçenek A: MDTP\'yi etkin durumda bırak, ancak sunucu yetkilendirmesi talep et"</string>
+    <string name="wiz_unblock">"MDTP Hizmetlerinden SetupWizard engellemesinin kaldırılmasını talep et"</string>
+    <string name="wiz_cont">"Devam et (sunucu tarafından yetki verilir)"</string>
+    <string name="label_4_3">"Seçenek B: MDTP\'yi devre dışı bırak (SetupWizard engellemesini kaldırır)"</string>
+    <string name="wiz_remote">"Uzaktan MDTP devre dışı bırakma talep et"</string>
+    <string name="wiz_local">"Yerel MDTP devre dışı bırakma"</string>
+    <string name="label_4_4">"MDTP durumu etkinleştirilmemiş olduğundan SetupWizard\'ın devam etmesine izin verilir"</string>
+    <string name="wiz_complete">"SetupWizard\'ı tamamla (MDTP durumu etkinleştirilmemiş)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"Ayar Sihirbazı"</string>
+    <string name="label_signup_message">"MDTP şu anda etkin değil.\nMDTP şu anda etkin değil.\nEtkinleştirmek istiyor musunuz?"</string>
+    <string name="label_signup_message_activated">"MDTP başarıyla etkinleştirildi!"</string>
+    <string name="skip_activation">"Etkinleştirmeyi Atla"</string>
+    <string name="emergency_dialer">"Acil Durum Çeviricisi"</string>
+    <string name="wiz_title_sign_up">"MDTP SetupWizard - Kayıt Ol"</string>
+    <string name="wiz_title_reset_prot">"MDTP SetupWizard - Fabrika Ayarlarına Sıfırlama Koruması"</string>
+    <string name="wiz_title_boot_block">"MDTP SetupWizard - Cihaz Engellenmiş"</string>
+    <string name="block_boot_warning_text">"MDTP, dahili hata nedeniyle bu cihazı engelledi.\n\nMDTP, dahili hata nedeniyle bu cihazı engelledi.\n\nLütfen cihazı yeniden başlatın."</string>
+    <string name="start_wifi_wizard">"WiFi Ayarları"</string>
+    <string name="default_pin_hint">"Varsayılan PIN kodu 11111\'dir."</string>
+    <string name="pin_dialog_title">"MDTP Yerel Devre Dışı Bırakma PIN Kodu Gereklidir"</string>
+    <string name="pin_input_validation_warning">"Giriş 5 haneden oluşmalı ve sayısal olmalıdır"</string></resources>

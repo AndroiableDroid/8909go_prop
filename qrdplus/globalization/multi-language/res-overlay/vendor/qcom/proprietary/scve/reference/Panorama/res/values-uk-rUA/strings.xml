@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Panorama UI"</string>
+    <string name="title_loading">"Завантаження."</string>
+    <string name="msg_loading">"Обробка\u2026"</string>
+    <string name="panorama_saved">"Панораму успішно збережено у фотогалереї пристрою"</string>
+    <string name="panorama_generate_result_failed">"Вибачте. Спробуйте знову."</string>
+    <string name="error_dialog_title">"Помилка програми"</string>
+    <string name="btn_ok">"OK"</string>
+    <string name="btn_txt_save">"Зберегти зображення"</string>
+    <string name="err_library_loading">"Програмі не вдалося завантажити власні бібліотеки."</string>
+    <string name="err_camera_init">"Не вдалось ініціалізувати камеру."</string>
+    <string name="err_sensors_init">"Не вдалось ініціалізувати датчики."</string>
+    <string name="err_pano_init">"Не вдалось ініціалізувати API Panorama."</string>
+    <string name="err_sensors_failed">"Не вдалось ініціалізувати датчики."</string>
+    <string name="err_zsl_failed">"Цей пристрій не підтримує ZSL."</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"Сеанс не почато"</string>
+    <string name="err_queue_full">"Чергу заповнено"</string>
+    <string name="err_max_key_frames">"Досягнуто максимальної кількості кадрів"</string>
+    <string name="err_no_frame_overlap">"Немає накладання кадрів"</string>
+    <string name="err_inconsistent_direction">"Напрямок не стабільний"</string>
+    <string name="err_result_not_ready">"Результат не готовий"</string>
+    <string name="err_frame_no_feature">"У кадрі недостатньо матеріалу"</string>
+    <string name="err_direction_changed">"Напрямок змінено. Натисніть OK, щоб переглянути зняту панораму."</string>
+    <string name="err_panorama_loading">"Не вдалося завантажити зображення панорами."</string>
+    <string name="err_panorama_saving">"Не вдалося зберегти зображення панорами."</string>
+    <string name="err_api_capturing">"Не вдалося зняти панораму."</string>
+    <string name="err_api_halted">"Зйомку панорами перервано. Натисніть OK, щоб переглянути зняту панораму."</string>
+    <string name="err_max_limit">"Досягнуто обмеження кількості кадрів. Натисніть OK, щоб переглянути зняту панораму."</string>
+    <string name="err_no_prv">"Попередній перегляд не знято."</string>
+    <string name="title_settings">"Налаштування"</string>
+    <string name="camera_settings">"Налаштування камери"</string>
+    <string name="camera_settings_picture_size">"Роздільна здатність"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string name="camera_settings_exposure_compensation">"Корекція експозиції"</string>
+    <string name="camera_settings_white_balance">"Баланс білого"</string>
+    <string-array name="camera_settings_white_balance_entries">
+        <item>"Автомат"</item>
+        <item>"Сонячно"</item>
+        <item>"Флуоресцентний"</item>
+        <item>"Лампа розжар"</item>
+        <item>"Тінь"</item>
+        <item>"Сутінки"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values">
+        <item>"auto"</item>
+        <item>"daylight"</item>
+        <item>"fluorescent"</item>
+        <item>"incandescent"</item>
+        <item>"shade"</item>
+        <item>"twilight"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values_camera2">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>7</item>
+    </string-array>
+    <string name="camera_settings_scene_mode">"Сюжетний режим"</string>
+    <string-array name="camera_settings_scene_mode_entries">
+        <item>"Спорт"</item>
+        <item>"Автомат"</item>
+        <item>"Ніч"</item>
+        <item>"У приміщенні"</item>
+        <item>"Захід сонця"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values">
+        <item>"action"</item>
+        <item>"auto"</item>
+        <item>"night"</item>
+        <item>"party"</item>
+        <item>"sunset"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values_camera2">
+        <item>2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"Режим фокусування"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"Безперервне (відео)"</item>
+        <item>"Безкінечн"</item>
+        <item>"Зафіксовано"</item>
+        <item>"Безперервне (зображення)"</item>
+        <item>"Автомат"</item>
+        <item>"Розширена глибина різкості"</item>
+        <item>"Макро"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"fixed"</item>
+        <item>"continuous-picture"</item>
+        <item>"auto"</item>
+        <item>"edof"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>3</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_iso">ISO</string>
+    <string-array name="camera_settings_iso_entries">
+        <item>"Автомат"</item>
+        <item>"Зменшення тремтіння рук"</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="camera_settings_iso_values">
+        <item>"auto"</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>"ISO3200"</item>
+    </string-array>
+    <string name="camera_settings_iso_default">ISO800</string>
+    <string name="pano_settings">"Налаштування панорами"</string>
+    <string name="pano_settings_scve_mode">"Режим роботи SCVE"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"За умовч"</item>
+        <item>"Розвантаження процесора"</item>
+        <item>"Продуктивність"</item>
+        <item>"Низька потужність"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_image_compress_level">"Рівень стиснення зображення"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_3a_lock">"Блокування AE/AF/AWB під час зйомки панорами"</string>
+    <string-array name="pano_settings_enable_3a_lock_entries">
+        <item>"Ні"</item>
+        <item>"Так"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_3a_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_3a_lock_default">"true"</string>
+    <string name="debug_settings">"Налаштування налагодження"</string>
+    <string name="debug_settings_enable_loggings">"Детальне журналювання"</string>
+    <string-array name="debug_settings_enable_loggings_entries">
+        <item>"Вимкнено"</item>
+        <item>"Увімкнено"</item>
+    </string-array>
+    <string-array name="debug_settings_enable_loggings_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_enable_loggings_default">"false"</string>
+    <string name="debug_settings_save_preview_frames">"Зберігати кадри попереднього перегляду на картці SD"</string>
+    <string-array name="debug_settings_save_preview_frames_entries">
+        <item>"Ні"</item>
+        <item>"Так"</item>
+    </string-array>
+    <string-array name="debug_settings_save_preview_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_preview_frames_default">"false"</string>
+    <string name="debug_settings_save_key_frames">"Зберігати повні кадри на картці SD"</string>
+    <string-array name="debug_settings_save_key_frames_entries">
+        <item>"Ні"</item>
+        <item>"Так"</item>
+    </string-array>
+    <string-array name="debug_settings_save_key_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_key_frames_default">"false"</string>
+    <!-- PanoramaViewer -->
+    <string name="share_button_text">"Надіслати панораму"</string></resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+    <string name="app_name">"Configurare punct de acces OTA"</string>
+    <string name="banner_title">"Configurați telefonul"</string>
+    <string name="provisioning_failure">"A apărut o problemă la mesajul de configurare, așadar setările telefonului nu au fost actualizate."</string>
+    <string name="provisioning_failure_apn">"APN este gol în mesajul de configurare primit, așadar setările telefonului nu au fost actualizate."</string>
+    <string name="provisioning_successful">"Un nou punct de acces a fost instalat cu succes."</string>
+    <string name="please_enter_pin">"Introduceți PIN-ul:"</string>
+    <string name="install">"Instalaţi"</string>
+    <string name="ignore">"Ignorare"</string>
+    <string name="ignore_message">"Mesajul este accesibil din meniul Aplicație mesagerie: Setări&gt;Mesaje de configurare "</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Anulaţi"</string>
+    <string name="provisioning_received_ticker">"Mesaj de configurare primit"</string>
+    <string name="provisioning_received_title">"Mesaj de configurare"</string>
+    <string name="provisioning_received_message">"Atingeți aici pentru a configura telefonul"</string>
+    <string name="bad_pin_title">"PIN incorect"</string>
+    <string name="bad_pin_message">"PIN-ul introdus este incorect"</string>
+    <string name="bad_network_pin_message">"Mesajul de configurare primit nu a putut fi autentificat cu cardul SIM, așadar nu poate fi utilizat pentru a configura dispozitivul."</string>
+    <string name="check_prov_message">"Sunteți pe cale să instalați următoarele setări pe telefon:"</string>
+    <string name="check_prov_name">"Nume setare:"</string>
+    <string name="check_prov_type">"Tip setare:"</string>
+    <string name="check_prov_type_value">"Punct de acces rețea"</string>
+    <string name="no_security_specified">"Mesajul de configurare primit nu a specificat nicio autentificare, așadar nu poate fi utilizat pentru a configura dispozitivul"</string>
+    <string name="phone_now_configured">"Telefonul este configurat acum"</string>
+    <string name="padding"></string>
+    <string name="pin_help">"Codul PIN ar fi fost furnizat de operator."</string>
+    <string name="test_banner">"Apăsați butoanele de mai jos pentru a testa aplicația de asigurare a accesului"</string>
+    <string name="test_userpin">"Trimiteți PDU-urile la sistemul de notificare (PIN utilizator)"</string>
+    <string name="test_netwpin">"Trimiteți PDU-urile la sistemul de notificare (PIN rețea)"</string>
+    <string name="test_usernetwpin">"Trimiteți PDU-urile la sistemul de notificare (PIN rețea utilizator)"</string>
+    <string name="test_userpinmac">"Trimiteți PDU-urile la sistemul de notificare (MAC PIN utilizator)"</string>
+    <string name="test_confirm">"Ecran de confirmare"</string>
+    <string name="test_error">"Ecran de eroare"</string>
+    <string name="trials_expired">"Autentificare eșuată"</string>
+    <string name="trials_left">" încercări rămase"</string>
+    <string name="no_messages">"Niciun mesaj."</string>
+    <string name="app_label">"Mesaj de configurare"</string>
+    <string name="refreshing">"Se actualizează"</string>
+    <string name="select_conversations">"Alegeți mesajele"</string>
+    <string name="delete_all">"Ştergeţi totul"</string>
+    <string name="confirm">"Confirmaţi"</string>
+    <string name="confirm_delete">"Doriți să ștergeți toate mesajele selectate?"</string>
+    <string name="confirm_delete_all">"Doriți să ștergeți toate mesajele?"</string>
+    <string name="instaled">"(Instalată)"</string>
+    <string name="browser_appl">"Aplicație:browser"</string>
+    <string name="mms_appl">"Aplicație:MMS"</string>
+    <string name="email_appl">"Aplicație:E-MAIL"</string>
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string></resources>

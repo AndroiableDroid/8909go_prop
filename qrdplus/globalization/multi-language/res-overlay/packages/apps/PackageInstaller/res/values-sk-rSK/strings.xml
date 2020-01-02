@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Nástroj na inštaláciu balíčkov"</string>
+    <string name="next">"Ďalej"</string>
+    <string name="install">"Inštalovať"</string>
+    <string name="done">"Hotovo"</string>
+    <!-- TODO REMOVE LATER -->
+    <string name="security_settings_desc">"Povoliť aplikácii nasledovné:"</string>
+    <string name="cancel">"Zrušiť"</string>
+    <string name="unknown">"Neznáme"</string>
+    <string name="installing">"Inštaluje sa..."</string>
+    <string name="install_done">"Aplikácia bola nainštalovaná."</string>
+    <!-- Message for installing a new app that requires some permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question">"Chcete nainštalovať túto aplikáciu? Získa nasledujúce povolenia:"</string>
+    <!-- Message for installing a new app that does not require permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_no_perms">"Chcete nainštalovať túto aplikáciu? Nevyžaduje žiadny zvláštny prístup."</string>
+    <!-- Message for updating an existing app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update">"Chcete nainštalovať aktualizáciu existujúcej aplikácie? Existujúce údaje sa nestratia. Aktualizovaná aplikácia získa nasledujúce povolenia:"</string>
+    <!-- Message for updating an existing system app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_system">"Chcete nainštalovať aktualizáciu tejto integrovanej aplikácie? Existujúce údaje sa nestratia. Aktualizovaná aplikácia získa nasledujúce povolenia:"</string>
+    <!-- Message for updating an existing app, no permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_no_perms">"Chcete nainštalovať aktualizáciu tejto existujúcej aplikácie? Vaše údaje nebudú stratené. Táto akcia nevyžaduje žiadny zvláštny prístup."</string>
+    <!-- Message for updating an existing system app, no permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_system_no_perms">"Chcete nainštalovať aktualizáciu tejto vstavanej aplikácie? Vaše údaje sa nestratia. Táto akcia nevyžaduje žiadny zvláštny prístup."</string>
+    <string name="install_failed">"Aplikácia nebola nainštalovaná."</string>
+    <!-- Reason displayed when installation fails because the installation package itself is invalid
+        in some way (e.g., corrupt) [CHAR LIMIT=100] -->
+    <string name="install_failed_invalid_apk">"Zdá sa, že je balík poškodený."</string>
+    <!-- Reason displayed when installation fails because the package an existing package is
+        installed with a conflicting package author signature [CHAR LIMIT=100] -->
+    <string name="install_failed_inconsistent_certificates">"Už je nainštalovaný existujúci balík s rovnakým názvom a kolidujúcim podpisom."</string>
+    <!-- Reason displayed when installation fails because the package specifies a minimum compatible
+        OS version that is newer than our current OS version. [CHAR LIMIT=100] -->
+    <string name="install_failed_older_sdk">"Balík funguje iba v novších verziách systému Android."</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">"Táto aplikácia nie je kompatibilná s vaším tabletom."</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current TV doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tv">"Táto aplikácia nie je kompatibilná s vaším televízorom."</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current phone doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="default">"Táto aplikácia nie je kompatibilná s vaším telefónom."</string>
+    <!-- Reason displayed when installation fails because the package was deleted during the
+        installation process. [CHAR LIMIT=100] -->
+    <string name="install_failed_file_not_found">"Pred dokončením inštalácie bol vybratý balík odstránený."</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        because the package verifier rejected it. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_failed">"Balík neprešiel overením a nemôže byť nainštalovaný."</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        before the internal system timer expired. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_timeout">"Pri verifikácii tohto balíka vypršal časový limit. Skúste ho nainštalovať neskôr."</string>
+    <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tablet">"Aplikáciu <xliff:g id="APP_NAME">%1$s</xliff:g> sa do vášho tabletu nepodarilo nainštalovať."</string>
+    <!-- Message presented when an application could not be installed on the TV for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tv">"Aplikáciu <xliff:g id="APP_NAME">%1$s</xliff:g> sa nepodarilo nainštalovať na vašom televízore."</string>
+    <!-- Message presented when an application could not be installed on the phone for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="default">"Aplikáciu <xliff:g id="APP_NAME">%1$s</xliff:g> sa do vášho telefónu nepodarilo nainštalovať."</string>
+    <string name="launch">"Otvoriť"</string>
+    <string name="unknown_apps_dlg_title">"Inštalácia bola zablokovaná"</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tablet">"Tablet je z dôvodu zabezpečenia nastavený tak, aby blokoval inštalácie aplikácií z neznámych zdrojov."</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tv">"Váš televízor blokuje z bezpečnostných dôvodov inštaláciu aplikácií získaných z neznámych zdrojov."</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="default">"Telefón je z dôvodu zabezpečenia nastavený tak, aby blokoval inštalácie aplikácií z neznámych zdrojov."</string>
+    <!-- Message presented in a dialog box when the device administrator restricts the installation of apps from unknown sources. [CHAR LIMIT=none] -->
+    <string name="unknown_apps_admin_dlg_text">"Váš správca zakázal inštaláciu aplikácií z neznámych zdrojov."</string>
+    <string name="ok">"OK"</string>
+    <string name="settings">"Nastavenia"</string>
+    <!-- Title of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_title">"Nový zdroj pre aplikácie"</string>
+    <!-- Message of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_text">"Aplikácia <xliff:g id="APP_NAME">%1$s</xliff:g> chce inštalovať iné aplikácie.\n\nPovoliť teraz aj v budúcnosti?"</string>
+    <string name="manage_applications">"Spravovať aplikácie"</string>
+    <string name="dlg_app_replacement_title">"Nahradiť aplikáciu?"</string>
+    <string name="dlg_app_replacement_statement">"Aplikácia, ktorú inštalujete, nahradí inú aplikáciu.\n\nVšetky predchádzajúce používateľské údaje budú uložené."</string>
+    <!-- Dialog attributes when replacing system app -->
+    <string name="dlg_sys_app_replacement_statement">"Toto je systémová aplikácia.\n\nVšetky predchádzajúce používateľské údaje budú uložené."</string>
+    <string name="out_of_space_dlg_title">"Nedostatok miesta"</string>
+    <string name="out_of_space_dlg_text">"Aplikáciu <xliff:g id="APP_NAME">%1$s</xliff:g> sa nepodarilo nainštalovať. Uvoľnite miesto v pamäti a skúste to znova."</string>
+    <!-- strings related to uninstall activity -->
+    <string name="dlg_ok">"OK"</string>
+    <string name="app_not_found_dlg_title">"Aplikácia sa nenašla"</string>
+    <string name="app_not_found_dlg_text">"Aplikáciu sa nepodarilo nájsť v zozname nainštalovaných aplikácií."</string>
+    <string name="uninstall_application_title">"Odinštalovať aplikáciu"</string>
+    <string name="uninstall_update_title">"Odinštalovať aktualizáciu"</string>
+    <string name="uninstall_activity_text">"Aktivita <xliff:g id="ACTIVITY_NAME">%1$s</xliff:g> je súčasťou nasledujúcej aplikácie:"</string>
+    <string name="uninstall_application_text">"Chcete túto aplikáciu odinštalovať?"</string>
+    <string name="uninstall_application_text_all_users">"Chcete odinštalovať túto aplikáciu pre "<b>"všetkých"</b>" používateľov? Aplikácia a jej údaje sa odstránia z tohto zariadenia pre "<b>"všetkých"</b>" používateľov."</string>
+    <string name="uninstall_application_text_user">"Chcete túto aplikáciu odinštalovať pre používateľa <xliff:g id="USERNAME">%1$s</xliff:g>?"</string>
+    <string name="uninstall_update_text">"Chcete túto aplikáciu nahradiť továrenskou verziou?"</string>
+    <string name="uninstalling">"Prebieha odinštalovanie..."</string>
+    <string name="uninstall_done">"Odinštalovanie bolo dokončené."</string>
+    <string name="uninstall_failed">"Odinštalovanie bolo neúspešné."</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator [CHAR LIMIT=80] -->
+    <string name="uninstall_failed_device_policy_manager">"Nie je možné odinštalovať, pretože tento balík je aktívnym správcom zariadenia."</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator for some user [CHAR LIMIT=100] -->
+    <string name="uninstall_failed_device_policy_manager_of_user">"Balíček nie je možné odinštalovať, pretože je aktívnym správcom zariadenia pre používateľa <xliff:g id="USERNAME">%1$s</xliff:g>."</string>
+    <!-- String presented to the user when uninstalling a package failed because a profile owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_profile_owner">"Táto aplikácia sa vyžaduje pre váš pracovný profil a nemôžete ju odinštalovať."</string>
+    <!-- String presented to the user when uninstalling a package failed because a device owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_device_owner">"Túto aplikáciu vyžaduje správca vášho zariadenia a nie je ju možné odinštalovať."</string>
+    <!-- String on a button that leads to the "device administrator" configuration setting where a
+        user will be able to disable the device administrator in order to uninstall
+        it. [CHAR LIMIT=50] -->
+    <string name="manage_device_administrators">"Spravovať správcov zariadenia"</string>
+    <string name="uninstall_failed_msg">"Aplikáciu <xliff:g id="APP_NAME">%1$s</xliff:g> sa nepodarilo odinštalovať."</string>
+    <!-- Dialog attributes to indicate parse errors -->
+    <string name="Parse_error_dlg_title">"Chyba analýzy"</string>
+    <string name="Parse_error_dlg_text">"Pri analýze balíka sa vyskytol problém."</string>
+    <!-- Tab label for new permissions being added to an existing app [CHAR LIMIT=20] -->
+    <string name="newPerms">"Nové"</string>
+    <!-- Tab label for all permissions of an app being installed [CHAR LIMIT=20] -->
+    <string name="allPerms">"Všetko"</string>
+    <!-- Tab label for permissions related to user privacy [CHAR LIMIT=20] -->
+    <string name="privacyPerms">"Ochrana osobných údajov"</string>
+    <!-- Tab label for permissions related to device behavior [CHAR LIMIT=20] -->
+    <string name="devicePerms">"Prístup k zariadeniu"</string>
+    <!-- Body text for new tab when there are no new permissions [CHAR LIMIT=NONE] -->
+    <string name="no_new_perms">"Táto aktualizácia nevyžaduje žiadne nové povolenia."</string>
+    <string name="grant_confirm_question">"Chcete udeliť nasledujúce povolenia? Získate prístup k:"</string>
+    <!-- Title for the dialog button to allow a permission grant. -->
+    <string name="grant_dialog_button_allow">"Povoliť"</string>
+    <!-- Title for the dialog button to deny a permission grant. -->
+    <string name="grant_dialog_button_deny">"Odmietnuť"</string>
+    <!-- Template for the current permission from the total number of permissions. -->
+    <string name="current_permission_template">"<xliff:g id="CURRENT_PERMISSION_INDEX">%1$s</xliff:g> z <xliff:g id="PERMISSION_COUNT">%2$s</xliff:g>"</string>
+    <!-- Template for the warning message when an app requests a permission. -->
+    <string name="permission_warning_template">"Povoliť aplikácii <xliff:g id="APP_NAME">%1$s</xliff:g> <xliff:g id="ACTION">%2$s</xliff:g>?"</string>
+    <!-- Breadcrumb for page of managing application permissions [CHAR LIMIT=50] -->
+    <string name="app_permissions_breadcrumb">"Aplikácie"</string>
+    <!-- Title for page of managing application permissions -->
+    <string name="app_permissions">"Povolenia aplikácií"</string>
+    <!-- Checkbox that allows user to not be questioned about this permission
+         request again -->
+    <string name="never_ask_again">"Túto otázku už nezobrazovať"</string>
+    <!-- Label when app requests no permissions -->
+    <string name="no_permissions">"Žiadne povolenia"</string>
+    <!-- Label for button that leads to more permissions [CHAR LIMIT=40] -->
+    <string name="additional_permissions">"Ďalšie povolenia"</string>
+    <!-- Description of how many more permissions to view on next page [CHAR LIMIT=30] -->
+    <plurals name="additional_permissions_more">
+        <item quantity="one">"Ďalšie: <xliff:g id="COUNT">%1$d</xliff:g>"</item>
+        <item quantity="other">"Ďalšie: <xliff:g id="COUNT">%1$d</xliff:g>"</item>
+    </plurals>
+    <!-- Warning for turning off permissions on older apps -->
+    <string name="old_sdk_deny_warning">"Táto aplikácia bola navrhnutá pre staršiu verziu systému Android. Odmietnutie povolenia môže spôsobiť, že nebude optimálne fungovať."</string>
+    <!-- The default description of a permission, i.e. what it does.  [CHAR LIMIT=40] -->
+    <string name="default_permission_description">"umožňuje vykonať neznámu akciu"</string>
+    <!-- Summary of number of apps currently granted a single permission [CHAR LIMIT=45] -->
+   <string name="app_permissions_group_summary">"Povolené: <xliff:g id="COUNT_0">%1$d</xliff:g> z <xliff:g id="COUNT_1">%2$d</xliff:g> aplikácií"</string>
+   <!-- [CHAR LIMIT=NONE] Menu for manage permissions to control whether system apps are shown -->
+   <string name="menu_show_system">"Zobraziť systémové aplikácie"</string>
+   <!-- [CHAR LIMIT=NONE] Menu for manage permissions to control whether system apps are hidden -->
+   <string name="menu_hide_system">"Skryť systémové aplikácie"</string>
+   <!-- [CHAR LIMIT=30] Title for page managing what apps have a permission granted -->
+   <string name="permission_title">"Povolenia <xliff:g id="PERMISSION">%1$s</xliff:g>"</string>
+   <!-- [CHAR LIMIT=NONE] Label when no apps requesting this permission -->
+   <string name="no_apps">"Žiadne aplikácie"</string>
+   <!-- [CHAR LIMIT=30] Title of button that leads to location settings -->
+   <string name="location_settings">"Nastavenia polohy"</string>
+   <!-- [CHAR LIMIT=NONE] Warning about how this app cannot have location permission disabled -->
+   <string name="location_warning">"Aplikácia <xliff:g id="APP_NAME">%1$s</xliff:g> je poskytovateľ služieb určovania polohy tohto zariadenia. Prístup k polohe môžete upraviť v nastaveniach polohy."</string>
+   <!-- [CHAR LIMIT=NONE] Warning message when turning off permission for system apps -->
+   <string name="system_warning">"Ak toto povolenie zamietnete, základné funkcie vášho zariadenia nemusia pracovať podľa očakávaní."</string>
+   <!-- [CHAR LIMIT=NONE] Summary of a permission switch when it's enforced by policy -->
+   <string name="permission_summary_enforced_by_policy">"Vynútené pravidlom"</string>
+   <!-- Text displayed until loading is done -->
+   <string name="loading">"Načítava sa\u2026"</string>
+   <!-- [CHAR LIMIT=45] Title of all permissions settings -->
+   <string name="all_permissions">"Všetky povolenia"</string>
+   <!-- [CHAR LIMIT=45] Group of permissions granted to app automatically when installed. -->
+   <string name="other_permissions">"Ďalšie možnosti aplikácie"</string>
+   <!-- Title of the permission dialog for accessibility purposes- spoken to the user. [CHAR LIMIT=none] -->
+   <string name="permission_request_title">"Žiadosť o povolenie"</string>
+    <!-- Title for the dialog that warns the user they need to turn off screen overlays
+         before permissions can be changed. [CHAR LIMIT=NONE] -->
+   <string name="screen_overlay_title">"Bolo zistené prekrytie obrazovky"</string>
+   <!-- Message for the dialog that warns the user they need to turn off screen overlays
+        before permissions can be changed. The "Settings > Apps" conveys to the user to
+        go to Settings and click on apps, this may need updates in RTL languages. [CHAR LIMIT=NONE] -->
+   <string name="screen_overlay_message">"Ak chcete zmeniť nastavenie tohto povolenia, musíte najprv v časti Nastavenia &gt; Aplikácie vypnúť prekrytie obrazovky"</string>
+    <!-- Button for the dialog that warns the user they need to turn off screen overlays
+         before permissions can be changed. [CHAR LIMIT=NONE] -->
+    <string name="screen_overlay_button">"Otvoriť nastavenia"</string></resources>

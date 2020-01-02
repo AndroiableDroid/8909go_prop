@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"Fotoaparát"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"Primárny"</item>
+        <item>"Predný"</item>
+        <item>"Fotoaparát 3"</item>
+        <item>"Fotoaparát 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"Veľkosť fotografie"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9,7 Mp, 16:9)"</item>
+        <item>"3840x2160 (8,3 Mp, 16:9, UHD 4 k)"</item>
+        <item>"3200x1800 (5,8 Mp, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (4,1 Mp, 16:9)"</item>
+        <item>"2592x1458 (3,8 Mp, 16:9)"</item>
+        <item>"1920x1080 (2,1 Mp, 16:9, HD 1080p)"</item>
+        <item>"1280x720 (0,9 Mp, 16:9, HD 720p)"</item>
+        <item>"864x480 (0,4 Mp, 16:9)"</item>
+        <item>"4160x3120 (13MP, 4:3)"</item>
+        <item>"4000x3000 (12MP, 4:3)"</item>
+        <item>"3264x2448 (8MP, 4:3)"</item>
+        <item>"3200x2400 (7,7 Mp, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (5MP, 4:3)"</item>
+        <item>"2048x1536 (3,1 Mp, 4:3, QXGA)"</item>
+        <item>"1920x1440 (2,8 Mp, 4:3)"</item>
+        <item>"1600x1200 (1,9 Mp, 4:3, UXGA)"</item>
+        <item>"1280x960 (1,2 Mp, 4:3, UVGA)"</item>
+        <item>"1024x768 (0,8 Mp, 4:3, XGA)"</item>
+        <item>"800x600 (0,5 Mp, 4:3, SVGA)"</item>
+        <item>"640x480 (0,3 Mp, 4:3, VGA)"</item>
+        <item>"320x240 (0,1 Mp, 4:3, QVGA)"</item>
+        <item>"3264x2176 (7,1 Mp, 3:2)"</item>
+        <item>"2592x1728 (4,5 Mp, 3:2)"</item>
+        <item>"720x480 (0,3 Mp, 3:2)"</item>
+        <item>"4160x2774 (11,5 Mp, 3:2)"</item>
+        <item>"2976x2976 (8,9 Mp, 1:1)"</item>
+        <item>"1280x768 (1MP, 5:3)"</item>
+        <item>"800x480 (0,4 Mp, 5:3)"</item>
+        <item>"352x288 (0,1 Mp, 11:9)"</item>
+        <item>"176x144 (0MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"Veľkosť ukážky"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"Prispôsobiť veľkosti displeja"</item>
+        <item>"Ukážka s vysokým rozlíšením (do 4 Mp)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"Scénický režim"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"Auto"</item>
+        <item>"Záber akcie"</item>
+        <item>"Čiarový kód"</item>
+        <item>"Pláž"</item>
+        <item>"Pri sviečke"</item>
+        <item>"Tváre"</item>
+        <item>"Ohňostroj"</item>
+        <item>HDR</item>
+        <item>"Vysokorýchlostné video"</item>
+        <item>"Zábery krajiny"</item>
+        <item>"Noc"</item>
+        <item>"Strana"</item>
+        <item>"Ľudia"</item>
+        <item>"Ľudia v noci"</item>
+        <item>"Sneh"</item>
+        <item>"Športy"</item>
+        <item>"Statický záber"</item>
+        <item>"Západ slnka"</item>
+        <item>"Divadlo"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"Ovládanie expozície"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"Auto"</item>
+        <item>"Pevné"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"Kompenzácia expozície"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"Zaostrenie"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"Auto"</item>
+        <item>"Pevné"</item>
+        <item>"Priebežný (fotografia)"</item>
+        <item>"Priebežný (video)"</item>
+        <item>"Makro"</item>
+        <item>"Zväčšená hĺbka ostrosti"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"Ovládanie vyváženia bielej"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"Auto"</item>
+        <item>"Vypnuté"</item>
+        <item>"Žiarovkové osvetlenie"</item>
+        <item>"Žiarivkové osvetlenie"</item>
+        <item>"Teplé žiarivkové osvetlenie"</item>
+        <item>"Denné svetlo"</item>
+        <item>"Oblačný deň"</item>
+        <item>"Tieň"</item>
+        <item>"Súmrak"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"Blesk"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"Auto"</item>
+        <item>"Zapnuté"</item>
+        <item>"Vypnuté"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"Redukcia šumu"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"Zapnuté"</item>
+        <item>"Vypnuté"</item>
+        <item>"Vysoká kvalita"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"Korekcia zatienenia objektívu"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"Zapnuté"</item>
+        <item>"Vypnuté"</item>
+        <item>"Vysoká kvalita"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"Korekcia aberácie"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"Zapnuté"</item>
+        <item>"Vypnuté"</item>
+        <item>"Vysoká kvalita"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"Zvýraznenie hrán"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"Zapnuté"</item>
+        <item>"Vypnuté"</item>
+        <item>"Vysoká kvalita"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"Korekcia chybného pixela"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"Zapnuté"</item>
+        <item>"Vypnuté"</item>
+        <item>"Vysoká kvalita"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"Režim stabilizácie"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"Vypnuté"</item>
+        <item>"Optická"</item>
+        <item>"Digitálne"</item>
+    </string-array></resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtect"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"Про програму"</string>
+    <string name="title_trusted">"Надійні програми"</string>
+    <string name="title_about">"Про програму"</string>
+    <string name="title_settings">"Налаштування"</string>
+    <string name="drawer_open_title">"Snapdragon Smart Protect"</string>
+<string name="service_status_on">"Увімкнено"</string>
+    <string name="service_status_off">"Вимкнено"</string>
+    <string name="err_title">"Помилка програми"</string>
+    <string name="err_msg_init">"Програмі Snapdragon Smart Protect не вдалось ініціалізувати бібліотеку QSSP. Служба зупиняється."</string>
+    <string name="err_msg_load_model">"Програмі Snapdragon Smart Protect не вдалося завантажити модель. Служба зупиняється."</string>
+    <string name="err_msg_malicious_alert">"Програмі Snapdragon Smart Protect не вдалося зареєструвати сповіщення про зловмисний вміст. Служба зупиняється."</string>
+    <string name="err_msg_benign_alert">"Програмі Snapdragon Smart Protect не вдалося зареєструвати сповіщення про нешкідливий вміст. Служба зупиняється."</string>
+    <string name="err_msg_service_not_up">"Програма Snapdragon Smart Protect більше не може знайти службу."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"Усі права захищено."</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ Smart Protect – це продукт корпорації Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Qualcomm і Snapdragon є торговими марками корпорації Qualcomm Incorporated, що зареєстровані в США та інших країнах і використовуються за дозволом."</string>
+    <string name="btn_restore_default">"ВІДНОВИТИ СТАНДАРТНІ НАЛАШТУВАННЯ"</string>
+    <string name="btn_clear_history">"ОЧИСТИТИ ІСТОРІЮ SMART PROTECT"</string>
+    <string name="trusted_btn">"ДОДАТИ ДО СПИСКУ НАДІЙНИХ ПРОГРАМ"</string>
+    <string name="uninstall_btn">"ВИДАЛИТИ"</string>
+    <string name="details_btn">"ДЕТАЛІ"</string>
+    <string name="done_btn">"ГОТОВО"</string>
+    <string name="remove_trusted_btn">"ВИЛУЧИТИ ЗІ СПИСКУ НАДІЙНИХ ПРОГРАМ"</string>
+    <string name="uninstall_confirm_message">"Видалити цю програму?"</string>
+    <string name="uninstall_success">"Пакет успішно видалено"</string>
+    <string name="uninstall_failed">"Не вдалося видалити пакет"</string>
+    <string name="clear_history_done">"Історію успішно очищено"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon Smart Protect"</string>
+    <string name="drawer_threats">"Виявлено загрози (%1$s)"</string>
+    <string name="drawer_threat_null">"Захист конфіденційної інформації та виявлення шкідливих програм на пристрої в реальному часі"</string>
+    <string name="drawer_option_dashboard">"Інформаційна панель"</string>
+    <string name="drawer_option_trusted_apps">"Надійні програми"</string>
+    <string name="drawer_option_settings">"Налаштування"</string>
+    <string name="drawer_option_about">"Про програму"</string>
+    <string name="dashboard_list_title">"Виберіть програму, щоб переглянути інформацію та рекомендації Snapdragon Smart Protect."</string>
+    <string name="dashboard_list_empty">"Програми не відстежуються."</string>
+    <string name="app_info_recommend">"Рекомендація:"</string>
+    <string name="app_info_version">"версія"</string>
+    <string name="app_uninstalled">"Програми більше немає на пристрої. Натисніть OK, щоб закрити."</string>
+    <string name="malicious_item_threat">"Програма Snapdragon Smart Protect виявила:"</string>
+    <string name="malicious_item_confidence">"Рівень надійності:"</string>
+    <string name="malicious_item_analysis">"Аналіз"</string>
+    <string name="malicious_recommend">"Видалити"</string>
+    <string name="good_threat">"Загроз не виявлено."</string>
+    <string name="good_recommend">"Виберіть «Готово», щоб програма Snapdragon Smart Protect продовжила відстежувати цю програму."</string>
+    <string name="good_title">"Добрий"</string>
+    <string name="trusted_item_title">"Snapdragon Smart Protect не відстежує активність програми %1$s, тому що її додано до списку надійних програм.\n\nЯкщо ви не впевнені в безпеці цієї програми, вилучіть її зі списку надійних програм."</string>
+    <string name="trusted_list_title">"Snapdragon Smart Protect не відстежує програми з цього списку."</string>
+    <string name="trusted_list_subtitle">"Якщо ви не впевнені в безпеці цієї програми, вилучіть її зі списку надійних програм."</string>
+    <string name="trusted_list_empty">"У списку надійних програм немає програм."</string>
+    <string name="trusted_list_empty_desc">"Так ви отримуєте максимальний захист, тому що Snapdragon Smart Protect відстежує всі ваші програми."</string>
+    <string name="trusted_confirm_message">"Додати цю програму до списку надійних програм?\n\nЯкщо ви не впевнені в безпеці цієї програми, виберіть «Скасувати»."</string>
+    <string name="malicious_ntf_message">"Програма Snapdragon Smart Protect виявила зловмисну діяльність у: %1$s."</string>
+    <string name="malicious_ntf_recommend">"Рекомендація: видалити"</string>
+    <string name="malicious_dialog_title">"Зловмисне ПЗ"</string>
+    <string name="malicious_text">"Зловмисне ПЗ"</string>
+    <string name="malware_ntf_message">"Програма Snapdragon Smart Protect виявила шкідливе ПЗ в: %1$s."</string>
+    <string name="malware_dialog_title">"Виявлено шкідливе ПЗ"</string>
+    <string name="malware_title">"Шкідливе ПЗ"</string>
+    <string name="spyware_ntf_message">"Програма Snapdragon Smart Protect виявила шпигунське ПЗ в: %1$s."</string>
+    <string name="spyware_dialog_title">"Виявлено шпигунське ПЗ"</string>
+    <string name="spyware_title">"Шпигунське ПЗ"</string>
+    <string name="adware_ntf_message">"Програма Snapdragon Smart Protect виявила рекламне ПЗ в: %1$s."</string>
+    <string name="adware_dialog_title">"Виявлено рекламне ПЗ"</string>
+    <string name="adware_title">"Рекламне ПЗ"</string>
+<string name="err_no_app_dashborad">"список програм на інформаційній панелі пустий"</string>
+    <string name="analysis_title">"%1$s, найімовірніше, є шкідливою програмою з таких причин:"</string>
+    <string name="service_label">"Служба Sphinx"</string>
+    <string name="unknown_code">" Код – %1$d"</string>
+    <string name="default_code_detail">"Програма намагається виконати зловмисні дії."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"Може виконувати шкідливі дії на вашому пристрої."</item>
+        <item>"Шкідливе ПЗ рівня 1: виконує шкідливі дії з користувацьким вмістом, програмами та пристроєм."</item>
+        <item>"Шкідливе ПЗ рівня 2: виконує дії, що можуть завдати фінансових збитків."</item>
+        <item>"Шпигунське ПЗ рівня 3: несанкціоновано отримує/викрадає інформацію та стежить за діями користувачів."</item>
+        <item>"Шпигунське ПЗ рівня 4: несанкціоновано отримує/викрадає метадані користувача."</item>
+        <item>"Шпигунське ПЗ рівня 5: несанкціоновано отримує/викрадає конфіденційну інформацію з пристрою."</item>
+        <item>"Дратівливе ПЗ рівня 6: агресивне рекламне ПЗ або програми, що втручаються в роботу."</item>
+    </string-array>
+    <string name="setting_level1_title">"Шкідливе ПЗ рівня 1"</string>
+    <string name="setting_level2_title">"Шкідливе ПЗ рівня 2"</string>
+    <string name="setting_level3_title">"Шпигунське ПЗ рівня 3"</string>
+    <string name="setting_level4_title">"Шпигунське ПЗ рівня 4"</string>
+    <string name="setting_level5_title">"Шпигунське ПЗ рівня 5"</string>
+    <string name="setting_level6_title">"Рекламне ПЗ рівня 6"</string>
+    <string name="setting_mode_title">"Режим"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"Розкривне й стандартне сповіщення"</item>
+        <item>"Стандартне сповіщення"</item>
+        <item>"Без сповіщень"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"Звичайний режим"</item>
+        <item>"Беззвучний режим"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array></resources>

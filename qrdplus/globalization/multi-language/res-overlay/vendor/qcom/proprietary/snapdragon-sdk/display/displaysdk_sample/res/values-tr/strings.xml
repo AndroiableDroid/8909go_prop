@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Ekran SDK Örneği"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"Ekran Özellikleri"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"Renk Dengesi"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"Mod Yöneticisi"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"Yeni Mod"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"Modu Sil"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"Modu Düzenle"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"İptal"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"Ekran Özellikleri"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"Modu Etkinleştir"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"Mod Adı Gir"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"Modu Kaydet"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"Fotoğraf Seç"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"Sağlanan ekran türü desteklenmiyor. connect() kullanıldığından emin olun"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"Özellik Renk Dengesi desteklenmiyor"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"Uyumlu Arka Plan Işığı Özelliği desteklenmiyor"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"Yaprak Renk Belleği Özelliği desteklenmiyor"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"Cilt Renk Belleği Özelliği desteklenmiyor"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"Gökyüzü Renk Belleği Özelliği desteklenmiyor"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"Resim Ayarı Özelliği desteklenmiyor"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"Güneş Işığı Görünürlük Özelliği desteklenmiyor"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"Yeni mod oluşturulamadı"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"Mod değiştirilemedi"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"Galeriden bir görüntü ekleyin"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"Tamam"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"Evet"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"Hayır"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"Cihazınız için hiç ekran modu bulunmamaktadır"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"FEATURE_COLOR_MODE_SELECTION desteklenmiyor"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"FEATURE_COLOR_MODE_MANAGEMENT desteklenmiyor"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"Gerekli ekran fonksiyonu kullanılamıyor"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"Ekran Modu silme başarısız"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"Ekran Modu etkinleştirme başarısız"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"Ekran Modu varsayılan olarak ayarlanamadı"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"Lütfen önce bir mod seçin"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"Lütfen mod için bir ad girin"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"Yeni mod oluşturuldu"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"Varsayılan olarak ayarla"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"Seçili mod, Sistem modu olduğundan değiştirilemez. Seçili moda bağlı olarak yeni bir mod oluşturmak ister misiniz?"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"Seçili mod, Sistem modu olduğundan silinemez"</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"Gerekli ekran hizmetine bağlanılamıyor"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" Mod etkinleştirildi"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" Mod silindi"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"Renk Dengesi"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"Güneş Işığı Görünürlüğü"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"Resim Ayarı"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"Yaprak Renk Belleği"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"Ton"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"Doygunluk"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"Yoğunluk"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"Cilt Renk Belleği"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"Gökyüzü Renk Belleği"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" Uyumlu Arka Plan Işığı"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"SVI etkinleştir"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"Yaprak renk Belleğini etkinleştir"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"Cilt renk Belleğini etkinleştir"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"Gökyüzü renk Belleğini etkinleştir"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"Resim Ayarını etkinleştir"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"Uyumlu Arka Plan Işığını etkinleştir"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"Resim Ayarı Desatürasyonunu etkinleştir"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"Doygunluk Eşiği"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"Ton"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"Doygunluk"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"Yoğunluk"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"Kontrast"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"Yüksek"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"Orta"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"Düşük"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"Otomatik"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"Yenile"</string></resources>

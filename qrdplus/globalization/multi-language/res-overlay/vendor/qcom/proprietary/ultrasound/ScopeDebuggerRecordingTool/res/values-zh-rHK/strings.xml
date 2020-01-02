@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Scope Debugger 記錄工具"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"設定"</string>
+    <add-resource type="string" name="instructions"/>
+    <string name="instructions">"輸入檔案名稱（或使用提示為檔案名稱），然後按下按鈕儲存 Scope Debugger 轉儲"</string>
+    <add-resource type="string" name="button_text"/>
+    <string name="button_text">"儲存！"</string>
+    <add-resource type="string" name="file_name_default"/>
+    <string name="file_name_default">"scope_debugger_rec"</string></resources>

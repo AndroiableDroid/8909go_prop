@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Social Camera"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"Pri preverjanju ali zahtevanju dovoljenj je prišlo do napake. Za več podrobnosti preverite logcat."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Pošlji (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"Povezava s fotoaparatom je prekinjena"</string>
+    <string name="camera_preview_error_camera_error">"Napaka fotoaparata: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Fotografiranje ni uspelo"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Pri shranjevanju slike v galerijo je prišlo do napake"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Nastavitve"</string>
+    <string name="camera_settings_category_camera_settings">"Nastavitve fotoaparata"</string>
+    <string name="camera_settings_category_fr_settings">"Nastavitve prepoznavanja obraza"</string>
+    <string name="camera_settings_category_debug_settings">"Nastavitve odpravljanja napak"</string>
+    <string name="camera_settings_fr_database_cleared">"Zbirka podatkov prepoznavanja obraza je počiščena"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Opusti"</string>
+    <string name="picture_review_send_faces">"Pošlji (%d)"</string>
+    <string name="picture_review_no_faces">"Na tej fotografiji ni najden nihče"</string>
+    <string name="picture_review_error_face_recognition">"Pri prepoznavanju obrazov je prišlo do napake"</string>
+    <string name="picture_review_error_face_enroll">"Pri shranjevanju tega obraza je žal prišlo do napake. Posnemite še eno sliko te osebe in poskusite znova."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Drug stik \u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Nastavitve deljenja"</string>
+    <string name="fr_share_settings_button_just_once">"Samo tokrat"</string>
+    <string name="fr_share_settings_button_always">"Vedno"</string>
+    <string name="fr_share_settings_share_method_sms">"Sporočilo"</string>
+    <string name="fr_share_settings_share_method_email">"E-pošta"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Poglej tole!"</string>
+    <string name="social_sharing_error_no_email_app">"Nimate aplikacije, ki lahko pošilja e-pošto"</string></resources>

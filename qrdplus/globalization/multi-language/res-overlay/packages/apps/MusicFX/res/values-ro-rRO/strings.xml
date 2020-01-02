@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2010-2011 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">"MusicFX"</string>
+    <!-- ControlPanelMusic strings -->
+    <string name="no_effects">"Efectele nu sunt disponibile."</string>
+    <string name="main_toggle_effects_title">"Efecte audio"</string>
+    <string name="eq_dialog_title">"Egalizator"</string>
+    <string name="headset_plug">"Pentru aceste efecte trebuie să conectaţi căştile."</string>
+    <string name="combo_device">"Efecte acceptate numai la redarea prin căşti."</string>
+    <string name="bass_boost_strength">"Amplificare bas"</string>
+    <string name="virtualizer_strength">"Sunet surround"</string>
+    <string name="pr_title">"Reverberaţii:"</string>
+    <string name="pr_summary">"Efecte suplimentare de reverberaţie în încăpere"</string>
+    <string name="pr_dialog_title">"Presetare pentru reverberaţii"</string>
+    <string name="setup">"Configuraţi"</string>
+    <string name="normal">"Normală"</string>
+    <string name="classical">"Clasică"</string>
+    <string name="dance">"Dance"</string>
+    <string name="flat">"Plat"</string>
+    <string name="folk">"Folk"</string>
+    <string name="heavy_metal">"Heavy Metal"</string>
+    <string name="hip_hop">"Hip Hop"</string>
+    <string name="jazz">"Jazz"</string>
+    <string name="pop">"Pop"</string>
+    <string name="rock">"Rock"</string>
+    <string name="ci_extreme">"Amplificator FX"</string>
+    <string name="user">"Utilizator"</string>
+    <string name="none">"Niciunul"</string>
+    <string name="smallroom">"Cameră mică"</string>
+    <string name="mediumroom">"Cameră medie"</string>
+    <string name="largeroom">"Cameră mare"</string>
+    <string name="mediumhall">"Sală medie"</string>
+    <string name="largehall">"Sală mare"</string>
+    <string name="plate">"Placă"</string>
+    <string name="eq_custom">"Pentru personalizare, selectaţi Personalizat"</string>
+    <string name="power_on_prompt">"Apăsaţi butonul de pornire din dreapta sus."</string>
+    <!-- title of control panel picker dialog [CHAR LIMIT=30] -->
+    <string name="picker_title">"Pan. de cont. cu efecte muz."</string>
+    <string name="toggle_button_on">"Activată"</string>
+    <string name="toggle_button_off">"Dezactivată"</string></resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP 설정"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Snapdragon 디지털 펜 설정"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"사용 중지됨"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"복제"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"레거시 앱 오프스크린 모드:"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"범위 내 거리(mm):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"전원 모드:"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"정확도 최적화"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"전원 최적화"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"입력 형식:"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"마우스 민감도:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"느림"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"중간"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"빠름"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"스타일러스"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"생쥐"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"조이스틱"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"디지털 펜 끄기"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"디지털 펜 켜기"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"스마터 스탠드"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"온스크린 가리키기"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"오프스크린 가리키기"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"최대 거리:"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"가리키기 아이콘 표시"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"지우개 버튼"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"버튼 인덱스:"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"지우개 동작:"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"유지하여 지우기"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"탭하여 전환"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"오프스크린 세로 위치:"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"왼쪽"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"오른쪽"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"오프스크린 시 펜 중지"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"부팅 시 펜 시작"</string></resources>

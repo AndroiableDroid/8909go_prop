@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"Uporabniška aplikacija MDTP: Glavni zaslon"</string>
+    <string name="config_app">"Uporabniška aplikacija MDTP: Konfiguracija"</string>
+    <string name="server_app">"Strežnik MDTP: Glavni zaslon"</string>
+    <string name="action_settings">"Nastavitve"</string>
+    <string name="label_1_1">"Stanje MDTP:"</string>
+    <string name="state_deactivated">"Deaktivirano"</string>
+    <string name="state_activated">"Aktivno"</string>
+    <string name="configuration">"Konfiguracija (samo pred aktivacijo)"</string>
+    <string name="service_activate">"Zahtevaj aktivacijo MDTP od storitev MDTP"</string>
+    <string name="service_deactivate">"Zahtevaj deaktivacijo MDTP od storitev MDTP"</string>
+    <string name="local_deactivate">"Lokalna deaktivacija MDTP (s kodo PIN)"</string>
+    <string name="service_console">"Konzola storitev MDTP"</string>
+    <string name="title_activity_configuration">"Uporabniška konfiguracija"</string>
+    <string name="label_2_1">"Uporabi lokalno kodo PIN:"</string>
+    <string name="label_2_2">"PIN:"</string>
+    <string name="gen_rand_pin">"Ustvari naključno kodo PIN"</string>
+    <string name="label_2_3">"Razmerje preverjanja:"</string>
+    <string name="label_2_5">"Omogoči zaklep SIM:"</string>
+    <string name="label_2_6">"Dodatne datoteke/imeniki za preverjanje:"</string>
+    <string name="reset">"Ponastavi na privzeto"</string>
+    <string name="label_3_1">"Pošlji ukaze iz strežnika v napravo:"</string>
+    <string name="activate">"Vklopi"</string>
+    <string name="deactivate">"Izklopi"</string>
+    <string name="locksim">"Zakleni SIM"</string>
+    <string name="unlocksim">"Odkleni SIM"</string>
+    <string name="killfunc">"Prekini funkcijo"</string>
+    <string name="restorefunc">"Obnovi funkcijo"</string>
+    <string name="label_3_2">"Zahteve za deaktivacijo MDTP:"</string>
+    <string name="notallowed">"Ni dovoljeno"</string>
+    <string name="allowed">"Dovoljeno"</string>
+    <string name="label_3_3">"Zahteve za odblokiranje čarovnika za nastavitev:"</string>
+    <string name="label_3_4">"Dnevnik storitve:"</string>
+    <string name="wizard_app_loading_title">"Čarovnik za nastavitev MDTP: Inicializacija ..."</string>
+    <string name="label_4_1">"Čarovnik za nastavitev je blokiran, ker je stanje MDTP aktivno"</string>
+    <string name="label_4_2">"Možnost A: MDTP naj ostane aktivna, vendar zahtevaj odobritev strežnika"</string>
+    <string name="wiz_unblock">"Zahtevaj odblokiranje čarovnika z nastavitev od storitev MDTP"</string>
+    <string name="wiz_cont">"Nadaljuj (z odobritvijo strežnika)"</string>
+    <string name="label_4_3">"Možnost B: Deaktiviraj MDTP (s tem se prekliče blokiranje čarovnika za nastavitev)"</string>
+    <string name="wiz_remote">"Zahtevaj oddaljeno deaktivacijo MDTP"</string>
+    <string name="wiz_local">"Lokalna deaktivacija MDTP"</string>
+    <string name="label_4_4">"Čarovnik za nastavitev lahko nadaljuje, ker stanje MDTP NI aktivno"</string>
+    <string name="wiz_complete">"Dokončaj čarovnika za nastavitev (stanje MDTP ni aktivno)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"Čarovnik za nastavitev"</string>
+    <string name="label_signup_message">"MDTP trenutno ni aktivna.\nAli jo želite aktivirati?"</string>
+    <string name="label_signup_message_activated">"MDTP je uspešno aktivirana!"</string>
+    <string name="skip_activation">"Preskoči aktiviranje"</string>
+    <string name="emergency_dialer">"Klicalnik za nujne primere"</string>
+    <string name="wiz_title_sign_up">"Čarovnik za nastavitev MDTP – Prijava"</string>
+    <string name="wiz_title_reset_prot">"Čarovnik za nastavitev MDTP – Ponastavitev zaščite na privzeto"</string>
+    <string name="wiz_title_boot_block">"Čarovnik za nastavitev MDTP – Naprava je blokirana"</string>
+    <string name="block_boot_warning_text">"MDTP je to napravo blokirala zaradi notranje napake.\n\nZnova zaženite napravo."</string>
+    <string name="start_wifi_wizard">"Nastavitev WiFi"</string>
+    <string name="default_pin_hint">"Privzeta koda PIN je 11111"</string>
+    <string name="pin_dialog_title">"Zahtevana koda PIN za lokalno deaktivacijo MDTP"</string>
+    <string name="pin_input_validation_warning">"Vnesti je treba petmestno število."</string></resources>

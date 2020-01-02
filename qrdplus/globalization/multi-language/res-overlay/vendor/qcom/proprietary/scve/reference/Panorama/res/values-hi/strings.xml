@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"पैनोरामा UI"</string>
+    <string name="title_loading">"लोड कर रहा है!"</string>
+    <string name="msg_loading">"प्रोसस हो रहा है\u2026"</string>
+    <string name="panorama_saved">"आपके डिवाइस की फ़ोटो गैलरी में पैनोरामा सफलतापूर्वक सहेजा गया"</string>
+    <string name="panorama_generate_result_failed">"क्षमा करें, कृपया इसका फिर से प्रयास करें."</string>
+    <string name="error_dialog_title">"एप्‍लिकेशन त्रुटि"</string>
+    <string name="btn_ok">"ठीक है"</string>
+    <string name="btn_txt_save">"छवि सहेजें"</string>
+    <string name="err_library_loading">"नेटिव लाइब्रेरीज़ लोड करने में एप्‍लिकेशन विफल."</string>
+    <string name="err_camera_init">"प्रारंभ किए जाने में कैमरा विफल."</string>
+    <string name="err_sensors_init">"प्रारंभ किए जाने में सेंसर विफल."</string>
+    <string name="err_pano_init">"प्रारंभ किए जाने में पैनोरामा API विफल."</string>
+    <string name="err_sensors_failed">"प्रारंभ किए जाने में सेंसर विफल."</string>
+    <string name="err_zsl_failed">"इस डिवाइस के लिए ZSL समर्थित नहीं है."</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"सत्र शुरू नहीं किया गया"</string>
+    <string name="err_queue_full">"कतार भरी हुई है"</string>
+    <string name="err_max_key_frames">"अधिकतम फ़्रेम्स तक पहुंच गया"</string>
+    <string name="err_no_frame_overlap">"फ़्रेम्स के बीच में ओवरलैप नहीं"</string>
+    <string name="err_inconsistent_direction">"दिशा समान नहीं"</string>
+    <string name="err_result_not_ready">"परिणाम तैयार नहीं है"</string>
+    <string name="err_frame_no_feature">"फ़्रेम में पर्याप्त सुविधा नहीं है"</string>
+    <string name="err_direction_changed">"दिशा बदल गई है, कृपया कैप्‍चर की गई पैनोरामा छवि देखने के लिए ठीक क्लिक करें."</string>
+    <string name="err_panorama_loading">"पैनोरामा छवि का लोड होना विफल रहा."</string>
+    <string name="err_panorama_saving">"पैनोरामा छवि का सहेजना विफल रहा."</string>
+    <string name="err_api_capturing">"पैनोरामा कैप्‍चर करना विफल रहा."</string>
+    <string name="err_api_halted">"पैनोरामा कैप्‍चर करना रुक गया है, कृपया कैप्‍चर की गई पैनोरामा छवि देखने के लिए ठीक क्लिक करें."</string>
+    <string name="err_max_limit">"अधिकतम फ़्रेम्स की सीमा तक पहुंच गया है, कृपया कैप्‍चर की गई पैनोरामा छवि देखने के लिए ठीक क्लिक करें."</string>
+    <string name="err_no_prv">"पूर्वावलोकन कैप्‍चर नहीं किया गया है."</string>
+    <string name="title_settings">"सेटिंग्स"</string>
+    <string name="camera_settings">"कैमरा सेटिंग्स"</string>
+    <string name="camera_settings_picture_size">"रिज़ॉल्यूशन"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string name="camera_settings_exposure_compensation">"एक्सपोज़र कंपन्सेशन"</string>
+    <string name="camera_settings_white_balance">"सफेद संतुलन"</string>
+    <string-array name="camera_settings_white_balance_entries">
+        <item>"स्वत"</item>
+        <item>"दिन का प्रकाश"</item>
+        <item>"फ़्लोरेसेंट"</item>
+        <item>"अत्यधिक चमकीला"</item>
+        <item>"शेड"</item>
+        <item>"सांझ"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values">
+        <item>"auto"</item>
+        <item>"daylight"</item>
+        <item>"fluorescent"</item>
+        <item>"incandescent"</item>
+        <item>"shade"</item>
+        <item>"twilight"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values_camera2">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>7</item>
+    </string-array>
+    <string name="camera_settings_scene_mode">"दृश्य मोड"</string>
+    <string-array name="camera_settings_scene_mode_entries">
+        <item>"कार्यवाही"</item>
+        <item>"स्वत"</item>
+        <item>"रात्रि"</item>
+        <item>"पार्टी"</item>
+        <item>"सूर्यास्त"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values">
+        <item>"action"</item>
+        <item>"auto"</item>
+        <item>"night"</item>
+        <item>"party"</item>
+        <item>"sunset"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values_camera2">
+        <item>2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"फ़ोकस मोड"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"सतत (वीडियो)"</item>
+        <item>"अनंत"</item>
+        <item>"निर्धारित"</item>
+        <item>"सतत (चित्र)"</item>
+        <item>"स्वत"</item>
+        <item>"फ़ील्ड की विस्तारित गहराई"</item>
+        <item>"मैक्रो"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"fixed"</item>
+        <item>"continuous-picture"</item>
+        <item>"auto"</item>
+        <item>"edof"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>3</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_iso">ISO</string>
+    <string-array name="camera_settings_iso_entries">
+        <item>"स्वत"</item>
+        <item>"हाथ जिटर कटौती"</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="camera_settings_iso_values">
+        <item>"auto"</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>"ISO3200"</item>
+    </string-array>
+    <string name="camera_settings_iso_default">ISO800</string>
+    <string name="pano_settings">"पैनोरामा सेटिंग्स"</string>
+    <string name="pano_settings_scve_mode">"SCVE कार्रवाई मोड"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"डिफ़ॉल्ट"</item>
+        <item>"CPU ऑफ़लोड"</item>
+        <item>"प्रदर्शन"</item>
+        <item>"कम पावर"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_image_compress_level">"छवि संपीड़ित स्तर"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_3a_lock">"पैनोरामा कैप्‍चर के दौरान AE/AF/AWB लॉक करें"</string>
+    <string-array name="pano_settings_enable_3a_lock_entries">
+        <item>"नहीं"</item>
+        <item>"हां"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_3a_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_3a_lock_default">"true"</string>
+    <string name="debug_settings">"डीबग सेटिंग्स"</string>
+    <string name="debug_settings_enable_loggings">"वर्बोस लॉगिंग"</string>
+    <string-array name="debug_settings_enable_loggings_entries">
+        <item>"बंद"</item>
+        <item>"चालू"</item>
+    </string-array>
+    <string-array name="debug_settings_enable_loggings_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_enable_loggings_default">"false"</string>
+    <string name="debug_settings_save_preview_frames">"SD कार्ड में पूर्वावलोकन फ़्रेम्स सहेजें"</string>
+    <string-array name="debug_settings_save_preview_frames_entries">
+        <item>"नहीं"</item>
+        <item>"हां"</item>
+    </string-array>
+    <string-array name="debug_settings_save_preview_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_preview_frames_default">"false"</string>
+    <string name="debug_settings_save_key_frames">"SD कार्ड में कुंजी फ़्रेम्स सहेजें"</string>
+    <string-array name="debug_settings_save_key_frames_entries">
+        <item>"नहीं"</item>
+        <item>"हां"</item>
+    </string-array>
+    <string-array name="debug_settings_save_key_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_key_frames_default">"false"</string>
+    <!-- PanoramaViewer -->
+    <string name="share_button_text">"पैनोरामा छवि साझा करें"</string></resources>

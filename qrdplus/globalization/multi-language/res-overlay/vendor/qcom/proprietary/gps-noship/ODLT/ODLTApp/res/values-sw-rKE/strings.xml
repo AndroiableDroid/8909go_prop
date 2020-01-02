@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"DLT ya Qualcomm"</string>
+     <string name="gpsDebuggingActivity">"Shughuli za Utatuaji wa GPS"</string>
+     <string name="cameraActivity">"Emoji ya kamera"</string>
+     <string name="newTrackingSession">"Kipindi Kipya cha Ufuatilizi"</string>
+     <string name="newTrackingSession_nameLabel">"Jina"</string>
+     <string name="newTrackingSession_numFixesLabel">"Idadi ya Marekebisho"</string>
+     <string name="newTrackingSession_descriptionLabel">"Maelezo"</string>
+     <string name="newTrackingSession_startButtonLabel">"Anzisha"</string>
+     <string name="testConfig">"Usanidi wa Jaribio"</string>
+     <string name="testConfig_configNameLabel">"Jina la Usanidi"</string>
+     <string name="testConfig_numFixesLabel">"Idadi ya Marekebisho (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"Maelezo ya Usanidi wa Jaribio"</string>
+     <string name="testConfig_startButtonLabel">"Anza Jaribio"</string>
+     <string name="testConfig_RadioLabel">"Ufuatilizi wa Programu au Mara Moja"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"Mara Moja"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"Ufuatilizi wa Programu"</string>
+     <string name="testConfig_qosTimeoutLabel">"Muda Husika Unaopendelewa (sek)"</string>
+     <string name="testConfig_qosAccuracyLabel">"Usahihi Unaopendelewa (m)"</string>
+     <string name="testConfig_tbfLabel">"Zamu ya Kiwango cha Chini (sek)"</string>
+     <string name="testConfig_staticTruthLabel">"Nafasi Halisi Isiyobadilika (tia alama ili utumie)"</string>
+     <string name="testConfig_latLabel">"Latitudo"</string>
+     <string name="testConfig_lonLabel">"Longitudo"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"API ya Eneo"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"Huduma ya GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"Aina ya Marudio"</string>
+     <string name="testConfig_apiTypeLabel">"Aina ya API"</string>
+    <string name="labelUnknownPrivacy">"haijulikani"</string>
+    <string name="labelGetPrivacy">"Pata Faragha"</string>
+    <string name="labelSetPrivacySetting">"Weka Faragha"</string>
+    <string name="name_vzw_client">"Mteja wa Vzw"</string>
+    <string name="name_normal_client">"Android ya Kawaida"</string>
+    <string name="LabelModeSel">"Hali"</string>
+    <string name="LabelNumFixSel">"Idadi ya Marekebisho"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"Jimbo..."</string>
+    <string name="str_nodata">"Hakuna Data"</string>
+    <string name="str_waitingforposinfo">"\nInasubiri Maelezo ya Nafasi...\n"</string>
+    <string name="str_searchingforsvs">"\nInatafuta SVs...\n"</string>
+    <string name="str_configsummary">"\nMuhtsari wa Usanidi\n"</string>
+    <string name="str_alarms">"\nKing\'ora:\n\n"</string>
+    <string name="str_starttest">"Anza Jaribio"</string>
+    <string name="str_sessionplayback">"Uchezaji wa Kipindi"</string>
+    <string name="str_proximityalerts">"Arifa za Ukaribu"</string>
+    <string name="str_proximity_info">"Maelezo ya Ukaribu"</string>
+    <string name="str_options">"Chaguo"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"Inayojitegemea"</item>
+<item>"AFLT"</item>
+<item>"Kasi Iliyoboreshwa"</item>
+<item>"Usahihi Ulioboreshwa"</item>
+<item>"Data Iliyoboreshwa"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"Muda (sek) kati ya marekebisho"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"Anwani ya PDE"</string>
+<string name="LabelAccuracyH">"Usahihi Unaopendelewa (H, m)"</string>
+<string name="LabelAccuracyV">"Usahihi Unaopendelewa (V, m)"</string>
+<string name="LabelMaxResponseTime">"Muda umekwisha (sek)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"Endesha kwa mkusanyiko wa kawaida"</string>
+<string name="LabelRunOne">"Endesha VzW"</string>
+<string name="LabelRunState1">"Kipimo cha 1 cha FSM"</string>
+<string name="LabelRunState2">"Kipimo cha 2 cha FSM"</string>
+<string name="EnigneStatus">"Hali ya Injini"</string>
+<string name="NA">"Haitumiki"</string>
+<string name="GpsStatus">"Hali ya Gps"</string>
+<string name="Session">"Kipindi"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"Aina"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"Kusimamanakuenda"</string>
+<string name="Mode">"Hali"</string>
+<string name="stop">"Simamisha"</string>
+<string name="labelPdePort">"Lango la PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"911 Pekee"</item>
+<item>"WASHA"</item>
+</string-array>
+<string name="non_aiding">"Ondoa Chaguo Zote za Usaidizi"</string>
+<string name="all_aiding">"Teua Chaguo Zote za Usaidizi"</string>
+<string name="done">"Futa Zilizochaguliwa"</string>
+<string name="Ephemeris">"Efemerisi"</string>
+<string name="GLO_Ephemeris">"GLO Efemerisi"</string>
+<string name="Alamanac">"Kalenda"</string>
+<string name="GLO_Alamanac">"Kalenda ya GLO"</string>
+<string name="Alamanac_Corr">"Corr ya Kalenda"</string>
+<string name="GLO_Alamanac_Corr">"Corr ya Kalenda ya GLO"</string>
+<string name="SV_DIR">"DIR ya SV"</string>
+<string name="GLO_SV_DIR">"SV DIR ya GLO"</string>
+<string name="SV_Steer">"Uendeshaji wa SV"</string>
+<string name="GLO_SV_Steer">"GLO SV Steer"</string>
+<string name="Cell_DB_Info">"Maelezo ya DB ya Seli"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"Muda wa GPS"</string>
+<string name="GLO_Time">"Muda wa GLO"</string>
+<string name="Freq_Bias_Est">"Kadirio la upendeleo wa marudio"</string>
+<string name="Time">"Saa"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"Afya"</string>
+<string name="SA_Data">"Data ya SA"</string>
+<string name="position">"nafasi"</string>
+<string name="str_wbiq_runscript">"Endesha Hati"</string>
+<string name="str_wbiq_stopgps">"Ondoka Katika Modi ya RF"</string>
+<string name="str_wbiq_startgps">"Ingia Katika Modi ya RF"</string>
+<string name="str_wbiq_run_gps_wbiq">"WBIQ ya GPS "</string>
+<string name="str_wbiq_run_glo_wbiq">"WBIQ ya GLO"</string>
+<string name="str_wbiq_run_bds_wbiq">"WBIQ ya BDS"</string>
+<string name="str_wbiq_run_gal_wbiq">"WBIQ ya GAL"</string>
+<string name="str_wbiq_run_gps_nbiq">"NBIQ ya GPS"</string>
+<string name="str_wbiq_run_gps_ob_fft">"FFT ya GPS"</string>
+<string name="str_wbiq_run_glo_ob_fft">"FFT ya GLO"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"Uwekaji Logi Kiotomatiki Kwenye Kifaa"</string>
+<string name="str_wbiq_chk_delaystart">"Mwanzo wa Ukawishaji"</string>
+<string name="str_wbiq_chk_autostop">"Kusimama Kiotomatiki "</string>
+<string name="str_wbiq_chk_otfsa">"Washa OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"Sek"</string>
+<string name="str_proximity_clearalerts">"Futa Arifa"</string>
+<string name="str_proximity_savealertsfile">"Hifadhi Faili ya Arifa"</string>
+<string name="str_proximity_loadalertsfile">"Faili ya Arifa za Upakio"</string>
+<string name="str_proximity_deletealertsfile">"Futa Faili ya Arifa"</string>
+<string name="str_proximity_logging">"Uwekaji Logi"</string>
+<string name="str_proximity_autostartenabled">"Washa Oto"</string>
+<string name="str_proximity_autostartfile">"Chagua Faili ya Kuanza Kiotomatiki"</string>
+<string name="str_proximity_smsnumber">"Nambari ya Arifa ya SMS"</string>
+<string name="str_proximity_geofencelisttab_add">"Ongeza"</string>
+<string name="str_proximity_geofencelisttab_delet">"Futa"</string>
+<string name="str_proximity_geofencelisttab_edit">"Hariri"</string>
+<string name="str_locbatchingtab_btn_s">"Sek"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[Wastani, Chini, Juu] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"Pata Kifurushi"</string>
+<string name="str_powerest_summary">"Muhtsari:"</string>
+<string name="str_powerest_plot_label"/></resources>

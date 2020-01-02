@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"1 天有 24 小時"</string>
+    <string name="hi_snapdragon">"您好，Snapdragon"</string>
+    <string name="hey_snapdragon">"你好 Snapdragon"</string>
+    <string name="my_voice">"我的聲音是我的密碼"</string>
+    <string name="make_my_day">"讓每一天都精彩"</string>
+    <string name="tomorrow_is_another">"明天又是全新的一天"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"歡迎來聖地牙哥"</string>
+    <string name="okay_google">"Okay Google"</string>
+    <string name="open_my_email">"開啟我的電郵"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"語音打印"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"設定"</string>
+    <string name="action_add">"加入"</string>
+    <string name="title_activity_main_with_fragment">"MainWithFragmentActivity"</string>
+    <string name="tap_mic_start">"輕觸麥克風即可開始"</string>
+    <string name="tap_mic_stop">"輕觸麥克風即可停止"</string>
+    <string name="say_key_phrase">"請說出「&lt;b&gt;%1$s&lt;/b&gt;」"</string>
+    <string name="say_one_more_time">"請再次說出語句「&lt;b&gt;%1$s&lt;/b&gt;」。"</string>
+    <string name="say_one_of_key_phrases">"說出其中一個關鍵語句"</string>
+    <string name="phrase_recognized">"已識別語句「&lt;b&gt;%1$s&lt;/b&gt;」 "</string>
+    <string name="recording_length_exceeded">"錄製長度已超過"</string>
+    <string name="recording_length_exceeded_msg">"已超過錄製長度。請再試一次。"</string>
+    <string name="delete_all">"刪除全部"</string>
+    <string name="delete_all_msg">"您確定要刪除所有註冊範本?"</string>
+    <string name="got_it">"太棒了!我明白了。"</string>
+    <string name="set_key_phrase">"設定關鍵語句"</string>
+    <string name="set_key_phrase_name">"設定關鍵語句名稱"</string>
+    <string name="set_key_phrase_action">"設定動作"</string>
+    <string name="change_key_phrase_action">"變更動作"</string>
+    <string name="phrase_strength">"語句強度"</string>
+    <string name="phrase_strength_hint">"請嘗試包含至少三個字詞的語句。"</string>
+    <string name="register_phrase">"註冊語句"</string>
+    <string name="register_phrase_hint">"為了協助我識別您的聲音，請錄製語句「&lt;b&gt;%1$s&lt;/b&gt;」3 次。"</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" 在寧靜的房間里錄製。\n\n"<b>"2."</b>"在離嘴巴一定距離的位置握著手機。\n\n"<b>"3."</b>"自然地說出關鍵語句。"</string>
+    <string name="ready_to_record">"好，我可以開始錄製"</string>
+    <string name="oops">"糟糕!再試一次。"</string>
+    <string name="say_the_phrase">"說出語句「&lt;b&gt;%1$s&lt;/b&gt;」"</string>
+    <string name="phrase_registered">"語句「&lt;b&gt;%1$s&lt;/b&gt;」已註冊"</string>
+    <string name="say_the_phrase_few_more">"多說「&lt;b&gt;%1$s&lt;/b&gt;」幾次"</string>
+    <string name="voice_print">"語音打印"</string>
+    <string name="cancel">"取消"</string>
+    <string name="voice_level">"語音音量"</string>
+    <string name="background_noise">"背景噪音"</string>
+    <string name="cap_done">"完成"</string>
+    <string name="cap_record">"錄製"</string>
+    <string name="cap_next">"下一頁"</string>
+    <string name="cap_ok">"確定"</string>
+    <string name="next">"下一頁"</string>
+    <string name="new_key_phrase">"新增關鍵語句"</string>
+    <string name="edit_keyphrases">"編輯關鍵語句"</string>
+    <string name="set_name">"設定名稱"</string>
+    <string name="select_key_phrase">"選擇關鍵語句"</string>
+    <string name="set_action">"設定動作"</string>
+    <string name="registration_complete">"註冊完成"</string>
+    <string name="confirm_pin">"確認 PIN 號碼"</string>
+    <string name="confirm_pin_msg">"輸入裝置 PIN 號碼以編輯關鍵語句。"</string>
+    <string name="your_key_phrase">"您的關鍵語句"</string>
+    <string name="cap_redo">"重錄"</string>
+    <string name="cap_redo_previous">"重錄上一句"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"瀏覽建議的語句"</string>
+    <string name="create_your_own">"建立您的個人語句"</string>
+    <string name="skip">"略過"</string>
+    <string name="none">"無"</string>
+    <string name="enter_pin">"輸入裝置 PIN 號碼以編輯關鍵語句。"</string>
+    <string name="your_key_phrase_name">"您的關鍵語句名稱"</string>
+    <string name="new_key_phrase_name">"新增關鍵語句名稱"</string>
+    <string name="set_service_to_launch">"設定要啟動的服務"</string>
+    <string name="email">"電郵"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"發送短訊"</string>
+    <string name="use_selected_phrase">"使用選擇的語句"</string>
+    <string name="about">"關於"</string>
+    <string name="edit_key_phrases">"編輯關鍵語句"</string>
+    <string name="invalid_phrasename_title">"語句名稱無效"</string>
+    <string name="invalid_phrasename_msg">"「語句名稱」不能為空白。"</string>
+    <string name="duplicate_phrasename_msg">"「語句名稱」已存在。請嘗試其他名稱。"</string>
+    <string name="invalid_phrase_title">"語句無效"</string>
+    <string name="invalid_phrase_msg">"語句不能為空白。"</string>
+    <string name="edit_action">"編輯動作"</string>
+    <string name="threshold">"臨界值"</string>
+    <string name="delete_phrase">"刪除語句"</string>
+    <string name="rename">"變更名稱"</string>
+    <string name="rename_keyphrase">"變更關鍵語句名稱"</string>
+    <string name="adjust_keyword_sensitivity">"調整關鍵字敏感度"</string>
+    <string name="adjust_keyword_sensitivity_summary">"可對敏感度進行調整，以在關鍵語句識別中允許部分差異。"</string>
+    <string name="sensitivity">"敏感度"</string>
+    <string name="low_sensitivity">"低敏感度"</string>
+    <string name="med_sensitivity">"中敏感度"</string>
+    <string name="high_sensitivity">"高敏感度"</string>
+    <string name="low">"低"</string>
+    <string name="med">"中"</string>
+    <string name="high">"高"</string>
+    <string name="low_sensitivity_summary">"在關鍵語句識別處理程序中接受更多差異。"</string>
+    <string name="med_sensitivity_summary">"在關鍵語句識別處理程序中接受部分差異，但可能會導致部分關鍵語句無法識別。"</string>
+    <string name="high_sensitivity_summary">"安全性得以提高，但可能會導致部分關鍵語句無法識別。"</string>
+    <string name="keyword_sensitivity">"關鍵字敏感度"</string>
+    <string name="delete_phrase_msg">"您確定要刪除語句「%1$s」嗎?"</string>
+    <string name="voice_print_not_available_title">"語音打印不可用"</string>
+    <string name="voice_print_not_available_msg">"這部裝置上尚未啟用語音打印。"</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"成功刪除"</string>
+    <string name="delete_success_msg">"已刪除關鍵語句樣本。"</string>
+    <string name="delete_fail_title">"刪除失敗"</string>
+    <string name="delete_fail_msg">"刪除關鍵語句樣本時發生錯誤。"</string>
+    <string name="rename_success_title">"重新命名成功"</string>
+    <string name="rename_success_msg">"已重新命名關鍵語句樣本。"</string>
+    <string name="rename_fail_title">"重新命名失敗"</string>
+    <string name="rename_fail_msg">"重新命名關鍵語句樣本時發生錯誤。"</string>
+    <string name="pin_validation">"PIN 驗證"</string>
+    <string name="pin_failed">"PIN 輸入無效!"</string>
+    <string name="registration_failed">"註冊失敗。"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"使用者臨界值"</string>
+    <string name="spoof_score">"詐騙臨界值"</string>
+    <string name="thresholds">"臨界值"</string>
+    <string name="save">"儲存"</string>
+    <string name="sentence_score_msg">"設定詞句臨界值"</string>
+    <string name="user_score_msg">"設定使用者臨界值"</string>
+    <string name="spoof_score_msg">"設定詐騙臨界值"</string>
+    <string name="sentence_score">"詞句臨界值"</string></resources>

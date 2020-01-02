@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SDP SDK 演示"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"扩展关屏"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"背景侧信道"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"手指与触针 + 压力"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"轴倾角"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"悬停和侧按钮"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"清除器和清除器绕过"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"此演示展示了关屏功能。\n\n1. 绘制关屏并在右侧查看您的绘图。\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. 在虚拟屏幕的右下角有一个按钮。悬停在此按钮上方并变换高度可更改圆圈的不透明度。\n\n3. 按下此按钮可更改圆圈的颜色。"</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"此演示显示了背景侧信道在屏幕打开或关闭时的运作方式。\n\n1. 绘制关屏并查看您的绘图。\n\n2. 现在，切换至其他应用或将屏幕设置为关闭 - 您的绘图仍将被记录。"</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"屏幕悬停"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. 悬停在屏幕上方并变换高度。\n\n2. 使用切换可禁用悬停。\n\n3. 使用滑块可设置悬停活动的最大距离。\n\n4. 按侧按钮将更改悬停圆圈的颜色。"</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. 请在全局设置中将 SDP 按钮配置为清除器按钮。\n\n2. 进行绘制。\n\n3. 将清除器设置为“点按切换”。按清除器按钮。进行清除。再按清除器按钮，切换至笔模式。\n\n4. 将清除器设置为“按住清除”。现在，您可以立即触摸以进行清除。\n\n5. 现在使用清除器绕过开关以禁用清除器功能。"</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"清除器绕过"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"清除画布"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"使用笔进行绘制，然后使用手指绘制。\n这两种方法会以不同的颜色加以区分。\n笔触宽度由压力设定，也会通过数值显示。"</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"压力"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

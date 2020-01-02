@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Mdtp 데모"</string>
+    <string name="user_app">"MDTP 사용자 앱: 주 화면"</string>
+    <string name="config_app">"MDTP 사용자 앱: 구성"</string>
+    <string name="server_app">"MDTP 서버: 주 화면"</string>
+    <string name="action_settings">"설정"</string>
+    <string name="label_1_1">"MDTP 상태:"</string>
+    <string name="state_deactivated">"비활성화됨"</string>
+    <string name="state_activated">"활성화됨"</string>
+    <string name="configuration">"구성(활성화 전에만 가능)"</string>
+    <string name="service_activate">"MDTP 서비스에서 MDTP 활성화 요청"</string>
+    <string name="service_deactivate">"MDTP 서비스에서 MDTP 비활성화 요청"</string>
+    <string name="local_deactivate">"로컬 MDTP 비활성화(PIN 사용)"</string>
+    <string name="service_console">"MDTP 서비스 콘솔"</string>
+    <string name="title_activity_configuration">"사용자 구성"</string>
+    <string name="label_2_1">"로컬 PIN 사용:"</string>
+    <string name="label_2_2">"PIN:"</string>
+    <string name="gen_rand_pin">"임의 PIN 생성"</string>
+    <string name="label_2_3">"확인 비율:"</string>
+    <string name="label_2_5">"SIM 잠금 사용:"</string>
+    <string name="label_2_6">"확인할 추가 파일/디렉토리:"</string>
+    <string name="reset">"초기화"</string>
+    <string name="label_3_1">"서버에서 기기로 명령 보내기:"</string>
+    <string name="activate">"활성화"</string>
+    <string name="deactivate">"비활성화"</string>
+    <string name="locksim">"SIM 잠금"</string>
+    <string name="unlocksim">"SIM 잠금해제"</string>
+    <string name="killfunc">"기능 중지"</string>
+    <string name="restorefunc">"기능 복원"</string>
+    <string name="label_3_2">"MDTP 비활성화 요청:"</string>
+    <string name="notallowed">"허용되지 않음"</string>
+    <string name="allowed">"허용됨"</string>
+    <string name="label_3_3">"설치 마법사 차단 해제 요청:"</string>
+    <string name="label_3_4">"서비스 로그:"</string>
+    <string name="wizard_app_loading_title">"MDTP 설치 마법사: 초기화 중..."</string>
+    <string name="label_4_1">"MDTP 상태가 활성화되어 설치 마법사가 차단되었습니다."</string>
+    <string name="label_4_2">"옵션 A: MDTP 활성 상태를 유지하지만 서버 승인 요청"</string>
+    <string name="wiz_unblock">"MDTP 서비스에서 설치 마법사 차단 해제 요청"</string>
+    <string name="wiz_cont">"계속(서버에서 승인함)"</string>
+    <string name="label_4_3">"옵션 B: MDTP 비활성화(설치 마법사 차단을 제거함)"</string>
+    <string name="wiz_remote">"원격 MDTP 비활성화 요청"</string>
+    <string name="wiz_local">"로컬 MDTP 비활성화"</string>
+    <string name="label_4_4">"MDTP 상태가 활성화되지 않아 설치 마법사를 계속할 수 있음"</string>
+    <string name="wiz_complete">"설치 마법사 완료(MDTP 상태는 활성화되지 않음)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"설치 마법사"</string>
+    <string name="label_signup_message">"MDTP가 현재 활성화되어 있지 않습니다.\n활성화하시겠습니까?"</string>
+    <string name="label_signup_message_activated">"MDTP가 활성화되었습니다!"</string>
+    <string name="skip_activation">"활성화 건너뛰기"</string>
+    <string name="emergency_dialer">"긴급 통화"</string>
+    <string name="wiz_title_sign_up">"MDTP 설치 마법사 - 등록"</string>
+    <string name="wiz_title_reset_prot">"MDTP 설치 마법사 - 초기화 보호"</string>
+    <string name="wiz_title_boot_block">"MDTP 설치 마법사 - 기기가 차단됨"</string>
+    <string name="block_boot_warning_text">"내부 오류로 인해 MDTP가 이 기기를 차단했습니다.\n\n기기를 다시 부팅하십시오."</string>
+    <string name="start_wifi_wizard">"WiFi 설정"</string>
+    <string name="default_pin_hint">"기본 PIN은 11111입니다."</string>
+    <string name="pin_dialog_title">"MDTP 로컬 비활성화 PIN 필요"</string>
+    <string name="pin_input_validation_warning">"5자리 숫자를 입력해야 합니다."</string></resources>

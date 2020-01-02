@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"Doba ma dwadzieścia cztery godziny"</string>
+    <string name="hi_snapdragon">"Witaj Snapdragon"</string>
+    <string name="hey_snapdragon">"Hej Snapdragon"</string>
+    <string name="my_voice">"Mój głos to moje hasło"</string>
+    <string name="make_my_day">"Popraw mi humor"</string>
+    <string name="tomorrow_is_another">"Jutro też jest dzień"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"Witamy w San Diego"</string>
+    <string name="okay_google">"OK, Google"</string>
+    <string name="open_my_email">"Otwórz moją pocztę e-mail"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"Spektrogram"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"Ustawienia"</string>
+    <string name="action_add">"Dodaj"</string>
+    <string name="title_activity_main_with_fragment">"Główny z częściową aktywnością"</string>
+    <string name="tap_mic_start">"Dotknij opcji Mikrofon, aby rozpocząć"</string>
+    <string name="tap_mic_stop">"Dotknij opcji Mikrofon, aby zatrzymać"</string>
+    <string name="say_key_phrase">"Powiedz\"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"Wywiedz słowo \"&lt;b&gt;%1$s&lt;/b&gt;\" jeszcze raz."</string>
+    <string name="say_one_of_key_phrases">"Wypowiedz jedno ze słów kluczowych"</string>
+    <string name="phrase_recognized">"Słowo \"&lt;b&gt;%1$s&lt;/b&gt;\" zostało rozpoznane "</string>
+    <string name="recording_length_exceeded">"Przekroczono długość nagrywania"</string>
+    <string name="recording_length_exceeded_msg">"Długość nagrywania została przekroczona. Spróbuj ponownie."</string>
+    <string name="delete_all">"Usuń wszystko"</string>
+    <string name="delete_all_msg">"Czy na pewno chcesz usunąć wszystkie zarejestrowane szablony?"</string>
+    <string name="got_it">"Świetnie! Gotowe."</string>
+    <string name="set_key_phrase">"Ustaw słowo kluczowe"</string>
+    <string name="set_key_phrase_name">"Ustaw nazwę słowa kluczowego"</string>
+    <string name="set_key_phrase_action">"Ustaw czynność"</string>
+    <string name="change_key_phrase_action">"Zmień czynność"</string>
+    <string name="phrase_strength">"Siła słowa"</string>
+    <string name="phrase_strength_hint">"Spróbuj wyrażenia zawierającego przynajmniej trzy słowa."</string>
+    <string name="register_phrase">"Zarejestruj wyrażenie"</string>
+    <string name="register_phrase_hint">"Aby pomóc mi rozpoznać Twój głos, nagraj wyrażenie \"&lt;b&gt;%1$s&lt;/b&gt;\" trzy razy."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" Nagrywaj w cichym pomieszczeniu.\n\n"<b>"2."</b>" Trzymaj telefon z dala od ust.\n\n"<b>"3."</b>" Wypowiedz słowo kluczowe naturalnie."</string>
+    <string name="ready_to_record">"OK, MOGĘ ZACZĄĆ NAGRYWAĆ"</string>
+    <string name="oops">"Ups! Spróbuj ponownie."</string>
+    <string name="say_the_phrase">"Wypowiedz słowo\"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"Słowo \"&lt;b&gt;%1$s&lt;/b&gt;\" zostało zarejestrowane"</string>
+    <string name="say_the_phrase_few_more">"Powiedz \"&lt;b&gt;%1$s&lt;/b&gt;\" jeszcze kilka razy"</string>
+    <string name="voice_print">"Spektrogram"</string>
+    <string name="cancel">"Anuluj"</string>
+    <string name="voice_level">"Poziom głosu"</string>
+    <string name="background_noise">"Szumy w tle"</string>
+    <string name="cap_done">"GOTOWE"</string>
+    <string name="cap_record">"NAGRAJ"</string>
+    <string name="cap_next">"DALEJ"</string>
+    <string name="cap_ok">"OK"</string>
+    <string name="next">"Dalej"</string>
+    <string name="new_key_phrase">"Nowe słowo kluczowe"</string>
+    <string name="edit_keyphrases">"Edytuj słowa kluczowe"</string>
+    <string name="set_name">"Ustaw nazwę"</string>
+    <string name="select_key_phrase">"Wybierz słowo kluczowe"</string>
+    <string name="set_action">"Ustaw czynność"</string>
+    <string name="registration_complete">"Rejestracja zakończona"</string>
+    <string name="confirm_pin">"Potwierdź kod PIN"</string>
+    <string name="confirm_pin_msg">"Wpisz kod PIN urządzenia, aby edytować słowa kluczowe."</string>
+    <string name="your_key_phrase">"Twoje słowo kluczowe"</string>
+    <string name="cap_redo">"POWTÓRZ"</string>
+    <string name="cap_redo_previous">"POWTÓRZ POPRZEDNIE"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"Przeglądaj zalecane słowa"</string>
+    <string name="create_your_own">"Stwórz własne słowo"</string>
+    <string name="skip">"Pomiń"</string>
+    <string name="none">"Brak"</string>
+    <string name="enter_pin">"Wpisz kod PIN urządzenia, aby edytować słowa kluczowe."</string>
+    <string name="your_key_phrase_name">"Twoja nazwa słowa kluczowego"</string>
+    <string name="new_key_phrase_name">"Nowa nazwa słowa kluczowego"</string>
+    <string name="set_service_to_launch">"Skonfiguruj usługę, aby uruchomić"</string>
+    <string name="email">"E-mail"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"Wyślij wiadomość tekstową"</string>
+    <string name="use_selected_phrase">"Użyj wybranego słowa"</string>
+    <string name="about">"Informacje"</string>
+    <string name="edit_key_phrases">"Edytuj słowa kluczowe"</string>
+    <string name="invalid_phrasename_title">"Nieprawidłowa nazwa słowa"</string>
+    <string name="invalid_phrasename_msg">"Nazwa słowa nie może być pusta."</string>
+    <string name="duplicate_phrasename_msg">"Nazwa słowa już istnieje. Wpisz inną nazwę."</string>
+    <string name="invalid_phrase_title">"Nieprawidłowe słowo"</string>
+    <string name="invalid_phrase_msg">"Słowo nie może być puste."</string>
+    <string name="edit_action">"Edytuj czynność."</string>
+    <string name="threshold">"Próg"</string>
+    <string name="delete_phrase">"Usuń słowo"</string>
+    <string name="rename">"Zmień nazwę"</string>
+    <string name="rename_keyphrase">"Zmień nazwę słowa kluczowego"</string>
+    <string name="adjust_keyword_sensitivity">"Dostosuj wrażliwość słowa kluczowego"</string>
+    <string name="adjust_keyword_sensitivity_summary">"Wrażliwość może zostać ustawiona, aby umożliwić rozpoznawanie wariacji słowa kluczowego."</string>
+    <string name="sensitivity">"Wrażliwość"</string>
+    <string name="low_sensitivity">"Niska wrażliwość"</string>
+    <string name="med_sensitivity">"Średnia wrażliwość"</string>
+    <string name="high_sensitivity">"Wysoka wrażliwość"</string>
+    <string name="low">"NISKA"</string>
+    <string name="med">"ŚREDNIA"</string>
+    <string name="high">"WYSOKI"</string>
+    <string name="low_sensitivity_summary">"Akceptuje więcej wariacji w procesie rozpoznawania słowa kluczowego."</string>
+    <string name="med_sensitivity_summary">"Akceptuje pewne wariacje w procesie rozpoznawania słowa kluczowego, jednak może sprawić, że niektóre słowa kluczowe nie zostaną rozpoznane."</string>
+    <string name="high_sensitivity_summary">"Dodatkowe zabezpieczenie, które może jednak sprawić, że niektóre słowa kluczowe nie zostaną rozpoznane."</string>
+    <string name="keyword_sensitivity">"Wrażliwość słowa kluczowego"</string>
+    <string name="delete_phrase_msg">"Czy na pewno chcesz usunąć słowo \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"Spektrogram nie jest dostępny"</string>
+    <string name="voice_print_not_available_msg">"To urządzenie nie obsługuje funkcji spektrogramu."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"Usuwanie zakończono pomyślnie"</string>
+    <string name="delete_success_msg">"Model słowa kluczowego został usunięty."</string>
+    <string name="delete_fail_title">"Usuwanie nie powiodło się"</string>
+    <string name="delete_fail_msg">"Wystąpił błąd podczas usuwania modelu słowa kluczowego."</string>
+    <string name="rename_success_title">"Zmiana nazwy powiodła się"</string>
+    <string name="rename_success_msg">"Zmieniono nazwę modelu słowa kluczowego."</string>
+    <string name="rename_fail_title">"Zmiana nazwy nie powiodła się"</string>
+    <string name="rename_fail_msg">"Wystąpił błąd podczas miany nazwy modelu słowa kluczowego."</string>
+    <string name="pin_validation">"Weryfikacja PIN"</string>
+    <string name="pin_failed">"Wpisano nieprawidłowy PIN!"</string>
+    <string name="registration_failed">"Rejestracja nie powiodła się"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"Próg użytkownika"</string>
+    <string name="spoof_score">"Próg oszustwa"</string>
+    <string name="thresholds">"Progi"</string>
+    <string name="save">"Zapisz"</string>
+    <string name="sentence_score_msg">"Ustaw próg zdania"</string>
+    <string name="user_score_msg">"Ustaw próg użytkownika"</string>
+    <string name="spoof_score_msg">"Ustaw próg oszustwa"</string>
+    <string name="sentence_score">"Próg zdania"</string></resources>

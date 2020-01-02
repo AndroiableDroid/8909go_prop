@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"โปรแกรมติดตั้งแพ็กเกจ"</string>
+    <string name="next">"ถัดไป"</string>
+    <string name="install">"ติดตั้ง"</string>
+    <string name="done">"เสร็จสิ้น"</string>
+    <!-- TODO REMOVE LATER -->
+    <string name="security_settings_desc">"อนุญาตให้แอปพลิเคชันนี้:"</string>
+    <string name="cancel">"ยกเลิก"</string>
+    <string name="unknown">"ไม่ทราบ"</string>
+    <string name="installing">"กำลังติดตั้ง..."</string>
+    <string name="install_done">"ติดตั้งแอปพลิเคชันแล้ว"</string>
+    <!-- Message for installing a new app that requires some permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question">"คุณต้องการติดตั้งแอปพลิเคชันนี้หรือไม่ แอปพลิเคชันจะเข้าถึง:"</string>
+    <!-- Message for installing a new app that does not require permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_no_perms">"คุณต้องการจะติดตั้งแอปพลิเคชันนี้หรือไม่ แอปพลิเคชันไม่ต้องมีการเข้าถึงพิเศษใดๆ"</string>
+    <!-- Message for updating an existing app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update">"คุณต้องการติดตั้งการอัปเดตของแอปพลิเคชันที่มีอยู่นี้หรือไม่ ข้อมูลที่มีอยู่ของคุณจะไม่สูญหายไป แอปพลิเคชันที่อัปเดตแล้วจะเข้าถึง:"</string>
+    <!-- Message for updating an existing system app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_system">"คุณต้องการจะติดตั้งการอัปเดตของแอปพลิเคชันในระบบนี้หรือไม่ ข้อมูลที่มีอยู่ของคุณจะไม่สูญหาย แอปพลิเคชันที่อัปเดตแล้วจะเข้าถึง:"</string>
+    <!-- Message for updating an existing app, no permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_no_perms">"คุณต้องการติดตั้งการอัปเดตไปยังแอปพลิเคชันที่มีอยู่นี้หรือไม่ ข้อมูลที่มีอยู่ของคุณจะไม่สูญหาย การอัปเดตนี้ไม่จำเป็นต้องใช้การเข้าถึงใดๆ เป็นพิเศษ"</string>
+    <!-- Message for updating an existing system app, no permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_system_no_perms">"คุณต้องการติดตั้งการอัปเดตไปยังแอปพลิเคชันในตัวนี้หรือไม่ ข้อมูลที่มีอยู่ของคุณจะไม่สูญหาย การอัปเดตนี้ไม่จำเป็นต้องใช้การเข้าถึงใดๆ เป็นพิเศษ"</string>
+    <string name="install_failed">"ไม่ได้ติดตั้งแอปพลิเคชัน"</string>
+    <!-- Reason displayed when installation fails because the installation package itself is invalid
+        in some way (e.g., corrupt) [CHAR LIMIT=100] -->
+    <string name="install_failed_invalid_apk">"แพ็กเกจเกิดความเสียหาย"</string>
+    <!-- Reason displayed when installation fails because the package an existing package is
+        installed with a conflicting package author signature [CHAR LIMIT=100] -->
+    <string name="install_failed_inconsistent_certificates">"มีแพ็กเกจชื่อเดียวกันซึ่งมีลายเซ็นที่ขัดแย้งติดตั้งไว้อยู่แล้ว"</string>
+    <!-- Reason displayed when installation fails because the package specifies a minimum compatible
+        OS version that is newer than our current OS version. [CHAR LIMIT=100] -->
+    <string name="install_failed_older_sdk">"แพ็กเกจนี้จะทำงานบน Android รุ่นใหม่กว่านี้เท่านั้น"</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">"แอปพลิเคชันนี้ไม่สามารถทำงานร่วมกับแท็บเล็ตของคุณได้"</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current TV doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tv">"แอปพลิเคชันนี้  ใช้งานกับทีวีของคุณไม่ได้"</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current phone doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="default">"แอปพลิเคชันนี้ไม่สามารถทำงานร่วมกับโทรศัพท์ของคุณได้"</string>
+    <!-- Reason displayed when installation fails because the package was deleted during the
+        installation process. [CHAR LIMIT=100] -->
+    <string name="install_failed_file_not_found">"แพ็กเกจที่ระบุไว้ถูกลบออกก่อนที่การติดตั้งจะเสร็จสมบูรณ์"</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        because the package verifier rejected it. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_failed">"แพ็กเกจไม่ผ่านการยืนยันและไม่สามารถติดตั้ง"</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        before the internal system timer expired. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_timeout">"ถึงระยะหมดเวลาขณะที่พยายามยืนยันแพ็กเกจนี้ โปรดลองติดตั้งอีกครั้งในภายหลัง"</string>
+    <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tablet">"ไม่สามารถติดตั้ง <xliff:g id="APP_NAME">%1$s</xliff:g> บนแท็บเล็ตของคุณ"</string>
+    <!-- Message presented when an application could not be installed on the TV for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tv">"<xliff:g id="app_name">%1$s</xliff:g> ไม่สามารถติดตั้งบนทีวีของคุณได้"</string>
+    <!-- Message presented when an application could not be installed on the phone for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="default">"ไม่สามารถติดตั้ง <xliff:g id="APP_NAME">%1$s</xliff:g> บนโทรศัพท์ของคุณ"</string>
+    <string name="launch">"เปิด"</string>
+    <string name="unknown_apps_dlg_title">"ปิดกั้นการติดตั้งไว้"</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tablet">"เพื่อความปลอดภัย แท็บเล็ตของคุณถูกตั้งค่าให้บล็อกการติดตั้งแอปพลิเคชันที่ได้มาจากแหล่งที่ไม่รู้จัก"</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tv">"เพื่อความปลอดภัย ทีวีของคุณจะถูกตั้งค่าให้ห้ามการติดตั้งแอปพลิชันพลิเคชันที่ไม่ได้รับมาจาก Google Play"</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="default">"เพื่อความปลอดภัย โทรศัพท์ของคุณถูกตั้งค่าให้บล็อกการติดตั้งแอปพลิเคชันที่ได้มาจากแหล่งที่ไม่รู้จัก"</string>
+    <!-- Message presented in a dialog box when the device administrator restricts the installation of apps from unknown sources. [CHAR LIMIT=none] -->
+    <string name="unknown_apps_admin_dlg_text">"ผู้ดูแลระบบของคุณไม่อนุญาตการติดตั้งแอปพลิเคชันที่ได้รับจากแหล่งที่ไม่รู้จัก"</string>
+    <string name="ok">"ตกลง"</string>
+    <string name="settings">"การตั้งค่า"</string>
+    <!-- Title of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_title">"แหล่งใหม่สำหรับแอปพลิเคชัน"</string>
+    <!-- Message of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_text">"<xliff:g id="APP_NAME">%1$s</xliff:g> ต้องการติดตั้งแอปพลิเคชันอื่นๆ \n\nคุณต้องการอนุญาตในครั้งนี้และในอนาคตหรือไม่"</string>
+    <string name="manage_applications">"จัดการแอปพลิเคชัน"</string>
+    <string name="dlg_app_replacement_title">"แทนที่แอปพลิเคชันหรือไม่"</string>
+    <string name="dlg_app_replacement_statement">"แอปพลิเคชันที่คุณกำลังติดตั้งจะไปแทนที่แอปพลิเคชันอื่น\n\nข้อมูลผู้ใช้ทั้งหมดของคุณก่อนหน้านี้จะได้รับการบันทึกไว้"</string>
+    <!-- Dialog attributes when replacing system app -->
+    <string name="dlg_sys_app_replacement_statement">"นี่เป็นแอปพลิเคชันระบบ\n\nข้อมูลผู้ใช้ทั้งหมดของคุณก่อนหน้านี้จะได้รับการบันทึกไว้"</string>
+    <string name="out_of_space_dlg_title">"ไม่มีพื้นที่"</string>
+    <string name="out_of_space_dlg_text">"ติดตั้ง <xliff:g id="APP_NAME">%1$s</xliff:g> ไม่ได้ เพิ่มพื้นที่ว่างแล้วลองอีกครั้ง"</string>
+    <!-- strings related to uninstall activity -->
+    <string name="dlg_ok">"ตกลง"</string>
+    <string name="app_not_found_dlg_title">"ไม่พบแอปพลิเคชัน"</string>
+    <string name="app_not_found_dlg_text">"ไม่พบแอปพลิเคชันนี้ในรายการแอปพลิเคชันที่ติดตั้งไว้"</string>
+    <string name="uninstall_application_title">"ถอนการติดตั้งแอปพลิเคชัน"</string>
+    <string name="uninstall_update_title">"ถอนการติดตั้งการอัปเดต"</string>
+    <string name="uninstall_activity_text">"<xliff:g id="ACTIVITY_NAME">%1$s</xliff:g> เป็นส่วนหนึ่งของแอปพลิเคชันต่อไปนี้:"</string>
+    <string name="uninstall_application_text">"คุณต้องการถอนการติดตั้งแอปพลิเคชันนี้หรือไม่"</string>
+    <string name="uninstall_application_text_all_users">"คุณต้องการถอนการติดตั้งแอปพลิเคชันนี้สำหรับผู้ใช้"<b>"ทั้งหมด"</b>"หรือไม่ แอปพลิเคชันนี้และข้อมูลในแอปพลิเคชันจะถูกลบจากผู้ใช้"<b>"ทั้งหมด"</b>"ในอุปกรณ์"</string>
+    <string name="uninstall_application_text_user">"คุณต้องการถอนการติดตั้งแอปนี้สำหรับผู้ใช้ <xliff:g id="USERNAME">%1$s</xliff:g> ไหม"</string>
+    <string name="uninstall_update_text">"คุณต้องการแทนที่แอปพลิเคชันนี้ด้วยรุ่นจากโรงงานหรือไม่"</string>
+    <string name="uninstalling">"กำลังถอนการติดตั้ง..."</string>
+    <string name="uninstall_done">"ถอนการติดตั้งเสร็จแล้ว"</string>
+    <string name="uninstall_failed">"ถอนการติดตั้งไม่สำเร็จ"</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator [CHAR LIMIT=80] -->
+    <string name="uninstall_failed_device_policy_manager">"ไม่สามารถถอนการติดตั้งเนื่องจากแพ็กเกจนี้เป็นโปรแกรมควบคุมอุปกรณ์ที่ใช้งานอยู่"</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator for some user [CHAR LIMIT=100] -->
+    <string name="uninstall_failed_device_policy_manager_of_user">"ไม่สามารถถอนการติดตั้ง เนื่องจากปัจจุบันแพ็กเกจนี้ดูแลระบบอุปกรณ์สำหรับผู้ใช้ <xliff:g id="USERNAME">%1$s</xliff:g>"</string>
+    <!-- String presented to the user when uninstalling a package failed because a profile owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_profile_owner">"จำเป็นต้องใช้แอปนี้สำหรับโปรไฟล์งานและไม่สามารถถอนการติดตั้งได้"</string>
+    <!-- String presented to the user when uninstalling a package failed because a device owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_device_owner">"ผู้ดูแลระบบอุปกรณ์กำหนดให้ใช้แอปนี้ และไม่สามารถถอนการติดตั้งได้"</string>
+    <!-- String on a button that leads to the "device administrator" configuration setting where a
+        user will be able to disable the device administrator in order to uninstall
+        it. [CHAR LIMIT=50] -->
+    <string name="manage_device_administrators">"จัดการโปรแกรมควบคุมอุปกรณ์"</string>
+    <string name="uninstall_failed_msg">"ไม่สามารถถอดการติดตั้ง <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
+    <!-- Dialog attributes to indicate parse errors -->
+    <string name="Parse_error_dlg_title">"ข้อผิดพลาดในการแยกวิเคราะห์"</string>
+    <string name="Parse_error_dlg_text">"พบปัญหาในการแยกวิเคราะห์แพ็กเกจ"</string>
+    <!-- Tab label for new permissions being added to an existing app [CHAR LIMIT=20] -->
+    <string name="newPerms">"ใหม่"</string>
+    <!-- Tab label for all permissions of an app being installed [CHAR LIMIT=20] -->
+    <string name="allPerms">"ทั้งหมด"</string>
+    <!-- Tab label for permissions related to user privacy [CHAR LIMIT=20] -->
+    <string name="privacyPerms">"ข้อมูลส่วนบุคคล"</string>
+    <!-- Tab label for permissions related to device behavior [CHAR LIMIT=20] -->
+    <string name="devicePerms">"การเข้าถึงอุปกรณ์"</string>
+    <!-- Body text for new tab when there are no new permissions [CHAR LIMIT=NONE] -->
+    <string name="no_new_perms">"การอัปเดตนี้ไม่จำเป็นต้องมีการอนุญาตใหม่"</string>
+    <string name="grant_confirm_question">"คุณต้องการให้อนุญาตรายการต่อไปนี้หรือไม่ ระบบจะให้สิทธิ์การเข้าถึงแก่"</string>
+    <!-- Title for the dialog button to allow a permission grant. -->
+    <string name="grant_dialog_button_allow">"อนุญาต"</string>
+    <!-- Title for the dialog button to deny a permission grant. -->
+    <string name="grant_dialog_button_deny">"ปฏิเสธ"</string>
+    <!-- Template for the current permission from the total number of permissions. -->
+    <string name="current_permission_template">"<xliff:g id="CURRENT_PERMISSION_INDEX">%1$s</xliff:g> จาก <xliff:g id="PERMISSION_COUNT">%2$s</xliff:g> รายการ"</string>
+    <!-- Template for the warning message when an app requests a permission. -->
+    <string name="permission_warning_template">"อนุญาตให้ <xliff:g id="APP_NAME">%1$s</xliff:g> <xliff:g id="ACTION">%2$s</xliff:g> ไหม"</string>
+    <!-- Breadcrumb for page of managing application permissions [CHAR LIMIT=50] -->
+    <string name="app_permissions_breadcrumb">"แอป"</string>
+    <!-- Title for page of managing application permissions -->
+    <string name="app_permissions">"สิทธิ์ของแอป"</string>
+    <!-- Checkbox that allows user to not be questioned about this permission
+         request again -->
+    <string name="never_ask_again">"ไม่ต้องถามอีก"</string>
+    <!-- Label when app requests no permissions -->
+    <string name="no_permissions">"ไม่มีสิทธิ์"</string>
+    <!-- Label for button that leads to more permissions [CHAR LIMIT=40] -->
+    <string name="additional_permissions">"สิทธิ์เพิ่มเติม"</string>
+    <!-- Description of how many more permissions to view on next page [CHAR LIMIT=30] -->
+    <plurals name="additional_permissions_more">
+        <item quantity="one">"อีก <xliff:g id="COUNT">%1$d</xliff:g> รายการ"</item>
+        <item quantity="other">"อีก <xliff:g id="COUNT">%1$d</xliff:g> รายการ"</item>
+    </plurals>
+    <!-- Warning for turning off permissions on older apps -->
+    <string name="old_sdk_deny_warning">"แอปนี้ออกแบบมาเพื่อ Android เวอร์ชันเก่า การปฏิเสธสิทธิ์อาจทำให้แอปไม่ทำงานตามที่ต้องการอีกต่อไป"</string>
+    <!-- The default description of a permission, i.e. what it does.  [CHAR LIMIT=40] -->
+    <string name="default_permission_description">"ดำเนินการทำงานที่ไม่รู้จัก"</string>
+    <!-- Summary of number of apps currently granted a single permission [CHAR LIMIT=45] -->
+   <string name="app_permissions_group_summary">"อนุญาตแล้ว <xliff:g id="COUNT_0">%1$d</xliff:g> จาก <xliff:g id="COUNT_1">%2$d</xliff:g> แอป"</string>
+   <!-- [CHAR LIMIT=NONE] Menu for manage permissions to control whether system apps are shown -->
+   <string name="menu_show_system">"แสดงระบบ"</string>
+   <!-- [CHAR LIMIT=NONE] Menu for manage permissions to control whether system apps are hidden -->
+   <string name="menu_hide_system">"ซ่อนระบบ"</string>
+   <!-- [CHAR LIMIT=30] Title for page managing what apps have a permission granted -->
+   <string name="permission_title">"สิทธิ์ในการใช้<xliff:g id="PERMISSION">%1$s</xliff:g>"</string>
+   <!-- [CHAR LIMIT=NONE] Label when no apps requesting this permission -->
+   <string name="no_apps">"ไม่มีแอป"</string>
+   <!-- [CHAR LIMIT=30] Title of button that leads to location settings -->
+   <string name="location_settings">"การตั้งค่าตำแหน่ง"</string>
+   <!-- [CHAR LIMIT=NONE] Warning about how this app cannot have location permission disabled -->
+   <string name="location_warning">"<xliff:g id="APP_NAME">%1$s</xliff:g> เป็นผู้ให้บริการตำแหน่งสำหรับอุปกรณ์นี้ คุณสามารถแก้ไขสิทธิ์เข้าถึงตำแหน่งได้จากการตั้งค่าตำแหน่ง"</string>
+   <!-- [CHAR LIMIT=NONE] Warning message when turning off permission for system apps -->
+   <string name="system_warning">"หากคุณปฏิเสธสิทธิ์นี้ คุณลักษณะพื้นฐานของอุปกรณ์อาจไม่ทำงานตามที่ควรจะเป็นอีกต่อไป"</string>
+   <!-- [CHAR LIMIT=NONE] Summary of a permission switch when it's enforced by policy -->
+   <string name="permission_summary_enforced_by_policy">"บังคับใช้โดยนโยบาย"</string>
+   <!-- Text displayed until loading is done -->
+   <string name="loading">"กำลังโหลด\u2026"</string>
+   <!-- [CHAR LIMIT=45] Title of all permissions settings -->
+   <string name="all_permissions">"สิทธิ์ทั้งหมด"</string>
+   <!-- [CHAR LIMIT=45] Group of permissions granted to app automatically when installed. -->
+   <string name="other_permissions">"ความสามารถอื่นๆ ของแอป"</string>
+   <!-- Title of the permission dialog for accessibility purposes- spoken to the user. [CHAR LIMIT=none] -->
+   <string name="permission_request_title">"คำขอสิทธิ์"</string>
+    <!-- Title for the dialog that warns the user they need to turn off screen overlays
+         before permissions can be changed. [CHAR LIMIT=NONE] -->
+   <string name="screen_overlay_title">"ตรวจพบการวางซ้อนหน้าจอ"</string>
+   <!-- Message for the dialog that warns the user they need to turn off screen overlays
+        before permissions can be changed. The "Settings > Apps" conveys to the user to
+        go to Settings and click on apps, this may need updates in RTL languages. [CHAR LIMIT=NONE] -->
+   <string name="screen_overlay_message">"ในการเปลี่ยนแปลงการตั้งค่าสิทธิ์นี้ ก่อนอื่น คุณต้องปิดการวางซ้อนหน้าจอที่การตั้งค่า &gt; แอป"</string>
+    <!-- Button for the dialog that warns the user they need to turn off screen overlays
+         before permissions can be changed. [CHAR LIMIT=NONE] -->
+    <string name="screen_overlay_button">"เปิดการตั้งค่า"</string></resources>

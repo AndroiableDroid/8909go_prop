@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SVI সেটিংস"</string>
+        <add-resource type="string" name="svi_settings_title"/>
+    <string name="svi_settings_title">"SVI প্রদর্শন সেটিংস"</string>
+        <add-resource type="string" name="svi_enable_title"/>
+    <string name="svi_enable_title">"SVI প্রদর্শন সক্ষম করুন"</string>
+        <add-resource type="string" name="svi_enable_summary_on"/>
+    <string name="svi_enable_summary_on">"পরিবেশ অবস্থার উপর ভিত্তি করে দৃশ্য উন্নত করুন"</string>
+        <add-resource type="string" name="svi_enable_summary_off"/>
+    <string name="svi_enable_summary_off">"পরিবেশ অবস্থার জন্য দেখার অভিজ্ঞতা উন্নত হবে না"</string>
+        <add-resource type="string" name="svi_info_default"/>
+    <string name="svi_info_default">"অজানা"</string>
+        <add-resource type="string" name="svi_version_title"/>
+    <string name="svi_version_title">"SVI সংস্করণ"</string></resources>

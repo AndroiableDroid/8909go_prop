@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"ກິດຈະ​ກໍາ​ແກ້​ໄຂ​ບັນຫາ GPS"</string>
+     <string name="cameraActivity">"ກ້ອງຖ່າຍຮູບ"</string>
+     <string name="newTrackingSession">"ຊ່ວງ​ຕິດຕາມ​ໃໝ່"</string>
+     <string name="newTrackingSession_nameLabel">"ຊື່"</string>
+     <string name="newTrackingSession_numFixesLabel">"​ການ​ແກ້​ໄຂ​ໝາຍ​ເລກ"</string>
+     <string name="newTrackingSession_descriptionLabel">"ຄຳອະທິບາຍ"</string>
+     <string name="newTrackingSession_startButtonLabel">"​ເລີ່​ມຕົ້ນ"</string>
+     <string name="testConfig">"ທົດ​ສອບ​ການ​ກຳນົດ​ຄ່າ"</string>
+     <string name="testConfig_configNameLabel">"ຊື່​ການ​ກຳນົດ​ຄ່າ"</string>
+     <string name="testConfig_numFixesLabel">"ການ​ແກ້​ໄຂ​ຕົວ​ເລກ (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"ທົດ​ສອບ​ລາຍ​ລະອຽດ​ການ​ກຳນົດ​ຄ່າ"</string>
+     <string name="testConfig_startButtonLabel">"​ເລີ່​ມຕົ້ນ​ການ​ທົດ​ສອບ"</string>
+     <string name="testConfig_RadioLabel">"​ແທຣັກ​ແອັບ ຫຼື  ການ​ຖ່າຍຮູບ​ດຽວ"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"ການ​ຖ່າຍຮູບ​ດຽວ"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"​ແທຣັກ​ແອັບ"</string>
+     <string name="testConfig_qosTimeoutLabel">"​ເວລາ​ຕອບ​ສະໜອງ​ທີ່​ມັກ (ວິ)"</string>
+     <string name="testConfig_qosAccuracyLabel">"ຄວາມ​ຖືກຕ້ອງ​ທີ່​ມັກ (​m)"</string>
+     <string name="testConfig_tbfLabel">"​ໄລຍະ​ຫ່າງ​ຕໍ່າ​ສຸດ (ວິ)"</string>
+     <string name="testConfig_staticTruthLabel">"ຕຳ​ແໜ່​ງທີ່​ຕັ້ງ​ຈິງ​ຄົງ​ທີ່ (ໝາຍ​ເອົາ​ເພື່ອ​ໃຊ້)"</string>
+     <string name="testConfig_latLabel">"​ເສັ້ນ​ຂະໜານ"</string>
+     <string name="testConfig_lonLabel">"​ເສັ້ນ​ແວງ"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"API ທີ່​ຕັ້ງ"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"ການ​ບໍລິການ GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"ປະ​ເພດ​ການ​ເກີດ​ຂຶ້ນ​ປະຈຳ"</string>
+     <string name="testConfig_apiTypeLabel">"ປະ​ເພດ API"</string>
+    <string name="labelUnknownPrivacy">"ບໍ່ຮູ້ຈັກ"</string>
+    <string name="labelGetPrivacy">"​ເອົາ​ຄວາມ​ເປັນ​ສ່ວນ​ຕົວ"</string>
+    <string name="labelSetPrivacySetting">"ຕັ້ງ​ຄວາມ​ເປັນ​ສ່ວນ​ຕົວ"</string>
+    <string name="name_vzw_client">"ລູກ​ຂ່າຍ Vzw"</string>
+    <string name="name_normal_client">"Android ປົກກະຕິ"</string>
+    <string name="LabelModeSel">"ໂຫມດ"</string>
+    <string name="LabelNumFixSel">"# ຈາກ Fix"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"ລະບຸ..."</string>
+    <string name="str_nodata">"ບໍ່​ມີ​ຂໍ້​ມູນ"</string>
+    <string name="str_waitingforposinfo">"\nລໍຖ້າ​ຂໍ້​ມູນ​ຕຳ​ແໜ່​ງທີ່​ຕັ້ງ...\n"</string>
+    <string name="str_searchingforsvs">"\nກຳລັງ​ຄົ້ນ​ຫາ SVs...\n"</string>
+    <string name="str_configsummary">"\nສັງ​ລວມການ​ກຳນົດ​ຄ່າ\n"</string>
+    <string name="str_alarms">"\n​ໂມງ​ປຸກ:\n\n"</string>
+    <string name="str_starttest">"​ເລີ່​ມຕົ້ນ​ການ​ທົດ​ສອບ"</string>
+    <string name="str_sessionplayback">"ການຫຼິ້ນຄືນ​ເຊ​ສຊັນ"</string>
+    <string name="str_proximityalerts">"ການ​ເຕືອນ​ຄວາມ​ໃກ້​ຄຽງ"</string>
+    <string name="str_proximity_info">"ຂໍ້​ມູນ​ຄວາມ​ໃກ້​ຄຽງ"</string>
+    <string name="str_options">"ໂຕເລືອກ"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"ຢູ່ດ່ຽວ"</item>
+<item>"AFLT"</item>
+<item>"ຄວາມ​ໄວ​ທີ່​ປັບ​ໃຫ້​ເໝາະ​ສົມ​ແລ້ວ"</item>
+<item>"ຄວາມ​ຖືກຕ້ອງ​ທີ່​ປັບ​ໃຫ້​ເໝາະ​ສົມ​ແລ້ວ"</item>
+<item>"ຂໍ້​ມູນ​ທີ່​ປັບ​ໃຫ້​ເໝາະ​ສົມ​ແລ້ວ"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"​ເວລາ (ວິ) ລະຫວ່າງ​ການ​ແກ້​ໄຂ"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"ທີ່ຢູ່ PDE"</string>
+<string name="LabelAccuracyH">"ຄວາມ​ຖືກຕ້ອງ​ທີ່​ມັກ (H, m)"</string>
+<string name="LabelAccuracyV">"ຄວາມ​ຖືກຕ້ອງ​ທີ່​ມັກ (V, m)"</string>
+<string name="LabelMaxResponseTime">"ການ​ໝົດ​ເວລາ (ວິ)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"​ໃຊ້ງານ​ດ້ວຍກອງ​ປົກກະຕິ"</string>
+<string name="LabelRunOne">"​ໃຊ້​ງານ VzW"</string>
+<string name="LabelRunState1">"ການ​ທົດ​ສອບ FSM 1"</string>
+<string name="LabelRunState2">"ການ​ທົດ​ສອບ FSM 2"</string>
+<string name="EnigneStatus">"ສະຖານະ​ເຄື່ອງ​ຈັກ"</string>
+<string name="NA">"ບໍ່ມີຂໍ້ມູນ"</string>
+<string name="GpsStatus">"ສະຖານະ Gps"</string>
+<string name="Session">"​ເຊ​ສຊັນ"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"ປະເພດ"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"ໂຫມດ"</string>
+<string name="stop">"ຢຸດ"</string>
+<string name="labelPdePort">"ຮູ​ສຽບ PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"911 ​ເທົ່າ​ນັ້ນ"</item>
+<item>"ເປີດ"</item>
+</string-array>
+<string name="non_aiding">"ຖອນ​ການ​ເລີກ​ທຸກ Aiding"</string>
+<string name="all_aiding">"​ເລືອກ​ທຸກ Aiding"</string>
+<string name="done">"ລຶບ​ອັນ​ທີ່​ເລືອກ​ໄວ້"</string>
+<string name="Ephemeris">"ຕາຕະລາງ​ສະ​ແດງ​ຕຳ​ແໜ່ງ"</string>
+<string name="GLO_Ephemeris">"ຕາຕະລາງ​ສະ​ແດງ​ຕຳ​ແໜ່​ງ GLO"</string>
+<string name="Alamanac">"ປະຕິ​ທິນ​ໂຫລາ​ສາດ"</string>
+<string name="GLO_Alamanac">"ປະຕິທິນ​ໂຫລາ​ສາດ GLO"</string>
+<string name="Alamanac_Corr">"Corr ປະຕິທິນ​ໂຫລາ​ສາດ"</string>
+<string name="GLO_Alamanac_Corr">"Corr ປະຕິທິນ​ໂຫລາ​ສາດ GLO"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"SV Steer"</string>
+<string name="GLO_SV_Steer">"GLO SV Steer"</string>
+<string name="Cell_DB_Info">"ຂໍ້​ມູນ Cell DB"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"​ເວລາ GPS"</string>
+<string name="GLO_Time">"​ເວລາ GLO"</string>
+<string name="Freq_Bias_Est">"ຄາດ​ຄະ​ເນ​ຜິດ​ບ່ຽງ​ຄວາມ​ຖີ່"</string>
+<string name="Time">"ເວລາ"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"ສຸ​ຂະ​ພາບ"</string>
+<string name="SA_Data">"ຂໍ້​ມູນ SA"</string>
+<string name="position">"ຕຳແໜ່ງ"</string>
+<string name="str_wbiq_runscript">"​ແລ່ນ​ສະຄຣິບ"</string>
+<string name="str_wbiq_stopgps">"ອອກ​ຈາກ​ໂໝດ RF"</string>
+<string name="str_wbiq_startgps">"ປ້ອນ​ໂໝດ RF"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"ການ​ບັນທຶກ​ໃນ​ອຸປະກອນ​ອັດຕະ​ໂນ​ມັດ"</string>
+<string name="str_wbiq_chk_delaystart">"ການ​ຊັກ​ຊ້າ​ເລີ່​ມຕົ້ນ"</string>
+<string name="str_wbiq_chk_autostop">"ຢຸດ​ອັດຕະ​ໂນ​ມັດ"</string>
+<string name="str_wbiq_chk_otfsa">"​ເປີດ​ໃຊ້ OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"S"</string>
+<string name="str_proximity_clearalerts">"ລ້າງ​ການ​ເຕືອນ"</string>
+<string name="str_proximity_savealertsfile">"ບັນທຶກ​ໄຟ​ລ໌​ການ​​ເຕືອນ"</string>
+<string name="str_proximity_loadalertsfile">"​ໂຫຼດ​ໄຟ​ລ໌ການ​ເຕືອນ"</string>
+<string name="str_proximity_deletealertsfile">"ລຶບ​ໄຟ​ລ໌ການ​ເຕືອນ"</string>
+<string name="str_proximity_logging">"ການ​ບັນທຶກ"</string>
+<string name="str_proximity_autostartenabled">"ການ​ເລີ່​ມຕົ້ນ​ອັດຕະ​ໂນ​ມັດ"</string>
+<string name="str_proximity_autostartfile">"​ເລືອກ​ໄຟ​ລ໌ການ​ເລີ່​ມຕົ້ນ​ອັດຕະ​ໂນ​ມັດ"</string>
+<string name="str_proximity_smsnumber">"ໝາຍ​ເລກ​ການ​ແຈ້​​ງ​ເຕືອນ SMS"</string>
+<string name="str_proximity_geofencelisttab_add">"​ເພີ່​ມ"</string>
+<string name="str_proximity_geofencelisttab_delet">"ລຶບ"</string>
+<string name="str_proximity_geofencelisttab_edit">"ແກ້ໄຂ"</string>
+<string name="str_locbatchingtab_btn_s">"S"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[ສະ​ເລ່ຍ, ຕໍ່າ​ສຸດ, ສູງ​ສຸດ] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"​ເອົາ​ຊຸດ"</string>
+<string name="str_powerest_summary">"ສັງ​ລວມ:"</string>
+<string name="str_powerest_plot_label"/></resources>

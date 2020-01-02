@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"Detallado"</item>
+        <item>"Depuración"</item>
+        <item>"Información"</item>
+        <item>"Advertencia"</item>
+        <item>"Error"</item>
+        <item>"Grave"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"Tarjeta SD"</item>
+        <item>"Memoria interna"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"No es posible escribir en el archivo de registro. No se guardan los mensajes de registro. El proceso de registro se reanudará automáticamente cuando el archivo de registro vuelva a estar disponible"</string>
+    <string name="err_lowspace">"Se detectó poco espacio. No se guardan los mensajes de registro. El proceso de registro se reanudará automáticamente cuando haya suficiente espacio"</string>
+  <string name="txtTag_text">"nombre de etiqueta"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"Descripción de Logcat"</string></resources>

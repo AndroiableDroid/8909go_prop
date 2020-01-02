@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"개체 트래커 데모"</string>
+    <string name="open_camera_failed">"기기에서 카메라를 여는 동안 오류가 발생했습니다.  카메라를 사용하고 있는 다른 앱을 닫고 이 앱을 다시 시작하세요."</string>
+    <string name="snapshot_failed">"스냅샷을 찍을 때 오류가 발생했습니다. 오류의 세부정보를 알아보려면 logcat을 검사하세요."</string>
+    <string name="video_recording_failed">"동영상을 녹화할 때 오류가 발생했습니다. 오류의 세부정보를 알아보려면 logcat을 검사하세요."</string>
+    <string name="settings">"설정"</string>
+    <string name="switch_camera">"카메라 전환"</string>
+    <string name="switch_camera_mode">"사진/동영상 모드 전환"</string></resources>

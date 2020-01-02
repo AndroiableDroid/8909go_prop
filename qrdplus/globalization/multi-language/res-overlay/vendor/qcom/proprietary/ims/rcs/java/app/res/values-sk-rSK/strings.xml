@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Rcs App!</string>
+    <string name="app_name">"RCS"</string>
+    <string name="phoneAppLabel">"Telefón"</string>
+    <string name="share_file">"FS"</string>
+    <string name="share_image">"IS"</string>
+    <string name="im">"IM"</string>
+    <string name="share_video">"VS"</string>
+    <string name="share_image1">"Zdieľať"</string>
+    <string name="cancel">"Zrušiť"</string>
+    <string name="StartRCS">StartRCS</string>
+    <string name="StopRCS">"Zastaviť RCS"</string>
+    <string name="UnknownUser">"Neznáme"</string>
+    <string name="UnknownNumber">"Žiadne číslo"</string>
+    <string name="Uri">sip:8888888888@verizon.com </string>
+    <string name="CapabilityUpdatedTime">"Funkcia bola naposledy aktualizovaná dňa 25. septembra 2012 o 22:35"</string>
+    <string name="ShareFile">"FT"</string>
+    <string name="ShareImage">"Zdieľať obrázok"</string>
+    <string name="ShareVideo">"Zdieľať video"</string>
+    <string name="Prefix">"Predpona"</string>
+    <string name="Suffix">"Prípona"</string>
+    <string name="ApplyPrefix">"Použiť predponu na všetko"</string>
+    <string name="ApplySuffix">"Použiť príponu na všetko"</string>
+    <string name="ImChatTitle"></string>
+    <string name="ImStatusTitle">"Stav: "</string>
+    <string name="SendImText">"Odoslať"</string>
+    <string name="FileName">"Názov súboru"</string>
+    <string name="TransferStatus">"Prebieha prenos"</string>
+    <string name="SettingsTitle">"Nastavenia funkcie"</string>
+    <string name="FileShare">"Zdieľanie súboru"</string>
+    <string name="InstantMessage">"Okamžitá správa"</string>
+    <string name="ImageShare">"Zdieľanie obrázka"</string>
+    <string name="VideoShare">"Zdieľanie videa"</string>
+    <string name="Save">"Uložiť"</string>
+    <string name="StopSharing">"Zastaviť zdieľanie"</string>
+    <string name="StopReceiving">"Zastaviť prijímanie"</string>
+    <string name="EndCall">"Ukončiť hovor"</string>
+    <string name="TransferFile">"Preniesť súbor"</string>
+    <string name="Config_test">"Testovať konfiguráciu"</string>
+    <string name="IS_Transfer">"Prenos obrázka"</string>
+    <string name="Ft_Receive">Ft_Receive</string>
+    <string name="UserName">"Meno používateľa"</string>
+    <string name="vt">"VT "</string>
+    <string name="volte">"VOLTY"</string>
+    <string name="TransferDone">"Hotovo"</string>
+    <string name="TransferAborted">"Prerušené"</string>
+    <string name="TransferCancelled">"Zrušené"</string>
+    <string name="FileTransfer">"Prenos súborov"</string>
+    <string name="AddressBook">"Adresár"</string>
+    <string name="ContactCapability">"Funkcia kontaktu"</string>
+    <string name="AddUsers">"Pridať používateľov"</string>
+    <string name="imsenablertext">"Zapínač IMS"</string>
+    <string name="publishtext">"Zverejniť"</string>
+    <string name="subscribepollingtext">"Načítanie dostupnosti"</string>
+    <string name="subscribesimpletext">"Vyvolanie funkcie "</string>
+    <string name="unsubscribetext">"Zrušiť odber"</string>
+    <string name="listsubscribesimpletext">"Zoznam vyvolaní funkcie "</string>
+    <string name="listsubscribepollingtext">"Zoznam načítania dostupnosti"</string>
+    <string name="listunsubscribetext">"Zoznam zrušení odberu"</string>
+    <string name="settingstext">"Nastavenia"</string>
+    <string name="myinfotext">"Moje informácie"</string>
+    <string name="myNumtext">"Moje číslo"</string>
+    <string name="uri1text">"Predpona"</string>
+    <string name="uri2text">"Prípona"</string>
+    <string name="oktext">"OK"</string>
+    <string name="canceltext">"Zrušiť"</string>
+    <string name="publishbuttontext">"Zverejniť"</string>
+    <string name="publishstatustext">"Zverejniť nový stav"</string>
+    <string name="contactinfotext">"Kontaktné informácie"</string>
+    <string name="personalinfotext">"Osobné informácie"</string>
+    <string name="serviceDescriptiontext">"Popis služby"</string>
+    <string name="servicecaptext">"Funkcie služby"</string>
+    <string name="statusicontext">"Ikona stavu"</string>
+    <string name="descriptiontext">"Popis"</string>
+    <string name="vertext">"Verzia"</string>
+    <string name="serviceIdtext">"ID služby"</string>
+    <string name="basicstatustext">"Základný stav"</string>
+    <string name="timestamptext">"Časová známka"</string>
+    <string name="isAudioSupportedtext">"Zvuk"</string>
+    <string name="isVideoSupportedtext">"Video"</string>
+    <string name="startvideocalltext">"Začať hovor VT"</string>
+    <string name="startaudiocalltext">"Začať hovor HD"</string>
+    <string name="donetext">"Hotovo"</string>
+    <string name="bs_open_text">"Otvoriť"</string>
+    <string name="bs_closed_text">"Zatvorené"</string>
+    <string name="sc_supported_text">"Pravda"</string>
+    <string name="sc_notsupported_text">"Nepravda"</string>
+    <string name="True">"Pravda"</string>
+    <string name="False">"Nepravda"</string>
+    <string name="notify_settings_text">"Nastavenia formátu upozornenia"</string>
+    <string name="set_notify_fmt_text">"Nastaviť formát upozornenia"</string>
+    <string name="set_text">"Nastaviť"</string>
+    <string name="get_text">"Získať"</string>
+    <string name="timer_settings_text">"Nastavenia časovača"</string>
+    <string name="availability_cache_exp_text">"Expirácia vyrovnávacej pamäte dostupnosti"</string>
+    <string name="capability_cache_exp_text">"Expirácia vyrovnávacej pamäte funkcie"</string>
+    <string name="capability_poll_interval_text">"Interval vyvolania funkcie"</string>
+    <string name="capability_poll_list_exp_text">"Expirácia odberu zoznamu vyvolania funkcie"</string>
+    <string name="source_throttle_publish_text">"Zdroj potlačenia publikovania"</string>
+    <string name="retry_info_text">"Nastavenia opakovania"</string>
+    <string name="subscribe_retry_text">"Interval opakovania odberu"</string>
+    <string name="publish_retry_text">"Interval opakovania zverejnenia"</string>
+    <string name="list_subscription_settings_text">"Nastavenia zoznamu odberu"</string>
+    <string name="max_list_entries_text">"Maximálny počet položiek v zozname odberov"</string>
+    <string name="multi_select_text">"Zahrnúť v zozname odberov"</string>
+    <string name="select_all_text">"Vybrať všetko"</string>
+    <string name="select_none_text">"Neoznačiť žiadne"</string>
+    <string name="fmt_struct_text">"Štrukturovať formát"</string>
+    <string name="fmt_xml_text">"Formát XML"</string>
+    <string name="event_report_settings_text">"Nastavenia hlásenia udalostí"</string>
+    <string name="enable_publish_trigger_ind_text">"Zapnúť ukazovateľ spúšťača zverejnenia"</string>
+    <string name="enable_enabler_state_ind_text">"Zapnúť ukazovateľ zapínača stavu"</string>
+    <string name="enable_notify_ind_text">"Zapnúť ukazovateľ upozornenia"</string>
+    <string name="live_logging_text">"Zapisovanie naživo"</string>
+    <string name="vt_settings_text">"Video "</string>
+    <string name="ft_settings_text">"Prenos súborov"</string>
+    <string name="chat_settings_text">"Rozhovor "</string>
+    <string name="vt_setting">"Nastavenia videa"</string>
+    <string name="data_status">"Stav mobilných dát"</string>
+    <string name="data_on_off_status">"Mobilné údaje:"</string>
+    <string name="refresh_contacts_text">"Obnoviť"</string>
+    <!-- STRING FOR RELIANCE MODE -->
+    <string name="RelianceMode">"Režim závislosti"</string>
+    <string name="SipOption">"Možnosť SIP"</string>
+    <string name="OneShotMessage">"Rýchla správa"</string>
+    <string name="ShortCode">"Krátky kód"</string>
+    <string name="RelSetting">"Nastavenia"</string>
+    <string name="Auto">"Automat"</string>
+    <string name="Manual">"Ručne"</string>
+    <string name="StatusText">"Text stavu"</string>
+    <string name="StatusMsg">"Správa stavu"</string>
+    <string name="Disposition">"Dispozícia"</string>
+    <string name="ExpiryTime">"Čas vypršania platnosti"</string>
+    <string name="DisplayNoti">"Zobrazenie/upozornenie o doručení"</string>
+    <string name="DeliveryNoti">"Upozornenie o doručení"</string>
+    <string name="StatusOffline">"Odpojené"</string>
+    <string name="StautsOnline">"Pripojené"</string>
+    <string name="StatusAway">"Som preč"</string>
+    <string name="StatusBusy">"Nemám čas"</string>
+    <string name="StatusMsg_prompt">"Zvoľte si svoj stav"</string>
+    <string name="smAction_prompt">"Vyberte akciu"</string>
+    <string name="SCAction">"Akcia"</string>
+    <string name="MessageBody">"Text správy"</string>
+    <string name="browse">"Prehliadať súbor"</string>
+    <string name="activeOneShotText">"Aktivovať rýchlu správu"</string>
+    <string name="groupCreateText">"Vytvoriť skupinu"</string>
+    <string-array name="smAction_arrays">
+        <item>"Vyrovnať dopyt"</item>
+        <item>"Vyrovnať dobíjanie"</item>
+        <item>"Suma pohľadávky dopytu"</item>
+        <item>"Presos zostatku/kreditu"</item>
+        <item>"Vytvorenie skupiny"</item>
+        <item>"Aktualizácia skupiny"</item>
+        <item>"Vymazanie skupiny"</item>
+        <item>"Iné akcie"</item>
+    </string-array>
+    <!-- STRINGS for ATT -->
+    <string name="group_sessions_text">"Relácie skupiny"</string>
+    <string name="active_sessions_text">"Aktívne relácie"</string>
+    <string name="list_query_text">"Vypísať žiadosti"</string>
+    <string name="individual_query_text">"Samostatná žiadosť"</string>
+    <string name="config_text">"Konfigurácia"</string>
+    <string name="sm_text">"SM"</string>
+    <string name="service_text">"Služba ZAP./VYP."</string>
+    <string name="presence_text">"Prítomnosť"</string>
+    <string name="standalone_text">"Samostatne"</string>
+    <string name="browse_text">"Prehliadať súbor XML"</string>
+    <string name="xml_text">"Obsah XML:"</string>
+    <string name="name_text">"Meno"</string>
+    <string name="to_text">"Komu"</string>
+    <string name="cc_text">"Kópia"</string>
+    <string name="bcc_text">"Skrytá kópia"</string>
+    <string name="start_group_sm_text">"Spustiť skup. SM"</string>
+    <string name="start_group_chat_text">"Spustiť skupinový rozhovor"</string>
+    <string name="group_query_text">"Žiadosť skupiny"</string>
+    <string name="send_delivery_text">"Odoslať doručenie"</string>
+    <string name="send_display_text">"Odoslať zobrazenie"</string>
+    <string name="request_delivery_text">"Vyžiadať doručenie"</string>
+    <string name="request_display_text">"Vyžiadať zobrazenie"</string>
+    <string name="display_display_title_text">" Nastavenia upozornení"</string></resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Klient Wfd"</string>
+    <string name="preferences_name">"Predvoľby"</string>
+    <string name="advanced_preferences_name">"Rozšírené predvoľby"</string>
+    <string name="surface_activity_name">"Aktivita Surface"</string>
+    <string name="wfd_resolution_settings">wfd_resolution_settings</string>
+	<string name="resolution_list_title">"Požadované rozlíšenie"</string>
+	<string name="resolution_list_summary">"Vybrať rozlíšenie"</string>
+	<string name="resolution_dialog_title">"Zvoliť rozlíšenie"</string>
+	<string name="resolution_list_options_default_values">0</string>
+	<string name="wfd_bitrate_settings">wfd_bitrate_settings</string>
+	<string name="bitrate_list_title">"Požadovaná bitová rýchlosť"</string>
+	<string name="bitrate_list_summary">"Zvoliť bitovú rýchlosť"</string>
+	<string name="bitrate_dialog_title">"Zvoliť bitovú rýchlosť"</string>
+	<string name="bitrate_list_options_default_values">12</string>
+	<string name="btn_source">"Zdroj"</string>
+	<string name="btn_sink">"Prijímač"</string>
+	<string name="btn_find">"Nájsť"</string>
+    <string name="btn_create_group">"Vytvoriť skupinu"</string>
+    <string name="btn_remove_group">"Odstrániť skupinu"</string>
+	<string name="btn_blank">"Prázdne"</string>
+	<string name="tv_peers">"Sledovatelia"</string>
+	<string name="btn_play_pause">"Prehrať"</string>
+	<string name="btn_standby_resume">"Pohotovostný režim"</string>
+	<string name="btn_teardown">"Strhnúť"</string>
+	<string name="btn_start_stop_uibc">"Spustiť UIBC"</string>
+	<string name="btn_transport_udp_tcp">"TCP"</string>
+	<string name="btn_flush">"PREČISTIŤ"</string>
+    <string name="btn_enable_disable_ds">"Povoliť DS"</string>
+    <string name="enable_p2p_button">"P2P Zap./Vyp."</string>
+    <string name="discover_peers_button">"Odkryť"</string>
+    <string name="connect_peer_button">"Pripojiť"</string>
+    <string name="connect_options_peer_button">"Možnosti pripojenia"</string>
+    <string name="disconnect_peer_button">"Odpojiť"</string>
+    <string name="start_client_button">"Začať reláciu"</string>
+    <string name="start_uibc_button">"Spustiť UIBC"</string>
+    <string name="empty"></string>
+    <string name="yes">"áno"</string>
+    <string name="no">"nie"</string>
+    <string name="client_text">"Toto zariadenie bude v úlohe klienta. Kliknite na tlačidlo Galéria a vyberte lokálny (uložený) súbor"</string>
+    <string name="empty_message">"Nenašli sa žiadne zariadenia. V riadku úkonov zvoľte tlačidlo vyhľadávania."</string>
+    <string name="p2p_off_warning">"P2P zapnite v nastaveniach systému"</string>
+    <string name="group_owner_text">"Som vlastníkom skupiny? "</string>
+    <string name="toggle">"Prepnúť"</string>
+    <string name="filter">"Filtrovať"</string>
+    <string name="position">"poloha"</string>
+    <string name="expanded">"rozšírené"</string></resources>

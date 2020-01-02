@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"GPS ڈی بگنگ سرگرمی"</string>
+     <string name="cameraActivity">"کیمرا"</string>
+     <string name="newTrackingSession">"نیا ٹریکنگ سیشن"</string>
+     <string name="newTrackingSession_nameLabel">"نام"</string>
+     <string name="newTrackingSession_numFixesLabel">"نم درستگیاں"</string>
+     <string name="newTrackingSession_descriptionLabel">"تصریح"</string>
+     <string name="newTrackingSession_startButtonLabel">"شروع کریں"</string>
+     <string name="testConfig">"کنفیگریشن کو ٹیسٹ کریں"</string>
+     <string name="testConfig_configNameLabel">"نام تشکیل دیں"</string>
+     <string name="testConfig_numFixesLabel">"نم درستگیاں (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"ٹیسٹ کنفیگریشن تفصیل"</string>
+     <string name="testConfig_startButtonLabel">"ٹیسٹ شروع کریں"</string>
+     <string name="testConfig_RadioLabel">"ایپ ٹریک یا واحد شاٹ"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"واحد شاٹ"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"ایپ ٹریک"</string>
+     <string name="testConfig_qosTimeoutLabel">"ترجیحی ردعمل وقت (سیکنڈ)"</string>
+     <string name="testConfig_qosAccuracyLabel">"ترجیحی درستگی (منٹ)"</string>
+     <string name="testConfig_tbfLabel">"کم از کم وقفہ (سیکنڈ)"</string>
+     <string name="testConfig_staticTruthLabel">"جامد سچ پوزیشن (استعمال کرنے کے لئے جانچ کریں)"</string>
+     <string name="testConfig_latLabel">"عرض بلد"</string>
+     <string name="testConfig_lonLabel">"طول بلد"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"لوک API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"GPL سروس"</string>
+     <string name="testConfig_sessionTypeLabel">"دوبارہ واقع ہونے کی قسم"</string>
+     <string name="testConfig_apiTypeLabel">"API قسم"</string>
+    <string name="labelUnknownPrivacy">"نامعلوم"</string>
+    <string name="labelGetPrivacy">"پرائیویسی حاصل کریں"</string>
+    <string name="labelSetPrivacySetting">"پرائیویسی سیٹ کریں"</string>
+    <string name="name_vzw_client">"Vzw کلائنٹ"</string>
+    <string name="name_normal_client">"عمومی اینڈرائیڈ"</string>
+    <string name="LabelModeSel">"وضع"</string>
+    <string name="LabelNumFixSel">"درستگی کی #"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"حالت..."</string>
+    <string name="str_nodata">"کوئی ڈیٹا نہیں"</string>
+    <string name="str_waitingforposinfo">"\nپوزیشن معلومات کا انتظار کر رہا ہے...\n"</string>
+    <string name="str_searchingforsvs">"\nSVS کی تلاش کر رہا ہے...\n"</string>
+    <string name="str_configsummary">"\nتشکیل خلاصہ\n"</string>
+    <string name="str_alarms">"\nالارمز:\n\n"</string>
+    <string name="str_starttest">"ٹیسٹ شروع کریں"</string>
+    <string name="str_sessionplayback">"سیشن پلے بیک"</string>
+    <string name="str_proximityalerts">"قربت انتباہات"</string>
+    <string name="str_proximity_info">"قربت معلومات"</string>
+    <string name="str_options">"اختیارات"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"یکتا"</item>
+<item>"AFLT"</item>
+<item>"رفتار احسن کردہ"</item>
+<item>"درستگی احسن کردہ"</item>
+<item>"ڈیٹا احسن کردہ"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"درستگی کے درمیان وقت (سیکنڈ)"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"PDE درستگی"</string>
+<string name="LabelAccuracyH">"پسندیدہ درستگی (گھنٹہ، منٹ)"</string>
+<string name="LabelAccuracyV">"پسندیدہ درستگی (V, m)"</string>
+<string name="LabelMaxResponseTime">"ٹائم آؤٹ (سیکنڈ)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"عام اسٹیک کے ساتھ دوڑیں"</string>
+<string name="LabelRunOne">"VzW چلائیں"</string>
+<string name="LabelRunState1">"FSM ٹیسٹ 1"</string>
+<string name="LabelRunState2">"FSM ٹیسٹ 2"</string>
+<string name="EnigneStatus">"انجن حیثیت"</string>
+<string name="NA">"N/A"</string>
+<string name="GpsStatus">"Gps حیثیت"</string>
+<string name="Session">"سیشن"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"قسم"</string>
+<string name="Loc">"لاک"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"وضع"</string>
+<string name="stop">"روکیں"</string>
+<string name="labelPdePort">"PDE پورٹ"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"صرف 911 "</item>
+<item>"آن"</item>
+</string-array>
+<string name="non_aiding">"تمام مدد کو غیرمنتخب کریں"</string>
+<string name="all_aiding">"تمام مدد کو منتخب کریں"</string>
+<string name="done">"منتخب کو حذف کریں"</string>
+<string name="Ephemeris">"تقویم"</string>
+<string name="GLO_Ephemeris">"GLO تقویم"</string>
+<string name="Alamanac">"جنتری"</string>
+<string name="GLO_Alamanac">"GLO جنتری"</string>
+<string name="Alamanac_Corr">"جنتری کور"</string>
+<string name="GLO_Alamanac_Corr">"GLO جنتری کور"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"SV اسٹیئر"</string>
+<string name="GLO_SV_Steer">"GLO SV اسٹیئر"</string>
+<string name="Cell_DB_Info">"سیل DB معلومات"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"GPS وقت"</string>
+<string name="GLO_Time">"GLO وقت"</string>
+<string name="Freq_Bias_Est">"فریکوئنسی بیس اسٹیبلشمنٹ"</string>
+<string name="Time">"وقت"</string>
+<string name="Iono">"لونو"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"صحت"</string>
+<string name="SA_Data">"SA ڈیٹا"</string>
+<string name="position">"پوزیشن"</string>
+<string name="str_wbiq_runscript">"اسکرپٹ چلائیں"</string>
+<string name="str_wbiq_stopgps">"RF موڈ خارج کریں"</string>
+<string name="str_wbiq_startgps">"RF موڈ داخل کریں"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"خود کار آن آلہ لاگنگ"</string>
+<string name="str_wbiq_chk_delaystart">"تاخیر شروع ہوتی ہے"</string>
+<string name="str_wbiq_chk_autostop">"خود کار رکنا"</string>
+<string name="str_wbiq_chk_otfsa">"OTFSA کو فعال کریں"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"S"</string>
+<string name="str_proximity_clearalerts">"انتباہات کو صاف کریں"</string>
+<string name="str_proximity_savealertsfile">"انتباہات فائل کو محفوظ کریں"</string>
+<string name="str_proximity_loadalertsfile">"انتباہات فائل کو لوڈ کریں"</string>
+<string name="str_proximity_deletealertsfile">"انتباہات فائل کو حذف کریں"</string>
+<string name="str_proximity_logging">"لاگنگ"</string>
+<string name="str_proximity_autostartenabled">"خودکار شروعات"</string>
+<string name="str_proximity_autostartfile">"خود کار اسٹارٹ فائل منتخب کریں"</string>
+<string name="str_proximity_smsnumber">"SMS اطلاع نمبر"</string>
+<string name="str_proximity_geofencelisttab_add">"شامل کریں"</string>
+<string name="str_proximity_geofencelisttab_delet">"حذف کریں"</string>
+<string name="str_proximity_geofencelisttab_edit">"ترمیم کریں"</string>
+<string name="str_locbatchingtab_btn_s">"S"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[مطلب، کم از کم، زیادہ سے زیادہ] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"بیچ حاصل کریں"</string>
+<string name="str_powerest_summary">"خلاصہ:"</string>
+<string name="str_powerest_plot_label"/></resources>

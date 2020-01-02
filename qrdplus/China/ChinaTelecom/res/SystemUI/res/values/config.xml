@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014, Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Qualcomm Technologies Proprietary and Confidential.
+ -->
+<resources>
+    <!-- style of status bar -->
+    <integer name="status_bar_style">1</integer>
+    <bool name="config_read_icons_from_xml">true</bool>
+    <bool name="config_showActivity">false</bool>
+</resources>
+

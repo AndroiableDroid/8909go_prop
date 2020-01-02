@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"ການສາທິດ SDP SDK"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"ຂະຫຍາຍເວລາປິດໜ້າຈໍ"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"ຊ່ອງທາງ-ພາບດ້ານຫຼັງ"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"ນິ້ວມື ທຽບໃສ່ ແມ່ເຫຼັກ + ຄວາມດັນ"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"ແກນອ່ຽງ"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"ເລື່ອນໜ້າຈໍ ແລະ ປຸ່ມດ້ານຂ້າງ"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"ເຄື່ອງມືລຶບ ແລະ ລຶບຂ້າມຜ່ານ"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"ການສາທິດນີ້ແມ່ນສາທິດຄຸນນະສົມບັດປິດ-ໜ້າຈໍ.\n\n1. ແຕ້ມໜ້າຈໍປິດ ແລະ ເຫັນສິ່ງທີ່ເຈົ້າແຕ້ມຢູ່ດ້ານຂວາມື.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. ມີປຸ່ມກົດຢູ່ມູມເບື້ອງຂວາມືດ້ານລຸ່ມຂອງໜ້າຈໍ. ເລື່ອນຢູ່ເບື້ອງເທີງ ຂອງ ມັນໃນລະດັບຄວາມສູງທີ່ແຕກຕ່າງກັນ ເພື່ອປ່ຽນຄວາມເຂັ້ມຂອງວົງມົນ .\n\n3. ກົດມັນເພື່ອປ່ຽນສີຂອງວົງມົນ."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"ການສາທິດນີ້ສະແດງໃຫ້ເຫັນຊ່ອງທາງ ພາບດ້ານຫຼັງ ສາມາດປະຕິບັດງານໃນຄະນະທີ່ໜ້າຈໍເປີດ ຫຼື ປິດ.\n\n1. ແຕ້ມໜ້າຈໍປີດ ແລະ ເຫັນສິ່ງທີ່ເຈົ້າແຕ້ມ.\n\n2. ບັດນີ້ ສະວິກໄປໃສ່ແອັບອື່ນ, ຫຼື ຕັ້ງຄ່າປິດໜ້າຈໍ - ສິ່ງທີ່ເຈົ້າແຕ້ມຍັງສືບຕໍ່ບັນທຶກ."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"ເລື່ອນ ເປີດ-ໜ້າຈໍ"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. ເລື່ອນໜ້າຈໍດ້ານເທີງໃນລະດັບຄວາມສູງທີ່ຕ່າງກັນ.\n\n2. ໃຊ້ສະວິດ ເພື່ອປິດໃຊ້ງານການເລື່ອນໜ້າຈໍ.\n\n3. ໃຊ້ເຄື່ອງມືເລື່ອນເພື່ອຕັ້ງຄ່າໄລຍະໄກສຸດສໍາລັບເຫດການເລື່ອນໜ້າຈໍ.\n\n4. ການກົດປຸ່ມຢູ່ສອງຂ້າງຈະປ່ຽນສີ ຂອງ ວົງມົນເລື່ອນ."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. ກົດປຸ່ມກໍານົດຄ່າ SDP ເພື່ອເປັນປຸ່ມຢາງລົບໃນການຕັ້ງຄ່າສາກົນ.\n\n2. ແຕ້ມຮູບ.\n\n3. ຕັ້ງຄ່າເຄື່ອງມືລຶບ ເພື່ອແຕະໃຫ້ສະຫຼັບ. ກົດປຸ່ມເຄື່ອງມືລຶບ. ກົດປຸ່ມເຄື່ອງມືລຶບອີກຄັ້ງ, ສະວິດຫາໂໝດປາກກາ.\n\n4. ຕັ້ງຄ່າເຄື່ອງມືລຶບເພື່ອກົດຄ້າງສິ່ງທີ່ຈະລຶບອອກ. ດຽວນີ້ເຈົ້າສາມາດລຶບອອກໂດຍການສໍາພັດໄວໆ.\n\n5. ດຽວນີ້  ໃຊ້ເຄື່ອງມືລືບດ້ວຍການກົດຜ່ານສະວິກເພື່ອປິດໃຊ້ງານເຄືອງມືລຶບ."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"ເຄື່ອງມືລຶບໂດຍກົດຜ່ານ"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"ຜ້າໃບລຶບ"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"ແຕ້ມດ້ວຍປາກກາ, ແລະ ຈາກນັ້ນແຕ້ມດ້ວຍມືຂອງເຈົ້າ.\nສອງວິທີການທີ່ຖືືກຍອມຮັບ ໂດຍສີທີ່ແຕກຕ່າງກັນ.\nຄວາມກ້ວາງຂອງເສັ້ນ ຖືກຕັ້ງຄ່າໂດຍຄວາມດັນ, ຊຶ່ງສາມາດເຫັນໄດ້ເປັນຈໍານວນຫຼາຍ."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"ຄວາມດັນ"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

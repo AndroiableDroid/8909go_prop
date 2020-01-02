@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">P2PRanging</string>
+    <string name="action_settings">"ဆက်တင်များ"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_Discovery">"ကိုယ်တိုင် ရှာဖွေခြင်း"</string>
+    <string name="strings_setting_appversion">"အက်ပ်ဗားရှင်း- ၂၀၁၄.၀၉.၀၄"</string>
+    <string name="strings_setting_startscanresult">"N/A"</string>
+    <string name="strings_setting_scanrepetition">"စကန် ထပ်ခါထပ်ခါ ဖတ်မှု- "</string>
+    <string name="strings_setting_scaninterval">"စကန်ဖတ်ရန် ကြားကာလ- "</string>
+    <string name="strings_setting_scantype">"စကန် အမျိုးအစား- "</string>
+    <string name="strings_setting_scanbandwidth">"စကန် ဘန်းဝစ်- "</string>
+    <string name="strings_setting_scanrttbias">"RTT Bias (ns)- "</string>
+    <string name="strings_setting_scanrttBias_value">25</string>
+    <string name="strings_setting_button_clearoverlay">"ထပ်နေသော စာသားကို ရှင်းလင်းပါ"</string>
+    <string name="strings_setting_button_hideshowoverlaytext">"ထပ်နေသော စာသားကို ဝှက်ပါ/ပြပါ"</string>
+    <string name="strings_start_peerrangescanbtn">"အတိုင်းအတာအတွင်း စကင်ဖတ်ခြင်း စတင်ပါ"</string>
+    <string name="strings_start_singlepeerrangescanbtn">"တစ်ခုတည်းသော စကင်"</string>
+    <string name="strings_start_measresulttitle">"စကန် ရလဒ် နေရာ (m)"</string>
+    <string name="strings_start_measresultdevice"></string>
+    <string name="strings_log_showerror">"အမှား"</string>
+    <string name="strings_log_showinfo">"အချက်အလက်"</string>
+    <string name="strings_log_clear">"မှတ်တမ်းကိုရှင်းပါ"</string>
+    <string name="strings_legend_mygo">"MyGO"</string>
+    <string name="strings_legend_cl">"CL"</string>
+    <string name="strings_legend_idle">"မသုံးနေ"</string>
+    <string name="strings_legend_othergo">"OtherGO"</string>
+    <string name="strings_deviceinfo_mydevice">"ကျွန်ုပ်၏ ကိရိယာ-"</string>
+    <string name="strings_deviceinfo_devicename">"အမည်- (N/A)"</string>
+    <string name="strings_deviceinfo_mac">"MAC- N/A"</string>
+    <string name="strings_deviceinfo_channel">"လိုင်း- N/A"</string>
+    <string name="strings_deviceinfo_group">"အုပ်စု- N/A"</string>
+    <string name="strings_connect_mypeers">"ကျွန်ုပ်နှင့် အုပ်စုတူသူများ- (ချိတ်ဆက်ရန်/ဖြုတ်ရန် ကလစ်နှိပ်ပါ)"</string></resources>

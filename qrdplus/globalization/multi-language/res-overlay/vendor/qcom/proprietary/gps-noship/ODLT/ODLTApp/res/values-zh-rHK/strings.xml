@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"GPS 偵錯活動"</string>
+     <string name="cameraActivity">"相機"</string>
+     <string name="newTrackingSession">"新追蹤工作階段"</string>
+     <string name="newTrackingSession_nameLabel">"姓名"</string>
+     <string name="newTrackingSession_numFixesLabel">"號碼修正"</string>
+     <string name="newTrackingSession_descriptionLabel">"描述"</string>
+     <string name="newTrackingSession_startButtonLabel">"開始"</string>
+     <string name="testConfig">"測試設定"</string>
+     <string name="testConfig_configNameLabel">"設定名稱"</string>
+     <string name="testConfig_numFixesLabel">"號碼修正 (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"測試設定描述"</string>
+     <string name="testConfig_startButtonLabel">"開始測試"</string>
+     <string name="testConfig_RadioLabel">"應用程式曲目或單次"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"單次"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"應用程式曲目"</string>
+     <string name="testConfig_qosTimeoutLabel">"首選回應時間 (秒)"</string>
+     <string name="testConfig_qosAccuracyLabel">"首選準確度 (m)"</string>
+     <string name="testConfig_tbfLabel">"最小間隔 (秒)"</string>
+     <string name="testConfig_staticTruthLabel">"靜態實際位置 (勾選以使用)"</string>
+     <string name="testConfig_latLabel">"緯度"</string>
+     <string name="testConfig_lonLabel">"經度"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"定位 API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"GPL 服務"</string>
+     <string name="testConfig_sessionTypeLabel">"循環類型"</string>
+     <string name="testConfig_apiTypeLabel">"API 類型"</string>
+    <string name="labelUnknownPrivacy">"未知"</string>
+    <string name="labelGetPrivacy">"取得私隱保護"</string>
+    <string name="labelSetPrivacySetting">"設定私隱保護"</string>
+    <string name="name_vzw_client">"Vzw 客戶端"</string>
+    <string name="name_normal_client">"一般 Android"</string>
+    <string name="LabelModeSel">"模式"</string>
+    <string name="LabelNumFixSel">"修正數"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"狀態..."</string>
+    <string name="str_nodata">"沒有數據"</string>
+    <string name="str_waitingforposinfo">"\n正在等待位置資訊...\n"</string>
+    <string name="str_searchingforsvs">"\n正在搜尋 SV...\n"</string>
+    <string name="str_configsummary">"\n設定摘要\n"</string>
+    <string name="str_alarms">"\n警示：\n\n"</string>
+    <string name="str_starttest">"開始測試"</string>
+    <string name="str_sessionplayback">"工作階段播放"</string>
+    <string name="str_proximityalerts">"近接警告"</string>
+    <string name="str_proximity_info">"近接資訊"</string>
+    <string name="str_options">"選項"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"獨立"</item>
+<item>"AFLT"</item>
+<item>"速度最優化"</item>
+<item>"準確度最優化"</item>
+<item>"數據最優化"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"修正間隔 (秒)"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"PDE 地址"</string>
+<string name="LabelAccuracyH">"首選準確度 (H、m)"</string>
+<string name="LabelAccuracyV">"首選準確度 (V、m)"</string>
+<string name="LabelMaxResponseTime">"逾時 (秒)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"透過一般堆疊執行"</string>
+<string name="LabelRunOne">"執行 VzW"</string>
+<string name="LabelRunState1">"FSM 測試 1"</string>
+<string name="LabelRunState2">"FSM 測試 2"</string>
+<string name="EnigneStatus">"引擎狀態"</string>
+<string name="NA">"不適用"</string>
+<string name="GpsStatus">"GPS 狀態"</string>
+<string name="Session">"工作階段"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"類型"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"模式"</string>
+<string name="stop">"停止"</string>
+<string name="labelPdePort">"PDE 連接埠"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"僅限 911"</item>
+<item>"開啟"</item>
+</string-array>
+<string name="non_aiding">"取消選擇所有輔助"</string>
+<string name="all_aiding">"選擇所有輔助"</string>
+<string name="done">"刪除所選"</string>
+<string name="Ephemeris">"星曆"</string>
+<string name="GLO_Ephemeris">"GLO 星曆"</string>
+<string name="Alamanac">"年曆"</string>
+<string name="GLO_Alamanac">"GLO 年曆"</string>
+<string name="Alamanac_Corr">"年曆修正"</string>
+<string name="GLO_Alamanac_Corr">"GLO 年曆修正"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"SV 引導"</string>
+<string name="GLO_SV_Steer">"GLO SV 引導"</string>
+<string name="Cell_DB_Info">"區域資料庫資訊"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"GPS 時間"</string>
+<string name="GLO_Time">"GLO 時間"</string>
+<string name="Freq_Bias_Est">"頻率偏置 (東部標準時間)"</string>
+<string name="Time">"時間"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"醫療衛生"</string>
+<string name="SA_Data">"SA 數據"</string>
+<string name="position">"位置"</string>
+<string name="str_wbiq_runscript">"執行指令碼"</string>
+<string name="str_wbiq_stopgps">"退出 RF 模式"</string>
+<string name="str_wbiq_startgps">"進入 RF 模式"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"裝置上自動登入"</string>
+<string name="str_wbiq_chk_delaystart">"延遲啟動"</string>
+<string name="str_wbiq_chk_autostop">"自動停止"</string>
+<string name="str_wbiq_chk_otfsa">"啟用 OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"秒"</string>
+<string name="str_proximity_clearalerts">"清除警告"</string>
+<string name="str_proximity_savealertsfile">"儲存警告檔"</string>
+<string name="str_proximity_loadalertsfile">"載入警告檔"</string>
+<string name="str_proximity_deletealertsfile">"刪除警告檔"</string>
+<string name="str_proximity_logging">"登入"</string>
+<string name="str_proximity_autostartenabled">"自動啟動"</string>
+<string name="str_proximity_autostartfile">"選擇自動啟動檔"</string>
+<string name="str_proximity_smsnumber">"SMS 通知號碼"</string>
+<string name="str_proximity_geofencelisttab_add">"新增"</string>
+<string name="str_proximity_geofencelisttab_delet">"刪除"</string>
+<string name="str_proximity_geofencelisttab_edit">"編輯"</string>
+<string name="str_locbatchingtab_btn_s">"S"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[平均、最小、最大] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"取得批量"</string>
+<string name="str_powerest_summary">"摘要:"</string>
+<string name="str_powerest_plot_label"/></resources>

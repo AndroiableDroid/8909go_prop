@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Интерфейс пользователя для панорамы"</string>
+    <string name="title_loading">"Загрузка!"</string>
+    <string name="msg_loading">"Обработка\u2026"</string>
+    <string name="panorama_saved">"Панорама успешно сохранена в фотогалерею устройства"</string>
+    <string name="panorama_generate_result_failed">"Повторите попытку."</string>
+    <string name="error_dialog_title">"Ошибка приложения"</string>
+    <string name="btn_ok">"ОК"</string>
+    <string name="btn_txt_save">"Сохранить изображение"</string>
+    <string name="err_library_loading">"Ошибка приложения при загрузке собственных библиотек."</string>
+    <string name="err_camera_init">"Ошибка камеры при инициализации."</string>
+    <string name="err_sensors_init">"Ошибка датчика при инициализации."</string>
+    <string name="err_pano_init">"Ошибка интерфейса API панорамы при инициализации."</string>
+    <string name="err_sensors_failed">"Ошибка датчика при инициализации."</string>
+    <string name="err_zsl_failed">"Режим ZSL не поддерживается на этом устройстве."</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"Сеанс не инициирован"</string>
+    <string name="err_queue_full">"Очередь заполнена"</string>
+    <string name="err_max_key_frames">"Достигнуто максимальное количество кадров"</string>
+    <string name="err_no_frame_overlap">"Кадры не перекрываются"</string>
+    <string name="err_inconsistent_direction">"Направление не единообразно"</string>
+    <string name="err_result_not_ready">"Результат не готов"</string>
+    <string name="err_frame_no_feature">"В кадре недостаточно функций"</string>
+    <string name="err_direction_changed">"Направление изменено. Нажмите кнопку \"ОК\", чтобы просмотреть захваченное изображение панорамы."</string>
+    <string name="err_panorama_loading">"Ошибка при загрузке изображения панорамы."</string>
+    <string name="err_panorama_saving">"Ошибка при сохранении изображения панорамы."</string>
+    <string name="err_api_capturing">"Ошибка при захвате панорамы."</string>
+    <string name="err_api_halted">"Захват панорамы приостановлен. Нажмите кнопку \"ОК\", чтобы просмотреть захваченное изображение панорамы."</string>
+    <string name="err_max_limit">"Достигнуто максимальное количество кадров. Нажмите кнопку \"ОК\", чтобы просмотреть захваченное изображение панорамы."</string>
+    <string name="err_no_prv">"Нет захваченного просмотра."</string>
+    <string name="title_settings">"Настройки"</string>
+    <string name="camera_settings">"Настройки камеры"</string>
+    <string name="camera_settings_picture_size">"Разрешение"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string name="camera_settings_exposure_compensation">"Компенсация экспозиции"</string>
+    <string name="camera_settings_white_balance">"Баланс белого"</string>
+    <string-array name="camera_settings_white_balance_entries">
+        <item>"Авто"</item>
+        <item>"Солнечный свет"</item>
+        <item>"Лампа дн. света"</item>
+        <item>"Лампа накаливания"</item>
+        <item>"Тень"</item>
+        <item>"Сумерки"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values">
+        <item>"auto"</item>
+        <item>"daylight"</item>
+        <item>"fluorescent"</item>
+        <item>"incandescent"</item>
+        <item>"shade"</item>
+        <item>"twilight"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values_camera2">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>7</item>
+    </string-array>
+    <string name="camera_settings_scene_mode">"Режим съемки"</string>
+    <string-array name="camera_settings_scene_mode_entries">
+        <item>"Спорт"</item>
+        <item>"Авто"</item>
+        <item>"Ночь"</item>
+        <item>"Вечеринка"</item>
+        <item>"Закат"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values">
+        <item>"action"</item>
+        <item>"auto"</item>
+        <item>"night"</item>
+        <item>"party"</item>
+        <item>"sunset"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values_camera2">
+        <item>2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"Режим фокусировки"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"Непрерывная съемка (видео)"</item>
+        <item>"Бесконечность"</item>
+        <item>"Постоянное"</item>
+        <item>"Непрерывная съемка (снимок)"</item>
+        <item>"Авто"</item>
+        <item>"Расширенная глубина резкости"</item>
+        <item>"Макро"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"fixed"</item>
+        <item>"continuous-picture"</item>
+        <item>"auto"</item>
+        <item>"edof"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>3</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_iso">ISO</string>
+    <string-array name="camera_settings_iso_entries">
+        <item>"Авто"</item>
+        <item>"Снижение дрожания руки"</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="camera_settings_iso_values">
+        <item>"auto"</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>"ISO3200"</item>
+    </string-array>
+    <string name="camera_settings_iso_default">ISO800</string>
+    <string name="pano_settings">"Настройки панорамы"</string>
+    <string name="pano_settings_scve_mode">"Режим работы SCVE"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"По умолчанию"</item>
+        <item>"Разгрузка ЦП"</item>
+        <item>"Оценка доступной памяти"</item>
+        <item>"Низкий уровень энергопотребления"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_image_compress_level">"Уровень сжатия изображения"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_3a_lock">"Заблокировать функции AE/AF/AWB во время захвата панорамы"</string>
+    <string-array name="pano_settings_enable_3a_lock_entries">
+        <item>"Нет"</item>
+        <item>"Да"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_3a_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_3a_lock_default">"true"</string>
+    <string name="debug_settings">"Настройки отладки"</string>
+    <string name="debug_settings_enable_loggings">"Подробные сведения в журнале"</string>
+    <string-array name="debug_settings_enable_loggings_entries">
+        <item>"Отключено"</item>
+        <item>"Вкл"</item>
+    </string-array>
+    <string-array name="debug_settings_enable_loggings_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_enable_loggings_default">"false"</string>
+    <string name="debug_settings_save_preview_frames">"Сохран. кадры для предв. просм. на SD-карту"</string>
+    <string-array name="debug_settings_save_preview_frames_entries">
+        <item>"Нет"</item>
+        <item>"Да"</item>
+    </string-array>
+    <string-array name="debug_settings_save_preview_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_preview_frames_default">"false"</string>
+    <string name="debug_settings_save_key_frames">"Сохранить ключевые кадры на SD-карту"</string>
+    <string-array name="debug_settings_save_key_frames_entries">
+        <item>"Нет"</item>
+        <item>"Да"</item>
+    </string-array>
+    <string-array name="debug_settings_save_key_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_key_frames_default">"false"</string>
+    <!-- PanoramaViewer -->
+    <string name="share_button_text">"Поделиться изображением панорамы"</string></resources>

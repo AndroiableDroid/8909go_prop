@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service ត្រូវបានយកចេញ សូម​ដំឡើងវាឡើងវិញ!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"អាប់ដេត​ទិន្នន័យ​អត្ថបទ​ប្រវត្តិរូប"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"អាប់ដេតទិន្នន័យ​រៀបរាប់​ប្រវត្តិរូប"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"លុបសារទាំងអស់"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"កំណត់​ប្រធានថ្មី​នៅក្នុង​ការជជែក​កម្សាន្ត​ជាក្រុម"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"កែប្រែ​ប្រធានបទ​នៅក្នុងការជជែក​កម្សាន្ត​ជាក្រុម"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"កែប្រែ​ឈ្មោះហៅក្រៅ​របស់​សមាជិក​នៅក្នុង​ការជជែក​កម្សាន្តជាក្រុម"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"ទទួលយក​ការអញ្ជើញចូលរួម​ការជជែក​កម្សាន្ត​ជាក្រុម"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"ចាកចេញពីការជជែកកម្សាន្តជាក្រុម"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"បញ្ឈប់​អ្នកចូល​នៅក្នុង​ការជជែក​កម្សាន្ត​ជាក្រុម"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"បដិសេធ​ការជជែក​កម្សាន្តជា​ក្រុម"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"យកចិត្តទុកដាក់នឹងគណនីសាធារណៈ"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"មិនយកចិត្តទុក​ដាក់​នឹង​គណនីសាធារណៈ"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"រាយការណ៍ពី​គណនីសាធារណៈ"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"ការអនុញ្ញាត api សំខាន់"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"បានអនុញ្ញាត %1$d កម្មវិធី (សរុប %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"កុំសួរទៀត"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"យល់ព្រម"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"បោះ​បង់"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"ប្រតិបត្តិការនេះ​ត្រូវបាន​បង្កើតឡើងដើម្បី %1$s,  ការបដិសេធ​ការអនុញ្ញាត​អាចបណ្ដាល​ឲ្យ​មុខងារលែងដំណើរការ​ត្រឹមត្រូវ​តាមបំណង។"</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"ការអនុញ្ញាតនៃ%1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"អ្នកចាំបាច់អនុញ្ញាត %1$s។"</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"អ្នកចាំបាច់​ត្រូវផ្ដល់​ការអនុញ្ញាតដល់ sdcard។"</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"អ្នកចាំបាច់ត្រូវផ្ដល់ការអនុញ្ញាតដល់ឈ្មោះ​ទំនាក់ទំនង។"</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"អ្នកចាំបាច់ត្រូវ​ផ្ដល់​ការអនុញ្ញាតដល់ sms។"</string></resources>

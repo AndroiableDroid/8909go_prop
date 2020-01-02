@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Pag-config. sa Carrier"</string>
+    <string name="multisim_category_text">"CONFIGURATION NG MULTISIM"</string>
+    <string name="preset_category_text">"CHINA CARRIER"</string>
+    <string name="preset_category_text_default">"Default"</string>
+    <string name="preset_category_text_china">"China na Carrier"</string>
+    <string name="preset_category_text_regional">"Pangrehiyon"</string>
+    <string name="sim_ssss_text">"Single Sim Single Standby"</string>
+    <string name="sim_dsds_text">"Dual Sim Dual Standby"</string>
+    <string name="sim_dsda_text">"Dual Sim Dual Active"</string>
+    <string name="progress_wait">"Kino-configure ..."</string>
+    <string name="alert_update_sim_mode_title">"I-update ang mode ng SIM"</string>
+    <string name="alert_update_sim_mode_text">"Ang pagbabago sa mode ng SIM ay gagana matapos ma-reboot ang telepono. Gusto ninyo ba mag-update ngayon?"</string>
+    <string name="alert_switch_title">"Palitan ang carrier"</string>
+    <string name="alert_switch_text">"Buburahin ng aksyon na ito ang lahat ng data kabilang ang kumpigurasyon sa maramihang sim."</string>
+    <string name="alert_switch_error">"Nabigo ang pagpapalit ng carrier, pakisuri kung may sapat na espasyo."</string>
+    <string name="notice_row_title">"Paunawa"</string>
+    <string name="notice_row_text">"Natakda ang iyong telepono na i-adapt ang iyong SIM card. Paki-restart ang iyong telepono para magkabisa ang bagong configuration."</string>
+    <string name="notice_special_install_title">"Atensyon"</string>
+    <string name="notice_special_install_text">"Maaaring itakda ang iyong telepono upang iangkop sa iyong SIM card. Ngunit mabubura ng pagkilos na ito ang lahat ng data, Gusto mo bang itakda ngayon?"</string>
+    <string name="welcome_title">"Welcome"</string>
+    <string name="welcome_message">"Pakipili ang wika mo"</string>
+    <string name="start_text">"Magsimula"</string>
+    <string name="emergency_call_text">"Emergency na Tawag"</string>
+    <string name="trigger_title">"I-configure"</string>
+    <string name="trigger_message">"Pakipili ng isang package"</string>
+    <string name="trigger_uninstall_message">"Walang package na tumutugma sa iyong Sim card. Maaaring i-configure ang iyong telepono pabalik sa base package.\n\nI-configure ang iyong telepono pabalik sa:"</string>
+    <string name="trigger_no_text">"Huwag ikumpigura"</string>
+    <string name="trigger_yes_text">"Simulan ang pag-configure"</string>
+    <string name="trigger_ask_text">"Tanungin ako sa ibang pagkakataon"</string>
+    <string name="begin_config_text">"Simulan ang pag-configure"</string>
+    <string name="alter_no_carrier_selected">"Walang napiling carrier, mangyaring pumili ng isa o higit pa."</string>
+    <string name="download_ota_package_title">"I-download ang mga ota file"</string>
+    <string name="download_ota_package_message">"Naglo-load..."</string>
+    <string name="alter_network_state_error">"Pakisuri ang katayuan ng network."</string>
+    <string name="alter_file_not_found_error">"Hindi ma-store ang ota file, pakisuri ang katayuan ng storage."</string>
+    <string name="carrier_clear_final_desc">"Burahin lahat ng personal mong impormasyon at kumpigurasyon ng carrier? Hindi mo maia-undo ang pagkilos na ito!"</string>
+    <string name="carrier_clear_final_button_text">"Burahin ang lahat"</string>
+    <string name="carrier_clear_no_default_pack">"Walang default pack sa aparato mo."</string>
+    <string name="carrier_clear_parsing_not_finish">"Hinahanap pa rin ang default pack."</string></resources>

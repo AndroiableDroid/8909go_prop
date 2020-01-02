@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"Ứng dụng người dùng MDTP: Màn hình chính"</string>
+    <string name="config_app">"Ứng dụng người dùng MDTP: Cấu hình"</string>
+    <string name="server_app">"Máy chủ MDTP: Màn hình chính"</string>
+    <string name="action_settings">"Cài đặt"</string>
+    <string name="label_1_1">"Trạng thái MDTP:"</string>
+    <string name="state_deactivated">"Hủy kích hoạt"</string>
+    <string name="state_activated">"Đã kích hoạt"</string>
+    <string name="configuration">"Cấu hình (chỉ trước khi kích hoạt)"</string>
+    <string name="service_activate">"Yêu cầu kích hoạt MDTP từ dịch vụ MDTP"</string>
+    <string name="service_deactivate">"Yêu cầu hủy kích hoạt MDTP từ dịch vụ MDTP"</string>
+    <string name="local_deactivate">"Hủy kích hoạt MDTP cục bộ (sử dụng mã PIN)"</string>
+    <string name="service_console">"Bảng điều khiển dịch vụ MDTP"</string>
+    <string name="title_activity_configuration">"Cấu hình người dùng"</string>
+    <string name="label_2_1">"Sử dụng mã PIN cục bộ:"</string>
+    <string name="label_2_2">"Mã PIN:"</string>
+    <string name="gen_rand_pin">"Tạo mã PIN ngẫu nhiên"</string>
+    <string name="label_2_3">"Tỷ lệ xác thực:"</string>
+    <string name="label_2_5">"Bật khóa SIM:"</string>
+    <string name="label_2_6">"Tệp/thư mục bổ sung cần xác thực:"</string>
+    <string name="reset">"Đặt lại về mặc định"</string>
+    <string name="label_3_1">"Gửi lệnh từ máy chủ đến thiết bị:"</string>
+    <string name="activate">"Kích hoạt"</string>
+    <string name="deactivate">"Hủy kích hoạt"</string>
+    <string name="locksim">"Khóa SIM"</string>
+    <string name="unlocksim">"Mở khóa SIM"</string>
+    <string name="killfunc">"Tắt chức năng"</string>
+    <string name="restorefunc">"Khôi phục chức năng"</string>
+    <string name="label_3_2">"Yêu cầu hủy kích hoạt MDTP:"</string>
+    <string name="notallowed">"Không được phép"</string>
+    <string name="allowed">"Được phép"</string>
+    <string name="label_3_3">"Yêu cầu bỏ chặn Trình hướng dẫn thiết lập:"</string>
+    <string name="label_3_4">"Nhật ký dịch vụ:"</string>
+    <string name="wizard_app_loading_title">"Trình hướng dẫn thiết lập MDTP: Đang khởi tạo..."</string>
+    <string name="label_4_1">"Trình hướng dẫn thiết lập bị khóa do đã kích hoạt trạng thái MDTP"</string>
+    <string name="label_4_2">"Tùy chọn A: Giữ kích hoạt MDTP nhưng yêu cầu ủy quyền máy chủ"</string>
+    <string name="wiz_unblock">"Yêu cầu Trình hướng dẫn thiết lập bỏ chặn khỏi dịch vụ MDTP"</string>
+    <string name="wiz_cont">"Tiếp tục (cấp phép bởi máy chủ)"</string>
+    <string name="label_4_3">"Tùy chọn B: Hủy kích hoạt MDTP (sẽ bỏ chặn Trình hướng dẫn thiết lập)"</string>
+    <string name="wiz_remote">"Yêu cầu hủy kích hoạt MDTP từ xa"</string>
+    <string name="wiz_local">"Hủy kích hoạt MDTP cục bộ"</string>
+    <string name="label_4_4">"Đã cho phép Trình hướng dẫn thiết lập tiếp tục do trạng thái MDTP KHÔNG được kích hoạt"</string>
+    <string name="wiz_complete">"Hoàn tất Trình hướng dẫn thiết lập (trạng thái MDTP không được kích hoạt)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"Trình hướng dẫn thiết lập"</string>
+    <string name="label_signup_message">"MDTP hiện không được kích hoạt.\nBạn có muốn kích hoạt?"</string>
+    <string name="label_signup_message_activated">"Đã kích hoạt MDTP thành công!"</string>
+    <string name="skip_activation">"Bỏ qua kích hoạt"</string>
+    <string name="emergency_dialer">"Trình quay số Khẩn cấp"</string>
+    <string name="wiz_title_sign_up">"Trình hướng dẫn thiết lập MDTP - Đăng ký"</string>
+    <string name="wiz_title_reset_prot">"Trình hướng dẫn thiết lập MDTP - Chống khôi phục cài đặt gốc"</string>
+    <string name="wiz_title_boot_block">"Trình hướng dẫn thiết lập MDTP - Thiết bị đã bị khóa"</string>
+    <string name="block_boot_warning_text">"MDTP đã khóa thiết bị này do có lỗi bên trong.\n\nVui lòng khởi động lại thiết bị."</string>
+    <string name="start_wifi_wizard">"Thiết lập WiFi"</string>
+    <string name="default_pin_hint">"Mã PIN mặc định là 11111"</string>
+    <string name="pin_dialog_title">"Yêu cầu mã PIN hủy kích hoạt cục bộ MDTP"</string>
+    <string name="pin_input_validation_warning">"Phải nhập 5 chữ số và số"</string></resources>

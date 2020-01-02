@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+**
+** Copyright 2015 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Wi-Fi settings -->
+    <!-- Match this with the order of NetworkInfo.DetailedState. -->
+    <!-- Wi-Fi settings. The status messages when the network is unknown. -->
+    <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>"Taranıyor\u2026"</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
+        <item>"Bağlanıyor\u2026"</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
+        <item>"Kimlik doğrulanıyor\u2026"</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
+        <item>"IP adresi alınıyor..."</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
+        <item>"Bağlandı"</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>"Askıya alındı"</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
+        <item>"Bağlantı kesiliyor\u2026"</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>"Bağlantı kesildi"</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>"Başarısız"</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>"Engellendi"</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>"Kötü bağlantıdan geçici olarak kaçınılıyor"</item>
+    </string-array>
+    <!-- Match this with the order of NetworkInfo.DetailedState. -->
+    <!-- Wi-Fi settings. The status messages when the network is known. -->
+    <string-array name="wifi_status_with_ssid">
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>"Taranıyor\u2026"</item>
+        <!-- Status message of Wi-Fi when it is connecting to a network. -->
+        <item>"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> ağına bağlanılıyor\u2026"</item>
+        <!-- Status message of Wi-Fi when it is authenticating with a network. -->
+        <item>"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> üzerinde kimlik doğrulanıyor\u2026"</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address from a network. -->
+        <item>"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> ağından IP adresi alınıyor\u2026"</item>
+        <!-- Status message of Wi-Fi when it is connected to a network. -->
+        <item>"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> ağına bağlandı"</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>"Askıya alındı"</item>
+        <!-- Status message of Wi-Fi when it is disconnecting from a network. -->
+        <item>"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> bağlantısı kesiliyor\u2026"</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>"Bağlantı kesildi"</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>"Başarısız"</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>"Engellendi"</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>"Kötü bağlantıdan geçici olarak kaçınılıyor"</item>
+    </string-array></resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"ການປະກົົດຕົວ"</string>
+    <string name="phoneAppLabel">"ໂທລະສັບ"</string>
+    <string name="imsenablertext">"ຕົວເປີດໃຊ້ IMS"</string>
+    <string name="publishtext">"ເຜີຍແຜ່"</string>
+    <string name="subscribepollingtext">"ການຮັບເອົາການມີໃຫ້ໃຊ້ງານ"</string>
+    <string name="subscribesimpletext">"ການສຳຫຼວດຄວາມສາມາດ "</string>
+    <string name="unsubscribetext">"ຖອນສະໝັກໃຊ້"</string>
+    <string name="listsubscribesimpletext">"ລາຍການການສຳຫຼວດຄວາມສາມາດ "</string>
+    <string name="listsubscribepollingtext">"ລາຍການການຮັບເອົາການມີໃຫ້ໃຊ້ງານ"</string>
+    <string name="listunsubscribetext">"ລາຍການຖອນສະໝັກໃຊ້"</string>
+    <string name="settingstext">"ການຕັ້ງຄ່າ"</string>
+    <string name="myinfotext">"ຂໍ້ມູນຂອງຂ້ອຍ"</string>
+    <string name="myNumtext">"ເລກໝາຍຂອງຂ້ອຍ"</string>
+    <string name="uri1text">"Uri1"</string>
+    <string name="uri2text">"Uri2"</string>
+    <string name="oktext">"ຕົກລົງ"</string>
+    <string name="canceltext">"ຍົກ​ເລີກ"</string>
+    <string name="publishbuttontext">"ເຜີຍແຜ່"</string>
+    <string name="publishstatustext">"ເຜີຍແຜ່ສະຖານະໃໝ່"</string>
+    <string name="contactinfotext">"ຂໍ້ມູນລາຍຊື່"</string>
+    <string name="personalinfotext">"ຂໍ້ມູນສ່ວນຕົວ"</string>
+    <string name="serviceDescriptiontext">"ລາຍລະອຽດການບໍລິການ"</string>
+    <string name="servicecaptext">"ຄວາມສາມາດການບໍລິການ"</string>
+    <string name="statusicontext">"ໄອຄອນສະຖານະ"</string>
+    <string name="descriptiontext">"ຄຳອະທິບາຍ"</string>
+    <string name="vertext">"ເວີຊັນ"</string>
+    <string name="serviceIdtext">"ລະຫັດການບໍລິການ"</string>
+    <string name="basicstatustext">"ສະຖານະພື້ນຖານ"</string>
+    <string name="timestamptext">"ສະແຕມເວລາ"</string>
+    <string name="isAudioSupportedtext">"ສຽງ"</string>
+    <string name="isVideoSupportedtext">"ວິດີໂອ"</string>
+    <string name="startvideocalltext">"ເລີ່ມການໂທ VT"</string>
+    <string name="startaudiocalltext">"ເລີ່ມການໂທ HD"</string>
+    <string name="donetext">"ສໍາເລັດ"</string>
+    <string name="bs_open_text">"ເປີດ"</string>
+    <string name="bs_closed_text">"ປິດແລ້ວ"</string>
+    <string name="sc_supported_text">"ແທ້"</string>
+    <string name="sc_notsupported_text">"ປອມ"</string>
+    <string name="True">"ແທ້"</string>
+    <string name="False">"ປອມ"</string>
+    <string name="notify_settings_text">"ການຕັ້ງຄ່າແຈ້ງບອກຮູບແບບ"</string>
+    <string name="set_notify_fmt_text">"ຕັ້ງແຈ້ງບອກຮູບແບບ"</string>
+    <string name="set_text">"ຕັ້ງ"</string>
+    <string name="get_text">"​ເອົາ"</string>
+    <string name="timer_settings_text">"ຕັ້ງຄ່າຕົວຈັບເວລາ"</string>
+    <string name="availability_cache_exp_text">"ການໝົດອາຍຸແຄຊການມີໃຫ້ໃຊ້ງານ"</string>
+    <string name="capability_cache_exp_text">"ການໝົດອາຍຸແຄຊຄວາມສາມາດ"</string>
+    <string name="capability_poll_interval_text">"ໄລຍະຫ່າງການສຳຫຼວດຄວາມສາມາດ"</string>
+    <string name="capability_poll_list_exp_text">"ການໝົດອາຍຸການສະໝັກໃຊ້ລາຍການສຳຫຼວດຄວາມສາມາດ"</string>
+    <string name="source_throttle_publish_text">"ເຜີຍແຜ່ຕົວເລ່ງແຫຼ່ງກຳເນີດ"</string>
+    <string name="retry_info_text">"ການຕັ້ງຄ່າການລອງໃໝ່"</string>
+    <string name="subscribe_retry_text">"ສະໝັກໃຊ້ໄລຍະຫ່າງການລອງໃໝ່"</string>
+    <string name="publish_retry_text">"ເຜີຍແຜ່ໄລຍະຫ່າງການລອງໃໝ່"</string>
+    <string name="list_subscription_settings_text">"ລະບຸການຕັ້ງຄ່າການສະໝັກໃຊ້"</string>
+    <string name="max_list_entries_text">"ການປ້ອນຂໍ້ມູນສູງສຸດໃນການສະໝັກໃຊ້ລາຍການ"</string>
+    <string name="multi_select_text">"ລວມເອົາໃນການສະໝັກໃຊ້ລາຍການ"</string>
+    <string name="select_all_text">"ເລືອກທັງໝົດ"</string>
+    <string name="select_none_text">"ບໍ່ເລືອກອັນໃດ"</string>
+    <string name="fmt_struct_text">"ຮູບແບບໂຄງສ້າງ"</string>
+    <string name="fmt_xml_text">"ຮູບແບບ XML"</string>
+    <string name="event_report_settings_text">"ການຕັ້ງຄ່າການລາຍງານເຫດການ"</string>
+    <string name="enable_publish_trigger_ind_text">"ເປີດໃຊ້ເຜີຍແຜ່ການຊີ້ບອກຕົວກະຕຸ້ນ"</string>
+    <string name="enable_enabler_state_ind_text">"ເປີດໃຊ້ການຊີ້ບອກສະຖານະຕົວເປີດໃຊ້"</string>
+    <string name="enable_notify_ind_text">"ເປີດໃຊ້ງານ ແຈ້ງບອກການຊີ້ບອກ"</string>
+    <string name="live_logging_text">"ການບັນທຶກສົດ"</string>
+    <string name="vt_settings_text">"ວິດີໂອ "</string>
+    <string name="ft_settings_text">"ໂອນໄຟລ໌ "</string>
+    <string name="ft_thumnail_text">"ຮູບຂະໜາດນ້ອຍ FT"</string>
+    <string name="ft_snf_text">"ເກັບມ້ຽນ ແລະສົ່ງຕໍ່ FT"</string>
+    <string name="atnt_vt_settings_text">"VoLTE/IR.94"</string>
+    <string name="atnt_chat_text">"ການສົ່ງຂໍ້ຄວາມ RCS "</string>
+    <string name="chat_settings_text">"ການສົນທະນາ "</string>
+    <string name="vt_setting">"ການຕັ້ງຄ່າວິດີໂອ"</string>
+    <string name="data_status">"ສະຖານະຂໍ້ມູນມືຖື"</string>
+    <string name="data_on_off_status">"ຂໍ້ມູນມືຖື : "</string>
+    <string name="refresh_contacts_text">"ຣີ​ເຟຣັຊ"</string>
+    <string name="auto_config_text">"ກຳນົດຄ່າອັດຕະໂນມັດ"</string>
+    <string name="Prefix">"ເລກນໍາໜ້າ"</string>
+    <string name="Suffix">"ເລກຕື່ມທ້າຍ"</string>
+    <string name="ApplyPrefix">"ໃຊ້ເລກນໍາໜ້າ"</string>
+    <string name="ApplySuffix">"ໃຊ້ເລກຕື່ມທ້າຍ"</string>
+    <string name="Applytoall">"ໃຊ້ກັບທັງໝົດ"</string>
+    <string name="Uri"> </string>
+    <string name="ims_enabler_toast_text">"ຜົນສະຖານະຕົວເປີດໃຊ້ IMS ="</string>
+    <string name="close_dialog_title">"ປິດແອັບພລິເຄຊັນ"</string>
+    <string name="close_dialog_message">"ທ່ານຕ້ອງການປິດແອັບພລິເຄຊັນນີ້ບໍ?"</string>
+    <string name="close_dialog_positive_button">"ແມ່ນ"</string>
+    <string name="close_dialog_negative_button">"ບໍ່"</string></resources>

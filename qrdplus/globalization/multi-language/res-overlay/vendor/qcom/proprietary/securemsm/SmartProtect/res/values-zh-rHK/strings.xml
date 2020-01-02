@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtect"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"應用程式資訊"</string>
+    <string name="title_trusted">"可信應用程式"</string>
+    <string name="title_about">"關於"</string>
+    <string name="title_settings">"設定"</string>
+    <string name="drawer_open_title">"Snapdragon Smart Protect"</string>
+<string name="service_status_on">"開啟"</string>
+    <string name="service_status_off">"關閉"</string>
+    <string name="err_title">"應用程式錯誤"</string>
+    <string name="err_msg_init">"Snapdragon Smart Protect 無法初始化 QSSP 程式庫。正在停止服務"</string>
+    <string name="err_msg_load_model">"Snapdragon Smart Protect 無法載入樣本。正在停止服務"</string>
+    <string name="err_msg_malicious_alert">"Snapdragon Smart Protect 無法註冊惡意警告。正在停止服務"</string>
+    <string name="err_msg_benign_alert">"Snapdragon Smart Protect 無法註冊良性警告。正在停止服務"</string>
+    <string name="err_msg_service_not_up">"Snapdragon Smart Protect 無法再找到服務。"</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"保留一切權利。"</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ Smart Protect 是 Qualcomm Technologies, Inc. 的產品"</string>
+    <string name="about_information_line2">"Qualcomm 和 Snapdragon 是 Qualcomm Incorporated 在美國及其他國家/地區的註冊商標，經許可使用。"</string>
+    <string name="btn_restore_default">"還原預設設定"</string>
+    <string name="btn_clear_history">"清除 SMART PROTECT 歷史記錄"</string>
+    <string name="trusted_btn">"新增至可信應用程式清單"</string>
+    <string name="uninstall_btn">"解除安裝"</string>
+    <string name="details_btn">"詳細資料"</string>
+    <string name="done_btn">"完成"</string>
+    <string name="remove_trusted_btn">"從可信應用程式清單移除"</string>
+    <string name="uninstall_confirm_message">"您要解除安裝這個應用程式嗎？?"</string>
+    <string name="uninstall_success">"套件解除安裝成功"</string>
+    <string name="uninstall_failed">"套件解除安裝失敗"</string>
+    <string name="clear_history_done">"歷史記錄清除成功"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon Smart Protect"</string>
+    <string name="drawer_threats">"偵測到威脅 (%1$s)"</string>
+    <string name="drawer_threat_null">"即時的裝置上隱私保護與惡意軟件偵測"</string>
+    <string name="drawer_option_dashboard">"儀表板"</string>
+    <string name="drawer_option_trusted_apps">"可信應用程式"</string>
+    <string name="drawer_option_settings">"設定"</string>
+    <string name="drawer_option_about">"關於"</string>
+    <string name="dashboard_list_title">"選取應用程式以查看 Snapdragon Smart Protect 詳細資料與建議。"</string>
+    <string name="dashboard_list_empty">"沒有應用程式受到監察。"</string>
+    <string name="app_info_recommend">"建議:"</string>
+    <string name="app_info_version">"版本"</string>
+    <string name="app_uninstalled">"應用程式已不再位於裝置上。請按「確定」結束。"</string>
+    <string name="malicious_item_threat">"Snapdragon Smart Protect 偵測到:"</string>
+    <string name="malicious_item_confidence">"信心水平:"</string>
+    <string name="malicious_item_analysis">"分析"</string>
+    <string name="malicious_recommend">"解除安裝"</string>
+    <string name="good_threat">"未偵測到威脅。"</string>
+    <string name="good_recommend">"請選取「完成」，以便 Snapdragon Smart Protect 繼續監察此應用程式。"</string>
+    <string name="good_title">"良好"</string>
+    <string name="trusted_item_title">"Snapdragon Smart Protect 不會監察 %1$s 的活動，因為它在您的可信應用程式清單中。\n\n如果您不確定此應用程式是否安全，請將其從可信應用程式清單中移除。"</string>
+    <string name="trusted_list_title">"Snapdragon Smart Protect 不會監察此清單中的應用程式。"</string>
+    <string name="trusted_list_subtitle">"如果您不確定此應用程式是否安全，請將其從可信應用程式清單中移除。"</string>
+    <string name="trusted_list_empty">"您的可信應用程式清單中沒有應用程式。"</string>
+    <string name="trusted_list_empty_desc">"這會為您提供最大程度的保護，因為 Snapdragon Smart Protect 會監察您的所有應用程式。"</string>
+    <string name="trusted_confirm_message">"您要將此應用程式新增到您的可信應用程式清單嗎?\n\n如果您不確定此應用程式是否安全，請選取「取消」。"</string>
+    <string name="malicious_ntf_message">"Snapdragon Smart Protect 在 %1$s 中偵測到惡意活動。"</string>
+    <string name="malicious_ntf_recommend">"建議:解除安裝"</string>
+    <string name="malicious_dialog_title">"惡意"</string>
+    <string name="malicious_text">"惡意"</string>
+    <string name="malware_ntf_message">"Snapdragon Smart Protect 在 %1$s 中偵測到惡意軟件。"</string>
+    <string name="malware_dialog_title">"偵測到惡意軟件"</string>
+    <string name="malware_title">"惡意軟件"</string>
+    <string name="spyware_ntf_message">"Snapdragon Smart Protect 在 %1$s 中偵測到間諜軟件。"</string>
+    <string name="spyware_dialog_title">"偵測到間諜軟件"</string>
+    <string name="spyware_title">"間諜軟件"</string>
+    <string name="adware_ntf_message">"Snapdragon Smart Protect 在 %1$s 中偵測到廣告軟件。"</string>
+    <string name="adware_dialog_title">"偵測到廣告軟件"</string>
+    <string name="adware_title">"廣告軟件"</string>
+<string name="err_no_app_dashborad">"儀表板應用程式清單為空"</string>
+    <string name="analysis_title">"%1$s 可能存在惡意，原因如下:"</string>
+    <string name="service_label">"Sphinx 服務"</string>
+    <string name="unknown_code">" 代碼 - %1$d"</string>
+    <string name="default_code_detail">"應用程式正嘗試進行惡意活動。"</string>
+    <string-array name="malicious_ntf_info">
+        <item>"可能正在對您的裝置執行有害活動。"</item>
+        <item>"級別 1 惡意軟件:對使用者內容、應用程式和裝置執行有害活動。"</item>
+        <item>"級別 2 惡意軟件:執行的活動可能花費使用者的資金。"</item>
+        <item>"級別 3 間諜軟件:洩露/竊取內容以及主動監視窺探使用者。"</item>
+        <item>"級別 4 間諜軟件:洩露/竊取中繼使用者資訊。"</item>
+        <item>"級別 5 間諜軟件:洩露/竊取裝置敏感資訊。"</item>
+        <item>"級別 6 騷擾軟件:過分積極的廣告軟件和/或侵入式應用程式。"</item>
+    </string-array>
+    <string name="setting_level1_title">"級別 1 惡意軟件"</string>
+    <string name="setting_level2_title">"級別 2 惡意軟件"</string>
+    <string name="setting_level3_title">"級別 3 間諜軟件"</string>
+    <string name="setting_level4_title">"級別 4 間諜軟件"</string>
+    <string name="setting_level5_title">"級別 5 間諜軟件"</string>
+    <string name="setting_level6_title">"級別 6 廣告軟件"</string>
+    <string name="setting_mode_title">"模式"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"彈出式與標準警告"</item>
+        <item>"標準警告"</item>
+        <item>"無警告"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"正常模式"</item>
+        <item>"靜音模式"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array></resources>

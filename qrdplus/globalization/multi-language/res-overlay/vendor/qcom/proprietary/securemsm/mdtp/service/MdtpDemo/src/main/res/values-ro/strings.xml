@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"MdtpDemo"</string>
+    <string name="user_app">"Aplicaţie utilizator MDTP: Ecran principal"</string>
+    <string name="config_app">"Aplicaţie utilizator MDTP: Configurare"</string>
+    <string name="server_app">"Server MDTP: Ecran principal"</string>
+    <string name="action_settings">"Setări"</string>
+    <string name="label_1_1">"Stare MDTP:"</string>
+    <string name="state_deactivated">"Dezactivat"</string>
+    <string name="state_activated">"Activat"</string>
+    <string name="configuration">"Configurare (numai înainte de activare)"</string>
+    <string name="service_activate">"Solicitare activare MDTP din partea serviciilor MDTP"</string>
+    <string name="service_deactivate">"Solicitare dezactivare MDTP din partea serviciilor MDTP"</string>
+    <string name="local_deactivate">"Dezactivare MDTP local (folosind PIN)"</string>
+    <string name="service_console">"Consolă servicii MDTP"</string>
+    <string name="title_activity_configuration">"Configurare utilizator"</string>
+    <string name="label_2_1">"Utilizare PIN local:"</string>
+    <string name="label_2_2">"Cod PIN:"</string>
+    <string name="gen_rand_pin">"Generare PIN aleator"</string>
+    <string name="label_2_3">"Raport verificare:"</string>
+    <string name="label_2_5">"Activare blocare SIM:"</string>
+    <string name="label_2_6">"Fişiere/directoare suplimentare de verificat:"</string>
+    <string name="reset">"Resetaţi la valorile prestabilite"</string>
+    <string name="label_3_1">"Trimitere comenzi de la server la dispozitiv:"</string>
+    <string name="activate">"Activaţi"</string>
+    <string name="deactivate">"Dezactivaţi"</string>
+    <string name="locksim">"Blocare SIM"</string>
+    <string name="unlocksim">"Deblocare SIM"</string>
+    <string name="killfunc">"Funcţionalitate închidere"</string>
+    <string name="restorefunc">"Restaurare funcţionalitate"</string>
+    <string name="label_3_2">"Solicitări pentru dezactivare MDTP:"</string>
+    <string name="notallowed">"Nepermis"</string>
+    <string name="allowed">"Permis"</string>
+    <string name="label_3_3">"Solicitări pentru deblocare expert configurare:"</string>
+    <string name="label_3_4">"Jurnal de service:"</string>
+    <string name="wizard_app_loading_title">"Expert configurare MDTP: Se iniţializează..."</string>
+    <string name="label_4_1">"Expert configurare este blocat deoarece starea MDTP este activat"</string>
+    <string name="label_4_2">"Opţiunea A: Menţineţi MDTP activat, dar solicitaţi autorizare din partea serverului"</string>
+    <string name="wiz_unblock">"Solicitaţi deblocarea expertului de configurare din partea serviciilor MDTP"</string>
+    <string name="wiz_cont">"Continuare (autorizată de server)"</string>
+    <string name="label_4_3">"Opţiunea B: Dezactivaţi MDTP (va elimina blocarea expertului de configurare)"</string>
+    <string name="wiz_remote">"Solicitare dezactivare MDTP la distanţă"</string>
+    <string name="wiz_local">"Dezactivare MDTP local"</string>
+    <string name="label_4_4">"Expertul de configurare poate continua deoarece starea MDTP NU este activat"</string>
+    <string name="wiz_complete">"Finalizare expert configurare (starea MDTP nu este activat)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"Expert de configurare"</string>
+    <string name="label_signup_message">"MDTP nu este momentan activat.\nDoriţi să îl activaţi?"</string>
+    <string name="label_signup_message_activated">"MDTP a fost activat cu succes!"</string>
+    <string name="skip_activation">"Ignorare activare"</string>
+    <string name="emergency_dialer">"Telefon de urgenţă"</string>
+    <string name="wiz_title_sign_up">"Expert configurare MDTP - Înregistrare"</string>
+    <string name="wiz_title_reset_prot">"Expert configurare MDTP - Protecţie resetare fabrică"</string>
+    <string name="wiz_title_boot_block">"Expert configurare MDTP - Dispozitivul este blocat"</string>
+    <string name="block_boot_warning_text">"MDTP a blocat acest dispozitiv din cauza unei erori interne.\n\nReiniţializaţi dispozitivul."</string>
+    <string name="start_wifi_wizard">"Configurare WiFi"</string>
+    <string name="default_pin_hint">"PIN-ul implicit este 11111"</string>
+    <string name="pin_dialog_title">"PIN dezactivare locală MDTP necesar"</string>
+    <string name="pin_input_validation_warning">"Intrarea trebuie să fie din 5 cifre şi numerică"</string></resources>

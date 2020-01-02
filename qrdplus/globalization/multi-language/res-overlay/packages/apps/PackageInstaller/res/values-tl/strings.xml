@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Installer ng package"</string>
+    <string name="next">"Susunod"</string>
+    <string name="install">"Mag-install"</string>
+    <string name="done">"Tapos na"</string>
+    <!-- TODO REMOVE LATER -->
+    <string name="security_settings_desc">"Payagan ang app na ito na:"</string>
+    <string name="cancel">"Kanselahin"</string>
+    <string name="unknown">"Hindi Kilala"</string>
+    <string name="installing">"Nag-i-install\u2026"</string>
+    <string name="install_done">"Na-install ang app."</string>
+    <!-- Message for installing a new app that requires some permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question">"Nais mo bang i-install ang application na ito? Magkakaroon ito ng access sa:"</string>
+    <!-- Message for installing a new app that does not require permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_no_perms">"Nais mo bang i-install ang application na ito? Hindi ito nangangailangan ng anumang espesyal na access."</string>
+    <!-- Message for updating an existing app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update">"Nais mo bang mag-install ng update sa umiiral nang application na ito? Hindi mawawala ang iyong umiiral nang data. Magkakaroon ng access ang na-update na application sa:"</string>
+    <!-- Message for updating an existing system app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_system">"Nais mo bang mag-install ng update sa built-in na application na ito? Hindi mawawala ang iyong umiiral na data. Magkakaroon ng access ang na-update na application sa:"</string>
+    <!-- Message for updating an existing app, no permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_no_perms">"Nais mo bang mag-install ng update sa umiiral na application na ito? Hindi mawawala ang iyong umiiral na data. Hindi ito nangangailangan ng anumang espesyal na access."</string>
+    <!-- Message for updating an existing system app, no permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_system_no_perms">"Nais mo bang mag-install ng update sa built-in na application na ito? Hindi mawawala ang iyong umiiral na data. Hindi ito nangangailangan ng anumang espesyal na access."</string>
+    <string name="install_failed">"Hindi na-install ang app."</string>
+    <!-- Reason displayed when installation fails because the installation package itself is invalid
+        in some way (e.g., corrupt) [CHAR LIMIT=100] -->
+    <string name="install_failed_invalid_apk">"Lumilitaw na corrupt ang package."</string>
+    <!-- Reason displayed when installation fails because the package an existing package is
+        installed with a conflicting package author signature [CHAR LIMIT=100] -->
+    <string name="install_failed_inconsistent_certificates">"Naka-install na ang isang umiiral na package na may parehong pangalan na may sumasalungat na lagda."</string>
+    <!-- Reason displayed when installation fails because the package specifies a minimum compatible
+        OS version that is newer than our current OS version. [CHAR LIMIT=100] -->
+    <string name="install_failed_older_sdk">"Gumagana lamang ang package sa mga mas bagong bersyon ng Android."</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">"Hindi tugma ang app na ito sa iyong tablet."</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current TV doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tv">"Ang app na ito ay hindi  compatible sa iyong TV."</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current phone doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="default">"Hindi tugma ang app na ito sa iyong telepono."</string>
+    <!-- Reason displayed when installation fails because the package was deleted during the
+        installation process. [CHAR LIMIT=100] -->
+    <string name="install_failed_file_not_found">"Natanggal ang tinukoy na package bago makumpleto ang pag-install."</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        because the package verifier rejected it. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_failed">"Ang package ay hindi pumasa sa pagpapatunay at hindi maaaring ma-install."</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        before the internal system timer expired. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_timeout">"May naganap na timeout habang sinusubukang i-verify ang package. Subukan itong i-install muli."</string>
+    <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tablet">"Hindi ma-install ang <xliff:g id="APP_NAME">%1$s</xliff:g> sa iyong tablet."</string>
+    <!-- Message presented when an application could not be installed on the TV for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tv">"Hindi na-install ang <xliff:g id="app_name">%1$s</xliff:g> sa iyong TV."</string>
+    <!-- Message presented when an application could not be installed on the phone for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="default">"Hindi ma-install ang <xliff:g id="APP_NAME">%1$s</xliff:g> sa iyong telepono."</string>
+    <string name="launch">"Buksan"</string>
+    <string name="unknown_apps_dlg_title">"Naka-block ang pag-install"</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tablet">"Pra sa seguridad, nka-set ang tablet mong i-block ang pag-install ng apps mula sa di-klalang source."</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tv">"Para sa seguridad, nakatakda ang iyong TV na i-block ang pag-install ng apps na nakuha mula sa mga hindi kilalang pinagmulan."</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="default">"Pra sa seguridd, naka-set ang phone mong i-block ang pag-install ng apps mula sa di-kilalang source."</string>
+    <!-- Message presented in a dialog box when the device administrator restricts the installation of apps from unknown sources. [CHAR LIMIT=none] -->
+    <string name="unknown_apps_admin_dlg_text">"Hindi pinapayagan ng iyong administrator ang pag-install ng apps na nakuha mula sa mga hindi kilalang pinagmulan."</string>
+    <string name="ok">"OK"</string>
+    <string name="settings">"Mga setting"</string>
+    <!-- Title of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_title">"Bagong pinagmumulan para sa apps"</string>
+    <!-- Message of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_text">"Gustong mag-install ng <xliff:g id="APP_NAME">%1$s</xliff:g> ng iba pang apps.\n\nPayagan ito ngayon at sa hinaharap?"</string>
+    <string name="manage_applications">"Pamahalaan ang apps"</string>
+    <string name="dlg_app_replacement_title">"Palitan ang app?"</string>
+    <string name="dlg_app_replacement_statement">"Papalitan ng app na iyong ini-install ang isa pang app.\n\nMase-save ang lahat ng iyong nakaraang data ng user."</string>
+    <!-- Dialog attributes when replacing system app -->
+    <string name="dlg_sys_app_replacement_statement">"Isa itong app ng system.\n\nMase-save ang lahat ng iyong nakaraang data ng user."</string>
+    <string name="out_of_space_dlg_title">"Wala ng espasyo"</string>
+    <string name="out_of_space_dlg_text">"Hindi ma-install ang <xliff:g id="APP_NAME">%1$s</xliff:g>. Magbakante ng ilang espasyo at subukang muli."</string>
+    <!-- strings related to uninstall activity -->
+    <string name="dlg_ok">"OK"</string>
+    <string name="app_not_found_dlg_title">"Hindi makita ang app"</string>
+    <string name="app_not_found_dlg_text">"Hindi makita ang app sa listahan ng naka-install na apps."</string>
+    <string name="uninstall_application_title">"I-uninstall ang app"</string>
+    <string name="uninstall_update_title">"I-uninstall ang update"</string>
+    <string name="uninstall_activity_text">"Bahagi ang <xliff:g id="ACTIVITY_NAME">%1$s</xliff:g> ng sumusunod na app:"</string>
+    <string name="uninstall_application_text">"Nais mo bang i-uninstall ang app na ito?"</string>
+    <string name="uninstall_application_text_all_users">"Nais mo bang i-uninstall ang app na ito para sa "<b>"lahat"</b>" ng user? Aalisin ang application at ang data nito mula sa "<b>"lahat"</b>" ng user sa device."</string>
+    <string name="uninstall_application_text_user">"Gusto mo bang i-uninstall ang app na ito para sa user na si <xliff:g id="USERNAME">%1$s</xliff:g>?"</string>
+    <string name="uninstall_update_text">"Nais mo bang palitan ang app na ito ng bersyon ng factory?"</string>
+    <string name="uninstalling">"Ina-uninstall\u2026"</string>
+    <string name="uninstall_done">"Natapos ang pag-uninstall."</string>
+    <string name="uninstall_failed">"Di-matagumpay ang pag-uninstall."</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator [CHAR LIMIT=80] -->
+    <string name="uninstall_failed_device_policy_manager">"Hindi ma-uninstall dahil aktibong administrator ng device ang package na ito."</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator for some user [CHAR LIMIT=100] -->
+    <string name="uninstall_failed_device_policy_manager_of_user">"Aktibong administrator ng device para sa user <xliff:g id="USERNAME">%1$s</xliff:g> itong package, hindi ma-uninstall."</string>
+    <!-- String presented to the user when uninstalling a package failed because a profile owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_profile_owner">"Kinakailangan ang app na ito sa iyong profile sa trabaho at hindi maaaring i-install."</string>
+    <!-- String presented to the user when uninstalling a package failed because a device owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_device_owner">"Kinakailangan app na ito ng administrator ng device mo at di maaari i-uninstall."</string>
+    <!-- String on a button that leads to the "device administrator" configuration setting where a
+        user will be able to disable the device administrator in order to uninstall
+        it. [CHAR LIMIT=50] -->
+    <string name="manage_device_administrators">"Pamahalaan ang mga administrator ng device"</string>
+    <string name="uninstall_failed_msg">"Hindi ma-install ang <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
+    <!-- Dialog attributes to indicate parse errors -->
+    <string name="Parse_error_dlg_title">"Error sa pag-parse"</string>
+    <string name="Parse_error_dlg_text">"Nagkaroon ng problema sa pag-parse sa package."</string>
+    <!-- Tab label for new permissions being added to an existing app [CHAR LIMIT=20] -->
+    <string name="newPerms">"Bago"</string>
+    <!-- Tab label for all permissions of an app being installed [CHAR LIMIT=20] -->
+    <string name="allPerms">"Lahat"</string>
+    <!-- Tab label for permissions related to user privacy [CHAR LIMIT=20] -->
+    <string name="privacyPerms">"Privacy"</string>
+    <!-- Tab label for permissions related to device behavior [CHAR LIMIT=20] -->
+    <string name="devicePerms">"Access sa Device"</string>
+    <!-- Body text for new tab when there are no new permissions [CHAR LIMIT=NONE] -->
+    <string name="no_new_perms">"Walang kinakailangang mga bagong pagpapahintulot ang update na ito."</string>
+    <string name="grant_confirm_question">"Gusto mo bang ibigay ang mga sumusunod na pahintulot? Magkakaroon ito ng access sa:"</string>
+    <!-- Title for the dialog button to allow a permission grant. -->
+    <string name="grant_dialog_button_allow">"Payagan"</string>
+    <!-- Title for the dialog button to deny a permission grant. -->
+    <string name="grant_dialog_button_deny">"Tanggihan"</string>
+    <!-- Template for the current permission from the total number of permissions. -->
+    <string name="current_permission_template">"<xliff:g id="CURRENT_PERMISSION_INDEX">%1$s</xliff:g> ng <xliff:g id="PERMISSION_COUNT">%2$s</xliff:g>"</string>
+    <!-- Template for the warning message when an app requests a permission. -->
+    <string name="permission_warning_template">"Payagan ang <xliff:g id="APP_NAME">%1$s</xliff:g> na <xliff:g id="ACTION">%2$s</xliff:g>?"</string>
+    <!-- Breadcrumb for page of managing application permissions [CHAR LIMIT=50] -->
+    <string name="app_permissions_breadcrumb">"Mga App"</string>
+    <!-- Title for page of managing application permissions -->
+    <string name="app_permissions">"Mga pahintulot sa app"</string>
+    <!-- Checkbox that allows user to not be questioned about this permission
+         request again -->
+    <string name="never_ask_again">"Huwag kailanman itanong muli"</string>
+    <!-- Label when app requests no permissions -->
+    <string name="no_permissions">"Walang mga pahintulot"</string>
+    <!-- Label for button that leads to more permissions [CHAR LIMIT=40] -->
+    <string name="additional_permissions">"Mga karagdagang pahintulot"</string>
+    <!-- Description of how many more permissions to view on next page [CHAR LIMIT=30] -->
+    <plurals name="additional_permissions_more">
+        <item quantity="one">"<xliff:g id="COUNT">%1$d</xliff:g> pa"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g> pa"</item>
+    </plurals>
+    <!-- Warning for turning off permissions on older apps -->
+    <string name="old_sdk_deny_warning">"Ang app na ito ay idinisenyo para sa mas lumang bersyon ng Android. Kapag tinanggihan ang pahintulot, maaaring hindi na ito gumana ayon sa inaasahan."</string>
+    <!-- The default description of a permission, i.e. what it does.  [CHAR LIMIT=40] -->
+    <string name="default_permission_description">"gumawa ng hindi kilalang pagkilos"</string>
+    <!-- Summary of number of apps currently granted a single permission [CHAR LIMIT=45] -->
+   <string name="app_permissions_group_summary">"Pinapayagan ang <xliff:g id="COUNT_0">%1$d</xliff:g> sa <xliff:g id="COUNT_1">%2$d</xliff:g> (na) app"</string>
+   <!-- [CHAR LIMIT=NONE] Menu for manage permissions to control whether system apps are shown -->
+   <string name="menu_show_system">"Ipakita ang system"</string>
+   <!-- [CHAR LIMIT=NONE] Menu for manage permissions to control whether system apps are hidden -->
+   <string name="menu_hide_system">"Itago ang system"</string>
+   <!-- [CHAR LIMIT=30] Title for page managing what apps have a permission granted -->
+   <string name="permission_title">"Mga pahintulot sa <xliff:g id="PERMISSION">%1$s</xliff:g>"</string>
+   <!-- [CHAR LIMIT=NONE] Label when no apps requesting this permission -->
+   <string name="no_apps">"Walang mga app"</string>
+   <!-- [CHAR LIMIT=30] Title of button that leads to location settings -->
+   <string name="location_settings">"Mga Setting ng Lokasyon"</string>
+   <!-- [CHAR LIMIT=NONE] Warning about how this app cannot have location permission disabled -->
+   <string name="location_warning">"Ang <xliff:g id="APP_NAME">%1$s</xliff:g> ay isang provider ng mga serbisyo sa lokasyon para sa device na ito. Mababago ang access sa lokasyon mula sa mga setting ng lokasyon."</string>
+   <!-- [CHAR LIMIT=NONE] Warning message when turning off permission for system apps -->
+   <string name="system_warning">"Kung tatanggihan mo ang pahintulot na ito, maaaring hindi na gumana ang mga pangunahing feature ng iyong device gaya ng inaasahan."</string>
+   <!-- [CHAR LIMIT=NONE] Summary of a permission switch when it's enforced by policy -->
+   <string name="permission_summary_enforced_by_policy">"Ipinapatupad sa pamamagitan ng patakaran"</string>
+   <!-- Text displayed until loading is done -->
+   <string name="loading">"Naglo-load..."</string>
+   <!-- [CHAR LIMIT=45] Title of all permissions settings -->
+   <string name="all_permissions">"Lahat ng pahintulot"</string>
+   <!-- [CHAR LIMIT=45] Group of permissions granted to app automatically when installed. -->
+   <string name="other_permissions">"Iba pang mga kakayahan ng app"</string>
+   <!-- Title of the permission dialog for accessibility purposes- spoken to the user. [CHAR LIMIT=none] -->
+   <string name="permission_request_title">"Kahilingan sa pagpapahintulot"</string>
+    <!-- Title for the dialog that warns the user they need to turn off screen overlays
+         before permissions can be changed. [CHAR LIMIT=NONE] -->
+   <string name="screen_overlay_title">"Natukoy ang overlay ng screen"</string>
+   <!-- Message for the dialog that warns the user they need to turn off screen overlays
+        before permissions can be changed. The "Settings > Apps" conveys to the user to
+        go to Settings and click on apps, this may need updates in RTL languages. [CHAR LIMIT=NONE] -->
+   <string name="screen_overlay_message">"Upang baguhin ang setting ng pahintulot na ito, kailangan mo munang i-off ang overlay ng screen mula sa Mga Setting &gt; Mga App"</string>
+    <!-- Button for the dialog that warns the user they need to turn off screen overlays
+         before permissions can be changed. [CHAR LIMIT=NONE] -->
+    <string name="screen_overlay_button">"Buksan ang mga setting"</string></resources>

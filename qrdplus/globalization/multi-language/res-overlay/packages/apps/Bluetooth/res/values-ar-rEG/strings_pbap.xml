@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pbap_session_key_dialog_title">"‏اكتب مفتاح الجلسة لـ %1$s"</string>
+    <string name="pbap_session_key_dialog_header">"يلزم مفتاح جلسة البلوتوث"</string>
+    <string name="pbap_acceptance_timeout_message">"‏انتهت مهلة قبول الاتصال مع %1$s"</string>
+    <string name="pbap_authentication_timeout_message">"‏انتهت مهلة إدخال مفتاح الجلسة مع %1$s"</string>
+    <string name="auth_notif_ticker">"‏طلب مصادقة Obex"</string>
+    <!-- Notification title when a Bluetooth device wants to pair with us -->
+    <string name="auth_notif_title">"مفتاح الجلسة"</string>
+    <!-- Notification message when a Bluetooth device wants to pair with us -->
+    <string name="auth_notif_message">"‏اكتب مفتاح الجلسة لـ %1$s"</string>
+    <string name="defaultname">"مجموعة أدوات السيارة"</string>
+    <string name="unknownName">"اسم غير معروف"</string>
+    <string name="localPhoneName">"اسمي"</string>
+    <string name="defaultnumber">000000</string></resources>

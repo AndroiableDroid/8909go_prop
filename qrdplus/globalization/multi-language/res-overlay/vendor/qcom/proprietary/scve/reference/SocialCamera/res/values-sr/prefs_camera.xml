@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"Камера"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"Примарно"</item>
+        <item>"Предња"</item>
+        <item>"Камера 3"</item>
+        <item>"Камера 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"Величина слике"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9,7 MP, 16:9)"</item>
+        <item>"3840x2160 (8,3 MP, 16:9, UHD 4K)"</item>
+        <item>"3200x1800 (5,8 MP, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (4,1 MP, 16:9)"</item>
+        <item>"2592x1458 (3,8 MP, 16:9)"</item>
+        <item>"1920x1080 (2,1 MP, 16:9, HD 1080 p)"</item>
+        <item>"1280x720 (0,9 MP, 16:9, HD 720 p)"</item>
+        <item>"864x480 (0,4 MP, 16:9)"</item>
+        <item>"4160x3120 (13MP, 4:3)"</item>
+        <item>"4000x3000 (12MP, 4:3)"</item>
+        <item>"3264x2448 (8MP, 4:3)"</item>
+        <item>"3200x2400 (7,7 MP, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (5MP, 4:3)"</item>
+        <item>"2048x1536 (3,1 MP, 4:3, QXGA)"</item>
+        <item>"1920x1440 (2,8 MP, 4:3)"</item>
+        <item>"1600x1200 (1,9 MP, 4:3, UXGA)"</item>
+        <item>"1280x960 (1,2 MP, 4:3, UVGA)"</item>
+        <item>"1024x768 (0,8 MP, 4:3, XGA)"</item>
+        <item>"800x600 (0,5 MP, 4:3, SVGA)"</item>
+        <item>"640x480 (0,3 MP, 4:3, VGA)"</item>
+        <item>"320x240 (0,1 MP, 4:3, QVGA)"</item>
+        <item>"3264x2176 (7,1 MP, 3:2)"</item>
+        <item>"2592x1728 (4,5 MP, 3:2)"</item>
+        <item>"720x480 (0,3 MP, 3:2)"</item>
+        <item>"4160x2774 (11,5 MP, 3:2)"</item>
+        <item>"2976x2976 (8,9 MP, 1:1)"</item>
+        <item>"1280x768 (1MP, 5:3)"</item>
+        <item>"800x480 (0,4 MP, 5:3)"</item>
+        <item>"352x288 (0,1 MP, 11:9)"</item>
+        <item>"176x144 (0MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"Прегледај величину"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"Усклади са величином приказа"</item>
+        <item>"Преглед високе резолуције (до 4 MP)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"Режим сцене"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"Аутоматски"</item>
+        <item>"Снимак акције"</item>
+        <item>"Бар код"</item>
+        <item>"Плажа"</item>
+        <item>"Свеће"</item>
+        <item>"Лица"</item>
+        <item>"Ватромет"</item>
+        <item>HDR</item>
+        <item>"Брзи видео"</item>
+        <item>"Пејзажи"</item>
+        <item>"Ноћ"</item>
+        <item>"Журка"</item>
+        <item>"Особе"</item>
+        <item>"Људи ноћу"</item>
+        <item>"Снег"</item>
+        <item>"Спорт"</item>
+        <item>"Миран снимак"</item>
+        <item>"Залазак сунца"</item>
+        <item>"Позориште"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"Контрола експозиције"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"Аутоматски"</item>
+        <item>"Фиксно"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"Компензација експозиције"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"Фокус"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"Аутоматски"</item>
+        <item>"Фиксно"</item>
+        <item>"Непрекидни (слика)"</item>
+        <item>"Непрекидни (видео)"</item>
+        <item>"Макро"</item>
+        <item>"Проширена дубина поља"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"Контрола баланса беле"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"Аутоматски"</item>
+        <item>"Искључено"</item>
+        <item>"Усијано осветљење"</item>
+        <item>"Флуоресцентно осветљење"</item>
+        <item>"Топло флуоресцентно осветљење"</item>
+        <item>"Дневна светлост"</item>
+        <item>"Облачан дан"</item>
+        <item>"Потамњено"</item>
+        <item>"Сумрак"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"Блиц"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"Аутоматски"</item>
+        <item>"Укључено"</item>
+        <item>"Искључено"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"Смањење шума"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"Укључено"</item>
+        <item>"Искључено"</item>
+        <item>"Висок квалитет"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"Исправљање затамњености објектива"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"Укључено"</item>
+        <item>"Искључено"</item>
+        <item>"Висок квалитет"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"Исправљање девијација"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"Укључено"</item>
+        <item>"Искључено"</item>
+        <item>"Висок квалитет"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"Појачање ивица"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"Укључено"</item>
+        <item>"Искључено"</item>
+        <item>"Висок квалитет"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"Исправљање тренутног пиксела"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"Укључено"</item>
+        <item>"Искључено"</item>
+        <item>"Висок квалитет"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"Режим стабилизације"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"Искључено"</item>
+        <item>"Оптички"</item>
+        <item>"Дигитални"</item>
+    </string-array></resources>

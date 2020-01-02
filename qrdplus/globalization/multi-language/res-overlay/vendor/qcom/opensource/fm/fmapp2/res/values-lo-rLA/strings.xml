@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"ວິທະ​ຍຸ FM"</string>
+    <string name="tx_app_name">"FM Tx"</string>
+    <string name="default_sleep"></string>
+    <string name="menu_add_to_preset">"ເພີ່ມໃສ່ຕັ້ງໄວ້ກ່ອນ"</string>
+    <string name="menu_settings">"ການຕັ້ງຄ່າ"</string>
+    <string name="menu_record_start">"ເລີ່ມການບັນທຶກ"</string>
+    <string name="menu_record_stop">"ຢຸດການອັດບັນທຶກ"</string>
+    <string name="menu_all_channels">"ທຸກຊ່ອງ"</string>
+    <string name="app_label_all_channels">"ທຸກຊ່ອງ"</string>
+    <string name="button_ok">"ຕົກລົງ"</string>
+    <string name="button_cancel">"ຍົກ​ເລີກ"</string>
+    <string name="button_delete">"ລຶບ"</string>
+    <string name="error_sdcard_access">"ບໍ່ສາມາດເຂົ້າຫາແຜ່ນ SD ໄດ້"</string>
+    <string name="fm_service_started">"ການບໍລິການ FM"</string>
+    <string name="menu_sleep">"ນອນຫຼັບ"</string>
+    <string name="menu_sleep_cancel">"ຍົກເລີກການນອນ"</string>
+    <string name="menu_wired_headset">"ຫູຟັງແບບສາຍ"</string>
+    <string name="menu_speaker_on">"ເປີດໃຊ້ລໍາໂພງ"</string>
+    <string name="menu_display_tags">"ສະແດງປ້າຍຊື່"</string>
+    <string name="menu_speaker_off">"ປິດໃຊ້ງານລໍາໂພງ"</string>
+    <string name="menu_scan_start">"ສະແກນ"</string>
+    <string name="menu_scan_stop">"ຢຸດການຄົ້ນຫາ"</string>
+    <string name="menu_stats">"ສະຖິິຕິ FM RF"</string>
+    <string name="button_text_stop">"ຢຸດ"</string>
+    <string name="msg_seeking">"ກຳລັງຄົ້ນຫາສະຖານີ FM"</string>
+    <string name="msg_scanning">"ກຳລັງສະແກນຫາທຸກສະຖານີ FM"</string>
+    <string name="msg_scanning_pty">"ກຳລັງສະແກນຫາ <xliff:g id="pty_name">%1$s</xliff:g>"</string>
+    <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
+    <string name="msg_searching">"ກຳລັງຄົ້ນຫາສະຖານີສັນຍານແຮງເພື່ອສ້າງລາຍການທີ່ຕັ້ງໄວ້ກ່ອນ "</string>
+    <string name="msg_searching_title">"ເລືອກລາຍການທີ່ຕັ້ງໄວ້ກ່ອນອັດຕະໂນມັດ"</string>
+    <string name="msg_weak_searching">"ກຳລັງຄົ້ນຫາຄວາມຖີ່ເພື່ອຖ່າຍທອດ"</string>
+    <string name="msg_noantenna">"ກະລຸນາສຽບຫູຟັງເພື່ອໃຊ້ວິທະຍຸ FM "</string>
+    <string name="msg_headsetpluggedin">"ຕັດເຊື່ອມຕໍ່ທຸກຫູຟັງສໍາລັບການໃຊ້ FM Tx"</string>
+    <string name="msg_callactive">"FM Tx ບໍ່ຖືກຮອງຮັບເມື່ອມີການໂທດ້ວຍສຽງດໍາເນີນຢູ່"</string>
+    <string name="dialog_sleep_title">"ເລືອກປິດເວລານອນໂດຍອັດຕະໂນມັດ"</string>
+        <string name="preset_select_name">"ເລືອກ <xliff:g id="preset_name">%1$s</xliff:g>"</string>
+        <string name="presetlist_select_name">"ເລືອກ <xliff:g id="presetlist_name">%1$s</xliff:g>"</string>
+    <string name="presetlist_add_new">"ເພີ່ມລາຍການໃໝ່"</string>
+    <string name="dialog_presetlist_title">"ລາຍການຕັ້ງໄວ້ກ່ອນ"</string>
+        <string name="presetlist_prefix_name">FM - </string>
+        <string name="dialog_presetlist_rename_title">"ໃສ່ຊື່ "</string>
+        <string name="dialog_preset_rename_title">"ໃສ່ຊື່ "</string>
+        <string name="presetlist_delete_name">"ລຶບ <xliff:g id="presetlist_name">%1$s</xliff:g> ແລະສະຖານີຂອງມັນບໍ?"</string>
+        <string name="presetlist_autoselect_title">"ຢືນຢັນ ເລືອກອັດຕະໂນມັດ"</string>
+        <string name="presetlist_autoselect_name">"ເລືອກອັດຕະໂນມັດຈະລືຶບທຸກການຕັ້ງໄວ້ກ່ອນໃນລາຍການ <xliff:g id="presetlist_name">%1$s</xliff:g>, ສືບຕໍ່?"</string>
+        <string name="fmtx_autoselect_name">"ເລືອກອັດຕະໂນມັດຈະລຶບທຸກລາຍການທີ່ຕັ້ງໄວ້ກ່ອນ, ສືບຕໍ່ບໍ?"</string>
+    <string name="enter_frequency">"ປັບຫາສະຖານີ"</string>
+    <string name="enter_new_frequency_title">"ໃສ່ຄວາມຖີ່ "</string>
+    <string name="preset_now_playing">"ດຽວນີ້ກໍາລັງຫຼິ້ນ "</string>
+        <string name="preset_pref_title">"<xliff:g id="preset_name">%1$s</xliff:g>  (<xliff:g id="preset_freq">%2$s</xliff:g>)"</string>
+        <string name="preset_delete_title">"ລົບລາຍການທີ່ຕັ້ງໄວ້ກ່ອນ"</string>
+        <string name="preset_delete_name">"ລືບ <xliff:g id="preset_name">%1$s</xliff:g>  ອອກຈາກ <xliff:g id="presetlist_name">%2$s</xliff:g>"</string>
+        <string name="preset_confirm_delete_name">"ລືບ <xliff:g id="preset_name">%1$s</xliff:g>  ອອກຈາກ <xliff:g id="presetlist_name">%2$s</xliff:g> ?"</string>
+    <string name="preset_name_dialog_title">"ໃສ່ຊື່ "</string>
+    <string name="preset_name_summary">"<xliff:g id="preset_name">%1$s</xliff:g> "</string>
+    <string name="preset_name_title">"ປ່ຽນຊື່​ໃໝ່"</string>
+    <string name="preset_search_title">"ຄົ້ນຫາ"</string>
+    <string name="preset_search_name">"ກຳລັງຄົ້ນຫາ <xliff:g id="preset_name">%1$s</xliff:g>"</string>
+    <string name="preset_preference_title">"ສະຖານີ FM ໃນ <xliff:g id="preset_name">%1$s</xliff:g> "</string>
+    <string name="preset_empty_title">"ບໍ່ມີສະຖານີໃນລາຍການ"</string>
+    <string name="preset_empty_add_summary">"ເພີ່ມສະຖານີ"</string>
+    <string name="preset_add">"​ເພີ່​ມ"</string>
+    <string name="preset_replace">"ປ່ຽນແທນ"</string>
+    <string name="preset_tune">"ປັບຫາ"</string>
+    <string name="preset_rename">"ປ່ຽນຊື່​ໃໝ່"</string>
+    <string name="preset_delete">"ລຶບ"</string>
+    <string name="preset_search">"ກຳລັງຄົ້ນຫາ <xliff:g id="preset_pi">%1$s</xliff:g>  "</string>
+    <string name="stat_notif_frequency">"ສະຖານີວິທະຍຸ FM <xliff:g id="frequency">%1$s</xliff:g> MHz"</string>
+    <string name="stat_notif_tx_frequency">"ການກະຈາຍສຽງ FM ທີ່: <xliff:g id="frequency">%1$s</xliff:g> MHz"</string>
+    <string name="sel_band_menu">"ເລືອກຄື້້ນລະດັບພາກພື້ນ"</string>
+    <string name="test_menu">"ເລືອກການທົດສອບ"</string>
+    <string name="settings_menu">"ການຕັ້ງຄ່າ"</string>
+    <string name="regional_band">"ຄື້ນລະດັບພາກພືື້ນ"</string>
+    <string name="aud_output_mode">"ໂໝດສຽງອອກ"</string>
+    <string name="sel_audio_output">"ເລືອກສຽງອອກ"</string>
+    <string name="record_dur">"ໄລຍະເວລາບັນທຶກ"</string>
+    <string name="sel_rec_dur">"ເລືອກໄລຍະເວລາບັນທຶກ"</string>
+    <string name="auto_select_af">"ຄວາມຖີ່ທາງເລືອກ"</string>
+    <string name="auto_select_af_enabled">"ເລືອກອັດຕະໂນມັດເປີດໃຊ້ງານ"</string>
+    <string name="auto_select_af_disabled">"ເລືອກອັດຕະໂນມັດປິດໃຊ້ງານ"</string>
+    <string name="fac_defaults">"ຕັ້ງຄືນເປັນຄ່າຂອງໂຮງງານ"</string>
+    <string name="revert_to_fac">"ຕັ້ງຄືນເປັນຄ່າຂອງໂຮງງານ"</string>
+    <string name="settings_back">"ກັບ​ຄືນ"</string>
+    <string name="settings_revert_confirm_title">"ຢືນຢັນການຕັ້ງຄ່າພິມ"</string>
+    <string name="settings_revert_confirm_msg">"ນີ້ຈະລືບທຸກການຕັ້ງຄ່າລວມທັງລາຍການທີ່ຕັ້ງໄວ້ກ່ອນ"</string>
+    <string name="settings_back_summary">"ກັບຄືນຫາມູມມອງກ່ອນນີ້"</string>
+    <string name="settings_revert_defaults_title">"ຕັ້ງຄືນເປັນຄ່າຂອງໂຮງງານ"</string>
+    <string name="settings_revert_defaults_summary">"ຕັ້ງການຕັ້ງຄ່າທັງໝົດໃໝ່"</string>
+    <string name="audio_type_stereo">"ສະເຕເຣໂອ"</string>
+    <string name="audio_type_mono">"ສຽງໂມໂນ"</string>
+    <string name="default_band">"ສະຫະລັດ"</string>
+    <string name="default_audio">"ສະເຕເຣໂອ"</string>
+    <string name="default_record_duration">"5 ນາທີ"</string>
+    <string name="factory_reset_dialog_title">"ຢືນຢັນການຕັ້ງຄ່າຄືນ"</string>
+    <string name="factory_reset_dialog_message">"ນີ້ຈະລືບທຸກການຕັ້ງຄ່າລວມທັງລາຍການທີ່ຕັ້ງໄວ້ກ່ອນ"</string>
+    <string name="station_move">"ຍ້າຍ"</string>
+    <string name="station_edit">"ແກ້ໄຂ"</string>
+    <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
+   <string name="no_storage">"ເຊື່ອມຕໍ່ແຜ່ນ SD ກ່ອນເລີ່ມການອັດບັນທຶກ."</string>
+   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+   <string name="preparing_sd">"ກໍາລັງກຽມແຜ່ນ SD"</string>
+   <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+   <string name="access_sd_fail">"ບໍ່ສາມາດເຂົ້າເຖິງແຜ່ນ SD ໄດ້."</string>
+   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+   <string name="spaceIsLow_content">"ບ່ອນເກັບຂໍ້ມູນຂອງແຜ່ນ SD ຂອງທ່ານກຳລັງໝົດພື້ນທີ່ວ່າງ. ປ່ຽນການຕັ້ງຄ່າຄຸນນະພາບ ຫຼືລຶບບາງຮູບ ຫຼືໄຟລ໌ອື່ນ."</string>
+   <!-- The messsage shown when FM record reaches size limit. -->
+   <string name="FMRecording_reach_size_limit">"ຮອດຂີດຈໍາກັດການສົ່ງສະໝັກແລ້ວ."</string>
+    <string name="delete_station_title">"ລຶບ"</string>
+    <string name="find_af_station">"ຊອກຫາ"</string>
+    <string name="menu_add_list">"ເພີ່ມລາຍການ"</string>
+    <string name="menu_rename_list">"ປ່ຽນຊື່ລາຍການ"</string>
+    <string name="menu_reorder_list">"ລາຍການຕົວອັດບັນທຶກ"</string>
+    <string name="menu_scan_for_preset">"ສະແກນຫາລາຍການທີີ່ຕັ້ງໄວ້ກ່ອນ"</string>
+    <string name="menu_delete_list">"ລຶບລາຍການ"</string>
+    <string name="alert_dialog_ok">"ຕົກລົງ"</string>
+    <string name="alert_dialog_cancel">"ຍົກ​ເລີກ"</string>
+    <!-- The messsage shown when long pressed on a station. -->
+    <string name="alert_dialog_hint">"ໃສ່ຊື່"</string>
+    <string name="search_dialog_title">"ສະແກນສະຖານີ"</string>
+    <string name="search_category_key">search_category_type</string>
+    <string name="search_category">"ເລືອກປະເພດແທັກ"</string>
+    <string name="search_category_title">"ຄົ້ນຫາຕາມ"</string>
+    <string name="default_search_category">"ຊອກຫາ"</string>
+    <string name="search_category_tune">"ປັບຫາ"</string>
+    <string name="search_category_type_key">search_category_value_type</string>
+    <string name="search_category_type">"ເລືອກຄົ້ນຫາຕາມປະເພດລາຍການ"</string>
+    <string name="search_category_type_title">"ຄົ້ນຫາຕາມປະເພດລາຍການ"</string>
+    <string name="default_search_category_type">"ທຸກສະຖານີ"</string>
+    <string name="presets_back">"ກັບ​ຄືນ"</string>
+    <string name="presets_back_summary">"ກັບຄືນຫາມູມມອງກ່ອນນີ້"</string>
+    <string name="nav_mode_presets">"ລາຍການທີ່ຕັ້ງໄວ້ກ່ອນ"</string>
+    <string name="nav_mode_stations">"ສະຖານີ"</string>
+    <string name="prog_service_string"></string>
+    <string name="radio_text_string">"ນີ້ແມ່ນສະຕຣິງຂໍ້ຄວາມວິທະຍຸຍາວທີ່ຕ້ອງໄດ້ເລື່ອນເບິ່ງ"</string>
+    <string name="eradio_text_string">"ຂໍ້ຄວາມອັກສອນວິທະຍຸທີ່ຂະຫຍາຍອອກ"</string>
+    <string name="pty_string"></string>
+    <string name="frequency_string"></string>
+    <string name="station_id_string"></string>
+        <string name="fm_command_timeout_title">"ໝົດເວລາ"</string>
+        <string name="fm_tune_timeout_msg">"ບໍ່ໄດ້ຮັບການຕອບສະໜອງໃນການປັບຫາສະຖານີ FM  . ຖ້າບັນຫາຍັງຄົງຢູ່, ກະລຸນາປິດ FM ແລະເປີດມັນຄືນໃໝ່ ."</string>
+        <string name="fm_command_failed_title">"ການດໍາເນີນງານ FM ບໍ່ສໍາເລັດ"</string>
+        <string name="fm_cmd_failed_msg">"ການດຳເນີນງານ FM ບໍ່ສຳເລັດ. ຖ້າບັນຫາ  ຄົງຢູ່, ກະລຸນາປິດ FM ແລະ ເປີດມັນຄືນໃໝ່. "</string>
+        <string name="fm_cmd_failed_msg_hdmi">"ການດຳເນີນງານ FM ບໍ່ສຳເລັດ. ບໍ່ຮອງຮັບການໃຊ້ງານ FM ແລະ HDMI ພ້ອມກັນ.  "</string>
+        <string name="fm_cmd_failed_call_on">"ການດໍາເນີນງານ FM ບໍ່ສຳເລັດ. ບໍ່ອະນຸຍາດສຽງ FM ໃນຂະນະການໂທ. "</string>
+    <!-- Do not translate. Duration format. -->
+    <string name="durationformat"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+    <string name="default_record"></string>
+    <string name="default_preset_list_name">" ລາຍການ FM "</string>
+    <string name="default_station"> FM </string>
+    <string name="default_blank"> </string>
+    <string name="add_station">+</string>
+    <string name="stop_scanning">"ຢຸດການສະແກນ"</string>
+    <string name="transmit_msg_string">"ກຳລັງກະຈາຍສຽງທີ່:"</string>
+    <!-- the name under which recordings will be visible in the media database is formatted like this -->
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <!-- all recordings will show up in the media database with this 'artist' name -->
+    <string name="audio_db_artist_name">"ບັນທຶກ FM ຂອງຂ້ອຍ"</string>
+    <!-- all recordings will show up in the media database with this 'album' name -->
+    <string name="audio_db_album_name">"ບັນທຶກ FM"</string>
+    <!-- all recordings will show up in the media database in a playlist with this name -->
+    <string name="audio_db_playlist_name">"ບັນທຶກ FM"</string>
+    <string name="test_prompt">"ເລືອກການທົດສອບ"</string>
+    <string name="test_run">"ແລ່ນການທົດສອບ"</string>
+    <string name="set_rmmsi_delta">"ກໍານົດຄ່າ RMSSI Delta"</string>
+    <string name="set_sigth">"ກຳນົດຄ່າສັນຍານ Th"</string>
+    <string name="type_rd"></string>
+    <string name="srch_params">"ກໍານົດຄ່າ RMSSI Delta"</string>
+    <string name="srch_params_1">"ກຳນົດຄ່າສັນຍານ Th "</string>
+    <string name="enter_rssi">"ປ້ອນ RMSSI Delta"</string>
+    <string name="enter_sigth">"ປ້ອນ ສັນຍານ Th"</string>
+    <string name="enter_SinrSmplsCnt">"ປ້ອນຈຳນວນຕົວຢ່າງ SINR"</string>
+    <string name="set_SinrSmplsCnt">"ກຳນົດຄ່າຕົວຢ່າງ SINR"</string>
+    <string name="enter_SinrTh">"ປ້ອນຂີດຈຳກັດ SINR"</string>
+    <string name="set_SinrTh">"ກຳນົດຄ່າຂີດຈຳກັດ SINR"</string>
+    <string name="enter_IntfLowTh">"ປ້ອນຂີດຈຳກັດ Intf Det Low"</string>
+    <string name="set_IntfLowTh">"ກຳນົດຄ່າຂີດຈຳກັດ Intf Det Low"</string>
+    <string name="enter_IntfHighTh">"ປ້ອນຂີດຈຳກັດ Intf Det High"</string>
+    <string name="set_IntfHighTh">"ກຳນົດຄ່າຂີດຈຳກັດ Intf Det High"</string>
+    <string name="station_name">"ສະຖານີ:"</string>
+    <string name="station_exists">"ຄວາມຖີ່ນີ້ມີຢູ່ແລ້ວ!"</string>
+    <string name="station_list_delete_station">"ລຶບ:<xliff:g id="name">%s</xliff:g>"</string>
+    <string name="station_list_delete_station_prompt">"ທ່ານແນ່ໃຈບໍວ່າຈະລຶບ <xliff:g id="name">%s</xliff:g> ."</string>
+    <string name="station_name_empty">"ຊື່ສະຖານີວ່າງເປົ່າ, ກະລຸນາປ້ອນມັນອີກ."</string>
+    <string name="station_name_exist">"ມີສະຖານີທີ່ຊື່ \"<xliff:g id="name">%s</xliff:g>\" ຢູ່ແລ້ວ. ກະລຸນາປ້ອນຊື່ອື່ນ."</string>
+    <string name="enter_SinrFirstStage">"ປ້ອນ Sinr First Stage"</string>
+    <string name="set_SinrFirstStage">"ກຳນົດຄ່າ Sinr First Stage"</string>
+    <string name="enter_RmssiFirstStage">"ປ້ອນ Rmssi First Stage"</string>
+    <string name="set_RmssiFirstStage">"ກຳນົດຄ່າ Rmssi First Stage"</string>
+    <string name="enter_CF0Th12">"ປ້ອນຂີດຈຳກັດ CF0"</string>
+    <string name="set_CF0Th12">"ກຳນົດຄ່າຂີດຈຳກັດ CF0"</string>
+    <string name="search_algo_mpx">"MPX_DCC Algo"</string>
+    <string name="search_algo_sinrint">"SINR_INTF Algo"</string>
+    <string name="enter_AfJmpRmssiTh">"ປ້ອນຂີດຈຳກັດ Af Jump Rmssi"</string>
+    <string name="set_AfJmpRmssiTh">"ກຳນົດຄ່າຂີດຈຳກັດ Af Jump Rmssi"</string>
+    <string name="enter_GdChRmssiTh">"ປ້ອນຂີດຈຳກັດ Good Channel Rmssi"</string>
+    <string name="set_GdChRmssiTh">"ກຳນົດຄ່າຂີດຈຳກັດ Good Channel Rmssi"</string>
+    <string name="enter_AfJmpRmssiSmplsCnt">"ປ້ອນຈຳນວນຕົວຢ່າງ Af Jump Rmssi"</string>
+    <string name="set_AfJmpRmssiSmplsCnt">"ກຳນົດຈຳນວນຕົວຢ່າງ Af Jump Rmssi"</string>
+    <string name="rt_plus_tags">"ປ້າຍ"</string>
+    <string name="enter_RxRePeatCount">"ປ້ອນຈຳນວນ RxRePeat"</string>
+    <string name="set_RxRePeatCount">"ກຳນົດຄ່າຈຳນວນ RxRePeat"</string>
+    <string name="enter_BlendSinrHi">"ປ້ອນຄ່າ Sig Blend SinrHi"</string>
+    <string name="set_BlendSinrHi">"ກຳນົດຄ່າ Sig Blend SinrHi"</string>
+    <string name="enter_BlendRmssiHi">"ປ້ອນຄ່າ Sig Blend RmssiHi"</string>
+    <string name="set_BlendRmssiHi">"ກຳນົດຄ່າ Sig Blend RmssiHi"</string>
+    <string name="enter_RssiTh">"ປ້ອນຂີດຈຳກັດ RSSI"</string>
+    <string name="set_RssiTh">"ກຳນົດຄ່າຂີດຈຳກັດ RSSI"</string>
+    <string name="enter_AfJumpRssiTh">"ປ້ອນຂີດຈຳກັດ AF jump RSSI"</string>
+    <string name="set_AfJumpRssiTh">"ກຳນນົດຄ່າຂີດຈຳກັດ AF jump RSSI"</string>
+    <string name="enter_RdsFifoCnt">"ປ້ອນຈຳນວນ RDS FIFO"</string>
+    <string name="set_RdsFifoCnt">"ກຳນົດຄ່າຈຳນວນ RDS FIFO"</string>
+    <string name="usr_def_band_min">"ຂີດຈຳກັດຄວາມຖີ່ຕໍ່າ(ເປັນ Mhz)"</string>
+    <string name="usr_def_band_max">"ຂີດຈຳກັດຄວາມຖີ່ສູງ(ເປັນ Mhz)"</string>
+    <string name="sel_chanl_spacing">"ເລືອກໄລຍະຫ່າງຊ່ອງ"</string>
+    <string name="chanl_spacing">"ໄລຍະຫ່າງຊ່ອງ"</string>
+    <string name="band_method_prompt">"ເລືອກວິທີການ"</string>
+    <string name="enter_start_delay_time">"ເວລາຊັກຊ້າຂອງການເລີ່ມຕົ້ນ"</string>
+    <string name="enter_dwell_time">"ເວລາພັກອາໄສ"</string>
+    <string name="band_sweep_setting">"ຕັ້ງຄ່າການກວາດ"</string>
+    <string name="band_sweep_setting_set">"ຕັ້ງ"</string>
+    <string name="band_sweep_setting_cancel">"ຍົກ​ເລີກ"</string>
+    <string name="band_sweep_choose">"ເລືອກວິທີການກວດຫາຄື້ນ"</string>
+    <string name="set">"ຕັ້ງ"</string>
+    <string name="cancel">"ຍົກ​ເລີກ"</string>
+    <string name="user_defind_band_msg">"ປ້ອນຄວາມຖີ່ຈາກຂອບເຂດ 76.0 - 108.0, ດ້ວຍໄລຍະຫ່າງຊ່ອງຕໍ່າສຸດ 1 ແລະ 100KHz ລະຫວ່າງຄວາມຖີ່ສູງສຸດ, ຕໍ່າສຸດ"</string>
+    <string name="save_record_file">"ໄຟລ໌ອັດບັນທຶກ FM ບັນທຶກໃສ່ <xliff:g id="record_file">%1$s</xliff:g>"</string></resources>

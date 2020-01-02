@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- used in various places to indicate there is one song for a given artist or album -->
+    <string name="onesong">"1 cântec"</string>
+    <!-- used in various places to indicate there is some number other than one songs for a given artist or album. -->
+    <plurals name="Nsongs">
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (de) cântece"</item>
+    </plurals>
+    <!-- shows how many songs on the album are by the selected artist, out of how many total, if those two numbers are different -->
+    <plurals name="Nsongscomp">
+        <item quantity="other">"<xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g> din <xliff:g id="TOTAL_COUNT">%1$d</xliff:g> (de) cântece"</item>
+    </plurals>
+    <!-- Used in artists list view, indicates how many albums exist for a given artist. -->
+    <plurals name="Nalbums">
+        <!-- number of albums is one -->
+        <item quantity="one">"1 album"</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (de) albume"</item>
+    </plurals>
+    <!-- Menu item that takes the user back to the top level screen of the music player -->
+    <string name="goto_start">"Bibliotecă"</string>
+    <!-- Menu item that switches the music player in to party shuffle mode -->
+    <string name="party_shuffle">"Colecţie aleatorie"</string>
+    <!-- Menu item that switches the music player out of party shuffle mode -->
+    <string name="party_shuffle_off">"Colecţie aleatorie dezactivată"</string>
+    <!-- Menu item that clear all playlists mode -->
+    <string name="clear_all_playlists">"Ştergere toate listele de redare"</string>
+    <!-- Menu item that deletes the currently selected item, which might be a single song, or a collection of songs.
+         The user will be prompted to confirm before deletion actually takes place -->
+    <string name="delete_item">"Ștergeţi"</string>
+    <!-- Menu item to play back all the songs in the currently showing list in list order -->
+    <string name="play_all">"Redaţi toate"</string>
+    <!-- Menu item to play song in music -->
+    <string name="open_in_music">"Deschidere în muzică"</string>
+    <!-- Menu item to share audio or video -->
+    <string name="share">"Distribuiţi"</string>
+     <!-- Menu item to details audio or video -->
+    <string name="details">"Detalii"</string>
+    <!-- Delete confirmation dialog when deleting an entire artist -->
+    <string name="delete_artist_desc">"Ștergeţi definitiv toate cântecele de <xliff:g id="artist">%s</xliff:g>?"</string>
+    <!-- Delete confirmation dialog when deleting an entire album -->
+    <string name="delete_album_desc">"Ștergeţi definitiv întregul album \"<xliff:g id="album">%s</xliff:g>\"?"</string>
+    <!-- Delete confirmation dialog when deleting a single song -->
+    <string name="delete_song_desc">"Ștergeţi definitiv \"<xliff:g id="song">%s</xliff:g>\"?"</string>
+    <!-- Delete confirmation dialog, confirmation button text -->
+    <string name="delete_confirm_button_text">"OK"</string>
+    <!-- Toast confirming that song(s) was/were deleted. -->
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">"1 cântec a fost şters."</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other">"<xliff:g id="SONGS_TO_DELETE">%d</xliff:g> (de) cântece au fost şterse."</item>
+    </plurals>
+    <!-- shown in dialog while the media scanner is starting up -->
+    <string name="scanning">"Se scanează cardul SD..."</string>
+    <!-- shown in dialog while the media scanner is starting up -->
+    <string name="scanning_nosdcard">"Se scanează stocarea USB..."</string>
+    <string-array name="title_array_folder">
+        <item>"Artişti"</item>
+        <item>"Albume"</item>
+        <item>"Cântece"</item>
+        <item>"Dosar"</item>
+        <item>"Liste de redare"</item>
+    </string-array>
+    <string-array name="title_array_songs">
+        <item>"Artişti"</item>
+        <item>"Albume"</item>
+        <item>"Cântece"</item>
+        <item>"Liste de redare"</item>
+    </string-array>
+    <!-- title of the "current playlist" screen when not in party shuffle mode -->
+    <string name="nowplaying_title">"Acum se redă"</string>
+    <!-- title of the "current playlist" screen when in party shuffle mode-->
+    <string name="partyshuffle_title">"Colecţie aleatorie"</string>
+    <!-- Artist screen title -->
+    <string name="artists_title">"Artişti"</string>
+    <!-- Category label on Library screen -->
+    <string name="albums_menu">"Albume"</string>
+    <!-- Albums screen title -->
+    <string name="albums_title">"Albume"</string>
+    <!-- Category label on Library screen -->
+    <string name="tracks_menu">"Cântece"</string>
+    <!-- Songs screen title -->
+    <string name="tracks_title">"Cântece"</string>
+    <!-- Category label on Library screen -->
+    <string name="folder_menu">"Dosar"</string>
+    <!-- Folder screen title -->
+    <string name="folders_title">"Dosar"</string>
+    <!-- Category label on Library screen -->
+    <string name="playlists_menu">"Liste de redare"</string>
+    <!-- Playlists screen title -->
+    <string name="playlists_title">"Liste de redare"</string>
+    <!-- Videos screen title -->
+    <string name="videos_title">"Videoclipuri"</string>
+    <!-- All media screen title -->
+    <string name="all_title">"Tot conţinutul media"</string>
+    <!-- Category label on Library screen -->
+    <string name="browse_menu">"Artişti"</string>
+    <!-- Library screen, menu item -->
+    <string name="search_title">"Căutaţi"</string>
+    <!-- Title of screen when there are no songs, or if the SD card is busy -->
+    <string name="no_tracks_title">"Niciun cântec"</string>
+    <!-- Title of screen when there are no videos, or if the SD card is busy -->
+    <string name="no_videos_title">"Niciun videoclip"</string>
+    <!-- Title of screen when there are no playlists, or if the SD card is busy -->
+    <string name="no_playlists_title">"Nicio listă de redare"</string>
+    <!-- Playlist context menu item to delete the selected playlist. -->
+    <string name="delete_playlist_menu">"Ștergeţi"</string>
+    <!-- Playlist context menu item to edit the selected playlist -->
+    <string name="edit_playlist_menu">"Modificaţi"</string>
+    <!-- Playlist context menu item to rename the selected playlist-->
+    <string name="rename_playlist_menu">"Redenumiţi"</string>
+    <!-- Dialog box message shown when clearing all playlists-->
+    <string name="clear_all_playlists_message">"Doriţi să ştergeţi toate listele de redare?"</string>
+    <!-- Dialog box message shown when deleting a playlist-->
+    <string name="delete_playlist_message">"Doriţi să ştergeţi \"<xliff:g id="name">%s</xliff:g>\"?"</string>
+    <!-- Dialog box button -->
+    <string name="delete_playlist_button_ok">"OK"</string>
+    <string name="delete_playlist_button_cancel">"Anulaţi"</string>
+    <!-- Transient popup message shown after deleting a playlist -->
+    <string name="playlist_deleted_message">"Listă de redare ştearsă."</string>
+    <!-- Transient popup message shown after renaming a playlist -->
+    <string name="playlist_renamed_message">"Listă de redare redenumită."</string>
+    <!-- The name of the pseudo-playlist that holds all the recently added files, shown in list view -->
+    <string name="recentlyadded">"Adăugat recent"</string>
+    <!-- The name of the pseudo-playlist that holds all the recently added files, shown in title bar of songs list -->
+    <string name="recentlyadded_title">"Adăugat recent"</string>
+    <!-- The name of the pseudo-playlist that holds all the podcasts, shown in list view -->
+    <string name="podcasts_listitem">"Podcasturi"</string>
+    <!-- The name of the pseudo-playlist that holds all the podcasts, shown in title bar of songs list -->
+    <string name="podcasts_title">"Podcasturi"</string>
+    <!-- all recordings will show up in the media database in a playlist with thiis name -->
+    <string name="audio_db_playlist_name">"Înregistrările mele"</string>
+    <!-- Title of screen when no sd card is present -->
+    <string name="sdcard_missing_title">"Niciun card SD"</string>
+    <!-- Title of screen when no sd card is present -->
+    <string name="sdcard_missing_title_nosdcard">"Nu există spaţiu de stocare USB"</string>
+    <!-- label underneath icon used to indicate that no sd card is present -->
+    <string name="sdcard_missing_message">"Telefonul dvs. nu are un card SD introdus."</string>
+    <!-- label underneath icon used to indicate that no sd card is present -->
+    <string name="sdcard_missing_message_nosdcard">"Telefonul dvs. nu are stocare USB."</string>
+    <!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
+    <string name="sdcard_busy_title">"Card SD nedisponibil"</string>
+    <!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
+    <string name="sdcard_busy_title_nosdcard">"Stocarea USB nu este disponibilă"</string>
+    <!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
+    <string name="sdcard_busy_message">"Cardul dvs. SD este ocupat."</string>
+    <!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
+    <string name="sdcard_busy_message_nosdcard">"Stocarea USB este ocupată."</string>
+    <!-- Title of screen when there was an error accessing the sd card -->
+    <string name="sdcard_error_title">"Eroare pe cardul SD"</string>
+    <!-- Title of screen when there was an error accessing the sd card -->
+    <string name="sdcard_error_title_nosdcard">"Eroare la accesarea spaţiului de stocare USB"</string>
+    <!-- label underneath icon used to indicate there was an error accessing the sd card -->
+    <string name="sdcard_error_message">"A apărut o eroare pe cardul dvs. SD."</string>
+    <!-- label underneath icon used to indicate there was an error accessing the sd card -->
+    <string name="sdcard_error_message_nosdcard">"A apărut o eroare pe stocarea USB."</string>
+    <!-- Default name of artist that doesn't have a name in the metadata -->
+    <string name="unknown_artist_name">"Artist necunoscut"</string>
+    <!-- Default name of album that doesn't have a name in the metadata -->
+    <string name="unknown_album_name">"Album necunoscut"</string>
+    <!-- Default name of folder that doesn't have a path in the metadata -->
+    <string name="unknown_folder_name">"Cale necunoscută"</string>
+    <!-- Default name of folder that doesn't have a count in the metadata -->
+    <string name="unknown_folder_count">"Număr necunoscut"</string>
+    <!-- Toast after turning shuffle on -->
+    <string name="shuffle_on_notif">"Redarea aleatorie este dezactivată."</string>
+    <!-- Toast after turning shuffle off -->
+    <string name="shuffle_off_notif">"Redarea aleatorie este dezactivată."</string>
+    <!-- Toast after turning repeat off -->
+    <string name="repeat_off_notif">"Repetarea este dezactivată."</string>
+    <!-- Toast after turning single repeat on -->
+    <string name="repeat_current_notif">"Se repetă cântecul curent."</string>
+    <!-- Toast after turning repeat all on -->
+    <string name="repeat_all_notif">"Se repetă toate cântecele."</string>
+    <!-- Individual song context menu item -->
+    <string name="ringtone_menu">"Utilizaţi ca ton de apel al telefonului"</string>
+    <!-- Menu item -->
+    <string name="ringtone_menu_short">"Utilizaţi ca ton de apel"</string>
+    <!-- Toast after setting a song as phone ringtone -->
+    <string name="ringtone_set">"„<xliff:g id="NAME">%s</xliff:g>” setat ca ton de apel al telefonului."</string>
+    <!-- Individual song context menu item -->
+    <string name="ringtone_menu_1">"Utilizare ca ton de apel pentru slot 1"</string>
+    <string name="ringtone_menu_2">"Utilizare ca ton de apel pentru slot 2"</string>
+    <string name="ringtone_menu_sim_name_1">"Utilizați ca slot 1 \"<xliff:g id="NAME">%s</xliff:g>\" ton de apel"</string>
+    <string name="ringtone_menu_sim_name_2">"Utilizați ca slot 2 \"<xliff:g id="NAME">%s</xliff:g>\" ton de apel"</string>
+    <!-- Menu item -->
+    <string name="ringtone_menu_short_1">"Utilizare ca ton de apel 1"</string>
+    <string name="ringtone_menu_short_2">"Utilizare ca ton de apel 2"</string>
+    <!-- Toast after setting a song as phone ringtone -->
+    <string name="ringtone_set_1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" a fost setat ca ton de apel pentru slot 1."</string>
+    <!-- Toast after setting a song as phone ringtone -->
+    <string name="ringtone_set_2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" a fost setat ca ton de apel pentru slot 2."</string>
+    <!-- Context menu item -->
+    <string name="play_selection">"Redaţi"</string>
+    <!-- Context menu item -->
+    <string name="add_to_playlist">"Adăugaţi la lista de redare"</string>
+    <!-- Context menu item -->
+    <string name="queue">"Lista de redare curentă"</string>
+    <!-- Context menu item -->
+    <string name="new_playlist">"Nou"</string>
+    <!-- Template for newly created playlist name -->
+    <string name="new_playlist_name_template">"Listă de redare nouă <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <!-- Toasts after adding song(s) to playlists -->
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">"1 cântec adăugat la lista de redare."</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> (de) cântece adăugate la lista de redare."</item>
+    </plurals>
+    <!-- Toast after selecting an empty playlist -->
+    <string name="emptyplaylist">"Lista de redare selectată este goală."</string>
+    <!-- Button name when saving a playlist -->
+    <string name="create_playlist_create_text">"Salvaţi"</string>
+    <!-- Button name when saving a playlist and the new playlist will overwrite an existing one -->
+    <string name="create_playlist_overwrite_text">"Suprascrieţi"</string>
+    <!-- Dialog box title -->
+    <string name="service_start_error_title">"Problemă de redare"</string>
+    <!-- Dialog box message -->
+    <string name="service_start_error_msg">"Cântecul nu a putut fi redat."</string>
+    <!-- Dialog box button -->
+    <string name="service_start_error_button">"OK"</string>
+    <!-- Time span edit options that appear when editing system playlist "Recently added" -->
+    <!-- Used to indicate the number of weeks the "recently added" playlist covers in a selector widget -->
+    <string-array name="weeklist">
+        <item>"1 săptămână"</item>
+        <item>"2 săptămâni"</item>
+        <item>"3 săptămâni"</item>
+        <item>"4 săptămâni"</item>
+        <item>"5 săptămâni"</item>
+        <item>"6 săptămâni"</item>
+        <item>"7 săptămâni"</item>
+        <item>"8 săptămâni"</item>
+        <item>"9 săptămâni"</item>
+        <item>"10 săptămâni"</item>
+        <item>"11 săptămâni"</item>
+        <item>"12 săptămâni"</item>
+    </string-array>
+    <!-- Button name in time span picker -->
+    <string name="weekpicker_set">"Terminat"</string>
+    <!-- Title of time span picker -->
+    <string name="weekpicker_title">"Setaţi ora"</string>
+    <!-- Do not translate. Background color for currently dragged item in playlist edit mode. -->
+    <color name="dragndrop_background">#e0103010</color>
+    <!-- Do not translate. Background color for albums in the artists list view. -->
+    <color name="expanding_child_background">#ff404040</color>
+    <!-- menu item to save the current list as a new playlist -->
+    <string name="save_as_playlist">"Salvaţi ca listă de redare"</string>
+    <!-- menu item to clear the current playlist -->
+    <string name="clear_playlist">"Ștergeţi lista de redare"</string>
+    <!-- Activity label. This might show up in the activity-picker -->
+    <string name="musicbrowserlabel">"Muzică"</string>
+    <!-- Activity label. This might show up in the activity-picker -->
+    <string name="musicshortcutlabel">"Listă de redare muzică"</string>
+    <!-- Activity label. This might show up in the activity-picker -->
+    <string name="mediaplaybacklabel">"Muzică"</string>
+    <!-- Activity label. This might show up in the activity-picker -->
+    <string name="videobrowserlabel">"Videoclipuri"</string>
+    <!-- Activity label. This might show up in the activity-picker -->
+    <string name="mediapickerlabel">"Muzică"</string>
+    <!-- Shown as a transient message whenever a file fails to play -->
+    <string name="playback_failed">"Acest tip de fişier audio nu este acceptat de player."</string>
+    <!-- Shown as a transient message whenever a file fails to open -->
+    <string name="open_failed">"Ne pare rău, nu se poate deschide fişierul."</string>
+    <!-- Text for the "cancel" button in the "delete" and "create playlist" confirmation dialogs -->
+    <string name="cancel">"Anulaţi"</string>
+    <!-- context menu item to remove the selected item from the playlist -->
+    <string name="remove_from_playlist">"Eliminaţi din lista de redare"</string>
+    <!-- shown when connecting to a music stream, before it starts playing -->
+    <string name="streamloadingtext">"Se conectează la <xliff:g id="HOST">%s</xliff:g>..."</string>
+    <!-- title of contextual music search menu -->
+    <string name="mediasearch">"Căutaţi <xliff:g id="TERM">%s</xliff:g> folosind:"</string>
+    <!-- Shown in the title bar while the list of artists is being retrieved in the background -->
+    <string name="working_artists">"Artişti..."</string>
+    <!-- Shown in the title bar while the list of albums is being retrieved in the background -->
+    <string name="working_albums">"Albume..."</string>
+    <!-- Shown in the title bar while the list of songs is being retrieved in the background -->
+    <string name="working_songs">"Cântece..."</string>
+    <!-- Shown in the title bar while the list of folders is being retrieved in the background -->
+    <string name="working_folders">"Foldere\u2026"</string>
+    <!-- Shown in the title bar while the list of playlists is being retrieved in the background -->
+    <string name="working_playlists">"Liste de redare..."</string>
+    <!-- Shown in the music picker while loading the music database. -->
+    <string name="loading">"Se încarcă..."</string>
+    <!-- Menu in music picker to sort the list by track/song name. -->
+    <string name="sort_by_track">"Înregistrări"</string>
+    <!-- Menu in music picker to sort the list by album name. -->
+    <string name="sort_by_album">"Albume"</string>
+    <!-- Menu in music picker to sort the list by artist name. -->
+    <string name="sort_by_artist">"Artişti"</string>
+    <!--  Title of the music picker activity. -->
+    <string name="music_picker_title">"Selectaţi o melodie"</string>
+    <!-- The string used to describe Music as a searchable item within system search settings. -->
+    <string name="search_settings_description">"Artişti, albume şi melodii"</string>
+    <!-- Shown in the search box as a hint -->
+    <string name="search_hint">"Caută muzică"</string>
+    <string name="search_hint_video">"Căutare videoclip"</string>
+    <!--The fast scroll thumb will show one character from this string depending on the position in the list -->
+    <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <!-- Text shown on widget when first loaded -->
+    <string name="widget_initial_text">"Atingeţi pentru a selecta muzica."</string>
+    <!-- Menu text for the item controlling the audio effects panel [CHAR LIMIT=15] -->
+    <string name="effectspanel">"Efecte de sunet"</string>
+    <string name="duplicate_playlist_name_alert">"Există deja o listă de redare cu numele \"<xliff:g id="name">%s</xliff:g>\". Selectaţi o altă denumire."</string>
+    <string name="same_playlist_name_alert">"Denumirea listei de redare \"<xliff:g id="name">%s</xliff:g>\" nu a fost modificată. Selectaţi o altă denumire."</string>
+    <string name="button_ok">"Ok"</string>
+    <string name="list_empty">"Nu există muzică în lista de redare."</string>
+    <!-- Shown when video is played after disable Gallery app from Settings -->
+    <string name="enable_gallery_app">"Videoclipul nu poate fi redat, activaţi aplicaţia Galerie din Setări."</string>
+    <string name="close_music">"Terminat"</string>
+    <string name="delete_video_item_message">"Doriţi să ştergeţi \"<xliff:g id="name">%s</xliff:g>\"?"</string>
+    <string name="video_deleted_message">"Fişierul video a fost şters."</string>
+    <!-- Menu item that takes the user link to net to see more music -->
+    <string name="more_music">"Mai multă muzică"</string>
+    <!-- Menu item that takes the user link to net to see more video -->
+    <string name="more_video">"Mai multe videoclipuri"</string>
+    <!--gesture control playback status-->
+    <string name="music_gesture_play">"Redare/întrerupere audio"</string>
+    <string name="music_gesture_prev">"Redare melodia anterioară"</string>
+    <string name="music_gesture_next">"Redare melodia următoare"</string>
+    <!-- DRM Related Strings -->
+    <string name="no_permission_for_drm">"Fişierul DRM nu poate fi partajat"</string>
+    <string name="drm_license_info">"Informații licență DRM"</string>
+    <string name="drm_ringtone_error">"Nu se pot seta fişiere de pe CD/SD ca ton de apel"</string>
+    <string name="drm_right_expired">"Drepturile DRM au expirat"</string>
+    <string name="action_consumes_rights">"Se vor consuma drepturi pentru redarea acestui material media."</string>
+    <string name="rights_expired">"Drepturile au expirat pentru cântec."</string>
+    <string name="ring_tone_size_exceed">"Dimensiunea tonului de apel DRM nu poate depăşi 300kb."</string>
+    <string name="cant_set_ringtone_with_count_perm">"Nu se poate seta fişierul DRM cu permisiune de numărare pentru ton de apel."</string>
+    <string name="navigation_drawer_title">"Muzică"</string>
+    <string name="action_settings">"Setări"</string>
+    <string name="equalizer_button_text">"Snapdragon Audio+"</string>
+    <string name="exit_button_text">"Ieșiți"</string>
+    <string name="action_settings1">"Setări 1"</string>
+    <string name="action_settings2">"Setări 2"</string>
+    <string name="action_one">"Unu"</string>
+    <string name="action_two">"Doi"</string>
+    <string name="action_three">"Trei"</string>
+    <string name="shuffle_all">"Redaţi toată lista în mod aleatoriu"</string>
+    <string name="no_music_found">"Nu s-a găsit muzică"</string>
+    <!--  Adding new string here for file delete error message -->
+    <string name="song_deleted_error_message">"Nu s-a putut reda melodia solicitată"</string>
+    <string name="song_title">"Denumire cântec:"</string>
+    <string name="album_title">"Denumire album:"</string>
+    <string name="artist_title">"Nume artist:"</string>
+    <string name="duration_title">"Durată:"</string>
+    <string name="path_title">"Cale:"</string>
+    <string name="size_title">"Dimensiune:"</string>
+    <string name="duration_unit">" Min"</string>
+    <!-- Human readable sizes -->
+    <string name="size_bytes">"O"</string>
+    <string name="size_kilobytes">"kB"</string>
+    <string name="size_megabytes">"MB"</string>
+    <string name="size_gigabytes">"GB"</string>
+    <string name="favorite">"Preferat"</string>
+    <string name="no_favorite">"Nu Preferat"</string>
+    <string name="favorite_playlist">"Preferatele mele"</string>
+    <string name="can_not_create_my_favorite">"Nu se poate crea sau suprascrie lista de redare Preferatele mele"</string>
+    <!-- add by filemanager -->
+    <string name="add_by_filemanager">"Adăugare prin manager fişiere"</string>
+    <string name="add_file_failed">"Nu se poate adăuga acest fişier deoarece formatul nu este acceptat sau nu este în biblioteca media"</string></resources>

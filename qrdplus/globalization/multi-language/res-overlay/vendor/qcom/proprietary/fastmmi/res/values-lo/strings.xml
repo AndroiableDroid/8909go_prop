@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources version="1.1">
+    <!-- mmi main-->
+    <string name="btn_all">"ທັງໝົດ"</string>
+    <string name="btn_failed">"ບໍ່ສຳເລັດ"</string>
+    <string name="btn_runall">"ແລ່ນໃຊ້ງານທັງໝົດ"</string>
+    <string name="btn_reset">"ຕັ້ງຄ່າຄືນໃໝ່"</string>
+    <string name="btn_reboot">"ເລີ່ມລະບົບໃໝ່"</string>
+    <string name="btn_poweroff">"ປິດເຄື່ອງ"</string>
+    <string name="btn_pass">"ຜ່ານ"</string>
+    <string name="btn_fail">"ບໍ່ຜ່ານ"</string>
+    <string name="btn_ok">"ຕົກລົງ"</string>
+    <string name="btn_cancel">"ຍົກເລີກ"</string>
+    <string name="btn_pageup">"ຂຶ້ນເທິງ"</string>
+    <string name="btn_pagedown">"ລົງລຸ່ມ"</string>
+    <string name="finish">"ສໍາເລັດ"</string>
+    <string name="test_report">"ລາຍງານຜົນທົດສອບ"</string>
+    <!-- common strings -->
+    <string name="on">"ເປີດ"</string>
+    <string name="off">"ປິດ"</string>
+    <string name="present">"ກວດພົບແລ້ວ"</string>
+    <string name="absent">"ກວດພົບມາລແວແລ້ວ"</string>
+    <string name="notice">"ເລີ່ມຕົ້ນທົດສອບ, ກະລຸນາລໍຖ້າ..."</string>
+    <string name="reset_notice">"ທ່ານຕ້ອງການລ້າງຜົນການທົດສອບບໍ?"</string>
+    <string name="reboot_poweroff_notice">"(1) ປິດເຄື່ອງ       "</string>
+    <string name="reboot_ffbm_notice">"(2) ເລີ່ມລະບົບໃໝ່ເປັນ FFBM  "</string>
+    <string name="reboot_android_notice">"(3) ເລີ່ມລະບົບໃໝ່ເປັນ Android"</string>
+    <string name="reboot_notice">"ກະລຸນາເລືອກໂໝດເລີ່ມລະບົບໃໝ່"</string>
+    <string name="pcba_title">"ເລີ່ມຕົ້ນ PCBA Cast"</string>
+    <string name="exit">"ອອກ"</string>
+    <!-- system information -->
+    <string name="system_info">"ຂໍ້ມູນລະບົບ"</string>
+    <!-- example information -->
+    <string name="example">"ຕົວຢ່າງ"</string>
+    <!-- camera case -->
+    <string name="camera_back">"ກ້ອງຫຼັງ"</string>
+    <string name="camera_back_main">"ກ້ອງຫຼັງຫຼັກ"</string>
+    <string name="camera_back_aux">"ກ້ອງຫຼັງເສີມ"</string>
+    <string name="camera_back_1st">"ກ້ອງຫຼັກທຳອິດ"</string>
+    <string name="camera_back_2nd">"ກ້ອງຫຼັກທີສອງ"</string>
+    <string name="camera_front">"ກ້ອງໜ້າ"</string>
+    <string name="snapshot">"ຖ່າຍພາບໄວ"</string>
+    <!-- battery case -->
+    <string name="battery">"ແບັດເຕີຣີ"</string>
+    <string name="battery_instruction">"ກະລຸນາເຊື່ອມຕໍ່/ຕັດເຊື່ອມຕໍ່ສາຍ USB...."</string>
+    <string name="battery_title">"ເຊື່ອມຕໍ່/ຖອນເຊື່ອມຕໍ່ເຄື່ອງສາກ. ຢືນຢັນຄ່າທີ່ປ່ຽນແປງບໍ?"</string>
+    <string name="battery_health">"ຄວາມທົນຂອງແບັດເຕີຣີ"</string>
+    <string name="battery_status">"ສະຖານະແບັດເຕີຣີ"</string>
+    <string name="battery_voltage">"ໄຟຂອງແບັດເຕີຣີ"</string>
+    <string name="charging_indicate">"ທ່ານເຫັນໄຟສັນຍານ LED ບໍ?"</string>
+    <string name="discharge_indicate">"ແບັດເຕີຣີສາກແລ້ວ, ກະລຸນາຖອດອອກກ່ອນຄາວໜຶ່ງ ແລ້ວສຽບເຂົ້າໃໝ່."</string>
+    <!-- SMB case -->
+    <string name="smb">"SMB"</string>
+    <!-- lcd case -->
+    <string name="lcd">"LCD"</string>
+    <string name="next">"ຕໍ່ໄປ"</string>
+    <!-- LCD_BACKLIGHT case -->
+    <string name="lcd_backlight">"ໄຟຫຼັງ LCD"</string>
+    <string name="lcd_backlight_on">"ໄຟຫຼັງ LCD ເປີດຢູ່"</string>
+    <string name="lcd_backlight_off">"ໄຟຫຼັງ LCD ປິດຢູ່"</string>
+    <!-- keypad backlight case -->
+    <string name="button_backlight">"ໄຟຫຼັງແປ້ນກົດ"</string>
+    <string name="button_backlight_on">"ໄຟຫຼັງແປ້ນກົດເປີດຢູ່"</string>
+    <string name="button_backlight_off">"ໄຟຫຼັງແປ້ນກົດປິດຢູ່"</string>
+    <!-- flashlight case -->
+    <string name="flashlight">"ໄຟສາຍ"</string>
+    <string name="flashlight_1">"FLASHLIGHT_1"</string>
+    <string name="flashlight_on">"ໄຟສາຍ_ເປີດຢູ່"</string>
+    <string name="flashlight_off">"ໄຟສາຍ_ປິດຢູ່"</string>
+    <!-- leds case -->
+    <string name="led_red">"LED ສີແດງ"</string>
+    <string name="led_red_on">"LED ສີແດງ ເປີດຢູ່"</string>
+    <string name="led_red_off">"LED ສີແດງ ປິດຢູ່"</string>
+    <string name="led_blue">"LED ສີຟ້າ"</string>
+    <string name="led_blue_on">"LED ສີຟ້າ ເປີດຢູ່"</string>
+    <string name="led_blue_off">"LED ສີຟ້າ ປິດຢູ່"</string>
+    <string name="led_green">"LED ສີຂຽວ"</string>
+    <string name="led_green_on">"LED ສີຂຽວ ເປີດຢູ່"</string>
+    <string name="led_green_off">"LED ສີຂຽວ ປິດຢູ່"</string>
+    <!-- sensors case -->
+    <string name="gyroscope">"ເຊັນເຊີຈີໂຣສຄອບ"</string>
+    <string name="gsensor">"ເຊັນເຊີຕົວເລັ່ງຄວາມໄວ"</string>
+    <string name="psensor">"ເຊັນເຊີກວດຈັບໄລຍະໃກ້ຄຽງ"</string>
+    <string name="lsensor">"ເຊັນເຊີກວດຈັບແສງ"</string>
+    <string name="msensor">"ເຊັນເຊີຕົວວັດແທກແມ່ເຫຼັກ"</string>
+    <string name="calibration">"ການປັບຕັ້ງ"</string>
+    <string name="lsensor_instruction">"ກະລຸນາປົກປິດເຊັນເຊີກວດຈັບແສງ ແລະກວດເບິ່ງຜົນຮັບ"</string>
+    <string name="psensor_instruction">"ກະລຸນາປົກປິດເຊັນເຊີວັດໄລຍະໃກ້ຄຽງ ແລະກວດເບິ່ງຜົນຮັບ"</string>
+    <string name="msensor_instruction">"ກະລຸນາເຮັດການເຄື່ອນໄຫວຮູບໂຕ ∞/8/S ເພື່ອປັບຕັ້ງເຊັນເຊີວັດແທກແມ່ເຫຼັກ ແລະກວດເບິ່ງຜົນຮັບ"</string>
+    <!-- sdcard case -->
+    <string name="sdcard">"ແຜ່ນ SD"</string>
+    <string name="emmc">"EMMC"</string>
+    <string name="storage">"ບ່ອນ​ເກັບ​ຂໍ້​ມູນ"</string>
+    <string name="sdcard_present">"ບໍ່ພົບແຜ່ນ SD"</string>
+    <string name="sdcard_absent">"ບໍ່ມີແຜ່ນ SD ຢູ່"</string>
+    <string name="sdcard_capacity">"ຄວາມຈຸແຜ່ນ SD"</string>
+    <string name="sdcard_used_space">"ພື້ນທີ່ທີ່ໃຊ້ແລ້ວຂອງແຜ່ນ SD"</string>
+    <string name="sdcard_free_space">"ພື້ນທີ່ວ່າງຂອງແຜ່ນ SD"</string>
+    <!-- memory case -->
+    <string name="memory">"ຄວາມຈໍາ"</string>
+    <!-- cpu case -->
+    <string name="cpu">"CPU"</string>
+    <!-- simcard case -->
+    <string name="simcard1">SIMCARD1</string>
+    <string name="simcard2">SIMCARD2</string>
+    <string name="detecting">"ກໍາລັງກວດຫາ..."</string>
+    <!-- touch case -->
+    <string name="touch">"ສໍາຜັດ"</string>
+    <!-- key case -->
+    <string name="key">"ປຸ່ມ"</string>
+    <string name="btn_home">"ໜ້າຫຼັກ"</string>
+    <string name="btn_menu">"ເມນູ"</string>
+    <string name="btn_back">"ກັບຄືນ"</string>
+    <string name="btn_volumeup">"ສຽງຂຶ້ນ"</string>
+    <string name="btn_volumedown">"ສຽງລົງ"</string>
+    <string name="btn_power">"ໄຟເປີດ"</string>
+    <string name="btn_snapshot">"ການຖ່າຍຮູບໄວດ້ວກ້ອງຖ່າຍ"</string>
+    <!-- headset_key case -->
+    <string name="headset_key">"ປຸ່ມຫູຟັງ"</string>
+    <string name="btn_guidance">"ກະລຸນາສຽບຫູຟັງ ແລະກົດປຸ່ມວາງສາຍເພື່ອກວດສອບ"</string>
+    <string name="btn_headphone_insert">"ສຽບຫູຟັງ"</string>
+    <string name="btn_microphone_insert">"ສຽບໄມໂຄຣໂຟນ"</string>
+    <string name="btn_hangup">"ວາງສາຍ"</string>
+    <!-- vibrator case -->
+    <string name="vibrator">"ຕົວສັ່ນ"</string>
+    <string name="vibrator_on">"ຕົວສັ່ນເປີດຢູ່"</string>
+    <string name="vibrator_off">"ຕົວສັ່ນປິດຢູ່"</string>
+    <string name="vibrating">"ກຳລັງສັ່ນ ..."</string>
+    <!-- audio case -->
+    <string name="handset">"ຫູຟັງສຽງ"</string>
+    <string name="audio_handset_play">"ການຫຼິ້ນຊຸດ​ຫູ​ຟັງສຽງ"</string>
+    <string name="audio_handset_play_instruction">"ກວດສອບ ຫຼິ້ນດົນຕີຜ່ານຫູຟັງໂທລະສັບ"</string>
+    <string name="headset">"ຫູຟັງສຽງ"</string>
+    <string name="audio_headset_loopback">"ການ​ວົນ​ກັບ​ຂອງ​ຊຸດ​ຫູ​ຟັງສຽງ"</string>
+    <string name="audio_headset_loopback_instruction">"ກະລຸນາສຽບຫູຟັງ....  ເວົ້າໃສ່ໄມຂອງຫູຟັງເພື່ອກວດສອບການທົດສອບການວົນສຽງຂອງຫູຟັງ"</string>
+    <string name="audio_headset_instruction">"ກະລຸນາສຽບຫູຟັງ....  ເວົ້າໃສ່ໄມຂອງຫູຟັງເພື່ອກວດສອບການທົດສອບການວົນສຽງຂອງຫູຟັງ"</string>
+    <string name="loudspeaker">"ລໍາໂພງສຽງ"</string>
+    <string name="audio_loudspeaker_play">"ການຫຼິ້ນລຳ​ໂພງ​ສຽງ"</string>
+    <string name="audio_loudspeaker_play_instruction">"ກວດສອບ ຫຼິ້ນດົນຕີ ຜ່ານລໍາໂພງ"</string>
+    <string name="primary_mic">"ໄມຫຼັກ"</string>
+    <string name="audio_primary_mic">"ໄມຫຼັກ"</string>
+    <string name="audio_primary_mic_instruction">"​ເວົ້າ​ໃສ່​ໄມ​ຫຼັກ ​ແລະ​ລໍຖ້າ​ການຫຼິ້ນຄືນ​ຂອງ​ຂໍ້ຄວາມ​ທີ່​ບັນ​ອຶກ​ໄວ້​ໃນ​ເມື່ອ​ກ່ອນ​ຜ່ານ​ລຳ​ໂພງ"</string>
+    <string name="audio_noise_mic">"​ໄມ​ບົນ​ແຊວ"</string>
+    <string name="audio_noise_mic_instruction">"​ເວົ້າ​ໃສ່​ໄມ​ບົນ​ແຊວ ​ແລະ​ລໍຖ້າ​ການຫຼິ້ນຄືນ​ຂອງ​ຂໍ້ຄວາມ​ທີ່​ບັນ​ອຶກ​ໄວ້​ໃນ​ເມື່ອ​ກ່ອນ​ຜ່ານ​ລຳ​ໂພງ"</string>
+    <string name="audio_top_mic">"​ໄມ​ອັນ​ດັບ​ຕົ້ນ"</string>
+    <string name="audio_top_mic_instruction">"​ເວົ້າ​ໃສ່​ໄມ​ທັອບ ແລະ​ລໍຖ້າ​ການຫຼິ້ນຄືນ​ຂອງ​ຂໍ້ຄວາມ​ທີ່​ບັນ​ອຶກ​ໄວ້​ໃນ​ເມື່ອ​ກ່ອນ​ຜ່ານ​ລຳ​ໂພງ"</string>
+    <string name="primary_mic_test">"ເວົ້າໃສ່ໄມຫຼັັກ ແລະລໍຖ້າການຫຼິ້ນຄືນຂອງຂໍ້ຄວາມທີ່ບັກທຶກໄວ້ກ່ອນນີ້ຜ່ານລໍາໂພງ"</string>
+    <string name="handset_record">"ເວົ້າໃສ່ໄມຂອງຫູຟັງເປັນເວລາ"</string>
+    <string name="handset_playback">"ກວດສອບການຫຼິ້ນສຽງຄືນຂອງຂໍ້ຄວາມທີ່ບັນທຶກໄວ້ກ່ອນນີ້ຜ່ານຫູຟັງໂທລະສັບ"</string>
+    <string name="handset_play">"ກວດສອບ ຫຼິ້ນດົນຕີຜ່ານຫູຟັງໂທລະສັບ"</string>
+    <string name="headset_record">"ເວົ້າໃສ່ໄມຂອງຫູຟັງເປັນເວລາ"</string>
+    <string name="headset_playback">"ກວດສອບການຫຼິ້ນສຽງຄືນຂອງຂໍ້ຄວາມທີ່ບັນທຶກໄວ້ກ່ອນນີ້ຜ່ານຫູຟັງໂທລະສັບ"</string>
+    <string name="headset_loopback">"ໃສ່ຫູຟັງ ແລະເວົ້າໃສ່ໄມຂອງຫູຟັງເພື່ອກວດສອບການທົດສອບການວົນສຽງຂອງຫູຟັງ"</string>
+    <string name="loudspeaker_playback">"ກວດສອບການຫຼິ້ນສຽງຄືນຂອງຂໍ້ຄວາມທີ່ບັນທຶກໄວ້ກ່ອນນີ້ຜ່ານລໍາໂພງ"</string>
+    <string name="loudspeaker_play">"ກວດສອບ ຫຼິ້ນດົນຕີ ຜ່ານລໍາໂພງ"</string>
+    <string name="headset_second_record">"ເວົ້າໃສ່ໄມທີສອງເປັນເວລາ"</string>
+    <string name="seconds">"ວິນາທີ"</string>
+    <!-- wifi case -->
+    <string name="wifi">"WIFI"</string>
+    <!-- fm case -->
+    <string name="fm">FM</string>
+    <string name="next_tune">"ຄົ້ນຫາຕໍ່ໄປ &gt;&gt;"</string>
+    <string name="playing_tune">"ຫຼິ້ນເພງ"</string>
+    <string name="config_audio">"ເລີ່ກຳນນົດຄ່າເສັ້ນທາງສຽງສຳລັບ FM"</string>
+    <string name="search_tune">"ກຳລັງຄົ້ນຫາເພງທີ່ມີໃຫ້ ..."</string>
+    <!-- bluetooth case -->
+    <string name="bluetooth">"ບລູທູດ"</string>
+    <!-- gps case -->
+    <string name="gps">"GPS"</string>
+    <string name="run_garden_app">"ແລ່ນໃຊ້ງານແອັບ_ສວນຄົວ..."</string>
+    <!-- nfc case -->
+    <string name="nfc">"NFC"</string>
+    <!-- test report -->
+    <string name="fail_items">"ລາຍການບໍ່ສຳເລັດ"</string></resources>

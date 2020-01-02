@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"SVI Ayarları"</string>
+        <add-resource type="string" name="svi_settings_title"/>
+    <string name="svi_settings_title">"SVI Ekranı Ayarları"</string>
+        <add-resource type="string" name="svi_enable_title"/>
+    <string name="svi_enable_title">"SVI Ekranını Etkinleştir"</string>
+        <add-resource type="string" name="svi_enable_summary_on"/>
+    <string name="svi_enable_summary_on">"Ortam durumuna göre görüntülemeyi geliştir"</string>
+        <add-resource type="string" name="svi_enable_summary_off"/>
+    <string name="svi_enable_summary_off">"Görüntüleme deneyimi ortam koşulları için geliştirilmeyecek"</string>
+        <add-resource type="string" name="svi_info_default"/>
+    <string name="svi_info_default">"Bilinmiyor"</string>
+        <add-resource type="string" name="svi_version_title"/>
+    <string name="svi_version_title">"SVI Sürümü"</string></resources>

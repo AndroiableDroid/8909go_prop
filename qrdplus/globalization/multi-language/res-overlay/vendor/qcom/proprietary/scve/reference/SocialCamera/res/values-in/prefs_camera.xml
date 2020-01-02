@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"Kamera"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"Utama"</item>
+        <item>"Depan"</item>
+        <item>"Kamera 3"</item>
+        <item>"Kamera 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"Ukuran gambar"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9,7MP, 16:9)"</item>
+        <item>"3840x2160 (8,3MP, 16:9, UHD 4K)"</item>
+        <item>"3200x1800 (5,8MP, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (4,1MP, 16:9)"</item>
+        <item>"2592x1458 (3,8MP, 16:9)"</item>
+        <item>"1920x1080 (2,1MP, 16:9, HD 1080p)"</item>
+        <item>"1280x720 (0,9MP, 16:9, HD 720p)"</item>
+        <item>"864x480 (0,4MP, 16:9)"</item>
+        <item>"4160x3120 (13MP, 4:3)"</item>
+        <item>"4000x3000 (12MP, 4:3)"</item>
+        <item>"3264x2448 (8MP, 4:3)"</item>
+        <item>"3200x2400 (7,7MP, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (5MP, 4:3)"</item>
+        <item>"2048x1536 (3,1MP, 4:3, QXGA)"</item>
+        <item>"1920x1440 (2,8MP, 4:3)"</item>
+        <item>"1600x1200 (1,9MP, 4:3, UXGA)"</item>
+        <item>"1280x960 (1,2MP, 4:3, UVGA)"</item>
+        <item>"1024x768 (0,8MP, 4:3, XGA)"</item>
+        <item>"800x600 (0,5MP, 4:3, SVGA)"</item>
+        <item>"640x480 (0,3MP, 4:3, VGA)"</item>
+        <item>"320x240 (0,1MP, 4:3, QVGA)"</item>
+        <item>"3264x2176 (7,1MP, 3:2)"</item>
+        <item>"2592x1728 (4,5MP, 3:2)"</item>
+        <item>"720x480 (0,3MP, 3:2)"</item>
+        <item>"4160x2774 (11,5MP, 3:2)"</item>
+        <item>"2976x2976 (8,9MP, 1:1)"</item>
+        <item>"1280x768 (1MP, 5:3)"</item>
+        <item>"800x480 (0,4MP, 5:3)"</item>
+        <item>"352x288 (0,1MP, 11:9)"</item>
+        <item>"176x144 (0MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"Ukuran pratinjau"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"Cocokkan ukuran tampilan"</item>
+        <item>"Pratinjau resolusi tinggi (hingga 4MP)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"Mode adegan"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"Oto"</item>
+        <item>"Gambar aksi"</item>
+        <item>"Kode batang"</item>
+        <item>"Pantai"</item>
+        <item>"Cahaya lilin"</item>
+        <item>"Wajah"</item>
+        <item>"Kembang Api"</item>
+        <item>HDR</item>
+        <item>"Video berkecepatan tinggi"</item>
+        <item>"Lanskap"</item>
+        <item>"Malam"</item>
+        <item>"Pesta"</item>
+        <item>"Orang"</item>
+        <item>"Orang pada malam hari"</item>
+        <item>"Salju"</item>
+        <item>"Olahraga"</item>
+        <item>"Pengambilan gambar stabil"</item>
+        <item>"Matahari terbenam"</item>
+        <item>"Teater"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"Kontrol pencahayaan"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"Oto"</item>
+        <item>"Tetap"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"Kompensasi pencahayaan"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"Fokus"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"Oto"</item>
+        <item>"Tetap"</item>
+        <item>"Rangkaian (Gambar)"</item>
+        <item>"Rangkaian (Video)"</item>
+        <item>"Makro"</item>
+        <item>"Kedalaman ruang yang diperpanjang"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"Kontrol keseimbangan putih"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"Oto"</item>
+        <item>"Nonaktif"</item>
+        <item>"Pencahayaan berpijar"</item>
+        <item>"Pencahayaan fluoresens"</item>
+        <item>"Pencahayaan fluoresens yang hangat"</item>
+        <item>"Siang Hari"</item>
+        <item>"Siang berawan"</item>
+        <item>"Bayangan"</item>
+        <item>"Senja"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"Flash"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"Oto"</item>
+        <item>"Aktif"</item>
+        <item>"Nonaktif"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"Reduksi kebisingan"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"Aktif"</item>
+        <item>"Nonaktif"</item>
+        <item>"Kualitas tinggi"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"Koreksi pembayangan lensa"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"Aktif"</item>
+        <item>"Nonaktif"</item>
+        <item>"Kualitas tinggi"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"Koreksi penyimpangan"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"Aktif"</item>
+        <item>"Nonaktif"</item>
+        <item>"Kualitas tinggi"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"Penyempurnaan tepi"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"Aktif"</item>
+        <item>"Nonaktif"</item>
+        <item>"Kualitas tinggi"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"Koreksi hot piksel"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"Aktif"</item>
+        <item>"Nonaktif"</item>
+        <item>"Kualitas tinggi"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"Mode stabilisasi"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"Nonaktif"</item>
+        <item>"Optik"</item>
+        <item>"Digital"</item>
+    </string-array></resources>

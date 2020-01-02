@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"RCSService حذف شد، لطفاً دوباره آن را نصب کنید!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"به روزرسانی داده متن نمایه"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"به روزرسانی داده پرتره نمایه"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"حذف همه پیام ها"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"یک رئیس جدید در گپ گروهی تنظیم کنید"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"موضوع را در گپ گروهی تغییر دهید"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"نام مستعار عضو را در گپ گروهی تغییر دهید"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"دعوت را برای پیوستن به گپ گروهی بپذیرید"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"خروج از گپ گروهی"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"شرکت کنندگان در گپ گروهی را بیرون کنید"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"رد کردن گپ گروهی"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"توجه به حساب عمومی"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"عدم توجه به حساب عمومی"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"گزارش حساب عمومی"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"مجوز api حساس"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"%1$d برنامه مجاز (کل %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"دیگر هرگز سؤال نشود"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"تأیید"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"لغو"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"این عملکرد برای %1$s طراحی شده است، رد کردن مجوز می تواند موجب شود دیگر مانند آنچه در نظر دارید عمل نکند."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"مجوز %1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"لازم است به %1$s اجازه دهید."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"نیاز به اجازه مجوز برای کارت sd است."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"نیاز به اجازه مجوز برای مخاطبین است."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"نیاز به اجازه مجوز برای sms است."</string></resources>

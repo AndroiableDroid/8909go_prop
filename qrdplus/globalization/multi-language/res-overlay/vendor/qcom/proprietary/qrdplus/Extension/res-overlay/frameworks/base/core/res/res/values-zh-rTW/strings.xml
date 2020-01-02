@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_accessWifiState">"檢視 WLAN 連線"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_accessWifiState">"允許應用程式檢查 WLAN 網路的資訊，如 WLAN 有否啟動和已連線 WLAN 裝置的名稱。"</string>
+    <string name="permlab_changeWifiState">"連線和中斷 WLAN 連線"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiState">"允許應用程式連線和中斷 WLAN 存取點的連線以及為 WLAN 網路變更裝置配置。"</string>
+    <string name="permlab_changeWifiMulticastState">"允許 WLAN 群播接收"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="tablet">"除了平板電腦外，還允許應用程式接收在 WLAN 網路使用群播位址傳送給所有裝置的數據封包，比非群播模式更耗電。"</string>
+    <string name="permdesc_changeWifiMulticastState" product="default">"除了手機外，還允許應用程式接收在 WLAN 網路使用群播位址傳送給所有裝置的數據封包，比非群播模式更耗電。"</string>
+    <string name="wifi_available_sign_in">"登入 WLAN 網路"</string>
+    <string name="wifi_watchdog_network_disabled">"未能連線到 WLAN"</string>
+    <string name="wifi_p2p_dialog_title">"WLAN Direct"</string>
+    <string name="wifi_p2p_turnon_message">"開始 WLAN 指令。這會關閉 WLAN 用戶端/熱點。"</string>
+    <string name="wifi_p2p_failed_message">"未能開始 WLAN 指令。"</string>
+    <string name="wifi_p2p_enabled_notification_title">"WLAN 指令已開啟"</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="tablet">"當平板電腦已連線至 <xliff:g id="device_name">%1$s</xliff:g>，會暫時中斷 WLAN 連線"</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="default">"當手機已連線至 <xliff:g id="device_name">%1$s</xliff:g>，會暫時中斷 WLAN 連線"</string>
+    <!-- Notification title when WLAN data usage has exceeded limit threshold, and has been disabled. [CHAR LIMIT=32] -->
+    <string name="data_usage_wifi_limit_title">"WLAN 數據已關閉"</string>
+    <!-- Notification title when WLAN data usage has exceeded limit threshold. [CHAR LIMIT=32] -->
+    <string name="data_usage_wifi_limit_snoozed_title">"已超出 WLAN 數據限制"</string>
+    <!--<string name="permlab_configureWifiDisplay">configure WLAN displays</string>-->
+    <!--<string name="permdesc_configureWifiDisplay">Allows the app to configure and connect to WLAN displays.</string>-->
+    <!--<string name="permlab_controlWifiDisplay">control WLAN displays</string>-->
+    <!--<string name="permdesc_controlWifiDisplay">Allows the app to control low-level features of WLAN displays.</string>-->
+    <!-- A notification is shown when there are open wireless networks nearby.  This is the notification's title. -->
+    <plurals name="wifi_available">
+        <item quantity="one">"可用的 WLAN 網路"</item>
+        <item quantity="other">"可用的 WLAN 網路"</item>
+    </plurals>
+    <!-- A notification is shown when there are open wireless networks nearby.  This is the notification's message. -->
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">"開啟可用的 WLAN 網路"</item>
+        <item quantity="other">"開啟可用的 WLAN 網路"</item>
+    </plurals></resources>

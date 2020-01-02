@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/**
+ * Copyright (C) 2014 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- General provisioning strings used for both device owner and work profile provisioning -->
+  <!-- Title of the provisioning error dialog. [CHAR LIMIT=45] -->
+  <string name="provisioning_error_title">"Lo!"</string>
+  <!-- Work profile provisioning flow UI. -->
+  <!-- User consent -->
+  <!-- Title of all work profile setup screens. [CHAR LIMIT=NONE] -->
+  <string name="setup_work_profile">"Weka wasifu wako"</string>
+  <!-- The text that asks for user consent to create a work profile [CHAR LIMIT=NONE] -->
+  <string name="company_controls_workspace">"Shirika lako linadhibiti kifaa chako na kukiweka salama. Unadhibiti vitu vingine vyote kwenye kifaa chako."</string>
+  <!-- The text that asks for user consent to set up a work device [CHAR LIMIT=NONE] -->
+  <string name="company_controls_device">"Shirika lako litadhibiti kifaa hiki na kukiweka salama."</string>
+  <!-- String shown above the icon of the app that will control the work profile after it is set up. [CHAR LIMIT=NONE]-->
+  <string name="the_following_is_your_mdm">"Programu ifuatayo itahitaji kufikia wasifu huu:"</string>
+  <!-- String shown above the icon of the app that will control the work device after it is set up. [CHAR LIMIT=NONE]-->
+  <string name="the_following_is_your_mdm_for_device">"Programu zifuatazo zitadhibiti kifaa chako:"</string>
+  <!-- String for positive button on user consent dialog for creating a profile [CHAR LIMIT=NONE] -->
+  <string name="set_up">"Sanidi"</string>
+  <!-- Progress text shown when setting up work profile [CHAR LIMIT=NONE] -->
+  <string name="setting_up_workspace">"Inaweka mipangilio ya wasifu wako wa kazi..."</string>
+  <!-- Text in a pop-up that asks the user to confirm that they allow the mobile device management app to take control of the profile they are creating. [CHAR LIMIT=NONE]-->
+  <string name="admin_has_ability_to_monitor_profile">"Msimamizi wako ana uwezo wa kufuatilia na kudhibiti mipangilio, ufikiaji wa kampuni, programu na data inayohusiana na wasifu huu, ikiwa ni pamoja na shughuli kwenye mtandao na maelezo kuhusu mahali kilipo kifaa chako."</string>
+  <!-- Text in a pop-up that asks the user to confirm that they allow the mobile device management app to take control of the device. [CHAR LIMIT=NONE]-->
+  <string name="admin_has_ability_to_monitor_device">"Msimamizi wako ana uwezo wa kufuatilia na kudhibiti mipangilio, idhini ya kufikia ya kampuni, programu, ruhusa, na data zinazohusiana na kifaa hiki, ikiwa ni pamoja na shughuli za mtandao na maelezo ya mahali kilipo kifaa chako."</string>
+  <!-- Text in a pop-up that asks the user to confirm that theft protection will be disabled. [CHAR LIMIT=NONE]-->
+  <string name="theft_protection_disabled_warning">"Ukiendelea, vipengele vya ulinzi dhidi ya wizi havitawashwa. Ili kuwasha vipengee vya ulinzi dhidi ya wizi, ghairi sasa na ukipange kama kifaa cha binafsi."</string>
+  <!-- String telling the user how to get more information about their work profile-->
+  <string name="contact_your_admin_for_more_info">"Wasiliana na msimamizi wako kwa maelezo zaidi, ikiwa ni pamoja na sera za faragha za shirika lako."</string>
+  <!-- Text on the link that will forward the user to a website with more information about work profiles [CHAR LIMIT=30]-->
+  <string name="learn_more_link">"Pata maelezo zaidi"</string>
+  <!-- Text on negative button in a popup shown to the user to confirm that they want to start setting up a work profile [CHAR LIMIT=15]-->
+  <string name="cancel_setup">"GHAIRI"</string>
+  <!-- Text on positive button in a popup shown to the user to confirm that they want to start setting up a work profile [CHAR LIMIT=15]-->
+  <string name="ok_setup">"SAWA"</string>
+  <!-- Default profile name used for the creation of work profiles. [CHAR LIMIT=NONE] -->
+  <string name="default_managed_profile_name">"Wasifu wa kazini"</string>
+  <!-- Title on the dialog that prompts the user to confirm that they really want to delete their existing work profile-->
+  <string name="delete_profile_title">"Ungependa kuondoa wasifu wa kazini?"</string>
+  <!-- Opening string on the dialog that prompts the user to confirm that they really want to delete
+       their existing work profile. The administration app icon and name appear after the final
+       colon. [CHAR LIMIT=NONE] -->
+  <string name="opening_paragraph_delete_profile_unknown_company">"Wasifu wa kazi tayari upo na unasimamiwa na:"</string>
+    <!-- Opening string on the dialog that prompts the user to confirm that they really want to delete
+         their existing work profile. The administration app icon and name appear after the final
+         colon, the %s is replaced by the domain name of the organization that owns the work
+         profile. [CHAR LIMIT=NONE] -->
+  <string name="opening_paragraph_delete_profile_known_company">"Wasifu huu wa kazini unasimamiwa kwa niaba ya %s kwa kutumia:"</string>
+  <!-- String on the dialog that links through to more information about the profile management application. -->
+  <string name="read_more_delete_profile">"Kabla ya kuendelea, "<a href="#read_this_link">"soma hapa"</a>"."</string>
+  <!-- String on the dialog that prompts the user to confirm that they really want to delete their existing work profile-->
+  <string name="sure_you_want_to_delete_profile">"Programu zote na data katika wasifu huu zitafutwa ukiendelea."</string>
+  <!-- String on the button that triggers the deletion of a work profile.-->
+  <string name="delete_profile">"FUTA"</string>
+  <!-- String on the button that cancels out of the deletion of a work profile.-->
+  <string name="cancel_delete_profile">"GHAIRI"</string>
+  <!-- String shown on prompt for user to encrypt and reboot the device, in case of profile setup [CHAR LIMIT=NONE]-->
+  <string name="encrypt_device_text_for_profile_owner_setup">"Ili uendelee kusanidi wasifu wako wa kazini, utahitaji kusimba kifaa chako kwa njia fiche. Hatua hii inaweza kuchukua muda."</string>
+  <!-- String shown on prompt for user to encrypt and reboot the device, in case of device setup [CHAR LIMIT=NONE]-->
+  <string name="encrypt_device_text_for_device_owner_setup">"Ili uweze kuendelea kupanga kifaa chako, utalazimika ukisimbe kwa njia fiche. Hatua hii inaweza kuchukua muda."</string>
+  <!-- String shown on button for user to cancel setup when asked to encrypt device. [CHAR LIMIT=20]-->
+  <string name="encrypt_device_cancel">"GHAIRI"</string>
+  <!-- String shown on button for user to continue to settings to encrypt the device. [CHAR LIMIT=20]-->
+  <string name="encrypt_device_launch_settings">"SIMBA KWA NJIA FICHE"</string>
+  <!-- Title for reminder notification to resume provisioning after encryption [CHAR LIMIT=30] -->
+  <string name="continue_provisioning_notify_title">"Usimbaji fiche umekamilika"</string>
+  <!-- Body for reminder notification to resume provisioning after encryption [CHAR LIMIT=NONE] -->
+  <string name="continue_provisioning_notify_text">"Gusa ili uendelee kusanidi wasifu wako wa kazini"</string>
+  <!-- Explains the failure and what to do to next. [CHAR LIMIT=NONE] -->
+  <string name="managed_provisioning_error_text">"Haikuweza kusanidi wasifu wako wa kazi. Wasiliana na idara yako ya Teknolojia ya Habari au ujaribu tena baadaye."</string>
+  <!-- Error string displayed if this device doesn't support work profiles. -->
+  <string name="managed_provisioning_not_supported">"Kifaa chako hakitumii wasifu wa kazini"</string>
+  <!-- Error string displayed if the user that initiated the provisioning is not the user owner. -->
+  <string name="user_is_not_owner">"Wasifu wa kazini unafaa uwekwe na mtumiaji msingi wa kifaa"</string>
+  <!-- Error string displayed if provisioning was initiated on a device with a Device Owner -->
+  <string name="device_owner_exists">"Wasifu wa kazini hauwezi kusanidiwa kwenye kifaa kinachosimamiwa"</string>
+  <!-- Error string displayed if maximum user limit is reached -->
+  <string name="maximum_user_limit_reached">"Wasifu wa kazi haukuweza kuundwa kwa sababu umefikia idadi ya juu ya watumiaji kwenye kifaa chako. Ondoa angalau mtumiaji moja na ujaribu tena."</string>
+  <!-- Error string displayed if the selected launcher doesn't support work profiles. -->
+  <string name="managed_provisioning_not_supported_by_launcher">"Wasifu wako wa kazini hauwezi kutumiwa na kifungua programu hiki. Itabidi ubadili hadi kifungua programu kinachooana."</string>
+  <!-- Button text for the button that cancels provisioning  -->
+  <string name="cancel_provisioning">"GHAIRI"</string>
+  <!-- Button text for the button that opens the launcher picker  -->
+  <string name="pick_launcher">"SAWA"</string>
+  <!-- Device owner provisioning flow UI. -->
+  <!-- Default username for the user of the owned device. [CHAR LIMIT=45] -->
+  <string name="default_owned_device_username">"Mtumiaji wa kifaa cha kazini"</string>
+  <!-- Title of the work device setup screen. [CHAR LIMIT=NONE] -->
+  <string name="setup_work_device">"Sanidi kifaa chako"</string>
+  <!-- Progress text indicating that the setup data is processed. [CHAR LIMIT=45] -->
+  <string name="progress_data_process">"Inachakata data ya kuweka mipangilio..."</string>
+  <!-- Progress text indicating that wifi is set up. [CHAR LIMIT=45] -->
+  <string name="progress_connect_to_wifi">"Inaunganisha kwenye Wi-Fi..."</string>
+  <!-- Progress text indicating that the device admin package is being downloaded. [CHAR LIMIT=45] -->
+  <string name="progress_download">"Inapakua programu ya msimamizi..."</string>
+  <!-- Progress text indicating that the device admin package is being installed. [CHAR LIMIT=45] -->
+  <string name="progress_install">"Inasakinisha programu ya msimamizi..."</string>
+  <!-- Progress text indicating that the device admin package is set as ownder. [CHAR LIMIT=45] -->
+  <string name="progress_set_owner">"Inaweka mipangilio ya mmiliki wa kifaa..."</string>
+  <!-- Message of the cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_cancel_message">"Je, ungependa kuacha kusanidi na ufute data iliyomo kwenye kifaa chako?"</string>
+  <!-- Cancel button text of the cancel dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_cancel_cancel">"GHAIRI"</string>
+  <!-- OK button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_error_ok">"SAWA"</string>
+  <!-- Reset button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="device_owner_error_reset">"WEKA UPYA"</string>
+  <!-- Message of the error dialog in case of an unspecified error. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_general">"Haikuweza kusanidi kifaa chako. Wasiliana na idara yako ya Teknolojia ya Habari."</string>
+  <!-- Message of the error dialog when already provisioned. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_already_provisioned">"Kifaa hiki tayari kimesanidiwa."</string>
+  <!-- Message of the error dialog when a secondary user has already been provisioned. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_already_provisioned_user">"Kifaa hiki tayari kimesanidiwa mtumiaji huyu."</string>
+  <!-- Message of the error dialog when setting up wifi failed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_wifi">"Haikuweza kuunganisha kwenye Wi-Fi"</string>
+  <!-- Message of the error dialog when passing factory reset protection fails. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_frp">"Kifaa hiki kimefungwa kwa ulinzi dhidi ya kurejesha katika hali kilichotoka nayo kiwandani. Wasiliana na idara yako ya Teknolojia ya Habari."</string>
+  <!-- Message informing the user that the factory reset protection partition is being erased [CHAR LIMIT=30] -->
+  <string name="frp_clear_progress_title">"Inafuta"</string>
+  <!-- Progress screen text shown while erasing the factory reset protection partition [CHAR LIMIT=75] -->
+  <string name="frp_clear_progress_text">"Tafadhali subiri..."</string>
+  <!-- Message of the error dialog when data integrity check fails. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_hash_mismatch">"Haikuweza kutumia programu ya msimazi kutokana na hitilafu ya checksum. Wasiliana na idara yako ya Teknolojia ya Habari."</string>
+  <!-- Message of the error dialog when device owner apk could not be downloaded. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_download_failed">"Haikuweza kupakua programu ya msimamizi"</string>
+  <!-- Message of the error dialog when package to install is invalid. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_invalid">"Haiwezi kutumia programu ya msimamizi. Inakosa vipengele au ina hitilafu. Wasiliana na idara yako ya Teknolojia ya Habari."</string>
+  <!-- Message of the error dialog when the name of the admin package to be installed is invalid. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_name_invalid">"Haiwezi kusakinisha programu ya msimamizi. Jina la kifurushi si sahihi. Wasiliana na idara yako ya Teknolojia ya Habari."</string>
+  <!-- Message of the error dialog when package could not be installed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_installation_failed">"Haikuweza kusakinisha programu ya msimamizi"</string>
+  <!-- Message of the error dialog when device admin package is not installed. [CHAR LIMIT=NONE] -->
+  <string name="device_owner_error_package_not_installed">"Programu ya msimamizi haijasakinishwa kwenye kifaa chako"</string>
+  <!-- Message of the cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="profile_owner_cancel_message">"Ungependa kuacha kusanidi?"</string>
+  <!-- Cancel button text of the cancel dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancel_cancel">"HAPANA"</string>
+  <!-- OK button text of the error dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancel_ok">"NDIYO"</string>
+  <!-- Message of the cancel progress dialog. [CHAR LIMIT=45] -->
+  <string name="profile_owner_cancelling">"Inaghairi\u2026"</string>
+  <!-- Title of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_later_title">"Je, ungependa kuacha kuweka mipangilio ya kifaa chako?"</string>
+  <!-- Message of the work profile setup cancel dialog. [CHAR LIMIT=NONE] -->
+  <string name="work_profile_setup_later_message">"Unaweza kuweka mipangilio ya wasifu wako baadaye kutoka programu ya udhibiti wa kifaa inayotumiwa na shirika lako."</string>
+  <!-- Cancel button text of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_continue">"ENDELEA"</string>
+  <!-- OK button text of the work profile setup cancel dialog. [CHAR LIMIT=45] -->
+  <string name="work_profile_setup_stop">"ACHA"</string>
+  <!-- CertService -->
+  <!-- Title of a status bar notification for a service which installs CA certificates to secondary users. [CHAR LIMIT=45] -->
+  <string name="provisioning">"Inaandaa"</string>
+  <!-- Content of a status bar notification for a service which installs CA certificates to secondary users. [CHAR LIMIT=45] -->
+  <string name="copying_certs">"Inasanidi vyeti vya CA"</string>
+  <!-- Accessibility Descriptions -->
+  <!-- Accessibility description for the profile setup screen showing organization info. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_start_setup">"Weka mipangilio ya wasifu wako. Anza kuweka mipangilio"</string>
+  <!-- Accessibility description for the profile setup screen showing encryption info. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_encryption">"Weka mipangilio ya wasifu wako. Usimbaji fiche"</string>
+  <!-- Accessibility description for the profile setup screen showing progress. [CHAR LIMIT=NONE] -->
+  <string name="setup_profile_progress">"Weka mipangilio ya wasifu wako. Inaonyesha maendeleo"</string>
+  <!-- Accessibility description for the device setup screen showing company info. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_start_setup">"Weka mipangilio ya kifaa chako. Anza kuweka mipangilio"</string>
+  <!-- Accessibility description for the device setup screen showing encryption info. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_encryption">"Weka mipangilio ya kifaa chako. Usimbaji fiche"</string>
+  <!-- Accessibility description for the device setup screen showing progress. [CHAR LIMIT=NONE] -->
+  <string name="setup_device_progress">"Weka mipangilio ya kifaa chako. Inaonyesha maendeleo"</string>
+  <!-- Accessibility description for the learn more link in user consent dialog. [CHAR LIMIT=NONE] -->
+  <string name="learn_more_label">"Kitufe cha pata maelezo zaidi"</string>
+  <!-- Accessibility description for the company icon. [CHAR LIMIT=NONE] -->
+  <string name="mdm_icon_label">"Aikoni ya <xliff:g id="ICON_LABEL">%1$s</xliff:g>"</string></resources>

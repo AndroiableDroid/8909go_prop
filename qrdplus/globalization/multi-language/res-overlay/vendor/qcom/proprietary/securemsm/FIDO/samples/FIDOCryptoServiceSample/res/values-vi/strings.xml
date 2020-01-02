@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Cài đặt"</string>
+    <string name="body_msg">"đang thử nghiệm FidoCryptoService"</string>
+    <string name="load">"tải"</string>
+    <string name="unload">"gỡ bỏ"</string>
+    <string name="process">"Tiến trình"</string>
+    <string name="start">"bắt đầu"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"Liên kết dịch vụ FIDO"</string>
+    <string name="unbindFido">"Ngắt liên kết dịch vụ FIDO"</string>
+    <string name="setChallenge">"Đặt thử thách"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Liên kết trình xác thực"</string>
+    <string name="verifyUser">"Xác minh người dùng / Lấy mã thông báo"</string>
+    <string name="GetInfo">"Lấy thông tin"</string>
+    <string name="Register">"Đăng ký"</string>
+    <string name="Deregister">"Hủy đăng ký"</string>
+    <string name="OpenSettings">"Mở cài đặt"</string>
+    <string name="Sign">"Ký"</string>
+    <string name="MalformedRequest">"Yêu cầu sai"</string>
+    <string name="selectAuth">"Chọn trình xác thực"</string>
+    <string name="getEnrollmentStatus">"Lấy trạng thái đăng ký"</string>
+    <string name="RegisterExt">"Đăng ký với Phần mở rộng"</string>
+    <string name="SignExt">"Ký với Phần mở rộng"</string>
+    <string name="encResult">"Kết quả tóm lược"</string>
+    <string name="extResult">"Dữ liệu mở rộng"</string>
+    <string name="selectFidoOpText">"chọn thao tác FIDO"</string>
+    <string name="show_message_sui">"hiển thị thông báo sui"</string>
+    <string name="fido_sui_service">"Dịch vụ fido Sui"</string>
+    <string name="bindFidoSui">"liên kết fido sui"</string>
+    <string name="unbindFidoSui">"ngắt liên kết fido sui"</string>
+    <string name="suiResultTitle">"kết quả hiển thị thông báo sui"</string>
+    <string name="cancel_sui">"hủy sui"</string>
+    <string name="extensionText">"Sử dụng phần mở rộng?"</string>
+    <string name="pngText">"Sử dụng nội dung PNG?"</string>
+    <string name="fpText">"Dấu vân tay bảo mật"</string>
+    <string-array name="authenticator_array">
+        <item>"Trình xác thực mô phỏng"</item>
+        <item>"Trình xác thực mẫu"</item>
+        <item>"Trình xác thực bảo mật mẫu"</item>
+        <item>"Trình xác thực phần mở rộng mẫu"</item>
+        <item>"Trình xác thực phần mở rộng bảo mật"</item>
+        <item>"Trình xác thực tình trạng thiết bị"</item>
+        <item>"Trình xác thực mẫu bảo mật IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Lấy thông tin"</item>
+        <item>"Đăng ký"</item>
+        <item>"Hủy đăng ký"</item>
+        <item>"Mở cài đặt"</item>
+        <item>"Ngoại lệ sai dạng"</item>
+        <item>"Ký (Xác thực)"</item>
+        <item>"Ký (TX)"</item>
+    </string-array></resources>

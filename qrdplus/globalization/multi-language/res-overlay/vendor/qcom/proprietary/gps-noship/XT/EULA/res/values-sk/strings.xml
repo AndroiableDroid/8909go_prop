@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="IZat_MENU_TEXT">"Rýchlejšie určovanie polohy"</string>
+    <string name="IZat_SUB_TITLE_TEXT"><![CDATA[Využitie určovania polohy s hardvérovým urýchľovaním služby Qualcomm® IZat™]]></string>
+    <string name="POPUP_BOX_TITLE">"Súhlas s určovaním polohy"</string>
+    <string name="POPUP_BOX_TEXT">"Povoľte službe IZat zhromažďovať údaje o polohe na umožnenie hardvérového urýchľovania. Služba IZat uchováva určité údaje vo vašom zariadení a môže byť v prevádzke aj v prípade, že nie sú spustené žiadne aplikácie."</string>
+    <string name="POLICY_LINK"><![CDATA[<a href=\"http://xt.qsp.qualcomm.com/privacy/SK/privacy_policy.html\">Podmienky používania a pravidlá ochrany osobných údajov.</a>]]></string>
+    <string name="IZAT_AGREE">"Súhlasím"</string>
+    <string name="IZAT_DISAGREE">"Nesúhlasím"</string>
+    <string name="XT_APP_TITLE">"Qualcomm IZat"</string>
+    <string-array name="GS_PACKAGES">
+      <item>"com.google.android.gms"</item>
+      <item>"com.google.android.location"</item>
+    </string-array></resources>

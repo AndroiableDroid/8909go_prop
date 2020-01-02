@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Oma Drm Engine"</string>
+    <string name="activity_name_image_viewer">"Trình xem ảnh DRM"</string>
+    <string name="permission_label_access_drm_data">"Quyền truy cập trình cắm OMA DRM"</string>
+    <string name="permission_desc_access_drm_data">"Cho phép truy cập thông tin về giấy phép trình cắm OMA DRM."</string>
+    <string name="license_expired">"Giấy phép đã hết hạn"</string>
+    <string name="license_expired_message">"Không thể mở tệp DRM"</string>
+    <string name="buy_license">"Mua giấy phép"</string>
+    <string name="menu_set_as_wallpaper">"Đặt làm hình nền"</string>
+    <string name="menu_details">"Chi tiết"</string>
+    <string name="drm_details_title">"Chi tiết Drm"</string>
+    <string name="dialog_close">"Đóng"</string>
+    <string name="drm_rights_message">"Đã lưu thành công các quyền OMA DRM"</string>
+    <string name="drm_text_count">"Số lần còn lại: "</string>
+    <string name="drm_text_date_start">"Từ: "</string>
+    <string name="drm_text_date_end">"Đến: "</string>
+    <string name="drm_text_fwd_lk">"Không giới hạn "</string>
+    <string name="drm_text_license">"Giấy phép Drm: "</string>
+    <string name="drm_text_play">"Phát"</string>
+    <string name="drm_text_display">"Hiển thị"</string>
+    <string name="drm_text_title">"Tiêu đề: "</string>
+    <string name="drm_text_location">"Vị trí: "</string>
+    <string name="drm_text_mime_type">"Loại Mime: "</string>
+    <string name="error_unable_to_view">"Không tìm thấy ảnh"</string></resources>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"أداة تثبيت الحزم"</string>
+    <string name="next">"التالي"</string>
+    <string name="install">"تثبيت"</string>
+    <string name="done">"تم"</string>
+    <!-- TODO REMOVE LATER -->
+    <string name="security_settings_desc">"السماح لهذا التطبيق بـ:"</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="unknown">"غير معروف"</string>
+    <string name="installing">"جارٍ التثبيت..."</string>
+    <string name="install_done">"تم تثبيت التطبيق."</string>
+    <!-- Message for installing a new app that requires some permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question">"هل تريد تثبيت هذا التطبيق؟ سيكون بإمكانه الدخول إلى:"</string>
+    <!-- Message for installing a new app that does not require permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_no_perms">"هل تريد تثبيت هذا التطبيق؟ إنه لا يتطلب أي دخول خاص."</string>
+    <!-- Message for updating an existing app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update">"هل تريد تثبيت تحديث لهذا التطبيق الحالي؟ لن تفقد بياناتك الحالية. سيكون بإمكان التطبيق المحدّث الدخول إلى:"</string>
+    <!-- Message for updating an existing system app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_system">"هل تريد تثبيت تحديث لهذا التطبيق المضمن؟ لن تفقد بياناتك الحالية. سيكون بإمكان التطبيق المحدّث الدخول إلى:"</string>
+    <!-- Message for updating an existing app, no permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_no_perms">"هل تريد تثبيت تحديث لهذا التطبيق الحالي؟ لن يتم فقد بياناتك الحالية. كما أنه لا يتطلب أي دخول خاص."</string>
+    <!-- Message for updating an existing system app, no permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_system_no_perms">"هل تريد تثبيت تحديث لهذا التطبيق المضمن؟ لن يتم فقد بياناتك الحالية. كما أنه لا يتطلب أي دخول خاص."</string>
+    <string name="install_failed">"التطبيق ليس مثبتًا."</string>
+    <!-- Reason displayed when installation fails because the installation package itself is invalid
+        in some way (e.g., corrupt) [CHAR LIMIT=100] -->
+    <string name="install_failed_invalid_apk">"يبدو أن الحزمة تالفة."</string>
+    <!-- Reason displayed when installation fails because the package an existing package is
+        installed with a conflicting package author signature [CHAR LIMIT=100] -->
+    <string name="install_failed_inconsistent_certificates">"هناك حزمة حالية ذات توقيع متضارب، تم تثبيتها من قبل بالاسم نفسه."</string>
+    <!-- Reason displayed when installation fails because the package specifies a minimum compatible
+        OS version that is newer than our current OS version. [CHAR LIMIT=100] -->
+    <string name="install_failed_older_sdk">"‏تعمل الحزمة فقط على إصدارات أحدث من Android."</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">"هذا التطبيق ليس متوافقًا مع جهازك اللوحي."</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current TV doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tv">"هذا التطبيق غير  متوافق مع التلفزيون."</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current phone doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="default">"لا يتوافق هذا التطبيق مع هاتفك."</string>
+    <!-- Reason displayed when installation fails because the package was deleted during the
+        installation process. [CHAR LIMIT=100] -->
+    <string name="install_failed_file_not_found">"تم حذف الحزمة المحددة قبل اكتمال عملية التثبيت."</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        because the package verifier rejected it. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_failed">"لم تتجاوز هذه الحزمة عملية التحقق ولا يمكن تثبيتها."</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        before the internal system timer expired. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_timeout">"حدثت مهلة أثناء محاولة التحقق من هذه الحزمة. الرجاء محاولة إعادة تثبيتها لاحقًا."</string>
+    <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tablet">"تعذر تثبيت <xliff:g id="APP_NAME">%1$s</xliff:g> على جهازك اللوحي."</string>
+    <!-- Message presented when an application could not be installed on the TV for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tv">"تعذر تثبيت<xliff:g id="app_name">%1$s</xliff:g> على التلفزيون."</string>
+    <!-- Message presented when an application could not be installed on the phone for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="default">"تعذر تثبيت <xliff:g id="APP_NAME">%1$s</xliff:g> على هاتفك."</string>
+    <string name="launch">"فتح"</string>
+    <string name="unknown_apps_dlg_title">"التثبيت محظور"</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tablet">"لدواعي الأمان، تم تعيين جهازك اللوحي لحظر تثبيت التطبيقات التي تم الحصول عليها من مصادر غير معروفة."</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tv">"من أجل الأمان، تم ضبط التلفزيون لحظر تثبيت التطبيقات التي تم الحصول عليها من مصادر غير معروفة."</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="default">"لدواعي الأمان، تم تعيين هاتفك على حظر تثبيت التطبيقات التي تم الحصول عليها من مصادر غير معروفة."</string>
+    <!-- Message presented in a dialog box when the device administrator restricts the installation of apps from unknown sources. [CHAR LIMIT=none] -->
+    <string name="unknown_apps_admin_dlg_text">"لا يسمح المسؤول بتثبيت التطبيقات التي تم الحصول عليها من مصادر غير معروفة."</string>
+    <string name="ok">"موافق"</string>
+    <string name="settings">"الإعدادات"</string>
+    <!-- Title of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_title">"مصدر جديد للتطبيقات"</string>
+    <!-- Message of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_text">"يريد <xliff:g id="APP_NAME">%1$s</xliff:g> تثبيت تطبيق آخر.\n\nهل تريد السماح بذلك الآن وفي المستقبل؟"</string>
+    <string name="manage_applications">"إدارة التطبيقات"</string>
+    <string name="dlg_app_replacement_title">"هل تريد استبدال التطبيق؟"</string>
+    <string name="dlg_app_replacement_statement">"سيحل التطبيق الذي تثبته الآن محل تطبيق آخر.\n\nسيتم حفظ جميع بيانات المستخدم السابقة."</string>
+    <!-- Dialog attributes when replacing system app -->
+    <string name="dlg_sys_app_replacement_statement">"هذا تطبيق نظام.\n\nسيتم حفظ جميع بيانات المستخدم السابقة."</string>
+    <string name="out_of_space_dlg_title">"نفدت مساحة التخزين"</string>
+    <string name="out_of_space_dlg_text">"تعذر تثبيت <xliff:g id="APP_NAME">%1$s</xliff:g> الرجاء تحرير بعض المساحة والمحاولة مرة أخرى."</string>
+    <!-- strings related to uninstall activity -->
+    <string name="dlg_ok">"موافق"</string>
+    <string name="app_not_found_dlg_title">"لم يتم العثور على التطبيق"</string>
+    <string name="app_not_found_dlg_text">"لم يتم العثور على التطبيق في قائمة التطبيقات المثبتة."</string>
+    <string name="uninstall_application_title">"إزالة التطبيق"</string>
+    <string name="uninstall_update_title">"إزالة التحديث"</string>
+    <string name="uninstall_activity_text">"<xliff:g id="ACTIVITY_NAME">%1$s</xliff:g> هو جزء من التطبيق التالي:"</string>
+    <string name="uninstall_application_text">"هل تريد إزالة هذا التطبيق؟"</string>
+    <string name="uninstall_application_text_all_users">"هل تريد إزالة هذا التطبيق "<b>"لكل"</b>" المستخدمين؟ ستتم إزالة التطبيق وبياناته من "<b>"كل"</b>" المستخدمين على هذا الجهاز."</string>
+    <string name="uninstall_application_text_user">"هل تريد إزالة هذا التطبيق للمستخدم <xliff:g id="USERNAME">%1$s</xliff:g>؟"</string>
+    <string name="uninstall_update_text">"هل تريد استبدال هذا التطبيق بإصدار المصنع؟"</string>
+    <string name="uninstalling">"جارٍ الإزالة..."</string>
+    <string name="uninstall_done">"انتهت الإزالة."</string>
+    <string name="uninstall_failed">"أخفقت الإزالة."</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator [CHAR LIMIT=80] -->
+    <string name="uninstall_failed_device_policy_manager">"تتعذر الإزالة نظرًا لأن هذه الحزمة تمثل مشرفًا نشطًا للجهاز."</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator for some user [CHAR LIMIT=100] -->
+    <string name="uninstall_failed_device_policy_manager_of_user">"لا يمكن الإزالة لأن هذه الحزمة تعد مشرف جهاز نشطًا للمستخدم <xliff:g id="USERNAME">%1$s</xliff:g>."</string>
+    <!-- String presented to the user when uninstalling a package failed because a profile owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_profile_owner">"هذا التطبيق مطلوب لملفك الشخصي للعمل ولا يمكن إزالته."</string>
+    <!-- String presented to the user when uninstalling a package failed because a device owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_device_owner">"مشرف الجهاز يحتاج إلى هذا التطبيق ولا يمكن إزالته."</string>
+    <!-- String on a button that leads to the "device administrator" configuration setting where a
+        user will be able to disable the device administrator in order to uninstall
+        it. [CHAR LIMIT=50] -->
+    <string name="manage_device_administrators">"إدارة مشرفي الجهاز"</string>
+    <string name="uninstall_failed_msg">"تعذرت إزالة <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
+    <!-- Dialog attributes to indicate parse errors -->
+    <string name="Parse_error_dlg_title">"خطأ في التحليل"</string>
+    <string name="Parse_error_dlg_text">"حدثت مشكلة أثناء تحليل الحزمة."</string>
+    <!-- Tab label for new permissions being added to an existing app [CHAR LIMIT=20] -->
+    <string name="newPerms">"جديد"</string>
+    <!-- Tab label for all permissions of an app being installed [CHAR LIMIT=20] -->
+    <string name="allPerms">"الكل"</string>
+    <!-- Tab label for permissions related to user privacy [CHAR LIMIT=20] -->
+    <string name="privacyPerms">"الخصوصية"</string>
+    <!-- Tab label for permissions related to device behavior [CHAR LIMIT=20] -->
+    <string name="devicePerms">"الدخول إلى الجهاز"</string>
+    <!-- Body text for new tab when there are no new permissions [CHAR LIMIT=NONE] -->
+    <string name="no_new_perms">"لا يتطلب هذا التحديث أي أذونات جديدة."</string>
+    <string name="grant_confirm_question">"هل ترغب في منح الأذونات التالية؟ علمًا بأنها تتيح الدخول إلى:"</string>
+    <!-- Title for the dialog button to allow a permission grant. -->
+    <string name="grant_dialog_button_allow">"سماح"</string>
+    <!-- Title for the dialog button to deny a permission grant. -->
+    <string name="grant_dialog_button_deny">"رفض"</string>
+    <!-- Template for the current permission from the total number of permissions. -->
+    <string name="current_permission_template">"<xliff:g id="CURRENT_PERMISSION_INDEX">%1$s</xliff:g> من <xliff:g id="PERMISSION_COUNT">%2$s</xliff:g>"</string>
+    <!-- Template for the warning message when an app requests a permission. -->
+    <string name="permission_warning_template">"هل تريد السماح لتطبيق <xliff:g id="APP_NAME">%1$s</xliff:g> بإجراء <xliff:g id="ACTION">%2$s</xliff:g>؟"</string>
+    <!-- Breadcrumb for page of managing application permissions [CHAR LIMIT=50] -->
+    <string name="app_permissions_breadcrumb">"التطبيقات"</string>
+    <!-- Title for page of managing application permissions -->
+    <string name="app_permissions">"أذونات التطبيق"</string>
+    <!-- Checkbox that allows user to not be questioned about this permission
+         request again -->
+    <string name="never_ask_again">"عدم السؤال مرة أخرى"</string>
+    <!-- Label when app requests no permissions -->
+    <string name="no_permissions">"ليست هناك أذونات"</string>
+    <!-- Label for button that leads to more permissions [CHAR LIMIT=40] -->
+    <string name="additional_permissions">"أذونات إضافية"</string>
+    <!-- Description of how many more permissions to view on next page [CHAR LIMIT=30] -->
+    <plurals name="additional_permissions_more">
+        <item quantity="one">"<xliff:g id="COUNT">%1$d</xliff:g> أخرى"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g> أخرى"</item>
+    </plurals>
+    <!-- Warning for turning off permissions on older apps -->
+    <string name="old_sdk_deny_warning">"‏تم تصميم هذا التطبيق لإصدار قديم من Android. وقد يؤدي رفض الإذن إلى عدم العمل على النحو المطلوب مرة أخرى."</string>
+    <!-- The default description of a permission, i.e. what it does.  [CHAR LIMIT=40] -->
+    <string name="default_permission_description">"تنفيذ إجراء غير معروف"</string>
+    <!-- Summary of number of apps currently granted a single permission [CHAR LIMIT=45] -->
+   <string name="app_permissions_group_summary">"تم السماح لعدد <xliff:g id="COUNT_0">%1$d</xliff:g> من <xliff:g id="COUNT_1">%2$d</xliff:g> من التطبيقات"</string>
+   <!-- [CHAR LIMIT=NONE] Menu for manage permissions to control whether system apps are shown -->
+   <string name="menu_show_system">"إظهار النظام"</string>
+   <!-- [CHAR LIMIT=NONE] Menu for manage permissions to control whether system apps are hidden -->
+   <string name="menu_hide_system">"إخفاء النظام"</string>
+   <!-- [CHAR LIMIT=30] Title for page managing what apps have a permission granted -->
+   <string name="permission_title">"أذونات <xliff:g id="PERMISSION">%1$s</xliff:g>"</string>
+   <!-- [CHAR LIMIT=NONE] Label when no apps requesting this permission -->
+   <string name="no_apps">"ليس هناك أي تطبيقات"</string>
+   <!-- [CHAR LIMIT=30] Title of button that leads to location settings -->
+   <string name="location_settings">"إعدادات الموقع"</string>
+   <!-- [CHAR LIMIT=NONE] Warning about how this app cannot have location permission disabled -->
+   <string name="location_warning">"يعد <xliff:g id="APP_NAME">%1$s</xliff:g> أحد مقدمي خدمات الموقع لهذا الجهاز. يمكن تعديل إمكانية الوصول إلى الموقع من إعدادات الموقع."</string>
+   <!-- [CHAR LIMIT=NONE] Warning message when turning off permission for system apps -->
+   <string name="system_warning">"إذا رفضت هذا الإذن، ربما لا تعمل ميزات أساسية في جهازك على النحو المنشود."</string>
+   <!-- [CHAR LIMIT=NONE] Summary of a permission switch when it's enforced by policy -->
+   <string name="permission_summary_enforced_by_policy">"فرضته إحدى السياسات"</string>
+   <!-- Text displayed until loading is done -->
+   <string name="loading">"جارٍ التحميل..."</string>
+   <!-- [CHAR LIMIT=45] Title of all permissions settings -->
+   <string name="all_permissions">"كل الأذونات"</string>
+   <!-- [CHAR LIMIT=45] Group of permissions granted to app automatically when installed. -->
+   <string name="other_permissions">"إمكانات التطبيق الأخرى"</string>
+   <!-- Title of the permission dialog for accessibility purposes- spoken to the user. [CHAR LIMIT=none] -->
+   <string name="permission_request_title">"طلب الإذن"</string>
+    <!-- Title for the dialog that warns the user they need to turn off screen overlays
+         before permissions can be changed. [CHAR LIMIT=NONE] -->
+   <string name="screen_overlay_title">"تم اكتشاف طبقة متراكبة للشاشة"</string>
+   <!-- Message for the dialog that warns the user they need to turn off screen overlays
+        before permissions can be changed. The "Settings > Apps" conveys to the user to
+        go to Settings and click on apps, this may need updates in RTL languages. [CHAR LIMIT=NONE] -->
+   <string name="screen_overlay_message">"لتغيير إعداد هذا الإذن، يتعين عليك أولاً تعطيل الطبقة المتراكبة للشاشة من الإعدادات &gt; التطبيقات"</string>
+    <!-- Button for the dialog that warns the user they need to turn off screen overlays
+         before permissions can be changed. [CHAR LIMIT=NONE] -->
+    <string name="screen_overlay_button">"فتح الإعدادات"</string></resources>

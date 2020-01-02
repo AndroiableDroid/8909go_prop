@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"GPS активност отклањања грешака"</string>
+     <string name="cameraActivity">"Камера"</string>
+     <string name="newTrackingSession">"Нова сесија праћења"</string>
+     <string name="newTrackingSession_nameLabel">"Назив"</string>
+     <string name="newTrackingSession_numFixesLabel">"Елементи бројева"</string>
+     <string name="newTrackingSession_descriptionLabel">"Опис"</string>
+     <string name="newTrackingSession_startButtonLabel">"Покрени"</string>
+     <string name="testConfig">"Тест конфигурација"</string>
+     <string name="testConfig_configNameLabel">"Име конфигурације"</string>
+     <string name="testConfig_numFixesLabel">"Елементи бројева (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"Опис тест конфигурације"</string>
+     <string name="testConfig_startButtonLabel">"Започни тестирање"</string>
+     <string name="testConfig_RadioLabel">"Праћење апликације или један снимак"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"Један снимак"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"Праћење апликације"</string>
+     <string name="testConfig_qosTimeoutLabel">"Жељено време одговора (сек)"</string>
+     <string name="testConfig_qosAccuracyLabel">"Жељена прецизност (м)"</string>
+     <string name="testConfig_tbfLabel">"Минимални интервал (сек)"</string>
+     <string name="testConfig_staticTruthLabel">"Статички исправан положај (изаберите да би се користио)"</string>
+     <string name="testConfig_latLabel">"Географска ширина"</string>
+     <string name="testConfig_lonLabel">"Географска дужина"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"Loc API"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"GPL услуга"</string>
+     <string name="testConfig_sessionTypeLabel">"Тип понављања"</string>
+     <string name="testConfig_apiTypeLabel">"API тип"</string>
+    <string name="labelUnknownPrivacy">"непознато"</string>
+    <string name="labelGetPrivacy">"Прибави приватност"</string>
+    <string name="labelSetPrivacySetting">"Подеси приватност"</string>
+    <string name="name_vzw_client">"Vzw клијент"</string>
+    <string name="name_normal_client">"Нормалан Android"</string>
+    <string name="LabelModeSel">"Режим"</string>
+    <string name="LabelNumFixSel">"Бр. елемента"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"Статус..."</string>
+    <string name="str_nodata">"Нема података"</string>
+    <string name="str_waitingforposinfo">"\nЧека се на информације о положају...\n"</string>
+    <string name="str_searchingforsvs">"\nТраже се SV-и...\n"</string>
+    <string name="str_configsummary">"\nРезиме конфигурације\n"</string>
+    <string name="str_alarms">"\nАларми:\n\n"</string>
+    <string name="str_starttest">"Започни тестирање"</string>
+    <string name="str_sessionplayback">"Репродукц. сесије"</string>
+    <string name="str_proximityalerts">"Упозорења о близини"</string>
+    <string name="str_proximity_info">"Информације о близини"</string>
+    <string name="str_options">"Опције"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"Самостално"</item>
+<item>"AFLT"</item>
+<item>"Брзина је оптимизована"</item>
+<item>"Прецизност је оптимизована"</item>
+<item>"Подаци су оптимизовани"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"Време (сек) између елемента"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"PDE Addr"</string>
+<string name="LabelAccuracyH">"Жељена прецизност (H, m)"</string>
+<string name="LabelAccuracyV">"Жељена прецизност (V, m)"</string>
+<string name="LabelMaxResponseTime">"Време чекања (сек)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"Покрени са нормалним стеком"</string>
+<string name="LabelRunOne">"Покрени VzW"</string>
+<string name="LabelRunState1">"FSM тест 1"</string>
+<string name="LabelRunState2">"FSM тест 2"</string>
+<string name="EnigneStatus">"Enigne статус"</string>
+<string name="NA">"Није доступно"</string>
+<string name="GpsStatus">"Gps статус"</string>
+<string name="Session">"Сесија"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"Тип"</string>
+<string name="Loc">"Loc"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"Режим"</string>
+<string name="stop">"Заустави"</string>
+<string name="labelPdePort">"PDE порт"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"Само 911"</item>
+<item>"УКЉ"</item>
+</string-array>
+<string name="non_aiding">"Опозови избор свих помоћних"</string>
+<string name="all_aiding">"Изабери све помоћно"</string>
+<string name="done">"Избриши изабрано"</string>
+<string name="Ephemeris">"Ephemeris"</string>
+<string name="GLO_Ephemeris">"GLO Ephemeris"</string>
+<string name="Alamanac">"Alamanac"</string>
+<string name="GLO_Alamanac">"GLO Alamanac"</string>
+<string name="Alamanac_Corr">"Alamanac Corr"</string>
+<string name="GLO_Alamanac_Corr">"GLO Alamanac Corr"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"SV усмеравање"</string>
+<string name="GLO_SV_Steer">"GLO SV усмеравање"</string>
+<string name="Cell_DB_Info">"Информације о ћелији у бази података"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"GPS време"</string>
+<string name="GLO_Time">"GLO време"</string>
+<string name="Freq_Bias_Est">"Проц. одступање фрекв."</string>
+<string name="Time">"Време"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"Здравствена"</string>
+<string name="SA_Data">"SA подаци"</string>
+<string name="position">"положај"</string>
+<string name="str_wbiq_runscript">"Покрени скрипту"</string>
+<string name="str_wbiq_stopgps">"Изађи из RF режима"</string>
+<string name="str_wbiq_startgps">"Уђи у RF режим"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"Аутоматско евидентирање на уређају"</string>
+<string name="str_wbiq_chk_delaystart">"Одложи покретање/а"</string>
+<string name="str_wbiq_chk_autostop">"Аутоматско заустављање"</string>
+<string name="str_wbiq_chk_otfsa">"Омогући OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"С"</string>
+<string name="str_proximity_clearalerts">"Обриши упозорења"</string>
+<string name="str_proximity_savealertsfile">"Сачувај датотеку упозорења"</string>
+<string name="str_proximity_loadalertsfile">"Учитај датотеку упозорења"</string>
+<string name="str_proximity_deletealertsfile">"Избриши датотеку упозорења"</string>
+<string name="str_proximity_logging">"Евидентирање"</string>
+<string name="str_proximity_autostartenabled">"Аутоматско покретање"</string>
+<string name="str_proximity_autostartfile">"Изаберите датотеку ауто-покрет."</string>
+<string name="str_proximity_smsnumber">"SMS број за обавештења"</string>
+<string name="str_proximity_geofencelisttab_add">"Додај"</string>
+<string name="str_proximity_geofencelisttab_delet">"Избр."</string>
+<string name="str_proximity_geofencelisttab_edit">"Измени"</string>
+<string name="str_locbatchingtab_btn_s">"S"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"B"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[средње, мин., макс.] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"Прибави пакет"</string>
+<string name="str_powerest_summary">"Резиме:"</string>
+<string name="str_powerest_plot_label"/></resources>

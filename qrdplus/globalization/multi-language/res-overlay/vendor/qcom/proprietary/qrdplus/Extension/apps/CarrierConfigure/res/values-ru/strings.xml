@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Настроить оператора связи"</string>
+    <string name="multisim_category_text">"КОНФИГУРАЦИЯ С НЕСКОЛЬКИМИ SIM-КАРТАМИ"</string>
+    <string name="preset_category_text">"CHINA CARRIER"</string>
+    <string name="preset_category_text_default">"По умолчанию"</string>
+    <string name="preset_category_text_china">"China Carrier"</string>
+    <string name="preset_category_text_regional">"Региональные"</string>
+    <string name="sim_ssss_text">"Режим Single Sim Single Standby"</string>
+    <string name="sim_dsds_text">"Режим Dual Sim Dual Standby"</string>
+    <string name="sim_dsda_text">"Режим Dual Sim Dual Active"</string>
+    <string name="progress_wait">"Настройка ..."</string>
+    <string name="alert_update_sim_mode_title">"Обновите режим SIM-карты"</string>
+    <string name="alert_update_sim_mode_text">"Изменение режима работы SIM-карты начнет действовать после перезагрузки телефона. Обновить сейчас?"</string>
+    <string name="alert_switch_title">"Смена оператора связи"</string>
+    <string name="alert_switch_text">"Это действие приведет к стиранию всех данных, включая данные для конфигурации с несколькими SIM-картами."</string>
+    <string name="alert_switch_error">"Сменить оператора связи не удалось. Проверьте объем свободной памяти."</string>
+    <string name="notice_row_title">"Уведомление"</string>
+    <string name="notice_row_text">"Телефон настроен для изменения SIM-карты. Перезагрузите телефон, чтобы новые настройки вступили в силу."</string>
+    <string name="notice_special_install_title">"Внимание!"</string>
+    <string name="notice_special_install_text">"Телефон можно настроить для изменения SIM-карты. Данное действие приведет к удалению всех данных. Настроить?"</string>
+    <string name="welcome_title">"Приветствуем вас!"</string>
+    <string name="welcome_message">"Выберите язык"</string>
+    <string name="start_text">"Начать"</string>
+    <string name="emergency_call_text">"Экстренный вызов"</string>
+    <string name="trigger_title">"Настроить"</string>
+    <string name="trigger_message">"Выберите один пакет"</string>
+    <string name="trigger_uninstall_message">"Нет совпадений пакетов для вашей SIM-карты. Для телефона можно снова указать основной пакет.\n\nСнова настроить:"</string>
+    <string name="trigger_no_text">"Не настраивать"</string>
+    <string name="trigger_yes_text">"Начать настройку"</string>
+    <string name="trigger_ask_text">"Напомнить позже"</string>
+    <string name="begin_config_text">"Начать настройку"</string>
+    <string name="alter_no_carrier_selected">"Не выбран оператор связи, выберите одного или несколько."</string>
+    <string name="download_ota_package_title">"Загрузить файлы OTA"</string>
+    <string name="download_ota_package_message">"Загрузка..."</string>
+    <string name="alter_network_state_error">"Проверьте состояние сети."</string>
+    <string name="alter_file_not_found_error">"Не удалось сохранить файлы OTA, проверьте состояние устройства хранения."</string>
+    <string name="carrier_clear_final_desc">"Удалить всю личную информацию и настройки оператора? Действие нельзя отменить!"</string>
+    <string name="carrier_clear_final_button_text">"Стереть все"</string>
+    <string name="carrier_clear_no_default_pack">"Не устройстве нет комплекта по умолчанию."</string>
+    <string name="carrier_clear_parsing_not_finish">"Продолжается поиск комплекта по умолчанию."</string></resources>

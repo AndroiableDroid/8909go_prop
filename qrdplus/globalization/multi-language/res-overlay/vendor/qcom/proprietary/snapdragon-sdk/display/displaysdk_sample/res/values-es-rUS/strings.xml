@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Mostrar muestra SDK"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"Funciones de pantalla"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"Balance de colores"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"Administrador de modos"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"Nuevo modo"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"Eliminar modo"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"Editar modo"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"Cancelar"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"Funciones de pantalla"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"Activar modo"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"Introducir nombre de modo"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"Guardar modo"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"Escoger foto"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"No hay soporte para el tipo de visualización proporcionada. Asegúrate que se invocó connect()"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"No hay soporte para la función de balance de colores"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"No hay soporte para la función de Luz de fondo adaptable"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"No hay soporte para la función de Memory color Vegetación"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"No hay soporte para la función de Memory color Piel"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"No hay soporte para la función de Memory color Cielo"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"No hay soporte para la función de Ajuste de imagen"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"No hay soporte para la función de Visibilidad de luz solar"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"No se pudo crear el nuevo modo"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"No se pudo modificar el modo"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"Añadir una imagen de la galería"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"Aceptar"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"Sí"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"No"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"No hay modos de visualización disponibles en tu dispositivo"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"No hay soporte para FEATURE_COLOR_MODE_SELECTION"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"No hay soporte para FEATURE_COLOR_MODE_MANAGEMENT"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"La funcionalidad de visualización solicitada no está disponible"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"Error al eliminar modo de visualización"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"Error al activar modo de visualización"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"No se pudo establecer el Modo de visualización como predeterminado"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"Selecciona primero un modo"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"Introduce el nombre del modo"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"Nuevo modo creado"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"Establecer predeterminado"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"El modo seleccionado es un modo de sistema, no se puede modificar. ¿Deseas crear un nuevo modo basado en el modo seleccionado?"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"El modo seleccionado es un modo de sistema, no se puede eliminar."</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"No se pudo conectar al servicio de visualización solicitado"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" Se ha activado el modo"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" Se ha eliminado el modo"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"Balance de colores"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"Visibilidad de luz solar"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"Ajuste de imagen"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"Memcolor Vegetación"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"Tono"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"Saturación"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"Intensidad"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"Memcolor Piel"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"Memcolor Cielo"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" Luz de fondo adaptable"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"Activar SVI"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"Activar Memory Color Vegetación"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"Activar Memory color Piel"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"Activar Memory color Cielo"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"Activar ajuste de imagen"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"Activar luz de fondo adaptable"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"Activar desaturación de ajuste de imagen"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"Umbral de saturación"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"Tono"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"Saturación"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"Intensidad"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"Contraste"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"Alta"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"Media"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"Baja"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"Automático"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"Actualizar"</string></resources>

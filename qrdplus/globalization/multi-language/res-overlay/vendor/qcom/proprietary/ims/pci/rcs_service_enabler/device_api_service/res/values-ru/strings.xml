@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"служба rcs_service удалена, переустановите ее!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"Обновить текстовые данные профиля"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"Обновить изображение в профиле"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Удалить все сообщения"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Задать нового модератора в групповом чате"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Изменить тему группового чата"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Изменить псевдоним члена группового чата"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Принять приглашение, чтобы присоединиться к групповому чату"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Выйти из группового чата"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Исключить участников из группового чата"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"Закрыть групповой чат"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Обращать внимание на открытую учетную запись"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Не обращать внимание на открытую учетную запись"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"Сообщить об открытой учетной записи"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"разрешение на доступ к конфиденциальным данным api"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"авторизовано %1$d приложений (всего %2$d)"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"Больше не запрашивать"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"ОК"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Отмена"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Эта операция разработана для %1$s. Запрет разрешения может привести к неустранимой ошибке функционирования."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"Разрешение:%1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"Необходимо разрешить %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"Необходимо предоставить разрешение для SD-карты."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"Необходимо предоставить разрешение для контактов."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"Необходимо предоставить разрешение для SMS."</string></resources>

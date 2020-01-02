@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"디버그 메트릭 표시"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"사진 저장"</string>
+    <string name="debug_pref_save_pictures_desc">"캡처한 사진을 SD 카드에 저장"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"미리 보기 프레임 저장"</string>
+    <string name="debug_pref_save_preview_frames_desc">"미리 보기 프레임을 SD 카드에 저장"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"미리 보기 프레임 드롭 허용"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"미리 보기 프레임 저장 시 프레임 속도를 유지하도록 프레임 드롭을 허용합니다."</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"얼굴 인식 상세 로깅 사용"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

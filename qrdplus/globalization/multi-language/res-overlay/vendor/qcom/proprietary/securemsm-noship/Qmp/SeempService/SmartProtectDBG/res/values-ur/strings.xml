@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtectDBG"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ اسمارٹ تحفظ"</string>
+    <string name="title_app_info">"ایپ کی معلومات"</string>
+    <string name="title_trusted">"بھروسہ مند ایپس"</string>
+    <string name="title_about">"بارے میں"</string>
+    <string name="title_settings">"ترتیبات"</string>
+    <string name="drawer_open_title">"Snapdragon اسمارٹ تحفظ"</string>
+<string name="service_status_on">"آن"</string>
+    <string name="service_status_off">"آف"</string>
+    <string name="err_title">"ایپلیکیشن نقص"</string>
+    <string name="err_msg_init">"Snapdragon اسمارٹ تحفظ QSSP لائبریری کو شروع کرنے کے قابل نہیں ہے۔ سروس کو روکیں"</string>
+    <string name="err_msg_load_model">"Snapdragon اسمارٹ تحفظ ماڈل کو لوڈ کرنے کے قابل نہیں ہے۔ سروس کو روکیں"</string>
+    <string name="err_msg_malicious_alert">"Snapdragon اسمارٹ تحفظ بدطنیت انتباہات کے لئے رجسٹر کرنے کے قابل نہیں ہے۔ سروس کو روکیں"</string>
+    <string name="err_msg_benign_alert">"Snapdragon اسمارٹ تحفظ مہربان انتباہات کے لئے رجسٹر کرنے کے قابل نہیں ہے۔ سروس کو روکیں"</string>
+    <string name="err_msg_service_not_up">"Snapdragon اسمارٹ تحفظ خدمت کو مزید پانے کے قابل نہیں ہے۔"</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"جملہ حقوق محفوظ ہیں۔"</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ انکارپوریٹڈ Qualcomm ٹیکنالوجیز انکارپوریٹڈ کی ایک مصنوعہ ہے۔"</string>
+    <string name="about_information_line2">"اجازت کے ساتھ استعمال کردہ، Qualcomm اور Snapdragon، امریکہ اور دیگر ممالک میں رجسٹر شدہ، Qualcomm انکارپوریٹڈ کے ٹریڈ مارکس ہیں۔"</string>
+    <string name="btn_restore_default">"ڈیفالٹ ترتیبات کو بحال کریں"</string>
+    <string name="btn_clear_history">"اسمارٹ تحفظ کی تاریخ کو صاف کریں"</string>
+    <string name="trusted_btn">"قابل اعتماد ایپس فہرست میں شامل کریں"</string>
+    <string name="uninstall_btn">"غیرنصب کریں"</string>
+    <string name="details_btn">"تفصیلات"</string>
+    <string name="done_btn">"ہو گیا"</string>
+    <string name="remove_trusted_btn">"قابل اعتماد ایپس فہرست سے ہٹائیں"</string>
+    <string name="uninstall_confirm_message">"کیا آپ یہ ایپ اَن انسٹال کرنا چاہتے ہیں؟?"</string>
+    <string name="uninstall_success">"پیکج کو نصب کرنے میں کامیابی ہوئی"</string>
+    <string name="uninstall_failed">"پیکج کی غیرنصب کرنے میں ناکامی ہوئی"</string>
+    <string name="clear_history_done">"تاریخ کو کامیابی صاف کیا"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon اسمارٹ تحفظ"</string>
+    <string name="drawer_threats">"(%1$s) خطرات کا سراغ ملا"</string>
+    <string name="drawer_threat_null">"حقیقی وقت، آن ڈیوائس رازداری کے تحفظ اور میل ویئر کا سراغ لگانا"</string>
+    <string name="drawer_option_dashboard">"ڈیش بورڈ"</string>
+    <string name="drawer_option_trusted_apps">"بھروسہ مند ایپس"</string>
+    <string name="drawer_option_settings">"ترتیبات"</string>
+    <string name="drawer_option_about">"بارے میں"</string>
+    <string name="dashboard_list_title">"Snapdragon اسمارٹ تحفظ تفصیلات اور سفارشات دیکھنے کے لئے ایک ایپ منتخب کریں۔"</string>
+    <string name="dashboard_list_empty">"کسی ایپ کی نگرانی نہیں کی جا رہی ہے۔"</string>
+    <string name="app_info_recommend">"سفارشات:"</string>
+    <string name="app_info_version">"ورژن"</string>
+    <string name="app_uninstalled">"ایپلیکیشن آلہ پر مزید موجود نہیں ہے۔ چھوڑنے کیلئے ٹھیک ہے دبائیں۔"</string>
+    <string name="malicious_item_threat">"Snapdragon اسمارٹ تحفظ کا سراغ لگایا:"</string>
+    <string name="malicious_item_confidence">"اعتماد کا درجہ:"</string>
+    <string name="malicious_item_analysis">"تجزیہ"</string>
+    <string name="malicious_recommend">"اَن انسٹال کریں"</string>
+    <string name="good_threat">"کسی خطرہ کا سراغ نہیں ملا۔"</string>
+    <string name="good_recommend">"ہو گیا منتخب کریں، تاکہ Snapdragon اسمارٹ تحفظ اس ایپ کی نگرانی کرنا جاری رکھے گا۔"</string>
+    <string name="good_title">"اچھا"</string>
+    <string name="trusted_item_title">"Snapdragon اسمارٹ تحفظ %1$s کی سرگرمیوں کی نگرانی نہیں کرتا ہے، کیونکہ یہ آپ کی قابل اعتماد ایپس کی فہرست میں ہے۔\n\nاگر آپ اس ایپ کے تحفظ کے بارے میں یقینی نہیں ہیں، تو اسے قابل اعتماد ایپس فہرست سے نکال دیں۔"</string>
+    <string name="trusted_list_title">"Snapdragon اسمارٹ تحفظ اس فہرست پر موجود ایپس کی نگرانی نہیں کرتا ہے۔"</string>
+    <string name="trusted_list_subtitle">"اگر آپ اس ایپ کے تحفظ کے بارے میں یقینی نہیں ہیں، تو اسے قابل اعتماد ایپس فہرست سے نکال دیں۔"</string>
+    <string name="trusted_list_empty">"آپ کی قابل اعتماد ایپس کی فہرست میں کوئی ایپس نہیں ہیں۔"</string>
+    <string name="trusted_list_empty_desc">"یہ آپ کو زیادہ سے زیادہ تحفظ فراہم کرتا ہے، کیونکہ Snapdragon اسمارٹ تحفظ آپ کی تمام ایپس کی نگرانی کر رہا ہے۔"</string>
+    <string name="trusted_confirm_message">"کیا آپ اس ایپ کو اپنی قابل اعتماد ایپس کی فہرست میں شامل کرنا چاہتے ہیں؟\n\nاگر آپ اس ایپ کے تحفظ کے بارے غیریقینی ہیں، تو منسوخ منتخب کریں۔"</string>
+    <string name="malicious_ntf_message">"Snapdragon اسمارٹ تحفظ نے %1$s میں بدطنیت سرگرمی کا سراغ لگایا:"</string>
+    <string name="malicious_ntf_recommend">"سفارشات: غیرنصب کریں"</string>
+    <string name="malicious_dialog_title">"بدطنیت"</string>
+    <string name="malicious_text">"بدطنیت"</string>
+    <string name="malware_ntf_message">"Snapdragon اسمارٹ تحفظ نے %1$s میں میل ویئر کا سراغ لگایا:"</string>
+    <string name="malware_dialog_title">"میل ویئر کا سراغ ملا"</string>
+    <string name="malware_title">"میل ویئر"</string>
+    <string name="spyware_ntf_message">"Snapdragon اسمارٹ تحفظ نے %1$s میں سپائی ویئر کا سراغ لگایا:"</string>
+    <string name="spyware_dialog_title">"سپائی ویئر کا سراغ ملا"</string>
+    <string name="spyware_title">"سپائی ویئر"</string>
+    <string name="adware_ntf_message">"Snapdragon اسمارٹ تحفظ نے %1$s میں ایڈ ویئر کا سراغ لگایا:"</string>
+    <string name="adware_dialog_title">"ایڈ ویئر کا سراغ ملا"</string>
+    <string name="adware_title">"ایڈ ویئر"</string>
+<string name="err_no_app_dashborad">"ڈیش بورڈ ایپ فہرست خالی ہے"</string>
+    <string name="analysis_title">"%1$sذیل وجوہات کی بنا پر بدطنیت ہونے کا امکان ہے:"</string>
+    <string name="service_label">"سفنکس خدمت"</string>
+    <string name="unknown_code">" کوڈ - %1$d"</string>
+    <string name="default_code_detail">"ایپ بدطنیت سرگرمیاں کرنے کی کوشش کر رہی ہے۔"</string>
+    <string-array name="malicious_ntf_info">
+        <item>"آپ کے آلے پر مضر سرگرمیاں انجام دے سکتی ہے۔"</item>
+        <item>"درجہ 1 میل ویئر: صارف کے مندرجات، ایپلیکیشنز اور آلہ پر نقصان دہ سرگرمی انجام دیتا ہے۔"</item>
+        <item>"درجہ 2 میل ویئر: سرگرمی انجام دیتی ہے جو صارف کے لئے اخراجات کا سبب بن سکتی ہے۔"</item>
+        <item>"درجہ 3 سپائی ویئر: مندرجات کو لیک/چوری کرتی ہے اور فعال طور پر صارفین کی جاسوسی کرتی ہے۔"</item>
+        <item>"درجہ 4 سپائی ویئر: میٹا صارف کی معلومات لیک/چوری ہونا۔"</item>
+        <item>"درجہ 5 سپائی ویئر: حساس معلومات لیک/چوری ہونا۔"</item>
+        <item>"سطح 6 انوئے ویئر: جارحانہ ایڈویئر اور/یا مداخلتی ایپ۔"</item>
+    </string-array>
+    <string name="setting_level1_title">"درجہ 1 میل ویئر"</string>
+    <string name="setting_level2_title">"درجہ 2 میل ویئر"</string>
+    <string name="setting_level3_title">"درجہ 3 سپائی ویئر"</string>
+    <string name="setting_level4_title">"درجہ 4 سپائی ویئر"</string>
+    <string name="setting_level5_title">"درجہ 5 سپائی ویئر"</string>
+    <string name="setting_level6_title">"درجہ 6 ایڈ ویئر"</string>
+    <string name="setting_mode_title">"وضع"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"پاپ اپ اور سٹینڈرڈ انتباہ"</item>
+        <item>"معیاری انتباہ"</item>
+        <item>"کوئی انتباہ نہیں"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"نارمل موڈ"</item>
+        <item>"خاموش وضع"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<string name="monitor_feature_title">"نگرانی خصوصیت"</string>
+    <string name="err_msg_no_rfm">"Snapdragon اسمارٹ تحفظ آلہ پر rfm فائلیں تلاش کرنے کے قابل نہیں ہے۔"</string>
+    <string name="err_msg_monitor">"Snapdragon اسمارٹ تحفظ خصوصیات کی نگرانی کرنے کے قابل نہیں ہے۔"</string>
+    <string name="title_debug">"ڈیبگ کریں"</string>
+    <string name="drawer_option_debug">"ڈیبگ کریں"</string>
+    <string name="set_rfm_file">"RFM فائل چنیں"</string>
+    <string name="debug_rfm_model">"RFM فائل"</string>
+    <string name="debug_mnf_apply">"نگرانی خصوصیت"</string></resources>

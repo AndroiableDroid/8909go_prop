@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Protecție securitate"</string>
+    <string name="settings">"Setări"</string>
+    <string name="advanced">"Setări avansate"</string>
+    <string name="failed">"Nu a reușit"</string>
+    <string name="help">"Ajutor"</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Anulaţi"</string>
+    <string name="login">"Conectare"</string>
+    <!-- File protection -->
+    <string name="file_protection">"Protecție fișier"</string>
+    <!-- EncrypteData -->
+    <string name="encryptdata">"Criptați fișierul"</string>
+    <string name="encryptdata_title">"Criptați fișierul"</string>
+    <string name="encryptdata_summary">"Criptați și decriptați fișierul"</string>
+    <string name="file_explorer_title">"Selectați fișierul pentru criptare/decriptare"</string>
+    <string name="encrypt">"Criptați"</string>
+    <string name="encrypting">"Criptare"</string>
+    <string name="encrypt_summary">"Criptați fișierul"</string>
+    <string name="encrypt_hint">"Selectați fișierul pentru criptare"</string>
+    <string name="decrypt">"Decriptați"</string>
+    <string name="decrypting">"Se decriptează"</string>
+    <string name="decrypt_summary">"Decriptați fișierul care a fost criptat"</string>
+    <string name="decrypt_hint">"Selectați fișierul criptat pentru decriptare"</string>
+    <string name="grant">"Acordare"</string>
+    <string name="deny">"Refuzați"</string>
+    <string name="prompt">"Solicitare"</string>
+    <!-- AuthAccess -->
+    <string name="remember_choice">"Rețineți alegerea"</string>
+    <string name="authaccess">"Acces autorizat"</string>
+    <string name="access_protected_data">"Încercați să accesați fișierul protejat"</string>
+    <string name="authaccess_summary">"Mutați fișierul în zona protejată, autorizația va fi necesară pentru accesarea fișierelor protejate"</string>
+    <string name="authaccess_title">"Acces autorizat"</string>
+    <string name="protect">"Protecție"</string>
+    <string name="deprotect">"Anulare protecție"</string>
+    <string name="app_config">"Configurare aplicație"</string>
+    <string name="password">"Parolă"</string>
+    <string name="create_password">"Creați parola"</string>
+    <string name="confirm_password">"Confirmați parola"</string>
+    <string name="change_password">"Schimbaţi parola"</string>
+    <string name="empty_password_hint">"Introduceți parola"</string>
+    <string name="empty_confirm_password_hint">"Confirmați parola"</string>
+    <string name="inconsistent_password_hint">"Parolă inconsecventă"</string>
+    <string name="input_restriction">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_</string>
+    <string name="create_password_hint">"Setați parola înainte de criptare/decriptare.\nTrebuie să furnizați această parolă pentru decriptarea ulterioară a fișierului."</string>
+    <string name="password_error">"Eroare parolă"</string>
+    <string name="password_wrong">"Parolă greşită"</string>
+    <string name="need_password_toast">"Setați mai întâi parola"</string>
+    <string name="no_record">"Nicio înregistrare"</string></resources>

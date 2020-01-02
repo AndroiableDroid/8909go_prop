@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"Podrobné"</item>
+        <item>"Vyladiť"</item>
+        <item>"Informácie"</item>
+        <item>"Upozornenie"</item>
+        <item>"Chyba"</item>
+        <item>"Závažné"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"Karta SD"</item>
+        <item>"Interná pamäť"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"Do súboru denníka sa nedá zapisovať. Správy denníka sa neukladajú. Proces zapisovania bude automaticky pokračovať po sprístupnení súboru denníka"</string>
+    <string name="err_lowspace">"Zistilo sa málo miesta. Správy denníka sa neukladajú. Proces zapisovania bude automaticky pokračovať po uvoľnení dostatku miesta"</string>
+  <string name="txtTag_text">"názov označenia"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"Popis Logcat"</string></resources>

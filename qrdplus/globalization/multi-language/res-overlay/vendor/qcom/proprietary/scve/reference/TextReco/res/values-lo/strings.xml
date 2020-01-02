@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"STA"</string>
+    <string name="title_settings_activity">"​ການ​ຕັ້ງ​ຄ່າ"</string>
+    <string name="title_contact_activity">"ເພີ່ມເປັນລາຍຊື່ຜູ່ຕິດຕໍ່"</string>
+    <string name="title_event_activity">"​ເພີ່ມ​ເຫດການ"</string>
+    <string name="title_add_field">"​ເລືອກ​ປ້າຍ"</string>
+    <string name="title_text_activity">"ຜົນໄດ້ຮັບ"</string>
+    <string name="title_pick_datetime">"​ເລືອກ​ເວລາວັນ​ທີ"</string>
+    <string name="title_app_message">"ຂໍ້ຄວາມ"</string>
+    <string name="menu_item_copy">"ອັດສຳເນົາ"</string>
+    <string name="menu_item_edit">"ແກ້ໄຂ"</string>
+    <string name="date_picker_ok">"ຕົກລົງ"</string>
+    <string name="date_picker_cancel">"ຍົກເລີກ"</string>
+    <string name="dropdown_none_option">"ບໍ່ມີ"</string>
+    <string name="scan_more">"ຊອກ​ເພີ່ມ​ເຕີມ"</string>
+    <string name="bar_save_option">"ບັນທຶກ"</string>
+    <string name="bar_done_option">"ແລ້ວໆ"</string>
+    <string name="camera_option_open_image">"​ເປີດ​ຮູບ"</string>
+    <string name="camera_option_settings">"​ການ​ຕັ້ງ​ຄ່າ"</string>
+    <string name="text_action_search">"ຊອກຫາ"</string>
+    <string name="text_action_translate">"​ແປ​ພາສາ"</string>
+    <string name="text_action_copy">"ອັດສຳເນົາ"</string>
+    <string name="translate_url">"https://translate.google.com/m/translate#auto/"</string>
+    <string name="instruction_camera">"​ໃຊ້​ກ້ອງຖ່າຍຮູບ​ຂອງ​ທ່ານ​​ເພື່ອ ຖອນ​ຂໍ້​ມູນ​ທີ່​ເປັນ​ປະ​ໂຫຍ​ດຈາກ​ນາມບັດ, ​ໃບ​ໂຄສະນາ ​ແລະ ​ຮູບ​ພາບອື່ນ"</string>
+    <string name="instruction_dont_show">"​ຢ່າ​ສະ​ແດງມັນ​ອີກ"</string>
+    <string name="instruction_dismiss_button">"ຕົກລົງ"</string>
+    <string name="message_no_more_fields">"​ບໍ່​ມີ​ບ່ອນ​ໃສ່​ຂໍ້​ມູນ​ຕື່ມ​ອີກ​ໃຫ້​ເພີ່ມ"</string>
+    <string name="message_contact_saved">"​ບັນທຶກ​ລາຍ​ຊື່​ສຳ​ເລັດ​ແລ້ວ."</string>
+    <string name="message_calendar_saved">"ບັນທຶກເຫດການ​ປະຕິທິນສຳ​​ເລັດ​ແລ້ວ."</string>
+    <string name="message_text_copied">"ອັດ​ສຳ​ເນົາ​ຂໍ້ຄວາມ​ແລ້ວ."</string>
+    <string name="message_no_matching_app">"ບໍ່​ມີ​ແອັບ​ພລິ​ເຄຊັນ​ໃຫ້​ຈັດການ"</string>
+    <string name="message_gallery_pan_zoom">"​ທ່ານ​ສາມາດ​ເລື່ອນ ຫຼືຊູ​ມ​ເພື່ອ​ຮັບ​ຮູ້​ແບບຮູບ​ຈາກ​ຮູບ​ຖ່າຍ​ນີ້."</string>
+    <string name="message_restart_scanning">"ກະລຸນາ​ແຕະ​ເພື່ອ​ເລີ່​ມຕົ້ນ."</string>
+    <string name="message_no_dates">"ບໍ່​ຮັບ​ຮູ້​ວັນ​ທີ​ໃດ"</string>
+    <string name="message_hold_steady">"​ຊີ້​ໃ​ສ່ຂໍ້ຄວາມ ​ແລະ​ຈັບ​ໃຫ້​ທ່ຽງ"</string>
+    <!-- Error information -->
+    <string name="error_prefix">" ຜິດພາດ: 0x"</string>
+    <string name="error_title">"ຜິດພາດ"</string>
+    <string name="error_dismiss_button">"ຕົກລົງ"</string>
+    <string name="error_camera_failed">"​ກ້ອງຖ່າຮູບ​ເລີ່​ມຕົ້ນ​ບໍ່​ສຳ​ເລັດ."</string>
+    <string name="error_camera_snapshot_failed">"ກ້ອງຖ່າຍຮູບ​ຖ່າຍຮູບ​ໄວ​ບໍ່​ສຳ​ເລັດ."</string>
+    <string name="error_galleryImage_load">"​ແອັບ​ພລິ​ເຄຊັນ​​ໂຫຼດຮູບ​ພາບ​ບໍ່​ສຳ​ເລັດ."</string>
+    <string name="error_api_frame_timeout">"​ບໍ່​ຮັບ​ຮູ້​ຂໍ້ຄວາມ​ໃດ."</string>
+    <string name="error_api_init_failed">"STA Api ​ເລີ່​ມຕົ້ນ​ບໍ່​ສຳ​ເລັດ."</string>
+    <string name="error_api_parsing_failed">"STA Api ​ແຍກ​ວິ​ເຄາະພາບ​ບໍ່ສຳ​ເລັດ, ​ໃຫ້​ລອງ​ໃໝ່."</string>
+    <string name="error_api_no_records">"​ບໍ່​ຮັບ​ຮູ້​ຂໍ້ຄວາມ​ໃດ."</string>
+    <string name="error_api_restart_failed">"​ເລີ່​ມ API ບໍ່​ສຳ​ເລັດ."</string>
+    <string name="error_api_no_new_records">"​ບໍ່​ພົບ​ຂໍ້​ມູນ​ໃໝ່​ໃດ."</string>
+    <string name="error_min_max_limit">"ກະລຸນ​າປ້ອນ​ຄ່າ​ແຕ່ %1$s ຫາ %2$s"</string>
+    <string name="error_no_sta_data_selected">"​ກະລຸນາ​ຢ່າງ​ໜ້ອຍ​ໜື່ງອັນ."</string>
+    <!-- Contact information -->
+    <string name="contact_name_field_caption">"ຊື່"</string>
+    <string name="contact_nickname_field_caption">"​ຊື່​ຫຼິ້ນ"</string>
+    <string name="contact_nickname_field_name">"ຊື່ຫຼິ້ນ"</string>
+    <string name="contact_title_field_caption">"ນາມມະຍົດ"</string>
+    <string name="contact_company_field_caption">"ບໍລິສັດ"</string>
+    <string name="contact_phone_work_field_caption">"ໂທລະສັບ"</string>
+    <string name="contact_phone_work_field_name">"​ໂທລະສັບ (ບ່ອນ​ເຮັດ​ວຽກ)"</string>
+    <string name="contact_phone_mobile_field_caption">"ໂທລະສັບ"</string>
+    <string name="contact_phone_mobile_field_name">"​ໂທລະສັບ (ມື​ຖື)"</string>
+    <string name="contact_phone_home_field_caption">"ໂທລະສັບ"</string>
+    <string name="contact_phone_home_field_name">"​ໂທລະສັບ (​ເຮືອນ)"</string>
+    <string name="contact_phone_fax_field_caption">"ໂທລະສັບ"</string>
+    <string name="contact_phone_fax_field_name">"​ໂທລະສັບ (​ແຟັກ)"</string>
+    <string name="contact_address_field_caption">"ທີ່ຢູ່"</string>
+    <string name="contact_address_field_name">"ທີ່ຢູ່"</string>
+    <string name="contact_email_field_caption">"​ອີ​ເມ​ວ"</string>
+    <string name="contact_email_field_name">"ອີເມວ"</string>
+    <string name="contact_website_field_caption">"​ເວັບ​ໄຊ"</string>
+    <string name="contact_website_field_name">"ເວັບໄຊ"</string>
+    <string name="contact_im_field_caption">"IM"</string>
+    <string name="contact_relationship_field_caption">"ຄວາມສຳພັນ"</string>
+    <string name="contact_relationship_field_name">"ຄວາມສຳພັນ"</string>
+    <string name="contact_notes_field_caption">"​ໝາຍ​ເຫດ"</string>
+    <string name="contact_notes_field_name">"ໝາຍເຫດ"</string>
+    <!-- Event information -->
+    <string name="event_title_field_caption">"ນາມມະຍົດ"</string>
+    <string name="event_from_date_field_caption">"​ຈາກ"</string>
+    <string name="event_to_date_field_caption">"​ເຖິງ"</string>
+    <string name="event_location_field_caption">"ສະຖານທີ່"</string>
+    <string name="event_location_field_name">"ສະ​ຖານ​ທີ່"</string>
+    <string name="event_all_day_field_caption">"ໝົດມື້"</string>
+    <string name="event_repeat_field_caption">"​ເຮັດຊໍ້າຄືນ​"</string>
+    <string name="event_details_field_caption">"ລາຍ​ລະ​ອຽດ"</string>
+    <string name="event_details_field_name">"ລາຍລະອຽດ"</string>
+    <string name="event_participants_field_caption">"ສະມາຊິກ"</string>
+    <string name="event_participants_field_name">"​ສະມາຊິກ"</string>
+    <string name="event_date_time_format_long">"EEE M/d/yyyy h:mm a"</string>
+    <string name="event_date_time_format_small">"M/d/yyyy h:mm a"</string>
+    <string name="event_date_format_long">"EEE M/d/yyyy"</string>
+    <string name="event_date_format_small">"MMM d, yyyy"</string>
+    <string name="event_date_format_month_small">"MMM"</string>
+    <string name="event_date_format_month_full">"MMMM"</string>
+    <string name="event_date_format_year">"yyyy"</string>
+    <string name="event_date_format_weekday">"EEE"</string>
+    <string name="event_date_format_small_no_year">"EEE MMM d"</string>
+    <string name="event_time_format">"h:mm a"</string>
+    <string name="event_date_separator">"-"</string>
+    <string name="preview_type_key">"com.qualcomm.qti.sta.captureui.CameraActivity.preview_type"</string>
+    <string name="preview_type_button">"ປຸ່ມ"</string>
+    <string name="preview_type_auto">"ອັດຕະໂນມັດ"</string>
+    <!-- Repeat -->
+    <string name="repeat_title">"ເຮັດຊ້ຳ"</string>
+    <string name="repeat_button_cancel">"ຍົກເລີກ"</string>
+    <string name="repeat_button_ok">"ຕົກລົງ"</string>
+    <string name="repeat_summary_one_time">"ນັດໝາຍແບບຄັ້ງດຽວ"</string>
+    <string name="repeat_summary_daily">"ປະຈໍາວັນ"</string>
+    <string name="repeat_summary_daily_every">"ທຸກໆ %1$s ວັນ"</string>
+    <string name="repeat_summary_weekly">"​ທຸກໆອາທິດ ​​ໃນແຕ່ລະ%1$s"</string>
+    <string name="repeat_summary_weekly_every">"ທຸກໆ %1$s ອາທິດ %2$s"</string>
+    <string name="repeat_summary_monthly_date">"ທຸກໆ​ເດືອນ​ໃນ​ມື້%1$s"</string>
+    <string name="repeat_summary_monthly_day">"​ທຸກໆ​ເດືອນ​ ​​ໃນແຕ່ລະ%1$s"</string>
+    <string name="repeat_summary_monthly_date_every">"ທຸກໆ %1$s ​ເດືອນ​ໃນ​ມື້ %2$s"</string>
+    <string name="repeat_summary_monthly_day_every">"ທຸກໆ %1$s ​ເດືອນ​ ​​ໃນແຕ່ລະ %2$s"</string>
+    <string name="repeat_summary_yearly">"​ທຸກໆ​ີ ​ແຕ່ລະ%1$s"</string>
+    <string name="repeat_summary_yearly_every">"ທຸກໆ %1$s ປີ %2$s"</string>
+    <string name="repeat_summary_till_date">"​ຈົນ​ຮອດ%1$s"</string>
+    <string name="repeat_summary_till_events">"​ເປັນ​ເວລາ %1$s ຄັ້ງ"</string>
+    <string name="repeat_summary_till_one_event">"ເປັນ​ເວ​ລາ 1 ຄັ້ງ"</string>
+    <string name="repeat_title_pick_date">"​ເລືອກ​ວັນ​ທີ"</string>
+    <string name="repeat_one_time">"ນັດໝາຍແບບຄັ້ງດຽວ"</string>
+    <string name="repeat_daily">"ຊ້ຳຄືນທຸກໆມື້"</string>
+    <string name="repeat_weekly">"ຊ້ຳຄືນທຸກໆອາທິດ"</string>
+    <string name="repeat_monthly">"ຊ້ຳຄືນທຸກໆເດືອນ"</string>
+    <string name="repeat_yearly">"ຊ້ຳຄືນທຸກໆປີ"</string>
+    <string name="repeat_till_day">"ມື້"</string>
+    <string name="repeat_till_week">"ອາທິດ"</string>
+    <string name="repeat_till_month">"ເດືອນ"</string>
+    <string name="repeat_till_year">"ປີ"</string>
+    <string name="sunday_name">"​ອາທິດ"</string>
+    <string name="monday_name">"​ຈັນ"</string>
+    <string name="tuesday_name">"​ຄານ"</string>
+    <string name="wednesday_name">"ພຸດ"</string>
+    <string name="thursday_name">"ພະຫັດ"</string>
+    <string name="friday_name">"ສຸກ"</string>
+    <string name="saturday_name">"ເສົາ"</string>
+    <string-array name="number_texts">
+        <item>"ທີນຶ່ງ"</item>
+        <item>"ທີສອງ"</item>
+        <item>"ທ"</item>
+        <item>"ທີສີ່"</item>
+        <item>"ທີ​ຫ້າ"</item>
+    </string-array>
+    <string-array name="two_letter_day_names">
+        <item>"​ທິດ"</item>
+        <item>"ຈັນ"</item>
+        <item>"​ຄານ"</item>
+        <item>"​ພຸດ"</item>
+        <item>"​ພະຫັດ"</item>
+        <item>"​ສຸກ"</item>
+        <item>"​ເສົາ"</item>
+    </string-array>
+    <string-array name="short_day_names">
+        <item>@string/sunday_name</item>
+        <item>@string/monday_name</item>
+        <item>@string/tuesday_name</item>
+        <item>@string/wednesday_name</item>
+        <item>@string/thursday_name</item>
+        <item>@string/friday_name</item>
+        <item>@string/saturday_name</item>
+    </string-array>
+    <string-array name="complete_day_names">
+        <item>"ວັນອາທິດ"</item>
+        <item>"ວັນຈັນ"</item>
+        <item>"​ວັນອັງຄານ"</item>
+        <item>"​ວັນ​ພຸດ"</item>
+        <item>"​ວັນ​ພະຫັດ"</item>
+        <item>"​ວັ​ນສຸກ"</item>
+        <item>"ວັນເສົາ"</item>
+    </string-array>
+    <string name="repeat_month_same_date">"ໃນວັນ​ທີ​ດຽວກັນ​ໃນແຕ່ລະເດືອນ"</string>
+    <string name="repeat_month_same_day">"​ໃນ​ແຕ່ລະ"</string>
+    <string name="repeat_every_caption">"​ແຕ່ລະ"</string>
+    <string-array name="till_types">
+        <item>"ຕະຫຼອດໄປ"</item>
+        <item>"ຈົນ​ຮອດ"</item>
+        <item>"ການ​ເຮ​ັດຊ້ຳ"</item>
+    </string-array>
+    <!-- Settings -->
+    <string name="setting_sta_data_type">"ປະ​ເພດ​ຂໍ້​ມູນ STA"</string>
+    <string name="setting_sta_locale_type">"ຕຳ​ແໜ່​ງທີ່​ຕັ້ງ STA"</string>
+    <string name="setting_text_record_mode">"​ໂໝດກ້ອງຖ່າຍຮູບ"</string>
+    <string name="setting_camera_steady_duration">"​ໄລຍະ​ເວລາ​ຄົງ​ທີ່​ຂອງ​ກ້ອງຖ່າຍຮູບ (​ເປັນ​ມິ​ລິ​ວິນາທີ)"</string>
+    <string name="setting_camera_move_threshold">"​ຂີດ​ຈຳກັດ​ການ​ສັ່ນ​ຂອງກ້ອງຖ່າ​ຍຮູບ"</string>
+    <string name="setting_sta_locale_usa">"ສະຫະລັດ"</string>
+    <string name="setting_sta_locale_china">"​ຈີນ"</string>
+    <string name="setting_sta_locale_korea">"​ເກົາຫຼີ"</string>
+    <string name="setting_default_sta_locale">@string/setting_sta_locale_usa</string>
+    <string name="setting_text_record_snapshot_mode">"ຖ່າຍພາບໄວ"</string>
+    <string name="setting_text_record_preview_mode">"ກວດເບິ່ງກ່ອນ"</string>
+    <string name="setting_default_text_record_mode">@string/setting_text_record_snapshot_mode</string>
+    <string name="setting_sta_language_usa">"ອັງກິດ"</string>
+    <string name="setting_sta_language_china">"zh-CN"</string>
+    <string name="setting_sta_langauge_korea">"ko"</string>
+    <string-array name="setting_sta_data_type_options">
+        <item>"ອີເມວ"</item>
+        <item>"URL"</item>
+        <item>"​ເບີໂທລະສັບ"</item>
+        <item>"ທີ່ຢູ່"</item>
+        <item>"ວັນທີ"</item>
+        <item>"ທົ່ວໄປ"</item>
+    </string-array>
+    <string-array name="setting_sta_data_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type">
+        <item>"ສະຫະລັດ"</item>
+        <item>"ປະເທດຈີນ"</item>
+        <item>"ປະເທດເກົາຫຼີ"</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type_values">
+        <item>@string/setting_sta_locale_usa</item>
+        <item>@string/setting_sta_locale_china</item>
+        <item>@string/setting_sta_locale_korea</item>
+    </string-array>
+    <string-array name="setting_text_record_options">
+        <item>@string/setting_text_record_snapshot_mode</item>
+        <item>@string/setting_text_record_preview_mode</item>
+    </string-array>
+    <string name="settings_scve_mode">"​ໂໝດການ​ໃຊ້​ງານ SCVE"</string>
+    <string-array name="settings_scve_mode_entries">
+        <item>"ຄ່າເລີ່ມຕົ້ນ"</item>
+        <item>"ຖ່າຍ​ຂໍ້​ມູນ"</item>
+        <item>"ການສະ​ແດງ"</item>
+        </string-array>
+    <string-array name="settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+    </string-array>
+    <string name="settings_scve_mode_default">0</string></resources>

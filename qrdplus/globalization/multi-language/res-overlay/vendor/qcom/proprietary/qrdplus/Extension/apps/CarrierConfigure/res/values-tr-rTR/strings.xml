@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Operatörü Yapılandırma"</string>
+    <string name="multisim_category_text">"ÇOKLU SIM YAPILANDIRMA"</string>
+    <string name="preset_category_text">"ÇİNLİ OPERATÖR"</string>
+    <string name="preset_category_text_default">"Varsayılan"</string>
+    <string name="preset_category_text_china">"Çinli Operatör"</string>
+    <string name="preset_category_text_regional">"Bölgesel"</string>
+    <string name="sim_ssss_text">"Tek SIM Tek Bekleme Modu"</string>
+    <string name="sim_dsds_text">"Çift SIM Çift Bekleme Modu"</string>
+    <string name="sim_dsda_text">"Çift SIM Çift Etkin"</string>
+    <string name="progress_wait">"Yapılandırılıyor..."</string>
+    <string name="alert_update_sim_mode_title">"SIM modunu güncelleme"</string>
+    <string name="alert_update_sim_mode_text">"Telefon yeniden başlatıldıktan sonra SIM modu değişikliği geçerli olacak. Telefonu şimdi güncellemek istiyor musunuz?"</string>
+    <string name="alert_switch_title">"Operatörü değiştir"</string>
+    <string name="alert_switch_text">"Bu işlem çoklu sim yapılandırması da dahil tüm verileri silecektir."</string>
+    <string name="alert_switch_error">"Operatör değiştirme işlemi başarısız, lütfen yeterli alan olup olmadığını kontrol edin."</string>
+    <string name="notice_row_title">"Uyarı"</string>
+    <string name="notice_row_text">"Telefonunuz, SIM kartınızla uyumlu olması için ayarlanmıştır. Yeni yapılandırmayı etkin hale getirmek için lütfen telefonunuzu yeniden başlatın."</string>
+    <string name="notice_special_install_title">"Dikkat"</string>
+    <string name="notice_special_install_text">"Telefonunuz, SIM kartınıza uyarlanacak şekilde ayarlanabilir. Ancak bu işlem tüm verilerinizi siler. Şu anda ayarlamak istiyor musunuz?"</string>
+    <string name="welcome_title">"Hoş geldiniz"</string>
+    <string name="welcome_message">"Lütfen dilinizi seçin"</string>
+    <string name="start_text">"Başlat"</string>
+    <string name="emergency_call_text">"Acil Arama"</string>
+    <string name="trigger_title">"Yapılandır"</string>
+    <string name="trigger_message">"Lütfen bir paket seçin"</string>
+    <string name="trigger_uninstall_message">"SIM kartınızla eşleşen paket yok. Telefonunuz temel pakete geri döndürülebilir.\n\nTelefonunuzu şuna geri yapılandırın:"</string>
+    <string name="trigger_no_text">"Yapılandırma"</string>
+    <string name="trigger_yes_text">"Yapılandırmaya başla"</string>
+    <string name="trigger_ask_text">"Daha sonra sor"</string>
+    <string name="begin_config_text">"Yapılandırmaya başla"</string>
+    <string name="alter_no_carrier_selected">"Operatör seçilmedi, lütfen bir veya daha fazla operatör seçin."</string>
+    <string name="download_ota_package_title">"Ota dosyalarını indir"</string>
+    <string name="download_ota_package_message">"Yükleniyor ..."</string>
+    <string name="alter_network_state_error">"Lütfen ağ durumunu kontrol edin."</string>
+    <string name="alter_file_not_found_error">"Ota dosyası depolanamadı, lütfen depolama durumunu kontrol edin."</string>
+    <string name="carrier_clear_final_desc">"Tüm kişisel bilgileriniz ve operatör yapılandırmanız silinsin mi? Bu işlemi geri alamazsınız!"</string>
+    <string name="carrier_clear_final_button_text">"Her şeyi sil"</string>
+    <string name="carrier_clear_no_default_pack">"Cihazınızda varsayılan paket yok."</string>
+    <string name="carrier_clear_parsing_not_finish">"Hala varsayılan paket aranıyor."</string></resources>

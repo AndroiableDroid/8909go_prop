@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"В сутках 24 часа"</string>
+    <string name="hi_snapdragon">"Привет, Snapdragon"</string>
+    <string name="hey_snapdragon">"Привет, Snapdragon"</string>
+    <string name="my_voice">"Мой голос является моим паролем"</string>
+    <string name="make_my_day">"Порадуй меня"</string>
+    <string name="tomorrow_is_another">"Утро вечера мудренее"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"Добро пожаловать в Сан-Диего"</string>
+    <string name="okay_google">"Okay Google"</string>
+    <string name="open_my_email">"Открыть мою электронную почту"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"Образец голоса"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"Настройки"</string>
+    <string name="action_add">"Добавить"</string>
+    <string name="title_activity_main_with_fragment">"Основные действия с фрагментом"</string>
+    <string name="tap_mic_start">"Нажмите кнопку микрофона для запуска"</string>
+    <string name="tap_mic_stop">"Нажмите кнопку микрофона для остановки"</string>
+    <string name="say_key_phrase">"Произнесите \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"Произнесите фразу \"&lt;b&gt;%1$s&lt;/b&gt;\" еще раз."</string>
+    <string name="say_one_of_key_phrases">"Произнесите одну из ключевых фраз"</string>
+    <string name="phrase_recognized">"Фраза \"&lt;b&gt;%1$s&lt;/b&gt;\" распознана "</string>
+    <string name="recording_length_exceeded">"Превышена продолжительность записи"</string>
+    <string name="recording_length_exceeded_msg">"Продолжительность записи превышена. Повторите попытку."</string>
+    <string name="delete_all">"Удалить все"</string>
+    <string name="delete_all_msg">"Удалить все зарегистрированные шаблоны?"</string>
+    <string name="got_it">"Отлично! Понятно."</string>
+    <string name="set_key_phrase">"Задать ключевую фразу"</string>
+    <string name="set_key_phrase_name">"Задать имя ключевой фразы"</string>
+    <string name="set_key_phrase_action">"Задать действие"</string>
+    <string name="change_key_phrase_action">"Изменить действие"</string>
+    <string name="phrase_strength">"Уровень фразы"</string>
+    <string name="phrase_strength_hint">"Задайте фразу, содержащую хотя бы три слова."</string>
+    <string name="register_phrase">"Зарегистрировать фразу"</string>
+    <string name="register_phrase_hint">"Для помощи в распознавании вашего голоса запишите фразу \"&lt;b&gt;%1$s&lt;/b&gt;\" три раза."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" Производите запись в тихом помещении.\n\n"<b>"2."</b>" Держите телефон на расстоянии от рта.\n\n"<b>"3."</b>" Произнесите ключевую фразу естественным образом."</string>
+    <string name="ready_to_record">"ХОРОШО, ВСЕ ГОТОВО К ЗАПИСИ"</string>
+    <string name="oops">"Ой! Повторите попытку."</string>
+    <string name="say_the_phrase">"Произнесите фразу \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"Фраза \"&lt;b&gt;%1$s&lt;/b&gt;\" зарегистрирована"</string>
+    <string name="say_the_phrase_few_more">"Произнесите фразу \"&lt;b&gt;%1$s&lt;/b&gt;\" еще несколько раз"</string>
+    <string name="voice_print">"Образец голоса"</string>
+    <string name="cancel">"Отмена"</string>
+    <string name="voice_level">"Уровень голосового сигнала"</string>
+    <string name="background_noise">"Фоновый шум"</string>
+    <string name="cap_done">"ГОТОВО"</string>
+    <string name="cap_record">"ЗАПИСЬ"</string>
+    <string name="cap_next">"ДАЛЕЕ"</string>
+    <string name="cap_ok">"ОК"</string>
+    <string name="next">"Далее"</string>
+    <string name="new_key_phrase">"Создать ключевую фразу"</string>
+    <string name="edit_keyphrases">"Изменить ключевые фразы"</string>
+    <string name="set_name">"Задать имя"</string>
+    <string name="select_key_phrase">"Выбрать ключевую фразу"</string>
+    <string name="set_action">"Задать действие"</string>
+    <string name="registration_complete">"Регистрация завершена"</string>
+    <string name="confirm_pin">"Подтвердить PIN-код"</string>
+    <string name="confirm_pin_msg">"Введите PIN-код устройства, чтобы изменить ключевые фразы."</string>
+    <string name="your_key_phrase">"Ключевая фраза пользователя"</string>
+    <string name="cap_redo">"ВЕРНУТЬ"</string>
+    <string name="cap_redo_previous">"ВЕРНУТЬ ПРЕДЫДУЩЕЕ"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"Выбрать рекомендуемые фразы"</string>
+    <string name="create_your_own">"Создать собственную фразу"</string>
+    <string name="skip">"Пропустить"</string>
+    <string name="none">"Без звука"</string>
+    <string name="enter_pin">"Введите PIN-код устройства, чтобы изменить ключевые фразы."</string>
+    <string name="your_key_phrase_name">"Имя ключевой фразы пользователя"</string>
+    <string name="new_key_phrase_name">"Имя новой ключевой фразы"</string>
+    <string name="set_service_to_launch">"Задать службу для запуска"</string>
+    <string name="email">"Эл. почта"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"Отправить текстовое сообщение"</string>
+    <string name="use_selected_phrase">"Использовать выбранную фразу"</string>
+    <string name="about">"Сведения"</string>
+    <string name="edit_key_phrases">"Изменить ключевые фразы"</string>
+    <string name="invalid_phrasename_title">"Неверное имя фразы"</string>
+    <string name="invalid_phrasename_msg">"Имя фразы не может быть пустым."</string>
+    <string name="duplicate_phrasename_msg">"Имя фразы уже существует. Используйте другое имя."</string>
+    <string name="invalid_phrase_title">"Неверная фраза"</string>
+    <string name="invalid_phrase_msg">"Фраза не может быть пустой."</string>
+    <string name="edit_action">"Изменить действие"</string>
+    <string name="threshold">"Порог"</string>
+    <string name="delete_phrase">"Удалить фразу"</string>
+    <string name="rename">"Изменить имя"</string>
+    <string name="rename_keyphrase">"Изменить имя ключевой фразы"</string>
+    <string name="adjust_keyword_sensitivity">"Настроить уровень чувствительности к ключевому слову"</string>
+    <string name="adjust_keyword_sensitivity_summary">"Можно настроить чувствительность, чтобы допустить небольшой диапазон вариации в распознавании ключевой фразы."</string>
+    <string name="sensitivity">"Чувствительность"</string>
+    <string name="low_sensitivity">"Низкий уровень чувствительности"</string>
+    <string name="med_sensitivity">"Средний уровень чувствительности"</string>
+    <string name="high_sensitivity">"Высокий уровень чувствительности"</string>
+    <string name="low">"НИЗКИЙ"</string>
+    <string name="med">"СРЕДНИЙ"</string>
+    <string name="high">"ВЫСОКИЙ"</string>
+    <string name="low_sensitivity_summary">"Допускается расширенный диапазон вариации в процессе распознавания ключевой фразы."</string>
+    <string name="med_sensitivity_summary">"Допускается небольшой диапазон вариации в процессе распознавания ключевой фразы, но могут возникнуть помехи при распознавании некоторых фраз."</string>
+    <string name="high_sensitivity_summary">"Дополнительный уровень безопасности. Но могут возникнуть помехи при распознавании некоторых ключевых фраз."</string>
+    <string name="keyword_sensitivity">"Чувствительность ключевой фразы"</string>
+    <string name="delete_phrase_msg">"Удалить фразу \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"Образец голоса недоступен"</string>
+    <string name="voice_print_not_available_msg">"Образец голоса не включен на этом устройстве."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"Удаление выполнено"</string>
+    <string name="delete_success_msg">"Модель ключевой фразы удалена."</string>
+    <string name="delete_fail_title">"Ошибка при удалении"</string>
+    <string name="delete_fail_msg">"Возникла ошибка при удалении модели ключевой фразы."</string>
+    <string name="rename_success_title">"Переименование выполнено"</string>
+    <string name="rename_success_msg">"Модель ключевой фразы переименована."</string>
+    <string name="rename_fail_title">"Ошибка при переименовании"</string>
+    <string name="rename_fail_msg">"Возникла ошибка при переименовании модели ключевой фразы."</string>
+    <string name="pin_validation">"Проверка PIN-кода"</string>
+    <string name="pin_failed">"Неверная запись PIN-кода!"</string>
+    <string name="registration_failed">"Ошибка при регистрации"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"Порог пользователей"</string>
+    <string name="spoof_score">"Порог спуфинга"</string>
+    <string name="thresholds">"Пороги"</string>
+    <string name="save">"Сохранить"</string>
+    <string name="sentence_score_msg">"Задать порог предложений"</string>
+    <string name="user_score_msg">"Задать порог пользователей"</string>
+    <string name="spoof_score_msg">"Задать порог спуфинга"</string>
+    <string name="sentence_score">"Порог предложений"</string></resources>

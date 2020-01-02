@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IMS settings related strings -->
+    <!-- Title displayed IMS account settings in the sip settings category. [CHAR LIMIT=NONE] -->
+    <string name="ims_settings">"Nastavenia IMS"</string>
+    <string name="ims_vt_call_quality_title">"Kvalita hovoru VT"</string>
+    <string name="ims_vt_call_quality_low">"Nízka"</string>
+    <string name="ims_vt_call_quality_high">"Vysoká"</string>
+    <string name="ims_vt_call_quality_unknown">"Neznáme"</string>
+    <string name="ims_vt_call_quality_set_failed">"Kvalitu videa sa nepodarilo nastaviť"</string>
+    <string name="ims_get_packet_count_failed">"Nepodarilo sa získať počet paketov"</string>
+    <string name="ims_get_packet_error_count_failed">"Nepodarilo sa získať počet chybných paketov"</string>
+    <string name="ims_get_packet_count_label">"kliknutím sem získate počet paketov"</string>
+    <string name="ims_get_packet_error_count_label">"kliknutím sem získate počet chybných paketov"</string>
+    <string name="qti_ims_call_deflect_title">"Počet odklonenia hovoru"</string>
+    <string name="qti_ims_number_not_set">"Nenastavené"</string>
+    <!-- IMS to CS Retry setting title.  [CHAR LIMIT=30] -->
+    <string name="ims_to_cs_retry_title">"Zopakovať CS"</string>
+    <!-- IMS to CS Retry setting summary.  [CHAR LIMIT=80] -->
+    <string name="ims_to_cs_retry_summary">"Automatické opakovanie pri bežnej hlasovej komunikácii (odporúča sa)"</string></resources>

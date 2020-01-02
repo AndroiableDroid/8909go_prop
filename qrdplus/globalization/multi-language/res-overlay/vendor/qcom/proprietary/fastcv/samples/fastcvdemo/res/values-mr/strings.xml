@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+   <string name="activity_Corner">"कडा शोध"</string>
+   <string name="activity_Filter">"फिल्‍टर"</string>
+   <string name="activity_FilterCorr">"FilterCorr"</string>
+   <string name="activity_Scale">"स्केल"</string>
+   <string name="activity_Warp">"Warp"</string>
+   <string name="activity_ImgDiff">"प्रतिमा फरक"</string>
+   <string name="activity_ImageGradient">"प्रतिमा ग्रॅडिअंट"</string>
+   <string name="activity_OpticalFlow">"LK ऑप्टीकल प्रवाह"</string>
+   <string name="activity_Affine">"अफाइन"</string>
+   <string name="activity_Rotate">"परिभ्रमण करा"</string>
+   <string name="activity_ScaleDownMN">"ScaleDownMN"</string>
+   <string name="app_name">"FastCV डेमो अॅप"</string>
+   <string name="label_text">"येथे टाइप करा: "</string>
+   <string name="textview01_text">"मजकूरदृश्य01"</string>
+   <string name="startpreview_text">"सुरु करा"</string>
+   <string name="stoppreview_text">"थांबा"</string>
+   <string name="settings">"सेटिंग्ज"</string>
+   <string name="txtAcceleration">"टॉगल प्रवेग"</string>
+   <string name="about">"याविषयी"</string>
+   <string name="versionNumber_text">"FastCV आवृत्‍ती"</string>
+   <string name="appName_text">"अनुप्रयोगाचे नाव"</string>
+   <string name="appName">"FastCV प्रात्यक्षिक अनुप्रयोग"</string>
+   <string name="detectionName">"शोध मोड्यूल"</string>
+   <string-array name="CameraOnOffArray">
+      <item>"दृश्यशोधक चालू "</item>
+      <item>"दृश्यशोधक बंद "</item>
+   </string-array>
+   <string-array name="CameraOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray">
+      <item>"Gaussian 3x3 फिल्टर अक्षम करा  "</item>
+      <item>"Gaussian 3x3 फिल्टर सक्षम करा "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray2">
+      <item>"Gaussian 5x5 फिल्टर अक्षम करा  "</item>
+      <item>"Gaussian 5x5 फिल्टर सक्षम करा "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray2">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray3">
+      <item>"Gaussian 11x11 फिल्टर अक्षम करा  "</item>
+      <item>"Gaussian 11x11 फिल्टर सक्षम करा "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray3">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="CannyOnOffArray">
+      <item>"Canny Edge फिल्टर अक्षम करा  "</item>
+      <item>"Canny Edge फिल्टर सक्षम करा "</item>
+   </string-array>
+   <string-array name="CannyOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="cornerDetectorDownSampleArray">
+      <item>1 </item>
+      <item>2 </item>
+      <item>4 </item>
+      <item>8 </item>
+   </string-array>
+   <string-array name="cornerDetectorDownSampleValuesArray">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+   </string-array>
+   <string-array name="cornerDetectorThresholdArray">
+      <item>5 </item>
+      <item>10 </item>
+      <item>20 </item>
+      <item>40 </item>
+      <item>80 </item>
+   </string-array>
+   <string-array name="cornerDetectorValuesArray">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+   </string-array>
+<string-array name="CornerOnOnOffArray">
+      <item>"कडा ओव्हरले अक्षम करा  "</item>
+      <item>"कडा ओव्हरले सक्षम करा "</item>
+   </string-array>
+   <string-array name="CornerOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="DetectionArray">
+      <item>CornerFast9u8 </item>
+      <item>CornerHarrisu8 </item>
+      <item>CornerFastInMasku8 </item>
+      <item>CornerHarrisInMasku8 </item>
+      <item>CornerFast9Scoreu8 </item>
+      <item>CornerFast9InMaskScoreu8</item>
+      <item>CornerFast10u8 </item>
+   </string-array>
+   <string-array name="DetectionValuesArray">
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+      <item>5</item>
+      <item>6</item>
+      <item>7</item>
+   </string-array></resources>

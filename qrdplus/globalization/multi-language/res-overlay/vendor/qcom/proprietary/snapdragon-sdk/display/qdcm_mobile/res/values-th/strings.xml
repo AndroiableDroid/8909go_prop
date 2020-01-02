@@ -1,0 +1,82 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"QDCM Mobile"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"คุณสมบัติการแสดงผล"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"สมดุลสี"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"คุณสมบัติการแสดงผล"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"เปิดใช้งานโหมด"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"เลือกรูปภาพ"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"เพิ่มรูปภาพจากแกลเลอรี"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"เปิดใช้งานการปรับภาพ"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"สีสัน:"</string>
+    <add-resource type="string" name="hue"/>
+    <string name="hue">"สีสัน "</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"ความอิ่มตัวสี:"</string>
+    <add-resource type="string" name="saturation"/>
+    <string name="saturation">"ระดับสี "</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"ความเข้มสี:"</string>
+    <add-resource type="string" name="intensity"/>
+    <string name="intensity">"ความเข้มสี "</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"ความต่างสี:"</string>
+    <add-resource type="string" name="contrast"/>
+    <string name="contrast">"ความเข้ม "</string>
+    <add-resource type="string" name="memcolorskin"/>
+    <string name="memcolorskin">"สีในความจำ: การปรับผิวหนัง"</string>
+    <add-resource type="string" name="memcolorskinbutton"/>
+    <string name="memcolorskinbutton">"ความจำ:ผิวหนัง"</string>
+    <add-resource type="string" name="memcolorsky"/>
+    <string name="memcolorsky">"สีในความจำ: การปรับท้องฟ้า"</string>
+    <add-resource type="string" name="memcolorskybutton"/>
+    <string name="memcolorskybutton">"ความจำ:ท้องฟ้า"</string>
+    <add-resource type="string" name="memcolorfoliage"/>
+    <string name="memcolorfoliage">"สีในความจำ: การปรับใบไม้"</string>
+    <add-resource type="string" name="memcolorfoliagebutton"/>
+    <string name="memcolorfoliagebutton">"ความจำ:ใบไม้"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="color_temp_adjustment"/>
+    <string name="color_temp_adjustment">"อุณหภูมิสี:"</string>
+    <add-resource type="string" name="colortemp"/>
+    <string name="colortemp">"อุณหภูมิสี "</string>
+    <add-resource type="string" name="colortempbutton"/>
+    <string name="colortempbutton">"อุณหภูมิสี"</string>
+    <add-resource type="string" name="warm"/>
+    <string name="warm">"อบอุ่น"</string>
+    <add-resource type="string" name="cool"/>
+    <string name="cool">"เท่"</string>
+    <add-resource type="string" name="pic_adjustment"/>
+    <string name="pic_adjustment">"การปรับภาพ:"</string>
+    <add-resource type="string" name="picadjustment"/>
+    <string name="picadjustment">"การปรับภาพ"</string>
+    <add-resource type="string" name="picadjustmentbutton"/>
+    <string name="picadjustmentbutton">"การปรับภาพ"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"ยกเลิก"</string>
+    <add-resource type="string" name="save"/>
+    <string name="save">"บันทึก"</string>
+    <add-resource type="string" name="drawerOpen"/>
+    <string name="drawerOpen">"เปิด"</string>
+    <add-resource type="string" name="drawerClose"/>
+    <string name="drawerClose">"ปิด"</string>
+    <add-resource type="string" name="loadingContentMsg"/>
+    <string name="loadingContentMsg">"กำลังโหลดเนื้อหา..."</string>
+    <add-resource type="string" name="displayModes"/>
+    <string name="displayModes">"แสดงโหมด"</string>
+    <add-resource type="string" name="defaultMode"/>
+    <string name="defaultMode">"* โหมดค่าเริ่มต้น"</string></resources>

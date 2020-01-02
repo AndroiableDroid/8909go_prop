@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <string name="app_name">"rcs_device_service"</string>
+    <string name="rcs_service_is_remove">"rcs_service 已移除，请重新安装！！！"</string>
+    <string name="updateProfileInfo">"更新个人资料文字数据"</string>
+    <string name="updateProfilePortait">"更新个人资料肖像数据"</string>
+    <string name="deleteAllMessage">"删除所有消息"</string>
+    <string name="setChairman">"在群聊中设置新群主"</string>
+    <string name="modifySubject">"在群聊中修改主题"</string>
+    <string name="modifyNickName">"在群聊中修改成员昵称"</string>
+    <string name="acceptInvitation">"接受邀请以加入群聊"</string>
+    <string name="quitConversation">"退出群聊"</string>
+    <string name="removeParticipants">"在群聊中踢出参与者"</string>
+    <string name="abortConversation">"解散群聊"</string>
+    <string name="followPublicAccount">"关注公共帐户"</string>
+    <string name="unfollowPublicAccount">"取消关注公共帐户"</string>
+    <string name="reportPublicAccount">"举报公共帐户"</string>
+    <string name="title_activity_app_ops">"敏感 API 权限"</string>
+    <string name="app_ops_status_desc">"已授权 %1$d 个应用程序（共 %2$d 个）"</string>
+    <string name="never_ask_text">"不再询问"</string>
+    <string name="ok">"确定"</string>
+    <string name="cancel">"取消"</string>
+    <string name="api_func_desc">"此操作的目的是 %1$s。拒绝权限可能会导致其无法正常运行。"</string>
+    <string name="api_func_permission_title">"%1$s 的权限"</string>
+    <string name="permission_tip_message">"您需要允许 %1$s。"</string>
+    <string name="sdcard_perm_tip_message">"您需要允许 SD 卡权限。"</string>
+    <string name="contacts_perm_tip_message">"您需要允许联系人权限。"</string>
+    <string name="sms_perm_tip_message">"您需要允许短信权限。"</string></resources>

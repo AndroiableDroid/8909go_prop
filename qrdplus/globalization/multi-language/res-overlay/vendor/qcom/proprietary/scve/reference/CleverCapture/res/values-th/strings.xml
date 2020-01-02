@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"CleverCapture"</string>
+    <string name="error_dialog_title">"ข้อผิดพลาดแอพพลิเคชั่น"</string>
+    <string name="btn_ok">"ตกลง"</string>
+    <string name="err_library_loading">"แอพพลิเคชั่นล้มเหลวในการโหลดไลบราลี่ในเครื่อง"</string>
+    <string name="err_camera_init">"กล้องล้มเหลวในการเริ่มต้น"</string>
+    <string name="err_sensors_init">"เซ็นเซอร์ล้มเหลวในการเริ่มต้น"</string>
+    <string name="err_cc_init">"CleverCapture API ล้มเหลวในการเริ่มต้น"</string>
+    <string name="err_sensors_failed">"เซ็นเซอร์ล้มเหลวในการเริ่มต้น"</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"เซสชั่นไม่เริ่มต้น"</string>
+    <string name="err_queue_full">"คิวเต็ม"</string>
+    <string name="title_settings">"การตั้งค่า"</string>
+    <string name="camera_settings">"การตั้งค่ากล้อง"</string>
+    <string name="camera_settings_picture_size">"ขนาดภาพ"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"1280x720"</item>
+        <item>"1600x1200"</item>
+        <item>"1920x1080"</item>
+        <item>"2048x1536"</item>
+        <item>"3200x2400"</item>
+        <item>"4000x3000"</item>
+        <item>"4208x3120"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"1280x720"</item>
+        <item>"1600x1200"</item>
+        <item>"1920x1080"</item>
+        <item>"2048x1536"</item>
+        <item>"3200x2400"</item>
+        <item>"4000x3000"</item>
+        <item>"4208x3120"</item>
+    </string-array>
+    <string name="camera_settings_preview_size">"ขนาดภาพตัวอย่าง"</string>
+    <string-array name="camera_settings_preview_size_entries">
+        <item>"1280x720"</item>
+        <item>"1280x960"</item>
+        <item>"1920x1080"</item>
+    </string-array>
+    <string-array name="camera_settings_preview_size_values">
+        <item>"1280x720"</item>
+        <item>"1280x960"</item>
+        <item>"1920x1080"</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"โหมดโฟกัส"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"อัตโนมัติ"</item>
+        <item>"ต่อเนื่อง (รูปภาพ)"</item>
+        <item>"ต่อเนื่อง (วิดีโอ)"</item>
+        <item>"อินฟินิตี"</item>
+        <item>"มาโคร"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"auto"</item>
+        <item>"continuous-picture"</item>
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>1</item>
+        <item>4</item>
+        <item>3</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_antibanding">"AntiBanding"</string>
+    <string-array name="camera_settings_antibanding_entries">
+        <item>"อัตโนมัติ"</item>
+        <item>"50HZ"</item>
+        <item>"60HZ"</item>
+        <item>"ปิด"</item>
+    </string-array>
+    <string-array name="camera_settings_antibanding_values">
+        <item>"auto"</item>
+        <item>"50hz"</item>
+        <item>"60hz"</item>
+        <item>"off"</item>
+    </string-array>
+    <string-array name="camera_settings_antibanding_values_camera2">
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string name="camera_settings_video_stabilization">"การลดการสั่นไหวของวิดีโอ"</string>
+    <string-array name="camera_settings_video_stabilization_entries">
+        <item>"ปิดใช้งาน"</item>
+        <item>"เปิดใช้งาน"</item>
+    </string-array>
+    <string-array name="camera_settings_video_stabilization_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="camera_settings_video_stabilization_default">1</string>
+    <string name="pano_settings">"การตั้งค่า CleverCapture"</string>
+    <string name="pano_settings_scve_mode">"โหมดการใช้งาน SCVE"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"เริ่มต้น"</item>
+        <item>"ประสิทธิภาพ"</item>
+        <item>"CPU ออฟโหลด"</item>
+        <item>"ใช้พลังต่ำ"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_zoom_cfg">"ซูม"</string>
+    <string-array name="pano_settings_zoom_cfg_entries">
+        <item>"ปิดใช้งาน"</item>
+        <item>"เปิดใช้งาน"</item>
+    </string-array>
+    <string-array name="pano_settings_zoom_cfg_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pano_settings_zoom_cfg_default">0</string>
+    <string name="pano_settings_motion_cfg">"ไม่มีรูปภาพระหว่างการเคลื่อนไหวมือ"</string>
+    <string-array name="pano_settings_motion_cfg_entries">
+        <item>"ปิดใช้งาน"</item>
+        <item>"เปิดใช้งาน"</item>
+    </string-array>
+    <string-array name="pano_settings_motion_cfg_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pano_settings_motion_cfg_default">1</string>
+    <string name="pano_settings_focus_cfg">"ไม่มีรูปภาพระหว่างการโฟกัส"</string>
+    <string-array name="pano_settings_focus_cfg_entries">
+        <item>"ปิดใช้งาน"</item>
+        <item>"เปิดใช้งาน"</item>
+    </string-array>
+    <string-array name="pano_settings_focus_cfg_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="pano_settings_focus_cfg_default">0</string>
+    <string name="pano_settings_image_compress_level">"ระดับการบีบอัดภาพ"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_ae_awb_lock">"เปิดใช้งานล็อค AE/AWB"</string>
+    <string-array name="pano_settings_enable_ae_awb_lock_entries">
+        <item>"ไม่"</item>
+        <item>"ใช่"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_ae_awb_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_ae_awb_lock_default">"false"</string>
+    <string name="cc_settings_burst_number">"จำนวนรูปภาพต่อเนื่อง"</string>
+    <string-array name="cc_settings_burst_number_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="cc_settings_burst_number_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+   <string name="cc_settings_burst_number_default">3</string>
+    <string name="cc_settings_burst_interval">"ระยะเวลาถ่ายภาพต่อเนื่อง"</string>
+    <string-array name="cc_settings_burst_interval_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="cc_settings_burst_interval_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string name="cc_settings_burst_interval_default">1</string></resources>

@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"顯示 SDK 範例"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"顯示功能"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"色彩平衡"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"模式管理員"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"新模式"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"刪除模式"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"編輯模式"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"取消"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"顯示功能"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"啟用模式"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"輸入模式名稱"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"儲存模式"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"選擇相片"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"不支援提供的顯示類型。請確保 connect() 已啓用"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"不支援功能色彩平衡"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"不支援調適背光功能"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"不支援內存色葉功能"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"不支援內存膚色功能"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"不支援內存天色功能"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"不支援圖像調整功能"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"不支援日光能見度功能"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"不能建立新模式"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"不能修改模式"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"新增圖片庫影像"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"確定"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"是"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"否"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"您的裝置沒有顯示模式"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"不支援 FEATURE_COLOR_MODE_SELECTION"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"不支援 FEATURE_COLOR_MODE_MANAGEMENT"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"所需的顯示功能不可用"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"顯示模式刪除失敗"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"顯示模式啟用失敗"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"顯示模式不得設定為預設"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"請先選擇模式"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"請輸入模式名稱"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"已建立新模式"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"設定預設"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"已選擇模式為系統模式，不得修改。您是否希望基於已選擇模式來建立新模式？"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"已選擇模式為系統模式，不得刪除"</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"無法連接到所需的顯示服務"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" 模式已啟動"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" 已刪除模式"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"色彩平衡"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"日光能見度"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"圖像調整"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"內存色葉"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"色調"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"飽和度"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"強度"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"內存膚色"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"內存天色"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" 調適背光"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"啟用 SVI"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"啟用內存色葉"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"啟用內存膚色"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"啟用內存天色"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"啟用圖像調整"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"啟用調適背光"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"啟用圖像調整減飽和度"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"飽和度臨界值"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"色調"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"飽和度"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"強度"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"對比"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"高"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"中"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"低"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"自動"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"重新整理"</string></resources>

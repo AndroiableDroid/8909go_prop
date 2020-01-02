@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Nastavenia"</string>
+    <string name="body_msg">"testovanie FidoCryptoService"</string>
+    <string name="load">"načítať"</string>
+    <string name="unload">"zrušiť načítanie"</string>
+    <string name="process">"Spracovať"</string>
+    <string name="start">"spustiť"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"Naviazať službu FIDO"</string>
+    <string name="unbindFido">"Zrušiť naviazanie služby FIDO"</string>
+    <string name="setChallenge">"Nastaviť výzvu"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Overovač väzby"</string>
+    <string name="verifyUser">"Overiť používateľa/Získať token"</string>
+    <string name="GetInfo">"Získať informácie"</string>
+    <string name="Register">"Registrovať"</string>
+    <string name="Deregister">"Odregistrovať"</string>
+    <string name="OpenSettings">"Otvoriť nastavenia"</string>
+    <string name="Sign">"Podpísať"</string>
+    <string name="MalformedRequest">"Nesprávny tvar žiadosti"</string>
+    <string name="selectAuth">"Zvoliť overovač"</string>
+    <string name="getEnrollmentStatus">"Získať stav záznamu"</string>
+    <string name="RegisterExt">"Zaregistrovať s rozšíreniami"</string>
+    <string name="SignExt">"Podpísať s rozšíreniami"</string>
+    <string name="encResult">"Vložený výsledok"</string>
+    <string name="extResult">"Údaje rozšírenia"</string>
+    <string name="selectFidoOpText">"vybrať operáciu FIDO"</string>
+    <string name="show_message_sui">"zobraziť sui správy"</string>
+    <string name="fido_sui_service">"služba fido Sui"</string>
+    <string name="bindFidoSui">"naviazať fido sui"</string>
+    <string name="unbindFidoSui">"zrušiť naviazanie fido sui"</string>
+    <string name="suiResultTitle">"zobraziť výsledok sui správy"</string>
+    <string name="cancel_sui">"zrušiť sui"</string>
+    <string name="extensionText">"Použiť rozšírenia?"</string>
+    <string name="pngText">"Použiť obsah PNG?"</string>
+    <string name="fpText">"Zabezpečený odtlačok prsta"</string>
+    <string-array name="authenticator_array">
+        <item>"Overovač simulovaných zdrojov"</item>
+        <item>"Overovač vzoriek"</item>
+        <item>"Overovač zabezpečených vzoriek"</item>
+        <item>"Overovač rozšírenia vzoriek"</item>
+        <item>"Overovač bezpečnostného rozšírenia"</item>
+        <item>"Overovač stavu zariadenia"</item>
+        <item>"Overovač zabezpečených vzoriek IOver2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Získať informácie"</item>
+        <item>"Registrovať"</item>
+        <item>"Odregistrovať"</item>
+        <item>"Otvoriť nastavenia"</item>
+        <item>"Nesprávny tvar výnimky"</item>
+        <item>"Podpísať (over.)"</item>
+        <item>"Podpísať (TX)"</item>
+    </string-array></resources>

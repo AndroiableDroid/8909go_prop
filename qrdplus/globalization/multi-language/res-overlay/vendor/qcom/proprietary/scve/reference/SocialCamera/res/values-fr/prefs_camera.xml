@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"Appareil photo"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"Principal"</item>
+        <item>"Frontal"</item>
+        <item>"Appareil photo 3"</item>
+        <item>"Appareil photo 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"Taille d\'image"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9,7 MP, 16:9)"</item>
+        <item>"3840x2160 (8,3 MP, 16:9, UHD 4K)"</item>
+        <item>"3200x1800 (5,8 MP, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (4,1 MP, 16:9)"</item>
+        <item>"2592x1458 (3,8 MP, 16:9)"</item>
+        <item>"1920x1080 (2,1 MP, 16:9, HD 1080p)"</item>
+        <item>"1280x720 (0,9 MP, 16:9, HD 720p)"</item>
+        <item>"864x480 (0,4 MP, 16:9)"</item>
+        <item>"4160x3120 (13 MP, 4:3)"</item>
+        <item>"4000x3000 (12 MP, 4:3)"</item>
+        <item>"3264x2448 (8 MP, 4:3)"</item>
+        <item>"3200x2400 (7,7 MP, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (5 MP, 4:3)"</item>
+        <item>"2048x1536 (3,1 MP, 4:3, QXGA)"</item>
+        <item>"1920x1440 (2,8 MP, 4:3)"</item>
+        <item>"1600x1200 (1,9 MP, 4:3, UXGA)"</item>
+        <item>"1280x960 (1,2 MP, 4:3, UVGA)"</item>
+        <item>"1024x768 (0,8 MP, 4:3, XGA)"</item>
+        <item>"800x600 (0,5 MP, 4:3, SVGA)"</item>
+        <item>"640x480 (0,3 MP, 4:3, VGA)"</item>
+        <item>"320x240 (0,1 MP, 4:3, QVGA)"</item>
+        <item>"3264x2176 (7,1 MP, 3:2)"</item>
+        <item>"2592x1728 (4,5 MP, 3:2)"</item>
+        <item>"720x480 (0,3 MP, 3:2)"</item>
+        <item>"4160x2774 (11,5 MP, 3:2)"</item>
+        <item>"2976x2976 (8,9 MP, 1:1)"</item>
+        <item>"1280x768 (1 MP, 5:3)"</item>
+        <item>"800x480 (0,4 MP, 5:3)"</item>
+        <item>"352x288 (0,1 MP, 11:9)"</item>
+        <item>"176x144 (0 MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"Taille de l\'aperçu"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"Correspondre à la taille de l\'affichage"</item>
+        <item>"Aperçu haute résolution (jusqu\'à 4 MP)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"Mode Scène"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"Auto"</item>
+        <item>"Prise action"</item>
+        <item>"Code barres"</item>
+        <item>"Plage"</item>
+        <item>"Écl. bougie"</item>
+        <item>"Visages"</item>
+        <item>"Feu d\'artifice"</item>
+        <item>HDR</item>
+        <item>"Vidéo haute vitesse"</item>
+        <item>"Paysages"</item>
+        <item>"Nuit"</item>
+        <item>"Fête"</item>
+        <item>"Contacts"</item>
+        <item>"Personnages la nuit"</item>
+        <item>"Neige"</item>
+        <item>"Sports"</item>
+        <item>"Prise stable"</item>
+        <item>"Coucher de soleil"</item>
+        <item>"Théâtre"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"Contrôle d\'exposition"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"Auto"</item>
+        <item>"Fixe"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"Compensation de l\'exposition"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"Mise au point"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"Auto"</item>
+        <item>"Fixe"</item>
+        <item>"Continu (image)"</item>
+        <item>"Continu (vidéo)"</item>
+        <item>"Macro"</item>
+        <item>"Profondeur de champ étendue"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"Contrôle de la balance des blancs"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"Auto"</item>
+        <item>"Désactivé"</item>
+        <item>"Éclairage incandescent"</item>
+        <item>"Éclairage fluorescent"</item>
+        <item>"Éclairage fluorescent chaud"</item>
+        <item>"Lumière du jour"</item>
+        <item>"Jour nuageux"</item>
+        <item>"Ombre"</item>
+        <item>"Crépuscule"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"Flash"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"Auto"</item>
+        <item>"Activé"</item>
+        <item>"Désactivé"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"Réduction du bruit"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"Activé"</item>
+        <item>"Désactivé"</item>
+        <item>"Haute qualité"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"Correction du vignettage"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"Activé"</item>
+        <item>"Désactivé"</item>
+        <item>"Haute qualité"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"Correction de l\'aberration"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"Activé"</item>
+        <item>"Désactivé"</item>
+        <item>"Haute qualité"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"Amélioration des bords"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"Activé"</item>
+        <item>"Désactivé"</item>
+        <item>"Haute qualité"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"Correction des pixels défectueux"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"Activé"</item>
+        <item>"Désactivé"</item>
+        <item>"Haute qualité"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"Mode Stabilisation"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"Désactivé"</item>
+        <item>"Optique"</item>
+        <item>"Numérique"</item>
+    </string-array></resources>

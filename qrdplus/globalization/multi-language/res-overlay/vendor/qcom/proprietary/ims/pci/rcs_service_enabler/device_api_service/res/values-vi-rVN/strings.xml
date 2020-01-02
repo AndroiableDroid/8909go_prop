@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service đã bị xóa, vui lòng cài đặt lại!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"Cập nhật dữ liệu văn bản trong hồ sơ"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"Cập nhật dữ liệu ảnh đại diện trong hồ sơ"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Xóa toàn bộ tin nhắn"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Đặt người chủ trì mới trong nhóm trò chuyện"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Sửa chủ đề trong nhóm trò chuyện"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Sửa biệt danh thành viên trong nhóm trò chuyện"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Nhận lời mời tham gia nhóm trò chuyện"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Thoát nhóm trò chuyện"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Xóa người tham gia khỏi nhóm trò chuyện"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"Bỏ qua nhóm trò chuyện"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Quan tâm đến một tài khoản công cộng"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Không quan tâm đến một tài khoản công cộng"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"Báo cáo một tài khoản công cộng"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"cho phép api nhạy cảm"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"đã cấp phép cho %1$d ứng dụng (tổng %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"Không bao giờ hỏi lại"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"OK"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Hủy"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Hoạt động này được thiết kế nhằm %1$s, từ chối cho phép có thể khiến hoạt động không còn thực hiện chức năng như mong muốn."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"Quyền %1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"Bạn cần cho phép %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"Bạn cần cho phép thẻ sd."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"Bạn cần cho phép danh bạ."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"Bạn cần cho phép sms."</string></resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="file_not_exist">"Súbor neexistuje"</string>
+    <string name="show_properties">"Zobraziť vlastnosti"</string>
+    <string name="app_name">"Drm"</string>
+    <string name="buy_license">"Kúpiť licencie"</string>
+    <string name="drm_activity">"Aktivita Drm"</string>
+    <string name="open_files">"Otvoriť súbory"</string>
+    <string name="service_connected">"Fíha, DRM služba je PRIPOJENÁ, vau"</string>
+    <string name="service_disconnected">"Joj, DRM služba je ODPOJENÁ, vau"</string>
+    <string name="service_binded">"Fíha, DRM služba je VIAZANÁ, vau"</string>
+    <string name="service_unbinded">"Joj, väzba služby DRM sa ZRUŠILA, vau"</string>
+    <string name="tv_fl">"Tento obsah si môžete užívať bez obmedzení"</string>
+    <string name="tv_cantbuy">"Nemáte žiadne platné licencie, no nedokážeme získať adresu licencie, a preto ju pre vás nedokážeme kúpiť"</string>
+    <string name="tv_wantbuy">"Nemáte žiadne platné licencie. Chceli by ste si nejaké zakúpiť?"</string>
+    <string name="tv_buyviapc">"Ľutujeme... Cez OTA nedokážeme licenciu získať. Získajte ich prostredníctvom MTP z PC."</string>
+    <string name="tv_finishdownload">"Súbor %%% sa nainštaloval. Želáte si ho otvoriť?"</string>
+    <string name="sdcard_busy">"Karta SD je zaneprázdnená. Ukončite režim úložiska USB, aby sa umožnil prístup na kartu SD."</string>
+    <string name="yes">"Áno"</string>
+    <string name="no">"Nie"</string>
+    <string name="ok">"OK"</string>
+    <string name="file_not_supported">"Súbory DRM z CD/SD nie sú podporované"</string>
+    <string name="no_rights">"Pre tento súbor nie sú k dispozícii žiadne oprávnenia :("</string>
+    <string name="execute_permission">"Vykonať oprávnenie"</string>
+    <string name="play_permission">"Prehrať oprávnenie"</string>
+    <string name="display_permission">"Zobraziť oprávnenie"</string>
+    <string name="print_permission">"Vytlačiť oprávnenie"</string>
+    <string name="license">"licencia"</string>
+    <string name="of">"z"</string>
+    <string name="count">"Počet"</string>
+    <string name="interval_str">"Interval"</string>
+    <string name="start_date">"Dátum začiatku"</string>
+    <string name="end_date">"Dátum ukončenia"</string>
+    <string name="seconds">"s"</string>
+    <string name="no_activitiy_found">"Nezistená žiadna aktivita na spracovanie adresy: "</string></resources>

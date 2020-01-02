@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"ການວັດ​ແທກ​ການ​ແກ້​ໄຂ​ບັນຫາ​ຈໍ​ສະ​ແດງ​ຜົນ"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"​ບັນທຶກ​ຮູບ​ພາບ"</string>
+    <string name="debug_pref_save_pictures_desc">"ບັນທຶກ​ຮູບ​ທີ່​ຖ່າຍ​ໃສ່​ແຜ່ນ SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"ບັນທຶກ​​ເຟຣມພາບ​ຕົວຢ່າງ"</string>
+    <string name="debug_pref_save_preview_frames_desc">"ບັນທຶກ​ເຟຣມພາບ​ຕົວຢ່າງ​ໃສ່​ແຜ່ນ SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"ອະນຸຍາດ​ໃຫ້​ປ່ອຍ​​ເຟຣມພາບ​ຕົວຢ່າງ"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"​ໃນ​ເວລາ​ບັນທຶກ​ເຟຣມພາບ​ຕົວຢ່າງ, ອະນຸຍາດ​ໃຫ້​ປ່ອຍ​ເຟຣມ​ ​ເພື່ອຮັກສາ​ອັດຕາ​ເຟຣມ​ໄວ້"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"​ເປີດ​ໃຊ້​ກາ​ນບັນທຶກລາຍ​ລະອຽດການ​ຮັບ​ຮູ້​ໃບ​ໜ້າ"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

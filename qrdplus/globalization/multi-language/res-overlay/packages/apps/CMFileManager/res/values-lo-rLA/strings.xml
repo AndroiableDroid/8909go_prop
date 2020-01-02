@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+     Copyright (C) 2012-2014 The CyanogenMod Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The name of the app -->
+    <string name="app_name">"ຕົວຈັດການໄຟລ໌"</string>
+    <!-- The description of the app -->
+    <string name="app_description">"ຕົວຈັດການໄຟລ໌ CyanogenMod"</string>
+    <!-- Human readable sizes -->
+    <string name="size_bytes">"B"</string>
+    <string name="size_kilobytes">"kB"</string>
+    <string name="size_megabytes">"MB"</string>
+    <string name="size_gigabytes">"GB"</string>
+    <!-- Date/time format order (%1$s: date; %2$s: time) -->
+    <string name="datetime_format_order">%1$s %2$s</string>
+    <!-- Devices types -->
+    <string name="device_blockdevice">"ອຸປະກອນປ້ອງກັນ"</string>
+    <string name="device_characterdevice">"ອຸປະກອນອັກຂະລະ"</string>
+    <string name="device_namedpipe">"ທໍ່ທີ່ມີຊື່"</string>
+    <string name="device_domainsocket">"ຊັອກເກັດຂອງໂດເມນ"</string>
+    <!-- Mount Point States -->
+    <string name="mount_point_readonly">"RO"</string>
+    <string name="mount_point_readwrite">"RW"</string>
+    <string name="yes">"ແມ່ນ"</string>
+    <string name="no">"ບໍ່"</string>
+    <string name="all">"ທັງໝົດ"</string>
+    <string name="overwrite">"ຂຽນທັບ"</string>
+    <string name="select">"ເລືອກ"</string>
+    <!-- The root directory name -->
+    <string name="root_directory_name"><![CDATA[<Root folder>]]></string>
+    <!-- The search result name -->
+    <string name="search_result_name">"ຄົ້ນຫາ: <xliff:g id="terms">%1$s</xliff:g>"</string>
+    <!-- Loading waiting message -->
+    <string name="loading_message">"ກຳລັງໂຫຼດ\u2026"</string>
+    <!-- Cancelled message -->
+    <string name="cancelled_message">"ຍົກເລີກແລ້ວ."</string>
+    <!-- Error message -->
+    <string name="error_message">"ຜິດພາດ."</string>
+    <!-- Copy text content description -->
+    <string name="copy_text_cd">"ແຕະເພື່ອອັດສໍາເນົາໄປໃສ່ຄລິບບອດ"</string>
+    <!-- Copy text content message -->
+    <string name="copy_text_msg">"ຂໍ້ຄວາມຖືກອັດສຳເນົາໃສ່ຄລິບບອດແລ້ວ"</string>
+    <!-- Warning dialog title -->
+    <string name="warning_title">"ການເຕືອນ"</string>
+    <!-- Error dialog title -->
+    <string name="error_title">"ຜິດພາດຖືກລຶບແລ້ວ"</string>
+    <!-- Confirm operation dialog title -->
+    <string name="confirm_operation">"ຢືນຢັນການດຳເນີນການ"</string>
+    <!-- Confirm overwrite dialog title -->
+    <string name="confirm_overwrite">"ຢືນຢັນການຂຽນທັບ"</string>
+    <!-- Confirm deletion dialog title -->
+    <string name="confirm_deletion">"ຢືນຢັນການລຶບ"</string>
+    <!--  A console couldn't be created - Ask the user to change the access mode - Dialog Title -->
+    <string name="msgs_change_to_prompt_access_mode_title">"ຢືນຢັນການສະ​ຫຼັບ"</string>
+    <!--  A console couldn't be created - Ask the user to change the access mode - Dialog Message -->
+    <string name="msgs_change_to_prompt_access_mode_msg">"ບໍ່ສາມາດໃຊ້ງານໃນໂໝດການເຂົ້າເຖິງຕົ້ນຕໍໄດ້. ການປ່ຽນແປງໄປເປັນໂໝດຄວາມປອດໄພ.\n\nທຳການປ່ຽນແປງນີ້ບໍ?"</string>
+    <!-- A console couldn't be created - Without privileges, the app won't work -->
+    <string name="msgs_cant_create_console">"ບໍ່ສາມາດໄດ້ຮັບສິດຜົນປະໂຫຍດທີ່ຕ້ອງການເພື່ອການເຮັດວຽກ."</string>
+    <!-- The message shown when an allocation of a privileged console fails, and a non
+         privileged is allocated -->
+    <string name="msgs_privileged_console_alloc_failed">"ບໍ່ສາມາດໃຊ້ງານໃນໂໝດການເຂົ້າເຖິງຕົ້ນຕໍໄດ້. ການປ່ຽນແປງໄປເປັນໂໝດຄວາມປອດໄພ."</string>
+    <!-- The selected setting was not applied or stored -->
+    <string name="msgs_settings_save_failure">"ການຕັ້ງຄ່າບໍ່ສາມາດນຳໃຊ້ ຫຼືເກັບໄວ້ໄດ້."</string>
+    <!-- The initial directory has an invalid or inaccessible reference -->
+    <string name="msgs_settings_invalid_initial_directory">"ໂຟລເດີເລີ່ມຕົ້ນ \'<xliff:g id="initial_dir">%1$s</xliff:g>\' ແມ່ນບໍ່ຖືກຕ້ອງ. ການປ່ຽນແປງໄປເປັນໂຟລເດີຕົ້ນຕໍ."</string>
+    <!-- Root is not available message -->
+    <string name="root_not_available_msg">"ຕົ້ນຕໍບໍ່ສາມາດໃຊ້ງານໄດ້ໃນອຸປະກອນນີ້. ບໍ່ສາມາດປະຕິບັດການດຳເນີນການນີ້ໄດ້."</string>
+    <!-- Success -->
+    <string name="msgs_success">"ການດຳເນີນການສຳເລັດຮຽບຮ້ອຍແລ້ວ."</string>
+    <!-- Unknown error -->
+    <string name="msgs_unknown">"ຜິດພາດໄດ້ຮັບການກວດພົບ. ການດຳເນີນການບໍ່ສຳເລັດ."</string>
+    <!-- When an operation requires elevated privileged (normally caused for the use of a
+         non-privileged console) -->
+    <string name="msgs_insufficient_permissions">"ການດຳເນີນການນີ້ຮຽກຮ້ອງໃຫ້ມີການຍົກລະດັບສິດ. ລອງທຳການປ່ຽນໂໝດການເຂົ້າເຖິງຕົ້ນຕໍ."</string>
+    <!-- When an operation fails because the device has run out of storage. -->
+    <string name="msgs_no_disk_space">"ການດຳເນີນການນີ້ບໍ່ສຳເລັດ ຍ້ອນວ່າບໍ່ມີພື້ນທີ່ເຫຼືອໃນອຸປະກອນ."</string>
+    <!-- The file or directory was not found -->
+    <string name="msgs_file_not_found">"ບໍ່ພົບເຫັນໄຟລ໌ ຫຼືໂຟລເດີ."</string>
+    <!-- The command reference couldn't be created (not found or invalid definition)
+         (normally caused by a development error) -->
+    <string name="msgs_command_not_found">"ການດຳເນີນການ\'s ຄຳສັ່ງບໍ່ມີການພົບເຫັນ ຫຼືມີຄວາມໝາຍທີ່ບໍ່ຖືກຕ້ອງ."</string>
+    <!-- I/O exception -->
+    <string name="msgs_io_failed">"ຄວາມຜິດພາດຂອງການອ່ານ/ຂຽນ."</string>
+    <!-- Operation timeout detected -->
+    <string name="msgs_operation_timeout">"ການດໍາເນີນການໝົດເວລາ."</string>
+    <!-- The operation returns an invalid exit code -->
+    <string name="msgs_operation_failure">"ການດໍາເນີນການບໍ່ສໍາເລັດ."</string>
+    <!-- A console couldn't be allocated -->
+    <string name="msgs_console_alloc_failure">"ເກີດຄວາມຜິດພາດພາຍໃນຂຶ້ນ."</string>
+    <!-- An operation can't be cancelled -->
+    <string name="msgs_operation_can_not_be_cancelled">"ການດຳເນີນການບໍ່ສາມາດຍົກເລີກໄດ້."</string>
+    <!-- The operation requieres mount the file system prior to execute the command -->
+    <string name="msgs_read_only_filesystem">"ລະບົບໄຟລ໌ອ່ານໄດ້ພຽງແຕ່ຢ່າງດຽວ. ພະຍາຍາມຕິດຕັ້ງລະບົບໄຟລ໌ໃຫ້ສາມາດອ່ານ-ຂຽນ ກ່ອນທີ່ຈະພະຍາຍາມດຳເນີນການ."</string>
+    <!-- Illegal argument (normally caused by a development error when calling internal api) -->
+    <string name="msgs_illegal_argument">"ຂໍ້ໂຕ້ແຍ້ງທີ່ຜິດກົດໝາຍ. ຄຳຮ້ອງຂໍບໍ່ປະສົບຜົນສຳເລັດ."</string>
+    <!-- The operation will cause inconsistencies -->
+    <string name="msgs_unresolved_inconsistencies">"ການດຳເນີນການບໍ່ໄດ້ຮັບການອະນຸຍາດ ຍ້ອນວ່າມັນຈະສ້າງຄວາມບໍ່ສອດຄ່ອງກັນ."</string>
+    <!-- Operation not permitted in current directory -->
+    <string name="msgs_operation_not_allowed_in_current_directory">"ການດຳເນີນການບໍ່ໄດ້ຮັບການອະນຸຍາດໃນໂຟລເດີປະຈຸບັນ.\n\nໂຟລເດີປາຍທາງບໍ່ສາມາດເປັນໂຟລເດີຍ່ອຍຂອງແຫຼ່ງທີ່ມາ ຫຼືເປັນຄືກັນກັບແຫຼ່ງທີ່ມາໄດ້."</string>
+    <!-- The advice message prior to exit the app -->
+    <string name="msgs_push_again_to_exit">"ກົດອີກເທື່ອໜຶ່ງເພື່ອອອກ."</string>
+    <!-- There is no registered app that can handle the mime-type -->
+    <string name="msgs_not_registered_app">"ບໍ່ມີແອັບທີ່ໄດ້ຮັບການລົງທະບຽນເພື່ອຮັບມືກັບປະເພດຂອງໄຟລ໌ທີ່ເລືອກໄວ້."</string>
+    <!-- Overwrite files? -->
+    <string name="msgs_overwrite_files">"ໄຟລ໌ບາງອັນມີຢູ່ໃນໂຟລເດີປາຍທາງຮຽບຮ້ອຍແລ້ວ.\n\nຂຽນທັບບໍ?"</string>
+    <!-- The association of an action to the app failed -->
+    <string name="msgs_action_association_failed">"ການເຊື່ອມໂຍງການປະຕິບັດໄປຫາແອັບບໍ່ສຳເລັດ."</string>
+    <!-- An operation requires elevated privileged. Ask the user. -->
+    <string name="advise_insufficient_permissions">"ການດຳເນີນການຮຽກຮ້ອງໃຫ້ມີການຍົກລະດັບສິດ.\n\nທ່ານຢາກປ່ຽນໄປເປັນໂໝດການເຂົ້າເຖິງຕົ້ນຕໍບໍ?"</string>
+    <!-- The parent directory of the current directory in navigation view -->
+    <string name="parent_dir">"ໂຟລເດີຫຼັກ"</string>
+    <!-- External storage descripton -->
+    <string name="external_storage">"ບ່ອນເກັບຂໍ້ມູນພາຍນອກ"</string>
+    <!-- Usb storage descripton -->
+    <string name="usb_storage">"ບ່ອນເກັບຂໍ້ມູນ USB"</string>
+    <!-- ActionBar Buttons - FileSystem -->
+    <string name="actionbar_button_filesystem_cd">"ຂໍ້ມູນຂອງລະບົບໄຟລ໌"</string>
+    <!-- ActionBar Buttons - Sort Mode -->
+    <string name="actionbar_button_sort_mode_cd">"ແບບຂອງການຈັດຮຽງ"</string>
+    <!-- ActionBar Buttons - Layout Mode -->
+    <string name="actionbar_button_layout_mode_cd">"ແບບຂອງແຜນຜັງ"</string>
+    <!-- ActionBar Buttons - Other View Options -->
+    <string name="actionbar_button_other_view_options_cd">"ທາງເລືອກມຸມມອງແບບອື່ນໆ"</string>
+    <!-- ActionBar Buttons - Done -->
+    <string name="actionbar_button_selection_done_cd">"ສໍາເລັດ"</string>
+    <!-- ActionBar Buttons - Actions -->
+    <string name="actionbar_button_actions_cd">"ການດໍາເນີນການ"</string>
+    <!-- ActionBar Buttons - Search -->
+    <string name="actionbar_button_search_cd">"ຄົ້ນຫາ"</string>
+    <!-- ActionBar Buttons - Overflow -->
+    <string name="actionbar_button_overflow_cd">"ຕົວເລືອກເພີ່ມເຕີມ"</string>
+    <!-- ActionBar Buttons - Storage volumes -->
+    <string name="actionbar_button_storage_cd">"ປະລິມານບ່ອນເກັບຂໍ້ມູນ"</string>
+    <!-- ActionBar Buttons - Save -->
+    <string name="actionbar_button_save_cd">"ບັນທຶກ"</string>
+    <!-- ActionBar Buttons - Print -->
+    <string name="actionbar_button_print_cd">"ພິມ"</string>
+    <!-- Navigation View - Sort - Sort by name (ascending) -->
+    <string name="sort_by_name_asc">"ຕາມຊື່ \u25B2"</string>
+    <!-- Navigation View - Sort - Sort by name (descending) -->
+    <string name="sort_by_name_desc">"ຕາມຊື່ \u25BC"</string>
+    <!-- Navigation View - Sort - Sort by date (ascending) -->
+    <string name="sort_by_date_asc">"ຕາມວັນທີ \u25B2"</string>
+    <!-- Navigation View - Sort - Sort by date (descending) -->
+    <string name="sort_by_date_desc">"ຕາມວັນທີ \u25BC"</string>
+    <!-- Navigation View - Sort - Sort by size (ascending) -->
+    <string name="sort_by_size_asc">"ຕາມຂະໜາດ \u25B2"</string>
+    <!-- Navigation View - Sort - Sort by size (descending) -->
+    <string name="sort_by_size_desc">"ຕາມຂະໜາດ \u25BC"</string>
+    <!-- Navigation View - Sort - Sort by type (ascending) -->
+    <string name="sort_by_type_asc">"ຕາມປະເພດ \u25B2"</string>
+    <!-- Navigation View - Sort - Sort by type (descending) -->
+    <string name="sort_by_type_desc">"ຕາມປະເພດ \u25BC"</string>
+    <!-- Navigation View - Layout - Icons -->
+    <string name="layout_icons">"ໄອຄອນ"</string>
+    <!-- Navigation View - Layout - Simple -->
+    <string name="layout_simple">"ງ່າຍ"</string>
+    <!-- Navigation View - Layout - Details -->
+    <string name="layout_details">"ລາຍລະອຽດຕ່າງໆ"</string>
+    <!-- Navigation View - View - Show folders first -->
+    <string name="cm_filemanager_show_dirs_first">"ສະແດງໂຟລເດີຕ່າງໆທຳອິດເລີຍ"</string>
+    <!-- Navigation View - View - Show hidden files option -->
+    <string name="cm_filemanager_show_hidden">"ສະແດງໄຟລ໌ທີ່ໄດ້ເຊື່ອງໄວ້"</string>
+    <!-- Navigation View - View - Show system files option -->
+    <string name="cm_filemanager_show_system">"ສະແດງໄຟລ໌ຂອງລະບົບ"</string>
+    <!-- Navigation View - View - Show symlinks option -->
+    <string name="cm_filemanager_show_symlinks">"ສະແດງ symlinks"</string>
+    <!-- Filesystem Info (no data). Dialog title -->
+    <string name="filesystem_info_warning_title">"ບໍ່ມີຂໍ້ມູນ"</string>
+    <!-- Filesystem Info (no data). Dialog message -->
+    <string name="filesystem_info_warning_msg">"ບໍ່ມີຂໍ້ມູນທີ່ສາມາດໃຊ້ໄດ້ສຳລັບລະບົບໄຟລ໌."</string>
+    <!-- Filesystem Info - Filesystem couldn't be mounted -->
+    <string name="filesystem_info_cant_be_mounted_msg">"ລະບົບໄຟລ໌ບໍ່ສາມາດເພີ່ມພູນ/ຫຼຸດລົງ."</string>
+    <!-- Filesystem Info - Not allowed message -->
+    <string name="filesystem_info_mount_not_allowed_msg">"ການດຳເນີນການເພີ່ມພູນລະບົບຂອງໄຟລ໌ບໍ່ໄດ້ຮັບການອະນຸຍາດໃນໂໝດຄວາມປອດໄພ. ແຕະເພື່ອປ່ຽນແປງໂໝດການເຂົ້າເຖິງຕົ້ນຕໍ."</string>
+    <!-- Filesystem Info - Mount failed -->
+    <string name="filesystem_info_mount_failed_msg">"ການດຳເນີນການເພີ່ມພູນລະບົບໄຟລ໌ບໍ່ສຳເລັດ. ລະບົບໄຟລ໌ບາງອັນ, ຄືກັນກັບແຜ່ນ SD, ບໍ່ສາມາດເພີ່ມພູນ/ຫຼຸດລົງ ຍ້ອນວ່າພວກມັນໄດ້ຮັບການສ້າງຂຶ້ນໃນຮູບແບບຂອງການອ່ານລະບົບໄຟລ໌ພຽງຢ່າງດຽວ."</string>
+    <!-- Filesystem Info Dialog - Title -->
+    <string name="filesystem_info_dialog_title">"ຂໍ້ມູນຂອງລະບົບໄຟລ໌"</string>
+    <!-- Filesystem Info Dialog - Tab - Info -->
+    <string name="filesystem_info_dialog_tab_info">"ຂໍ້ມູນ"</string>
+    <!-- Filesystem Info Dialog - Tab - Disk Usage -->
+    <string name="filesystem_info_dialog_tab_disk_usage">"ການນໍາໃຊ້ແຜ່ນ"</string>
+    <!-- Filesystem Info Dialog - Status Label -->
+    <string name="filesystem_info_dialog_status">"ສະຖານະ:"</string>
+    <!-- Filesystem Info Dialog - Mount Point Label -->
+    <string name="filesystem_info_dialog_mount_point">"ຈຸດເຊື່ອມຕໍ່:"</string>
+    <!-- Filesystem Info Dialog - Device Label -->
+    <string name="filesystem_info_dialog_device">"ອຸປະກອນ:"</string>
+    <!-- Filesystem Info Dialog - Type Label -->
+    <string name="filesystem_info_dialog_type">"ປະເພດ:"</string>
+    <!-- Filesystem Info Dialog - Options Label -->
+    <string name="filesystem_info_dialog_options">"ທາງເລືອກ:"</string>
+    <!-- Filesystem Info Dialog - Dump/Pass Label -->
+    <string name="filesystem_info_dialog_dump_pass">"ການຖ່າຍໂອນຂໍ້ມູນ / ຜ່ານ:"</string>
+    <!-- Filesystem Info Dialog - Virtual Label -->
+    <string name="filesystem_info_dialog_virtual">"ສະເໝືອນຈິງ:"</string>
+    <!-- Filesystem Info Dialog - Total Disk Usage -->
+    <string name="filesystem_info_dialog_total_disk_usage">"ທັງໝົດ:"</string>
+    <!-- Filesystem Info Dialog - Used Disk Usage -->
+    <string name="filesystem_info_dialog_used_disk_usage">"ໃຊ້ແລ້ວ:"</string>
+    <!-- Filesystem Info Dialog - Free Disk Usage -->
+    <string name="filesystem_info_dialog_free_disk_usage">"ຟຣີ:"</string>
+    <!-- Fso Properties - Not allowed message -->
+    <string name="fso_properties_permissions_not_allowed_msg">"ບໍ່ອະນຸຍາດການດຳເນີນການອະນຸຍາດໃນໂໝດຄວາມປອດໄພ. ແຕະເພື່ອປ່ຽນແປງໂໝດການເຂົ້າເຖິງຕົ້ນຕໍ."</string>
+    <!-- Fso Properties - Failed to change owner to fso -->
+    <string name="fso_properties_failed_to_change_owner_msg">"ການປ່ຽນແປງການດຳເນີນການເຈົ້າຂອງບໍ່ສຳເລັດ.\n\nສຳລັບເຫດຜົນຂອງຄວາມປອດໄພ, ລະບົບໄຟລ໌ບາງອັນ, ເຊັ່ນວ່າ ແຜ່ນ SD, ບໍ່ໄດ້ຮັບອະນຸຍາດການປ່ຽນແປງຄວາມເປັນເຈົ້າຂອງ."</string>
+    <!-- Fso Properties - Failed to change group to fso -->
+    <string name="fso_properties_failed_to_change_group_msg">"ການປ່ຽນແປງການດຳເນີນການກຸ່ມບໍ່ສຳເລັດ.\n\nສຳລັບເຫດຜົນຂອງຄວາມປອດໄພ, ລະບົບໄຟລ໌ບາງອັນ, ເຊັ່ນວ່າ ແຜ່ນ SD, ບໍ່ໄດ້ຮັບອະນຸຍາດການປ່ຽນແປງກຸ່ມ."</string>
+    <!-- Fso Properties - Failed to change group to fso -->
+    <string name="fso_properties_failed_to_change_permission_msg">"ການປ່ຽນແປງການດຳເນີນການອະນຸຍາດບໍ່ສຳເລັດ.\n\nສຳລັບເຫດຜົນຂອງຄວາມປອດໄພ, ລະບົບໄຟລ໌ບາງອັນ, ເຊັ່ນວ່າ ແຜ່ນ SD, ບໍ່ໄດ້ຮັບອະນຸຍາດການອະນຸຍາດ."</string>
+    <!-- Fso Properties Dialog - Title -->
+    <string name="fso_properties_dialog_title">"ຄຸນລັກສະນະ"</string>
+    <!-- Fso Properties Dialog - Tab - Info -->
+    <string name="fso_properties_dialog_tab_info">"ຂໍ້ມູນ"</string>
+    <!-- Fso Properties Dialog - Tab - Permissions -->
+    <string name="fso_properties_dialog_tab_permissions">"ການອະນຸຍາດ"</string>
+    <!-- Fso Properties Dialog - Name Label -->
+    <string name="fso_properties_dialog_name">"ຊື່:"</string>
+    <!-- Fso Properties Dialog - Parent Folder Label -->
+    <string name="fso_properties_dialog_parent">"ພໍ່ແມ່:"</string>
+    <!-- Fso Properties Dialog - Type Label -->
+    <string name="fso_properties_dialog_type">"ປະເພດ:"</string>
+    <!-- Fso Properties Dialog - Category Label -->
+    <string name="fso_properties_dialog_category">"ໝວດ:"</string>
+    <!-- Fso Properties Dialog - Link Label -->
+    <string name="fso_properties_dialog_link">"ລິ້ງ:"</string>
+    <!-- Fso Properties Dialog - Size Label -->
+    <string name="fso_properties_dialog_size">"ຂະໜາດ:"</string>
+    <!-- Fso Properties Dialog - Contains Label -->
+    <string name="fso_properties_dialog_contains">"ປະກອບມີ:"</string>
+    <!-- Fso Properties Dialog - Last Accessed Time Label -->
+    <string name="fso_properties_dialog_last_accessed_date">"ເຂົ້າເຖິງແລ້ວ:"</string>
+    <!-- Fso Properties Dialog - Last Modified Time Label -->
+    <string name="fso_properties_dialog_last_modified_date">"ປັບປຸງແລ້ວ:"</string>
+    <!-- Fso Properties Dialog - Last Changed Time -->
+    <string name="fso_properties_dialog_last_changed_date">"ປ່ຽນແປງແລ້ວ:"</string>
+    <!-- Fso Properties Dialog - Owner Label -->
+    <string name="fso_properties_dialog_owner">"ທ່ານຂອງ:"</string>
+    <!-- Fso Properties Dialog - Group Label -->
+    <string name="fso_properties_dialog_group">"ກຸ່ມ:"</string>
+    <!-- Fso Properties Dialog - Others Label -->
+    <string name="fso_properties_dialog_others">"ອື່ນໆ:"</string>
+    <!-- Fso Properties Dialog - Skip media scan -->
+    <string name="fso_properties_dialog_include_in_media_scan">"ຂ້າມສະແກນຊື່:"</string>
+    <string name="fso_failed_to_allow_media_scan">"ບໍ່ສຳເລັດໃນການອະນຸຍາດການສະແກນສື່"</string>
+    <string name="fso_failed_to_prevent_media_scan">"ບໍ່ສຳເລັດໃນການປ້ອງກັນການສະແກນສື່"</string>
+    <string name="fso_delete_nomedia_dir_title">"ລຶບໄດເຣັດໂທຣີ .nomedia"</string>
+    <string name="fso_delete_nomedia_dir_body">"ໄດເຣັດໂທຣີນີ້ບັນຈຸໄດເຣັດໂທຣີ .nomedia.\n\nທ່ານຢາກລຶບມັນ ແລະເນື້ອຫາທັງໝົດຂອງມັນບໍ?"</string>
+    <string name="fso_delete_nomedia_non_empty_title">"ລຶບໄຟລ໌ .nomedia"</string>
+    <string name="fso_delete_nomedia_non_empty_body">"ໄດເຣັດໂທຣີນີ້ບັນຈຸໄຟລ໌ .nomedia ທີ່ບໍ່ວ່າງເປົ່າ.\n\nທ່ານຢາກລຶບມັນບໍ?"</string>
+    <!-- History - History activity title -->
+    <string name="history">"ປະຫວັດ"</string>
+    <!-- History - The history is empty -->
+    <string name="msgs_history_empty">"ປະຫວັດວ່າງເປົ່າ."</string>
+    <!-- History - The history reference is not in the actual history list -->
+    <string name="msgs_history_unknown">"ລາຍການປະຫວັດທີ່ບໍ່ຮູ້ຈັກ."</string>
+    <!-- Search - Search activity title -->
+    <string name="search">"ຜົນການຄົ້ນຫາ"</string>
+    <!-- Search - Search hint message -->
+    <string name="search_hint">"ພິມການຄົ້ນຫາຂອງທ່ານ"</string>
+    <!-- Search - Voice search hint message -->
+    <string name="search_voice_hint">"ເວົ້າການຄົ້ນຫາການຄົ້ນຫາ"</string>
+    <!-- Search - Search error message -->
+    <string name="search_error_msg">"ເກີດຄວາມຜິດພາດຂຶ້ນໃນຂະນະທີ່ກໍາລັງຄົ້ນຫາ. ບໍ່ພົບຜົນການຄົ້ນຫາ."</string>
+    <!-- Search - Search no results message -->
+    <string name="search_no_results_msg">"ບໍ່ພົບຜົນການຄົ້ນຫາ."</string>
+    <!-- Search - Number of items found in directory -->
+    <string name="search_found_items_in_directory">"<xliff:g id="items">%1$s</xliff:g> ໃນ <xliff:g id="path">%2$s</xliff:g>"</string>
+    <!-- Search - Search query terms -->
+    <string name="search_terms">"&lt;b&gt;ຂໍ້ກຳນົດ:&lt;/b&gt; <xliff:g id="terms">%1$s</xliff:g>"</string>
+    <!-- Search - Confirm search -->
+    <string name="search_few_characters_title">"ຢືນຢັນການຄົ້ນຫາ"</string>
+    <!-- Search - Some terms of the search are too small. The operation could be very costly -->
+    <string name="search_few_characters_msg">"ເງື່ອນໄຂໃນການຄົ້ນຫາບາອັນມີຈຳນວນຂອງຕົວອັກສອນທີ່ໜ້ອຍ. ການດຳເນີນການອາດມີລາຄາທີ່ແພງຫຼາຍໃນເວລາ ແລະຊັບພະຍາກອນຂອງລະ.\n\nທ່ານຢາກສືບຕໍ່ບໍ?"</string>
+    <!-- Search - Searching dialog title -->
+    <string name="searching">"ກະລຸນາລໍຖ້າ\u2026"</string>
+    <!-- Search - Searching label -->
+    <string name="searching_action_label">"ຄວາມຄືບໜ້າໃນການຄົ້ນຫາ"</string>
+    <!-- Picker Activity - Dialog title -->
+    <string name="picker_title">"ເລືອກເອົາໄຟລ໌"</string>
+    <string name="directory_picker_title">"ເລືອກເອົາໄດເຣັກທໍຣີ"</string>
+    <!-- Editor - Editor activity title -->
+    <string name="editor">"ຕົວກວດ​ແກ້"</string>
+    <!-- Editor - Invalid file message -->
+    <string name="editor_invalid_file_msg">"ໄຟລ໌ບໍ່ຖືກຕ້ອງ."</string>
+    <!-- Editor - File not found message -->
+    <string name="editor_file_not_found_msg">"ບໍ່ພົບ​ໄຟ​ລ໌."</string>
+    <!-- Editor - File size exceed the limit -->
+    <string name="editor_file_exceed_size_msg">"ໄຟລ໌ມີຂະໜາດໃຫຍ່ໂພດໃນການເປີດພາຍໃນອຸປະກອນນີ້."</string>
+    <!-- Editor - Editor is dirty, ask the user - Dialog title -->
+    <string name="editor_dirty_ask_title">"ຢືນຢັນການອອກ"</string>
+    <!-- Editor - Editor is dirty, ask the user - Dialog message -->
+    <string name="editor_dirty_ask_msg">"ມີການປ່ຽນແປງທີ່ບໍ່ໄດ້ຮັບການບັນທຶກ.\n\nທຳການອອກໂດຍບໍ່ບັນທຶກບໍ?"</string>
+    <!-- Editor - Save operation success -->
+    <string name="editor_successfully_saved">"ໄຟລ໌ໄດ້ຮັບການບັນທຶກຮຽບຮ້ອຍແລ້ວ."</string>
+    <!-- Editor - Read-only file mode -->
+    <string name="editor_read_only_mode">"ໄຟລ໌ໄດ້ຮັບການເປີດຢູ່ໃນໂໝດການອ່ານພຽງຢ່າງດຽວ."</string>
+    <!-- Editor - Dumping message -->
+    <string name="dumping_message">"ການສ້າງການຖ່າຍໂອນຂໍ້ມູນເລກຖານສິບຫົກ\u2026"</string>
+    <!-- Editor - Displaying -->
+    <string name="displaying_message">"ກຳລັງສະແດງ\u2026"</string>
+    <!-- Bookmarks - Bookmarks activity title -->
+    <string name="bookmarks">"ບູກມາກສ໌"</string>
+    <!-- Bookmarks - Bookmark name - Home -->
+    <string name="bookmarks_home">"ເຮືອນ"</string>
+    <!-- Bookmarks - Bookmark name - Root folder -->
+    <string name="bookmarks_root_folder">"ໂຟລເດີຕົ້ນຕໍ"</string>
+    <!-- Bookmarks - Bookmark name - System folder -->
+    <string name="bookmarks_system_folder">"ໂຟລເດີລະບົບ"</string>
+    <!-- Bookmarks - Bookmark name - Secure storage -->
+    <string name="bookmarks_secure">"ບ່ອນເກັບຂໍ້ມູນທີ່ມີຄວາມປອດໄພ"</string>
+    <!-- Bookmarks - Bookmark name - Remote storage -->
+    <string name="bookmarks_remote">"ບ່ອນເກັບຂໍ້ມູນໄລຍະໄກ"</string>
+    <!-- Bookmarks - Bookmark name - Button - Initial directory content description -->
+    <string name="bookmarks_button_config_cd">"ຕັ້ງຄ່າໂຟລເດີເລີ່ມຕົ້ນ."</string>
+    <!-- Bookmarks - Bookmark name - Button - Remove bookmark content description -->
+    <string name="bookmarks_button_remove_bookmark_cd">"ເອົາບຸກມາກອອກ."</string>
+    <!-- Bookmarks - Bookmarks - Actions - Bookmark successfully added -->
+    <string name="bookmarks_msgs_add_success">"ບຸກມາກໄດ້ຮັບການເພີ່ມເຂົ້າໄປຮຽບຮ້ອຍແລ້ວ."</string>
+    <!-- Bookmarks - Bookmarks - Actions - Bookmark already exists -->
+    <string name="bookmarks_msgs_add_exists">"ມີບຸກມາກນີ້ຢູ່ກ່ອນແລ້ວ."</string>
+    <!-- Initial directory dialog title -->
+    <string name="initial_directory_dialog_title">"ໂຟລເດີເລີ່ມຕົ້ນ"</string>
+    <!-- Initial directory label -->
+    <string name="initial_directory_label">"ເລືອກໂຟລເດີເລີ່ມຕົ້ນ:"</string>
+    <!-- Initial directory is relative -->
+    <string name="initial_directory_relative_msg">"ເສັ້ນທາງທີ່ກ່ຽວຂ້ອງບໍ່ໄດ້ຮັບອະນຸຍາດ."</string>
+    <!-- Initial directory error message -->
+    <string name="initial_directory_error_msg">"ເກີດຄວາມຜິດພາດຂຶ້ນໃນຂະນະທີ່ກໍາລັງບັນທຶກໂຟລເດີເລີ່ມຕົ້ນ."</string>
+    <!-- Menu - Navigation - Search -->
+    <string name="menu_search">"ຄົ້ນຫາ"</string>
+    <!-- Menu - Navigation - Settings -->
+    <string name="menu_settings">"ການຕັ້ງຄ່າ"</string>
+    <!-- Menu - History - Clear history -->
+    <string name="menu_clear_history">"ລຶບລ້າງປະຫວັດ"</string>
+    <!-- Menu - Editor - No suggestions -->
+    <string name="menu_no_suggestions">"ບໍ່ມີການແນະນໍາ"</string>
+    <!-- Menu - Editor - Word wrap -->
+    <string name="menu_word_wrap">"ຕັດຄຳ"</string>
+    <!-- Menu - Editor - Sintax highlight -->
+    <string name="menu_syntax_highlight">"ການເນັ້ນຫຼັກໄວຍະກອນ"</string>
+    <!-- Regular expression for create copy action -->
+    <string name="create_copy_regexp">"<xliff:g id="name">%1$s</xliff:g> - ອັດສໍາເນົາ<xliff:g id="extension">%2$s</xliff:g>"</string>
+    <!-- Regular expression for new compressed file -->
+    <string name="create_new_compress_file_regexp">"<xliff:g id="name">%1$s</xliff:g> - ໃໝ່<xliff:g id="extension">%2$s</xliff:g>"</string>
+    <!-- Waiting dialog - Performing operation message -->
+    <string name="waiting_dialog_msg">"ກຳລັງປະຕິບັດການດຳເນີນການ\u2026"</string>
+    <!-- Waiting dialog - Copying title -->
+    <string name="waiting_dialog_copying_title">"ກຳລັງອັດສໍາເນົາ\u2026"</string>
+    <!-- Waiting dialog - Copying message -->
+    <string name="waiting_dialog_copying_msg">"&lt;b&gt;ຈາກ&lt;/b&gt; <xliff:g id="from">%1$s</xliff:g>&lt;br/&gt;&lt;b&gt;ຫາ&lt;/b&gt; <xliff:g id="to">%2$s</xliff:g>"</string>
+    <!-- Waiting dialog - Moving title -->
+    <string name="waiting_dialog_moving_title">"ກຳລັງເຄື່ອນຍ້າຍ\u2026"</string>
+    <!-- Waiting dialog - Moving message -->
+    <string name="waiting_dialog_moving_msg">"&lt;b&gt;ຈາກ&lt;/b&gt; <xliff:g id="from">%1$s</xliff:g>&lt;br/&gt;&lt;b&gt;ຫາ&lt;/b&gt; <xliff:g id="to">%2$s</xliff:g>"</string>
+    <!-- Waiting dialog - Deleting title -->
+    <string name="waiting_dialog_deleting_title">"ກຳລັງລຶບ\u2026"</string>
+    <!-- Waiting dialog - Deleting message -->
+    <string name="waiting_dialog_deleting_msg">"&lt;b&gt;ໄຟລ໌&lt;/b&gt; <xliff:g id="file">%1$s</xliff:g>"</string>
+    <!-- Waiting dialog - Extracting title -->
+    <string name="waiting_dialog_extracting_title">"ກຳລັງແຕກ\u2026"</string>
+    <!-- Waiting dialog - Extracting message -->
+    <string name="waiting_dialog_extracting_msg">"&lt;b&gt;ໄຟລ໌&lt;/b&gt; <xliff:g id="file">%1$s</xliff:g>"</string>
+    <!-- Waiting dialog - Extracting title -->
+    <string name="waiting_dialog_compressing_title">"ກຳລັງບີບອັດ\u2026"</string>
+    <!-- Waiting dialog - Extracting message -->
+    <string name="waiting_dialog_compressing_msg">"&lt;b&gt;ໄຟລ໌&lt;/b&gt; <xliff:g id="file">%1$s</xliff:g>"</string>
+    <!-- Waiting dialog - Initializing the dialog -->
+    <string name="waiting_dialog_analizing_msg"><![CDATA[<b>ກຳລັງວິເຄາະ\u2026</b>]]></string>
+    <!-- Extracting - Success message -->
+    <string name="msgs_extracting_success">"ການສະກັດການດຳເນີນການສຳເລັດຮຽບຮ້ອຍແລ້ວ. ຂໍ້ມູນໄດ້ຮັບການແຍກອອກໄປທີ່ <xliff:g id="destination">%1$s</xliff:g>."</string>
+    <!-- Compressing - Success message -->
+    <string name="msgs_compressing_success">"ການບີບອັດການດຳເນີນການສຳເລັດຮຽບຮ້ອຍແລ້ວ. ຂໍ້ມູນໄດ້ຮັບການບີບອັດໄປທີ່ <xliff:g id="destination">%1$s</xliff:g>."</string>
+    <!-- Actions Dialog - Title -->
+    <string name="actions_dialog_title">"ການດໍາເນີນການ"</string>
+    <!-- Actions Dialog - Menu - Properties of current folder -->
+    <string name="actions_menu_properties_current_folder">"ຄຸນລັກສະນະ"</string>
+    <!-- Actions Dialog - Menu - Refresh -->
+    <string name="actions_menu_refresh">"ຣີ​ເຟຣັຊ"</string>
+    <!-- Actions Dialog - Menu - New directory -->
+    <string name="actions_menu_new_directory">"ໂຟລເດີໃໝ່"</string>
+    <!-- Actions Dialog - Menu - New file -->
+    <string name="actions_menu_new_file">"ໄຟລ໌ໃໝ່"</string>
+    <!-- Actions Dialog - Menu - Select all -->
+    <string name="actions_menu_select_all">"ເລືອກທັງໝົດ"</string>
+    <!-- Actions Dialog - Menu - Deselect all -->
+    <string name="actions_menu_deselect_all">"ຖອນການເລືອກທັງໝົດ"</string>
+    <!-- Actions Dialog - Menu - Select -->
+    <string name="actions_menu_select">"ເລືອກ"</string>
+    <!-- Actions Dialog - Menu - Deselect -->
+    <string name="actions_menu_deselect">"ຖອນການເລືອກ"</string>
+    <!-- Actions Dialog - Menu - Copy/Paste selection -->
+    <string name="actions_menu_paste_selection">"ອັດສໍາເນົາການເລືອກບ່ອນນີ້"</string>
+    <!-- Actions Dialog - Menu - Move selection -->
+    <string name="actions_menu_move_selection">"ຍ້າຍການເລືອກມາບ່ອນນີ້"</string>
+    <!-- Actions Dialog - Menu - Delete selection -->
+    <string name="actions_menu_delete_selection">"ລຶບການເລືອກ"</string>
+    <!-- Actions Dialog - Menu - Compress selection -->
+    <string name="actions_menu_compress_selection">"ບີບອັດການເລືອກ"</string>
+    <!-- Actions Dialog - Menu - Create link -->
+    <string name="actions_menu_create_link">"ສ້າງຕົວເຊື່ອມຕໍ່"</string>
+    <!-- Actions Dialog - Menu - Open -->
+    <string name="actions_menu_open">"ເປີດ"</string>
+    <!-- Actions Dialog - Menu - Open with -->
+    <string name="actions_menu_open_with">"ເປີດດ້ວຍ"</string>
+    <!-- Actions Dialog - Menu - Execute -->
+    <string name="actions_menu_execute">"ປະຕິ​ບັດ"</string>
+    <!-- Actions Dialog - Menu - Send -->
+    <string name="actions_menu_send">"ສົ່ງ"</string>
+    <!-- Actions Dialog - Menu - Send selection -->
+    <string name="actions_menu_send_selection">"ສົ່ງການເລືອກ"</string>
+    <!-- Actions Dialog - Menu - Compress -->
+    <string name="actions_menu_compress">"ບີບອັດ"</string>
+    <!-- Actions Dialog - Menu - Extract -->
+    <string name="actions_menu_extract">"ດຶງອອກມາ"</string>
+    <!-- Actions Dialog - Menu - Delete -->
+    <string name="actions_menu_delete">"ລຶບ"</string>
+    <!-- Actions Dialog - Menu - Rename -->
+    <string name="actions_menu_rename">"ປ່ຽນຊື່​ໃໝ່"</string>
+    <!-- Actions Dialog - Menu - Create copy -->
+    <string name="actions_menu_create_copy">"ສ້າງອັດສໍາເນົາ"</string>
+    <!-- Actions Dialog - Menu - Properties -->
+    <string name="actions_menu_properties">"ຄຸນລັກສະນະ"</string>
+    <!-- Actions Dialog - Menu - Add to bookmarks -->
+    <string name="actions_menu_add_to_bookmarks">"ເພີ່ມໄປທີ່ບຸກມາກສ໌"</string>
+    <!-- Actions Dialog - Menu - Add shortcut -->
+    <string name="actions_menu_add_shortcut">"ເພີ່ມທາງລັດ"</string>
+    <!-- Actions Dialog - Menu - Open parent folder -->
+    <string name="actions_menu_open_parent_folder">"ເປີດອັນຫຼັກ"</string>
+    <!-- Actions Dialog - Menu - Compute checksum -->
+    <string name="actions_menu_compute_checksum">"ຄຳນວນການກວດສອບຜົນລວມ"</string>
+    <!-- Actions Dialog - Menu - Print -->
+    <string name="actions_menu_print">"ພິມ"</string>
+    <!-- Actions Dialog - Menu - Set as home -->
+    <string name="actions_menu_set_as_home">"ຕັ້ງຄ່າເປັນໜ້າຫຼັກ"</string>
+    <!-- Actions - Ask user prior to do an undone operation. Dialog message -->
+    <string name="actions_ask_undone_operation_msg">"ການປະຕິບັດນີ້ບໍ່ສາມາດຍົກເລີກໄດ້. ທ່ານຢາກສືບຕໍ່ບໍ?"</string>
+    <!-- Enter Name Dialog - Label -->
+    <string name="input_name_dialog_label">"ຊື່:"</string>
+    <!-- Enter Name Dialog - Message - Empty name -->
+    <string name="input_name_dialog_message_empty_name">"ຊື່ບໍ່ສາມາດປ່ອຍໃຫ້ວ່າງເປົ່າໄດ້."</string>
+    <!-- Enter Name Dialog - Message - Invalid name -->
+    <string name="input_name_dialog_message_invalid_path_name">"ຊື່ບໍ່ຖືກຕ້ອງ. ຕົວອັກສອນ \'<xliff:g id="invalid_characters">%1$s</xliff:g>\' ບໍ່ໄດ້ຮັບການອະນຸຍາດ."</string>
+    <!-- Enter Name Dialog - Message - Invalid name length -->
+    <string name="input_name_dialog_message_invalid_name_length">"ຮອດຂີດຈໍາກັດຕົວອັກຂະລະສູງສຸດແລ້ວ."</string>
+    <!-- Enter Name Dialog - Message - Invalid name -->
+    <string name="input_name_dialog_message_invalid_name">"ຊື່ບໍ່ຖືກຕ້ອງ. ບັນດາຊື່ຕ່າງໆ \'.\' ແລະ \'..\' ແມ່ນບໍ່ໄດ້ຮັບການອະນຸຍາດ."</string>
+    <!-- Enter Name Dialog - Message - Name exists -->
+    <string name="input_name_dialog_message_name_exists">"ຊື່ມີຢູ່ແລ້ວ."</string>
+    <!-- Associations Dialog - Title -->
+    <string name="associations_dialog_title">"ສະມາຄົມ"</string>
+    <!-- Associations Dialog - Remember the user action -->
+    <string name="associations_dialog_remember">"ຈື່ການເລືອກໄວ້"</string>
+    <!-- Associations Dialog - Open with Title -->
+    <string name="associations_dialog_openwith_title">"ເປີດດ້ວຍ"</string>
+    <!-- Associations Dialog - Open action (button title) -->
+    <string name="associations_dialog_openwith_action">"ເປີດ"</string>
+    <!-- Associations Dialog - Send with Title -->
+    <string name="associations_dialog_sendwith_title">"ສົ່ງດ້ວຍ"</string>
+    <!-- Associations Dialog - Send action (button title) -->
+    <string name="associations_dialog_sendwith_action">"ສົ່ງ"</string>
+    <!-- Inline Autocomplete Widget - Tab message nothing to complete -->
+    <string name="inline_autocomplete_tab_nothing_to_complete_msg">"ບໍ່ມີອັນຈະເຮັດສຳເລັດ."</string>
+    <!-- Execution console - Title -->
+    <string name="execution_console_title">"ຄອນໂຊລ"</string>
+    <!-- Execution console - The script name label -->
+    <string name="execution_console_script_name_label">"ສຄຣິບ:"</string>
+    <!-- Execution console - The script execution time label -->
+    <string name="execution_console_script_execution_time_label">"ເວລາ:"</string>
+    <!-- Execution console - The script exit code label -->
+    <string name="execution_console_script_exitcode_label">"ອອກຈາກລະຫັດ:"</string>
+    <!-- Execution console - The script execution time seconds string -->
+    <string name="execution_console_script_execution_time_text">"<xliff:g id="seconds">%1$s</xliff:g> ວິນາທີ."</string>
+    <!-- Compute checksum - Title -->
+    <string name="compute_checksum_title">"ຄຳນວນການກວດສອບຜົນລວມ"</string>
+    <!-- Compute checksum - The file name label -->
+    <string name="compute_checksum_filename_label">"ໄຟລ໌:"</string>
+    <!-- Compute checksum - The computing checksum message-->
+    <string name="compute_checksum_computing_checksum_msg">"ການຄຳນວນການກວດສອບຜົນລວມ\u2026"</string>
+    <!-- Mime/Types - Folder -->
+    <string name="mime_folder">"​ໂຟລ​ເດີ"</string>
+    <!-- Mime/Types - Symlink -->
+    <string name="mime_symlink">"Symlink"</string>
+    <!-- Mime/Types - Unknown -->
+    <string name="mime_unknown">"ບໍ່ຮູ້ຈັກ"</string>
+    <!--  Filetime formats -->
+    <string name="filetime_format_mode_system">"ລະບົບ-ທີ່ກໍານົດໄວ້"</string>
+    <string name="filetime_format_mode_locale">"ຕໍາແໜ່ງທີ່ຕັ້ງ-ທີ່ກໍານົດໄວ້"</string>
+    <string name="filetime_format_mode_ddMMyyyy_HHmmss">"ວວ/ດດ/ປປປປ ຊມ:ນທ:ວວ"</string>
+    <string name="filetime_format_mode_MMddyyyy_HHmmss">"ດດ/ວວ/ປປປປ ຊມ:ນທ:ວວ"</string>
+    <string name="filetime_format_mode_yyyyMMdd_HHmmss">"ປປປປ-ດດ-ວວ ຊຊ:ນນ:ວວ"</string>
+    <!-- Selection -->
+    <!-- For example "2 folders and 1 file selected." -->
+    <string name="selection_folders_and_files">"<xliff:g id="folders">%1$s</xliff:g> ແລະ <xliff:g id="files">%2$s</xliff:g> ທີ່ເລືອກ."</string>
+    <!-- Category descriptions -->
+    <string name="category_system">"ລະບົບ"</string>
+    <string name="category_app">"ແອັບ"</string>
+    <string name="category_binary">"ເລກຖານສອງ"</string>
+    <string name="category_text">"ຂໍ້ຄວາມ"</string>
+    <string name="category_document">"ເອກະສານ"</string>
+    <string name="category_ebook">"ອີບຸກ"</string>
+    <string name="category_mail">"​ຈົດໝາຍ"</string>
+    <string name="category_compress">"ບີບອັດ"</string>
+    <string name="category_exec">"ສາມາດປະຕິບັດງານໄດ້"</string>
+    <string name="category_database">"ຖານຂໍ້ມູນ"</string>
+    <string name="category_font">"ຮູບແບບຕົວໜັງສື"</string>
+    <string name="category_image">"ຮູບພາບ"</string>
+    <string name="category_audio">"ສຽງ"</string>
+    <string name="category_video">"ວິດີໂອ"</string>
+    <string name="category_security">"ຄວາ​ມປອດ​ໄພ"</string>
+    <string name="category_drm">"DRM"</string>
+    <string name="category_all">"ທັງໝົດ"</string>
+    <!-- Compression - Compression modes dialog title -->
+    <string name="compression_mode_title">"ໂໝດການບີບອັດ"</string>
+    <!-- Shortcut. Failed to handle the shortcut -->
+    <string name="shortcut_failed_msg">"ບໍ່ປະສົບຜົນສໍາເລັດໃນການຈັດການທາງລັດ."</string>
+    <!-- Shortcut. The shortcut was created -->
+    <string name="shortcut_creation_success_msg">"ໄດ້ສ້າງທາງລັດຮຽບຮ້ອຍແລ້ວ."</string>
+    <!-- Shortcut. The shortcut wasn't created -->
+    <string name="shortcut_creation_failed_msg">"ການສ້າງທາງລັດບໍ່ສໍາເລັດ."</string>
+    <!-- Preferences title -->
+    <string name="pref">"ການຕັ້ງຄ່າ"</string>
+    <!-- Preferences - General title -->
+    <string name="pref_general">"ຕັ້ງຄ່າທົ່ວໄປ"</string>
+    <!-- Preferences - Search title -->
+    <string name="pref_search">"ທາງເລືອກການຄົ້ນຫາ"</string>
+    <!-- Preferences - Editor title -->
+    <string name="pref_editor">"ທາງເລືອກການແກ້ໄຂ"</string>
+    <!-- Preferences - Themes title -->
+    <string name="pref_themes">"ຊຸດຮູບແບບ"</string>
+    <!-- Preferences - About title -->
+    <string name="pref_about">"ກ່ຽວກັບ"</string>
+    <!-- Preferences - About summary -->
+    <string name="pref_about_summary">"ຕົວຈັດການໄຟລ໌ v<xliff:g id="version">%1$s</xliff:g>\nສະຫງວນລິຂະສິດ \u00A9 2012–2014 ໂຄງການ CyanogenMod"</string>
+    <!-- Preferences - General - Behaviour category -->
+    <string name="pref_general_behaviour_category">"ທົ່ວໄປ"</string>
+    <!-- Preferences - General - Case sensitive sort and navigating title -->
+    <string name="pref_case_sensitive_sort">"ກໍລະນີ-ທີ່ລະອຽດອ່ອນ"</string>
+    <!-- Preferences - General - Case sensitive sort and navigating summary -->
+    <string name="pref_case_sensitive_sort_summary">"ພິຈາລະນາກໍລະນີ ເມື່ອມີການນໍາທາງ ຫຼືການຮຽງລໍາດັບຜົນການຄົ້ນຫາ"</string>
+    <!-- Preferences - General - Filetime format mode title -->
+    <string name="pref_filetime_format_mode">"ຮູບແບບ ວັນ/ເວລາ"</string>
+    <!-- Preferences - General -Disk usage warning level title -->
+    <string name="pref_disk_usage_warning_level">"ການເຕືອນການນຳໃຊ້ແຜ່ນດິສ"</string>
+    <!-- Preferences - General - Disk usage warning level summary -->
+    <!-- FIXME Use "percent" instead of "%" symbol, because it make crash the app on getSummary
+         of ListPreference. This should be fixed in frameworks base prior to be added here. -->
+    <string name="pref_disk_usage_warning_level_summary" formatted="false">"ສະແດງສີທີ່ແຕກຕ່າງກັນໃນເຄື່ອງມືການນໍາໃຊ້ແຜ່ນດິສ ເມື່ອພວກມັນມາເຖິງ <xliff:g id="level">%1$s</xliff:g> ເປີເຊັນຂອງພື້ນທີ່ວ່າງໃນແຜ່ນດິສ"</string>
+    <!-- Preferences - General - Compute folder statistics title -->
+    <string name="pref_compute_folder_statistics">"ຄຳນວນສະຖິຕິຂອງໂຟລເດີ"</string>
+    <!-- Preferences - General - Compute folder statistics summary on -->
+    <string name="pref_compute_folder_statistics_on">"ຄຳເຕືອນ! ການຄຳນວນຂອງສະຖິຕິໂຟລເດີເປັນຄ່າໃຊ້ຈ່າຍຕາມເວລາ ແລະຊັບພະຍາກອນຂອງລະບົບ"</string>
+    <!-- Preferences - General - Display thumbs -->
+    <string name="pref_display_thumbs">"ກວດເບິ່ງກ່ອນ"</string>
+    <!-- Preferences - General - Display thumbs summary -->
+    <string name="pref_display_thumbs_summary">"ສະແດງຮູບພາບຕົວຢ່າງສໍາລັບແອັບ, ໄຟລ໌ເພງ, ຮູບພາບ ແລະວິດີໂອຕ່າງໆ"</string>
+    <!-- Preferences - General - Use flinger detection -->
+    <string name="pref_use_flinger">"ນໍາໃຊ້ທ່າທາງການຮູດ"</string>
+    <!-- Preferences - General - Use flinger detection summary -->
+    <string name="pref_use_flinger_summary">"ຮູດຈາກຊ້າຍໄປຫາການກວດຈັບທ່າທາງດ້ານຂວາມືເພື່ອທຳການລຶບໄຟລ໌ ຫຼືໂຟລເດີຕ່າງໆ"</string>
+    <!-- Preferences - General - Advanced settings category -->
+    <string name="pref_general_advanced_settings_category">"ຂັ້ນສູງ"</string>
+    <!-- Preferences - General - Access mode -->
+    <string name="pref_access_mode">"ໂໝດການເຂົ້າເຖິງ"</string>
+    <!-- Preferences - General - Safe mode -->
+    <string name="pref_access_mode_safe">"ໂໝດຄວາມປອດໄພ"</string>
+    <!-- Preferences - General - Safe mode summary -->
+    <string name="pref_access_mode_safe_summary">"ໂໝດຄວາມປອດໄພ\n\nແອັບກຳລັງເຮັດວຽກໂດຍບໍ່ມີສິດທິພິເສດ ແລະສາມາດເຂົ້າເຖິງໄດ້ສະເພາະລະບົບໄຟລ໌ທີ່ມີປະລິມານບ່ອນເກັບຂໍ້ມູນ (ແຜ່ນ SD ແລະ USB)"</string>
+    <!-- Preferences - General - Prompt user mode -->
+    <string name="pref_access_mode_prompt">"ໂໝດຜູ້ໃຊ້ງານທັນທີ"</string>
+    <!-- Preferences - General - Prompt user mode summary -->
+    <string name="pref_access_mode_prompt_summary">"ໂໝດຜູ້ໃຊ້ງານທັນທີ\n\nແອັບກຳລັງເຮັດວຽກຮ່ວມກັບການເຂົ້າເຖິງຢ່າງເຕັມທີ່ຂອງລະບົບໄຟລ໌, ແຕ່ຈະກະຕຸ້ນເຕືອນເພື່ອທຳການຂໍອະນຸຍາດກ່ອນທີ່ຈະມີການດຳເນີນການກະທຳໃດໆທີ່ມີສິດທິພິເສດ"</string>
+    <!-- Preferences - General - Root access mode -->
+    <string name="pref_access_mode_root">"ໂໝດການເຂົ້າເຖິງຕົ້ນຕໍ"</string>
+    <!-- Preferences - General - Root access mode summary -->
+    <string name="pref_access_mode_root_summary">"ໂໝດການເຂົ້າເຖິງຕົ້ນຕໍ\n\nຄຳເຕືອນ! ໂໝດນີ້ຈະເຮັດໃຫ້ການດຳເນີນງານສາມາດສ້າງຄວາມເສຍຫາຍຕໍ່ອຸປະກອນຂອງທ່ານໄດ້. ມັນ\'ເປັນຄວາມຮັບຜິດຊອບຂອງທ່ານເພື່ອໃຫ້ແນ່ໃຈວ່າການດຳເນີນການມີຄວາມປອດໄພ"</string>
+    <!-- Preferences - General - Restrict secondary users access title -->
+    <string name="pref_restrict_secondary_users_access_title">"ຈໍາກັດການເຂົ້າເຖິງຂອງຜູ້ໃຊ້"</string>
+    <!-- Preferences - General - Restrict secondary users access summary -->
+    <string name="pref_restrict_secondary_users_access_summary">"ຈໍາກັດການເຂົ້າເຖິງລະບົບທັງໝົດໃຫ້ກັບຜູ້ໃຊ້ສຳຮອງ"</string>
+    <!-- Preferences - Search - Results category -->
+    <string name="pref_search_results_category">"ຜົນໄດ້ຮັບ"</string>
+    <!-- Preferences - Search - Show relevance widget -->
+    <string name="pref_show_relevance_widget">"ສະແດງເຄື່ອງມືທີ່ກ່ຽວຂ້ອງ"</string>
+    <!-- Preferences - Search - Highlight search terms -->
+    <string name="pref_highlight_terms">"ເນັ້ນຂໍ້ກຳນົດຂອງການຄົ້ນຫາ"</string>
+    <!-- Preferences - Search - Sort results mode -->
+    <string name="pref_sort_search_results_mode">"ໂໝດການຮຽງລຳດັບຂອງຜົນໄດ້ຮັບ"</string>
+    <!-- Preferences - Search - Sort results mode. None -->
+    <string name="pref_sort_search_results_mode_none">"ບໍ່ມີການຮຽງລຳດັບ"</string>
+    <!-- Preferences - Search - Sort results mode. None -->
+    <string name="pref_sort_search_results_mode_name">"ຕາມຊື່"</string>
+    <!-- Preferences - Search - Sort results mode. Relevance -->
+    <string name="pref_sort_search_results_mode_relevance">"ຕາມຄວາມກ່ຽວຂ້ອງ"</string>
+    <!-- Preferences - Search - Privacity category -->
+    <string name="pref_search_privacity_category">"ຄວາມເປັນສ່ວນຕົວ"</string>
+    <!-- Preferences - Search - Save search terms -->
+    <string name="pref_save_search_terms">"ບັນທຶກຄຳສັບໃນການຄົ້ນຫາ"</string>
+    <!-- Preferences - Search - Save search terms summary on -->
+    <string name="pref_save_search_terms_on">"ຄຳສັບໃນການຄົ້ນຫາຈະຖືກບັນທຶກ ແລະໃຊ້ເປັນຄໍາແນະນໍາໃນການຄົ້ນຫາໃນອະນາຄົດ"</string>
+    <!-- Preferences - Search - Save search terms summary off -->
+    <string name="pref_save_search_terms_off">"ຄຳສັບໃນການຄົ້ນຫາຈະບໍ່ຖືກບັນທຶກໄວ້"</string>
+    <!-- Preferences - Search - Remove saved search terms -->
+    <string name="pref_remove_saved_search_terms">"ລຶບຄຳສັບໃນການຄົ້ນຫາ"</string>
+    <!-- Preferences - Search - Remove saved search terms summary -->
+    <string name="pref_remove_saved_search_terms_summary">"ແຕະເພື່ອລຶບຄຳສັບໃນການຄົ້ນຫາທັງໝົດທີ່ບັນທຶກໄວ້"</string>
+    <!-- Preferences - Search - Suggestions were truncated -->
+    <string name="pref_remove_saved_search_terms_msg">"ຄຳສັບໃນການຄົ້ນຫາທັງໝົດຖືກລຶບແລ້ວ"</string>
+    <!-- Preferences - Storage - Secure Storage category -->
+    <string name="pref_secure_storage_category">"ບ່ອນເກັບຂໍ້ມູນທີ່ມີຄວາມປອດໄພ"</string>
+    <!-- Preferences - Storage - Secure Storage - Delayed sync title -->
+    <string name="pref_secure_storage_delayed_sync_title">"ການຊິງໂຄຣໄນຊັກຊ້າ"</string>
+    <!-- Preferences - Storage - Secure Storage - Delayed sync summary -->
+    <string name="pref_secure_storage_delayed_sync_summary">"ການຊິງໂຄຣໄນຂອງລະບົບໄຟລ໌ທີ່ມີຄວາມປອດໄພຄືການດຳເນີນການທີ່ມີຄ່າໃຊ້ຈ່າຍສູງ. ເປີດນໍາໃຊ້ທາງເລືອກນີ້ເພື່ອເຮັດໃຫ້ມີການຕອບສະໜອງທີ່ໄວຂຶ້ນ ຫຼັງຈາກທຸກໆການດໍາເນີນງານ, ເຊິ່ງປະຕິບັດການປະສານ ເມື່ອລະບົບໄຟລ໌ຢູ່ໃນສະພາບທີ່ບໍ່ໄດ້ໃຊ້ງານ, ແຕ່ຢູ່ໃນຄ່າໃຊ້ຈ່າຍຂອງການສູນເສຍຂໍ້ມູນທີ່ຍັງຄ້າງຢູ່ ເຊິ່ງບໍ່ໄດ້ຊິ້ງ ຖ້າວ່າເກີດບັນຫາກັບແອັບ."</string>
+    <!-- Preferences - Storage - Secure Storage - Reset password title -->
+    <string name="pref_secure_storage_reset_password_title">"ຕັ້ງລະຫັດຜ່ານໃໝ່"</string>
+    <!-- Preferences - Storage - Secure Storage - Delete storage title -->
+    <string name="pref_secure_storage_delete_storage_title">"ລຶບບ່ອນເກັບຂໍ້ມູນ"</string>
+    <!-- Preferences - Editor - Behaviour category -->
+    <string name="pref_editor_behaviour_category">"ພຶດຕິກໍາ"</string>
+    <!-- Preferences - Editor - No suggestions -->
+    <string name="pref_no_suggestions">"ບໍ່ມີການແນະນໍາ"</string>
+    <!-- Preferences - Editor - No suggestions summary -->
+    <string name="pref_no_suggestions_desc">"ບໍ່ຕ້ອງສະແດງຄໍາແນະນໍາຈາກພົດຈະນານຸກົມ ໃນຂະນະທີ່ທຳການແກ້ໄຂໄຟລ໌"</string>
+    <!-- Preferences - Editor - Word wrap -->
+    <string name="pref_word_wrap">"ຕັດຄຳ"</string>
+    <!-- Preferences - Editor - Hex dump -->
+    <string name="pref_hexdump">"ໄຟລ໌ເລກຖານສອງຂອງການຖ່າຍໂອນຂໍ້ມູນເລກຖານຫົກ"</string>
+    <!-- Preferences - Editor - Hex dump desc -->
+    <string name="pref_hexdump_desc">"ເວລາທີ່ເປີດໄຟລ໌ເລກຖານສອງຂຶ້ນມາ, ໃຫ້ສ້າງການຖ່າຍໂອນຂໍ້ມູນເລກຖານຫົກຂອງໄຟລ໌ ແລະເປີດມັນຢູ່ໃນການເບິ່ງແບບເລກຖານຫົກ"</string>
+    <!-- Preferences - Editor - Syntax highlight category -->
+    <string name="pref_editor_syntax_highlight_category">"ການເນັ້ນຫຼັກໄວຍະກອນ"</string>
+    <!-- Preferences - Editor - Syntax highlight -->
+    <string name="pref_syntax_highlight">"ການເນັ້ນຫຼັກໄວຍະກອນ"</string>
+    <!-- Preferences - Editor - Syntax highlight summary -->
+    <string name="pref_syntax_highlight_desc">"ເນັ້ນຫຼັກໄວຍະກອນຂອງໄຟລ໌ທີ່ສະແດງຢູ່ໃນໂປຣແກຣມແກ້ໄຂຂໍ້ມູນ (ສະເພາະເວລາທີ່ໜ່ວຍປະມວນຜົນການເນັ້ນຫຼັກໄວຍະກອນສາມາດໃຊ້ງານໄດ້ສໍາລັບປະເພດຂອງໄຟລ໌)"</string>
+    <!-- Preferences - Editor - Syntax highlight color scheme -->
+    <string name="pref_syntax_highlight_color_scheme">"ໂທນສີ"</string>
+    <!-- Preferences - Editor - Syntax highlight color scheme summary -->
+    <string name="pref_syntax_highlight_color_scheme_desc">"ເລືອກໂທນສີໃນການເນັ້ນຫຼັກໄວຍະກອນ"</string>
+    <!-- Preferences - Editor - Syntax highlight - Color Scheme -->
+    <string name="pref_syntax_sh_use_theme_default">"ນໍາໃຊ້ຄ່າເລີ່ມຕົ້ນຂອງຊຸດຮູບແບບ"</string>
+    <!-- Preferences - Editor - Syntax highlight -Color Scheme summary -->
+    <string name="pref_syntax_sh_use_theme_default_desc">"ນໍາໃຊ້ການເນັ້ນຫຼັກໄວຍະກອນຄ່າເລີ່ມຕົ້ນຂອງຊຸດຮູບແບບປັດຈຸບັນ"</string>
+    <!-- Preferences - Editor - Syntax highlight - Color Scheme - Items category -->
+    <string name="pref_editor_sh_item_category">"ລາຍການ"</string>
+    <!-- Preferences - Themes - Themes selection category -->
+    <string name="pref_themes_selection_category">"ຊຸດຮູບແບບ"</string>
+    <!-- Preferences - Themes - Set theme button -->
+    <string name="pref_themes_set_theme">"ຕັ້ງຊຸດຮູບແບບ"</string>
+    <!-- Preferences - Themes - Confirmation message -->
+    <string name="pref_themes_confirmation">"ຊຸດຮູບແບບໄດ້ຖືກນໍາໃຊ້ຮຽບຮ້ອຍແລ້ວ."</string>
+    <!-- Preferences - Themes - Theme not found message -->
+    <string name="pref_themes_not_found">"ບໍ່ພົບຊຸດຮູບແບບ."</string>
+    <!-- Preferences - Debug - Capture debug traces -->
+    <string name="pref_debug_traces">"ບັນທຶກຂໍ້ມູນການແກ້ໄຂຈຸດບົກພ່ອງ"</string>
+    <!-- Themes - Default theme name -->
+    <string name="theme_default_name">"ຊຸດຮູບແບບສະຫວ່າງ"</string>
+    <!-- Themes - Default theme description -->
+    <string name="theme_default_description">"ຊຸດຮູບແບບສະຫວ່າງສຳລັບຕົວຈັດການໄຟລ໌ CyanogenMod."</string>
+    <!-- Themes - Default theme author -->
+    <string name="themes_author">"CyanogenMod"</string>
+    <!-- Navigation drawer -->
+    <string name="drawer_open">"ເປີດແຖບເມນູເສີມດ້ານຂ້າງຂອງການນໍາທິດທາງ"</string>
+    <string name="drawer_close">"ປິດແຖບເມນູເສີມດ້ານຂ້າງຂອງການນໍາທິດທາງ"</string>
+    <!-- ColorPickerDialog -->
+    <!-- The text of the alpha slider control -->
+    <string name="color_picker_alpha_slider_text">"ອາລຟາ"</string>
+    <!-- The label of the current color panel -->
+    <string name="color_picker_current_text">"ປະຈຸບັນ:"</string>
+    <!-- The label of the new color panel -->
+    <string name="color_picker_new_text">"ໃໝ່:"</string>
+    <!-- The label of the color input -->
+    <string name="color_picker_color">"ສີ:"</string>
+    <!-- Android Syntax Highlight -->
+    <string name="ash_reset_color_scheme">"ຄືນຄ່າເລີ່ມຕົ້ນໂທນສີຂອງຊຸດຮູບແບບ"</string>
+    <string name="ash_text">"ຂໍ້ຄວາມ"</string>
+    <string name="ash_assignment">"ວຽກມອບໝາຍ"</string>
+    <string name="ash_singleline_comment">"ຄໍາຄິດເຫັນແຖວ-ດຽວ"</string>
+    <string name="ash_multiline_comment">"ຄໍາຄິດເຫັນຫຼາຍ-ແຖວ"</string>
+    <string name="ash_keyword">"ຄໍາສໍາຄັນ"</string>
+    <string name="ash_quoted_string">"ສະຕຣິງທີ່ອ້າງອີງ"</string>
+    <string name="ash_variable">"ຕົວປ່ຽນ"</string>
+    <!-- Secure Storage -->
+    <!-- Secure Storage dialog title - Unlock -->
+    <string name="secure_storage_unlock_title">"ປົດລັອກບ່ອນເກັບຂໍ້ມູນ"</string>
+    <!-- Secure Storage dialog title - Create -->
+    <string name="secure_storage_create_title">"ສ້າງບ່ອນເກັບຂໍ້ມູນ"</string>
+    <!-- Secure Storage dialog title - Reset -->
+    <string name="secure_storage_reset_title">"ຕັ້ງລະຫັດຜ່ານໃໝ່"</string>
+    <!-- Secure Storage dialog title - Delete -->
+    <string name="secure_storage_delete_title">"ລຶບບ່ອນເກັບຂໍ້ມູນ"</string>
+    <!-- Secure Storage unlock dialog message (secure storage exists) -->
+    <string name="secure_storage_unlock_key_prompt_msg">"ພິມລະຫັດຜ່ານເພື່ອປົດລັອກລະບົບໄຟລ໌ຂອງບ່ອນເກັບຂໍ້ມູນທີ່ມີຄວາມປອດໄພ."</string>
+    <!-- Secure Storage unlock dialog message (new secure storage) -->
+    <string name="secure_storage_unlock_key_new_msg">"ພິມລະຫັດຜ່ານເພື່ອປ້ອງກັນລະບົບໄຟລ໌ຂອງບ່ອນເກັບຂໍ້ມູນທີ່ມີຄວາມປອດໄພ."</string>
+    <!-- Secure Storage unlock dialog message (reset the current password) -->
+    <string name="secure_storage_unlock_key_reset_msg">"ພິມລະຫັດຜ່ານປັດຈຸບັນ ແລະລະຫັດຜ່ານໃໝ່ເພື່ອຕັ້ງຄ່າລະບົບໄຟລ໌ຂອງບ່ອນເກັບຂໍ້ມູນທີ່ມີຄວາມປອດໄພຄືນໃໝ່."</string>
+    <!-- Secure Storage unlock dialog message (delete the secure storage) -->
+    <string name="secure_storage_unlock_key_delete_msg">"ພິມລະຫັດຜ່ານປັດຈຸບັນເພື່ອລຶບລະບົບໄຟລ໌ຂອງບ່ອນເກັບຂໍ້ມູນທີ່ມີຄວາມປອດໄພ."</string>
+    <!-- Secure Storage unlock dialog old key title -->
+    <string name="secure_storage_unlock_old_key_title">"ລະຫັດຜ່ານອັນເກົ່າ:"</string>
+    <!-- Secure Storage unlock dialog key title -->
+    <string name="secure_storage_unlock_new_key_title">"ລະຫັດຜ່ານອັນໃໝ່:"</string>
+    <!-- Secure Storage unlock dialog key title -->
+    <string name="secure_storage_unlock_key_title">"ລະຫັດຜ່ານ:"</string>
+    <!-- Secure Storage unlock dialog repeat key title-->
+    <string name="secure_storage_unlock_repeat_title">"​ພິມລະຫັດຜ່ານຊໍ້າຄືນ​:"</string>
+    <!-- Secure Storage create button -->
+    <string name="secure_storage_create_button">"ສ້າງ"</string>
+    <!-- Secure Storage unlock button -->
+    <string name="secure_storage_unlock_button">"ປົດລັອກ"</string>
+    <!-- Secure Storage reset button -->
+    <string name="secure_storage_reset_button">"ຕັ້ງຄ່າຄືນ​ໃໝ່"</string>
+    <!-- Secure Storage delete button -->
+    <string name="secure_storage_delete_button">"ລຶບ"</string>
+    <!-- Secure Storage unlock failed toast -->
+    <string name="secure_storage_unlock_failed">"ບໍ່ສາມາດປົດລັອກບ່ອນເກັບຂໍ້ມູນ"</string>
+    <!-- Secure Storage unlock validation, length -->
+    <string name="secure_storage_unlock_validation_length">"ລະຫັດຜ່ານຕ້ອງມີຢ່າງໜ້ອຍ <xliff:g id="characters">%1$d</xliff:g> ຕົວອັກສອນ."</string>
+    <!-- Secure Storage unlock validation, equal -->
+    <string name="secure_storage_unlock_validation_equals">"ລະຫັດບໍ່ກົງກັນ."</string>
+    <!-- Secure storage open file warning -->
+    <string name="secure_storage_open_file_warning">"ນີ້ຈະອັດສຳເນົາໄຟລ໌ອອກໄປໃສ່ທີ່ຕັ້ງຊົ່ວຄາວ  ທີ່ບໍ່ໄດ້ເຂົ້າລະຫັດໄວ້. ນີ້ຈະຖືກລ້າງຖິ້ມຫຼັງຈາກ 1 ຊົ່ວໂມງ."</string>
+    <!-- Print messages -->
+    <!-- Unsupported document format -->
+    <string name="print_unsupported_document">"ຮູບແບບເອກະສານທີ່ບໍ່ຮອງຮັບ"</string>
+    <!-- Unsupported image format -->
+    <string name="print_unsupported_image">"ຮູບແບບຮູທີ່ບໍ່ຮອງຮັບ"</string>
+    <!-- Print header -->
+    <string name="print_document_header">"ຄົ້ນຫາ: <xliff:g id="document_name">%1$s</xliff:g>"</string>
+    <!-- Print footer -->
+    <string name="print_document_footer">"ຄົ້ນຫາ: <xliff:g id="page_number">%1$s</xliff:g>"</string>
+    <!-- Security - Extract relative or absolute files -->
+    <string name="security_warning_extract">"ຄໍາເຕືອນ!\n\nການແຍກໄຟລ໌ທີ່ເກັບມ້ຽນໄວ້ດ້ວຍເສັ້ນທາງສຳພັນ ຫຼືແນ່ນອນ ອາດຈະກໍ່ໃຫ້ເກີດຄວາມເສຍຕໍ່ກັບອຸປະກອນຂອງທ່ານ ໂດຍກາຂຽນທັບໄຟລ໌ລະບົບ.\n\nທ່ານຕ້ອງການສືບຕໍ່ບໍ?"</string>
+    <!-- ChangeLog - Dialog title -->
+    <string name="changelog_title">"ບັນທຶກການປ່ຽນແປງ"</string>
+    <!-- Welcome Dialog - Title -->
+    <string name="welcome_title">"ຍິນດີຕ້ອນຮັບ"</string>
+    <!-- Welcome Dialog - Message -->
+    <string name="welcome_msg">"ຍິນດີຕ້ອນຮັບສູ່ຕົວຈັດການໄຟລ໌ CyanogenMod.\n\nແອັບນີ້ອະນຸຍາດໃຫ້ທ່ານສຳຫຼວດລະບົບໄຟລ໌ ແລະເຮັດການດຳເນີນງານທີ່ສາມາດເຮັດໃຫ້ອຸປະກອນຂອງທ່ານເປ້ເພ່ໄດ້. ເພື່ອປ້ອງກນັຄວາມເສຍຫາຍ, ແອັບຈະເລີ່ມໃຊ້ງານໃນໂໝດຄວາມປອດໄພ ເຊິ່ງເປັນໂໝດທີ່ມີສິດທິຕໍ່າ.\n\nທ່ານສາມາດເຂົ້າເຖິງໂໝດຂັ້ນສູງທີ່ມີສິດທິເຕັມໄດ້ ຜ່ານການຕັ້ງຄ່າ. ມັນແມ່ນຄວາມຮັບຜິດຊອບຂອງທ່ານໃນການຮັບປະກັນວ່າການດຳເນີນງານຈະບໍ່ເຮັດໃຫ້ລະບົບຂອງທ່ານເສຍຫາຍ.\n\nທີມງານ CyanogenMod"</string>
+    <string name="easy_mode_type_icon">"ໄອຄອນສຳລັບປະເພດທ່າທາງ"</string>
+    <string name="easy_mode_type_none">"ທຸກໄຟລ໌"</string>
+    <string name="easy_mode_type_images">"ຮູບພາບ"</string>
+    <string name="easy_mode_type_videos">"ວິດີໂອ"</string>
+    <string name="easy_mode_type_music">"ດົນຕີ"</string>
+    <string name="easy_mode_type_documents">"ເອກະສານ"</string>
+    <string name="activity_not_found_exception">"ບໍ່ສາມາດຊອກພົບແອັບເພື່ອເປີດໄຟລ໌ນີ້"</string>
+    <string name="no_permission_for_drm">"ຂໍອະໄພ, ໄຟລ໌ DRM ບໍ່ສາມາດແບ່ງປັນໄດ້"</string>
+    <string name="actions_menu_drm_license_info">"ຂໍ້ມູນໃບອະນຸຍາດ Drm"</string></resources>

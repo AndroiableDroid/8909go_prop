@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Inhaltsorientierte Hintergrundbel."</string>
+        <add-resource type="string" name="cabl_settings_title"/>
+    <string name="cabl_settings_title">"Inhaltsorientierte Hintergrundbel."</string>
+        <add-resource type="string" name="cabl_enable_title"/>
+    <string name="cabl_enable_title">"Inhaltsorient. Hintergr.bel. aktiv."</string>
+        <add-resource type="string" name="cabl_enable_summary_on"/>
+    <string name="cabl_enable_summary_on">"Die Hintergrundbeleuchtung wird je nach Inhalt neu  eingestellt"</string>
+        <add-resource type="string" name="cabl_enable_summary_off"/>
+    <string name="cabl_enable_summary_off">"Die Hintergrundbeleuchtung wird nicht je nach Inhalt neu  eingestellt"</string>
+        <add-resource type="string" name="cabl_levels_title"/>
+    <string name="cabl_levels_title">"Optische Qualität"</string>
+        <add-resource type="string" name="cabl_levels_summary"/>
+    <string name="cabl_levels_summary">"Ein niedrigeres Qualitätsniveau zeigt an, dass IGHB versucht, möglichst viel Energie zu sparen, ohne den angezeigten Inhalt zu beeinträchtigen. Automatische optische Qualität bedeutet, dass IGHB versucht, eine maximale Energieeinsparung auf Basis einer automatischen Erkennung der angezeigten Inhalte zu erreichen."</string>
+        <add-resource type="string" name="cabl_level_default"/>
+    <string name="cabl_level_default">"Automatisch"</string>
+        <add-resource type="string" name="cabl_info_default"/>
+    <string name="cabl_info_default">"Unbekannter Anrufer"</string>
+        <add-resource type="string" name="cabl_version_title"/>
+    <string name="cabl_version_title">"IGHB-Version"</string></resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_accessWifiState">"vizualizați conexiunile WLAN"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_accessWifiState">"Permite aplicației să vizualizeze informațiile despre rețelistica WLAN, precum dacă WLAN este activată și numele dispozitivelor WLAN conectate."</string>
+    <string name="permlab_changeWifiState">"conectați-vă și deconectați-vă de la WLAN"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiState">"Permite aplicației să se conecteze și să se deconecteze la/de la punctele de acces WLAN și să efectueze modificări ale configurației dispozitivului pentru rețelele WLAN."</string>
+    <string name="permlab_changeWifiMulticastState">"permiteți recepţionarea de difuzare multiplă WLAN"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="tablet">"Permite aplicației să primească pachetele trimise tuturor dispozitivelor, nu numai tabletei, pe o rețea WLAN utilizând adrese de difuzare multiplă.  Această funcţie utilizează mai multă energie decât modul fără difuzare multiplă."</string>
+    <string name="permdesc_changeWifiMulticastState" product="default">"Permite aplicației să primească pachetele trimise tuturor dispozitivelor, nu numai telefonului, pe o rețea WLAN utilizând adrese de difuzare multiplă.  Această funcție utilizează mai multă energie decât modul fără difuzare multiplă."</string>
+    <string name="wifi_available_sign_in">"Conectați-vă la rețeaua WLAN"</string>
+    <string name="wifi_watchdog_network_disabled">"Nu s-a putut conecta la WLAN"</string>
+    <string name="wifi_p2p_dialog_title">"WLAN Direct"</string>
+    <string name="wifi_p2p_turnon_message">"Porniți WLAN Direct. Acest lucru va dezactiva clientul/hotspotul WLAN."</string>
+    <string name="wifi_p2p_failed_message">"WLAN Direct nu a putut porni."</string>
+    <string name="wifi_p2p_enabled_notification_title">"WLAN Direct este pornit"</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="tablet">"Tableta se va deconecta temporar de la rețeaua WLAN cât timp este conectată la <xliff:g id="device_name">%1$s</xliff:g>"</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="default">"Telefonul se va deconecta temporar de la rețeaua WLAN cât timp este conectată la <xliff:g id="device_name">%1$s</xliff:g>"</string>
+    <!-- Notification title when WLAN data usage has exceeded limit threshold, and has been disabled. [CHAR LIMIT=32] -->
+    <string name="data_usage_wifi_limit_title">"Datele WLAN sunt dezactivate"</string>
+    <!-- Notification title when WLAN data usage has exceeded limit threshold. [CHAR LIMIT=32] -->
+    <string name="data_usage_wifi_limit_snoozed_title">"Limită de date WLAN depășită"</string>
+    <!--<string name="permlab_configureWifiDisplay">configure WLAN displays</string>-->
+    <!--<string name="permdesc_configureWifiDisplay">Allows the app to configure and connect to WLAN displays.</string>-->
+    <!--<string name="permlab_controlWifiDisplay">control WLAN displays</string>-->
+    <!--<string name="permdesc_controlWifiDisplay">Allows the app to control low-level features of WLAN displays.</string>-->
+    <!-- A notification is shown when there are open wireless networks nearby.  This is the notification's title. -->
+    <plurals name="wifi_available">
+        <item quantity="one">"Rețea WLAN disponibilă"</item>
+        <item quantity="other">"Rețele WLAN disponibile"</item>
+    </plurals>
+    <!-- A notification is shown when there are open wireless networks nearby.  This is the notification's message. -->
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">"Deschideți rețeaua WLAN disponibilă"</item>
+        <item quantity="other">"Deschideți rețelele WLAN disponibile"</item>
+    </plurals></resources>

@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Общественная камера"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"Произошла ошибка при проверке или выполнении запроса на предоставление разрешений. Для получения дополнительной информации см. Logcat."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Отправить (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"Потеряно соединение с камерой"</string>
+    <string name="camera_preview_error_camera_error">"Ошибка камеры: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Не удалось сделать снимок"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Произошла ошибка при сохранении снимка в галерею"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Настройки"</string>
+    <string name="camera_settings_category_camera_settings">"Настройки камеры"</string>
+    <string name="camera_settings_category_fr_settings">"Настройки функции распознавания лиц"</string>
+    <string name="camera_settings_category_debug_settings">"Настройки отладки"</string>
+    <string name="camera_settings_fr_database_cleared">"Очищена база данных функции распознавания лиц"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Закрыть"</string>
+    <string name="picture_review_send_faces">"Отправить (%d)"</string>
+    <string name="picture_review_no_faces">"На этой фотографии не найден ни один объект"</string>
+    <string name="picture_review_error_face_recognition">"Возникла ошибка при распознавании лиц"</string>
+    <string name="picture_review_error_face_enroll">"К сожалению, возникла ошибка при сохранении этого лица. Сделайте другой снимок и повторите попытку."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Другой контакт\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Настройки общего доступа"</string>
+    <string name="fr_share_settings_button_just_once">"Только сейчас"</string>
+    <string name="fr_share_settings_button_always">"Всегда"</string>
+    <string name="fr_share_settings_share_method_sms">"Написать"</string>
+    <string name="fr_share_settings_share_method_email">"Эл. почта"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Извлечь!"</string>
+    <string name="social_sharing_error_no_email_app">"Отсутствует приложение с возможностью отправки писем"</string></resources>

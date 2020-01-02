@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Emparejamiento SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Emparejamiento de lápiz digital Snapdragon"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Ajustes"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"Aceptar"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"Elegir posición del lápiz para mostrar"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"Seleccionar el número de serie del nuevo lápiz"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"Selecciona el tipo de lápiz que quieras usar"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"Iniciar emparejamiento"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"Sujetar el lápiz ortogonalmente dentro del círculo para iniciar el proceso de emparejamiento"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"Emparejamiento manual"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"Emparejamiento semiautomático"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"Elegir un método de emparejamiento"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"Emparejador de nuevo lápiz"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"Administrar lápices emparejados"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"Calibración SW"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"Sujeta el lápiz ortogonalmente dentro del círculo para iniciar el proceso de emparejamiento.\nCuando hayas terminado, el proceso de calibración se iniciará."</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"Probador del centro de servicios"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"Sujeta el lápiz ortogonalmente dentro del círculo para iniciar el proceso de emparejamiento.\nCuando hayas terminado, el proceso de prueba se iniciará."</string></resources>

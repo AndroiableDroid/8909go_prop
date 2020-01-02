@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Metrik debug tampilan"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"Simpan gambar"</string>
+    <string name="debug_pref_save_pictures_desc">"Simpan gambar yang diambil ke kartu SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"Simpan bingkai pratinjau"</string>
+    <string name="debug_pref_save_preview_frames_desc">"Simpan bingkai pratinjau ke Kartu SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Izinkan penurunan bingkai pratinjau"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"Saat menyimpan bingkai pratinjau, izinkan penurunan bingkai untuk mempertahankan framerate"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Aktifkan pencatatan log panjang pengenalan wajah"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2016 Qualcomm Technologies, Inc.
+  All Rights Reserved.
+  Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="preferred_network_mode_lte_gsm_wcdma_summary">Preferred network mode: GSM/WCDMA/LTE Automatic selection</string>
+    <string-array name="preferred_network_mode_choices" translatable="false">
+        <item>GSM/WCDMA/LTE</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values"  translatable="false">
+        <item>"9"</item>
+    </string-array>
+</resources>

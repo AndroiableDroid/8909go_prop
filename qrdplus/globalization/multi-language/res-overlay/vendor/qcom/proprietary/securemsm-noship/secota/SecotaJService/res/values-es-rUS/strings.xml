@@ -1,0 +1,113 @@
+<resources>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+    <string name="app_name">"SeempJService"</string>
+    <string-array name="cause_description_array">
+<item>"6:3:Búsqueda en entradas/interacciones de usuarios mientras la aplicación no está visible para el usuario o se ejecuta en segundo plano"</item>
+    <item>"7:5:uso sospechoso de UID android "</item>
+    <item>"8:5:uso sospechoso de UID android con aplicación en segundo plano"</item>
+    <item>"9:5:Acceso sospechoso de información confidencial de dispositivo"</item>
+    <item>"10:5:Acceso sospechoso de información confidencial de dispositivo con aplicación en segundo plano"</item>
+    <item>"11:4:Acceso sospechoso de número de teléfono"</item>
+    <item>"12:4:Acceso de núm. telefónico mientras la aplicación no interactúa con usuario"</item>
+    <item>"13:2:intento de llamada no autorizada de la aplicación"</item>
+    <item>"14:2:intento de llamada no autorizada de aplicación mientras esta se ejecuta en segundo plano"</item>
+    <item>"15:4:Acceso anormal a info de cuenta de usuario confidencial"</item>
+    <item>"16:4:Acceso anormal a info de cuenta de usuario confidencial mientras la aplicación no interactúa con usuario"</item>
+    <item>"17:4:Acceso de aplicación a info de cuenta de usuario confidencial sin notificar al usuario"</item>
+    <item>"18:4:Acceso a info de cuenta de usuario confidencial de aplicación en segundo plano sin notificar a usuario"</item>
+    <item>"19:3:Acceso sospechoso de info confidencial de navegador"</item>
+    <item>"20:3:Acceso sospechoso de info confidencial de navegador con aplicación en segundo plano"</item>
+    <item>"21:3:acceso a info confidencial de navegador (puede incluir info confidencial de usuario) mientras la aplicación no interactúa con usuario"</item>
+    <item>"22:3:acceso a info confidencial de navegador (puede incluir info confidencial de usuario) mientras la aplicación no interactúa con usuario y está en segundo plano"</item>
+    <item>"23:6:instalación de acceso directo anormal/excesiva"</item>
+    <item>"24:6:la aplicación intenta instalar acceso directo en segundo plano"</item>
+    <item>"25:6:la aplicación intenta instalar acceso directo sin interacción con el usuario"</item>
+    <item>"26:6:la aplicación intenta instalar acceso directo sin interacción con usuario y en segundo plano"</item>
+    <item>"27:4:acceso a info confidencial de calendario"</item>
+    <item>"28:4:acceso a info confidencial de calendario con aplicación en segundo plano"</item>
+    <item>"29:1:inserción de info/eventos en calendario sin interacción con el usuario"</item>
+    <item>"30:1:Inserción de info/eventos en calendario sin interacción con aplicación en segundo plano"</item>
+    <item>"31:5:Acceso anormal/excesivo de info de ubicación"</item>
+    <item>"32:5:Acceso anormal/excesivo de info de ubicación con aplicación en segundo plano"</item>
+    <item>"37:3:Uso sospechoso de cámara (puede incluir tomar fotos y videos)"</item>
+    <item>"38:3:Uso sospechoso de cámara (puede incluir tomar fotos y videos) con aplicación en segundo plano"</item>
+    <item>"39:3:Captura de imágenes (puede incluir videos) y transmisión de estas a servidor remoto"</item>
+    <item>"40:3:Captura de imágenes (puede incluir videos) y transmisión de estas a servidor remoto con aplicación en segundo plano"</item>
+    <item>"41:3:Captura de imágenes (puede incluir videos) sin interacción con usuario"</item>
+    <item>"42:3:Captura de imágenes (puede incluir videos) sin interacción con usuario y con la aplicación en segundo plano"</item>
+    <item>"43:3:Captura de imágenes (puede incluir videos) y transmisión de estas a servidor remoto sin interacción con usuario"</item>
+    <item>"44:3:Captura de imágenes (puede incluir videos) y transmisión de estas a servidor remoto sin interacción con usuario y aplicación en segundo plano"</item>
+    <item>"45:3:Uso sospechoso de cámara de video (puede incluir imágenes y videos)"</item>
+    <item>"46:3:Uso sospechoso de cámara de video (puede incluir imágenes y videos) con aplicación en segundo plano"</item>
+    <item>"47:3:Captura de videos y transmisión de estos a servidor remoto"</item>
+    <item>"48:3:Captura de videos y transmisión de estos a servidor remoto con aplicación en segundo plano"</item>
+    <item>"49:3:Captura de videos sin interacción con usuario"</item>
+    <item>"50:3:Captura de videos sin interacción con usuario y aplicación en segundo plano"</item>
+    <item>"51:3:Captura de videos y transmisión de estos a servidor remoto sin interacción con usuario"</item>
+    <item>"52:3:Captura de videos y transmisión de estos a servidor remoto sin interacción con usuario y aplicación en segundo plano"</item>
+    <item>"53:3:Grabación sospechosa de datos de micrófono"</item>
+    <item>"54:3:Grabación sospechosa de datos de micrófono con aplicación en segundo plano"</item>
+    <item>"55:3:Grabación de datos de micrófono sospechosa y transmisión a servidor remoto"</item>
+    <item>"56:3:Grabación de datos de micrófono y transmisión a servidor remoto con aplicación en segundo plano"</item>
+    <item>"57:3:Grabación de datos de micrófono sospechosa sin interacción del usuario con la aplicación"</item>
+    <item>"58:3:grabación de datos de micrófono sin interacción del usuario con la aplicación y con la aplicación en segundo plano"</item>
+    <item>"59:3:Grabación sospechosa y transmisión de datos de micrófono sin interacción de la aplicación con el usuario"</item>
+    <item>"60:3:grabación y transmisión de datos de micrófono sin interacción de aplicación con el usuario y con aplicación en segundo plano"</item>
+    <item>"61:2:Actividad SMS sospechosa: Intento de envío de SMS (potencialmente costoso para miembros premium)"</item>
+    <item>"62:2:La aplicación intenta enviar SMS mientras se ejecuta en segundo plano (SMS potencialmente costoso para miembros premium)"</item>
+    <item>"63:2:Actividad SMS sospechosa: La aplicación envía SMS (potencialmente costoso para miembros premium) sin interacción con usuario"</item>
+    <item>"64:2:La aplicación envía SMS (potencialmente costoso a miembros premium) sin interacción con usuario y con aplicación en segundo plano"</item>
+    <item>"65:3:Acceso sospechoso a SMS (apertura y lectura)"</item>
+    <item>"66:3:Acceso y lectura de SMS con aplicación en segundo plano"</item>
+    <item>"67:3:Acceso y lectura de SMS sin interacción con el usuario"</item>
+    <item>"68:3:Acceso y lectura de SMS sin interacción con usuario mientras la aplicación está en segundo plano"</item>
+    <item>"69:3:acceso excesivo/anormal a info de sensor"</item>
+    <item>"70:3:acceso excesivo/anormal a info de sensor con aplicación en segundo plano"</item>
+    <item>"71:3:Intercepción sospechosa de mensajes MMS"</item>
+    <item>"72:3:Intercepción sospechosa de mensajes MMS con aplicación en segundo plano"</item>
+    <item>"73:3:Intercepción sospechosa de mensajes MMS sin interacción con usuario"</item>
+    <item>"74:3:Intercepción sospechosa de mensajes MMS sin interacción con usuario y con la aplicación en segundo plano"</item>
+    <item>"75:4:Acceso anormal a info de uno o más contactos"</item>
+    <item>"76:4:Acceso anormal a info de uno o más contactos con aplicación en segundo plano"</item>
+    <item>"77:4:Acceso a lista de uno o más contactos sin interacción de aplicación con usuario"</item>
+    <item>"78:4:Acceso a lista de uno o más contactos sin interacción de aplicación con usuario mientras esta se ejecuta en segundo plano"</item>
+    <item>"79:1:Instalación de aplicación de terceros sospechosa"</item>
+    <item>"80:1:Instalación de aplicación de terceros sospechosa con aplicación en segundo plano"</item>
+    <item>"81:1:Instalación de aplicación de terceros sospechosa sin interacción de aplicación con usuario"</item>
+    <item>"82:1:Instalación de aplicación de terceros sospechosa sin interacción de aplicación con usuario y con esta en segundo plano"</item>
+    <item>"83:5:comunicación excesiva/anormal de UID android"</item>
+    <item>"84:5:comunicación excesiva/anormal de UID android con aplicación en segundo plano"</item>
+    <item>"85:5:Acceso y comunicación de info confidencial de dispositivo (puede incluir IMEI, núm. serie SIM y otra info relacionada con proveedor)"</item>
+    <item>"86:5:Acceso y comunicación de info confidencial de dispositivo (puede incluir IMEI, núm. serie SIM y otra info de proveedor) mientras la aplicación está en segundo plano"</item>
+    <item>"87:4:Acceso y comunicación de núm. telefónico de usuario a servidor remoto"</item>
+    <item>"88:4:Acceso y comunicación de núm. telefónico de usuario a servidor remoto con aplicación en segundo plano"</item>
+    <item>"89:4:Comunicación anormal de credenciales/info confidencial de cuenta de usuario (puede incluir info de tarjeta de crédito y otra info financiera)"</item>
+    <item>"90:4:Comunicación anormal de credenciales/info confidencial de cuenta de usuario (puede incluir info de tarjeta de crédito u otra info financiera) con aplicación en segundo plano"</item>
+    <item>"91:3:acceso y comunicación de contenido confidencial de navegador (puede incluir info confidencial de usuario)"</item>
+    <item>"92:3:acceso y comunicación de contenido confidencial de navegador (puede incluir info confidencial de usuario) con aplicación en segundo plano"</item>
+    <item>"93:3:acceso y comunicación de contenido confidencial de navegador (puede incluir info confidencial de usuario)"</item>
+    <item>"94:3:acceso y comunicación de contenido confidencial de navegador (puede incluir info confidencial de usuario) con aplicación en segundo plano"</item>
+    <item>"95:4:Comunicación de info de calendario a servidor remoto (puede contener info confidencial de usuario)"</item>
+    <item>"96:4:Comunicación de info de calendario a servidor remoto (puede contener info confidencial de usuario) con aplicación en segundo plano"</item>
+    <item>"97:5:Acceso y comunicación anormales/excesivos de info de ubicación"</item>
+    <item>"98:5:Acceso y comunicación anormales/excesivos de info de ubicación con aplicación en segundo plano"</item>
+    <item>"99:5:Acceso y comunicación anormales/excesivos de info de ubicación"</item>
+    <item>"100:5:Acceso y comunicación anormales/excesivos de info de ubicación con aplicación en segundo plano"</item>
+    <item>"101:3:Comunicación excesiva/anormal de info de sensor"</item>
+    <item>"102:3:Comunicación excesiva/anormal de info de sensor con aplicación en segundo plano"</item>
+    <item>"103:4:Acceso a lista de uno o más contactos y transmisión de esta a servidor remoto"</item>
+    <item>"104:4:Acceso a lista de uno o más contactos y transmisión de esta a servidor remoto con aplicación en segundo plano"</item>
+    <item>"105:4:Acceso a lista de uno o más contactos y transmisión de esta a servidor remoto sin interacción con usuario"</item>
+    <item>"106:4:Acceso a lista de uno o más contactos y transmisión de esta a servidor remoto sin interacción con usuario y con aplicación en segundo plano"</item>
+    <item>"109:3:acceso excesivo/anormal a info de sensor"</item>
+    <item>"110:3:acceso excesivo/anormal a info de sensor con aplicación en segundo plano"</item>
+    <item>"121:5:Acceso sospechoso a configuración de ID de dispositivo"</item>
+    <item>"122:5:Acceso sospechoso a configuración de ID de dispositivo con aplicación en segundo plano"</item>
+    <item>"162:3:Cambio sospechoso a configuración de modo de avión con aplicación en segundo plano"</item>
+    <item>"164:3:Cambio sospechoso de configuración de alarma con aplicación en segundo plano"</item>
+    <item>"202:3:Modificación sospechosa de estado de WiFi con aplicación en segundo plano"</item>
+    </string-array></resources>

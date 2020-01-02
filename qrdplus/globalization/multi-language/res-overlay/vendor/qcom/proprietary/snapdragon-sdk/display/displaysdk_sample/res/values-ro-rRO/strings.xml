@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Afișați mostra SDK"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"Funcții de afișare"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"Balans de culoare"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"Manager de moduri"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"Mod nou"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"Mod de ștergere"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"Mod de editare"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"Anulaţi"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"Funcții de afișare"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"Mod de activare"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"Introduceți numele modului"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"Mod de salvare"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"Alegeți fotografia"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"Tipul de afișare furnizat nu este acceptat. connect() trebuie invocat"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"Funcția Balans de culoare nu este acceptată"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"Funcția Iluminare de fundal adaptivă nu este acceptată"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"Funcția Memorie culoare frunziș nu este acceptată"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"Funcția Memorie culoare piele nu este acceptată"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"Funcția Memorie culoare cer nu este acceptată"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"Funcția Reglare imagine nu este acceptată"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"Funcția Vizibilitate lumină solară nu este acceptată"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"Imposibil de creat mod nou"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"Imposibil de modificat mod"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"Adăugați o imagine din galerie"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"OK"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"Da"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"Nu"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"Nu există moduri disponibile pe dispozitiv"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"FEATURE_COLOR_MODE_SELECTION nu este acceptată"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"FEATURE_COLOR_MODE_MANAGEMENT nu este acceptată"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"Funcția de afișare necesară nu este disponibilă"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"Ștergerea modului de afișare a eșuat"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"Activarea modului de afișare a eșuat"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"Modul de afișare nu a putut fi setat ca implicit"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"Selectați mai întâi un mod"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"Introduceți numele pentru mod"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"Mod nou creat"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"Setaţi ca Prestabilit"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"Modul selectat, fiind mod Sistem, nu poate fi modificat. Doriți să creați un mod nou bazat pe modul selectat?"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"Modul selectat, fiind mod Sistem, nu poate fi șters"</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"Imposibil de conectat la serviciul de afișare necesar"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" Modul a fost activat"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" Modul a fost șters"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"Balans de culoare"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"Vizibilitate lumină solară"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"Reglare imagine"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"Mem.culoare frunziș"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"Tonalitate"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"Saturaţie"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"Intensitate"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"Mem.culoare piele"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"Mem.culoare cer"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" Iluminare de fundal adaptivă"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"Activați SVI"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"Activați Memorie culoare frunziș"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"Activați Memorie culoare piele"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"Activați Memorie culoare cer"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"Activați Reglare imagine"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"Activați Iluminare de fundal adaptivă"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"Activați Desaturare reglare imagine"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"Prag saturație"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"Tonalitate"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"Saturaţie"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"Intensitate"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"Contrast"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"Ridicată"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"Medie"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"Redusă"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"Automat"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"Actualizați"</string></resources>

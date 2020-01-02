@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service este eliminat, reinstalaţi-l!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"Actualizare date text profil"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"Actualizare date portret profil"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"Ştergere toate mesajele"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"Setare responsabil nou în chat grup"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"Modificare subiect în chat grup"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"Modificare alias membru în chat grup"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"Acceptare invitaţie de participare în chat grup"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"Părăsire chat grup"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"Eliminare participanţi din chat grup"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"Eliminare chat grup"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"Acordaţi atenţie contului public"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"Nu acordaţi atenţie contului public"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"Raportaţi un cont public"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"permisiune api sensibilă"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"aplicaţie(i) %1$d autorizată(e) (total %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"Nu mai întreba niciodată"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"OK"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Anulaţi"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"Această operaţie este concepută la %1$s, respingerea permisiunii poate duce la funcţionarea necorespunzătoare."</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"Permisiune %1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"Trebuie să permiteţi %1$s."</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"Trebuie să acordaţi permisiune la cardul SD."</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"Trebuie să acordaţi permisiune la agendă."</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"Trebuie să acordaţi permisiune la sms."</string></resources>

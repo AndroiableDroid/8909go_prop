@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"詳細"</item>
+        <item>"除錯"</item>
+        <item>"資訊"</item>
+        <item>"警告"</item>
+        <item>"錯誤"</item>
+        <item>"嚴重"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"SD 卡"</item>
+        <item>"內部記憶體"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"無法寫入記錄檔。記錄訊息尚未儲存。記錄程序會在記錄檔再次可用後自動恢復"</string>
+    <string name="err_lowspace">"偵測到空間不足。記錄訊息尚未儲存。記錄程序會在有足夠空間後自動恢復"</string>
+  <string name="txtTag_text">"tagname"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"Logcat 描述"</string></resources>

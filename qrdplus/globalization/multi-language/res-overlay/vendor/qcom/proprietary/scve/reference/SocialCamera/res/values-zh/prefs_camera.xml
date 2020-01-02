@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"相机"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"主摄像头"</item>
+        <item>"前置摄像头"</item>
+        <item>"摄像头 3"</item>
+        <item>"摄像头 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"照片尺寸"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340（9.7MP，16:9）"</item>
+        <item>"3840x2160（8.3MP，16:9，UHD 4K）"</item>
+        <item>"3200x1800（5.8MP，16:9，WQXGA+）"</item>
+        <item>"2688x1512（4.1MP，16:9）"</item>
+        <item>"2592x1458（3.8MP，16:9）"</item>
+        <item>"1920x1080（2.1MP，16:9，HD 1080p）"</item>
+        <item>"1280x720（0.9MP，16:9，HD 720p）"</item>
+        <item>"864x480（0.4MP，16:9）"</item>
+        <item>"4160x3120（13MP，4:3）"</item>
+        <item>"4000x3000（12MP，4:3）"</item>
+        <item>"3264x2448（8MP，4:3）"</item>
+        <item>"3200x2400（7.7MP，4:3，QUXGA）"</item>
+        <item>"2592x1944（5MP，4:3）"</item>
+        <item>"2048x1536（3.1MP，4:3，QXGA）"</item>
+        <item>"1920x1440（2.8MP，4:3）"</item>
+        <item>"1600x1200（1.9MP，4:3，UXGA）"</item>
+        <item>"1280x960（1.2MP，4:3，UVGA）"</item>
+        <item>"1024x768（0.8MP，4:3，XGA）"</item>
+        <item>"800x600（0.5MP，4:3，SVGA）"</item>
+        <item>"640x480（0.3MP，4:3，VGA）"</item>
+        <item>"320x240（0.1MP，4:3，QVGA）"</item>
+        <item>"3264x2176（7.1MP，3:2）"</item>
+        <item>"2592x1728（4.5MP，3:2）"</item>
+        <item>"720x480（0.3MP，3:2）"</item>
+        <item>"4160x2774（11.5MP，3:2）"</item>
+        <item>"2976x2976（8.9MP，1:1）"</item>
+        <item>"1280x768（1MP，5:3）"</item>
+        <item>"800x480（0.4MP，5:3）"</item>
+        <item>"352x288（0.1MP，11:9）"</item>
+        <item>"176x144（0MP，11:9）"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"预览尺寸"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"匹配显示尺寸"</item>
+        <item>"高分辨率预览（最高 4MP）"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"取景模式"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"自动"</item>
+        <item>"动态拍摄"</item>
+        <item>"条形码"</item>
+        <item>"海滩"</item>
+        <item>"烛光"</item>
+        <item>"面部"</item>
+        <item>"焰火"</item>
+        <item>HDR</item>
+        <item>"高速摄像"</item>
+        <item>"风景"</item>
+        <item>"夜景"</item>
+        <item>"派对"</item>
+        <item>"人物"</item>
+        <item>"夜间人物"</item>
+        <item>"雪地"</item>
+        <item>"运动"</item>
+        <item>"防震"</item>
+        <item>"日落"</item>
+        <item>"剧院"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"曝光控制"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"自动"</item>
+        <item>"固定"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"曝光补偿"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"焦点"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"自动"</item>
+        <item>"固定"</item>
+        <item>"连拍（照片）"</item>
+        <item>"连拍（视频）"</item>
+        <item>"微距"</item>
+        <item>"扩展景深"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"白平衡控制"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"自动"</item>
+        <item>"关闭"</item>
+        <item>"白炽灯照明"</item>
+        <item>"日光灯照明"</item>
+        <item>"日光灯暖光照明"</item>
+        <item>"日光"</item>
+        <item>"阴天"</item>
+        <item>"阴影"</item>
+        <item>"黎明"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"闪光灯"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"自动"</item>
+        <item>"开启"</item>
+        <item>"关闭"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"降噪"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"开启"</item>
+        <item>"关闭"</item>
+        <item>"高品质"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"镜头阴影校正"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"开启"</item>
+        <item>"关闭"</item>
+        <item>"高品质"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"像差校正"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"开启"</item>
+        <item>"关闭"</item>
+        <item>"高品质"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"边缘锐化"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"开启"</item>
+        <item>"关闭"</item>
+        <item>"高品质"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"噪点校正"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"开启"</item>
+        <item>"关闭"</item>
+        <item>"高品质"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"稳定模式"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"关闭"</item>
+        <item>"光学"</item>
+        <item>"数字"</item>
+    </string-array></resources>

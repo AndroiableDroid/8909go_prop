@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"ការសាកល្បង Mdtp"</string>
+    <string name="user_app">"កម្មវិធីអ្នកប្រើ MDTP៖ អេក្រង់ដើម"</string>
+    <string name="config_app">"កម្មវិធីអ្នកប្រើ MDTP៖ ការកំណត់រចនាសម្ព័ន្ធ"</string>
+    <string name="server_app">"ម៉ាស៊ីនបម្រើ MDTP៖ អេក្រង់ដើម"</string>
+    <string name="action_settings">"ការ​កំណត់"</string>
+    <string name="label_1_1">"ស្ថានភាព MDTP៖"</string>
+    <string name="state_deactivated">"បានបិទដំណើរការ"</string>
+    <string name="state_activated">"បានបើកដំណើរការ"</string>
+    <string name="configuration">"ការកំណត់រចនាសម្ព័ន្ធ (មុនពេលបើកដំណើរការប៉ុណ្ណោះ)"</string>
+    <string name="service_activate">"ស្នើសុំ​ការបើកដំណើរការ MDTP ពីសេវា MDTP"</string>
+    <string name="service_deactivate">"ស្នើសុំការបិទដំណើរការ MDTP ពីសេវា MDTP"</string>
+    <string name="local_deactivate">"ការបិទដំណើរការ MDTP មូលដ្ឋាន (ការប្រើ PIN)"</string>
+    <string name="service_console">"កុងសូល​សេវា MDTP"</string>
+    <string name="title_activity_configuration">"ការកំណត់រចនាសម្ព័ន្ធអ្នកប្រើ"</string>
+    <string name="label_2_1">"ប្រើ PIN មូលដ្ឋាន៖"</string>
+    <string name="label_2_2">"PIN៖"</string>
+    <string name="gen_rand_pin">"បង្កើត PIN តាមចៃដន្យ"</string>
+    <string name="label_2_3">"សមាមាត្រផ្ទៀងផ្ទាត់៖"</string>
+    <string name="label_2_5">"បើក​ការចាក់សោ SIM ៖"</string>
+    <string name="label_2_6">"ឯកសារ/ថតបន្ថែម​ដែលត្រូវ​ផ្ទៀងផ្ទាត់៖"</string>
+    <string name="reset">"កំណត់​ទៅ​លំនាំដើម​ឡើងវិញ"</string>
+    <string name="label_3_1">"ផ្ញើ​ពាក្យបញ្ជាពី​ម៉ាស៊ីនបម្រើទៅឧបករណ៍៖"</string>
+    <string name="activate">"ធ្វើ​ឲ្យ​សកម្ម"</string>
+    <string name="deactivate">"ធ្វើ​ឲ្យ​អសកម្ម"</string>
+    <string name="locksim">"ចាក់សោ SIM"</string>
+    <string name="unlocksim">"ដោះសោ SIM"</string>
+    <string name="killfunc">"បញ្ឈប់មុខងារ"</string>
+    <string name="restorefunc">"ស្ដារមុខងារ"</string>
+    <string name="label_3_2">"ស្នើសុំ​ការបិទដំណើរការ MDTP ៖"</string>
+    <string name="notallowed">"មិន​បាន​អនុញ្ញាត"</string>
+    <string name="allowed">"អនុញ្ញាត"</string>
+    <string name="label_3_3">"ស្នើសុំ​ការដោះប្លុក​កម្មវិធីជំនួយការរៀបចំ៖"</string>
+    <string name="label_3_4">"កំណត់ហេតុសេវា៖"</string>
+    <string name="wizard_app_loading_title">"កម្មវិធីជំនួយការរៀបចំ​ MDTP៖ កំពុងចាប់ផ្ដើម..."</string>
+    <string name="label_4_1">"កម្មវិធីជំនួយការរៀបចំត្រូវបានប្លុក​ ពីព្រោះ​ស្ថានភាព MDTP ត្រូវបានដាក់ដំណើរការ"</string>
+    <string name="label_4_2">"ជម្រើស A៖ បន្តបើកដំណើរការ MDTP ប៉ុន្តែ​ស្នើសុំការអនុញ្ញាត​ម៉ាស៊ីនបម្រើ"</string>
+    <string name="wiz_unblock">"ស្នើសុំ​ការដោះប្លុក​កម្មវិធីជំនួយការរៀបចំពីសេវា MDTP "</string>
+    <string name="wiz_cont">"បន្ត (អនុញ្ញាតដោយម៉ាស៊ីនបម្រើ)"</string>
+    <string name="label_4_3">"ជម្រើស B៖ បិទដំណើរការ MDTP (នឹងយកការ​ប្លុក​កម្មវិធី​ជំនួយ​ការ​រៀបចំចេញ)"</string>
+    <string name="wiz_remote">"ស្នើសុំ​ការបិទដំណើរការ MDTP ពីចម្ងាយ"</string>
+    <string name="wiz_local">"ការបិទដំណើរការ MDTP ក្នុងមូលដ្ឋាន"</string>
+    <string name="label_4_4">"កម្មវិធីជំនួយការរៀបចំត្រូវបាន​អនុញ្ញាត​ឲ្យបន្ត ពីព្រោះ​ស្ថានភាព MDTP មិនទាន់ត្រូវបានបើកដំណើរការ"</string>
+    <string name="wiz_complete">"បញ្ចប់​កម្មវិធីជំនួយការ​រៀបចំ (ស្ថានភាព MDTP មិនទាន់​ត្រូវបាន​បើកដំណើរការ)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"កម្មវិធីជំនួយរៀបចំ"</string>
+    <string name="label_signup_message">"MDTP បច្ចុប្បន្ន​មិនទាន់ត្រូវបានដាក់ដំណើរការ។\nតើ​អ្នកចង់​បើកដំណើរការវាទេ?"</string>
+    <string name="label_signup_message_activated">"MDTP ត្រូវបានដាក់​ដំណើរការដោយជោគជ័យ!"</string>
+    <string name="skip_activation">"រំលងការបើកដំណើរការ"</string>
+    <string name="emergency_dialer">"អ្នក​ហៅ​នៅ​ពេល​មាន​អាសន្ន"</string>
+    <string name="wiz_title_sign_up">"កម្មវិធីជំនួយការរៀបចំ MDTP - ចុះឈ្មោះ"</string>
+    <string name="wiz_title_reset_prot">"កម្មវិធីជំនួយការរៀបចំ MDTP - ការការពារ​ការកំណត់​ឡើងវិញពីរោងចក្រ"</string>
+    <string name="wiz_title_boot_block">"កម្មវិធីជំនួយការរៀបចំ MDTP - ឧបករណ៍​ត្រូវបានប្លុក"</string>
+    <string name="block_boot_warning_text">"MDTP បានប្លុក​ឧបករណ៍នេះ​ដោយសារតែមាន​កំហុស​ខាងក្នុង។\n\nសូមចាប់ផ្ដើម​ឧបករណ៍ឡើងវិញ។"</string>
+    <string name="start_wifi_wizard">"បង្កើត WiFi"</string>
+    <string name="default_pin_hint">"PIN លំនាំដើមគឺ 11111"</string>
+    <string name="pin_dialog_title">"ទាមទារ PIN សម្រាប់ការបិទដំណើរការ MDTP មូលដ្ឋាន"</string>
+    <string name="pin_input_validation_warning">"ទិន្នន័យបញ្ចូលត្រូវតែ​មាន​លេខ 5 ខ្ទង់"</string></resources>

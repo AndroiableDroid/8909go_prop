@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"ক্যারিয়ার কনফিগারেশন"</string>
+    <string name="multisim_category_text">"একাধিক SIM কনফিগারেশন"</string>
+    <string name="preset_category_text">"CHINA CARRIER"</string>
+    <string name="preset_category_text_default">"ডিফল্ট"</string>
+    <string name="preset_category_text_china">"চায়না ক্যারিয়ার"</string>
+    <string name="preset_category_text_regional">"আঞ্চলিক"</string>
+    <string name="sim_ssss_text">"একটি Sim একটি স্ট্যান্ডবাই"</string>
+    <string name="sim_dsds_text">"ডুয়াল Sim ডুয়াল স্ট্যান্ডবাই"</string>
+    <string name="sim_dsda_text">"ডুয়াল Sim ডুয়াল সক্রিয়"</string>
+    <string name="progress_wait">"কনফিগার করা হচ্ছে ..."</string>
+    <string name="alert_update_sim_mode_title">"SIM মোড আপডেট করুন"</string>
+    <string name="alert_update_sim_mode_text">"ফোনটি রিবুট করার পরে SIM মোড পরিবর্তন কাজ করবে। আপনি কি এখন আপডেট করতে চান?"</string>
+    <string name="alert_switch_title">"ক্যারিয়ার স্যুইচ করুন"</string>
+    <string name="alert_switch_text">"এই পদক্ষেপটি একাধিক-sim কনফিগারেশনের ডেটা সহ সমস্ত ডেটা মুছে দেবে।"</string>
+    <string name="alert_switch_error">"ক্যারিয়ার স্যুইচ ব্যর্থ হয়েছে, যথেষ্ট স্থান আছে কিনা দয়া করে পরীক্ষা করুন।"</string>
+    <string name="notice_row_title">"বিজ্ঞপ্তি"</string>
+    <string name="notice_row_text">"আপনার ফোন আপনার SIM কার্ড অ্যাডাপ্ট করতে সেট করা আছে। নতুন কনফিগার কার্যকর করতে অনুগ্রহ করে আপনার ফোন পুনঃশুরু করুন।"</string>
+    <string name="notice_special_install_title">"মনোযোগ দিন"</string>
+    <string name="notice_special_install_text">"আপনার SIM কার্ডের সাথে মানিয়ে নিতে আপনার ফোন সেট হতে পারে। কিন্তু এই ক্রিয়া সমস্ত ডেটা মুছে দেবে, আপনি কি এখন সেট করতে চান?"</string>
+    <string name="welcome_title">"স্বাগতম"</string>
+    <string name="welcome_message">"অনুগ্রহ করে আপনার ভাষা মনোনয়ন করুন"</string>
+    <string name="start_text">"চালু করুন"</string>
+    <string name="emergency_call_text">"আপৎকালীন কল"</string>
+    <string name="trigger_title">"কনফিগার করুন"</string>
+    <string name="trigger_message">"অনুগ্রহ করে একটি প্যাকেজ নির্বাচন করুন"</string>
+    <string name="trigger_uninstall_message">"আপনার Sim কার্ডের সাথে কোনও প্যাকেজ মিলছে না। আপনার ফোনটিকে আবার মূল প্যাকেজে কনফিগার করা যেতে পারে।\n\nআপনার ফোন আবার এতে কনফিগার করুন:"</string>
+    <string name="trigger_no_text">"কনফিগার করবেন না"</string>
+    <string name="trigger_yes_text">"কনফিগার শুরু করুন"</string>
+    <string name="trigger_ask_text">"আমাকে পরে জিজ্ঞাসা করুন"</string>
+    <string name="begin_config_text">"কনফিগার শুরু করুন"</string>
+    <string name="alter_no_carrier_selected">"কোনও ক্যারিয়ার নির্বাচিত নেই অনুগ্রহ করে এক বা অধিক নির্বাচন করুন।"</string>
+    <string name="download_ota_package_title">"ota ফাইলগুলি ডাউনলোড করুন"</string>
+    <string name="download_ota_package_message">"লোড হচ্ছে..."</string>
+    <string name="alter_network_state_error">"অনুগ্রহ করে নেটওয়ার্কের স্থিতি পরীক্ষা করুন।"</string>
+    <string name="alter_file_not_found_error">"ota ফাইল সঞ্চয় করতে পারে না, অনুগ্রহ করে পরে সঞ্চয়স্থানের স্থিতি পরীক্ষা করুন।"</string>
+    <string name="carrier_clear_final_desc">"আপনার সমস্ত ব্যক্তিগত তথ্য এবং ক্যারিয়ার কনফিগারেশন মুছে ফেলবেন? এই ক্রিয়াটিকে আপনি আনডু করতে পারবেন না!"</string>
+    <string name="carrier_clear_final_button_text">"সমস্ত কিছু মুছুন"</string>
+    <string name="carrier_clear_no_default_pack">"আপনার ডিভাইসে কোনো ডিফল্ট প্যাক নেই।"</string>
+    <string name="carrier_clear_parsing_not_finish">"এখনও ডিফল্ট প্যাকটি সন্ধান করা হচ্ছে।"</string></resources>

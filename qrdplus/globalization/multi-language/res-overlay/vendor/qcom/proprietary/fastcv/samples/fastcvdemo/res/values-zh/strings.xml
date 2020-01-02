@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+   <string name="activity_Corner">"边角检测"</string>
+   <string name="activity_Filter">"过滤"</string>
+   <string name="activity_FilterCorr">"FilterCorr"</string>
+   <string name="activity_Scale">"缩放"</string>
+   <string name="activity_Warp">"弯曲"</string>
+   <string name="activity_ImgDiff">"图片差异"</string>
+   <string name="activity_ImageGradient">"图片渐变"</string>
+   <string name="activity_OpticalFlow">"LK 光流"</string>
+   <string name="activity_Affine">"仿射"</string>
+   <string name="activity_Rotate">"旋转"</string>
+   <string name="activity_ScaleDownMN">"ScaleDownMN"</string>
+   <string name="app_name">"FastCV Demo 应用"</string>
+   <string name="label_text">"在此处键入："</string>
+   <string name="textview01_text">"TextView01"</string>
+   <string name="startpreview_text">"开始"</string>
+   <string name="stoppreview_text">"停止"</string>
+   <string name="settings">"设置"</string>
+   <string name="txtAcceleration">"切换加速"</string>
+   <string name="about">"关于"</string>
+   <string name="versionNumber_text">"FastCV 版本"</string>
+   <string name="appName_text">"应用名称"</string>
+   <string name="appName">"FastCV Demo 应用"</string>
+   <string name="detectionName">"检测模块"</string>
+   <string-array name="CameraOnOffArray">
+      <item>"取景器开 "</item>
+      <item>"取景器关 "</item>
+   </string-array>
+   <string-array name="CameraOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray">
+      <item>"禁用高斯 3x3 滤镜  "</item>
+      <item>"启用高斯 3x3 滤镜 "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray2">
+      <item>"禁用高斯 5x5 滤镜  "</item>
+      <item>"启用高斯 5x5 滤镜 "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray2">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray3">
+      <item>"禁用高斯 11x11 滤镜  "</item>
+      <item>"启用高斯 11x11 滤镜 "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray3">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="CannyOnOffArray">
+      <item>"禁用 Canny 边缘检测  "</item>
+      <item>"启用精细边缘检测 "</item>
+   </string-array>
+   <string-array name="CannyOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="cornerDetectorDownSampleArray">
+      <item>1 </item>
+      <item>2 </item>
+      <item>4 </item>
+      <item>8 </item>
+   </string-array>
+   <string-array name="cornerDetectorDownSampleValuesArray">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+   </string-array>
+   <string-array name="cornerDetectorThresholdArray">
+      <item>5 </item>
+      <item>10 </item>
+      <item>20 </item>
+      <item>40 </item>
+      <item>80 </item>
+   </string-array>
+   <string-array name="cornerDetectorValuesArray">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+   </string-array>
+<string-array name="CornerOnOnOffArray">
+      <item>"禁用边角叠加  "</item>
+      <item>"启用边角叠加 "</item>
+   </string-array>
+   <string-array name="CornerOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="DetectionArray">
+      <item>CornerFast9u8 </item>
+      <item>CornerHarrisu8 </item>
+      <item>CornerFastInMasku8 </item>
+      <item>CornerHarrisInMasku8 </item>
+      <item>CornerFast9Scoreu8 </item>
+      <item>CornerFast9InMaskScoreu8</item>
+      <item>CornerFast10u8 </item>
+   </string-array>
+   <string-array name="DetectionValuesArray">
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+      <item>5</item>
+      <item>6</item>
+      <item>7</item>
+   </string-array></resources>

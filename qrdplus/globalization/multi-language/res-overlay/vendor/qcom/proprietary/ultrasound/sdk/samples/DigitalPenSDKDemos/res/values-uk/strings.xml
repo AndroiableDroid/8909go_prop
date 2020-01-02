@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Демонстрації SDP SDK"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"Розширена зона за межами екрана"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"Фоновий побічний канал"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"Пальці або стилус + натискання"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"Нахил осі"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"Наведення й бокова кнопка"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"Гумка та її вимикач"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"Це демонстрація функції малювання за межами екрана.\n\n1. Намальоване поза екраном відображатиметься справа.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. У нижньому правому куті віртуального екрана є кнопка. Піднімайте або опускайте перо над нею, щоб налаштувати прозорість кола.\n\n3. Натисніть її, щоб змінити колір кола."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"Це демонстрація способу функціонування фонового побічного каналу, коли екран увімкнено або вимкнено.\n\n1. Малюйте, коли екран вимкнено, а потім переглядайте своє зображення.\n\n2. Зображення зберігається, навіть якщо відкрити іншу програму або вимкнути екран."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"Наведення в межах екрана"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. Піднімайте й опускайте перо над екраном.\n\n2. Скористайтеся перемикачем, щоб вимкнути наведення.\n\n3. Скористайтеся повзунком, щоб задати максимальну відстань для наведення.\n\n4. Натисканням бокових кнопок можна змінювати колір кола наведення."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. Налаштуйте кнопку SDP як кнопку гумки в загальних налаштуваннях.\n\n2. Малюйте.\n\n3. Задайте таке налаштування: натискання на гумку перемикає режими. Натисніть кнопку гумки. Видаліть зайве. Натисніть кнопку гумки ще раз, щоб перейти до режиму малювання.\n\n4. Налаштуйте гумку таким чином, щоб стирання виконувалось утриманням. Тепер натисканням можна одразу видаляти непотрібне.\n\n5. Після цього скористайтеся перемикачем гумки, щоб вимкнути її."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"Перемикач гумки"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"Видалення полотна"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"Малюйте пером і пальцями.\nНамальоване кожним способом відображатиметься відповідним кольором.\nШирина штриха визначається силою натискання й має числове вираження."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"Натискання"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

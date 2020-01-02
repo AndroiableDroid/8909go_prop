@@ -1,0 +1,113 @@
+<resources>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+    <string name="app_name">"HudumayaSeempJ"</string>
+    <string-array name="cause_description_array">
+<item>"6:3:Kuchunguza mwingiliano / vifaa vya kuingiza data za mtumiaji wakati programu haionekani na mtumiaji au wakati programu inatekelewa katika usuli"</item>
+    <item>"7:5:utumiaji wa UID ya android usioaminika "</item>
+    <item>"8:5:utumiaji wa UID ya android usioaminika wakati programu inatumika katika usuli"</item>
+    <item>"9:5:Ufikiaji usioaminika wa maelezo nyeti ya kifaa"</item>
+    <item>"10:5:Ufikiaji usioaminika wa maelezo nyeti ya kifaa wakati programu inatumika katika usuli"</item>
+    <item>"11:4:Ufikiaji usioaminika wa nambari ya simu"</item>
+    <item>"12:4:Ufikiaji usioaminika wa nambari wakati programu haitumiki na mtumiaji"</item>
+    <item>"13:2:programu inajaribu kupiga simu isiyoidhinishwa"</item>
+    <item>"14:2:programu inajaribu kupiga simu isiyoidhinishwa wakati programu inatumika katika usuli"</item>
+    <item>"15:4:Ufikiaji usio wa kawaida wa maelezo nyeti ya akaunti ya mtumiaji"</item>
+    <item>"16:4:Ufikiaji usio wa kawaida wa maelezo nyeti ya akaunti ya mtumiaji wakati programu haitumiki na mtumiaji"</item>
+    <item>"17:4:Programu inajaribu kufikia maelezo nyeti ya akaunti ya mtumiaji bila kumwarifu"</item>
+    <item>"18:4:Programu inajaribu kufikia maelezo nyeti ya akaunti ya mtumiaji bila kumwarifu ikitumika katika usuli"</item>
+    <item>"19:3:Ufikiaji usioaminika wa maelezo nyeti ya kivinjari"</item>
+    <item>"20:3:Ufikiaji usioaminika wa maelezo nyeti ya kivinjari programu inapotumika katika usuli"</item>
+    <item>"21:3:inafikia maelezo nyeti ya kivinjari (yanayoweza kujumuisha maelezo nyeti ya mtumiaji) wakati programu haitumiki na mtumiaji"</item>
+    <item>"22:3:inafikia maelezo nyeti ya kivinjari (yanayoweza kujumuisha maelezo nyeti ya mtumiaji) wakati programu haitumiki na mtumiaji na inatumika katika usuli"</item>
+    <item>"23:6:usakinishaji usio wa kawaida/unaokiuka viwango wa njia za mkato"</item>
+    <item>"24:6:programu inajaribu kusakinisha njia ya mkato wakati inatumika katika usuli"</item>
+    <item>"25:6:programu inajaribu kusakinisha njia ya mkato wakati haitumiki na mtumiaji"</item>
+    <item>"26:6:programu inajaribu kusakinisha njia ya mkato wakati haitumiki na mtumiaji na wakati inatumika katika usuli"</item>
+    <item>"27:4:Inafikia maelezo nyeti ya kalenda"</item>
+    <item>"28:4:Inafikia maelezo nyeti ya kalenda wakati programu inatumika katika usuli"</item>
+    <item>"29:1:Inaingiza maelezo/matukio katika kalenda wakati haitumiki na mtumiaji"</item>
+    <item>"30:1:Inaingiza maelezo/matukio katika kalenda wakati haitumiki na mtumiaji wakati programu inatumika katika usuli"</item>
+    <item>"31:5:Ufikiaji usio wa kawaida / Unaokiuka viwango wa maelezo ya eneo"</item>
+    <item>"32:5:Ufikiaji usio wa kawaida / Unaokiuka viwango wa maelezo ya eneo wakati programu inatumika katika usuli"</item>
+    <item>"37:3:Utumiaji usioaminika wa kamera (unaoweza kujumuisha kupiga picha na kurekodi video)"</item>
+    <item>"38:3:Utumiaji usioaminika wa kamera (unaoweza kujumuisha kupiga picha na kurekodi video) wakati programu inatumika katika usuli"</item>
+    <item>"39:3:Upigaji picha (unaoweza kujumuisha kurekodi video) na kuzituma kwenye seva ya mbali"</item>
+    <item>"40:3:Upigaji picha (unaoweza kujumuisha kurekodi video) na kuzituma kwenye seva ya mbali wakati seva inatumika katika usuli"</item>
+    <item>"41:3:Upigaji picha (unaoweza kujumuisha kurekodi video) bila kutumika na mtumiaji"</item>
+    <item>"42:3:Upigaji picha (unaoweza kujumuisha kurekodi video) bila kutumika na mtumiaji na wakati programu inatumika katika usuli"</item>
+    <item>"43:3:Upigaji picha (unaoweza kujumuisha kurekodi video) bila kutumika na mtumiaji na kuzituma kwenye seva ya mbali"</item>
+    <item>"44:3:Upigaji picha (unaoweza kujumuisha kurekodi video) bila kutumika na mtumiaji na kuzituma kwenye seva ya mbali na wakati programu inatumika katika usuli"</item>
+    <item>"45:3:Utumiaji usioaminika wa kamera ya video (unaoweza kujumuisha kupiga picha na kurekodi video)"</item>
+    <item>"46:3:Utumiaji usioaminika wa kamera ya video (unaoweza kujumuisha kupiga picha na kurekodi video) wakati programu inatumika katika usuli"</item>
+    <item>"47:3:Kurekodi video na kuzituma kwenye seva ya mbali"</item>
+    <item>"48:3:Kurekodi video na kuzituma kwenye seva ya mbali wakati seva inatumika katika usuli"</item>
+    <item>"49:3:Kurekodi video wakati haitumiki na mtumiaji"</item>
+    <item>"50:3:Kurekodi video wakati haitumiki na mtumiaji na wakati programu inatumika katika usuli"</item>
+    <item>"51:3:Kurekodi video na kuzituma kwenye seva ya mbali bila kutumika na mtumiaji"</item>
+    <item>"52:3:Kurekodi video na kuzituma kwenye seva ya mbali bila kutumika na mtumiaji na wakati seva inatumika katika usuli"</item>
+    <item>"53:3:Kurekodi data ya kipasa sauti kusikoaminika"</item>
+    <item>"54:3:Kurekodi data ya kipasa sauti kusikoaminika wakati programu inatumika katika usuli"</item>
+    <item>"55:3:Kurekodi data ya kipasa sauti kusikoaminika na kuituma kwenye seva ya mbali"</item>
+    <item>"56:3:Kurekodi data ya kipasa sauti kusikoaminika na kuituma kwenye seva ya mbali wakati seva inatumika katika usuli"</item>
+    <item>"57:3:Kurekodi data ya kipasa sauti kusikoaminika wakati programu haitumiki na mtumiaji"</item>
+    <item>"58:3:inarekodi data ya kipasa sauti wakati mtumiaji hatumii programu na programu inatumika katika usuli"</item>
+    <item>"59:3:Kurekodi na kutuma data ya kipasa sauti kusikoaminika wakati programu haitumiki na mtumiaji"</item>
+    <item>"60:3:inarekodi na kutuma data ya kipasa sauti wakati programu haitumiki na mtumiaji na inatumika katika usuli"</item>
+    <item>"61:2:Shughuli zisizoaminika za SMS: Inajaribu kutuma SMS (ambayo huenda ni ghali kwa nambari za kiwango cha juu)"</item>
+    <item>"62:2:Programu inajaribu kutuma SMS wakati inatumika katika usuli (ambayo huenda ni ghali kwa nambari za kiwango cha juu)"</item>
+    <item>"63:2:Shughuli zisizoaminika za SMS: Programu inatuma SMS (ambayo huenda ni ghali kwa nambari za kiwango cha juu) wakati haitumiki na mtumiaji"</item>
+    <item>"64:2:Programu inatuma SMS (ambayo huenda ni ghali kwa nambari za kiwango cha juu) wakati haitumiki na mtumiaji na wakati programu inatumika katika usuli"</item>
+    <item>"65:3:Ufikiaji usioaminika wa SMS (ikijumuisha kufungua na kusoma)"</item>
+    <item>"66:3:Kufikia na kusoma SMS wakati programu inatumika katika usuli"</item>
+    <item>"67:3:Kufikia na kusoma SMS wakati haitumiki na mtumiaji"</item>
+    <item>"68:3:Kufikia na kusoma SMS wakati haitumiki na mtumiaji wakati programu inatumika katika usuli"</item>
+    <item>"69:3:ufikiaji unaokiuka viwango/usio wa kawaida wa maelezo ya kihisio"</item>
+    <item>"70:3:ufikiaji unaokiuka viwango/usio wa kawaida wa maelezo ya kihisio wakati programu inatumika katika usuli"</item>
+    <item>"71:3:Utekaji usioaminika wa jumbe za MMS"</item>
+    <item>"72:3:Utekaji usioaminika wa jumbe za MMS wakati programu inatumika katika usuli"</item>
+    <item>"73:3:Utekaji usioaminika wa jumbe za MMS wakati haitumiki na mtumiaji"</item>
+    <item>"74:3:Utekaji usioaminika wa jumbe za MMS wakati haitumiki na mtumiaji na wakati programu inatumika katika usuli"</item>
+    <item>"75:4:Ufikiaji usio wa kawaida wa mojawapo au maelezo mengi ya anwani"</item>
+    <item>"76:4:Ufikiaji usio wa kawaida wa mojawapo au maelezo mengi ya anwani wakati programu inatumika katika usuli"</item>
+    <item>"77:4:Ufikiaji usio wa kawaida wa mojawapo au orodha nyingi za anwani wakati programu haitumiki na mtumiaji "</item>
+    <item>"78:4:Ufikiaji usio wa kawaida wa mojawapo au orodha nyingi za anwani wakati programu haitumiki na mtumiaji na wakati inatumika katika usuli"</item>
+    <item>"79:1:Usakishaji usioaminika wa programu nyingine"</item>
+    <item>"80:1:Usakishaji usioaminika wa programu nyingine wakati inatumika katika usuli"</item>
+    <item>"81:1:Usakishaji usioaminika wa programu nyingine wakati programu haitumiki na mtumiaji"</item>
+    <item>"82:1:Usakishaji usioaminika wa programu nyingine wakati programu haitumiki na mtumiaji na inatumika katika usuli"</item>
+    <item>"83:5:utumaji UID ya android unaokiuka viwango/usio wa kawaida"</item>
+    <item>"84:5:utumaji UID ya android unaokiuka viwango/usio wa kawaida wakati programu haitumiki na mtumiaji na inatumika katika usuli"</item>
+    <item>"85:5:Ufikiaji na utumaji maelezo nyeti ya kifaa (unaoweza kujumuisha IMEI, nambari ya mfulululizo ya SIM na maelezo mengine yanayohusiana na mtoa huduma)"</item>
+    <item>"86:5:Ufikiaji na utumaji maelezo nyeti ya kifaa (unaoweza kujumuisha IMEI, nambari ya mfulululizo ya SIM na maelezo mengine yanayohusiana na mtoa huduma) wakati programu inatumika katika usuli"</item>
+    <item>"87:4:Ufikiaji na utumaji nambari ya simu ya mtumiaji kwenye seva ya mbali"</item>
+    <item>"88:4:Ufikiaji na utumaji nambari ya simu ya mtumiaji kwenye seva ya mbali wakati programu inatumika katika usuli"</item>
+    <item>"89:4:Utumaji maelezo nyeti ya akaunti ya mtumiaji / vitambulisho (vinavyoweza kujumuisha maelezo ya kadi ya mkopo au maelezo mengine ya kifedha)"</item>
+    <item>"90:4:Utumaji maelezo nyeti ya akaunti ya mtumiaji / vitambulisho (vinavyoweza kujumuisha maelezo ya kadi ya mkopo au maelezo mengine ya kifedha) wakati programu inatumika katika usuli"</item>
+    <item>"91:3:inafikia na kutuma maudhui nyeti ya kivinjari (yanayoweza kujumuisha maelezo nyeti ya mtumiaji)"</item>
+    <item>"92:3:inafikia na kutuma maudhui nyeti ya kivinjari (yanayoweza kujumuisha maelezo nyeti ya mtumiaji) wakati programu inatumika katika usuli"</item>
+    <item>"93:3:inafikia na kutuma maudhui nyeti ya kivinjari (yanayoweza kujumuisha maelezo nyeti ya mtumiaji)"</item>
+    <item>"94:3:inafikia na kutuma maudhui nyeti ya kivinjari (yanayoweza kujumuisha maelezo nyeti ya mtumiaji) wakati programu inatumika katika usuli"</item>
+    <item>"95:4:Inatuma maelezo ya kalenda kwenye seva ya mbali (inaweza kuchukua maelezo nyeti ya mtumiaji) "</item>
+    <item>"96:4:Inatuma maelezo ya kalenda kwenye seva ya mbali (inaweza kuchukua maelezo nyeti ya mtumiaji) wakati programu inatumika katika usuli"</item>
+    <item>"97:5:Ufikiaji usio wa kawaida / Unaokiuka viwango na utumaji maelezo ya eneo"</item>
+    <item>"98:5:Ufikiaji usio wa kawaida / Unaokiuka viwango na utumaji maelezo ya eneo wakati programu inatumika katika usuli"</item>
+    <item>"99:5:Ufikiaji usio wa kawaida / Unaokiuka viwango na utumaji maelezo ya eneo"</item>
+    <item>"100:5:Ufikiaji usio wa kawaida / Unaokiuka viwango na utumaji maelezo ya eneo wakati programu inatumika katika usuli"</item>
+    <item>"101:3:Utumaji unaokiuka viwango au usio wa kawaida wa maelezo ya kihisio wakati programu inatumika katika usuli"</item>
+    <item>"102:3:Utumaji unaokiuka viwango au usio wa kawaida wa maelezo ya kihisio wakati programu inatumika katika usuli"</item>
+    <item>"103:4:Inafikia mojawapo au orodha nyingi ya anwani na kuzituma kwenye seva ya mbali"</item>
+    <item>"104:4:Inafikia mojawapo au orodha nyingi ya anwani na kuzituma kwenye seva ya mbali wakati programu inatumika katika usuli"</item>
+    <item>"105:4:Inafikia mojawapo au orodha nyingi ya anwani na kuzituma kwenye seva ya mbali wakati programu haitumiki na mtumiaji"</item>
+    <item>"106:4:Inafikia mojawapo au orodha nyingi ya anwani na kuzituma kwenye seva ya mbali wakati programu haitumiki na mtumiaji na wakati programu inatumika katika usuli"</item>
+    <item>"109:3:ufikiaji unaokiuka viwango/usio wa kawaida wa maelezo ya kihisio"</item>
+    <item>"110:3:ufikiaji unaokiuka viwango/usio wa kawaida wa maelezo ya kihisio wakati programu inatumika katika usuli"</item>
+    <item>"121:5:Ufikiaji usioaminika wa mipangilio inayohusiana na kitambulisho cha kifaa"</item>
+    <item>"122:5:Ufikiaji usioaminika wa mipangilio inayohusiana na kitambulisho cha kifaa wakati programu inatumika katika usuli"</item>
+    <item>"162:3:Ubadilishaji usioaminika wa mipangilio ya modi ya ndegeni wakati programu inatumika katika usuli"</item>
+    <item>"164:3:Ubadilishaji usioaminika wa mipangilio ya king\'ora wakati programu inatumika katika usuli"</item>
+    <item>"202:3:Ubadilishaji usioaminika wa hali ya WiFi wakati programu inatumika katika usuli"</item>
+    </string-array></resources>

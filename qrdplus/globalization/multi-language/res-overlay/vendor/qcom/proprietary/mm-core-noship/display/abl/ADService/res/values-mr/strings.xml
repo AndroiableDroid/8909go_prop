@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"निश्चित प्रदर्शन सेटिंग्‍ज"</string>
+        <add-resource type="string" name="ad_settings_title"/>
+    <string name="ad_settings_title">"निश्चित प्रदर्शन सेटिंग्‍ज"</string>
+        <add-resource type="string" name="ad_enable_title"/>
+    <string name="ad_enable_title">"निश्चित प्रदर्शन सक्षम करा"</string>
+        <add-resource type="string" name="ad_enable_summary_on"/>
+    <string name="ad_enable_summary_on">"सभोवतालच्‍या स्थितीवर आधारित पाहणे वृद्धिंगत करा"</string>
+        <add-resource type="string" name="ad_enable_summary_off"/>
+    <string name="ad_enable_summary_off">"सभोवतालच्‍या अवस्‍थांसाठी पाहण्‍याचा अनुभव वृद्धिंगत होणार नाही"</string>
+        <add-resource type="string" name="ad_info_default"/>
+    <string name="ad_info_default">"अज्ञात"</string>
+        <add-resource type="string" name="ad_version_title"/>
+    <string name="ad_version_title">"जाहिरात आवृत्‍ती"</string>
+        <add-resource type="string" name="ad_assertive_title"/>
+    <string name="ad_assertive_title">"निश्चितता"</string>
+        <add-resource type="string" name="ad_assertive_summary"/>
+    <string name="ad_assertive_summary">"निश्चिततेचे मूल्‍य सेट करते"</string>
+        <add-resource type="string" name="ad_assertive_default"/>
+    <string name="ad_assertive_default">128</string>
+        <add-resource type="string" name="ad_assertive_max"/>
+    <string name="ad_assertive_max">255</string></resources>

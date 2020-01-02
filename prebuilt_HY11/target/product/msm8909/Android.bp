@@ -1,0 +1,10 @@
+cc_prebuilt_library_static {
+  name: "libqc-skia",
+  arch: {
+    arm: {
+      srcs: [
+        "obj/STATIC_LIBRARIES/libqc-skia_intermediates/libqc-skia.a",
+      ],
+    },
+  },
+}

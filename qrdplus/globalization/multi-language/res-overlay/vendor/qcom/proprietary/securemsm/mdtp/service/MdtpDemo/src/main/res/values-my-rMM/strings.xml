@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Mdtp ဒီမို"</string>
+    <string name="user_app">"MDTP အသုံးပြုသူ အက်ပ် : ပင်မ ဖန်သားပြင်"</string>
+    <string name="config_app">"MDTP အသုံးပြုသူ အက်ပ် : စီစဉ်ဖွဲ့စည်းမှု"</string>
+    <string name="server_app">"MDTP ဆာဗာ : ပင်မ ဖန်သားပြင်"</string>
+    <string name="action_settings">"ဆက်တင်များ"</string>
+    <string name="label_1_1">"MDTP အခြေအနေ :"</string>
+    <string name="state_deactivated">"သက်ဝင်မှုဖြုတ်ထားသည်"</string>
+    <string name="state_activated">"သက်ဝင်နေသည်"</string>
+    <string name="configuration">"ဖွဲ့စည်းလုပ်ဆောင်ခြင်း (သက်ဝင်မှုမဖြစ်မီသာလျှင်)"</string>
+    <string name="service_activate">"MDTP သက်ဝင်စေခြင်းကို MDTP ဝန်ဆောင်မှုများမှု တောင်းခံပါ"</string>
+    <string name="service_deactivate">"MDTP သက်ဝင်မှုဖြုတ်ခြင်းကို MDTP ဝန်ဆောင်မှုများမှ တောင်းခံပါ"</string>
+    <string name="local_deactivate">"ဒေသတွင်း MDTP သက်ဝင်မှုဖြုတ်ခြင်း (PIN အသုံးပြုပြီး)"</string>
+    <string name="service_console">"MDTP ဝန်ဆောင်မှုများ ခလုတ်ခုံ"</string>
+    <string name="title_activity_configuration">"အသုံးပြုသူ ဖွဲ့စည်းလုပ်ဆောင်ချက်"</string>
+    <string name="label_2_1">"ဒေသတွင်း PIN အသုံးပြုပါ :"</string>
+    <string name="label_2_2">"ပင် နံပါတ်:"</string>
+    <string name="gen_rand_pin">"ကျပန်း PIN ထုတ်လုပ်ပါ"</string>
+    <string name="label_2_3">"အတည်ပြုစစ်ဆေးမှု အချိုးအစား :"</string>
+    <string name="label_2_5">"SIM သော့ချမှု ဖွင့်ပါ :"</string>
+    <string name="label_2_6">"စစ်ဆေးအတည်ပြုရန် ဖြည့်စွက် ဖိုင်များ/ရင်းမြစ်လမ်းညွှန်များ :"</string>
+    <string name="reset">"မူရင်းပါပုံစံသို့ ပြန်လည်သတ်မှတ်ပါ"</string>
+    <string name="label_3_1">"ဆာဗာမှ ကိရိယာသို့ ညွှန်ကြားချက်များ ပေးပို့ပါ :"</string>
+    <string name="activate">"စတင်အသုံးပြုနိုင်စေရန် ပြုလုပ်မည်"</string>
+    <string name="deactivate">"အလုပ်မလုပ်ရန် ရပ်ဆိုင်းခြင်း"</string>
+    <string name="locksim">"SIM သော့ချပါ"</string>
+    <string name="unlocksim">"SIM သော့ဖွင့်ပါ"</string>
+    <string name="killfunc">"လုပ်ဆောင်နိုင်စွမ်း ရပ်တန့်ပါ"</string>
+    <string name="restorefunc">"လုပ်ဆောင်နိုင်စွမ်း ပြန်လည်ထားရှိပါ"</string>
+    <string name="label_3_2">"MDTP သက်ဝင်မှုဖြုတ်ရန် တောင်းခံချက်များ :"</string>
+    <string name="notallowed">"ခွင့်မပြုပါ"</string>
+    <string name="allowed">"ခွင့်ပြုသည်"</string>
+    <string name="label_3_3">"သတ်မှတ်လုပ်ဆောင်မှု အထောက်အကူ ပိတ်ဆီးမှုဖြုတ်ရန် တောင်းခံချက်များ :"</string>
+    <string name="label_3_4">"ဝန်ဆောင်မှု မှတ်တမ်း :"</string>
+    <string name="wizard_app_loading_title">"MDTP သတ်မှတ်လုပ်ဆောင်မှု အထောက်အကူ : အစပျိုးနေသည်..."</string>
+    <string name="label_4_1">"MDTP အခြေအနေ သက်ဝင်နေသည့်အတွက် သတ်မှတ်လုပ်ဆောင်မှု အထောက်အကူကို ပိတ်ဆီးထားသည်"</string>
+    <string name="label_4_2">"ရွေးစရာ A: MDTP ဆက်လက်သက်ဝင်နေသော်လည်း ဆာဗာ ခွင့်ပြုချက်ကို တောင်းခံနေသည်"</string>
+    <string name="wiz_unblock">"MDTP ဝန်ဆောင်မှုများမှ သတ်မှတ်လုပ်ဆောင်မှု အထောက်အကူ ပိတ်ဆီးမှုဖြုတ်ရန် တောင်းခံပါ"</string>
+    <string name="wiz_cont">"ဆက်လုပ်ပါ (ဆာဗာမှ ခွင့်ပြုထားသည်)"</string>
+    <string name="label_4_3">"ရွေးစရာ B: MDTP သက်ဝင်မှုဖြုတ်ပါ (သတ်မှတ်လုပ်ဆောင်မှု အထောက်အကူ ပိတ်ဆီးမှု ဖယ်ရှားသွားမည်)"</string>
+    <string name="wiz_remote">"အဝေးမှ MDTP သက်ဝင်မှုဖြုတ်ရန် တောင်းခံပါ"</string>
+    <string name="wiz_local">"ဒေသတွင်း MDTP သက်ဝင်မှုဖြုတ်ခြင်း"</string>
+    <string name="label_4_4">"MDTP အခြေအနေ သက်ဝင်မှုမရှိသည့်အတွက် သတ်မှတ်လုပ်ဆောင်မှု အထောက်အကူကို ဆက်လုပ်ရန် ခွင့်ပြုထားသည်"</string>
+    <string name="wiz_complete">"သတ်မှတ်လုပ်ဆောင်မှု အထောက်အကူကို ပြီးစီးစေပါ (MDTP အခြေအနေသည် သက်ဝင်နေမှုမရှိပါ)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"သတ်မှတ်လုပ်ဆောင်မှု အထောက်အကူ"</string>
+    <string name="label_signup_message">"MDTP သည် လက်ရှိတွင် သင်ဝင်မှုမရှိပါ။\n၎င်းကို သက်ဝင်စေလိုသလား?"</string>
+    <string name="label_signup_message_activated">"MDTP ကို အောင်မြင်စွာ သက်ဝင်စေလိုက်ပါပြီ!"</string>
+    <string name="skip_activation">"သက်ဝင်စေခြင်းကို ကျော်သွားပါ"</string>
+    <string name="emergency_dialer">"အရေးပေါ်နံပါတ်ခေါ်ဆိုနံပါတ်ကွက်"</string>
+    <string name="wiz_title_sign_up">"MDTP သတ်မှတ်လုပ်ဆောင်မှု အထောက်အကူ - မှတ်ပုံတင်စာရင်းသွင်းပါ"</string>
+    <string name="wiz_title_reset_prot">"MDTP သတ်မှတ်လုပ်ဆောင်မှု အထောက်အကူ - စက်ရုံထုတ် ပြန်လည်သတ်မှတ်ချက် ကာကွယ်ရေး"</string>
+    <string name="wiz_title_boot_block">"MDTP သတ်မှတ်လုပ်ဆောင်မှု အထောက်အကူ - ကိရိယာကို ပိတ်ဆီးထားသည်"</string>
+    <string name="block_boot_warning_text">"စက်တွင်းအမှားရှိသည့်အတွက် MDTP သည် ဤကိရိယာကို ပိတ်ဆီးထားသည်။\n\nကိရိယာကို reboot ပြန်လုပ်ပါ။"</string>
+    <string name="start_wifi_wizard">"WiFi သတ်မှတ်လုပ်ဆောင်ပါ"</string>
+    <string name="default_pin_hint">"မူလ PIN သည် 11111 ဖြစ်သည်"</string>
+    <string name="pin_dialog_title">"MDTP ဒေသတွင်း သက်ဝင်မှုဖြုတ်မှု PIN လိုအပ်သည်"</string>
+    <string name="pin_input_validation_warning">"ထည့်သွင်းမှုသည် ဂဏန်းနှင့် နံပါတ် 5 လုံးရှိရမည်"</string></resources>

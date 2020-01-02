@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"रोमिंग सेटिंग्स"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"खोलें"</string>
+    <string name="data_roaming_title">"रोमिंग के समय डेटा सेवाएं कनेक्ट करें"</string>
+    <string name="manual_select_network">"मैन्युअल नेटवर्क चयन"</string>
+    <string name="roaming_card_info">"यह मोबाइल व्यवसाय कार्ड प्राथमिकता का उपयोग करेगा"</string>
+    <string name="network_select_success_info">"“<xliff:g id="name">%s</xliff:g>” नेटवर्क पर 	सफलतापूर्वक पंजीकृत करें, जब नेटवर्क उपलब्ध न हो, तो स्वचालित रूप से पंजीकृत करें संपन्न होगा"</string>
+    <string name="network_select_failure_info">"आपके द्वारा चुना गया नेटवर्क “<xliff:g id="name">%s</xliff:g>” उपलब्ध नहीं है, दूसरे नेटवर्क पर स्वचालित रूप से पंजीकरण करना आरंभ करें"</string>
+    <string name="network_auto_success_info">"सफलतापूर्वक नेटवर्क पर स्वचालित रूप से पंजीकरण करें"</string>
+    <string name="network_auto_failure_info">"आपके द्वारा चुना गया नेटवर्क GSM उपलब्ध नहीं है, दूसरे नेटवर्क पर स्वचालित रूप से पंजीकरण करना आरंभ करें"</string>
+    <string name="manual_select_network_tip">"यह कार्यवाही केवल तभी मान्य है, जबकि समय"</string>
+    <string name="gsm_network_list_title">"चयन-योग्य नेटवर्क"</string>
+    <string name="searching_cdma_network_title">"अब cdma नेटवर्क खोज रहा है......"</string>
+    <string name="searching_gsm_network_title">"अब gsm नेटवर्क खोज रहा है......"</string>
+    <string name="empty_networks_list">"कोई नेटवर्क नहीं मिला."</string>
+    <string name="register_on_network">"<xliff:g id="NETWORK">%s</xliff:g> पर पंजीकरण कर रहा है\u2026"</string>
+    <string name="register_automatically">"स्वचालित पंजीकरण..."</string>
+    <string name="network_select_setting">"नेटवर्क सेटिंग"</string>
+    <string name="roaming_hotline">"रोमिंग हॉटलाइन +8618918910000"</string>
+    <string name="carrier_names">"चाइना टेलीकॉम"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"डेटा अक्षम हो रहा है..."</string>
+    <string name="unable_to_disable_data">"डेटा अक्षम करने में असमर्थ."</string>
+    <string name="avoid_cur_nwk_succeeded">"द्वारा वर्तमान नेटवर्क को वर्जन सूची में जोड़ा जाता है."</string>
+    <string name="avoid_cur_nwk_failed">"वर्तमान नेटवर्क को वर्जन सूची में जोड़ने में असमर्थ हैं."</string>
+    <string name="clear_nwk_list_succeeded">"नेटवर्क वर्जन सूची खाली की गई."</string>
+    <string name="clear_nwk_list_failed">"नेटवर्क वर्जन सूची खाली करने में असमर्थ हैं."</string>
+    <string name="ok_btn">"ठीक"</string>
+    <string name="cancel_btn">"रहने दें"</string>
+    <string name="confirm_avoid">"क्या आप वाक़ई वर्तमान नेटवर्क से बचना चाहते हैं?"</string>
+    <string name="confirm_clear">"क्या आप वाक़ई नेटवर्क वर्जन सूची खाली करना चाहते हैं?"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"CDMA चयन"</string>
+    <string name="pref_gsm_choose_title">"GSM चयन"</string>
+    <string name="pref_network_info_title">"वर्तमान नेटवर्क की जानकारी"</string>
+    <string name="alert_msg_enable_card">"क्या आप इस कार्ड को सक्षम करना चाहते हैं?"</string>
+    <string name="alert_msg_disable_card">"क्या आप इस कार्ड को अक्षम करना चाहते हैं?"</string>
+    <string name="progress_msg_enable_card">"इस कार्ड को सक्षम करें, कृपया प्रतीक्षा करें..."</string>
+    <string name="progress_msg_disable_card">"इस कार्ड को अक्षम करें, कृपया प्रतीक्षा करें..."</string>
+    <string name="operation_success">"कार्यवाही सफल"</string>
+    <string name="operation_failure">"कार्रवाई विफल"</string>
+    <string name="result_btn">"ठीक"</string>
+    <string name="alert_data_roaming_title">"डेटा रोमिंग की अनुमति दें"</string>
+    <string name="alert_data_roaming_msg">"जब आप डेटा रोमिंग की अनुमति देते हैं, तो परिणामस्वरूप आप पर रोमिंग शुल्‍क लग सकते हैं!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"अज्ञात"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"उपलब्ध नहीं"</string>
+    <string name="status_network_type">"मोबाइल नेटवर्क प्रकार"</string>
+    <string name="status_signal_strength">"सिग्‍नल शक्ति"</string>
+    <string name="status_prl_version">"PRL संस्करण"</string>
+    <string name="status_data_state">"मोबाइल नेटवर्क स्थिति"</string>
+    <string name="status_netowrk_title">"वर्तमान Sim स्थिति"</string>
+    <string name="status_operator_name">"ऑपरेटर का नाम"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"सेल ID"</string>
+    <string name="status_sms_center_number">"Sms सेंटर नंबर"</string>
+    <string name="status_pnl_version">"पसंदीदा नेटवर्क सूची संस्करण"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"अगले नेटवर्क पर मैन्युअल रूप से स्विच करें"</string>
+    <string name="avoid_discription">"निर्देश:\n  स्वचालित रूप से नेटवर्क का चयन करें CDMA सिस्टम में डिफ़ॉल्ट है, मैन्युअल रूप से चयन करना आवश्यक नहीं है, लेकिन यदि वर्तमान नेटवर्क का उपयोग नहीं किया जा सकता तो अगले नेटवर्क पर मैन्युअल रूप से स्विच करने का प्रयास करें. "</string>
+    <string name="attention_dialog_title">"ध्यान दें"</string>
+    <string name="disable_both_sim_error_msg">"एक ही समय पर दोनो SIM अक्षम नहीं कर सकते हैं"</string>
+    <string name="China_Mobile">"चाइना मोबाइल"</string>
+    <string name="China_Unicom">"चाइना यूनीकॉम"</string>
+    <string name="China_Telecom">"चाइना टेलीकॉम"</string></resources>

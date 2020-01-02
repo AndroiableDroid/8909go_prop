@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"rcs_device_service"</string>
+    <add-resource type="string" name="rcs_service_is_remove"/>
+    <string name="rcs_service_is_remove">"rcs_service ถูกลบแล้ว โปรดติดตั้งใหม่!!!"</string>
+    <add-resource type="string" name="updateProfileInfo"/>
+    <string name="updateProfileInfo">"อัปเดตข้อมูลข้อความโปรไฟล์"</string>
+    <add-resource type="string" name="updateProfilePortait"/>
+    <string name="updateProfilePortait">"อัปเดตข้อมูลภาพโปรไฟล์"</string>
+    <add-resource type="string" name="deleteAllMessage"/>
+    <string name="deleteAllMessage">"ลบข้อความทั้งหมด"</string>
+    <add-resource type="string" name="setChairman"/>
+    <string name="setChairman">"ตั้งค่าประธานใหม่ในการสนทนากลุ่ม"</string>
+    <add-resource type="string" name="modifySubject"/>
+    <string name="modifySubject">"แก้ไขเรื่องในการสนทนากลุ่ม"</string>
+    <add-resource type="string" name="modifyNickName"/>
+    <string name="modifyNickName">"แก้ไขชื่อเล่นของสมาชิกในการสนทนากลุ่ม"</string>
+    <add-resource type="string" name="acceptInvitation"/>
+    <string name="acceptInvitation">"ยอมรับคำเชิญเข้าร่วมการสนทนากลุ่ม"</string>
+    <add-resource type="string" name="quitConversation"/>
+    <string name="quitConversation">"ออกจากการสนทนากลุ่ม"</string>
+    <add-resource type="string" name="removeParticipants"/>
+    <string name="removeParticipants">"เชิญผู้เข้าร่วมในการสนทนากลุ่มออก"</string>
+    <add-resource type="string" name="abortConversation"/>
+    <string name="abortConversation">"ปิดการสนทนากลุ่ม"</string>
+    <add-resource type="string" name="followPublicAccount"/>
+    <string name="followPublicAccount">"สนใจบัญชีสาธารณะ"</string>
+    <add-resource type="string" name="unfollowPublicAccount"/>
+    <string name="unfollowPublicAccount">"ไม่สนใจบัญชีสาธารณะ"</string>
+    <add-resource type="string" name="reportPublicAccount"/>
+    <string name="reportPublicAccount">"รายงานบัญชีสาธารณะ"</string>
+    <add-resource type="string" name="title_activity_app_ops"/>
+    <string name="title_activity_app_ops">"การอนุญาต api ที่ละเอียดอ่อน"</string>
+    <add-resource type="string" name="app_ops_status_desc"/>
+    <string name="app_ops_status_desc">"แอพ %1$d ที่ได้รับอนุญาต (รวม %2$d )"</string>
+    <add-resource type="string" name="never_ask_text"/>
+    <string name="never_ask_text">"ไม่ต้องถามอีก"</string>
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"ตกลง"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"ยกเลิก"</string>
+    <add-resource type="string" name="api_func_desc"/>
+    <string name="api_func_desc">"การดำเนินการนี้ออกแบบมาเพื่อ %1$s  การปฏิเสธการอนุญาตอาจทำให้แอปไม่ทำงานตามที่ต้องการ"</string>
+    <add-resource type="string" name="api_func_permission_title"/>
+    <string name="api_func_permission_title">"การอนุญาต %1$s"</string>
+    <add-resource type="string" name="permission_tip_message"/>
+    <string name="permission_tip_message">"คุณต้องให้อนุญาต %1$s"</string>
+    <add-resource type="string" name="sdcard_perm_tip_message"/>
+    <string name="sdcard_perm_tip_message">"คุณต้องให้อนุญาตการเข้าถึง sdcard"</string>
+    <add-resource type="string" name="contacts_perm_tip_message"/>
+    <string name="contacts_perm_tip_message">"คุณต้องให้อนุญาตการเข้าถึงผู้ติดต่อ"</string>
+    <add-resource type="string" name="sms_perm_tip_message"/>
+    <string name="sms_perm_tip_message">"คุณต้องให้อนุญาตการเข้าถึง sms"</string></resources>

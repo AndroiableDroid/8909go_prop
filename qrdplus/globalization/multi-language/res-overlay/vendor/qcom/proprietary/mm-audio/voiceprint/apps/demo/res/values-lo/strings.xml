@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"ມີ​ຊາວ​ສີ່​ຊົ່ວ​ໂມງ​ໃນ​ມື້ໜຶ່ງ"</string>
+    <string name="hi_snapdragon">"ສະບາຍດີ Snapdragon"</string>
+    <string name="hey_snapdragon">"Hey Snapdragon"</string>
+    <string name="my_voice">"​ສຽງ​ຂອງ​ຂ້ອຍ​ແມ່ນ​ລະຫັດ​ຜ່ານ​ຂອງ​ຂ້ອຍ"</string>
+    <string name="make_my_day">"​ສ້າງ​ວັນ​ຂອງ​ຂ້ອຍ"</string>
+    <string name="tomorrow_is_another">"​ມື້​ອື່ນ​ແມ່ນ​ວັນ​ໃໝ່"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"​ຍິນ​ດີ​ຕ້ອນຮັບ​ສູ່ຊານ​ດີ​ເອ​ໂກ"</string>
+    <string name="okay_google">"Okay Google"</string>
+    <string name="open_my_email">"​ເປີດ​ອີ​ເມ​ວຂອງ​ຂ້ອຍ"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"​ການ​ພິມ​ດ້ວຍ​ສຽງ"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"​ການ​ຕັ້ງ​ຄ່າ"</string>
+    <string name="action_add">"ເພີ່ມ"</string>
+    <string name="title_activity_main_with_fragment">"MainWithFragmentActivity"</string>
+    <string name="tap_mic_start">"​ແຕະ​ໄມ​ເພື່ອ​ເລີ່​ມຕົ້ນ"</string>
+    <string name="tap_mic_stop">"​ແຕະ​ໄມ​ເພື່ອ​ຢຸດ"</string>
+    <string name="say_key_phrase">"​ເວົ້າ \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"ເວົ້າວະລີ \"&lt;b&gt;%1$s&lt;/b&gt;\" ອີກ​ຄັ້ງ​ໜຶ່ງ."</string>
+    <string name="say_one_of_key_phrases">"​ເວົ້າ​ໜຶ່ງ​ໃນ​ວະລີ​ສຳຄັນ"</string>
+    <string name="phrase_recognized">"ມີ​ການ​ຮັບ​ຮູ້​ຖ້ອຍ​ຄຳ \"&lt;b&gt;%1$s&lt;/b&gt;\" "</string>
+    <string name="recording_length_exceeded">"ຄວາມ​ຍາວ​​ການ​ອັດ​ບັນທຶກ​​ເກີນ​ແລ້ວ"</string>
+    <string name="recording_length_exceeded_msg">"​ໄດ້​ເກີນ​ຄວາມ​ຍາວ​ການ​ອັດ​ບັນທຶກ​ແລ້​ວ ກະລຸນາ​ລອງ​ໃໝ່."</string>
+    <string name="delete_all">"ລຶບທັງໝົດ"</string>
+    <string name="delete_all_msg">"ທ່ານແນ່ໃຈບໍວ່າທ່ານຕ້ອງການລຶບ​ແມ່​ແບບ​ທີ່​ລົງທະບຽນ​ໄວ້​ທັງ​ໝົດ?"</string>
+    <string name="got_it">"ດີຫຼາຍ! ຂ້ອຍເຂົ້າໃຈແລ້ວ."</string>
+    <string name="set_key_phrase">"​ຕັ້ງວະລີ​ສຳຄັນ"</string>
+    <string name="set_key_phrase_name">"​ຕັ້ງຊື່ວະລີ​ສຳຄັນ"</string>
+    <string name="set_key_phrase_action">"​ຕັ້ງ​ການ​ດຳ​ເນີນ​ການ"</string>
+    <string name="change_key_phrase_action">"​ປ່ຽນ​ການ​ດຳ​ເນີນ​ການ"</string>
+    <string name="phrase_strength">"ຄວາມ​ຍາກ​ຂອງ​ວະລີ"</string>
+    <string name="phrase_strength_hint">"​ລອງ​ວະລີ​ທີ່​ປະກອບ​ມີ​ຢ່າງ​ໜ້ອຍ​ສາມ​ຄຳ."</string>
+    <string name="register_phrase">"ລົງທະບຽນ​ວະລີ"</string>
+    <string name="register_phrase_hint">"​ເພື່ອ​ຊ່ວຍ​​ໃຫ້ຂ້ອຍ​ຮັບ​ຮູ້​ສຽງ​ຂອງ​ທ່ານ, ກະລຸນາ​ອັດ​ບັນທຶກ​ວະລີ \"&lt;b&gt;%1$s&lt;/b&gt;\" ສາມ​ຄັ້ງ."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" ອັດ​ສຽງໃນ​ຫ້ອງ​ທີ່​ມິດ​ງຽບ.\n\n"<b>"2."</b>" ​ຈັບ​ໂທລະສັບຂອງ​ທ່ານ​ໃຫ້​ຢູ່​ຫ່າງ​ຈາກ​ປາກ​ຂອງ​ທ່ານ. \n\n"<b>"3."</b>" ​ເວົ້າ​ວະລີ​ສຳຄັນ​ຂອງ​ທ່ານ​ຢ່າງ​ເປັນ​ທຳ​ມະ​ຊາດ."</string>
+    <string name="ready_to_record">"ຕົກລົງ, ຂ້ອຍ​ພ້ອມ​ທີ່​ຈະ​ອັດ​ສຽງ​ແລ້ວ"</string>
+    <string name="oops">"ອຸຍ! ລອງໃ​ໝ່ອີກ​ຄັ້ງ."</string>
+    <string name="say_the_phrase">"​ເວົ້າ​ວະລີ​ນັ້ນ\"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"ວະລີ \"&lt;b&gt;%1$s&lt;/b&gt;\" ​ໄ​ດ້ຖືກ​ລົງທະບຽນ​ແລ້ວ"</string>
+    <string name="say_the_phrase_few_more">"​ເວົ້າ \"&lt;b&gt;%1$s&lt;/b&gt;\" ອີກ​ສອງ​ສາມ​ຄັ້ງ"</string>
+    <string name="voice_print">"​ການ​ພິມ​ດ້ວຍ​ສຽງ"</string>
+    <string name="cancel">"ຍົກເລີກ"</string>
+    <string name="voice_level">"​ລະດັບ​ສຽງ"</string>
+    <string name="background_noise">"​ສຽງ​ໃ​ນພື້ນ​ຫຼັງ"</string>
+    <string name="cap_done">"ແລ້ວໆ"</string>
+    <string name="cap_record">"ອັດບັນທຶກ"</string>
+    <string name="cap_next">"​ຕໍ່​ໄປ"</string>
+    <string name="cap_ok">"ຕົກລົງ"</string>
+    <string name="next">"ຕໍ່ໄປ"</string>
+    <string name="new_key_phrase">"ວະລີ​ສຳຄັນ​ໃໝ່"</string>
+    <string name="edit_keyphrases">"​ແກ້​ໄຂວະລີ​ສຳຄັນ​"</string>
+    <string name="set_name">"ຕັ້ງ​ຊື່"</string>
+    <string name="select_key_phrase">"​ເລືອກວະລີ​ສຳຄັນ​"</string>
+    <string name="set_action">"​ຕັ້ງ​ການ​ດຳ​ເນີນ​ການ"</string>
+    <string name="registration_complete">"ການ​ລົງທະບຽນ​ສຳ​ເລັດ​ແລ້ວ"</string>
+    <string name="confirm_pin">"ຢືນຢັນ​​ເລກ PIN ຂອງ​ທ່ານ"</string>
+    <string name="confirm_pin_msg">"ປ້ອນ​ເລກ PIN ຂອງອຸປະກອນ​ເພື່ອ​ແກ້​ໄຂ​ວະລີ​​ສຳຄັນ."</string>
+    <string name="your_key_phrase">"​ວະລີ​ສຳຄັນ​ຂອງ​ທ່ານ"</string>
+    <string name="cap_redo">"ເຮັດຄືນ​ໃໝ່"</string>
+    <string name="cap_redo_previous">"​ເ​ຮັດ​ຄືນ​ອັນ​ຜ່ານ​ມາ"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"​ເປີດ​ເບິ່ງ​ວະລີ​ທີ່​ແນະນຳ​ໃຫ້"</string>
+    <string name="create_your_own">"ສ້າງວະລີຂອງທ່ານເອງ"</string>
+    <string name="skip">"ຂ້າມ"</string>
+    <string name="none">"ບໍ່ມີ"</string>
+    <string name="enter_pin">"ປ້ອນ​ເລກ PIN ຂອງອຸປະກອນ​ເພື່ອ​ແກ້​ໄຂ​ວະລີ​​ສຳຄັນ."</string>
+    <string name="your_key_phrase_name">"ຊື່ວະລີ​ສຳຄັນຂອງ​ທ່ານ"</string>
+    <string name="new_key_phrase_name">"ຊື່ວະລີ​ສຳຄັນ​ໃໝ່"</string>
+    <string name="set_service_to_launch">"​ຕັ້ງ​ການ​ບໍລິການ​​ເພື່ອ​ເປີດ​ໃຊ້"</string>
+    <string name="email">"ອີເມວ"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"ສົ່ງຂໍ້ຄວາມອັກສອນ"</string>
+    <string name="use_selected_phrase">"​ໃຊ້​ວະ​ລີ​ທີ່​ເລື​ອກ"</string>
+    <string name="about">"ກ່ຽວກັບ"</string>
+    <string name="edit_key_phrases">"​ແກ້​ໄຂວະລີ​ສຳຄັນ​"</string>
+    <string name="invalid_phrasename_title">"ຊື່​ວະລີ​ດບໍ່​ຖືກຕ້ອງ"</string>
+    <string name="invalid_phrasename_msg">"ຊື່ວະລີບໍ່ສາມາດວ່າງເປົ່າໄດ້."</string>
+    <string name="duplicate_phrasename_msg">"ຊື່ວະລີມີຢູ່ແລ້ວ. ​ລອງ​ຊື່​ອື່ນ."</string>
+    <string name="invalid_phrase_title">"ວະລີ​ດບໍ່​ຖືກຕ້ອງ"</string>
+    <string name="invalid_phrase_msg">"ວະລີບໍ່ສາມາດວ່າງເປົ່າໄດ້."</string>
+    <string name="edit_action">"​ແກ້​ໄຂ​ການ​ດຳ​ເນີນ​ການ"</string>
+    <string name="threshold">"ຂີດຈຳກັດ"</string>
+    <string name="delete_phrase">"ລຶບ​ວະລີ"</string>
+    <string name="rename">"​ປ່ຽນ​ຊື່"</string>
+    <string name="rename_keyphrase">"​ປ່ຽນຊື່ວະລີ​ສຳຄັນ​"</string>
+    <string name="adjust_keyword_sensitivity">"ປັບ​ຄວາມ​ອ່ອນ​ໄຫວ​ຂອງ​ຄຳ​ສຳຄັນ"</string>
+    <string name="adjust_keyword_sensitivity_summary">"​ສາມາດ​ປັບ​ຄວາ​ມອ່ອນ​ໄຫວ​ເພື່ອ​ອະນຸຍາດ​ໃຫ້​ມີ​ບາງ​ການ​ຜິດ​ບ່ຽງ​ໃນ​ການ​ຮັບ​ຮູ້ວະລີ​ສຳຄັນ."</string>
+    <string name="sensitivity">"ຄວາມ​ອ່ອນ​ໄຫວ"</string>
+    <string name="low_sensitivity">"​ຄວາມ​ອ່ອນ​ໄຫວ​ຕໍ່າ"</string>
+    <string name="med_sensitivity">"​ຄວາມ​ອ່ອນ​ໄຫວ​ປານ​ກາງ"</string>
+    <string name="high_sensitivity">"​ຄວາມ​ອ່ອນ​ໄຫວ​ສູງ"</string>
+    <string name="low">"ຕໍ່າ"</string>
+    <string name="med">"ປານ​ກາງ"</string>
+    <string name="high">"ສູງ"</string>
+    <string name="low_sensitivity_summary">"ຍອມຮັບ​ການ​ຜິດ​ບ່ຽງ​ເພີ່ມ​ເຕີ​ມ​ໃນ​ຂະ​ບວນການ​ຮັບ​ຮູ້​ວະລີ​ສຳຄັນ."</string>
+    <string name="med_sensitivity_summary">"ຍອມຮັບ​ບາງ​ການ​ຜິດ​ບ່ຽງ​ໃນ​ຂະ​ບວນການ​ຮັບ​ຮູ້​ວະລີ​ສຳຄັນ, ​ແຕ່​ອາດ​ຈະ​ຂັດຂວາງ​ການ​ຮັບ​ຮູ້​ບາງ​ວະລີສຳຄັນ​ໄດ້."</string>
+    <string name="high_sensitivity_summary">"ຄວາມ​ປອດ​ໄພ​ເພີ່ມ​ເຕີມ, ​ແຕ່​ອາດ​ຈະ​ຂັດຂວາງ​ການ​ຮັບ​ຮູ້​ບາງ​ວະລີ​ສຳຄັນ​ໄດ້."</string>
+    <string name="keyword_sensitivity">"ຄວາ​ມ​ອ່ອນ​ໄຫວ​ຂອງ​ຄຳ​ສຳຄັນ"</string>
+    <string name="delete_phrase_msg">"ທ່ານແນ່ໃຈບໍວ່າທ່ານຕ້ອງການລຶບວະລີ \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"ການ​ພິມ​ດ້ວຍ​ສຽ​ງບໍ່​ມີ​ໃຫ້​ໃຊ້​ງານ"</string>
+    <string name="voice_print_not_available_msg">"ການ​ພິມ​ດ້ວຍ​ສຽງ​ບໍ່​ໄດ້​ຖືກ​ເປີດ​ໃຊ້​ຢູ່​ໃນອຸ​ປະ​ກອນ​ນີ້."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"​ລຶບ​ສຳ​ເລັດ​ແລ້ວ"</string>
+    <string name="delete_success_msg">"​ຕົວຢ່າງ​ວະລີ​ສຳຄັນ​ໄດ້​ຖືກ​ລຶບ​ແລ້ວ."</string>
+    <string name="delete_fail_title">"ລຶ​ບບໍ່​ສຳ​ເລັດ"</string>
+    <string name="delete_fail_msg">"​ພົບ​ຄວາມ​ຜິດພາດ​ໃນ​ການ​ລຶບ​ຕົວຢ່າງ​ວະລີ​ສຳຄັນ."</string>
+    <string name="rename_success_title">"ປ່ຽນ​ຊື່​ສຳ​ເລັດ​ແລ້ວ"</string>
+    <string name="rename_success_msg">"​ຕົວຢ່າງ​ວະລີ​ສຳຄັນ​ໄດ້​ຖືກປ່ຽນ​ຊື່ແລ້ວ."</string>
+    <string name="rename_fail_title">"​ປ່ຽນ​ຊື່​ບໍ່​ສຳ​ເລັດ"</string>
+    <string name="rename_fail_msg">"​ພົບ​ຄວາມ​ຜິດພາດ​ໃນ​ການ​ປ່ຽນ​ຊື່ຕົວຢ່າງ​ວະລີ​ສຳຄັນ."</string>
+    <string name="pin_validation">"​ການກວດ​ຮັບຮອງ PIN"</string>
+    <string name="pin_failed">"ການ​ປ້ອນ PIN ບໍ່​ຖືກຕ້ອງ!"</string>
+    <string name="registration_failed">"ການຈົດທະບຽນບໍ່ສຳເລັດ"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"ຂີດ​ຈຳ​ກັດ​ຜູ້​ໃຊ້"</string>
+    <string name="spoof_score">"ຂີດ​ຈຳ​ກັດສະ​ປູບ"</string>
+    <string name="thresholds">"ຂີດ​ຈຳ​ກັດ"</string>
+    <string name="save">"ບັນທຶກ"</string>
+    <string name="sentence_score_msg">"ຕັ້ງ​ຂີດ​ຈຳ​ກັດ​ປະ​ໂຫຍກ"</string>
+    <string name="user_score_msg">"ຕັ້ງ​ຂີດ​ຈຳ​ກັດ​ຜູ້​ໃຊ້"</string>
+    <string name="spoof_score_msg">"ຕັ້ງ​ຂີດ​ຈຳ​ກັດສະ​ປູບ"</string>
+    <string name="sentence_score">"ຂີດ​ຈຳ​ກັດ​ປະ​ໂຫຍກ"</string></resources>

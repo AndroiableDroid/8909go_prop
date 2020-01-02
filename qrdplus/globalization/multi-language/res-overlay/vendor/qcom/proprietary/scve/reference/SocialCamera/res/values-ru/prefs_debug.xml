@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Отобразить показатели отладки"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"Сохранить снимки"</string>
+    <string name="debug_pref_save_pictures_desc">"Сохранить захваченные снимки на SD-карту"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"Сохран. кадры для предв. просм."</string>
+    <string name="debug_pref_save_preview_frames_desc">"Сохран. кадры для предв. просм. на SD-карту"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Разреш. удал. кадров для предв. просм."</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"Разреш. удал. кадров для сохран. их частоты при сохран. кадров для предв. просм."</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Включить подробную запись в журнал при распознавании лиц"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of The Linux Foundation nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Strings for step option settins -->
+    <string name="setp_option_name">"Bước"</string>
+    <string name="step_option_desc">"Tùy chỉnh bước tới/lùi nhanh"</string>
+    <string name="setp_option_three_second">"3 giây"</string>
+    <string name="setp_option_six_second">"6 giây"</string>
+    <string name="loop">"Lặp lại"</string>
+    <string name="single">"Đơn"</string>
+    <string name="stereo">"Âm thanh nổi"</string>
+    <string name="speaker_on">"Loa BẬT"</string>
+    <string name="speaker_off">"Loa TẮT"</string>
+    <string name="speaker_need_headset">"Vui lòng cắm tai nghe trước!"</string>
+    <string name="single_track">"Một bài nhạc"</string>
+    <string name="media_detail">"Chi tiết tệp đa phương tiện"</string>
+    <string name="input_url">"URL nhập"</string>
+    <string name="streaming_settings">"Cài đặt truyền trực tiếp"</string>
+    <string name="next">"Tiếp theo"</string>
+    <string name="previous">"Trước"</string>
+    <string name="rtp_rtcp">"RTP/RTCP"</string>
+    <string name="min_port">"cổng tối thiểu:"</string>
+    <string name="max_port">"cổng tối đa:"</string>
+    <string name="buffer_size">"Kích thước bộ nhớ đệm"</string>
+    <string name="apn">"APN ưa thích"</string>
+    <string name="rtp_min_port">"Cổng tối thiểu"</string>
+    <string name="rtp_max_port">"Cổng tối đa"</string>
+    <string name="set_rtp_min_port">"Thiết lập cổng tối thiểu"</string>
+    <string name="set_rtp_max_port">"Thiết lập cổng tối đa"</string>
+    <string name="set_buffer_size">"Thiết lập kích thước bộ nhớ đệm"</string>
+    <string name="set_apn">"Chọn apn ưa thích"</string>
+    <string name="setting">"Cài đặt"</string>
+    <string name="server_timeout_title">"Thời gian chờ máy chủ"</string>
+    <string name="server_timeout_message">"Kết nối lại máy chủ để phát video hay không?"</string>
+    <string name="videoview_error_text_cannot_connect_retry">"Kết nối không thành công, hãy thử kết nối lại %1$d..."</string>
+    <string name="media_controller_live">"Trực tiếp"</string>
+    <string name="media_controller_playing">"Đang phát"</string>
+    <string name="media_controller_connecting">"Đang kết nối..."</string>
+    <string name="bookmark_add">"Thêm thẻ đánh dấu"</string>
+    <string name="bookmark_display">"Hiển thị thẻ đánh dấu"</string>
+    <string name="bookmark_empty">"Không có thẻ đánh dấu"</string>
+    <string name="bookmark_exist">"Cùng một thẻ đánh dấu trong lịch sử"</string>
+    <string name="bookmark_add_success">"Thêm thẻ đánh dấu thành công"</string>
+    <string name="bookmark_list">"Thẻ đánh dấu"</string>
+    <string name="bookmark_title">"Tiêu đề"</string>
+    <string name="bookmark_location">"Vị trí"</string>
+    <string name="delete_all">"Xóa tất cả"</string>
+    <string name="default_title">"Tiêu đề mặc định"</string></resources>

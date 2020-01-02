@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtectDBG"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"Informações do App"</string>
+    <string name="title_trusted">"Apps Confiáveis"</string>
+    <string name="title_about">"Sobre"</string>
+    <string name="title_settings">"Configurações"</string>
+    <string name="drawer_open_title">"Snapdragon Smart Protect"</string>
+<string name="service_status_on">"Ativado"</string>
+    <string name="service_status_off">"Desativado"</string>
+    <string name="err_title">"Erro do App"</string>
+    <string name="err_msg_init">"O Snapdragon Smart Protect não pode inicializar a biblioteca QSSP. Interrompendo o serviço"</string>
+    <string name="err_msg_load_model">"O Snapdragon Smart Protect não pode carregar o modelo. Interrompendo o serviço"</string>
+    <string name="err_msg_malicious_alert">"O Snapdragon Smart Protect não pode registrar alertas maliciosos. Interrompendo o serviço"</string>
+    <string name="err_msg_benign_alert">"O Snapdragon Smart Protect não pode registrar alertas benignos. Interrompendo o serviço"</string>
+    <string name="err_msg_service_not_up">"O Snapdragon Smart Protect não pode mais encontrar o serviço."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"Todos os direitos reservados."</string>
+    <string name="about_information_line1">"O Qualcomm® Snapdragon™ Smart Protecté um produto da Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Qualcomm e Snapdragon são marcas comerciais da Qualcomm Incorporated, registradas nos Estados Unidos e em outros países, utilizadas com permissão."</string>
+    <string name="btn_restore_default">"RESTAURAR AS CONFIGURAÇÕES PADRÃO"</string>
+    <string name="btn_clear_history">"LIMPAR HISTÓRICO DO SMART PROTECT"</string>
+    <string name="trusted_btn">"ADICIONAR À LISTA DE APPS CONFIÁVEIS"</string>
+    <string name="uninstall_btn">"DESINSTALAR"</string>
+    <string name="details_btn">"DETALHES"</string>
+    <string name="done_btn">"CONCLUÍDO"</string>
+    <string name="remove_trusted_btn">"REMOVER DA LISTA DE APPS CONFIÁVEIS"</string>
+    <string name="uninstall_confirm_message">"Deseja desinstalar este app?"</string>
+    <string name="uninstall_success">"Pacote desinstalado com sucesso"</string>
+    <string name="uninstall_failed">"Falha ao desinstalar o pacote"</string>
+    <string name="clear_history_done">"Histórico apagado com sucesso"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon Smart Protect"</string>
+    <string name="drawer_threats">"Ameaças Detectadas (%1$s)"</string>
+    <string name="drawer_threat_null">"Proteção de privacidade e detecção de malware no dispositivo em tempo real"</string>
+    <string name="drawer_option_dashboard">"Painel"</string>
+    <string name="drawer_option_trusted_apps">"Apps Confiáveis"</string>
+    <string name="drawer_option_settings">"Configurações"</string>
+    <string name="drawer_option_about">"Sobre"</string>
+    <string name="dashboard_list_title">"Selecione um app para ver os detalhes e recomendações do Snapdragon Smart Protect."</string>
+    <string name="dashboard_list_empty">"Nenhum app está sendo monitorado."</string>
+    <string name="app_info_recommend">"Recomendação:"</string>
+    <string name="app_info_version">"versão"</string>
+    <string name="app_uninstalled">"O app não existe mais no dispositivo. Pressione OK para sair."</string>
+    <string name="malicious_item_threat">"O Snapdragon Smart Protect detectou:"</string>
+    <string name="malicious_item_confidence">"Nível de fidelidade:"</string>
+    <string name="malicious_item_analysis">"Análise"</string>
+    <string name="malicious_recommend">"Desinstalar"</string>
+    <string name="good_threat">"Nenhuma ameaça detectada."</string>
+    <string name="good_recommend">"Selecione Concluído, então o Snapdragon Smart Protect continuará monitorando este app."</string>
+    <string name="good_title">"Bom"</string>
+    <string name="trusted_item_title">"O Snapdragon Smart Protect não monitora as atividades do %1$s, pois ele não está na sua lista de Apps Confiáveis.\n\n Se você não tiver certeza sobre a segurança deste app, então o remova da lista de Apps Confiáveis."</string>
+    <string name="trusted_list_title">"O Snapdragon Smart Protect não monitora os apps dessa lista."</string>
+    <string name="trusted_list_subtitle">"Se você não tiver certeza sobre a segurança deste app, remova-o da lista de Apps Confiáveis."</string>
+    <string name="trusted_list_empty">"Não há apps na sua lista de apps confiáveis."</string>
+    <string name="trusted_list_empty_desc">"Isso fornece proteção máxima, porque o Snapdragon Smart Protect está monitorando todos os seus apps."</string>
+    <string name="trusted_confirm_message">"Você deseja adicionar este app à sua lista de Apps Confiáveis?\n\nSe você não tem certeza sobre a segurança deste app, selecione Cancelar."</string>
+    <string name="malicious_ntf_message">"O Snapdragon Smart Protect detectou atividade maliciosa em %1$s."</string>
+    <string name="malicious_ntf_recommend">"Recomendação: Desinstalar"</string>
+    <string name="malicious_dialog_title">"Malicioso"</string>
+    <string name="malicious_text">"Malicioso"</string>
+    <string name="malware_ntf_message">"O Snapdragon Smart Protect detectou um malware em %1$s."</string>
+    <string name="malware_dialog_title">"Malware detectado"</string>
+    <string name="malware_title">"Malware"</string>
+    <string name="spyware_ntf_message">"O Snapdragon Smart Protect detectou um spyware em %1$s."</string>
+    <string name="spyware_dialog_title">"Spyware detectado"</string>
+    <string name="spyware_title">"Spyware"</string>
+    <string name="adware_ntf_message">"O Snapdragon Smart Protect detectou um adware em %1$s."</string>
+    <string name="adware_dialog_title">"Adware detectado"</string>
+    <string name="adware_title">"Adware"</string>
+<string name="err_no_app_dashborad">"a lista de apps do painel está vazia"</string>
+    <string name="analysis_title">"%1$sé susceptível a ser mal intencionado, pelas seguintes razões:"</string>
+    <string name="service_label">"Serviço Sphinx"</string>
+    <string name="unknown_code">" Código -%1$d"</string>
+    <string name="default_code_detail">"App tentando realizar atividade maliciosa."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"Pode estar executando atividade prejudicial em seu dispositivo."</item>
+        <item>"Malware Nível 1: Realiza atividade prejudicial para o conteúdo do usuário, apps e dispositivos."</item>
+        <item>"Malware Nível 2: Realiza atividade que pode custar dinheiro ao usuário."</item>
+        <item>"Spyware Nível 3: Perda/roubo do conteúdo e espionar ativamente os usuários."</item>
+        <item>"Spyware Nível 4: Perda/roubo de informações meta do usuário."</item>
+        <item>"Spyware Nível 5: Perda/roubo de informações confidenciais do usuário."</item>
+        <item>"Annoyware Nível 6: Adware agressivo e/ou app invasivo."</item>
+    </string-array>
+    <string name="setting_level1_title">"Malware Nível 1"</string>
+    <string name="setting_level2_title">"Malware Nível 2"</string>
+    <string name="setting_level3_title">"Spyware Nível 3"</string>
+    <string name="setting_level4_title">"Spyware Nível 4"</string>
+    <string name="setting_level5_title">"Spyware Nível 5"</string>
+    <string name="setting_level6_title">"Adware Nível 6"</string>
+    <string name="setting_mode_title">"Modo"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"Alerta pop-up e padrão"</item>
+        <item>"Alerta padrão"</item>
+        <item>"Nenhum alerta"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"Modo Normal"</item>
+        <item>"Modo Silencioso"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<string name="monitor_feature_title">"Monitorar Recurso"</string>
+    <string name="err_msg_no_rfm">"O Snapdragon Smart Protect não pode encontrar os arquivos RFM no dispositivo"</string>
+    <string name="err_msg_monitor">"O Snapdragon Smart Protect não pode monitorar os recursos"</string>
+    <string name="title_debug">"Depurar"</string>
+    <string name="drawer_option_debug">"Depurar"</string>
+    <string name="set_rfm_file">"Escolher Arquivo RFM"</string>
+    <string name="debug_rfm_model">"Arquivo RFM"</string>
+    <string name="debug_mnf_apply">"Monitorar Recurso"</string></resources>

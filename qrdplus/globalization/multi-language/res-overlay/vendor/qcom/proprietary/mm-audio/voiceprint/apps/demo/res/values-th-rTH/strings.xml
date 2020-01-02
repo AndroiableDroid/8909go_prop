@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"มีเวลายี่สิบสี่ชั่วโมงในหนึ่งวัน"</string>
+    <string name="hi_snapdragon">"สวัสดี Snapdragon"</string>
+    <string name="hey_snapdragon">"Hey Snapdragon"</string>
+    <string name="my_voice">"เสียงของฉันคือรหัสผ่าน"</string>
+    <string name="make_my_day">"ทำให้ฉันมีความสุข"</string>
+    <string name="tomorrow_is_another">"พรุ่งนี้คืออีกวันหนึ่ง"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"ยินดีต้อนรับสู่ San Diego"</string>
+    <string name="okay_google">"โอเค Google"</string>
+    <string name="open_my_email">"เปิดอีเมลของฉัน"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"สั่งพิมพ์ด้วยเสียง"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"การตั้งค่า"</string>
+    <string name="action_add">"เพิ่ม"</string>
+    <string name="title_activity_main_with_fragment">"MainWithFragmentActivity"</string>
+    <string name="tap_mic_start">"แตะที่ไมโครโฟนเพื่อเริ่ม"</string>
+    <string name="tap_mic_stop">"แตะที่ไมโครโฟนเพื่อหยุด"</string>
+    <string name="say_key_phrase">"พูด \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"พูดวลี \"&lt;b&gt;%1$s&lt;/b&gt;\" อีกครั้งหนึ่ง"</string>
+    <string name="say_one_of_key_phrases">"พูดวลีที่สำคัญ"</string>
+    <string name="phrase_recognized">"วลี \"&lt;b&gt;%1$s&lt;/b&gt;\" ถูกจดจำแล้ว "</string>
+    <string name="recording_length_exceeded">"ความยาวในการจดจำมากเกินไป"</string>
+    <string name="recording_length_exceeded_msg">"ความยาวในการจดจำมากเกินกว่าที่กำหนด โปรดลองอีกครั้ง"</string>
+    <string name="delete_all">"ลบทั้งหมด"</string>
+    <string name="delete_all_msg">"คุณแน่ใจหรือไม่ว่าต้องการลบรูปแบบทั้งหมดที่ถูกบันทึก?"</string>
+    <string name="got_it">"ยอดเยี่ยม! ฉันเข้าใจแล้ว"</string>
+    <string name="set_key_phrase">"พูดวลีสำคัญ"</string>
+    <string name="set_key_phrase_name">"พูดชื่อของวลีสำคัญ"</string>
+    <string name="set_key_phrase_action">"ตั้งการดำเนินการ"</string>
+    <string name="change_key_phrase_action">"เปลี่ยนการดำเนินการ"</string>
+    <string name="phrase_strength">"ความยาววลี"</string>
+    <string name="phrase_strength_hint">"ลองวลีที่มีความยาวอย่างน้อยสองถึงสามคำ"</string>
+    <string name="register_phrase">"ลงบันทึกวลี"</string>
+    <string name="register_phrase_hint">"สำหรับการช่วยให้ฉันจดจำเสียงของคุณ โปรดบันทึกวลี \"&lt;b&gt;%1$s&lt;/b&gt;\" สามครั้ง"</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" บันทึกในห้องที่เงียบ. \n\n"<b>"2."</b>"ถือโทรศัพท์ของคุณให้ห่างจากปาก.\n\n"<b>"3."</b>"พูดวลีสำคัญอย่างเป็นธรรมชาติ"</string>
+    <string name="ready_to_record">"โอเค ฉันพร้อมแล้วสำหรับการบันทึก"</string>
+    <string name="oops">"อุ๊บส์! โปรดลองอีกครั้ง"</string>
+    <string name="say_the_phrase">"พูดวลี \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"วลี \"&lt;b&gt;%1$s&lt;/b&gt;\" ได้ถูกบันทึกแล้ว"</string>
+    <string name="say_the_phrase_few_more">"พูด \"&lt;b&gt;%1$s&lt;/b&gt;\" อีกสองถึงสามครั้ง"</string>
+    <string name="voice_print">"สั่งพิมพ์ด้วยเสียง"</string>
+    <string name="cancel">"ยกเลิก"</string>
+    <string name="voice_level">"ระดับความดังเสียง"</string>
+    <string name="background_noise">"เสียงภายนอก"</string>
+    <string name="cap_done">"เสร็จสิ้น"</string>
+    <string name="cap_record">"บันทึก"</string>
+    <string name="cap_next">"ถัดไป"</string>
+    <string name="cap_ok">"ตกลง"</string>
+    <string name="next">"ถัดไป"</string>
+    <string name="new_key_phrase">"วลีสำคัญใหม่"</string>
+    <string name="edit_keyphrases">"แก้ไขวลีสำคัญ"</string>
+    <string name="set_name">"ตั้งชื่อ"</string>
+    <string name="select_key_phrase">"เลือกวลีสำคัญ"</string>
+    <string name="set_action">"ตั้งการดำเนินการ"</string>
+    <string name="registration_complete">"การบันทึกเสร็จสิ้น"</string>
+    <string name="confirm_pin">"ยืนยันหมายเลข PIN"</string>
+    <string name="confirm_pin_msg">"ใส่หมายเลข PIN ของอุปกรณ์คุณเพื่อแก้ไขวลีสำคัญ"</string>
+    <string name="your_key_phrase">"วลีสำคัญของคุณ"</string>
+    <string name="cap_redo">"ทำซ้ำ"</string>
+    <string name="cap_redo_previous">"ทำซ้ำก่อนหน้า"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"เลือกวลีสำคัญ"</string>
+    <string name="create_your_own">"สร้างวลีของคุณเอง"</string>
+    <string name="skip">"ข้าม"</string>
+    <string name="none">"ไม่มี"</string>
+    <string name="enter_pin">"ใส่หมายเลข PIN ของอุปกรณ์คุณเพื่อแก้ไขวลีสำคัญ"</string>
+    <string name="your_key_phrase_name">"ชื่อวลีสำคัญของคุณ"</string>
+    <string name="new_key_phrase_name">"กำหนดชื่อวลีสำคัญใหม่"</string>
+    <string name="set_service_to_launch">"ตั้งค่าการบริการให้ทำงาน"</string>
+    <string name="email">"อีเมล"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"ส่งข้อความ"</string>
+    <string name="use_selected_phrase">"ใช้วลีที่เลือก"</string>
+    <string name="about">"เกี่ยวกับ"</string>
+    <string name="edit_key_phrases">"แก้ไขวลีสำคัญ"</string>
+    <string name="invalid_phrasename_title">"ชื่อวลีผิด"</string>
+    <string name="invalid_phrasename_msg">"ชื่อวลีไม่สามารถปล่อยว่างได้"</string>
+    <string name="duplicate_phrasename_msg">"ชื่อวลีนี้มีอยู่แล้ว ลองชื่ออื่นๆ"</string>
+    <string name="invalid_phrase_title">"วลีไม่ถูกต้อง"</string>
+    <string name="invalid_phrase_msg">"วลีไม่สามารถปล่อยว่างได้"</string>
+    <string name="edit_action">"แก้ไขการดำเนินการ"</string>
+    <string name="threshold">"เกณฑ์"</string>
+    <string name="delete_phrase">"ลบวลี"</string>
+    <string name="rename">"เปลี่ยนชื่อ"</string>
+    <string name="rename_keyphrase">"เปลี่ยนชื่อวลีสำคัญ"</string>
+    <string name="adjust_keyword_sensitivity">"ปรับเปลี่ยนความละเอียดอ่อนของคำสำคัญ"</string>
+    <string name="adjust_keyword_sensitivity_summary">"ความละเอียดอ่อนสามารถปรับเปลี่ยนเพื่อตามการจดจำวลีสำคัญที่ต่างกัน"</string>
+    <string name="sensitivity">"ความละเอียดอ่อน"</string>
+    <string name="low_sensitivity">"ความละเอียดอ่อนต่ำ"</string>
+    <string name="med_sensitivity">"ความละเอียดอ่อนปานกลาง"</string>
+    <string name="high_sensitivity">"ความละเอียดอ่อนสูง"</string>
+    <string name="low">"ต่ำ"</string>
+    <string name="med">"กลาง"</string>
+    <string name="high">"HIGH"</string>
+    <string name="low_sensitivity_summary">"ยอมรับความแตกต่างที่มากขึ้นในขั้นตอนการจดจำวลีสำคัญ"</string>
+    <string name="med_sensitivity_summary">"ยอมรับความแตกต่างที่เล็กน้อยในขั้นตอนการจดจำวลีสำคัญ แต่ป้องกันวลีสำคัญบางอย่างจากการถูกจดจำ"</string>
+    <string name="high_sensitivity_summary">"ความปลอดภัยที่มากขึ้นแต่อาจป้องกันวลีสำคัญบางอย่างจากการถูกจดจำ"</string>
+    <string name="keyword_sensitivity">"ความละเอียดอ่อนของคำสำคัญ"</string>
+    <string name="delete_phrase_msg">"คุณแน่ใจหรือไม่ว่าต้องการลบวลี \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"การสั่งพิมพ์ด้วยเสียงไม่สามารถใช้ได้"</string>
+    <string name="voice_print_not_available_msg">"การสั่งพิมพ์ด้วยเสียงไม่สามารถใช้งานได้บนอุปกรณ์นี้"</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"การลบเสร็จสิ้น"</string>
+    <string name="delete_success_msg">"รูปแบบวลีสำคัญถูกลบแล้ว"</string>
+    <string name="delete_fail_title">"การลบล้มเหลว"</string>
+    <string name="delete_fail_msg">"พบความผิดพลาดขณะทำการลบรูปแบบวลีสำคัญ"</string>
+    <string name="rename_success_title">"การเปลี่ยนชื่อเสร็จสิ้น"</string>
+    <string name="rename_success_msg">"รูปแบบวลีสำคัญถูกเปลี่ยนชื่อแล้ว"</string>
+    <string name="rename_fail_title">"การเปลี่ยนชื่้อล้มเหลว"</string>
+    <string name="rename_fail_msg">"พบความผิดพลาดขณะทำการเปลี่ยนชื่อรูปแบบวลีสำคัญ"</string>
+    <string name="pin_validation">"กรยืนยัน PIN"</string>
+    <string name="pin_failed">"PIN ไม่ถูกต้อง!"</string>
+    <string name="registration_failed">"การบันทึกล้มเหลว"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"เกณฑ์ผู้ใช้"</string>
+    <string name="spoof_score">"เกณฑ์การตบตา"</string>
+    <string name="thresholds">"เกณฑ์"</string>
+    <string name="save">"บันทึก"</string>
+    <string name="sentence_score_msg">"ตั้งค่าเกณฑ์ประโยค"</string>
+    <string name="user_score_msg">"ตั้งค่าเกณฑ์ผู้ใช้"</string>
+    <string name="spoof_score_msg">"ตั้งค่าเกณฑ์การตบตา"</string>
+    <string name="sentence_score">"เกณฑ์ประโยค"</string></resources>

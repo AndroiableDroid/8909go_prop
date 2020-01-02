@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Protecţie inteligentă"</string>
+    <string name="title_dashboard">"Protecţie inteligentă Qualcomm® Snapdragon™"</string>
+    <string name="title_app_info">"Informaţii aplicaţie"</string>
+    <string name="title_trusted">"Aplicaţii de încredere"</string>
+    <string name="title_about">"Despre"</string>
+    <string name="title_settings">"Setări"</string>
+    <string name="drawer_open_title">"Protecţie inteligentă Snapdragon"</string>
+<string name="service_status_on">"Activată"</string>
+    <string name="service_status_off">"Dezactivată"</string>
+    <string name="err_title">"Eroare aplicaţie"</string>
+    <string name="err_msg_init">"Protecţie inteligentă Snapdragon nu a putut iniţializa biblioteca QSSP. Se opreşte serviciul"</string>
+    <string name="err_msg_load_model">"Protecţie inteligentă Snapdragon nu a putut încărca modelul. Se opreşte serviciul"</string>
+    <string name="err_msg_malicious_alert">"Protecţie inteligentă Snapdragon nu se poate înregistra pentru alerte rău intenţionate. Se opreşte serviciul"</string>
+    <string name="err_msg_benign_alert">"Protecţie inteligentă Snapdragon nu se poate înregistra pentru alerte benigne. Se opreşte serviciul"</string>
+    <string name="err_msg_service_not_up">"Protecţie inteligentă Snapdragon nu mai poate găsi serviciul."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"Toate drepturile rezervate."</string>
+    <string name="about_information_line1">"Protecţie inteligentă Snapdragon Qualcomm® Snapdragon™ este un produs al Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Qualcomm şi Snapdragon sunt mărci comerciale ale Qualcomm Incorporated, înregistrate în Statele Unite şi alte ţări, utilizate cu permisiune."</string>
+    <string name="btn_restore_default">"RESTAURARE SETĂRI IMPLICITE"</string>
+    <string name="btn_clear_history">"ŞTERGERE ISTORIC PROTECŢIE INTELIGENTĂ"</string>
+    <string name="trusted_btn">"ADĂUGARE LA LISTA DE APLICAŢII DE ÎNCREDERE"</string>
+    <string name="uninstall_btn">"DEZINSTALARE"</string>
+    <string name="details_btn">"DETALII"</string>
+    <string name="done_btn">"TERMINAT"</string>
+    <string name="remove_trusted_btn">"ELIMINARE DIN LISTA DE APLICAŢII DE ÎNCREDERE"</string>
+    <string name="uninstall_confirm_message">"Doriţi să dezinstalaţi această aplicaţie?"</string>
+    <string name="uninstall_success">"Pachetul a fost dezinstalat cu succes"</string>
+    <string name="uninstall_failed">"Dezinstalarea pachetului a eşuat"</string>
+    <string name="clear_history_done">"Ştergerea istoricului a avut succes"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Protecţie inteligentă Snapdragon"</string>
+    <string name="drawer_threats">"Ameninţări detectate (%1$s)"</string>
+    <string name="drawer_threat_null">"Protejarea confidenţialităţii pe dispozitiv, în timp real şi detectare de malware"</string>
+    <string name="drawer_option_dashboard">"Panou de bord"</string>
+    <string name="drawer_option_trusted_apps">"Aplicaţii de încredere"</string>
+    <string name="drawer_option_settings">"Setări"</string>
+    <string name="drawer_option_about">"Despre"</string>
+    <string name="dashboard_list_title">"Selectaţi o aplicaţie pentru a vedea detalii şi recomandări Protecţie inteligentă Snapdragon."</string>
+    <string name="dashboard_list_empty">"Nu se monitorizează aplicaţii."</string>
+    <string name="app_info_recommend">"Recomandare:"</string>
+    <string name="app_info_version">"versiune"</string>
+    <string name="app_uninstalled">"Aplicaţia nu mai este pe dispozitiv. Apăsaţi pe OK pentru a ieşi."</string>
+    <string name="malicious_item_threat">"Protecţie inteligentă Snapdragon a detectat:"</string>
+    <string name="malicious_item_confidence">"Nivel de încredere:"</string>
+    <string name="malicious_item_analysis">"Analiză"</string>
+    <string name="malicious_recommend">"Dezinstalaţi"</string>
+    <string name="good_threat">"Nu s-au detectat ameninţări."</string>
+    <string name="good_recommend">"Selectaţi Finalizat, astfel încât Protecţie inteligentă Snapdragon să monitorizeze în continuare această aplicaţie."</string>
+    <string name="good_title">"Bun"</string>
+    <string name="trusted_item_title">"Protecţie inteligentă Snapdragon nu monitorizează activităţile %1$s, deoarece este în lista dvs. de aplicaţii de încredere.\n\nDacă nu sunteţi sigur(ă) în ceea ce priveşte aplicaţia, atunci eliminaţi aceasta din lista de aplicaţii de încredere."</string>
+    <string name="trusted_list_title">"Protecţie inteligentă Snapdragon nu monitorizează aplicaţiile din această listă."</string>
+    <string name="trusted_list_subtitle">"Dacă nu sunteţi sigur(ă) în ceea ce priveşte siguranţa acestei aplicaţii, eliminaţi-o din lista de aplicaţii de încredere."</string>
+    <string name="trusted_list_empty">"Nu există aplicaţii în lista dvs. de aplicaţii de încredere."</string>
+    <string name="trusted_list_empty_desc">"Aceasta vă oferă protecţie maximă, deoarece astfel Protecţie inteligentă Snapdragon vă monitorizează toate aplicaţiile."</string>
+    <string name="trusted_confirm_message">"Doriţi să adăugaţi această aplicaţia la lista dvs. de aplicaţii de încredere?\n\nDacă nu sunteţi sigur(ă) în ceea ce priveşte siguranţa acestei aplicaţii, selectaţi Anulare."</string>
+    <string name="malicious_ntf_message">"Protecţie inteligentă Snapdragon a detectat activitate rău intenţionată în %1$s."</string>
+    <string name="malicious_ntf_recommend">"Recomandare: Dezinstalare"</string>
+    <string name="malicious_dialog_title">"Rău intenţionat(ă)"</string>
+    <string name="malicious_text">"Rău intenţionat(ă)"</string>
+    <string name="malware_ntf_message">"Protecţie inteligentă Snapdragon a detectat malware în %1$s."</string>
+    <string name="malware_dialog_title">"Malware detectat"</string>
+    <string name="malware_title">"Malware"</string>
+    <string name="spyware_ntf_message">"Protecţie inteligentă Snapdragon a detectat spyware în %1$s."</string>
+    <string name="spyware_dialog_title">"Spyware detectat"</string>
+    <string name="spyware_title">"Spyware"</string>
+    <string name="adware_ntf_message">"Protecţie inteligentă Snapdragon a detectat adware în %1$s."</string>
+    <string name="adware_dialog_title">"Adware detectat"</string>
+    <string name="adware_title">"Adware"</string>
+<string name="err_no_app_dashborad">"lista de aplicaţii de panou de bord este goală"</string>
+    <string name="analysis_title">"%1$s este probabil rău intenţionată din următoarele motive:"</string>
+    <string name="service_label">"Serviciu Sphinx"</string>
+    <string name="unknown_code">" Cod - %1$d"</string>
+    <string name="default_code_detail">"Aplicaţia încearcă să efectueze activitate rău intenţionată."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"E posibil să efectueze activitate dăunătoare pe dispozitiv."</item>
+        <item>"Malware de nivel 1: Efectuează activitate dăunătoare asupra conţinutului, aplicaţiilor şi dispozitivului utilizatorului."</item>
+        <item>"Malware de nivel 2: Efectuează activitate care l-ar putea costa bani pe utilizator."</item>
+        <item>"Spyware de nivel 3: Divulgă/fură conţinut şi spionează utilizatorii în mod activ."</item>
+        <item>"Spyware de nivel 4: Divulgă/fură informaţii meta privind utilizatorul."</item>
+        <item>"Spyware de nivel 5: Divulgă/fură informaţii sensibile privind dispozitivul."</item>
+        <item>"Annoyware de nivel 6: Adware agresive şi/sau aplicaţie deranjantă."</item>
+    </string-array>
+    <string name="setting_level1_title">"Malware de nivel 1"</string>
+    <string name="setting_level2_title">"Malware de nivel 2"</string>
+    <string name="setting_level3_title">"Spyware de nivel 3"</string>
+    <string name="setting_level4_title">"Spyware de nivel 4"</string>
+    <string name="setting_level5_title">"Spyware de nivel 5"</string>
+    <string name="setting_level6_title">"Adware de nivel 6"</string>
+    <string name="setting_mode_title">"Mod"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"Alertă pop up şi standard"</item>
+        <item>"Alertă standard"</item>
+        <item>"Nicio alertă"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"Mod normal"</item>
+        <item>"Mod silenţios"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array></resources>

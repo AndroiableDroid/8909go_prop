@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"تكوين مشغّل شبكة الجوال"</string>
+    <string name="multisim_category_text">"تكوين بطاقة SIM المتعددة"</string>
+    <string name="preset_category_text">"شبكة الجوال في الصين"</string>
+    <string name="preset_category_text_default">"افتراضي"</string>
+    <string name="preset_category_text_china">"شبكة الجوال الصينية"</string>
+    <string name="preset_category_text_regional">"إقليمي"</string>
+    <string name="sim_ssss_text">"وضع الاستعداد لبطاقة Sim فردية"</string>
+    <string name="sim_dsds_text">"وضع الاستعداد لبطاقتي Sim"</string>
+    <string name="sim_dsda_text">"تنشيط بطاقتي Sim"</string>
+    <string name="progress_wait">"جارٍ التكوين ..."</string>
+    <string name="alert_update_sim_mode_title">"تحديث وضع SIM"</string>
+    <string name="alert_update_sim_mode_text">"سيتم تطبيق تغيير وضع SIM بعد إعادة تمهيد الهاتف. هل تريد التحديث الآن؟"</string>
+    <string name="alert_switch_title">"تبديل مشغّل شبكة الجوال"</string>
+    <string name="alert_switch_text">"سيؤدي هذا الإجراء إلى مسح كل البيانات بما في ذلك بيانات تكوين بطاقة sim المتعددة."</string>
+    <string name="alert_switch_error">"فشل تبديل مشغّل شبكة الجوال، يرجى التحقق من وجود مساحة كافية."</string>
+    <string name="notice_row_title">"إشعار"</string>
+    <string name="notice_row_text">"تم تعيين الهاتف ليتلاءم مع بطاقة SIM. يرجى إعادة تشغيل الهاتف ليصبح التكوين الجديد فعالًا."</string>
+    <string name="notice_special_install_title">"تنبيه"</string>
+    <string name="notice_special_install_text">"يمكن تعيين الهاتف ليناسب بطاقة SIM الخاصة بك. لكن هذا الإجراء سيمحو كل البيانات، هل تريد التعيين الآن؟"</string>
+    <string name="welcome_title">"مرحبا"</string>
+    <string name="welcome_message">"الرجاء اختيار لغة"</string>
+    <string name="start_text">"بدء"</string>
+    <string name="emergency_call_text">"مكالمة الطوارئ"</string>
+    <string name="trigger_title">"تهيئة"</string>
+    <string name="trigger_message">"الرجاء اختيار حزمة واحدة"</string>
+    <string name="trigger_uninstall_message">"لم تتطابق أي حزمة مع بطاقة Sim. يمكن تكوين هاتفك والعودة إلى الحزمة الأساسية.\n\nتكوين الهاتف والعودة إلى:"</string>
+    <string name="trigger_no_text">"عدم التكوين"</string>
+    <string name="trigger_yes_text">"بدء التكوين"</string>
+    <string name="trigger_ask_text">"اسألني لاحقًا"</string>
+    <string name="begin_config_text">"بدء التكوين"</string>
+    <string name="alter_no_carrier_selected">"لم يتم تحديد أي مشغّل، يرجى تحديد واحد أو أكثر."</string>
+    <string name="download_ota_package_title">"تنزيل ملفات ota"</string>
+    <string name="download_ota_package_message">"يتم الآن التحميل..."</string>
+    <string name="alter_network_state_error">"يرجى التحقق من حالة الشبكة."</string>
+    <string name="alter_file_not_found_error">"تعذر تخزين ملف ota، يرجى التحقق من حالة التخزين."</string>
+    <string name="carrier_clear_final_desc">"هل تريد حذف جميع المعلومات الشخصية وتكوين شبكة الجوال؟ لا يمكنك التراجع عن هذا الإجراء!"</string>
+    <string name="carrier_clear_final_button_text">"مسح كل شيء"</string>
+    <string name="carrier_clear_no_default_pack">"لا توجد حزمة افتراضية في جهازك."</string>
+    <string name="carrier_clear_parsing_not_finish">"لا يزال البحث جاريًا عن الحزمة الافتراضية."</string></resources>

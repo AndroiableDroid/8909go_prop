@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"Dan ima štiriindvajset ur"</string>
+    <string name="hi_snapdragon">"Živijo, Snapdragon"</string>
+    <string name="hey_snapdragon">"Hey Snapdragon"</string>
+    <string name="my_voice">"Moj glas je moje geslo"</string>
+    <string name="make_my_day">"Polepšaj mi dan"</string>
+    <string name="tomorrow_is_another">"Jutri je še en dan"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"Dobrodošli v San Diegu"</string>
+    <string name="okay_google">"Ok Google"</string>
+    <string name="open_my_email">"Odpri mojo e-pošto"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"Prepoznavanje glasu"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"Nastavitve"</string>
+    <string name="action_add">"Dodaj"</string>
+    <string name="title_activity_main_with_fragment">"MainWithFragmentActivity"</string>
+    <string name="tap_mic_start">"Za začetek tapnite mikrofon"</string>
+    <string name="tap_mic_stop">"Tapnite mikrofon, ko želite končati"</string>
+    <string name="say_key_phrase">"Izgovorite \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"Ponovite frazo \"&lt;b&gt;%1$s&lt;/b&gt;\"."</string>
+    <string name="say_one_of_key_phrases">"Izgovorite eno od glavnih fraz"</string>
+    <string name="phrase_recognized">"Fraza \"&lt;b&gt;%1$s&lt;/b&gt;\" je prepoznana "</string>
+    <string name="recording_length_exceeded">"Prekoračena dolžina posnetka"</string>
+    <string name="recording_length_exceeded_msg">"Dolžina posnetka je bila prekoračena. Poskusite znova."</string>
+    <string name="delete_all">"Izbriši vse"</string>
+    <string name="delete_all_msg">"Ali ste prepričani, da želite izbrisati prijavljene predloge?"</string>
+    <string name="got_it">"Odlično! Razumem."</string>
+    <string name="set_key_phrase">"Nastavi ključno frazo"</string>
+    <string name="set_key_phrase_name">"Nastavi ime ključne fraze"</string>
+    <string name="set_key_phrase_action">"Nastavi dejanje"</string>
+    <string name="change_key_phrase_action">"Spremeni dejanje"</string>
+    <string name="phrase_strength">"Moč fraze"</string>
+    <string name="phrase_strength_hint">"Uporabite frazo z najmanj tremi besedami."</string>
+    <string name="register_phrase">"Registriraj frazo"</string>
+    <string name="register_phrase_hint">"Za lažje prepoznavanje vašega glasu trikrat posnemite frazo \"&lt;b&gt;%1$s&lt;/b&gt;\"."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" Snemajte v tihem prostoru.\n\n"<b>"2."</b>" Držite telefon stran od ust.\n\n"<b>"3."</b>" Ključno frazo izgovarjajte naravno."</string>
+    <string name="ready_to_record">"V REDU, PRIPRAVLJEN SEM ZA SNEMANJE"</string>
+    <string name="oops">"Ojej! Poskusite znova."</string>
+    <string name="say_the_phrase">"Izgovorite frazo \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"Fraza \"&lt;b&gt;%1$s&lt;/b&gt;\" je registrirana"</string>
+    <string name="say_the_phrase_few_more">"Izgovorite \"&lt;b&gt;%1$s&lt;/b&gt;\" še nekajkrat"</string>
+    <string name="voice_print">"Prepoznavanje glasu"</string>
+    <string name="cancel">"Prekliči"</string>
+    <string name="voice_level">"Glasnost glasu"</string>
+    <string name="background_noise">"Hrup v ozadju"</string>
+    <string name="cap_done">"KONČANO"</string>
+    <string name="cap_record">"SNEMANJE"</string>
+    <string name="cap_next">"NAPREJ"</string>
+    <string name="cap_ok">"V redu"</string>
+    <string name="next">"Naprej"</string>
+    <string name="new_key_phrase">"Nova ključna fraza"</string>
+    <string name="edit_keyphrases">"Urejanje ključnih fraz"</string>
+    <string name="set_name">"Nastavi ime"</string>
+    <string name="select_key_phrase">"Izberite ključno frazo"</string>
+    <string name="set_action">"Nastavi dejanje"</string>
+    <string name="registration_complete">"Registracija je zaključena"</string>
+    <string name="confirm_pin">"Potrdite kodo PIN"</string>
+    <string name="confirm_pin_msg">"Za urejanje ključnih fraz je treba vnesti kodo PIN naprave."</string>
+    <string name="your_key_phrase">"Vaša ključna fraza"</string>
+    <string name="cap_redo">"UVELJAVI"</string>
+    <string name="cap_redo_previous">"UVELJAVI PREJŠNJO"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"Prebrskajte priporočene fraze"</string>
+    <string name="create_your_own">"Ustvarite svojo frazo"</string>
+    <string name="skip">"Preskoči"</string>
+    <string name="none">"Brez"</string>
+    <string name="enter_pin">"Za urejanje ključnih fraz je treba vnesti kodo PIN naprave."</string>
+    <string name="your_key_phrase_name">"Ime vaše ključne fraze"</string>
+    <string name="new_key_phrase_name">"Novo ime ključne fraze"</string>
+    <string name="set_service_to_launch">"Nastavite storitev za zagon"</string>
+    <string name="email">"E-pošta"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"Pošlji SMS"</string>
+    <string name="use_selected_phrase">"Uporabi izbrano frazo"</string>
+    <string name="about">"O programu"</string>
+    <string name="edit_key_phrases">"Urejanje ključnih fraz"</string>
+    <string name="invalid_phrasename_title">"Neveljavno ime fraze"</string>
+    <string name="invalid_phrasename_msg">"Ime fraze ne sme biti prazno."</string>
+    <string name="duplicate_phrasename_msg">"Ime fraze že obstaja. Vnesite drugo ime."</string>
+    <string name="invalid_phrase_title">"Neveljavna fraza"</string>
+    <string name="invalid_phrase_msg">"Fraza ne sme biti prazna."</string>
+    <string name="edit_action">"Uredi dejanje"</string>
+    <string name="threshold">"Prag"</string>
+    <string name="delete_phrase">"Izbriši frazo"</string>
+    <string name="rename">"Spremeni ime"</string>
+    <string name="rename_keyphrase">"Spremeni ime ključne fraze"</string>
+    <string name="adjust_keyword_sensitivity">"Prilagodi občutljivost za ključne besede"</string>
+    <string name="adjust_keyword_sensitivity_summary">"S prilagajanjem občutljivosti lahko omogočite širše prepoznavanje ključnih fraz."</string>
+    <string name="sensitivity">"Občutljivost"</string>
+    <string name="low_sensitivity">"Nizka občutljivost"</string>
+    <string name="med_sensitivity">"Srednja občutljivost"</string>
+    <string name="high_sensitivity">"Visoka občutljivost"</string>
+    <string name="low">"NIZKA"</string>
+    <string name="med">"SREDNJA"</string>
+    <string name="high">"VISOKO"</string>
+    <string name="low_sensitivity_summary">"Omogoča več razlikovanja v postopku prepoznavanja ključnih fraz."</string>
+    <string name="med_sensitivity_summary">"Omogoča nekaj razlikovanja v postopku prepoznavanja ključnih fraz, vendar lahko še vedno prepreči prepoznavanje nekaterih ključnih besed."</string>
+    <string name="high_sensitivity_summary">"Dodatna varnost, vendar lahko prepreči prepoznavanje nekaterih ključnih besed."</string>
+    <string name="keyword_sensitivity">"Občutljivost ključnih besed"</string>
+    <string name="delete_phrase_msg">"Ali ste prepričani da želite izbrisati frazo \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"Prepoznavanje glasu ni na voljo."</string>
+    <string name="voice_print_not_available_msg">"Prepoznavanje glasu v tej napravi ni omogočeno."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"Brisanje uspešno"</string>
+    <string name="delete_success_msg">"Model ključne besedne zveze je izbrisan."</string>
+    <string name="delete_fail_title">"Brisanje ni uspelo"</string>
+    <string name="delete_fail_msg">"Pri brisanju modela ključne besedne zveze je prišlo do napake."</string>
+    <string name="rename_success_title">"Preimenovanje uspešno"</string>
+    <string name="rename_success_msg">"Model ključne besedne zveze je preimenovan."</string>
+    <string name="rename_fail_title">"Preimenovanje ni uspelo"</string>
+    <string name="rename_fail_msg">"Pri preimenovanju modela ključne besede je prišlo do napake."</string>
+    <string name="pin_validation">"Preverjanje veljavnosti kode PIN"</string>
+    <string name="pin_failed">"Neveljaven vnos kode PIN!"</string>
+    <string name="registration_failed">"Včlanitev ni uspela"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"Prag uporabnika"</string>
+    <string name="spoof_score">"Prag zakrinkanja"</string>
+    <string name="thresholds">"Pragovi"</string>
+    <string name="save">"Shrani"</string>
+    <string name="sentence_score_msg">"Nastavi prag stavka"</string>
+    <string name="user_score_msg">"Nastavi prag uporabnika"</string>
+    <string name="spoof_score_msg">"Nastavi prag zakrinkanja"</string>
+    <string name="sentence_score">"Prag stavka"</string></resources>

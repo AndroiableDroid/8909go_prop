@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtectDBG"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"معلومات عن التطبيق"</string>
+    <string name="title_trusted">"التطبيقات الموثوقة"</string>
+    <string name="title_about">"حول"</string>
+    <string name="title_settings">"الإعدادات"</string>
+    <string name="drawer_open_title">"Snapdragon Smart Protect"</string>
+<string name="service_status_on">"تشغيل"</string>
+    <string name="service_status_off">"متوقف"</string>
+    <string name="err_title">"خطأ بالتطبيق"</string>
+    <string name="err_msg_init">"تتعذر على Snapdragon Smart Protect تهيئة مكتبة QSSP. إيقاف الخدمة"</string>
+    <string name="err_msg_load_model">"يتعذر على Snapdragon Smart Protect تحميل النموذج. إيقاف الخدمة"</string>
+    <string name="err_msg_malicious_alert">"يتعذر على Snapdragon Smart Protect التسجيل بشأن الإنذارات الضارة. إيقاف الخدمة"</string>
+    <string name="err_msg_benign_alert">"يتعذر على Snapdragon Smart Protect التسجيل بشأن الإنذارات غير الضارة. إيقاف الخدمة"</string>
+    <string name="err_msg_service_not_up">"يتعذر على Snapdragon Smart Protect العثور على الخدمة بعد الآن."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"حقوق الطبع والنشر © 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"جميع الحقوق محفوظة."</string>
+    <string name="about_information_line1">"إن Qualcomm® Snapdragon™ Smart Protect هو من إنتاج شركة Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Qualcomm وSnapdragon هما علامتان تجاريتان لشركة Qualcomm Incorporated، ومسجلتان في الولايات المتحدة وبلدان أخرى، وتستخدمان بموجب إذن بذلك."</string>
+    <string name="btn_restore_default">"استعادة الإعدادات الافتراضية"</string>
+    <string name="btn_clear_history">"مسح سجل SMART PROTECT"</string>
+    <string name="trusted_btn">"إضافة إلى قائمة التطبيقات الموثوقة"</string>
+    <string name="uninstall_btn">"إزالة التثبيت"</string>
+    <string name="details_btn">"التفاصيل"</string>
+    <string name="done_btn">"تم"</string>
+    <string name="remove_trusted_btn">"إزالة من قائمة التطبيقات الموثوقة"</string>
+    <string name="uninstall_confirm_message">"هل تريد إزالة هذا التطبيق؟?"</string>
+    <string name="uninstall_success">"تمت إزالة تثبيت الحزمة بنجاح"</string>
+    <string name="uninstall_failed">"فشلت إزالة تثبيت الحزمة"</string>
+    <string name="clear_history_done">"تم مسح السجل بنجاح"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon Smart Protect"</string>
+    <string name="drawer_threats">"التهديدات المكتشفة (%1$s)"</string>
+    <string name="drawer_threat_null">"اكتشاف البرامج الضارة وحماية الخصوصية على الجهاز في الوقت الحقيقي"</string>
+    <string name="drawer_option_dashboard">"لوحة المعلومات"</string>
+    <string name="drawer_option_trusted_apps">"التطبيقات الموثوقة"</string>
+    <string name="drawer_option_settings">"الإعدادات"</string>
+    <string name="drawer_option_about">"حول"</string>
+    <string name="dashboard_list_title">"حدد تطبيقًا ليرى تفاصيل Snapdragon Smart Protect وتوصياته."</string>
+    <string name="dashboard_list_empty">"لا توجد تطبيقات تحت المراقبة."</string>
+    <string name="app_info_recommend">"التوصية:"</string>
+    <string name="app_info_version">"الإصدار"</string>
+    <string name="app_uninstalled">"لا يتواجد التطبيق على الجهاز بعد الآن. اضغط على OK (موافق) للإنهاء."</string>
+    <string name="malicious_item_threat">"تم اكتشاف Snapdragon Smart Protect:"</string>
+    <string name="malicious_item_confidence">"مستوى الموثوقية:"</string>
+    <string name="malicious_item_analysis">"التحليل"</string>
+    <string name="malicious_recommend">"إزالة"</string>
+    <string name="good_threat">"لم تُكتشف أية تهديدات."</string>
+    <string name="good_recommend">"حدد Done (تم)، حتى يستمر Snapdragon Smart Protect في مراقبة هذا التطبيق."</string>
+    <string name="good_title">"جيد"</string>
+    <string name="trusted_item_title">"لا يراقب Snapdragon Smart Protect أنشطة %1$s، لأنه في قائمة التطبيقات الموثوقة لديك.\n\nفإذا لم تكن واثقًا في مدى أمان هذا التطبيق، فأزله من قائمة التطبيقات الموثوقة."</string>
+    <string name="trusted_list_title">"لا يراقب Snapdragon Smart Protect التطبيقات الموجودة في هذه القائمة."</string>
+    <string name="trusted_list_subtitle">"إذا لم تكن واثقًا من مدى أمان هذا التطبيق، فأزله من قائمة التطبيقات الموثوقة."</string>
+    <string name="trusted_list_empty">"لا توجد أية تطبيقات في قائمة التطبيقات الموثوقة الخاصة بك."</string>
+    <string name="trusted_list_empty_desc">"وهذا يوفر لك أقصى درجة من الحماية، لأن Snapdragon Smart Protect يراقب جميع تطبيقاتك."</string>
+    <string name="trusted_confirm_message">"هل ترغب في إضافة هذا التطبيق إلى قائمة التطبيقات الموثوقة الخاصة بك؟\n\nإذا لم تكن واثقًا بشأن مدى أمان هذا التطبيق، فعليك بتحديد Cancel (إلغاء)."</string>
+    <string name="malicious_ntf_message">"اكتشف Snapdragon Smart Protect نشاطًا ضارًا في %1$s."</string>
+    <string name="malicious_ntf_recommend">"التوصية: إزالة التثبيت"</string>
+    <string name="malicious_dialog_title">"ضار"</string>
+    <string name="malicious_text">"ضار"</string>
+    <string name="malware_ntf_message">"اكتشف Snapdragon Smart Protect برنامجًا ضارًا في %1$s."</string>
+    <string name="malware_dialog_title">"تم اكتشاف برنامج ضار"</string>
+    <string name="malware_title">"برنامج ضار"</string>
+    <string name="spyware_ntf_message">"اكتشف Snapdragon Smart Protect برنامج تجسس في %1$s."</string>
+    <string name="spyware_dialog_title">"تم اكتشاف برنامج تجسس"</string>
+    <string name="spyware_title">"برنامج تجسس"</string>
+    <string name="adware_ntf_message">"اكتشف Snapdragon Smart Protect برنامج إعلانات في %1$s."</string>
+    <string name="adware_dialog_title">"تم اكتشاف برنامج إعلانات"</string>
+    <string name="adware_title">"برنامج إعلانات"</string>
+<string name="err_no_app_dashborad">"قائمة تطبيق لوحة المعلومات فارغة"</string>
+    <string name="analysis_title">"%1$s قد يكون ضارًا للأسباب التالية:"</string>
+    <string name="service_label">"خدمة Sphinx"</string>
+    <string name="unknown_code">" رمز - %1$d"</string>
+    <string name="default_code_detail">"يحاول التطبيق القيام بنشاط ضار."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"قد يقوم بنشاط مُضر على جهازك."</item>
+        <item>"المستوى 1 البرامج الضارة: تؤدي نشاطًا ضارًا بمحتوى المستخدم، وتطبيقاته وجهازه."</item>
+        <item>"المستوى 2 البرامج الضارة: تؤدي نشاطًا قد يكلف المستخدم المال."</item>
+        <item>"المستوى 3 برامج التجسس: تُسرّب/تسرق المحتوى وتنشط في التجسس على المستخدمين."</item>
+        <item>"المستوى 4 برامج التجسس: تُسرّب/تسرق معلومات تعريف المستخدم."</item>
+        <item>"المستوى 5 برامج التجسس: تُسرّب/تسرق معلومات حساسة عن الجهاز."</item>
+        <item>"المستوى 6 برامج المضايقات: برامج إعلانات عدوانية و/أو تطبيقات متطفلة."</item>
+    </string-array>
+    <string name="setting_level1_title">"المستوى 1 البرامج الضارة"</string>
+    <string name="setting_level2_title">"المستوى 2 البرامج الضارة"</string>
+    <string name="setting_level3_title">"المستوى 3 برامج التجسس"</string>
+    <string name="setting_level4_title">"المستوى 4 برامج التجسس"</string>
+    <string name="setting_level5_title">"المستوى 5 برامج التجسس"</string>
+    <string name="setting_level6_title">"المستوى 6 برامج الإعلانات"</string>
+    <string name="setting_mode_title">"الوضع"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"الإنذار المنبثق والقياسي"</item>
+        <item>"الإنذار القياسي"</item>
+        <item>"لا إنذارات"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"الوضع العادي"</item>
+        <item>"الوضع الصامت"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<string name="monitor_feature_title">"ميزة المراقبة"</string>
+    <string name="err_msg_no_rfm">"يتعذر على Snapdragon Smart Protect العثور على ملفات rfm على الجهاز"</string>
+    <string name="err_msg_monitor">"تتعذر على Snapdragon Smart Protect مراقبة الميزات"</string>
+    <string name="title_debug">"تصحيح الأخطاء"</string>
+    <string name="drawer_option_debug">"تصحيح الأخطاء"</string>
+    <string name="set_rfm_file">"اختر ملف RFM"</string>
+    <string name="debug_rfm_model">"ملف RFM"</string>
+    <string name="debug_mnf_apply">"ميزة المراقبة"</string></resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">P2PRanging</string>
+    <string name="action_settings">"Nastavenia"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_Discovery">"Manuálne vyhľadávanie"</string>
+    <string name="strings_setting_appversion">"Verzia aplikácie: 2014.09.04"</string>
+    <string name="strings_setting_startscanresult">"NEDOSTUPNÉ"</string>
+    <string name="strings_setting_scanrepetition">"Opakovanie hľadania: "</string>
+    <string name="strings_setting_scaninterval">"Interval hľadania: "</string>
+    <string name="strings_setting_scantype">"Typ hľadania: "</string>
+    <string name="strings_setting_scanbandwidth">"Hľadať šírku pásma: "</string>
+    <string name="strings_setting_scanrttbias">"RTT Bias (ns): "</string>
+    <string name="strings_setting_scanrttBias_value">25</string>
+    <string name="strings_setting_button_clearoverlay">"Vymazať prekrývajúci text"</string>
+    <string name="strings_setting_button_hideshowoverlaytext">"Skryť/zobraziť prekrývajúci text"</string>
+    <string name="strings_start_peerrangescanbtn">"Spustiť roztriedené vyhľadávanie"</string>
+    <string name="strings_start_singlepeerrangescanbtn">"Samostatné vyhľadávanie"</string>
+    <string name="strings_start_measresulttitle">"Diagram výsledkov vyhľadávania (m)"</string>
+    <string name="strings_start_measresultdevice"></string>
+    <string name="strings_log_showerror">"Chyba"</string>
+    <string name="strings_log_showinfo">"Informácie"</string>
+    <string name="strings_log_clear">"ClearLog"</string>
+    <string name="strings_legend_mygo">"MyGO"</string>
+    <string name="strings_legend_cl">"CL"</string>
+    <string name="strings_legend_idle">"Nečinný"</string>
+    <string name="strings_legend_othergo">"OtherGO"</string>
+    <string name="strings_deviceinfo_mydevice">"Moje zariadenie:"</string>
+    <string name="strings_deviceinfo_devicename">"Názov: NEDOSTUPNÉ"</string>
+    <string name="strings_deviceinfo_mac">"MAC: NEDOSTUPNÉ"</string>
+    <string name="strings_deviceinfo_channel">"Kanál: NEDOSTUPNÉ"</string>
+    <string name="strings_deviceinfo_group">"Skupina: NEDOSTUPNÉ"</string>
+    <string name="strings_connect_mypeers">"Moji príjemcovia: (kliknutím sa pripojte/odpojte)"</string></resources>

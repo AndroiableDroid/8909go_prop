@@ -1,0 +1,63 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Demo Mdtp"</string>
+    <string name="user_app">"Používateľská aplikácia MDTP: Hlavná obrazovka"</string>
+    <string name="config_app">"Používateľská aplikácia MDTP: Konfigurácia"</string>
+    <string name="server_app">"Server MDTP: Hlavná obrazovka"</string>
+    <string name="action_settings">"Nastavenia"</string>
+    <string name="label_1_1">"Stav MDTP:"</string>
+    <string name="state_deactivated">"Deaktivované"</string>
+    <string name="state_activated">"Aktivované"</string>
+    <string name="configuration">"Konfigurácia (len pred aktiváciou)"</string>
+    <string name="service_activate">"Požadovať aktiváciu MDTP zo služieb MDTP"</string>
+    <string name="service_deactivate">"Požadovať deaktiváciu MDTP zo služieb MDTP"</string>
+    <string name="local_deactivate">"Lokálna deaktivácia MDTP (pomocou PIN)"</string>
+    <string name="service_console">"Konzola služieb MDTP"</string>
+    <string name="title_activity_configuration">"Používateľská konfigurácia"</string>
+    <string name="label_2_1">"Použiť lokálny kód PIN:"</string>
+    <string name="label_2_2">"PIN:"</string>
+    <string name="gen_rand_pin">"Generovať náhodný kód PIN"</string>
+    <string name="label_2_3">"Pomer overovania:"</string>
+    <string name="label_2_5">"Povoliť uzamknutie SIM:"</string>
+    <string name="label_2_6">"Ďalšie súbory/adresáre na overenie:"</string>
+    <string name="reset">"Obnoviť predvolené"</string>
+    <string name="label_3_1">"Posielať príkazy zo servera do zariadenia:"</string>
+    <string name="activate">"Aktivovať"</string>
+    <string name="deactivate">"Deaktivovať"</string>
+    <string name="locksim">"Zamknúť SIM"</string>
+    <string name="unlocksim">"Odomknúť SIM"</string>
+    <string name="killfunc">"Ukončiť funkciu"</string>
+    <string name="restorefunc">"Obnoviť funkciu"</string>
+    <string name="label_3_2">"Požiadavky na deaktiváciu MDTP:"</string>
+    <string name="notallowed">"Nie je povolené"</string>
+    <string name="allowed">"Povolené"</string>
+    <string name="label_3_3">"Požiadavky na odblokovanie Sprievodcu nastavením:"</string>
+    <string name="label_3_4">"Denník služby:"</string>
+    <string name="wizard_app_loading_title">"Sprievodca nastavením MDTP: Inicializuje sa..."</string>
+    <string name="label_4_1">"Sprievodca nastavením je zablokovaný, pretože stav MDTP je Aktivované"</string>
+    <string name="label_4_2">"Možnosť A: Ponechať služby MDTP aktivované, ale požadovať autorizáciu serverom"</string>
+    <string name="wiz_unblock">"Požadovať odblokovanie Sprievodcu nastavením zo služieb MDTP"</string>
+    <string name="wiz_cont">"Pokračovať (autorizované serverom)"</string>
+    <string name="label_4_3">"Možnosť B: Deaktivovať služby MDTP (odstráni sa tým blokovanie Sprievodcu nastavením)"</string>
+    <string name="wiz_remote">"Požadovať vzdialenú deaktiváciu MDTP"</string>
+    <string name="wiz_local">"Lokálna deaktivácia MDTP"</string>
+    <string name="label_4_4">"Sprievodca nastavením môže pokračovať, pretože stav MDTP je NEAKTIVOVANÉ"</string>
+    <string name="wiz_complete">"Dokončiť Sprievodcu nastavením (stav MDTP je Neaktivované)"</string>
+    <string name="percent">%</string>
+    <string name="Setup_Wizard">"Sprievodca nastavením"</string>
+    <string name="label_signup_message">"Služby MDTP momentálne nie sú aktivované.\nChcete ich znovu aktivovať?"</string>
+    <string name="label_signup_message_activated">"Služby MDTP boli úspešne aktivované!"</string>
+    <string name="skip_activation">"Preskočiť aktiváciu"</string>
+    <string name="emergency_dialer">"Tiesňové vytáčanie"</string>
+    <string name="wiz_title_sign_up">"Sprievodca nastavením MDTP – Prihlásenie"</string>
+    <string name="wiz_title_reset_prot">"Sprievodca nastavením MDTP – Ochrana v prípade obnovenia továrenských nastavení"</string>
+    <string name="wiz_title_boot_block">"Sprievodca nastavením MDTP – Zariadenie je blokované"</string>
+    <string name="block_boot_warning_text">"Služby MDTP zablokovali toto zariadenie v dôsledku internej chyby.\n\nReštartujte zariadenie."</string>
+    <string name="start_wifi_wizard">"Nastaviť WiFi"</string>
+    <string name="default_pin_hint">"Predvolený kód PIN je 11111"</string>
+    <string name="pin_dialog_title">"Lokálna deaktivácia MDTP – vyžaduje sa kód PIN"</string>
+    <string name="pin_input_validation_warning">"Vyžaduje sa numerický vstup z 5 číslic"</string></resources>

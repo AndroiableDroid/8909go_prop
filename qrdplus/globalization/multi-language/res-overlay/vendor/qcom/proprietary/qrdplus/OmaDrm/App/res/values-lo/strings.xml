@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="file_not_exist">"ໄຟລ໌ບໍ່ມີ"</string>
+    <string name="show_properties">"ສະແດງຄຸນນະສົມບັດ"</string>
+    <string name="app_name">"Drm"</string>
+    <string name="buy_license">"ຊື້ລິຂະສິດການໃຊ້"</string>
+    <string name="drm_activity">"Drm ກິດຈະກໍາ"</string>
+    <string name="open_files">"ເປີດໄຟລ໌"</string>
+    <string name="service_connected">"Ah, DRM ການບໍລິການ ເຊື່ອມຕໍ່, Wow"</string>
+    <string name="service_disconnected">"Oh, DRM ການບໍລິການ ຢຸດການເຊື່ອມຕໍ່, Wow"</string>
+    <string name="service_binded">"Ah, DRM ການບໍລິການ ຜຸກຂາດ, Wow"</string>
+    <string name="service_unbinded">"Oh, DRM ການບໍລິການ ບໍ່ຜຸກຂາດ, Wow"</string>
+    <string name="tv_fl">"ເຈົ້າສາມາດມ່ວນຊື່ນກັບເນື້ອຫານີ້ ໂດຍປາສະຈາກຂໍ້ຈໍາກັດຕ່າງໆ"</string>
+    <string name="tv_cantbuy">"ເຈົ້າບໍ່ມີລິຂະສິດທີ່ຖືກຕ້ອງ, ແຕ່ພວກເຮົາບໍ່ສາມາດໄດ້ຮັບທີ່ຢູ່ລິຂະສິດ, ດ່ັງນັ້ນ ບໍ່ສາມາດຊື້ໃບລິຂະສິດໃຫ້ເຈົ້າໄດ້"</string>
+    <string name="tv_wantbuy">"ທ່ານບໍ່ມີລິຂະສິດທີ່ຖືກຕ້ອງ, ທ່ານຕ້ອງການຊື້ເພີ່ມບໍ່?"</string>
+    <string name="tv_buyviapc">"ຂໍໂທດ... ພວກເຮົາບໍ່ສາມາດໄດ້ຮັບລິຂະສິດໃຊ້ຜ່ານ OTA, ກະລຸນາຮັບພວກມັນໄດ້ຈາກ PC ຜ່ານ MTP"</string>
+    <string name="tv_finishdownload">"ໄຟລ໌ %%% ໄດ້ຮັບການຕິດຕັ້ງ. ເຈົ້າຕ້ອງການເປີດມັນບໍ່?"</string>
+    <string name="sdcard_busy">"ປະຈຸບັນບັດ SD ຍັງບໍ່ຫວ່າງ. ກະລຸນາອອກຈາກໂໝດ USB ເກັບຮັກສາຂໍ້ມູນ ເພື່ອອະນຸຍາດເຂົ້າເຖີງບັດ SD."</string>
+    <string name="yes">"ຕົກລົງ"</string>
+    <string name="no">"ບໍ່"</string>
+    <string name="ok">"ຕົກລົງ"</string>
+    <string name="file_not_supported">"CD/SD Drm ໄຟລ໌ບໍ່ສະໜັບສະໜູນ"</string>
+    <string name="no_rights">"ບໍ່ມີສິດທິໃຊ້ໄດ້ສໍາລັບໄຟລ໌ນີ້ :("</string>
+    <string name="execute_permission">"ປະຕິບັດການອະນຸຍາດ"</string>
+    <string name="play_permission">"ການອະນຸຍາດຫຼິ້ນ"</string>
+    <string name="display_permission">"ການອະນຸຍາດສະແດງ"</string>
+    <string name="print_permission">"ພີມໃບອະນຸຍາດ"</string>
+    <string name="license">"ລິຂະສິດ"</string>
+    <string name="of">"ຂອງ"</string>
+    <string name="count">"ນັບ"</string>
+    <string name="interval_str">"ໄລຍະຫວ່າງ"</string>
+    <string name="start_date">"ວັນທີເລີ່ມຕົ້ນ"</string>
+    <string name="end_date">"ວັນທີສິ້ນສຸດ"</string>
+    <string name="seconds">"ວິນາທີ"</string>
+    <string name="no_activitiy_found">"ບໍ່ມີກິດຈະກຳທີ່ເຫັນ ເພື່ອຈັບທີ່ຢູ່: "</string></resources>

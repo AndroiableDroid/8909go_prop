@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"एका दिवसामध्ये चोवीस तास असतात"</string>
+    <string name="hi_snapdragon">"नमस्कार Snapdragon"</string>
+    <string name="hey_snapdragon">"हे Snapdragon"</string>
+    <string name="my_voice">"माझा आवाज माझा पासवर्ड आहे"</string>
+    <string name="make_my_day">"माझा दिवस चांगला बनवा"</string>
+    <string name="tomorrow_is_another">"उद्या वेगळा दिवस आहे"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"San Diego-मध्ये स्वागत आहे"</string>
+    <string name="okay_google">"ठीक आहे Google"</string>
+    <string name="open_my_email">"माझी ईमेल उघडा"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"आवाज प्रिंट"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"सेटिंग्ज"</string>
+    <string name="action_add">"जोडा"</string>
+    <string name="title_activity_main_with_fragment">"फ्रॅग्मेंट क्रियाकलापसहित मुख्य"</string>
+    <string name="tap_mic_start">"प्रारंभ करण्‍यासाठी माइक टॅप करा"</string>
+    <string name="tap_mic_stop">"थांबवण्‍यासाठी माइक टॅप करा"</string>
+    <string name="say_key_phrase">"\"&lt;b&gt;%1$s&lt;/b&gt;\" म्हणा"</string>
+    <string name="say_one_more_time">"अजून एकदा \"&lt;b&gt;%1$s&lt;/b&gt;\" वाक्यांश म्हणा."</string>
+    <string name="say_one_of_key_phrases">"मुख्य वाक्यांशांपैकी एक म्हणा"</string>
+    <string name="phrase_recognized">"\"&lt;b&gt;%1$s&lt;/b&gt;\" वाक्यांश ओळखला गेला "</string>
+    <string name="recording_length_exceeded">"रेकॉर्डिंगची लांबी ओलांडली"</string>
+    <string name="recording_length_exceeded_msg">"रेकॉर्डिंगची लांबी ओलांडली गेली. कृपया पुन्हा प्रयत्न करा."</string>
+    <string name="delete_all">"सर्व हटवा"</string>
+    <string name="delete_all_msg">"आपणांस खात्री आहे की आपण नोंदणीकृत टेम्पलेट्स हटवू इच्छिता"</string>
+    <string name="got_it">"उत्तम! मला समजले."</string>
+    <string name="set_key_phrase">"मुख्य वाक्यांश सेट करा"</string>
+    <string name="set_key_phrase_name">"मुख्य वाक्यांशचे नाव सेट करा"</string>
+    <string name="set_key_phrase_action">"क्रिया सेट करा"</string>
+    <string name="change_key_phrase_action">"क्रिया बदला"</string>
+    <string name="phrase_strength">"वाक्यांश सामर्थ्य"</string>
+    <string name="phrase_strength_hint">"कमीत कमी तीन शब्द असलेला वाक्यांश वापरून पाहा."</string>
+    <string name="register_phrase">"वाक्यांशाची नोंदणी करा"</string>
+    <string name="register_phrase_hint">"आपला आवाज ओळखण्‍यात मला मदत होण्‍यासाठी, कृपया तीन वेळा \"&lt;b&gt;%1$s&lt;/b&gt;\" वाक्यांश रेकॉर्ड करा."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" शांत खोलीमध्‍ये रेकॉर्ड करा.\n\n"<b>"2."</b>" आपल्‍या तोंडापासून आपला फोन दूर धरा.\n\n"<b>"3."</b>" आपले मुख्य वाक्यांश नैसर्गिकपणे म्हणा."</string>
+    <string name="ready_to_record">"ठीक आहे, मी रेकॉर्ड करण्यासाठी तयार आहे"</string>
+    <string name="oops">"अरेरे! पुन्‍हा प्रयत्‍न करा."</string>
+    <string name="say_the_phrase">"\"&lt;b&gt;%1$s&lt;/b&gt;\" वाक्यांश म्हणा"</string>
+    <string name="phrase_registered">"\"&lt;b&gt;%1$s&lt;/b&gt;\" वाक्यांशाची नोंदणी केली आहे"</string>
+    <string name="say_the_phrase_few_more">"अजून काही वेळा \"&lt;b&gt;%1$s&lt;/b&gt;\" म्हणा"</string>
+    <string name="voice_print">"आवाज प्रिंट"</string>
+    <string name="cancel">"रद्द करा"</string>
+    <string name="voice_level">"आवाजाचा स्तर"</string>
+    <string name="background_noise">"पार्श्वभूमीमधील आवाज"</string>
+    <string name="cap_done">"झाले"</string>
+    <string name="cap_record">"रेकॉर्ड करा"</string>
+    <string name="cap_next">"पुढील"</string>
+    <string name="cap_ok">"ठीक"</string>
+    <string name="next">"पुढील"</string>
+    <string name="new_key_phrase">"नवीन मुख्य वाक्यांश"</string>
+    <string name="edit_keyphrases">"मुख्य वाक्यांश संपादित करा"</string>
+    <string name="set_name">"नाव सेट करा"</string>
+    <string name="select_key_phrase">"मुख्य वाक्यांश निवडा"</string>
+    <string name="set_action">"क्रिया सेट करा"</string>
+    <string name="registration_complete">"नोंदणी पूर्ण"</string>
+    <string name="confirm_pin">"PIN नंबर सुनिश्चित करा"</string>
+    <string name="confirm_pin_msg">"मुख्य वाक्यांश संपादित करण्यासाठी उपकरण PIN नंबर प्रविष्ट करा."</string>
+    <string name="your_key_phrase">"आपला मुख्य वाक्यांश"</string>
+    <string name="cap_redo">"पुन्हा करा"</string>
+    <string name="cap_redo_previous">"मागील पुन्हा करा"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"शिफारस केलेले वाक्यांश ब्राउझ करा"</string>
+    <string name="create_your_own">"आपले स्‍वतःचे वाक्यांश तयार करा"</string>
+    <string name="skip">"वगळा"</string>
+    <string name="none">"नाही"</string>
+    <string name="enter_pin">"मुख्य वाक्यांश संपादित करण्यासाठी उपकरण PIN नंबर प्रविष्ट करा."</string>
+    <string name="your_key_phrase_name">"आपले मुख्य वाक्यांश नाव"</string>
+    <string name="new_key_phrase_name">"नवीन मुख्य वाक्यांश नाव"</string>
+    <string name="set_service_to_launch">"लाँच करण्यासाठी सेवा सेट करा"</string>
+    <string name="email">"ईमेल"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"मजकूर संदेश पाठवा"</string>
+    <string name="use_selected_phrase">"निवडलेला वाक्यांश निवडा"</string>
+    <string name="about">"याविषयी"</string>
+    <string name="edit_key_phrases">"मुख्य वाक्यांश संपादित करा"</string>
+    <string name="invalid_phrasename_title">"अवैध वाक्यांश नाव"</string>
+    <string name="invalid_phrasename_msg">"वाक्‍यांश नाव रिक्त असू शकत नाही."</string>
+    <string name="duplicate_phrasename_msg">"वाक्‍यांश नाव आधीपासून अस्तित्वात आहे. भिन्न नाव वापरून पाहा."</string>
+    <string name="invalid_phrase_title">"अवैध वाक्यांश"</string>
+    <string name="invalid_phrase_msg">"वाक्‍यांश रिक्त असू शकत नाही."</string>
+    <string name="edit_action">"क्रिया संपादित करा"</string>
+    <string name="threshold">"थ्रेशोल्ड"</string>
+    <string name="delete_phrase">"वाक्यांश हटवा"</string>
+    <string name="rename">"नाव बदला"</string>
+    <string name="rename_keyphrase">"मुख्य वाक्यांशचे नाव बदला"</string>
+    <string name="adjust_keyword_sensitivity">"कीवर्ड संवेदनशीलता समायोजित करा"</string>
+    <string name="adjust_keyword_sensitivity_summary">"मुख्य वाक्यांश ओळखीमध्ये थोड्या विविधतेला अनुमती देण्यास संवेदनशीलता समायोजित केली जाऊ शकते."</string>
+    <string name="sensitivity">"संवेदनशीलता"</string>
+    <string name="low_sensitivity">"निम्न संवेदनशीलता"</string>
+    <string name="med_sensitivity">"मध्यम संवेदनशीलता"</string>
+    <string name="high_sensitivity">"उच्‍च संवेदनशीलता"</string>
+    <string name="low">"निम्न"</string>
+    <string name="med">"मध्यम"</string>
+    <string name="high">"उच्‍च"</string>
+    <string name="low_sensitivity_summary">"मुख्य वाक्यांश ओळख प्रक्रियेत अधिक विविधता स्वीकारा."</string>
+    <string name="med_sensitivity_summary">"मुख्य वाक्यांश ओळख प्रक्रियेत अधिक विविधता स्वीकारते, परंतु काही मुख्य वाक्यांशांना ओळखले जाण्यापासून प्रतिबंधित करू शकते."</string>
+    <string name="high_sensitivity_summary">"अतिरिक्त सुरक्षितता, परंतु काही मुख्य वाक्यांशांना ओळखले जाण्यापासून प्रतिबंधित करू शकते."</string>
+    <string name="keyword_sensitivity">"कीवर्ड संवेदनशीलता"</string>
+    <string name="delete_phrase_msg">"आपणास खात्री आहे की आपण \"%1$s\" वाक्‍यांश हटवू इच्छिता?"</string>
+    <string name="voice_print_not_available_title">"आवाज प्रिंट उपलब्ध नाही"</string>
+    <string name="voice_print_not_available_msg">"या उपकरणावर आवाज प्रिंट सक्षम केले नाही."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"हटवणे यशस्वी"</string>
+    <string name="delete_success_msg">"मुख्य वाक्यांश मॉडेल हटवले गेले आहे."</string>
+    <string name="delete_fail_title">"हटवणे अयशस्‍वी झाले"</string>
+    <string name="delete_fail_msg">"मुख्य वाक्यांश मॉडेल हटवताना एक त्रुटी आढळली."</string>
+    <string name="rename_success_title">"पुनर्नामित करणे यशस्वी"</string>
+    <string name="rename_success_msg">"मुख्य वाक्यांश मॉडेल पुनर्नामित केले गेले आहे."</string>
+    <string name="rename_fail_title">"पुनर्नामित करणे अयशस्‍वी झाले"</string>
+    <string name="rename_fail_msg">"मुख्य वाक्यांश मॉडेल पुनर्नामित करताना एक त्रुटी आढळली."</string>
+    <string name="pin_validation">"PIN वैधता"</string>
+    <string name="pin_failed">"अवैध PIN प्रविष्टी!"</string>
+    <string name="registration_failed">"नोंदणी अयशस्‍वी"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"प्रयोक्‍ता थ्रेशोल्ड"</string>
+    <string name="spoof_score">"स्पूफ थ्रेशोल्ड"</string>
+    <string name="thresholds">"थ्रेशोल्ड"</string>
+    <string name="save">"जतन करा"</string>
+    <string name="sentence_score_msg">"वाक्य थ्रेशोल्ड सेट करा"</string>
+    <string name="user_score_msg">"प्रयोक्‍ता थ्रेशोल्ड सेट करा"</string>
+    <string name="spoof_score_msg">"स्पूफ थ्रेशोल्ड सेट करा"</string>
+    <string name="sentence_score">"वाक्य थ्रेशोल्ड"</string></resources>

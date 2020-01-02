@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"> -->
+<resources>
+    <!-- XDivert Settings -->
+    <!-- Title for the XDivert Feature displayed in Call Settings -->
+    <string name="xdivert_title">"X-Divert"</string>
+    <!-- Summary for the XDivert Feature displayed in Call Settings -->
+    <string name="xdivert_summary">"받을 수 없을 때 착신전환"</string>
+    <string name="phone_numbers">"전화번호 입력"</string>
+    <string name="sub1LineNumber">"하위1 번호: "</string>
+    <string name="sub2LineNumber">"하위2 번호: "</string>
+    <string name="proceed">"진행"</string>
+    <string name="xdivert_button">"X-Divert 설정"</string>
+    <string name="xdivert_setting">"X-Divert 설정"</string>
+    <string name="sum_xdivert_enabled">"X-Divert 사용"</string>
+    <string name="sum_xdivert_disabled">"X-Divert 사용 안 함"</string>
+    <string name="xdivert_not_supported">"X-Divert는 CDMA에 대해 지원되지 않음"</string>
+    <string name="xdivert_enternumber_error">"두 구독 모두에 대해 전화번호 입력"</string>
+    <string name="xdivert_partial_set">"XDivert가 첫 번째 구독에 대해서만 설정되었습니다."</string>
+    <string name="xdivert_sub_absent">"X-Divert를 처리하려면 두 구독 모두 활성화되어야 합니다."</string>
+    <string name="xdivert_status">"X-Divert 상태"</string>
+    <string name="xdivert_active">"활성"</string>
+    <string name="xdivert_not_active">"활성화되지 않음"</string>
+    <string name="xdivert_imsi_not_read">"Sim 초기화 중입니다. 잠시 후 시도하세요."</string>
+   <string name="updating_title">"통화 설정"</string>
+   <!-- Toast in Call settings dialog while settings are being read -->
+   <string name="reading_settings">"설정을 읽는 중"</string>
+    <!-- Toast in Call settings dialog while settings are being saved -->
+    <string name="updating_settings">"설정 업데이트 중"</string>
+    <!-- Toast in Call settings dialog while settings are being reverted -->
+    <string name="reverting_settings">"원래 설정으로 되돌리는 중"</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="response_error">"네트워크에서 예기치 않은 응답이 전송되었습니다."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="exception_error">"네트워크 또는 SIM 카드 오류입니다."</string>
+    <!-- Status message displayed in the "Call settings error" dialog when operation fails due to FDN
+         [CHAR LIMIT=NONE] -->
+    <string name="fdn_check_failure">"휴대전화 앱의 발신 제한 번호 설정을 사용하기 때문에 일부 통화 관련 기능이 작동되지 않습니다."</string>
+    <!-- Status message displayed in the "Call settings error" dialog -->
+    <string name="radio_off_error">"이러한 설정을 보려면 무선을 사용해야 합니다."</string>
+    <!-- Button label used to dismiss the "Call settings error" dialog -->
+    <string name="close_dialog">"확인"</string>
+    <!-- Title of the alert dialog displayed if an error occurs while updating Call settings -->
+    <string name="error_updating_title">"통화 설정 오류"</string>
+    <!-- Set Subscription screen: Message shown in error dialog -->
+    <string name="set_subscription_error_atleast_one">"구독을 하나 이상 선택하세요."</string>
+    <!-- Set Subscription screen: label sub 1 -->
+    <string name="sub_1">"SUB 1"</string>
+    <!-- Set Subscription screen: label sub 2 -->
+    <string name="sub_2">"SUB 2"</string>
+    <!-- Set Subscription screen: label sub 3 -->
+    <string name="sub_3">"SUB 3"</string></resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"حالت های نمایشی SDP SDK"</string>
+    <add-resource type="string" name="activity_extended_offscreen_name"/>
+    <string name="activity_extended_offscreen_name">"«صفحه خاموش» گسترده"</string>
+    <add-resource type="string" name="activity_background_side_channel_name"/>
+    <string name="activity_background_side_channel_name">"کانال کناری پس زمینه"</string>
+    <add-resource type="string" name="activity_finger_stylus_name"/>
+    <string name="activity_finger_stylus_name">"انگشت در مقابل قلم + فشار"</string>
+    <add-resource type="string" name="activity_tilt_name"/>
+    <string name="activity_tilt_name">"متمایل کردن محور"</string>
+    <add-resource type="string" name="activity_hovering_side_button_name"/>
+    <string name="activity_hovering_side_button_name">"شناوری و دکمه کناری"</string>
+    <add-resource type="string" name="activity_eraser_name"/>
+    <string name="activity_eraser_name">"پاک کن و حرکت پاک کن"</string>
+    <add-resource type="string" name="offscreen_instructions_general"/>
+    <string name="offscreen_instructions_general">"این برنامه نمایشی ویژگی «صفحه خاموش» را به شما نشان می دهد.\n\n1. «صفحه خاموش» رسم کنید و طراحی خود را در سمت راست ببینید.\n"</string>
+    <add-resource type="string" name="offscreen_instructions_button"/>
+    <string name="offscreen_instructions_button">"2. در گوشه راست پایین صفحه مجازی، دکمه ای وجود دارد. برای تغییر تاری حلقه، در بالای این دکمه شناور بمانید.\n\n3. برای تغییر رنگ حلقه، آن را فشار دهید."</string>
+    <add-resource type="string" name="background_side_channel_instructions_general"/>
+    <string name="background_side_channel_instructions_general">"این برنامه نمایشی نشان می دهد چگونه می توان وقتی صفحه نمایش روشن یا خاموش است، کانال کناری پس زمینه را راه اندازی کرد.\n\n1. وقتی صفحه خاموش است رسم کنید و طراحی تان را ببینید.\n\n2. اکنون با رفتن به برنامه دیگری یا خاموش کرن صفحه نمایش، طراحی همچنان ضبط می شود."</string>
+    <add-resource type="string" name="hovering_switch_text"/>
+    <string name="hovering_switch_text">"شناوری روی صفحه روشن"</string>
+    <add-resource type="string" name="hovering_instructions"/>
+    <string name="hovering_instructions">"1. در ارتفاع های مختلف در بالای صفحه نمایش شناور بمانید.\n\n2. از سوئیچ برای غیرفعال کردن «شناوری» استفاده کنید.\n\n3. برای تنظیم حداکثر فاصله رویدادهای شناوری، از لغزنده استفاده کنید.\n\n4. با فشار دادن دکمه های کناری، رنگ حلقه شناور تغییر می کند."</string>
+    <add-resource type="string" name="eraser_instructions"/>
+    <string name="eraser_instructions">"1. لطفاً دکمه SDP را به عنوان دکمه پاک کن در تنظیمات کلی پیکربندی کنید.\n\n2. رسم کنید.\n\n3. برای ضربه زدن جهت تغییر وضعیت، پاک کن را تنظیم کنید. دکمه پاک کن را فشار دهید. پاک کنید. با فشار دادن مجدد دکمه پاک کن، به حالت قلم می روید.\n\n4. پاک کن را برای پاک کردن روی «نگه داشتن» تنظیم کنید. اکنون می توانید با یک لمس فوراً پاک کنید.\n\n5. اکنون از سوئیچ مسیر پاک کردن برای غیرفعال کردن عملکرد پاک کن استفاده کنید."</string>
+    <add-resource type="string" name="eraser_bypass_switch_text"/>
+    <string name="eraser_bypass_switch_text">"مسیر پاک کن"</string>
+    <add-resource type="string" name="erase_canvas_label"/>
+    <string name="erase_canvas_label">"کرباس پاک کن"</string>
+    <add-resource type="string" name="finger_stylus_instructions"/>
+    <string name="finger_stylus_instructions">"به جای انگشت، قلمتان را بکشید.\nاین دو روش با دو رنگ متفاوت۷ متمایز می شوند.\nپهنای ضربه با فشار تنظیم می شد که به صورت عددی هم قابل مشاهده است."</string>
+    <add-resource type="string" name="pressure_title"/>
+    <string name="pressure_title">"فشار"</string>
+    <add-resource type="string" name="pressure_content"/>
+    <string name="pressure_content">0.0</string></resources>

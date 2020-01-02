@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"ຕັ້ງຄ່າ SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"ຕັ້ງຄ່າປາກກາດີຈີຕອລ Snapdragon"</string>
+    <add-resource type="string" name="off_screen_mode_disabled"/>
+    <string name="off_screen_mode_disabled">"ປິດໃຊ້ງານແລ້ວ"</string>
+    <add-resource type="string" name="off_screen_mode_duplicate"/>
+    <string name="off_screen_mode_duplicate">"ຊໍ້າກັນ"</string>
+    <add-resource type="string" name="off_screen_mode_radio_header"/>
+    <string name="off_screen_mode_radio_header">"ແອັບດັ້ງເດີມໂໝດປີດ-ໜ້າຈໍ:"</string>
+    <add-resource type="string" name="touch_range_header"/>
+    <string name="touch_range_header">"ໃນໄລຍະທາງ (mm):"</string>
+    <add-resource type="string" name="power_mode_radio_header"/>
+    <string name="power_mode_radio_header">"ໂໝດພະລັງງານ:"</string>
+    <add-resource type="string" name="power_mode_accuracy"/>
+    <string name="power_mode_accuracy">"ເພີ່ມປະສິດທິພາບຄວາມຖືກຕ້ອງ"</string>
+    <add-resource type="string" name="power_mode_power"/>
+    <string name="power_mode_power">"ເພື່ອພະລັງງານ"</string>
+    <add-resource type="string" name="input_type_header"/>
+    <string name="input_type_header">"ປະເພດນໍາເຂົ້າ:"</string>
+    <add-resource type="string" name="mouse_sensitivity_header"/>
+    <string name="mouse_sensitivity_header">"ຄວາມໄວເມົາ:"</string>
+    <add-resource type="string" name="mouse_sensitivity_slow"/>
+    <string name="mouse_sensitivity_slow">"ຊ້າ"</string>
+    <add-resource type="string" name="mouse_sensitivity_medium"/>
+    <string name="mouse_sensitivity_medium">"ປານກາງ"</string>
+    <add-resource type="string" name="mouse_sensitivity_fast"/>
+    <string name="mouse_sensitivity_fast">"ໄວ"</string>
+    <add-resource type="string" name="input_type_stylus"/>
+    <string name="input_type_stylus">"ເຫຼັກ"</string>
+    <add-resource type="string" name="input_type_mouse"/>
+    <string name="input_type_mouse">"ໜູ"</string>
+    <add-resource type="string" name="input_type_joystick"/>
+    <string name="input_type_joystick">"ຈອຍສະຕິດ"</string>
+    <add-resource type="string" name="digital_pen_enable_off"/>
+    <string name="digital_pen_enable_off">"ປິດ ປາກກາດີຈີຕອລ"</string>
+    <add-resource type="string" name="digital_pen_enable_on"/>
+    <string name="digital_pen_enable_on">"ເປິດ ປາກກາດີຈີຕອລ"</string>
+    <add-resource type="string" name="switch_smarter_stand"/>
+    <string name="switch_smarter_stand">"ຢືນຢ່າງສະຫຼາດ"</string>
+    <add-resource type="string" name="on_screen_hover"/>
+    <string name="on_screen_hover">"ເປີດ-ການເລື່ອນໜ້າຈໍ"</string>
+    <add-resource type="string" name="off_screen_hover"/>
+    <string name="off_screen_hover">"ປິດ-ການເລື່ອນໜ້າຈໍ"</string>
+    <add-resource type="string" name="hover_max_distance"/>
+    <string name="hover_max_distance">"ໄລຍະທາງໄກສຸດ:"</string>
+    <add-resource type="string" name="show_hover_icon"/>
+    <string name="show_hover_icon">"ສະແດງໄອຄອນເລື່ອນໜ້າຈໍ"</string>
+    <add-resource type="string" name="eraser_enable"/>
+    <string name="eraser_enable">"ປຸ່ມລົບອອກ"</string>
+    <add-resource type="string" name="eraser_index_header"/>
+    <string name="eraser_index_header">"ດັດສະນີປຸ່ມ:"</string>
+    <add-resource type="string" name="eraser_behavior_radio_header"/>
+    <string name="eraser_behavior_radio_header">"ພຶດຕິກໍາຂອງປຸ່ມລົບອອກ:"</string>
+    <add-resource type="string" name="eraser_behavior_hold"/>
+    <string name="eraser_behavior_hold">"ຖືໄວ້ເພື່ອລົບອອກ"</string>
+    <add-resource type="string" name="eraser_behavior_toggle"/>
+    <string name="eraser_behavior_toggle">"ແຖບເພື່ອສະຫຼັບ"</string>
+    <add-resource type="string" name="off_screen_location_radio_header"/>
+    <string name="off_screen_location_radio_header">"ປິດ-ໜ້າຈໍ ບ່ອນທີ່ມີຮູບຄົນ:"</string>
+    <add-resource type="string" name="off_screen_location_left"/>
+    <string name="off_screen_location_left">"ເບື້ອງຊ້າຍ"</string>
+    <add-resource type="string" name="off_screen_location_right"/>
+    <string name="off_screen_location_right">"ເບື້ອງຂວາ"</string>
+    <add-resource type="string" name="switch_stop_pen_on_screen_off"/>
+    <string name="switch_stop_pen_on_screen_off">"ຢູດໃຊ້ປາກກາໃນໜ້າຈໍປິດ"</string>
+    <add-resource type="string" name="switch_start_pen_on_boot"/>
+    <string name="switch_start_pen_on_boot">"ເປີດໃຊ້ປາກກາໃນການເລີ່ມລະບົບ"</string></resources>

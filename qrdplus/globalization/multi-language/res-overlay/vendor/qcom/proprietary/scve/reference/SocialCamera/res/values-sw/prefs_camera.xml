@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"Kamera"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"Msingi"</item>
+        <item>"Ya mbele"</item>
+        <item>"Kamera ya 3"</item>
+        <item>"Kamera ya 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"Ukubwa wa picha"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (MP9.7, 16:9)"</item>
+        <item>"3840x2160 (MP8.3, 16:9, UHD 4K)"</item>
+        <item>"3200x1800 (MP5.8, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (MP4.1, 16:9)"</item>
+        <item>"2592x1458 (MP3.8, 16:9)"</item>
+        <item>"1920x1080 (MP2.1, 16:9, HD 1080p)"</item>
+        <item>"1280x720 (MP0.9, 16:9, HD 720p)"</item>
+        <item>"864x480 (MP0.4, 16:9)"</item>
+        <item>"4160x3120 (MP13, 4:3)"</item>
+        <item>"4000x3000 (MP12, 4:3)"</item>
+        <item>"3264x2448 (MP8, 4:3)"</item>
+        <item>"3200x2400 (MP7.7, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (MP5, 4:3)"</item>
+        <item>"2048x1536 (MP3.1, 4:3, QXGA)"</item>
+        <item>"1920x1440 (MP2.8, 4:3)"</item>
+        <item>"1600x1200 (MP1.9, 4:3, UXGA)"</item>
+        <item>"1280x960 (MP1.2, 4:3, UVGA)"</item>
+        <item>"1024x768 (MP0.8, 4:3, XGA)"</item>
+        <item>"800x600 (MP0.5, 4:3, SVGA)"</item>
+        <item>"640x480 (MP0.3, 4:3, VGA)"</item>
+        <item>"320x240 (MP0.1, 4:3, QVGA)"</item>
+        <item>"3264x2176 (MP7.1, 3:2)"</item>
+        <item>"2592x1728 (MP4.5, 3:2)"</item>
+        <item>"720x480 (MP0.3, 3:2)"</item>
+        <item>"4160x2774 (MP11.5, 3:2)"</item>
+        <item>"2976x2976 (MP8.9, 1:1)"</item>
+        <item>"1280x768 (MP1, 5:3)"</item>
+        <item>"800x480 (MP0.4, 5:3)"</item>
+        <item>"352x288 (MP0.1, 11:9)"</item>
+        <item>"176x144 (MP0, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"Ukubwa wa hakiki"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"Linganisha ukubwa wa onyesho"</item>
+        <item>"Hakiki ya kiwango cha juu (hadi MP4)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"Hali ya mandhari"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"Otomatiki"</item>
+        <item>"Picha ya kitendo"</item>
+        <item>"Mwambaa wa msimbo"</item>
+        <item>"Pwani"</item>
+        <item>"Mwangaza wa mshumaa"</item>
+        <item>"Nyuso"</item>
+        <item>"Fataki"</item>
+        <item>HDR</item>
+        <item>"Video ya kasi ya juu"</item>
+        <item>"Mandhari"</item>
+        <item>"Usiku"</item>
+        <item>"Karamu"</item>
+        <item>"Watu"</item>
+        <item>"Watu usiku"</item>
+        <item>"Theluji"</item>
+        <item>"Michezo"</item>
+        <item>"Picha dhabiti"</item>
+        <item>"Machweo"</item>
+        <item>"Thieta"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"Udhibiti wa mwangaza"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"Otomatiki"</item>
+        <item>"Imerekebishwa"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"Kipimo cha mwangaza"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"Lengo"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"Otomatiki"</item>
+        <item>"Imerekebishwa"</item>
+        <item>"Mfululizo (Picha)"</item>
+        <item>"Mfululizo (Video)"</item>
+        <item>"Makro"</item>
+        <item>"Kina cha lengo kilichoendelezwa"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"Udhibiti wa usawa wa weupe"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"Otomatiki"</item>
+        <item>"Imezimwa"</item>
+        <item>"Mwangaza wa joto"</item>
+        <item>"Mwangaza wa mawimbi"</item>
+        <item>"Mwangaza wa mawimbi wenye joto"</item>
+        <item>"Mwangaza wa mchana"</item>
+        <item>"Siku yenye mawingu"</item>
+        <item>"Kivuli"</item>
+        <item>"Kisukusuku"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"Mweko"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"Otomatiki"</item>
+        <item>"Imewashwa"</item>
+        <item>"Imezimwa"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"Upunguzaji kelele"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"Imewashwa"</item>
+        <item>"Imezimwa"</item>
+        <item>"Ubora wa juu"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"Urekebishaji kivuli cha lenzi"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"Imewashwa"</item>
+        <item>"Imezimwa"</item>
+        <item>"Ubora wa juu"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"Urekebishaji upotovu"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"Imewashwa"</item>
+        <item>"Imezimwa"</item>
+        <item>"Ubora wa juu"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"Uboreshaji makali"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"Imewashwa"</item>
+        <item>"Imezimwa"</item>
+        <item>"Ubora wa juu"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"Urekebishaji pikseli zenye mwangaza mwingi"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"Imewashwa"</item>
+        <item>"Imezimwa"</item>
+        <item>"Ubora wa juu"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"Modi ya uimarishaji"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"Imezimwa"</item>
+        <item>"Ya macho"</item>
+        <item>"Dijito"</item>
+    </string-array></resources>

@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"سماجی کیمرہ"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"تصدیق کرتے ہوئے یا درخواست کرتے ہوئے ہمیں ایک نقصکا سامنا کرنا پڑا۔ مزید تفصیلات کے لئے براہ مہربانی لاگ کیٹ کی پڑتال کریں۔"</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"بھیجیں (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"کیمرہ سے کنکشن کھو گیا۔"</string>
+    <string name="camera_preview_error_camera_error">"کیمرہ سے نقص: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"ایک تصویر لینے میں ناکام ہوا"</string>
+    <string name="camera_preview_error_still_image_save_failed">"آپ کی گیلری میں تصویر محفوظ کرتے وقت ہمیں ایک نقص کا سامنا کرنا پڑا"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"ترتیبات"</string>
+    <string name="camera_settings_category_camera_settings">"کیمرہ ترتیبات"</string>
+    <string name="camera_settings_category_fr_settings">"چہرے کی پہچان کی ترتیبات"</string>
+    <string name="camera_settings_category_debug_settings">"ڈی بگ ترتیبات"</string>
+    <string name="camera_settings_fr_database_cleared">"چہرے کی پہچان کے ڈیٹا بیس کو صاف کیا"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"برخاست کریں"</string>
+    <string name="picture_review_send_faces">"بھیجیں (%d)"</string>
+    <string name="picture_review_no_faces">"اس تصویر میں کوئی نہیں ملا"</string>
+    <string name="picture_review_error_face_recognition">"چہروں کی پہچان کے دوران ہمیں ایک نقص کا سامنا ہوا"</string>
+    <string name="picture_review_error_face_enroll">"معذرت، اس چہرے کو محفوظ کرنے کے دوران ہمیں ایک نقص کا سامنا ہوا۔ براہ مہربانی موضوع کی ایک اور تصویر لیں اور دوبارہ کوشش کریں۔"</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"دیگر رابطہ\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"ترتیبات کا اشتراک کریں"</string>
+    <string name="fr_share_settings_button_just_once">"صرف ایک بار"</string>
+    <string name="fr_share_settings_button_always">"ہمیشہ"</string>
+    <string name="fr_share_settings_share_method_sms">"پیغام"</string>
+    <string name="fr_share_settings_share_method_email">"ای میل"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"اس کو دیکھیں!"</string>
+    <string name="social_sharing_error_no_email_app">"آپ کے پاس کوئی ایپ نہیں جو ای میل بھیجنے کے قابل ہو"</string></resources>

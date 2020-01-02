@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+  ~ Copyright (c) 2015, The Linux Foundation. All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are
+  ~ met:
+  ~      Redistributions of source code must retain the above copyright
+  ~       notice, this list of conditions and the following disclaimer.
+  ~      Redistributions in binary form must reproduce the above
+  ~       copyright notice, this list of conditions and the following
+  ~       disclaimer in the documentation and/or other materials provided
+  ~       with the distribution.
+  ~      Neither the name of The Linux Foundation nor the names of its
+  ~       contributors may be used to endorse or promote products derived
+  ~       from this software without specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+  ~ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  ~ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+  ~ ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+  ~ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  ~ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  ~ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+  ~ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+  ~ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  ~ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  ~
+  -->
+<!-- The xml contains Qti specific resource strings neede for any value added features. -->
+<resources>
+    <!-- Call substate label -->
+    <string name="call_substate_label">" Подкатегория состояния вызова — \u000a"</string>
+    <!-- Call substate label for call resumed -->
+    <string name="call_substate_call_resumed">"Возобновлен \u000a"</string>
+    <!-- Call substate label for call connected suspended (audio) -->
+    <string name="call_substate_connected_suspended_audio">"Подключен и приостановлен (аудио) \u000a"</string>
+    <!-- Call substate label for call connected suspended (video) -->
+    <string name="call_substate_connected_suspended_video">"Подключен и приостановлен (видео) \u000a"</string>
+    <!-- Call substate label for avp retry -->
+    <string name="call_substate_avp_retry">"Повтор аудио-/видеопрофиля \u000a"</string>
+    <!-- Video quality changed message -->
+    <string name="video_quality_changed">" Качество видео изменено на \u0020"</string>
+    <!-- Video quality High -->
+    <string name="video_quality_high">"Выс"</string>
+    <!-- Video quality Medium -->
+    <string name="video_quality_medium">"Сред"</string>
+    <!-- Video quality Low -->
+    <string name="video_quality_low">"Низкое качество"</string>
+    <!-- Video quality Unknown -->
+    <string name="video_quality_unknown">"Неизвестно"</string>
+    <!-- Message indicating that Video Started flowing for IMS-VT calls -->
+    <string name="player_started">"Плеер запущен"</string>
+    <!-- Message indicating that Video Stopped flowing for IMS-VT calls -->
+    <string name="player_stopped">"Плеер остановлен"</string>
+    <!-- Message indicating that camera failure has occurred for the selected camera and
+         as result camera is not ready -->
+    <string name="camera_not_ready">"Камера не готова"</string>
+    <!-- Message indicating that camera is ready/available -->
+    <string name="camera_ready">"Камера готова"</string>
+    <!-- Message indicating unknown call session event -->
+    <string name="unknown_call_session_event">"Неизвестное событие сеанса вызова"</string>
+    <!-- Message indicating data usage -->
+    <string name="data_usage_label">"Использование данных:  "</string>
+    <!-- Modify call error cause -->
+    <string name="modify_call_failed_due_to_low_battery">"Сбой изменения вызова из-за низкого заряда батареи."</string>
+    <!-- Message indicating video calls not allowed if user enabled TTY Mode -->
+    <string name="video_call_not_allowed_if_tty_enabled">"Отключите режим TTY для обновления видеовызовов."</string>
+    <!-- Text for the onscreen "Add Participant" button -->
+    <string name="onscreenAddParticipant">"Добавить участника"</string>
+    <!-- Description of the deflect target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="qti_description_target_deflect">"Отклонить"</string>
+    <string name="qti_description_deflect_error">"Номер не задан. Предоставьте номер через настройки IMS и повторите попытку."</string>
+    <string name="qti_description_deflect_service_error">"Служба отклонения вызова не поддерживается."</string>
+    <!-- Message indicating call failed due to handover not feasible -->
+    <string name="call_failed_ho_not_feasible">"Вызов завершен, т. к. невозможно переключится с LTE на 3G/2G"</string>
+    <!-- Title of the IMS to CS redial dialog -->
+    <string name="cs_redial_option">"Параметр повторного набора"</string>
+    <!-- Message text of the IMS to CS redial dialog -->
+    <string name="cs_redial_msg">"Не удается совершить видеовызов IMS. Выполнить голосовой вызов не IMS?"</string>
+    <!-- Yes option of the IMS to CS redial dialog -->
+    <string name="cs_redial_yes">"Да"</string>
+    <!-- No option of the IMS to CS redial dialog -->
+    <string name="cs_redial_no">"Нет"</string>
+    <!-- Session modify cause unspecified -->
+    <string name="session_modify_cause_unspecified"></string>
+    <!-- Session modify cause code upgrade local request -->
+    <string name="session_modify_cause_upgrade_local_request">"Качество вызова повышено по запросу пользователя"</string>
+    <!-- Session modify cause code upgrade remote request -->
+    <string name="session_modify_cause_upgrade_remote_request">"Качество вызова повышено по удаленному запросу пользователя"</string>
+    <!-- Session modify cause code downgrade local request -->
+    <string name="session_modify_cause_downgrade_local_request">"Качество вызова понижено по запросу пользователя"</string>
+    <!-- Session modify cause code downgrade remote request -->
+    <string name="session_modify_cause_downgrade_remote_request">"Качество вызова понижено по удаленному запросу пользователя"</string>
+    <!-- Session modify cause code downgrade rtp timeout -->
+    <string name="session_modify_cause_downgrade_rtp_timeout">"Качество вызова понижено из-за ожидания RTP"</string>
+    <!-- Session modify cause code downgrade qos -->
+    <string name="session_modify_cause_downgrade_qos">"Качество вызова понижено из-за низкого качества службы"</string>
+    <!-- Session modify cause code downgrade packet loss -->
+    <string name="session_modify_cause_downgrade_packet_loss">"Качество вызова понижено из-за потери пакетов"</string>
+    <!-- Session modify cause code downgrade low thrput -->
+    <string name="session_modify_cause_downgrade_low_thrput">"Качество вызова понижено из-за низкой пропускной способности"</string>
+    <!-- Session modify cause code downgrade thermal mitigation -->
+    <string name="session_modify_cause_downgrade_thermal_mitigation">"Качество вызова понижено из-за выхода за пределы рабочей температуры"</string>
+    <!-- Session modify cause code downgrade lipsync -->
+    <string name="session_modify_cause_downgrade_lipsync">"Качество вызова понижено из-за синхронного озвучивания"</string>
+    <!-- Session modify cause code downgrade generic error -->
+    <string name="session_modify_cause_downgrade_generic_error">"Качество вызова понижено из-за общей ошибки"</string>
+    <!-- Title for low battery alert dialogue -->
+    <string name="low_battery">"Низкий заряд батареи"</string>
+    <!-- Yes option of the low battery alert dialog -->
+    <string name="low_battery_yes">"Да"</string>
+    <!-- No option of the low battery alert dialog -->
+    <string name="low_battery_no">"Нет"</string>
+    <!-- Message text of the low battery alert dialog in cases when video call can be downgraded to voice call -->
+    <string name="low_battery_downgrade_to_voice_msg">"Преобразовать видеовызов в голосовой?"</string>
+    <!-- Message text of the low battery alert dialog in cases video call doesn't have downgrade capabilities -->
+    <string name="low_battery_hangup_msg">"Завершить вызов?"</string>
+    <!-- Description of the call transfer related strings [CHAR LIMIT=NONE] -->
+    <string name="qti_ims_transfer_num_error">"Номер не задан. Предоставьте номер через настройки IMS и повторите попытку."</string>
+    <string name="qti_ims_transfer_request_error">"Сбой запроса переадресации вызова."</string>
+    <string name="qti_ims_transfer_request_success">"Запрос переадресации вызова выполнен."</string>
+    <!-- Text for the onscreen "blind transfer" button -->
+    <string name="qti_ims_onscreenBlindTransfer">"Переадресация без создания консультативного звонка"</string>
+    <!-- Text for the onscreen "assured transfer" button -->
+    <string name="qti_ims_onscreenAssuredTransfer">"Гарантированная переадресация"</string>
+    <!-- Text for the onscreen "consultative transfer" button -->
+    <string name="qti_ims_onscreenConsultativeTransfer">"Переадресация с созданием консультативного звонка"</string>
+    <!-- Text for operator specific emergency number -->
+    <add-resource type="string" name="emergency_call_dialog_number_for_display_operator"/>
+    <string name="emergency_call_dialog_number_for_display_operator">"Экстренное"</string></resources>

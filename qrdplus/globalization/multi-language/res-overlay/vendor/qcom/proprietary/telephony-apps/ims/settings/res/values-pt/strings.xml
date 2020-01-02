@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IMS settings related strings -->
+    <!-- Title displayed IMS account settings in the sip settings category. [CHAR LIMIT=NONE] -->
+    <string name="ims_settings">"Configurações IMS"</string>
+    <string name="ims_vt_call_quality_title">"Qualidade de chamada VT"</string>
+    <string name="ims_vt_call_quality_low">"Baixa"</string>
+    <string name="ims_vt_call_quality_high">"Alta"</string>
+    <string name="ims_vt_call_quality_unknown">"Desconhecido"</string>
+    <string name="ims_vt_call_quality_set_failed">"Falha ao definir a qualidade de vídeo"</string>
+    <string name="ims_get_packet_count_failed">"Falha ao obter a contagem do pacote"</string>
+    <string name="ims_get_packet_error_count_failed">"Falha ao obter a contagem de erro do pacote"</string>
+    <string name="ims_get_packet_count_label">"clique aqui para obter a contagem do pacote"</string>
+    <string name="ims_get_packet_error_count_label">"clique aqui para obter a contagem de erro do pacote"</string>
+    <string name="qti_ims_call_deflect_title">"Número de desvio de chamada"</string>
+    <string name="qti_ims_number_not_set">"Não definida"</string>
+    <!-- IMS to CS Retry setting title.  [CHAR LIMIT=30] -->
+    <string name="ims_to_cs_retry_title">"Tentar novamente CS"</string>
+    <!-- IMS to CS Retry setting summary.  [CHAR LIMIT=80] -->
+    <string name="ims_to_cs_retry_summary">"Tentar novamente de modo automático com comunicações por voz regulares (recomendado)"</string></resources>

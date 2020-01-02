@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sim_info">"SIM کارڈ کی معلومات"</string>
+    <string name="close">"بند کریں"</string>
+    <string name="change">"سیٹ کریں"</string>
+    <string name="new_sim_detected">"نئے SIM کارڈ کا پتہ چلا ہے:"</string>
+    <string name="default_sim_setting">"ڈیفالٹ SIM ترتیبات بطور:"</string>
+    <string name="mobile_data">"موبائل ڈیٹا: "</string>
+    <string name="slot">"سلاٹ"</string>
+    <string name="carrier_name">"(کیرئیر نام)"</string>
+    <string name="mobile_data_on">"آن"</string>
+    <string name="mobile_data_off">"آف"</string>
+    <string name="sim_unknown">"نامعلوم"</string>
+    <string name="sim_absent">"غیر حاضر"</string>
+    <string name="multi_sim_settings_title">"دوہری SIM کی ترتیبات"</string>
+    <string name="lte_switch_unavailable">"4G/3G SIM کارڈز سوئچر دستیاب نہیں ہے"</string>
+    <string name="lte_recognize_summary">"دو عدد 4G/3G SIM کارڈز کا پتا چلا ہے، آپ کو ڈیفالٹ 4G/3G SIM کارڈ سیٹ کرنے کی ضرورت ہے:"</string>
+    <string name="lte_select_summary">"منتخب سبسکرپشن کارڈ کو بطور 4G/3G کارڈ پہچانا جائے گا اور دوسرے کو 2G کارڈ سمجھا جائے گا۔"</string>
+    <string name="lte_recognize_summary_generic">"دو سم کارڈز کا پتا چلا ہے، برائے مہربانی پسندیدہ سم کارڈ کا انتخاب کریں:"</string>
+    <string name="lte_select_summary_generic">"منتخب کردہ سم کارڈ کے پاس 3G/4G خدمات ڈیٹا کی سب سکرپشن کے ساتھ ہونگی۔"</string>
+    <string name="lte_checkbox_text">"ایک مرتبہ ڈیفالٹ 4G/3G SIM کارڈ بدل جائے تو موبائل ڈیٹا کو منتخب SIM کارڈ پر سیٹ کریں"</string>
+    <string name="select_ok">"ٹھیک ہے"</string>
+    <string name="lte_select_title">"ڈیفالٹ 4G/3G SIM کارڈ"</string>
+    <string name="lte_recognition_title">"SIM کارڈ کی پہچان"</string>
+    <string name="reg_failed">"رجسٹریشن ناکام"</string>
+    <string name="reg_suc">"رجسٹریشن کامیاب"</string>
+    <string name="reg_failed_msg">"ڈیفالٹ 4G/3G SIM کی رجسٹریشن ناکام، %1$s کو بطور 2G SIM کارڈ پہچانا جائے گا۔"</string>
+    <string name="lte_set">"سیٹ کریں"</string>
+    <string name="lte_setting">"ڈیفالٹ 4G/3G SIM سیٹ کیا جا رہا ہے"</string>
+    <string name="select_cancel">"منسوخ کریں"</string>
+    <string name="sim_card_number_title">SIM %1$d</string></resources>

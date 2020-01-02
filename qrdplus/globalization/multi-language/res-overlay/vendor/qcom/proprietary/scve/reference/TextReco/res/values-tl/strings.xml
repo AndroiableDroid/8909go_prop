@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"STA"</string>
+    <string name="title_settings_activity">"Mga setting"</string>
+    <string name="title_contact_activity">"Magdagdag ng Contact"</string>
+    <string name="title_event_activity">"Magdagdag ng Kaganapan"</string>
+    <string name="title_add_field">"Piliin ang label"</string>
+    <string name="title_text_activity">"Mga resulta"</string>
+    <string name="title_pick_datetime">"Pumili ng petsa oras"</string>
+    <string name="title_app_message">"Padalhan ng mensahe"</string>
+    <string name="menu_item_copy">"Kopyahin"</string>
+    <string name="menu_item_edit">"I-edit"</string>
+    <string name="date_picker_ok">"OK"</string>
+    <string name="date_picker_cancel">"Kanselahin"</string>
+    <string name="dropdown_none_option">"Wala"</string>
+    <string name="scan_more">"Maghanap Pa"</string>
+    <string name="bar_save_option">"I-save"</string>
+    <string name="bar_done_option">"Tapos na"</string>
+    <string name="camera_option_open_image">"Buksan ang Imahe"</string>
+    <string name="camera_option_settings">"Mga setting"</string>
+    <string name="text_action_search">"Maghanap"</string>
+    <string name="text_action_translate">"Isaling-wika"</string>
+    <string name="text_action_copy">"Kopyahin"</string>
+    <string name="translate_url">"https://translate.google.com/m/translate#auto/"</string>
+    <string name="instruction_camera">"Gamitin ang camera mo para kumuha ang kapakipakinabang na impormasyon mula sa mga calling card, flyer at mga ibang imahe"</string>
+    <string name="instruction_dont_show">"Huwag ito ipakita muli"</string>
+    <string name="instruction_dismiss_button">"OK"</string>
+    <string name="message_no_more_fields">"Wala nang mga field na idadagdag"</string>
+    <string name="message_contact_saved">"Matagumpay na nai-save ang kontak."</string>
+    <string name="message_calendar_saved">"Matagumpay na nai-save ang kaganapan sa kalendaryo."</string>
+    <string name="message_text_copied">"Kinopya ang teksto."</string>
+    <string name="message_no_matching_app">"Walang application na hahawak"</string>
+    <string name="message_gallery_pan_zoom">"Maaari kang mag-pan o mag-zoom para makilala ang pattern mula sa larawan na ito."</string>
+    <string name="message_restart_scanning">"Paki-tap para simulan muli."</string>
+    <string name="message_no_dates">"Walang mga petsang nakilala"</string>
+    <string name="message_hold_steady">"Ituro sa teksto at hawakan ng pirmi"</string>
+    <!-- Error information -->
+    <string name="error_prefix">" Error: 0x"</string>
+    <string name="error_title">"Error"</string>
+    <string name="error_dismiss_button">"OK"</string>
+    <string name="error_camera_failed">"Nabigong mag-initialize ang camera."</string>
+    <string name="error_camera_snapshot_failed">"Nabigong kumula ng litrato ang Camera."</string>
+    <string name="error_galleryImage_load">"Nabigong i-load ng Application ang imahe."</string>
+    <string name="error_api_frame_timeout">"Walang nakilalang teksto."</string>
+    <string name="error_api_init_failed">"Nabigong ma-initialize ang STA Api."</string>
+    <string name="error_api_parsing_failed">"Nabigo ang STA Api na i-parse ang imahe, subukan muli."</string>
+    <string name="error_api_no_records">"Walang nakilalang teksto."</string>
+    <string name="error_api_restart_failed">"Nabigong Simulan Muli ang API."</string>
+    <string name="error_api_no_new_records">"Walang nahanap na bagong impormasyon."</string>
+    <string name="error_min_max_limit">"Pakipasok ng halaga sa pagitan ng %1$s at ng %2$s"</string>
+    <string name="error_no_sta_data_selected">"Pakipili ng hindi bababa sa isa."</string>
+    <!-- Contact information -->
+    <string name="contact_name_field_caption">"PANGALAN"</string>
+    <string name="contact_nickname_field_caption">"PALAYAW"</string>
+    <string name="contact_nickname_field_name">"Palayaw"</string>
+    <string name="contact_title_field_caption">"TITULO"</string>
+    <string name="contact_company_field_caption">"KOMPANYA"</string>
+    <string name="contact_phone_work_field_caption">"Telepono"</string>
+    <string name="contact_phone_work_field_name">"Telepono (trabaho)"</string>
+    <string name="contact_phone_mobile_field_caption">"Telepono"</string>
+    <string name="contact_phone_mobile_field_name">"Telepono (cellphone)"</string>
+    <string name="contact_phone_home_field_caption">"Telepono"</string>
+    <string name="contact_phone_home_field_name">"Telepono (bahay)"</string>
+    <string name="contact_phone_fax_field_caption">"Telepono"</string>
+    <string name="contact_phone_fax_field_name">"Telepono (fax)"</string>
+    <string name="contact_address_field_caption">"ADDRESS"</string>
+    <string name="contact_address_field_name">"Address"</string>
+    <string name="contact_email_field_caption">"EMAIL"</string>
+    <string name="contact_email_field_name">"Email"</string>
+    <string name="contact_website_field_caption">"WEBSITE"</string>
+    <string name="contact_website_field_name">"Website"</string>
+    <string name="contact_im_field_caption">"IM"</string>
+    <string name="contact_relationship_field_caption">"RELASYON"</string>
+    <string name="contact_relationship_field_name">"Kaugnayan"</string>
+    <string name="contact_notes_field_caption">"MGA TALA"</string>
+    <string name="contact_notes_field_name">"Mga Tala"</string>
+    <!-- Event information -->
+    <string name="event_title_field_caption">"TITULO"</string>
+    <string name="event_from_date_field_caption">"MULA SA"</string>
+    <string name="event_to_date_field_caption">"PAPUNTA SA"</string>
+    <string name="event_location_field_caption">"LOKASYON"</string>
+    <string name="event_location_field_name">"Lokasyon"</string>
+    <string name="event_all_day_field_caption">"MAGHAPON"</string>
+    <string name="event_repeat_field_caption">"ULITIN"</string>
+    <string name="event_details_field_caption">"MGA DETALYE"</string>
+    <string name="event_details_field_name">"Mga detalye"</string>
+    <string name="event_participants_field_caption">"MGA MIYEMBRO"</string>
+    <string name="event_participants_field_name">"Mga Miyembro"</string>
+    <string name="event_date_time_format_long">"EEE M/d/yyyy h:mm a"</string>
+    <string name="event_date_time_format_small">"M/d/yyyy h:mm a"</string>
+    <string name="event_date_format_long">"EEE M/d/yyyy"</string>
+    <string name="event_date_format_small">"MMM d, yyyy"</string>
+    <string name="event_date_format_month_small">"MMM"</string>
+    <string name="event_date_format_month_full">"MMMM"</string>
+    <string name="event_date_format_year">"yyyy"</string>
+    <string name="event_date_format_weekday">"EEE"</string>
+    <string name="event_date_format_small_no_year">"EEE MMM d"</string>
+    <string name="event_time_format">"h:mm a"</string>
+    <string name="event_date_separator">"-"</string>
+    <string name="preview_type_key">"com.qualcomm.qti.sta.captureui.CameraActivity.preview_type"</string>
+    <string name="preview_type_button">"button"</string>
+    <string name="preview_type_auto">"awtomatiko"</string>
+    <!-- Repeat -->
+    <string name="repeat_title">"Ulitin"</string>
+    <string name="repeat_button_cancel">"Kanselahin"</string>
+    <string name="repeat_button_ok">"OK"</string>
+    <string name="repeat_summary_one_time">"Isang-beses na kaganapan"</string>
+    <string name="repeat_summary_daily">"Araw-araw"</string>
+    <string name="repeat_summary_daily_every">"Tuwing %1$s araw"</string>
+    <string name="repeat_summary_weekly">"Lingguhan tuwing%1$s"</string>
+    <string name="repeat_summary_weekly_every">"Tuwing %1$s linggo%2$s"</string>
+    <string name="repeat_summary_monthly_date">"Buwanan sa araw%1$s"</string>
+    <string name="repeat_summary_monthly_day">"Buwanan tuwing%1$s"</string>
+    <string name="repeat_summary_monthly_date_every">"Tuwing %1$s buwan sa araw%2$s"</string>
+    <string name="repeat_summary_monthly_day_every">"Tuwing %1$s buwan tuwing%2$s"</string>
+    <string name="repeat_summary_yearly">"Taunan tuwing%1$s"</string>
+    <string name="repeat_summary_yearly_every">"Tuwing %1$s taon%2$s"</string>
+    <string name="repeat_summary_till_date">"hanggang sa%1$s"</string>
+    <string name="repeat_summary_till_events">"sa %1$s beses"</string>
+    <string name="repeat_summary_till_one_event">"sa 1 beses"</string>
+    <string name="repeat_title_pick_date">"Pumili ng petsa"</string>
+    <string name="repeat_one_time">"Isang-beses na kaganapan"</string>
+    <string name="repeat_daily">"Ulitin Araw-araw"</string>
+    <string name="repeat_weekly">"Ulitin Lingguhan"</string>
+    <string name="repeat_monthly">"Ulitin Buwanan"</string>
+    <string name="repeat_yearly">"Ulitin Taunan"</string>
+    <string name="repeat_till_day">"araw"</string>
+    <string name="repeat_till_week">"linggo"</string>
+    <string name="repeat_till_month">"buwan"</string>
+    <string name="repeat_till_year">"taon"</string>
+    <string name="sunday_name">"Lin"</string>
+    <string name="monday_name">"Lun"</string>
+    <string name="tuesday_name">"Mar"</string>
+    <string name="wednesday_name">"Miy"</string>
+    <string name="thursday_name">"Huw"</string>
+    <string name="friday_name">"Biy"</string>
+    <string name="saturday_name">"Sab"</string>
+    <string-array name="number_texts">
+        <item>"una"</item>
+        <item>"segundo"</item>
+        <item>"pangatlo"</item>
+        <item>"pang-apat"</item>
+        <item>"ika-lima"</item>
+    </string-array>
+    <string-array name="two_letter_day_names">
+        <item>"LI"</item>
+        <item>"LU"</item>
+        <item>"MA"</item>
+        <item>"MI"</item>
+        <item>"HU"</item>
+        <item>"BI"</item>
+        <item>"SA"</item>
+    </string-array>
+    <string-array name="short_day_names">
+        <item>@string/sunday_name</item>
+        <item>@string/monday_name</item>
+        <item>@string/tuesday_name</item>
+        <item>@string/wednesday_name</item>
+        <item>@string/thursday_name</item>
+        <item>@string/friday_name</item>
+        <item>@string/saturday_name</item>
+    </string-array>
+    <string-array name="complete_day_names">
+        <item>"Linggo"</item>
+        <item>"Lunes"</item>
+        <item>"Martes"</item>
+        <item>"Miyerkules"</item>
+        <item>"Huwebes"</item>
+        <item>"Biyernes"</item>
+        <item>"Sabado"</item>
+    </string-array>
+    <string name="repeat_month_same_date">"Parehing petsa sa bawat buwan"</string>
+    <string name="repeat_month_same_day">"Kada"</string>
+    <string name="repeat_every_caption">"Tuwing"</string>
+    <string-array name="till_types">
+        <item>"Habambuhay"</item>
+        <item>"Hanggang sa"</item>
+        <item>"Mga Pag-ulit"</item>
+    </string-array>
+    <!-- Settings -->
+    <string name="setting_sta_data_type">"Mga uri ng datos ng STA"</string>
+    <string name="setting_sta_locale_type">"Lokal ng STA"</string>
+    <string name="setting_text_record_mode">"Mode ng Camera"</string>
+    <string name="setting_camera_steady_duration">"Tagal ng Steady ng Camera (sa ms)"</string>
+    <string name="setting_camera_move_threshold">"Threshold ng Galaw ng Camera"</string>
+    <string name="setting_sta_locale_usa">"USA"</string>
+    <string name="setting_sta_locale_china">"CHN"</string>
+    <string name="setting_sta_locale_korea">"KOR"</string>
+    <string name="setting_default_sta_locale">@string/setting_sta_locale_usa</string>
+    <string name="setting_text_record_snapshot_mode">"Litrato"</string>
+    <string name="setting_text_record_preview_mode">"I-preview"</string>
+    <string name="setting_default_text_record_mode">@string/setting_text_record_snapshot_mode</string>
+    <string name="setting_sta_language_usa">"en"</string>
+    <string name="setting_sta_language_china">"zh-CN"</string>
+    <string name="setting_sta_langauge_korea">"ko"</string>
+    <string-array name="setting_sta_data_type_options">
+        <item>"Email"</item>
+        <item>"URL"</item>
+        <item>"Numero ng Telepono"</item>
+        <item>"Address"</item>
+        <item>"Petsa"</item>
+        <item>"Pangkalahatan"</item>
+    </string-array>
+    <string-array name="setting_sta_data_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type">
+        <item>"USA"</item>
+        <item>"China"</item>
+        <item>"Korea"</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type_values">
+        <item>@string/setting_sta_locale_usa</item>
+        <item>@string/setting_sta_locale_china</item>
+        <item>@string/setting_sta_locale_korea</item>
+    </string-array>
+    <string-array name="setting_text_record_options">
+        <item>@string/setting_text_record_snapshot_mode</item>
+        <item>@string/setting_text_record_preview_mode</item>
+    </string-array>
+    <string name="settings_scve_mode">"Mode ng Operasyon ng SCVE"</string>
+    <string-array name="settings_scve_mode_entries">
+        <item>"Default"</item>
+        <item>"Offload ng CPU"</item>
+        <item>"Pagganap"</item>
+        </string-array>
+    <string-array name="settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+    </string-array>
+    <string name="settings_scve_mode_default">0</string></resources>

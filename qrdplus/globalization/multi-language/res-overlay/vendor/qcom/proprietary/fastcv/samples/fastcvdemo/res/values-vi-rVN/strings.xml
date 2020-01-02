@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+   <string name="activity_Corner">"Phát hiện góc"</string>
+   <string name="activity_Filter">"Bộ lọc"</string>
+   <string name="activity_FilterCorr">"FilterCorr"</string>
+   <string name="activity_Scale">"Tỉ lệ"</string>
+   <string name="activity_Warp">"Làm cong"</string>
+   <string name="activity_ImgDiff">"Khác biệt ảnh"</string>
+   <string name="activity_ImageGradient">"Chuyển màu ảnh"</string>
+   <string name="activity_OpticalFlow">"Chuyển động tương đối LK"</string>
+   <string name="activity_Affine">"Afin"</string>
+   <string name="activity_Rotate">"Xoay"</string>
+   <string name="activity_ScaleDownMN">"ScaleDownMN"</string>
+   <string name="app_name">"Ứng dụng trình diễn FastCV"</string>
+   <string name="label_text">"Nhập ở đây: "</string>
+   <string name="textview01_text">"TextView01"</string>
+   <string name="startpreview_text">"Bắt đầu"</string>
+   <string name="stoppreview_text">"Dừng"</string>
+   <string name="settings">"Cài đặt"</string>
+   <string name="txtAcceleration">"Tăng tốc chuyển đổi"</string>
+   <string name="about">"Thông tin"</string>
+   <string name="versionNumber_text">"Phiên bản FastCV"</string>
+   <string name="appName_text">"Tên ứng dụng"</string>
+   <string name="appName">"Ứng dụng trình diễn FastCV"</string>
+   <string name="detectionName">"Mô-đun phát hiện"</string>
+   <string-array name="CameraOnOffArray">
+      <item>"Kính ngắm bật "</item>
+      <item>"Kính ngắm tắt "</item>
+   </string-array>
+   <string-array name="CameraOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray">
+      <item>"Tắt bộ lọc Gaussian 3x3  "</item>
+      <item>"Bật bộ lọc Gaussian 3x3 "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray2">
+      <item>"Tắt bộ lọc Gaussian 5x5  "</item>
+      <item>"Bật bộ lọc Gaussian 5x5 "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray2">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray3">
+      <item>"Tắt bộ lọc Gaussian 11x11  "</item>
+      <item>"Bật bộ lọc Gaussian 11x11 "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray3">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="CannyOnOffArray">
+      <item>"Tắt bộ lọc Canny Edge  "</item>
+      <item>"Bật bộ lọc Canny Edge "</item>
+   </string-array>
+   <string-array name="CannyOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="cornerDetectorDownSampleArray">
+      <item>1 </item>
+      <item>2 </item>
+      <item>4 </item>
+      <item>8 </item>
+   </string-array>
+   <string-array name="cornerDetectorDownSampleValuesArray">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+   </string-array>
+   <string-array name="cornerDetectorThresholdArray">
+      <item>5 </item>
+      <item>10 </item>
+      <item>20 </item>
+      <item>40 </item>
+      <item>80 </item>
+   </string-array>
+   <string-array name="cornerDetectorValuesArray">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+   </string-array>
+<string-array name="CornerOnOnOffArray">
+      <item>"Tắt lớp phủ góc  "</item>
+      <item>"Bật lớp phủ góc "</item>
+   </string-array>
+   <string-array name="CornerOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="DetectionArray">
+      <item>CornerFast9u8 </item>
+      <item>CornerHarrisu8 </item>
+      <item>CornerFastInMasku8 </item>
+      <item>CornerHarrisInMasku8 </item>
+      <item>CornerFast9Scoreu8 </item>
+      <item>CornerFast9InMaskScoreu8</item>
+      <item>CornerFast10u8 </item>
+   </string-array>
+   <string-array name="DetectionValuesArray">
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+      <item>5</item>
+      <item>6</item>
+      <item>7</item>
+   </string-array></resources>

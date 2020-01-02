@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Motor Oma Drm"</string>
+    <string name="activity_name_image_viewer">"Vizualizator imagini DRM"</string>
+    <string name="permission_label_access_drm_data">"Permisiune acces plugin OMA DRM"</string>
+    <string name="permission_desc_access_drm_data">"Acordaţi permisiune de accesare a informaţiilor de licenţă plugin OMA DRM."</string>
+    <string name="license_expired">"Licenţă expirată"</string>
+    <string name="license_expired_message">"Nu se poate deschide fişierul DRM"</string>
+    <string name="buy_license">"Cumpărare licenţă"</string>
+    <string name="menu_set_as_wallpaper">"Setare imagine de fundal"</string>
+    <string name="menu_details">"Detalii"</string>
+    <string name="drm_details_title">"Detalii Drm"</string>
+    <string name="dialog_close">"Închideți"</string>
+    <string name="drm_rights_message">"Drepturi OMA DRM salvate cu succes"</string>
+    <string name="drm_text_count">"Număr rămas : "</string>
+    <string name="drm_text_date_start">"De la : "</string>
+    <string name="drm_text_date_end">"Până la : "</string>
+    <string name="drm_text_fwd_lk">"Nelimitat "</string>
+    <string name="drm_text_license">"Licenţă Drm : "</string>
+    <string name="drm_text_play">"Redați"</string>
+    <string name="drm_text_display">"Afișaj"</string>
+    <string name="drm_text_title">"Titlu : "</string>
+    <string name="drm_text_location">"Locaţie : "</string>
+    <string name="drm_text_mime_type">"Tip Mime : "</string>
+    <string name="error_unable_to_view">"Imagine negăsită"</string></resources>

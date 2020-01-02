@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The user visible name of the application. [CHAR LIMIT=20] -->
+  <string name="application_name">"ExoPlayer Demo"</string>
+  <string name="enable_background_audio">"Mainkan di latar belakang"</string>
+  <string name="video">"Video"</string>
+  <string name="audio">"Audio"</string>
+  <string name="text">"Teks"</string>
+  <string name="logging">"Pencatatan Log"</string>
+  <string name="logging_normal">"Normal"</string>
+  <string name="logging_verbose">"Rinci"</string>
+  <string name="retry">"Coba Lagi"</string>
+  <string name="off">"[nonaktif]"</string>
+  <string name="error_drm_not_supported">"Konten terproteksi tidak didukung pada level API dibawah 18"</string>
+  <string name="error_drm_unsupported_scheme">"Perangkat ini tidak mendukung skema DRM yang dibutuhkan"</string>
+  <string name="error_drm_unknown">"Terjadi kesalahan DRM yang tidak diketahui"</string>
+  <string name="error_no_decoder">"Perangkat ini tidak menyediakan dekoder untuk<xliff:g id="mime_type">%1$s</xliff:g>"</string>
+  <string name="error_no_secure_decoder">"Perangkat ini tidak menyediakan dekoder aman untuk<xliff:g id="mime_type">%1$s</xliff:g>"</string>
+  <string name="error_querying_decoders">"Tidak dapat mengirim kueri dekoder perangkat"</string>
+  <string name="error_instantiating_decoder">"Tidak dapat memberi contoh dekoder<xliff:g id="decoder_name">%1$s</xliff:g>"</string>
+  <string name="storage_permission_denied">"Izin untuk mengakses penyimpanan ditolak"</string></resources>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Panorama Antarmuka"</string>
+    <string name="title_loading">"Memuat!"</string>
+    <string name="msg_loading">"Memproses..."</string>
+    <string name="panorama_saved">"Panorama telah berhasil disimpan ke galeri foto perangkat Anda"</string>
+    <string name="panorama_generate_result_failed">"Maaf, silakan coba lagi."</string>
+    <string name="error_dialog_title">"Kesalahan Aplikasi"</string>
+    <string name="btn_ok">"OKE"</string>
+    <string name="btn_txt_save">"Simpan Gambar"</string>
+    <string name="err_library_loading">"Aplikasi gagal untuk memuat pustaka asli."</string>
+    <string name="err_camera_init">"Kamera gagal memulai."</string>
+    <string name="err_sensors_init">"Sensor gagal menginisialisasi."</string>
+    <string name="err_pano_init">"Panorama API gagal untuk diinisialiasi."</string>
+    <string name="err_sensors_failed">"Sensor gagal menginisialisasi."</string>
+    <string name="err_zsl_failed">"ZSL tidak didukung untuk perangkat ini."</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"Sesi tidak dimulai"</string>
+    <string name="err_queue_full">"Antrean penuh"</string>
+    <string name="err_max_key_frames">"Bingkai maksimum tercapai"</string>
+    <string name="err_no_frame_overlap">"Tidak ada tumpang tindih di antara bingkai"</string>
+    <string name="err_inconsistent_direction">"Petunjuk tidak konsisten"</string>
+    <string name="err_result_not_ready">"Hasil belum siap"</string>
+    <string name="err_frame_no_feature">"Bingkai tidak memiliki fitur yang memadai"</string>
+    <string name="err_direction_changed">"Petunjuk berubah, klik OK untuk melihat gambar panorama yang diambil."</string>
+    <string name="err_panorama_loading">"Pemuatan Gambar panorama gagal."</string>
+    <string name="err_panorama_saving">"Penyimpanan Gambar panorama gagal."</string>
+    <string name="err_api_capturing">"Pengambilan panorama gagal."</string>
+    <string name="err_api_halted">"Pengambilan panorama dihentikan, klik OK untuk melihat gambar panorama yang diambil."</string>
+    <string name="err_max_limit">"Batas bingkai maksimum tercapai, klik OK untuk melihat gambar panorama yang diambil."</string>
+    <string name="err_no_prv">"Tidak ada pratinjau yang Diambil."</string>
+    <string name="title_settings">"Setelan"</string>
+    <string name="camera_settings">"Setelan Kamera"</string>
+    <string name="camera_settings_picture_size">"Resolusi"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string name="camera_settings_exposure_compensation">"Kompensasi Pencahayaan"</string>
+    <string name="camera_settings_white_balance">"Keseimbangan Putih"</string>
+    <string-array name="camera_settings_white_balance_entries">
+        <item>"Oto"</item>
+        <item>"Siang Hari"</item>
+        <item>"Fluoresens"</item>
+        <item>"Berpijar"</item>
+        <item>"Bayangan"</item>
+        <item>"Senja"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values">
+        <item>"auto"</item>
+        <item>"daylight"</item>
+        <item>"fluorescent"</item>
+        <item>"incandescent"</item>
+        <item>"shade"</item>
+        <item>"twilight"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values_camera2">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>7</item>
+    </string-array>
+    <string name="camera_settings_scene_mode">"Mode Adegan"</string>
+    <string-array name="camera_settings_scene_mode_entries">
+        <item>"Tindakan"</item>
+        <item>"Oto"</item>
+        <item>"Malam"</item>
+        <item>"Pesta"</item>
+        <item>"Matahari terbenam"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values">
+        <item>"action"</item>
+        <item>"auto"</item>
+        <item>"night"</item>
+        <item>"party"</item>
+        <item>"sunset"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values_camera2">
+        <item>2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"Mode Fokus"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"Rangkaian (Video)"</item>
+        <item>"Ketakterbatasan"</item>
+        <item>"Tetap"</item>
+        <item>"Rangkaian (Gambar)"</item>
+        <item>"Oto"</item>
+        <item>"Kedalaman Ruang Diperpanjang"</item>
+        <item>"Makro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"fixed"</item>
+        <item>"continuous-picture"</item>
+        <item>"auto"</item>
+        <item>"edof"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>3</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_iso">ISO</string>
+    <string-array name="camera_settings_iso_entries">
+        <item>"Oto"</item>
+        <item>"Reduksi Goyang Tangan"</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="camera_settings_iso_values">
+        <item>"auto"</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>"ISO3200"</item>
+    </string-array>
+    <string name="camera_settings_iso_default">ISO800</string>
+    <string name="pano_settings">"Setelan Panorama"</string>
+    <string name="pano_settings_scve_mode">"Mode Operasi SCVE"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"Default"</item>
+        <item>"Offload CPU"</item>
+        <item>"Kinerja"</item>
+        <item>"Daya Rendah"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_image_compress_level">"Tingkat Kompres Gambar"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_3a_lock">"Kunci AE/AF/AWB selama mengambil Panorama"</string>
+    <string-array name="pano_settings_enable_3a_lock_entries">
+        <item>"Tidak"</item>
+        <item>"Ya"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_3a_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_3a_lock_default">"true"</string>
+    <string name="debug_settings">"Setelan Debug"</string>
+    <string name="debug_settings_enable_loggings">"Pencatatan Log Panjang"</string>
+    <string-array name="debug_settings_enable_loggings_entries">
+        <item>"Nonaktif"</item>
+        <item>"Aktif"</item>
+    </string-array>
+    <string-array name="debug_settings_enable_loggings_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_enable_loggings_default">"false"</string>
+    <string name="debug_settings_save_preview_frames">"Simpan bingkai pratinjau ke kartu SD"</string>
+    <string-array name="debug_settings_save_preview_frames_entries">
+        <item>"Tidak"</item>
+        <item>"Ya"</item>
+    </string-array>
+    <string-array name="debug_settings_save_preview_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_preview_frames_default">"false"</string>
+    <string name="debug_settings_save_key_frames">"Simpan bingkai utama ke kartu SD"</string>
+    <string-array name="debug_settings_save_key_frames_entries">
+        <item>"Tidak"</item>
+        <item>"Ya"</item>
+    </string-array>
+    <string-array name="debug_settings_save_key_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_key_frames_default">"false"</string>
+    <!-- PanoramaViewer -->
+    <string name="share_button_text">"Bagikan Gambar Panorama"</string></resources>

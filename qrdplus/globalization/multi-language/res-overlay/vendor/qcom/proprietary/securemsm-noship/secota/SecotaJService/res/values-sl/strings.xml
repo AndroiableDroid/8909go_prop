@@ -1,0 +1,113 @@
+<resources>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+    <string name="app_name">"SeempJService"</string>
+    <string-array name="cause_description_array">
+<item>"6:3:Poizvedovanje o uporabniških vnosih/interakcijah, ko uporabnik ne vidi aplikacije, ali ko se aplikacija izvaja v ozadju"</item>
+    <item>"7:5:sumljiva uporaba identifikatorja uporabnika za Android "</item>
+    <item>"8:5:sumljiva uporaba identifikatorja uporabnika za Android, ko se aplikacija izvaja v ozadju"</item>
+    <item>"9:5:Sumljiv dostop do občutljivih podatkov naprave"</item>
+    <item>"10:5:Sumljiv dostop do občutljivih podatkov naprave, ko se aplikacija izvaja v ozadju"</item>
+    <item>"11:4:Sumljiv dostop do telefonske številke"</item>
+    <item>"12:4:Dostopanje do telefonske številke, ko uporabnik ne uporablja aplikacije"</item>
+    <item>"13:2:aplikacija poskuša opraviti nepooblaščen telefonski klic"</item>
+    <item>"14:2:aplikacija poskuša opraviti nepooblaščen telefonski klic, ko se aplikacija izvaja v ozadju"</item>
+    <item>"15:4:Neobičajen dostop do občutljivih podatkov uporabniškega računa"</item>
+    <item>"16:4:Neobičajen dostop do občutljivih podatkov uporabniškega računa, ko uporabnik ne uporablja aplikacije"</item>
+    <item>"17:4:Aplikacija dostopa do občutljivih podatkov uporabniškega računa, ne da bi o tem obvestila uporabnika"</item>
+    <item>"18:4:Aplikacija dostopa do občutljivih podatkov uporabniškega računa, ne da bi o tem obvestila uporabnika, medtem ko se izvaja v ozadju"</item>
+    <item>"19:3:Sumljiv dostop do občutljivih podatkov brskalnika"</item>
+    <item>"20:3:Sumljiv dostop do občutljivih podatkov brskalnika, ko se aplikacija izvaja v ozadju"</item>
+    <item>"21:3:dostopanje do občutljivih podatkov brskalnika (to lahko vključuje občutljive podatke uporabnika), ko uporabnik ne uporablja aplikacije"</item>
+    <item>"22:3:dostopanje do občutljivih podatkov brskalnika (to lahko vključuje občutljive podatke uporabnika), ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"23:6:neobičajna/prekomerna namestitev bližnjice"</item>
+    <item>"24:6:aplikacija poskuša namestiti bližnjico, ko se izvaja v ozadju"</item>
+    <item>"25:6:aplikacija poskuša namestiti bližnjico, ko uporabnik ne uporablja aplikacije "</item>
+    <item>"26:6:aplikacija poskuša namestiti bližnjico, ko se izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"27:4:Dostopanje do občutljivih podatkov koledarja"</item>
+    <item>"28:4:Dostopanje do občutljivih podatkov koledarja, ko se aplikacija izvaja v ozadju"</item>
+    <item>"29:1:Vstavljanje podatkov/dogodkov v koledar, ko uporabnik ne uporablja aplikacije "</item>
+    <item>"30:1:Vstavljanje podatkov/dogodkov v koledar, ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"31:5:Neobičajen/prekomeren dostop do podatkov o lokaciji"</item>
+    <item>"32:5:Neobičajen/prekomeren dostop do podatkov o lokaciji, ko se aplikacija izvaja v ozadju"</item>
+    <item>"37:3:Sumljiva uporaba fotoaparata (to lahko vključuje fotografiranje in snemanje videov)"</item>
+    <item>"38:3:Sumljiva uporaba fotoaparata (to lahko vključuje fotografiranje in snemanje videov), ko se aplikacija izvaja v ozadju"</item>
+    <item>"39:3:Fotografiranje (to lahko vključuje snemanje videov) in posredovanje posnetkov v oddaljeni strežnik"</item>
+    <item>"40:3:Fotografiranje (to lahko vključuje snemanje videov) in posredovanje posnetkov v oddaljeni strežnik, ko se aplikacija izvaja v ozadju"</item>
+    <item>"41:3:Fotografiranje (to lahko vključuje snemanje videov), ko uporabnik ne uporablja aplikacije"</item>
+    <item>"42:3:Fotografiranje (to lahko vključuje snemanje videov), ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"43:3:Fotografiranje (to lahko vključuje snemanje videov) in posredovanje posnetkov v oddaljeni strežnik, ko uporabnik ne uporablja aplikacije"</item>
+    <item>"44:3:Fotografiranje (to lahko vključuje snemanje videov) in posredovanje posnetkov v oddaljeni strežnik, ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"45:3:Sumljiva uporaba videokamere (to lahko vključuje snemanje slik in videov)"</item>
+    <item>"46:3:Sumljiva uporaba videokamere (to lahko vključuje snemanje slik in videov), ko se aplikacija izvaja v ozadju"</item>
+    <item>"47:3:Snemanje videov in posredovanje posnetkov v oddaljeni strežnik"</item>
+    <item>"48:3:Snemanje videov in posredovanje posnetkov v oddaljeni strežnik, ko se aplikacija izvaja v ozadju"</item>
+    <item>"49:3:Snemanje videov, ko uporabnik ne uporablja aplikacije"</item>
+    <item>"50:3:Snemanje videov, ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"51:3:Snemanje videov in posredovanje posnetkov v oddaljeni strežnik, ko uporabnik ne uporablja aplikacije"</item>
+    <item>"52:3:Snemanje videov in posredovanje posnetkov v oddaljeni strežnik, ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"53:3:Sumljivo snemanje podatkov mikrofona"</item>
+    <item>"54:3:Sumljivo snemanje podatkov mikrofona, ko se aplikacija izvaja v ozadju"</item>
+    <item>"55:3:Sumljivo snemanje podatkov mikrofona in posredovanje teh podatkov v oddaljeni strežnik"</item>
+    <item>"56:3:Snemanje podatkov mikrofona in posredovanje teh podatkov v oddaljeni strežnik, ko se aplikacija izvaja v ozadju"</item>
+    <item>"57:3:Sumljivo snemanje podatkov mikrofona, ko uporabnik ne uporablja aplikacije"</item>
+    <item>"58:3:snemanje podatkov mikrofona, ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"59:3:Sumljivo snemanje in posredovanje podatkov mikrofona, ko uporabnik ne uporablja aplikacije"</item>
+    <item>"60:3:snemanje in posredovanje podatkov mikrofona, ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"61:2:Sumljiva dejavnost sporočil SMS: poskus pošiljanja sporočila SMS (morebitno pošiljanje dragih sporočil SMS na plačljive številke)"</item>
+    <item>"62:2:Aplikacija poskuša poslati sporočilo SMS, ko se izvaja v ozadju (morebitno pošiljanje dragih sporočil SMS na plačljive številke)"</item>
+    <item>"63:2:Sumljiva dejavnost sporočil SMS: Aplikacija pošilja sporočila SMS (morebitno pošiljanje dragih sporočil SMS na plačljive številke), ko je uporabnik ne uporablja"</item>
+    <item>"64:2:Aplikacija pošilja sporočilo SMS (morebitno pošiljanje dragih sporočil SMS na plačljive številke), ko se izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"65:3:Sumljiv dostop do sporočil SMS (to vključuje odpiranje in branje sporočil)"</item>
+    <item>"66:3:Dostopanje do sporočil SMS in branje teh sporočil, ko se aplikacija izvaja v ozadju"</item>
+    <item>"67:3:Dostopanje do sporočil SMS in branje teh sporočil, ko uporabnik ne uporablja aplikacije"</item>
+    <item>"68:3:Dostopanje do sporočil SMS in branje teh sporočil, ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"69:3:prekomerni/neobičajni dostop do podatkov senzorja"</item>
+    <item>"70:3:prekomeren/neobičajen dostop do podatkov senzorja, ko se aplikacija izvaja v ozadju"</item>
+    <item>"71:3:Sumljivo prestrezanje sporočil MMS"</item>
+    <item>"72:3:Sumljivo prestrezanje sporočil MMS, ko se aplikacija izvaja v ozadju"</item>
+    <item>"73:3:Sumljivo prestrezanje sporočil MMS, ko uporabnik ne uporablja aplikacije"</item>
+    <item>"74:3:Sumljivo prestrezanje sporočil MMS, ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"75:4:neobičajen dostop do enega ali več podatkov o stiku"</item>
+    <item>"76:4:neobičajen dostop do enega ali več podatkov o stiku, ko se aplikacija izvaja v ozadju"</item>
+    <item>"77:4:Dostopanje do enega ali več seznamov stikov, ko uporabnik ne uporablja aplikacije"</item>
+    <item>"78:4:Dostopanje do enega ali več seznamov stikov, ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"79:1:Sumljiva namestitev aplikacije drugega ponudnika"</item>
+    <item>"80:1:Sumljiva namestitev aplikacije drugega ponudnika, ko se aplikacija izvaja v ozadju"</item>
+    <item>"81:1:Sumljiva namestitev aplikacije drugega ponudnika, ko uporabnik ne uporablja aplikacije"</item>
+    <item>"82:1:Sumljiva namestitev aplikacije drugega ponudnika, ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"83:5:prekomerno/neobičajno posredovanje identifikatorja uporabnika za Android"</item>
+    <item>"84:5:prekomerno/neobičajno posredovanje identifikatorja uporabnika za Android, ko se aplikacija izvaja v ozadju"</item>
+    <item>"85:5:Dostopanje do občutljivih podatkov o napravi in posredovanje teh podatkov (to lahko vključuje številko IMEI, serijsko številko kartice SIM in druge podatke, povezane z operaterjem)"</item>
+    <item>"86:5:Dostopanje do občutljivih podatkov o napravi in posredovanje teh podatkov (to lahko vključuje številko IMEI, serijsko številko kartice SIM in druge podatke, povezane z operaterjem), ko se aplikacija izvaja v ozadju"</item>
+    <item>"87:4:Dostopanje do telefonske številke uporabnika in posredovanje te številke v oddaljeni strežnik"</item>
+    <item>"88:4:Dostopanje do telefonske številke uporabnika in posredovanje te številke v oddaljeni strežnik, ko se aplikacija izvaja v ozadju"</item>
+    <item>"89:4:Neobičajno posredovanje občutljivih podatkov uporabniškega računa/poverilnic (to lahko vključuje podatke o kreditni kartici ali druge finančne podatke)"</item>
+    <item>"90:4:Neobičajno posredovanje občutljivih podatkov uporabniškega računa/poverilnic (to lahko vključuje podatke o kreditni kartici ali druge finančne podatke), ko se aplikacija izvaja v ozadju "</item>
+    <item>"91:3:Dostopanje do občutljivih podatkov brskalnika in posredovanje teh podatkov (to lahko vključuje občutljive podatke uporabnika)"</item>
+    <item>"92:3:dostopanje do občutljivih podatkov brskalnika in posredovanje teh podatkov (to lahko vključuje občutljive podatke uporabnika), ko se aplikacija izvaja v ozadju"</item>
+    <item>"93:3:Dostopanje do občutljivih podatkov brskalnika in posredovanje teh podatkov (to lahko vključuje občutljive podatke uporabnika)"</item>
+    <item>"94:3:dostopanje do občutljivih podatkov brskalnika in posredovanje teh podatkov (to lahko vključuje občutljive podatke uporabnika), ko se aplikacija izvaja v ozadju"</item>
+    <item>"95:4:Posredovanje podatkov koledarja v oddaljeni strežnik (to lahko vključuje občutljive podatke uporabnika)"</item>
+    <item>"96:4:Posredovanje podatkov koledarja v oddaljeni strežnik (to lahko vključuje občutljive podatke uporabnika), ko se aplikacija izvaja v ozadju"</item>
+    <item>"97:5:Neobičajen/prekomeren dostop do podatkov o lokaciji in posredovanje teh podatkov"</item>
+    <item>"98:5:Neobičajen/prekomeren dostop do podatkov o lokaciji in posredovanje teh podatkov, ko se aplikacija izvaja v ozadju"</item>
+    <item>"99:5:Neobičajen/prekomeren dostop do podatkov o lokaciji in posredovanje teh podatkov"</item>
+    <item>"100:5:Neobičajen/prekomeren dostop do podatkov o lokaciji in posredovanje teh podatkov, ko se aplikacija izvaja v ozadju"</item>
+    <item>"101:3:Prekomerno/neobičajno posredovanje podatkov senzorja"</item>
+    <item>"102:3:Prekomerno/neobičajno posredovanje podatkov senzorja, ko se aplikacija izvaja v ozadju"</item>
+    <item>"103:4:Dostopanje do enega ali več seznamov stikov in posredovanje teh seznamov v oddaljeni strežnik"</item>
+    <item>"104:4:Dostopanje do enega ali več seznamov stikov in posredovanje teh seznamov v oddaljeni strežnik, ko se aplikacija izvaja v ozadju"</item>
+    <item>"105:4:Dostopanje do enega ali več seznamov stikov in posredovanje teh seznamov v oddaljeni strežnik, ko uporabnik ne uporablja aplikacije"</item>
+    <item>"106:4:Dostopanje do enega ali več seznamov stikov in posredovanje teh seznamov v oddaljeni strežnik, ko se aplikacija izvaja v ozadju in je uporabnik ne uporablja"</item>
+    <item>"109:3:prekomerni/neobičajni dostop do podatkov senzorja"</item>
+    <item>"110:3:prekomeren/neobičajen dostop do podatkov senzorja, ko se aplikacija izvaja v ozadju"</item>
+    <item>"121:5:Sumljiv dostop do nastavitev, povezanih z ID-jem naprave"</item>
+    <item>"122:5:Sumljiv dostop do nastavitev, povezanih z ID-jem naprave, ko se aplikacija izvaja v ozadju"</item>
+    <item>"162:3:Sumljiv preklop na nastavitve načina za letalo, ko se aplikacija izvaja v ozadju"</item>
+    <item>"164:3:Sumljiv preklop na nastavitve alarma, ko se aplikacija izvaja v ozadju"</item>
+    <item>"202:3:Sumljiva sprememba stanja povezave Wi-Fi, ko se aplikacija izvaja v ozadju"</item>
+    </string-array></resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="camera_pref_camera_id">"ক্যামেরা"</string>
+    <string-array name="camera_pref_camera_id_desc">
+        <item>"প্রাথমিক"</item>
+        <item>"সম্মুখ-মুখী"</item>
+        <item>"ক্যামেরা 3"</item>
+        <item>"ক্যামেরা 4"</item>
+    </string-array>
+    <string name="camera_pref_picture_size_name">"ছবির আকার"</string>
+    <string-array name="camera_pref_picture_size_desc">
+        <item>"4160x2340 (9.7MP, 16:9)"</item>
+        <item>"3840x2160 (8.3MP, 16:9, UHD 4K)"</item>
+        <item>"3200x1800 (5.8MP, 16:9, WQXGA+)"</item>
+        <item>"2688x1512 (4.1MP, 16:9)"</item>
+        <item>"2592x1458 (3.8MP, 16:9)"</item>
+        <item>"1920x1080 (2.1MP, 16:9, HD 1080p)"</item>
+        <item>"1280x720 (0.9MP, 16:9, HD 720p)"</item>
+        <item>"864x480 (0.4MP, 16:9)"</item>
+        <item>"4160x3120 (13MP, 4:3)"</item>
+        <item>"4000x3000 (12MP, 4:3)"</item>
+        <item>"3264x2448 (8MP, 4:3)"</item>
+        <item>"3200x2400 (7.7MP, 4:3, QUXGA)"</item>
+        <item>"2592x1944 (5MP, 4:3)"</item>
+        <item>"2048x1536 (3.1MP, 4:3, QXGA)"</item>
+        <item>"1920x1440 (2.8MP, 4:3)"</item>
+        <item>"1600x1200 (1.9MP, 4:3, UXGA)"</item>
+        <item>"1280x960 (1.2MP, 4:3, UVGA)"</item>
+        <item>"1024x768 (0.8MP, 4:3, XGA)"</item>
+        <item>"800x600 (0.5MP, 4:3, SVGA)"</item>
+        <item>"640x480 (0.3MP, 4:3, VGA)"</item>
+        <item>"320x240 (0.1MP, 4:3, QVGA)"</item>
+        <item>"3264x2176 (7.1MP, 3:2)"</item>
+        <item>"2592x1728 (4.5MP, 3:2)"</item>
+        <item>"720x480 (0.3MP, 3:2)"</item>
+        <item>"4160x2774 (11.5MP, 3:2)"</item>
+        <item>"2976x2976 (8.9MP, 1:1)"</item>
+        <item>"1280x768 (1MP, 5:3)"</item>
+        <item>"800x480 (0.4MP, 5:3)"</item>
+        <item>"352x288 (0.1MP, 11:9)"</item>
+        <item>"176x144 (0MP, 11:9)"</item>
+    </string-array>
+    <string name="camera_pref_preview_size">"প্রাকপরীক্ষার আকার"</string>
+    <string-array name="camera_pref_preview_size_desc">
+        <item>"ম্যাচ প্রদর্শনের আকার"</item>
+        <item>"উচ্চ-রেজোলিউশন প্রাকপরীক্ষা (4MP পর্যন্ত)"</item>
+    </string-array>
+    <string name="camera_pref_scene_mode_name">"দৃশ্য অবস্থা"</string>
+    <string-array name="camera_pref_scene_mode_desc">
+        <item>"স্বয়ংক্রিয়"</item>
+        <item>"অ্যাকশন শট"</item>
+        <item>"বারকোড"</item>
+        <item>"সৈকত"</item>
+        <item>"মোমবাতির আলো"</item>
+        <item>"মুখ"</item>
+        <item>"আতসবাজি"</item>
+        <item>HDR</item>
+        <item>"দ্রুত-গতির ভিডিও"</item>
+        <item>"ল্যান্ডস্কেপ"</item>
+        <item>"রাত্রি"</item>
+        <item>"পার্টি"</item>
+        <item>"জনগন"</item>
+        <item>"রাতে লোকজন"</item>
+        <item>"তুষার"</item>
+        <item>"স্পোর্টস"</item>
+        <item>"স্থির শট"</item>
+        <item>"সুর্যাস্ত"</item>
+        <item>"নাট্যশালা"</item>
+    </string-array>
+    <string name="camera_pref_ae_name">"এক্সপোজার নিয়ন্ত্রণ"</string>
+    <string-array name="camera_pref_ae_desc">
+        <item>"স্বয়ংক্রিয়"</item>
+        <item>"মেরামত করা"</item>
+    </string-array>
+    <string name="camera_pref_exposure_comp_name">"এক্সপোজার কমপেনসেশন"</string>
+    <string name="camera_pref_exposure_comp_desc">%.1f EV</string>
+    <string name="camera_pref_af_name">"ফোকাস"</string>
+    <string-array name="camera_pref_af_desc">
+        <item>"স্বয়ংক্রিয়"</item>
+        <item>"মেরামত করা"</item>
+        <item>"অবিরত (ছবি)"</item>
+        <item>"অবিরত (ভিডিও)"</item>
+        <item>"বড়"</item>
+        <item>"ফিল্ডের বর্ধিত গভীরতা"</item>
+    </string-array>
+    <string name="camera_pref_awb_name">"হোয়াইট ব্যালেন্স নিয়ন্ত্রণ"</string>
+    <string-array name="camera_pref_awb_desc">
+        <item>"স্বয়ংক্রিয়"</item>
+        <item>"বন্ধ"</item>
+        <item>"ভাস্বর আলোক"</item>
+        <item>"ফ্লুরোসেন্ট আলোক"</item>
+        <item>"উষ্ণ ফ্লুরোসেন্ট আলোক"</item>
+        <item>"দিবালোক"</item>
+        <item>"মেঘলা দিন"</item>
+        <item>"ছায়া"</item>
+        <item>"সন্ধ্যা"</item>
+    </string-array>
+    <string name="camera_pref_flash_name">"ফ্ল্যাশ"</string>
+    <string-array name="camera_pref_flash_desc">
+        <item>"স্বয়ংক্রিয়"</item>
+        <item>"চালু"</item>
+        <item>"বন্ধ"</item>
+    </string-array>
+    <string name="camera_pref_noise_reduction_name">"আওয়াজ হ্রাসকরণ"</string>
+    <string-array name="camera_pref_noise_reduction_desc">
+        <item>"চালু"</item>
+        <item>"বন্ধ"</item>
+        <item>"উচ্চ-গুণমান"</item>
+    </string-array>
+    <string name="camera_pref_lens_shading_name">"লেন্স শেডিং সংশোধন"</string>
+    <string-array name="camera_pref_lens_shading_desc">
+        <item>"চালু"</item>
+        <item>"বন্ধ"</item>
+        <item>"উচ্চ-গুণমান"</item>
+    </string-array>
+    <string name="camera_pref_aberration_name">"বিকার সংশোধন"</string>
+    <string-array name="camera_pref_aberration_desc">
+        <item>"চালু"</item>
+        <item>"বন্ধ"</item>
+        <item>"উচ্চ-গুণমান"</item>
+    </string-array>
+    <string name="camera_pref_edge_enhancement_name">"কিনারার উন্নতিসাধন"</string>
+    <string-array name="camera_pref_edge_enhancement_desc">
+        <item>"চালু"</item>
+        <item>"বন্ধ"</item>
+        <item>"উচ্চ-গুণমান"</item>
+    </string-array>
+    <string name="camera_pref_hot_pixel_name">"হট পিক্সেল সংশোধন"</string>
+    <string-array name="camera_pref_hot_pixel_desc">
+        <item>"চালু"</item>
+        <item>"বন্ধ"</item>
+        <item>"উচ্চ-গুণমান"</item>
+    </string-array>
+    <string name="camera_pref_stabilization_name">"স্টেবিলাইজেশন মোড"</string>
+    <string-array name="camera_pref_stabilization_desc">
+        <item>"বন্ধ"</item>
+        <item>"অপ্টিকাল"</item>
+        <item>"সাংখ্যিক"</item>
+    </string-array></resources>

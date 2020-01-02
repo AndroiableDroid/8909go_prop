@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, TechTreks!</string>
+    <string name="app_name">"Qualcomm DLT"</string>
+     <string name="gpsDebuggingActivity">"សកម្មភាពបំបាត់កំហុស GPS"</string>
+     <string name="cameraActivity">"ម៉ាស៊ីន​ថត"</string>
+     <string name="newTrackingSession">"សម័យតាមដានថ្មី"</string>
+     <string name="newTrackingSession_nameLabel">"ឈ្មោះ"</string>
+     <string name="newTrackingSession_numFixesLabel">"ការកំណត់លេខ"</string>
+     <string name="newTrackingSession_descriptionLabel">"ការ​ពិពណ៌នា"</string>
+     <string name="newTrackingSession_startButtonLabel">"ចាប់ផ្ដើម"</string>
+     <string name="testConfig">"ការកំណត់រចនាសម្ព័ន្ធការសាកល្បង"</string>
+     <string name="testConfig_configNameLabel">"ការកំណត់រចនាសម្ព័ន្ធឈ្មោះ"</string>
+     <string name="testConfig_numFixesLabel">"ការកំណត់លេខ (1-99999)"</string>
+     <string name="testConfig_descriptionLabel">"ការពិពណ៌នា​ការកំណត់រចនាសម្ព័ន្ធការសាកល្បង"</string>
+     <string name="testConfig_startButtonLabel">"ចាប់ផ្ដើមការសាកល្បង"</string>
+     <string name="testConfig_RadioLabel">"តាមដានកម្មវិធី ឬ​ថត​តែម្ដង"</string>
+     <string name="testConfig_RadioButtonSingleShotLabel">"ថតម្ដង"</string>
+     <string name="testConfig_RadioButtonAppTrackLabel">"តាមដានកម្មវិធី"</string>
+     <string name="testConfig_qosTimeoutLabel">"ពេលវេលា Resp ដែលពេញចិត្ត (វិនាទី)"</string>
+     <string name="testConfig_qosAccuracyLabel">"ភាពត្រឹមត្រូវដែលពេញចិត្ត (នាទី)"</string>
+     <string name="testConfig_tbfLabel">"ចន្លោះពេល​អតិបរមា (វិនាទី)"</string>
+     <string name="testConfig_staticTruthLabel">"ទីតាំងពិត​ស្ថេរ (ពិនិត្យ​ដើម្បីប្រើ)"</string>
+     <string name="testConfig_latLabel">"រយៈទទឹង"</string>
+     <string name="testConfig_lonLabel">"រយៈបណ្ដោយ"</string>
+     <string name="testConfig_radioButtonAndroidAPILabel">"Android"</string>
+     <string name="testConfig_radioButtonQCAPILabel">"API មូលដ្ឋាន"</string>
+     <string name="testConfig_radioButtonGPLSLabel">"សេវា GPL"</string>
+     <string name="testConfig_sessionTypeLabel">"ប្រភេទ​កើតមានឡើងវិញ"</string>
+     <string name="testConfig_apiTypeLabel">"ប្រភេទ API"</string>
+    <string name="labelUnknownPrivacy">"មិន​ស្គាល់"</string>
+    <string name="labelGetPrivacy">"ទទូលយក​ឯកជនភាព"</string>
+    <string name="labelSetPrivacySetting">"កំណត់​ឯកជនភាព"</string>
+    <string name="name_vzw_client">"ម៉ាស៊ីនភ្ញៀវ Vzw"</string>
+    <string name="name_normal_client">"Android ធម្មតា"</string>
+    <string name="LabelModeSel">"របៀប"</string>
+    <string name="LabelNumFixSel">"# នៃការកំណត់"</string>
+    <string name="str_blank"/>
+    <string name="str_stateinfo">"បរិយាយ..."</string>
+    <string name="str_nodata">"មិនមានទិន្នន័យ"</string>
+    <string name="str_waitingforposinfo">"\nរង់ចាំព័ត៌មានទីតាំង...\n"</string>
+    <string name="str_searchingforsvs">"\nកំពុងស្វែងរក SVs...\n"</string>
+    <string name="str_configsummary">"\nសេចក្ដីសង្ខេបអំពីការកំណត់រចនាសម្ព័ន្ធ\n"</string>
+    <string name="str_alarms">"\nម៉ោងរោទ៍៖\n\n"</string>
+    <string name="str_starttest">"ចាប់ផ្ដើមការសាកល្បង"</string>
+    <string name="str_sessionplayback">"ចាក់សម័យឡើងវិញ"</string>
+    <string name="str_proximityalerts">"ការព្រមានពីការដាក់នៅក្បែរគ្នា"</string>
+    <string name="str_proximity_info">"ព័ត៌មានអំពីភាពប្រហាក់ប្រហែល"</string>
+    <string name="str_options">"ជម្រើស"</string>
+<string-array name="GpsMode"><item>"MSA"</item>
+<item>"MSB"</item>
+<item>"ឈរតែឯង"</item>
+<item>"AFLT"</item>
+<item>"បានបង្កើនប្រសិទ្ធភាពល្បឿន"</item>
+<item>"បានបង្កើនប្រសិទ្ធភាពភាពត្រឹមត្រូវ"</item>
+<item>"បានបង្កើនប្រសិទ្ធភាពទិន្នន័យ"</item>
+</string-array>
+<string name="DefaultNumFix">20</string>
+<string name="DefaultTimeBetweenFix">2</string>
+<string name="LabelTimeBetweenFix">"ពេលវេលា (វិនាទី) រវាងការកំណត់"</string>
+<string name="DefaultMpcAddr">127.0.0.1</string>
+<string name="LabelPdeAddr">"អាសយដ្ឋាន PDE"</string>
+<string name="LabelAccuracyH">"ភាពត្រឹមត្រូវដែលពេញចិត្ត (H, m)"</string>
+<string name="LabelAccuracyV">"ភាពត្រឹមត្រូវដែលពេញចិត្ត (V, m)"</string>
+<string name="LabelMaxResponseTime">"អស់ពេល (វិនាទី)"</string>
+<string name="DefaultAccuracyH">50</string>
+<string name="DefaultAccuracyV">50</string>
+<string name="DefaultTimeout">120</string>
+<string name="LabelRunTwo">"ដំណើរការ​ជាមួយការដាក់ជងធម្មតា"</string>
+<string name="LabelRunOne">"ដំណើរការ VzW"</string>
+<string name="LabelRunState1">"ការសាកល្បង FSM 1"</string>
+<string name="LabelRunState2">"ការសាកល្បង FSM 2"</string>
+<string name="EnigneStatus">"ស្ថានភាព Enigne"</string>
+<string name="NA">"មិនមាន"</string>
+<string name="GpsStatus">"ស្ថានភាព Gps"</string>
+<string name="Session">"សម័យ"</string>
+<string name="TTF">"TTF"</string>
+<string name="Type">"ប្រភេទ"</string>
+<string name="Loc">"មូលដ្ឋាន"</string>
+<string name="StopnGo">"StopnGo"</string>
+<string name="Mode">"របៀប"</string>
+<string name="stop">"ឈប់"</string>
+<string name="labelPdePort">"ច្រក PDE"</string>
+<string name="EditTextPdePort">1000</string>
+<string-array name="PrivacyMode">
+<item>"តែ 911ប៉ុណ្ណោះ"</item>
+<item>"បើក"</item>
+</string-array>
+<string name="non_aiding">"ដោះជ្រើស​កម្មវិធីជំនួយទាំងអស់"</string>
+<string name="all_aiding">"ជ្រើសកម្មវិធីជំនួយទាំងអស់"</string>
+<string name="done">"លុបអ្វីដែលបានជ្រើស"</string>
+<string name="Ephemeris">"សៀវភៅកំណត់ហេតុ"</string>
+<string name="GLO_Ephemeris">"សៀវភៅកំណត់ហេតុ GLO"</string>
+<string name="Alamanac">"តារាងពេលវេលា"</string>
+<string name="GLO_Alamanac">"តារាងពេលវេលា GLO"</string>
+<string name="Alamanac_Corr">"ការកែតម្រូវតារាងពេលវេលា"</string>
+<string name="GLO_Alamanac_Corr">"ការកែតម្រូវតារាងពេលវេលា GLO"</string>
+<string name="SV_DIR">"SV DIR"</string>
+<string name="GLO_SV_DIR">"GLO SV DIR"</string>
+<string name="SV_Steer">"ការកែសម្រួល SV"</string>
+<string name="GLO_SV_Steer">"ការកែសម្រួល SV របស់ GLO"</string>
+<string name="Cell_DB_Info">"ព័ត៌មានថ្ងៃខែទូរស័ព្ទចល័ត"</string>
+<string name="RTI">"RTI"</string>
+<string name="GPS_Time">"ពេលវេលា GPS"</string>
+<string name="GLO_Time">"ពេលវេលា GLO"</string>
+<string name="Freq_Bias_Est">"ការប៉ាន់ស្មានលំអៀងហ្វ្រេកង់"</string>
+<string name="Time">"ពេលវេលា"</string>
+<string name="Iono">"Iono"</string>
+<string name="UTC">UTC</string>
+<string name="Health">"សុខាភិបាល"</string>
+<string name="SA_Data">"ទិន្នន័យ SA"</string>
+<string name="position">"តួនាទី"</string>
+<string name="str_wbiq_runscript">"ដំណើរការស្គ្រីប"</string>
+<string name="str_wbiq_stopgps">"ចាកចេញពីម៉ូដ RF"</string>
+<string name="str_wbiq_startgps">"ចូលម៉ូដ RF"</string>
+<string name="str_wbiq_run_gps_wbiq">"GPS WBIQ"</string>
+<string name="str_wbiq_run_glo_wbiq">"GLO WBIQ"</string>
+<string name="str_wbiq_run_bds_wbiq">"BDS WBIQ"</string>
+<string name="str_wbiq_run_gal_wbiq">"GAL WBIQ"</string>
+<string name="str_wbiq_run_gps_nbiq">"GPS NBIQ"</string>
+<string name="str_wbiq_run_gps_ob_fft">"GPS FFT"</string>
+<string name="str_wbiq_run_glo_ob_fft">"GLO FFT"</string>
+<string name="str_wbiq_run_adc_iq">"ADC IQ"</string>
+<string name="str_wbiq_chk_odl">"ការចុះកំណត់ហេតុលើឧបករណ៍ស្វ័យប្រវត្តិ"</string>
+<string name="str_wbiq_chk_delaystart">"ការចាប់ផ្ដើមពន្យារពេល"</string>
+<string name="str_wbiq_chk_autostop">"បញ្ឈប់ស្វ័យប្រវត្តិ"</string>
+<string name="str_wbiq_chk_otfsa">"បើក OTFSA"</string>
+<string name="str_wbiq_txt_default">60</string>
+<string name="str_wbiq_gps_nbiq_duration_unit">"វ"</string>
+<string name="str_proximity_clearalerts">"សម្អាតការព្រមាន"</string>
+<string name="str_proximity_savealertsfile">"រក្សាទុកឯកសារព្រមាន"</string>
+<string name="str_proximity_loadalertsfile">"ផ្ទុកឯកសារព្រមាន"</string>
+<string name="str_proximity_deletealertsfile">"លុបឯកសារព្រមាន"</string>
+<string name="str_proximity_logging">"ការចុះកំណត់ហេតុ"</string>
+<string name="str_proximity_autostartenabled">"ចាប់ផ្ដើមស្វ័យប្រវត្តិ"</string>
+<string name="str_proximity_autostartfile">"ជ្រើស​ឯកសារចាប់ផ្ដើមស្វ័យប្រវត្តិ"</string>
+<string name="str_proximity_smsnumber">"លេខជូនដំណឹង SMS"</string>
+<string name="str_proximity_geofencelisttab_add">"បន្ថែម"</string>
+<string name="str_proximity_geofencelisttab_delet">"លុប"</string>
+<string name="str_proximity_geofencelisttab_edit">"កែ"</string>
+<string name="str_locbatchingtab_btn_s">"វ"</string>
+<string name="str_locbatchingtab_btn_ps">"PS"</string>
+<string name="str_locbatchingtab_btn_w">W</string>
+<string name="str_locbatchingtab_btn_r">R</string>
+<string name="str_locbatchingtab_btn_d">D</string>
+<string name="str_locbatchingtab_btn_t">"T"</string>
+<string name="str_locbatchingtab_btn_b">"បៃ"</string>
+<string name="str_locbatchingtab_txt_tbfsummary">"TBF[មធ្យមភាគ អតិបរមា អប្បបរមា] =             "</string>
+<string name="str_locbatchingtab_btn_readbuf">"ទទួលយកជាបាច់"</string>
+<string name="str_powerest_summary">"សេចក្ដីសង្ខេប៖"</string>
+<string name="str_powerest_plot_label"/></resources>

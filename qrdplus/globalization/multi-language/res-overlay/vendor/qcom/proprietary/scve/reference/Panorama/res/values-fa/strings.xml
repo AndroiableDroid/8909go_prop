@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"رابط کاربری پانوراما"</string>
+    <string name="title_loading">"در حال بارگیری!"</string>
+    <string name="msg_loading">"در حال پردازش\u2026"</string>
+    <string name="panorama_saved">"پانوراما با موفقیت در گالری عکس دستگاهتان ذخیره شد"</string>
+    <string name="panorama_generate_result_failed">"متأسفیم، لطفاً دوباره امتحان کنید."</string>
+    <string name="error_dialog_title">"خطای برنامه"</string>
+    <string name="btn_ok">"تأیید"</string>
+    <string name="btn_txt_save">"ذخیره تصویر"</string>
+    <string name="err_library_loading">"برنامه نتوانست کتابخانه‌های محلی را بارگیری کند."</string>
+    <string name="err_camera_init">"دوربین مقداردهی اولیه نشد."</string>
+    <string name="err_sensors_init">"حسگرها مقداردهی اولیه نشدند."</string>
+    <string name="err_pano_init">"API پانوراما مقداردهی اولیه نشد."</string>
+    <string name="err_sensors_failed">"حسگرها مقداردهی اولیه نشدند."</string>
+    <string name="err_zsl_failed">"ZSL برای این دستگاه پشتیبانی نمی‌شود."</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"جلسه مقداردهی اولیه نشد"</string>
+    <string name="err_queue_full">"صف پر است"</string>
+    <string name="err_max_key_frames">"فریم‌ها به حداکثر رسیده‌اند"</string>
+    <string name="err_no_frame_overlap">"بین فریم‌ها، هم‌پوشانی وجود ندارد"</string>
+    <string name="err_inconsistent_direction">"جهت هماهنگ نیست"</string>
+    <string name="err_result_not_ready">"نتیجه آماده نیست"</string>
+    <string name="err_frame_no_feature">"فریم ویژگی کافی ندارد"</string>
+    <string name="err_direction_changed">"جهت تغییر کرد، لطفاً برای دیدن تصویر پانورامای گرفته شده روی «تأیید» کلید کنید."</string>
+    <string name="err_panorama_loading">"تصویر پانوراما بارگیری نشد."</string>
+    <string name="err_panorama_saving">"تصویر پانوراما ذخیره نشد."</string>
+    <string name="err_api_capturing">"پانوراما گرفته نشد."</string>
+    <string name="err_api_halted">"تصویربرداری پانوراما متوقف شد، لطفاً برای دیدن تصویر پانورامای گرفته شده روی «تأیید» کلید کنید."</string>
+    <string name="err_max_limit">"تعداد فریم‌ها به حداکثر رسید، لطفاً برای دیدن تصویر پانورامای گرفته شده روی «تأیید» کلید کنید."</string>
+    <string name="err_no_prv">"هیچ پیش‌نمایشی گرفته نشده است."</string>
+    <string name="title_settings">"تنظیمات"</string>
+    <string name="camera_settings">"تنظیم دوربین"</string>
+    <string name="camera_settings_picture_size">"وضوح"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string name="camera_settings_exposure_compensation">"جبران نوردهی"</string>
+    <string name="camera_settings_white_balance">"تعادل سفیدی"</string>
+    <string-array name="camera_settings_white_balance_entries">
+        <item>"خودکار"</item>
+        <item>"روشنایی روز"</item>
+        <item>"فلورسنت"</item>
+        <item>"تابان"</item>
+        <item>"سایه"</item>
+        <item>"تاریک و روشن"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values">
+        <item>"auto"</item>
+        <item>"daylight"</item>
+        <item>"fluorescent"</item>
+        <item>"incandescent"</item>
+        <item>"shade"</item>
+        <item>"twilight"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values_camera2">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>7</item>
+    </string-array>
+    <string name="camera_settings_scene_mode">"حالت صحنه"</string>
+    <string-array name="camera_settings_scene_mode_entries">
+        <item>"عملکرد"</item>
+        <item>"خودکار"</item>
+        <item>"شب"</item>
+        <item>"طرف مقابل"</item>
+        <item>"غروب آفتاب"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values">
+        <item>"action"</item>
+        <item>"auto"</item>
+        <item>"night"</item>
+        <item>"party"</item>
+        <item>"sunset"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values_camera2">
+        <item>2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"حالت فوکوس"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"متوالی (ویدیو)"</item>
+        <item>"بی نهایت"</item>
+        <item>"ثابت"</item>
+        <item>"متوالی (عکس)"</item>
+        <item>"خودکار"</item>
+        <item>"عمق میدان افزایش یافته"</item>
+        <item>"ماکرو"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"fixed"</item>
+        <item>"continuous-picture"</item>
+        <item>"auto"</item>
+        <item>"edof"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>3</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_iso">ISO</string>
+    <string-array name="camera_settings_iso_entries">
+        <item>"خودکار"</item>
+        <item>"کاهش حرکت دست"</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="camera_settings_iso_values">
+        <item>"auto"</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>"ISO3200"</item>
+    </string-array>
+    <string name="camera_settings_iso_default">ISO800</string>
+    <string name="pano_settings">"تنظیمات پانوراما"</string>
+    <string name="pano_settings_scve_mode">"حالت عملکرد SCVE"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"پیش‌فرض"</item>
+        <item>"انتقال داده‌های CPU"</item>
+        <item>"عملکرد"</item>
+        <item>"توان پایین"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_image_compress_level">"سطح فشرده‌سازی تصویر"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_3a_lock">"قفل AE/AF/AWB در طول تصویربرداری پانوراما"</string>
+    <string-array name="pano_settings_enable_3a_lock_entries">
+        <item>"خیر"</item>
+        <item>"بله"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_3a_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_3a_lock_default">"true"</string>
+    <string name="debug_settings">"تنظیمات رفع اشکال"</string>
+    <string name="debug_settings_enable_loggings">"گزارش طولانی"</string>
+    <string-array name="debug_settings_enable_loggings_entries">
+        <item>"خاموش"</item>
+        <item>"فعال"</item>
+    </string-array>
+    <string-array name="debug_settings_enable_loggings_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_enable_loggings_default">"false"</string>
+    <string name="debug_settings_save_preview_frames">"ذخیره فریم‌های پیش‌نمایش در کارت SD"</string>
+    <string-array name="debug_settings_save_preview_frames_entries">
+        <item>"خیر"</item>
+        <item>"بله"</item>
+    </string-array>
+    <string-array name="debug_settings_save_preview_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_preview_frames_default">"false"</string>
+    <string name="debug_settings_save_key_frames">"ذخیره فریم‌های کلیدی در کارت SD"</string>
+    <string-array name="debug_settings_save_key_frames_entries">
+        <item>"خیر"</item>
+        <item>"بله"</item>
+    </string-array>
+    <string-array name="debug_settings_save_key_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_key_frames_default">"false"</string>
+    <!-- PanoramaViewer -->
+    <string name="share_button_text">"اشتراک‌گذاری تصویر پانوراما"</string></resources>

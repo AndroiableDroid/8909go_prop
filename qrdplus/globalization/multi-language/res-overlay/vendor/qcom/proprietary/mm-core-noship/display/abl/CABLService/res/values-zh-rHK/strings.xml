@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"內容調適背光設定"</string>
+        <add-resource type="string" name="cabl_settings_title"/>
+    <string name="cabl_settings_title">"內容調適背光設定"</string>
+        <add-resource type="string" name="cabl_enable_title"/>
+    <string name="cabl_enable_title">"啟用內容調適背光"</string>
+        <add-resource type="string" name="cabl_enable_summary_on"/>
+    <string name="cabl_enable_summary_on">"背光將會根據畫面內容調整"</string>
+        <add-resource type="string" name="cabl_enable_summary_off"/>
+    <string name="cabl_enable_summary_off">"背光將不會根據畫面內容調整"</string>
+        <add-resource type="string" name="cabl_levels_title"/>
+    <string name="cabl_levels_title">"視覺質素水平"</string>
+        <add-resource type="string" name="cabl_levels_summary"/>
+    <string name="cabl_levels_summary">"較低的質素水平表示 CABL 將嘗試盡量節省能源，同時不大幅影響正在顯示的內容。自動視覺質素水平表示 CABL 會根據正在顯示的內容之自動偵測類型，盡可能節省能源。"</string>
+        <add-resource type="string" name="cabl_level_default"/>
+    <string name="cabl_level_default">"自動"</string>
+        <add-resource type="string" name="cabl_info_default"/>
+    <string name="cabl_info_default">"未知"</string>
+        <add-resource type="string" name="cabl_version_title"/>
+    <string name="cabl_version_title">"CABL 版本"</string></resources>

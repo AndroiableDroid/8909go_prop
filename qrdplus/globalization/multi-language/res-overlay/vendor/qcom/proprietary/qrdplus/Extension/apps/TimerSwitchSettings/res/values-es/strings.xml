@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Encendido y apagado programado"</string>
+    <string name="timer_switch">"Conmutador de temporizador"</string>
+    <string name="switch_on">"Encendido programado"</string>
+    <string name="switch_off">"Apagado programado"</string>
+    <string name="every_day">"Todos los días"</string>
+    <string name="switch_on_time">"Establecer hora de inicio"</string>
+    <string name="switch_off_time">"Establecer hora de cierre"</string>
+    <string name="date_time_24hour">"Formato de 24 horas"</string>
+    <string name="date_time_date_format">"Elegir formato de fecha"</string>
+    <string name="label">"Nombre de la alarma"</string>
+    <string name="switch_repeat">"Repetir"</string>
+    <string name="expand_switch">"Expandir conmutador"</string>
+    <string name="collapse_switch">"Contraer conmutador"</string>
+    <!-- Context Menu Item on Timer Switch Settings screen: Reset switch -->
+    <string name="reset_switch">"Restablecer conmutador"</string>
+    <string name="day">"1 día"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> días"</string>
+    <string name="hour">"1 hora"</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g> horas"</string>
+    <string name="minute">"1 minuto"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> minutos"</string>
+    <string name="never">"Nunca"</string>
+    <string name="day_concat">", "</string>
+    <string-array name="switch_set">
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> establecido para menos de 1 minuto a partir de ahora."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> establecido para <xliff:g id="DAYS" example="2 days">%2$s</xliff:g> a partir de ahora."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> establecido para <xliff:g id="HOURS" example="2 hours">%3$s</xliff:g> a partir de ahora."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> establecido para <xliff:g id="DAYS" example="2 days">%2$s</xliff:g> y <xliff:g id="HOURS" example="2 hours">%3$s</xliff:g> a partir de ahora."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> establecido para <xliff:g id="MINUTES" example="2 minutes">%4$s</xliff:g> a partir de ahora."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> establecido para <xliff:g id="DAYS" example="2 days">%2$s</xliff:g> y <xliff:g id="MINUTES" example="2 minutes">%4$s</xliff:g> a partir de ahora."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> establecido para <xliff:g id="HOURS" example="2 hours">%3$s</xliff:g> y <xliff:g id="MINUTES" example="2 minutes">%4$s</xliff:g> a partir de ahora."</item>
+        <item>"<xliff:g id="SWITCH">%1$s</xliff:g> establecido para <xliff:g id="DAYS" example="2 days">%2$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%3$s</xliff:g> y <xliff:g id="MINUTES" example="2 minutes">%4$s</xliff:g> a partir de ahora."</item>
+    </string-array>
+    <string name="switch_off_dialog_cancel">"Cancelar"</string>
+    <string name="switch_off_dialog_ok">"Apagar"</string>
+    <string name="switch_off_dialog_title">"Apagado programado"</string>
+    <string name="switch_off_message">"El teléfono se apagará en <xliff:g id="seconds">%s</xliff:g> segundos"</string>
+    <string name="switch_off_message_second">"El teléfono se apagará en <xliff:g id="second">%s</xliff:g> segundo"</string></resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IMS settings related strings -->
+    <!-- Title displayed IMS account settings in the sip settings category. [CHAR LIMIT=NONE] -->
+    <string name="ims_settings">"IMS သတ်မှတ်ချက်များ"</string>
+    <string name="ims_vt_call_quality_title">"VT ခေါ်ဆိုမှုအရည်အသွေး"</string>
+    <string name="ims_vt_call_quality_low">"နိမ့်နိမ့်"</string>
+    <string name="ims_vt_call_quality_high">"မြင့်မြင့်"</string>
+    <string name="ims_vt_call_quality_unknown">"အမည်မသိ"</string>
+    <string name="ims_vt_call_quality_set_failed">"ဗီဒီယို အရည်အသွေး သတ်မှတ်ခြင်း မအောင်မြင်ပါ"</string>
+    <string name="ims_get_packet_count_failed">"ပက်ကတ် အရေအတွက်ကို ရယူခြင်း မအောင်မြင်ပါ"</string>
+    <string name="ims_get_packet_error_count_failed">"ပက်ကတ် မှားယွင်းမှု အရေအတွက်ကို ရယူခြင်း မအောင်မြင်ပါ"</string>
+    <string name="ims_get_packet_count_label">"ပက်ကတ် အရေအတွက်ကို ရယူရန် ဤနေရာကို ကလစ်နှိပ်ပါ"</string>
+    <string name="ims_get_packet_error_count_label">"ပက်ကတ် မှားယွင်းမှု အရေအတွက်ကို ရယူရန် ဤနေရာကို ကလစ်နှိပ်ပါ"</string>
+    <string name="qti_ims_call_deflect_title">"လွဲချော်ထားသည့် နံပါတ်ကို ခေါ်ဆိုပါ"</string>
+    <string name="qti_ims_number_not_set">"မသတ်မှတ်ပါ"</string>
+    <!-- IMS to CS Retry setting title.  [CHAR LIMIT=30] -->
+    <string name="ims_to_cs_retry_title">"CS ပြန်ကြိုးစားပါ"</string>
+    <!-- IMS to CS Retry setting summary.  [CHAR LIMIT=80] -->
+    <string name="ims_to_cs_retry_summary">"ပုံမှန်အသံဆက်သွယ်စနစ်ဖြင့် အလိုလိုပြန်ကြိုးစားပါ (အကြံပြုသည်)"</string></resources>

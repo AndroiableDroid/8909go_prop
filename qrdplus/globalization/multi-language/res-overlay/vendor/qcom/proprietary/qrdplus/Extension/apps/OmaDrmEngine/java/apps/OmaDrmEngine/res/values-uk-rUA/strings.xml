@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Oma Drm Engine"</string>
+    <string name="activity_name_image_viewer">"Засіб перегляду зображень DRM"</string>
+    <string name="permission_label_access_drm_data">"Дозвіл на доступ до плагіна OMA DRM"</string>
+    <string name="permission_desc_access_drm_data">"Надати дозвіл на доступ до інформації про ліцензію плагіна OMA DRM."</string>
+    <string name="license_expired">"Термін дії ліцензії минув"</string>
+    <string name="license_expired_message">"Не вдалося відкрити файл DRM"</string>
+    <string name="buy_license">"Придбати ліцензію"</string>
+    <string name="menu_set_as_wallpaper">"Установити фон"</string>
+    <string name="menu_details">"Деталі"</string>
+    <string name="drm_details_title">"Деталі DRM"</string>
+    <string name="dialog_close">"Закрити"</string>
+    <string name="drm_rights_message">"Права OMA DRM успішно збережено"</string>
+    <string name="drm_text_count">"Лишилося: "</string>
+    <string name="drm_text_date_start">"З: "</string>
+    <string name="drm_text_date_end">"До: "</string>
+    <string name="drm_text_fwd_lk">"Не обмежено "</string>
+    <string name="drm_text_license">"Ліцензія DRM: "</string>
+    <string name="drm_text_play">"Відтворити"</string>
+    <string name="drm_text_display">"Відображ"</string>
+    <string name="drm_text_title">"Заголовок: "</string>
+    <string name="drm_text_location">"Розташування: "</string>
+    <string name="drm_text_mime_type">"Тип MIME: "</string>
+    <string name="error_unable_to_view">"Зображення не знайдено"</string></resources>

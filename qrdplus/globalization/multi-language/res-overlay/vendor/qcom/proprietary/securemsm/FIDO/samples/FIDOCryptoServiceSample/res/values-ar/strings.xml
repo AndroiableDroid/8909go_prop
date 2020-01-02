@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"الإعدادات"</string>
+    <string name="body_msg">"اختبار FidoCryptoService"</string>
+    <string name="load">"تحميل"</string>
+    <string name="unload">"إلغاء تحميل"</string>
+    <string name="process">"معالجة"</string>
+    <string name="start">"البدء"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"الربط بخدمة FIDO"</string>
+    <string name="unbindFido">"إلغاء الربط بخدمة FIDO"</string>
+    <string name="setChallenge">"تعيين التحدي"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"ربط المصدِّق"</string>
+    <string name="verifyUser">"VerifyUser / GetToken"</string>
+    <string name="GetInfo">"GetInfo"</string>
+    <string name="Register">"تسجيل"</string>
+    <string name="Deregister">"إلغاء التسجيل"</string>
+    <string name="OpenSettings">"OpenSettings"</string>
+    <string name="Sign">"تسجيل"</string>
+    <string name="MalformedRequest">"MalformedRequest"</string>
+    <string name="selectAuth">"حدد مصدِّقًا"</string>
+    <string name="getEnrollmentStatus">"استدعاء حالة التسجيل"</string>
+    <string name="RegisterExt">"التسجيل بالامتدادات"</string>
+    <string name="SignExt">"تسجيل بالامتدادات"</string>
+    <string name="encResult">"نتيجة مُغلفة"</string>
+    <string name="extResult">"بيانات الامتداد"</string>
+    <string name="selectFidoOpText">"تحديد عملية FIDO"</string>
+    <string name="show_message_sui">"إظهار sui للرسالة"</string>
+    <string name="fido_sui_service">"خدمة fido Sui"</string>
+    <string name="bindFidoSui">"الربط بخدمة fido Sui"</string>
+    <string name="unbindFidoSui">"إلغاء الربط بخدمة fido Sui"</string>
+    <string name="suiResultTitle">"إظهار نتيجة sui للرسالة"</string>
+    <string name="cancel_sui">"إلغاء sui"</string>
+    <string name="extensionText">"استخدام الامتدادات؟"</string>
+    <string name="pngText">"استخدام محتوى PNG؟"</string>
+    <string name="fpText">"بصمة إصبع آمنة"</string>
+    <string-array name="authenticator_array">
+        <item>"مصدِّق وهمي"</item>
+        <item>"مصدِّق نموذجي"</item>
+        <item>"مصدِّق نموذجي آمن"</item>
+        <item>"مُصدِّق امتداد العينة"</item>
+        <item>"مُصدِّق امتداد آمن"</item>
+        <item>"المصادقة على سلامة الجهاز"</item>
+        <item>"مُصدِّق العينة الآمن IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"الحصول على المعلومات"</item>
+        <item>"تسجيل"</item>
+        <item>"إلغاء التسجيل"</item>
+        <item>"فتح الإعدادات"</item>
+        <item>"تم تكوين الاستثناء بشكل غير صحيح"</item>
+        <item>"علامة (المصادقة)"</item>
+        <item>"علامة (TX)"</item>
+    </string-array></resources>

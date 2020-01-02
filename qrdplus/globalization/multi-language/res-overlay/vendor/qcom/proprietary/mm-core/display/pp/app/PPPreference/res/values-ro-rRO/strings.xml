@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Preferinţe PP"</string>
+    <!-- PP settings -->
+    <add-resource type="string" name="pp_settings_title"/>
+    <string name="pp_settings_title">"Caracteristici imagine"</string>
+    <add-resource type="string" name="pp_settings_summary"/>
+    <string name="pp_settings_summary">"Ajustare valori HSIC"</string>
+    <add-resource type="string" name="hsic_pp"/>
+    <string name="hsic_pp">"Selectare valori HSIC"</string>
+    <add-resource type="string" name="enable_pp"/>
+    <string name="enable_pp">"Activare post-procesare"</string>
+    <add-resource type="string" name="hue_value"/>
+    <string name="hue_value">"HUE"</string>
+    <add-resource type="string" name="sat_value"/>
+    <string name="sat_value">"SATURATION"</string>
+    <add-resource type="string" name="intensity_value"/>
+    <string name="intensity_value">"INTENSITY"</string>
+    <add-resource type="string" name="contrast_value"/>
+    <string name="contrast_value">"CONTRAST"</string></resources>

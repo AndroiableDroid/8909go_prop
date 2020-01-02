@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Common string -->
+    <add-resource type="string" name="ok"/>
+    <string name="ok">"Sawa"</string>
+    <add-resource type="string" name="yes"/>
+    <string name="yes">"Ndiyo"</string>
+    <add-resource type="string" name="no"/>
+    <string name="no">"Hapana"</string>
+    <add-resource type="string" name="pass"/>
+    <string name="pass">"Pita"</string>
+    <add-resource type="string" name="fail"/>
+    <string name="fail">"Feli"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"Ghairi"</string>
+    <add-resource type="string" name="testing"/>
+    <string name="testing">"Inapima..."</string>
+    <add-resource type="string" name="initialize"/>
+    <string name="initialize">"Inaanzisha..."</string>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Kivunge cha Kiwanda"</string>
+    <add-resource type="string" name="start"/>
+    <string name="start">"Anza"</string>
+    <add-resource type="string" name="scan"/>
+    <string name="scan">"Tafuta"</string>
+    <add-resource type="string" name="device_open_fail"/>
+    <string name="device_open_fail">"Ufunguaji wa kifaa haukufaulu!"</string>
+    <add-resource type="string" name="service_get_fail"/>
+    <string name="service_get_fail">"Kupata huduma hakukufaulu!"</string>
+    <add-resource type="string" name="sensor_get_fail"/>
+    <string name="sensor_get_fail">"Kupata kihisio hakukufaulu!"</string>
+    <add-resource type="string" name="sensor_register_fail"/>
+    <string name="sensor_register_fail">"Usajili wa kihisio haukufaulu!"</string>
+    <add-resource type="string" name="test_pass"/>
+    <string name="test_pass">"Imepita jaribio"</string>
+    <add-resource type="string" name="scanning"/>
+    <string name="scanning">"Inatambaza..."</string>
+    <add-resource type="string" name="enabling"/>
+    <string name="enabling">"Inawezesha..."</string>
+    <add-resource type="string" name="disabling"/>
+    <string name="disabling">"Inalemaza..."</string>
+    <add-resource type="string" name="turning_on"/>
+    <string name="turning_on">"Inawasha..."</string>
+    <add-resource type="string" name="turning_off"/>
+    <string name="turning_off">"Inazima..."</string>
+    <add-resource type="string" name="off"/>
+    <string name="off">"Imezimwa"</string>
+    <add-resource type="string" name="shake_hint"/>
+    <string name="shake_hint">"Tafadhali funika kihisio cha taa na mikono yako angalia  mara 2."</string>
+    <add-resource type="string" name="remove_headset"/>
+    <string name="remove_headset">"Tafadhali ondoa vipokea sauti"</string>
+    <add-resource type="string" name="insert_headset"/>
+    <string name="insert_headset">"Pafadhali ingiza vipokea sauti"</string>
+    <add-resource type="string" name="stop"/>
+    <string name="stop">"Simamisha"</string>
+    <add-resource type="string" name="play"/>
+    <string name="play">"Cheza"</string>
+    <add-resource type="string" name="record"/>
+    <string name="record">"Rekodi"</string>
+    <add-resource type="string" name="time_out"/>
+    <string name="time_out">"Katiza!"</string>
+    <!-- ControlCenter -->
+    <add-resource type="string" name="clean_state"/>
+    <string name="clean_state">"Hali Safi ya Jaribio"</string>
+    <add-resource type="string" name="uninstall"/>
+    <string name="uninstall">"Ondoa"</string>
+    <add-resource type="string" name="control_center_quit_confirm"/>
+    <string name="control_center_quit_confirm">"Je, unataka kutoka?"</string>
+    <!-- Led -->
+    <!-- <string name="led_name">TriColor Led</string> -->
+    <!-- <string name="led_text">Light test sequence: red, green, blue</string> -->
+    <add-resource type="string" name="led_name"/>
+    <string name="led_name">"LED"</string>
+    <add-resource type="string" name="led_tri_text"/>
+    <string name="led_tri_text">"Mpangilio wa jaribio la LED: nyekundu, kijani, bluu"</string>
+    <add-resource type="string" name="led_dual_text"/>
+    <string name="led_dual_text">"Mpangilio wa jaribio la LED: nyekundu, kijani"</string>
+    <add-resource type="string" name="led_confirm"/>
+    <string name="led_confirm">"Je, rangi ya LED iko sawa?"</string>
+    <!-- Flashlight -->
+    <add-resource type="string" name="flashlight_name"/>
+    <string name="flashlight_name">"Tochi"</string>
+    <add-resource type="string" name="flashlight_confirm"/>
+    <string name="flashlight_confirm">"Je, taa imewashwa?"</string>
+    <!-- KeypadBacklight -->
+    <add-resource type="string" name="keypadbacklight_name"/>
+    <string name="keypadbacklight_name">"Taa ya Nyuma ya Kipadi"</string>
+    <add-resource type="string" name="keypadbacklight_confirm"/>
+    <string name="keypadbacklight_confirm">"Je, Taa ya Nyuma ya Kipadi imewashwa?"</string>
+    <!-- SIM1 -->
+    <add-resource type="string" name="sim1_name"/>
+    <string name="sim1_name">SIM1</string>
+    <!-- SIM2 -->
+    <add-resource type="string" name="sim2_name"/>
+    <string name="sim2_name">SIM2</string>
+    <!-- TouchPanelEdge -->
+    <add-resource type="string" name="touchpanel_edge_name"/>
+    <string name="touchpanel_edge_name">"Ukingo wa Paneli ya Mguso"</string>
+    <!-- TouchPanelKey -->
+    <add-resource type="string" name="touchpanel_key_name"/>
+    <string name="touchpanel_key_name">"Ufunguo wa Paneli ya Mguso"</string>
+    <!-- Keypad -->
+    <add-resource type="string" name="keypad_name"/>
+    <string name="keypad_name">"Kipadi"</string>
+    <add-resource type="string" name="keypad_text"/>
+    <string name="keypad_text">"Tafadhali bonyeza vibonye vifwatavyo"</string>
+    <add-resource type="string" name="keypad_volume_up"/>
+    <string name="keypad_volume_up">"KIWANGO-SAUTI_JUU"</string>
+    <add-resource type="string" name="keypad_volume_down"/>
+    <string name="keypad_volume_down">"KIWANGO-SAUTI_CHINI"</string>
+    <add-resource type="string" name="keypad_focus"/>
+    <string name="keypad_focus">"LENGA"</string>
+    <add-resource type="string" name="keypad_camera"/>
+    <string name="keypad_camera">"KAMERA"</string>
+    <!-- CameraBack -->
+    <add-resource type="string" name="cameraback_name"/>
+    <string name="cameraback_name">"Kamera ya Nyuma"</string>
+    <add-resource type="string" name="cameraback_takepicture"/>
+    <string name="cameraback_takepicture">"Piga picha"</string>
+    <add-resource type="string" name="cameraback_fail_open"/>
+    <string name="cameraback_fail_open">"Ufunguaji wa kamera Haukufaulu, tafadhali Hakikisha kwamba Kamera Imesakinishwa  Vizuri!"</string>
+    <add-resource type="string" name="autofocus_fail"/>
+    <string name="autofocus_fail">"Ulengaji Oto Haukufaulu"</string>
+    <!-- CameraFront -->
+    <add-resource type="string" name="camerafront_name"/>
+    <string name="camerafront_name">"Kamera ya Mbele"</string>
+    <add-resource type="string" name="camerafront_takepicture"/>
+    <string name="camerafront_takepicture">"Piga picha"</string>
+    <!-- LCM -->
+    <add-resource type="string" name="lcm_name"/>
+    <string name="lcm_name">"LCM"</string>
+    <add-resource type="string" name="lcm_confirm"/>
+    <string name="lcm_confirm">"Tafadhali chagua"</string>
+    <!-- Vibrator -->
+    <add-resource type="string" name="vibrate_name"/>
+    <string name="vibrate_name">"Kitingishi"</string>
+    <add-resource type="string" name="vibrate_confirm"/>
+    <string name="vibrate_confirm">"Tafadhali chagua"</string>
+    <add-resource type="string" name="vibrate_hint"/>
+    <string name="vibrate_hint">"Inatingishika..."</string>
+    <!-- PSensor -->
+    <add-resource type="string" name="psensor_name"/>
+    <string name="psensor_name">"Kihisio cha Ujirani"</string>
+    <add-resource type="string" name="psensor_title"/>
+    <string name="psensor_title">"Tafadhali fuata maagizo yafuatayo, na lazima kila hatua  ifanywe ndani ya sekunde 7"</string>
+    <add-resource type="string" name="psensor_to_cover"/>
+    <string name="psensor_to_cover">"Funika PSensor kwa zaidi ya sekunde 1"</string>
+    <add-resource type="string" name="psensor_to_uncover"/>
+    <string name="psensor_to_uncover">"Funua PSensor kwa zaidi ya sekunde 1"</string>
+    <add-resource type="string" name="psensor_uncovered"/>
+    <string name="psensor_uncovered">"Imefunuliwa"</string>
+    <add-resource type="string" name="psensor_covered"/>
+    <string name="psensor_covered">"Imefunikwa"</string>
+    <add-resource type="string" name="psensor_verifying"/>
+    <string name="psensor_verifying">"Inathibitisha..."</string>
+    <add-resource type="string" name="psensor_sensor_unstable_fail"/>
+    <string name="psensor_sensor_unstable_fail">"PSensor sio imarifu!"</string>
+    <!-- GSensor -->
+    <add-resource type="string" name="gsensor_name"/>
+    <string name="gsensor_name">"Kihisio cha Mvitano"</string>
+    <!-- MSensor -->
+    <add-resource type="string" name="msensor_name"/>
+    <string name="msensor_name">"Kihisio cha Sumaku"</string>
+    <!-- Gyroscope -->
+    <add-resource type="string" name="gyroscope_name"/>
+    <string name="gyroscope_name">"Gurudumu tuzi"</string>
+    <!-- LightSensor -->
+    <add-resource type="string" name="lightsensor_name"/>
+    <string name="lightsensor_name">"Kihisio cha Mwangaza"</string>
+    <!-- SDCard -->
+    <add-resource type="string" name="sdcard_name"/>
+    <string name="sdcard_name">"Kadi ya SD"</string>
+    <add-resource type="string" name="sdcard_wait"/>
+    <string name="sdcard_wait">"Tafadhali subiri isome kadi ya SD..."</string>
+    <add-resource type="string" name="sdcard_confirm"/>
+    <string name="sdcard_confirm">"Je, umeingiza kadi ya SD?"</string>
+    <add-resource type="string" name="sdcard_to_remove"/>
+    <string name="sdcard_to_remove">"Tafadhali Ondoa kadi ya SD"</string>
+    <add-resource type="string" name="sdcard_to_insert"/>
+    <string name="sdcard_to_insert">"Tafadhali ingiza kadi ya SD"</string>
+    <!-- Bluetooth -->
+    <add-resource type="string" name="bluetooth_name"/>
+    <string name="bluetooth_name">"Bluetooth"</string>
+    <add-resource type="string" name="bluetooth_scan_start"/>
+    <string name="bluetooth_scan_start">"Inatafuta vifaa..."</string>
+    <add-resource type="string" name="bluetooth_scan_finish"/>
+    <string name="bluetooth_scan_finish">"Maliza kutafuta"</string>
+    <add-resource type="string" name="bluetooth_turning_on"/>
+    <string name="bluetooth_turning_on">"Inawasha bluetooth..."</string>
+    <add-resource type="string" name="bluetooth_scan_null"/>
+    <string name="bluetooth_scan_null">"Haijapata kifaa chochote"</string>
+    <!-- WiFi -->
+    <add-resource type="string" name="wifi_name"/>
+    <string name="wifi_name">"WiFi"</string>
+    <add-resource type="string" name="wifi_text"/>
+    <string name="wifi_text">"        Jaribio la WiFi litakamilika ndani ya sekunde 30, tafadhali subiri."<string name="wifi_scan_failed">"Kutafuta hakukufaulu!"</string></string>
+    <add-resource type="string" name="wifi_is_closing"/>
+    <string name="wifi_is_closing">"WiFi inajifunga, tafadhalu jaribu upya baada ya muda mfupi."</string>
+    <add-resource type="string" name="wifi_scan_null"/>
+    <string name="wifi_scan_null">"Haijapata AP yoyote!"</string>
+    <add-resource type="string" name="wifi_state_unknown"/>
+    <string name="wifi_state_unknown">"Hali ya WiFi haijulikani, tafadhali jaribu upya."</string>
+    <!-- Handset -->
+    <add-resource type="string" name="handset_name"/>
+    <string name="handset_name">"Simu"</string>
+    <add-resource type="string" name="handset_hint"/>
+    <string name="handset_hint">"Inajaribu lupu ya nyuma ya sikizi ya simu..."</string>
+    <add-resource type="string" name="handset_loopback"/>
+    <string name="handset_loopback">"Inajaribu lupu ya nyuma ya sikizi ya simu..."</string>
+    <add-resource type="string" name="handset_playing"/>
+    <string name="handset_playing">"Sasa inacheza tena, tafadhali sikiliza kwenye kipokezi."</string>
+    <add-resource type="string" name="handset_confirm"/>
+    <string name="handset_confirm">"Je, unasikia sauti?"</string>
+    <add-resource type="string" name="handset_record_first"/>
+    <string name="handset_record_first">"Tafadhali bofya kitufe cha Rekodi kwanza"</string>
+    <add-resource type="string" name="handset_replay_end"/>
+    <string name="handset_replay_end">"Imefika mwisho."</string>
+    <add-resource type="string" name="handset_to_record"/>
+    <string name="handset_to_record">"Bofya kitufe cha Rekodi ili urekodi sauti."</string>
+    <add-resource type="string" name="handset_recording"/>
+    <string name="handset_recording">"Sasa inarekodi, tafadhali sema maneno kadhaa kwenye mik na  ubofye kitufe cha Simama ili usimamishe kurekodi."</string>
+    <!-- Headset -->
+    <add-resource type="string" name="headset_name"/>
+    <string name="headset_name">"Kipokea sauti"</string>
+    <add-resource type="string" name="headset_hint"/>
+    <string name="headset_hint">"Kipokea sauti"</string>
+    <add-resource type="string" name="headset_recording"/>
+    <string name="headset_recording">"Sasa inarekodi, tafadhali sema maneno kadhaa kwenye mik na  ubofye kitufe cha Simama ili usimamishe kurekodi."</string>
+    <add-resource type="string" name="headset_playing"/>
+    <string name="headset_playing">"Sasa inacheza tena, tafadhali sikiliza kwenye kipokezi."</string>
+    <add-resource type="string" name="headset_confirm"/>
+    <string name="headset_confirm">"Je, unasikia sauti?"</string>
+    <add-resource type="string" name="headset_record_first"/>
+    <string name="headset_record_first">"Tafadhali bofya kitufe cha Rekodi kwanza"</string>
+    <add-resource type="string" name="headset_replay_end"/>
+    <string name="headset_replay_end">"Imefika mwisho."</string>
+    <add-resource type="string" name="headset_to_record"/>
+    <string name="headset_to_record">"Bofya kitufe cha Rekodi ili urekodi sauti."</string>
+    <!-- Speaker -->
+    <add-resource type="string" name="speaker_name"/>
+    <string name="speaker_name">"Spika"</string>
+    <add-resource type="string" name="speaker_hint"/>
+    <string name="speaker_hint">"Unaweza kusikia muziki ukicheza?"</string>
+    <add-resource type="string" name="speaker_confirm"/>
+    <string name="speaker_confirm">"Je, unasikia sauti?"</string>
+    <add-resource type="string" name="speaker_playing"/>
+    <string name="speaker_playing">"Inacheza..."</string>
+    <add-resource type="string" name="speaker_play_first"/>
+    <string name="speaker_play_first">"Tafadhali bofya kitufe cha Cheza kwanza"</string>
+    <add-resource type="string" name="speaker_to_play"/>
+    <string name="speaker_to_play">"Bofya kitufe cha Cheza ili ucheze sauti."</string>
+    <add-resource type="string" name="speaker_recording"/>
+    <string name="speaker_recording">"Sasa inarekodi, tafadhali zungumza"</string>
+    <!-- GPS -->
+    <add-resource type="string" name="gps_name"/>
+    <string name="gps_name">"GPS"</string>
+    <add-resource type="string" name="gps_enable_first"/>
+    <string name="gps_enable_first">"Tafadhali wezesha GPS kwanza"</string>
+    <!-- FM -->
+    <add-resource type="string" name="fm_name"/>
+    <string name="fm_name">"Redio ya Fm"</string>
+    <add-resource type="string" name="fm_search"/>
+    <string name="fm_search">"Tafuta"</string>
+    <add-resource type="string" name="fm_confirm"/>
+    <string name="fm_confirm">"Je, unaweza kusikia sauti?"</string>
+    <!-- Battery -->
+    <add-resource type="string" name="battery_name"/>
+    <string name="battery_name">"Betri"</string>
+    <add-resource type="string" name="battery_voltage"/>
+    <string name="battery_voltage">"Volteji ya Betri="</string>
+    <!-- FuelGaugeCalibration -->
+    <add-resource type="string" name="fuelgauge_name"/>
+    <string name="fuelgauge_name">"Upimaji wa Nyuzi za Geji ya Mafuta"</string>
+    <add-resource type="string" name="fuelgauge_hint"/>
+    <string name="fuelgauge_hint">"Upimaji wa Nyuzi za Geji ya Mafuta utakamilika ndani ya sekunde 30,  tafadhali subiri..."</string>
+    <add-resource type="string" name="fuelgauge_processing"/>
+    <string name="fuelgauge_processing">"Inachakata..."</string>
+    <!-- NFC -->
+    <add-resource type="string" name="nfc_name"/>
+    <string name="nfc_name">"NFC"</string>
+    <add-resource type="string" name="nfc_not_available"/>
+    <string name="nfc_not_available">"NFC haipatikani"</string>
+    <add-resource type="string" name="nfc_enable_first"/>
+    <string name="nfc_enable_first">"Wezesha NFC..."</string>
+    <add-resource type="string" name="nfc_enable_fail"/>
+    <string name="nfc_enable_fail">"Haiwezi kuwezesha NFC"</string></resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"Bir günde yirmi dört saat bulunur"</string>
+    <string name="hi_snapdragon">"Merhaba Snapdragon"</string>
+    <string name="hey_snapdragon">"Hey Snapdragon"</string>
+    <string name="my_voice">"Sesim şifremdir"</string>
+    <string name="make_my_day">"Beni mutlu et"</string>
+    <string name="tomorrow_is_another">"Yarın yeni bir gün"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"San Diego\'ya hoş geldiniz"</string>
+    <string name="okay_google">"Tamam Google"</string>
+    <string name="open_my_email">"E-postamı Aç"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"Voice Print"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"Ayarlar"</string>
+    <string name="action_add">"Ekle"</string>
+    <string name="title_activity_main_with_fragment">"MainWithFragmentActivity"</string>
+    <string name="tap_mic_start">"Başlatmak için Mikrofona dokunun"</string>
+    <string name="tap_mic_stop">"Durdurmak için Mikrofona dokunun"</string>
+    <string name="say_key_phrase">"Şunu söyleyin \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"\"&lt;b&gt;%1$s&lt;/b&gt;\" cümlesini bir defa daha söyleyin."</string>
+    <string name="say_one_of_key_phrases">"Anahtar Cümlelerden birini söyleyin"</string>
+    <string name="phrase_recognized">"\"&lt;b&gt;%1$s&lt;/b&gt;\" cümlesi tanındı "</string>
+    <string name="recording_length_exceeded">"Kayıt Uzunluğu Aşıldı"</string>
+    <string name="recording_length_exceeded_msg">"Kayıt uzunluğu aşılmıştır. Lütfen tekrar deneyin."</string>
+    <string name="delete_all">"Tümünü Sil"</string>
+    <string name="delete_all_msg">"Tüm kaydedilmiş şablonları silmek istediğinizden emin misiniz?"</string>
+    <string name="got_it">"Harika! Anladım."</string>
+    <string name="set_key_phrase">"Anahtar Cümleyi Ayarla"</string>
+    <string name="set_key_phrase_name">"Anahtar Cümle Adını Ayarla"</string>
+    <string name="set_key_phrase_action">"İşlemi Ayarla"</string>
+    <string name="change_key_phrase_action">"İşlemi Değiştir"</string>
+    <string name="phrase_strength">"Cümle Düzeyi"</string>
+    <string name="phrase_strength_hint">"En az üç sözcük içeren bir cümle deneyin."</string>
+    <string name="register_phrase">"Cümleyi Kaydet"</string>
+    <string name="register_phrase_hint">"Sesinizi tanımama yardımcı olmak için lütfen \"&lt;b&gt;%1$s&lt;/b&gt;\" cümlesini üç defa kaydedin."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" Kaydı sessiz bir odada yapın.\n\n"<b>"2."</b>"Telefonunuzu ağzınızdan uzakta tutun.\n\n"<b>"3."</b>"Anahtar cümlenizi doğal bir biçimde söyleyin."</string>
+    <string name="ready_to_record">"TAMAM, KAYDETMEYE HAZIRIM"</string>
+    <string name="oops">"Hata! Tekrar deneyin."</string>
+    <string name="say_the_phrase">"\"&lt;b&gt;%1$s&lt;/b&gt;\" cümlesini söyleyin"</string>
+    <string name="phrase_registered">"\"&lt;b&gt;%1$s&lt;/b&gt;\" cümlesi kaydedildi"</string>
+    <string name="say_the_phrase_few_more">"\"&lt;b&gt;%1$s&lt;/b&gt;\" cümlesini birkaç defa daha söyleyin"</string>
+    <string name="voice_print">"Ses İzi"</string>
+    <string name="cancel">"İptal"</string>
+    <string name="voice_level">"Ses Seviyesi"</string>
+    <string name="background_noise">"Arka Plan Gürültüsü"</string>
+    <string name="cap_done">"BİTTİ"</string>
+    <string name="cap_record">"KAYIT"</string>
+    <string name="cap_next">"İLERİ"</string>
+    <string name="cap_ok">"Tamam"</string>
+    <string name="next">"İleri"</string>
+    <string name="new_key_phrase">"Yeni Anahtar Cümle"</string>
+    <string name="edit_keyphrases">"Anahtar Cümleleri Düzenle"</string>
+    <string name="set_name">"Adı Ayarla"</string>
+    <string name="select_key_phrase">"Anahtar Cümle Seç"</string>
+    <string name="set_action">"İşlemi Ayarla"</string>
+    <string name="registration_complete">"Kaydetme Tamamlandı"</string>
+    <string name="confirm_pin">"PIN Kodunu Doğrula"</string>
+    <string name="confirm_pin_msg">"Anahtar cümleleri düzenlemek için cihazın PIN kodunu girin."</string>
+    <string name="your_key_phrase">"Anahtar Cümleniz"</string>
+    <string name="cap_redo">"YİNELE"</string>
+    <string name="cap_redo_previous">"ÖNCEKİNİ YİNELE"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"Önerilen Cümlelere Gözat"</string>
+    <string name="create_your_own">"Kendi Cümlenizi Oluşturun"</string>
+    <string name="skip">"Atla"</string>
+    <string name="none">"Yok"</string>
+    <string name="enter_pin">"Anahtar cümleleri düzenlemek için cihazın PIN kodunu girin."</string>
+    <string name="your_key_phrase_name">"Anahtar Cümlenizin Adı"</string>
+    <string name="new_key_phrase_name">"Yeni Anahtar Cümle Adı"</string>
+    <string name="set_service_to_launch">"Hizmeti başlamak üzere ayarla"</string>
+    <string name="email">"E-posta"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"Metin Mesajı Gönder"</string>
+    <string name="use_selected_phrase">"Seçilen Cümleyi Kullan"</string>
+    <string name="about">"Hakkında"</string>
+    <string name="edit_key_phrases">"Anahtar Cümleleri Düzenle"</string>
+    <string name="invalid_phrasename_title">"Geçersiz Cümle Adı"</string>
+    <string name="invalid_phrasename_msg">"Cümle Adı boş olamaz."</string>
+    <string name="duplicate_phrasename_msg">"Cümle Adı zaten mevcut. Farklı bir ad deneyin."</string>
+    <string name="invalid_phrase_title">"Geçersiz Cümle"</string>
+    <string name="invalid_phrase_msg">"Cümle boş olamaz."</string>
+    <string name="edit_action">"İşlemi Düzenle"</string>
+    <string name="threshold">"Eşik"</string>
+    <string name="delete_phrase">"Cümleyi Sil"</string>
+    <string name="rename">"Adı Değiştir"</string>
+    <string name="rename_keyphrase">"Anahtar Cümle Adını Değiştir"</string>
+    <string name="adjust_keyword_sensitivity">"Anahtar Sözcük Hassasiyetini Ayarla"</string>
+    <string name="adjust_keyword_sensitivity_summary">"Anahtar cümlenin tanınmasında değişkenliğe olanak sağlanması için hassasiyet ayarlanabilir."</string>
+    <string name="sensitivity">"Hassasiyet"</string>
+    <string name="low_sensitivity">"Düşük Hassasiyet"</string>
+    <string name="med_sensitivity">"Orta Hassasiyet"</string>
+    <string name="high_sensitivity">"Yüksek Hassasiyet"</string>
+    <string name="low">"DÜŞÜK"</string>
+    <string name="med">"ORTA"</string>
+    <string name="high">"YÜKSEK"</string>
+    <string name="low_sensitivity_summary">"Anahtar cümle tanıma sürecinde daha fazla değişkenliği kabul et."</string>
+    <string name="med_sensitivity_summary">"Anahtar cümle tanıma sürecinde belirli ölçüde değişkenliği kabul eder, ancak bazı anahtar cümlelerin tanınmasını önleyebilir."</string>
+    <string name="high_sensitivity_summary">"Ek güvenlik, ancak bazı anahtar cümlelerin tanınmasını önleyebilir."</string>
+    <string name="keyword_sensitivity">"Anahtar Sözcük Hassasiyeti"</string>
+    <string name="delete_phrase_msg">"\"%1$s\" cümlesini silmek istediğinizden emin misiniz?"</string>
+    <string name="voice_print_not_available_title">"Voice Print Kullanılabilir Değil"</string>
+    <string name="voice_print_not_available_msg">"Voice Print bu cihazda etkinleştirilmemiş."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"Silme Başarılı"</string>
+    <string name="delete_success_msg">"Anahtar cümle modeli silindi."</string>
+    <string name="delete_fail_title">"Silme Başarısız"</string>
+    <string name="delete_fail_msg">"Anahtar cümle modeli silinirken bir hata oluştu."</string>
+    <string name="rename_success_title">"Yeniden Adlandırma Başarılı"</string>
+    <string name="rename_success_msg">"Anahtar cümle modeli yeniden adlandırıldı."</string>
+    <string name="rename_fail_title">"Yeniden Adlandırma Başarısız"</string>
+    <string name="rename_fail_msg">"Anahtar cümle modeli yeniden adlandırılırken bir hata oluştu."</string>
+    <string name="pin_validation">"PIN Doğrulaması"</string>
+    <string name="pin_failed">"Geçersiz PIN Girişi!"</string>
+    <string name="registration_failed">"Kayıt başarısız oldu"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"Kullanıcı Eşiği"</string>
+    <string name="spoof_score">"Gizli Eşik"</string>
+    <string name="thresholds">"Eşikler"</string>
+    <string name="save">"Kaydet"</string>
+    <string name="sentence_score_msg">"Cümle Eşiğini Ayarla"</string>
+    <string name="user_score_msg">"Kullanıcı Eşiğini Ayarla"</string>
+    <string name="spoof_score_msg">"Gizli Eşiği Ayarla"</string>
+    <string name="sentence_score">"Cümle Eşiği"</string></resources>

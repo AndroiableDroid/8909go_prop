@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <!-- Application name -->
+    <string name="wallpapers">"Android 라이브 배경화면"</string>
+    <!-- Wallpapers: -->
+    <!-- Wallpaper showing the camera preview -->
+    <string name="wallpaper_walkaround">"투명"</string>
+    <string name="wallpaper_walkaround_author">"Google"</string>
+    <string name="wallpaper_walkaround_desc">"전화가 항상 시야에 들어오게 하여 사고를 당할 위험 없이 안전하게 돌아다니세요."</string>
+    <!-- Wallpaper showing a clock -->
+    <string name="wallpaper_clock">"중심축 시계"</string>
+    <string name="wallpaper_clock_author">"Google"</string>
+    <string name="wallpaper_clock_desc">"날짜와 시간을 시계방향 원호(월, 일, 시, 분, 초)로 표시합니다."</string>
+    <!-- Polar clock: title of settings activity -->
+    <string name="clock_settings">"중심축 시계 설정"</string>
+    <!-- Polar clock: label for "show seconds" pref -->
+    <string name="show_seconds">"초 표시"</string>
+    <!-- Polar clock: label for "variable widths" pref -->
+    <string name="variable_line_width">"다양한 고리 너비"</string>
+    <!-- Polar clock: label for "palette" pref -->
+    <string name="palette">"색상 팔레트"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_gray">"아이언"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_violet">"자정"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_matrix">"블루 스크린"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_white_c">"북극곰(동적)"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_black_c">"블랙홀(동적)"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_halloween">"호박 파이"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_zenburn">"이국적인 과일 샐러드"</string>
+	<!-- Polar clock: palette name -->
+	<string name="palette_oceanic">"파란 레이저"</string></resources>

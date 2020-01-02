@@ -1,0 +1,2597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+**
+** Copyright 2014, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<!--
+    These Emoji symbols are unsupported by TTS.
+    TODO: Remove this file when TTS/TalkBack support these Emoji symbols.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <!-- Spoken description for Unicode code point U+00A9: "©" COPYRIGHT SIGN -->
+     <string name="spoken_emoji_00A9">"저작권 기호"</string>
+     <!-- Spoken description for Unicode code point U+00AE: "®" REGISTERED SIGN -->
+     <string name="spoken_emoji_00AE">"등록 기호"</string>
+     <!-- Spoken description for Unicode code point U+203C: "‼" DOUBLE EXCLAMATION MARK -->
+     <string name="spoken_emoji_203C">"느낌표 2개"</string>
+     <!-- Spoken description for Unicode code point U+2049: "⁉" EXCLAMATION QUESTION MARK -->
+     <string name="spoken_emoji_2049">"느낌표 물음표"</string>
+     <!-- Spoken description for Unicode code point U+2122: "™" TRADE MARK SIGN -->
+     <string name="spoken_emoji_2122">"상표 기호"</string>
+     <!-- Spoken description for Unicode code point U+2139: "ℹ" INFORMATION SOURCE -->
+     <string name="spoken_emoji_2139">"안내소"</string>
+     <!-- Spoken description for Unicode code point U+2194: "↔" LEFT RIGHT ARROW -->
+     <string name="spoken_emoji_2194">"좌우 양방향 화살표"</string>
+     <!-- Spoken description for Unicode code point U+2195: "↕" UP DOWN ARROW -->
+     <string name="spoken_emoji_2195">"상하 양방향 화살표"</string>
+     <!-- Spoken description for Unicode code point U+2196: "↖" NORTH WEST ARROW -->
+     <string name="spoken_emoji_2196">"북서쪽 화살표"</string>
+     <!-- Spoken description for Unicode code point U+2197: "↗" NORTH EAST ARROW -->
+     <string name="spoken_emoji_2197">"북동쪽 화살표"</string>
+     <!-- Spoken description for Unicode code point U+2198: "↘" SOUTH EAST ARROW -->
+     <string name="spoken_emoji_2198">"남동쪽 화살표"</string>
+     <!-- Spoken description for Unicode code point U+2199: "↙" SOUTH WEST ARROW -->
+     <string name="spoken_emoji_2199">"남서쪽 화살표"</string>
+     <!-- Spoken description for Unicode code point U+21A9: "↩" LEFTWARDS ARROW WITH HOOK -->
+     <string name="spoken_emoji_21A9">"왼쪽을 가리키는 갈고리 화살표"</string>
+     <!-- Spoken description for Unicode code point U+21AA: "↪" RIGHTWARDS ARROW WITH HOOK -->
+     <string name="spoken_emoji_21AA">"오른쪽을 가리키는 갈고리 화살표"</string>
+     <!-- Spoken description for Unicode code point U+231A: "⌚" WATCH -->
+     <string name="spoken_emoji_231A">"손목시계"</string>
+     <!-- Spoken description for Unicode code point U+231B: "⌛" HOURGLASS -->
+     <string name="spoken_emoji_231B">"모래시계"</string>
+     <!-- Spoken description for Unicode code point U+2328: "⌨" KEYBOARD -->
+     <string name="spoken_emoji_2328">"키보드"</string>
+     <!-- Spoken description for Unicode code point U+23CF: "⏏" EJECT SYMBOL -->
+     <string name="spoken_emoji_23CF">"꺼내기 기호"</string>
+     <!-- Spoken description for Unicode code point U+23E9: "⏩" BLACK RIGHT-POINTING DOUBLE TRIANGLE -->
+     <string name="spoken_emoji_23E9">"오른쪽을 가리키는 검은색 이중 삼각형"</string>
+     <!-- Spoken description for Unicode code point U+23EA: "⏪" BLACK LEFT-POINTING DOUBLE TRIANGLE -->
+     <string name="spoken_emoji_23EA">"왼쪽을 가리키는 검은색 이중 삼각형"</string>
+     <!-- Spoken description for Unicode code point U+23EB: "⏫" BLACK UP-POINTING DOUBLE TRIANGLE -->
+     <string name="spoken_emoji_23EB">"위를 가리키는 검은색 이중 삼각형"</string>
+     <!-- Spoken description for Unicode code point U+23EC: "⏬" BLACK DOWN-POINTING DOUBLE TRIANGLE -->
+     <string name="spoken_emoji_23EC">"아래를 가리키는 검은색 이중 삼각형"</string>
+     <!-- Spoken description for Unicode code point U+23ED: "⏭" BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR -->
+     <string name="spoken_emoji_23ED">"세로 막대가 있는 오른쪽 방향 검은색 이중 삼각형"</string>
+     <!-- Spoken description for Unicode code point U+23EE: "⏮" BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR -->
+     <string name="spoken_emoji_23EE">"세로 막대가 있는 왼쪽 방향 검은색 이중 삼각형"</string>
+     <!-- Spoken description for Unicode code point U+23EF: "⏯" BLACK RIGHT-POINTING TRIANGLE WITH DOUBLE VERTICAL BAR -->
+     <string name="spoken_emoji_23EF">"두 개의 세로 막대가 있는 오른쪽 방향 검은색 삼각형"</string>
+     <!-- Spoken description for Unicode code point U+23F0: "⏰" ALARM CLOCK -->
+     <string name="spoken_emoji_23F0">"알람 시계"</string>
+     <!-- Spoken description for Unicode code point U+23F1: "⏱" STOPWATCH -->
+     <string name="spoken_emoji_23F1">"스톱워치"</string>
+     <!-- Spoken description for Unicode code point U+23F2: "⏲" TIMER CLOCK -->
+     <string name="spoken_emoji_23F2">"타이머 시계"</string>
+     <!-- Spoken description for Unicode code point U+23F3: "⏳" HOURGLASS WITH FLOWING SAND -->
+     <string name="spoken_emoji_23F3">"모래가 떨어지는 모래시계"</string>
+     <!-- Spoken description for Unicode code point U+23F8: "⏸" DOUBLE VERTICAL BAR -->
+     <string name="spoken_emoji_23F8">"이중 세로 막대"</string>
+     <!-- Spoken description for Unicode code point U+23F9: "⏹" BLACK SQUARE FOR STOP -->
+     <string name="spoken_emoji_23F9">"정지를 나타내는 검은색 사각형"</string>
+     <!-- Spoken description for Unicode code point U+23FA: "⏺" BLACK CIRCLE FOR RECORD -->
+     <string name="spoken_emoji_23FA">"녹음을 나타내는 검은색 원"</string>
+     <!-- Spoken description for Unicode code point U+24C2: "Ⓜ" CIRCLED LATIN CAPITAL LETTER M -->
+     <string name="spoken_emoji_24C2">"라틴어 M 원문자"</string>
+     <!-- Spoken description for Unicode code point U+25AA: "▪" BLACK SMALL SQUARE -->
+     <string name="spoken_emoji_25AA">"작은 검은색 정사각형"</string>
+     <!-- Spoken description for Unicode code point U+25AB: "▫" WHITE SMALL SQUARE -->
+     <string name="spoken_emoji_25AB">"작은 흰색 정사각형"</string>
+     <!-- Spoken description for Unicode code point U+25B6: "▶" BLACK RIGHT-POINTING TRIANGLE -->
+     <string name="spoken_emoji_25B6">"오른쪽을 가리키는 검은색 삼각형"</string>
+     <!-- Spoken description for Unicode code point U+25C0: "◀" BLACK LEFT-POINTING TRIANGLE -->
+     <string name="spoken_emoji_25C0">"왼쪽을 가리키는 검은색 삼각형"</string>
+     <!-- Spoken description for Unicode code point U+25FB: "◻" WHITE MEDIUM SQUARE -->
+     <string name="spoken_emoji_25FB">"중간 크기의 흰색 정사각형"</string>
+     <!-- Spoken description for Unicode code point U+25FC: "◼" BLACK MEDIUM SQUARE -->
+     <string name="spoken_emoji_25FC">"중간 크기의 검은색 정사각형"</string>
+     <!-- Spoken description for Unicode code point U+25FD: "◽" WHITE MEDIUM SMALL SQUARE -->
+     <string name="spoken_emoji_25FD">"중소형의 흰색 정사각형"</string>
+     <!-- Spoken description for Unicode code point U+25FE: "◾" BLACK MEDIUM SMALL SQUARE -->
+     <string name="spoken_emoji_25FE">"중소형의 검은색 정사각형"</string>
+     <!-- Spoken description for Unicode code point U+2600: "☀" BLACK SUN WITH RAYS -->
+     <string name="spoken_emoji_2600">"햇살이 있는 검은색 태양"</string>
+     <!-- Spoken description for Unicode code point U+2601: "☁" CLOUD -->
+     <string name="spoken_emoji_2601">"구름"</string>
+     <!-- Spoken description for Unicode code point U+2602: "☂" UMBRELLA -->
+     <string name="spoken_emoji_2602">"우산"</string>
+     <!-- Spoken description for Unicode code point U+2603: "☃" SNOWMAN -->
+     <string name="spoken_emoji_2603">"눈사람"</string>
+     <!-- Spoken description for Unicode code point U+2604: "☄" COMET -->
+     <string name="spoken_emoji_2604">"혜성"</string>
+     <!-- Spoken description for Unicode code point U+260E: "☎" BLACK TELEPHONE -->
+     <string name="spoken_emoji_260E">"검은색 전화기"</string>
+     <!-- Spoken description for Unicode code point U+2611: "☑" BALLOT BOX WITH CHECK -->
+     <string name="spoken_emoji_2611">"체크표시가 있는 정사각형"</string>
+     <!-- Spoken description for Unicode code point U+2614: "☔" UMBRELLA WITH RAIN DROPS -->
+     <string name="spoken_emoji_2614">"우산과 빗방울"</string>
+     <!-- Spoken description for Unicode code point U+2615: "☕" HOT BEVERAGE -->
+     <string name="spoken_emoji_2615">"뜨거운 음료"</string>
+     <!-- Spoken description for Unicode code point U+2618: "☘" SHAMROCK -->
+     <string name="spoken_emoji_2618">"토끼풀"</string>
+     <!-- Spoken description for Unicode code point U+261D: "☝" WHITE UP POINTING INDEX -->
+     <string name="spoken_emoji_261D">"위를 가리키는 흰색 검지"</string>
+     <!-- Spoken description for Unicode code point U+2620: "☠" SKULL AND CROSSBONES -->
+     <string name="spoken_emoji_2620">"해골 및 엇갈려 배치된 두 개의 뼈"</string>
+     <!-- Spoken description for Unicode code point U+2622: "☢" RADIOACTIVE SIGN -->
+     <string name="spoken_emoji_2622">"방사성 기호"</string>
+     <!-- Spoken description for Unicode code point U+2623: "☣" BIOHAZARD SIGN -->
+     <string name="spoken_emoji_2623">"생물학적 위험 기호"</string>
+     <!-- Spoken description for Unicode code point U+2626: "☦" ORTHODOX CROSS -->
+     <string name="spoken_emoji_2626">"정교회 십자가"</string>
+     <!-- Spoken description for Unicode code point U+262A: "☪" STAR AND CRESCENT -->
+     <string name="spoken_emoji_262A">"별과 초승달"</string>
+     <!-- Spoken description for Unicode code point U+262E: "☮" PEACE SYMBOL -->
+     <string name="spoken_emoji_262E">"평화 기호"</string>
+     <!-- Spoken description for Unicode code point U+262F: "☯" YIN YANG -->
+     <string name="spoken_emoji_262F">"음양"</string>
+     <!-- Spoken description for Unicode code point U+2638: "☸" WHEEL OF DHARMA -->
+     <string name="spoken_emoji_2638">"다르마 휠"</string>
+     <!-- Spoken description for Unicode code point U+2639: "☹" WHITE FROWNING FACE -->
+     <string name="spoken_emoji_2639">"시무룩한 흰 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+263A: "☺" WHITE SMILING FACE -->
+     <string name="spoken_emoji_263A">"웃는 흰색 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+2648: "♈" ARIES -->
+     <string name="spoken_emoji_2648">"양자리"</string>
+     <!-- Spoken description for Unicode code point U+2649: "♉" TAURUS -->
+     <string name="spoken_emoji_2649">"황소자리"</string>
+     <!-- Spoken description for Unicode code point U+264A: "♊" GEMINI -->
+     <string name="spoken_emoji_264A">"쌍둥이자리"</string>
+     <!-- Spoken description for Unicode code point U+264B: "♋" CANCER -->
+     <string name="spoken_emoji_264B">"게자리"</string>
+     <!-- Spoken description for Unicode code point U+264C: "♌" LEO -->
+     <string name="spoken_emoji_264C">"사자자리"</string>
+     <!-- Spoken description for Unicode code point U+264D: "♍" VIRGO -->
+     <string name="spoken_emoji_264D">"처녀자리"</string>
+     <!-- Spoken description for Unicode code point U+264E: "♎" LIBRA -->
+     <string name="spoken_emoji_264E">"천칭자리"</string>
+     <!-- Spoken description for Unicode code point U+264F: "♏" SCORPIUS -->
+     <string name="spoken_emoji_264F">"전갈자리"</string>
+     <!-- Spoken description for Unicode code point U+2650: "♐" SAGITTARIUS -->
+     <string name="spoken_emoji_2650">"궁수자리"</string>
+     <!-- Spoken description for Unicode code point U+2651: "♑" CAPRICORN -->
+     <string name="spoken_emoji_2651">"염소자리"</string>
+     <!-- Spoken description for Unicode code point U+2652: "♒" AQUARIUS -->
+     <string name="spoken_emoji_2652">"물병자리"</string>
+     <!-- Spoken description for Unicode code point U+2653: "♓" PISCES -->
+     <string name="spoken_emoji_2653">"물고기자리"</string>
+     <!-- Spoken description for Unicode code point U+2660: "♠" BLACK SPADE SUIT -->
+     <string name="spoken_emoji_2660">"검은색 스페이드"</string>
+     <!-- Spoken description for Unicode code point U+2663: "♣" BLACK CLUB SUIT -->
+     <string name="spoken_emoji_2663">"검은색 클로버"</string>
+     <!-- Spoken description for Unicode code point U+2665: "♥" BLACK HEART SUIT -->
+     <string name="spoken_emoji_2665">"검은색 하트"</string>
+     <!-- Spoken description for Unicode code point U+2666: "♦" BLACK DIAMOND SUIT -->
+     <string name="spoken_emoji_2666">"검은색 다이아몬드"</string>
+     <!-- Spoken description for Unicode code point U+2668: "♨" HOT SPRINGS -->
+     <string name="spoken_emoji_2668">"온천"</string>
+     <!-- Spoken description for Unicode code point U+267B: "♻" BLACK UNIVERSAL RECYCLING SYMBOL -->
+     <string name="spoken_emoji_267B">"검은색 보편적인 재활용 기호"</string>
+     <!-- Spoken description for Unicode code point U+267F: "♿" WHEELCHAIR SYMBOL -->
+     <string name="spoken_emoji_267F">"휠체어 기호"</string>
+     <!-- Spoken description for Unicode code point U+2692: "⚒" HAMMER AND PICK -->
+     <string name="spoken_emoji_2692">"망치와 곡괭이"</string>
+     <!-- Spoken description for Unicode code point U+2693: "⚓" ANCHOR -->
+     <string name="spoken_emoji_2693">"닻"</string>
+     <!-- Spoken description for Unicode code point U+2694: "⚔" CROSSED SWORDS -->
+     <string name="spoken_emoji_2694">"교차된 검"</string>
+     <!-- Spoken description for Unicode code point U+2696: "⚖" SCALES -->
+     <string name="spoken_emoji_2696">"저울"</string>
+     <!-- Spoken description for Unicode code point U+2697: "⚗" ALEMBIC -->
+     <string name="spoken_emoji_2697">"증류기"</string>
+     <!-- Spoken description for Unicode code point U+2699: "⚙" GEAR -->
+     <string name="spoken_emoji_2699">"기어"</string>
+     <!-- Spoken description for Unicode code point U+269B: "⚛" ATOM SYMBOL -->
+     <string name="spoken_emoji_269B">"원자 기호"</string>
+     <!-- Spoken description for Unicode code point U+269C: "⚜" FLEUR-DE-LIS -->
+     <string name="spoken_emoji_269C">"백합 문장"</string>
+     <!-- Spoken description for Unicode code point U+26A0: "⚠" WARNING SIGN -->
+     <string name="spoken_emoji_26A0">"경고 기호"</string>
+     <!-- Spoken description for Unicode code point U+26A1: "⚡" HIGH VOLTAGE SIGN -->
+     <string name="spoken_emoji_26A1">"고압 전류 기호"</string>
+     <!-- Spoken description for Unicode code point U+26AA: "⚪" MEDIUM WHITE CIRCLE -->
+     <string name="spoken_emoji_26AA">"중간 크기의 흰색 원"</string>
+     <!-- Spoken description for Unicode code point U+26AB: "⚫" MEDIUM BLACK CIRCLE -->
+     <string name="spoken_emoji_26AB">"중간 크기의 검은색 원"</string>
+     <!-- Spoken description for Unicode code point U+26B0: "⚰" COFFIN -->
+     <string name="spoken_emoji_26B0">"관"</string>
+     <!-- Spoken description for Unicode code point U+26B1: "⚱" FUNERAL URN -->
+     <string name="spoken_emoji_26B1">"유골 단지"</string>
+     <!-- Spoken description for Unicode code point U+26BD: "⚽" SOCCER BALL -->
+     <string name="spoken_emoji_26BD">"축구공"</string>
+     <!-- Spoken description for Unicode code point U+26BE: "⚾" BASEBALL -->
+     <string name="spoken_emoji_26BE">"야구공"</string>
+     <!-- Spoken description for Unicode code point U+26C4: "⛄" SNOWMAN WITHOUT SNOW -->
+     <string name="spoken_emoji_26C4">"눈송이 없는 눈사람"</string>
+     <!-- Spoken description for Unicode code point U+26C5: "⛅" SUN BEHIND CLOUD -->
+     <string name="spoken_emoji_26C5">"구름에 가려진 태양"</string>
+     <!-- Spoken description for Unicode code point U+26C8: "⛈" THUNDER CLOUD AND RAIN -->
+     <string name="spoken_emoji_26C8">"번개 구름과 비"</string>
+     <!-- Spoken description for Unicode code point U+26CE: "⛎" OPHIUCHUS -->
+     <string name="spoken_emoji_26CE">"뱀주인자리"</string>
+     <!-- Spoken description for Unicode code point U+26CF: "⛏" PICK -->
+     <string name="spoken_emoji_26CF">"곡괭이"</string>
+     <!-- Spoken description for Unicode code point U+26D1: "⛑" HELMET WITH WHITE CROSS -->
+     <string name="spoken_emoji_26D1">"흰색 십자 모양이 있는 헬멧"</string>
+     <!-- Spoken description for Unicode code point U+26D3: "⛓" CHAINS -->
+     <string name="spoken_emoji_26D3">"체인"</string>
+     <!-- Spoken description for Unicode code point U+26D4: "⛔" NO ENTRY -->
+     <string name="spoken_emoji_26D4">"진입 금지"</string>
+     <!-- Spoken description for Unicode code point U+26E9: "⛩" SHINTO SHRINE -->
+     <string name="spoken_emoji_26E9">"신사 참배"</string>
+     <!-- Spoken description for Unicode code point U+26EA: "⛪" CHURCH -->
+     <string name="spoken_emoji_26EA">"교회"</string>
+     <!-- Spoken description for Unicode code point U+26F0: "⛰" MOUNTAIN -->
+     <string name="spoken_emoji_26F0">"산"</string>
+     <!-- Spoken description for Unicode code point U+26F1: "⛱" UMBRELLA ON GROUND -->
+     <string name="spoken_emoji_26F1">"바닥에 꽂힌 파라솔"</string>
+     <!-- Spoken description for Unicode code point U+26F2: "⛲" FOUNTAIN -->
+     <string name="spoken_emoji_26F2">"분수"</string>
+     <!-- Spoken description for Unicode code point U+26F3: "⛳" FLAG IN HOLE -->
+     <string name="spoken_emoji_26F3">"골프 홀에 있는 깃발"</string>
+     <!-- Spoken description for Unicode code point U+26F4: "⛴" FERRY -->
+     <string name="spoken_emoji_26F4">"페리"</string>
+     <!-- Spoken description for Unicode code point U+26F5: "⛵" SAILBOAT -->
+     <string name="spoken_emoji_26F5">"범선"</string>
+     <!-- Spoken description for Unicode code point U+26F7: "⛷" SKIER -->
+     <string name="spoken_emoji_26F7">"스키를 타는 사람"</string>
+     <!-- Spoken description for Unicode code point U+26F8: "⛸" ICE SKATE -->
+     <string name="spoken_emoji_26F8">"아이스 스케이트"</string>
+     <!-- Spoken description for Unicode code point U+26F9: "⛹" PERSON WITH BALL -->
+     <string name="spoken_emoji_26F9">"공을 갖고 있는 사람"</string>
+     <!-- Spoken description for Unicode code point U+26FA: "⛺" TENT -->
+     <string name="spoken_emoji_26FA">"텐트"</string>
+     <!-- Spoken description for Unicode code point U+26FD: "⛽" FUEL PUMP -->
+     <string name="spoken_emoji_26FD">"주유기"</string>
+     <!-- Spoken description for Unicode code point U+2702: "✂" BLACK SCISSORS -->
+     <string name="spoken_emoji_2702">"검은색 가위"</string>
+     <!-- Spoken description for Unicode code point U+2705: "✅" WHITE HEAVY CHECK MARK -->
+     <string name="spoken_emoji_2705">"굵은 흰색 체크표시"</string>
+     <!-- Spoken description for Unicode code point U+2708: "✈" AIRPLANE -->
+     <string name="spoken_emoji_2708">"비행기"</string>
+     <!-- Spoken description for Unicode code point U+2709: "✉" ENVELOPE -->
+     <string name="spoken_emoji_2709">"봉투"</string>
+     <!-- Spoken description for Unicode code point U+270A: "✊" RAISED FIST -->
+     <string name="spoken_emoji_270A">"위를 향한 주먹"</string>
+     <!-- Spoken description for Unicode code point U+270B: "✋" RAISED HAND -->
+     <string name="spoken_emoji_270B">"위를 향한 손"</string>
+     <!-- Spoken description for Unicode code point U+270C: "✌" VICTORY HAND -->
+     <string name="spoken_emoji_270C">"승리의 V를 한 손"</string>
+     <!-- Spoken description for Unicode code point U+270D: "✍" WRITING HAND -->
+     <string name="spoken_emoji_270D">"쓰고 있는 손"</string>
+     <!-- Spoken description for Unicode code point U+270F: "✏" PENCIL -->
+     <string name="spoken_emoji_270F">"연필"</string>
+     <!-- Spoken description for Unicode code point U+2712: "✒" BLACK NIB -->
+     <string name="spoken_emoji_2712">"검은색 펜촉"</string>
+     <!-- Spoken description for Unicode code point U+2714: "✔" HEAVY CHECK MARK -->
+     <string name="spoken_emoji_2714">"굵은 체크표시"</string>
+     <!-- Spoken description for Unicode code point U+2716: "✖" HEAVY MULTIPLICATION X -->
+     <string name="spoken_emoji_2716">"굵은 곱셈 표시"</string>
+     <!-- Spoken description for Unicode code point U+271D: "✝" LATIN CROSS -->
+     <string name="spoken_emoji_271D">"라틴 십자가"</string>
+     <!-- Spoken description for Unicode code point U+2721: "✡" STAR OF DAVID -->
+     <string name="spoken_emoji_2721">"다윗의 별"</string>
+     <!-- Spoken description for Unicode code point U+2728: "✨" SPARKLES -->
+     <string name="spoken_emoji_2728">"반짝임"</string>
+     <!-- Spoken description for Unicode code point U+2733: "✳" EIGHT SPOKED ASTERISK -->
+     <string name="spoken_emoji_2733">"8각 별표"</string>
+     <!-- Spoken description for Unicode code point U+2734: "✴" EIGHT POINTED BLACK STAR -->
+     <string name="spoken_emoji_2734">"8각 검은 별"</string>
+     <!-- Spoken description for Unicode code point U+2744: "❄" SNOWFLAKE -->
+     <string name="spoken_emoji_2744">"눈송이"</string>
+     <!-- Spoken description for Unicode code point U+2747: "❇" SPARKLE -->
+     <string name="spoken_emoji_2747">"광채"</string>
+     <!-- Spoken description for Unicode code point U+274C: "❌" CROSS MARK -->
+     <string name="spoken_emoji_274C">"곱셈 표시"</string>
+     <!-- Spoken description for Unicode code point U+274E: "❎" NEGATIVE SQUARED CROSS MARK -->
+     <string name="spoken_emoji_274E">"음각 곱셈 표시 블록"</string>
+     <!-- Spoken description for Unicode code point U+2753: "❓" BLACK QUESTION MARK ORNAMENT -->
+     <string name="spoken_emoji_2753">"검은색 물음표"</string>
+     <!-- Spoken description for Unicode code point U+2754: "❔" WHITE QUESTION MARK ORNAMENT -->
+     <string name="spoken_emoji_2754">"흰색 물음표"</string>
+     <!-- Spoken description for Unicode code point U+2755: "❕" WHITE EXCLAMATION MARK ORNAMENT -->
+     <string name="spoken_emoji_2755">"흰색 느낌표"</string>
+     <!-- Spoken description for Unicode code point U+2757: "❗" HEAVY EXCLAMATION MARK SYMBOL -->
+     <string name="spoken_emoji_2757">"굵은 느낌표 기호"</string>
+     <!-- Spoken description for Unicode code point U+2763: "❣" HEAVY HEART EXCLAMATION MARK ORNAMENT -->
+     <string name="spoken_emoji_2763">"두꺼운 하트 모양 느낌표 장식"</string>
+     <!-- Spoken description for Unicode code point U+2764: "❤" HEAVY BLACK HEART -->
+     <string name="spoken_emoji_2764">"검은색 하트"</string>
+     <!-- Spoken description for Unicode code point U+2795: "➕" HEAVY PLUS SIGN -->
+     <string name="spoken_emoji_2795">"굵은 덧셈 기호"</string>
+     <!-- Spoken description for Unicode code point U+2796: "➖" HEAVY MINUS SIGN -->
+     <string name="spoken_emoji_2796">"굵은 뺄셈 기호"</string>
+     <!-- Spoken description for Unicode code point U+2797: "➗" HEAVY DIVISION SIGN -->
+     <string name="spoken_emoji_2797">"굵은 나눗셈 기호"</string>
+     <!-- Spoken description for Unicode code point U+27A1: "➡" BLACK RIGHTWARDS ARROW -->
+     <string name="spoken_emoji_27A1">"검은색 오른쪽 화살표"</string>
+     <!-- Spoken description for Unicode code point U+27B0: "➰" CURLY LOOP -->
+     <string name="spoken_emoji_27B0">"한 번 꼬인 선"</string>
+     <!-- Spoken description for Unicode code point U+27BF: "➿" DOUBLE CURLY LOOP -->
+     <string name="spoken_emoji_27BF">"두 번 꼬인 선"</string>
+     <!-- Spoken description for Unicode code point U+2934: "⤴" ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS -->
+     <string name="spoken_emoji_2934">"오른쪽을 가리키다가 위로 꺾어지는 화살표"</string>
+     <!-- Spoken description for Unicode code point U+2935: "⤵" ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS -->
+     <string name="spoken_emoji_2935">"오른쪽을 가리키다가 아래로 꺾어지는 화살표"</string>
+     <!-- Spoken description for Unicode code point U+2B05: "⬅" LEFTWARDS BLACK ARROW -->
+     <string name="spoken_emoji_2B05">"검은색 왼쪽 화살표"</string>
+     <!-- Spoken description for Unicode code point U+2B06: "⬆" UPWARDS BLACK ARROW -->
+     <string name="spoken_emoji_2B06">"검은색 위 화살표"</string>
+     <!-- Spoken description for Unicode code point U+2B07: "⬇" DOWNWARDS BLACK ARROW -->
+     <string name="spoken_emoji_2B07">"검은색 아래 화살표"</string>
+     <!-- Spoken description for Unicode code point U+2B1B: "⬛" BLACK LARGE SQUARE -->
+     <string name="spoken_emoji_2B1B">"큰 검은색 정사각형"</string>
+     <!-- Spoken description for Unicode code point U+2B1C: "⬜" WHITE LARGE SQUARE -->
+     <string name="spoken_emoji_2B1C">"큰 흰색 정사각형"</string>
+     <!-- Spoken description for Unicode code point U+2B50: "⭐" WHITE MEDIUM STAR -->
+     <string name="spoken_emoji_2B50">"중간 크기의 흰색 화살표"</string>
+     <!-- Spoken description for Unicode code point U+2B55: "⭕" HEAVY LARGE CIRCLE -->
+     <string name="spoken_emoji_2B55">"굵은 선으로 된 흰색 원"</string>
+     <!-- Spoken description for Unicode code point U+3030: "〰" WAVY DASH -->
+     <string name="spoken_emoji_3030">"물결 대시"</string>
+     <!-- Spoken description for Unicode code point U+303D: "〽" PART ALTERNATION MARK -->
+     <string name="spoken_emoji_303D">"부품 교체 마크"</string>
+     <!-- Spoken description for Unicode code point U+3297: "㊗" CIRCLED IDEOGRAPH CONGRATULATION -->
+     <string name="spoken_emoji_3297">"한자 표기 축하 원문자"</string>
+     <!-- Spoken description for Unicode code point U+3299: "㊙" CIRCLED IDEOGRAPH SECRET -->
+     <string name="spoken_emoji_3299">"한자 표기 비밀 원문자"</string>
+     <!-- Spoken description for Unicode code point U+1F004: "🀄" MAHJONG TILE RED DRAGON -->
+     <string name="spoken_emoji_1F004">"마작패 붉은 용"</string>
+     <!-- Spoken description for Unicode code point U+1F0CF: "🃏" PLAYING CARD BLACK JOKER -->
+     <string name="spoken_emoji_1F0CF">"블랙 조커 카드"</string>
+     <!-- Spoken description for Unicode code point U+1F170: "🅰" NEGATIVE SQUARED LATIN CAPITAL LETTER A -->
+     <string name="spoken_emoji_1F170">"혈액형 A"</string>
+     <!-- Spoken description for Unicode code point U+1F171: "🅱" NEGATIVE SQUARED LATIN CAPITAL LETTER B -->
+     <string name="spoken_emoji_1F171">"혈액형 B"</string>
+     <!-- Spoken description for Unicode code point U+1F17E: "🅾" NEGATIVE SQUARED LATIN CAPITAL LETTER O -->
+     <string name="spoken_emoji_1F17E">"혈액형 O"</string>
+     <!-- Spoken description for Unicode code point U+1F17F: "🅿" NEGATIVE SQUARED LATIN CAPITAL LETTER P -->
+     <string name="spoken_emoji_1F17F">"주차장"</string>
+     <!-- Spoken description for Unicode code point U+1F18E: "🆎" NEGATIVE SQUARED AB -->
+     <string name="spoken_emoji_1F18E">"혈액형 AB"</string>
+     <!-- Spoken description for Unicode code point U+1F191: "🆑" SQUARED CL -->
+     <string name="spoken_emoji_1F191">"CL 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F192: "🆒" SQUARED COOL -->
+     <string name="spoken_emoji_1F192">"COOL 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F193: "🆓" SQUARED FREE -->
+     <string name="spoken_emoji_1F193">"FREE 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F194: "🆔" SQUARED ID -->
+     <string name="spoken_emoji_1F194">"ID 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F195: "🆕" SQUARED NEW -->
+     <string name="spoken_emoji_1F195">"NEW 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F196: "🆖" SQUARED NG -->
+     <string name="spoken_emoji_1F196">"NG 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F197: "🆗" SQUARED OK -->
+     <string name="spoken_emoji_1F197">"OK 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F198: "🆘" SQUARED SOS -->
+     <string name="spoken_emoji_1F198">"SOS 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F199: "🆙" SQUARED UP WITH EXCLAMATION MARK -->
+     <string name="spoken_emoji_1F199">"UP! 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F19A: "🆚" SQUARED VS -->
+     <string name="spoken_emoji_1F19A">"VS 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F201: "🈁" SQUARED KATAKANA KOKO -->
+     <string name="spoken_emoji_1F201">"카타카나 여기 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F202: "🈂" SQUARED KATAKANA SA -->
+     <string name="spoken_emoji_1F202">"카타카나 서비스 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F21A: "🈚" SQUARED CJK UNIFIED IDEOGRAPH-7121 -->
+     <string name="spoken_emoji_1F21A">"한자 표기 무료 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F22F: "🈯" SQUARED CJK UNIFIED IDEOGRAPH-6307 -->
+     <string name="spoken_emoji_1F22F">"한자 표기 예약석 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F232: "🈲" SQUARED CJK UNIFIED IDEOGRAPH-7981 -->
+     <string name="spoken_emoji_1F232">"한자 표기 금지 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F233: "🈳" SQUARED CJK UNIFIED IDEOGRAPH-7A7A -->
+     <string name="spoken_emoji_1F233">"한자 표기 빈자리 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F234: "🈴" SQUARED CJK UNIFIED IDEOGRAPH-5408 -->
+     <string name="spoken_emoji_1F234">"한자 표기 수락 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F235: "🈵" SQUARED CJK UNIFIED IDEOGRAPH-6E80 -->
+     <string name="spoken_emoji_1F235">"한자 표기 빈자리 없음 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F236: "🈶" SQUARED CJK UNIFIED IDEOGRAPH-6709 -->
+     <string name="spoken_emoji_1F236">"한자 표기 유료 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F237: "🈷" SQUARED CJK UNIFIED IDEOGRAPH-6708 -->
+     <string name="spoken_emoji_1F237">"한자 표기 월 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F238: "🈸" SQUARED CJK UNIFIED IDEOGRAPH-7533 -->
+     <string name="spoken_emoji_1F238">"한자 표기 적용 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F239: "🈹" SQUARED CJK UNIFIED IDEOGRAPH-5272 -->
+     <string name="spoken_emoji_1F239">"한자 표기 할인 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F23A: "🈺" SQUARED CJK UNIFIED IDEOGRAPH-55B6 -->
+     <string name="spoken_emoji_1F23A">"한자 표기 영업 중 블록"</string>
+     <!-- Spoken description for Unicode code point U+1F250: "🉐" CIRCLED IDEOGRAPH ADVANTAGE -->
+     <string name="spoken_emoji_1F250">"한자 표기 이익 원문자"</string>
+     <!-- Spoken description for Unicode code point U+1F251: "🉑" CIRCLED IDEOGRAPH ACCEPT -->
+     <string name="spoken_emoji_1F251">"한자 표기 수락 원문자"</string>
+     <!-- Spoken description for Unicode code point U+1F300: "🌀" CYCLONE -->
+     <string name="spoken_emoji_1F300">"태풍"</string>
+     <!-- Spoken description for Unicode code point U+1F301: "🌁" FOGGY -->
+     <string name="spoken_emoji_1F301">"안개"</string>
+     <!-- Spoken description for Unicode code point U+1F302: "🌂" CLOSED UMBRELLA -->
+     <string name="spoken_emoji_1F302">"접은 우산"</string>
+     <!-- Spoken description for Unicode code point U+1F303: "🌃" NIGHT WITH STARS -->
+     <string name="spoken_emoji_1F303">"별 밤"</string>
+     <!-- Spoken description for Unicode code point U+1F304: "🌄" SUNRISE OVER MOUNTAINS -->
+     <string name="spoken_emoji_1F304">"산 위의 일출"</string>
+     <!-- Spoken description for Unicode code point U+1F305: "🌅" SUNRISE -->
+     <string name="spoken_emoji_1F305">"일출"</string>
+     <!-- Spoken description for Unicode code point U+1F306: "🌆" CITYSCAPE AT DUSK -->
+     <string name="spoken_emoji_1F306">"황혼녘 도시 전경"</string>
+     <!-- Spoken description for Unicode code point U+1F307: "🌇" SUNSET OVER BUILDINGS -->
+     <string name="spoken_emoji_1F307">"빌딩 너머로 지는 해"</string>
+     <!-- Spoken description for Unicode code point U+1F308: "🌈" RAINBOW -->
+     <string name="spoken_emoji_1F308">"무지개"</string>
+     <!-- Spoken description for Unicode code point U+1F309: "🌉" BRIDGE AT NIGHT -->
+     <string name="spoken_emoji_1F309">"교량 야경"</string>
+     <!-- Spoken description for Unicode code point U+1F30A: "🌊" WATER WAVE -->
+     <string name="spoken_emoji_1F30A">"파도"</string>
+     <!-- Spoken description for Unicode code point U+1F30B: "🌋" VOLCANO -->
+     <string name="spoken_emoji_1F30B">"화산"</string>
+     <!-- Spoken description for Unicode code point U+1F30C: "🌌" MILKY WAY -->
+     <string name="spoken_emoji_1F30C">"은하수"</string>
+     <!-- Spoken description for Unicode code point U+1F30D: "🌍" EARTH GLOBE EUROPE-AFRICA -->
+     <string name="spoken_emoji_1F30D">"지구본 유럽-아프리카"</string>
+     <!-- Spoken description for Unicode code point U+1F30E: "🌎" EARTH GLOBE AMERICAS -->
+     <string name="spoken_emoji_1F30E">"지구본 미주"</string>
+     <!-- Spoken description for Unicode code point U+1F30F: "🌏" EARTH GLOBE ASIA-AUSTRALIA -->
+     <string name="spoken_emoji_1F30F">"지구본 아시아-오세아니아"</string>
+     <!-- Spoken description for Unicode code point U+1F310: "🌐" GLOBE WITH MERIDIANS -->
+     <string name="spoken_emoji_1F310">"자오선이 있는 지구본"</string>
+     <!-- Spoken description for Unicode code point U+1F311: "🌑" NEW MOON SYMBOL -->
+     <string name="spoken_emoji_1F311">"삭 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F312: "🌒" WAXING CRESCENT MOON SYMBOL -->
+     <string name="spoken_emoji_1F312">"삭현간 요월 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F313: "🌓" FIRST QUARTER MOON SYMBOL -->
+     <string name="spoken_emoji_1F313">"상현달 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F314: "🌔" WAXING GIBBOUS MOON SYMBOL -->
+     <string name="spoken_emoji_1F314">"현망간 철월 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F315: "🌕" FULL MOON SYMBOL -->
+     <string name="spoken_emoji_1F315">"보름달 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F316: "🌖" WANING GIBBOUS MOON SYMBOL -->
+     <string name="spoken_emoji_1F316">"망현간 철월 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F317: "🌗" LAST QUARTER MOON SYMBOL -->
+     <string name="spoken_emoji_1F317">"하현달 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F318: "🌘" WANING CRESCENT MOON SYMBOL -->
+     <string name="spoken_emoji_1F318">"현삭간 요월 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F319: "🌙" CRESCENT MOON -->
+     <string name="spoken_emoji_1F319">"초승달"</string>
+     <!-- Spoken description for Unicode code point U+1F31A: "🌚" NEW MOON WITH FACE -->
+     <string name="spoken_emoji_1F31A">"얼굴이 있는 삭"</string>
+     <!-- Spoken description for Unicode code point U+1F31B: "🌛" FIRST QUARTER MOON WITH FACE -->
+     <string name="spoken_emoji_1F31B">"얼굴이 있는 상현달"</string>
+     <!-- Spoken description for Unicode code point U+1F31C: "🌜" LAST QUARTER MOON WITH FACE -->
+     <string name="spoken_emoji_1F31C">"얼굴이 있는 하현달"</string>
+     <!-- Spoken description for Unicode code point U+1F31D: "🌝" FULL MOON WITH FACE -->
+     <string name="spoken_emoji_1F31D">"얼굴이 있는 보름달"</string>
+     <!-- Spoken description for Unicode code point U+1F31E: "🌞" SUN WITH FACE -->
+     <string name="spoken_emoji_1F31E">"얼굴이 있는 태양"</string>
+     <!-- Spoken description for Unicode code point U+1F31F: "🌟" GLOWING STAR -->
+     <string name="spoken_emoji_1F31F">"반짝이는 별"</string>
+     <!-- Spoken description for Unicode code point U+1F320: "🌠" SHOOTING STAR -->
+     <string name="spoken_emoji_1F320">"별똥별"</string>
+     <!-- Spoken description for Unicode code point U+1F321: "🌡" THERMOMETER -->
+     <string name="spoken_emoji_1F321">"온도계"</string>
+     <!-- Spoken description for Unicode code point U+1F324: "🌤" WHITE SUN WITH SMALL CLOUD -->
+     <string name="spoken_emoji_1F324">"작은 구름에 가려진 흰색 태양"</string>
+     <!-- Spoken description for Unicode code point U+1F325: "🌥" WHITE SUN BEHIND CLOUD -->
+     <string name="spoken_emoji_1F325">"구름에 가려진 흰색 태양"</string>
+     <!-- Spoken description for Unicode code point U+1F326: "🌦" WHITE SUN BEHIND CLOUD WITH RAIN -->
+     <string name="spoken_emoji_1F326">"비를 뿌리는 구름에 가려진 흰색 태양"</string>
+     <!-- Spoken description for Unicode code point U+1F327: "🌧" CLOUD WITH RAIN -->
+     <string name="spoken_emoji_1F327">"구름과 비"</string>
+     <!-- Spoken description for Unicode code point U+1F328: "🌨" CLOUD WITH SNOW -->
+     <string name="spoken_emoji_1F328">"구름과 눈"</string>
+     <!-- Spoken description for Unicode code point U+1F329: "🌩" CLOUD WITH LIGHTNING -->
+     <string name="spoken_emoji_1F329">"구름과 번개"</string>
+     <!-- Spoken description for Unicode code point U+1F32A: "🌪" CLOUD WITH TORNADO -->
+     <string name="spoken_emoji_1F32A">"구름과 토네이도"</string>
+     <!-- Spoken description for Unicode code point U+1F32B: "🌫" FOG -->
+     <string name="spoken_emoji_1F32B">"안개"</string>
+     <!-- Spoken description for Unicode code point U+1F32C: "🌬" WIND BLOWING FACE -->
+     <string name="spoken_emoji_1F32C">"입김을 불고 있는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F32D: "🌭" HOT DOG -->
+     <string name="spoken_emoji_1F32D">"핫도그"</string>
+     <!-- Spoken description for Unicode code point U+1F32E: "🌮" TACO -->
+     <string name="spoken_emoji_1F32E">"타코"</string>
+     <!-- Spoken description for Unicode code point U+1F32F: "🌯" BURRITO -->
+     <string name="spoken_emoji_1F32F">"부리토"</string>
+     <!-- Spoken description for Unicode code point U+1F330: "🌰" CHESTNUT -->
+     <string name="spoken_emoji_1F330">"밤"</string>
+     <!-- Spoken description for Unicode code point U+1F331: "🌱" SEEDLING -->
+     <string name="spoken_emoji_1F331">"묘목"</string>
+     <!-- Spoken description for Unicode code point U+1F332: "🌲" EVERGREEN TREE -->
+     <string name="spoken_emoji_1F332">"상록수"</string>
+     <!-- Spoken description for Unicode code point U+1F333: "🌳" DECIDUOUS TREE -->
+     <string name="spoken_emoji_1F333">"낙엽수"</string>
+     <!-- Spoken description for Unicode code point U+1F334: "🌴" PALM TREE -->
+     <string name="spoken_emoji_1F334">"야자나무"</string>
+     <!-- Spoken description for Unicode code point U+1F335: "🌵" CACTUS -->
+     <string name="spoken_emoji_1F335">"선인장"</string>
+     <!-- Spoken description for Unicode code point U+1F336: "🌶" HOT PEPPER -->
+     <string name="spoken_emoji_1F336">"매운 고추"</string>
+     <!-- Spoken description for Unicode code point U+1F337: "🌷" TULIP -->
+     <string name="spoken_emoji_1F337">"튤립"</string>
+     <!-- Spoken description for Unicode code point U+1F338: "🌸" CHERRY BLOSSOM -->
+     <string name="spoken_emoji_1F338">"벚꽃"</string>
+     <!-- Spoken description for Unicode code point U+1F339: "🌹" ROSE -->
+     <string name="spoken_emoji_1F339">"장미"</string>
+     <!-- Spoken description for Unicode code point U+1F33A: "🌺" HIBISCUS -->
+     <string name="spoken_emoji_1F33A">"무궁화"</string>
+     <!-- Spoken description for Unicode code point U+1F33B: "🌻" SUNFLOWER -->
+     <string name="spoken_emoji_1F33B">"해바라기"</string>
+     <!-- Spoken description for Unicode code point U+1F33C: "🌼" BLOSSOM -->
+     <string name="spoken_emoji_1F33C">"꽃"</string>
+     <!-- Spoken description for Unicode code point U+1F33D: "🌽" EAR OF MAIZE -->
+     <string name="spoken_emoji_1F33D">"옥수수"</string>
+     <!-- Spoken description for Unicode code point U+1F33E: "🌾" EAR OF RICE -->
+     <string name="spoken_emoji_1F33E">"벼 이삭"</string>
+     <!-- Spoken description for Unicode code point U+1F33F: "🌿" HERB -->
+     <string name="spoken_emoji_1F33F">"허브"</string>
+     <!-- Spoken description for Unicode code point U+1F340: "🍀" FOUR LEAF CLOVER -->
+     <string name="spoken_emoji_1F340">"네 잎 클로버"</string>
+     <!-- Spoken description for Unicode code point U+1F341: "🍁" MAPLE LEAF -->
+     <string name="spoken_emoji_1F341">"단풍잎"</string>
+     <!-- Spoken description for Unicode code point U+1F342: "🍂" FALLEN LEAF -->
+     <string name="spoken_emoji_1F342">"낙엽"</string>
+     <!-- Spoken description for Unicode code point U+1F343: "🍃" LEAF FLUTTERING IN WIND -->
+     <string name="spoken_emoji_1F343">"바람에 흩날리는 잎"</string>
+     <!-- Spoken description for Unicode code point U+1F344: "🍄" MUSHROOM -->
+     <string name="spoken_emoji_1F344">"버섯"</string>
+     <!-- Spoken description for Unicode code point U+1F345: "🍅" TOMATO -->
+     <string name="spoken_emoji_1F345">"토마토"</string>
+     <!-- Spoken description for Unicode code point U+1F346: "🍆" AUBERGINE -->
+     <string name="spoken_emoji_1F346">"가지"</string>
+     <!-- Spoken description for Unicode code point U+1F347: "🍇" GRAPES -->
+     <string name="spoken_emoji_1F347">"포도"</string>
+     <!-- Spoken description for Unicode code point U+1F348: "🍈" MELON -->
+     <string name="spoken_emoji_1F348">"멜론"</string>
+     <!-- Spoken description for Unicode code point U+1F349: "🍉" WATERMELON -->
+     <string name="spoken_emoji_1F349">"수박"</string>
+     <!-- Spoken description for Unicode code point U+1F34A: "🍊" TANGERINE -->
+     <string name="spoken_emoji_1F34A">"귤"</string>
+     <!-- Spoken description for Unicode code point U+1F34B: "🍋" LEMON -->
+     <string name="spoken_emoji_1F34B">"레몬"</string>
+     <!-- Spoken description for Unicode code point U+1F34C: "🍌" BANANA -->
+     <string name="spoken_emoji_1F34C">"바나나"</string>
+     <!-- Spoken description for Unicode code point U+1F34D: "🍍" PINEAPPLE -->
+     <string name="spoken_emoji_1F34D">"파인애플"</string>
+     <!-- Spoken description for Unicode code point U+1F34E: "🍎" RED APPLE -->
+     <string name="spoken_emoji_1F34E">"빨간 사과"</string>
+     <!-- Spoken description for Unicode code point U+1F34F: "🍏" GREEN APPLE -->
+     <string name="spoken_emoji_1F34F">"초록 사과"</string>
+     <!-- Spoken description for Unicode code point U+1F350: "🍐" PEAR -->
+     <string name="spoken_emoji_1F350">"배"</string>
+     <!-- Spoken description for Unicode code point U+1F351: "🍑" PEACH -->
+     <string name="spoken_emoji_1F351">"복숭아"</string>
+     <!-- Spoken description for Unicode code point U+1F352: "🍒" CHERRIES -->
+     <string name="spoken_emoji_1F352">"체리"</string>
+     <!-- Spoken description for Unicode code point U+1F353: "🍓" STRAWBERRY -->
+     <string name="spoken_emoji_1F353">"딸기"</string>
+     <!-- Spoken description for Unicode code point U+1F354: "🍔" HAMBURGER -->
+     <string name="spoken_emoji_1F354">"햄버거"</string>
+     <!-- Spoken description for Unicode code point U+1F355: "🍕" SLICE OF PIZZA -->
+     <string name="spoken_emoji_1F355">"피자 조각"</string>
+     <!-- Spoken description for Unicode code point U+1F356: "🍖" MEAT ON BONE -->
+     <string name="spoken_emoji_1F356">"뼈에 붙은 고기"</string>
+     <!-- Spoken description for Unicode code point U+1F357: "🍗" POULTRY LEG -->
+     <string name="spoken_emoji_1F357">"닭다리"</string>
+     <!-- Spoken description for Unicode code point U+1F358: "🍘" RICE CRACKER -->
+     <string name="spoken_emoji_1F358">"쌀 과자"</string>
+     <!-- Spoken description for Unicode code point U+1F359: "🍙" RICE BALL -->
+     <string name="spoken_emoji_1F359">"주먹밥"</string>
+     <!-- Spoken description for Unicode code point U+1F35A: "🍚" COOKED RICE -->
+     <string name="spoken_emoji_1F35A">"공기밥"</string>
+     <!-- Spoken description for Unicode code point U+1F35B: "🍛" CURRY AND RICE -->
+     <string name="spoken_emoji_1F35B">"카레라이스"</string>
+     <!-- Spoken description for Unicode code point U+1F35C: "🍜" STEAMING BOWL -->
+     <string name="spoken_emoji_1F35C">"라면"</string>
+     <!-- Spoken description for Unicode code point U+1F35D: "🍝" SPAGHETTI -->
+     <string name="spoken_emoji_1F35D">"스파게티"</string>
+     <!-- Spoken description for Unicode code point U+1F35E: "🍞" BREAD -->
+     <string name="spoken_emoji_1F35E">"빵"</string>
+     <!-- Spoken description for Unicode code point U+1F35F: "🍟" FRENCH FRIES -->
+     <string name="spoken_emoji_1F35F">"프렌치프라이"</string>
+     <!-- Spoken description for Unicode code point U+1F360: "🍠" ROASTED SWEET POTATO -->
+     <string name="spoken_emoji_1F360">"군고구마"</string>
+     <!-- Spoken description for Unicode code point U+1F361: "🍡" DANGO -->
+     <string name="spoken_emoji_1F361">"경단 꼬치"</string>
+     <!-- Spoken description for Unicode code point U+1F362: "🍢" ODEN -->
+     <string name="spoken_emoji_1F362">"어묵 꼬지"</string>
+     <!-- Spoken description for Unicode code point U+1F363: "🍣" SUSHI -->
+     <string name="spoken_emoji_1F363">"초밥"</string>
+     <!-- Spoken description for Unicode code point U+1F364: "🍤" FRIED SHRIMP -->
+     <string name="spoken_emoji_1F364">"새우튀김"</string>
+     <!-- Spoken description for Unicode code point U+1F365: "🍥" FISH CAKE WITH SWIRL DESIGN -->
+     <string name="spoken_emoji_1F365">"소용돌이무늬가 있는 어묵"</string>
+     <!-- Spoken description for Unicode code point U+1F366: "🍦" SOFT ICE CREAM -->
+     <string name="spoken_emoji_1F366">"소프트아이스크림"</string>
+     <!-- Spoken description for Unicode code point U+1F367: "🍧" SHAVED ICE -->
+     <string name="spoken_emoji_1F367">"빙수"</string>
+     <!-- Spoken description for Unicode code point U+1F368: "🍨" ICE CREAM -->
+     <string name="spoken_emoji_1F368">"아이스크림"</string>
+     <!-- Spoken description for Unicode code point U+1F369: "🍩" DOUGHNUT -->
+     <string name="spoken_emoji_1F369">"도넛"</string>
+     <!-- Spoken description for Unicode code point U+1F36A: "🍪" COOKIE -->
+     <string name="spoken_emoji_1F36A">"쿠키"</string>
+     <!-- Spoken description for Unicode code point U+1F36B: "🍫" CHOCOLATE BAR -->
+     <string name="spoken_emoji_1F36B">"초콜릿 바"</string>
+     <!-- Spoken description for Unicode code point U+1F36C: "🍬" CANDY -->
+     <string name="spoken_emoji_1F36C">"사탕"</string>
+     <!-- Spoken description for Unicode code point U+1F36D: "🍭" LOLLIPOP -->
+     <string name="spoken_emoji_1F36D">"막대 사탕"</string>
+     <!-- Spoken description for Unicode code point U+1F36E: "🍮" CUSTARD -->
+     <string name="spoken_emoji_1F36E">"푸딩"</string>
+     <!-- Spoken description for Unicode code point U+1F36F: "🍯" HONEY POT -->
+     <string name="spoken_emoji_1F36F">"꿀단지"</string>
+     <!-- Spoken description for Unicode code point U+1F370: "🍰" SHORTCAKE -->
+     <string name="spoken_emoji_1F370">"조각 케이크"</string>
+     <!-- Spoken description for Unicode code point U+1F371: "🍱" BENTO BOX -->
+     <string name="spoken_emoji_1F371">"도시락"</string>
+     <!-- Spoken description for Unicode code point U+1F372: "🍲" POT OF FOOD -->
+     <string name="spoken_emoji_1F372">"전골냄비"</string>
+     <!-- Spoken description for Unicode code point U+1F373: "🍳" COOKING -->
+     <string name="spoken_emoji_1F373">"프라이팬"</string>
+     <!-- Spoken description for Unicode code point U+1F374: "🍴" FORK AND KNIFE -->
+     <string name="spoken_emoji_1F374">"포크와 나이프"</string>
+     <!-- Spoken description for Unicode code point U+1F375: "🍵" TEACUP WITHOUT HANDLE -->
+     <string name="spoken_emoji_1F375">"손잡이 없는 찻잔"</string>
+     <!-- Spoken description for Unicode code point U+1F376: "🍶" SAKE BOTTLE AND CUP -->
+     <string name="spoken_emoji_1F376">"술병과 잔"</string>
+     <!-- Spoken description for Unicode code point U+1F377: "🍷" WINE GLASS -->
+     <string name="spoken_emoji_1F377">"와인잔"</string>
+     <!-- Spoken description for Unicode code point U+1F378: "🍸" COCKTAIL GLASS -->
+     <string name="spoken_emoji_1F378">"칵테일잔"</string>
+     <!-- Spoken description for Unicode code point U+1F379: "🍹" TROPICAL DRINK -->
+     <string name="spoken_emoji_1F379">"열대음료"</string>
+     <!-- Spoken description for Unicode code point U+1F37A: "🍺" BEER MUG -->
+     <string name="spoken_emoji_1F37A">"맥주잔"</string>
+     <!-- Spoken description for Unicode code point U+1F37B: "🍻" CLINKING BEER MUGS -->
+     <string name="spoken_emoji_1F37B">"맥주잔 건배"</string>
+     <!-- Spoken description for Unicode code point U+1F37C: "🍼" BABY BOTTLE -->
+     <string name="spoken_emoji_1F37C">"젖병"</string>
+     <!-- Spoken description for Unicode code point U+1F37D: "🍽" FORK AND KNIFE WITH PLATE -->
+     <string name="spoken_emoji_1F37D">"접시 및 포크와 나이프"</string>
+     <!-- Spoken description for Unicode code point U+1F37E: "🍾" BOTTLE WITH POPPING CORK -->
+     <string name="spoken_emoji_1F37E">"코르크가 펑하고 열리는 병"</string>
+     <!-- Spoken description for Unicode code point U+1F37F: "🍿" POPCORN -->
+     <string name="spoken_emoji_1F37F">"팝콘"</string>
+     <!-- Spoken description for Unicode code point U+1F380: "🎀" RIBBON -->
+     <string name="spoken_emoji_1F380">"리본"</string>
+     <!-- Spoken description for Unicode code point U+1F381: "🎁" WRAPPED PRESENT -->
+     <string name="spoken_emoji_1F381">"포장된 선물"</string>
+     <!-- Spoken description for Unicode code point U+1F382: "🎂" BIRTHDAY CAKE -->
+     <string name="spoken_emoji_1F382">"생일 케이크"</string>
+     <!-- Spoken description for Unicode code point U+1F383: "🎃" JACK-O-LANTERN -->
+     <string name="spoken_emoji_1F383">"호박 초롱"</string>
+     <!-- Spoken description for Unicode code point U+1F384: "🎄" CHRISTMAS TREE -->
+     <string name="spoken_emoji_1F384">"크리스마스 트리"</string>
+     <!-- Spoken description for Unicode code point U+1F385: "🎅" FATHER CHRISTMAS -->
+     <string name="spoken_emoji_1F385">"산타클로스"</string>
+     <!-- Spoken description for Unicode code point U+1F386: "🎆" FIREWORKS -->
+     <string name="spoken_emoji_1F386">"불꽃놀이"</string>
+     <!-- Spoken description for Unicode code point U+1F387: "🎇" FIREWORK SPARKLER -->
+     <string name="spoken_emoji_1F387">"불꽃놀이 폭죽"</string>
+     <!-- Spoken description for Unicode code point U+1F388: "🎈" BALLOON -->
+     <string name="spoken_emoji_1F388">"풍선"</string>
+     <!-- Spoken description for Unicode code point U+1F389: "🎉" PARTY POPPER -->
+     <string name="spoken_emoji_1F389">"파티 폭죽"</string>
+     <!-- Spoken description for Unicode code point U+1F38A: "🎊" CONFETTI BALL -->
+     <string name="spoken_emoji_1F38A">"박 터트리기"</string>
+     <!-- Spoken description for Unicode code point U+1F38B: "🎋" TANABATA TREE -->
+     <string name="spoken_emoji_1F38B">"일본 칠석제 나무"</string>
+     <!-- Spoken description for Unicode code point U+1F38C: "🎌" CROSSED FLAGS -->
+     <string name="spoken_emoji_1F38C">"교차하는 깃발"</string>
+     <!-- Spoken description for Unicode code point U+1F38D: "🎍" PINE DECORATION -->
+     <string name="spoken_emoji_1F38D">"소나무 장식"</string>
+     <!-- Spoken description for Unicode code point U+1F38E: "🎎" JAPANESE DOLLS -->
+     <string name="spoken_emoji_1F38E">"일본 인형"</string>
+     <!-- Spoken description for Unicode code point U+1F38F: "🎏" CARP STREAMER -->
+     <string name="spoken_emoji_1F38F">"잉어 모양 깃발"</string>
+     <!-- Spoken description for Unicode code point U+1F390: "🎐" WIND CHIME -->
+     <string name="spoken_emoji_1F390">"풍경"</string>
+     <!-- Spoken description for Unicode code point U+1F391: "🎑" MOON VIEWING CEREMONY -->
+     <string name="spoken_emoji_1F391">"달맞이 행사"</string>
+     <!-- Spoken description for Unicode code point U+1F392: "🎒" SCHOOL SATCHEL -->
+     <string name="spoken_emoji_1F392">"책가방"</string>
+     <!-- Spoken description for Unicode code point U+1F393: "🎓" GRADUATION CAP -->
+     <string name="spoken_emoji_1F393">"학사모"</string>
+     <!-- Spoken description for Unicode code point U+1F396: "🎖" MILITARY MEDAL -->
+     <string name="spoken_emoji_1F396">"훈장"</string>
+     <!-- Spoken description for Unicode code point U+1F397: "🎗" REMINDER RIBBON -->
+     <string name="spoken_emoji_1F397">"의식 고취 리본"</string>
+     <!-- Spoken description for Unicode code point U+1F399: "🎙" STUDIO MICROPHONE -->
+     <string name="spoken_emoji_1F399">"스튜디오 마이크"</string>
+     <!-- Spoken description for Unicode code point U+1F39A: "🎚" LEVEL SLIDER -->
+     <string name="spoken_emoji_1F39A">"수준 슬라이더"</string>
+     <!-- Spoken description for Unicode code point U+1F39B: "🎛" CONTROL KNOBS -->
+     <string name="spoken_emoji_1F39B">"제어 노브"</string>
+     <!-- Spoken description for Unicode code point U+1F39E: "🎞" FILM FRAMES -->
+     <string name="spoken_emoji_1F39E">"영화 프레임"</string>
+     <!-- Spoken description for Unicode code point U+1F39F: "🎟" ADMISSION TICKETS -->
+     <string name="spoken_emoji_1F39F">"입장권"</string>
+     <!-- Spoken description for Unicode code point U+1F3A0: "🎠" CAROUSEL HORSE -->
+     <string name="spoken_emoji_1F3A0">"회전목마"</string>
+     <!-- Spoken description for Unicode code point U+1F3A1: "🎡" FERRIS WHEEL -->
+     <string name="spoken_emoji_1F3A1">"관람차"</string>
+     <!-- Spoken description for Unicode code point U+1F3A2: "🎢" ROLLER COASTER -->
+     <string name="spoken_emoji_1F3A2">"롤러코스터"</string>
+     <!-- Spoken description for Unicode code point U+1F3A3: "🎣" FISHING POLE AND FISH -->
+     <string name="spoken_emoji_1F3A3">"낚싯대와 물고기"</string>
+     <!-- Spoken description for Unicode code point U+1F3A4: "🎤" MICROPHONE -->
+     <string name="spoken_emoji_1F3A4">"마이크"</string>
+     <!-- Spoken description for Unicode code point U+1F3A5: "🎥" MOVIE CAMERA -->
+     <string name="spoken_emoji_1F3A5">"영화 카메라"</string>
+     <!-- Spoken description for Unicode code point U+1F3A6: "🎦" CINEMA -->
+     <string name="spoken_emoji_1F3A6">"극장"</string>
+     <!-- Spoken description for Unicode code point U+1F3A7: "🎧" HEADPHONE -->
+     <string name="spoken_emoji_1F3A7">"헤드폰"</string>
+     <!-- Spoken description for Unicode code point U+1F3A8: "🎨" ARTIST PALETTE -->
+     <string name="spoken_emoji_1F3A8">"그림 팔레트"</string>
+     <!-- Spoken description for Unicode code point U+1F3A9: "🎩" TOP HAT -->
+     <string name="spoken_emoji_1F3A9">"중절모"</string>
+     <!-- Spoken description for Unicode code point U+1F3AA: "🎪" CIRCUS TENT -->
+     <string name="spoken_emoji_1F3AA">"서커스 천막"</string>
+     <!-- Spoken description for Unicode code point U+1F3AB: "🎫" TICKET -->
+     <string name="spoken_emoji_1F3AB">"입장권"</string>
+     <!-- Spoken description for Unicode code point U+1F3AC: "🎬" CLAPPER BOARD -->
+     <string name="spoken_emoji_1F3AC">"슬레이트"</string>
+     <!-- Spoken description for Unicode code point U+1F3AD: "🎭" PERFORMING ARTS -->
+     <string name="spoken_emoji_1F3AD">"공연"</string>
+     <!-- Spoken description for Unicode code point U+1F3AE: "🎮" VIDEO GAME -->
+     <string name="spoken_emoji_1F3AE">"비디오 게임"</string>
+     <!-- Spoken description for Unicode code point U+1F3AF: "🎯" DIRECT HIT -->
+     <string name="spoken_emoji_1F3AF">"명중"</string>
+     <!-- Spoken description for Unicode code point U+1F3B0: "🎰" SLOT MACHINE -->
+     <string name="spoken_emoji_1F3B0">"슬롯머신"</string>
+     <!-- Spoken description for Unicode code point U+1F3B1: "🎱" BILLIARDS -->
+     <string name="spoken_emoji_1F3B1">"당구"</string>
+     <!-- Spoken description for Unicode code point U+1F3B2: "🎲" GAME DIE -->
+     <string name="spoken_emoji_1F3B2">"주사위"</string>
+     <!-- Spoken description for Unicode code point U+1F3B3: "🎳" BOWLING -->
+     <string name="spoken_emoji_1F3B3">"볼링"</string>
+     <!-- Spoken description for Unicode code point U+1F3B4: "🎴" FLOWER PLAYING CARDS -->
+     <string name="spoken_emoji_1F3B4">"화투"</string>
+     <!-- Spoken description for Unicode code point U+1F3B5: "🎵" MUSICAL NOTE -->
+     <string name="spoken_emoji_1F3B5">"음표"</string>
+     <!-- Spoken description for Unicode code point U+1F3B6: "🎶" MULTIPLE MUSICAL NOTES -->
+     <string name="spoken_emoji_1F3B6">"여러 개의 음표"</string>
+     <!-- Spoken description for Unicode code point U+1F3B7: "🎷" SAXOPHONE -->
+     <string name="spoken_emoji_1F3B7">"색소폰"</string>
+     <!-- Spoken description for Unicode code point U+1F3B8: "🎸" GUITAR -->
+     <string name="spoken_emoji_1F3B8">"기타"</string>
+     <!-- Spoken description for Unicode code point U+1F3B9: "🎹" MUSICAL KEYBOARD -->
+     <string name="spoken_emoji_1F3B9">"건반"</string>
+     <!-- Spoken description for Unicode code point U+1F3BA: "🎺" TRUMPET -->
+     <string name="spoken_emoji_1F3BA">"트럼펫"</string>
+     <!-- Spoken description for Unicode code point U+1F3BB: "🎻" VIOLIN -->
+     <string name="spoken_emoji_1F3BB">"바이올린"</string>
+     <!-- Spoken description for Unicode code point U+1F3BC: "🎼" MUSICAL SCORE -->
+     <string name="spoken_emoji_1F3BC">"악보"</string>
+     <!-- Spoken description for Unicode code point U+1F3BD: "🎽" RUNNING SHIRT WITH SASH -->
+     <string name="spoken_emoji_1F3BD">"띠를 두른 셔츠"</string>
+     <!-- Spoken description for Unicode code point U+1F3BE: "🎾" TENNIS RACQUET AND BALL -->
+     <string name="spoken_emoji_1F3BE">"테니스 라켓과 공"</string>
+     <!-- Spoken description for Unicode code point U+1F3BF: "🎿" SKI AND SKI BOOT -->
+     <string name="spoken_emoji_1F3BF">"스키와 스키 부츠"</string>
+     <!-- Spoken description for Unicode code point U+1F3C0: "🏀" BASKETBALL AND HOOP -->
+     <string name="spoken_emoji_1F3C0">"농구공과 농구 골대"</string>
+     <!-- Spoken description for Unicode code point U+1F3C1: "🏁" CHEQUERED FLAG -->
+     <string name="spoken_emoji_1F3C1">"바둑판무늬 깃발"</string>
+     <!-- Spoken description for Unicode code point U+1F3C2: "🏂" SNOWBOARDER -->
+     <string name="spoken_emoji_1F3C2">"스노보드를 타는 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F3C3: "🏃" RUNNER -->
+     <string name="spoken_emoji_1F3C3">"달리는 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F3C4: "🏄" SURFER -->
+     <string name="spoken_emoji_1F3C4">"서핑을 하는 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F3C5: "🏅" SPORTS MEDAL -->
+     <string name="spoken_emoji_1F3C5">"스포츠 메달"</string>
+     <!-- Spoken description for Unicode code point U+1F3C6: "🏆" TROPHY -->
+     <string name="spoken_emoji_1F3C6">"트로피"</string>
+     <!-- Spoken description for Unicode code point U+1F3C7: "🏇" HORSE RACING -->
+     <string name="spoken_emoji_1F3C7">"경마"</string>
+     <!-- Spoken description for Unicode code point U+1F3C8: "🏈" AMERICAN FOOTBALL -->
+     <string name="spoken_emoji_1F3C8">"미식축구"</string>
+     <!-- Spoken description for Unicode code point U+1F3C9: "🏉" RUGBY FOOTBALL -->
+     <string name="spoken_emoji_1F3C9">"럭비"</string>
+     <!-- Spoken description for Unicode code point U+1F3CA: "🏊" SWIMMER -->
+     <string name="spoken_emoji_1F3CA">"수영하는 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F3CB: "🏋" WEIGHT LIFTER -->
+     <string name="spoken_emoji_1F3CB">"역도 선수"</string>
+     <!-- Spoken description for Unicode code point U+1F3CC: "🏌" GOLFER -->
+     <string name="spoken_emoji_1F3CC">"골퍼"</string>
+     <!-- Spoken description for Unicode code point U+1F3CD: "🏍" RACING MOTORCYCLE -->
+     <string name="spoken_emoji_1F3CD">"경주용 오토바이"</string>
+     <!-- Spoken description for Unicode code point U+1F3CE: "🏎" RACING CAR -->
+     <string name="spoken_emoji_1F3CE">"경주용 차"</string>
+     <!-- Spoken description for Unicode code point U+1F3CF: "🏏" CRICKET BAT AND BALL -->
+     <string name="spoken_emoji_1F3CF">"크리켓 방망이와 공"</string>
+     <!-- Spoken description for Unicode code point U+1F3D0: "🏐" VOLLEYBALL -->
+     <string name="spoken_emoji_1F3D0">"배구"</string>
+     <!-- Spoken description for Unicode code point U+1F3D1: "🏑" FIELD HOCKEY STICK AND BALL -->
+     <string name="spoken_emoji_1F3D1">"필드 하키 스틱과 공"</string>
+     <!-- Spoken description for Unicode code point U+1F3D2: "🏒" ICE HOCKEY STICK AND PUCK -->
+     <string name="spoken_emoji_1F3D2">"아이스 하키 스틱과 공"</string>
+     <!-- Spoken description for Unicode code point U+1F3D3: "🏓" TABLE TENNIS PADDLE AND BALL -->
+     <string name="spoken_emoji_1F3D3">"탁구채와 공"</string>
+     <!-- Spoken description for Unicode code point U+1F3D4: "🏔" SNOW CAPPED MOUNTAIN -->
+     <string name="spoken_emoji_1F3D4">"눈 덮인 산"</string>
+     <!-- Spoken description for Unicode code point U+1F3D5: "🏕" CAMPING -->
+     <string name="spoken_emoji_1F3D5">"캠핑"</string>
+     <!-- Spoken description for Unicode code point U+1F3D6: "🏖" BEACH WITH UMBRELLA -->
+     <string name="spoken_emoji_1F3D6">"파라솔이 있는 해변"</string>
+     <!-- Spoken description for Unicode code point U+1F3D7: "🏗" BUILDING CONSTRUCTION -->
+     <string name="spoken_emoji_1F3D7">"건물 건축"</string>
+     <!-- Spoken description for Unicode code point U+1F3D8: "🏘" HOUSE BUILDINGS -->
+     <string name="spoken_emoji_1F3D8">"집"</string>
+     <!-- Spoken description for Unicode code point U+1F3D9: "🏙" CITYSCAPE -->
+     <string name="spoken_emoji_1F3D9">"도시 풍경"</string>
+     <!-- Spoken description for Unicode code point U+1F3DA: "🏚" DERELICT HOUSE BUILDING -->
+     <string name="spoken_emoji_1F3DA">"버려진 집"</string>
+     <!-- Spoken description for Unicode code point U+1F3DB: "🏛" CLASSICAL BUILDING -->
+     <string name="spoken_emoji_1F3DB">"고전 양식의 건축물"</string>
+     <!-- Spoken description for Unicode code point U+1F3DC: "🏜" DESERT -->
+     <string name="spoken_emoji_1F3DC">"사막"</string>
+     <!-- Spoken description for Unicode code point U+1F3DD: "🏝" DESERT ISLAND -->
+     <string name="spoken_emoji_1F3DD">"사막 섬"</string>
+     <!-- Spoken description for Unicode code point U+1F3DE: "🏞" NATIONAL PARK -->
+     <string name="spoken_emoji_1F3DE">"국립공원"</string>
+     <!-- Spoken description for Unicode code point U+1F3DF: "🏟" STADIUM -->
+     <string name="spoken_emoji_1F3DF">"스타디움"</string>
+     <!-- Spoken description for Unicode code point U+1F3E0: "🏠" HOUSE BUILDING -->
+     <string name="spoken_emoji_1F3E0">"주택"</string>
+     <!-- Spoken description for Unicode code point U+1F3E1: "🏡" HOUSE WITH GARDEN -->
+     <string name="spoken_emoji_1F3E1">"뜰이 있는 집"</string>
+     <!-- Spoken description for Unicode code point U+1F3E2: "🏢" OFFICE BUILDING -->
+     <string name="spoken_emoji_1F3E2">"사무실 건물"</string>
+     <!-- Spoken description for Unicode code point U+1F3E3: "🏣" JAPANESE POST OFFICE -->
+     <string name="spoken_emoji_1F3E3">"일본 우체국"</string>
+     <!-- Spoken description for Unicode code point U+1F3E4: "🏤" EUROPEAN POST OFFICE -->
+     <string name="spoken_emoji_1F3E4">"유럽 우체국"</string>
+     <!-- Spoken description for Unicode code point U+1F3E5: "🏥" HOSPITAL -->
+     <string name="spoken_emoji_1F3E5">"병원"</string>
+     <!-- Spoken description for Unicode code point U+1F3E6: "🏦" BANK -->
+     <string name="spoken_emoji_1F3E6">"은행"</string>
+     <!-- Spoken description for Unicode code point U+1F3E7: "🏧" AUTOMATED TELLER MACHINE -->
+     <string name="spoken_emoji_1F3E7">"ATM"</string>
+     <!-- Spoken description for Unicode code point U+1F3E8: "🏨" HOTEL -->
+     <string name="spoken_emoji_1F3E8">"호텔"</string>
+     <!-- Spoken description for Unicode code point U+1F3E9: "🏩" LOVE HOTEL -->
+     <string name="spoken_emoji_1F3E9">"러브호텔"</string>
+     <!-- Spoken description for Unicode code point U+1F3EA: "🏪" CONVENIENCE STORE -->
+     <string name="spoken_emoji_1F3EA">"편의점"</string>
+     <!-- Spoken description for Unicode code point U+1F3EB: "🏫" SCHOOL -->
+     <string name="spoken_emoji_1F3EB">"학교"</string>
+     <!-- Spoken description for Unicode code point U+1F3EC: "🏬" DEPARTMENT STORE -->
+     <string name="spoken_emoji_1F3EC">"백화점"</string>
+     <!-- Spoken description for Unicode code point U+1F3ED: "🏭" FACTORY -->
+     <string name="spoken_emoji_1F3ED">"공장"</string>
+     <!-- Spoken description for Unicode code point U+1F3EE: "🏮" IZAKAYA LANTERN -->
+     <string name="spoken_emoji_1F3EE">"주점 초롱"</string>
+     <!-- Spoken description for Unicode code point U+1F3EF: "🏯" JAPANESE CASTLE -->
+     <string name="spoken_emoji_1F3EF">"일본 성"</string>
+     <!-- Spoken description for Unicode code point U+1F3F0: "🏰" EUROPEAN CASTLE -->
+     <string name="spoken_emoji_1F3F0">"유럽 성"</string>
+     <!-- Spoken description for Unicode code point U+1F3F3: "🏳" WAVING WHITE FLAG -->
+     <string name="spoken_emoji_1F3F3">"펄럭이는 흰색 깃발"</string>
+     <!-- Spoken description for Unicode code point U+1F3F4: "🏴" WAVING BLACK FLAG -->
+     <string name="spoken_emoji_1F3F4">"펄럭이는 검은색 깃발"</string>
+     <!-- Spoken description for Unicode code point U+1F3F5: "🏵" ROSETTE -->
+     <string name="spoken_emoji_1F3F5">"장미꽃 무늬"</string>
+     <!-- Spoken description for Unicode code point U+1F3F7: "🏷" LABEL -->
+     <string name="spoken_emoji_1F3F7">"라벨"</string>
+     <!-- Spoken description for Unicode code point U+1F3F8: "🏸" BADMINTON RACQUET AND SHUTTLECOCK -->
+     <string name="spoken_emoji_1F3F8">"배드민턴 라켓과 셔틀콕"</string>
+     <!-- Spoken description for Unicode code point U+1F3F9: "🏹" BOW AND ARROW -->
+     <string name="spoken_emoji_1F3F9">"활과 화살"</string>
+     <!-- Spoken description for Unicode code point U+1F3FA: "🏺" AMPHORA -->
+     <string name="spoken_emoji_1F3FA">"암포라 항아리"</string>
+     <!-- Spoken description for Unicode code point U+1F3FB: "🏻" EMOJI MODIFIER FITZPATRICK TYPE-1-2 -->
+     <string name="spoken_emoji_1F3FB">"이모지 한정자 피츠페트릭 유형-1-2"</string>
+     <!-- Spoken description for Unicode code point U+1F3FC: "🏼" EMOJI MODIFIER FITZPATRICK TYPE-3 -->
+     <string name="spoken_emoji_1F3FC">"이모지 한정자 피츠페트릭 유형-3"</string>
+     <!-- Spoken description for Unicode code point U+1F3FD: "🏽" EMOJI MODIFIER FITZPATRICK TYPE-4 -->
+     <string name="spoken_emoji_1F3FD">"이모지 한정자 피츠페트릭 유형-4"</string>
+     <!-- Spoken description for Unicode code point U+1F3FE: "🏾" EMOJI MODIFIER FITZPATRICK TYPE-5 -->
+     <string name="spoken_emoji_1F3FE">"이모지 한정자 피츠페트릭 유형-5"</string>
+     <!-- Spoken description for Unicode code point U+1F3FF: "🏿" EMOJI MODIFIER FITZPATRICK TYPE-6 -->
+     <string name="spoken_emoji_1F3FF">"이모지 한정자 피츠페트릭 유형-6"</string>
+     <!-- Spoken description for Unicode code point U+1F400: "🐀" RAT -->
+     <string name="spoken_emoji_1F400">"쥐"</string>
+     <!-- Spoken description for Unicode code point U+1F401: "🐁" MOUSE -->
+     <string name="spoken_emoji_1F401">"생쥐"</string>
+     <!-- Spoken description for Unicode code point U+1F402: "🐂" OX -->
+     <string name="spoken_emoji_1F402">"소"</string>
+     <!-- Spoken description for Unicode code point U+1F403: "🐃" WATER BUFFALO -->
+     <string name="spoken_emoji_1F403">"물소"</string>
+     <!-- Spoken description for Unicode code point U+1F404: "🐄" COW -->
+     <string name="spoken_emoji_1F404">"소"</string>
+     <!-- Spoken description for Unicode code point U+1F405: "🐅" TIGER -->
+     <string name="spoken_emoji_1F405">"호랑이"</string>
+     <!-- Spoken description for Unicode code point U+1F406: "🐆" LEOPARD -->
+     <string name="spoken_emoji_1F406">"표범"</string>
+     <!-- Spoken description for Unicode code point U+1F407: "🐇" RABBIT -->
+     <string name="spoken_emoji_1F407">"토끼"</string>
+     <!-- Spoken description for Unicode code point U+1F408: "🐈" CAT -->
+     <string name="spoken_emoji_1F408">"고양이"</string>
+     <!-- Spoken description for Unicode code point U+1F409: "🐉" DRAGON -->
+     <string name="spoken_emoji_1F409">"용"</string>
+     <!-- Spoken description for Unicode code point U+1F40A: "🐊" CROCODILE -->
+     <string name="spoken_emoji_1F40A">"악어"</string>
+     <!-- Spoken description for Unicode code point U+1F40B: "🐋" WHALE -->
+     <string name="spoken_emoji_1F40B">"고래"</string>
+     <!-- Spoken description for Unicode code point U+1F40C: "🐌" SNAIL -->
+     <string name="spoken_emoji_1F40C">"달팽이"</string>
+     <!-- Spoken description for Unicode code point U+1F40D: "🐍" SNAKE -->
+     <string name="spoken_emoji_1F40D">"뱀"</string>
+     <!-- Spoken description for Unicode code point U+1F40E: "🐎" HORSE -->
+     <string name="spoken_emoji_1F40E">"말"</string>
+     <!-- Spoken description for Unicode code point U+1F40F: "🐏" RAM -->
+     <string name="spoken_emoji_1F40F">"숫양"</string>
+     <!-- Spoken description for Unicode code point U+1F410: "🐐" GOAT -->
+     <string name="spoken_emoji_1F410">"염소"</string>
+     <!-- Spoken description for Unicode code point U+1F411: "🐑" SHEEP -->
+     <string name="spoken_emoji_1F411">"양"</string>
+     <!-- Spoken description for Unicode code point U+1F412: "🐒" MONKEY -->
+     <string name="spoken_emoji_1F412">"원숭이"</string>
+     <!-- Spoken description for Unicode code point U+1F413: "🐓" ROOSTER -->
+     <string name="spoken_emoji_1F413">"수탉"</string>
+     <!-- Spoken description for Unicode code point U+1F414: "🐔" CHICKEN -->
+     <string name="spoken_emoji_1F414">"닭"</string>
+     <!-- Spoken description for Unicode code point U+1F415: "🐕" DOG -->
+     <string name="spoken_emoji_1F415">"개"</string>
+     <!-- Spoken description for Unicode code point U+1F416: "🐖" PIG -->
+     <string name="spoken_emoji_1F416">"돼지"</string>
+     <!-- Spoken description for Unicode code point U+1F417: "🐗" BOAR -->
+     <string name="spoken_emoji_1F417">"수퇘지"</string>
+     <!-- Spoken description for Unicode code point U+1F418: "🐘" ELEPHANT -->
+     <string name="spoken_emoji_1F418">"코끼리"</string>
+     <!-- Spoken description for Unicode code point U+1F419: "🐙" OCTOPUS -->
+     <string name="spoken_emoji_1F419">"문어"</string>
+     <!-- Spoken description for Unicode code point U+1F41A: "🐚" SPIRAL SHELL -->
+     <string name="spoken_emoji_1F41A">"소라껍데기"</string>
+     <!-- Spoken description for Unicode code point U+1F41B: "🐛" BUG -->
+     <string name="spoken_emoji_1F41B">"벌레"</string>
+     <!-- Spoken description for Unicode code point U+1F41C: "🐜" ANT -->
+     <string name="spoken_emoji_1F41C">"개미"</string>
+     <!-- Spoken description for Unicode code point U+1F41D: "🐝" HONEYBEE -->
+     <string name="spoken_emoji_1F41D">"꿀벌"</string>
+     <!-- Spoken description for Unicode code point U+1F41E: "🐞" LADY BEETLE -->
+     <string name="spoken_emoji_1F41E">"무당벌레"</string>
+     <!-- Spoken description for Unicode code point U+1F41F: "🐟" FISH -->
+     <string name="spoken_emoji_1F41F">"물고기"</string>
+     <!-- Spoken description for Unicode code point U+1F420: "🐠" TROPICAL FISH -->
+     <string name="spoken_emoji_1F420">"열대어"</string>
+     <!-- Spoken description for Unicode code point U+1F421: "🐡" BLOWFISH -->
+     <string name="spoken_emoji_1F421">"복어"</string>
+     <!-- Spoken description for Unicode code point U+1F422: "🐢" TURTLE -->
+     <string name="spoken_emoji_1F422">"거북이"</string>
+     <!-- Spoken description for Unicode code point U+1F423: "🐣" HATCHING CHICK -->
+     <string name="spoken_emoji_1F423">"알 까는 병아리"</string>
+     <!-- Spoken description for Unicode code point U+1F424: "🐤" BABY CHICK -->
+     <string name="spoken_emoji_1F424">"병아리 옆모습"</string>
+     <!-- Spoken description for Unicode code point U+1F425: "🐥" FRONT-FACING BABY CHICK -->
+     <string name="spoken_emoji_1F425">"병아리 앞모습"</string>
+     <!-- Spoken description for Unicode code point U+1F426: "🐦" BIRD -->
+     <string name="spoken_emoji_1F426">"새"</string>
+     <!-- Spoken description for Unicode code point U+1F427: "🐧" PENGUIN -->
+     <string name="spoken_emoji_1F427">"펭귄"</string>
+     <!-- Spoken description for Unicode code point U+1F428: "🐨" KOALA -->
+     <string name="spoken_emoji_1F428">"코알라"</string>
+     <!-- Spoken description for Unicode code point U+1F429: "🐩" POODLE -->
+     <string name="spoken_emoji_1F429">"푸들"</string>
+     <!-- Spoken description for Unicode code point U+1F42A: "🐪" DROMEDARY CAMEL -->
+     <string name="spoken_emoji_1F42A">"단봉낙타"</string>
+     <!-- Spoken description for Unicode code point U+1F42B: "🐫" BACTRIAN CAMEL -->
+     <string name="spoken_emoji_1F42B">"쌍봉낙타"</string>
+     <!-- Spoken description for Unicode code point U+1F42C: "🐬" DOLPHIN -->
+     <string name="spoken_emoji_1F42C">"돌고래"</string>
+     <!-- Spoken description for Unicode code point U+1F42D: "🐭" MOUSE FACE -->
+     <string name="spoken_emoji_1F42D">"생쥐 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F42E: "🐮" COW FACE -->
+     <string name="spoken_emoji_1F42E">"소 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F42F: "🐯" TIGER FACE -->
+     <string name="spoken_emoji_1F42F">"호랑이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F430: "🐰" RABBIT FACE -->
+     <string name="spoken_emoji_1F430">"토끼 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F431: "🐱" CAT FACE -->
+     <string name="spoken_emoji_1F431">"고양이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F432: "🐲" DRAGON FACE -->
+     <string name="spoken_emoji_1F432">"용 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F433: "🐳" SPOUTING WHALE -->
+     <string name="spoken_emoji_1F433">"물 뿜는 고래"</string>
+     <!-- Spoken description for Unicode code point U+1F434: "🐴" HORSE FACE -->
+     <string name="spoken_emoji_1F434">"말 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F435: "🐵" MONKEY FACE -->
+     <string name="spoken_emoji_1F435">"원숭이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F436: "🐶" DOG FACE -->
+     <string name="spoken_emoji_1F436">"개 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F437: "🐷" PIG FACE -->
+     <string name="spoken_emoji_1F437">"돼지 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F438: "🐸" FROG FACE -->
+     <string name="spoken_emoji_1F438">"개구리 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F439: "🐹" HAMSTER FACE -->
+     <string name="spoken_emoji_1F439">"햄스터 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F43A: "🐺" WOLF FACE -->
+     <string name="spoken_emoji_1F43A">"늑대 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F43B: "🐻" BEAR FACE -->
+     <string name="spoken_emoji_1F43B">"곰 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F43C: "🐼" PANDA FACE -->
+     <string name="spoken_emoji_1F43C">"판다 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F43D: "🐽" PIG NOSE -->
+     <string name="spoken_emoji_1F43D">"돼지 코"</string>
+     <!-- Spoken description for Unicode code point U+1F43E: "🐾" PAW PRINTS -->
+     <string name="spoken_emoji_1F43E">"동물 발자국"</string>
+     <!-- Spoken description for Unicode code point U+1F43F: "🐿" CHIPMUNK -->
+     <string name="spoken_emoji_1F43F">"다람쥐"</string>
+     <!-- Spoken description for Unicode code point U+1F440: "👀" EYES -->
+     <string name="spoken_emoji_1F440">"눈"</string>
+     <!-- Spoken description for Unicode code point U+1F441: "👁" EYE -->
+     <string name="spoken_emoji_1F441">"눈"</string>
+     <!-- Spoken description for Unicode code point U+1F442: "👂" EAR -->
+     <string name="spoken_emoji_1F442">"귀"</string>
+     <!-- Spoken description for Unicode code point U+1F443: "👃" NOSE -->
+     <string name="spoken_emoji_1F443">"코"</string>
+     <!-- Spoken description for Unicode code point U+1F444: "👄" MOUTH -->
+     <string name="spoken_emoji_1F444">"입"</string>
+     <!-- Spoken description for Unicode code point U+1F445: "👅" TONGUE -->
+     <string name="spoken_emoji_1F445">"혀"</string>
+     <!-- Spoken description for Unicode code point U+1F446: "👆" WHITE UP POINTING BACKHAND INDEX -->
+     <string name="spoken_emoji_1F446">"검지가 위를 가리키는 흰색 손등"</string>
+     <!-- Spoken description for Unicode code point U+1F447: "👇" WHITE DOWN POINTING BACKHAND INDEX -->
+     <string name="spoken_emoji_1F447">"검지가 아래를 가리키는 흰색 손등"</string>
+     <!-- Spoken description for Unicode code point U+1F448: "👈" WHITE LEFT POINTING BACKHAND INDEX -->
+     <string name="spoken_emoji_1F448">"검지가 왼쪽을 가리키는 흰색 손등"</string>
+     <!-- Spoken description for Unicode code point U+1F449: "👉" WHITE RIGHT POINTING BACKHAND INDEX -->
+     <string name="spoken_emoji_1F449">"검지가 오른쪽을 가리키는 흰색 손등"</string>
+     <!-- Spoken description for Unicode code point U+1F44A: "👊" FISTED HAND SIGN -->
+     <string name="spoken_emoji_1F44A">"주먹 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F44B: "👋" WAVING HAND SIGN -->
+     <string name="spoken_emoji_1F44B">"손을 흔드는 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F44C: "👌" OK HAND SIGN -->
+     <string name="spoken_emoji_1F44C">"OK 하는 손 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F44D: "👍" THUMBS UP SIGN -->
+     <string name="spoken_emoji_1F44D">"엄지를 올린 손 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F44E: "👎" THUMBS DOWN SIGN -->
+     <string name="spoken_emoji_1F44E">"엄지를 내린 손 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F44F: "👏" CLAPPING HANDS SIGN -->
+     <string name="spoken_emoji_1F44F">"손뼉 치는 손 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F450: "👐" OPEN HANDS SIGN -->
+     <string name="spoken_emoji_1F450">"양손을 벌린 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F451: "👑" CROWN -->
+     <string name="spoken_emoji_1F451">"왕관"</string>
+     <!-- Spoken description for Unicode code point U+1F452: "👒" WOMANS HAT -->
+     <string name="spoken_emoji_1F452">"여성용 모자"</string>
+     <!-- Spoken description for Unicode code point U+1F453: "👓" EYEGLASSES -->
+     <string name="spoken_emoji_1F453">"안경"</string>
+     <!-- Spoken description for Unicode code point U+1F454: "👔" NECKTIE -->
+     <string name="spoken_emoji_1F454">"넥타이"</string>
+     <!-- Spoken description for Unicode code point U+1F455: "👕" T-SHIRT -->
+     <string name="spoken_emoji_1F455">"티셔츠"</string>
+     <!-- Spoken description for Unicode code point U+1F456: "👖" JEANS -->
+     <string name="spoken_emoji_1F456">"청바지"</string>
+     <!-- Spoken description for Unicode code point U+1F457: "👗" DRESS -->
+     <string name="spoken_emoji_1F457">"원피스"</string>
+     <!-- Spoken description for Unicode code point U+1F458: "👘" KIMONO -->
+     <string name="spoken_emoji_1F458">"기모노"</string>
+     <!-- Spoken description for Unicode code point U+1F459: "👙" BIKINI -->
+     <string name="spoken_emoji_1F459">"비키니"</string>
+     <!-- Spoken description for Unicode code point U+1F45A: "👚" WOMANS CLOTHES -->
+     <string name="spoken_emoji_1F45A">"블라우스"</string>
+     <!-- Spoken description for Unicode code point U+1F45B: "👛" PURSE -->
+     <string name="spoken_emoji_1F45B">"지갑"</string>
+     <!-- Spoken description for Unicode code point U+1F45C: "👜" HANDBAG -->
+     <string name="spoken_emoji_1F45C">"핸드백"</string>
+     <!-- Spoken description for Unicode code point U+1F45D: "👝" POUCH -->
+     <string name="spoken_emoji_1F45D">"파우치"</string>
+     <!-- Spoken description for Unicode code point U+1F45E: "👞" MANS SHOE -->
+     <string name="spoken_emoji_1F45E">"남성 구두"</string>
+     <!-- Spoken description for Unicode code point U+1F45F: "👟" ATHLETIC SHOE -->
+     <string name="spoken_emoji_1F45F">"운동화"</string>
+     <!-- Spoken description for Unicode code point U+1F460: "👠" HIGH-HEELED SHOE -->
+     <string name="spoken_emoji_1F460">"하이힐"</string>
+     <!-- Spoken description for Unicode code point U+1F461: "👡" WOMANS SANDAL -->
+     <string name="spoken_emoji_1F461">"여성 샌들"</string>
+     <!-- Spoken description for Unicode code point U+1F462: "👢" WOMANS BOOTS -->
+     <string name="spoken_emoji_1F462">"여성 부츠"</string>
+     <!-- Spoken description for Unicode code point U+1F463: "👣" FOOTPRINTS -->
+     <string name="spoken_emoji_1F463">"발자국"</string>
+     <!-- Spoken description for Unicode code point U+1F464: "👤" BUST IN SILHOUETTE -->
+     <string name="spoken_emoji_1F464">"상반신 실루엣"</string>
+     <!-- Spoken description for Unicode code point U+1F465: "👥" BUSTS IN SILHOUETTE -->
+     <string name="spoken_emoji_1F465">"여러 명의 상반신 실루엣"</string>
+     <!-- Spoken description for Unicode code point U+1F466: "👦" BOY -->
+     <string name="spoken_emoji_1F466">"소년"</string>
+     <!-- Spoken description for Unicode code point U+1F467: "👧" GIRL -->
+     <string name="spoken_emoji_1F467">"소녀"</string>
+     <!-- Spoken description for Unicode code point U+1F468: "👨" MAN -->
+     <string name="spoken_emoji_1F468">"남자"</string>
+     <!-- Spoken description for Unicode code point U+1F469: "👩" WOMAN -->
+     <string name="spoken_emoji_1F469">"여자"</string>
+     <!-- Spoken description for Unicode code point U+1F46A: "👪" FAMILY -->
+     <string name="spoken_emoji_1F46A">"가족"</string>
+     <!-- Spoken description for Unicode code point U+1F46B: "👫" MAN AND WOMAN HOLDING HANDS -->
+     <string name="spoken_emoji_1F46B">"손을 잡고 있는 남자와 여자"</string>
+     <!-- Spoken description for Unicode code point U+1F46C: "👬" TWO MEN HOLDING HANDS -->
+     <string name="spoken_emoji_1F46C">"손을 잡고 있는 두 남자"</string>
+     <!-- Spoken description for Unicode code point U+1F46D: "👭" TWO WOMEN HOLDING HANDS -->
+     <string name="spoken_emoji_1F46D">"손을 잡고 있는 두 여자"</string>
+     <!-- Spoken description for Unicode code point U+1F46E: "👮" POLICE OFFICER -->
+     <string name="spoken_emoji_1F46E">"경찰관"</string>
+     <!-- Spoken description for Unicode code point U+1F46F: "👯" WOMAN WITH BUNNY EARS -->
+     <string name="spoken_emoji_1F46F">"토끼 귀를 한 여자"</string>
+     <!-- Spoken description for Unicode code point U+1F470: "👰" BRIDE WITH VEIL -->
+     <string name="spoken_emoji_1F470">"면사포를 쓴 신부"</string>
+     <!-- Spoken description for Unicode code point U+1F471: "👱" PERSON WITH BLOND HAIR -->
+     <string name="spoken_emoji_1F471">"머리가 금발인 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F472: "👲" MAN WITH GUA PI MAO -->
+     <string name="spoken_emoji_1F472">"중국 전통 모자를 쓴 남자"</string>
+     <!-- Spoken description for Unicode code point U+1F473: "👳" MAN WITH TURBAN -->
+     <string name="spoken_emoji_1F473">"터번을 두른 남자"</string>
+     <!-- Spoken description for Unicode code point U+1F474: "👴" OLDER MAN -->
+     <string name="spoken_emoji_1F474">"할아버지"</string>
+     <!-- Spoken description for Unicode code point U+1F475: "👵" OLDER WOMAN -->
+     <string name="spoken_emoji_1F475">"할머니"</string>
+     <!-- Spoken description for Unicode code point U+1F476: "👶" BABY -->
+     <string name="spoken_emoji_1F476">"아기"</string>
+     <!-- Spoken description for Unicode code point U+1F477: "👷" CONSTRUCTION WORKER -->
+     <string name="spoken_emoji_1F477">"건설 노동자"</string>
+     <!-- Spoken description for Unicode code point U+1F478: "👸" PRINCESS -->
+     <string name="spoken_emoji_1F478">"공주"</string>
+     <!-- Spoken description for Unicode code point U+1F479: "👹" JAPANESE OGRE -->
+     <string name="spoken_emoji_1F479">"도깨비"</string>
+     <!-- Spoken description for Unicode code point U+1F47A: "👺" JAPANESE GOBLIN -->
+     <string name="spoken_emoji_1F47A">"코가 큰 마귀"</string>
+     <!-- Spoken description for Unicode code point U+1F47B: "👻" GHOST -->
+     <string name="spoken_emoji_1F47B">"유령"</string>
+     <!-- Spoken description for Unicode code point U+1F47C: "👼" BABY ANGEL -->
+     <string name="spoken_emoji_1F47C">"아기 천사"</string>
+     <!-- Spoken description for Unicode code point U+1F47D: "👽" EXTRATERRESTRIAL ALIEN -->
+     <string name="spoken_emoji_1F47D">"외계인"</string>
+     <!-- Spoken description for Unicode code point U+1F47E: "👾" ALIEN MONSTER -->
+     <string name="spoken_emoji_1F47E">"우주 괴물"</string>
+     <!-- Spoken description for Unicode code point U+1F47F: "👿" IMP -->
+     <string name="spoken_emoji_1F47F">"꼬마 도깨비"</string>
+     <!-- Spoken description for Unicode code point U+1F480: "💀" SKULL -->
+     <string name="spoken_emoji_1F480">"해골"</string>
+     <!-- Spoken description for Unicode code point U+1F481: "💁" INFORMATION DESK PERSON -->
+     <string name="spoken_emoji_1F481">"안내 데스크 직원"</string>
+     <!-- Spoken description for Unicode code point U+1F482: "💂" GUARDSMAN -->
+     <string name="spoken_emoji_1F482">"근위대원"</string>
+     <!-- Spoken description for Unicode code point U+1F483: "💃" DANCER -->
+     <string name="spoken_emoji_1F483">"무용수"</string>
+     <!-- Spoken description for Unicode code point U+1F484: "💄" LIPSTICK -->
+     <string name="spoken_emoji_1F484">"립스틱"</string>
+     <!-- Spoken description for Unicode code point U+1F485: "💅" NAIL POLISH -->
+     <string name="spoken_emoji_1F485">"매니큐어"</string>
+     <!-- Spoken description for Unicode code point U+1F486: "💆" FACE MASSAGE -->
+     <string name="spoken_emoji_1F486">"얼굴 마사지"</string>
+     <!-- Spoken description for Unicode code point U+1F487: "💇" HAIRCUT -->
+     <string name="spoken_emoji_1F487">"헤어컷"</string>
+     <!-- Spoken description for Unicode code point U+1F488: "💈" BARBER POLE -->
+     <string name="spoken_emoji_1F488">"이발소의 간판 기둥"</string>
+     <!-- Spoken description for Unicode code point U+1F489: "💉" SYRINGE -->
+     <string name="spoken_emoji_1F489">"주사기"</string>
+     <!-- Spoken description for Unicode code point U+1F48A: "💊" PILL -->
+     <string name="spoken_emoji_1F48A">"알약"</string>
+     <!-- Spoken description for Unicode code point U+1F48B: "💋" KISS MARK -->
+     <string name="spoken_emoji_1F48B">"키스 자국"</string>
+     <!-- Spoken description for Unicode code point U+1F48C: "💌" LOVE LETTER -->
+     <string name="spoken_emoji_1F48C">"연애편지"</string>
+     <!-- Spoken description for Unicode code point U+1F48D: "💍" RING -->
+     <string name="spoken_emoji_1F48D">"반지"</string>
+     <!-- Spoken description for Unicode code point U+1F48E: "💎" GEM STONE -->
+     <string name="spoken_emoji_1F48E">"보석"</string>
+     <!-- Spoken description for Unicode code point U+1F48F: "💏" KISS -->
+     <string name="spoken_emoji_1F48F">"키스"</string>
+     <!-- Spoken description for Unicode code point U+1F490: "💐" BOUQUET -->
+     <string name="spoken_emoji_1F490">"부케"</string>
+     <!-- Spoken description for Unicode code point U+1F491: "💑" COUPLE WITH HEART -->
+     <string name="spoken_emoji_1F491">"연인과 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F492: "💒" WEDDING -->
+     <string name="spoken_emoji_1F492">"결혼"</string>
+     <!-- Spoken description for Unicode code point U+1F493: "💓" BEATING HEART -->
+     <string name="spoken_emoji_1F493">"두근거리는 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F494: "💔" BROKEN HEART -->
+     <string name="spoken_emoji_1F494">"깨진 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F495: "💕" TWO HEARTS -->
+     <string name="spoken_emoji_1F495">"두 개의 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F496: "💖" SPARKLING HEART -->
+     <string name="spoken_emoji_1F496">"반짝이는 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F497: "💗" GROWING HEART -->
+     <string name="spoken_emoji_1F497">"점점 커지는 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F498: "💘" HEART WITH ARROW -->
+     <string name="spoken_emoji_1F498">"화살 맞은 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F499: "💙" BLUE HEART -->
+     <string name="spoken_emoji_1F499">"파란색 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F49A: "💚" GREEN HEART -->
+     <string name="spoken_emoji_1F49A">"녹색 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F49B: "💛" YELLOW HEART -->
+     <string name="spoken_emoji_1F49B">"노란색 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F49C: "💜" PURPLE HEART -->
+     <string name="spoken_emoji_1F49C">"보라색 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F49D: "💝" HEART WITH RIBBON -->
+     <string name="spoken_emoji_1F49D">"리본 달린 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F49E: "💞" REVOLVING HEARTS -->
+     <string name="spoken_emoji_1F49E">"회전하는 하트"</string>
+     <!-- Spoken description for Unicode code point U+1F49F: "💟" HEART DECORATION -->
+     <string name="spoken_emoji_1F49F">"하트 장식"</string>
+     <!-- Spoken description for Unicode code point U+1F4A0: "💠" DIAMOND SHAPE WITH A DOT INSIDE -->
+     <string name="spoken_emoji_1F4A0">"내부에 점에 있는 마름모 도형"</string>
+     <!-- Spoken description for Unicode code point U+1F4A1: "💡" ELECTRIC LIGHT BULB -->
+     <string name="spoken_emoji_1F4A1">"전구"</string>
+     <!-- Spoken description for Unicode code point U+1F4A2: "💢" ANGER SYMBOL -->
+     <string name="spoken_emoji_1F4A2">"분노 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F4A3: "💣" BOMB -->
+     <string name="spoken_emoji_1F4A3">"폭탄"</string>
+     <!-- Spoken description for Unicode code point U+1F4A4: "💤" SLEEPING SYMBOL -->
+     <string name="spoken_emoji_1F4A4">"수면 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F4A5: "💥" COLLISION SYMBOL -->
+     <string name="spoken_emoji_1F4A5">"충돌 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F4A6: "💦" SPLASHING SWEAT SYMBOL -->
+     <string name="spoken_emoji_1F4A6">"땀방울"</string>
+     <!-- Spoken description for Unicode code point U+1F4A7: "💧" DROPLET -->
+     <string name="spoken_emoji_1F4A7">"작은 물방울"</string>
+     <!-- Spoken description for Unicode code point U+1F4A8: "💨" DASH SYMBOL -->
+     <string name="spoken_emoji_1F4A8">"대시 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F4A9: "💩" PILE OF POO -->
+     <string name="spoken_emoji_1F4A9">"똥 덩어리"</string>
+     <!-- Spoken description for Unicode code point U+1F4AA: "💪" FLEXED BICEPS -->
+     <string name="spoken_emoji_1F4AA">"울퉁불퉁한 이두박근"</string>
+     <!-- Spoken description for Unicode code point U+1F4AB: "💫" DIZZY SYMBOL -->
+     <string name="spoken_emoji_1F4AB">"어지러움 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F4AC: "💬" SPEECH BALLOON -->
+     <string name="spoken_emoji_1F4AC">"말풍선"</string>
+     <!-- Spoken description for Unicode code point U+1F4AD: "💭" THOUGHT BALLOON -->
+     <string name="spoken_emoji_1F4AD">"생각 풍선"</string>
+     <!-- Spoken description for Unicode code point U+1F4AE: "💮" WHITE FLOWER -->
+     <string name="spoken_emoji_1F4AE">"흰색 꽃"</string>
+     <!-- Spoken description for Unicode code point U+1F4AF: "💯" HUNDRED POINTS SYMBOL -->
+     <string name="spoken_emoji_1F4AF">"백점 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F4B0: "💰" MONEY BAG -->
+     <string name="spoken_emoji_1F4B0">"돈 가방"</string>
+     <!-- Spoken description for Unicode code point U+1F4B1: "💱" CURRENCY EXCHANGE -->
+     <string name="spoken_emoji_1F4B1">"환전"</string>
+     <!-- Spoken description for Unicode code point U+1F4B2: "💲" HEAVY DOLLAR SIGN -->
+     <string name="spoken_emoji_1F4B2">"굵은 달러 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F4B3: "💳" CREDIT CARD -->
+     <string name="spoken_emoji_1F4B3">"신용카드"</string>
+     <!-- Spoken description for Unicode code point U+1F4B4: "💴" BANKNOTE WITH YEN SIGN -->
+     <string name="spoken_emoji_1F4B4">"엔화 지폐"</string>
+     <!-- Spoken description for Unicode code point U+1F4B5: "💵" BANKNOTE WITH DOLLAR SIGN -->
+     <string name="spoken_emoji_1F4B5">"달러 지폐"</string>
+     <!-- Spoken description for Unicode code point U+1F4B6: "💶" BANKNOTE WITH EURO SIGN -->
+     <string name="spoken_emoji_1F4B6">"유로화 지폐"</string>
+     <!-- Spoken description for Unicode code point U+1F4B7: "💷" BANKNOTE WITH POUND SIGN -->
+     <string name="spoken_emoji_1F4B7">"파운드화 지폐"</string>
+     <!-- Spoken description for Unicode code point U+1F4B8: "💸" MONEY WITH WINGS -->
+     <string name="spoken_emoji_1F4B8">"날개 달린 돈다발"</string>
+     <!-- Spoken description for Unicode code point U+1F4B9: "💹" CHART WITH UPWARDS TREND AND YEN SIGN -->
+     <string name="spoken_emoji_1F4B9">"엔화 기호가 있는 상향 추세의 차트"</string>
+     <!-- Spoken description for Unicode code point U+1F4BA: "💺" SEAT -->
+     <string name="spoken_emoji_1F4BA">"좌석"</string>
+     <!-- Spoken description for Unicode code point U+1F4BB: "💻" PERSONAL COMPUTER -->
+     <string name="spoken_emoji_1F4BB">"개인 컴퓨터"</string>
+     <!-- Spoken description for Unicode code point U+1F4BC: "💼" BRIEFCASE -->
+     <string name="spoken_emoji_1F4BC">"서류 가방"</string>
+     <!-- Spoken description for Unicode code point U+1F4BD: "💽" MINIDISC -->
+     <string name="spoken_emoji_1F4BD">"미니 디스크"</string>
+     <!-- Spoken description for Unicode code point U+1F4BE: "💾" FLOPPY DISK -->
+     <string name="spoken_emoji_1F4BE">"플로피 디스크"</string>
+     <!-- Spoken description for Unicode code point U+1F4BF: "💿" OPTICAL DISC -->
+     <string name="spoken_emoji_1F4BF">"광학 디스크"</string>
+     <!-- Spoken description for Unicode code point U+1F4C0: "📀" DVD -->
+     <string name="spoken_emoji_1F4C0">"DVD"</string>
+     <!-- Spoken description for Unicode code point U+1F4C1: "📁" FILE FOLDER -->
+     <string name="spoken_emoji_1F4C1">"파일 폴더"</string>
+     <!-- Spoken description for Unicode code point U+1F4C2: "📂" OPEN FILE FOLDER -->
+     <string name="spoken_emoji_1F4C2">"열려있는 파일 폴더"</string>
+     <!-- Spoken description for Unicode code point U+1F4C3: "📃" PAGE WITH CURL -->
+     <string name="spoken_emoji_1F4C3">"끝이 둥글게 말린 종이"</string>
+     <!-- Spoken description for Unicode code point U+1F4C4: "📄" PAGE FACING UP -->
+     <string name="spoken_emoji_1F4C4">"종이 앞면"</string>
+     <!-- Spoken description for Unicode code point U+1F4C5: "📅" CALENDAR -->
+     <string name="spoken_emoji_1F4C5">"달력"</string>
+     <!-- Spoken description for Unicode code point U+1F4C6: "📆" TEAR-OFF CALENDAR -->
+     <string name="spoken_emoji_1F4C6">"일일달력"</string>
+     <!-- Spoken description for Unicode code point U+1F4C7: "📇" CARD INDEX -->
+     <string name="spoken_emoji_1F4C7">"카드 색인 바인더"</string>
+     <!-- Spoken description for Unicode code point U+1F4C8: "📈" CHART WITH UPWARDS TREND -->
+     <string name="spoken_emoji_1F4C8">"상향 추세의 차트"</string>
+     <!-- Spoken description for Unicode code point U+1F4C9: "📉" CHART WITH DOWNWARDS TREND -->
+     <string name="spoken_emoji_1F4C9">"하향 추세의 차트"</string>
+     <!-- Spoken description for Unicode code point U+1F4CA: "📊" BAR CHART -->
+     <string name="spoken_emoji_1F4CA">"막대그래프"</string>
+     <!-- Spoken description for Unicode code point U+1F4CB: "📋" CLIPBOARD -->
+     <string name="spoken_emoji_1F4CB">"클립보드"</string>
+     <!-- Spoken description for Unicode code point U+1F4CC: "📌" PUSHPIN -->
+     <string name="spoken_emoji_1F4CC">"압정"</string>
+     <!-- Spoken description for Unicode code point U+1F4CD: "📍" ROUND PUSHPIN -->
+     <string name="spoken_emoji_1F4CD">"둥근 압정"</string>
+     <!-- Spoken description for Unicode code point U+1F4CE: "📎" PAPERCLIP -->
+     <string name="spoken_emoji_1F4CE">"클립"</string>
+     <!-- Spoken description for Unicode code point U+1F4CF: "📏" STRAIGHT RULER -->
+     <string name="spoken_emoji_1F4CF">"막대자"</string>
+     <!-- Spoken description for Unicode code point U+1F4D0: "📐" TRIANGULAR RULER -->
+     <string name="spoken_emoji_1F4D0">"삼각자"</string>
+     <!-- Spoken description for Unicode code point U+1F4D1: "📑" BOOKMARK TABS -->
+     <string name="spoken_emoji_1F4D1">"즐겨찾기 탭"</string>
+     <!-- Spoken description for Unicode code point U+1F4D2: "📒" LEDGER -->
+     <string name="spoken_emoji_1F4D2">"원장"</string>
+     <!-- Spoken description for Unicode code point U+1F4D3: "📓" NOTEBOOK -->
+     <string name="spoken_emoji_1F4D3">"공책"</string>
+     <!-- Spoken description for Unicode code point U+1F4D4: "📔" NOTEBOOK WITH DECORATIVE COVER -->
+     <string name="spoken_emoji_1F4D4">"장식 표지가 있는 공책"</string>
+     <!-- Spoken description for Unicode code point U+1F4D5: "📕" CLOSED BOOK -->
+     <string name="spoken_emoji_1F4D5">"덮인 책"</string>
+     <!-- Spoken description for Unicode code point U+1F4D6: "📖" OPEN BOOK -->
+     <string name="spoken_emoji_1F4D6">"펼친 책"</string>
+     <!-- Spoken description for Unicode code point U+1F4D7: "📗" GREEN BOOK -->
+     <string name="spoken_emoji_1F4D7">"녹색 책"</string>
+     <!-- Spoken description for Unicode code point U+1F4D8: "📘" BLUE BOOK -->
+     <string name="spoken_emoji_1F4D8">"파란색 책"</string>
+     <!-- Spoken description for Unicode code point U+1F4D9: "📙" ORANGE BOOK -->
+     <string name="spoken_emoji_1F4D9">"주황색 책"</string>
+     <!-- Spoken description for Unicode code point U+1F4DA: "📚" BOOKS -->
+     <string name="spoken_emoji_1F4DA">"여러 권의 책"</string>
+     <!-- Spoken description for Unicode code point U+1F4DB: "📛" NAME BADGE -->
+     <string name="spoken_emoji_1F4DB">"명찰"</string>
+     <!-- Spoken description for Unicode code point U+1F4DC: "📜" SCROLL -->
+     <string name="spoken_emoji_1F4DC">"두루마리"</string>
+     <!-- Spoken description for Unicode code point U+1F4DD: "📝" MEMO -->
+     <string name="spoken_emoji_1F4DD">"메모"</string>
+     <!-- Spoken description for Unicode code point U+1F4DE: "📞" TELEPHONE RECEIVER -->
+     <string name="spoken_emoji_1F4DE">"전화 수화기"</string>
+     <!-- Spoken description for Unicode code point U+1F4DF: "📟" PAGER -->
+     <string name="spoken_emoji_1F4DF">"호출기"</string>
+     <!-- Spoken description for Unicode code point U+1F4E0: "📠" FAX MACHINE -->
+     <string name="spoken_emoji_1F4E0">"팩스기"</string>
+     <!-- Spoken description for Unicode code point U+1F4E1: "📡" SATELLITE ANTENNA -->
+     <string name="spoken_emoji_1F4E1">"위성 안테나"</string>
+     <!-- Spoken description for Unicode code point U+1F4E2: "📢" PUBLIC ADDRESS LOUDSPEAKER -->
+     <string name="spoken_emoji_1F4E2">"확성기"</string>
+     <!-- Spoken description for Unicode code point U+1F4E3: "📣" CHEERING MEGAPHONE -->
+     <string name="spoken_emoji_1F4E3">"응원 메가폰"</string>
+     <!-- Spoken description for Unicode code point U+1F4E4: "📤" OUTBOX TRAY -->
+     <string name="spoken_emoji_1F4E4">"보낼 편지함 트레이"</string>
+     <!-- Spoken description for Unicode code point U+1F4E5: "📥" INBOX TRAY -->
+     <string name="spoken_emoji_1F4E5">"받은 편지함 트레이"</string>
+     <!-- Spoken description for Unicode code point U+1F4E6: "📦" PACKAGE -->
+     <string name="spoken_emoji_1F4E6">"소포"</string>
+     <!-- Spoken description for Unicode code point U+1F4E7: "📧" E-MAIL SYMBOL -->
+     <string name="spoken_emoji_1F4E7">"이메일 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F4E8: "📨" INCOMING ENVELOPE -->
+     <string name="spoken_emoji_1F4E8">"수신 메시지 봉투"</string>
+     <!-- Spoken description for Unicode code point U+1F4E9: "📩" ENVELOPE WITH DOWNWARDS ARROW ABOVE -->
+     <string name="spoken_emoji_1F4E9">"아래 화살표가 위에 있는 봉투"</string>
+     <!-- Spoken description for Unicode code point U+1F4EA: "📪" CLOSED MAILBOX WITH LOWERED FLAG -->
+     <string name="spoken_emoji_1F4EA">"깃발을 내리고 닫혀 있는 우편함"</string>
+     <!-- Spoken description for Unicode code point U+1F4EB: "📫" CLOSED MAILBOX WITH RAISED FLAG -->
+     <string name="spoken_emoji_1F4EB">"깃발을 올리고 닫혀 있는 우편함"</string>
+     <!-- Spoken description for Unicode code point U+1F4EC: "📬" OPEN MAILBOX WITH RAISED FLAG -->
+     <string name="spoken_emoji_1F4EC">"깃발을 올리고 열려 있는 우편함"</string>
+     <!-- Spoken description for Unicode code point U+1F4ED: "📭" OPEN MAILBOX WITH LOWERED FLAG -->
+     <string name="spoken_emoji_1F4ED">"깃발을 내리고 열려 있는 우편함"</string>
+     <!-- Spoken description for Unicode code point U+1F4EE: "📮" POSTBOX -->
+     <string name="spoken_emoji_1F4EE">"우체통"</string>
+     <!-- Spoken description for Unicode code point U+1F4EF: "📯" POSTAL HORN -->
+     <string name="spoken_emoji_1F4EF">"나팔"</string>
+     <!-- Spoken description for Unicode code point U+1F4F0: "📰" NEWSPAPER -->
+     <string name="spoken_emoji_1F4F0">"신문"</string>
+     <!-- Spoken description for Unicode code point U+1F4F1: "📱" MOBILE PHONE -->
+     <string name="spoken_emoji_1F4F1">"휴대전화"</string>
+     <!-- Spoken description for Unicode code point U+1F4F2: "📲" MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT -->
+     <string name="spoken_emoji_1F4F2">"오른쪽 화살표가 왼쪽에 있는 휴대전화"</string>
+     <!-- Spoken description for Unicode code point U+1F4F3: "📳" VIBRATION MODE -->
+     <string name="spoken_emoji_1F4F3">"진동 모드"</string>
+     <!-- Spoken description for Unicode code point U+1F4F4: "📴" MOBILE PHONE OFF -->
+     <string name="spoken_emoji_1F4F4">"휴대전화 끄기"</string>
+     <!-- Spoken description for Unicode code point U+1F4F5: "📵" NO MOBILE PHONES -->
+     <string name="spoken_emoji_1F4F5">"휴대전화 사용 금지"</string>
+     <!-- Spoken description for Unicode code point U+1F4F6: "📶" ANTENNA WITH BARS -->
+     <string name="spoken_emoji_1F4F6">"신호가 강한 안테나"</string>
+     <!-- Spoken description for Unicode code point U+1F4F7: "📷" CAMERA -->
+     <string name="spoken_emoji_1F4F7">"카메라"</string>
+     <!-- Spoken description for Unicode code point U+1F4F8: "📸" CAMERA WITH FLASH -->
+     <string name="spoken_emoji_1F4F8">"플래시가 터지는 카메라"</string>
+     <!-- Spoken description for Unicode code point U+1F4F9: "📹" VIDEO CAMERA -->
+     <string name="spoken_emoji_1F4F9">"비디오 카메라"</string>
+     <!-- Spoken description for Unicode code point U+1F4FA: "📺" TELEVISION -->
+     <string name="spoken_emoji_1F4FA">"텔레비전"</string>
+     <!-- Spoken description for Unicode code point U+1F4FB: "📻" RADIO -->
+     <string name="spoken_emoji_1F4FB">"라디오"</string>
+     <!-- Spoken description for Unicode code point U+1F4FC: "📼" VIDEOCASSETTE -->
+     <string name="spoken_emoji_1F4FC">"비디오 카세트"</string>
+     <!-- Spoken description for Unicode code point U+1F4FD: "📽" FILM PROJECTOR -->
+     <string name="spoken_emoji_1F4FD">"영사기"</string>
+     <!-- Spoken description for Unicode code point U+1F4FF: "📿" PRAYER BEADS -->
+     <string name="spoken_emoji_1F4FF">"염주"</string>
+     <!-- Spoken description for Unicode code point U+1F500: "🔀" TWISTED RIGHTWARDS ARROWS -->
+     <string name="spoken_emoji_1F500">"서로 교차하는 오른쪽 화살표"</string>
+     <!-- Spoken description for Unicode code point U+1F501: "🔁" CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS -->
+     <string name="spoken_emoji_1F501">"시계 방향으로 오른쪽과 왼쪽으로 각각 순환하는 열린 화살표"</string>
+     <!-- Spoken description for Unicode code point U+1F502: "🔂" CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY -->
+     <string name="spoken_emoji_1F502">"시계 방향으로 오른쪽과 왼쪽으로 각각 순환하는 열린 화살표와 그 위에 있는 원문자 1"</string>
+     <!-- Spoken description for Unicode code point U+1F503: "🔃" CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS -->
+     <string name="spoken_emoji_1F503">"시계 방향으로 위아래로 각각 순환하는 열린 화살표"</string>
+     <!-- Spoken description for Unicode code point U+1F504: "🔄" ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS -->
+     <string name="spoken_emoji_1F504">"시계 반대 방향으로 위아래로 각각 순환하는 열린 화살표"</string>
+     <!-- Spoken description for Unicode code point U+1F505: "🔅" LOW BRIGHTNESS SYMBOL -->
+     <string name="spoken_emoji_1F505">"낮은 명도 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F506: "🔆" HIGH BRIGHTNESS SYMBOL -->
+     <string name="spoken_emoji_1F506">"높은 명도 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F507: "🔇" SPEAKER WITH CANCELLATION STROKE -->
+     <string name="spoken_emoji_1F507">"스피커 사용 중지"</string>
+     <!-- Spoken description for Unicode code point U+1F508: "🔈" SPEAKER -->
+     <string name="spoken_emoji_1F508">"스피커"</string>
+     <!-- Spoken description for Unicode code point U+1F509: "🔉" SPEAKER WITH ONE SOUND WAVE -->
+     <string name="spoken_emoji_1F509">"하나의 음파가 있는 스피커"</string>
+     <!-- Spoken description for Unicode code point U+1F50A: "🔊" SPEAKER WITH THREE SOUND WAVES -->
+     <string name="spoken_emoji_1F50A">"세 개의 음파가 있는 스피커"</string>
+     <!-- Spoken description for Unicode code point U+1F50B: "🔋" BATTERY -->
+     <string name="spoken_emoji_1F50B">"배터리"</string>
+     <!-- Spoken description for Unicode code point U+1F50C: "🔌" ELECTRIC PLUG -->
+     <string name="spoken_emoji_1F50C">"전기 플러그"</string>
+     <!-- Spoken description for Unicode code point U+1F50D: "🔍" LEFT-POINTING MAGNIFYING GLASS -->
+     <string name="spoken_emoji_1F50D">"왼쪽을 향한 돋보기"</string>
+     <!-- Spoken description for Unicode code point U+1F50E: "🔎" RIGHT-POINTING MAGNIFYING GLASS -->
+     <string name="spoken_emoji_1F50E">"오른쪽을 향한 돋보기"</string>
+     <!-- Spoken description for Unicode code point U+1F50F: "🔏" LOCK WITH INK PEN -->
+     <string name="spoken_emoji_1F50F">"잉크 펜과 자물쇠"</string>
+     <!-- Spoken description for Unicode code point U+1F510: "🔐" CLOSED LOCK WITH KEY -->
+     <string name="spoken_emoji_1F510">"열쇠와 자물쇠"</string>
+     <!-- Spoken description for Unicode code point U+1F511: "🔑" KEY -->
+     <string name="spoken_emoji_1F511">"열쇠"</string>
+     <!-- Spoken description for Unicode code point U+1F512: "🔒" LOCK -->
+     <string name="spoken_emoji_1F512">"자물쇠"</string>
+     <!-- Spoken description for Unicode code point U+1F513: "🔓" OPEN LOCK -->
+     <string name="spoken_emoji_1F513">"열려있는 자물쇠"</string>
+     <!-- Spoken description for Unicode code point U+1F514: "🔔" BELL -->
+     <string name="spoken_emoji_1F514">"종"</string>
+     <!-- Spoken description for Unicode code point U+1F515: "🔕" BELL WITH CANCELLATION STROKE -->
+     <string name="spoken_emoji_1F515">"종 사용 중지"</string>
+     <!-- Spoken description for Unicode code point U+1F516: "🔖" BOOKMARK -->
+     <string name="spoken_emoji_1F516">"책갈피"</string>
+     <!-- Spoken description for Unicode code point U+1F517: "🔗" LINK SYMBOL -->
+     <string name="spoken_emoji_1F517">"사슬 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F518: "🔘" RADIO BUTTON -->
+     <string name="spoken_emoji_1F518">"라디오 버튼"</string>
+     <!-- Spoken description for Unicode code point U+1F519: "🔙" BACK WITH LEFTWARDS ARROW ABOVE -->
+     <string name="spoken_emoji_1F519">"왼쪽 화살표가 위에 있는 BACK"</string>
+     <!-- Spoken description for Unicode code point U+1F51A: "🔚" END WITH LEFTWARDS ARROW ABOVE -->
+     <string name="spoken_emoji_1F51A">"왼쪽 화살표가 위에 있는 END"</string>
+     <!-- Spoken description for Unicode code point U+1F51B: "🔛" ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE -->
+     <string name="spoken_emoji_1F51B">"좌우 양방향 화살표가 위에 있는 ON!"</string>
+     <!-- Spoken description for Unicode code point U+1F51C: "🔜" SOON WITH RIGHTWARDS ARROW ABOVE -->
+     <string name="spoken_emoji_1F51C">"오른쪽 화살표가 위에 있는 SOON"</string>
+     <!-- Spoken description for Unicode code point U+1F51D: "🔝" TOP WITH UPWARDS ARROW ABOVE -->
+     <string name="spoken_emoji_1F51D">"위 화살표가 위에 있는 TOP"</string>
+     <!-- Spoken description for Unicode code point U+1F51E: "🔞" NO ONE UNDER EIGHTEEN SYMBOL -->
+     <string name="spoken_emoji_1F51E">"18세 이하 금지 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F51F: "🔟" KEYCAP TEN -->
+     <string name="spoken_emoji_1F51F">"키 캡 10"</string>
+     <!-- Spoken description for Unicode code point U+1F520: "🔠" INPUT SYMBOL FOR LATIN CAPITAL LETTERS -->
+     <string name="spoken_emoji_1F520">"라틴어 대문자 입력 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F521: "🔡" INPUT SYMBOL FOR LATIN SMALL LETTERS -->
+     <string name="spoken_emoji_1F521">"라틴어 소문자 입력 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F522: "🔢" INPUT SYMBOL FOR NUMBERS -->
+     <string name="spoken_emoji_1F522">"숫자 입력 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F523: "🔣" INPUT SYMBOL FOR SYMBOLS -->
+     <string name="spoken_emoji_1F523">"기호 입력 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F524: "🔤" INPUT SYMBOL FOR LATIN LETTERS -->
+     <string name="spoken_emoji_1F524">"라틴어 문자 입력 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F525: "🔥" FIRE -->
+     <string name="spoken_emoji_1F525">"불"</string>
+     <!-- Spoken description for Unicode code point U+1F526: "🔦" ELECTRIC TORCH -->
+     <string name="spoken_emoji_1F526">"손전등"</string>
+     <!-- Spoken description for Unicode code point U+1F527: "🔧" WRENCH -->
+     <string name="spoken_emoji_1F527">"렌치"</string>
+     <!-- Spoken description for Unicode code point U+1F528: "🔨" HAMMER -->
+     <string name="spoken_emoji_1F528">"망치"</string>
+     <!-- Spoken description for Unicode code point U+1F529: "🔩" NUT AND BOLT -->
+     <string name="spoken_emoji_1F529">"너트와 볼트"</string>
+     <!-- Spoken description for Unicode code point U+1F52A: "🔪" HOCHO -->
+     <string name="spoken_emoji_1F52A">"식칼"</string>
+     <!-- Spoken description for Unicode code point U+1F52B: "🔫" PISTOL -->
+     <string name="spoken_emoji_1F52B">"권총"</string>
+     <!-- Spoken description for Unicode code point U+1F52C: "🔬" MICROSCOPE -->
+     <string name="spoken_emoji_1F52C">"현미경"</string>
+     <!-- Spoken description for Unicode code point U+1F52D: "🔭" TELESCOPE -->
+     <string name="spoken_emoji_1F52D">"망원경"</string>
+     <!-- Spoken description for Unicode code point U+1F52E: "🔮" CRYSTAL BALL -->
+     <string name="spoken_emoji_1F52E">"수정구"</string>
+     <!-- Spoken description for Unicode code point U+1F52F: "🔯" SIX POINTED STAR WITH MIDDLE DOT -->
+     <string name="spoken_emoji_1F52F">"중앙에 점이 있고 6각별"</string>
+     <!-- Spoken description for Unicode code point U+1F530: "🔰" JAPANESE SYMBOL FOR BEGINNER -->
+     <string name="spoken_emoji_1F530">"일본식 초보자 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F531: "🔱" TRIDENT EMBLEM -->
+     <string name="spoken_emoji_1F531">"삼지창 엠블럼"</string>
+     <!-- Spoken description for Unicode code point U+1F532: "🔲" BLACK SQUARE BUTTON -->
+     <string name="spoken_emoji_1F532">"정사각형 검은색 버튼"</string>
+     <!-- Spoken description for Unicode code point U+1F533: "🔳" WHITE SQUARE BUTTON -->
+     <string name="spoken_emoji_1F533">"정사각형 흰색 버튼"</string>
+     <!-- Spoken description for Unicode code point U+1F534: "🔴" LARGE RED CIRCLE -->
+     <string name="spoken_emoji_1F534">"큰 빨간색 원"</string>
+     <!-- Spoken description for Unicode code point U+1F535: "🔵" LARGE BLUE CIRCLE -->
+     <string name="spoken_emoji_1F535">"큰 파란색 원"</string>
+     <!-- Spoken description for Unicode code point U+1F536: "🔶" LARGE ORANGE DIAMOND -->
+     <string name="spoken_emoji_1F536">"큰 주황색 마름모"</string>
+     <!-- Spoken description for Unicode code point U+1F537: "🔷" LARGE BLUE DIAMOND -->
+     <string name="spoken_emoji_1F537">"큰 파란색 마름모"</string>
+     <!-- Spoken description for Unicode code point U+1F538: "🔸" SMALL ORANGE DIAMOND -->
+     <string name="spoken_emoji_1F538">"작은 주황색 마름모"</string>
+     <!-- Spoken description for Unicode code point U+1F539: "🔹" SMALL BLUE DIAMOND -->
+     <string name="spoken_emoji_1F539">"작은 파란색 마름모"</string>
+     <!-- Spoken description for Unicode code point U+1F53A: "🔺" UP-POINTING RED TRIANGLE -->
+     <string name="spoken_emoji_1F53A">"빨간색 삼각형"</string>
+     <!-- Spoken description for Unicode code point U+1F53B: "🔻" DOWN-POINTING RED TRIANGLE -->
+     <string name="spoken_emoji_1F53B">"빨간색 역삼각형"</string>
+     <!-- Spoken description for Unicode code point U+1F53C: "🔼" UP-POINTING SMALL RED TRIANGLE -->
+     <string name="spoken_emoji_1F53C">"작은 빨간색 삼각형"</string>
+     <!-- Spoken description for Unicode code point U+1F53D: "🔽" DOWN-POINTING SMALL RED TRIANGLE -->
+     <string name="spoken_emoji_1F53D">"작은 빨간색 역삼각형"</string>
+     <!-- Spoken description for Unicode code point U+1F549: "🕉" OM SYMBOL -->
+     <string name="spoken_emoji_1F549">"옴 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F54A: "🕊" DOVE OF PEACE -->
+     <string name="spoken_emoji_1F54A">"평화의 비둘기"</string>
+     <!-- Spoken description for Unicode code point U+1F54B: "🕋" KAABA -->
+     <string name="spoken_emoji_1F54B">"카바 신전"</string>
+     <!-- Spoken description for Unicode code point U+1F54C: "🕌" MOSQUE -->
+     <string name="spoken_emoji_1F54C">"모스크"</string>
+     <!-- Spoken description for Unicode code point U+1F54D: "🕍" SYNAGOGUE -->
+     <string name="spoken_emoji_1F54D">"유대교 회당"</string>
+     <!-- Spoken description for Unicode code point U+1F54E: "🕎" MENORAH WITH NINE BRANCHES -->
+     <string name="spoken_emoji_1F54E">"9개의 갈래로 나뉜 큰 촛대"</string>
+     <!-- Spoken description for Unicode code point U+1F550: "🕐" CLOCK FACE ONE OCLOCK -->
+     <string name="spoken_emoji_1F550">"1시를 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F551: "🕑" CLOCK FACE TWO OCLOCK -->
+     <string name="spoken_emoji_1F551">"2시를 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F552: "🕒" CLOCK FACE THREE OCLOCK -->
+     <string name="spoken_emoji_1F552">"3시를 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F553: "🕓" CLOCK FACE FOUR OCLOCK -->
+     <string name="spoken_emoji_1F553">"4시를 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F554: "🕔" CLOCK FACE FIVE OCLOCK -->
+     <string name="spoken_emoji_1F554">"5시를 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F555: "🕕" CLOCK FACE SIX OCLOCK -->
+     <string name="spoken_emoji_1F555">"6시를 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F556: "🕖" CLOCK FACE SEVEN OCLOCK -->
+     <string name="spoken_emoji_1F556">"7시를 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F557: "🕗" CLOCK FACE EIGHT OCLOCK -->
+     <string name="spoken_emoji_1F557">"8시를 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F558: "🕘" CLOCK FACE NINE OCLOCK -->
+     <string name="spoken_emoji_1F558">"9시를 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F559: "🕙" CLOCK FACE TEN OCLOCK -->
+     <string name="spoken_emoji_1F559">"10시를 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F55A: "🕚" CLOCK FACE ELEVEN OCLOCK -->
+     <string name="spoken_emoji_1F55A">"11시를 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F55B: "🕛" CLOCK FACE TWELVE OCLOCK -->
+     <string name="spoken_emoji_1F55B">"12시를 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F55C: "🕜" CLOCK FACE ONE-THIRTY -->
+     <string name="spoken_emoji_1F55C">"1시 30분을 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F55D: "🕝" CLOCK FACE TWO-THIRTY -->
+     <string name="spoken_emoji_1F55D">"2시 30분을 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F55E: "🕞" CLOCK FACE THREE-THIRTY -->
+     <string name="spoken_emoji_1F55E">"3시 30분을 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F55F: "🕟" CLOCK FACE FOUR-THIRTY -->
+     <string name="spoken_emoji_1F55F">"4시 30분을 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F560: "🕠" CLOCK FACE FIVE-THIRTY -->
+     <string name="spoken_emoji_1F560">"5시 30분을 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F561: "🕡" CLOCK FACE SIX-THIRTY -->
+     <string name="spoken_emoji_1F561">"6시 30분을 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F562: "🕢" CLOCK FACE SEVEN-THIRTY -->
+     <string name="spoken_emoji_1F562">"7시 30분을 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F563: "🕣" CLOCK FACE EIGHT-THIRTY -->
+     <string name="spoken_emoji_1F563">"8시 30분을 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F564: "🕤" CLOCK FACE NINE-THIRTY -->
+     <string name="spoken_emoji_1F564">"9시 30분을 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F565: "🕥" CLOCK FACE TEN-THIRTY -->
+     <string name="spoken_emoji_1F565">"10시 30분을 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F566: "🕦" CLOCK FACE ELEVEN-THIRTY -->
+     <string name="spoken_emoji_1F566">"11시 30분을 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F567: "🕧" CLOCK FACE TWELVE-THIRTY -->
+     <string name="spoken_emoji_1F567">"12시 30분을 가리키는 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F56F: "🕯" CANDLE -->
+     <string name="spoken_emoji_1F56F">"초"</string>
+     <!-- Spoken description for Unicode code point U+1F570: "🕰" MANTELPIECE CLOCK -->
+     <string name="spoken_emoji_1F570">"맨틀피스 시계"</string>
+     <!-- Spoken description for Unicode code point U+1F573: "🕳" HOLE -->
+     <string name="spoken_emoji_1F573">"구멍"</string>
+     <!-- Spoken description for Unicode code point U+1F574: "🕴" MAN IN BUSINESS SUIT LEVITATING -->
+     <string name="spoken_emoji_1F574">"공중 부양하는 양복 입은 남자"</string>
+     <!-- Spoken description for Unicode code point U+1F575: "🕵" SLEUTH OR SPY -->
+     <string name="spoken_emoji_1F575">"탐정 또는 스파이"</string>
+     <!-- Spoken description for Unicode code point U+1F576: "🕶" DARK SUNGLASSES -->
+     <string name="spoken_emoji_1F576">"짙은 선글라스"</string>
+     <!-- Spoken description for Unicode code point U+1F577: "🕷" SPIDER -->
+     <string name="spoken_emoji_1F577">"거미"</string>
+     <!-- Spoken description for Unicode code point U+1F578: "🕸" SPIDER WEB -->
+     <string name="spoken_emoji_1F578">"거미줄"</string>
+     <!-- Spoken description for Unicode code point U+1F579: "🕹" JOYSTICK -->
+     <string name="spoken_emoji_1F579">"조이스틱"</string>
+     <!-- Spoken description for Unicode code point U+1F587: "🖇" LINKED PAPERCLIPS -->
+     <string name="spoken_emoji_1F587">"연결된 클립"</string>
+     <!-- Spoken description for Unicode code point U+1F58A: "🖊" LOWER LEFT BALLPOINT PEN -->
+     <string name="spoken_emoji_1F58A">"왼쪽 하단을 향하고 있는 볼펜"</string>
+     <!-- Spoken description for Unicode code point U+1F58B: "🖋" LOWER LEFT FOUNTAIN PEN -->
+     <string name="spoken_emoji_1F58B">"왼쪽 하단을 향하고 있는 만년필"</string>
+     <!-- Spoken description for Unicode code point U+1F58C: "🖌" LOWER LEFT PAINTBRUSH -->
+     <string name="spoken_emoji_1F58C">"왼쪽 하단을 향하고 있는 페인트 붓"</string>
+     <!-- Spoken description for Unicode code point U+1F58D: "🖍" LOWER LEFT CRAYON -->
+     <string name="spoken_emoji_1F58D">"왼쪽 하단을 향하고 있는 크레용"</string>
+     <!-- Spoken description for Unicode code point U+1F590: "🖐" RAISED HAND WITH FINGERS SPLAYED -->
+     <string name="spoken_emoji_1F590">"손가락을 벌리고 들어 올린 손"</string>
+     <!-- Spoken description for Unicode code point U+1F595: "🖕" REVERSED HAND WITH MIDDLE FINGER EXTENDED -->
+     <string name="spoken_emoji_1F595">"세 번째 손가락을 올린 손"</string>
+     <!-- Spoken description for Unicode code point U+1F596: "🖖" RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS -->
+     <string name="spoken_emoji_1F596">"세 번째 손가락과 약지 손가락 사이를 벌린 상태로 올린 손"</string>
+     <!-- Spoken description for Unicode code point U+1F5A5: "🖥" DESKTOP COMPUTER -->
+     <string name="spoken_emoji_1F5A5">"데스크톱 컴퓨터"</string>
+     <!-- Spoken description for Unicode code point U+1F5A8: "🖨" PRINTER -->
+     <string name="spoken_emoji_1F5A8">"프린터"</string>
+     <!-- Spoken description for Unicode code point U+1F5B1: "🖱" THREE BUTTON MOUSE -->
+     <string name="spoken_emoji_1F5B1">"3버튼 마우스"</string>
+     <!-- Spoken description for Unicode code point U+1F5B2: "🖲" TRACKBALL -->
+     <string name="spoken_emoji_1F5B2">"트랙 볼"</string>
+     <!-- Spoken description for Unicode code point U+1F5BC: "🖼" FRAME WITH PICTURE -->
+     <string name="spoken_emoji_1F5BC">"사진이 있는 프레임"</string>
+     <!-- Spoken description for Unicode code point U+1F5C2: "🗂" CARD INDEX DIVIDERS -->
+     <string name="spoken_emoji_1F5C2">"카드 색인 분리자"</string>
+     <!-- Spoken description for Unicode code point U+1F5C3: "🗃" CARD FILE BOX -->
+     <string name="spoken_emoji_1F5C3">"카드 파일 박스"</string>
+     <!-- Spoken description for Unicode code point U+1F5C4: "🗄" FILE CABINET -->
+     <string name="spoken_emoji_1F5C4">"파일 캐비닛"</string>
+     <!-- Spoken description for Unicode code point U+1F5D1: "🗑" WASTEBASKET -->
+     <string name="spoken_emoji_1F5D1">"휴지통"</string>
+     <!-- Spoken description for Unicode code point U+1F5D2: "🗒" SPIRAL NOTE PAD -->
+     <string name="spoken_emoji_1F5D2">"스프링 노트"</string>
+     <!-- Spoken description for Unicode code point U+1F5D3: "🗓" SPIRAL CALENDAR PAD -->
+     <string name="spoken_emoji_1F5D3">"스프링 달력"</string>
+     <!-- Spoken description for Unicode code point U+1F5DC: "🗜" COMPRESSION -->
+     <string name="spoken_emoji_1F5DC">"압축"</string>
+     <!-- Spoken description for Unicode code point U+1F5DD: "🗝" OLD KEY -->
+     <string name="spoken_emoji_1F5DD">"옛날식 열쇠"</string>
+     <!-- Spoken description for Unicode code point U+1F5DE: "🗞" ROLLED-UP NEWSPAPER -->
+     <string name="spoken_emoji_1F5DE">"말아올린 신문"</string>
+     <!-- Spoken description for Unicode code point U+1F5E1: "🗡" DAGGER KNIFE -->
+     <string name="spoken_emoji_1F5E1">"단검"</string>
+     <!-- Spoken description for Unicode code point U+1F5E3: "🗣" SPEAKING HEAD IN SILHOUETTE -->
+     <string name="spoken_emoji_1F5E3">"말하는 사람의 머리 실루엣"</string>
+     <!-- Spoken description for Unicode code point U+1F5EF: "🗯" RIGHT ANGER BUBBLE -->
+     <string name="spoken_emoji_1F5EF">"오른쪽 방향 말 풍선"</string>
+     <!-- Spoken description for Unicode code point U+1F5F3: "🗳" BALLOT BOX WITH BALLOT -->
+     <string name="spoken_emoji_1F5F3">"투표 용지와 투표 상자"</string>
+     <!-- Spoken description for Unicode code point U+1F5FA: "🗺" WORLD MAP -->
+     <string name="spoken_emoji_1F5FA">"세계 지도"</string>
+     <!-- Spoken description for Unicode code point U+1F5FB: "🗻" MOUNT FUJI -->
+     <string name="spoken_emoji_1F5FB">"후지 산"</string>
+     <!-- Spoken description for Unicode code point U+1F5FC: "🗼" TOKYO TOWER -->
+     <string name="spoken_emoji_1F5FC">"도쿄 타워"</string>
+     <!-- Spoken description for Unicode code point U+1F5FD: "🗽" STATUE OF LIBERTY -->
+     <string name="spoken_emoji_1F5FD">"자유의 여신상"</string>
+     <!-- Spoken description for Unicode code point U+1F5FE: "🗾" SILHOUETTE OF JAPAN -->
+     <string name="spoken_emoji_1F5FE">"일본의 실루엣"</string>
+     <!-- Spoken description for Unicode code point U+1F5FF: "🗿" MOYAI -->
+     <string name="spoken_emoji_1F5FF">"모아의 석상"</string>
+     <!-- Spoken description for Unicode code point U+1F600: "😀" GRINNING FACE -->
+     <string name="spoken_emoji_1F600">"이를 드러내고 활짝 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F601: "😁" GRINNING FACE WITH SMILING EYES -->
+     <string name="spoken_emoji_1F601">"미소 짓는 눈으로 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F602: "😂" FACE WITH TEARS OF JOY -->
+     <string name="spoken_emoji_1F602">"기쁨의 눈물을 흘리는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F603: "😃" SMILING FACE WITH OPEN MOUTH -->
+     <string name="spoken_emoji_1F603">"입을 벌리고 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F604: "😄" SMILING FACE WITH OPEN MOUTH AND SMILING EYES -->
+     <string name="spoken_emoji_1F604">"입을 벌리고 미소 짓는 눈으로 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F605: "😅" SMILING FACE WITH OPEN MOUTH AND COLD SWEAT -->
+     <string name="spoken_emoji_1F605">"입을 벌리고 식은땀을 흘리며 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F606: "😆" SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES -->
+     <string name="spoken_emoji_1F606">"입을 벌리고 눈을 꼭 감은 채로 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F607: "😇" SMILING FACE WITH HALO -->
+     <string name="spoken_emoji_1F607">"후광이 있는 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F608: "😈" SMILING FACE WITH HORNS -->
+     <string name="spoken_emoji_1F608">"뿔 달린 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F609: "😉" WINKING FACE -->
+     <string name="spoken_emoji_1F609">"윙크하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F60A: "😊" SMILING FACE WITH SMILING EYES -->
+     <string name="spoken_emoji_1F60A">"미소 짓는 눈으로 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F60B: "😋" FACE SAVOURING DELICIOUS FOOD -->
+     <string name="spoken_emoji_1F60B">"맛있는 음식을 음미하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F60C: "😌" RELIEVED FACE -->
+     <string name="spoken_emoji_1F60C">"안심하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F60D: "😍" SMILING FACE WITH HEART-SHAPED EYES -->
+     <string name="spoken_emoji_1F60D">"하트 눈으로 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F60E: "😎" SMILING FACE WITH SUNGLASSES -->
+     <string name="spoken_emoji_1F60E">"선글라스를 쓰고 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F60F: "😏" SMIRKING FACE -->
+     <string name="spoken_emoji_1F60F">"능글맞게 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F610: "😐" NEUTRAL FACE -->
+     <string name="spoken_emoji_1F610">"감정을 드러내지 않은 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F611: "😑" EXPRESSIONLESS FACE -->
+     <string name="spoken_emoji_1F611">"무표정한 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F612: "😒" UNAMUSED FACE -->
+     <string name="spoken_emoji_1F612">"지루해하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F613: "😓" FACE WITH COLD SWEAT -->
+     <string name="spoken_emoji_1F613">"식은땀 나는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F614: "😔" PENSIVE FACE -->
+     <string name="spoken_emoji_1F614">"사색에 잠긴 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F615: "😕" CONFUSED FACE -->
+     <string name="spoken_emoji_1F615">"혼란에 빠진 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F616: "😖" CONFOUNDED FACE -->
+     <string name="spoken_emoji_1F616">"당혹해하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F617: "😗" KISSING FACE -->
+     <string name="spoken_emoji_1F617">"키스하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F618: "😘" FACE THROWING A KISS -->
+     <string name="spoken_emoji_1F618">"키스를 날리는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F619: "😙" KISSING FACE WITH SMILING EYES -->
+     <string name="spoken_emoji_1F619">"미소 짓는 눈으로 키스하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F61A: "😚" KISSING FACE WITH CLOSED EYES -->
+     <string name="spoken_emoji_1F61A">"눈을 감은 채 키스하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F61B: "😛" FACE WITH STUCK-OUT TONGUE -->
+     <string name="spoken_emoji_1F61B">"메롱 하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F61C: "😜" FACE WITH STUCK-OUT TONGUE AND WINKING EYE -->
+     <string name="spoken_emoji_1F61C">"윙크하며 메롱 하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F61D: "😝" FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES -->
+     <string name="spoken_emoji_1F61D">"눈을 꼭 감은 채 메롱 하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F61E: "😞" DISAPPOINTED FACE -->
+     <string name="spoken_emoji_1F61E">"실망한 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F61F: "😟" WORRIED FACE -->
+     <string name="spoken_emoji_1F61F">"걱정하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F620: "😠" ANGRY FACE -->
+     <string name="spoken_emoji_1F620">"화난 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F621: "😡" POUTING FACE -->
+     <string name="spoken_emoji_1F621">"입을 삐죽 내민 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F622: "😢" CRYING FACE -->
+     <string name="spoken_emoji_1F622">"우는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F623: "😣" PERSEVERING FACE -->
+     <string name="spoken_emoji_1F623">"인내하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F624: "😤" FACE WITH LOOK OF TRIUMPH -->
+     <string name="spoken_emoji_1F624">"의기양양한 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F625: "😥" DISAPPOINTED BUT RELIEVED FACE -->
+     <string name="spoken_emoji_1F625">"실망하지만 안심하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F626: "😦" FROWNING FACE WITH OPEN MOUTH -->
+     <string name="spoken_emoji_1F626">"입을 벌리고 찡그리는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F627: "😧" ANGUISHED FACE -->
+     <string name="spoken_emoji_1F627">"고뇌에 찬 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F628: "😨" FEARFUL FACE -->
+     <string name="spoken_emoji_1F628">"두려워하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F629: "😩" WEARY FACE -->
+     <string name="spoken_emoji_1F629">"지친 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F62A: "😪" SLEEPY FACE -->
+     <string name="spoken_emoji_1F62A">"졸린 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F62B: "😫" TIRED FACE -->
+     <string name="spoken_emoji_1F62B">"피곤해하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F62C: "😬" GRIMACING FACE -->
+     <string name="spoken_emoji_1F62C">"찡그린 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F62D: "😭" LOUDLY CRYING FACE -->
+     <string name="spoken_emoji_1F62D">"엉엉 우는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F62E: "😮" FACE WITH OPEN MOUTH -->
+     <string name="spoken_emoji_1F62E">"입을 벌린 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F62F: "😯" HUSHED FACE -->
+     <string name="spoken_emoji_1F62F">"숨죽인 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F630: "😰" FACE WITH OPEN MOUTH AND COLD SWEAT -->
+     <string name="spoken_emoji_1F630">"입을 벌리고 식은땀 흘리는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F631: "😱" FACE SCREAMING IN FEAR -->
+     <string name="spoken_emoji_1F631">"공포의 비명을 지르는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F632: "😲" ASTONISHED FACE -->
+     <string name="spoken_emoji_1F632">"놀라는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F633: "😳" FLUSHED FACE -->
+     <string name="spoken_emoji_1F633">"빨개진 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F634: "😴" SLEEPING FACE -->
+     <string name="spoken_emoji_1F634">"잠자는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F635: "😵" DIZZY FACE -->
+     <string name="spoken_emoji_1F635">"어지러워하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F636: "😶" FACE WITHOUT MOUTH -->
+     <string name="spoken_emoji_1F636">"입이 없는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F637: "😷" FACE WITH MEDICAL MASK -->
+     <string name="spoken_emoji_1F637">"마스크를 한 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F638: "😸" GRINNING CAT FACE WITH SMILING EYES -->
+     <string name="spoken_emoji_1F638">"미소 짓는 눈으로 웃는 고양이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F639: "😹" CAT FACE WITH TEARS OF JOY -->
+     <string name="spoken_emoji_1F639">"기쁨의 눈물을 흘리는 고양이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F63A: "😺" SMILING CAT FACE WITH OPEN MOUTH -->
+     <string name="spoken_emoji_1F63A">"입을 벌리고 웃는 고양이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F63B: "😻" SMILING CAT FACE WITH HEART-SHAPED EYES -->
+     <string name="spoken_emoji_1F63B">"하트 눈으로 웃는 고양이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F63C: "😼" CAT FACE WITH WRY SMILE -->
+     <string name="spoken_emoji_1F63C">"쓴웃음을 짓는 고양이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F63D: "😽" KISSING CAT FACE WITH CLOSED EYES -->
+     <string name="spoken_emoji_1F63D">"눈을 감은 채 키스하는 고양이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F63E: "😾" POUTING CAT FACE -->
+     <string name="spoken_emoji_1F63E">"입을 삐죽 내민 고양이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F63F: "😿" CRYING CAT FACE -->
+     <string name="spoken_emoji_1F63F">"우는 고양이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F640: "🙀" WEARY CAT FACE -->
+     <string name="spoken_emoji_1F640">"지친 고양이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F641: "🙁" SLIGHTLY FROWNING FACE -->
+     <string name="spoken_emoji_1F641">"살짝 시무룩한 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F642: "🙂" SLIGHTLY SMILING FACE -->
+     <string name="spoken_emoji_1F642">"살짝 웃는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F643: "🙃" UPSIDE-DOWN FACE -->
+     <string name="spoken_emoji_1F643">"거꾸로된 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F644: "🙄" FACE WITH ROLLING EYES -->
+     <string name="spoken_emoji_1F644">"눈을 위로 굴리는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F645: "🙅" FACE WITH NO GOOD GESTURE -->
+     <string name="spoken_emoji_1F645">"안 된다는 신호를 하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F646: "🙆" FACE WITH OK GESTURE -->
+     <string name="spoken_emoji_1F646">"OK 신호를 하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F647: "🙇" PERSON BOWING DEEPLY -->
+     <string name="spoken_emoji_1F647">"절하는 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F648: "🙈" SEE-NO-EVIL MONKEY -->
+     <string name="spoken_emoji_1F648">"눈을 가린 원숭이"</string>
+     <!-- Spoken description for Unicode code point U+1F649: "🙉" HEAR-NO-EVIL MONKEY -->
+     <string name="spoken_emoji_1F649">"귀를 막은 원숭이"</string>
+     <!-- Spoken description for Unicode code point U+1F64A: "🙊" SPEAK-NO-EVIL MONKEY -->
+     <string name="spoken_emoji_1F64A">"입을 막은 원숭이"</string>
+     <!-- Spoken description for Unicode code point U+1F64B: "🙋" HAPPY PERSON RAISING ONE HAND -->
+     <string name="spoken_emoji_1F64B">"한 손을 든 행복한 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F64C: "🙌" PERSON RAISING BOTH HANDS IN CELEBRATION -->
+     <string name="spoken_emoji_1F64C">"두 손을 들고 축하하는 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F64D: "🙍" PERSON FROWNING -->
+     <string name="spoken_emoji_1F64D">"눈살을 찌푸린 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F64E: "🙎" PERSON WITH POUTING FACE -->
+     <string name="spoken_emoji_1F64E">"입을 삐죽 내민 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F64F: "🙏" PERSON WITH FOLDED HANDS -->
+     <string name="spoken_emoji_1F64F">"두 손을 모은 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F680: "🚀" ROCKET -->
+     <string name="spoken_emoji_1F680">"로켓"</string>
+     <!-- Spoken description for Unicode code point U+1F681: "🚁" HELICOPTER -->
+     <string name="spoken_emoji_1F681">"헬리콥터"</string>
+     <!-- Spoken description for Unicode code point U+1F682: "🚂" STEAM LOCOMOTIVE -->
+     <string name="spoken_emoji_1F682">"증기 기관차"</string>
+     <!-- Spoken description for Unicode code point U+1F683: "🚃" RAILWAY CAR -->
+     <string name="spoken_emoji_1F683">"철도 차량"</string>
+     <!-- Spoken description for Unicode code point U+1F684: "🚄" HIGH-SPEED TRAIN -->
+     <string name="spoken_emoji_1F684">"고속 열차"</string>
+     <!-- Spoken description for Unicode code point U+1F685: "🚅" HIGH-SPEED TRAIN WITH BULLET NOSE -->
+     <string name="spoken_emoji_1F685">"고속 탄환 열차"</string>
+     <!-- Spoken description for Unicode code point U+1F686: "🚆" TRAIN -->
+     <string name="spoken_emoji_1F686">"기차"</string>
+     <!-- Spoken description for Unicode code point U+1F687: "🚇" METRO -->
+     <string name="spoken_emoji_1F687">"지하철"</string>
+     <!-- Spoken description for Unicode code point U+1F688: "🚈" LIGHT RAIL -->
+     <string name="spoken_emoji_1F688">"경전철"</string>
+     <!-- Spoken description for Unicode code point U+1F689: "🚉" STATION -->
+     <string name="spoken_emoji_1F689">"역"</string>
+     <!-- Spoken description for Unicode code point U+1F68A: "🚊" TRAM -->
+     <string name="spoken_emoji_1F68A">"전차"</string>
+     <!-- Spoken description for Unicode code point U+1F68B: "🚋" TRAM CAR -->
+     <string name="spoken_emoji_1F68B">"전차 차량"</string>
+     <!-- Spoken description for Unicode code point U+1F68C: "🚌" BUS -->
+     <string name="spoken_emoji_1F68C">"버스"</string>
+     <!-- Spoken description for Unicode code point U+1F68D: "🚍" ONCOMING BUS -->
+     <string name="spoken_emoji_1F68D">"다가오는 버스"</string>
+     <!-- Spoken description for Unicode code point U+1F68E: "🚎" TROLLEYBUS -->
+     <string name="spoken_emoji_1F68E">"트롤리버스"</string>
+     <!-- Spoken description for Unicode code point U+1F68F: "🚏" BUS STOP -->
+     <string name="spoken_emoji_1F68F">"버스 정류장"</string>
+     <!-- Spoken description for Unicode code point U+1F690: "🚐" MINIBUS -->
+     <string name="spoken_emoji_1F690">"미니버스"</string>
+     <!-- Spoken description for Unicode code point U+1F691: "🚑" AMBULANCE -->
+     <string name="spoken_emoji_1F691">"구급차"</string>
+     <!-- Spoken description for Unicode code point U+1F692: "🚒" FIRE ENGINE -->
+     <string name="spoken_emoji_1F692">"소방차"</string>
+     <!-- Spoken description for Unicode code point U+1F693: "🚓" POLICE CAR -->
+     <string name="spoken_emoji_1F693">"경찰차"</string>
+     <!-- Spoken description for Unicode code point U+1F694: "🚔" ONCOMING POLICE CAR -->
+     <string name="spoken_emoji_1F694">"다가오는 경찰차"</string>
+     <!-- Spoken description for Unicode code point U+1F695: "🚕" TAXI -->
+     <string name="spoken_emoji_1F695">"택시"</string>
+     <!-- Spoken description for Unicode code point U+1F696: "🚖" ONCOMING TAXI -->
+     <string name="spoken_emoji_1F696">"다가오는 택시"</string>
+     <!-- Spoken description for Unicode code point U+1F697: "🚗" AUTOMOBILE -->
+     <string name="spoken_emoji_1F697">"자동차"</string>
+     <!-- Spoken description for Unicode code point U+1F698: "🚘" ONCOMING AUTOMOBILE -->
+     <string name="spoken_emoji_1F698">"다가오는 자동차"</string>
+     <!-- Spoken description for Unicode code point U+1F699: "🚙" RECREATIONAL VEHICLE -->
+     <string name="spoken_emoji_1F699">"SUV"</string>
+     <!-- Spoken description for Unicode code point U+1F69A: "🚚" DELIVERY TRUCK -->
+     <string name="spoken_emoji_1F69A">"배달 트럭"</string>
+     <!-- Spoken description for Unicode code point U+1F69B: "🚛" ARTICULATED LORRY -->
+     <string name="spoken_emoji_1F69B">"트레일러"</string>
+     <!-- Spoken description for Unicode code point U+1F69C: "🚜" TRACTOR -->
+     <string name="spoken_emoji_1F69C">"트랙터"</string>
+     <!-- Spoken description for Unicode code point U+1F69D: "🚝" MONORAIL -->
+     <string name="spoken_emoji_1F69D">"모노레일"</string>
+     <!-- Spoken description for Unicode code point U+1F69E: "🚞" MOUNTAIN RAILWAY -->
+     <string name="spoken_emoji_1F69E">"산악 기차"</string>
+     <!-- Spoken description for Unicode code point U+1F69F: "🚟" SUSPENSION RAILWAY -->
+     <string name="spoken_emoji_1F69F">"케이블카"</string>
+     <!-- Spoken description for Unicode code point U+1F6A0: "🚠" MOUNTAIN CABLEWAY -->
+     <string name="spoken_emoji_1F6A0">"산악용 케이블카"</string>
+     <!-- Spoken description for Unicode code point U+1F6A1: "🚡" AERIAL TRAMWAY -->
+     <string name="spoken_emoji_1F6A1">"공중 케이블카"</string>
+     <!-- Spoken description for Unicode code point U+1F6A2: "🚢" SHIP -->
+     <string name="spoken_emoji_1F6A2">"배"</string>
+     <!-- Spoken description for Unicode code point U+1F6A3: "🚣" ROWBOAT -->
+     <string name="spoken_emoji_1F6A3">"노 젓는 보트"</string>
+     <!-- Spoken description for Unicode code point U+1F6A4: "🚤" SPEEDBOAT -->
+     <string name="spoken_emoji_1F6A4">"모터보트"</string>
+     <!-- Spoken description for Unicode code point U+1F6A5: "🚥" HORIZONTAL TRAFFIC LIGHT -->
+     <string name="spoken_emoji_1F6A5">"가로 신호등"</string>
+     <!-- Spoken description for Unicode code point U+1F6A6: "🚦" VERTICAL TRAFFIC LIGHT -->
+     <string name="spoken_emoji_1F6A6">"세로 신호등"</string>
+     <!-- Spoken description for Unicode code point U+1F6A7: "🚧" CONSTRUCTION SIGN -->
+     <string name="spoken_emoji_1F6A7">"공사 표지"</string>
+     <!-- Spoken description for Unicode code point U+1F6A8: "🚨" POLICE CARS REVOLVING LIGHT -->
+     <string name="spoken_emoji_1F6A8">"경찰차 사이렌"</string>
+     <!-- Spoken description for Unicode code point U+1F6A9: "🚩" TRIANGULAR FLAG ON POST -->
+     <string name="spoken_emoji_1F6A9">"깃대에 있는 삼각 깃발"</string>
+     <!-- Spoken description for Unicode code point U+1F6AA: "🚪" DOOR -->
+     <string name="spoken_emoji_1F6AA">"문"</string>
+     <!-- Spoken description for Unicode code point U+1F6AB: "🚫" NO ENTRY SIGN -->
+     <string name="spoken_emoji_1F6AB">"출입 금지 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F6AC: "🚬" SMOKING SYMBOL -->
+     <string name="spoken_emoji_1F6AC">"흡연 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F6AD: "🚭" NO SMOKING SYMBOL -->
+     <string name="spoken_emoji_1F6AD">"금연 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F6AE: "🚮" PUT LITTER IN ITS PLACE SYMBOL -->
+     <string name="spoken_emoji_1F6AE">"쓰레기통 사용 권장 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F6AF: "🚯" DO NOT LITTER SYMBOL -->
+     <string name="spoken_emoji_1F6AF">"쓰레기 무단 투기 금지 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F6B0: "🚰" POTABLE WATER SYMBOL -->
+     <string name="spoken_emoji_1F6B0">"식수 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F6B1: "🚱" NON-POTABLE WATER SYMBOL -->
+     <string name="spoken_emoji_1F6B1">"식수 금지 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F6B2: "🚲" BICYCLE -->
+     <string name="spoken_emoji_1F6B2">"자전거"</string>
+     <!-- Spoken description for Unicode code point U+1F6B3: "🚳" NO BICYCLES -->
+     <string name="spoken_emoji_1F6B3">"자전거 금지"</string>
+     <!-- Spoken description for Unicode code point U+1F6B4: "🚴" BICYCLIST -->
+     <string name="spoken_emoji_1F6B4">"자전거 타는 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F6B5: "🚵" MOUNTAIN BICYCLIST -->
+     <string name="spoken_emoji_1F6B5">"산악자전거 타는 사람"</string>
+     <!-- Spoken description for Unicode code point U+1F6B6: "🚶" PEDESTRIAN -->
+     <string name="spoken_emoji_1F6B6">"보행자"</string>
+     <!-- Spoken description for Unicode code point U+1F6B7: "🚷" NO PEDESTRIANS -->
+     <string name="spoken_emoji_1F6B7">"보행 금지"</string>
+     <!-- Spoken description for Unicode code point U+1F6B8: "🚸" CHILDREN CROSSING -->
+     <string name="spoken_emoji_1F6B8">"길 건너는 어린이"</string>
+     <!-- Spoken description for Unicode code point U+1F6B9: "🚹" MENS SYMBOL -->
+     <string name="spoken_emoji_1F6B9">"남자 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F6BA: "🚺" WOMENS SYMBOL -->
+     <string name="spoken_emoji_1F6BA">"여자 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F6BB: "🚻" RESTROOM -->
+     <string name="spoken_emoji_1F6BB">"화장실"</string>
+     <!-- Spoken description for Unicode code point U+1F6BC: "🚼" BABY SYMBOL -->
+     <string name="spoken_emoji_1F6BC">"아기 기호"</string>
+     <!-- Spoken description for Unicode code point U+1F6BD: "🚽" TOILET -->
+     <string name="spoken_emoji_1F6BD">"변기"</string>
+     <!-- Spoken description for Unicode code point U+1F6BE: "🚾" WATER CLOSET -->
+     <string name="spoken_emoji_1F6BE">"WC"</string>
+     <!-- Spoken description for Unicode code point U+1F6BF: "🚿" SHOWER -->
+     <string name="spoken_emoji_1F6BF">"샤워"</string>
+     <!-- Spoken description for Unicode code point U+1F6C0: "🛀" BATH -->
+     <string name="spoken_emoji_1F6C0">"목욕"</string>
+     <!-- Spoken description for Unicode code point U+1F6C1: "🛁" BATHTUB -->
+     <string name="spoken_emoji_1F6C1">"욕조"</string>
+     <!-- Spoken description for Unicode code point U+1F6C2: "🛂" PASSPORT CONTROL -->
+     <string name="spoken_emoji_1F6C2">"출입국 관리"</string>
+     <!-- Spoken description for Unicode code point U+1F6C3: "🛃" CUSTOMS -->
+     <string name="spoken_emoji_1F6C3">"세관"</string>
+     <!-- Spoken description for Unicode code point U+1F6C4: "🛄" BAGGAGE CLAIM -->
+     <string name="spoken_emoji_1F6C4">"수하물"</string>
+     <!-- Spoken description for Unicode code point U+1F6C5: "🛅" LEFT LUGGAGE -->
+     <string name="spoken_emoji_1F6C5">"미수취 수하물"</string>
+     <!-- Spoken description for Unicode code point U+1F6CB: "🛋" COUCH AND LAMP -->
+     <string name="spoken_emoji_1F6CB">"소파와 램프"</string>
+     <!-- Spoken description for Unicode code point U+1F6CC: "🛌" SLEEPING ACCOMMODATION -->
+     <string name="spoken_emoji_1F6CC">"숙박"</string>
+     <!-- Spoken description for Unicode code point U+1F6CD: "🛍" SHOPPING BAGS -->
+     <string name="spoken_emoji_1F6CD">"쇼핑백"</string>
+     <!-- Spoken description for Unicode code point U+1F6CE: "🛎" BELLHOP BELL -->
+     <string name="spoken_emoji_1F6CE">"호출 벨"</string>
+     <!-- Spoken description for Unicode code point U+1F6CF: "🛏" BED -->
+     <string name="spoken_emoji_1F6CF">"침대"</string>
+     <!-- Spoken description for Unicode code point U+1F6D0: "🛐" PLACE OF WORSHIP -->
+     <string name="spoken_emoji_1F6D0">"기도 장소"</string>
+     <!-- Spoken description for Unicode code point U+1F6E0: "🛠" HAMMER AND WRENCH -->
+     <string name="spoken_emoji_1F6E0">"망치와 렌치"</string>
+     <!-- Spoken description for Unicode code point U+1F6E1: "🛡" SHIELD -->
+     <string name="spoken_emoji_1F6E1">"방패"</string>
+     <!-- Spoken description for Unicode code point U+1F6E2: "🛢" OIL DRUM -->
+     <string name="spoken_emoji_1F6E2">"기름통"</string>
+     <!-- Spoken description for Unicode code point U+1F6E3: "🛣" MOTORWAY -->
+     <string name="spoken_emoji_1F6E3">"고속도로"</string>
+     <!-- Spoken description for Unicode code point U+1F6E4: "🛤" RAILWAY TRACK -->
+     <string name="spoken_emoji_1F6E4">"레일 트럭"</string>
+     <!-- Spoken description for Unicode code point U+1F6E5: "🛥" MOTOR BOAT -->
+     <string name="spoken_emoji_1F6E5">"모터 보트"</string>
+     <!-- Spoken description for Unicode code point U+1F6E9: "🛩" SMALL AIRPLANE -->
+     <string name="spoken_emoji_1F6E9">"소형 비행기"</string>
+     <!-- Spoken description for Unicode code point U+1F6EB: "🛫" AIRPLANE DEPARTURE -->
+     <string name="spoken_emoji_1F6EB">"비행기 출발"</string>
+     <!-- Spoken description for Unicode code point U+1F6EC: "🛬" AIRPLANE ARRIVING -->
+     <string name="spoken_emoji_1F6EC">"비행기 도착"</string>
+     <!-- Spoken description for Unicode code point U+1F6F0: "🛰" SATELLITE -->
+     <string name="spoken_emoji_1F6F0">"위성"</string>
+     <!-- Spoken description for Unicode code point U+1F6F3: "🛳" PASSENGER SHIP -->
+     <string name="spoken_emoji_1F6F3">"여객선"</string>
+     <!-- Spoken description for Unicode code point U+1F910: "🤐" ZIPPER-MOUTH FACE -->
+     <string name="spoken_emoji_1F910">"입이 지퍼로 되어 있는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F911: "🤑" MONEY-MOUTH FACE -->
+     <string name="spoken_emoji_1F911">"돈 모양의 입이 있는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F912: "🤒" FACE WITH THERMOMETER -->
+     <string name="spoken_emoji_1F912">"체온계를 입에 문 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F913: "🤓" NERD FACE -->
+     <string name="spoken_emoji_1F913">"얼간이 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F914: "🤔" THINKING FACE -->
+     <string name="spoken_emoji_1F914">"생각 중인 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F915: "🤕" FACE WITH HEAD-BANDAGE -->
+     <string name="spoken_emoji_1F915">"머리에 붕대를 감은 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F916: "🤖" ROBOT FACE -->
+     <string name="spoken_emoji_1F916">"로봇 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F917: "🤗" HUGGING FACE -->
+     <string name="spoken_emoji_1F917">"포옹하는 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F918: "🤘" SIGN OF THE HORNS -->
+     <string name="spoken_emoji_1F918">"뿔 모양 손짓"</string>
+     <!-- Spoken description for Unicode code point U+1F980: "🦀" CRAB -->
+     <string name="spoken_emoji_1F980">"게"</string>
+     <!-- Spoken description for Unicode code point U+1F981: "🦁" LION FACE -->
+     <string name="spoken_emoji_1F981">"사자 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F982: "🦂" SCORPION -->
+     <string name="spoken_emoji_1F982">"전갈"</string>
+     <!-- Spoken description for Unicode code point U+1F983: "🦃" TURKEY -->
+     <string name="spoken_emoji_1F983">"칠면조"</string>
+     <!-- Spoken description for Unicode code point U+1F984: "🦄" UNICORN FACE -->
+     <string name="spoken_emoji_1F984">"유니콘 얼굴"</string>
+     <!-- Spoken description for Unicode code point U+1F9C0: "🧀" CHEESE WEDGE -->
+     <string name="spoken_emoji_1F9C0">"치즈 조각"</string>
+     <!-- Spoken description for Unicode code point sequence U+0023 U+20E3: "#⃣" KEYCAP NUMBER SIGN -->
+     <string name="spoken_emoji_0023_20E3">"키캡 숫자 기호"</string>
+     <!-- Spoken description for Unicode code point sequence U+002A U+20E3: "*⃣" KEYCAP ASTERISK -->
+     <string name="spoken_emoji_002A_20E3">"키캡 별표"</string>
+     <!-- Spoken description for Unicode code point sequence U+0030 U+20E3: "0⃣" KEYCAP DIGIT ZERO -->
+     <string name="spoken_emoji_0030_20E3">"키캡 숫자 0"</string>
+     <!-- Spoken description for Unicode code point sequence U+0031 U+20E3: "1⃣" KEYCAP DIGIT ONE -->
+     <string name="spoken_emoji_0031_20E3">"키캡 숫자 1"</string>
+     <!-- Spoken description for Unicode code point sequence U+0032 U+20E3: "2⃣" KEYCAP DIGIT TWO -->
+     <string name="spoken_emoji_0032_20E3">"키캡 숫자 2"</string>
+     <!-- Spoken description for Unicode code point sequence U+0033 U+20E3: "3⃣" KEYCAP DIGIT THREE -->
+     <string name="spoken_emoji_0033_20E3">"키캡 숫자 3"</string>
+     <!-- Spoken description for Unicode code point sequence U+0034 U+20E3: "4⃣" KEYCAP DIGIT FOUR -->
+     <string name="spoken_emoji_0034_20E3">"키캡 숫자 4"</string>
+     <!-- Spoken description for Unicode code point sequence U+0035 U+20E3: "5⃣" KEYCAP DIGIT FIVE -->
+     <string name="spoken_emoji_0035_20E3">"키캡 숫자 5"</string>
+     <!-- Spoken description for Unicode code point sequence U+0036 U+20E3: "6⃣" KEYCAP DIGIT SIX -->
+     <string name="spoken_emoji_0036_20E3">"키캡 숫자 6"</string>
+     <!-- Spoken description for Unicode code point sequence U+0037 U+20E3: "7⃣" KEYCAP DIGIT SEVEN -->
+     <string name="spoken_emoji_0037_20E3">"키캡 숫자 7"</string>
+     <!-- Spoken description for Unicode code point sequence U+0038 U+20E3: "8⃣" KEYCAP DIGIT EIGHT -->
+     <string name="spoken_emoji_0038_20E3">"키캡 숫자 8"</string>
+     <!-- Spoken description for Unicode code point sequence U+0039 U+20E3: "9⃣" KEYCAP DIGIT NINE -->
+     <string name="spoken_emoji_0039_20E3">"키캡 숫자 9"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1E8: "🇦🇨" FLAG FOR ASCENSION ISLAND -->
+     <string name="spoken_emoji_1F1E6_1F1E8">"어센션 섬 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1E9: "🇦🇩" FLAG FOR ANDORRA -->
+     <string name="spoken_emoji_1F1E6_1F1E9">"안도라 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1EA: "🇦🇪" FLAG FOR UNITED ARAB EMIRATES -->
+     <string name="spoken_emoji_1F1E6_1F1EA">"아랍에미리트연합국 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1EB: "🇦🇫" FLAG FOR AFGHANISTAN -->
+     <string name="spoken_emoji_1F1E6_1F1EB">"아프가니스탄 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1EC: "🇦🇬" FLAG FOR ANTIGUA & BARBUDA -->
+     <string name="spoken_emoji_1F1E6_1F1EC">"앤티가 바부다 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1EE: "🇦🇮" FLAG FOR ANGUILLA -->
+     <string name="spoken_emoji_1F1E6_1F1EE">"앵귈라 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F1: "🇦🇱" FLAG FOR ALBANIA -->
+     <string name="spoken_emoji_1F1E6_1F1F1">"알바니아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F2: "🇦🇲" FLAG FOR ARMENIA -->
+     <string name="spoken_emoji_1F1E6_1F1F2">"아르메니아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F4: "🇦🇴" FLAG FOR ANGOLA -->
+     <string name="spoken_emoji_1F1E6_1F1F4">"앙골라 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F6: "🇦🇶" FLAG FOR ANTARCTICA -->
+     <string name="spoken_emoji_1F1E6_1F1F6">"남극 대륙 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F7: "🇦🇷" FLAG FOR ARGENTINA -->
+     <string name="spoken_emoji_1F1E6_1F1F7">"아르헨티나 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F8: "🇦🇸" FLAG FOR AMERICAN SAMOA -->
+     <string name="spoken_emoji_1F1E6_1F1F8">"미국령 사모아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F9: "🇦🇹" FLAG FOR AUSTRIA -->
+     <string name="spoken_emoji_1F1E6_1F1F9">"오스트리아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1FA: "🇦🇺" FLAG FOR AUSTRALIA -->
+     <string name="spoken_emoji_1F1E6_1F1FA">"오스트레일리아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1FC: "🇦🇼" FLAG FOR ARUBA -->
+     <string name="spoken_emoji_1F1E6_1F1FC">"아루바 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1FD: "🇦🇽" FLAG FOR ÅLAND ISLANDS -->
+     <string name="spoken_emoji_1F1E6_1F1FD">"올란드 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1FF: "🇦🇿" FLAG FOR AZERBAIJAN -->
+     <string name="spoken_emoji_1F1E6_1F1FF">"아제르바이잔 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1E6: "🇧🇦" FLAG FOR BOSNIA & HERZEGOVINA -->
+     <string name="spoken_emoji_1F1E7_1F1E6">"보스니아 헤르체고비나 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1E7: "🇧🇧" FLAG FOR BARBADOS -->
+     <string name="spoken_emoji_1F1E7_1F1E7">"바베이도스 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1E9: "🇧🇩" FLAG FOR BANGLADESH -->
+     <string name="spoken_emoji_1F1E7_1F1E9">"방글라데시 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1EA: "🇧🇪" FLAG FOR BELGIUM -->
+     <string name="spoken_emoji_1F1E7_1F1EA">"벨기에 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1EB: "🇧🇫" FLAG FOR BURKINA FASO -->
+     <string name="spoken_emoji_1F1E7_1F1EB">"부르키나파소 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1EC: "🇧🇬" FLAG FOR BULGARIA -->
+     <string name="spoken_emoji_1F1E7_1F1EC">"불가리아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1ED: "🇧🇭" FLAG FOR BAHRAIN -->
+     <string name="spoken_emoji_1F1E7_1F1ED">"바레인 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1EE: "🇧🇮" FLAG FOR BURUNDI -->
+     <string name="spoken_emoji_1F1E7_1F1EE">"부룬디 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1EF: "🇧🇯" FLAG FOR BENIN -->
+     <string name="spoken_emoji_1F1E7_1F1EF">"베냉 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F1: "🇧🇱" FLAG FOR ST. BARTHÉLEMY -->
+     <string name="spoken_emoji_1F1E7_1F1F1">"세인트 바르텔레미 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F2: "🇧🇲" FLAG FOR BERMUDA -->
+     <string name="spoken_emoji_1F1E7_1F1F2">"버뮤다 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F3: "🇧🇳" FLAG FOR BRUNEI -->
+     <string name="spoken_emoji_1F1E7_1F1F3">"브루나이 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F4: "🇧🇴" FLAG FOR BOLIVIA -->
+     <string name="spoken_emoji_1F1E7_1F1F4">"볼리비아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F6: "🇧🇶" FLAG FOR CARIBBEAN NETHERLANDS -->
+     <string name="spoken_emoji_1F1E7_1F1F6">"네덜란드령 카리브 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F7: "🇧🇷" FLAG FOR BRAZIL -->
+     <string name="spoken_emoji_1F1E7_1F1F7">"브라질 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F8: "🇧🇸" FLAG FOR BAHAMAS -->
+     <string name="spoken_emoji_1F1E7_1F1F8">"바하마 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F9: "🇧🇹" FLAG FOR BHUTAN -->
+     <string name="spoken_emoji_1F1E7_1F1F9">"부탄 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1FB: "🇧🇻" FLAG FOR BOUVET ISLAND -->
+     <string name="spoken_emoji_1F1E7_1F1FB">"부베이 섬 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1FC: "🇧🇼" FLAG FOR BOTSWANA -->
+     <string name="spoken_emoji_1F1E7_1F1FC">"보츠와나 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1FE: "🇧🇾" FLAG FOR BELARUS -->
+     <string name="spoken_emoji_1F1E7_1F1FE">"벨라루스 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1FF: "🇧🇿" FLAG FOR BELIZE -->
+     <string name="spoken_emoji_1F1E7_1F1FF">"벨리즈 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1E6: "🇨🇦" FLAG FOR CANADA -->
+     <string name="spoken_emoji_1F1E8_1F1E6">"캐나다 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1E8: "🇨🇨" FLAG FOR COCOS ISLANDS -->
+     <string name="spoken_emoji_1F1E8_1F1E8">"코코스 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1E9: "🇨🇩" FLAG FOR CONGO - KINSHASA -->
+     <string name="spoken_emoji_1F1E8_1F1E9">"콩고 - 킨샤샤 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1EB: "🇨🇫" FLAG FOR CENTRAL AFRICAN REPUBLIC -->
+     <string name="spoken_emoji_1F1E8_1F1EB">"중앙 아프리카 공화국 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1EC: "🇨🇬" FLAG FOR CONGO - BRAZZAVILLE -->
+     <string name="spoken_emoji_1F1E8_1F1EC">"콩고 - 브라자빌 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1ED: "🇨🇭" FLAG FOR SWITZERLAND -->
+     <string name="spoken_emoji_1F1E8_1F1ED">"스위스 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1EE: "🇨🇮" FLAG FOR CÔTE D'IVOIRE -->
+     <string name="spoken_emoji_1F1E8_1F1EE">"코트디부아르 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F0: "🇨🇰" FLAG FOR COOK ISLANDS -->
+     <string name="spoken_emoji_1F1E8_1F1F0">"쿡 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F1: "🇨🇱" FLAG FOR CHILE -->
+     <string name="spoken_emoji_1F1E8_1F1F1">"칠레 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F2: "🇨🇲" FLAG FOR CAMEROON -->
+     <string name="spoken_emoji_1F1E8_1F1F2">"카메룬 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F3: "🇨🇳" FLAG FOR CHINA -->
+     <string name="spoken_emoji_1F1E8_1F1F3">"중국 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F4: "🇨🇴" FLAG FOR COLOMBIA -->
+     <string name="spoken_emoji_1F1E8_1F1F4">"콜롬비아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F5: "🇨🇵" FLAG FOR CLIPPERTON ISLAND -->
+     <string name="spoken_emoji_1F1E8_1F1F5">"클립퍼튼 섬 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F7: "🇨🇷" FLAG FOR COSTA RICA -->
+     <string name="spoken_emoji_1F1E8_1F1F7">"코스타리카 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1FA: "🇨🇺" FLAG FOR CUBA -->
+     <string name="spoken_emoji_1F1E8_1F1FA">"쿠바 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1FB: "🇨🇻" FLAG FOR CAPE VERDE -->
+     <string name="spoken_emoji_1F1E8_1F1FB">"카보베르데 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1FC: "🇨🇼" FLAG FOR CURAÇAO -->
+     <string name="spoken_emoji_1F1E8_1F1FC">"퀴라소 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1FD: "🇨🇽" FLAG FOR CHRISTMAS ISLAND -->
+     <string name="spoken_emoji_1F1E8_1F1FD">"크리스마스 섬 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1FE: "🇨🇾" FLAG FOR CYPRUS -->
+     <string name="spoken_emoji_1F1E8_1F1FE">"키프로스 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1FF: "🇨🇿" FLAG FOR CZECH REPUBLIC -->
+     <string name="spoken_emoji_1F1E8_1F1FF">"체코 공화국 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1EA: "🇩🇪" FLAG FOR GERMANY -->
+     <string name="spoken_emoji_1F1E9_1F1EA">"독일 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1EC: "🇩🇬" FLAG FOR DIEGO GARCIA -->
+     <string name="spoken_emoji_1F1E9_1F1EC">"디에고 가르시아 섬 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1EF: "🇩🇯" FLAG FOR DJIBOUTI -->
+     <string name="spoken_emoji_1F1E9_1F1EF">"지부티 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1F0: "🇩🇰" FLAG FOR DENMARK -->
+     <string name="spoken_emoji_1F1E9_1F1F0">"덴마크 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1F2: "🇩🇲" FLAG FOR DOMINICA -->
+     <string name="spoken_emoji_1F1E9_1F1F2">"도미니카 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1F4: "🇩🇴" FLAG FOR DOMINICAN REPUBLIC -->
+     <string name="spoken_emoji_1F1E9_1F1F4">"도미니카 공화국 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1FF: "🇩🇿" FLAG FOR ALGERIA -->
+     <string name="spoken_emoji_1F1E9_1F1FF">"알제리 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1E6: "🇪🇦" FLAG FOR CEUTA & MELILLA -->
+     <string name="spoken_emoji_1F1EA_1F1E6">"세우타 멜리아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1E8: "🇪🇨" FLAG FOR ECUADOR -->
+     <string name="spoken_emoji_1F1EA_1F1E8">"에콰도르 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1EA: "🇪🇪" FLAG FOR ESTONIA -->
+     <string name="spoken_emoji_1F1EA_1F1EA">"에스토니아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1EC: "🇪🇬" FLAG FOR EGYPT -->
+     <string name="spoken_emoji_1F1EA_1F1EC">"이집트 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1ED: "🇪🇭" FLAG FOR WESTERN SAHARA -->
+     <string name="spoken_emoji_1F1EA_1F1ED">"서사하라 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1F7: "🇪🇷" FLAG FOR ERITREA -->
+     <string name="spoken_emoji_1F1EA_1F1F7">"에리트레아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1F8: "🇪🇸" FLAG FOR SPAIN -->
+     <string name="spoken_emoji_1F1EA_1F1F8">"스페인 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1F9: "🇪🇹" FLAG FOR ETHIOPIA -->
+     <string name="spoken_emoji_1F1EA_1F1F9">"에티오피아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1FA: "🇪🇺" FLAG FOR EUROPEAN UNION -->
+     <string name="spoken_emoji_1F1EA_1F1FA">"유럽 연합 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EB U+1F1EE: "🇫🇮" FLAG FOR FINLAND -->
+     <string name="spoken_emoji_1F1EB_1F1EE">"핀란드 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EB U+1F1EF: "🇫🇯" FLAG FOR FIJI -->
+     <string name="spoken_emoji_1F1EB_1F1EF">"피지 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EB U+1F1F0: "🇫🇰" FLAG FOR FALKLAND ISLANDS -->
+     <string name="spoken_emoji_1F1EB_1F1F0">"포클랜드 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EB U+1F1F2: "🇫🇲" FLAG FOR MICRONESIA -->
+     <string name="spoken_emoji_1F1EB_1F1F2">"미크로네시아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EB U+1F1F4: "🇫🇴" FLAG FOR FAROE ISLANDS -->
+     <string name="spoken_emoji_1F1EB_1F1F4">"페로 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EB U+1F1F7: "🇫🇷" FLAG FOR FRANCE -->
+     <string name="spoken_emoji_1F1EB_1F1F7">"프랑스 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1E6: "🇬🇦" FLAG FOR GABON -->
+     <string name="spoken_emoji_1F1EC_1F1E6">"가봉 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1E7: "🇬🇧" FLAG FOR UNITED KINGDOM -->
+     <string name="spoken_emoji_1F1EC_1F1E7">"영국 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1E9: "🇬🇩" FLAG FOR GRENADA -->
+     <string name="spoken_emoji_1F1EC_1F1E9">"그레나다 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1EA: "🇬🇪" FLAG FOR GEORGIA -->
+     <string name="spoken_emoji_1F1EC_1F1EA">"조지아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1EB: "🇬🇫" FLAG FOR FRENCH GUIANA -->
+     <string name="spoken_emoji_1F1EC_1F1EB">"프랑스령 기아나 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1EC: "🇬🇬" FLAG FOR GUERNSEY -->
+     <string name="spoken_emoji_1F1EC_1F1EC">"건지 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1ED: "🇬🇭" FLAG FOR GHANA -->
+     <string name="spoken_emoji_1F1EC_1F1ED">"가나 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1EE: "🇬🇮" FLAG FOR GIBRALTAR -->
+     <string name="spoken_emoji_1F1EC_1F1EE">"지브롤터 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F1: "🇬🇱" FLAG FOR GREENLAND -->
+     <string name="spoken_emoji_1F1EC_1F1F1">"그린란드 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F2: "🇬🇲" FLAG FOR GAMBIA -->
+     <string name="spoken_emoji_1F1EC_1F1F2">"감비아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F3: "🇬🇳" FLAG FOR GUINEA -->
+     <string name="spoken_emoji_1F1EC_1F1F3">"기니 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F5: "🇬🇵" FLAG FOR GUADELOUPE -->
+     <string name="spoken_emoji_1F1EC_1F1F5">"과들루프 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F6: "🇬🇶" FLAG FOR EQUATORIAL GUINEA -->
+     <string name="spoken_emoji_1F1EC_1F1F6">"적도 기니 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F7: "🇬🇷" FLAG FOR GREECE -->
+     <string name="spoken_emoji_1F1EC_1F1F7">"그리스 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F8: "🇬🇸" FLAG FOR SOUTH GEORGIA & SOUTH SANDWICH ISLANDS -->
+     <string name="spoken_emoji_1F1EC_1F1F8">"사우스 조지아 및 사우스 샌드위치 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F9: "🇬🇹" FLAG FOR GUATEMALA -->
+     <string name="spoken_emoji_1F1EC_1F1F9">"과테말라 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1FA: "🇬🇺" FLAG FOR GUAM -->
+     <string name="spoken_emoji_1F1EC_1F1FA">"괌 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1FC: "🇬🇼" FLAG FOR GUINEA-BISSAU -->
+     <string name="spoken_emoji_1F1EC_1F1FC">"기니비사우 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1FE: "🇬🇾" FLAG FOR GUYANA -->
+     <string name="spoken_emoji_1F1EC_1F1FE">"가이아나 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1ED U+1F1F0: "🇭🇰" FLAG FOR HONG KONG -->
+     <string name="spoken_emoji_1F1ED_1F1F0">"홍콩 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1ED U+1F1F2: "🇭🇲" FLAG FOR HEARD & MCDONALD ISLANDS -->
+     <string name="spoken_emoji_1F1ED_1F1F2">"허드 섬 및 맥도널드 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1ED U+1F1F3: "🇭🇳" FLAG FOR HONDURAS -->
+     <string name="spoken_emoji_1F1ED_1F1F3">"온두라스 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1ED U+1F1F7: "🇭🇷" FLAG FOR CROATIA -->
+     <string name="spoken_emoji_1F1ED_1F1F7">"크로아티아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1ED U+1F1F9: "🇭🇹" FLAG FOR HAITI -->
+     <string name="spoken_emoji_1F1ED_1F1F9">"아이티 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1ED U+1F1FA: "🇭🇺" FLAG FOR HUNGARY -->
+     <string name="spoken_emoji_1F1ED_1F1FA">"헝가리 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1E8: "🇮🇨" FLAG FOR CANARY ISLANDS -->
+     <string name="spoken_emoji_1F1EE_1F1E8">"카나리아 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1E9: "🇮🇩" FLAG FOR INDONESIA -->
+     <string name="spoken_emoji_1F1EE_1F1E9">"인도네시아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1EA: "🇮🇪" FLAG FOR IRELAND -->
+     <string name="spoken_emoji_1F1EE_1F1EA">"아일랜드 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F1: "🇮🇱" FLAG FOR ISRAEL -->
+     <string name="spoken_emoji_1F1EE_1F1F1">"이스라엘 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F2: "🇮🇲" FLAG FOR ISLE OF MAN -->
+     <string name="spoken_emoji_1F1EE_1F1F2">"맨 섬 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F3: "🇮🇳" FLAG FOR INDIA -->
+     <string name="spoken_emoji_1F1EE_1F1F3">"인도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F4: "🇮🇴" FLAG FOR BRITISH INDIAN OCEAN TERRITORY -->
+     <string name="spoken_emoji_1F1EE_1F1F4">"영국령 인도양 식민지 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F6: "🇮🇶" FLAG FOR IRAQ -->
+     <string name="spoken_emoji_1F1EE_1F1F6">"이라크 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F7: "🇮🇷" FLAG FOR IRAN -->
+     <string name="spoken_emoji_1F1EE_1F1F7">"이란 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F8: "🇮🇸" FLAG FOR ICELAND -->
+     <string name="spoken_emoji_1F1EE_1F1F8">"아이슬란드 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F9: "🇮🇹" FLAG FOR ITALY -->
+     <string name="spoken_emoji_1F1EE_1F1F9">"이탈리아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EF U+1F1EA: "🇯🇪" FLAG FOR JERSEY -->
+     <string name="spoken_emoji_1F1EF_1F1EA">"저지 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EF U+1F1F2: "🇯🇲" FLAG FOR JAMAICA -->
+     <string name="spoken_emoji_1F1EF_1F1F2">"자메이카 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EF U+1F1F4: "🇯🇴" FLAG FOR JORDAN -->
+     <string name="spoken_emoji_1F1EF_1F1F4">"요르단 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EF U+1F1F5: "🇯🇵" FLAG FOR JAPAN -->
+     <string name="spoken_emoji_1F1EF_1F1F5">"일본 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1EA: "🇰🇪" FLAG FOR KENYA -->
+     <string name="spoken_emoji_1F1F0_1F1EA">"케냐 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1EC: "🇰🇬" FLAG FOR KYRGYZSTAN -->
+     <string name="spoken_emoji_1F1F0_1F1EC">"키르기스스탄 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1ED: "🇰🇭" FLAG FOR CAMBODIA -->
+     <string name="spoken_emoji_1F1F0_1F1ED">"캄보디아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1EE: "🇰🇮" FLAG FOR KIRIBATI -->
+     <string name="spoken_emoji_1F1F0_1F1EE">"키리바시 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1F2: "🇰🇲" FLAG FOR COMOROS -->
+     <string name="spoken_emoji_1F1F0_1F1F2">"코모로 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1F3: "🇰🇳" FLAG FOR ST. KITTS & NEVIS -->
+     <string name="spoken_emoji_1F1F0_1F1F3">"세인트 크리스토퍼 네비스 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1F5: "🇰🇵" FLAG FOR NORTH KOREA -->
+     <string name="spoken_emoji_1F1F0_1F1F5">"북한 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1F7: "🇰🇷" FLAG FOR SOUTH KOREA -->
+     <string name="spoken_emoji_1F1F0_1F1F7">"대한민국 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1FC: "🇰🇼" FLAG FOR KUWAIT -->
+     <string name="spoken_emoji_1F1F0_1F1FC">"쿠웨이트 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1FE: "🇰🇾" FLAG FOR CAYMAN ISLANDS -->
+     <string name="spoken_emoji_1F1F0_1F1FE">"케이맨 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1FF: "🇰🇿" FLAG FOR KAZAKHSTAN -->
+     <string name="spoken_emoji_1F1F0_1F1FF">"카자흐스탄 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1E6: "🇱🇦" FLAG FOR LAOS -->
+     <string name="spoken_emoji_1F1F1_1F1E6">"라오스 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1E7: "🇱🇧" FLAG FOR LEBANON -->
+     <string name="spoken_emoji_1F1F1_1F1E7">"레바논 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1E8: "🇱🇨" FLAG FOR ST. LUCIA -->
+     <string name="spoken_emoji_1F1F1_1F1E8">"세인트 루시아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1EE: "🇱🇮" FLAG FOR LIECHTENSTEIN -->
+     <string name="spoken_emoji_1F1F1_1F1EE">"리히텐슈타인 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1F0: "🇱🇰" FLAG FOR SRI LANKA -->
+     <string name="spoken_emoji_1F1F1_1F1F0">"스리랑카 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1F7: "🇱🇷" FLAG FOR LIBERIA -->
+     <string name="spoken_emoji_1F1F1_1F1F7">"라이베리아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1F8: "🇱🇸" FLAG FOR LESOTHO -->
+     <string name="spoken_emoji_1F1F1_1F1F8">"레소토 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1F9: "🇱🇹" FLAG FOR LITHUANIA -->
+     <string name="spoken_emoji_1F1F1_1F1F9">"리투아니아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1FA: "🇱🇺" FLAG FOR LUXEMBOURG -->
+     <string name="spoken_emoji_1F1F1_1F1FA">"룩셈부르크 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1FB: "🇱🇻" FLAG FOR LATVIA -->
+     <string name="spoken_emoji_1F1F1_1F1FB">"라트비아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1FE: "🇱🇾" FLAG FOR LIBYA -->
+     <string name="spoken_emoji_1F1F1_1F1FE">"리비아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1E6: "🇲🇦" FLAG FOR MOROCCO -->
+     <string name="spoken_emoji_1F1F2_1F1E6">"모로코 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1E8: "🇲🇨" FLAG FOR MONACO -->
+     <string name="spoken_emoji_1F1F2_1F1E8">"모나코 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1E9: "🇲🇩" FLAG FOR MOLDOVA -->
+     <string name="spoken_emoji_1F1F2_1F1E9">"몰도바 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1EA: "🇲🇪" FLAG FOR MONTENEGRO -->
+     <string name="spoken_emoji_1F1F2_1F1EA">"몬테네그로 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1EB: "🇲🇫" FLAG FOR ST. MARTIN -->
+     <string name="spoken_emoji_1F1F2_1F1EB">"세인트 마틴 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1EC: "🇲🇬" FLAG FOR MADAGASCAR -->
+     <string name="spoken_emoji_1F1F2_1F1EC">"마다가스카르 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1ED: "🇲🇭" FLAG FOR MARSHALL ISLANDS -->
+     <string name="spoken_emoji_1F1F2_1F1ED">"마셸 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F0: "🇲🇰" FLAG FOR MACEDONIA -->
+     <string name="spoken_emoji_1F1F2_1F1F0">"마케도니아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F1: "🇲🇱" FLAG FOR MALI -->
+     <string name="spoken_emoji_1F1F2_1F1F1">"말리 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F2: "🇲🇲" FLAG FOR MYANMAR -->
+     <string name="spoken_emoji_1F1F2_1F1F2">"미얀마 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F3: "🇲🇳" FLAG FOR MONGOLIA -->
+     <string name="spoken_emoji_1F1F2_1F1F3">"몽골 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F4: "🇲🇴" FLAG FOR MACAU -->
+     <string name="spoken_emoji_1F1F2_1F1F4">"마카오 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F5: "🇲🇵" FLAG FOR NORTHERN MARIANA ISLANDS -->
+     <string name="spoken_emoji_1F1F2_1F1F5">"북마리아나 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F6: "🇲🇶" FLAG FOR MARTINIQUE -->
+     <string name="spoken_emoji_1F1F2_1F1F6">"마르티니크 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F7: "🇲🇷" FLAG FOR MAURITANIA -->
+     <string name="spoken_emoji_1F1F2_1F1F7">"모리타니 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F8: "🇲🇸" FLAG FOR MONTSERRAT -->
+     <string name="spoken_emoji_1F1F2_1F1F8">"몬트세라트 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F9: "🇲🇹" FLAG FOR MALTA -->
+     <string name="spoken_emoji_1F1F2_1F1F9">"말타 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1FA: "🇲🇺" FLAG FOR MAURITIUS -->
+     <string name="spoken_emoji_1F1F2_1F1FA">"모리셔스 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1FB: "🇲🇻" FLAG FOR MALDIVES -->
+     <string name="spoken_emoji_1F1F2_1F1FB">"몰디브 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1FC: "🇲🇼" FLAG FOR MALAWI -->
+     <string name="spoken_emoji_1F1F2_1F1FC">"말라위 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1FD: "🇲🇽" FLAG FOR MEXICO -->
+     <string name="spoken_emoji_1F1F2_1F1FD">"멕시코 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1FE: "🇲🇾" FLAG FOR MALAYSIA -->
+     <string name="spoken_emoji_1F1F2_1F1FE">"말레이시아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1FF: "🇲🇿" FLAG FOR MOZAMBIQUE -->
+     <string name="spoken_emoji_1F1F2_1F1FF">"모잠비크 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1E6: "🇳🇦" FLAG FOR NAMIBIA -->
+     <string name="spoken_emoji_1F1F3_1F1E6">"나미비아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1E8: "🇳🇨" FLAG FOR NEW CALEDONIA -->
+     <string name="spoken_emoji_1F1F3_1F1E8">"뉴칼레도니아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1EA: "🇳🇪" FLAG FOR NIGER -->
+     <string name="spoken_emoji_1F1F3_1F1EA">"니제르 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1EB: "🇳🇫" FLAG FOR NORFOLK ISLAND -->
+     <string name="spoken_emoji_1F1F3_1F1EB">"노퍽 섬 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1EC: "🇳🇬" FLAG FOR NIGERIA -->
+     <string name="spoken_emoji_1F1F3_1F1EC">"나이지리아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1EE: "🇳🇮" FLAG FOR NICARAGUA -->
+     <string name="spoken_emoji_1F1F3_1F1EE">"니카라과 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1F1: "🇳🇱" FLAG FOR NETHERLANDS -->
+     <string name="spoken_emoji_1F1F3_1F1F1">"네덜란드 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1F4: "🇳🇴" FLAG FOR NORWAY -->
+     <string name="spoken_emoji_1F1F3_1F1F4">"노르웨이 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1F5: "🇳🇵" FLAG FOR NEPAL -->
+     <string name="spoken_emoji_1F1F3_1F1F5">"네팔 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1F7: "🇳🇷" FLAG FOR NAURU -->
+     <string name="spoken_emoji_1F1F3_1F1F7">"나우루 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1FA: "🇳🇺" FLAG FOR NIUE -->
+     <string name="spoken_emoji_1F1F3_1F1FA">"니우에 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1FF: "🇳🇿" FLAG FOR NEW ZEALAND -->
+     <string name="spoken_emoji_1F1F3_1F1FF">"뉴질랜드 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F4 U+1F1F2: "🇴🇲" FLAG FOR OMAN -->
+     <string name="spoken_emoji_1F1F4_1F1F2">"오만 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1E6: "🇵🇦" FLAG FOR PANAMA -->
+     <string name="spoken_emoji_1F1F5_1F1E6">"파나마 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1EA: "🇵🇪" FLAG FOR PERU -->
+     <string name="spoken_emoji_1F1F5_1F1EA">"페루 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1EB: "🇵🇫" FLAG FOR FRENCH POLYNESIA -->
+     <string name="spoken_emoji_1F1F5_1F1EB">"프랑스령 폴리네시아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1EC: "🇵🇬" FLAG FOR PAPUA NEW GUINEA -->
+     <string name="spoken_emoji_1F1F5_1F1EC">"파푸아뉴기니 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1ED: "🇵🇭" FLAG FOR PHILIPPINES -->
+     <string name="spoken_emoji_1F1F5_1F1ED">"필리핀 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F0: "🇵🇰" FLAG FOR PAKISTAN -->
+     <string name="spoken_emoji_1F1F5_1F1F0">"파키스탄 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F1: "🇵🇱" FLAG FOR POLAND -->
+     <string name="spoken_emoji_1F1F5_1F1F1">"폴란드 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F2: "🇵🇲" FLAG FOR ST. PIERRE & MIQUELON -->
+     <string name="spoken_emoji_1F1F5_1F1F2">"생피에르앤드미클롱 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F3: "🇵🇳" FLAG FOR PITCAIRN ISLANDS -->
+     <string name="spoken_emoji_1F1F5_1F1F3">"핏케언 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F7: "🇵🇷" FLAG FOR PUERTO RICO -->
+     <string name="spoken_emoji_1F1F5_1F1F7">"푸에르토리코 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F8: "🇵🇸" FLAG FOR PALESTINIAN TERRITORIES -->
+     <string name="spoken_emoji_1F1F5_1F1F8">"팔레스타인 자치 정부 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F9: "🇵🇹" FLAG FOR PORTUGAL -->
+     <string name="spoken_emoji_1F1F5_1F1F9">"포르투갈 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1FC: "🇵🇼" FLAG FOR PALAU -->
+     <string name="spoken_emoji_1F1F5_1F1FC">"팔라우 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1FE: "🇵🇾" FLAG FOR PARAGUAY -->
+     <string name="spoken_emoji_1F1F5_1F1FE">"파라과이 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F6 U+1F1E6: "🇶🇦" FLAG FOR QATAR -->
+     <string name="spoken_emoji_1F1F6_1F1E6">"카타르 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F7 U+1F1EA: "🇷🇪" FLAG FOR RÉUNION -->
+     <string name="spoken_emoji_1F1F7_1F1EA">"리유니언 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F7 U+1F1F4: "🇷🇴" FLAG FOR ROMANIA -->
+     <string name="spoken_emoji_1F1F7_1F1F4">"루마니아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F7 U+1F1F8: "🇷🇸" FLAG FOR SERBIA -->
+     <string name="spoken_emoji_1F1F7_1F1F8">"세르비아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F7 U+1F1FA: "🇷🇺" FLAG FOR RUSSIA -->
+     <string name="spoken_emoji_1F1F7_1F1FA">"러시아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F7 U+1F1FC: "🇷🇼" FLAG FOR RWANDA -->
+     <string name="spoken_emoji_1F1F7_1F1FC">"르완다 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1E6: "🇸🇦" FLAG FOR SAUDI ARABIA -->
+     <string name="spoken_emoji_1F1F8_1F1E6">"사우디아라비아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1E7: "🇸🇧" FLAG FOR SOLOMON ISLANDS -->
+     <string name="spoken_emoji_1F1F8_1F1E7">"솔로몬 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1E8: "🇸🇨" FLAG FOR SEYCHELLES -->
+     <string name="spoken_emoji_1F1F8_1F1E8">"세이셸 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1E9: "🇸🇩" FLAG FOR SUDAN -->
+     <string name="spoken_emoji_1F1F8_1F1E9">"수단 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1EA: "🇸🇪" FLAG FOR SWEDEN -->
+     <string name="spoken_emoji_1F1F8_1F1EA">"스웨덴 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1EC: "🇸🇬" FLAG FOR SINGAPORE -->
+     <string name="spoken_emoji_1F1F8_1F1EC">"싱가포르 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1ED: "🇸🇭" FLAG FOR ST. HELENA -->
+     <string name="spoken_emoji_1F1F8_1F1ED">"세인트헬레나 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1EE: "🇸🇮" FLAG FOR SLOVENIA -->
+     <string name="spoken_emoji_1F1F8_1F1EE">"슬로베니아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1EF: "🇸🇯" FLAG FOR SVALBARD & JAN MAYEN -->
+     <string name="spoken_emoji_1F1F8_1F1EF">"스발바르 및 얀마웬 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F0: "🇸🇰" FLAG FOR SLOVAKIA -->
+     <string name="spoken_emoji_1F1F8_1F1F0">"슬로바키아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F1: "🇸🇱" FLAG FOR SIERRA LEONE -->
+     <string name="spoken_emoji_1F1F8_1F1F1">"시에라리온 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F2: "🇸🇲" FLAG FOR SAN MARINO -->
+     <string name="spoken_emoji_1F1F8_1F1F2">"산마리노 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F3: "🇸🇳" FLAG FOR SENEGAL -->
+     <string name="spoken_emoji_1F1F8_1F1F3">"세네갈 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F4: "🇸🇴" FLAG FOR SOMALIA -->
+     <string name="spoken_emoji_1F1F8_1F1F4">"소말리아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F7: "🇸🇷" FLAG FOR SURINAME -->
+     <string name="spoken_emoji_1F1F8_1F1F7">"수리남 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F8: "🇸🇸" FLAG FOR SOUTH SUDAN -->
+     <string name="spoken_emoji_1F1F8_1F1F8">"남수단 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F9: "🇸🇹" FLAG FOR SÃO TOMÉ & PRÍNCIPE -->
+     <string name="spoken_emoji_1F1F8_1F1F9">"상투메 프린시페 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1FB: "🇸🇻" FLAG FOR EL SALVADOR -->
+     <string name="spoken_emoji_1F1F8_1F1FB">"엘살바도르 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1FD: "🇸🇽" FLAG FOR SINT MAARTEN -->
+     <string name="spoken_emoji_1F1F8_1F1FD">"신트마르텐 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1FE: "🇸🇾" FLAG FOR SYRIA -->
+     <string name="spoken_emoji_1F1F8_1F1FE">"시리아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1FF: "🇸🇿" FLAG FOR SWAZILAND -->
+     <string name="spoken_emoji_1F1F8_1F1FF">"스와질랜드 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1E6: "🇹🇦" FLAG FOR TRISTAN DA CUNHA -->
+     <string name="spoken_emoji_1F1F9_1F1E6">"트리스탄 다 쿠나 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1E8: "🇹🇨" FLAG FOR TURKS & CAICOS ISLANDS -->
+     <string name="spoken_emoji_1F1F9_1F1E8">"터크스 케이커스 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1E9: "🇹🇩" FLAG FOR CHAD -->
+     <string name="spoken_emoji_1F1F9_1F1E9">"차드 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1EB: "🇹🇫" FLAG FOR FRENCH SOUTHERN TERRITORIES -->
+     <string name="spoken_emoji_1F1F9_1F1EB">"프랑스 남쪽 영역 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1EC: "🇹🇬" FLAG FOR TOGO -->
+     <string name="spoken_emoji_1F1F9_1F1EC">"토고 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1ED: "🇹🇭" FLAG FOR THAILAND -->
+     <string name="spoken_emoji_1F1F9_1F1ED">"태국 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1EF: "🇹🇯" FLAG FOR TAJIKISTAN -->
+     <string name="spoken_emoji_1F1F9_1F1EF">"타지키스탄 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F0: "🇹🇰" FLAG FOR TOKELAU -->
+     <string name="spoken_emoji_1F1F9_1F1F0">"토켈라우 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F1: "🇹🇱" FLAG FOR TIMOR-LESTE -->
+     <string name="spoken_emoji_1F1F9_1F1F1">"동티모르 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F2: "🇹🇲" FLAG FOR TURKMENISTAN -->
+     <string name="spoken_emoji_1F1F9_1F1F2">"투르크메니스탄 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F3: "🇹🇳" FLAG FOR TUNISIA -->
+     <string name="spoken_emoji_1F1F9_1F1F3">"튀니지 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F4: "🇹🇴" FLAG FOR TONGA -->
+     <string name="spoken_emoji_1F1F9_1F1F4">"통가 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F7: "🇹🇷" FLAG FOR TURKEY -->
+     <string name="spoken_emoji_1F1F9_1F1F7">"터키 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F9: "🇹🇹" FLAG FOR TRINIDAD & TOBAGO -->
+     <string name="spoken_emoji_1F1F9_1F1F9">"트리니다드 토바고 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1FB: "🇹🇻" FLAG FOR TUVALU -->
+     <string name="spoken_emoji_1F1F9_1F1FB">"투발루 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1FC: "🇹🇼" FLAG FOR TAIWAN -->
+     <string name="spoken_emoji_1F1F9_1F1FC">"대만 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1FF: "🇹🇿" FLAG FOR TANZANIA -->
+     <string name="spoken_emoji_1F1F9_1F1FF">"탄자니아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FA U+1F1E6: "🇺🇦" FLAG FOR UKRAINE -->
+     <string name="spoken_emoji_1F1FA_1F1E6">"우크라이나 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FA U+1F1EC: "🇺🇬" FLAG FOR UGANDA -->
+     <string name="spoken_emoji_1F1FA_1F1EC">"우간다 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FA U+1F1F2: "🇺🇲" FLAG FOR U.S. OUTLYING ISLANDS -->
+     <string name="spoken_emoji_1F1FA_1F1F2">"미국 소수 외부 제도 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FA U+1F1F8: "🇺🇸" FLAG FOR UNITED STATES -->
+     <string name="spoken_emoji_1F1FA_1F1F8">"미국 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FA U+1F1FE: "🇺🇾" FLAG FOR URUGUAY -->
+     <string name="spoken_emoji_1F1FA_1F1FE">"우루과이 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FA U+1F1FF: "🇺🇿" FLAG FOR UZBEKISTAN -->
+     <string name="spoken_emoji_1F1FA_1F1FF">"우즈베키스탄 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1E6: "🇻🇦" FLAG FOR VATICAN CITY -->
+     <string name="spoken_emoji_1F1FB_1F1E6">"바티칸 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1E8: "🇻🇨" FLAG FOR ST. VINCENT & GRENADINES -->
+     <string name="spoken_emoji_1F1FB_1F1E8">"세인트 빈센트 그레나딘 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1EA: "🇻🇪" FLAG FOR VENEZUELA -->
+     <string name="spoken_emoji_1F1FB_1F1EA">"베네수엘라 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1EC: "🇻🇬" FLAG FOR BRITISH VIRGIN ISLANDS -->
+     <string name="spoken_emoji_1F1FB_1F1EC">"영국령 버진 아일랜드 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1EE: "🇻🇮" FLAG FOR U.S. VIRGIN ISLANDS -->
+     <string name="spoken_emoji_1F1FB_1F1EE">"미국령 버진아일랜드 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1F3: "🇻🇳" FLAG FOR VIETNAM -->
+     <string name="spoken_emoji_1F1FB_1F1F3">"베트남 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1FA: "🇻🇺" FLAG FOR VANUATU -->
+     <string name="spoken_emoji_1F1FB_1F1FA">"바누아투 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FC U+1F1EB: "🇼🇫" FLAG FOR WALLIS & FUTUNA -->
+     <string name="spoken_emoji_1F1FC_1F1EB">"월리스 푸투나 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FC U+1F1F8: "🇼🇸" FLAG FOR SAMOA -->
+     <string name="spoken_emoji_1F1FC_1F1F8">"사모아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FD U+1F1F0: "🇽🇰" FLAG FOR KOSOVO -->
+     <string name="spoken_emoji_1F1FD_1F1F0">"코소보 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FE U+1F1EA: "🇾🇪" FLAG FOR YEMEN -->
+     <string name="spoken_emoji_1F1FE_1F1EA">"예멘 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FE U+1F1F9: "🇾🇹" FLAG FOR MAYOTTE -->
+     <string name="spoken_emoji_1F1FE_1F1F9">"마요트 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FF U+1F1E6: "🇿🇦" FLAG FOR SOUTH AFRICA -->
+     <string name="spoken_emoji_1F1FF_1F1E6">"남아프리카 공화국 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FF U+1F1F2: "🇿🇲" FLAG FOR ZAMBIA -->
+     <string name="spoken_emoji_1F1FF_1F1F2">"잠비아 국기"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FF U+1F1FC: "🇿🇼" FLAG FOR ZIMBABWE -->
+     <string name="spoken_emoji_1F1FF_1F1FC">"짐바브웨 국기"</string></resources>

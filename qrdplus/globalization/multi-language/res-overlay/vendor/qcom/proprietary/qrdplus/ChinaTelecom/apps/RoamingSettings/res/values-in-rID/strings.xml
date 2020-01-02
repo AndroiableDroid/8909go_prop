@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Setelan Roaming"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"Buka"</string>
+    <string name="data_roaming_title">"Sambungkan ke layanan data ketika roaming"</string>
+    <string name="manual_select_network">"Pilih Jaringan Manual"</string>
+    <string name="roaming_card_info">"Akan menggunakan prioritas kartu bisnis seluler"</string>
+    <string name="network_select_success_info">"Berhasil mendaftar pada jaringan “<xliff:g id="name">%s</xliff:g>” pendaftaran otomatis akan terjadi jika jaringan tidak tersedia"</string>
+    <string name="network_select_failure_info">"Jaringan “<xliff:g id="name">%s</xliff:g>” yang Anda pilih tidak tersedia, secara otomatis akan mulai mendaftar pada jaringan lain"</string>
+    <string name="network_auto_success_info">"Berhasil mendaftar otomatis pada jaringan"</string>
+    <string name="network_auto_failure_info">"Jaringan GSM yang Anda pilih tidak tersedia, secara otomatis akan mulai mendaftar pada jaringan lain"</string>
+    <string name="manual_select_network_tip">"Tindakan ini hanya valid saat"</string>
+    <string name="gsm_network_list_title">"Jaringan yang dapat dipilih"</string>
+    <string name="searching_cdma_network_title">"Sedang mencari jaringan cdma......"</string>
+    <string name="searching_gsm_network_title">"Sedang mencari jaringan gsm......"</string>
+    <string name="empty_networks_list">"Jaringan tidak ditemukan."</string>
+    <string name="register_on_network">"Mendaftarkan pada <xliff:g id="NETWORK">%s</xliff:g>\u2026"</string>
+    <string name="register_automatically">"Pendaftaran otomatis..."</string>
+    <string name="network_select_setting">"Setelan jaringan"</string>
+    <string name="roaming_hotline">"Hotline roaming +8618918910000"</string>
+    <string name="carrier_names">"China Telecom"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"Menonaktifkan data..."</string>
+    <string name="unable_to_disable_data">"Tidak dapat menonaktifkan data."</string>
+    <string name="avoid_cur_nwk_succeeded">"Menambahkan jaringan sekarang ke daftar yang dihindari."</string>
+    <string name="avoid_cur_nwk_failed">"Tidak dapat menambahkan jaringan sekarang ke daftar yang dihindari."</string>
+    <string name="clear_nwk_list_succeeded">"Menghapus daftar jaringan yang dihindari."</string>
+    <string name="clear_nwk_list_failed">"Tidak dapat menghapus daftar jaringan yang dihindari."</string>
+    <string name="ok_btn">"OKE"</string>
+    <string name="cancel_btn">"Batal"</string>
+    <string name="confirm_avoid">"Anda yakin ingin menghindari jaringan sekarang?"</string>
+    <string name="confirm_clear">"Anda yakin ingin menghapus daftar jaringan yang dihindari?"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"Pilih CDMA"</string>
+    <string name="pref_gsm_choose_title">"Pilih GSM"</string>
+    <string name="pref_network_info_title">"Informasi jaringan sekarang"</string>
+    <string name="alert_msg_enable_card">"Anda ingin mengaktifkan kartu ini?"</string>
+    <string name="alert_msg_disable_card">"Anda ingin menonaktifkan kartu ini?"</string>
+    <string name="progress_msg_enable_card">"Mengaktifkan kartu ini, harap tunggu..."</string>
+    <string name="progress_msg_disable_card">"Menonaktifkan kartu ini, harap tunggu..."</string>
+    <string name="operation_success">"Operasi berhasil"</string>
+    <string name="operation_failure">"Operasi gagal"</string>
+    <string name="result_btn">"OKE"</string>
+    <string name="alert_data_roaming_title">"Izinkan roaming data"</string>
+    <string name="alert_data_roaming_msg">"Saat Anda mengizinkan roaming data, Anda dapat dikenai tagihan roaming yang tinggi!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"Tidak diketahui"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"Tidak tersedia."</string>
+    <string name="status_network_type">"Jenis jaringan seluler"</string>
+    <string name="status_signal_strength">"Kekuatan sinyal"</string>
+    <string name="status_prl_version">"Versi PRL"</string>
+    <string name="status_data_state">"Status jaringan seluler"</string>
+    <string name="status_netowrk_title">"Status Sim sekarang"</string>
+    <string name="status_operator_name">"Nama operator"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"ID SELULER"</string>
+    <string name="status_sms_center_number">"Nomor pusat sms"</string>
+    <string name="status_pnl_version">"Versi daftar jaringan prioritas"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"beralih secara manual ke jaringan berikutnya"</string>
+    <string name="avoid_discription">"instruksi:\n  pilih jaringan otomatis merupakan default pada sistem CDMA, tidak perlu memilih secara manual, tetapi jika jaringan sekarang tidak dapat digunakan, coba alihkan manual ke jaringan berikutnya. "</string>
+    <string name="attention_dialog_title">"Perhatian"</string>
+    <string name="disable_both_sim_error_msg">"Tidak dapat menonaktifkan kedua SIM pada saat yang sama"</string>
+    <string name="China_Mobile">"China Mobile"</string>
+    <string name="China_Unicom">"China Unicom"</string>
+    <string name="China_Telecom">"China Telecom"</string></resources>

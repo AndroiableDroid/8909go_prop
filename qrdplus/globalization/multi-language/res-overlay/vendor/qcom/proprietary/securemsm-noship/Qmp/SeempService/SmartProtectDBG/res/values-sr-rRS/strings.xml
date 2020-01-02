@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Паметна заштита DBG"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ паметна заштита"</string>
+    <string name="title_app_info">"Информације о апликацији"</string>
+    <string name="title_trusted">"Поуздане апликације"</string>
+    <string name="title_about">"О"</string>
+    <string name="title_settings">"Подешавања"</string>
+    <string name="drawer_open_title">"Snapdragon паметна заштита"</string>
+<string name="service_status_on">"Укључено"</string>
+    <string name="service_status_off">"Искључено"</string>
+    <string name="err_title">"Грешка апликације"</string>
+    <string name="err_msg_init">"Snapdragon паметна заштита није у могућности да покрене QSSP библиотеку. Заустављање услуге"</string>
+    <string name="err_msg_load_model">"Snapdragon паметна заштита није у могућности да учита режим. Заустављање услуге"</string>
+    <string name="err_msg_malicious_alert">"Snapdragon паметна заштита није у могућности да региструје злонамерна обавештења. Заустављање услуге"</string>
+    <string name="err_msg_benign_alert">"Snapdragon паметна заштита није у могућности да региструје добронамерна обавештења. Заустављање услуге"</string>
+    <string name="err_msg_service_not_up">"Snapdragon паметна заштита није више у могућности да пронађе услугу."</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"© 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"Сва права задржана."</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ паметна заштита је производ Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Qualcomm и Snapdragon су заштитни знаци компаније Qualcomm Incorporated, регистровани у Сједињеним Државама и другим земљама, користе се уз дозволу."</string>
+    <string name="btn_restore_default">"ВРАТИ ПОДРАЗУМЕВАНА ПОДЕШАВАЊА"</string>
+    <string name="btn_clear_history">"ОБРИШИ ИСТОРИЈУ ПАМЕТНЕ ЗАШТИТЕ"</string>
+    <string name="trusted_btn">"ДОДАЈ НА ЛИСТУ ПОУЗДАНИХ АПЛИКАЦИЈА"</string>
+    <string name="uninstall_btn">"ДЕИНСТАЛИРАЈ"</string>
+    <string name="details_btn">"ДЕТАЉИ"</string>
+    <string name="done_btn">"ГОТОВО"</string>
+    <string name="remove_trusted_btn">"УКЛОНИ СА ЛИСТЕ ПОУЗДАНИХ АПЛИКАЦИЈА"</string>
+    <string name="uninstall_confirm_message">"Да ли желите да деинсталирате ову апликацију?"</string>
+    <string name="uninstall_success">"Пакет је успешно деинсталиран"</string>
+    <string name="uninstall_failed">"Деинсталирање пакета није успело"</string>
+    <string name="clear_history_done">"Историја је успешно обрисана"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"Snapdragon паметна заштита"</string>
+    <string name="drawer_threats">"Откривене су претње (%1$s)"</string>
+    <string name="drawer_threat_null">"У реалном времену, заштита приватности уређаја и откривање малвера"</string>
+    <string name="drawer_option_dashboard">"Контролна табла"</string>
+    <string name="drawer_option_trusted_apps">"Поуздане апликације"</string>
+    <string name="drawer_option_settings">"Подешавања"</string>
+    <string name="drawer_option_about">"О"</string>
+    <string name="dashboard_list_title">"Изаберите апликацију да бисте видели детаље и препоруке Snapdragon паметне заштите."</string>
+    <string name="dashboard_list_empty">"Ниједна апликација се не надгледа."</string>
+    <string name="app_info_recommend">"Препорука:"</string>
+    <string name="app_info_version">"верзија"</string>
+    <string name="app_uninstalled">"Апликација се више не налази на уређају. Притисните У реду да одустанете."</string>
+    <string name="malicious_item_threat">"Snapdragon паметна заштита је детектовала:"</string>
+    <string name="malicious_item_confidence">"Степен поузданости:"</string>
+    <string name="malicious_item_analysis">"Анализа"</string>
+    <string name="malicious_recommend">"Деинсталирај"</string>
+    <string name="good_threat">"Претње нису детектоване."</string>
+    <string name="good_recommend">"Изаберите Готово, како би Snapdragon паметна заштита наставила да надгледа ову апликацију."</string>
+    <string name="good_title">"Добро"</string>
+    <string name="trusted_item_title">"Snapdragon паметна заштита не надгледа активности %1$s јер се налази на вашој листи поузданих апликација.\n\nУколико нисте сигурни у безбедност ове апликације, уклоните је са листе поузданих апликација."</string>
+    <string name="trusted_list_title">"Snapdragon паметна заштита не надгледа апликације са ове листе."</string>
+    <string name="trusted_list_subtitle">"Уколико нисте сигурни у безбедност ове апликације, уклоните је са листе поузданих апликација."</string>
+    <string name="trusted_list_empty">"Нема апликација на вашој листи поузданих апликација."</string>
+    <string name="trusted_list_empty_desc">"Ово вам пружа максималну заштиту јер Snapdragon паметна заштита надгледа све ваше апликације."</string>
+    <string name="trusted_confirm_message">"Желите ли да додате ову апликацију на листу поузданих апликација?\n\nУколико нисте сигурни у безбедност ове апликације, кликните Откажи."</string>
+    <string name="malicious_ntf_message">"Snapdragon паметна заштита је детектовала злонамерну активност у %1$s."</string>
+    <string name="malicious_ntf_recommend">"Препорука: Деинсталирај"</string>
+    <string name="malicious_dialog_title">"Злонамерно"</string>
+    <string name="malicious_text">"Злонамерно"</string>
+    <string name="malware_ntf_message">"Snapdragon паметна заштита је детектовала малвер у %1$s."</string>
+    <string name="malware_dialog_title">"Малвер је детектован"</string>
+    <string name="malware_title">"Малвер"</string>
+    <string name="spyware_ntf_message">"Snapdragon паметна заштита је детектовала шпијунски софтвер у %1$s."</string>
+    <string name="spyware_dialog_title">"Шпијунски софтвер је детектован"</string>
+    <string name="spyware_title">"Шпијунски софтвер"</string>
+    <string name="adware_ntf_message">"Snapdragon паметна заштита је детектовала адвер у %1$s."</string>
+    <string name="adware_dialog_title">"Адвер је детектован"</string>
+    <string name="adware_title">"Адвер"</string>
+<string name="err_no_app_dashborad">"листа апликација контролне табле је празна"</string>
+    <string name="analysis_title">"%1$s може да буде злонамерна из следећих разлога:"</string>
+    <string name="service_label">"Sphinx услуга"</string>
+    <string name="unknown_code">" Код - %1$d"</string>
+    <string name="default_code_detail">"Апликација покушава да спроведе злонамерну активност."</string>
+    <string-array name="malicious_ntf_info">
+        <item>"Можда изводи штетну активност на вашем уређају."</item>
+        <item>"Малвер 1. степена: Спроводи штетну активност на садржају корисника, апликацијама и уређају."</item>
+        <item>"Малвер 2. степена: Спроводи активност која корисника може коштати."</item>
+        <item>"Шпијунски софтвер 3. степена: Садржај цури/краде садржај и активно шпијунира кориснике."</item>
+        <item>"Шпијунски софтвер 4. степена: Метаинформације о кориснику цуре/краде их."</item>
+        <item>"Шпијунски софтвер 5. степена: Осетљиве информације о уређају цуре/краде их."</item>
+        <item>"Софтвер за ометање 6. степена: Агресивни адвер и/или интрузивна апликација."</item>
+    </string-array>
+    <string name="setting_level1_title">"Малвер 1. степена"</string>
+    <string name="setting_level2_title">"Малвер 2. степена"</string>
+    <string name="setting_level3_title">"Шпијунски софтвер 3. степена"</string>
+    <string name="setting_level4_title">"Шпијунски софтвер 4. степена"</string>
+    <string name="setting_level5_title">"Шпијунски софтвер 5. степена"</string>
+    <string name="setting_level6_title">"Адвер 6. степена"</string>
+    <string name="setting_mode_title">"Режим"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"Искачуће и стандардно обавештење"</item>
+        <item>"Стандардно обавештење"</item>
+        <item>"Нема обавештења"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"Нормални режим"</item>
+        <item>"Нечујни режим"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<string name="monitor_feature_title">"Надгледање функције"</string>
+    <string name="err_msg_no_rfm">"Snapdragon паметна заштита није у могућности да пронађе rfm датотеке на уређају"</string>
+    <string name="err_msg_monitor">"Snapdragon паметна заштита није у могућности да надгледа функције"</string>
+    <string name="title_debug">"Отклањање грешака"</string>
+    <string name="drawer_option_debug">"Отклањање грешака"</string>
+    <string name="set_rfm_file">"Изабери RFM датотеку"</string>
+    <string name="debug_rfm_model">"RFM датотека"</string>
+    <string name="debug_mnf_apply">"Надгледање функције"</string></resources>

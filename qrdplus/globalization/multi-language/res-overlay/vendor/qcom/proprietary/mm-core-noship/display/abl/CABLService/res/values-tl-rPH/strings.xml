@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Sett. ng Backlight na Umaayon sa Nilalaman"</string>
+        <add-resource type="string" name="cabl_settings_title"/>
+    <string name="cabl_settings_title">"Sett. ng Backlight na Umaayon sa Nilalaman"</string>
+        <add-resource type="string" name="cabl_enable_title"/>
+    <string name="cabl_enable_title">"I-enable Content Adaptive Backlight"</string>
+        <add-resource type="string" name="cabl_enable_summary_on"/>
+    <string name="cabl_enable_summary_on">"Magbabago ang backlight batay sa nilalaman ng screen"</string>
+        <add-resource type="string" name="cabl_enable_summary_off"/>
+    <string name="cabl_enable_summary_off">"Hindi magbabago ang backlight batay sa nilalaman ng screen"</string>
+        <add-resource type="string" name="cabl_levels_title"/>
+    <string name="cabl_levels_title">"Antas ng Kalidad ng Visual"</string>
+        <add-resource type="string" name="cabl_levels_summary"/>
+    <string name="cabl_levels_summary">"Isinasaad ng mas mababang kalidad na susubkan ng CABL na magtipid ng mas maraming power hangga\'t maaari nang hindi lubos na nakakaapekto sa ipinapakitang nilalaman. Nangangahulugan ang awtomatikong kalidad ng visual na susubukan ng CABL na i-maximize ang pagtitipid sa power batay sa awtomatikong pagtunton sa uri ng nilalamang ipinapakita."</string>
+        <add-resource type="string" name="cabl_level_default"/>
+    <string name="cabl_level_default">"Auto"</string>
+        <add-resource type="string" name="cabl_info_default"/>
+    <string name="cabl_info_default">"Hindi alam"</string>
+        <add-resource type="string" name="cabl_version_title"/>
+    <string name="cabl_version_title">"Bersyon ng CABL"</string></resources>

@@ -1,0 +1,2597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!--
+/*
+**
+** Copyright 2014, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<!--
+    These Emoji symbols are unsupported by TTS.
+    TODO: Remove this file when TTS/TalkBack support these Emoji symbols.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <!-- Spoken description for Unicode code point U+00A9: "©" COPYRIGHT SIGN -->
+     <string name="spoken_emoji_00A9">"版权符号"</string>
+     <!-- Spoken description for Unicode code point U+00AE: "®" REGISTERED SIGN -->
+     <string name="spoken_emoji_00AE">"注册符号"</string>
+     <!-- Spoken description for Unicode code point U+203C: "‼" DOUBLE EXCLAMATION MARK -->
+     <string name="spoken_emoji_203C">"双叹号"</string>
+     <!-- Spoken description for Unicode code point U+2049: "⁉" EXCLAMATION QUESTION MARK -->
+     <string name="spoken_emoji_2049">"感叹号和问号"</string>
+     <!-- Spoken description for Unicode code point U+2122: "™" TRADE MARK SIGN -->
+     <string name="spoken_emoji_2122">"商标符号"</string>
+     <!-- Spoken description for Unicode code point U+2139: "ℹ" INFORMATION SOURCE -->
+     <string name="spoken_emoji_2139">"信息来源"</string>
+     <!-- Spoken description for Unicode code point U+2194: "↔" LEFT RIGHT ARROW -->
+     <string name="spoken_emoji_2194">"左右箭头"</string>
+     <!-- Spoken description for Unicode code point U+2195: "↕" UP DOWN ARROW -->
+     <string name="spoken_emoji_2195">"上下箭头"</string>
+     <!-- Spoken description for Unicode code point U+2196: "↖" NORTH WEST ARROW -->
+     <string name="spoken_emoji_2196">"西北箭头"</string>
+     <!-- Spoken description for Unicode code point U+2197: "↗" NORTH EAST ARROW -->
+     <string name="spoken_emoji_2197">"东北箭头"</string>
+     <!-- Spoken description for Unicode code point U+2198: "↘" SOUTH EAST ARROW -->
+     <string name="spoken_emoji_2198">"东南箭头"</string>
+     <!-- Spoken description for Unicode code point U+2199: "↙" SOUTH WEST ARROW -->
+     <string name="spoken_emoji_2199">"西南箭头"</string>
+     <!-- Spoken description for Unicode code point U+21A9: "↩" LEFTWARDS ARROW WITH HOOK -->
+     <string name="spoken_emoji_21A9">"有钩的向左箭头"</string>
+     <!-- Spoken description for Unicode code point U+21AA: "↪" RIGHTWARDS ARROW WITH HOOK -->
+     <string name="spoken_emoji_21AA">"有钩的向右箭头"</string>
+     <!-- Spoken description for Unicode code point U+231A: "⌚" WATCH -->
+     <string name="spoken_emoji_231A">"手表"</string>
+     <!-- Spoken description for Unicode code point U+231B: "⌛" HOURGLASS -->
+     <string name="spoken_emoji_231B">"沙漏"</string>
+     <!-- Spoken description for Unicode code point U+2328: "⌨" KEYBOARD -->
+     <string name="spoken_emoji_2328">"键盘"</string>
+     <!-- Spoken description for Unicode code point U+23CF: "⏏" EJECT SYMBOL -->
+     <string name="spoken_emoji_23CF">"弹出标志"</string>
+     <!-- Spoken description for Unicode code point U+23E9: "⏩" BLACK RIGHT-POINTING DOUBLE TRIANGLE -->
+     <string name="spoken_emoji_23E9">"实心右指双三角"</string>
+     <!-- Spoken description for Unicode code point U+23EA: "⏪" BLACK LEFT-POINTING DOUBLE TRIANGLE -->
+     <string name="spoken_emoji_23EA">"实心左指双三角"</string>
+     <!-- Spoken description for Unicode code point U+23EB: "⏫" BLACK UP-POINTING DOUBLE TRIANGLE -->
+     <string name="spoken_emoji_23EB">"实心上指双三角"</string>
+     <!-- Spoken description for Unicode code point U+23EC: "⏬" BLACK DOWN-POINTING DOUBLE TRIANGLE -->
+     <string name="spoken_emoji_23EC">"实心下指双三角"</string>
+     <!-- Spoken description for Unicode code point U+23ED: "⏭" BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR -->
+     <string name="spoken_emoji_23ED">"实心右指带竖线双三角"</string>
+     <!-- Spoken description for Unicode code point U+23EE: "⏮" BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR -->
+     <string name="spoken_emoji_23EE">"实心左指带竖线双三角"</string>
+     <!-- Spoken description for Unicode code point U+23EF: "⏯" BLACK RIGHT-POINTING TRIANGLE WITH DOUBLE VERTICAL BAR -->
+     <string name="spoken_emoji_23EF">"实心右指带双竖线三角"</string>
+     <!-- Spoken description for Unicode code point U+23F0: "⏰" ALARM CLOCK -->
+     <string name="spoken_emoji_23F0">"闹钟"</string>
+     <!-- Spoken description for Unicode code point U+23F1: "⏱" STOPWATCH -->
+     <string name="spoken_emoji_23F1">"秒表"</string>
+     <!-- Spoken description for Unicode code point U+23F2: "⏲" TIMER CLOCK -->
+     <string name="spoken_emoji_23F2">"计时器时钟"</string>
+     <!-- Spoken description for Unicode code point U+23F3: "⏳" HOURGLASS WITH FLOWING SAND -->
+     <string name="spoken_emoji_23F3">"沙粒流动中的沙漏"</string>
+     <!-- Spoken description for Unicode code point U+23F8: "⏸" DOUBLE VERTICAL BAR -->
+     <string name="spoken_emoji_23F8">"双竖线"</string>
+     <!-- Spoken description for Unicode code point U+23F9: "⏹" BLACK SQUARE FOR STOP -->
+     <string name="spoken_emoji_23F9">"实心停止方形"</string>
+     <!-- Spoken description for Unicode code point U+23FA: "⏺" BLACK CIRCLE FOR RECORD -->
+     <string name="spoken_emoji_23FA">"实心录音圆形"</string>
+     <!-- Spoken description for Unicode code point U+24C2: "Ⓜ" CIRCLED LATIN CAPITAL LETTER M -->
+     <string name="spoken_emoji_24C2">"带圆圈的拉丁文大写字母M"</string>
+     <!-- Spoken description for Unicode code point U+25AA: "▪" BLACK SMALL SQUARE -->
+     <string name="spoken_emoji_25AA">"实心小方形"</string>
+     <!-- Spoken description for Unicode code point U+25AB: "▫" WHITE SMALL SQUARE -->
+     <string name="spoken_emoji_25AB">"空心小方形"</string>
+     <!-- Spoken description for Unicode code point U+25B6: "▶" BLACK RIGHT-POINTING TRIANGLE -->
+     <string name="spoken_emoji_25B6">"实心右指三角形"</string>
+     <!-- Spoken description for Unicode code point U+25C0: "◀" BLACK LEFT-POINTING TRIANGLE -->
+     <string name="spoken_emoji_25C0">"实心左指三角形"</string>
+     <!-- Spoken description for Unicode code point U+25FB: "◻" WHITE MEDIUM SQUARE -->
+     <string name="spoken_emoji_25FB">"空心中等方形"</string>
+     <!-- Spoken description for Unicode code point U+25FC: "◼" BLACK MEDIUM SQUARE -->
+     <string name="spoken_emoji_25FC">"实心中等方形"</string>
+     <!-- Spoken description for Unicode code point U+25FD: "◽" WHITE MEDIUM SMALL SQUARE -->
+     <string name="spoken_emoji_25FD">"空心中小方形"</string>
+     <!-- Spoken description for Unicode code point U+25FE: "◾" BLACK MEDIUM SMALL SQUARE -->
+     <string name="spoken_emoji_25FE">"实心中小方形"</string>
+     <!-- Spoken description for Unicode code point U+2600: "☀" BLACK SUN WITH RAYS -->
+     <string name="spoken_emoji_2600">"放射光线的实心太阳"</string>
+     <!-- Spoken description for Unicode code point U+2601: "☁" CLOUD -->
+     <string name="spoken_emoji_2601">"云朵"</string>
+     <!-- Spoken description for Unicode code point U+2602: "☂" UMBRELLA -->
+     <string name="spoken_emoji_2602">"雨伞"</string>
+     <!-- Spoken description for Unicode code point U+2603: "☃" SNOWMAN -->
+     <string name="spoken_emoji_2603">"雪人"</string>
+     <!-- Spoken description for Unicode code point U+2604: "☄" COMET -->
+     <string name="spoken_emoji_2604">"彗星"</string>
+     <!-- Spoken description for Unicode code point U+260E: "☎" BLACK TELEPHONE -->
+     <string name="spoken_emoji_260E">"实心电话标志"</string>
+     <!-- Spoken description for Unicode code point U+2611: "☑" BALLOT BOX WITH CHECK -->
+     <string name="spoken_emoji_2611">"带对钩的选框"</string>
+     <!-- Spoken description for Unicode code point U+2614: "☔" UMBRELLA WITH RAIN DROPS -->
+     <string name="spoken_emoji_2614">"挡着雨点的雨伞"</string>
+     <!-- Spoken description for Unicode code point U+2615: "☕" HOT BEVERAGE -->
+     <string name="spoken_emoji_2615">"热饮料"</string>
+     <!-- Spoken description for Unicode code point U+2618: "☘" SHAMROCK -->
+     <string name="spoken_emoji_2618">"三叶草"</string>
+     <!-- Spoken description for Unicode code point U+261D: "☝" WHITE UP POINTING INDEX -->
+     <string name="spoken_emoji_261D">"向上指的食指"</string>
+     <!-- Spoken description for Unicode code point U+2620: "☠" SKULL AND CROSSBONES -->
+     <string name="spoken_emoji_2620">"骷髅旗"</string>
+     <!-- Spoken description for Unicode code point U+2622: "☢" RADIOACTIVE SIGN -->
+     <string name="spoken_emoji_2622">"辐射标志"</string>
+     <!-- Spoken description for Unicode code point U+2623: "☣" BIOHAZARD SIGN -->
+     <string name="spoken_emoji_2623">"生物危害标志"</string>
+     <!-- Spoken description for Unicode code point U+2626: "☦" ORTHODOX CROSS -->
+     <string name="spoken_emoji_2626">"东正教十字架"</string>
+     <!-- Spoken description for Unicode code point U+262A: "☪" STAR AND CRESCENT -->
+     <string name="spoken_emoji_262A">"星月"</string>
+     <!-- Spoken description for Unicode code point U+262E: "☮" PEACE SYMBOL -->
+     <string name="spoken_emoji_262E">"和平符号"</string>
+     <!-- Spoken description for Unicode code point U+262F: "☯" YIN YANG -->
+     <string name="spoken_emoji_262F">"阴阳"</string>
+     <!-- Spoken description for Unicode code point U+2638: "☸" WHEEL OF DHARMA -->
+     <string name="spoken_emoji_2638">"法轮"</string>
+     <!-- Spoken description for Unicode code point U+2639: "☹" WHITE FROWNING FACE -->
+     <string name="spoken_emoji_2639">"白色皱眉人脸"</string>
+     <!-- Spoken description for Unicode code point U+263A: "☺" WHITE SMILING FACE -->
+     <string name="spoken_emoji_263A">"轻松的笑脸"</string>
+     <!-- Spoken description for Unicode code point U+2648: "♈" ARIES -->
+     <string name="spoken_emoji_2648">"白羊座"</string>
+     <!-- Spoken description for Unicode code point U+2649: "♉" TAURUS -->
+     <string name="spoken_emoji_2649">"金牛座"</string>
+     <!-- Spoken description for Unicode code point U+264A: "♊" GEMINI -->
+     <string name="spoken_emoji_264A">"双子座"</string>
+     <!-- Spoken description for Unicode code point U+264B: "♋" CANCER -->
+     <string name="spoken_emoji_264B">"巨蟹座"</string>
+     <!-- Spoken description for Unicode code point U+264C: "♌" LEO -->
+     <string name="spoken_emoji_264C">"狮子座"</string>
+     <!-- Spoken description for Unicode code point U+264D: "♍" VIRGO -->
+     <string name="spoken_emoji_264D">"处女座"</string>
+     <!-- Spoken description for Unicode code point U+264E: "♎" LIBRA -->
+     <string name="spoken_emoji_264E">"天秤座"</string>
+     <!-- Spoken description for Unicode code point U+264F: "♏" SCORPIUS -->
+     <string name="spoken_emoji_264F">"天蝎座"</string>
+     <!-- Spoken description for Unicode code point U+2650: "♐" SAGITTARIUS -->
+     <string name="spoken_emoji_2650">"人马座"</string>
+     <!-- Spoken description for Unicode code point U+2651: "♑" CAPRICORN -->
+     <string name="spoken_emoji_2651">"摩羯座"</string>
+     <!-- Spoken description for Unicode code point U+2652: "♒" AQUARIUS -->
+     <string name="spoken_emoji_2652">"水瓶座"</string>
+     <!-- Spoken description for Unicode code point U+2653: "♓" PISCES -->
+     <string name="spoken_emoji_2653">"双鱼座"</string>
+     <!-- Spoken description for Unicode code point U+2660: "♠" BLACK SPADE SUIT -->
+     <string name="spoken_emoji_2660">"实心黑桃"</string>
+     <!-- Spoken description for Unicode code point U+2663: "♣" BLACK CLUB SUIT -->
+     <string name="spoken_emoji_2663">"实心梅花"</string>
+     <!-- Spoken description for Unicode code point U+2665: "♥" BLACK HEART SUIT -->
+     <string name="spoken_emoji_2665">"实心红桃"</string>
+     <!-- Spoken description for Unicode code point U+2666: "♦" BLACK DIAMOND SUIT -->
+     <string name="spoken_emoji_2666">"实心方块"</string>
+     <!-- Spoken description for Unicode code point U+2668: "♨" HOT SPRINGS -->
+     <string name="spoken_emoji_2668">"温泉"</string>
+     <!-- Spoken description for Unicode code point U+267B: "♻" BLACK UNIVERSAL RECYCLING SYMBOL -->
+     <string name="spoken_emoji_267B">"实心通用再循环符号"</string>
+     <!-- Spoken description for Unicode code point U+267F: "♿" WHEELCHAIR SYMBOL -->
+     <string name="spoken_emoji_267F">"轮椅符号"</string>
+     <!-- Spoken description for Unicode code point U+2692: "⚒" HAMMER AND PICK -->
+     <string name="spoken_emoji_2692">"锤子和拾取工具"</string>
+     <!-- Spoken description for Unicode code point U+2693: "⚓" ANCHOR -->
+     <string name="spoken_emoji_2693">"锚"</string>
+     <!-- Spoken description for Unicode code point U+2694: "⚔" CROSSED SWORDS -->
+     <string name="spoken_emoji_2694">"十字剑"</string>
+     <!-- Spoken description for Unicode code point U+2696: "⚖" SCALES -->
+     <string name="spoken_emoji_2696">"天平"</string>
+     <!-- Spoken description for Unicode code point U+2697: "⚗" ALEMBIC -->
+     <string name="spoken_emoji_2697">"蒸馏器"</string>
+     <!-- Spoken description for Unicode code point U+2699: "⚙" GEAR -->
+     <string name="spoken_emoji_2699">"齿轮"</string>
+     <!-- Spoken description for Unicode code point U+269B: "⚛" ATOM SYMBOL -->
+     <string name="spoken_emoji_269B">"原子符号"</string>
+     <!-- Spoken description for Unicode code point U+269C: "⚜" FLEUR-DE-LIS -->
+     <string name="spoken_emoji_269C">"鸢尾花形纹章"</string>
+     <!-- Spoken description for Unicode code point U+26A0: "⚠" WARNING SIGN -->
+     <string name="spoken_emoji_26A0">"警告符号"</string>
+     <!-- Spoken description for Unicode code point U+26A1: "⚡" HIGH VOLTAGE SIGN -->
+     <string name="spoken_emoji_26A1">"高压符号"</string>
+     <!-- Spoken description for Unicode code point U+26AA: "⚪" MEDIUM WHITE CIRCLE -->
+     <string name="spoken_emoji_26AA">"中等空心圆圈"</string>
+     <!-- Spoken description for Unicode code point U+26AB: "⚫" MEDIUM BLACK CIRCLE -->
+     <string name="spoken_emoji_26AB">"中等实心圆圈"</string>
+     <!-- Spoken description for Unicode code point U+26B0: "⚰" COFFIN -->
+     <string name="spoken_emoji_26B0">"棺椁"</string>
+     <!-- Spoken description for Unicode code point U+26B1: "⚱" FUNERAL URN -->
+     <string name="spoken_emoji_26B1">"葬礼"</string>
+     <!-- Spoken description for Unicode code point U+26BD: "⚽" SOCCER BALL -->
+     <string name="spoken_emoji_26BD">"足球"</string>
+     <!-- Spoken description for Unicode code point U+26BE: "⚾" BASEBALL -->
+     <string name="spoken_emoji_26BE">"棒球"</string>
+     <!-- Spoken description for Unicode code point U+26C4: "⛄" SNOWMAN WITHOUT SNOW -->
+     <string name="spoken_emoji_26C4">"雪人"</string>
+     <!-- Spoken description for Unicode code point U+26C5: "⛅" SUN BEHIND CLOUD -->
+     <string name="spoken_emoji_26C5">"被云遮挡的太阳"</string>
+     <!-- Spoken description for Unicode code point U+26C8: "⛈" THUNDER CLOUD AND RAIN -->
+     <string name="spoken_emoji_26C8">"打雷下雨"</string>
+     <!-- Spoken description for Unicode code point U+26CE: "⛎" OPHIUCHUS -->
+     <string name="spoken_emoji_26CE">"蛇夫座"</string>
+     <!-- Spoken description for Unicode code point U+26CF: "⛏" PICK -->
+     <string name="spoken_emoji_26CF">"拾取工具"</string>
+     <!-- Spoken description for Unicode code point U+26D1: "⛑" HELMET WITH WHITE CROSS -->
+     <string name="spoken_emoji_26D1">"白十字头盔"</string>
+     <!-- Spoken description for Unicode code point U+26D3: "⛓" CHAINS -->
+     <string name="spoken_emoji_26D3">"锁链"</string>
+     <!-- Spoken description for Unicode code point U+26D4: "⛔" NO ENTRY -->
+     <string name="spoken_emoji_26D4">"禁止通行"</string>
+     <!-- Spoken description for Unicode code point U+26E9: "⛩" SHINTO SHRINE -->
+     <string name="spoken_emoji_26E9">"神社"</string>
+     <!-- Spoken description for Unicode code point U+26EA: "⛪" CHURCH -->
+     <string name="spoken_emoji_26EA">"教堂"</string>
+     <!-- Spoken description for Unicode code point U+26F0: "⛰" MOUNTAIN -->
+     <string name="spoken_emoji_26F0">"山"</string>
+     <!-- Spoken description for Unicode code point U+26F1: "⛱" UMBRELLA ON GROUND -->
+     <string name="spoken_emoji_26F1">"地上的雨伞"</string>
+     <!-- Spoken description for Unicode code point U+26F2: "⛲" FOUNTAIN -->
+     <string name="spoken_emoji_26F2">"喷泉"</string>
+     <!-- Spoken description for Unicode code point U+26F3: "⛳" FLAG IN HOLE -->
+     <string name="spoken_emoji_26F3">"插在高尔夫球洞中的旗"</string>
+     <!-- Spoken description for Unicode code point U+26F4: "⛴" FERRY -->
+     <string name="spoken_emoji_26F4">"摆渡"</string>
+     <!-- Spoken description for Unicode code point U+26F5: "⛵" SAILBOAT -->
+     <string name="spoken_emoji_26F5">"帆船"</string>
+     <!-- Spoken description for Unicode code point U+26F7: "⛷" SKIER -->
+     <string name="spoken_emoji_26F7">"滑雪者"</string>
+     <!-- Spoken description for Unicode code point U+26F8: "⛸" ICE SKATE -->
+     <string name="spoken_emoji_26F8">"冰鞋"</string>
+     <!-- Spoken description for Unicode code point U+26F9: "⛹" PERSON WITH BALL -->
+     <string name="spoken_emoji_26F9">"持球的人"</string>
+     <!-- Spoken description for Unicode code point U+26FA: "⛺" TENT -->
+     <string name="spoken_emoji_26FA">"帐篷"</string>
+     <!-- Spoken description for Unicode code point U+26FD: "⛽" FUEL PUMP -->
+     <string name="spoken_emoji_26FD">"油泵"</string>
+     <!-- Spoken description for Unicode code point U+2702: "✂" BLACK SCISSORS -->
+     <string name="spoken_emoji_2702">"实心剪刀"</string>
+     <!-- Spoken description for Unicode code point U+2705: "✅" WHITE HEAVY CHECK MARK -->
+     <string name="spoken_emoji_2705">"空心加粗对钩标志"</string>
+     <!-- Spoken description for Unicode code point U+2708: "✈" AIRPLANE -->
+     <string name="spoken_emoji_2708">"飞机"</string>
+     <!-- Spoken description for Unicode code point U+2709: "✉" ENVELOPE -->
+     <string name="spoken_emoji_2709">"信封"</string>
+     <!-- Spoken description for Unicode code point U+270A: "✊" RAISED FIST -->
+     <string name="spoken_emoji_270A">"举着的拳头"</string>
+     <!-- Spoken description for Unicode code point U+270B: "✋" RAISED HAND -->
+     <string name="spoken_emoji_270B">"举着的手"</string>
+     <!-- Spoken description for Unicode code point U+270C: "✌" VICTORY HAND -->
+     <string name="spoken_emoji_270C">"胜利手势"</string>
+     <!-- Spoken description for Unicode code point U+270D: "✍" WRITING HAND -->
+     <string name="spoken_emoji_270D">"握笔状手"</string>
+     <!-- Spoken description for Unicode code point U+270F: "✏" PENCIL -->
+     <string name="spoken_emoji_270F">"铅笔"</string>
+     <!-- Spoken description for Unicode code point U+2712: "✒" BLACK NIB -->
+     <string name="spoken_emoji_2712">"实心钢笔尖"</string>
+     <!-- Spoken description for Unicode code point U+2714: "✔" HEAVY CHECK MARK -->
+     <string name="spoken_emoji_2714">"加粗对钩标志"</string>
+     <!-- Spoken description for Unicode code point U+2716: "✖" HEAVY MULTIPLICATION X -->
+     <string name="spoken_emoji_2716">"加粗乘号 x"</string>
+     <!-- Spoken description for Unicode code point U+271D: "✝" LATIN CROSS -->
+     <string name="spoken_emoji_271D">"拉丁形十字架"</string>
+     <!-- Spoken description for Unicode code point U+2721: "✡" STAR OF DAVID -->
+     <string name="spoken_emoji_2721">"六角星"</string>
+     <!-- Spoken description for Unicode code point U+2728: "✨" SPARKLES -->
+     <string name="spoken_emoji_2728">"火花"</string>
+     <!-- Spoken description for Unicode code point U+2733: "✳" EIGHT SPOKED ASTERISK -->
+     <string name="spoken_emoji_2733">"八轮辐星号"</string>
+     <!-- Spoken description for Unicode code point U+2734: "✴" EIGHT POINTED BLACK STAR -->
+     <string name="spoken_emoji_2734">"实心八角星"</string>
+     <!-- Spoken description for Unicode code point U+2744: "❄" SNOWFLAKE -->
+     <string name="spoken_emoji_2744">"雪花"</string>
+     <!-- Spoken description for Unicode code point U+2747: "❇" SPARKLE -->
+     <string name="spoken_emoji_2747">"火花"</string>
+     <!-- Spoken description for Unicode code point U+274C: "❌" CROSS MARK -->
+     <string name="spoken_emoji_274C">"十字线"</string>
+     <!-- Spoken description for Unicode code point U+274E: "❎" NEGATIVE SQUARED CROSS MARK -->
+     <string name="spoken_emoji_274E">"带方框的反白十字线"</string>
+     <!-- Spoken description for Unicode code point U+2753: "❓" BLACK QUESTION MARK ORNAMENT -->
+     <string name="spoken_emoji_2753">"实心问号装饰"</string>
+     <!-- Spoken description for Unicode code point U+2754: "❔" WHITE QUESTION MARK ORNAMENT -->
+     <string name="spoken_emoji_2754">"空心问号装饰"</string>
+     <!-- Spoken description for Unicode code point U+2755: "❕" WHITE EXCLAMATION MARK ORNAMENT -->
+     <string name="spoken_emoji_2755">"空心叹号装饰"</string>
+     <!-- Spoken description for Unicode code point U+2757: "❗" HEAVY EXCLAMATION MARK SYMBOL -->
+     <string name="spoken_emoji_2757">"加粗叹号"</string>
+     <!-- Spoken description for Unicode code point U+2763: "❣" HEAVY HEART EXCLAMATION MARK ORNAMENT -->
+     <string name="spoken_emoji_2763">"重叹号装饰"</string>
+     <!-- Spoken description for Unicode code point U+2764: "❤" HEAVY BLACK HEART -->
+     <string name="spoken_emoji_2764">"实心的心形"</string>
+     <!-- Spoken description for Unicode code point U+2795: "➕" HEAVY PLUS SIGN -->
+     <string name="spoken_emoji_2795">"加粗加号"</string>
+     <!-- Spoken description for Unicode code point U+2796: "➖" HEAVY MINUS SIGN -->
+     <string name="spoken_emoji_2796">"加粗减号"</string>
+     <!-- Spoken description for Unicode code point U+2797: "➗" HEAVY DIVISION SIGN -->
+     <string name="spoken_emoji_2797">"加粗除号"</string>
+     <!-- Spoken description for Unicode code point U+27A1: "➡" BLACK RIGHTWARDS ARROW -->
+     <string name="spoken_emoji_27A1">"实心向右箭头"</string>
+     <!-- Spoken description for Unicode code point U+27B0: "➰" CURLY LOOP -->
+     <string name="spoken_emoji_27B0">"卷曲环"</string>
+     <!-- Spoken description for Unicode code point U+27BF: "➿" DOUBLE CURLY LOOP -->
+     <string name="spoken_emoji_27BF">"双卷曲环"</string>
+     <!-- Spoken description for Unicode code point U+2934: "⤴" ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS -->
+     <string name="spoken_emoji_2934">"指向右侧然后向上弯曲的箭头"</string>
+     <!-- Spoken description for Unicode code point U+2935: "⤵" ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS -->
+     <string name="spoken_emoji_2935">"指向右侧然后向下弯曲的箭头"</string>
+     <!-- Spoken description for Unicode code point U+2B05: "⬅" LEFTWARDS BLACK ARROW -->
+     <string name="spoken_emoji_2B05">"向左实心箭头"</string>
+     <!-- Spoken description for Unicode code point U+2B06: "⬆" UPWARDS BLACK ARROW -->
+     <string name="spoken_emoji_2B06">"向上实心箭头"</string>
+     <!-- Spoken description for Unicode code point U+2B07: "⬇" DOWNWARDS BLACK ARROW -->
+     <string name="spoken_emoji_2B07">"向下实心箭头"</string>
+     <!-- Spoken description for Unicode code point U+2B1B: "⬛" BLACK LARGE SQUARE -->
+     <string name="spoken_emoji_2B1B">"实心大正方形"</string>
+     <!-- Spoken description for Unicode code point U+2B1C: "⬜" WHITE LARGE SQUARE -->
+     <string name="spoken_emoji_2B1C">"空心大正方形"</string>
+     <!-- Spoken description for Unicode code point U+2B50: "⭐" WHITE MEDIUM STAR -->
+     <string name="spoken_emoji_2B50">"空心中等星形"</string>
+     <!-- Spoken description for Unicode code point U+2B55: "⭕" HEAVY LARGE CIRCLE -->
+     <string name="spoken_emoji_2B55">"加粗大圆圈"</string>
+     <!-- Spoken description for Unicode code point U+3030: "〰" WAVY DASH -->
+     <string name="spoken_emoji_3030">"波形长划"</string>
+     <!-- Spoken description for Unicode code point U+303D: "〽" PART ALTERNATION MARK -->
+     <string name="spoken_emoji_303D">"部分替换标记"</string>
+     <!-- Spoken description for Unicode code point U+3297: "㊗" CIRCLED IDEOGRAPH CONGRATULATION -->
+     <string name="spoken_emoji_3297">"带圆圈的汉字祝"</string>
+     <!-- Spoken description for Unicode code point U+3299: "㊙" CIRCLED IDEOGRAPH SECRET -->
+     <string name="spoken_emoji_3299">"带圆圈的汉字秘"</string>
+     <!-- Spoken description for Unicode code point U+1F004: "🀄" MAHJONG TILE RED DRAGON -->
+     <string name="spoken_emoji_1F004">"麻将牌红中"</string>
+     <!-- Spoken description for Unicode code point U+1F0CF: "🃏" PLAYING CARD BLACK JOKER -->
+     <string name="spoken_emoji_1F0CF">"扑克牌小王"</string>
+     <!-- Spoken description for Unicode code point U+1F170: "🅰" NEGATIVE SQUARED LATIN CAPITAL LETTER A -->
+     <string name="spoken_emoji_1F170">"A型血"</string>
+     <!-- Spoken description for Unicode code point U+1F171: "🅱" NEGATIVE SQUARED LATIN CAPITAL LETTER B -->
+     <string name="spoken_emoji_1F171">"B型血"</string>
+     <!-- Spoken description for Unicode code point U+1F17E: "🅾" NEGATIVE SQUARED LATIN CAPITAL LETTER O -->
+     <string name="spoken_emoji_1F17E">"O型血"</string>
+     <!-- Spoken description for Unicode code point U+1F17F: "🅿" NEGATIVE SQUARED LATIN CAPITAL LETTER P -->
+     <string name="spoken_emoji_1F17F">"停车场"</string>
+     <!-- Spoken description for Unicode code point U+1F18E: "🆎" NEGATIVE SQUARED AB -->
+     <string name="spoken_emoji_1F18E">"AB型血"</string>
+     <!-- Spoken description for Unicode code point U+1F191: "🆑" SQUARED CL -->
+     <string name="spoken_emoji_1F191">"带方框的CL"</string>
+     <!-- Spoken description for Unicode code point U+1F192: "🆒" SQUARED COOL -->
+     <string name="spoken_emoji_1F192">"带方框的COOL"</string>
+     <!-- Spoken description for Unicode code point U+1F193: "🆓" SQUARED FREE -->
+     <string name="spoken_emoji_1F193">"带方框的FREE"</string>
+     <!-- Spoken description for Unicode code point U+1F194: "🆔" SQUARED ID -->
+     <string name="spoken_emoji_1F194">"带方框的ID"</string>
+     <!-- Spoken description for Unicode code point U+1F195: "🆕" SQUARED NEW -->
+     <string name="spoken_emoji_1F195">"带方框的NEW"</string>
+     <!-- Spoken description for Unicode code point U+1F196: "🆖" SQUARED NG -->
+     <string name="spoken_emoji_1F196">"带方框的NG"</string>
+     <!-- Spoken description for Unicode code point U+1F197: "🆗" SQUARED OK -->
+     <string name="spoken_emoji_1F197">"带方框的OK"</string>
+     <!-- Spoken description for Unicode code point U+1F198: "🆘" SQUARED SOS -->
+     <string name="spoken_emoji_1F198">"带方框的SOS"</string>
+     <!-- Spoken description for Unicode code point U+1F199: "🆙" SQUARED UP WITH EXCLAMATION MARK -->
+     <string name="spoken_emoji_1F199">"带方框的UP和感叹号"</string>
+     <!-- Spoken description for Unicode code point U+1F19A: "🆚" SQUARED VS -->
+     <string name="spoken_emoji_1F19A">"带方框的VS"</string>
+     <!-- Spoken description for Unicode code point U+1F201: "🈁" SQUARED KATAKANA KOKO -->
+     <string name="spoken_emoji_1F201">"带方框的片假名ココ"</string>
+     <!-- Spoken description for Unicode code point U+1F202: "🈂" SQUARED KATAKANA SA -->
+     <string name="spoken_emoji_1F202">"带方框的片假名サ"</string>
+     <!-- Spoken description for Unicode code point U+1F21A: "🈚" SQUARED CJK UNIFIED IDEOGRAPH-7121 -->
+     <string name="spoken_emoji_1F21A">"带方框的汉字無"</string>
+     <!-- Spoken description for Unicode code point U+1F22F: "🈯" SQUARED CJK UNIFIED IDEOGRAPH-6307 -->
+     <string name="spoken_emoji_1F22F">"带方框的汉字指"</string>
+     <!-- Spoken description for Unicode code point U+1F232: "🈲" SQUARED CJK UNIFIED IDEOGRAPH-7981 -->
+     <string name="spoken_emoji_1F232">"带方框的汉字禁"</string>
+     <!-- Spoken description for Unicode code point U+1F233: "🈳" SQUARED CJK UNIFIED IDEOGRAPH-7A7A -->
+     <string name="spoken_emoji_1F233">"带方框的汉字空"</string>
+     <!-- Spoken description for Unicode code point U+1F234: "🈴" SQUARED CJK UNIFIED IDEOGRAPH-5408 -->
+     <string name="spoken_emoji_1F234">"带方框的汉字合"</string>
+     <!-- Spoken description for Unicode code point U+1F235: "🈵" SQUARED CJK UNIFIED IDEOGRAPH-6E80 -->
+     <string name="spoken_emoji_1F235">"带方框的汉字満"</string>
+     <!-- Spoken description for Unicode code point U+1F236: "🈶" SQUARED CJK UNIFIED IDEOGRAPH-6709 -->
+     <string name="spoken_emoji_1F236">"带方框的汉字有"</string>
+     <!-- Spoken description for Unicode code point U+1F237: "🈷" SQUARED CJK UNIFIED IDEOGRAPH-6708 -->
+     <string name="spoken_emoji_1F237">"带方框的汉字月"</string>
+     <!-- Spoken description for Unicode code point U+1F238: "🈸" SQUARED CJK UNIFIED IDEOGRAPH-7533 -->
+     <string name="spoken_emoji_1F238">"带方框的汉字申"</string>
+     <!-- Spoken description for Unicode code point U+1F239: "🈹" SQUARED CJK UNIFIED IDEOGRAPH-5272 -->
+     <string name="spoken_emoji_1F239">"带方框的汉字割"</string>
+     <!-- Spoken description for Unicode code point U+1F23A: "🈺" SQUARED CJK UNIFIED IDEOGRAPH-55B6 -->
+     <string name="spoken_emoji_1F23A">"带方框的汉字営"</string>
+     <!-- Spoken description for Unicode code point U+1F250: "🉐" CIRCLED IDEOGRAPH ADVANTAGE -->
+     <string name="spoken_emoji_1F250">"带圆圈的汉字得"</string>
+     <!-- Spoken description for Unicode code point U+1F251: "🉑" CIRCLED IDEOGRAPH ACCEPT -->
+     <string name="spoken_emoji_1F251">"带圆圈的汉字可"</string>
+     <!-- Spoken description for Unicode code point U+1F300: "🌀" CYCLONE -->
+     <string name="spoken_emoji_1F300">"旋风"</string>
+     <!-- Spoken description for Unicode code point U+1F301: "🌁" FOGGY -->
+     <string name="spoken_emoji_1F301">"有雾"</string>
+     <!-- Spoken description for Unicode code point U+1F302: "🌂" CLOSED UMBRELLA -->
+     <string name="spoken_emoji_1F302">"合上的雨伞"</string>
+     <!-- Spoken description for Unicode code point U+1F303: "🌃" NIGHT WITH STARS -->
+     <string name="spoken_emoji_1F303">"有星星的夜晚"</string>
+     <!-- Spoken description for Unicode code point U+1F304: "🌄" SUNRISE OVER MOUNTAINS -->
+     <string name="spoken_emoji_1F304">"越过山顶的日出"</string>
+     <!-- Spoken description for Unicode code point U+1F305: "🌅" SUNRISE -->
+     <string name="spoken_emoji_1F305">"日出"</string>
+     <!-- Spoken description for Unicode code point U+1F306: "🌆" CITYSCAPE AT DUSK -->
+     <string name="spoken_emoji_1F306">"黄昏的城市风景"</string>
+     <!-- Spoken description for Unicode code point U+1F307: "🌇" SUNSET OVER BUILDINGS -->
+     <string name="spoken_emoji_1F307">"越过建筑物的日落"</string>
+     <!-- Spoken description for Unicode code point U+1F308: "🌈" RAINBOW -->
+     <string name="spoken_emoji_1F308">"彩虹"</string>
+     <!-- Spoken description for Unicode code point U+1F309: "🌉" BRIDGE AT NIGHT -->
+     <string name="spoken_emoji_1F309">"夜间的大桥"</string>
+     <!-- Spoken description for Unicode code point U+1F30A: "🌊" WATER WAVE -->
+     <string name="spoken_emoji_1F30A">"水波"</string>
+     <!-- Spoken description for Unicode code point U+1F30B: "🌋" VOLCANO -->
+     <string name="spoken_emoji_1F30B">"火山"</string>
+     <!-- Spoken description for Unicode code point U+1F30C: "🌌" MILKY WAY -->
+     <string name="spoken_emoji_1F30C">"银河系"</string>
+     <!-- Spoken description for Unicode code point U+1F30D: "🌍" EARTH GLOBE EUROPE-AFRICA -->
+     <string name="spoken_emoji_1F30D">"地球欧洲-非洲"</string>
+     <!-- Spoken description for Unicode code point U+1F30E: "🌎" EARTH GLOBE AMERICAS -->
+     <string name="spoken_emoji_1F30E">"地球美洲"</string>
+     <!-- Spoken description for Unicode code point U+1F30F: "🌏" EARTH GLOBE ASIA-AUSTRALIA -->
+     <string name="spoken_emoji_1F30F">"地球亚洲-澳大利亚"</string>
+     <!-- Spoken description for Unicode code point U+1F310: "🌐" GLOBE WITH MERIDIANS -->
+     <string name="spoken_emoji_1F310">"带子午线的球形"</string>
+     <!-- Spoken description for Unicode code point U+1F311: "🌑" NEW MOON SYMBOL -->
+     <string name="spoken_emoji_1F311">"新月符号"</string>
+     <!-- Spoken description for Unicode code point U+1F312: "🌒" WAXING CRESCENT MOON SYMBOL -->
+     <string name="spoken_emoji_1F312">"新月娥眉月符号"</string>
+     <!-- Spoken description for Unicode code point U+1F313: "🌓" FIRST QUARTER MOON SYMBOL -->
+     <string name="spoken_emoji_1F313">"上弦月符号"</string>
+     <!-- Spoken description for Unicode code point U+1F314: "🌔" WAXING GIBBOUS MOON SYMBOL -->
+     <string name="spoken_emoji_1F314">"盈凸月符号"</string>
+     <!-- Spoken description for Unicode code point U+1F315: "🌕" FULL MOON SYMBOL -->
+     <string name="spoken_emoji_1F315">"满月符号"</string>
+     <!-- Spoken description for Unicode code point U+1F316: "🌖" WANING GIBBOUS MOON SYMBOL -->
+     <string name="spoken_emoji_1F316">"亏凸月符号"</string>
+     <!-- Spoken description for Unicode code point U+1F317: "🌗" LAST QUARTER MOON SYMBOL -->
+     <string name="spoken_emoji_1F317">"下弦月符号"</string>
+     <!-- Spoken description for Unicode code point U+1F318: "🌘" WANING CRESCENT MOON SYMBOL -->
+     <string name="spoken_emoji_1F318">"残月娥眉月符号"</string>
+     <!-- Spoken description for Unicode code point U+1F319: "🌙" CRESCENT MOON -->
+     <string name="spoken_emoji_1F319">"娥眉月"</string>
+     <!-- Spoken description for Unicode code point U+1F31A: "🌚" NEW MOON WITH FACE -->
+     <string name="spoken_emoji_1F31A">"带一张脸的新月"</string>
+     <!-- Spoken description for Unicode code point U+1F31B: "🌛" FIRST QUARTER MOON WITH FACE -->
+     <string name="spoken_emoji_1F31B">"带一张脸的上弦月"</string>
+     <!-- Spoken description for Unicode code point U+1F31C: "🌜" LAST QUARTER MOON WITH FACE -->
+     <string name="spoken_emoji_1F31C">"带一张脸的下弦月"</string>
+     <!-- Spoken description for Unicode code point U+1F31D: "🌝" FULL MOON WITH FACE -->
+     <string name="spoken_emoji_1F31D">"带一张脸的满月"</string>
+     <!-- Spoken description for Unicode code point U+1F31E: "🌞" SUN WITH FACE -->
+     <string name="spoken_emoji_1F31E">"带一张脸的太阳"</string>
+     <!-- Spoken description for Unicode code point U+1F31F: "🌟" GLOWING STAR -->
+     <string name="spoken_emoji_1F31F">"发光的星星"</string>
+     <!-- Spoken description for Unicode code point U+1F320: "🌠" SHOOTING STAR -->
+     <string name="spoken_emoji_1F320">"流星"</string>
+     <!-- Spoken description for Unicode code point U+1F321: "🌡" THERMOMETER -->
+     <string name="spoken_emoji_1F321">"温度计"</string>
+     <!-- Spoken description for Unicode code point U+1F324: "🌤" WHITE SUN WITH SMALL CLOUD -->
+     <string name="spoken_emoji_1F324">"烈日当空，万里无云"</string>
+     <!-- Spoken description for Unicode code point U+1F325: "🌥" WHITE SUN BEHIND CLOUD -->
+     <string name="spoken_emoji_1F325">"云后灼日"</string>
+     <!-- Spoken description for Unicode code point U+1F326: "🌦" WHITE SUN BEHIND CLOUD WITH RAIN -->
+     <string name="spoken_emoji_1F326">"雨中云后的灼日"</string>
+     <!-- Spoken description for Unicode code point U+1F327: "🌧" CLOUD WITH RAIN -->
+     <string name="spoken_emoji_1F327">"雨中云"</string>
+     <!-- Spoken description for Unicode code point U+1F328: "🌨" CLOUD WITH SNOW -->
+     <string name="spoken_emoji_1F328">"雪中云"</string>
+     <!-- Spoken description for Unicode code point U+1F329: "🌩" CLOUD WITH LIGHTNING -->
+     <string name="spoken_emoji_1F329">"发光云"</string>
+     <!-- Spoken description for Unicode code point U+1F32A: "🌪" CLOUD WITH TORNADO -->
+     <string name="spoken_emoji_1F32A">"龙卷风云"</string>
+     <!-- Spoken description for Unicode code point U+1F32B: "🌫" FOG -->
+     <string name="spoken_emoji_1F32B">"雾"</string>
+     <!-- Spoken description for Unicode code point U+1F32C: "🌬" WIND BLOWING FACE -->
+     <string name="spoken_emoji_1F32C">"风吹脸庞"</string>
+     <!-- Spoken description for Unicode code point U+1F32D: "🌭" HOT DOG -->
+     <string name="spoken_emoji_1F32D">"热狗"</string>
+     <!-- Spoken description for Unicode code point U+1F32E: "🌮" TACO -->
+     <string name="spoken_emoji_1F32E">"墨西哥卷饼"</string>
+     <!-- Spoken description for Unicode code point U+1F32F: "🌯" BURRITO -->
+     <string name="spoken_emoji_1F32F">"墨西哥玉米煎饼"</string>
+     <!-- Spoken description for Unicode code point U+1F330: "🌰" CHESTNUT -->
+     <string name="spoken_emoji_1F330">"板栗"</string>
+     <!-- Spoken description for Unicode code point U+1F331: "🌱" SEEDLING -->
+     <string name="spoken_emoji_1F331">"幼苗"</string>
+     <!-- Spoken description for Unicode code point U+1F332: "🌲" EVERGREEN TREE -->
+     <string name="spoken_emoji_1F332">"常青树"</string>
+     <!-- Spoken description for Unicode code point U+1F333: "🌳" DECIDUOUS TREE -->
+     <string name="spoken_emoji_1F333">"落叶树"</string>
+     <!-- Spoken description for Unicode code point U+1F334: "🌴" PALM TREE -->
+     <string name="spoken_emoji_1F334">"棕榈树"</string>
+     <!-- Spoken description for Unicode code point U+1F335: "🌵" CACTUS -->
+     <string name="spoken_emoji_1F335">"仙人掌"</string>
+     <!-- Spoken description for Unicode code point U+1F336: "🌶" HOT PEPPER -->
+     <string name="spoken_emoji_1F336">"辣椒"</string>
+     <!-- Spoken description for Unicode code point U+1F337: "🌷" TULIP -->
+     <string name="spoken_emoji_1F337">"郁金香"</string>
+     <!-- Spoken description for Unicode code point U+1F338: "🌸" CHERRY BLOSSOM -->
+     <string name="spoken_emoji_1F338">"樱花"</string>
+     <!-- Spoken description for Unicode code point U+1F339: "🌹" ROSE -->
+     <string name="spoken_emoji_1F339">"玫瑰"</string>
+     <!-- Spoken description for Unicode code point U+1F33A: "🌺" HIBISCUS -->
+     <string name="spoken_emoji_1F33A">"芙蓉"</string>
+     <!-- Spoken description for Unicode code point U+1F33B: "🌻" SUNFLOWER -->
+     <string name="spoken_emoji_1F33B">"向日葵"</string>
+     <!-- Spoken description for Unicode code point U+1F33C: "🌼" BLOSSOM -->
+     <string name="spoken_emoji_1F33C">"花蕾"</string>
+     <!-- Spoken description for Unicode code point U+1F33D: "🌽" EAR OF MAIZE -->
+     <string name="spoken_emoji_1F33D">"玉米穗"</string>
+     <!-- Spoken description for Unicode code point U+1F33E: "🌾" EAR OF RICE -->
+     <string name="spoken_emoji_1F33E">"稻穗"</string>
+     <!-- Spoken description for Unicode code point U+1F33F: "🌿" HERB -->
+     <string name="spoken_emoji_1F33F">"香草"</string>
+     <!-- Spoken description for Unicode code point U+1F340: "🍀" FOUR LEAF CLOVER -->
+     <string name="spoken_emoji_1F340">"四叶草"</string>
+     <!-- Spoken description for Unicode code point U+1F341: "🍁" MAPLE LEAF -->
+     <string name="spoken_emoji_1F341">"枫叶"</string>
+     <!-- Spoken description for Unicode code point U+1F342: "🍂" FALLEN LEAF -->
+     <string name="spoken_emoji_1F342">"落叶"</string>
+     <!-- Spoken description for Unicode code point U+1F343: "🍃" LEAF FLUTTERING IN WIND -->
+     <string name="spoken_emoji_1F343">"在风中飘扬的树叶"</string>
+     <!-- Spoken description for Unicode code point U+1F344: "🍄" MUSHROOM -->
+     <string name="spoken_emoji_1F344">"蘑菇"</string>
+     <!-- Spoken description for Unicode code point U+1F345: "🍅" TOMATO -->
+     <string name="spoken_emoji_1F345">"番茄"</string>
+     <!-- Spoken description for Unicode code point U+1F346: "🍆" AUBERGINE -->
+     <string name="spoken_emoji_1F346">"茄子"</string>
+     <!-- Spoken description for Unicode code point U+1F347: "🍇" GRAPES -->
+     <string name="spoken_emoji_1F347">"葡萄"</string>
+     <!-- Spoken description for Unicode code point U+1F348: "🍈" MELON -->
+     <string name="spoken_emoji_1F348">"哈密瓜"</string>
+     <!-- Spoken description for Unicode code point U+1F349: "🍉" WATERMELON -->
+     <string name="spoken_emoji_1F349">"西瓜"</string>
+     <!-- Spoken description for Unicode code point U+1F34A: "🍊" TANGERINE -->
+     <string name="spoken_emoji_1F34A">"柑橘"</string>
+     <!-- Spoken description for Unicode code point U+1F34B: "🍋" LEMON -->
+     <string name="spoken_emoji_1F34B">"柠檬"</string>
+     <!-- Spoken description for Unicode code point U+1F34C: "🍌" BANANA -->
+     <string name="spoken_emoji_1F34C">"香蕉"</string>
+     <!-- Spoken description for Unicode code point U+1F34D: "🍍" PINEAPPLE -->
+     <string name="spoken_emoji_1F34D">"菠萝"</string>
+     <!-- Spoken description for Unicode code point U+1F34E: "🍎" RED APPLE -->
+     <string name="spoken_emoji_1F34E">"红苹果"</string>
+     <!-- Spoken description for Unicode code point U+1F34F: "🍏" GREEN APPLE -->
+     <string name="spoken_emoji_1F34F">"青苹果"</string>
+     <!-- Spoken description for Unicode code point U+1F350: "🍐" PEAR -->
+     <string name="spoken_emoji_1F350">"梨"</string>
+     <!-- Spoken description for Unicode code point U+1F351: "🍑" PEACH -->
+     <string name="spoken_emoji_1F351">"桃"</string>
+     <!-- Spoken description for Unicode code point U+1F352: "🍒" CHERRIES -->
+     <string name="spoken_emoji_1F352">"樱桃"</string>
+     <!-- Spoken description for Unicode code point U+1F353: "🍓" STRAWBERRY -->
+     <string name="spoken_emoji_1F353">"草莓"</string>
+     <!-- Spoken description for Unicode code point U+1F354: "🍔" HAMBURGER -->
+     <string name="spoken_emoji_1F354">"汉堡"</string>
+     <!-- Spoken description for Unicode code point U+1F355: "🍕" SLICE OF PIZZA -->
+     <string name="spoken_emoji_1F355">"披萨片"</string>
+     <!-- Spoken description for Unicode code point U+1F356: "🍖" MEAT ON BONE -->
+     <string name="spoken_emoji_1F356">"连骨肉"</string>
+     <!-- Spoken description for Unicode code point U+1F357: "🍗" POULTRY LEG -->
+     <string name="spoken_emoji_1F357">"鸡腿"</string>
+     <!-- Spoken description for Unicode code point U+1F358: "🍘" RICE CRACKER -->
+     <string name="spoken_emoji_1F358">"米饼"</string>
+     <!-- Spoken description for Unicode code point U+1F359: "🍙" RICE BALL -->
+     <string name="spoken_emoji_1F359">"饭团"</string>
+     <!-- Spoken description for Unicode code point U+1F35A: "🍚" COOKED RICE -->
+     <string name="spoken_emoji_1F35A">"白米饭"</string>
+     <!-- Spoken description for Unicode code point U+1F35B: "🍛" CURRY AND RICE -->
+     <string name="spoken_emoji_1F35B">"咖喱饭"</string>
+     <!-- Spoken description for Unicode code point U+1F35C: "🍜" STEAMING BOWL -->
+     <string name="spoken_emoji_1F35C">"热气腾腾的碗"</string>
+     <!-- Spoken description for Unicode code point U+1F35D: "🍝" SPAGHETTI -->
+     <string name="spoken_emoji_1F35D">"意大利面"</string>
+     <!-- Spoken description for Unicode code point U+1F35E: "🍞" BREAD -->
+     <string name="spoken_emoji_1F35E">"面包"</string>
+     <!-- Spoken description for Unicode code point U+1F35F: "🍟" FRENCH FRIES -->
+     <string name="spoken_emoji_1F35F">"炸薯条"</string>
+     <!-- Spoken description for Unicode code point U+1F360: "🍠" ROASTED SWEET POTATO -->
+     <string name="spoken_emoji_1F360">"烤地瓜"</string>
+     <!-- Spoken description for Unicode code point U+1F361: "🍡" DANGO -->
+     <string name="spoken_emoji_1F361">"团子"</string>
+     <!-- Spoken description for Unicode code point U+1F362: "🍢" ODEN -->
+     <string name="spoken_emoji_1F362">"关东煮"</string>
+     <!-- Spoken description for Unicode code point U+1F363: "🍣" SUSHI -->
+     <string name="spoken_emoji_1F363">"寿司"</string>
+     <!-- Spoken description for Unicode code point U+1F364: "🍤" FRIED SHRIMP -->
+     <string name="spoken_emoji_1F364">"炸虾"</string>
+     <!-- Spoken description for Unicode code point U+1F365: "🍥" FISH CAKE WITH SWIRL DESIGN -->
+     <string name="spoken_emoji_1F365">"漩涡图案鱼饼"</string>
+     <!-- Spoken description for Unicode code point U+1F366: "🍦" SOFT ICE CREAM -->
+     <string name="spoken_emoji_1F366">"软冰淇淋"</string>
+     <!-- Spoken description for Unicode code point U+1F367: "🍧" SHAVED ICE -->
+     <string name="spoken_emoji_1F367">"刨冰"</string>
+     <!-- Spoken description for Unicode code point U+1F368: "🍨" ICE CREAM -->
+     <string name="spoken_emoji_1F368">"冰淇淋"</string>
+     <!-- Spoken description for Unicode code point U+1F369: "🍩" DOUGHNUT -->
+     <string name="spoken_emoji_1F369">"甜甜圈"</string>
+     <!-- Spoken description for Unicode code point U+1F36A: "🍪" COOKIE -->
+     <string name="spoken_emoji_1F36A">"饼干"</string>
+     <!-- Spoken description for Unicode code point U+1F36B: "🍫" CHOCOLATE BAR -->
+     <string name="spoken_emoji_1F36B">"巧克力块"</string>
+     <!-- Spoken description for Unicode code point U+1F36C: "🍬" CANDY -->
+     <string name="spoken_emoji_1F36C">"糖果"</string>
+     <!-- Spoken description for Unicode code point U+1F36D: "🍭" LOLLIPOP -->
+     <string name="spoken_emoji_1F36D">"棒棒糖"</string>
+     <!-- Spoken description for Unicode code point U+1F36E: "🍮" CUSTARD -->
+     <string name="spoken_emoji_1F36E">"奶油蛋羹"</string>
+     <!-- Spoken description for Unicode code point U+1F36F: "🍯" HONEY POT -->
+     <string name="spoken_emoji_1F36F">"蜜罐"</string>
+     <!-- Spoken description for Unicode code point U+1F370: "🍰" SHORTCAKE -->
+     <string name="spoken_emoji_1F370">"水果蛋糕"</string>
+     <!-- Spoken description for Unicode code point U+1F371: "🍱" BENTO BOX -->
+     <string name="spoken_emoji_1F371">"便当盒"</string>
+     <!-- Spoken description for Unicode code point U+1F372: "🍲" POT OF FOOD -->
+     <string name="spoken_emoji_1F372">"盛满食物的锅"</string>
+     <!-- Spoken description for Unicode code point U+1F373: "🍳" COOKING -->
+     <string name="spoken_emoji_1F373">"烹调"</string>
+     <!-- Spoken description for Unicode code point U+1F374: "🍴" FORK AND KNIFE -->
+     <string name="spoken_emoji_1F374">"刀叉"</string>
+     <!-- Spoken description for Unicode code point U+1F375: "🍵" TEACUP WITHOUT HANDLE -->
+     <string name="spoken_emoji_1F375">"无柄茶杯"</string>
+     <!-- Spoken description for Unicode code point U+1F376: "🍶" SAKE BOTTLE AND CUP -->
+     <string name="spoken_emoji_1F376">"日本酒瓶和杯子"</string>
+     <!-- Spoken description for Unicode code point U+1F377: "🍷" WINE GLASS -->
+     <string name="spoken_emoji_1F377">"葡萄酒杯"</string>
+     <!-- Spoken description for Unicode code point U+1F378: "🍸" COCKTAIL GLASS -->
+     <string name="spoken_emoji_1F378">"鸡尾酒杯"</string>
+     <!-- Spoken description for Unicode code point U+1F379: "🍹" TROPICAL DRINK -->
+     <string name="spoken_emoji_1F379">"热带风情鸡尾酒"</string>
+     <!-- Spoken description for Unicode code point U+1F37A: "🍺" BEER MUG -->
+     <string name="spoken_emoji_1F37A">"啤酒杯"</string>
+     <!-- Spoken description for Unicode code point U+1F37B: "🍻" CLINKING BEER MUGS -->
+     <string name="spoken_emoji_1F37B">"碰在一起的啤酒杯"</string>
+     <!-- Spoken description for Unicode code point U+1F37C: "🍼" BABY BOTTLE -->
+     <string name="spoken_emoji_1F37C">"婴儿奶瓶"</string>
+     <!-- Spoken description for Unicode code point U+1F37D: "🍽" FORK AND KNIFE WITH PLATE -->
+     <string name="spoken_emoji_1F37D">"刀叉和餐盘"</string>
+     <!-- Spoken description for Unicode code point U+1F37E: "🍾" BOTTLE WITH POPPING CORK -->
+     <string name="spoken_emoji_1F37E">"带有软木塞的瓶"</string>
+     <!-- Spoken description for Unicode code point U+1F37F: "🍿" POPCORN -->
+     <string name="spoken_emoji_1F37F">"爆米花"</string>
+     <!-- Spoken description for Unicode code point U+1F380: "🎀" RIBBON -->
+     <string name="spoken_emoji_1F380">"绸带"</string>
+     <!-- Spoken description for Unicode code point U+1F381: "🎁" WRAPPED PRESENT -->
+     <string name="spoken_emoji_1F381">"包好的礼物"</string>
+     <!-- Spoken description for Unicode code point U+1F382: "🎂" BIRTHDAY CAKE -->
+     <string name="spoken_emoji_1F382">"生日蛋糕"</string>
+     <!-- Spoken description for Unicode code point U+1F383: "🎃" JACK-O-LANTERN -->
+     <string name="spoken_emoji_1F383">"南瓜灯"</string>
+     <!-- Spoken description for Unicode code point U+1F384: "🎄" CHRISTMAS TREE -->
+     <string name="spoken_emoji_1F384">"圣诞树"</string>
+     <!-- Spoken description for Unicode code point U+1F385: "🎅" FATHER CHRISTMAS -->
+     <string name="spoken_emoji_1F385">"圣诞老人"</string>
+     <!-- Spoken description for Unicode code point U+1F386: "🎆" FIREWORKS -->
+     <string name="spoken_emoji_1F386">"焰火"</string>
+     <!-- Spoken description for Unicode code point U+1F387: "🎇" FIREWORK SPARKLER -->
+     <string name="spoken_emoji_1F387">"烟花焰火"</string>
+     <!-- Spoken description for Unicode code point U+1F388: "🎈" BALLOON -->
+     <string name="spoken_emoji_1F388">"气球"</string>
+     <!-- Spoken description for Unicode code point U+1F389: "🎉" PARTY POPPER -->
+     <string name="spoken_emoji_1F389">"礼花"</string>
+     <!-- Spoken description for Unicode code point U+1F38A: "🎊" CONFETTI BALL -->
+     <string name="spoken_emoji_1F38A">"五彩纸屑球"</string>
+     <!-- Spoken description for Unicode code point U+1F38B: "🎋" TANABATA TREE -->
+     <string name="spoken_emoji_1F38B">"七夕树"</string>
+     <!-- Spoken description for Unicode code point U+1F38C: "🎌" CROSSED FLAGS -->
+     <string name="spoken_emoji_1F38C">"交叉旗帜"</string>
+     <!-- Spoken description for Unicode code point U+1F38D: "🎍" PINE DECORATION -->
+     <string name="spoken_emoji_1F38D">"门松"</string>
+     <!-- Spoken description for Unicode code point U+1F38E: "🎎" JAPANESE DOLLS -->
+     <string name="spoken_emoji_1F38E">"日本人偶"</string>
+     <!-- Spoken description for Unicode code point U+1F38F: "🎏" CARP STREAMER -->
+     <string name="spoken_emoji_1F38F">"鲤鱼旗"</string>
+     <!-- Spoken description for Unicode code point U+1F390: "🎐" WIND CHIME -->
+     <string name="spoken_emoji_1F390">"风铃"</string>
+     <!-- Spoken description for Unicode code point U+1F391: "🎑" MOON VIEWING CEREMONY -->
+     <string name="spoken_emoji_1F391">"赏月仪式"</string>
+     <!-- Spoken description for Unicode code point U+1F392: "🎒" SCHOOL SATCHEL -->
+     <string name="spoken_emoji_1F392">"书包"</string>
+     <!-- Spoken description for Unicode code point U+1F393: "🎓" GRADUATION CAP -->
+     <string name="spoken_emoji_1F393">"毕业帽"</string>
+     <!-- Spoken description for Unicode code point U+1F396: "🎖" MILITARY MEDAL -->
+     <string name="spoken_emoji_1F396">"军功章"</string>
+     <!-- Spoken description for Unicode code point U+1F397: "🎗" REMINDER RIBBON -->
+     <string name="spoken_emoji_1F397">"提醒功能区"</string>
+     <!-- Spoken description for Unicode code point U+1F399: "🎙" STUDIO MICROPHONE -->
+     <string name="spoken_emoji_1F399">"录音话筒"</string>
+     <!-- Spoken description for Unicode code point U+1F39A: "🎚" LEVEL SLIDER -->
+     <string name="spoken_emoji_1F39A">"水平滑块"</string>
+     <!-- Spoken description for Unicode code point U+1F39B: "🎛" CONTROL KNOBS -->
+     <string name="spoken_emoji_1F39B">"控制旋钮"</string>
+     <!-- Spoken description for Unicode code point U+1F39E: "🎞" FILM FRAMES -->
+     <string name="spoken_emoji_1F39E">"像片框"</string>
+     <!-- Spoken description for Unicode code point U+1F39F: "🎟" ADMISSION TICKETS -->
+     <string name="spoken_emoji_1F39F">"入场券"</string>
+     <!-- Spoken description for Unicode code point U+1F3A0: "🎠" CAROUSEL HORSE -->
+     <string name="spoken_emoji_1F3A0">"旋转木马"</string>
+     <!-- Spoken description for Unicode code point U+1F3A1: "🎡" FERRIS WHEEL -->
+     <string name="spoken_emoji_1F3A1">"摩天轮"</string>
+     <!-- Spoken description for Unicode code point U+1F3A2: "🎢" ROLLER COASTER -->
+     <string name="spoken_emoji_1F3A2">"过山车"</string>
+     <!-- Spoken description for Unicode code point U+1F3A3: "🎣" FISHING POLE AND FISH -->
+     <string name="spoken_emoji_1F3A3">"鱼竿和鱼"</string>
+     <!-- Spoken description for Unicode code point U+1F3A4: "🎤" MICROPHONE -->
+     <string name="spoken_emoji_1F3A4">"麦克风"</string>
+     <!-- Spoken description for Unicode code point U+1F3A5: "🎥" MOVIE CAMERA -->
+     <string name="spoken_emoji_1F3A5">"摄像机"</string>
+     <!-- Spoken description for Unicode code point U+1F3A6: "🎦" CINEMA -->
+     <string name="spoken_emoji_1F3A6">"电影院"</string>
+     <!-- Spoken description for Unicode code point U+1F3A7: "🎧" HEADPHONE -->
+     <string name="spoken_emoji_1F3A7">"耳机"</string>
+     <!-- Spoken description for Unicode code point U+1F3A8: "🎨" ARTIST PALETTE -->
+     <string name="spoken_emoji_1F3A8">"画家调色板"</string>
+     <!-- Spoken description for Unicode code point U+1F3A9: "🎩" TOP HAT -->
+     <string name="spoken_emoji_1F3A9">"礼帽"</string>
+     <!-- Spoken description for Unicode code point U+1F3AA: "🎪" CIRCUS TENT -->
+     <string name="spoken_emoji_1F3AA">"马戏团帐篷"</string>
+     <!-- Spoken description for Unicode code point U+1F3AB: "🎫" TICKET -->
+     <string name="spoken_emoji_1F3AB">"门票"</string>
+     <!-- Spoken description for Unicode code point U+1F3AC: "🎬" CLAPPER BOARD -->
+     <string name="spoken_emoji_1F3AC">"场记板"</string>
+     <!-- Spoken description for Unicode code point U+1F3AD: "🎭" PERFORMING ARTS -->
+     <string name="spoken_emoji_1F3AD">"表演艺术"</string>
+     <!-- Spoken description for Unicode code point U+1F3AE: "🎮" VIDEO GAME -->
+     <string name="spoken_emoji_1F3AE">"电子游戏机"</string>
+     <!-- Spoken description for Unicode code point U+1F3AF: "🎯" DIRECT HIT -->
+     <string name="spoken_emoji_1F3AF">"命中靶心"</string>
+     <!-- Spoken description for Unicode code point U+1F3B0: "🎰" SLOT MACHINE -->
+     <string name="spoken_emoji_1F3B0">"老虎机"</string>
+     <!-- Spoken description for Unicode code point U+1F3B1: "🎱" BILLIARDS -->
+     <string name="spoken_emoji_1F3B1">"台球"</string>
+     <!-- Spoken description for Unicode code point U+1F3B2: "🎲" GAME DIE -->
+     <string name="spoken_emoji_1F3B2">"游戏骰子"</string>
+     <!-- Spoken description for Unicode code point U+1F3B3: "🎳" BOWLING -->
+     <string name="spoken_emoji_1F3B3">"保龄球"</string>
+     <!-- Spoken description for Unicode code point U+1F3B4: "🎴" FLOWER PLAYING CARDS -->
+     <string name="spoken_emoji_1F3B4">"花牌"</string>
+     <!-- Spoken description for Unicode code point U+1F3B5: "🎵" MUSICAL NOTE -->
+     <string name="spoken_emoji_1F3B5">"音符"</string>
+     <!-- Spoken description for Unicode code point U+1F3B6: "🎶" MULTIPLE MUSICAL NOTES -->
+     <string name="spoken_emoji_1F3B6">"多个音符"</string>
+     <!-- Spoken description for Unicode code point U+1F3B7: "🎷" SAXOPHONE -->
+     <string name="spoken_emoji_1F3B7">"萨克斯管"</string>
+     <!-- Spoken description for Unicode code point U+1F3B8: "🎸" GUITAR -->
+     <string name="spoken_emoji_1F3B8">"吉他"</string>
+     <!-- Spoken description for Unicode code point U+1F3B9: "🎹" MUSICAL KEYBOARD -->
+     <string name="spoken_emoji_1F3B9">"音乐键盘"</string>
+     <!-- Spoken description for Unicode code point U+1F3BA: "🎺" TRUMPET -->
+     <string name="spoken_emoji_1F3BA">"小号"</string>
+     <!-- Spoken description for Unicode code point U+1F3BB: "🎻" VIOLIN -->
+     <string name="spoken_emoji_1F3BB">"小提琴"</string>
+     <!-- Spoken description for Unicode code point U+1F3BC: "🎼" MUSICAL SCORE -->
+     <string name="spoken_emoji_1F3BC">"乐谱"</string>
+     <!-- Spoken description for Unicode code point U+1F3BD: "🎽" RUNNING SHIRT WITH SASH -->
+     <string name="spoken_emoji_1F3BD">"带饰带的运动衫"</string>
+     <!-- Spoken description for Unicode code point U+1F3BE: "🎾" TENNIS RACQUET AND BALL -->
+     <string name="spoken_emoji_1F3BE">"网球拍和网球"</string>
+     <!-- Spoken description for Unicode code point U+1F3BF: "🎿" SKI AND SKI BOOT -->
+     <string name="spoken_emoji_1F3BF">"滑雪板和滑雪靴"</string>
+     <!-- Spoken description for Unicode code point U+1F3C0: "🏀" BASKETBALL AND HOOP -->
+     <string name="spoken_emoji_1F3C0">"篮球和篮框"</string>
+     <!-- Spoken description for Unicode code point U+1F3C1: "🏁" CHEQUERED FLAG -->
+     <string name="spoken_emoji_1F3C1">"格子旗"</string>
+     <!-- Spoken description for Unicode code point U+1F3C2: "🏂" SNOWBOARDER -->
+     <string name="spoken_emoji_1F3C2">"单板滑雪者"</string>
+     <!-- Spoken description for Unicode code point U+1F3C3: "🏃" RUNNER -->
+     <string name="spoken_emoji_1F3C3">"跑步者"</string>
+     <!-- Spoken description for Unicode code point U+1F3C4: "🏄" SURFER -->
+     <string name="spoken_emoji_1F3C4">"冲浪者"</string>
+     <!-- Spoken description for Unicode code point U+1F3C5: "🏅" SPORTS MEDAL -->
+     <string name="spoken_emoji_1F3C5">"体育奖牌"</string>
+     <!-- Spoken description for Unicode code point U+1F3C6: "🏆" TROPHY -->
+     <string name="spoken_emoji_1F3C6">"奖杯"</string>
+     <!-- Spoken description for Unicode code point U+1F3C7: "🏇" HORSE RACING -->
+     <string name="spoken_emoji_1F3C7">"赛马"</string>
+     <!-- Spoken description for Unicode code point U+1F3C8: "🏈" AMERICAN FOOTBALL -->
+     <string name="spoken_emoji_1F3C8">"美式橄榄球"</string>
+     <!-- Spoken description for Unicode code point U+1F3C9: "🏉" RUGBY FOOTBALL -->
+     <string name="spoken_emoji_1F3C9">"英式橄榄球"</string>
+     <!-- Spoken description for Unicode code point U+1F3CA: "🏊" SWIMMER -->
+     <string name="spoken_emoji_1F3CA">"游泳者"</string>
+     <!-- Spoken description for Unicode code point U+1F3CB: "🏋" WEIGHT LIFTER -->
+     <string name="spoken_emoji_1F3CB">"举重选手"</string>
+     <!-- Spoken description for Unicode code point U+1F3CC: "🏌" GOLFER -->
+     <string name="spoken_emoji_1F3CC">"高尔夫选手"</string>
+     <!-- Spoken description for Unicode code point U+1F3CD: "🏍" RACING MOTORCYCLE -->
+     <string name="spoken_emoji_1F3CD">"摩托赛车"</string>
+     <!-- Spoken description for Unicode code point U+1F3CE: "🏎" RACING CAR -->
+     <string name="spoken_emoji_1F3CE">"赛车"</string>
+     <!-- Spoken description for Unicode code point U+1F3CF: "🏏" CRICKET BAT AND BALL -->
+     <string name="spoken_emoji_1F3CF">"板球棒和球"</string>
+     <!-- Spoken description for Unicode code point U+1F3D0: "🏐" VOLLEYBALL -->
+     <string name="spoken_emoji_1F3D0">"排球"</string>
+     <!-- Spoken description for Unicode code point U+1F3D1: "🏑" FIELD HOCKEY STICK AND BALL -->
+     <string name="spoken_emoji_1F3D1">"曲棍球棒和球"</string>
+     <!-- Spoken description for Unicode code point U+1F3D2: "🏒" ICE HOCKEY STICK AND PUCK -->
+     <string name="spoken_emoji_1F3D2">"冰球棒和冰球"</string>
+     <!-- Spoken description for Unicode code point U+1F3D3: "🏓" TABLE TENNIS PADDLE AND BALL -->
+     <string name="spoken_emoji_1F3D3">"兵乓球拍和球"</string>
+     <!-- Spoken description for Unicode code point U+1F3D4: "🏔" SNOW CAPPED MOUNTAIN -->
+     <string name="spoken_emoji_1F3D4">"白雪覆盖的山峰"</string>
+     <!-- Spoken description for Unicode code point U+1F3D5: "🏕" CAMPING -->
+     <string name="spoken_emoji_1F3D5">"露营"</string>
+     <!-- Spoken description for Unicode code point U+1F3D6: "🏖" BEACH WITH UMBRELLA -->
+     <string name="spoken_emoji_1F3D6">"遮阳伞覆盖的海滩"</string>
+     <!-- Spoken description for Unicode code point U+1F3D7: "🏗" BUILDING CONSTRUCTION -->
+     <string name="spoken_emoji_1F3D7">"楼宇建筑"</string>
+     <!-- Spoken description for Unicode code point U+1F3D8: "🏘" HOUSE BUILDINGS -->
+     <string name="spoken_emoji_1F3D8">"住宅建筑"</string>
+     <!-- Spoken description for Unicode code point U+1F3D9: "🏙" CITYSCAPE -->
+     <string name="spoken_emoji_1F3D9">"城市风光"</string>
+     <!-- Spoken description for Unicode code point U+1F3DA: "🏚" DERELICT HOUSE BUILDING -->
+     <string name="spoken_emoji_1F3DA">"废弃住宅建筑"</string>
+     <!-- Spoken description for Unicode code point U+1F3DB: "🏛" CLASSICAL BUILDING -->
+     <string name="spoken_emoji_1F3DB">"古典建筑"</string>
+     <!-- Spoken description for Unicode code point U+1F3DC: "🏜" DESERT -->
+     <string name="spoken_emoji_1F3DC">"荒漠"</string>
+     <!-- Spoken description for Unicode code point U+1F3DD: "🏝" DESERT ISLAND -->
+     <string name="spoken_emoji_1F3DD">"荒岛"</string>
+     <!-- Spoken description for Unicode code point U+1F3DE: "🏞" NATIONAL PARK -->
+     <string name="spoken_emoji_1F3DE">"国家公园"</string>
+     <!-- Spoken description for Unicode code point U+1F3DF: "🏟" STADIUM -->
+     <string name="spoken_emoji_1F3DF">"体育馆"</string>
+     <!-- Spoken description for Unicode code point U+1F3E0: "🏠" HOUSE BUILDING -->
+     <string name="spoken_emoji_1F3E0">"房屋建筑"</string>
+     <!-- Spoken description for Unicode code point U+1F3E1: "🏡" HOUSE WITH GARDEN -->
+     <string name="spoken_emoji_1F3E1">"带花园的房子"</string>
+     <!-- Spoken description for Unicode code point U+1F3E2: "🏢" OFFICE BUILDING -->
+     <string name="spoken_emoji_1F3E2">"办公楼"</string>
+     <!-- Spoken description for Unicode code point U+1F3E3: "🏣" JAPANESE POST OFFICE -->
+     <string name="spoken_emoji_1F3E3">"日本邮局"</string>
+     <!-- Spoken description for Unicode code point U+1F3E4: "🏤" EUROPEAN POST OFFICE -->
+     <string name="spoken_emoji_1F3E4">"欧洲邮局"</string>
+     <!-- Spoken description for Unicode code point U+1F3E5: "🏥" HOSPITAL -->
+     <string name="spoken_emoji_1F3E5">"医院"</string>
+     <!-- Spoken description for Unicode code point U+1F3E6: "🏦" BANK -->
+     <string name="spoken_emoji_1F3E6">"银行"</string>
+     <!-- Spoken description for Unicode code point U+1F3E7: "🏧" AUTOMATED TELLER MACHINE -->
+     <string name="spoken_emoji_1F3E7">"自动取款机"</string>
+     <!-- Spoken description for Unicode code point U+1F3E8: "🏨" HOTEL -->
+     <string name="spoken_emoji_1F3E8">"酒店"</string>
+     <!-- Spoken description for Unicode code point U+1F3E9: "🏩" LOVE HOTEL -->
+     <string name="spoken_emoji_1F3E9">"情侣酒店"</string>
+     <!-- Spoken description for Unicode code point U+1F3EA: "🏪" CONVENIENCE STORE -->
+     <string name="spoken_emoji_1F3EA">"便利店"</string>
+     <!-- Spoken description for Unicode code point U+1F3EB: "🏫" SCHOOL -->
+     <string name="spoken_emoji_1F3EB">"学校"</string>
+     <!-- Spoken description for Unicode code point U+1F3EC: "🏬" DEPARTMENT STORE -->
+     <string name="spoken_emoji_1F3EC">"百货公司"</string>
+     <!-- Spoken description for Unicode code point U+1F3ED: "🏭" FACTORY -->
+     <string name="spoken_emoji_1F3ED">"工厂"</string>
+     <!-- Spoken description for Unicode code point U+1F3EE: "🏮" IZAKAYA LANTERN -->
+     <string name="spoken_emoji_1F3EE">"居酒屋灯笼"</string>
+     <!-- Spoken description for Unicode code point U+1F3EF: "🏯" JAPANESE CASTLE -->
+     <string name="spoken_emoji_1F3EF">"日本城堡"</string>
+     <!-- Spoken description for Unicode code point U+1F3F0: "🏰" EUROPEAN CASTLE -->
+     <string name="spoken_emoji_1F3F0">"欧洲城堡"</string>
+     <!-- Spoken description for Unicode code point U+1F3F3: "🏳" WAVING WHITE FLAG -->
+     <string name="spoken_emoji_1F3F3">"挥舞白旗"</string>
+     <!-- Spoken description for Unicode code point U+1F3F4: "🏴" WAVING BLACK FLAG -->
+     <string name="spoken_emoji_1F3F4">"挥舞黑旗"</string>
+     <!-- Spoken description for Unicode code point U+1F3F5: "🏵" ROSETTE -->
+     <string name="spoken_emoji_1F3F5">"玫瑰花饰"</string>
+     <!-- Spoken description for Unicode code point U+1F3F7: "🏷" LABEL -->
+     <string name="spoken_emoji_1F3F7">"标签"</string>
+     <!-- Spoken description for Unicode code point U+1F3F8: "🏸" BADMINTON RACQUET AND SHUTTLECOCK -->
+     <string name="spoken_emoji_1F3F8">"羽毛球拍和羽毛球"</string>
+     <!-- Spoken description for Unicode code point U+1F3F9: "🏹" BOW AND ARROW -->
+     <string name="spoken_emoji_1F3F9">"弓与箭"</string>
+     <!-- Spoken description for Unicode code point U+1F3FA: "🏺" AMPHORA -->
+     <string name="spoken_emoji_1F3FA">"土罐"</string>
+     <!-- Spoken description for Unicode code point U+1F3FB: "🏻" EMOJI MODIFIER FITZPATRICK TYPE-1-2 -->
+     <string name="spoken_emoji_1F3FB">"Emoji 表情符号 Fitzpatrick 分型-1-2"</string>
+     <!-- Spoken description for Unicode code point U+1F3FC: "🏼" EMOJI MODIFIER FITZPATRICK TYPE-3 -->
+     <string name="spoken_emoji_1F3FC">"Emoji 表情符号 Fitzpatrick 分型-3"</string>
+     <!-- Spoken description for Unicode code point U+1F3FD: "🏽" EMOJI MODIFIER FITZPATRICK TYPE-4 -->
+     <string name="spoken_emoji_1F3FD">"Emoji 表情符号 Fitzpatrick 分型-4"</string>
+     <!-- Spoken description for Unicode code point U+1F3FE: "🏾" EMOJI MODIFIER FITZPATRICK TYPE-5 -->
+     <string name="spoken_emoji_1F3FE">"Emoji 表情符号 Fitzpatrick 分型-5"</string>
+     <!-- Spoken description for Unicode code point U+1F3FF: "🏿" EMOJI MODIFIER FITZPATRICK TYPE-6 -->
+     <string name="spoken_emoji_1F3FF">"Emoji 表情符号 Fitzpatrick 分型-6"</string>
+     <!-- Spoken description for Unicode code point U+1F400: "🐀" RAT -->
+     <string name="spoken_emoji_1F400">"大老鼠"</string>
+     <!-- Spoken description for Unicode code point U+1F401: "🐁" MOUSE -->
+     <string name="spoken_emoji_1F401">"小老鼠"</string>
+     <!-- Spoken description for Unicode code point U+1F402: "🐂" OX -->
+     <string name="spoken_emoji_1F402">"牛"</string>
+     <!-- Spoken description for Unicode code point U+1F403: "🐃" WATER BUFFALO -->
+     <string name="spoken_emoji_1F403">"水牛"</string>
+     <!-- Spoken description for Unicode code point U+1F404: "🐄" COW -->
+     <string name="spoken_emoji_1F404">"奶牛"</string>
+     <!-- Spoken description for Unicode code point U+1F405: "🐅" TIGER -->
+     <string name="spoken_emoji_1F405">"老虎"</string>
+     <!-- Spoken description for Unicode code point U+1F406: "🐆" LEOPARD -->
+     <string name="spoken_emoji_1F406">"豹"</string>
+     <!-- Spoken description for Unicode code point U+1F407: "🐇" RABBIT -->
+     <string name="spoken_emoji_1F407">"兔子"</string>
+     <!-- Spoken description for Unicode code point U+1F408: "🐈" CAT -->
+     <string name="spoken_emoji_1F408">"猫"</string>
+     <!-- Spoken description for Unicode code point U+1F409: "🐉" DRAGON -->
+     <string name="spoken_emoji_1F409">"龙"</string>
+     <!-- Spoken description for Unicode code point U+1F40A: "🐊" CROCODILE -->
+     <string name="spoken_emoji_1F40A">"鳄鱼"</string>
+     <!-- Spoken description for Unicode code point U+1F40B: "🐋" WHALE -->
+     <string name="spoken_emoji_1F40B">"鲸"</string>
+     <!-- Spoken description for Unicode code point U+1F40C: "🐌" SNAIL -->
+     <string name="spoken_emoji_1F40C">"蜗牛"</string>
+     <!-- Spoken description for Unicode code point U+1F40D: "🐍" SNAKE -->
+     <string name="spoken_emoji_1F40D">"蛇"</string>
+     <!-- Spoken description for Unicode code point U+1F40E: "🐎" HORSE -->
+     <string name="spoken_emoji_1F40E">"马"</string>
+     <!-- Spoken description for Unicode code point U+1F40F: "🐏" RAM -->
+     <string name="spoken_emoji_1F40F">"公羊"</string>
+     <!-- Spoken description for Unicode code point U+1F410: "🐐" GOAT -->
+     <string name="spoken_emoji_1F410">"山羊"</string>
+     <!-- Spoken description for Unicode code point U+1F411: "🐑" SHEEP -->
+     <string name="spoken_emoji_1F411">"绵羊"</string>
+     <!-- Spoken description for Unicode code point U+1F412: "🐒" MONKEY -->
+     <string name="spoken_emoji_1F412">"猴子"</string>
+     <!-- Spoken description for Unicode code point U+1F413: "🐓" ROOSTER -->
+     <string name="spoken_emoji_1F413">"公鸡"</string>
+     <!-- Spoken description for Unicode code point U+1F414: "🐔" CHICKEN -->
+     <string name="spoken_emoji_1F414">"母鸡"</string>
+     <!-- Spoken description for Unicode code point U+1F415: "🐕" DOG -->
+     <string name="spoken_emoji_1F415">"狗"</string>
+     <!-- Spoken description for Unicode code point U+1F416: "🐖" PIG -->
+     <string name="spoken_emoji_1F416">"猪"</string>
+     <!-- Spoken description for Unicode code point U+1F417: "🐗" BOAR -->
+     <string name="spoken_emoji_1F417">"野猪"</string>
+     <!-- Spoken description for Unicode code point U+1F418: "🐘" ELEPHANT -->
+     <string name="spoken_emoji_1F418">"大象"</string>
+     <!-- Spoken description for Unicode code point U+1F419: "🐙" OCTOPUS -->
+     <string name="spoken_emoji_1F419">"章鱼"</string>
+     <!-- Spoken description for Unicode code point U+1F41A: "🐚" SPIRAL SHELL -->
+     <string name="spoken_emoji_1F41A">"螺蛳"</string>
+     <!-- Spoken description for Unicode code point U+1F41B: "🐛" BUG -->
+     <string name="spoken_emoji_1F41B">"虫子"</string>
+     <!-- Spoken description for Unicode code point U+1F41C: "🐜" ANT -->
+     <string name="spoken_emoji_1F41C">"蚂蚁"</string>
+     <!-- Spoken description for Unicode code point U+1F41D: "🐝" HONEYBEE -->
+     <string name="spoken_emoji_1F41D">"蜜蜂"</string>
+     <!-- Spoken description for Unicode code point U+1F41E: "🐞" LADY BEETLE -->
+     <string name="spoken_emoji_1F41E">"瓢虫"</string>
+     <!-- Spoken description for Unicode code point U+1F41F: "🐟" FISH -->
+     <string name="spoken_emoji_1F41F">"鱼"</string>
+     <!-- Spoken description for Unicode code point U+1F420: "🐠" TROPICAL FISH -->
+     <string name="spoken_emoji_1F420">"热带鱼"</string>
+     <!-- Spoken description for Unicode code point U+1F421: "🐡" BLOWFISH -->
+     <string name="spoken_emoji_1F421">"河豚"</string>
+     <!-- Spoken description for Unicode code point U+1F422: "🐢" TURTLE -->
+     <string name="spoken_emoji_1F422">"乌龟"</string>
+     <!-- Spoken description for Unicode code point U+1F423: "🐣" HATCHING CHICK -->
+     <string name="spoken_emoji_1F423">"破壳而出的小鸡"</string>
+     <!-- Spoken description for Unicode code point U+1F424: "🐤" BABY CHICK -->
+     <string name="spoken_emoji_1F424">"小鸡"</string>
+     <!-- Spoken description for Unicode code point U+1F425: "🐥" FRONT-FACING BABY CHICK -->
+     <string name="spoken_emoji_1F425">"面朝前方的小鸡"</string>
+     <!-- Spoken description for Unicode code point U+1F426: "🐦" BIRD -->
+     <string name="spoken_emoji_1F426">"鸟"</string>
+     <!-- Spoken description for Unicode code point U+1F427: "🐧" PENGUIN -->
+     <string name="spoken_emoji_1F427">"企鹅"</string>
+     <!-- Spoken description for Unicode code point U+1F428: "🐨" KOALA -->
+     <string name="spoken_emoji_1F428">"考拉"</string>
+     <!-- Spoken description for Unicode code point U+1F429: "🐩" POODLE -->
+     <string name="spoken_emoji_1F429">"贵宾狗"</string>
+     <!-- Spoken description for Unicode code point U+1F42A: "🐪" DROMEDARY CAMEL -->
+     <string name="spoken_emoji_1F42A">"单峰驼"</string>
+     <!-- Spoken description for Unicode code point U+1F42B: "🐫" BACTRIAN CAMEL -->
+     <string name="spoken_emoji_1F42B">"双峰驼"</string>
+     <!-- Spoken description for Unicode code point U+1F42C: "🐬" DOLPHIN -->
+     <string name="spoken_emoji_1F42C">"海豚"</string>
+     <!-- Spoken description for Unicode code point U+1F42D: "🐭" MOUSE FACE -->
+     <string name="spoken_emoji_1F42D">"老鼠脸"</string>
+     <!-- Spoken description for Unicode code point U+1F42E: "🐮" COW FACE -->
+     <string name="spoken_emoji_1F42E">"牛脸"</string>
+     <!-- Spoken description for Unicode code point U+1F42F: "🐯" TIGER FACE -->
+     <string name="spoken_emoji_1F42F">"老虎脸"</string>
+     <!-- Spoken description for Unicode code point U+1F430: "🐰" RABBIT FACE -->
+     <string name="spoken_emoji_1F430">"兔脸"</string>
+     <!-- Spoken description for Unicode code point U+1F431: "🐱" CAT FACE -->
+     <string name="spoken_emoji_1F431">"猫脸"</string>
+     <!-- Spoken description for Unicode code point U+1F432: "🐲" DRAGON FACE -->
+     <string name="spoken_emoji_1F432">"龙脸"</string>
+     <!-- Spoken description for Unicode code point U+1F433: "🐳" SPOUTING WHALE -->
+     <string name="spoken_emoji_1F433">"喷水的鲸"</string>
+     <!-- Spoken description for Unicode code point U+1F434: "🐴" HORSE FACE -->
+     <string name="spoken_emoji_1F434">"马脸"</string>
+     <!-- Spoken description for Unicode code point U+1F435: "🐵" MONKEY FACE -->
+     <string name="spoken_emoji_1F435">"猴脸"</string>
+     <!-- Spoken description for Unicode code point U+1F436: "🐶" DOG FACE -->
+     <string name="spoken_emoji_1F436">"狗脸"</string>
+     <!-- Spoken description for Unicode code point U+1F437: "🐷" PIG FACE -->
+     <string name="spoken_emoji_1F437">"猪脸"</string>
+     <!-- Spoken description for Unicode code point U+1F438: "🐸" FROG FACE -->
+     <string name="spoken_emoji_1F438">"青蛙脸"</string>
+     <!-- Spoken description for Unicode code point U+1F439: "🐹" HAMSTER FACE -->
+     <string name="spoken_emoji_1F439">"仓鼠脸"</string>
+     <!-- Spoken description for Unicode code point U+1F43A: "🐺" WOLF FACE -->
+     <string name="spoken_emoji_1F43A">"狼脸"</string>
+     <!-- Spoken description for Unicode code point U+1F43B: "🐻" BEAR FACE -->
+     <string name="spoken_emoji_1F43B">"熊脸"</string>
+     <!-- Spoken description for Unicode code point U+1F43C: "🐼" PANDA FACE -->
+     <string name="spoken_emoji_1F43C">"熊猫脸"</string>
+     <!-- Spoken description for Unicode code point U+1F43D: "🐽" PIG NOSE -->
+     <string name="spoken_emoji_1F43D">"猪鼻子"</string>
+     <!-- Spoken description for Unicode code point U+1F43E: "🐾" PAW PRINTS -->
+     <string name="spoken_emoji_1F43E">"掌印"</string>
+     <!-- Spoken description for Unicode code point U+1F43F: "🐿" CHIPMUNK -->
+     <string name="spoken_emoji_1F43F">"花栗鼠"</string>
+     <!-- Spoken description for Unicode code point U+1F440: "👀" EYES -->
+     <string name="spoken_emoji_1F440">"眼睛"</string>
+     <!-- Spoken description for Unicode code point U+1F441: "👁" EYE -->
+     <string name="spoken_emoji_1F441">"眼睛"</string>
+     <!-- Spoken description for Unicode code point U+1F442: "👂" EAR -->
+     <string name="spoken_emoji_1F442">"耳朵"</string>
+     <!-- Spoken description for Unicode code point U+1F443: "👃" NOSE -->
+     <string name="spoken_emoji_1F443">"鼻子"</string>
+     <!-- Spoken description for Unicode code point U+1F444: "👄" MOUTH -->
+     <string name="spoken_emoji_1F444">"嘴"</string>
+     <!-- Spoken description for Unicode code point U+1F445: "👅" TONGUE -->
+     <string name="spoken_emoji_1F445">"舌头"</string>
+     <!-- Spoken description for Unicode code point U+1F446: "👆" WHITE UP POINTING BACKHAND INDEX -->
+     <string name="spoken_emoji_1F446">"反手向上指的食指"</string>
+     <!-- Spoken description for Unicode code point U+1F447: "👇" WHITE DOWN POINTING BACKHAND INDEX -->
+     <string name="spoken_emoji_1F447">"反手向下指的食指"</string>
+     <!-- Spoken description for Unicode code point U+1F448: "👈" WHITE LEFT POINTING BACKHAND INDEX -->
+     <string name="spoken_emoji_1F448">"反手向左指的食指"</string>
+     <!-- Spoken description for Unicode code point U+1F449: "👉" WHITE RIGHT POINTING BACKHAND INDEX -->
+     <string name="spoken_emoji_1F449">"反手向右指的食指"</string>
+     <!-- Spoken description for Unicode code point U+1F44A: "👊" FISTED HAND SIGN -->
+     <string name="spoken_emoji_1F44A">"握拳手势"</string>
+     <!-- Spoken description for Unicode code point U+1F44B: "👋" WAVING HAND SIGN -->
+     <string name="spoken_emoji_1F44B">"挥手手势"</string>
+     <!-- Spoken description for Unicode code point U+1F44C: "👌" OK HAND SIGN -->
+     <string name="spoken_emoji_1F44C">"OK手势"</string>
+     <!-- Spoken description for Unicode code point U+1F44D: "👍" THUMBS UP SIGN -->
+     <string name="spoken_emoji_1F44D">"拇指朝上手势"</string>
+     <!-- Spoken description for Unicode code point U+1F44E: "👎" THUMBS DOWN SIGN -->
+     <string name="spoken_emoji_1F44E">"拇指朝下手势"</string>
+     <!-- Spoken description for Unicode code point U+1F44F: "👏" CLAPPING HANDS SIGN -->
+     <string name="spoken_emoji_1F44F">"拍手手势"</string>
+     <!-- Spoken description for Unicode code point U+1F450: "👐" OPEN HANDS SIGN -->
+     <string name="spoken_emoji_1F450">"张开双手手势"</string>
+     <!-- Spoken description for Unicode code point U+1F451: "👑" CROWN -->
+     <string name="spoken_emoji_1F451">"王冠"</string>
+     <!-- Spoken description for Unicode code point U+1F452: "👒" WOMANS HAT -->
+     <string name="spoken_emoji_1F452">"女式帽子"</string>
+     <!-- Spoken description for Unicode code point U+1F453: "👓" EYEGLASSES -->
+     <string name="spoken_emoji_1F453">"眼镜"</string>
+     <!-- Spoken description for Unicode code point U+1F454: "👔" NECKTIE -->
+     <string name="spoken_emoji_1F454">"领带"</string>
+     <!-- Spoken description for Unicode code point U+1F455: "👕" T-SHIRT -->
+     <string name="spoken_emoji_1F455">"T恤衫"</string>
+     <!-- Spoken description for Unicode code point U+1F456: "👖" JEANS -->
+     <string name="spoken_emoji_1F456">"牛仔裤"</string>
+     <!-- Spoken description for Unicode code point U+1F457: "👗" DRESS -->
+     <string name="spoken_emoji_1F457">"礼服"</string>
+     <!-- Spoken description for Unicode code point U+1F458: "👘" KIMONO -->
+     <string name="spoken_emoji_1F458">"和服"</string>
+     <!-- Spoken description for Unicode code point U+1F459: "👙" BIKINI -->
+     <string name="spoken_emoji_1F459">"比基尼"</string>
+     <!-- Spoken description for Unicode code point U+1F45A: "👚" WOMANS CLOTHES -->
+     <string name="spoken_emoji_1F45A">"女装"</string>
+     <!-- Spoken description for Unicode code point U+1F45B: "👛" PURSE -->
+     <string name="spoken_emoji_1F45B">"女用小提包"</string>
+     <!-- Spoken description for Unicode code point U+1F45C: "👜" HANDBAG -->
+     <string name="spoken_emoji_1F45C">"手提包"</string>
+     <!-- Spoken description for Unicode code point U+1F45D: "👝" POUCH -->
+     <string name="spoken_emoji_1F45D">"小包包"</string>
+     <!-- Spoken description for Unicode code point U+1F45E: "👞" MANS SHOE -->
+     <string name="spoken_emoji_1F45E">"男鞋"</string>
+     <!-- Spoken description for Unicode code point U+1F45F: "👟" ATHLETIC SHOE -->
+     <string name="spoken_emoji_1F45F">"运动鞋"</string>
+     <!-- Spoken description for Unicode code point U+1F460: "👠" HIGH-HEELED SHOE -->
+     <string name="spoken_emoji_1F460">"高跟鞋"</string>
+     <!-- Spoken description for Unicode code point U+1F461: "👡" WOMANS SANDAL -->
+     <string name="spoken_emoji_1F461">"女式凉鞋"</string>
+     <!-- Spoken description for Unicode code point U+1F462: "👢" WOMANS BOOTS -->
+     <string name="spoken_emoji_1F462">"女靴"</string>
+     <!-- Spoken description for Unicode code point U+1F463: "👣" FOOTPRINTS -->
+     <string name="spoken_emoji_1F463">"脚印"</string>
+     <!-- Spoken description for Unicode code point U+1F464: "👤" BUST IN SILHOUETTE -->
+     <string name="spoken_emoji_1F464">"半身人像轮廓"</string>
+     <!-- Spoken description for Unicode code point U+1F465: "👥" BUSTS IN SILHOUETTE -->
+     <string name="spoken_emoji_1F465">"双半身人像轮廓"</string>
+     <!-- Spoken description for Unicode code point U+1F466: "👦" BOY -->
+     <string name="spoken_emoji_1F466">"男孩"</string>
+     <!-- Spoken description for Unicode code point U+1F467: "👧" GIRL -->
+     <string name="spoken_emoji_1F467">"女孩"</string>
+     <!-- Spoken description for Unicode code point U+1F468: "👨" MAN -->
+     <string name="spoken_emoji_1F468">"男人"</string>
+     <!-- Spoken description for Unicode code point U+1F469: "👩" WOMAN -->
+     <string name="spoken_emoji_1F469">"女人"</string>
+     <!-- Spoken description for Unicode code point U+1F46A: "👪" FAMILY -->
+     <string name="spoken_emoji_1F46A">"家庭"</string>
+     <!-- Spoken description for Unicode code point U+1F46B: "👫" MAN AND WOMAN HOLDING HANDS -->
+     <string name="spoken_emoji_1F46B">"男人和女人手牵着手"</string>
+     <!-- Spoken description for Unicode code point U+1F46C: "👬" TWO MEN HOLDING HANDS -->
+     <string name="spoken_emoji_1F46C">"握住手的两位男性"</string>
+     <!-- Spoken description for Unicode code point U+1F46D: "👭" TWO WOMEN HOLDING HANDS -->
+     <string name="spoken_emoji_1F46D">"握住手的两位女性"</string>
+     <!-- Spoken description for Unicode code point U+1F46E: "👮" POLICE OFFICER -->
+     <string name="spoken_emoji_1F46E">"警官"</string>
+     <!-- Spoken description for Unicode code point U+1F46F: "👯" WOMAN WITH BUNNY EARS -->
+     <string name="spoken_emoji_1F46F">"兔耳朵装扮的女性"</string>
+     <!-- Spoken description for Unicode code point U+1F470: "👰" BRIDE WITH VEIL -->
+     <string name="spoken_emoji_1F470">"戴面纱的新娘"</string>
+     <!-- Spoken description for Unicode code point U+1F471: "👱" PERSON WITH BLOND HAIR -->
+     <string name="spoken_emoji_1F471">"金发人"</string>
+     <!-- Spoken description for Unicode code point U+1F472: "👲" MAN WITH GUA PI MAO -->
+     <string name="spoken_emoji_1F472">"戴瓜皮帽的男性"</string>
+     <!-- Spoken description for Unicode code point U+1F473: "👳" MAN WITH TURBAN -->
+     <string name="spoken_emoji_1F473">"戴头巾的男性"</string>
+     <!-- Spoken description for Unicode code point U+1F474: "👴" OLDER MAN -->
+     <string name="spoken_emoji_1F474">"年长的男性"</string>
+     <!-- Spoken description for Unicode code point U+1F475: "👵" OLDER WOMAN -->
+     <string name="spoken_emoji_1F475">"年长的女性"</string>
+     <!-- Spoken description for Unicode code point U+1F476: "👶" BABY -->
+     <string name="spoken_emoji_1F476">"婴儿"</string>
+     <!-- Spoken description for Unicode code point U+1F477: "👷" CONSTRUCTION WORKER -->
+     <string name="spoken_emoji_1F477">"建筑工人"</string>
+     <!-- Spoken description for Unicode code point U+1F478: "👸" PRINCESS -->
+     <string name="spoken_emoji_1F478">"公主"</string>
+     <!-- Spoken description for Unicode code point U+1F479: "👹" JAPANESE OGRE -->
+     <string name="spoken_emoji_1F479">"日本鬼"</string>
+     <!-- Spoken description for Unicode code point U+1F47A: "👺" JAPANESE GOBLIN -->
+     <string name="spoken_emoji_1F47A">"日本天狗"</string>
+     <!-- Spoken description for Unicode code point U+1F47B: "👻" GHOST -->
+     <string name="spoken_emoji_1F47B">"幽灵"</string>
+     <!-- Spoken description for Unicode code point U+1F47C: "👼" BABY ANGEL -->
+     <string name="spoken_emoji_1F47C">"天使宝贝"</string>
+     <!-- Spoken description for Unicode code point U+1F47D: "👽" EXTRATERRESTRIAL ALIEN -->
+     <string name="spoken_emoji_1F47D">"外星人"</string>
+     <!-- Spoken description for Unicode code point U+1F47E: "👾" ALIEN MONSTER -->
+     <string name="spoken_emoji_1F47E">"外星怪物"</string>
+     <!-- Spoken description for Unicode code point U+1F47F: "👿" IMP -->
+     <string name="spoken_emoji_1F47F">"小鬼"</string>
+     <!-- Spoken description for Unicode code point U+1F480: "💀" SKULL -->
+     <string name="spoken_emoji_1F480">"头骨"</string>
+     <!-- Spoken description for Unicode code point U+1F481: "💁" INFORMATION DESK PERSON -->
+     <string name="spoken_emoji_1F481">"信息服务台人员"</string>
+     <!-- Spoken description for Unicode code point U+1F482: "💂" GUARDSMAN -->
+     <string name="spoken_emoji_1F482">"卫兵"</string>
+     <!-- Spoken description for Unicode code point U+1F483: "💃" DANCER -->
+     <string name="spoken_emoji_1F483">"舞者"</string>
+     <!-- Spoken description for Unicode code point U+1F484: "💄" LIPSTICK -->
+     <string name="spoken_emoji_1F484">"口红"</string>
+     <!-- Spoken description for Unicode code point U+1F485: "💅" NAIL POLISH -->
+     <string name="spoken_emoji_1F485">"指甲油"</string>
+     <!-- Spoken description for Unicode code point U+1F486: "💆" FACE MASSAGE -->
+     <string name="spoken_emoji_1F486">"脸部按摩"</string>
+     <!-- Spoken description for Unicode code point U+1F487: "💇" HAIRCUT -->
+     <string name="spoken_emoji_1F487">"理发"</string>
+     <!-- Spoken description for Unicode code point U+1F488: "💈" BARBER POLE -->
+     <string name="spoken_emoji_1F488">"理发店门前的旋转彩柱"</string>
+     <!-- Spoken description for Unicode code point U+1F489: "💉" SYRINGE -->
+     <string name="spoken_emoji_1F489">"注射器"</string>
+     <!-- Spoken description for Unicode code point U+1F48A: "💊" PILL -->
+     <string name="spoken_emoji_1F48A">"药丸"</string>
+     <!-- Spoken description for Unicode code point U+1F48B: "💋" KISS MARK -->
+     <string name="spoken_emoji_1F48B">"吻痕"</string>
+     <!-- Spoken description for Unicode code point U+1F48C: "💌" LOVE LETTER -->
+     <string name="spoken_emoji_1F48C">"情书"</string>
+     <!-- Spoken description for Unicode code point U+1F48D: "💍" RING -->
+     <string name="spoken_emoji_1F48D">"戒指"</string>
+     <!-- Spoken description for Unicode code point U+1F48E: "💎" GEM STONE -->
+     <string name="spoken_emoji_1F48E">"宝石"</string>
+     <!-- Spoken description for Unicode code point U+1F48F: "💏" KISS -->
+     <string name="spoken_emoji_1F48F">"接吻"</string>
+     <!-- Spoken description for Unicode code point U+1F490: "💐" BOUQUET -->
+     <string name="spoken_emoji_1F490">"花束"</string>
+     <!-- Spoken description for Unicode code point U+1F491: "💑" COUPLE WITH HEART -->
+     <string name="spoken_emoji_1F491">"夫妻连心"</string>
+     <!-- Spoken description for Unicode code point U+1F492: "💒" WEDDING -->
+     <string name="spoken_emoji_1F492">"婚礼"</string>
+     <!-- Spoken description for Unicode code point U+1F493: "💓" BEATING HEART -->
+     <string name="spoken_emoji_1F493">"跳动的心"</string>
+     <!-- Spoken description for Unicode code point U+1F494: "💔" BROKEN HEART -->
+     <string name="spoken_emoji_1F494">"破碎的心"</string>
+     <!-- Spoken description for Unicode code point U+1F495: "💕" TWO HEARTS -->
+     <string name="spoken_emoji_1F495">"两颗心"</string>
+     <!-- Spoken description for Unicode code point U+1F496: "💖" SPARKLING HEART -->
+     <string name="spoken_emoji_1F496">"闪亮的心"</string>
+     <!-- Spoken description for Unicode code point U+1F497: "💗" GROWING HEART -->
+     <string name="spoken_emoji_1F497">"成长的心"</string>
+     <!-- Spoken description for Unicode code point U+1F498: "💘" HEART WITH ARROW -->
+     <string name="spoken_emoji_1F498">"被箭射中的心"</string>
+     <!-- Spoken description for Unicode code point U+1F499: "💙" BLUE HEART -->
+     <string name="spoken_emoji_1F499">"蓝色的心"</string>
+     <!-- Spoken description for Unicode code point U+1F49A: "💚" GREEN HEART -->
+     <string name="spoken_emoji_1F49A">"绿色的心"</string>
+     <!-- Spoken description for Unicode code point U+1F49B: "💛" YELLOW HEART -->
+     <string name="spoken_emoji_1F49B">"黄色的心"</string>
+     <!-- Spoken description for Unicode code point U+1F49C: "💜" PURPLE HEART -->
+     <string name="spoken_emoji_1F49C">"紫色的心"</string>
+     <!-- Spoken description for Unicode code point U+1F49D: "💝" HEART WITH RIBBON -->
+     <string name="spoken_emoji_1F49D">"带丝带的心"</string>
+     <!-- Spoken description for Unicode code point U+1F49E: "💞" REVOLVING HEARTS -->
+     <string name="spoken_emoji_1F49E">"环绕旋转的心"</string>
+     <!-- Spoken description for Unicode code point U+1F49F: "💟" HEART DECORATION -->
+     <string name="spoken_emoji_1F49F">"心形装饰"</string>
+     <!-- Spoken description for Unicode code point U+1F4A0: "💠" DIAMOND SHAPE WITH A DOT INSIDE -->
+     <string name="spoken_emoji_1F4A0">"代表花卉的内部带点的菱形"</string>
+     <!-- Spoken description for Unicode code point U+1F4A1: "💡" ELECTRIC LIGHT BULB -->
+     <string name="spoken_emoji_1F4A1">"电灯泡"</string>
+     <!-- Spoken description for Unicode code point U+1F4A2: "💢" ANGER SYMBOL -->
+     <string name="spoken_emoji_1F4A2">"愤怒标志"</string>
+     <!-- Spoken description for Unicode code point U+1F4A3: "💣" BOMB -->
+     <string name="spoken_emoji_1F4A3">"炸弹"</string>
+     <!-- Spoken description for Unicode code point U+1F4A4: "💤" SLEEPING SYMBOL -->
+     <string name="spoken_emoji_1F4A4">"睡觉标志"</string>
+     <!-- Spoken description for Unicode code point U+1F4A5: "💥" COLLISION SYMBOL -->
+     <string name="spoken_emoji_1F4A5">"碰撞标志"</string>
+     <!-- Spoken description for Unicode code point U+1F4A6: "💦" SPLASHING SWEAT SYMBOL -->
+     <string name="spoken_emoji_1F4A6">"汗水飞溅"</string>
+     <!-- Spoken description for Unicode code point U+1F4A7: "💧" DROPLET -->
+     <string name="spoken_emoji_1F4A7">"水滴"</string>
+     <!-- Spoken description for Unicode code point U+1F4A8: "💨" DASH SYMBOL -->
+     <string name="spoken_emoji_1F4A8">"快速奔跑标志"</string>
+     <!-- Spoken description for Unicode code point U+1F4A9: "💩" PILE OF POO -->
+     <string name="spoken_emoji_1F4A9">"便便堆"</string>
+     <!-- Spoken description for Unicode code point U+1F4AA: "💪" FLEXED BICEPS -->
+     <string name="spoken_emoji_1F4AA">"弯曲二头肌"</string>
+     <!-- Spoken description for Unicode code point U+1F4AB: "💫" DIZZY SYMBOL -->
+     <string name="spoken_emoji_1F4AB">"眩晕符号"</string>
+     <!-- Spoken description for Unicode code point U+1F4AC: "💬" SPEECH BALLOON -->
+     <string name="spoken_emoji_1F4AC">"对话泡泡框"</string>
+     <!-- Spoken description for Unicode code point U+1F4AD: "💭" THOUGHT BALLOON -->
+     <string name="spoken_emoji_1F4AD">"思考泡泡框"</string>
+     <!-- Spoken description for Unicode code point U+1F4AE: "💮" WHITE FLOWER -->
+     <string name="spoken_emoji_1F4AE">"白花"</string>
+     <!-- Spoken description for Unicode code point U+1F4AF: "💯" HUNDRED POINTS SYMBOL -->
+     <string name="spoken_emoji_1F4AF">"一百分符号"</string>
+     <!-- Spoken description for Unicode code point U+1F4B0: "💰" MONEY BAG -->
+     <string name="spoken_emoji_1F4B0">"钱袋"</string>
+     <!-- Spoken description for Unicode code point U+1F4B1: "💱" CURRENCY EXCHANGE -->
+     <string name="spoken_emoji_1F4B1">"货币兑换"</string>
+     <!-- Spoken description for Unicode code point U+1F4B2: "💲" HEAVY DOLLAR SIGN -->
+     <string name="spoken_emoji_1F4B2">"加粗美元符号"</string>
+     <!-- Spoken description for Unicode code point U+1F4B3: "💳" CREDIT CARD -->
+     <string name="spoken_emoji_1F4B3">"信用卡"</string>
+     <!-- Spoken description for Unicode code point U+1F4B4: "💴" BANKNOTE WITH YEN SIGN -->
+     <string name="spoken_emoji_1F4B4">"带日元符号的钞票"</string>
+     <!-- Spoken description for Unicode code point U+1F4B5: "💵" BANKNOTE WITH DOLLAR SIGN -->
+     <string name="spoken_emoji_1F4B5">"带美元符号的钞票"</string>
+     <!-- Spoken description for Unicode code point U+1F4B6: "💶" BANKNOTE WITH EURO SIGN -->
+     <string name="spoken_emoji_1F4B6">"带欧元符号的钞票"</string>
+     <!-- Spoken description for Unicode code point U+1F4B7: "💷" BANKNOTE WITH POUND SIGN -->
+     <string name="spoken_emoji_1F4B7">"带英镑符号的钞票"</string>
+     <!-- Spoken description for Unicode code point U+1F4B8: "💸" MONEY WITH WINGS -->
+     <string name="spoken_emoji_1F4B8">"长翅膀的钱"</string>
+     <!-- Spoken description for Unicode code point U+1F4B9: "💹" CHART WITH UPWARDS TREND AND YEN SIGN -->
+     <string name="spoken_emoji_1F4B9">"带向上趋势和日元符号的图表"</string>
+     <!-- Spoken description for Unicode code point U+1F4BA: "💺" SEAT -->
+     <string name="spoken_emoji_1F4BA">"座椅"</string>
+     <!-- Spoken description for Unicode code point U+1F4BB: "💻" PERSONAL COMPUTER -->
+     <string name="spoken_emoji_1F4BB">"个人计算机"</string>
+     <!-- Spoken description for Unicode code point U+1F4BC: "💼" BRIEFCASE -->
+     <string name="spoken_emoji_1F4BC">"公文包"</string>
+     <!-- Spoken description for Unicode code point U+1F4BD: "💽" MINIDISC -->
+     <string name="spoken_emoji_1F4BD">"微型碟片"</string>
+     <!-- Spoken description for Unicode code point U+1F4BE: "💾" FLOPPY DISK -->
+     <string name="spoken_emoji_1F4BE">"软盘"</string>
+     <!-- Spoken description for Unicode code point U+1F4BF: "💿" OPTICAL DISC -->
+     <string name="spoken_emoji_1F4BF">"光盘"</string>
+     <!-- Spoken description for Unicode code point U+1F4C0: "📀" DVD -->
+     <string name="spoken_emoji_1F4C0">"DVD"</string>
+     <!-- Spoken description for Unicode code point U+1F4C1: "📁" FILE FOLDER -->
+     <string name="spoken_emoji_1F4C1">"文件夹"</string>
+     <!-- Spoken description for Unicode code point U+1F4C2: "📂" OPEN FILE FOLDER -->
+     <string name="spoken_emoji_1F4C2">"打开的文件夹"</string>
+     <!-- Spoken description for Unicode code point U+1F4C3: "📃" PAGE WITH CURL -->
+     <string name="spoken_emoji_1F4C3">"下端卷起的纸页"</string>
+     <!-- Spoken description for Unicode code point U+1F4C4: "📄" PAGE FACING UP -->
+     <string name="spoken_emoji_1F4C4">"正面朝上的纸页"</string>
+     <!-- Spoken description for Unicode code point U+1F4C5: "📅" CALENDAR -->
+     <string name="spoken_emoji_1F4C5">"日历"</string>
+     <!-- Spoken description for Unicode code point U+1F4C6: "📆" TEAR-OFF CALENDAR -->
+     <string name="spoken_emoji_1F4C6">"撕页日历"</string>
+     <!-- Spoken description for Unicode code point U+1F4C7: "📇" CARD INDEX -->
+     <string name="spoken_emoji_1F4C7">"卡片索引"</string>
+     <!-- Spoken description for Unicode code point U+1F4C8: "📈" CHART WITH UPWARDS TREND -->
+     <string name="spoken_emoji_1F4C8">"带向上趋势的图表"</string>
+     <!-- Spoken description for Unicode code point U+1F4C9: "📉" CHART WITH DOWNWARDS TREND -->
+     <string name="spoken_emoji_1F4C9">"带向下趋势的图表"</string>
+     <!-- Spoken description for Unicode code point U+1F4CA: "📊" BAR CHART -->
+     <string name="spoken_emoji_1F4CA">"条形图"</string>
+     <!-- Spoken description for Unicode code point U+1F4CB: "📋" CLIPBOARD -->
+     <string name="spoken_emoji_1F4CB">"带夹写字板"</string>
+     <!-- Spoken description for Unicode code point U+1F4CC: "📌" PUSHPIN -->
+     <string name="spoken_emoji_1F4CC">"图钉"</string>
+     <!-- Spoken description for Unicode code point U+1F4CD: "📍" ROUND PUSHPIN -->
+     <string name="spoken_emoji_1F4CD">"圆图钉"</string>
+     <!-- Spoken description for Unicode code point U+1F4CE: "📎" PAPERCLIP -->
+     <string name="spoken_emoji_1F4CE">"曲别针"</string>
+     <!-- Spoken description for Unicode code point U+1F4CF: "📏" STRAIGHT RULER -->
+     <string name="spoken_emoji_1F4CF">"直尺"</string>
+     <!-- Spoken description for Unicode code point U+1F4D0: "📐" TRIANGULAR RULER -->
+     <string name="spoken_emoji_1F4D0">"三角尺"</string>
+     <!-- Spoken description for Unicode code point U+1F4D1: "📑" BOOKMARK TABS -->
+     <string name="spoken_emoji_1F4D1">"书签贴纸"</string>
+     <!-- Spoken description for Unicode code point U+1F4D2: "📒" LEDGER -->
+     <string name="spoken_emoji_1F4D2">"帐簿"</string>
+     <!-- Spoken description for Unicode code point U+1F4D3: "📓" NOTEBOOK -->
+     <string name="spoken_emoji_1F4D3">"笔记本"</string>
+     <!-- Spoken description for Unicode code point U+1F4D4: "📔" NOTEBOOK WITH DECORATIVE COVER -->
+     <string name="spoken_emoji_1F4D4">"带装饰封面的笔记本"</string>
+     <!-- Spoken description for Unicode code point U+1F4D5: "📕" CLOSED BOOK -->
+     <string name="spoken_emoji_1F4D5">"合上的书"</string>
+     <!-- Spoken description for Unicode code point U+1F4D6: "📖" OPEN BOOK -->
+     <string name="spoken_emoji_1F4D6">"打开的书"</string>
+     <!-- Spoken description for Unicode code point U+1F4D7: "📗" GREEN BOOK -->
+     <string name="spoken_emoji_1F4D7">"绿皮书"</string>
+     <!-- Spoken description for Unicode code point U+1F4D8: "📘" BLUE BOOK -->
+     <string name="spoken_emoji_1F4D8">"蓝皮书"</string>
+     <!-- Spoken description for Unicode code point U+1F4D9: "📙" ORANGE BOOK -->
+     <string name="spoken_emoji_1F4D9">"橙皮书"</string>
+     <!-- Spoken description for Unicode code point U+1F4DA: "📚" BOOKS -->
+     <string name="spoken_emoji_1F4DA">"图书"</string>
+     <!-- Spoken description for Unicode code point U+1F4DB: "📛" NAME BADGE -->
+     <string name="spoken_emoji_1F4DB">"姓名牌"</string>
+     <!-- Spoken description for Unicode code point U+1F4DC: "📜" SCROLL -->
+     <string name="spoken_emoji_1F4DC">"文卷"</string>
+     <!-- Spoken description for Unicode code point U+1F4DD: "📝" MEMO -->
+     <string name="spoken_emoji_1F4DD">"便笺"</string>
+     <!-- Spoken description for Unicode code point U+1F4DE: "📞" TELEPHONE RECEIVER -->
+     <string name="spoken_emoji_1F4DE">"电话听筒"</string>
+     <!-- Spoken description for Unicode code point U+1F4DF: "📟" PAGER -->
+     <string name="spoken_emoji_1F4DF">"寻呼机"</string>
+     <!-- Spoken description for Unicode code point U+1F4E0: "📠" FAX MACHINE -->
+     <string name="spoken_emoji_1F4E0">"传真机"</string>
+     <!-- Spoken description for Unicode code point U+1F4E1: "📡" SATELLITE ANTENNA -->
+     <string name="spoken_emoji_1F4E1">"卫星天线"</string>
+     <!-- Spoken description for Unicode code point U+1F4E2: "📢" PUBLIC ADDRESS LOUDSPEAKER -->
+     <string name="spoken_emoji_1F4E2">"公共广播喇叭"</string>
+     <!-- Spoken description for Unicode code point U+1F4E3: "📣" CHEERING MEGAPHONE -->
+     <string name="spoken_emoji_1F4E3">"啦啦队喇叭筒"</string>
+     <!-- Spoken description for Unicode code point U+1F4E4: "📤" OUTBOX TRAY -->
+     <string name="spoken_emoji_1F4E4">"发件箱"</string>
+     <!-- Spoken description for Unicode code point U+1F4E5: "📥" INBOX TRAY -->
+     <string name="spoken_emoji_1F4E5">"收件箱"</string>
+     <!-- Spoken description for Unicode code point U+1F4E6: "📦" PACKAGE -->
+     <string name="spoken_emoji_1F4E6">"包裹"</string>
+     <!-- Spoken description for Unicode code point U+1F4E7: "📧" E-MAIL SYMBOL -->
+     <string name="spoken_emoji_1F4E7">"电子邮件符号"</string>
+     <!-- Spoken description for Unicode code point U+1F4E8: "📨" INCOMING ENVELOPE -->
+     <string name="spoken_emoji_1F4E8">"来函"</string>
+     <!-- Spoken description for Unicode code point U+1F4E9: "📩" ENVELOPE WITH DOWNWARDS ARROW ABOVE -->
+     <string name="spoken_emoji_1F4E9">"上方带有向下箭头的信封"</string>
+     <!-- Spoken description for Unicode code point U+1F4EA: "📪" CLOSED MAILBOX WITH LOWERED FLAG -->
+     <string name="spoken_emoji_1F4EA">"带有降下的旗帜的关闭信箱"</string>
+     <!-- Spoken description for Unicode code point U+1F4EB: "📫" CLOSED MAILBOX WITH RAISED FLAG -->
+     <string name="spoken_emoji_1F4EB">"带有升起的旗帜的关闭信箱"</string>
+     <!-- Spoken description for Unicode code point U+1F4EC: "📬" OPEN MAILBOX WITH RAISED FLAG -->
+     <string name="spoken_emoji_1F4EC">"带有升起的旗帜的打开信箱"</string>
+     <!-- Spoken description for Unicode code point U+1F4ED: "📭" OPEN MAILBOX WITH LOWERED FLAG -->
+     <string name="spoken_emoji_1F4ED">"带有降下的旗帜的打开信箱"</string>
+     <!-- Spoken description for Unicode code point U+1F4EE: "📮" POSTBOX -->
+     <string name="spoken_emoji_1F4EE">"信箱"</string>
+     <!-- Spoken description for Unicode code point U+1F4EF: "📯" POSTAL HORN -->
+     <string name="spoken_emoji_1F4EF">"邮政号角"</string>
+     <!-- Spoken description for Unicode code point U+1F4F0: "📰" NEWSPAPER -->
+     <string name="spoken_emoji_1F4F0">"报纸"</string>
+     <!-- Spoken description for Unicode code point U+1F4F1: "📱" MOBILE PHONE -->
+     <string name="spoken_emoji_1F4F1">"手机"</string>
+     <!-- Spoken description for Unicode code point U+1F4F2: "📲" MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT -->
+     <string name="spoken_emoji_1F4F2">"左侧带向右箭头的手机"</string>
+     <!-- Spoken description for Unicode code point U+1F4F3: "📳" VIBRATION MODE -->
+     <string name="spoken_emoji_1F4F3">"振动模式"</string>
+     <!-- Spoken description for Unicode code point U+1F4F4: "📴" MOBILE PHONE OFF -->
+     <string name="spoken_emoji_1F4F4">"手机关机"</string>
+     <!-- Spoken description for Unicode code point U+1F4F5: "📵" NO MOBILE PHONES -->
+     <string name="spoken_emoji_1F4F5">"禁止使用手机"</string>
+     <!-- Spoken description for Unicode code point U+1F4F6: "📶" ANTENNA WITH BARS -->
+     <string name="spoken_emoji_1F4F6">"天线信号格"</string>
+     <!-- Spoken description for Unicode code point U+1F4F7: "📷" CAMERA -->
+     <string name="spoken_emoji_1F4F7">"相机"</string>
+     <!-- Spoken description for Unicode code point U+1F4F8: "📸" CAMERA WITH FLASH -->
+     <string name="spoken_emoji_1F4F8">"带闪光灯的照相机"</string>
+     <!-- Spoken description for Unicode code point U+1F4F9: "📹" VIDEO CAMERA -->
+     <string name="spoken_emoji_1F4F9">"摄像机"</string>
+     <!-- Spoken description for Unicode code point U+1F4FA: "📺" TELEVISION -->
+     <string name="spoken_emoji_1F4FA">"电视"</string>
+     <!-- Spoken description for Unicode code point U+1F4FB: "📻" RADIO -->
+     <string name="spoken_emoji_1F4FB">"收音机"</string>
+     <!-- Spoken description for Unicode code point U+1F4FC: "📼" VIDEOCASSETTE -->
+     <string name="spoken_emoji_1F4FC">"录像带"</string>
+     <!-- Spoken description for Unicode code point U+1F4FD: "📽" FILM PROJECTOR -->
+     <string name="spoken_emoji_1F4FD">"投影仪"</string>
+     <!-- Spoken description for Unicode code point U+1F4FF: "📿" PRAYER BEADS -->
+     <string name="spoken_emoji_1F4FF">"念珠"</string>
+     <!-- Spoken description for Unicode code point U+1F500: "🔀" TWISTED RIGHTWARDS ARROWS -->
+     <string name="spoken_emoji_1F500">"相交的向右箭头"</string>
+     <!-- Spoken description for Unicode code point U+1F501: "🔁" CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS -->
+     <string name="spoken_emoji_1F501">"顺时针向右和向左绕成开放式圆圈的箭头"</string>
+     <!-- Spoken description for Unicode code point U+1F502: "🔂" CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY -->
+     <string name="spoken_emoji_1F502">"顺时针向右和向左绕成开放式圆圈的箭头，左下角圆圈中标有数字1"</string>
+     <!-- Spoken description for Unicode code point U+1F503: "🔃" CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS -->
+     <string name="spoken_emoji_1F503">"顺时针向下和向上绕成开放式圆圈的箭头"</string>
+     <!-- Spoken description for Unicode code point U+1F504: "🔄" ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS -->
+     <string name="spoken_emoji_1F504">"逆时针向下和向上绕成开放式圆圈的箭头"</string>
+     <!-- Spoken description for Unicode code point U+1F505: "🔅" LOW BRIGHTNESS SYMBOL -->
+     <string name="spoken_emoji_1F505">"低亮度符号"</string>
+     <!-- Spoken description for Unicode code point U+1F506: "🔆" HIGH BRIGHTNESS SYMBOL -->
+     <string name="spoken_emoji_1F506">"高亮度符号"</string>
+     <!-- Spoken description for Unicode code point U+1F507: "🔇" SPEAKER WITH CANCELLATION STROKE -->
+     <string name="spoken_emoji_1F507">"带删除斜线的扬声器"</string>
+     <!-- Spoken description for Unicode code point U+1F508: "🔈" SPEAKER -->
+     <string name="spoken_emoji_1F508">"扬声器"</string>
+     <!-- Spoken description for Unicode code point U+1F509: "🔉" SPEAKER WITH ONE SOUND WAVE -->
+     <string name="spoken_emoji_1F509">"带一个声波的扬声器"</string>
+     <!-- Spoken description for Unicode code point U+1F50A: "🔊" SPEAKER WITH THREE SOUND WAVES -->
+     <string name="spoken_emoji_1F50A">"带三个声波的扬声器"</string>
+     <!-- Spoken description for Unicode code point U+1F50B: "🔋" BATTERY -->
+     <string name="spoken_emoji_1F50B">"电池"</string>
+     <!-- Spoken description for Unicode code point U+1F50C: "🔌" ELECTRIC PLUG -->
+     <string name="spoken_emoji_1F50C">"电源插头"</string>
+     <!-- Spoken description for Unicode code point U+1F50D: "🔍" LEFT-POINTING MAGNIFYING GLASS -->
+     <string name="spoken_emoji_1F50D">"朝向左边的放大镜"</string>
+     <!-- Spoken description for Unicode code point U+1F50E: "🔎" RIGHT-POINTING MAGNIFYING GLASS -->
+     <string name="spoken_emoji_1F50E">"朝向右边的放大镜"</string>
+     <!-- Spoken description for Unicode code point U+1F50F: "🔏" LOCK WITH INK PEN -->
+     <string name="spoken_emoji_1F50F">"带有墨水笔的锁"</string>
+     <!-- Spoken description for Unicode code point U+1F510: "🔐" CLOSED LOCK WITH KEY -->
+     <string name="spoken_emoji_1F510">"带有钥匙的闭合锁"</string>
+     <!-- Spoken description for Unicode code point U+1F511: "🔑" KEY -->
+     <string name="spoken_emoji_1F511">"钥匙"</string>
+     <!-- Spoken description for Unicode code point U+1F512: "🔒" LOCK -->
+     <string name="spoken_emoji_1F512">"锁"</string>
+     <!-- Spoken description for Unicode code point U+1F513: "🔓" OPEN LOCK -->
+     <string name="spoken_emoji_1F513">"打开的锁"</string>
+     <!-- Spoken description for Unicode code point U+1F514: "🔔" BELL -->
+     <string name="spoken_emoji_1F514">"铃"</string>
+     <!-- Spoken description for Unicode code point U+1F515: "🔕" BELL WITH CANCELLATION STROKE -->
+     <string name="spoken_emoji_1F515">"带删除斜线的铃"</string>
+     <!-- Spoken description for Unicode code point U+1F516: "🔖" BOOKMARK -->
+     <string name="spoken_emoji_1F516">"书签"</string>
+     <!-- Spoken description for Unicode code point U+1F517: "🔗" LINK SYMBOL -->
+     <string name="spoken_emoji_1F517">"链接符号"</string>
+     <!-- Spoken description for Unicode code point U+1F518: "🔘" RADIO BUTTON -->
+     <string name="spoken_emoji_1F518">"单选按钮"</string>
+     <!-- Spoken description for Unicode code point U+1F519: "🔙" BACK WITH LEFTWARDS ARROW ABOVE -->
+     <string name="spoken_emoji_1F519">"上带向左箭头的BACK"</string>
+     <!-- Spoken description for Unicode code point U+1F51A: "🔚" END WITH LEFTWARDS ARROW ABOVE -->
+     <string name="spoken_emoji_1F51A">"上带向左箭头的END"</string>
+     <!-- Spoken description for Unicode code point U+1F51B: "🔛" ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE -->
+     <string name="spoken_emoji_1F51B">"上带左右箭头的ON和感叹号"</string>
+     <!-- Spoken description for Unicode code point U+1F51C: "🔜" SOON WITH RIGHTWARDS ARROW ABOVE -->
+     <string name="spoken_emoji_1F51C">"上带向右箭头的SOON"</string>
+     <!-- Spoken description for Unicode code point U+1F51D: "🔝" TOP WITH UPWARDS ARROW ABOVE -->
+     <string name="spoken_emoji_1F51D">"上带向上箭头的TOP"</string>
+     <!-- Spoken description for Unicode code point U+1F51E: "🔞" NO ONE UNDER EIGHTEEN SYMBOL -->
+     <string name="spoken_emoji_1F51E">"未满18岁禁止符号"</string>
+     <!-- Spoken description for Unicode code point U+1F51F: "🔟" KEYCAP TEN -->
+     <string name="spoken_emoji_1F51F">"键帽10"</string>
+     <!-- Spoken description for Unicode code point U+1F520: "🔠" INPUT SYMBOL FOR LATIN CAPITAL LETTERS -->
+     <string name="spoken_emoji_1F520">"大写拉丁文字母输入符号"</string>
+     <!-- Spoken description for Unicode code point U+1F521: "🔡" INPUT SYMBOL FOR LATIN SMALL LETTERS -->
+     <string name="spoken_emoji_1F521">"小写拉丁文字母输入符号"</string>
+     <!-- Spoken description for Unicode code point U+1F522: "🔢" INPUT SYMBOL FOR NUMBERS -->
+     <string name="spoken_emoji_1F522">"数字输入符号"</string>
+     <!-- Spoken description for Unicode code point U+1F523: "🔣" INPUT SYMBOL FOR SYMBOLS -->
+     <string name="spoken_emoji_1F523">"符号的输入符号"</string>
+     <!-- Spoken description for Unicode code point U+1F524: "🔤" INPUT SYMBOL FOR LATIN LETTERS -->
+     <string name="spoken_emoji_1F524">"拉丁文字母输入符号"</string>
+     <!-- Spoken description for Unicode code point U+1F525: "🔥" FIRE -->
+     <string name="spoken_emoji_1F525">"火"</string>
+     <!-- Spoken description for Unicode code point U+1F526: "🔦" ELECTRIC TORCH -->
+     <string name="spoken_emoji_1F526">"手电筒"</string>
+     <!-- Spoken description for Unicode code point U+1F527: "🔧" WRENCH -->
+     <string name="spoken_emoji_1F527">"扳手"</string>
+     <!-- Spoken description for Unicode code point U+1F528: "🔨" HAMMER -->
+     <string name="spoken_emoji_1F528">"锤子"</string>
+     <!-- Spoken description for Unicode code point U+1F529: "🔩" NUT AND BOLT -->
+     <string name="spoken_emoji_1F529">"螺母和螺栓"</string>
+     <!-- Spoken description for Unicode code point U+1F52A: "🔪" HOCHO -->
+     <string name="spoken_emoji_1F52A">"日式厨刀"</string>
+     <!-- Spoken description for Unicode code point U+1F52B: "🔫" PISTOL -->
+     <string name="spoken_emoji_1F52B">"手枪"</string>
+     <!-- Spoken description for Unicode code point U+1F52C: "🔬" MICROSCOPE -->
+     <string name="spoken_emoji_1F52C">"显微镜"</string>
+     <!-- Spoken description for Unicode code point U+1F52D: "🔭" TELESCOPE -->
+     <string name="spoken_emoji_1F52D">"望远镜"</string>
+     <!-- Spoken description for Unicode code point U+1F52E: "🔮" CRYSTAL BALL -->
+     <string name="spoken_emoji_1F52E">"水晶球"</string>
+     <!-- Spoken description for Unicode code point U+1F52F: "🔯" SIX POINTED STAR WITH MIDDLE DOT -->
+     <string name="spoken_emoji_1F52F">"中间带点的六角星"</string>
+     <!-- Spoken description for Unicode code point U+1F530: "🔰" JAPANESE SYMBOL FOR BEGINNER -->
+     <string name="spoken_emoji_1F530">"日本的新手标志"</string>
+     <!-- Spoken description for Unicode code point U+1F531: "🔱" TRIDENT EMBLEM -->
+     <string name="spoken_emoji_1F531">"三叉戟徽章"</string>
+     <!-- Spoken description for Unicode code point U+1F532: "🔲" BLACK SQUARE BUTTON -->
+     <string name="spoken_emoji_1F532">"实心方形按钮"</string>
+     <!-- Spoken description for Unicode code point U+1F533: "🔳" WHITE SQUARE BUTTON -->
+     <string name="spoken_emoji_1F533">"空心方形按钮"</string>
+     <!-- Spoken description for Unicode code point U+1F534: "🔴" LARGE RED CIRCLE -->
+     <string name="spoken_emoji_1F534">"红色大圆"</string>
+     <!-- Spoken description for Unicode code point U+1F535: "🔵" LARGE BLUE CIRCLE -->
+     <string name="spoken_emoji_1F535">"蓝色大圆"</string>
+     <!-- Spoken description for Unicode code point U+1F536: "🔶" LARGE ORANGE DIAMOND -->
+     <string name="spoken_emoji_1F536">"橙色大菱形"</string>
+     <!-- Spoken description for Unicode code point U+1F537: "🔷" LARGE BLUE DIAMOND -->
+     <string name="spoken_emoji_1F537">"蓝色大菱形"</string>
+     <!-- Spoken description for Unicode code point U+1F538: "🔸" SMALL ORANGE DIAMOND -->
+     <string name="spoken_emoji_1F538">"橙色小菱形"</string>
+     <!-- Spoken description for Unicode code point U+1F539: "🔹" SMALL BLUE DIAMOND -->
+     <string name="spoken_emoji_1F539">"蓝色小菱形"</string>
+     <!-- Spoken description for Unicode code point U+1F53A: "🔺" UP-POINTING RED TRIANGLE -->
+     <string name="spoken_emoji_1F53A">"尖朝上的红色三角形"</string>
+     <!-- Spoken description for Unicode code point U+1F53B: "🔻" DOWN-POINTING RED TRIANGLE -->
+     <string name="spoken_emoji_1F53B">"尖朝下的红色三角形"</string>
+     <!-- Spoken description for Unicode code point U+1F53C: "🔼" UP-POINTING SMALL RED TRIANGLE -->
+     <string name="spoken_emoji_1F53C">"尖朝上的红色小三角形"</string>
+     <!-- Spoken description for Unicode code point U+1F53D: "🔽" DOWN-POINTING SMALL RED TRIANGLE -->
+     <string name="spoken_emoji_1F53D">"尖朝下的红色小三角形"</string>
+     <!-- Spoken description for Unicode code point U+1F549: "🕉" OM SYMBOL -->
+     <string name="spoken_emoji_1F549">"欧姆符号"</string>
+     <!-- Spoken description for Unicode code point U+1F54A: "🕊" DOVE OF PEACE -->
+     <string name="spoken_emoji_1F54A">"和平鸽"</string>
+     <!-- Spoken description for Unicode code point U+1F54B: "🕋" KAABA -->
+     <string name="spoken_emoji_1F54B">"卡巴圣殿"</string>
+     <!-- Spoken description for Unicode code point U+1F54C: "🕌" MOSQUE -->
+     <string name="spoken_emoji_1F54C">"清真寺"</string>
+     <!-- Spoken description for Unicode code point U+1F54D: "🕍" SYNAGOGUE -->
+     <string name="spoken_emoji_1F54D">"犹太教堂"</string>
+     <!-- Spoken description for Unicode code point U+1F54E: "🕎" MENORAH WITH NINE BRANCHES -->
+     <string name="spoken_emoji_1F54E">"九枝烛台"</string>
+     <!-- Spoken description for Unicode code point U+1F550: "🕐" CLOCK FACE ONE OCLOCK -->
+     <string name="spoken_emoji_1F550">"显示为一点的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F551: "🕑" CLOCK FACE TWO OCLOCK -->
+     <string name="spoken_emoji_1F551">"显示为两点的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F552: "🕒" CLOCK FACE THREE OCLOCK -->
+     <string name="spoken_emoji_1F552">"显示为三点的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F553: "🕓" CLOCK FACE FOUR OCLOCK -->
+     <string name="spoken_emoji_1F553">"显示为四点的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F554: "🕔" CLOCK FACE FIVE OCLOCK -->
+     <string name="spoken_emoji_1F554">"显示为五点的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F555: "🕕" CLOCK FACE SIX OCLOCK -->
+     <string name="spoken_emoji_1F555">"显示为六点的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F556: "🕖" CLOCK FACE SEVEN OCLOCK -->
+     <string name="spoken_emoji_1F556">"显示为七点的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F557: "🕗" CLOCK FACE EIGHT OCLOCK -->
+     <string name="spoken_emoji_1F557">"显示为八点的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F558: "🕘" CLOCK FACE NINE OCLOCK -->
+     <string name="spoken_emoji_1F558">"显示为九点的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F559: "🕙" CLOCK FACE TEN OCLOCK -->
+     <string name="spoken_emoji_1F559">"显示为十点的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F55A: "🕚" CLOCK FACE ELEVEN OCLOCK -->
+     <string name="spoken_emoji_1F55A">"显示为十一点的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F55B: "🕛" CLOCK FACE TWELVE OCLOCK -->
+     <string name="spoken_emoji_1F55B">"显示为十二点的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F55C: "🕜" CLOCK FACE ONE-THIRTY -->
+     <string name="spoken_emoji_1F55C">"显示为一点半的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F55D: "🕝" CLOCK FACE TWO-THIRTY -->
+     <string name="spoken_emoji_1F55D">"显示为两点半的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F55E: "🕞" CLOCK FACE THREE-THIRTY -->
+     <string name="spoken_emoji_1F55E">"显示为三点半的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F55F: "🕟" CLOCK FACE FOUR-THIRTY -->
+     <string name="spoken_emoji_1F55F">"显示为四点半的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F560: "🕠" CLOCK FACE FIVE-THIRTY -->
+     <string name="spoken_emoji_1F560">"显示为五点半的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F561: "🕡" CLOCK FACE SIX-THIRTY -->
+     <string name="spoken_emoji_1F561">"显示为六点半的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F562: "🕢" CLOCK FACE SEVEN-THIRTY -->
+     <string name="spoken_emoji_1F562">"显示为七点半的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F563: "🕣" CLOCK FACE EIGHT-THIRTY -->
+     <string name="spoken_emoji_1F563">"显示为八点半的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F564: "🕤" CLOCK FACE NINE-THIRTY -->
+     <string name="spoken_emoji_1F564">"显示为九点半的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F565: "🕥" CLOCK FACE TEN-THIRTY -->
+     <string name="spoken_emoji_1F565">"显示为十点半的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F566: "🕦" CLOCK FACE ELEVEN-THIRTY -->
+     <string name="spoken_emoji_1F566">"显示为十一点半的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F567: "🕧" CLOCK FACE TWELVE-THIRTY -->
+     <string name="spoken_emoji_1F567">"显示为十二点半的钟面"</string>
+     <!-- Spoken description for Unicode code point U+1F56F: "🕯" CANDLE -->
+     <string name="spoken_emoji_1F56F">"蜡烛"</string>
+     <!-- Spoken description for Unicode code point U+1F570: "🕰" MANTELPIECE CLOCK -->
+     <string name="spoken_emoji_1F570">"壁炉钟"</string>
+     <!-- Spoken description for Unicode code point U+1F573: "🕳" HOLE -->
+     <string name="spoken_emoji_1F573">"洞"</string>
+     <!-- Spoken description for Unicode code point U+1F574: "🕴" MAN IN BUSINESS SUIT LEVITATING -->
+     <string name="spoken_emoji_1F574">"漂浮西装男"</string>
+     <!-- Spoken description for Unicode code point U+1F575: "🕵" SLEUTH OR SPY -->
+     <string name="spoken_emoji_1F575">"侦探或间谍"</string>
+     <!-- Spoken description for Unicode code point U+1F576: "🕶" DARK SUNGLASSES -->
+     <string name="spoken_emoji_1F576">"黑色太阳镜"</string>
+     <!-- Spoken description for Unicode code point U+1F577: "🕷" SPIDER -->
+     <string name="spoken_emoji_1F577">"蜘蛛"</string>
+     <!-- Spoken description for Unicode code point U+1F578: "🕸" SPIDER WEB -->
+     <string name="spoken_emoji_1F578">"蜘蛛网"</string>
+     <!-- Spoken description for Unicode code point U+1F579: "🕹" JOYSTICK -->
+     <string name="spoken_emoji_1F579">"操纵杆"</string>
+     <!-- Spoken description for Unicode code point U+1F587: "🖇" LINKED PAPERCLIPS -->
+     <string name="spoken_emoji_1F587">"串起的回形针"</string>
+     <!-- Spoken description for Unicode code point U+1F58A: "🖊" LOWER LEFT BALLPOINT PEN -->
+     <string name="spoken_emoji_1F58A">"左低右高的的原子笔"</string>
+     <!-- Spoken description for Unicode code point U+1F58B: "🖋" LOWER LEFT FOUNTAIN PEN -->
+     <string name="spoken_emoji_1F58B">"左低右高的钢笔"</string>
+     <!-- Spoken description for Unicode code point U+1F58C: "🖌" LOWER LEFT PAINTBRUSH -->
+     <string name="spoken_emoji_1F58C">"左低右高的画笔"</string>
+     <!-- Spoken description for Unicode code point U+1F58D: "🖍" LOWER LEFT CRAYON -->
+     <string name="spoken_emoji_1F58D">"左低右高的蜡笔"</string>
+     <!-- Spoken description for Unicode code point U+1F590: "🖐" RAISED HAND WITH FINGERS SPLAYED -->
+     <string name="spoken_emoji_1F590">"展开手指举起的手"</string>
+     <!-- Spoken description for Unicode code point U+1F595: "🖕" REVERSED HAND WITH MIDDLE FINGER EXTENDED -->
+     <string name="spoken_emoji_1F595">"伸出中指的手背"</string>
+     <!-- Spoken description for Unicode code point U+1F596: "🖖" RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS -->
+     <string name="spoken_emoji_1F596">"中指和无名指间夹物的举起的手"</string>
+     <!-- Spoken description for Unicode code point U+1F5A5: "🖥" DESKTOP COMPUTER -->
+     <string name="spoken_emoji_1F5A5">"台式计算机"</string>
+     <!-- Spoken description for Unicode code point U+1F5A8: "🖨" PRINTER -->
+     <string name="spoken_emoji_1F5A8">"打印机"</string>
+     <!-- Spoken description for Unicode code point U+1F5B1: "🖱" THREE BUTTON MOUSE -->
+     <string name="spoken_emoji_1F5B1">"三键鼠标"</string>
+     <!-- Spoken description for Unicode code point U+1F5B2: "🖲" TRACKBALL -->
+     <string name="spoken_emoji_1F5B2">"轨迹球"</string>
+     <!-- Spoken description for Unicode code point U+1F5BC: "🖼" FRAME WITH PICTURE -->
+     <string name="spoken_emoji_1F5BC">"图片框"</string>
+     <!-- Spoken description for Unicode code point U+1F5C2: "🗂" CARD INDEX DIVIDERS -->
+     <string name="spoken_emoji_1F5C2">"卡式索引分界"</string>
+     <!-- Spoken description for Unicode code point U+1F5C3: "🗃" CARD FILE BOX -->
+     <string name="spoken_emoji_1F5C3">"卡式文件盒"</string>
+     <!-- Spoken description for Unicode code point U+1F5C4: "🗄" FILE CABINET -->
+     <string name="spoken_emoji_1F5C4">"文件柜"</string>
+     <!-- Spoken description for Unicode code point U+1F5D1: "🗑" WASTEBASKET -->
+     <string name="spoken_emoji_1F5D1">"垃圾桶"</string>
+     <!-- Spoken description for Unicode code point U+1F5D2: "🗒" SPIRAL NOTE PAD -->
+     <string name="spoken_emoji_1F5D2">"卷线笔记本"</string>
+     <!-- Spoken description for Unicode code point U+1F5D3: "🗓" SPIRAL CALENDAR PAD -->
+     <string name="spoken_emoji_1F5D3">"卷线日历簿"</string>
+     <!-- Spoken description for Unicode code point U+1F5DC: "🗜" COMPRESSION -->
+     <string name="spoken_emoji_1F5DC">"压缩"</string>
+     <!-- Spoken description for Unicode code point U+1F5DD: "🗝" OLD KEY -->
+     <string name="spoken_emoji_1F5DD">"旧密钥"</string>
+     <!-- Spoken description for Unicode code point U+1F5DE: "🗞" ROLLED-UP NEWSPAPER -->
+     <string name="spoken_emoji_1F5DE">"滚动报纸"</string>
+     <!-- Spoken description for Unicode code point U+1F5E1: "🗡" DAGGER KNIFE -->
+     <string name="spoken_emoji_1F5E1">"匕首"</string>
+     <!-- Spoken description for Unicode code point U+1F5E3: "🗣" SPEAKING HEAD IN SILHOUETTE -->
+     <string name="spoken_emoji_1F5E3">"发言者头像"</string>
+     <!-- Spoken description for Unicode code point U+1F5EF: "🗯" RIGHT ANGER BUBBLE -->
+     <string name="spoken_emoji_1F5EF">"右侧生气表情"</string>
+     <!-- Spoken description for Unicode code point U+1F5F3: "🗳" BALLOT BOX WITH BALLOT -->
+     <string name="spoken_emoji_1F5F3">"装选票的投票箱"</string>
+     <!-- Spoken description for Unicode code point U+1F5FA: "🗺" WORLD MAP -->
+     <string name="spoken_emoji_1F5FA">"世界地图"</string>
+     <!-- Spoken description for Unicode code point U+1F5FB: "🗻" MOUNT FUJI -->
+     <string name="spoken_emoji_1F5FB">"富士山"</string>
+     <!-- Spoken description for Unicode code point U+1F5FC: "🗼" TOKYO TOWER -->
+     <string name="spoken_emoji_1F5FC">"东京塔"</string>
+     <!-- Spoken description for Unicode code point U+1F5FD: "🗽" STATUE OF LIBERTY -->
+     <string name="spoken_emoji_1F5FD">"自由女神像"</string>
+     <!-- Spoken description for Unicode code point U+1F5FE: "🗾" SILHOUETTE OF JAPAN -->
+     <string name="spoken_emoji_1F5FE">"日本地图轮廓"</string>
+     <!-- Spoken description for Unicode code point U+1F5FF: "🗿" MOYAI -->
+     <string name="spoken_emoji_1F5FF">"摩艾石像"</string>
+     <!-- Spoken description for Unicode code point U+1F600: "😀" GRINNING FACE -->
+     <string name="spoken_emoji_1F600">"露齿而笑的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F601: "😁" GRINNING FACE WITH SMILING EYES -->
+     <string name="spoken_emoji_1F601">"咧嘴眉开眼笑的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F602: "😂" FACE WITH TEARS OF JOY -->
+     <string name="spoken_emoji_1F602">"喜极而泣的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F603: "😃" SMILING FACE WITH OPEN MOUTH -->
+     <string name="spoken_emoji_1F603">"咧嘴笑的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F604: "😄" SMILING FACE WITH OPEN MOUTH AND SMILING EYES -->
+     <string name="spoken_emoji_1F604">"咧嘴且眯眼笑的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F605: "😅" SMILING FACE WITH OPEN MOUTH AND COLD SWEAT -->
+     <string name="spoken_emoji_1F605">"咧嘴笑且冒冷汗的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F606: "😆" SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES -->
+     <string name="spoken_emoji_1F606">"咧嘴笑且眼睛紧闭的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F607: "😇" SMILING FACE WITH HALO -->
+     <string name="spoken_emoji_1F607">"带光环的笑脸"</string>
+     <!-- Spoken description for Unicode code point U+1F608: "😈" SMILING FACE WITH HORNS -->
+     <string name="spoken_emoji_1F608">"带恶魔角的笑脸"</string>
+     <!-- Spoken description for Unicode code point U+1F609: "😉" WINKING FACE -->
+     <string name="spoken_emoji_1F609">"眨眼微笑的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F60A: "😊" SMILING FACE WITH SMILING EYES -->
+     <string name="spoken_emoji_1F60A">"眼睛笑眯眯的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F60B: "😋" FACE SAVOURING DELICIOUS FOOD -->
+     <string name="spoken_emoji_1F60B">"品尝到美食的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F60C: "😌" RELIEVED FACE -->
+     <string name="spoken_emoji_1F60C">"如释重负的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F60D: "😍" SMILING FACE WITH HEART-SHAPED EYES -->
+     <string name="spoken_emoji_1F60D">"眼睛呈心形的笑脸"</string>
+     <!-- Spoken description for Unicode code point U+1F60E: "😎" SMILING FACE WITH SUNGLASSES -->
+     <string name="spoken_emoji_1F60E">"戴墨镜的笑脸"</string>
+     <!-- Spoken description for Unicode code point U+1F60F: "😏" SMIRKING FACE -->
+     <string name="spoken_emoji_1F60F">"得意的笑脸"</string>
+     <!-- Spoken description for Unicode code point U+1F610: "😐" NEUTRAL FACE -->
+     <string name="spoken_emoji_1F610">"无表情的脸"</string>
+     <!-- Spoken description for Unicode code point U+1F611: "😑" EXPRESSIONLESS FACE -->
+     <string name="spoken_emoji_1F611">"无动于衷的脸"</string>
+     <!-- Spoken description for Unicode code point U+1F612: "😒" UNAMUSED FACE -->
+     <string name="spoken_emoji_1F612">"面带不快的脸"</string>
+     <!-- Spoken description for Unicode code point U+1F613: "😓" FACE WITH COLD SWEAT -->
+     <string name="spoken_emoji_1F613">"冒冷汗的脸"</string>
+     <!-- Spoken description for Unicode code point U+1F614: "😔" PENSIVE FACE -->
+     <string name="spoken_emoji_1F614">"忧虑的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F615: "😕" CONFUSED FACE -->
+     <string name="spoken_emoji_1F615">"困惑的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F616: "😖" CONFOUNDED FACE -->
+     <string name="spoken_emoji_1F616">"不知所措的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F617: "😗" KISSING FACE -->
+     <string name="spoken_emoji_1F617">"为亲吻而嘟着嘴的脸"</string>
+     <!-- Spoken description for Unicode code point U+1F618: "😘" FACE THROWING A KISS -->
+     <string name="spoken_emoji_1F618">"拋飞吻的脸"</string>
+     <!-- Spoken description for Unicode code point U+1F619: "😙" KISSING FACE WITH SMILING EYES -->
+     <string name="spoken_emoji_1F619">"为亲吻而嘟着嘴的笑眯眯的脸"</string>
+     <!-- Spoken description for Unicode code point U+1F61A: "😚" KISSING FACE WITH CLOSED EYES -->
+     <string name="spoken_emoji_1F61A">"为亲吻而嘟着嘴的闭起眼的脸"</string>
+     <!-- Spoken description for Unicode code point U+1F61B: "😛" FACE WITH STUCK-OUT TONGUE -->
+     <string name="spoken_emoji_1F61B">"吐舌头的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F61C: "😜" FACE WITH STUCK-OUT TONGUE AND WINKING EYE -->
+     <string name="spoken_emoji_1F61C">"眨眼吐舌头的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F61D: "😝" FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES -->
+     <string name="spoken_emoji_1F61D">"闭眼吐舌头的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F61E: "😞" DISAPPOINTED FACE -->
+     <string name="spoken_emoji_1F61E">"失望的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F61F: "😟" WORRIED FACE -->
+     <string name="spoken_emoji_1F61F">"担心的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F620: "😠" ANGRY FACE -->
+     <string name="spoken_emoji_1F620">"生气的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F621: "😡" POUTING FACE -->
+     <string name="spoken_emoji_1F621">"噘嘴的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F622: "😢" CRYING FACE -->
+     <string name="spoken_emoji_1F622">"哭泣的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F623: "😣" PERSEVERING FACE -->
+     <string name="spoken_emoji_1F623">"忍着哭的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F624: "😤" FACE WITH LOOK OF TRIUMPH -->
+     <string name="spoken_emoji_1F624">"不可一世的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F625: "😥" DISAPPOINTED BUT RELIEVED FACE -->
+     <string name="spoken_emoji_1F625">"失望但如释重负的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F626: "😦" FROWNING FACE WITH OPEN MOUTH -->
+     <string name="spoken_emoji_1F626">"张嘴皱眉的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F627: "😧" ANGUISHED FACE -->
+     <string name="spoken_emoji_1F627">"苦恼的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F628: "😨" FEARFUL FACE -->
+     <string name="spoken_emoji_1F628">"害怕的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F629: "😩" WEARY FACE -->
+     <string name="spoken_emoji_1F629">"厌烦的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F62A: "😪" SLEEPY FACE -->
+     <string name="spoken_emoji_1F62A">"打瞌睡的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F62B: "😫" TIRED FACE -->
+     <string name="spoken_emoji_1F62B">"疲惫的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F62C: "😬" GRIMACING FACE -->
+     <string name="spoken_emoji_1F62C">"做鬼脸的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F62D: "😭" LOUDLY CRYING FACE -->
+     <string name="spoken_emoji_1F62D">"嚎啕大哭的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F62E: "😮" FACE WITH OPEN MOUTH -->
+     <string name="spoken_emoji_1F62E">"张大嘴的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F62F: "😯" HUSHED FACE -->
+     <string name="spoken_emoji_1F62F">"噤声的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F630: "😰" FACE WITH OPEN MOUTH AND COLD SWEAT -->
+     <string name="spoken_emoji_1F630">"张嘴冒冷汗的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F631: "😱" FACE SCREAMING IN FEAR -->
+     <string name="spoken_emoji_1F631">"恐惧尖叫的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F632: "😲" ASTONISHED FACE -->
+     <string name="spoken_emoji_1F632">"惊讶的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F633: "😳" FLUSHED FACE -->
+     <string name="spoken_emoji_1F633">"脸红的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F634: "😴" SLEEPING FACE -->
+     <string name="spoken_emoji_1F634">"熟睡的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F635: "😵" DIZZY FACE -->
+     <string name="spoken_emoji_1F635">"头晕眼花的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F636: "😶" FACE WITHOUT MOUTH -->
+     <string name="spoken_emoji_1F636">"没有嘴的脸"</string>
+     <!-- Spoken description for Unicode code point U+1F637: "😷" FACE WITH MEDICAL MASK -->
+     <string name="spoken_emoji_1F637">"戴医用口罩的脸"</string>
+     <!-- Spoken description for Unicode code point U+1F638: "😸" GRINNING CAT FACE WITH SMILING EYES -->
+     <string name="spoken_emoji_1F638">"露齿笑眯眯的猫脸"</string>
+     <!-- Spoken description for Unicode code point U+1F639: "😹" CAT FACE WITH TEARS OF JOY -->
+     <string name="spoken_emoji_1F639">"喜极而泣的猫脸"</string>
+     <!-- Spoken description for Unicode code point U+1F63A: "😺" SMILING CAT FACE WITH OPEN MOUTH -->
+     <string name="spoken_emoji_1F63A">"张嘴微笑的猫脸"</string>
+     <!-- Spoken description for Unicode code point U+1F63B: "😻" SMILING CAT FACE WITH HEART-SHAPED EYES -->
+     <string name="spoken_emoji_1F63B">"眼睛呈心形的笑猫脸"</string>
+     <!-- Spoken description for Unicode code point U+1F63C: "😼" CAT FACE WITH WRY SMILE -->
+     <string name="spoken_emoji_1F63C">"坏笑的猫脸"</string>
+     <!-- Spoken description for Unicode code point U+1F63D: "😽" KISSING CAT FACE WITH CLOSED EYES -->
+     <string name="spoken_emoji_1F63D">"为亲吻而嘟着嘴的闭起眼的猫脸"</string>
+     <!-- Spoken description for Unicode code point U+1F63E: "😾" POUTING CAT FACE -->
+     <string name="spoken_emoji_1F63E">"噘嘴的猫脸"</string>
+     <!-- Spoken description for Unicode code point U+1F63F: "😿" CRYING CAT FACE -->
+     <string name="spoken_emoji_1F63F">"哭泣的猫脸"</string>
+     <!-- Spoken description for Unicode code point U+1F640: "🙀" WEARY CAT FACE -->
+     <string name="spoken_emoji_1F640">"厌倦的猫脸"</string>
+     <!-- Spoken description for Unicode code point U+1F641: "🙁" SLIGHTLY FROWNING FACE -->
+     <string name="spoken_emoji_1F641">"轻皱眉表情"</string>
+     <!-- Spoken description for Unicode code point U+1F642: "🙂" SLIGHTLY SMILING FACE -->
+     <string name="spoken_emoji_1F642">"微笑表情"</string>
+     <!-- Spoken description for Unicode code point U+1F643: "🙃" UPSIDE-DOWN FACE -->
+     <string name="spoken_emoji_1F643">"倒置表情"</string>
+     <!-- Spoken description for Unicode code point U+1F644: "🙄" FACE WITH ROLLING EYES -->
+     <string name="spoken_emoji_1F644">"转眼珠表情"</string>
+     <!-- Spoken description for Unicode code point U+1F645: "🙅" FACE WITH NO GOOD GESTURE -->
+     <string name="spoken_emoji_1F645">"做禁止手势的人"</string>
+     <!-- Spoken description for Unicode code point U+1F646: "🙆" FACE WITH OK GESTURE -->
+     <string name="spoken_emoji_1F646">"做OK手势的人"</string>
+     <!-- Spoken description for Unicode code point U+1F647: "🙇" PERSON BOWING DEEPLY -->
+     <string name="spoken_emoji_1F647">"跪伏的人"</string>
+     <!-- Spoken description for Unicode code point U+1F648: "🙈" SEE-NO-EVIL MONKEY -->
+     <string name="spoken_emoji_1F648">"非礼勿视的猴子"</string>
+     <!-- Spoken description for Unicode code point U+1F649: "🙉" HEAR-NO-EVIL MONKEY -->
+     <string name="spoken_emoji_1F649">"非礼勿听的猴子"</string>
+     <!-- Spoken description for Unicode code point U+1F64A: "🙊" SPEAK-NO-EVIL MONKEY -->
+     <string name="spoken_emoji_1F64A">"非礼勿言的猴子"</string>
+     <!-- Spoken description for Unicode code point U+1F64B: "🙋" HAPPY PERSON RAISING ONE HAND -->
+     <string name="spoken_emoji_1F64B">"开心地举起一只手的人"</string>
+     <!-- Spoken description for Unicode code point U+1F64C: "🙌" PERSON RAISING BOTH HANDS IN CELEBRATION -->
+     <string name="spoken_emoji_1F64C">"高举双手庆祝的人"</string>
+     <!-- Spoken description for Unicode code point U+1F64D: "🙍" PERSON FROWNING -->
+     <string name="spoken_emoji_1F64D">"皱眉的人"</string>
+     <!-- Spoken description for Unicode code point U+1F64E: "🙎" PERSON WITH POUTING FACE -->
+     <string name="spoken_emoji_1F64E">"噘嘴的人"</string>
+     <!-- Spoken description for Unicode code point U+1F64F: "🙏" PERSON WITH FOLDED HANDS -->
+     <string name="spoken_emoji_1F64F">"双手合十的人"</string>
+     <!-- Spoken description for Unicode code point U+1F680: "🚀" ROCKET -->
+     <string name="spoken_emoji_1F680">"火箭"</string>
+     <!-- Spoken description for Unicode code point U+1F681: "🚁" HELICOPTER -->
+     <string name="spoken_emoji_1F681">"直升飞机"</string>
+     <!-- Spoken description for Unicode code point U+1F682: "🚂" STEAM LOCOMOTIVE -->
+     <string name="spoken_emoji_1F682">"蒸汽火车"</string>
+     <!-- Spoken description for Unicode code point U+1F683: "🚃" RAILWAY CAR -->
+     <string name="spoken_emoji_1F683">"火车车厢"</string>
+     <!-- Spoken description for Unicode code point U+1F684: "🚄" HIGH-SPEED TRAIN -->
+     <string name="spoken_emoji_1F684">"高铁列车"</string>
+     <!-- Spoken description for Unicode code point U+1F685: "🚅" HIGH-SPEED TRAIN WITH BULLET NOSE -->
+     <string name="spoken_emoji_1F685">"子弹头高铁列车"</string>
+     <!-- Spoken description for Unicode code point U+1F686: "🚆" TRAIN -->
+     <string name="spoken_emoji_1F686">"火车"</string>
+     <!-- Spoken description for Unicode code point U+1F687: "🚇" METRO -->
+     <string name="spoken_emoji_1F687">"地铁"</string>
+     <!-- Spoken description for Unicode code point U+1F688: "🚈" LIGHT RAIL -->
+     <string name="spoken_emoji_1F688">"轻轨"</string>
+     <!-- Spoken description for Unicode code point U+1F689: "🚉" STATION -->
+     <string name="spoken_emoji_1F689">"车站"</string>
+     <!-- Spoken description for Unicode code point U+1F68A: "🚊" TRAM -->
+     <string name="spoken_emoji_1F68A">"有轨电车"</string>
+     <!-- Spoken description for Unicode code point U+1F68B: "🚋" TRAM CAR -->
+     <string name="spoken_emoji_1F68B">"电车车厢"</string>
+     <!-- Spoken description for Unicode code point U+1F68C: "🚌" BUS -->
+     <string name="spoken_emoji_1F68C">"公交车"</string>
+     <!-- Spoken description for Unicode code point U+1F68D: "🚍" ONCOMING BUS -->
+     <string name="spoken_emoji_1F68D">"迎面而来的公交车"</string>
+     <!-- Spoken description for Unicode code point U+1F68E: "🚎" TROLLEYBUS -->
+     <string name="spoken_emoji_1F68E">"无轨电车"</string>
+     <!-- Spoken description for Unicode code point U+1F68F: "🚏" BUS STOP -->
+     <string name="spoken_emoji_1F68F">"公交车站牌"</string>
+     <!-- Spoken description for Unicode code point U+1F690: "🚐" MINIBUS -->
+     <string name="spoken_emoji_1F690">"小型公共汽车"</string>
+     <!-- Spoken description for Unicode code point U+1F691: "🚑" AMBULANCE -->
+     <string name="spoken_emoji_1F691">"救护车"</string>
+     <!-- Spoken description for Unicode code point U+1F692: "🚒" FIRE ENGINE -->
+     <string name="spoken_emoji_1F692">"消防车"</string>
+     <!-- Spoken description for Unicode code point U+1F693: "🚓" POLICE CAR -->
+     <string name="spoken_emoji_1F693">"警车"</string>
+     <!-- Spoken description for Unicode code point U+1F694: "🚔" ONCOMING POLICE CAR -->
+     <string name="spoken_emoji_1F694">"迎面而来的警车"</string>
+     <!-- Spoken description for Unicode code point U+1F695: "🚕" TAXI -->
+     <string name="spoken_emoji_1F695">"出租车"</string>
+     <!-- Spoken description for Unicode code point U+1F696: "🚖" ONCOMING TAXI -->
+     <string name="spoken_emoji_1F696">"迎面而来的出租车"</string>
+     <!-- Spoken description for Unicode code point U+1F697: "🚗" AUTOMOBILE -->
+     <string name="spoken_emoji_1F697">"汽车"</string>
+     <!-- Spoken description for Unicode code point U+1F698: "🚘" ONCOMING AUTOMOBILE -->
+     <string name="spoken_emoji_1F698">"迎面而来的汽车"</string>
+     <!-- Spoken description for Unicode code point U+1F699: "🚙" RECREATIONAL VEHICLE -->
+     <string name="spoken_emoji_1F699">"野营旅游车"</string>
+     <!-- Spoken description for Unicode code point U+1F69A: "🚚" DELIVERY TRUCK -->
+     <string name="spoken_emoji_1F69A">"送货车"</string>
+     <!-- Spoken description for Unicode code point U+1F69B: "🚛" ARTICULATED LORRY -->
+     <string name="spoken_emoji_1F69B">"铰接式卡车"</string>
+     <!-- Spoken description for Unicode code point U+1F69C: "🚜" TRACTOR -->
+     <string name="spoken_emoji_1F69C">"拖拉机"</string>
+     <!-- Spoken description for Unicode code point U+1F69D: "🚝" MONORAIL -->
+     <string name="spoken_emoji_1F69D">"单轨列车"</string>
+     <!-- Spoken description for Unicode code point U+1F69E: "🚞" MOUNTAIN RAILWAY -->
+     <string name="spoken_emoji_1F69E">"山区铁路"</string>
+     <!-- Spoken description for Unicode code point U+1F69F: "🚟" SUSPENSION RAILWAY -->
+     <string name="spoken_emoji_1F69F">"高架铁路"</string>
+     <!-- Spoken description for Unicode code point U+1F6A0: "🚠" MOUNTAIN CABLEWAY -->
+     <string name="spoken_emoji_1F6A0">"山地索道"</string>
+     <!-- Spoken description for Unicode code point U+1F6A1: "🚡" AERIAL TRAMWAY -->
+     <string name="spoken_emoji_1F6A1">"空中缆车"</string>
+     <!-- Spoken description for Unicode code point U+1F6A2: "🚢" SHIP -->
+     <string name="spoken_emoji_1F6A2">"轮船"</string>
+     <!-- Spoken description for Unicode code point U+1F6A3: "🚣" ROWBOAT -->
+     <string name="spoken_emoji_1F6A3">"小船"</string>
+     <!-- Spoken description for Unicode code point U+1F6A4: "🚤" SPEEDBOAT -->
+     <string name="spoken_emoji_1F6A4">"快艇"</string>
+     <!-- Spoken description for Unicode code point U+1F6A5: "🚥" HORIZONTAL TRAFFIC LIGHT -->
+     <string name="spoken_emoji_1F6A5">"横向红绿灯"</string>
+     <!-- Spoken description for Unicode code point U+1F6A6: "🚦" VERTICAL TRAFFIC LIGHT -->
+     <string name="spoken_emoji_1F6A6">"竖向红绿灯"</string>
+     <!-- Spoken description for Unicode code point U+1F6A7: "🚧" CONSTRUCTION SIGN -->
+     <string name="spoken_emoji_1F6A7">"施工标志"</string>
+     <!-- Spoken description for Unicode code point U+1F6A8: "🚨" POLICE CARS REVOLVING LIGHT -->
+     <string name="spoken_emoji_1F6A8">"旋转的警车警示灯"</string>
+     <!-- Spoken description for Unicode code point U+1F6A9: "🚩" TRIANGULAR FLAG ON POST -->
+     <string name="spoken_emoji_1F6A9">"旗杆上的三角旗"</string>
+     <!-- Spoken description for Unicode code point U+1F6AA: "🚪" DOOR -->
+     <string name="spoken_emoji_1F6AA">"门"</string>
+     <!-- Spoken description for Unicode code point U+1F6AB: "🚫" NO ENTRY SIGN -->
+     <string name="spoken_emoji_1F6AB">"禁止通行标志"</string>
+     <!-- Spoken description for Unicode code point U+1F6AC: "🚬" SMOKING SYMBOL -->
+     <string name="spoken_emoji_1F6AC">"吸烟标志"</string>
+     <!-- Spoken description for Unicode code point U+1F6AD: "🚭" NO SMOKING SYMBOL -->
+     <string name="spoken_emoji_1F6AD">"禁止吸烟标志"</string>
+     <!-- Spoken description for Unicode code point U+1F6AE: "🚮" PUT LITTER IN ITS PLACE SYMBOL -->
+     <string name="spoken_emoji_1F6AE">"正确丢弃垃圾标志"</string>
+     <!-- Spoken description for Unicode code point U+1F6AF: "🚯" DO NOT LITTER SYMBOL -->
+     <string name="spoken_emoji_1F6AF">"请勿乱丢垃圾标志"</string>
+     <!-- Spoken description for Unicode code point U+1F6B0: "🚰" POTABLE WATER SYMBOL -->
+     <string name="spoken_emoji_1F6B0">"饮用水标志"</string>
+     <!-- Spoken description for Unicode code point U+1F6B1: "🚱" NON-POTABLE WATER SYMBOL -->
+     <string name="spoken_emoji_1F6B1">"非饮用水标志"</string>
+     <!-- Spoken description for Unicode code point U+1F6B2: "🚲" BICYCLE -->
+     <string name="spoken_emoji_1F6B2">"自行车"</string>
+     <!-- Spoken description for Unicode code point U+1F6B3: "🚳" NO BICYCLES -->
+     <string name="spoken_emoji_1F6B3">"禁止自行车通行"</string>
+     <!-- Spoken description for Unicode code point U+1F6B4: "🚴" BICYCLIST -->
+     <string name="spoken_emoji_1F6B4">"骑自行车的人"</string>
+     <!-- Spoken description for Unicode code point U+1F6B5: "🚵" MOUNTAIN BICYCLIST -->
+     <string name="spoken_emoji_1F6B5">"骑山地自行车的人"</string>
+     <!-- Spoken description for Unicode code point U+1F6B6: "🚶" PEDESTRIAN -->
+     <string name="spoken_emoji_1F6B6">"行人"</string>
+     <!-- Spoken description for Unicode code point U+1F6B7: "🚷" NO PEDESTRIANS -->
+     <string name="spoken_emoji_1F6B7">"禁止行人通行"</string>
+     <!-- Spoken description for Unicode code point U+1F6B8: "🚸" CHILDREN CROSSING -->
+     <string name="spoken_emoji_1F6B8">"注意儿童穿越马路"</string>
+     <!-- Spoken description for Unicode code point U+1F6B9: "🚹" MENS SYMBOL -->
+     <string name="spoken_emoji_1F6B9">"男士标志"</string>
+     <!-- Spoken description for Unicode code point U+1F6BA: "🚺" WOMENS SYMBOL -->
+     <string name="spoken_emoji_1F6BA">"女士标志"</string>
+     <!-- Spoken description for Unicode code point U+1F6BB: "🚻" RESTROOM -->
+     <string name="spoken_emoji_1F6BB">"洗手间"</string>
+     <!-- Spoken description for Unicode code point U+1F6BC: "🚼" BABY SYMBOL -->
+     <string name="spoken_emoji_1F6BC">"婴儿标志"</string>
+     <!-- Spoken description for Unicode code point U+1F6BD: "🚽" TOILET -->
+     <string name="spoken_emoji_1F6BD">"卫生间"</string>
+     <!-- Spoken description for Unicode code point U+1F6BE: "🚾" WATER CLOSET -->
+     <string name="spoken_emoji_1F6BE">"厕所"</string>
+     <!-- Spoken description for Unicode code point U+1F6BF: "🚿" SHOWER -->
+     <string name="spoken_emoji_1F6BF">"淋浴喷头"</string>
+     <!-- Spoken description for Unicode code point U+1F6C0: "🛀" BATH -->
+     <string name="spoken_emoji_1F6C0">"洗浴"</string>
+     <!-- Spoken description for Unicode code point U+1F6C1: "🛁" BATHTUB -->
+     <string name="spoken_emoji_1F6C1">"浴缸"</string>
+     <!-- Spoken description for Unicode code point U+1F6C2: "🛂" PASSPORT CONTROL -->
+     <string name="spoken_emoji_1F6C2">"入境护照检查"</string>
+     <!-- Spoken description for Unicode code point U+1F6C3: "🛃" CUSTOMS -->
+     <string name="spoken_emoji_1F6C3">"海关"</string>
+     <!-- Spoken description for Unicode code point U+1F6C4: "🛄" BAGGAGE CLAIM -->
+     <string name="spoken_emoji_1F6C4">"行李领取处"</string>
+     <!-- Spoken description for Unicode code point U+1F6C5: "🛅" LEFT LUGGAGE -->
+     <string name="spoken_emoji_1F6C5">"行李寄存处"</string>
+     <!-- Spoken description for Unicode code point U+1F6CB: "🛋" COUCH AND LAMP -->
+     <string name="spoken_emoji_1F6CB">"长沙发和灯"</string>
+     <!-- Spoken description for Unicode code point U+1F6CC: "🛌" SLEEPING ACCOMMODATION -->
+     <string name="spoken_emoji_1F6CC">"寝具"</string>
+     <!-- Spoken description for Unicode code point U+1F6CD: "🛍" SHOPPING BAGS -->
+     <string name="spoken_emoji_1F6CD">"购物袋"</string>
+     <!-- Spoken description for Unicode code point U+1F6CE: "🛎" BELLHOP BELL -->
+     <string name="spoken_emoji_1F6CE">"侍者铃"</string>
+     <!-- Spoken description for Unicode code point U+1F6CF: "🛏" BED -->
+     <string name="spoken_emoji_1F6CF">"床"</string>
+     <!-- Spoken description for Unicode code point U+1F6D0: "🛐" PLACE OF WORSHIP -->
+     <string name="spoken_emoji_1F6D0">"礼拜场所"</string>
+     <!-- Spoken description for Unicode code point U+1F6E0: "🛠" HAMMER AND WRENCH -->
+     <string name="spoken_emoji_1F6E0">"锤子和扳手"</string>
+     <!-- Spoken description for Unicode code point U+1F6E1: "🛡" SHIELD -->
+     <string name="spoken_emoji_1F6E1">"挡板"</string>
+     <!-- Spoken description for Unicode code point U+1F6E2: "🛢" OIL DRUM -->
+     <string name="spoken_emoji_1F6E2">"油桶"</string>
+     <!-- Spoken description for Unicode code point U+1F6E3: "🛣" MOTORWAY -->
+     <string name="spoken_emoji_1F6E3">"高速公路"</string>
+     <!-- Spoken description for Unicode code point U+1F6E4: "🛤" RAILWAY TRACK -->
+     <string name="spoken_emoji_1F6E4">"铁轨"</string>
+     <!-- Spoken description for Unicode code point U+1F6E5: "🛥" MOTOR BOAT -->
+     <string name="spoken_emoji_1F6E5">"摩托艇"</string>
+     <!-- Spoken description for Unicode code point U+1F6E9: "🛩" SMALL AIRPLANE -->
+     <string name="spoken_emoji_1F6E9">"小型飞机"</string>
+     <!-- Spoken description for Unicode code point U+1F6EB: "🛫" AIRPLANE DEPARTURE -->
+     <string name="spoken_emoji_1F6EB">"飞机起飞"</string>
+     <!-- Spoken description for Unicode code point U+1F6EC: "🛬" AIRPLANE ARRIVING -->
+     <string name="spoken_emoji_1F6EC">"飞机降落"</string>
+     <!-- Spoken description for Unicode code point U+1F6F0: "🛰" SATELLITE -->
+     <string name="spoken_emoji_1F6F0">"卫星"</string>
+     <!-- Spoken description for Unicode code point U+1F6F3: "🛳" PASSENGER SHIP -->
+     <string name="spoken_emoji_1F6F3">"客船"</string>
+     <!-- Spoken description for Unicode code point U+1F910: "🤐" ZIPPER-MOUTH FACE -->
+     <string name="spoken_emoji_1F910">"嘴拉拉链的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F911: "🤑" MONEY-MOUTH FACE -->
+     <string name="spoken_emoji_1F911">"嘴吐钱的表情"</string>
+     <!-- Spoken description for Unicode code point U+1F912: "🤒" FACE WITH THERMOMETER -->
+     <string name="spoken_emoji_1F912">"温度表情"</string>
+     <!-- Spoken description for Unicode code point U+1F913: "🤓" NERD FACE -->
+     <string name="spoken_emoji_1F913">"书呆子表情"</string>
+     <!-- Spoken description for Unicode code point U+1F914: "🤔" THINKING FACE -->
+     <string name="spoken_emoji_1F914">"思考表情"</string>
+     <!-- Spoken description for Unicode code point U+1F915: "🤕" FACE WITH HEAD-BANDAGE -->
+     <string name="spoken_emoji_1F915">"头缠绷带表情"</string>
+     <!-- Spoken description for Unicode code point U+1F916: "🤖" ROBOT FACE -->
+     <string name="spoken_emoji_1F916">"机器人表情"</string>
+     <!-- Spoken description for Unicode code point U+1F917: "🤗" HUGGING FACE -->
+     <string name="spoken_emoji_1F917">"亲热表情"</string>
+     <!-- Spoken description for Unicode code point U+1F918: "🤘" SIGN OF THE HORNS -->
+     <string name="spoken_emoji_1F918">"喇叭标志"</string>
+     <!-- Spoken description for Unicode code point U+1F980: "🦀" CRAB -->
+     <string name="spoken_emoji_1F980">"螃蟹"</string>
+     <!-- Spoken description for Unicode code point U+1F981: "🦁" LION FACE -->
+     <string name="spoken_emoji_1F981">"狮子脸"</string>
+     <!-- Spoken description for Unicode code point U+1F982: "🦂" SCORPION -->
+     <string name="spoken_emoji_1F982">"蝎子"</string>
+     <!-- Spoken description for Unicode code point U+1F983: "🦃" TURKEY -->
+     <string name="spoken_emoji_1F983">"土耳其"</string>
+     <!-- Spoken description for Unicode code point U+1F984: "🦄" UNICORN FACE -->
+     <string name="spoken_emoji_1F984">"独角兽脸"</string>
+     <!-- Spoken description for Unicode code point U+1F9C0: "🧀" CHEESE WEDGE -->
+     <string name="spoken_emoji_1F9C0">"奶酪三角"</string>
+     <!-- Spoken description for Unicode code point sequence U+0023 U+20E3: "#⃣" KEYCAP NUMBER SIGN -->
+     <string name="spoken_emoji_0023_20E3">"数字符号键帽"</string>
+     <!-- Spoken description for Unicode code point sequence U+002A U+20E3: "*⃣" KEYCAP ASTERISK -->
+     <string name="spoken_emoji_002A_20E3">"星号键帽"</string>
+     <!-- Spoken description for Unicode code point sequence U+0030 U+20E3: "0⃣" KEYCAP DIGIT ZERO -->
+     <string name="spoken_emoji_0030_20E3">"数字 0 键帽"</string>
+     <!-- Spoken description for Unicode code point sequence U+0031 U+20E3: "1⃣" KEYCAP DIGIT ONE -->
+     <string name="spoken_emoji_0031_20E3">"数字 1 键帽"</string>
+     <!-- Spoken description for Unicode code point sequence U+0032 U+20E3: "2⃣" KEYCAP DIGIT TWO -->
+     <string name="spoken_emoji_0032_20E3">"数字 2 键帽"</string>
+     <!-- Spoken description for Unicode code point sequence U+0033 U+20E3: "3⃣" KEYCAP DIGIT THREE -->
+     <string name="spoken_emoji_0033_20E3">"数字 3 键帽"</string>
+     <!-- Spoken description for Unicode code point sequence U+0034 U+20E3: "4⃣" KEYCAP DIGIT FOUR -->
+     <string name="spoken_emoji_0034_20E3">"数字 4 键帽"</string>
+     <!-- Spoken description for Unicode code point sequence U+0035 U+20E3: "5⃣" KEYCAP DIGIT FIVE -->
+     <string name="spoken_emoji_0035_20E3">"数字 5 键帽"</string>
+     <!-- Spoken description for Unicode code point sequence U+0036 U+20E3: "6⃣" KEYCAP DIGIT SIX -->
+     <string name="spoken_emoji_0036_20E3">"数字 6 键帽"</string>
+     <!-- Spoken description for Unicode code point sequence U+0037 U+20E3: "7⃣" KEYCAP DIGIT SEVEN -->
+     <string name="spoken_emoji_0037_20E3">"数字 7 键帽"</string>
+     <!-- Spoken description for Unicode code point sequence U+0038 U+20E3: "8⃣" KEYCAP DIGIT EIGHT -->
+     <string name="spoken_emoji_0038_20E3">"数字 8 键帽"</string>
+     <!-- Spoken description for Unicode code point sequence U+0039 U+20E3: "9⃣" KEYCAP DIGIT NINE -->
+     <string name="spoken_emoji_0039_20E3">"数字 9 键帽"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1E8: "🇦🇨" FLAG FOR ASCENSION ISLAND -->
+     <string name="spoken_emoji_1F1E6_1F1E8">"阿森松岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1E9: "🇦🇩" FLAG FOR ANDORRA -->
+     <string name="spoken_emoji_1F1E6_1F1E9">"安道尔公国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1EA: "🇦🇪" FLAG FOR UNITED ARAB EMIRATES -->
+     <string name="spoken_emoji_1F1E6_1F1EA">"阿拉伯酋长国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1EB: "🇦🇫" FLAG FOR AFGHANISTAN -->
+     <string name="spoken_emoji_1F1E6_1F1EB">"阿富汗国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1EC: "🇦🇬" FLAG FOR ANTIGUA & BARBUDA -->
+     <string name="spoken_emoji_1F1E6_1F1EC">"安提瓜和巴布达国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1EE: "🇦🇮" FLAG FOR ANGUILLA -->
+     <string name="spoken_emoji_1F1E6_1F1EE">"安圭拉国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F1: "🇦🇱" FLAG FOR ALBANIA -->
+     <string name="spoken_emoji_1F1E6_1F1F1">"阿尔巴尼亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F2: "🇦🇲" FLAG FOR ARMENIA -->
+     <string name="spoken_emoji_1F1E6_1F1F2">"亚美尼亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F4: "🇦🇴" FLAG FOR ANGOLA -->
+     <string name="spoken_emoji_1F1E6_1F1F4">"安哥拉国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F6: "🇦🇶" FLAG FOR ANTARCTICA -->
+     <string name="spoken_emoji_1F1E6_1F1F6">"南极洲旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F7: "🇦🇷" FLAG FOR ARGENTINA -->
+     <string name="spoken_emoji_1F1E6_1F1F7">"阿根廷国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F8: "🇦🇸" FLAG FOR AMERICAN SAMOA -->
+     <string name="spoken_emoji_1F1E6_1F1F8">"美属萨摩亚旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1F9: "🇦🇹" FLAG FOR AUSTRIA -->
+     <string name="spoken_emoji_1F1E6_1F1F9">"奥地利国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1FA: "🇦🇺" FLAG FOR AUSTRALIA -->
+     <string name="spoken_emoji_1F1E6_1F1FA">"澳大利亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1FC: "🇦🇼" FLAG FOR ARUBA -->
+     <string name="spoken_emoji_1F1E6_1F1FC">"阿鲁巴岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1FD: "🇦🇽" FLAG FOR ÅLAND ISLANDS -->
+     <string name="spoken_emoji_1F1E6_1F1FD">"奥兰旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E6 U+1F1FF: "🇦🇿" FLAG FOR AZERBAIJAN -->
+     <string name="spoken_emoji_1F1E6_1F1FF">"阿塞拜疆国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1E6: "🇧🇦" FLAG FOR BOSNIA & HERZEGOVINA -->
+     <string name="spoken_emoji_1F1E7_1F1E6">"波斯尼亚和黑塞哥维那国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1E7: "🇧🇧" FLAG FOR BARBADOS -->
+     <string name="spoken_emoji_1F1E7_1F1E7">"巴巴多斯国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1E9: "🇧🇩" FLAG FOR BANGLADESH -->
+     <string name="spoken_emoji_1F1E7_1F1E9">"孟加拉国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1EA: "🇧🇪" FLAG FOR BELGIUM -->
+     <string name="spoken_emoji_1F1E7_1F1EA">"比利时国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1EB: "🇧🇫" FLAG FOR BURKINA FASO -->
+     <string name="spoken_emoji_1F1E7_1F1EB">"布基纳法索国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1EC: "🇧🇬" FLAG FOR BULGARIA -->
+     <string name="spoken_emoji_1F1E7_1F1EC">"保加利亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1ED: "🇧🇭" FLAG FOR BAHRAIN -->
+     <string name="spoken_emoji_1F1E7_1F1ED">"巴林国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1EE: "🇧🇮" FLAG FOR BURUNDI -->
+     <string name="spoken_emoji_1F1E7_1F1EE">"布隆迪国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1EF: "🇧🇯" FLAG FOR BENIN -->
+     <string name="spoken_emoji_1F1E7_1F1EF">"贝宁国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F1: "🇧🇱" FLAG FOR ST. BARTHÉLEMY -->
+     <string name="spoken_emoji_1F1E7_1F1F1">"圣巴特勒米岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F2: "🇧🇲" FLAG FOR BERMUDA -->
+     <string name="spoken_emoji_1F1E7_1F1F2">"百慕大岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F3: "🇧🇳" FLAG FOR BRUNEI -->
+     <string name="spoken_emoji_1F1E7_1F1F3">"文莱国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F4: "🇧🇴" FLAG FOR BOLIVIA -->
+     <string name="spoken_emoji_1F1E7_1F1F4">"玻利维亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F6: "🇧🇶" FLAG FOR CARIBBEAN NETHERLANDS -->
+     <string name="spoken_emoji_1F1E7_1F1F6">"荷兰加勒比海属地旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F7: "🇧🇷" FLAG FOR BRAZIL -->
+     <string name="spoken_emoji_1F1E7_1F1F7">"巴西国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F8: "🇧🇸" FLAG FOR BAHAMAS -->
+     <string name="spoken_emoji_1F1E7_1F1F8">"巴哈马国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1F9: "🇧🇹" FLAG FOR BHUTAN -->
+     <string name="spoken_emoji_1F1E7_1F1F9">"不丹国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1FB: "🇧🇻" FLAG FOR BOUVET ISLAND -->
+     <string name="spoken_emoji_1F1E7_1F1FB">"布维岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1FC: "🇧🇼" FLAG FOR BOTSWANA -->
+     <string name="spoken_emoji_1F1E7_1F1FC">"博茨瓦纳国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1FE: "🇧🇾" FLAG FOR BELARUS -->
+     <string name="spoken_emoji_1F1E7_1F1FE">"白俄罗斯国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E7 U+1F1FF: "🇧🇿" FLAG FOR BELIZE -->
+     <string name="spoken_emoji_1F1E7_1F1FF">"伯利兹国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1E6: "🇨🇦" FLAG FOR CANADA -->
+     <string name="spoken_emoji_1F1E8_1F1E6">"加拿大国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1E8: "🇨🇨" FLAG FOR COCOS ISLANDS -->
+     <string name="spoken_emoji_1F1E8_1F1E8">"可可斯群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1E9: "🇨🇩" FLAG FOR CONGO - KINSHASA -->
+     <string name="spoken_emoji_1F1E8_1F1E9">"刚果金沙萨旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1EB: "🇨🇫" FLAG FOR CENTRAL AFRICAN REPUBLIC -->
+     <string name="spoken_emoji_1F1E8_1F1EB">"中非共和国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1EC: "🇨🇬" FLAG FOR CONGO - BRAZZAVILLE -->
+     <string name="spoken_emoji_1F1E8_1F1EC">"刚果布拉扎维尔旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1ED: "🇨🇭" FLAG FOR SWITZERLAND -->
+     <string name="spoken_emoji_1F1E8_1F1ED">"瑞士国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1EE: "🇨🇮" FLAG FOR CÔTE D'IVOIRE -->
+     <string name="spoken_emoji_1F1E8_1F1EE">"科特迪瓦旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F0: "🇨🇰" FLAG FOR COOK ISLANDS -->
+     <string name="spoken_emoji_1F1E8_1F1F0">"库克群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F1: "🇨🇱" FLAG FOR CHILE -->
+     <string name="spoken_emoji_1F1E8_1F1F1">"智利国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F2: "🇨🇲" FLAG FOR CAMEROON -->
+     <string name="spoken_emoji_1F1E8_1F1F2">"喀麦隆国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F3: "🇨🇳" FLAG FOR CHINA -->
+     <string name="spoken_emoji_1F1E8_1F1F3">"中国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F4: "🇨🇴" FLAG FOR COLOMBIA -->
+     <string name="spoken_emoji_1F1E8_1F1F4">"哥伦比亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F5: "🇨🇵" FLAG FOR CLIPPERTON ISLAND -->
+     <string name="spoken_emoji_1F1E8_1F1F5">"克里伯顿岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1F7: "🇨🇷" FLAG FOR COSTA RICA -->
+     <string name="spoken_emoji_1F1E8_1F1F7">"哥斯达黎加国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1FA: "🇨🇺" FLAG FOR CUBA -->
+     <string name="spoken_emoji_1F1E8_1F1FA">"古巴国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1FB: "🇨🇻" FLAG FOR CAPE VERDE -->
+     <string name="spoken_emoji_1F1E8_1F1FB">"佛得角国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1FC: "🇨🇼" FLAG FOR CURAÇAO -->
+     <string name="spoken_emoji_1F1E8_1F1FC">"库拉索岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1FD: "🇨🇽" FLAG FOR CHRISTMAS ISLAND -->
+     <string name="spoken_emoji_1F1E8_1F1FD">"圣诞岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1FE: "🇨🇾" FLAG FOR CYPRUS -->
+     <string name="spoken_emoji_1F1E8_1F1FE">"塞浦路斯国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E8 U+1F1FF: "🇨🇿" FLAG FOR CZECH REPUBLIC -->
+     <string name="spoken_emoji_1F1E8_1F1FF">"捷克共和国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1EA: "🇩🇪" FLAG FOR GERMANY -->
+     <string name="spoken_emoji_1F1E9_1F1EA">"德国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1EC: "🇩🇬" FLAG FOR DIEGO GARCIA -->
+     <string name="spoken_emoji_1F1E9_1F1EC">"迪戈加西亚旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1EF: "🇩🇯" FLAG FOR DJIBOUTI -->
+     <string name="spoken_emoji_1F1E9_1F1EF">"吉布提国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1F0: "🇩🇰" FLAG FOR DENMARK -->
+     <string name="spoken_emoji_1F1E9_1F1F0">"丹麦国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1F2: "🇩🇲" FLAG FOR DOMINICA -->
+     <string name="spoken_emoji_1F1E9_1F1F2">"多米尼克国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1F4: "🇩🇴" FLAG FOR DOMINICAN REPUBLIC -->
+     <string name="spoken_emoji_1F1E9_1F1F4">"多米尼亚共和国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1E9 U+1F1FF: "🇩🇿" FLAG FOR ALGERIA -->
+     <string name="spoken_emoji_1F1E9_1F1FF">"阿尔及利亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1E6: "🇪🇦" FLAG FOR CEUTA & MELILLA -->
+     <string name="spoken_emoji_1F1EA_1F1E6">"摩洛哥和美利利亚旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1E8: "🇪🇨" FLAG FOR ECUADOR -->
+     <string name="spoken_emoji_1F1EA_1F1E8">"厄瓜多尔国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1EA: "🇪🇪" FLAG FOR ESTONIA -->
+     <string name="spoken_emoji_1F1EA_1F1EA">"爱沙尼亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1EC: "🇪🇬" FLAG FOR EGYPT -->
+     <string name="spoken_emoji_1F1EA_1F1EC">"埃及国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1ED: "🇪🇭" FLAG FOR WESTERN SAHARA -->
+     <string name="spoken_emoji_1F1EA_1F1ED">"西撒哈拉旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1F7: "🇪🇷" FLAG FOR ERITREA -->
+     <string name="spoken_emoji_1F1EA_1F1F7">"厄立特里亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1F8: "🇪🇸" FLAG FOR SPAIN -->
+     <string name="spoken_emoji_1F1EA_1F1F8">"西班牙国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1F9: "🇪🇹" FLAG FOR ETHIOPIA -->
+     <string name="spoken_emoji_1F1EA_1F1F9">"埃塞俄比亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EA U+1F1FA: "🇪🇺" FLAG FOR EUROPEAN UNION -->
+     <string name="spoken_emoji_1F1EA_1F1FA">"欧盟旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EB U+1F1EE: "🇫🇮" FLAG FOR FINLAND -->
+     <string name="spoken_emoji_1F1EB_1F1EE">"芬兰国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EB U+1F1EF: "🇫🇯" FLAG FOR FIJI -->
+     <string name="spoken_emoji_1F1EB_1F1EF">"斐济国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EB U+1F1F0: "🇫🇰" FLAG FOR FALKLAND ISLANDS -->
+     <string name="spoken_emoji_1F1EB_1F1F0">"福克兰群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EB U+1F1F2: "🇫🇲" FLAG FOR MICRONESIA -->
+     <string name="spoken_emoji_1F1EB_1F1F2">"密克罗尼西亚旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EB U+1F1F4: "🇫🇴" FLAG FOR FAROE ISLANDS -->
+     <string name="spoken_emoji_1F1EB_1F1F4">"法罗群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EB U+1F1F7: "🇫🇷" FLAG FOR FRANCE -->
+     <string name="spoken_emoji_1F1EB_1F1F7">"法国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1E6: "🇬🇦" FLAG FOR GABON -->
+     <string name="spoken_emoji_1F1EC_1F1E6">"加蓬国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1E7: "🇬🇧" FLAG FOR UNITED KINGDOM -->
+     <string name="spoken_emoji_1F1EC_1F1E7">"英国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1E9: "🇬🇩" FLAG FOR GRENADA -->
+     <string name="spoken_emoji_1F1EC_1F1E9">"格林纳达国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1EA: "🇬🇪" FLAG FOR GEORGIA -->
+     <string name="spoken_emoji_1F1EC_1F1EA">"格鲁吉亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1EB: "🇬🇫" FLAG FOR FRENCH GUIANA -->
+     <string name="spoken_emoji_1F1EC_1F1EB">"法属圭亚那旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1EC: "🇬🇬" FLAG FOR GUERNSEY -->
+     <string name="spoken_emoji_1F1EC_1F1EC">"根西岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1ED: "🇬🇭" FLAG FOR GHANA -->
+     <string name="spoken_emoji_1F1EC_1F1ED">"加纳国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1EE: "🇬🇮" FLAG FOR GIBRALTAR -->
+     <string name="spoken_emoji_1F1EC_1F1EE">"直布罗陀旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F1: "🇬🇱" FLAG FOR GREENLAND -->
+     <string name="spoken_emoji_1F1EC_1F1F1">"格陵兰岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F2: "🇬🇲" FLAG FOR GAMBIA -->
+     <string name="spoken_emoji_1F1EC_1F1F2">"冈比亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F3: "🇬🇳" FLAG FOR GUINEA -->
+     <string name="spoken_emoji_1F1EC_1F1F3">"几内亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F5: "🇬🇵" FLAG FOR GUADELOUPE -->
+     <string name="spoken_emoji_1F1EC_1F1F5">"哥德普洛岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F6: "🇬🇶" FLAG FOR EQUATORIAL GUINEA -->
+     <string name="spoken_emoji_1F1EC_1F1F6">"赤道几内亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F7: "🇬🇷" FLAG FOR GREECE -->
+     <string name="spoken_emoji_1F1EC_1F1F7">"希腊国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F8: "🇬🇸" FLAG FOR SOUTH GEORGIA & SOUTH SANDWICH ISLANDS -->
+     <string name="spoken_emoji_1F1EC_1F1F8">"乔治亚和南桑威奇群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1F9: "🇬🇹" FLAG FOR GUATEMALA -->
+     <string name="spoken_emoji_1F1EC_1F1F9">"危地马拉国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1FA: "🇬🇺" FLAG FOR GUAM -->
+     <string name="spoken_emoji_1F1EC_1F1FA">"关岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1FC: "🇬🇼" FLAG FOR GUINEA-BISSAU -->
+     <string name="spoken_emoji_1F1EC_1F1FC">"几内亚比绍国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EC U+1F1FE: "🇬🇾" FLAG FOR GUYANA -->
+     <string name="spoken_emoji_1F1EC_1F1FE">"圭亚那国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1ED U+1F1F0: "🇭🇰" FLAG FOR HONG KONG -->
+     <string name="spoken_emoji_1F1ED_1F1F0">"中国香港旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1ED U+1F1F2: "🇭🇲" FLAG FOR HEARD & MCDONALD ISLANDS -->
+     <string name="spoken_emoji_1F1ED_1F1F2">"赫德和麦克唐纳群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1ED U+1F1F3: "🇭🇳" FLAG FOR HONDURAS -->
+     <string name="spoken_emoji_1F1ED_1F1F3">"洪都拉斯国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1ED U+1F1F7: "🇭🇷" FLAG FOR CROATIA -->
+     <string name="spoken_emoji_1F1ED_1F1F7">"克罗地亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1ED U+1F1F9: "🇭🇹" FLAG FOR HAITI -->
+     <string name="spoken_emoji_1F1ED_1F1F9">"海地国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1ED U+1F1FA: "🇭🇺" FLAG FOR HUNGARY -->
+     <string name="spoken_emoji_1F1ED_1F1FA">"匈牙利国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1E8: "🇮🇨" FLAG FOR CANARY ISLANDS -->
+     <string name="spoken_emoji_1F1EE_1F1E8">"加纳利群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1E9: "🇮🇩" FLAG FOR INDONESIA -->
+     <string name="spoken_emoji_1F1EE_1F1E9">"印度尼西亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1EA: "🇮🇪" FLAG FOR IRELAND -->
+     <string name="spoken_emoji_1F1EE_1F1EA">"爱尔兰旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F1: "🇮🇱" FLAG FOR ISRAEL -->
+     <string name="spoken_emoji_1F1EE_1F1F1">"以色列国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F2: "🇮🇲" FLAG FOR ISLE OF MAN -->
+     <string name="spoken_emoji_1F1EE_1F1F2">"马恩岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F3: "🇮🇳" FLAG FOR INDIA -->
+     <string name="spoken_emoji_1F1EE_1F1F3">"印度国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F4: "🇮🇴" FLAG FOR BRITISH INDIAN OCEAN TERRITORY -->
+     <string name="spoken_emoji_1F1EE_1F1F4">"英属印度洋地区旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F6: "🇮🇶" FLAG FOR IRAQ -->
+     <string name="spoken_emoji_1F1EE_1F1F6">"伊拉克国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F7: "🇮🇷" FLAG FOR IRAN -->
+     <string name="spoken_emoji_1F1EE_1F1F7">"伊朗国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F8: "🇮🇸" FLAG FOR ICELAND -->
+     <string name="spoken_emoji_1F1EE_1F1F8">"冰岛国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EE U+1F1F9: "🇮🇹" FLAG FOR ITALY -->
+     <string name="spoken_emoji_1F1EE_1F1F9">"意大利国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EF U+1F1EA: "🇯🇪" FLAG FOR JERSEY -->
+     <string name="spoken_emoji_1F1EF_1F1EA">"泽西岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EF U+1F1F2: "🇯🇲" FLAG FOR JAMAICA -->
+     <string name="spoken_emoji_1F1EF_1F1F2">"牙买加国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EF U+1F1F4: "🇯🇴" FLAG FOR JORDAN -->
+     <string name="spoken_emoji_1F1EF_1F1F4">"约旦国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1EF U+1F1F5: "🇯🇵" FLAG FOR JAPAN -->
+     <string name="spoken_emoji_1F1EF_1F1F5">"日本国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1EA: "🇰🇪" FLAG FOR KENYA -->
+     <string name="spoken_emoji_1F1F0_1F1EA">"肯尼亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1EC: "🇰🇬" FLAG FOR KYRGYZSTAN -->
+     <string name="spoken_emoji_1F1F0_1F1EC">"吉尔吉斯斯坦国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1ED: "🇰🇭" FLAG FOR CAMBODIA -->
+     <string name="spoken_emoji_1F1F0_1F1ED">"柬埔寨国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1EE: "🇰🇮" FLAG FOR KIRIBATI -->
+     <string name="spoken_emoji_1F1F0_1F1EE">"基里巴斯国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1F2: "🇰🇲" FLAG FOR COMOROS -->
+     <string name="spoken_emoji_1F1F0_1F1F2">"科摩罗国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1F3: "🇰🇳" FLAG FOR ST. KITTS & NEVIS -->
+     <string name="spoken_emoji_1F1F0_1F1F3">"圣基茨和尼维斯旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1F5: "🇰🇵" FLAG FOR NORTH KOREA -->
+     <string name="spoken_emoji_1F1F0_1F1F5">"朝鲜国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1F7: "🇰🇷" FLAG FOR SOUTH KOREA -->
+     <string name="spoken_emoji_1F1F0_1F1F7">"韩国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1FC: "🇰🇼" FLAG FOR KUWAIT -->
+     <string name="spoken_emoji_1F1F0_1F1FC">"科威特国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1FE: "🇰🇾" FLAG FOR CAYMAN ISLANDS -->
+     <string name="spoken_emoji_1F1F0_1F1FE">"开曼群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F0 U+1F1FF: "🇰🇿" FLAG FOR KAZAKHSTAN -->
+     <string name="spoken_emoji_1F1F0_1F1FF">"哈萨克斯坦国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1E6: "🇱🇦" FLAG FOR LAOS -->
+     <string name="spoken_emoji_1F1F1_1F1E6">"老挝国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1E7: "🇱🇧" FLAG FOR LEBANON -->
+     <string name="spoken_emoji_1F1F1_1F1E7">"黎巴嫩国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1E8: "🇱🇨" FLAG FOR ST. LUCIA -->
+     <string name="spoken_emoji_1F1F1_1F1E8">"圣卢西亚旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1EE: "🇱🇮" FLAG FOR LIECHTENSTEIN -->
+     <string name="spoken_emoji_1F1F1_1F1EE">"列支敦士登国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1F0: "🇱🇰" FLAG FOR SRI LANKA -->
+     <string name="spoken_emoji_1F1F1_1F1F0">"斯里兰卡国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1F7: "🇱🇷" FLAG FOR LIBERIA -->
+     <string name="spoken_emoji_1F1F1_1F1F7">"利比里亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1F8: "🇱🇸" FLAG FOR LESOTHO -->
+     <string name="spoken_emoji_1F1F1_1F1F8">"莱索托国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1F9: "🇱🇹" FLAG FOR LITHUANIA -->
+     <string name="spoken_emoji_1F1F1_1F1F9">"立陶宛国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1FA: "🇱🇺" FLAG FOR LUXEMBOURG -->
+     <string name="spoken_emoji_1F1F1_1F1FA">"卢森堡国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1FB: "🇱🇻" FLAG FOR LATVIA -->
+     <string name="spoken_emoji_1F1F1_1F1FB">"拉脱维亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F1 U+1F1FE: "🇱🇾" FLAG FOR LIBYA -->
+     <string name="spoken_emoji_1F1F1_1F1FE">"利比亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1E6: "🇲🇦" FLAG FOR MOROCCO -->
+     <string name="spoken_emoji_1F1F2_1F1E6">"摩洛哥国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1E8: "🇲🇨" FLAG FOR MONACO -->
+     <string name="spoken_emoji_1F1F2_1F1E8">"摩纳哥国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1E9: "🇲🇩" FLAG FOR MOLDOVA -->
+     <string name="spoken_emoji_1F1F2_1F1E9">"摩尔多瓦国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1EA: "🇲🇪" FLAG FOR MONTENEGRO -->
+     <string name="spoken_emoji_1F1F2_1F1EA">"黑山共和国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1EB: "🇲🇫" FLAG FOR ST. MARTIN -->
+     <string name="spoken_emoji_1F1F2_1F1EB">"圣马丁旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1EC: "🇲🇬" FLAG FOR MADAGASCAR -->
+     <string name="spoken_emoji_1F1F2_1F1EC">"马达加斯加国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1ED: "🇲🇭" FLAG FOR MARSHALL ISLANDS -->
+     <string name="spoken_emoji_1F1F2_1F1ED">"马绍尔群岛共和国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F0: "🇲🇰" FLAG FOR MACEDONIA -->
+     <string name="spoken_emoji_1F1F2_1F1F0">"马其顿国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F1: "🇲🇱" FLAG FOR MALI -->
+     <string name="spoken_emoji_1F1F2_1F1F1">"马里国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F2: "🇲🇲" FLAG FOR MYANMAR -->
+     <string name="spoken_emoji_1F1F2_1F1F2">"缅甸国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F3: "🇲🇳" FLAG FOR MONGOLIA -->
+     <string name="spoken_emoji_1F1F2_1F1F3">"蒙古国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F4: "🇲🇴" FLAG FOR MACAU -->
+     <string name="spoken_emoji_1F1F2_1F1F4">"中国澳门旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F5: "🇲🇵" FLAG FOR NORTHERN MARIANA ISLANDS -->
+     <string name="spoken_emoji_1F1F2_1F1F5">"北马里亚纳群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F6: "🇲🇶" FLAG FOR MARTINIQUE -->
+     <string name="spoken_emoji_1F1F2_1F1F6">"马提尼克岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F7: "🇲🇷" FLAG FOR MAURITANIA -->
+     <string name="spoken_emoji_1F1F2_1F1F7">"毛里塔尼亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F8: "🇲🇸" FLAG FOR MONTSERRAT -->
+     <string name="spoken_emoji_1F1F2_1F1F8">"蒙特塞拉特岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1F9: "🇲🇹" FLAG FOR MALTA -->
+     <string name="spoken_emoji_1F1F2_1F1F9">"马耳他国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1FA: "🇲🇺" FLAG FOR MAURITIUS -->
+     <string name="spoken_emoji_1F1F2_1F1FA">"毛里求斯国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1FB: "🇲🇻" FLAG FOR MALDIVES -->
+     <string name="spoken_emoji_1F1F2_1F1FB">"马尔代夫国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1FC: "🇲🇼" FLAG FOR MALAWI -->
+     <string name="spoken_emoji_1F1F2_1F1FC">"马拉维国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1FD: "🇲🇽" FLAG FOR MEXICO -->
+     <string name="spoken_emoji_1F1F2_1F1FD">"墨西哥国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1FE: "🇲🇾" FLAG FOR MALAYSIA -->
+     <string name="spoken_emoji_1F1F2_1F1FE">"马来西亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F2 U+1F1FF: "🇲🇿" FLAG FOR MOZAMBIQUE -->
+     <string name="spoken_emoji_1F1F2_1F1FF">"莫桑比克国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1E6: "🇳🇦" FLAG FOR NAMIBIA -->
+     <string name="spoken_emoji_1F1F3_1F1E6">"纳米比亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1E8: "🇳🇨" FLAG FOR NEW CALEDONIA -->
+     <string name="spoken_emoji_1F1F3_1F1E8">"新喀里多尼亚岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1EA: "🇳🇪" FLAG FOR NIGER -->
+     <string name="spoken_emoji_1F1F3_1F1EA">"尼日尔国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1EB: "🇳🇫" FLAG FOR NORFOLK ISLAND -->
+     <string name="spoken_emoji_1F1F3_1F1EB">"诺福克岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1EC: "🇳🇬" FLAG FOR NIGERIA -->
+     <string name="spoken_emoji_1F1F3_1F1EC">"尼日利亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1EE: "🇳🇮" FLAG FOR NICARAGUA -->
+     <string name="spoken_emoji_1F1F3_1F1EE">"尼加拉瓜国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1F1: "🇳🇱" FLAG FOR NETHERLANDS -->
+     <string name="spoken_emoji_1F1F3_1F1F1">"荷兰国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1F4: "🇳🇴" FLAG FOR NORWAY -->
+     <string name="spoken_emoji_1F1F3_1F1F4">"挪威国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1F5: "🇳🇵" FLAG FOR NEPAL -->
+     <string name="spoken_emoji_1F1F3_1F1F5">"尼泊尔国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1F7: "🇳🇷" FLAG FOR NAURU -->
+     <string name="spoken_emoji_1F1F3_1F1F7">"瑙鲁国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1FA: "🇳🇺" FLAG FOR NIUE -->
+     <string name="spoken_emoji_1F1F3_1F1FA">"纽埃岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F3 U+1F1FF: "🇳🇿" FLAG FOR NEW ZEALAND -->
+     <string name="spoken_emoji_1F1F3_1F1FF">"新西兰国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F4 U+1F1F2: "🇴🇲" FLAG FOR OMAN -->
+     <string name="spoken_emoji_1F1F4_1F1F2">"阿曼国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1E6: "🇵🇦" FLAG FOR PANAMA -->
+     <string name="spoken_emoji_1F1F5_1F1E6">"巴拿马共和国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1EA: "🇵🇪" FLAG FOR PERU -->
+     <string name="spoken_emoji_1F1F5_1F1EA">"秘鲁国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1EB: "🇵🇫" FLAG FOR FRENCH POLYNESIA -->
+     <string name="spoken_emoji_1F1F5_1F1EB">"法属玻利尼西亚旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1EC: "🇵🇬" FLAG FOR PAPUA NEW GUINEA -->
+     <string name="spoken_emoji_1F1F5_1F1EC">"巴布亚新几内亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1ED: "🇵🇭" FLAG FOR PHILIPPINES -->
+     <string name="spoken_emoji_1F1F5_1F1ED">"菲律宾国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F0: "🇵🇰" FLAG FOR PAKISTAN -->
+     <string name="spoken_emoji_1F1F5_1F1F0">"巴基斯坦国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F1: "🇵🇱" FLAG FOR POLAND -->
+     <string name="spoken_emoji_1F1F5_1F1F1">"波兰国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F2: "🇵🇲" FLAG FOR ST. PIERRE & MIQUELON -->
+     <string name="spoken_emoji_1F1F5_1F1F2">"圣匹尔及密启伦群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F3: "🇵🇳" FLAG FOR PITCAIRN ISLANDS -->
+     <string name="spoken_emoji_1F1F5_1F1F3">"皮特肯群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F7: "🇵🇷" FLAG FOR PUERTO RICO -->
+     <string name="spoken_emoji_1F1F5_1F1F7">"波多黎各岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F8: "🇵🇸" FLAG FOR PALESTINIAN TERRITORIES -->
+     <string name="spoken_emoji_1F1F5_1F1F8">"巴勒斯坦国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1F9: "🇵🇹" FLAG FOR PORTUGAL -->
+     <string name="spoken_emoji_1F1F5_1F1F9">"葡萄牙国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1FC: "🇵🇼" FLAG FOR PALAU -->
+     <string name="spoken_emoji_1F1F5_1F1FC">"帕劳国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F5 U+1F1FE: "🇵🇾" FLAG FOR PARAGUAY -->
+     <string name="spoken_emoji_1F1F5_1F1FE">"巴拉圭国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F6 U+1F1E6: "🇶🇦" FLAG FOR QATAR -->
+     <string name="spoken_emoji_1F1F6_1F1E6">"卡塔尔国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F7 U+1F1EA: "🇷🇪" FLAG FOR RÉUNION -->
+     <string name="spoken_emoji_1F1F7_1F1EA">"留尼旺岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F7 U+1F1F4: "🇷🇴" FLAG FOR ROMANIA -->
+     <string name="spoken_emoji_1F1F7_1F1F4">"罗马尼亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F7 U+1F1F8: "🇷🇸" FLAG FOR SERBIA -->
+     <string name="spoken_emoji_1F1F7_1F1F8">"塞尔维亚共和国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F7 U+1F1FA: "🇷🇺" FLAG FOR RUSSIA -->
+     <string name="spoken_emoji_1F1F7_1F1FA">"俄罗斯国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F7 U+1F1FC: "🇷🇼" FLAG FOR RWANDA -->
+     <string name="spoken_emoji_1F1F7_1F1FC">"卢旺达国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1E6: "🇸🇦" FLAG FOR SAUDI ARABIA -->
+     <string name="spoken_emoji_1F1F8_1F1E6">"沙特阿拉伯国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1E7: "🇸🇧" FLAG FOR SOLOMON ISLANDS -->
+     <string name="spoken_emoji_1F1F8_1F1E7">"所罗门群岛国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1E8: "🇸🇨" FLAG FOR SEYCHELLES -->
+     <string name="spoken_emoji_1F1F8_1F1E8">"塞舌尔国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1E9: "🇸🇩" FLAG FOR SUDAN -->
+     <string name="spoken_emoji_1F1F8_1F1E9">"苏丹国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1EA: "🇸🇪" FLAG FOR SWEDEN -->
+     <string name="spoken_emoji_1F1F8_1F1EA">"瑞典国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1EC: "🇸🇬" FLAG FOR SINGAPORE -->
+     <string name="spoken_emoji_1F1F8_1F1EC">"新加坡国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1ED: "🇸🇭" FLAG FOR ST. HELENA -->
+     <string name="spoken_emoji_1F1F8_1F1ED">"圣赫勒拿岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1EE: "🇸🇮" FLAG FOR SLOVENIA -->
+     <string name="spoken_emoji_1F1F8_1F1EE">"斯洛文尼亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1EF: "🇸🇯" FLAG FOR SVALBARD & JAN MAYEN -->
+     <string name="spoken_emoji_1F1F8_1F1EF">"斯瓦巴德和扬马延群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F0: "🇸🇰" FLAG FOR SLOVAKIA -->
+     <string name="spoken_emoji_1F1F8_1F1F0">"斯洛伐克国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F1: "🇸🇱" FLAG FOR SIERRA LEONE -->
+     <string name="spoken_emoji_1F1F8_1F1F1">"塞拉利昂国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F2: "🇸🇲" FLAG FOR SAN MARINO -->
+     <string name="spoken_emoji_1F1F8_1F1F2">"圣马力诺国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F3: "🇸🇳" FLAG FOR SENEGAL -->
+     <string name="spoken_emoji_1F1F8_1F1F3">"塞内加尔国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F4: "🇸🇴" FLAG FOR SOMALIA -->
+     <string name="spoken_emoji_1F1F8_1F1F4">"索马里国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F7: "🇸🇷" FLAG FOR SURINAME -->
+     <string name="spoken_emoji_1F1F8_1F1F7">"苏里南国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F8: "🇸🇸" FLAG FOR SOUTH SUDAN -->
+     <string name="spoken_emoji_1F1F8_1F1F8">"南苏丹国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1F9: "🇸🇹" FLAG FOR SÃO TOMÉ & PRÍNCIPE -->
+     <string name="spoken_emoji_1F1F8_1F1F9">"圣多美普林西斯旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1FB: "🇸🇻" FLAG FOR EL SALVADOR -->
+     <string name="spoken_emoji_1F1F8_1F1FB">"萨尔瓦多国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1FD: "🇸🇽" FLAG FOR SINT MAARTEN -->
+     <string name="spoken_emoji_1F1F8_1F1FD">"圣马丁岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1FE: "🇸🇾" FLAG FOR SYRIA -->
+     <string name="spoken_emoji_1F1F8_1F1FE">"叙利亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F8 U+1F1FF: "🇸🇿" FLAG FOR SWAZILAND -->
+     <string name="spoken_emoji_1F1F8_1F1FF">"斯威士兰国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1E6: "🇹🇦" FLAG FOR TRISTAN DA CUNHA -->
+     <string name="spoken_emoji_1F1F9_1F1E6">"特里斯坦达库尼亚群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1E8: "🇹🇨" FLAG FOR TURKS & CAICOS ISLANDS -->
+     <string name="spoken_emoji_1F1F9_1F1E8">"特克斯和凯科斯群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1E9: "🇹🇩" FLAG FOR CHAD -->
+     <string name="spoken_emoji_1F1F9_1F1E9">"乍得国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1EB: "🇹🇫" FLAG FOR FRENCH SOUTHERN TERRITORIES -->
+     <string name="spoken_emoji_1F1F9_1F1EB">"法属南部属地旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1EC: "🇹🇬" FLAG FOR TOGO -->
+     <string name="spoken_emoji_1F1F9_1F1EC">"多哥国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1ED: "🇹🇭" FLAG FOR THAILAND -->
+     <string name="spoken_emoji_1F1F9_1F1ED">"泰国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1EF: "🇹🇯" FLAG FOR TAJIKISTAN -->
+     <string name="spoken_emoji_1F1F9_1F1EF">"塔吉克斯坦国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F0: "🇹🇰" FLAG FOR TOKELAU -->
+     <string name="spoken_emoji_1F1F9_1F1F0">"托克劳群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F1: "🇹🇱" FLAG FOR TIMOR-LESTE -->
+     <string name="spoken_emoji_1F1F9_1F1F1">"东帝汶国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F2: "🇹🇲" FLAG FOR TURKMENISTAN -->
+     <string name="spoken_emoji_1F1F9_1F1F2">"土库曼斯坦国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F3: "🇹🇳" FLAG FOR TUNISIA -->
+     <string name="spoken_emoji_1F1F9_1F1F3">"突尼斯国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F4: "🇹🇴" FLAG FOR TONGA -->
+     <string name="spoken_emoji_1F1F9_1F1F4">"汤加国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F7: "🇹🇷" FLAG FOR TURKEY -->
+     <string name="spoken_emoji_1F1F9_1F1F7">"土耳其国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1F9: "🇹🇹" FLAG FOR TRINIDAD & TOBAGO -->
+     <string name="spoken_emoji_1F1F9_1F1F9">"特立尼达和多巴哥旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1FB: "🇹🇻" FLAG FOR TUVALU -->
+     <string name="spoken_emoji_1F1F9_1F1FB">"图瓦卢国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1FC: "🇹🇼" FLAG FOR TAIWAN -->
+     <string name="spoken_emoji_1F1F9_1F1FC">"中国台湾旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1F9 U+1F1FF: "🇹🇿" FLAG FOR TANZANIA -->
+     <string name="spoken_emoji_1F1F9_1F1FF">"坦桑尼亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FA U+1F1E6: "🇺🇦" FLAG FOR UKRAINE -->
+     <string name="spoken_emoji_1F1FA_1F1E6">"乌克兰国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FA U+1F1EC: "🇺🇬" FLAG FOR UGANDA -->
+     <string name="spoken_emoji_1F1FA_1F1EC">"乌干达国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FA U+1F1F2: "🇺🇲" FLAG FOR U.S. OUTLYING ISLANDS -->
+     <string name="spoken_emoji_1F1FA_1F1F2">"美国外围岛屿旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FA U+1F1F8: "🇺🇸" FLAG FOR UNITED STATES -->
+     <string name="spoken_emoji_1F1FA_1F1F8">"美国国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FA U+1F1FE: "🇺🇾" FLAG FOR URUGUAY -->
+     <string name="spoken_emoji_1F1FA_1F1FE">"乌拉圭国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FA U+1F1FF: "🇺🇿" FLAG FOR UZBEKISTAN -->
+     <string name="spoken_emoji_1F1FA_1F1FF">"乌兹别克斯坦国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1E6: "🇻🇦" FLAG FOR VATICAN CITY -->
+     <string name="spoken_emoji_1F1FB_1F1E6">"梵蒂冈城旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1E8: "🇻🇨" FLAG FOR ST. VINCENT & GRENADINES -->
+     <string name="spoken_emoji_1F1FB_1F1E8">"圣文森特和格林纳丁斯群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1EA: "🇻🇪" FLAG FOR VENEZUELA -->
+     <string name="spoken_emoji_1F1FB_1F1EA">"委内瑞拉国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1EC: "🇻🇬" FLAG FOR BRITISH VIRGIN ISLANDS -->
+     <string name="spoken_emoji_1F1FB_1F1EC">"英属维尔京群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1EE: "🇻🇮" FLAG FOR U.S. VIRGIN ISLANDS -->
+     <string name="spoken_emoji_1F1FB_1F1EE">"美属维尔京群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1F3: "🇻🇳" FLAG FOR VIETNAM -->
+     <string name="spoken_emoji_1F1FB_1F1F3">"越南国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FB U+1F1FA: "🇻🇺" FLAG FOR VANUATU -->
+     <string name="spoken_emoji_1F1FB_1F1FA">"瓦努阿图国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FC U+1F1EB: "🇼🇫" FLAG FOR WALLIS & FUTUNA -->
+     <string name="spoken_emoji_1F1FC_1F1EB">"瓦利斯及富图纳群岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FC U+1F1F8: "🇼🇸" FLAG FOR SAMOA -->
+     <string name="spoken_emoji_1F1FC_1F1F8">"萨摩亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FD U+1F1F0: "🇽🇰" FLAG FOR KOSOVO -->
+     <string name="spoken_emoji_1F1FD_1F1F0">"科索沃旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FE U+1F1EA: "🇾🇪" FLAG FOR YEMEN -->
+     <string name="spoken_emoji_1F1FE_1F1EA">"也门国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FE U+1F1F9: "🇾🇹" FLAG FOR MAYOTTE -->
+     <string name="spoken_emoji_1F1FE_1F1F9">"马约特岛旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FF U+1F1E6: "🇿🇦" FLAG FOR SOUTH AFRICA -->
+     <string name="spoken_emoji_1F1FF_1F1E6">"南非国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FF U+1F1F2: "🇿🇲" FLAG FOR ZAMBIA -->
+     <string name="spoken_emoji_1F1FF_1F1F2">"赞比亚国旗"</string>
+     <!-- Spoken description for Unicode code point sequence U+1F1FF U+1F1FC: "🇿🇼" FLAG FOR ZIMBABWE -->
+     <string name="spoken_emoji_1F1FF_1F1FC">"津巴布韦国旗"</string></resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Name of the application. [CHAR LIMIT=35] -->
+    <string name="app_label">"Input Devices"</string>
+    <!-- Keyboard layouts label, used to describe the set of all built-in layouts in the UI. [CHAR LIMIT=35] -->
+    <string name="keyboard_layouts_label">"Clavier Android"</string>
+    <!-- UK English keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_english_uk_label">"Anglais (Royaume-Uni)"</string>
+    <!-- US English keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_english_us_label">"Anglais (États-Unis)"</string>
+    <!-- US English (International style) keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_english_us_intl">"Anglais (États-Unis), international"</string>
+    <!-- US English (Colemak style) keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_english_us_colemak_label">"Anglais (États-Unis), type Colemak"</string>
+    <!-- US English (Dvorak style) keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_english_us_dvorak_label">"Anglais (États-Unis), type Dvorak"</string>
+    <!-- German keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_german_label">"Allemand"</string>
+    <!-- French keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_french_label">"Français"</string>
+    <!-- Canadian French keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_french_ca_label">"Français (Canada)"</string>
+    <!-- Russian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_russian_label">"Russe"</string>
+    <!-- Russian (Mac style) keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_russian_mac_label">"Russe, type Mac"</string>
+    <!-- Spanish keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_spanish_label">"Espagnol"</string>
+    <!-- Swiss French keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_swiss_french_label">"Français (Suisse)"</string>
+    <!-- Swiss German keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_swiss_german_label">"Allemand (Suisse)"</string>
+    <!-- Belgian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_belgian">"Belge"</string>
+    <!-- Bulgarian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_bulgarian">"Bulgare"</string>
+    <!-- Italian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_italian">"Italien"</string>
+    <!-- Danish keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_danish">"Danois"</string>
+    <!-- Norwegian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_norwegian">"Norvégien"</string>
+    <!-- Swedish keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_swedish">"Suédois"</string>
+    <!-- Finnish keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_finnish">"Finnois"</string>
+    <!-- Croatian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_croatian">"Croate"</string>
+    <!-- Czech keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_czech">"Tchèque"</string>
+    <!-- Estonian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_estonian">"Estonien"</string>
+    <!-- Hungarian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_hungarian">"Hongrois"</string>
+    <!-- Icelandic keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_icelandic">"Islandais"</string>
+    <!-- Brazilian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_brazilian">"Brésilien"</string>
+    <!-- Portuguese keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_portuguese">"Portugais"</string>
+    <!-- Slovak keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_slovak">"Slovaque"</string>
+    <!-- Slovenian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_slovenian">"Slovène"</string>
+    <!-- Turkish keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_turkish">"Turc"</string>
+    <!-- Ukrainian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_ukrainian">"Ukrainien"</string>
+    <!-- Arabic keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_arabic">"Arabe"</string>
+    <!-- Greek keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_greek">"Grec"</string>
+    <!-- Hebrew keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_hebrew">"Hébreu"</string>
+    <!-- Lithuanian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_lithuanian">"Lituanien"</string>
+    <!-- Spanish (Latin) keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_spanish_latin">"Espagnol (latin)"</string>
+    <!-- Latvian keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_latvian">"Letton"</string></resources>

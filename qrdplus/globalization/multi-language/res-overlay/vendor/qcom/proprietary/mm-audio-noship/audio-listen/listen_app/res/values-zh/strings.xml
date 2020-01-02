@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="no"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name_ux10">"语音激活"</string>
+    <string name="home_menu_version">"版本号"</string>
+    <string name="home_menu_settings">"设置"</string>
+    <string name="home_soundmodel">"声音模型"</string>
+    <string name="home_startvoiceactivation">"启动语音激活"</string>
+    <string name="home_stopvoiceactivation">"停止语音激活"</string>
+    <string name="home_advanceddetail">"高级详情"</string>
+    <string name="home_advanceddetail_keyword">"关键词："</string>
+    <string name="home_advanceddetail_user">"用户："</string>
+    <string name="home_advanceddetail_initialdetections">0</string>
+    <string name="home_advanceddetail_initialscore">0</string>
+    <string name="home_advanceddetail_scorepossible">/100</string>
+    <string name="home_dialog_startingvoiceactivation">"启动语音激活"</string>
+    <string name="home_dialog_stoppingvoiceactivation">"停止语音激活"</string>
+    <string name="home_dialog_pleasewait">"请稍候\u2026 "</string>
+    <string name="home_dialog_badlibs_title">"用户声音库丢失/不兼容"</string>
+    <string name="home_dialog_badlibs_message">"无法继续。请点击“确定”以关闭应用。"</string>
+    <string name="soundmodels_top_title">"声音模型"</string>
+    <string name="soundmodels_dialog_adduser_title">"添加新用户"</string>
+    <string name="dialog_cancel">"取消"</string>
+    <string name="dialog_save">"保存"</string>
+    <string name="dialog_ok">"确定"</string>
+    <string name="soundmodels_dialog_deletesoundmodel_title">"删除声音模型"</string>
+    <string name="soundmodels_dialog_train_title">"培训声音模型"</string>
+    <string name="soundmodels_dialog_train_content">"要为此用户创建声音模型，必须进行培训。"</string>
+    <string name="soundmodels_dialog_option_deletesoundmodel">"删除声音模型"</string>
+    <string name="soundmodels_dialog_option_starttrain">"开始培训"</string>
+    <string name="soundmodels_dialog_selectkeyword_title">"选择关键词"</string>
+    <string name="soundmodels_dialog_duplicate_title">"声音模型已存在"</string>
+    <string name="soundmodels_dialog_duplicate_content">"请选择一个唯一的关键词和用户名组合"</string>
+    <string name="soundmodels_dialog_invalid_title">"培训声音模型"</string>
+    <string name="soundmodels_dialog_invalid_content">"要为此用户创建声音模型，必须进行培训。"</string>
+    <string name="soundmodel_listitem_keyword">"声音模型文字"</string>
+    <string name="soundmodel_listitem_username">"用户名文字"</string>
+    <string name="training_welcome_unkownuser">"未知用户"</string>
+    <string name="training_welcome_notice">"为帮助我识别您的声音，请说关键词五次并录音。"</string>
+    <string name="training_welcome_recording_tip_title">"录音提示"</string>
+    <string name="training_welcome_recording_tip">"1. 将手机放在嘴巴前方一臂距离内。\n2. 在背景噪音最小的安静地方进行录音。\n3. 以命令式口吻清晰、大声地说话。"</string>
+    <string name="training_recording_recording">"正在录音..."</string>
+    <string name="training_recording_processing">"正在处理..."</string>
+    <string name="training_recording_complete">"完成！"</string>
+    <string name="training_recording_notice_good">"完美！\n继续这样说！"</string>
+    <string name="training_recording_notice_bad">"录音出现问题。请重试。"</string>
+    <string name="training_recording_continue">"继续"</string>
+    <string name="training_dialog_createsoundmodel">"正在创建个性化的声音模型。"</string>
+    <string name="training_dialog_close_title">"确定要关闭吗？"</string>
+    <string name="training_dialog_close_message">"系统将清除所有当前的培训录音。"</string>
+    <string name="training_dialog_smcreatefailed_title">"声音模型创建失败"</string>
+    <string name="training_dialog_smcreatefailed_message">"无法创建个性化的声音模型。请重试。"</string>
+    <string name="settings_top_title">"设置"</string>
+    <string name="settings_thresholds">"阈值"</string>
+    <string name="settings_threshold_keyword">"关键词置信度阈值"</string>
+    <string name="settings_threshold_speaker">"扬声器置信度阈值"</string>
+    <string name="settings_moreoptions">"更多选项"</string>
+    <string name="settings_moreoption_listen">"侦听"</string>
+    <string name="settings_moreoption_listen_desc">"启用/禁用侦听"</string>
+    <string name="settings_moreoption_voiceactivation">"语音激活"</string>
+    <string name="settings_moreoption_voiceactivation_desc">"启用/禁用语音激活"</string>
+    <string name="settings_moreoption_userverification">"用户验证"</string>
+    <string name="settings_moreoption_userverification_desc">"启用/禁用用户验证"</string>
+    <string name="settings_moreoption_failurefeedback">"检测失败反馈"</string>
+    <string name="settings_moreoption_failurefeedback_desc">"启用/禁用检测失败反馈"</string>
+    <string name="settings_moreoption_tone">"检测/非检测音调"</string>
+    <string name="settings_moreoption_tone_desc">"启用/禁用检测音调"</string>
+    <string name="settings_moreoption_voiceqna">"语音 Q/A"</string>
+    <string name="settings_moreoption_voiceqna_desc">"检测时启动语音 Q/A"</string>
+    <string name="settings_moreoption_voiceqna_error">"未安装语音识别应用。需要常规版本，而非 HY11 版本。"</string>
+    <string name="settings_moreoption_advanced">"高级详情"</string>
+    <string name="settings_moreoption_advanced_desc">"显示更多详情"</string>
+    <string name="settings_toast_smdependentcheckbox">"必须注册下一个声音模型，此更改才会生效。"</string>
+    <string name="none"></string>
+    <string name="app_name">"语音激活服务"</string></resources>

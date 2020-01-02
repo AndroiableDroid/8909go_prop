@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"ตั้งค่าโรมมิ่ง"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"เปิด"</string>
+    <string name="data_roaming_title">"เชื่อมต่อบริการข้อมูลขณะโรมมิ่ง"</string>
+    <string name="manual_select_network">"เลือกเครือข่ายด้วยตนเอง"</string>
+    <string name="roaming_card_info">"จะใช้ความสำคัญของบัตรอุปกรณ์เคลื่อนที่"</string>
+    <string name="network_select_success_info">"ลงทะเบียนบนเครือข่าย “<xliff:g id="name">%s</xliff:g>” สำเร็จ จะลงทะเบียนอัตโนมัติเมื่อเครือข่ายไม่พร้อม"</string>
+    <string name="network_select_failure_info">"เครือข่าย “<xliff:g id="name">%s</xliff:g>” ที่คุณเลือกไม่พร้อม จะเริ่มอย่างอัตโนมัติเพื่อลงทะเบียนบนเครือข่ายอื่น"</string>
+    <string name="network_auto_success_info">"การลงทะเบียนบนเครือข่ายอัตโนมัติสำเร็จ"</string>
+    <string name="network_auto_failure_info">"เครือข่าย GSM ที่คุณเลือกไม่พร้อม จะเริ่มต้นเพื่อลงทะเบียนบนเครือข่ายอื่นอัตโนมัติ"</string>
+    <string name="manual_select_network_tip">"การดำเนินการนี้จะใช้ได้เมื่อถึงเวลา"</string>
+    <string name="gsm_network_list_title">"เครือข่ายที่สามารถเลือกได้"</string>
+    <string name="searching_cdma_network_title">"กำลังเลือกเครือข่าย cdma ตอนนี้......"</string>
+    <string name="searching_gsm_network_title">"กำลังเลือกเครือข่าย gsm ตอนนี้......"</string>
+    <string name="empty_networks_list">"ไม่พบเครือข่าย"</string>
+    <string name="register_on_network">"กำลังลงทะเบียนบน <xliff:g id="NETWORK">%s</xliff:g>\u2026"</string>
+    <string name="register_automatically">"การลงทะเบียนอัตโนมัติ..."</string>
+    <string name="network_select_setting">"การตั้งค่าเครือข่าย"</string>
+    <string name="roaming_hotline">"สายด่วนโรมมิ่ง +8618918910000"</string>
+    <string name="carrier_names">"China Telecom"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"กำลังปิดใช้งานข้อมูล..."</string>
+    <string name="unable_to_disable_data">"ไม่สามารถปิดข้อมูลได้"</string>
+    <string name="avoid_cur_nwk_succeeded">"เพิ่มเครือข่ายปัจจุบันไปยังรายการหลีกเลี่ยงแล้ว"</string>
+    <string name="avoid_cur_nwk_failed">"ไม่สามารถเพิ่มเครือข่ายปัจจุบันไปยังรายการหลีกเลี่ยงได้"</string>
+    <string name="clear_nwk_list_succeeded">"ล้างรายการเครือข่ายหลีกเลี่ยงแล้ว"</string>
+    <string name="clear_nwk_list_failed">"ไม่สามารถล้างรายการเครือข่ายหลีกเลี่ยงได้"</string>
+    <string name="ok_btn">"ตกลง"</string>
+    <string name="cancel_btn">"ยกเลิก"</string>
+    <string name="confirm_avoid">"คุณแน่ใจหรือไม่ว่าต้องการหลีกเลี่ยงเครือข่ายปัจจุบันนี้"</string>
+    <string name="confirm_clear">"คุณแน่ใจหรือไม่ว่าต้องการรายการเครือข่ายหลีกเลี่ยง"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"เลือก CDMA"</string>
+    <string name="pref_gsm_choose_title">"เลือก GSM"</string>
+    <string name="pref_network_info_title">"ข้อมูลเครือข่ายปัจจุบัน"</string>
+    <string name="alert_msg_enable_card">"คุณต้องการเปิดการ์ดนี้หรือไม่"</string>
+    <string name="alert_msg_disable_card">"คุณต้องการปิดการ์ดนี้หรือไม่"</string>
+    <string name="progress_msg_enable_card">"เปิดการ์ดนี้ โปรดรอ..."</string>
+    <string name="progress_msg_disable_card">"ปิดการ์ดนี้ โปรดรอ..."</string>
+    <string name="operation_success">"การดำเนินการสำเร็จ"</string>
+    <string name="operation_failure">"การดำเนินการล้มเหลว"</string>
+    <string name="result_btn">"ตกลง"</string>
+    <string name="alert_data_roaming_title">"อนุญาตการโรมมิ่งข้อมูล"</string>
+    <string name="alert_data_roaming_msg">"การอนุญาตการโรมมิ่งข้อมูล อาจทำให้คุณเสียค่าใช้จ่ายมาก!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"ไม่ทราบ"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"ใช้งานไม่ได้"</string>
+    <string name="status_network_type">"ประเภทเครือข่ายอุปกรณ์เคลื่อนที่"</string>
+    <string name="status_signal_strength">"ความแรงสัญญาณ"</string>
+    <string name="status_prl_version">"รุ่น PRL"</string>
+    <string name="status_data_state">"สถานะเครือข่ายอุปกรณ์เคลื่อนที่"</string>
+    <string name="status_netowrk_title">"สถานะ Sim ปัจจุบัน"</string>
+    <string name="status_operator_name">"ชื่อผู้ให้บริการ"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"CELL ID"</string>
+    <string name="status_sms_center_number">"หมายเลขศูนย์ Sms"</string>
+    <string name="status_pnl_version">"รุ่นรายการเครือข่ายที่ต้องการ"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"สลับเป็นเครือข่ายถัดไปด้วยตนเอง"</string>
+    <string name="avoid_discription">"คำแนะนำ:\n  การเลือกเครือข่ายอัตโนมัติเป็นค่าเริ่มต้นในระบบ CDMA ไม่ต้องเลือกด้วมตนเอง แต่หากเครือข่ายปัจจุบันไม่สามารถใช้ได้ ให้ลองสลับเป็นเครือข่ายถัดไปด้วยตนเอง "</string>
+    <string name="attention_dialog_title">"โปรดทราบ"</string>
+    <string name="disable_both_sim_error_msg">"ไม่สามารถปิดทั้งสอง SIM ได้พร้อมกัน"</string>
+    <string name="China_Mobile">"China Mobile"</string>
+    <string name="China_Unicom">"China Unicom"</string>
+    <string name="China_Telecom">"China Telecom"</string></resources>

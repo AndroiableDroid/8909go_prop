@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Démonstration de suivi d\'objet"</string>
+    <string name="open_camera_failed">"Une erreur est survenue lors de l\'activation de l\'appareil photo sur votre appareil.  Veuillez fermer les autres applications utilisant l\'appareil photo et redémarrer l\'application."</string>
+    <string name="snapshot_failed">"Une erreur est survenue lors de la capture de l\'instantané. Veuillez consulter le  logcat pour obtenir plus de détails sur l\'erreur."</string>
+    <string name="video_recording_failed">"Une erreur est survenue lors de l\'enregistrement de la vidéo. Veuillez consulter le  logcat pour plus de détails sur l\'erreur."</string>
+    <string name="settings">"Paramètres"</string>
+    <string name="switch_camera">"Changer de caméra"</string>
+    <string name="switch_camera_mode">"Basculer entre les modes photo/vidéo"</string></resources>

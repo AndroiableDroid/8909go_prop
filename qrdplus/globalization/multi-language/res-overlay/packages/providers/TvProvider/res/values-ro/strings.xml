@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- This is the name of the TvProvider application. -->
+    <string name="app_label">"Stocare TV"</string>
+    <!-- Title of an application permission, listed so the user can choose
+        whether they want to allow the application to do this. -->
+    <string name="permlab_readTvListings">"citiți toate listările TV"</string>
+    <!-- Description of an application permission, listed so the user can choose
+        whether they want to allow the application to do this. -->
+    <string name="permdesc_readTvListings">"citirea tuturor listărilor TV disponibile pe dispozitivul dvs."</string>
+    <!-- Title of an application permission, listed so the user can choose
+        whether they want to allow the application to do this.
+        @deprecated -->
+    <string name="permlab_readEpgData">"citiți listările TV"</string>
+    <!-- Description of an application permission, listed so the user can choose
+        whether they want to allow the application to do this.
+        @deprecated -->
+    <string name="permdesc_readEpgData">"citiți listările TV"</string>
+    <!-- Title of an application permission, listed so the user can choose
+        whether they want to allow the application to do this. -->
+    <string name="permlab_writeEpgData">"furnizarea de listări TV"</string>
+    <!-- Description of an application permission, listed so the user can choose
+        whether they want to allow the application to do this. -->
+    <string name="permdesc_writeEpgData">"furnizarea de listări TV"</string>
+    <!-- Title of an application permission, listed so the user can choose
+        whether they want to allow the application to do this. -->
+    <string name="permlab_accessAllEpgData">"accesarea tuturor listărilor TV"</string>
+    <!-- Description of an application permission, listed so the user can choose
+        whether they want to allow the application to do this. -->
+    <string name="permdesc_accessAllEpgData">"citirea şi modificarea tuturor listărilor TV disponibile pe dispozitivul dvs."</string>
+    <!-- Title of an application permission, listed so the user can choose
+        whether they want to allow the application to do this. -->
+    <string name="permlab_accessWatchedPrograms">"accesați istoricul programelor TV urmărite"</string>
+    <!-- Description of an application permission, listed so the user can choose
+        whether they want to allow the application to do this. -->
+    <string name="permdesc_accessWatchedPrograms">"accesarea istoricului dvs. de vizionare TV"</string></resources>

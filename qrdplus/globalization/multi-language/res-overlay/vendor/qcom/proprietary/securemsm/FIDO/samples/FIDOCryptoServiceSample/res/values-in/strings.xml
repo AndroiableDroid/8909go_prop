@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Setelan"</string>
+    <string name="body_msg">"menguji FidoCryptoService"</string>
+    <string name="load">"muat"</string>
+    <string name="unload">"hapus"</string>
+    <string name="process">"Proses"</string>
+    <string name="start">"mulai"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"Mengikat Layanan FIDO"</string>
+    <string name="unbindFido">"Melepas Layanan FIDO"</string>
+    <string name="setChallenge">"Atur Tantangan"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Mengikat Pengautentifikasi"</string>
+    <string name="verifyUser">"VerifikasiPengguna / DapatkanToken"</string>
+    <string name="GetInfo">"Dapatkan Informasi"</string>
+    <string name="Register">"Mendaftar"</string>
+    <string name="Deregister">"Batal Mendaftar"</string>
+    <string name="OpenSettings">"Buka Setelan"</string>
+    <string name="Sign">"Simbol"</string>
+    <string name="MalformedRequest">"Bentuk Permintaan Salah"</string>
+    <string name="selectAuth">"Pilih Pengautentikasi"</string>
+    <string name="getEnrollmentStatus">"Dapatkan Status Pendaftaran"</string>
+    <string name="RegisterExt">"Daftar dengan Ekstensi"</string>
+    <string name="SignExt">"Masuk dengan Ekstensi"</string>
+    <string name="encResult">"Hasil yang Diringkas"</string>
+    <string name="extResult">"Data Ekstensi"</string>
+    <string name="selectFidoOpText">"pilih operasi FIDO"</string>
+    <string name="show_message_sui">"tampilkan pesan sui"</string>
+    <string name="fido_sui_service">"layanan fido Sui"</string>
+    <string name="bindFidoSui">"mengikat fido sui"</string>
+    <string name="unbindFidoSui">"melepas fido sui"</string>
+    <string name="suiResultTitle">"tampilkan hasil"</string>
+    <string name="cancel_sui">"batalkan sui"</string>
+    <string name="extensionText">"Gunakan Ekstensi?"</string>
+    <string name="pngText">"Gunakan Konten PNG?"</string>
+    <string name="fpText">"Sidik Jari Aman"</string>
+    <string-array name="authenticator_array">
+        <item>"Pengautentikasi Tiruan"</item>
+        <item>"Pengautentikasi Sampel"</item>
+        <item>"Amankan Pengautentikasi Sampel"</item>
+        <item>"Pengautentifikasi Sampel Ekstensi"</item>
+        <item>"Pengautentifikasi Ekstensi Aman"</item>
+        <item>"Pengautentifikasi Kesehatan Perangkat"</item>
+        <item>"Pengautentikasi Sampel IAuth2 Aman"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Dapatkan Info"</item>
+        <item>"Mendaftar"</item>
+        <item>"Batal Mendaftar"</item>
+        <item>"Buka Setelan"</item>
+        <item>"Pengecualian Format Salah"</item>
+        <item>"Tanda (Auth)"</item>
+        <item>"Tanda (TX)"</item>
+    </string-array></resources>

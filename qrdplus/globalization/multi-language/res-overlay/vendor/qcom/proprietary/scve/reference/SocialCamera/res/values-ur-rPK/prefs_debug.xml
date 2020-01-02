@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"ڈی بگ قالب دکھائیں"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"تصویر محفوظ کریں"</string>
+    <string name="debug_pref_save_pictures_desc">"SDکارڈ پر مقیدکردہ تصاویر کو محفوظ کریں"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"پیش منظر فریمز محفوظ کریں"</string>
+    <string name="debug_pref_save_preview_frames_desc">"پیش منظر فریمز کو SDکارڈ میں محفوظ کریں"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"پیش منظر فریم ڈراپنگ کی اجازت دیں"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"پیش نطارہ فریمز کو محفوظ کرتے ہوئے، فریم ریٹ برقرار رکھنے کے فریمز کےگرنے کی اجازت دیں"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"چہرہ کی شناخت لفاظی لاگنگ کو اہل بنائیں"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"सामाजिक कैमरा"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"हमें सत्‍यापि‍त करने के दौरान या अनुमतियों के लिए अनुरोध करने के दौरान त्रुटि प्राप्त हुई है. कृपया अधिक विवरणों के लिए logcat जाँचें."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"भेजें (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"कैमरे से कनेक्‍शन खो गया."</string>
+    <string name="camera_preview_error_camera_error">"कैमरे से संबंधित त्रुटि: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"चित्र लेने में विफल रहा"</string>
+    <string name="camera_preview_error_still_image_save_failed">"हमें आपकी गैलरी में चित्र सहेजने के दौरान त्रुटि प्राप्त हुई है"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"सेटिंग्स"</string>
+    <string name="camera_settings_category_camera_settings">"कैमरा सेटिंग्स"</string>
+    <string name="camera_settings_category_fr_settings">"चेहरे की पहचान सेटिंग्स"</string>
+    <string name="camera_settings_category_debug_settings">"डीबग सेटिंग्स"</string>
+    <string name="camera_settings_fr_database_cleared">"चेहरे की पहचान का डेटाबेस साफ़ किया गया"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"ख़ारिज करें"</string>
+    <string name="picture_review_send_faces">"भेजें (%d)"</string>
+    <string name="picture_review_no_faces">"इस फ़ोटो में कोई व्यक्ति नहीं मिला"</string>
+    <string name="picture_review_error_face_recognition">"हमें चेहरों की पहचान करने के दौरान त्रुटि प्राप्त हुई है"</string>
+    <string name="picture_review_error_face_enroll">"क्षमा करें, हमें यह चेहरा सहेजने के दौरान त्रुटि प्राप्त हुई है. कृपया व्यक्ति का एक और चित्र लें और फिर से प्रयास करें."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"अन्य संपर्क\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"साझा करने से संबंधित सेटिंग्स्स"</string>
+    <string name="fr_share_settings_button_just_once">"केवल एक बार"</string>
+    <string name="fr_share_settings_button_always">"हमेशा"</string>
+    <string name="fr_share_settings_share_method_sms">"संदेश"</string>
+    <string name="fr_share_settings_share_method_email">"ईमेल"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"यह देखें!"</string>
+    <string name="social_sharing_error_no_email_app">"आपके पास ईमेल भेजने में सक्षम होने वाला कोई एप नहीं है"</string></resources>

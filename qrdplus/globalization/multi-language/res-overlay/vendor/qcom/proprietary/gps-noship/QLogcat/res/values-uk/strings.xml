@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"Детальний режим"</item>
+        <item>"Налагодж."</item>
+        <item>"Інформація"</item>
+        <item>"Попередження"</item>
+        <item>"Помилки"</item>
+        <item>"Критичні помилки"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"Карта SD"</item>
+        <item>"Внутрішня пам’ять"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"Не вдалося записати до файлу журналу. Повідомлення не зберігаються в журналі. Процес журналювання автоматично відновиться, коли журнал стане доступним."</string>
+    <string name="err_lowspace">"Залишилося мало пам’яті. Повідомлення не зберігаються в журналі. Процес журналювання автоматично відновиться, коли буде звільнено достатньо пам’яті."</string>
+  <string name="txtTag_text">"ім’я тег"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"Опис Logcat"</string></resources>

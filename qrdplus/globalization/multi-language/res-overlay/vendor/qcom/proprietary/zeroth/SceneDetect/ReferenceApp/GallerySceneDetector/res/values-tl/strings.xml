@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Tukuyin ang QC Gallery Scene"</string>
+    <add-resource type="string" name="app_description"/>
+    <string name="app_description">"Awtomatikong pantukoy ng scene ng sa mga imahe."</string>
+    <add-resource type="string" name="settings_menu"/>
+    <string name="settings_menu">"Mga setting"</string>
+    <add-resource type="string" name="about_menu"/>
+    <string name="about_menu">"Tungkol dito"</string>
+    <add-resource type="string" name="clearassetdatabase_menu"/>
+    <string name="clearassetdatabase_menu">"Limasin ang Database"</string>
+    <add-resource type="string" name="resetapp_menu"/>
+    <string name="resetapp_menu">"I-reset ang App"</string>
+    <add-resource type="string" name="imageview_description"/>
+    <string name="imageview_description">"Thumbnail ng Imahe"</string>
+    <!--  filter UI -->
+    <add-resource type="string" name="filter_filter_header_text"/>
+    <string name="filter_filter_header_text">"I-filter"</string>
+    <add-resource type="string" name="reset_filter_button_text"/>
+    <string name="reset_filter_button_text">"I-clear"</string>
+    <add-resource type="string" name="udc_add_dialog_title"/>
+    <string name="udc_add_dialog_title">"Magdagdag ng bagong konseptp"</string>
+    <add-resource type="string" name="udc_add_dialog_ok"/>
+    <string name="udc_add_dialog_ok">"Idagdag"</string>
+    <add-resource type="string" name="udc_add_dialog_cancel"/>
+    <string name="udc_add_dialog_cancel">"Kanselahin"</string>
+    <!-- gallery mode processing -->
+    <add-resource type="string" name="engine_notification_title"/>
+    <string name="engine_notification_title">"Qualcomm Technologies Inc, Zeroth SceneDetect"</string>
+    <add-resource type="string" name="engine_notification_scanning"/>
+    <string name="engine_notification_scanning">"Ini-scan ng SceneDetect ang aparato mo\u2026"</string>
+    <add-resource type="string" name="engine_notification_analyzing"/>
+    <string name="engine_notification_analyzing">"Sinusuri ng SceneDetect ang mga larawan mo\u2026"</string>
+    <add-resource type="string" name="engine_notification_training"/>
+    <string name="engine_notification_training">"Ina-update ng SceneDetect ang mga modelo mo\u2026"</string>
+    <add-resource type="string" name="engine_notification_storing"/>
+    <string name="engine_notification_storing">"Iniimbak ang mga resulta ng klasipikasyon sa database..."</string>
+    <!--  first part: number, second part: already formatted minutes or seconds -->
+    <add-resource type="string" name="engine_notification_togo"/>
+    <string name="engine_notification_togo">"Sinusuri ng SceneDetect ang mga larawan mo: %1$d pa, %2$s ang natitira."</string>
+    <add-resource type="string" name="engine_notification_togo_minutes"/>
+    <string name="engine_notification_togo_minutes">"%1$d minuto"</string>
+    <add-resource type="string" name="engine_notification_togo_minute"/>
+    <string name="engine_notification_togo_minute">"1 minuto"</string>
+    <add-resource type="string" name="engine_notification_togo_seconds"/>
+    <string name="engine_notification_togo_seconds">"%1$d segundo"</string>
+    <add-resource type="string" name="loading_notification"/>
+    <string name="loading_notification">"Naglo-load\u2026"</string>
+    <!-- used in parsing preference values for threshold file -->
+    <add-resource type="string" name="asset_prefix"/>
+    <string name="asset_prefix">"assets://"</string>
+    <add-resource type="string" name="sdcard_prefix"/>
+    <string name="sdcard_prefix">"sdcard://"</string>
+    <add-resource type="string" name="splash_screen_logo_image"/>
+    <string name="splash_screen_logo_image">"Imahe ng logo ng splash screen."</string>
+    <add-resource type="string" name="all_photos"/>
+    <string name="all_photos">"Lahat ng mga larawan"</string>
+    <add-resource type="string" name="all_videos"/>
+    <string name="all_videos">"Lahat ng mga video"</string>
+    <add-resource type="string" name="all_media"/>
+    <string name="all_media">"Lahat ng media"</string>
+    <add-resource type="string" name="album_title"/>
+    <string name="album_title">"Album"</string>
+    <!-- not used for some reason
+    <string name="gallery_bic_tab_title">Filter</string> -->
+    <add-resource type="string" name="gallery_udc_tab_title"/>
+    <string name="gallery_udc_tab_title">"Personal"</string>
+    <add-resource type="string" name="positive_example_desc"/>
+    <string name="positive_example_desc">"Ginamit ang imahe bilang positibong halimbawa sa pagsasanay"</string>
+    <add-resource type="string" name="negative_example_desc"/>
+    <string name="negative_example_desc">"Ginamit ang imahe bilang negatibong halimbawa sa pagsasanay"</string>
+    <add-resource type="string" name="video_notification"/>
+    <string name="video_notification">"VIDEO"</string>
+    <add-resource type="string" name="create_udc_action_title"/>
+    <string name="create_udc_action_title">"Lumikha ng Konsepto"</string>
+    <add-resource type="string" name="add_positive_training_example_title"/>
+    <string name="add_positive_training_example_title">"Magdagdag ng Positibo"</string>
+    <add-resource type="string" name="add_negative_training_example_title"/>
+    <string name="add_negative_training_example_title">"Magdagdag ng Negatibo"</string>
+    <add-resource type="string" name="train_udc_multiselect_title"/>
+    <string name="train_udc_multiselect_title">"Konsepto sa Pagsasanay"</string>
+    <add-resource type="string" name="create_udc_multiselect_title"/>
+    <string name="create_udc_multiselect_title">"Lumikha ng Konsepto"</string>
+    <add-resource type="string" name="multiselect_num_selected_suffix"/>
+    <string name="multiselect_num_selected_suffix">"napili"</string></resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"اليوم به أربع وعشرون ساعة"</string>
+    <string name="hi_snapdragon">"Hi Snapdragon"</string>
+    <string name="hey_snapdragon">"Hey Snapdragon"</string>
+    <string name="my_voice">"صوتي هو كلمة المرور الخاصة بي"</string>
+    <string name="make_my_day">"تخصيص كيومي"</string>
+    <string name="tomorrow_is_another">"الغد هو يوم آخر"</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"مرحبًا بكم في سان دييغو"</string>
+    <string name="okay_google">"حسنًا Google"</string>
+    <string name="open_my_email">"فتح بريدي الإلكتروني"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"بصمة الصوت"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"الإعدادات"</string>
+    <string name="action_add">"إضافة"</string>
+    <string name="title_activity_main_with_fragment">"MainWithFragmentActivity"</string>
+    <string name="tap_mic_start">"انقر فوق زر الميكروفون للبدء"</string>
+    <string name="tap_mic_stop">"انقر فوق زر الميكروفون للإيقاف"</string>
+    <string name="say_key_phrase">"قُل \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_one_more_time">"قُل العبارة \"&lt;b&gt;%1$s&lt;/b&gt;\" مرة أخرى."</string>
+    <string name="say_one_of_key_phrases">"قُل واحدة من العبارات الرئيسية"</string>
+    <string name="phrase_recognized">"تم التعرف على العبارة \"&lt;b&gt;%1$s&lt;/b&gt;\" "</string>
+    <string name="recording_length_exceeded">"تم تجاوز طول التسجيل"</string>
+    <string name="recording_length_exceeded_msg">"تم تجاوز طول التسجيل. الرجاء المحاولة مرة أخرى."</string>
+    <string name="delete_all">"حذف الكل"</string>
+    <string name="delete_all_msg">"هل تريد بالتأكيد حذف جميع القوالب المُسجّلة؟"</string>
+    <string name="got_it">"رائع! لقد فعلتها."</string>
+    <string name="set_key_phrase">"تعيين الجملة الأساسية"</string>
+    <string name="set_key_phrase_name">"تعيين اسم الجملة الأساسية"</string>
+    <string name="set_key_phrase_action">"تعيين الإجراء"</string>
+    <string name="change_key_phrase_action">"تغيير الإجراء"</string>
+    <string name="phrase_strength">"قوة العبارة"</string>
+    <string name="phrase_strength_hint">"حاول استخدام عبارة تحتوي على ثلاث كلمات على الأقل."</string>
+    <string name="register_phrase">"تسجيل العبارة"</string>
+    <string name="register_phrase_hint">"للمساعدة على التعرّف على صوتك، الرجاء تسجيل العبارة \"&lt;b&gt;%1$s&lt;/b&gt;\" ثلاث مرات."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" قم بالتسجيل في غرفة هادئة.\n\n"<b>"2."</b>" احمل الهاتف بعيدًا عن فمك.\n\n"<b>"3."</b>" قُل عبارتك الرئيسية بشكل طبيعي."</string>
+    <string name="ready_to_record">"حسنًا، أنا مستعد للتسجيل"</string>
+    <string name="oops">"معذرةً! أعد المحاولة."</string>
+    <string name="say_the_phrase">"قُل العبارة \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="phrase_registered">"تم تسجيل العبارة \"&lt;b&gt;%1$s&lt;/b&gt;\""</string>
+    <string name="say_the_phrase_few_more">"قُل \"&lt;b&gt;%1$s&lt;/b&gt;\" مرات أخرى"</string>
+    <string name="voice_print">"بصمة الصوت"</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="voice_level">"مستوى الصوت"</string>
+    <string name="background_noise">"ضوضاء الخلفية"</string>
+    <string name="cap_done">"تم"</string>
+    <string name="cap_record">"تسجيل"</string>
+    <string name="cap_next">"التالي"</string>
+    <string name="cap_ok">"موافق"</string>
+    <string name="next">"التالي"</string>
+    <string name="new_key_phrase">"عبارة رئيسية جديدة"</string>
+    <string name="edit_keyphrases">"تحرير العبارات الرئيسية"</string>
+    <string name="set_name">"تعيين الاسم"</string>
+    <string name="select_key_phrase">"تحديد الجملة الأساسية"</string>
+    <string name="set_action">"تعيين الإجراء"</string>
+    <string name="registration_complete">"اكتمل التسجيل"</string>
+    <string name="confirm_pin">"تأكيد رمز PIN"</string>
+    <string name="confirm_pin_msg">"أدخل رمز PIN للجهاز لتحرير العبارات الرئيسية."</string>
+    <string name="your_key_phrase">"عبارتك الرئيسية"</string>
+    <string name="cap_redo">"إعادة"</string>
+    <string name="cap_redo_previous">"إعادة السابق"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"استعراض العبارات الموصى بها"</string>
+    <string name="create_your_own">"أنشئ عبارتك الخاصة"</string>
+    <string name="skip">"تخطٍ"</string>
+    <string name="none">"لا شيء"</string>
+    <string name="enter_pin">"أدخل رمز PIN للجهاز لتحرير العبارات الرئيسية."</string>
+    <string name="your_key_phrase_name">"اسم عبارتك الرئيسية"</string>
+    <string name="new_key_phrase_name">"اسم عبارتك الرئيسية الجديدة"</string>
+    <string name="set_service_to_launch">"تعيين الخدمة للتشغيل"</string>
+    <string name="email">"بريد إلكتروني"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"إرسال رسالة نصية"</string>
+    <string name="use_selected_phrase">"استخدام عبارة محددة"</string>
+    <string name="about">"حول"</string>
+    <string name="edit_key_phrases">"تحرير العبارات الرئيسية"</string>
+    <string name="invalid_phrasename_title">"اسم عبارة غير صالح"</string>
+    <string name="invalid_phrasename_msg">"لا يمكن أن يكون \"اسم العبارة\" فارغًا."</string>
+    <string name="duplicate_phrasename_msg">"اسم العبارة موجود بالفعل. حاول إدخال اسم مختلف."</string>
+    <string name="invalid_phrase_title">"عبارة غير صالحة"</string>
+    <string name="invalid_phrase_msg">"لا يمكن أن تكون \"العبارة\" فارغة."</string>
+    <string name="edit_action">"تحرير الإجراء"</string>
+    <string name="threshold">"الحد"</string>
+    <string name="delete_phrase">"حذف العبارة"</string>
+    <string name="rename">"تغيير الاسم"</string>
+    <string name="rename_keyphrase">"تغيير اسم الجملة الأساسية"</string>
+    <string name="adjust_keyword_sensitivity">"ضبط حساسية الكلمة الأساسية"</string>
+    <string name="adjust_keyword_sensitivity_summary">"يمكن ضبط الحساسية للسماح ببعض الاختلاف في التعرف على الجملة الأساسية."</string>
+    <string name="sensitivity">"الحساسية"</string>
+    <string name="low_sensitivity">"حساسية منخفضة"</string>
+    <string name="med_sensitivity">"حساسية متوسطة"</string>
+    <string name="high_sensitivity">"حساسية عالية"</string>
+    <string name="low">"منخفضة"</string>
+    <string name="med">"متوسطة"</string>
+    <string name="high">"مرتفع"</string>
+    <string name="low_sensitivity_summary">"قبول المزيد من الاختلاف في عملية التعرف على الجملة الأساسية."</string>
+    <string name="med_sensitivity_summary">"لقبول بعض الاختلاف في عملية التعرف على الجملة الأساسية، ولكن قد يحول دون التعرف على بعض العبارات الرئيسية."</string>
+    <string name="high_sensitivity_summary">"مزيد من الأمان، ولكن قد يحول دون التعرف على بعض العبارات الرئيسية."</string>
+    <string name="keyword_sensitivity">"حساسية الكلمة الأساسية"</string>
+    <string name="delete_phrase_msg">"هل تريد بالتأكيد حذف العبارة \"%1$s\"?"</string>
+    <string name="voice_print_not_available_title">"بصمة الصوت غير متوفرة"</string>
+    <string name="voice_print_not_available_msg">"بصمة الصوت ليست مُمكّنة على هذا الجهاز."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"نجح الحذف"</string>
+    <string name="delete_success_msg">"تم حذف نمط الجملة الأساسية."</string>
+    <string name="delete_fail_title">"فشل الحذف"</string>
+    <string name="delete_fail_msg">"حدث خطأ أثناء حذف نمط الجملة الأساسية."</string>
+    <string name="rename_success_title">"نجحت إعادة التسمية"</string>
+    <string name="rename_success_msg">"تمت إعادة تسمية نمط الجملة الأساسية."</string>
+    <string name="rename_fail_title">"فشلت إعادة التسمية"</string>
+    <string name="rename_fail_msg">"حدث خطأ أثناء إعادة تسمية نمط الجملة الأساسية."</string>
+    <string name="pin_validation">"التحقق من صحة رمز PIN"</string>
+    <string name="pin_failed">"إدخال رمز PIN غير صالح!"</string>
+    <string name="registration_failed">"فشل التسجيل"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"حد المستخدم"</string>
+    <string name="spoof_score">"حد الخداع"</string>
+    <string name="thresholds">"الحدود"</string>
+    <string name="save">"حفظ"</string>
+    <string name="sentence_score_msg">"تعيين حد العبارة"</string>
+    <string name="user_score_msg">"تعيين حد المستخدم"</string>
+    <string name="spoof_score_msg">"تعيين حد الخداع"</string>
+    <string name="sentence_score">"حد العبارة"</string></resources>

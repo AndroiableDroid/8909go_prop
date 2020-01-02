@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Подешавања роминга"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"Отворено"</string>
+    <string name="data_roaming_title">"Повезивање са услугом за податке током роминга"</string>
+    <string name="manual_select_network">"Ручни избор мреже"</string>
+    <string name="roaming_card_info">"Користиће приоритет мобилне пословне картице"</string>
+    <string name="network_select_success_info">"Успешно регистровање на мрежу „<xliff:g id="name">%s</xliff:g>“; аутоматска регистрација ће се активирати када мрежа није доступна"</string>
+    <string name="network_select_failure_info">"Мрежа „<xliff:g id="name">%s</xliff:g>“ коју сте изабрали није доступна; аутоматско започињање регистрације на другој мрежи"</string>
+    <string name="network_auto_success_info">"Успешно аутоматско регистровање на мрежу"</string>
+    <string name="network_auto_failure_info">"GSM мреже који сте изабрали није доступан; аутоматско започињање регистрације на другој мрежи"</string>
+    <string name="manual_select_network_tip">"Ова радња је важећа само када времена"</string>
+    <string name="gsm_network_list_title">"Могућност избора мреже"</string>
+    <string name="searching_cdma_network_title">"У току је претраживање cdma мреже..."</string>
+    <string name="searching_gsm_network_title">"У току је претраживање gsm мреже..."</string>
+    <string name="empty_networks_list">"Нису пронађене мреже."</string>
+    <string name="register_on_network">"Регистровање на <xliff:g id="NETWORK">%s</xliff:g>\u2026"</string>
+    <string name="register_automatically">"Аутоматска регистрација\u2026"</string>
+    <string name="network_select_setting">"Поставка мреже"</string>
+    <string name="roaming_hotline">"Дежурна служба за роминг +8618918910000"</string>
+    <string name="carrier_names">"China Telecom"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"Онемогућавање података..."</string>
+    <string name="unable_to_disable_data">"Подаци се не могу онемогућити."</string>
+    <string name="avoid_cur_nwk_succeeded">"Тренутна мрежа је додата на листу за избегавање."</string>
+    <string name="avoid_cur_nwk_failed">"Није могуће додати тренутну мрежу на листу за избегавање."</string>
+    <string name="clear_nwk_list_succeeded">"Листа мрежа за избегавање је обрисана."</string>
+    <string name="clear_nwk_list_failed">"Није могуће обрисати листу мрежа за избегавање."</string>
+    <string name="ok_btn">"У реду"</string>
+    <string name="cancel_btn">"Откажи"</string>
+    <string name="confirm_avoid">"Желите ли заиста да избегавате тренутну мрежу?"</string>
+    <string name="confirm_clear">"Желите ли заиста да обришете листу мрежа за избегавање?"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"CDMA избор"</string>
+    <string name="pref_gsm_choose_title">"GSM избор"</string>
+    <string name="pref_network_info_title">"Информације о тренутној мрежи"</string>
+    <string name="alert_msg_enable_card">"Желите ли да омогућите ову картицу?"</string>
+    <string name="alert_msg_disable_card">"Желите ли да онемогућите ову картицу?"</string>
+    <string name="progress_msg_enable_card">"Омогућавање ове картице. Сачекајте..."</string>
+    <string name="progress_msg_disable_card">"Онемогућавање ове картице. Сачекајте..."</string>
+    <string name="operation_success">"Операција је успела"</string>
+    <string name="operation_failure">"Операција није успела"</string>
+    <string name="result_btn">"У реду"</string>
+    <string name="alert_data_roaming_title">"Омогући пренос података у ромингу"</string>
+    <string name="alert_data_roaming_msg">"Када омогућите пренос података у ромингу, могу да настану велики трошкови роминга!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"Непознато"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"Није доступно"</string>
+    <string name="status_network_type">"Тип мобилне мреже"</string>
+    <string name="status_signal_strength">"Јачина сигнала"</string>
+    <string name="status_prl_version">"PRL верзија"</string>
+    <string name="status_data_state">"Статус мобилне мреже"</string>
+    <string name="status_netowrk_title">"Тренутни статус Sim картице"</string>
+    <string name="status_operator_name">"Име оператера"</string>
+    <string name="status_mcc">"МЦК"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"ID ЋЕЛИЈЕ"</string>
+    <string name="status_sms_center_number">"Број SMS центра"</string>
+    <string name="status_pnl_version">"Верзија листе жељених мрежа"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"ручно пребацивање на следећу мрежу"</string>
+    <string name="avoid_discription">"упутство:\n  аутоматски избор мреже је подразумеван у CDMA систему – не мора ручно да се бира, али ако тренутна мрежа не може да се користи, покушајте ручно да се пребаците на следећу мрежу. "</string>
+    <string name="attention_dialog_title">"Пажња"</string>
+    <string name="disable_both_sim_error_msg">"Није могуће истовремено онемогућити обе SIM картице"</string>
+    <string name="China_Mobile">"China Mobile"</string>
+    <string name="China_Unicom">"China Unicom"</string>
+    <string name="China_Telecom">"China Telecom"</string></resources>

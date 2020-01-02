@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"SmartProtect"</string>
+    <string name="title_dashboard">"Qualcomm® Snapdragon™ Smart Protect"</string>
+    <string name="title_app_info">"ព័ត៌មានកម្មវិធី"</string>
+    <string name="title_trusted">"កម្មវិធីដែលទុកចិត្ត"</string>
+    <string name="title_about">"អំពី"</string>
+    <string name="title_settings">"ការ​កំណត់"</string>
+    <string name="drawer_open_title">"ការការពារ Snapdragon Smart"</string>
+<string name="service_status_on">"បើក"</string>
+    <string name="service_status_off">"បិទ"</string>
+    <string name="err_title">"កំហុសកម្មវិធី"</string>
+    <string name="err_msg_init">"Snapdragon Smart Protect មិនអាច​ចាប់ផ្ដើម​បណ្ណាល័យ​ QSSP បានទេ។ បញ្ឈប់សេវាកម្ម"</string>
+    <string name="err_msg_load_model">"Snapdragon Smart Protect មិនអាច​ផ្ទុកម៉ូដែល​នេះបាន​ទេ។ បញ្ឈប់សេវាកម្ម"</string>
+    <string name="err_msg_malicious_alert">"Snapdragon Smart Protect មិនអាច​ចុះឈ្មោះការ​ព្រមាន​អំពីកម្មវិធីព្យាបាទ​បានទេ។ បញ្ឈប់សេវាកម្ម"</string>
+    <string name="err_msg_benign_alert">"Snapdragon Smart Protect មិនអាច​ចុះឈ្មោះការ​ព្រមានអំពី​កម្មវិធីមិនព្យាបាទបានទេ។ បញ្ឈប់សេវាកម្ម"</string>
+    <string name="err_msg_service_not_up">"Snapdragon Smart Protect មិនអាច​រកឃើញ​សេវា​ទៀតទេ។"</string>
+    <string name="about_company_title">"Qualcomm® Snapdragon™"</string>
+    <string name="about_copyright_line1">"រក្សាសិទ្ធិដោយក្រុមហ៊ុន © 2015 Qualcomm Technologies Inc."</string>
+    <string name="about_copyright_line2">"រក្សាសិទ្ធិគ្រប់យ៉ាង។"</string>
+    <string name="about_information_line1">"Qualcomm® Snapdragon™ Smart Protect  គឺជាលទ្ធផល​របស់​ក្រុមហ៊ុន Qualcomm Technologies, Inc."</string>
+    <string name="about_information_line2">"Qualcomm និង Snapdragon គឺជានិក្ខិតសញ្ញា​នៃសារជីវកម្ម Qualcomm ដែល​បាន​ចុះបញ្ជី​នៅ​សហរដ្ឋអាមេរិក និង​ប្រទេសផ្សេងទៀត​ដែល​បាន​ប្រើ​ជាមួយការអនុញ្ញាត​របស់វា។"</string>
+    <string name="btn_restore_default">"ស្ដារការកំណត់​លំនាំដើម"</string>
+    <string name="btn_clear_history">"ជម្រះ​ប្រវត្តិការពារឆ្លាតវៃ"</string>
+    <string name="trusted_btn">"បន្ថែម​ទៅបញ្ជីកម្មវិធីទុកចិត្ត"</string>
+    <string name="uninstall_btn">"ដកការដំឡើង"</string>
+    <string name="details_btn">"ព័ត៌មានលម្អិត"</string>
+    <string name="done_btn">"រួចរាល់"</string>
+    <string name="remove_trusted_btn">"យកចេញពី​បញ្ជីកម្មវិធីទុកចិត្ត"</string>
+    <string name="uninstall_confirm_message">"តើ​អ្នក​ចង់​លុប​កម្មវិធី​នេះ​ឬ?"</string>
+    <string name="uninstall_success">"កញ្ចប់ត្រូវបានដកការដំឡើងដោយ​ជោគជ័យ"</string>
+    <string name="uninstall_failed">"កញ្ចប់ត្រូវដកការដំឡើងបានបរាជ័យ"</string>
+    <string name="clear_history_done">"ប្រវត្តិត្រូវបាន​ជម្រះដោយជោគជ័យ"</string>
+    <string name="cause_text_prefix">"\u2022  "</string>
+    <string name="drawer_title">"ការការពារ Snapdragon Smart"</string>
+    <string name="drawer_threats">"បានរកឃើញការគំរាមកំហែង (%1$s)"</string>
+    <string name="drawer_threat_null">"ការការពារ​ឯកជនភាពនៅលើ​ឧបករណ៍ និងរកឃើញ​កម្មវិធីព្យាបាល​ជាក់ស្ដែង"</string>
+    <string name="drawer_option_dashboard">"ផ្ទាំងបញ្ជា"</string>
+    <string name="drawer_option_trusted_apps">"កម្មវិធីដែលទុកចិត្ត"</string>
+    <string name="drawer_option_settings">"ការ​កំណត់"</string>
+    <string name="drawer_option_about">"អំពី"</string>
+    <string name="dashboard_list_title">"ជ្រើសកម្មវិធីដើម្បីមើលព័ត៌មានលម្អិត និងការផ្ដល់​អនុសាសន៍​​អំពី Snapdragon Smart Protect ។"</string>
+    <string name="dashboard_list_empty">"គ្មានកម្មវិធី​កំពុងត្រូវបានពិនិត្យទេ។"</string>
+    <string name="app_info_recommend">"ការផ្ដល់អនុសាសន៍៖"</string>
+    <string name="app_info_version">"កំណែ"</string>
+    <string name="app_uninstalled">"កម្មវិធីលែងមាននៅលើឧបករណ៍នោះទៀតហើយ។ ចុច យល់ព្រម ដើម្បីបិទ។"</string>
+    <string name="malicious_item_threat">"Snapdragon Smart Protect ត្រូវបានរកឃើញ៖"</string>
+    <string name="malicious_item_confidence">"កម្រិតទំនុកចិត្ត៖"</string>
+    <string name="malicious_item_analysis">"ការវិភាគ"</string>
+    <string name="malicious_recommend">"លុប"</string>
+    <string name="good_threat">"គ្មានការគំរាមកំហែងត្រូវបានរកឃើញ។"</string>
+    <string name="good_recommend">"ជ្រើស រួចរាល់ ដូច្នេះ Snapdragon Smart Protect នឹង​បន្ត​ត្រួតពិនិត្យកម្មវិធីនេះ។"</string>
+    <string name="good_title">"ល្អ"</string>
+    <string name="trusted_item_title">"Snapdragon Smart Protect មិន​ត្រូតពិនិត្យ​សកម្មភាពរបស់ %1$s ពីព្រោះវា​ស្ថិតនៅលើបញ្ជី​កម្មវិធីទុកចិត្តរបស់អ្នក។\n\nបើ​អ្នកមិនប្រាកដ​អំពី​សុវត្ថិភាព​នៃកម្មវិធីនេះ សូមយកវាចេញពី​បញ្ជីកម្មវិធីទុកចិត្ត។"</string>
+    <string name="trusted_list_title">"Snapdragon Smart Protect មិន​តាមដាន​កម្មវិធីនៅលើ​បញ្ជី​នេះទេ។"</string>
+    <string name="trusted_list_subtitle">"បើ​អ្នកមិនប្រាកដ​អំពីសុវត្ថិភាព​របស់​កម្មវិធីនេះ សូមយក​វា​ចេញ​ពីបញ្ជីកម្មវិធីទុកចិត្ត។"</string>
+    <string name="trusted_list_empty">"មិនមា​ន​កម្មវិធី​នៅក្នុងបញ្ជី​កម្មវិធីទុកចិត្តរបស់​អ្នកទេ។"</string>
+    <string name="trusted_list_empty_desc">"កម្មវិធីនេះ​ផ្ដល់​ឲ្យ​អ្នក​នូវការការពារអតិបរមា ពីព្រោះ​ Snapdragon Smart Protect កំពុង​តាមដាន​កម្មវិធី​ទាំងអស់​របស់​អ្នក។"</string>
+    <string name="trusted_confirm_message">"តើអ្នកចង់​បន្ថែម​កម្មវិធីនេះ​ទៅកាន់​បញ្ជីកម្មវិធីទុកចិត្ត​របស់អ្នកដែរ​ឬទេ?\n\nបើ​អ្នក​មិនប្រាកដ​អំពីសុវត្ថិភាព​របស់​កម្មវិធីនេះ​ សូម​ជ្រើស​ បោះបង់។"</string>
+    <string name="malicious_ntf_message">"Snapdragon Smart Protect បាន​រកឃើញសកម្មភាព​គ្រោះថ្នាក់នៅក្នុង %1$s។"</string>
+    <string name="malicious_ntf_recommend">"ការផ្ដល់អនុសាសន៍៖ ដកការដំឡើង"</string>
+    <string name="malicious_dialog_title">"កម្មវិធីព្យាបាទ"</string>
+    <string name="malicious_text">"កម្មវិធីព្យាបាទ"</string>
+    <string name="malware_ntf_message">"Snapdragon Smart Protect បាន​រកឃើញ​កម្មវិធី​គ្រោះថ្នាក់​នៅក្នុង %1$s។"</string>
+    <string name="malware_dialog_title">"កម្មវិធីគ្រោះថ្នាក់ត្រូវបានរកឃើញ"</string>
+    <string name="malware_title">"កម្មវិធីគ្រោះថ្នាក់"</string>
+    <string name="spyware_ntf_message">"Snapdragon Smart Protect បានរកឃើញកម្មវិធីចារកម្មនៅ​ក្នុង %1$s។"</string>
+    <string name="spyware_dialog_title">"កម្មវិធីចារកម្មត្រូវបានរកឃើញ"</string>
+    <string name="spyware_title">"កម្មវិធីចារកម្ម"</string>
+    <string name="adware_ntf_message">"Snapdragon Smart Protect បានរកឃើញកម្មវិធី adware នៅក្នុង %1$s។"</string>
+    <string name="adware_dialog_title">"កម្មវិធី Adware ត្រូវបានរកឃើញ"</string>
+    <string name="adware_title">"កម្មវិធី Adware"</string>
+<string name="err_no_app_dashborad">"បញ្ជី​កម្មវិធីផ្ទាំងបញ្ជាគឺទទេ"</string>
+    <string name="analysis_title">"%1$sវាទំនងជាមានគ្រោះថ្នាក់​ដោយ​សារហេតុផល​ខាងក្រោម៖"</string>
+    <string name="service_label">"សេវា Sphinx"</string>
+    <string name="unknown_code">" លេខកូដ - %1$d"</string>
+    <string name="default_code_detail">"កម្មវិធីកំពុងព្យាយាម​ធ្វើសកម្មភាពដែល​ព្យាបាល។"</string>
+    <string-array name="malicious_ntf_info">
+        <item>"អាចនឹង​អនុវត្ត​សកម្មភាព​គ្រោះថ្នាក់​នៅលើ​ឧបករណ៍​របស់​អ្នក។"</item>
+        <item>"កម្មវិធី Malware កម្រិត 1៖ អនុវត្ត​សកម្មភាព​គ្រោះថ្នាក់​ទៅលើ​មាតិកាអ្នកប្រើ កម្មវិធី​និងឧបករណ៍។"</item>
+        <item>"Level 2 Malware: អនុវត្ត​សកម្មភាព​​ដែល​អាច​បណ្ដាល​ឲ្យចំណាយ​ប្រាក់​ដល់​អ្នកប្រើ។"</item>
+        <item>"កម្មវិធីចារកម្មកម្រិត 3 ៖ ធ្វើឲ្យបែកធ្លាយ/លួច​មាតិកា​ និងតាមដាន​យ៉ាងសកម្ម​ទៅលើ​អ្នកប្រើ។"</item>
+        <item>"កម្មវិធីចារកម្មកម្រិត 4 ៖ ធ្វើឲ្យបែក​ធ្លាយ/លួច​ព័ត៌មានមេតារបស់អ្នកប្រើ។"</item>
+        <item>"កម្មវិធីចារកម្មកម្រិត 5 ៖ ធ្វើឲ្យបែក​ធ្លាយ/លួច​ព័ត៌មានសំខាន់របស់​ឧបករណ៍។"</item>
+        <item>"កម្មវិធីរំខានកម្រិត 6 ៖ ជាកម្មវិធី adware និង/ឬកម្មវិធីរំលោភបំពាន។"</item>
+    </string-array>
+    <string name="setting_level1_title">"កម្មវិធី Malware កម្រិត 1"</string>
+    <string name="setting_level2_title">"កម្មវិធី Malware កម្រិត 2"</string>
+    <string name="setting_level3_title">"កម្មវិធីចារកម្មកម្រិត 3"</string>
+    <string name="setting_level4_title">"កម្មវិធីចារកម្មកម្រិត 4"</string>
+    <string name="setting_level5_title">"កម្មវិធីចារកម្មកម្រិត 5"</string>
+    <string name="setting_level6_title">"កម្មវិធី Adware កម្រិត 6 "</string>
+    <string name="setting_mode_title">"របៀបកំណត់"</string>
+    <string name="setting_default_level1">0</string>
+    <string name="setting_default_level2">0</string>
+    <string name="setting_default_level3">0</string>
+    <string name="setting_default_level4">1</string>
+    <string name="setting_default_level5">1</string>
+    <string name="setting_default_level6">1</string>
+    <string name="setting_default_mode">0</string>
+    <string-array name="setting_level_options">
+        <item>"លេចឡើង និងការព្រមានស្ដង់ដារ"</item>
+        <item>"ការព្រមានស្ដង់ដារ"</item>
+        <item>"គ្មានការព្រមាន"</item>
+    </string-array>
+    <string-array name="setting_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="setting_mode_options">
+        <item>"ម៉ូដធម្មតា"</item>
+        <item>"ម៉ូដស្ងាត់"</item>
+    </string-array>
+    <string-array name="setting_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array></resources>

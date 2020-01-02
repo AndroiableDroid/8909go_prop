@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"STA"</string>
+    <string name="title_settings_activity">"تنظیمات"</string>
+    <string name="title_contact_activity">"افزودن مخاطب"</string>
+    <string name="title_event_activity">"افزودن رویداد"</string>
+    <string name="title_add_field">"انتخاب برچسب"</string>
+    <string name="title_text_activity">"نتایج"</string>
+    <string name="title_pick_datetime">"انتخاب زمان و تاریخ"</string>
+    <string name="title_app_message">"پیام"</string>
+    <string name="menu_item_copy">"کپی"</string>
+    <string name="menu_item_edit">"ویرایش"</string>
+    <string name="date_picker_ok">"تأیید"</string>
+    <string name="date_picker_cancel">"لغو"</string>
+    <string name="dropdown_none_option">"هیچکدام"</string>
+    <string name="scan_more">"پیدا کردن موارد بیشتر"</string>
+    <string name="bar_save_option">"ذخیره"</string>
+    <string name="bar_done_option">"انجام شد"</string>
+    <string name="camera_option_open_image">"باز کردن تصویر"</string>
+    <string name="camera_option_settings">"تنظیمات"</string>
+    <string name="text_action_search">"جستجو"</string>
+    <string name="text_action_translate">"ترجمه"</string>
+    <string name="text_action_copy">"کپی"</string>
+    <string name="translate_url">"https://translate.google.com/m/translate#auto/"</string>
+    <string name="instruction_camera">"از دوربینتان برای استخراج اطلاعات مفید از کارت‌های ویزیت، آگهی‌ها و سایر تصویرها استفاده کنید."</string>
+    <string name="instruction_dont_show">"دوباره نشان داده نشود"</string>
+    <string name="instruction_dismiss_button">"تأیید"</string>
+    <string name="message_no_more_fields">"فیلد دیگری برای افزودن وجود ندارد"</string>
+    <string name="message_contact_saved">"مخاطب با موفقیت ذخیره شد."</string>
+    <string name="message_calendar_saved">"رویداد تقویم با موفقیت ذخیره شد."</string>
+    <string name="message_text_copied">"نوشتار کپی شد."</string>
+    <string name="message_no_matching_app">"برنامه‌ای برای مدیریت وجود ندارد"</string>
+    <string name="message_gallery_pan_zoom">"می‌توانید برای تشخیص الگوی این عکس، دوربین را حرکت دهید و بزرگ‌نمایی کنید."</string>
+    <string name="message_restart_scanning">"برای شروع مجدد ضربه بزنید."</string>
+    <string name="message_no_dates">"تاریخی شناسایی نشد"</string>
+    <string name="message_hold_steady">"به سمت متن گرفته و بدون حرکت نگه دارید"</string>
+    <!-- Error information -->
+    <string name="error_prefix">" خطا: 0x"</string>
+    <string name="error_title">"خطا"</string>
+    <string name="error_dismiss_button">"تأیید"</string>
+    <string name="error_camera_failed">"دوربین مقداردهی اولیه نشد."</string>
+    <string name="error_camera_snapshot_failed">"دوربین، عکس از صفحه نگرفت."</string>
+    <string name="error_galleryImage_load">"برنامه، عکس را بارگیری نکرد."</string>
+    <string name="error_api_frame_timeout">"نوشتاری شناسایی نشد."</string>
+    <string name="error_api_init_failed">"STA Api مقداردهی اولیه نشد."</string>
+    <string name="error_api_parsing_failed">"STA Api نتوانست تصویر را تجزیه کند، دوباره امتحان کنید."</string>
+    <string name="error_api_no_records">"نوشتاری شناسایی نشد."</string>
+    <string name="error_api_restart_failed">"API راه‌اندازی نشد."</string>
+    <string name="error_api_no_new_records">"اطلاعات جدیدی پیدا نشد."</string>
+    <string name="error_min_max_limit">"لطفاً مقداری بین %1$s و %2$s وارد کنید"</string>
+    <string name="error_no_sta_data_selected">"لطفاً حداقل یک مورد را انتخاب کنید."</string>
+    <!-- Contact information -->
+    <string name="contact_name_field_caption">"نام"</string>
+    <string name="contact_nickname_field_caption">"نام مستعار"</string>
+    <string name="contact_nickname_field_name">"نام مستعار"</string>
+    <string name="contact_title_field_caption">"عنوان"</string>
+    <string name="contact_company_field_caption">"شرکت"</string>
+    <string name="contact_phone_work_field_caption">"تلفن"</string>
+    <string name="contact_phone_work_field_name">"تلفن (محل کار)"</string>
+    <string name="contact_phone_mobile_field_caption">"تلفن"</string>
+    <string name="contact_phone_mobile_field_name">"تلفن (همراه)"</string>
+    <string name="contact_phone_home_field_caption">"تلفن"</string>
+    <string name="contact_phone_home_field_name">"تلفن (خانه)"</string>
+    <string name="contact_phone_fax_field_caption">"تلفن"</string>
+    <string name="contact_phone_fax_field_name">"تلفن (نمابر)"</string>
+    <string name="contact_address_field_caption">"آدرس"</string>
+    <string name="contact_address_field_name">"آدرس"</string>
+    <string name="contact_email_field_caption">"ایمیل"</string>
+    <string name="contact_email_field_name">"ایمیل"</string>
+    <string name="contact_website_field_caption">"وب‌سایت"</string>
+    <string name="contact_website_field_name">"وب‌سایت"</string>
+    <string name="contact_im_field_caption">"پیام‌رسانی فوری"</string>
+    <string name="contact_relationship_field_caption">"رابطه"</string>
+    <string name="contact_relationship_field_name">"رابطه"</string>
+    <string name="contact_notes_field_caption">"نکات"</string>
+    <string name="contact_notes_field_name">"یادداشت‌ها"</string>
+    <!-- Event information -->
+    <string name="event_title_field_caption">"عنوان"</string>
+    <string name="event_from_date_field_caption">"از"</string>
+    <string name="event_to_date_field_caption">"به"</string>
+    <string name="event_location_field_caption">"موقعیت مکانی"</string>
+    <string name="event_location_field_name">"مکان"</string>
+    <string name="event_all_day_field_caption">"همه روز"</string>
+    <string name="event_repeat_field_caption">"تکرار"</string>
+    <string name="event_details_field_caption">"جزئیات"</string>
+    <string name="event_details_field_name">"جزئیات"</string>
+    <string name="event_participants_field_caption">"اعضا"</string>
+    <string name="event_participants_field_name">"اعضا"</string>
+    <string name="event_date_time_format_long">"EEE M/d/yyyy h:mm a"</string>
+    <string name="event_date_time_format_small">"M/d/yyyy h:mm a"</string>
+    <string name="event_date_format_long">"EEE M/d/yyyy"</string>
+    <string name="event_date_format_small">"MMM d, yyyy"</string>
+    <string name="event_date_format_month_small">"MMM"</string>
+    <string name="event_date_format_month_full">"MMMM"</string>
+    <string name="event_date_format_year">"yyyy"</string>
+    <string name="event_date_format_weekday">"EEE"</string>
+    <string name="event_date_format_small_no_year">"EEE MMM d"</string>
+    <string name="event_time_format">"h:mm a"</string>
+    <string name="event_date_separator">"-"</string>
+    <string name="preview_type_key">"com.qualcomm.qti.sta.captureui.CameraActivity.preview_type"</string>
+    <string name="preview_type_button">"دکمه"</string>
+    <string name="preview_type_auto">"خودکار"</string>
+    <!-- Repeat -->
+    <string name="repeat_title">"تکرار"</string>
+    <string name="repeat_button_cancel">"لغو"</string>
+    <string name="repeat_button_ok">"تأیید"</string>
+    <string name="repeat_summary_one_time">"رویداد یک بار"</string>
+    <string name="repeat_summary_daily">"روزانه"</string>
+    <string name="repeat_summary_daily_every">"هر%1$s روز"</string>
+    <string name="repeat_summary_weekly">"هر هفته روز %1$s"</string>
+    <string name="repeat_summary_weekly_every">"هر %1$s هفته %2$s"</string>
+    <string name="repeat_summary_monthly_date">"هر ماه روز %1$s"</string>
+    <string name="repeat_summary_monthly_day">"هر ماه روز %1$s"</string>
+    <string name="repeat_summary_monthly_date_every">"هر %1$s ماه روز %2$s"</string>
+    <string name="repeat_summary_monthly_day_every">"هر %1$s ماه روز %2$s"</string>
+    <string name="repeat_summary_yearly">"سالانه هر %1$s"</string>
+    <string name="repeat_summary_yearly_every">"هر %1$s سال %2$s"</string>
+    <string name="repeat_summary_till_date">"تا %1$s"</string>
+    <string name="repeat_summary_till_events">"برای %1$s بار"</string>
+    <string name="repeat_summary_till_one_event">"برای 1 بار"</string>
+    <string name="repeat_title_pick_date">"انتخاب تاریخ"</string>
+    <string name="repeat_one_time">"رویداد یک بار"</string>
+    <string name="repeat_daily">"تکرار روزانه"</string>
+    <string name="repeat_weekly">"تکرار هفتگی"</string>
+    <string name="repeat_monthly">"تکرار ماهانه"</string>
+    <string name="repeat_yearly">"تکرار سالانه"</string>
+    <string name="repeat_till_day">"روز"</string>
+    <string name="repeat_till_week">"هفته"</string>
+    <string name="repeat_till_month">"ماه"</string>
+    <string name="repeat_till_year">"سال"</string>
+    <string name="sunday_name">"1ش"</string>
+    <string name="monday_name">"2ش"</string>
+    <string name="tuesday_name">"3ش"</string>
+    <string name="wednesday_name">"4ش"</string>
+    <string name="thursday_name">"5ش"</string>
+    <string name="friday_name">"ج"</string>
+    <string name="saturday_name">"ش"</string>
+    <string-array name="number_texts">
+        <item>"ابتدا"</item>
+        <item>"ثانیه"</item>
+        <item>"سومین"</item>
+        <item>"چهارمین"</item>
+        <item>"پانزدهم"</item>
+    </string-array>
+    <string-array name="two_letter_day_names">
+        <item>"1ش"</item>
+        <item>"2ش"</item>
+        <item>"3ش"</item>
+        <item>"4ش"</item>
+        <item>"5ش"</item>
+        <item>"ج"</item>
+        <item>"ش"</item>
+    </string-array>
+    <string-array name="short_day_names">
+        <item>@string/sunday_name</item>
+        <item>@string/monday_name</item>
+        <item>@string/tuesday_name</item>
+        <item>@string/wednesday_name</item>
+        <item>@string/thursday_name</item>
+        <item>@string/friday_name</item>
+        <item>@string/saturday_name</item>
+    </string-array>
+    <string-array name="complete_day_names">
+        <item>"یکشنبه"</item>
+        <item>"دوشنبه"</item>
+        <item>"سه شنبه"</item>
+        <item>"چهارشنبه"</item>
+        <item>"پنج شنبه"</item>
+        <item>"جمعه"</item>
+        <item>"شنبه"</item>
+    </string-array>
+    <string name="repeat_month_same_date">"هر ماه همین تاریخ"</string>
+    <string name="repeat_month_same_day">"در هر"</string>
+    <string name="repeat_every_caption">"هر"</string>
+    <string-array name="till_types">
+        <item>"همیشه"</item>
+        <item>"تا"</item>
+        <item>"تکرار"</item>
+    </string-array>
+    <!-- Settings -->
+    <string name="setting_sta_data_type">"انواع داده STA"</string>
+    <string name="setting_sta_locale_type">"محل STA"</string>
+    <string name="setting_text_record_mode">"حالت دوربین"</string>
+    <string name="setting_camera_steady_duration">"مدت زمان حرکت یکنواخت دوربین (در واحد میلی ثانیه)"</string>
+    <string name="setting_camera_move_threshold">"آستانه حرکت دوربین"</string>
+    <string name="setting_sta_locale_usa">"ایالات متحده آمریکا"</string>
+    <string name="setting_sta_locale_china">"CHN"</string>
+    <string name="setting_sta_locale_korea">"KOR"</string>
+    <string name="setting_default_sta_locale">@string/setting_sta_locale_usa</string>
+    <string name="setting_text_record_snapshot_mode">"عکس از صفحه"</string>
+    <string name="setting_text_record_preview_mode">"پیش‌نمایش"</string>
+    <string name="setting_default_text_record_mode">@string/setting_text_record_snapshot_mode</string>
+    <string name="setting_sta_language_usa">"en"</string>
+    <string name="setting_sta_language_china">"zh-CN"</string>
+    <string name="setting_sta_langauge_korea">"ko"</string>
+    <string-array name="setting_sta_data_type_options">
+        <item>"ایمیل"</item>
+        <item>"نشانی اینترنتی"</item>
+        <item>"شماره تلفن"</item>
+        <item>"آدرس"</item>
+        <item>"تاریخ"</item>
+        <item>"عمومی"</item>
+    </string-array>
+    <string-array name="setting_sta_data_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type">
+        <item>"ایالات متحده آمریکا"</item>
+        <item>"چین"</item>
+        <item>"کره"</item>
+    </string-array>
+    <string-array name="setting_sta_locale_type_values">
+        <item>@string/setting_sta_locale_usa</item>
+        <item>@string/setting_sta_locale_china</item>
+        <item>@string/setting_sta_locale_korea</item>
+    </string-array>
+    <string-array name="setting_text_record_options">
+        <item>@string/setting_text_record_snapshot_mode</item>
+        <item>@string/setting_text_record_preview_mode</item>
+    </string-array>
+    <string name="settings_scve_mode">"حالت عملکرد SCVE"</string>
+    <string-array name="settings_scve_mode_entries">
+        <item>"پیش‌فرض"</item>
+        <item>"انتقال داده‌های CPU"</item>
+        <item>"عملکرد"</item>
+        </string-array>
+    <string-array name="settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+    </string-array>
+    <string name="settings_scve_mode_default">0</string></resources>

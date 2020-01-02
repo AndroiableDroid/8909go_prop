@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+    Copyright (c) 2014 pci-suntektech Technologies, Inc.  All Rights Reserved.
+    pci-suntektech Technologies Proprietary and Confidential.
+-->
+<resources>
+    <string name="app_name">"rcs_service"</string>
+    <string name="action_settings">"Mga Setting"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sdcard_disable">SD卡不可用，请检查是否已插入SD卡，如果已连接电脑，请确认不是使用U盘模式连接，否则先断开连接</string>
+    <add-resource type="string" name="emoticon"/>
+    <string name="emoticon">"[emoticon]"</string></resources>

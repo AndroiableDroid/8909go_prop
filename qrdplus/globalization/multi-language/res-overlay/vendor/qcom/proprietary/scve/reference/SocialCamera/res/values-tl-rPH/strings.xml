@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Social Camera"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"Nakaranas kami ng error habang pinatototohanan o humihiling ng mga pahintulot. Pakitingnan ang logcat para sa karagdagang detalye."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Ipadala (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"Nawala ang koneksyon sa camera"</string>
+    <string name="camera_preview_error_camera_error">"Error mula sa camera: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Nabigong kumuha ng larawan"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Nakaranas kami ng error habang sine-save ang larawan sa gallery mo"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Mga setting"</string>
+    <string name="camera_settings_category_camera_settings">"Mga Setting ng Camera"</string>
+    <string name="camera_settings_category_fr_settings">"Mga Setting sa Pagkilala ng Mukha"</string>
+    <string name="camera_settings_category_debug_settings">"I-debug ang Mga Setting"</string>
+    <string name="camera_settings_fr_database_cleared">"Nilimas ang database ng pagkilala sa mukha"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"I-dismiss"</string>
+    <string name="picture_review_send_faces">"Ipadala (%d)"</string>
+    <string name="picture_review_no_faces">"Walang sinumang nakita sa larawang ito"</string>
+    <string name="picture_review_error_face_recognition">"Nakaranas kami ng error habang kinikilala ang mga mukha"</string>
+    <string name="picture_review_error_face_enroll">"Paumanhin, nakaranas kami ng error habang sine-save ang mga mukhang ito. Mangyaring kumuha ng isa pang larawan ng subject at subukan muli."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Ibang Kontak\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Ibahagi ang mga setting"</string>
+    <string name="fr_share_settings_button_just_once">"Minsan Lang"</string>
+    <string name="fr_share_settings_button_always">"Palagi"</string>
+    <string name="fr_share_settings_share_method_sms">"Padalhan ng mensahe"</string>
+    <string name="fr_share_settings_share_method_email">"Email"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"Tingnan ito!"</string>
+    <string name="social_sharing_error_no_email_app">"Wala kang app na kayang magpadala ng email"</string></resources>

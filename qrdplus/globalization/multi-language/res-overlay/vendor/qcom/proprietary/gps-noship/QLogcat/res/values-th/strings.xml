@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="hello">Hello World, QLogcatActivity!</string>
+    <string name="app_name">"QLogcat"</string>
+    <string-array name="LogLevelOptions">
+        <item>"ละเอียด"</item>
+        <item>"ดีบัก"</item>
+        <item>"ข้อมูล"</item>
+        <item>"คำเตือน"</item>
+        <item>"ข้อผิดพลาด"</item>
+        <item>"ร้ายแรง"</item>
+    </string-array>
+    <string-array name="LogLevelOptionsValues">
+        <item>V</item>
+        <item>D</item>
+        <item>"I"</item>
+        <item>W</item>
+        <item>E</item>
+        <item>"F"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptions">
+        <item>"การ์ด SD"</item>
+        <item>"หน่วยความจำภายใน"</item>
+    </string-array>
+    <string-array name="LogFileLocationOptionsValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="err_filesystem">"ไม่สามารถบันทึกในไฟล์บันทึกได้ ไม่ได้บันทึกข้อความบันทึก กระบวนการบันทึกจะทำงานต่อโดยอัตโนมัติเมื่อไฟล์บันทึกพร้อมอีกครั้ง"</string>
+    <string name="err_lowspace">"ตรวจพบพื้นที่เหลือน้อย ไม่ได้บันทึกข้อความบันทึก กระบวนการบันทึกจะทำงานต่อโดยอัตโนมัติเมื่อมีพื้นที่เพียงพอ"</string>
+  <string name="txtTag_text">"ชื่อแท็ก"</string>
+  <string name="txtTime_text">18:28:38</string>
+  <string name="txtLevel_text">D</string>
+  <string name="txtPid_text">0000</string>
+  <string name="txtTid_text">0000</string>
+  <string name="txtDesc_text">"คำอธิบาย Logcat"</string></resources>

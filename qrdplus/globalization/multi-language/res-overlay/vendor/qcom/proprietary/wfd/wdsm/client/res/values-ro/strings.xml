@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Client Wfd"</string>
+    <string name="preferences_name">"Preferinţe"</string>
+    <string name="advanced_preferences_name">"Preferințe avansate"</string>
+    <string name="surface_activity_name">"Activitate de suprafață"</string>
+    <string name="wfd_resolution_settings">wfd_resolution_settings</string>
+	<string name="resolution_list_title">"Rezoluție dorită"</string>
+	<string name="resolution_list_summary">"Selectați rezoluția"</string>
+	<string name="resolution_dialog_title">"Alegeți rezoluția"</string>
+	<string name="resolution_list_options_default_values">0</string>
+	<string name="wfd_bitrate_settings">wfd_bitrate_settings</string>
+	<string name="bitrate_list_title">"Rată de biți dorită"</string>
+	<string name="bitrate_list_summary">"Selectați rata de biți"</string>
+	<string name="bitrate_dialog_title">"Alegeți rata de biți"</string>
+	<string name="bitrate_list_options_default_values">12</string>
+	<string name="btn_source">"Sursă"</string>
+	<string name="btn_sink">"Recipient"</string>
+	<string name="btn_find">"Găsiţi"</string>
+    <string name="btn_create_group">"Creaţi grupul"</string>
+    <string name="btn_remove_group">"Eliminați grupul"</string>
+	<string name="btn_blank">"Gol"</string>
+	<string name="tv_peers">"Celelalte persoane"</string>
+	<string name="btn_play_pause">"Redaţi"</string>
+	<string name="btn_standby_resume">"Standby"</string>
+	<string name="btn_teardown">"Elim."</string>
+	<string name="btn_start_stop_uibc">"Porniţi UIBC"</string>
+	<string name="btn_transport_udp_tcp">"TCP"</string>
+	<string name="btn_flush">"FLS"</string>
+    <string name="btn_enable_disable_ds">"Activare DS"</string>
+    <string name="enable_p2p_button">"P2P activat/dezactivat"</string>
+    <string name="discover_peers_button">"Descoperiți"</string>
+    <string name="connect_peer_button">"Conectați-vă"</string>
+    <string name="connect_options_peer_button">"Opțiuni de conectare"</string>
+    <string name="disconnect_peer_button">"Deconectaţi"</string>
+    <string name="start_client_button">"Porniți sesiunea"</string>
+    <string name="start_uibc_button">"Porniţi UIBC"</string>
+    <string name="empty"></string>
+    <string name="yes">"Da"</string>
+    <string name="no">"Nu"</string>
+    <string name="client_text">"Acest dispozitiv va funcționa ca un client. Dați clic pe butonul Galerie pentru a alege un fișier (stocat) local"</string>
+    <string name="empty_message">"Nu s-au găsit dispozitive. Selectați butonul de căutare din bara de acțiuni."</string>
+    <string name="p2p_off_warning">"Activați P2P din setările de sistem"</string>
+    <string name="group_owner_text">"Sunt proprietar de grup? "</string>
+    <string name="toggle">"Comutați"</string>
+    <string name="filter">"Filtraţi"</string>
+    <string name="position">"poziție"</string>
+    <string name="expanded">"extins"</string></resources>

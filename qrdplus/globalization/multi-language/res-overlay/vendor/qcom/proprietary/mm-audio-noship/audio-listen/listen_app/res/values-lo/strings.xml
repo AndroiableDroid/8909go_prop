@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="no"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name_ux10">"ການເປີດໃຊ້ງານສຽງ"</string>
+    <string name="home_menu_version">"ໝາຍເລກເວີຊັນ"</string>
+    <string name="home_menu_settings">"ການຕັ້ງຄ່າ"</string>
+    <string name="home_soundmodel">"ຕົວແບບສຽງ"</string>
+    <string name="home_startvoiceactivation">"ເລີ່ມການເປີດໃຊ້ງານສຽງ"</string>
+    <string name="home_stopvoiceactivation">"ຢຸດການເປີດໃຊ້ງານສຽງ"</string>
+    <string name="home_advanceddetail">"ລາຍລະອຽດຂັ້ນສູງ"</string>
+    <string name="home_advanceddetail_keyword">"ຄໍາສໍາຄັນ:"</string>
+    <string name="home_advanceddetail_user">"ຜູ້ໃຊ້:"</string>
+    <string name="home_advanceddetail_initialdetections">0</string>
+    <string name="home_advanceddetail_initialscore">0</string>
+    <string name="home_advanceddetail_scorepossible">/100</string>
+    <string name="home_dialog_startingvoiceactivation">"ກຳລັງເລີ່ມການເປີດໃຊ້ງານສຽງ"</string>
+    <string name="home_dialog_stoppingvoiceactivation">"ກຳລັງຢຸດການເປີດໃຊ້ງານສຽງ"</string>
+    <string name="home_dialog_pleasewait">"ກະລຸນາລໍຖ້າ... "</string>
+    <string name="home_dialog_badlibs_title">"listenlib ຂາດຫາຍໄປ/ບໍ່ເຂົ້າກັນ"</string>
+    <string name="home_dialog_badlibs_message">"ບໍ່ສາມາດດໍາເນີນການຕໍ່ໄດ້. ກະລຸນາຄລິກ ຕົກລົງ ເພື່ອປິດແອັບ."</string>
+    <string name="soundmodels_top_title">"ຕົວແບບສຽງ"</string>
+    <string name="soundmodels_dialog_adduser_title">"ເພີ່ມຜູ້ໃຊ້ໃໝ່"</string>
+    <string name="dialog_cancel">"ຍົກ​ເລີກ"</string>
+    <string name="dialog_save">"ບັນທຶກ"</string>
+    <string name="dialog_ok">"ຕົກລົງ"</string>
+    <string name="soundmodels_dialog_deletesoundmodel_title">"ລຶບຕົວແບບສຽງ"</string>
+    <string name="soundmodels_dialog_train_title">"ຝຶກຕົວແບບສຽງ"</string>
+    <string name="soundmodels_dialog_train_content">"ຈຳເປັນຕ້ອງຝຶກເພື່ອສ້າງຕົວແບບສຽງສຳລັບຜູ້ໃຊ້ນີ້."</string>
+    <string name="soundmodels_dialog_option_deletesoundmodel">"ລຶບຕົວແບບສຽງ"</string>
+    <string name="soundmodels_dialog_option_starttrain">"ເລີ່ມການຝຶກ"</string>
+    <string name="soundmodels_dialog_selectkeyword_title">"ເລືອກຄໍາສໍາຄັນ"</string>
+    <string name="soundmodels_dialog_duplicate_title">"ຕົວແບບສຽງມີຢູ່ແລ້ວ"</string>
+    <string name="soundmodels_dialog_duplicate_content">"ກະລຸນາເລືອກການລວມກັນຂອງຄຳສຳຄັນ ແລະຊື່ຜູ້ໃຊ້ທີ່ບໍ່ຊໍ້າກັນ"</string>
+    <string name="soundmodels_dialog_invalid_title">"ຝຶກຕົວແບບສຽງ"</string>
+    <string name="soundmodels_dialog_invalid_content">"ຈຳເປັນຕ້ອງຝຶກເພື່ອສ້າງຕົວແບບສຽງສຳລັບຜູ້ໃຊ້ນີ້."</string>
+    <string name="soundmodel_listitem_keyword">"ຂໍ້ຄວາມຕົວແບບສຽງ"</string>
+    <string name="soundmodel_listitem_username">"ຂໍ້ຄວາມຊື່ຜູ້ໃຊ້"</string>
+    <string name="training_welcome_unkownuser">"ຜູ້ໃຊ້ທີ່ບໍ່ຮູ້ຈັກ"</string>
+    <string name="training_welcome_notice">"ເພື່ອຊ່ວຍຂ້ອຍຮຽນຮູ້ການຮັບຮູ້ສຽງຂອງທ່ານ, ກະລຸນາອັດບັນທຶກການເວົ້າຄຳສຳຄັນຫ້າຄັ້ງຂອງທ່ານ."</string>
+    <string name="training_welcome_recording_tip_title">"ຄໍາແນະນໍາການອັດບັນທຶກ"</string>
+    <string name="training_welcome_recording_tip">"1. ຈັບໂທລະສັບໄວ້ຕໍ່ໜ້າທ່ານໃນຫ່າງຈາກປາກທ່ານຊົ່ວໄລຍະແຂນ. \n2.ອັດບັນທຶກໃນບ່ອນທີ່ງຽບທີ່ມີສຽງບົນແຊວນ້ອຍສຸດ. \n3.ເວົ້າໃຫ້ຈະແຈ້ງ, ດັງ, ແລະ ໃນແບບຄຳສັ່ງ."</string>
+    <string name="training_recording_recording">"ການບັນທຶກ..."</string>
+    <string name="training_recording_processing">"ກໍາລັງດໍາເນີນການ..."</string>
+    <string name="training_recording_complete">"ສຳເລັດແລ້ວ!"</string>
+    <string name="training_recording_notice_good">"ສົມບູນແບບ!\nສືບຕໍ່ເວົ້າມັນແບບນັ້ນ!"</string>
+    <string name="training_recording_notice_bad">"ມີບັນຫາກັບການອັດບັນທຶກຂອງທ່ານ. ກະລຸນາລອງໃໝ່."</string>
+    <string name="training_recording_continue">"ສືບຕໍ່"</string>
+    <string name="training_dialog_createsoundmodel">"ສ້າງຕົວແບບສຽງແບບເປັນສ່ວນຕົວຂອງທ່ານ."</string>
+    <string name="training_dialog_close_title">"ທ່ານແນ່ໃຈບໍວ່າທ່ານຕ້ອງການປິດ?"</string>
+    <string name="training_dialog_close_message">"ທຸກການອັດບັນທຶກທີ່ຝຶກໃນປະຈຸບັນຈະຖືກລຶບ."</string>
+    <string name="training_dialog_smcreatefailed_title">"ການສ້າງຕົວແບບສຽງບໍ່ສຳເລັດ"</string>
+    <string name="training_dialog_smcreatefailed_message">"ພວກເຮົາບໍ່ສາມາດສ້າງຕົວແບບສຽງແບບສ່ວນຕົວຂອງທ່ານໄດ້. ກະລຸນາລອງໃໝ່."</string>
+    <string name="settings_top_title">"ການຕັ້ງຄ່າ"</string>
+    <string name="settings_thresholds">"ຂີດຈຳກັດ"</string>
+    <string name="settings_threshold_keyword">"ຂີດຈຳກັດຄວາມໝັ້ນໃຈຂອງຄຳສຳຄັນ"</string>
+    <string name="settings_threshold_speaker">"ຂີດຈຳກັດຄວາມໝັ້ນໃຈຂອງຜູ້ເວົ້າ"</string>
+    <string name="settings_moreoptions">"ຕົວເລືອກເພີ່ມເຕີມ"</string>
+    <string name="settings_moreoption_listen">"ຟັງ"</string>
+    <string name="settings_moreoption_listen_desc">"ເປີດໃຊ້ງານ/ປິດໃຊ້ງານ ການຟັງ"</string>
+    <string name="settings_moreoption_voiceactivation">"ການເປີດໃຊ້ງານສຽງ"</string>
+    <string name="settings_moreoption_voiceactivation_desc">"ເປີດໃຊ້/ປິດໃຊ້ການປີດໃຊ້ງານສຽງ"</string>
+    <string name="settings_moreoption_userverification">"ການກວດສອບຜູ້ໃຊ້"</string>
+    <string name="settings_moreoption_userverification_desc">"ເປີດໃຊ້/ປິດໃຊ້ການກວດສອບຜູ້ໃຊ້"</string>
+    <string name="settings_moreoption_failurefeedback">"ຄຳເຫັນຕິຊົມການກວດພົບບໍ່ສຳເລັດ"</string>
+    <string name="settings_moreoption_failurefeedback_desc">"ເປີດໃຊ້/ປິດໃຊ້ຄຳເຫັນຕິຊົມການກວດພົບບໍ່ສຳເລັດ"</string>
+    <string name="settings_moreoption_tone">"ກວດຫາ, ບໍ່ມີສຽງການກວດພົບ"</string>
+    <string name="settings_moreoption_tone_desc">"ເປີດໃຊ້/ປິດໃຊ້ສຽງສຳລັບການກວດພົບ"</string>
+    <string name="settings_moreoption_voiceqna">"ສຽງ Q/A"</string>
+    <string name="settings_moreoption_voiceqna_desc">"ເປີດສຽງ Q/A ຫຼັງຈາກການກວດພົບ"</string>
+    <string name="settings_moreoption_voiceqna_error">"ບໍ່ມີແອັບການຮັບຮູ້ສຽງຖືກຕິດຕັ້ງ. ຕ້ອງການມີລຸ້ນປົກກະຕິແທນລຸ້ນ HY11."</string>
+    <string name="settings_moreoption_advanced">"ລາຍລະອຽດຂັ້ນສູງ"</string>
+    <string name="settings_moreoption_advanced_desc">"ສະແດງລາຍລະອຽດເພີ່ມ"</string>
+    <string name="settings_toast_smdependentcheckbox">"ການປ່ຽນແປງນີ້ຈະບໍ່ມີຜົນຈົນກວ່າວ່າມີການຈົດທະບຽນຕົວແບບສຽງຕໍ່ໄປ."</string>
+    <string name="none"></string>
+    <string name="app_name">"ການບໍລິການເປີດໃຊ້ງານສຽງ"</string></resources>

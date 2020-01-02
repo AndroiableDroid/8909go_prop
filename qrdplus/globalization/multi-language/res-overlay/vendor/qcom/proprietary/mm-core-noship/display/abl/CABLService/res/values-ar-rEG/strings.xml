@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2011, 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+        <add-resource type="string" name="app_name"/>
+    <string name="app_name">"إعدادات الإضاءة الخلفية التكييفية للمحتوى"</string>
+        <add-resource type="string" name="cabl_settings_title"/>
+    <string name="cabl_settings_title">"إعدادات الإضاءة الخلفية التكييفية للمحتوى"</string>
+        <add-resource type="string" name="cabl_enable_title"/>
+    <string name="cabl_enable_title">"تمكين إضاءة خلفية تكييفية للمحتوى"</string>
+        <add-resource type="string" name="cabl_enable_summary_on"/>
+    <string name="cabl_enable_summary_on">"ستتم إعادة ضبط الإضاءة الخلفية بالاستناد إلى محتوى الشاشة"</string>
+        <add-resource type="string" name="cabl_enable_summary_off"/>
+    <string name="cabl_enable_summary_off">"لن تتم إعادة ضبط الإضاءة الخلفية بالاستناد إلى محتوى الشاشة"</string>
+        <add-resource type="string" name="cabl_levels_title"/>
+    <string name="cabl_levels_title">"مستوى جودة العرض"</string>
+        <add-resource type="string" name="cabl_levels_summary"/>
+    <string name="cabl_levels_summary">"يشير مستوى الجودة المنخفض إلى أن CABL سيحاول توفير الطاقة قدر المستطاع من دون التأثير على المحتوى الذي يتم عرضه. ويعني مستوى جودة العرض التلقائي أن CABL سيحاول توفير الطاقة إلى أقصى حد بالاستناد إلى الكشف التلقائي للمحتوى الذي يتم عرضه."</string>
+        <add-resource type="string" name="cabl_level_default"/>
+    <string name="cabl_level_default">"تلقائية"</string>
+        <add-resource type="string" name="cabl_info_default"/>
+    <string name="cabl_info_default">"غير معروف"</string>
+        <add-resource type="string" name="cabl_version_title"/>
+    <string name="cabl_version_title">"إصدار CABL"</string></resources>

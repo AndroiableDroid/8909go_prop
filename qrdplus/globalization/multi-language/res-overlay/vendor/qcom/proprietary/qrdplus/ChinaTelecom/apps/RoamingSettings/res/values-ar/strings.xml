@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"إعدادات التجوال"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"فتح"</string>
+    <string name="data_roaming_title">"اتصال بخدمات البيانات عند التجوال"</string>
+    <string name="manual_select_network">"تحديد شبكة يدويًا"</string>
+    <string name="roaming_card_info">"سيستخدم أولوية بطاقة الأعمال المحمولة"</string>
+    <string name="network_select_success_info">"تسجيل الدخول إلى شبكة \"<xliff:g id="name">%s</xliff:g>\" بنجاح، وسيتم التسجيل تلقائيًا بمجرد عدم توفر الشبكة"</string>
+    <string name="network_select_failure_info">"الشبكة \"<xliff:g id="name">%s</xliff:g>\" التي اخترتها غير متوفرة، ابدأ في التسجيل تلقائيًا على شبكة أخرى"</string>
+    <string name="network_auto_success_info">"التسجيل على الشبكة تلقائيًا بنجاح"</string>
+    <string name="network_auto_failure_info">"الشبكة GSM التي اخترتها غير متوفرة، فابدأ تلقائيًا بالتسجيل على شبكة أخرى"</string>
+    <string name="manual_select_network_tip">"الإجراء متوفر فقط في أوقات"</string>
+    <string name="gsm_network_list_title">"شبكة قابلة للتحديد"</string>
+    <string name="searching_cdma_network_title">"جارٍ البحث الآن عن شبكة cdma......"</string>
+    <string name="searching_gsm_network_title">"جارٍ البحث عن شبكة gsm......"</string>
+    <string name="empty_networks_list">"لم يتم العثور على شبكات."</string>
+    <string name="register_on_network">"جارٍ التسجيل على <xliff:g id="NETWORK">%s</xliff:g>..."</string>
+    <string name="register_automatically">"التسجيل التلقائي..."</string>
+    <string name="network_select_setting">"إعداد الشبكة"</string>
+    <string name="roaming_hotline">"الخط الساخن للتجوال ‎+8618918910000"</string>
+    <string name="carrier_names">"China Telecom"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"جارٍ تعطيل البيانات..."</string>
+    <string name="unable_to_disable_data">"تعذر تعطيل البيانات."</string>
+    <string name="avoid_cur_nwk_succeeded">"إضافة الشبكة الحالية إلى قائمة التجنب."</string>
+    <string name="avoid_cur_nwk_failed">"تعذرت إضافة الشبكة الحالية إلى قائمة التجنب."</string>
+    <string name="clear_nwk_list_succeeded">"مسح قائمة شبكات التجنب."</string>
+    <string name="clear_nwk_list_failed">"تعذر مسح قائمة شبكات التجنب."</string>
+    <string name="ok_btn">"موافق"</string>
+    <string name="cancel_btn">"إلغاء"</string>
+    <string name="confirm_avoid">"هل أنت متأكد أنك تريد تجنب الشبكة الحالية؟"</string>
+    <string name="confirm_clear">"هل تريد بالفعل مسح قائمة شبكات التجنب؟"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"تحديد CDMA"</string>
+    <string name="pref_gsm_choose_title">"تحديد GSM"</string>
+    <string name="pref_network_info_title">"معلومات عن الشبكة الحالية"</string>
+    <string name="alert_msg_enable_card">"هل تريد تمكين هذه البطاقة؟"</string>
+    <string name="alert_msg_disable_card">"هل تريد تعطيل هذه البطاقة؟"</string>
+    <string name="progress_msg_enable_card">"جارٍ تمكين البطاقة، يُرجى الانتظار..."</string>
+    <string name="progress_msg_disable_card">"جارٍ تعطيل هذه البطاقة، يُرجى الانتظار..."</string>
+    <string name="operation_success">"نجحت العملية"</string>
+    <string name="operation_failure">"فشلت العملية"</string>
+    <string name="result_btn">"موافق"</string>
+    <string name="alert_data_roaming_title">"السماح بتجوال البيانات"</string>
+    <string name="alert_data_roaming_msg">"عند السماح بتجوال البيانات، قد تتكلف رسوم تجوال مرتفعة!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"غير معروف"</string>
+    <string name="radioInfo_display_dbm">"بالديسيبل"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"غير متاح"</string>
+    <string name="status_network_type">"نوع شبكة الجوال"</string>
+    <string name="status_signal_strength">"قوة الإشارة"</string>
+    <string name="status_prl_version">"إصدار PRL"</string>
+    <string name="status_data_state">"حالة شبكة الجوال"</string>
+    <string name="status_netowrk_title">"حالة بطاقة SIM الحالية"</string>
+    <string name="status_operator_name">"اسم مشغل شبكة الجوال"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"معرف الأمان"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"معرّف الخلية"</string>
+    <string name="status_sms_center_number">"رقم مركز الرسائل القصيرة Sms"</string>
+    <string name="status_pnl_version">"إصدار قائمة الشبكات المفضلة"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"التبديل يدويًا إلى الشبكة التالية"</string>
+    <string name="avoid_discription">"إرشادات:\n  يعد تحديد الشبكة التلقائي افتراضيًا في النظام CDMA، وليست هناك حاجة إلى التحديد اليدوي، ولكن إذا تعذر استخدام الشبكة الحالية، فجرّب التبديل يدويًا إلى الشبكة التالية. "</string>
+    <string name="attention_dialog_title">"تنبيه"</string>
+    <string name="disable_both_sim_error_msg">"لا يمكن تعطيل كلتا بطاقتي SIM في نفس الوقت"</string>
+    <string name="China_Mobile">"China Mobile"</string>
+    <string name="China_Unicom">"China Unicom"</string>
+    <string name="China_Telecom">"China Telecom"</string></resources>

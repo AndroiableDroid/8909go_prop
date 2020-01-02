@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <!-- Remove Me!! -->
+    <string name="twenty_four_hours">"하루는 24시간입니다."</string>
+    <string name="hi_snapdragon">"Hi Snapdragon"</string>
+    <string name="hey_snapdragon">"Hey Snapdragon"</string>
+    <string name="my_voice">"내 음성이 내 암호입니다."</string>
+    <string name="make_my_day">"자 덤벼봐"</string>
+    <string name="tomorrow_is_another">"내일은 또 다른 하루입니다."</string>
+    <string name="qualcomm_snapdragon">"Qualcomm Snapdragon"</string>
+    <string name="welcome_to_san_diego">"샌디에이고에 오신 것을 환영합니다."</string>
+    <string name="okay_google">"좋아 Google"</string>
+    <string name="open_my_email">"내 이메일 열기"</string>
+    <string-array name="default_phrases">
+        <item>@string/my_voice</item>
+        <item>@string/hey_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/qualcomm_snapdragon</item>
+        <item>@string/okay_google</item>
+        <item>@string/open_my_email</item>
+    </string-array>
+    <string name="app_name">"음성 인쇄"</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">"설정"</string>
+    <string name="action_add">"추가"</string>
+    <string name="title_activity_main_with_fragment">"조각이 있는 기본 작업"</string>
+    <string name="tap_mic_start">"시작하려면 마이크를 탭하세요."</string>
+    <string name="tap_mic_stop">"중지하려면 마이크를 탭하세요."</string>
+    <string name="say_key_phrase">"\"&lt;b&gt;%1$s&lt;/b&gt;\"을(를) 말하세요."</string>
+    <string name="say_one_more_time">"\"&lt;b&gt;%1$s&lt;/b&gt;\" 문구를 한 번 더 말하세요."</string>
+    <string name="say_one_of_key_phrases">"핵심 문구 중 하나를 말하세요."</string>
+    <string name="phrase_recognized">"\"&lt;b&gt;%1$s&lt;/b&gt;\" 문구가 인식되었습니다. "</string>
+    <string name="recording_length_exceeded">"녹음 시간 초과"</string>
+    <string name="recording_length_exceeded_msg">"녹음 시간이 초과되었습니다. 다시 시도하세요."</string>
+    <string name="delete_all">"모두 삭제"</string>
+    <string name="delete_all_msg">"등록한 모든 템플릿을 삭제하시겠습니까?"</string>
+    <string name="got_it">"좋습니다! 알겠습니다."</string>
+    <string name="set_key_phrase">"핵심 문구 설정"</string>
+    <string name="set_key_phrase_name">"핵심 문구 이름 설정"</string>
+    <string name="set_key_phrase_action">"작업 설정"</string>
+    <string name="change_key_phrase_action">"작업 변경"</string>
+    <string name="phrase_strength">"문구 강도"</string>
+    <string name="phrase_strength_hint">"최소 세 단어가 포함된 문구를 사용하세요."</string>
+    <string name="register_phrase">"문구 등록"</string>
+    <string name="register_phrase_hint">"음성을 인식할 수 있도록 \"&lt;b&gt;%1$s&lt;/b&gt;\" 문구를 세 번 녹음하세요."</string>
+    <string name="register_phrase_hint_details"><b>"1."</b>" 조용한 방에서 녹음합니다.\n\n"<b>"2."</b>" 휴대전화를 입에서 멀리 떨어뜨립니다.\n\n"<b>"3."</b>" 핵심 문구를 자연스럽게 말합니다."</string>
+    <string name="ready_to_record">"네. 녹음할 준비가 되었습니다."</string>
+    <string name="oops">"죄송합니다! 다시 시도해 보세요."</string>
+    <string name="say_the_phrase">"\"&lt;b&gt;%1$s&lt;/b&gt;\" 문구를 말하세요."</string>
+    <string name="phrase_registered">"\"&lt;b&gt;%1$s&lt;/b&gt;\" 문구가 등록되었습니다."</string>
+    <string name="say_the_phrase_few_more">"\"&lt;b&gt;%1$s&lt;/b&gt;\"을(를) 몇 번 더 말하세요."</string>
+    <string name="voice_print">"음성 인쇄"</string>
+    <string name="cancel">"취소"</string>
+    <string name="voice_level">"음성 수준"</string>
+    <string name="background_noise">"주위 소음"</string>
+    <string name="cap_done">"완료"</string>
+    <string name="cap_record">"녹음"</string>
+    <string name="cap_next">"다음"</string>
+    <string name="cap_ok">"확인"</string>
+    <string name="next">"다음"</string>
+    <string name="new_key_phrase">"새 핵심 문구"</string>
+    <string name="edit_keyphrases">"핵심 문구 편집"</string>
+    <string name="set_name">"이름 설정"</string>
+    <string name="select_key_phrase">"핵심 문구 선택"</string>
+    <string name="set_action">"작업 설정"</string>
+    <string name="registration_complete">"등록 완료"</string>
+    <string name="confirm_pin">"PIN 번호 확인"</string>
+    <string name="confirm_pin_msg">"핵심 문구를 편집하려면 기기 PIN 번호를 입력하세요."</string>
+    <string name="your_key_phrase">"핵심 문구"</string>
+    <string name="cap_redo">"다시 실행"</string>
+    <string name="cap_redo_previous">"이전 작업 다시 실행"</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="browse_phrases">"추천 문구 검색"</string>
+    <string name="create_your_own">"고유 문구 만들기"</string>
+    <string name="skip">"건너뛰기"</string>
+    <string name="none">"없음"</string>
+    <string name="enter_pin">"핵심 문구를 편집하려면 기기 PIN 번호를 입력하세요."</string>
+    <string name="your_key_phrase_name">"핵심 문구 이름"</string>
+    <string name="new_key_phrase_name">"새 핵심 문구 이름"</string>
+    <string name="set_service_to_launch">"실행할 서비스 설정"</string>
+    <string name="email">"이메일"</string>
+    <string name="google">"Google"</string>
+    <string name="sms">"문자 메시지 보내기"</string>
+    <string name="use_selected_phrase">"선택한 문구 사용"</string>
+    <string name="about">"정보"</string>
+    <string name="edit_key_phrases">"핵심 문구 편집"</string>
+    <string name="invalid_phrasename_title">"잘못된 문구 이름"</string>
+    <string name="invalid_phrasename_msg">"문구 이름은 비워둘 수 없습니다."</string>
+    <string name="duplicate_phrasename_msg">"문구 이름이 이미 있습니다. 다른 이름을 사용하세요."</string>
+    <string name="invalid_phrase_title">"잘못된 문구"</string>
+    <string name="invalid_phrase_msg">"문구는 비워둘 수 없습니다."</string>
+    <string name="edit_action">"작업 편집"</string>
+    <string name="threshold">"임계값"</string>
+    <string name="delete_phrase">"문구 삭제"</string>
+    <string name="rename">"이름 변경"</string>
+    <string name="rename_keyphrase">"핵심 문구 이름 변경"</string>
+    <string name="adjust_keyword_sensitivity">"키워드 민감도 조정"</string>
+    <string name="adjust_keyword_sensitivity_summary">"민감도를 조정하여 핵심 문구 인식의 몇 가지 변형을 허용할 수 있습니다."</string>
+    <string name="sensitivity">"민감도"</string>
+    <string name="low_sensitivity">"낮은 민감도"</string>
+    <string name="med_sensitivity">"중간 민감도"</string>
+    <string name="high_sensitivity">"높은 민감도"</string>
+    <string name="low">"낮음"</string>
+    <string name="med">"중간"</string>
+    <string name="high">"높음"</string>
+    <string name="low_sensitivity_summary">"핵심 문구 인식 프로세스에서 더 많은 변형을 허용합니다."</string>
+    <string name="med_sensitivity_summary">"핵심 문구 인식 프로세스에서 일부 변형을 허용했지만 일부 핵심 문구가 인식되지 않을 수 있습니다."</string>
+    <string name="high_sensitivity_summary">"보안을 추가하면 일부 핵심 문구가 인식되지 않을 수 있습니다."</string>
+    <string name="keyword_sensitivity">"키워드 민감도"</string>
+    <string name="delete_phrase_msg">"\"%1$s\" 문구를 삭제하시겠습니까?"</string>
+    <string name="voice_print_not_available_title">"음성 인쇄를 사용할 수 없음"</string>
+    <string name="voice_print_not_available_msg">"음성 인쇄는 이 기기에서 사용할 수 없습니다."</string>
+    <string name="alphaNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="alphaSpaceNumericFilter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</string>
+    <string name="alphaSpaceFilter">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="delete_success_title">"삭제 성공"</string>
+    <string name="delete_success_msg">"핵심 문구 모델이 삭제되었습니다."</string>
+    <string name="delete_fail_title">"삭제 실패"</string>
+    <string name="delete_fail_msg">"핵심 문구 모델을 삭제하는 중 오류가 발생했습니다."</string>
+    <string name="rename_success_title">"이름 바꾸기 성공"</string>
+    <string name="rename_success_msg">"핵심 문구 모델의 이름이 바뀌었습니다."</string>
+    <string name="rename_fail_title">"이름 바꾸기 실패"</string>
+    <string name="rename_fail_msg">"핵심 문구 모델의 이름을 바꾸는 중 오류가 발생했습니다."</string>
+    <string name="pin_validation">"PIN 유효성 검사"</string>
+    <string name="pin_failed">"잘못된 PIN 입력!"</string>
+    <string name="registration_failed">"등록 실패"</string>
+    <string-array name="edit_phrase_actions">
+        <item>@string/edit_action</item>
+        <item>@string/threshold</item>
+        <item>@string/rename</item>
+        <item>@string/delete_phrase</item>
+    </string-array>
+    <string name="user_score">"사용자 임계값"</string>
+    <string name="spoof_score">"스푸핑 임계값"</string>
+    <string name="thresholds">"임계값"</string>
+    <string name="save">"저장"</string>
+    <string name="sentence_score_msg">"문장 임계값 설정"</string>
+    <string name="user_score_msg">"사용자 임계값 설정"</string>
+    <string name="spoof_score_msg">"스푸핑 임계값 설정"</string>
+    <string name="sentence_score">"문장 임계값"</string></resources>

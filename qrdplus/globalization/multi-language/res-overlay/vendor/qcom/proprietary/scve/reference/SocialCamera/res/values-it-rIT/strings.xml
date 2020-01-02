@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Social Camera"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"Si è verificato un errore durante la verifica o la richiesta delle autorizzazioni. Per ulteriori dettagli, controlla il logcat."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"Invia (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"Connessione con la fotocamera persa"</string>
+    <string name="camera_preview_error_camera_error">"Errore della fotocamera: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"Impossibile scattare una foto"</string>
+    <string name="camera_preview_error_still_image_save_failed">"Si è verificato un errore durante il salvataggio dell\'immagine nella galleria"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"Impostazioni"</string>
+    <string name="camera_settings_category_camera_settings">"Impostazioni fotocamera"</string>
+    <string name="camera_settings_category_fr_settings">"Impostazioni riconoscimento volti"</string>
+    <string name="camera_settings_category_debug_settings">"Impostazioni debug"</string>
+    <string name="camera_settings_fr_database_cleared">"Database riconoscimento volti cancellato"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"Ignora"</string>
+    <string name="picture_review_send_faces">"Invia (%d)"</string>
+    <string name="picture_review_no_faces">"Nessun volto trovato in questa foto"</string>
+    <string name="picture_review_error_face_recognition">"Si è verificato un errore durante il riconoscimento dei volti"</string>
+    <string name="picture_review_error_face_enroll">"Si è verificato un errore durante il salvataggio di questo volto. Scatta un\'altra foto del soggetto e riprova."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"Altro contatto\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"Condividi impostazioni"</string>
+    <string name="fr_share_settings_button_just_once">"Solo una volta"</string>
+    <string name="fr_share_settings_button_always">"Sempre"</string>
+    <string name="fr_share_settings_share_method_sms">"Messaggio"</string>
+    <string name="fr_share_settings_share_method_email">"Email"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"È necessario un controllo!"</string>
+    <string name="social_sharing_error_no_email_app">"Non disponi di alcuna app in grado di inviare email"</string></resources>

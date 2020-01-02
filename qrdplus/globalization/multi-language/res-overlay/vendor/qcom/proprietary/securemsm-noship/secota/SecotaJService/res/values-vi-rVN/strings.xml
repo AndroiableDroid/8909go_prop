@@ -1,0 +1,113 @@
+<resources>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+    <string name="app_name">"SeempJService"</string>
+    <string-array name="cause_description_array">
+<item>"6:3:Theo dõi nội dung nhập / tương tác của người dùng khi ứng dụng không hiển thị đối với người dùng hoặc khi ứng dụng chạy dưới nền"</item>
+    <item>"7:5:sử dụng đáng ngờ của UID android "</item>
+    <item>"8:5:sử dụng đáng ngờ của UID android trong khi ứng dụng chạy dưới nền"</item>
+    <item>"9:5:Truy cập đáng ngờ vào thông tin nhạy cảm thiết bị"</item>
+    <item>"10:5:Truy cập đáng ngờ vào thông tin nhạy cảm thiết bị trong khi ứng dụng chạy dưới nền"</item>
+    <item>"11:4:Truy cập đáng ngờ vào số điện thoại"</item>
+    <item>"12:4:Truy cập số điện thoại trong khi ứng dụng không tương tác với người dùng"</item>
+    <item>"13:2:ứng dụng cố thực hiện cuội gọi trái phép"</item>
+    <item>"14:2:ứng dụng cố thực hiện cuội gọi trái phép trong khi chạy dưới nền"</item>
+    <item>"15:4:Truy cập bất thường vào thông tin tài khoản nhạy cảm của người dùng"</item>
+    <item>"16:4:Truy cập bất thường vào thông tin tài khoản nhạy cảm của người dùng trong khi ứng dụng không tương tác với người dùng"</item>
+    <item>"17:4:Ứng dụng truy cập vào thông tin tài khoản nhạy cảm của người dùng mà không thông báo cho người dùng"</item>
+    <item>"18:4:Ứng dụng truy cập vào thông tin tài khoản nhạy cảm của người dùng mà không thông báo cho người dùng trong khi chạy dưới nền"</item>
+    <item>"19:3:Truy cập đáng ngờ vào thông tin trình duyệt nhạy cảm"</item>
+    <item>"20:3:Truy cập đáng ngờ vào thông tin trình duyệt nhạy cảm trong khi ứng dụng chạy dưới nền"</item>
+    <item>"21:3:truy cập vào thông tin trình duyệt nhạy cảm (có thể bao gồm thông tin nhạy cảm của người dùng) trong khi ứng dụng không tương tác với người dùng"</item>
+    <item>"22:3:truy cập vào thông tin trình duyệt nhạy cảm (có thể bao gồm thông tin nhạy cảm của người dùng) trong khi ứng dụng không tương tác với người dùng và chạy dưới nền"</item>
+    <item>"23:6:cài đặt lối tắt bất thường/dư thừa"</item>
+    <item>"24:6:ứng dụng cố cài đặt lối tắt trong khi chạy dưới nền"</item>
+    <item>"25:6:ứng dụng cố cài đặt lối tắt mà không tương tác với người dùng"</item>
+    <item>"26:6:ứng dụng cố cài đặt lối tắt mà không tương tác với người dùng trong khi chạy dưới nền"</item>
+    <item>"27:4:Truy cập thông tin lịch nhạy cảm"</item>
+    <item>"28:4:Truy cập thông tin lịch nhạy cảm trong khi chạy dưới nền"</item>
+    <item>"29:1:Chèn thông tin/sự kiện vào lịch mà không tương tác với người dùng"</item>
+    <item>"30:1:Chèn thông tin/sự kiện vào lịch mà không tương tác với người dùng trong khi ứng dụng chạy dưới nền"</item>
+    <item>"31:5:Truy cập bất thường / quá mức vào thông tin vị trí"</item>
+    <item>"32:5:Truy cập bất thường / quá mức vào thông tin vị trí trong khi ứng dụng chạy dưới nền"</item>
+    <item>"37:3:Sử dụng đáng ngờ của máy ảnh (có thể bao gồm chụp ảnh và quay phim)"</item>
+    <item>"38:3:Sử dụng đáng ngờ của máy ảnh (có thể bao gồm chụp ảnh và quay phim) trong khi ứng dụng chạy dưới nền"</item>
+    <item>"39:3:Chụp ảnh (có thể bao gồm quay video) và truyền đến máy chủ từ xa"</item>
+    <item>"40:3:Chụp ảnh (có thể bao gồm quay video) và truyền đến máy chủ từ xa trong khi ứng dụng chạy dưới nền"</item>
+    <item>"41:3:Chụp ảnh (có thể bao gồm quay video) mà không tương tác với người dùng"</item>
+    <item>"42:3:Chụp ảnh (có thể bao gồm quay video) mà không tương tác với người dùng trong khi ứng dụng chạy dưới nền"</item>
+    <item>"43:3:Chụp ảnh (có thể bao gồm quay video) và truyền đến máy chủ từ xa mà không tương tác với người dùng"</item>
+    <item>"44:3:Chụp ảnh (có thể bao gồm quay video) và truyền đến máy chủ từ xa mà không tương tác với người dùng trong khi ứng dụng chạy dưới nền"</item>
+    <item>"45:3:Sử dụng đáng ngờ của máy quay (có thể bao gồm chụp ảnh và quay phim)"</item>
+    <item>"46:3:Sử dụng đáng ngờ của máy quay (có thể bao gồm chụp ảnh và quay phim) trong khi ứng dụng chạy dưới nền"</item>
+    <item>"47:3:Quay video và truyền đến máy chủ từ xa"</item>
+    <item>"48:3:Quay video và truyền đến máy chủ từ xa trong khi ứng dụng chạy dưới nền"</item>
+    <item>"49:3:Quay video mà không tương tác với người dùng"</item>
+    <item>"50:3:Quay video mà không tương tác với người dùng trong khi ứng dụng chạy dưới nền"</item>
+    <item>"51:3:Quay video và truyền đến máy chủ từ xa mà không tương tác với người dùng"</item>
+    <item>"52:3:Quay video và truyền đến máy chủ từ xa mà không tương tác với người dùng trong khi ứng dụng chạy dưới nền"</item>
+    <item>"53:3:Ghi dữ liệu micrô đáng ngờ"</item>
+    <item>"54:3:Ghi dữ liệu micrô đáng ngờ trong khi ứng dụng chạy dưới nền"</item>
+    <item>"55:3:Ghi dữ liệu micrô đáng ngờ và truyền đến máy chủ từ xa"</item>
+    <item>"56:3:Ghi dữ liệu micrô và truyền đến máy chủ từ xa trong khi ứng dụng chạy dưới nền"</item>
+    <item>"57:3:Ghi dữ liệu micrô đáng ngờ trong khi người dùng không tương tác với ứng dụng"</item>
+    <item>"58:3:ghi dữ liệu micrô trong khi người dùng không tương tác với ứng dụng và ứng dụng chạy dưới nền"</item>
+    <item>"59:3:Ghi đáng ngờ và truyền dữ liệu micrô trong khi ứng dụng không tương tác với người dùng"</item>
+    <item>"60:3:ghi và truyền dữ liệu micrô trong khi ứng dụng không tương tác với người dùng và đang chạy dưới nền"</item>
+    <item>"61:2:Hoạt động SMS đáng ngờ: Cố gửi SMS (có thể mất phí cao đối với các số điện thoại dịch vụ)"</item>
+    <item>"62:2:Ứng dụng cố gửi SMS trong khi chạy dưới nền (có thể mất phí SMS cao đối với các số điện thoại dịch vụ)"</item>
+    <item>"63:2:Hoạt động SMS đáng ngờ: Ứng dụng gửi SMS (có thể mất phí cao đối với các số điện thoại dịch vụ) mà không tương tác với người dùng"</item>
+    <item>"64:2:Ứng dụng gửi SMS (có thể mất phí cao đối với các số điện thoại dịch vụ) mà không tương tác với người dùng trong khi ứng dụng chạy dưới nền"</item>
+    <item>"65:3:Truy cập đáng ngờ vào SMS (bao gồm mở và đọc)"</item>
+    <item>"66:3:Truy cập và đọc SMS trong khi ứng dụng chạy dưới nền"</item>
+    <item>"67:3:Truy cập và đọc SMS mà không tương tác với người dùng"</item>
+    <item>"68:3:Truy cập và đọc SMS mà không tương tác với người dùng trong khi ứng dụng chạy dưới nền"</item>
+    <item>"69:3:truy cập quá mức/bất thường vào thông tin cảm biến"</item>
+    <item>"70:3:truy cập quá mức/bất thường vào thông tin cảm biến trong khi ứng dụng chạy dưới nền"</item>
+    <item>"71:3:Chặn đáng ngờ tin nhắn MMS"</item>
+    <item>"72:3:Chặn đáng ngờ tin nhắn MMS trong khi ứng dụng chạy dưới nền"</item>
+    <item>"73:3:Chặn đáng ngờ tin nhắn MMS mà không tương tác với người dùng"</item>
+    <item>"74:3:Chặn đáng ngờ tin nhắn MMS mà không tương tác với người dùng trong khi ứng dụng chạy dưới nền"</item>
+    <item>"75:4:Truy cập bất thường vào một hoặc nhiều thông tin liên hệ"</item>
+    <item>"76:4:Truy cập bất thường vào một hoặc nhiều thông tin liên hệ trong khi ứng dụng chạy dưới nền"</item>
+    <item>"77:4:Truy cập một hoặc nhiều danh bạ trong khi ứng dụng không tương tác với người dùng"</item>
+    <item>"78:4:Truy cập một hoặc nhiều danh bạ trong khi ứng dụng không tương tác với người dùng và đang chạy dưới nền"</item>
+    <item>"79:1:Cài đặt ứng dụng bên thứ 3 đáng ngờ"</item>
+    <item>"80:1:Cài đặt ứng dụng bên thứ 3 đáng ngờ trong khi ứng dụng chạy dưới nền"</item>
+    <item>"81:1:Cài đặt ứng dụng bên thứ 3 đáng ngờ trong khi ứng dụng không tương tác với người dùng"</item>
+    <item>"82:1:Cài đặt ứng dụng bên thứ 3 đáng ngờ trong khi ứng dụng không tương tác với người dùng và đang chạy dưới nền"</item>
+    <item>"83:5:giao tiếp quá mức/bất thường của UID android"</item>
+    <item>"84:5:giao tiếp quá mức/bất thường của UID android trong khi ứng dụng chạy dưới nền"</item>
+    <item>"85:5:Truy cập và truyền thông tin thiết bị nhạy cảm (có thể bao gồm số sê-ri IMEI, SIM và các thông tin khác liên quan đến nhà mạng)"</item>
+    <item>"86:5:Truy cập và truyền thông tin thiết bị nhạy cảm (có thể bao gồm số sê-ri IMEI, SIM và các thông tin khác liên quan đến nhà mạng) trong khi ứng dụng chạy dưới nền"</item>
+    <item>"87:4:Truy cập và truyền số điện thoại của người dùng đến máy chủ từ xa"</item>
+    <item>"88:4:Truy cập và truyền số điện thoại của người dùng đến máy chủ từ xa trong khi ứng dụng chạy dưới nền"</item>
+    <item>"89:4:Truyền bất thường thông tin tài khoản / thông tin xác thực nhạy cảm của người dùng (có thể bao gồm thẻ tín dụng hoặc thông tin tài chính khác)"</item>
+    <item>"90:4:Truyền bất thường thông tin tài khoản / thông tin xác thực nhạy cảm của người dùng (có thể bao gồm thẻ tín dụng hoặc thông tin tài chính khác) trong khi ứng dụng chạy dưới nền"</item>
+    <item>"91:3:truy cập và truyền nội dung trình duyệt nhạy cảm (có thể bao gồm thông tin nhạy cảm của người dùng)"</item>
+    <item>"92:3:truy cập và truyền nội dung trình duyệt nhạy cảm (có thể bao gồm thông tin nhạy cảm của người dùng) trong khi ứng dụng chạy dưới nền"</item>
+    <item>"93:3:truy cập và truyền nội dung trình duyệt nhạy cảm (có thể bao gồm thông tin nhạy cảm của người dùng)"</item>
+    <item>"94:3:truy cập và truyền nội dung trình duyệt nhạy cảm (có thể bao gồm thông tin nhạy cảm của người dùng) trong khi ứng dụng chạy dưới nền"</item>
+    <item>"95:4:Truyền thông tin lịch đến máy chủ từ xa (có thể chứa thông tin nhạy cảm của người dùng)"</item>
+    <item>"96:4:Truyền thông tin lịch đến máy chủ từ xa (có thể chứa thông tin nhạy cảm của người dùng) trong khi ứng dụng chạy dưới nền"</item>
+    <item>"97:5:Truy cập bất thường / quá mức và truyền thông tin vị trí"</item>
+    <item>"98:5:Truy cập bất thường / quá mức và truyền thông tin vị trí trong khi ứng dụng chạy dưới nền"</item>
+    <item>"99:5:Truy cập bất thường / quá mức và truyền thông tin vị trí"</item>
+    <item>"100:5:Truy cập bất thường / quá mức và truyền thông tin vị trí trong khi ứng dụng chạy dưới nền"</item>
+    <item>"101:3:Truyền quá mức/bất thường thông tin cảm biến"</item>
+    <item>"102:3:Truyền quá mức/bất thường thông tin cảm biến trong khi ứng dụng chạy dưới nền"</item>
+    <item>"103:4:Truy cập một hoặc nhiều danh bạ và truyền đến máy chủ từ xa"</item>
+    <item>"104:4:Truy cập một hoặc nhiều danh bạ và truyền đến máy chủ từ xa trong khi ứng dụng chạy dưới nền"</item>
+    <item>"105:4:Truy cập một hoặc nhiều danh bạ và truyền đến máy chủ từ xa mà không tương tác với người dùng"</item>
+    <item>"106:4:Truy cập một hoặc nhiều danh bạ và truyền đến máy chủ từ xa mà không tương tác với người dùng trong khi ứng dụng chạy dưới nền"</item>
+    <item>"109:3:truy cập quá mức/bất thường vào thông tin cảm biến"</item>
+    <item>"110:3:truy cập quá mức/bất thường vào thông tin cảm biến trong khi ứng dụng chạy dưới nền"</item>
+    <item>"121:5:Truy cập đáng ngờ vào cài đặt liên quan đến ID thiết bị"</item>
+    <item>"122:5:Truy cập đáng ngờ vào cài đặt ID thiết bị trong khi ứng dụng chạy dưới nền"</item>
+    <item>"162:3:Thay đổi đáng ngờ sang cài đặt chế độ máy bay trong khi ứng dụng chạy dưới nền"</item>
+    <item>"164:3:Thay đổi đáng ngờ sang cài đặt báo thức trong khi ứng dụng chạy dưới nền"</item>
+    <item>"202:3:Sửa đổi đáng ngờ trạng thái WiFi trong khi ứng dụng chạy dưới nền"</item>
+    </string-array></resources>

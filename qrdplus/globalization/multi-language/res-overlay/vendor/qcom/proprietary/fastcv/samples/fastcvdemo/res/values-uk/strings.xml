@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+   <string name="activity_Corner">"Виявлення кутів"</string>
+   <string name="activity_Filter">"Фільтрув."</string>
+   <string name="activity_FilterCorr">"Корек. фільтру"</string>
+   <string name="activity_Scale">"Масштаб"</string>
+   <string name="activity_Warp">"Деформація"</string>
+   <string name="activity_ImgDiff">"Відмінність зображень"</string>
+   <string name="activity_ImageGradient">"Градієнт зображення"</string>
+   <string name="activity_OpticalFlow">"Оптичний потік LK"</string>
+   <string name="activity_Affine">"Подібн."</string>
+   <string name="activity_Rotate">"Обертати"</string>
+   <string name="activity_ScaleDownMN">"Зменш.меню"</string>
+   <string name="app_name">"Демонстраційна програма FastCV"</string>
+   <string name="label_text">"Введіть текст тут: "</string>
+   <string name="textview01_text">"TextView01"</string>
+   <string name="startpreview_text">"Почати"</string>
+   <string name="stoppreview_text">"Зупинити"</string>
+   <string name="settings">"Налаштування"</string>
+   <string name="txtAcceleration">"Перемикання прискорення"</string>
+   <string name="about">"Про програму"</string>
+   <string name="versionNumber_text">"Версія FastCV"</string>
+   <string name="appName_text">"Назва програми"</string>
+   <string name="appName">"Демонстраційна програма FastCV"</string>
+   <string name="detectionName">"Модуль виявлення"</string>
+   <string-array name="CameraOnOffArray">
+      <item>"Видошукач увімк. "</item>
+      <item>"Видошукач вимк. "</item>
+   </string-array>
+   <string-array name="CameraOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray">
+      <item>"Вимкнути гаусовий фільтр 3x3  "</item>
+      <item>"Увімкнути гаусовий фільтр 3x3 "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray2">
+      <item>"Вимкнути гаусовий фільтр 5x5  "</item>
+      <item>"Увімкнути гаусовий фільтр 5x5 "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray2">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="GaussianOnOffArray3">
+      <item>"Вимкнути гаусовий фільтр 11x11  "</item>
+      <item>"Увімкнути гаусовий фільтр 11x11 "</item>
+   </string-array>
+   <string-array name="GaussianOnOffValuesArray3">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="CannyOnOffArray">
+      <item>"Вимкнути фільтр країв Кенні  "</item>
+      <item>"Увімкнути фільтр країв Кенні "</item>
+   </string-array>
+   <string-array name="CannyOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="cornerDetectorDownSampleArray">
+      <item>1 </item>
+      <item>2 </item>
+      <item>4 </item>
+      <item>8 </item>
+   </string-array>
+   <string-array name="cornerDetectorDownSampleValuesArray">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+   </string-array>
+   <string-array name="cornerDetectorThresholdArray">
+      <item>5 </item>
+      <item>10 </item>
+      <item>20 </item>
+      <item>40 </item>
+      <item>80 </item>
+   </string-array>
+   <string-array name="cornerDetectorValuesArray">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+   </string-array>
+<string-array name="CornerOnOnOffArray">
+      <item>"Вимкнути накладання кутів  "</item>
+      <item>"Увімкнути накладання кутів "</item>
+   </string-array>
+   <string-array name="CornerOnOffValuesArray">
+      <item>0</item>
+      <item>1</item>
+   </string-array>
+   <string-array name="DetectionArray">
+      <item>CornerFast9u8 </item>
+      <item>CornerHarrisu8 </item>
+      <item>CornerFastInMasku8 </item>
+      <item>CornerHarrisInMasku8 </item>
+      <item>CornerFast9Scoreu8 </item>
+      <item>CornerFast9InMaskScoreu8</item>
+      <item>CornerFast10u8 </item>
+   </string-array>
+   <string-array name="DetectionValuesArray">
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+      <item>5</item>
+      <item>6</item>
+      <item>7</item>
+   </string-array></resources>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"UI พาโนรามา"</string>
+    <string name="title_loading">"กำลังโหลด!"</string>
+    <string name="msg_loading">"กำลังประมวลผล\u2026"</string>
+    <string name="panorama_saved">"พาโนรามาได้รับการบันทึกไปยังแกลเลอรี่รูปภาพบนอุปกรณ์ของคุณเรียบร้อยแล้ว"</string>
+    <string name="panorama_generate_result_failed">"ขออภัย โปรดลองอีกครั้ง"</string>
+    <string name="error_dialog_title">"ข้อผิดพลาดแอพพลิเคชั่น"</string>
+    <string name="btn_ok">"ตกลง"</string>
+    <string name="btn_txt_save">"บันทึกรูปภาพ"</string>
+    <string name="err_library_loading">"แอพพลิเคชั่นล้มเหลวในการโหลดไลบราลี่ในเครื่อง"</string>
+    <string name="err_camera_init">"กล้องล้มเหลวในการเริ่มต้น"</string>
+    <string name="err_sensors_init">"เซ็นเซอร์ล้มเหลวในการเริ่มต้น"</string>
+    <string name="err_pano_init">"พาโนรามา API ล้มเหลวในการเริ่มต้น"</string>
+    <string name="err_sensors_failed">"เซ็นเซอร์ล้มเหลวในการเริ่มต้น"</string>
+    <string name="err_zsl_failed">"ZSL ไม่รองรับบนอุปกรณ์นี้"</string>
+    <!-- SCVE native returned error -->
+    <string name="err_session_init">"เซสชั่นไม่เริ่มต้น"</string>
+    <string name="err_queue_full">"คิวเต็ม"</string>
+    <string name="err_max_key_frames">"ถึงจำนวนเฟรมสูงสุดแล้ว"</string>
+    <string name="err_no_frame_overlap">"ไม่มีเวลาเหลื่อมระหว่างเฟรม"</string>
+    <string name="err_inconsistent_direction">"ทิศทางไม่้เหมือนกัน"</string>
+    <string name="err_result_not_ready">"ผลลัพธ์ยังไม่พร้อม"</string>
+    <string name="err_frame_no_feature">"เฟรมไม่มีคุณลักษณะเพียงพอ"</string>
+    <string name="err_direction_changed">"ทิศทางถูกเปลี่ยน โปรดคลิก OK เพื่อดูภาพพาโนรามาที่ถูกถ่ายไว้"</string>
+    <string name="err_panorama_loading">"การโหลดภาพพาโนรามาล้มเหลว"</string>
+    <string name="err_panorama_saving">"การบันทึกภาพพาโนรามาล้มเหลว"</string>
+    <string name="err_api_capturing">"การถ่ายภาพพาโนรามาล้มเหลว"</string>
+    <string name="err_api_halted">"การถ่ายภาพพาโนรามาถูกหยุด โปรดคลิก OK เพื่อดูภาพพาโนรามาถูกถ่าย"</string>
+    <string name="err_max_limit">"ถึงขีดจำกัดเฟรมสูงสุด โปรดคลิก OK เพื่อดูภาพพาโนรามาถูกถ่าย"</string>
+    <string name="err_no_prv">"ไม่มีภาพถ่ายพรีวิว"</string>
+    <string name="title_settings">"การตั้งค่า"</string>
+    <string name="camera_settings">"การตั้งค่ากล้อง"</string>
+    <string name="camera_settings_picture_size">"ความละเอียด"</string>
+    <string-array name="camera_settings_picture_size_entries">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string-array name="camera_settings_picture_size_values">
+        <item>"2048x1536"</item>
+        <item>"1920x1080"</item>
+        <item>"4208x3120"</item>
+        <item>"4000x3000"</item>
+        <item>"3200x2400"</item>
+        <item>"2592x1944"</item>
+        <item>"1600x1200"</item>
+        <item>"1280x720"</item>
+    </string-array>
+    <string name="camera_settings_exposure_compensation">"การชดเชยแสง"</string>
+    <string name="camera_settings_white_balance">"ไวท์บาลานซ์"</string>
+    <string-array name="camera_settings_white_balance_entries">
+        <item>"อัตโนมัติ"</item>
+        <item>"กลางวัน"</item>
+        <item>"ฟลูออเรสเซนต์"</item>
+        <item>"หลอดไส้"</item>
+        <item>"ร่มเงา"</item>
+        <item>"พลบค่ำ"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values">
+        <item>"auto"</item>
+        <item>"daylight"</item>
+        <item>"fluorescent"</item>
+        <item>"incandescent"</item>
+        <item>"shade"</item>
+        <item>"twilight"</item>
+    </string-array>
+    <string-array name="camera_settings_white_balance_values_camera2">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+        <item>8</item>
+        <item>7</item>
+    </string-array>
+    <string name="camera_settings_scene_mode">"โหมดฉาก"</string>
+    <string-array name="camera_settings_scene_mode_entries">
+        <item>"การทำงาน"</item>
+        <item>"อัตโนมัติ"</item>
+        <item>"กลางคืน"</item>
+        <item>"งานเลี้ยง"</item>
+        <item>"ดวงอาทิตย์ตก"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values">
+        <item>"action"</item>
+        <item>"auto"</item>
+        <item>"night"</item>
+        <item>"party"</item>
+        <item>"sunset"</item>
+    </string-array>
+    <string-array name="camera_settings_scene_mode_values_camera2">
+        <item>2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>14</item>
+        <item>10</item>
+    </string-array>
+    <string name="camera_settings_focus_mode">"โหมดโฟกัส"</string>
+    <string-array name="camera_settings_focus_mode_entries">
+        <item>"ต่อเนื่อง (วิดีโอ)"</item>
+        <item>"อินฟินิตี"</item>
+        <item>"คงที่"</item>
+        <item>"ต่อเนื่อง (รูปภาพ)"</item>
+        <item>"อัตโนมัติ"</item>
+        <item>"ขยายความลึกของฟิลด์"</item>
+        <item>"มาโคร"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values">
+        <item>"continuous-video"</item>
+        <item>"infinity"</item>
+        <item>"fixed"</item>
+        <item>"continuous-picture"</item>
+        <item>"auto"</item>
+        <item>"edof"</item>
+        <item>"macro"</item>
+    </string-array>
+    <string-array name="camera_settings_focus_mode_values_camera2">
+        <item>3</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+    <string name="camera_settings_iso">ISO</string>
+    <string-array name="camera_settings_iso_entries">
+        <item>"อัตโนมัติ"</item>
+        <item>"การลดมือสั่น"</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="camera_settings_iso_values">
+        <item>"auto"</item>
+        <item>ISO_HJR</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+        <item>"ISO3200"</item>
+    </string-array>
+    <string name="camera_settings_iso_default">ISO800</string>
+    <string name="pano_settings">"การตั้งค่าพาโนรามา"</string>
+    <string name="pano_settings_scve_mode">"โหมดการใช้งาน SCVE"</string>
+    <string-array name="pano_settings_scve_mode_entries">
+        <item>"เริ่มต้น"</item>
+        <item>"CPU ออฟโหลด"</item>
+        <item>"ประสิทธิภาพ"</item>
+        <item>"ใช้พลังต่ำ"</item>
+    </string-array>
+    <string-array name="pano_settings_scve_mode_values">
+        <item>0</item> <!-- SCVE::OperationMode::SCVE_MODE_DEFAULT -->
+        <item>1</item> <!-- SCVE::OperationMode::SCVE_MODE_PERFORMANCE -->
+        <item>2</item> <!-- SCVE::OperationMode::SCVE_MODE_CPU_OFFLOAD -->
+        <item>3</item> <!-- SCVE::OperationMode::SCVE_MODE_LOW_POWER -->
+    </string-array>
+    <string name="pano_settings_scve_mode_default">0</string>
+    <string name="pano_settings_image_compress_level">"ระดับการบีบอัดภาพ"</string>
+    <string-array name="pano_settings_image_compress_level_entries">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pano_settings_image_compress_level_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string name="pano_settings_image_compress_level_default">100</string>
+    <!-- Enable/Disable AeAWB -->
+    <string name="pano_settings_enable_3a_lock">"ล็อค AE/AF/AWB ระหว่างถ่ายภาพพาโนรามา"</string>
+    <string-array name="pano_settings_enable_3a_lock_entries">
+        <item>"ไม่"</item>
+        <item>"ใช่"</item>
+    </string-array>
+    <string-array name="pano_settings_enable_3a_lock_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="pano_settings_enable_3a_lock_default">"true"</string>
+    <string name="debug_settings">"การตั้งค่าการแก้ไข"</string>
+    <string name="debug_settings_enable_loggings">"การบันทึกรายละเอียด"</string>
+    <string-array name="debug_settings_enable_loggings_entries">
+        <item>"ปิด"</item>
+        <item>"เปิด"</item>
+    </string-array>
+    <string-array name="debug_settings_enable_loggings_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_enable_loggings_default">"false"</string>
+    <string name="debug_settings_save_preview_frames">"บันทึกเฟรมตัวอย่างไปยังการ์ด SD"</string>
+    <string-array name="debug_settings_save_preview_frames_entries">
+        <item>"ไม่"</item>
+        <item>"ใช่"</item>
+    </string-array>
+    <string-array name="debug_settings_save_preview_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_preview_frames_default">"false"</string>
+    <string name="debug_settings_save_key_frames">"บันทึกคีย์เฟรมไปยังการ์ด SD"</string>
+    <string-array name="debug_settings_save_key_frames_entries">
+        <item>"ไม่"</item>
+        <item>"ใช่"</item>
+    </string-array>
+    <string-array name="debug_settings_save_key_frames_values">
+        <item>"false"</item>
+        <item>"true"</item>
+    </string-array>
+    <string name="debug_settings_save_key_frames_default">"false"</string>
+    <!-- PanoramaViewer -->
+    <string name="share_button_text">"แบ่งปันภาพพาโนรามา"</string></resources>

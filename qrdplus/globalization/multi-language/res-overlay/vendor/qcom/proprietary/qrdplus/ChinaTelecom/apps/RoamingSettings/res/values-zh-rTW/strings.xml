@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"漫遊設定"</string>
+    <!-- for Roaming Settings -->
+    <string name="open_card_title">"開啟"</string>
+    <string name="data_roaming_title">"漫遊時連線到數據傳輸服務"</string>
+    <string name="manual_select_network">"手動選擇網路"</string>
+    <string name="roaming_card_info">"將優先使用行動商務卡"</string>
+    <string name="network_select_success_info">"已在「<xliff:g id="name">%s</xliff:g>」網路上成功註冊，網路不可用時會自動註冊"</string>
+    <string name="network_select_failure_info">"您選擇的「<xliff:g id="name">%s</xliff:g>」網路不可用，會自動開始在其他網路上註冊"</string>
+    <string name="network_auto_success_info">"已成功在網路上自動註冊"</string>
+    <string name="network_auto_failure_info">"您選擇的 GSM 網路不可用，會自動開始在其他網路上註冊"</string>
+    <string name="manual_select_network_tip">"此動作的唯一生效時機為"</string>
+    <string name="gsm_network_list_title">"可選網路"</string>
+    <string name="searching_cdma_network_title">"正在搜尋 CDMA 網路..."</string>
+    <string name="searching_gsm_network_title">"正在搜尋 GSM 網路..."</string>
+    <string name="empty_networks_list">"找不到網路。"</string>
+    <string name="register_on_network">"正在 <xliff:g id="NETWORK">%s</xliff:g> 上註冊..."</string>
+    <string name="register_automatically">"自動註冊..."</string>
+    <string name="network_select_setting">"網路設定"</string>
+    <string name="roaming_hotline">"漫遊熱線 +8618918910000"</string>
+    <string name="carrier_names">"中國電信"</string>
+    <!-- For slot name, it will used for tab title and attention dialog title -->
+    <string name="slot_name">"SUB <xliff:g id="sub">%s</xliff:g>"</string>
+    <string-array name="slot_number">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- CDMA Manual System Avoidance Settings-->
+    <string name="waiting_disable_data">"正在停用數據..."</string>
+    <string name="unable_to_disable_data">"無法停用數據。"</string>
+    <string name="avoid_cur_nwk_succeeded">"已將目前的網路新增至規避清單。"</string>
+    <string name="avoid_cur_nwk_failed">"無法將目前的網路新增至規避清單。"</string>
+    <string name="clear_nwk_list_succeeded">"已清除規避網路清單。"</string>
+    <string name="clear_nwk_list_failed">"無法清除規避網路清單。"</string>
+    <string name="ok_btn">"確定"</string>
+    <string name="cancel_btn">"取消"</string>
+    <string name="confirm_avoid">"您確定要規避目前的網路嗎?"</string>
+    <string name="confirm_clear">"您確定要清除規避網路清單嗎?"</string>
+    <!-- For roaming settings string -->
+    <string name="pref_cdma_choose_title">"選擇 CDMA"</string>
+    <string name="pref_gsm_choose_title">"選擇 GSM"</string>
+    <string name="pref_network_info_title">"目前網路資訊"</string>
+    <string name="alert_msg_enable_card">"您要啟用此卡嗎?"</string>
+    <string name="alert_msg_disable_card">"您要停用此卡嗎?"</string>
+    <string name="progress_msg_enable_card">"啟用此卡，請稍候..."</string>
+    <string name="progress_msg_disable_card">"停用此卡，請稍候..."</string>
+    <string name="operation_success">"操作成功"</string>
+    <string name="operation_failure">"操作失敗"</string>
+    <string name="result_btn">"確定"</string>
+    <string name="alert_data_roaming_title">"允許數據漫遊"</string>
+    <string name="alert_data_roaming_msg">"如果您允許數據漫遊，可能需要支付龐大的漫遊費用!"</string>
+    <!-- For network information -->
+    <string name="device_info_default">"未知"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"無法使用"</string>
+    <string name="status_network_type">"行動網路類型"</string>
+    <string name="status_signal_strength">"訊號強度"</string>
+    <string name="status_prl_version">"PRL 版本"</string>
+    <string name="status_data_state">"行動網路狀態"</string>
+    <string name="status_netowrk_title">"目前 SIM 卡狀態"</string>
+    <string name="status_operator_name">"營運商名稱"</string>
+    <string name="status_mcc">"MCC"</string>
+    <string name="status_mnc">"MNC"</string>
+    <string name="status_sid">"SID"</string>
+    <string name="status_nid">"NID"</string>
+    <string name="status_cell_id">"手機 ID"</string>
+    <string name="status_sms_center_number">"簡訊中心號碼"</string>
+    <string name="status_pnl_version">"首選網路清單版本"</string>
+    <!-- Name for avoid network function -->
+    <string name="manual_avoid_select">"手動切換至下一個網路"</string>
+    <string name="avoid_discription">"說明:\n CDMA 系統預設會自動選擇網路，無需手動選擇，如果目前網路無法使用，請嘗試手動切換到下一個網路。 "</string>
+    <string name="attention_dialog_title">"注意"</string>
+    <string name="disable_both_sim_error_msg">"無法同時停用兩張 SIM 卡"</string>
+    <string name="China_Mobile">"中國移動"</string>
+    <string name="China_Unicom">"中國聯通"</string>
+    <string name="China_Telecom">"中國電信"</string></resources>

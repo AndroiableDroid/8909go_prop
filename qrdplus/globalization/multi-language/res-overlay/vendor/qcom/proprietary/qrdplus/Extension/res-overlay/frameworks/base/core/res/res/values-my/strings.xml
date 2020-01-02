@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_accessWifiState">"WLAN ချိတ်ဆက်မှုများကို ကြည့်ပါ"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_accessWifiState">"WLAN ဖွင့်ထားခြင်း ရှိမရှိနှင့်  ချိတ်ဆက်ထားသော WLAN စက်များ၏ အမည်ကဲ့သို့ WLAN ကွန်ယက်ချိတ်ဆက်မှုအကြောင်း အချက်အလက်များ ကိုကြည့်ရန် ပရိုဂရမ်ကို ခွင့်ပြုသည်။"</string>
+    <string name="permlab_changeWifiState">"WLAN သို့ ချိတ်ဆက်ပြီး ချိတ်ဆက်မှုမှပြန်ဖြုတ်ပါ"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiState">"WLAN ဝင်ရောက်သုံးစွဲမည့်နေရာများသို့ ချိတ်ဆက်ရန်နှင့်  ချိတ်ဆက်မှုဖြုတ်ရန်၊ WLAN ကွန်ယက်များအတွက် စက် သတ်မှတ်မှုကို ပြောင်းလဲရန် ပရိုဂရမ်ကို ခွင့်ပြုသည်။"</string>
+    <string name="permlab_changeWifiMulticastState">"WLAN ကိုတစ်ချိန်ထဲတွင် အသုံးပြုသူအားလုံးသို့ အချက်အလက်များပေးပို့မှု လက်ခံချက်ကို ခွင့်ပြုပါ"</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="tablet">"သင့်  တက်ဘလက်သာမက တချိန်ထဲတွင် အသုံးပြုသူအားလုံးသို့အချက်အလက်များပေးပို့သည့်လိပ်စာကို အသုံးပြုကာ WLAN ကွန်ယက်ရှိ စက်များအားလုံးသို့ ပေးပို့ထားသည့် အထုတ်များကို လက်ခံရန် ပရိုဂရမ်ကို ခွင့်ပြုသည်။"</string>
+    <string name="permdesc_changeWifiMulticastState" product="default">"သင့်  ဖုန်းသာမက တချိန်ထဲတွင် အသုံးပြုသူအားလုံးသို့အချက်အလက်များပေးပို့သည့်လိပ်စာကို အသုံးပြုကာ WLAN ကွန်ယက်ရှိ စက်များအားလုံးသို့ ပေးပို့ထားသည့် အထုတ်များကို လက်ခံရန် ပရိုဂရမ်ကို ခွင့်ပြုသည်။"</string>
+    <string name="wifi_available_sign_in">"WLAN ကွန်ယက်ထဲသို့ ဝင်ပါ"</string>
+    <string name="wifi_watchdog_network_disabled">"WLAN ထံ ချိတ်ဆက်၍ မရပါ"</string>
+    <string name="wifi_p2p_dialog_title">"WLAN တိုက်ရိုက်"</string>
+    <string name="wifi_p2p_turnon_message">"WLAN တိုက်ရိုက်ကို စတင်ပါ။ ၎င်းသည် WLAN ကွန်ပျူတာ/ဟော့စပေါ့ ကို ပိတ်လိုက်လိမ့်မည်။"</string>
+    <string name="wifi_p2p_failed_message">"WLAN တိုက်ရိုက်ကို မစတင်နိုင်ပါ။"</string>
+    <string name="wifi_p2p_enabled_notification_title">"WLAN တိုက်ရိုက်ကို ဖွင့်ထားပါသည်"</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="tablet">"သင်၏ တက်ဘလက်သည် <xliff:g id="device_name">%1$s</xliff:g> နှင့် ချိတ်ဆက်နေစဉ် ယာယီအားဖြင့် WLAN မှ ချိတ်ဆက်မှုကို ဖြုတ်လိုက်လိမ့်မည်"</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="default">"သင်၏ ဖုန်းသည် <xliff:g id="device_name">%1$s</xliff:g> နှင့် ချိတ်ဆက်နေစဉ် ယာယီအားဖြင့် WLAN မှ ချိတ်ဆက်မှုကို ဖြုတ်လိုက်လိမ့်မည်"</string>
+    <!-- Notification title when WLAN data usage has exceeded limit threshold, and has been disabled. [CHAR LIMIT=32] -->
+    <string name="data_usage_wifi_limit_title">"WLAN ဒေတာကို ပိတ်ထားပါသည်"</string>
+    <!-- Notification title when WLAN data usage has exceeded limit threshold. [CHAR LIMIT=32] -->
+    <string name="data_usage_wifi_limit_snoozed_title">"WLAN ဒေတာ ကန့်သတ်ချက်ကို ကျော်သွားပါပြီ"</string>
+    <!--<string name="permlab_configureWifiDisplay">configure WLAN displays</string>-->
+    <!--<string name="permdesc_configureWifiDisplay">Allows the app to configure and connect to WLAN displays.</string>-->
+    <!--<string name="permlab_controlWifiDisplay">control WLAN displays</string>-->
+    <!--<string name="permdesc_controlWifiDisplay">Allows the app to control low-level features of WLAN displays.</string>-->
+    <!-- A notification is shown when there are open wireless networks nearby.  This is the notification's title. -->
+    <plurals name="wifi_available">
+        <item quantity="one">"WLAN ကွန်ယက် ရနိုင်သည်"</item>
+        <item quantity="other">"WLAN ကွန်ယက်များကို ရနိုင်ပါသည်"</item>
+    </plurals>
+    <!-- A notification is shown when there are open wireless networks nearby.  This is the notification's message. -->
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">"ရရှိနိုင်သော WLAN ကွန်ယက်ကို ဖွင့်ပါ"</item>
+        <item quantity="other">"ရရှိနိုင်သော WLAN ကွန်ယက်များကို ဖွင့်ပါ"</item>
+    </plurals></resources>

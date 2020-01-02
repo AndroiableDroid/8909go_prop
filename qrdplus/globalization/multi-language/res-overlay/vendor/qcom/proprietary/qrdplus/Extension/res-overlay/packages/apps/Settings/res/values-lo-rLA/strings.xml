@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Overlay Wi\u2011Fi to WLAN -->
+    <string name="radio_controls_summary">"ຈັດການ WLAN, ບລູທູດ, ໂໝດເຄື່ອງບິນ, ເຄືອຂ່າຍມືຖື, &amp; VPN"</string>
+    <string name="wifi_assistant_intro_setup">"ກຳລັງນໍາສະເໜີ\nຕົວຊ່ວຍ WLAN"</string>
+    <string name="wifi_assistant_card_message">"ເຊື່ອມຕໍ່ໂດຍອັດຕະໂນມັດກັບເຄືອຂ່າຍທີ່ມີໃຫ້ໃຊ້ງານດ້ວຍຕົວຊ່ວຍ WLAN."</string>
+    <string name="wifi_assistant_title">"ຕົວຊ່ວຍ WLAN"</string>
+    <string name="wifi_assistant_title_message">"ຕົວຊ່ວຍ Google WLAN ເຊື່ອມຕໍ່ທ່ານໂດຍອັດຕະໂນມັດກັບ WLAN ດີທີີີ່ສຸດທີ່ມີໃຫ້"</string>
+    <string name="wifi_assistant_explanation_message">"ຕົວຊ່ວຍ Google WLAN ຄົ້ນພົບເຄືອຂ່າຍທີ່ມີໃຫ້ທ່ານໃຊ້ງານ ແລະເຊື່ອມຕໍ່ອຸປະກອນຂອງທ່ານກັບເຄືອຂ່າຍທີ່ມີຄວາມໄວ ແລະຄວາມເຊື່ອຖືໄດ້ດີສຸດ."</string>
+    <string name="wifi_assistant_vpn_message">"ເພື່ອຊ່ວຍປົກປ້ອງຂໍ້ມູນຂອງທ່ານ, ຕົວຊ່ວຍ Google WLAN ອາດຈະສະໜອງການເຊື່ອມຕໍ່ VPN ທີ່ປອດໄພຜ່ານການບໍລິການ Google."</string>
+    <string name="wifi_assistant_dialog_message">"ຕົວຊ່ວຍ WLAN ຕ້ອງການຕັ້ງການເຊືື່ອມຕໍ່ VPN ທີ່ອະນຸຍາດໃຫ້ມັນຕິດຕາມປະລິມານຂໍ້ມູນເຄືອຂ່າຍ. ພຽງແຕ່ຮັບເອົາ ຖ້າທ່ານເຊື່ອຖືແຫຼ່ງທີ່ມາເທົ່ານັ້ນ."</string>
+    <string name="wifi_assistant_permission_accepted">"ທ່ານໃຫ້ອະນຸຍາດແກ່ “ຕົວຊ່ວຍ Google WLAN” ໃນການຕັ້ງການເຊື່ອມຕໍ່ VPN ແລ້ວ. ນັ້ນໝາຍຄວາມວ່າ ແອັບນີ້ສາມາດຕິດຕາມປະລິມານການຮັບສົ່ງຂໍ້ມູນຂອງເຄືອຂ່າຍໄດ້."</string>
+    <string name="wifi_quick_toggle_title">"WLAN"</string>
+    <string name="wifi_quick_toggle_summary">"ເປີດ WLAN"</string>
+    <string name="wifi_settings">"WLAN"</string>
+    <string name="wifi_settings_category">"ຕັ້ງຄ່າ WLAN"</string>
+    <string name="wifi_settings_title">"WLAN"</string>
+    <string name="wifi_setup_wizard_title">"ເລືອກ WLAN"</string>
+    <string name="wifi_select_network">"ເລືອກ WLAN"</string>
+    <string name="wifi_starting">"ກຳລັງເປີດ WLAN\u2026"</string>
+    <string name="wifi_stopping">"ກຳລັງປິດ WLAN\u2026"</string>
+    <string name="wifi_poor_network_detection_summary">"ຢ່າໃຊ້ເຄືອຂ່າຍ WLAN ຈົນກວ່າວ່າມັນມີການເຊື່ອມຕໍ່ອິນເຕີເນັດທີ່ດີ"</string>
+    <string name="wifi_scan_always_available_summary">"ອະນຸຍາດໃຫ້ການບໍລິການທີ່ຕັ້ງGoogle ແລະແອັບອື່ນໆສະແກນຫາເຄືອຂ່າຍ, ແມ້ແຕ່ເມື່ອ WLAN ປິດຢູ່"</string>
+    <string name="wifi_automatically_manage_title">"ຈັດການ WLAN ໂດຍອັດຕະໂນມັດ"</string>
+    <string name="wifi_automatically_manage_summary">"ອະນຸຍາດໃຫ້ຕົວຊ່ວຍ WLAN ຈັດການການເຊື່ອມຕໍ່ WLAN ຂອງທ່ານ"</string>
+    <string name="wifi_assistant_setting_title">"ຕົວຊ່ວຍ WLAN"</string>
+    <string name="wifi_assistant_setting_summary">"ຕົວຊ່ວຍ Google WLAN"</string>
+    <string name="wifi_setting_sleep_policy_title">"ເປີດ WLAN ໄວ້ເວລານອນຫຼັບ"</string>
+    <string name="wifi_setting_on_during_sleep_title">"ເປີດ WLAN ເວລານອນຫຼັບ"</string>
+    <string name="wifi_suspend_optimizations">"ການປັບ WLAN ໃຫ້ເໝາະສົມ"</string>
+    <string name="wifi_suspend_optimizations_summary">"ຫຼຸດການໃຊ້ແບັດເຕີຣີໃຫ້ໜ້ອຍທີ່ສຸດ ເມື່ອ WLAN ເປີດ"</string>
+    <string name="wifi_limit_optimizations_summary">"ຈຳກັດແບັດເຕີຣີທີ່ໃຊ້ໂດຍ WLAN"</string>
+    <string name="wifi_access_points">"ເຄືອຂ່າຍ WLAN"</string>
+    <string name="wifi_menu_p2p">"WLAN Direct"</string>
+    <string name="wifi_empty_list_wifi_off">"ເພື່ອເບິ່ງເຄືອຂ່າຍທີ່ມີຢູ່, ເປີດ WLAN."</string>
+    <string name="wifi_empty_list_wifi_on">"ກໍາລັງຄົ້ນຫາເຄືອຂ່າຍ WLAN\u2026"</string>
+    <string name="wifi_empty_list_user_restricted">"ທ່ານບໍ່ມີການອະນຸຍາດປ່ຽນເຄືອຂ່າຍ WLAN."</string>
+    <string name="wifi_required_info_text">"ເພື່ອຕັ້ງໃຫ້ສໍາເລັດ, ແທັບເລັດຂອງທ່ານຕ້ອງເຂົ້າຫາເຄືອຂ່າຍ WLAN. ຫຼັງຈາກຕັ້ງແລ້ວ, ທ່ານສາມາດສັບປ່ຽນລະຫວ່າງຂໍ້ມູນມືຖື ແລະ WLAN."</string>
+    <string name="wifi_wps_setup_title">"ການຕັ້ງຄ່າການປ້ອງກັນ WLAN"</string>
+    <string name="wifi_wps_onstart_pbc">"ກົດປຸ່ມຕັ້ງຄ່າການປ້ອງກັນ WLAN ຢູ່ເທິງເຣົາເຕີຂອງທ່ານ. ມັນອາດຈະຖືກເອີ້ນວ່າ\"WPS\" ຫຼືປະກອບມີສັນຍາລັກນີ້:"</string>
+    <string name="wifi_wps_onstart_pin">"ປ້ອນ PIN <xliff:g id="number">%1$s</xliff:g> ເທິງເຣົາເຕີ WLAN ຂອງທ່ານ. ການຕັ້ງຄ່າອາດຈະໃຊ້ເວລາເຖິງນາທີຈິ່ງສຳເລັດ."</string>
+    <string name="wifi_wps_connected">"ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍ WLAN <xliff:g id="network_name">%s</xliff:g>"</string>
+    <string name="wifi_skipped_message" product="tablet">"ຄໍາເຕືອນ: ຖ້າທ່ານຂ້າມ WLAN, ແທັບເລັດຂອງທ່ານຈະໃຊ້ພຽງແຕ່ຂໍ້ມູນມືຖືສຳລັບການດາວໂຫຼດ ແລະການອັບເດດໃນເບື້ອງຕົ້ນ. ເພື່ອຫຼີກລຽງການຄິດຄ່າຂໍ້ມູນທີ່ເປັນໄປໄດ້, ໃຫ້ເຊື່ອມຕໍ່ກັບ WLAN."</string>
+    <string name="wifi_skipped_message" product="device">"ຄໍາເຕືອນ: ຖ້າທ່ານຂ້າມ WLAN, ອຸປະກອນຂອງທ່ານຈະໃຊ້ພຽງແຕ່ຂໍ້ມູນມືຖືສຳລັບການດາວໂຫຼດ ແລະການອັບເດດໃນເບື້ອງຕົ້ນ. ເພື່ອຫຼີກລຽງການຄິດຄ່າຂໍ້ມູນທີ່ເປັນໄປໄດ້, ໃຫ້ເຊື່ອມຕໍ່ກັບ WLAN."</string>
+    <string name="wifi_skipped_message" product="default">"ຄໍາເຕືອນ: ຖ້າທ່ານຂ້າມ WLAN, ໂທລະສັບຂອງທ່ານຈະໃຊ້ພຽງແຕ່ຂໍ້ມູນມືຖືສຳລັບການດາວໂຫຼດ ແລະການອັບເດດໃນເບື້ອງຕົ້ນ. ເພື່ອຫຼີກລຽງການຄິດຄ່າຂໍ້ມູນທີ່ເປັນໄປໄດ້, ໃຫ້ເຊື່ອມຕໍ່ກັບ WLAN."</string>
+    <string name="wifi_and_mobile_skipped_message" product="tablet">"ຄໍາເຕືອນ: ຖ້າທ່ານຂ້າມ WLAN, ແທັບເລັດຂອງທ່ານຈະບໍ່ມີການເຊື່ອມຕໍ່ອິນເຕີເນັດໃຫ້ໃຊ້ງານສຳລັບການດາວໂຫຼດ ຫຼືການອັບເດດໃນເບື້ອງຕົ້ນ."</string>
+    <string name="wifi_and_mobile_skipped_message" product="device">"ຄໍາເຕືອນ: ຖ້າທ່ານຂ້າມ WLAN, ອຸປະກອນຂອງທ່ານຈະບໍ່ມີການເຊື່ອມຕໍ່ອິນເຕີເນັດໃຫ້ໃຊ້ງານສຳລັບການດາວໂຫຼດ ຫຼືການອັບເດດໃນເບື້ອງຕົ້ນ."</string>
+    <string name="wifi_and_mobile_skipped_message" product="default">"ຄໍາເຕືອນ: ຖ້າທ່ານຂ້າມ WLAN, ໂທລະສັບຂອງທ່ານຈະບໍ່ມີການເຊື່ອມຕໍ່ອິນເຕີເນັດໃຫ້ໃຊ້ງານສຳລັບການດາວໂຫຼດ ຫຼືການອັບເດດໃນເບື້ອງຕົ້ນ."</string>
+    <string name="wifi_connect_failed_message" product="tablet">"ແທັບເລັດບໍ່ສາມາດເຊື່ອມຕໍ່ໃສ່ກັບເຄືອຂ່າຍ WLAN ນີ້ໄດ້."</string>
+    <string name="wifi_connect_failed_message" product="device">"ອຸປະກອນບໍ່ສາມາດເຊື່ອມຕໍ່ໃສ່ກັບເຄືອຂ່າຍ WLAN ນີ້ໄດ້."</string>
+    <string name="wifi_connect_failed_message" product="default">"ໂທລະສັບບໍ່ສາມາດເຊື່ອມຕໍ່ໃສ່ກັບເຄືອຂ່າຍ WLAN ນີ້ໄດ້."</string>
+    <string name="wifi_advanced_titlebar">"WLAN ຂັ້ນສູງ"</string>
+    <string name="wifi_setting_frequency_band_title">"ຄື້ນຄວາມຖີ່ WLAN"</string>
+    <string name="wifi_p2p_settings_title">"WLAN Direct"</string>
+    <string name="wifi_tether_checkbox_text">"ຮັອສະປອດ WLAN ເຄື່ອນທີ່"</string>
+    <string name="wifi_hotspot_checkbox_text">"ຮັອສປອດ WLAN"</string>
+    <string name="wifi_hotspot_checkbox_text_summary">"ໃຊ້ການເຊື່ອມຕໍ່ເຄືອຂ່າຍມືຖືເພື່ອສະໜອງເຄືອຂ່າຍ WLAN"</string>
+    <string name="wifi_tether_failed_subtext">"ຮັອສປອດ WLAN ແບບພົກພາ"</string>
+    <string name="wifi_tether_configure_ap_text">"ຕັ້ງຮັອດສະປັອດ WLAN"</string>
+    <string name="wifi_hotspot_configure_ap_text">"ການຕັ້ງຮັອສປອດ WLAN"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">"ຮັອສປອດ WLAN ແບບພົກພາຂອງ AndroidAP WPA2 PSK"</string>
+    <string name="wifi_tether_configure_subtext">"<xliff:g id="network_ssid">%1$s</xliff:g> <xliff:g id="network_security">%2$s</xliff:g> ຮັອສປອດ WLAN"</string>
+    <string name="status_wifi_mac_address">"ທີ່ຢູ່ WLAN MAC"</string>
+    <string name="network_scorer_change_active_dialog_title">"ປ່ຽນຕົວຊ່ວຍ WLAN?"</string>
+    <string name="location_mode_high_accuracy_description">"ໃຊ້ GPS, WLAN, ແລະ ເຄືອຂ່າຍມືຖືເພື່ອກຳນົດທີ່ຕັ້ງ "</string>
+    <string name="location_mode_battery_saving_description">"ໃຊ້ WLAN, ແລະ ເຄືອຂ່າຍມືຖືເພື່ອກຳນົດທີ່ຕັ້ງ"</string>
+    <string name="location_network_based">"WLAN &amp; ທີ່ຕັ້ງເຄືອຂ່າຍມືຖື"</string>
+    <string name="location_neighborhood_level_wifi">"ທີ່ຕັ້ງທີ່ກໍານົດໂດຍ WLAN"</string>
+    <string name="wifi_verbose_logging">"ເປີດໃຊ້ການບັນທຶກລະອຽດຂອງ WLAN"</string>
+    <string name="wifi_aggressive_handover">"Aggressive WLAN ເປັນ ເຄືອຂ່າຍມືຖື"</string>
+    <string name="wifi_allow_scan_with_traffic">"ອະນຸຍາດການສະແກນການໃຊ້ງານຂ້າມເຂດຂອງ WLAN"</string>
+    <string name="wifi_verbose_logging_summary">"ເພີ່ມລະດັບການບັນທຶກ WLAN, ສະແດງຕໍ່ SSID RSSI ໃນ WLAN Picker"</string>
+    <string name="wifi_aggressive_handover_summary">"ເມື່ອເປີດໃຊ້ງານ, WLAN ຈະຊອກຫາ ແລະປ່ຽນການເຊື່ອມຕໍ່ຂໍ້ມູນເປັນເຄືອຂ່າຍມືຖື ເມື່ອສັນຍານ WLAN ຕໍ່າ"</string>
+    <string name="wifi_allow_scan_with_traffic_summary">"ອະນຸຍາດ/ບໍ່ອະນຸຍາດການສະແກນການໃຊ້ງານຂ້າມເຂດ WLAN ອີງໃສ່ປະລິມານການຮັບສົ່ງຂໍ້ມູນທີ່ປະກົດຢູ່ເທິງສ່ວນຕໍ່ປະສານ"</string>
+    <string name="battery_stats_wifi_running_label">"WLAN"</string>
+    <string name="wifi_on_time">"WLAN ກົງເວລາ"</string>
+    <string name="bluetooth_on_time">"WLAN ກົງເວລາ"</string>
+    <string name="power_wifi">"WLAN"</string>
+    <string name="usage_type_wifi_running">"WLAN ກໍາລັງແລ່ນ"</string>
+    <string name="usage_type_data_wifi_send">"ສົ່ງແພັກເກດ WLAN ແລ້ວ"</string>
+    <string name="usage_type_data_wifi_recv">"ຮັບແພັກເກດ WLAN ແລ້ວ"</string>
+    <string name="battery_action_wifi">"ຕັ້ງຄ່າ WLAN"</string>
+    <string name="battery_desc_wifi">"ແບັດເຕີຣີຖືກໃຊ້ໂດຍ WLAN"</string>
+    <string name="battery_sugg_wifi">"ປິດ WLAN ເມື່ອບໍ່ໃຊ້ມັນ ຫຼືເມື່ອມັນບໍ່ມີໃຫ້ໃຊ້ງານ"</string>
+    <string name="gadget_toggle_wifi">"ກໍາລັງອັບເດດການຕັ້ງຄ່າ WLAN"</string>
+    <string name="gadget_state_template">"<xliff:g name="feature" example="WLAN">%1$s</xliff:g> <xliff:g name="state" example="off">%2$s</xliff:g>"</string>
+    <string name="gadget_wifi">"WLAN"</string>
+    <string name="backup_data_summary">"ສໍາຮອງຂໍ້ມູນແອັບ, ລະຫັດ WLAN, ແລະການຕັ້ງຄ່າອື່ນໃສ່ເຊີບເວີ Google"</string>
+    <string name="backup_erase_dialog_message">"ຢຸດການສຳຮອງລະຫັດຜ່ານ WLAN, ບຸກມາກຄ໌, ການຕັ້ງຄ່າອື່ນຂອງທ່ານ, ແລະຂໍ້ມູນແອັບ, ພ້ອມກັບ ລຶບທຸກສຳເນົາຢູ່ເທິເຊີບເວີ Google ບໍ?"</string>
+    <string name="wifi_setup_title">"ການຕັ້ງ WLAN"</string>
+    <string name="wifi_setup_title_editing_network">"ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍ WLAN network <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>"</string>
+    <string name="wifi_setup_title_connecting_network">"ກຳລັງເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍ WLAN network <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>\u2026"</string>
+    <string name="wifi_setup_title_connected_network">"ໄດ້ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍ WLAN network <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>"</string>
+    <string name="wifi_setup_eap_not_supported">"ທ່ານບໍ່ສາມາດກໍານົດຕັ້ງການເຊື່ອມຕໍ່ EAP WLAN ໃນລະຫວ່າງການຕັ້ງໄດ້. ຫຼັງຈາກຕັ້ງແລ້ວ, ທ່ານສາມາດເຮັດສິ່ງນັ້ນໄດ້ໃນການຕັ້ງຄ່າ &gt; ໄຮ້ສາຍ &amp; ເຄືອຂ່າຍ."</string>
+    <string name="wifi_setup_description_connected">"ສຳພັດ "<b>"Next"</b>" ເພື່ອສືບຕໍ່ການຕັ້ງ.\n\nສຳພັດ "<b>"Back"</b>" ເພື່ອເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍ WLAN ອື່ນ."</string>
+    <string name="data_usage_menu_show_wifi">"ສະແດງ WLAN"</string>
+    <string name="data_usage_menu_hide_wifi">"ເຊື່ອງ WLAN"</string>
+    <string name="data_usage_disable_wifi_limit">"ຕັ້ງຂີດຈໍາກັດຂໍ້ມູນ WLAN"</string>
+    <string name="data_usage_tab_wifi">"WLAN"</string>
+    <string name="data_usage_restrict_background">"ຖ້າທ່ານຈຳກັດຂໍ້ມູນມືຖືໃນພື້ນຫຼັງ, ບາງແອັບ ແລະການບໍລິການຈະບໍ່ໃຊ້ງານໄດ້ ເວັ້ນເສຍແຕ່ວ່າທ່ານເຊື່ອມຕໍ່ກັບ WLAN."</string>
+    <string name="data_usage_restrict_background_multiuser" product="tablet">"ຖ້າທ່ານຈໍາກັດຂໍ້ມູນພື້ນຫຼັງ, ແອັບ ແລະການບໍລິການບາງອັນຈະບໍ່ເຮັດວຽກ ນອກຈາກວ່າທ່ານເຊື່ອມຕໍ່ເຂົ້າກັບເຄືອຂ່າຍ WLAN.\n\nການຕັ້ງຄ່ານີ້ກະທົບຕໍ່ຜູ້ໃຊ້ທຸກຄົນຢູ່ເທິງແທັບເລັດນີ້."</string>
+    <string name="data_usage_restrict_background_multiuser" product="default">"ຖ້າທ່ານຈໍາກັດຂໍ້ມູນພື້ນຫຼັງ, ແອັບ ແລະການບໍລິການບາງອັນຈະບໍ່ເຮັດວຽກ ນອກຈາກວ່າທ່ານເຊື່ອມຕໍ່ເຂົ້າກັບເຄືອຂ່າຍ WLAN.\n\nການຕັ້ງຄ່ານີ້ກະທົບຕໍ່ຜູ້ໃຊ້ທຸກຄົນຢູ່ເທິງໂທລະສັບນີ້."</string>
+    <string name="data_usage_metered_wifi">"ເຄືອຂ່າຍ WLAN ທີ່ຄິດຄ່າຕາມປະລິມານຂໍ້ມູນ"</string>
+    <string name="data_usage_metered_wifi_disabled">"ເພື່ອເລືອກເຄືອຂ່າຍທີ່ຄິດຄ່າຕາມປະລິມານຂໍ້ມູນ, ໃຫ້ເປີດ WLAN."</string>
+    <string name="restriction_wifi_config_title">"WLAN ແລະ ມືຖື"</string>
+    <string name="restriction_wifi_config_summary">"ອະນຸຍາດການປັບປ່ຽນການຕັ້ງຄ່າ WLAN ແລະ ມືຖື"</string>
+    <!-- Overlay wi-fi to WLAN -->
+    <string name="keywords_wifi">"ການເຊື່ອມຕໍ່ເຄືອຂ່າຍ wifi WLAN"</string>
+    <string name="setup_wifi_nfc_tag">"ຕັ້ງປ້າຍ WLAN NFC"</string>
+    <string name="wifi_scan_notify_text_location_on">"ເພື່ອປັບປຸງຄວາມຖືກຕ້ອງຂອງທີ່ຕັ້ງ ແລະເພື່ອຈຸດປະສົງອື່ນ, Google ແລະແອັບອື່ນ ອາດຈະສະແກນຫາເຄືອຂ່າຍໃກ້ຄຽງ, ແມ້ກະທັ້ງໃນເວລາທີ່ WLAN ປິດຢູ່. ຖ້າທ່ານບໍ່ຕ້ອງການໃຫ້ເກີດສິ່ງນີ້, ໃຫ້ເຂົ້າຫາ ຂັ້ນສູງ &gt; ການສະແກນມີໃຫ້ສະເໝີ."</string>
+    <string name="wifi_scan_notify_text_location_off">"ແອັບອາດຈະສະແກນຫາເຄືອຂ່າຍໃກ້ຄຽງ, ແມ້ກະທັ້ງໃນເວລາທີ່ WLAN ປິດຢູ່. ຖ້າທ່ານບໍ່ຕ້ອງການໃຫ້ເກີດສິ່ງນີ້, ໃຫ້ເຂົ້າຫາ ຂັ້ນສູງ &gt; ການສະແກນມີໃຫ້ສະເໝີ."</string>
+    <string name="wifi_scan_always_turnon_message">"ເພື່ອປັບປຸງຄວາມຖືກຕ້ອງຂອງທີ່ຕັ້ງ ແລະເພື່ອຈຸດປະສົງອື່ນ, <xliff:g id="app_name">%1$s</xliff:g> ຕ້ອງການເປີດການສະແກນຫາເຄືອຂ່າຍ, ແມ້ກະທັ້ງໃນເວລາທີ່ WLAN ປິດຢູ່.\n\nອະນຸຍາດສິ່ງນີ້ສຳລັບທຸກແອັບທີ່ຕ້ອງການສະແກນບໍ?"</string></resources>

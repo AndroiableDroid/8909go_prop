@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+  ~ Copyright (c) 2015, The Linux Foundation. All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are
+  ~ met:
+  ~      Redistributions of source code must retain the above copyright
+  ~       notice, this list of conditions and the following disclaimer.
+  ~      Redistributions in binary form must reproduce the above
+  ~       copyright notice, this list of conditions and the following
+  ~       disclaimer in the documentation and/or other materials provided
+  ~       with the distribution.
+  ~      Neither the name of The Linux Foundation nor the names of its
+  ~       contributors may be used to endorse or promote products derived
+  ~       from this software without specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+  ~ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  ~ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+  ~ ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+  ~ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  ~ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  ~ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+  ~ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+  ~ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  ~ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  ~
+  -->
+<!-- The xml contains Qti specific resource strings neede for any value added features. -->
+<resources>
+    <!-- Call substate label -->
+    <string name="call_substate_label">" ခေါ်ဆိုမှု အဆင့်နိမ့် - \u000a"</string>
+    <!-- Call substate label for call resumed -->
+    <string name="call_substate_call_resumed">"ပြန်လည်စတင်ပြီး \u000a"</string>
+    <!-- Call substate label for call connected suspended (audio) -->
+    <string name="call_substate_connected_suspended_audio">"ဆက်သွယ် ဆိုင်းငံ့ထားသော (အသံ) \u000a"</string>
+    <!-- Call substate label for call connected suspended (video) -->
+    <string name="call_substate_connected_suspended_video">"ဆက်သွယ် ဆိုင်းငံ့ထားသော (ဗီဒီယို) \u000a"</string>
+    <!-- Call substate label for avp retry -->
+    <string name="call_substate_avp_retry">"Avp ပြန်ကြိုးစားခြင်း \u000a"</string>
+    <!-- Video quality changed message -->
+    <string name="video_quality_changed">" ဗီဒီယို အရည်အသွေးကို ပြောင်းရန် \u0020"</string>
+    <!-- Video quality High -->
+    <string name="video_quality_high">"မြင့်မြင့်"</string>
+    <!-- Video quality Medium -->
+    <string name="video_quality_medium">"အတော်အသင့်"</string>
+    <!-- Video quality Low -->
+    <string name="video_quality_low">"နိမ့်နိမ့်"</string>
+    <!-- Video quality Unknown -->
+    <string name="video_quality_unknown">"မသိရ"</string>
+    <!-- Message indicating that Video Started flowing for IMS-VT calls -->
+    <string name="player_started">"Player စတင်ခဲ့သည်"</string>
+    <!-- Message indicating that Video Stopped flowing for IMS-VT calls -->
+    <string name="player_stopped">"Player ရပ်တန့်ခဲ့သည်"</string>
+    <!-- Message indicating that camera failure has occurred for the selected camera and
+         as result camera is not ready -->
+    <string name="camera_not_ready">"ကင်မရာအဆင်သင့် မဖြစ်သေးပါ"</string>
+    <!-- Message indicating that camera is ready/available -->
+    <string name="camera_ready">"ကင်မရာအဆင်သင့်"</string>
+    <!-- Message indicating unknown call session event -->
+    <string name="unknown_call_session_event">"အမည်မသိခေါ်ဆိုမှု ဆက်ရှင်ဖြစ်ရပ်"</string>
+    <!-- Message indicating data usage -->
+    <string name="data_usage_label">"ဒေတာ အသုံးပြုမှု- "</string>
+    <!-- Modify call error cause -->
+    <string name="modify_call_failed_due_to_low_battery">"ဘက္ထရီနည်းသောကြောင့် ခေါ်ဆိုမှုမအောင်မြင်ခြင်းကို ပြင်ဆင်ပါ"</string>
+    <!-- Message indicating video calls not allowed if user enabled TTY Mode -->
+    <string name="video_call_not_allowed_if_tty_enabled">"ဗီဒီယို ခေါ်ဆိုမှုများသို့ အဆင့်မြှင့်ရန် TTY Mode ကို ပိတ်ပါ။"</string>
+    <!-- Text for the onscreen "Add Participant" button -->
+    <string name="onscreenAddParticipant">"ပါဝင်သူ ထည့်ပါ"</string>
+    <!-- Description of the deflect target in the Slide unlock screen. [CHAR LIMIT=NONE] -->
+    <string name="qti_description_target_deflect">"လွဲချော်သည်"</string>
+    <string name="qti_description_deflect_error">"နံပါတ် မသတ်မှတ်ထားပါ။ နံပါတ်ကို IMS ဆက်တင်မှ ပေးအပ်ကာ ထပ်ကြိုးစားပါ။"</string>
+    <string name="qti_description_deflect_service_error">"ခေါ်ဆိုမှု လွဲချော်ထားခြင်း ဝန်ဆောင်မှုကို မပံ့ပိုးထားပါ။"</string>
+    <!-- Message indicating call failed due to handover not feasible -->
+    <string name="call_failed_ho_not_feasible">"LTE မှ 3G/2G သို့ လွှဲပြောင်းမှု မဖြစ်နိုင်သောကြောင့် ခေါ်ဆိုမှု ပြီးပါပြီ။"</string>
+    <!-- Title of the IMS to CS redial dialog -->
+    <string name="cs_redial_option">"ပြန်ခေါ်ရန် ရွေးစရာ"</string>
+    <!-- Message text of the IMS to CS redial dialog -->
+    <string name="cs_redial_msg">"IMS ဗီဒီယိုခေါ်ဆိုမှု မပြုလုပ်နိုင်ပါ။ IMS မဟုတ်သော အသံခေါ်ဆိုမှုကို ခေါ်ဆိုမလား။"</string>
+    <!-- Yes option of the IMS to CS redial dialog -->
+    <string name="cs_redial_yes">"ဟုတ်ကဲ့"</string>
+    <!-- No option of the IMS to CS redial dialog -->
+    <string name="cs_redial_no">"မဟုတ်ပါ"</string>
+    <!-- Session modify cause unspecified -->
+    <string name="session_modify_cause_unspecified"></string>
+    <!-- Session modify cause code upgrade local request -->
+    <string name="session_modify_cause_upgrade_local_request">"အသုံးပြုသူ တောင်းဆိုသဖြင့် ခေါ်ဆိုမှု အဆင့်မြှင့်ထားသည်"</string>
+    <!-- Session modify cause code upgrade remote request -->
+    <string name="session_modify_cause_upgrade_remote_request">"အဝေးမှ အသုံးပြုသူ တောင်းဆိုသဖြင့် ခေါ်ဆိုမှု အဆင့်မြှင့်ထားသည်"</string>
+    <!-- Session modify cause code downgrade local request -->
+    <string name="session_modify_cause_downgrade_local_request">"အသုံးပြုသူ တောင်းဆိုသဖြင့် ခေါ်ဆိုမှု အဆင့်မြှင့်သည်"</string>
+    <!-- Session modify cause code downgrade remote request -->
+    <string name="session_modify_cause_downgrade_remote_request">"အသုံးပြုသူ တောင်းဆိုသဖြင့် ခေါ်ဆိုမှု အဆင့်နှိမ့်ထားသည်"</string>
+    <!-- Session modify cause code downgrade rtp timeout -->
+    <string name="session_modify_cause_downgrade_rtp_timeout">"RTP အချိန်ကုန်သွားသဖြင့် ခေါ်ဆိုမှု အဆင့်နှိမ့်ထားသည်"</string>
+    <!-- Session modify cause code downgrade qos -->
+    <string name="session_modify_cause_downgrade_qos">"ဝန်ဆောင်မှု အရည်အသွေးကြောင့် ခေါ်ဆိုမှု အဆင့်နှိမ့်ထားသည်"</string>
+    <!-- Session modify cause code downgrade packet loss -->
+    <string name="session_modify_cause_downgrade_packet_loss">"ပက်ကက် ပျောက်သွားသဖြင့် ခေါ်ဆိုမှု အဆင့်နှိမ့်ထားသည်"</string>
+    <!-- Session modify cause code downgrade low thrput -->
+    <string name="session_modify_cause_downgrade_low_thrput">"ဖြတ်သန်းအချက်အလက်နည်းသဖြင့် ခေါ်ဆိုမှု အဆင့်နှိမ့်ထားသည်"</string>
+    <!-- Session modify cause code downgrade thermal mitigation -->
+    <string name="session_modify_cause_downgrade_thermal_mitigation">"အပူလျော့ကျမှုကြောင့် ခေါ်ဆိုမှု အဆင့်နှိမ့်ထားသည်"</string>
+    <!-- Session modify cause code downgrade lipsync -->
+    <string name="session_modify_cause_downgrade_lipsync">"သံယောင်လိုက်မှုကြောင့် ခေါ်ဆိုမှု အဆင့်နှိမ့်ထားသည်"</string>
+    <!-- Session modify cause code downgrade generic error -->
+    <string name="session_modify_cause_downgrade_generic_error">"အမျိုးအမည်မှားယွင်းမှုကြောင့် ခေါ်ဆိုမှု အဆင့်နှိမ့်ထားသည်"</string>
+    <!-- Title for low battery alert dialogue -->
+    <string name="low_battery">"ဘက်ထရီ နည်းနေသည်"</string>
+    <!-- Yes option of the low battery alert dialog -->
+    <string name="low_battery_yes">"ဟုတ်ကဲ့"</string>
+    <!-- No option of the low battery alert dialog -->
+    <string name="low_battery_no">"မဟုတ်ပါ"</string>
+    <!-- Message text of the low battery alert dialog in cases when video call can be downgraded to voice call -->
+    <string name="low_battery_downgrade_to_voice_msg">"ဗီဒီယိုခေါ်ဆိုမှုမှ အသံခေါ်ဆိုမှုသို့ ပြောင်းလဲချင်သလား။"</string>
+    <!-- Message text of the low battery alert dialog in cases video call doesn't have downgrade capabilities -->
+    <string name="low_battery_hangup_msg">"ခေါ်ဆိုမှုကို ကိုင်ထားစေချင်သလား။"</string>
+    <!-- Description of the call transfer related strings [CHAR LIMIT=NONE] -->
+    <string name="qti_ims_transfer_num_error">"နံပါတ် မသတ်မှတ်ထားပါ။ နံပါတ်ကို IMS ဆက်တင်မှ ပေးအပ်ကာ ထပ်ကြိုးစားပါ။"</string>
+    <string name="qti_ims_transfer_request_error">"ခေါ်ဆိုမှု လွှဲပြောင်းမှု တောင်းဆိုရန် မအောင်မြင်ပါ။"</string>
+    <string name="qti_ims_transfer_request_success">"ခေါ်ဆိုမှု လွှဲပြောင်းမှု တောင်းဆိုရန် အောင်မြင်သည်။"</string>
+    <!-- Text for the onscreen "blind transfer" button -->
+    <string name="qti_ims_onscreenBlindTransfer">"မမြင်ရသော လွှဲပြောင်းမှု"</string>
+    <!-- Text for the onscreen "assured transfer" button -->
+    <string name="qti_ims_onscreenAssuredTransfer">"သေချာသော လွှဲပြောင်းမှု"</string>
+    <!-- Text for the onscreen "consultative transfer" button -->
+    <string name="qti_ims_onscreenConsultativeTransfer">"တိုင်ပင်ထားသော လွှဲပြောင်းမှု"</string>
+    <!-- Text for operator specific emergency number -->
+    <add-resource type="string" name="emergency_call_dialog_number_for_display_operator"/>
+    <string name="emergency_call_dialog_number_for_display_operator">"အရေးပေါ်"</string></resources>

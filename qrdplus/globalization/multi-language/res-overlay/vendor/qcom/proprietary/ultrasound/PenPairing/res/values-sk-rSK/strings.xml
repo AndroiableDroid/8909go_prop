@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Párovanie SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Párovanie digitálneho pera Snapdragon"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Nastavenia"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"OK"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"Zvoľte polohu pera na zobrazenie"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"Vyberte si sériové číslo nového pera"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"Vyberte si typ pera, ktoré chcete použiť"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"Začať párovanie"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"Párovací proces začnete, ak pero podržíte v priamom uhle vnútri kruhu"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"Manuálne párovanie"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"Poloautomatické párovanie"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"Zvoľte si spôsob párovania"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"Párovať nové pero"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"Správa párovaných pier"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"Kalibrácia SW"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"Párovací proces začnete, ak pero podržíte v priamom uhle vnútri kruhu.\nPo dokončení sa spustí proces kalibrácie."</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"Tester strediska služby"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"Párovací proces začnete, ak pero podržíte v priamom uhle vnútri kruhu.\nPo úspešnom dokončení sa spustí proces testovania."</string></resources>

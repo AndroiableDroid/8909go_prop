@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<!--
+Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of The Linux Foundation nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Strings for step option settins -->
+    <string name="setp_option_name">"단계"</string>
+    <string name="step_option_desc">"빠른 단계 앞으로/뒤로 맞춤설정"</string>
+    <string name="setp_option_three_second">"3초"</string>
+    <string name="setp_option_six_second">"6초"</string>
+    <string name="loop">"루프"</string>
+    <string name="single">"단일"</string>
+    <string name="stereo">"스테레오"</string>
+    <string name="speaker_on">"스피커 켜기"</string>
+    <string name="speaker_off">"스피커 끄기"</string>
+    <string name="speaker_need_headset">"먼저 헤드셋을 연결하세요!"</string>
+    <string name="single_track">"단일 트랙"</string>
+    <string name="media_detail">"미디어 세부정보"</string>
+    <string name="input_url">"입력 URL"</string>
+    <string name="streaming_settings">"스트리밍 설정"</string>
+    <string name="next">"다음"</string>
+    <string name="previous">"이전"</string>
+    <string name="rtp_rtcp">"RTP/RTCP"</string>
+    <string name="min_port">"최소 포트:"</string>
+    <string name="max_port">"최대 포트:"</string>
+    <string name="buffer_size">"버퍼 크기"</string>
+    <string name="apn">"기본 APN"</string>
+    <string name="rtp_min_port">"최소 포트"</string>
+    <string name="rtp_max_port">"최대 포트"</string>
+    <string name="set_rtp_min_port">"최소 포트 설정"</string>
+    <string name="set_rtp_max_port">"최대 포트 설정"</string>
+    <string name="set_buffer_size">"버퍼 크기 설정"</string>
+    <string name="set_apn">"기본 APN 선택"</string>
+    <string name="setting">"설정"</string>
+    <string name="server_timeout_title">"서버 제한 시간"</string>
+    <string name="server_timeout_message">"동영상 재생을 위해 서버에 다시 연결하시겠습니까?"</string>
+    <string name="videoview_error_text_cannot_connect_retry">"연결하지 못했습니다. %1$d에 다시 연결하세요..."</string>
+    <string name="media_controller_live">"라이브"</string>
+    <string name="media_controller_playing">"재생"</string>
+    <string name="media_controller_connecting">"연결 중..."</string>
+    <string name="bookmark_add">"북마크 추가"</string>
+    <string name="bookmark_display">"북마크 표시"</string>
+    <string name="bookmark_empty">"북마크가 없습니다."</string>
+    <string name="bookmark_exist">"기록에 같은 북마크가 있습니다."</string>
+    <string name="bookmark_add_success">"북마크 추가 성공"</string>
+    <string name="bookmark_list">"북마크"</string>
+    <string name="bookmark_title">"제목"</string>
+    <string name="bookmark_location">"위치"</string>
+    <string name="delete_all">"모두 삭제"</string>
+    <string name="default_title">"기본 제목"</string></resources>

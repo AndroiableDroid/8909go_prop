@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">EmbmsTestApp</string>
+    <string name="embms_test_app">"eMBMS 测试应用"</string>
+    <string name="bind_service">"绑定服务"</string>
+    <string name="unbind_service">"取消绑定服务"</string>
+    <string name="kill_process">"Kill Process"</string>
+    <string name="register">"注册回拨"</string>
+    <string name="deregister">"取消注册回拨"</string>
+    <string name="enable">"启用 eMBMS"</string>
+    <string name="disable">"禁用 eMBMS"</string>
+    <string name="activate">"激活 TMGI"</string>
+    <string name="deactivate">"停用 TMGI"</string>
+    <string name="enter_Tmgi">"以十进制输入 TMGI"</string>
+    <string name="get_active">"获取活动列表"</string>
+    <string name="get_available">"获取可用列表"</string>
+    <string name="get_coverage">"获取信号覆盖状态"</string>
+    <string name="get_log_packet_id">"获取日志数据包 ID"</string>
+    <string name="deliver_log_packet">"发送日志数据包"</string>
+    <string name="get_e911_state">"获取 E911 状态"</string></resources>

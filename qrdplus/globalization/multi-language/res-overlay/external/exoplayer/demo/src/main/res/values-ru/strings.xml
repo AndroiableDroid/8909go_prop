@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The user visible name of the application. [CHAR LIMIT=20] -->
+  <string name="application_name">"Демоверсия ExoPlayer"</string>
+  <string name="enable_background_audio">"Воспроизвести в фоновом режиме"</string>
+  <string name="video">"Видео"</string>
+  <string name="audio">"Аудио"</string>
+  <string name="text">"Текст"</string>
+  <string name="logging">"Ведение журнала"</string>
+  <string name="logging_normal">"Обычная"</string>
+  <string name="logging_verbose">"Подробный журнал"</string>
+  <string name="retry">"Повторить попытку"</string>
+  <string name="off">"[выкл]"</string>
+  <string name="error_drm_not_supported">"Защищенное содержимое не поддерживается ниже 18 уровня интерфейсов API"</string>
+  <string name="error_drm_unsupported_scheme">"Это устройство не поддерживает требуемую схему DRM"</string>
+  <string name="error_drm_unknown">"Произошла неизвестная ошибка DRM"</string>
+  <string name="error_no_decoder">"Это устройство не предоставляет декодер для <xliff:g id="mime_type">%1$s</xliff:g>"</string>
+  <string name="error_no_secure_decoder">"Это устройство не предоставляет защищенный декодер для <xliff:g id="mime_type">%1$s</xliff:g>"</string>
+  <string name="error_querying_decoders">"Не удается отправить запрос декодерам устройства"</string>
+  <string name="error_instantiating_decoder">"Не удается создать экземпляр декодера <xliff:g id="decoder_name">%1$s</xliff:g>"</string>
+  <string name="storage_permission_denied">"В доступе к хранилищу отказано"</string></resources>

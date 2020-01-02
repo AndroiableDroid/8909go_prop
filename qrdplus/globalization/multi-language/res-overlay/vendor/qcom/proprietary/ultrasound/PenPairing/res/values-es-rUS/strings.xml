@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Vinculación SDP"</string>
+    <add-resource type="string" name="app_name_long"/>
+    <string name="app_name_long">"Emparejamiento del lápiz digital Snpadragon"</string>
+    <add-resource type="string" name="action_settings"/>
+    <string name="action_settings">"Configuración"</string>
+    <add-resource type="string" name="manual_button"/>
+    <string name="manual_button">"Aceptar"</string>
+    <add-resource type="string" name="point_settings_text"/>
+    <string name="point_settings_text">"Elegir posición del lápiz para mostrar"</string>
+    <add-resource type="string" name="manual_text"/>
+    <string name="manual_text">"Selecciona el número de serie del nuevo bolígrafo"</string>
+    <add-resource type="string" name="pen_picker_text"/>
+    <string name="pen_picker_text">"Escoge el tipo de bolígrafo que deseas utilizar"</string>
+    <add-resource type="string" name="semiautomatic_button"/>
+    <string name="semiautomatic_button">"Comenzar vinculación"</string>
+    <add-resource type="string" name="semiautomatic_text"/>
+    <string name="semiautomatic_text">"Sostén el bolígrafo ortogonalmente dentro del círculo para comenzar el proceso de vinculación"</string>
+    <add-resource type="string" name="manual_pairing_button"/>
+    <string name="manual_pairing_button">"Vinculación manual"</string>
+    <add-resource type="string" name="semiautomatic_pairing_button"/>
+    <string name="semiautomatic_pairing_button">"Vinculación semi automática"</string>
+    <add-resource type="string" name="pairing_text"/>
+    <string name="pairing_text">"Escoger un nuevo método de vinculación"</string>
+    <add-resource type="string" name="main_pairing_button"/>
+    <string name="main_pairing_button">"Vincular un Bolígrafo nuevo"</string>
+    <add-resource type="string" name="main_paired_pens_button"/>
+    <string name="main_paired_pens_button">"Administrar Bolígrafos vinculados"</string>
+    <add-resource type="string" name="main_sw_calibration_button"/>
+    <string name="main_sw_calibration_button">"Calibración SW"</string>
+    <add-resource type="string" name="sw_calibration_text"/>
+    <string name="sw_calibration_text">"Sostén el bolígrafo ortogonalmente dentro del círculo para iniciar el proceso de vinculación.\nUna vez concluya con éxito, comenzará el proceso de calibración."</string>
+    <add-resource type="string" name="main_tester_button"/>
+    <string name="main_tester_button">"Prueba del Centro de servicio"</string>
+    <add-resource type="string" name="tester_text"/>
+    <string name="tester_text">"Sostén el bolígrafo ortogonalmente dentro del círculo para iniciar el proceso de vinculación.\nUna vez concluya con éxito, comenzará el proceso de prueba."</string></resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Ipakita ang debug metrics"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"I-save ang mga larawan"</string>
+    <string name="debug_pref_save_pictures_desc">"I-save ang mga nakunang larawan sa SDCard"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"I-save ang mga preview frame"</string>
+    <string name="debug_pref_save_preview_frames_desc">"I-save ang mga preview frame sa SDCard"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Pahintulutan ang pagbaba ng preview frame"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"Kapag sine-save ang mga preview frame, pahintulutan ang pagbaba ng mga frame para mapanatili ang framerate"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Paganahin ang vebose logging ng pagkilala ng mukha"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

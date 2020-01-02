@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012,2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"ຕົວຈັດການໂປຣໄຟລ໌"</string>
+    <string name="setting_title">"ໂປຣໄຟລ໌ໃໝ່"</string>
+    <string name="edit_title">"ແກ້ໄຂໂປຣໄຟລ໌"</string>
+    <!--def_volume-->
+    <integer name="def_volume">5</integer>
+    <!--Name-->
+    <string name="name_settings">"ຊື່"</string>
+    <string name="name_title">"ຊື່ໂປຣໄຟລ໌"</string>
+    <string name="name_summary">"ປ້ອນຊື່ຮໂປຣໄຟລ໌"</string>
+    <!--Sound-->
+    <string name="sound_settings">"ສຽງ"</string>
+    <string name="silent_mode_title">"ງຽບ"</string>
+    <string name="silent_mode_summary">"ປີດສຽງທັງໝົດ  "</string>
+    <string name="ss_ringtone_title">"ສຽງໂທເຂົ້າໂທລະສັບ"</string>
+    <string name="slot1_ringtone_title">"ສຽງໂທເຂົ້າ ຊ່ອງ1"</string>
+    <string name="slot2_ringtone_title">"ສຽງໂທເຂົ້າ ຊ່ອງ2"</string>
+    <string name="vibrate_title">"ສັ່ນ"</string>
+    <string name="vibrate_summary">"ການສັ່ນສໍາລັບສາຍໂທເຂົ້າ ແລະການແຈ້ງເຕືອນ  "</string>
+    <string name="ringvolume_title">"ລະດັບສຽງ"</string>
+    <string name="ringvolume_summary">"ລະດັບສຽງ"</string>
+    <!--Wireless-->
+    <string name="wireless_settings">"ໄຮ້ສາຍ"</string>
+    <string name="data_title">"ເຄືອຂ່າຍມືຖື"</string>
+    <string name="data_summaryOn">"ເປີດໃຊ້ງານແລ້ວ"</string>
+    <string name="data_summaryOff">"ປິດໃຊ້ງານແລ້ວ"</string>
+    <string name="wifi_title">"WI-FI"</string>
+    <string name="wlan_title">"WLAN"</string>
+    <string name="wifi_summaryOn">"ເປີດໃຊ້ງານແລ້ວ"</string>
+    <string name="wifi_summaryOff">"ປິດໃຊ້ງານແລ້ວ"</string>
+    <string name="bluetooth_title">"ບລູທູດ"</string>
+    <string name="bluetooth_summaryOn">"ເປີດໃຊ້ງານແລ້ວ"</string>
+    <string name="bluetooth_summaryOff">"ປິດໃຊ້ງານແລ້ວ"</string>
+    <!--Location-->
+    <string name="location_settings">"ທີ່ຕັ້ງ"</string>
+    <string name="gps_location_title">"ທີ່ອີງໃສ່ GPS"</string>
+    <string name="gps_location_summaryOn">"ເປີດໃຊ້ງານແລ້ວ"</string>
+    <string name="gps_location_summaryOff">"ປິດໃຊ້ງານແລ້ວ"</string>
+    <string name="network_location_title">"ທີ່ອີງໃສ່ເຄືອຂ່າຍ"</string>
+    <string name="network_location_summaryOn">"ເປີດໃຊ້ງານແລ້ວ"</string>
+    <string name="network_location_summaryOff">"ປິດໃຊ້ງານແລ້ວ"</string>
+    <!--Display-->
+    <string name="display_settings">"ຈໍສະແດງຜົນ"</string>
+    <string name="brightness_title">"ຄວາມສະຫວ່າງ"</string>
+    <string name="brightness_summary">"ຄວາມສະຫວ່າງ"</string>
+    <string name="general">"ທົ່ວໄປ"</string>
+    <string name="meeting">"ການປະຊຸມ"</string>
+    <string name="outing">"ຢູ່ນອກ"</string>
+    <string name="silent">"ງຽບ"</string>
+    <string name="powersave">"ປະຢັດພະລັງງານ"</string>
+    <string name="menu_add">"ສ້າງໂປຣໄຟລ໌ໃໝ່"</string>
+    <string name="menu_delete">"ລຶບ"</string>
+    <string name="menu_reset">"ຕັ້ງຄ່າຄືນ​ໃໝ່"</string>
+    <string name="save">"ບັນທຶກ"</string>
+    <string name="ok">"ຕົກລົງ"</string>
+    <string name="cancel">"ຍົກ​ເລີກ"</string>
+    <string name="default_name">"ໂປຣໄຟລຼໃໝ່"</string>
+    <string name="dialog_edit_title">"ຕົວເລືອກໂປຣໄຟລ໌"</string>
+    <string name="dialog_reset_title">"ຕັ້ງຄ່າໂປຣໄຟລ໌ຄືນໃໝ່"</string>
+    <string name="dialog_reset_message">"ຕັ້ງທຸກໂປຣໄຟລ໌ເປັນຄ່າເລີ່ມຕົ້ນ (ໂປຣໄຟລ໌ໃໝ່ຈະຖືກລືບອອກ)"</string>
+    <string name="dialog_sound_volume">"ລະດັບສຽງ"</string>
+    <string name="dialog_ring_volume_title">"ສຽງ &amp; ການແຈ້ງເຕືອນ"</string>
+    <string name="dialog_music_volume_title">"ດົນຕີ"</string>
+    <string name="dialog_alarm_volume_title">"ໂມງປຸກ"</string>
+    <string name="dialog_display">"ຄວາມສະຫວ່າງ"</string>
+    <string name="dialog_brightness_title">"ຄວາມສະຫວ່າງຂອງໜ້າຈໍ"</string>
+    <string name="main_textview_top">"ກົດຄ້າງເພື່ອແກ້ໄຂໂປຣໄຟລ໌"</string>
+    <string name="profile_enable">"​ເປີດ​ໃຊ້​ງານ​ແລ້ວ"</string>
+    <string name="delete">"ລຶບ"</string>
+    <string name="edit">"ແກ້ໄຂ"</string>
+    <string name="current_profile_name">"ໂປຣໄຟລ໌ປະຈຸບັນ"</string>
+    <string name="ringtone_title">"ສຽງໂທເຂົ້າ"</string>
+    <string name="ringtone_setting_title">"ສຽງໂທເຂົ້າໂທລະສັບ"</string>
+    <string name="ringtone_setting_summary"></string>
+    <string name="ringtone_tab_title">"ຕັ້ງຄ່າສຽງໂທເຂົ້າ"</string>
+    <string name="deleteConfirmation">"ໂປຣໄຟລ໌ນີ້ຈະຖືກລຶບ."</string>
+    <string name="name_empty_alert">"ຊື່ໂປຣໄຟລ໌ຍັງວ່າງເປົ່າ. ກະລຸນາກົດຊື່ໂປຣໄຟລ໌ ເພື່ອສ້າງຊື່ໂປຣໄຟລ໌ໃໝ່."</string></resources>

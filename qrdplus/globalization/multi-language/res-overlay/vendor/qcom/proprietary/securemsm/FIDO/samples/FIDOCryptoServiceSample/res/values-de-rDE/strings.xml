@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"FidoCryptoServiceSampleApp"</string>
+    <string name="action_settings">"Einstellungen"</string>
+    <string name="body_msg">"FidoCryptoService wird getestet"</string>
+    <string name="load">"laden"</string>
+    <string name="unload">"entladen"</string>
+    <string name="process">"Prozess"</string>
+    <string name="start">"starten"</string>
+    <string name="counter">0</string>
+    <string name="bindFido">"FIDO-Dienst binden"</string>
+    <string name="unbindFido">"Bindg. d. FIDO-Diensts entf."</string>
+    <string name="setChallenge">"Herausforderung einrichten"</string>
+    <string name="fidoCryptoJNI">"fidoCryptoJNI"</string>
+    <string name="bind">"Authentifizierungsperson binden"</string>
+    <string name="verifyUser">"Ben. prüfen/Token erh."</string>
+    <string name="GetInfo">"GetInfo"</string>
+    <string name="Register">"Registrieren"</string>
+    <string name="Deregister">"Registrierung entfernen"</string>
+    <string name="OpenSettings">"OpenSettings"</string>
+    <string name="Sign">"Zeichen"</string>
+    <string name="MalformedRequest">"MalformedRequest"</string>
+    <string name="selectAuth">"Sichere Beispiel-Authentifizierungsperson"</string>
+    <string name="getEnrollmentStatus">"Reg.status abrufen"</string>
+    <string name="RegisterExt">"Mit Erweiterungen registrieren"</string>
+    <string name="SignExt">"Mit Erweiterungen signieren"</string>
+    <string name="encResult">"Gekapseltes Ergebnis"</string>
+    <string name="extResult">"Erweiterungsdaten"</string>
+    <string name="selectFidoOpText">"FIDO-Betrieb wählen"</string>
+    <string name="show_message_sui">"nachricht anzeigen sui"</string>
+    <string name="fido_sui_service">"fido-dienst sui"</string>
+    <string name="bindFidoSui">"fido binden sui"</string>
+    <string name="unbindFidoSui">"bindg. f. fido entf. sui"</string>
+    <string name="suiResultTitle">"nachr.ergebnis anzeigen sui"</string>
+    <string name="cancel_sui">"abbrechen sui"</string>
+    <string name="extensionText">"Erweiterungen verw.?"</string>
+    <string name="pngText">"PNG-Inhalt verw.?"</string>
+    <string name="fpText">"Fingerabdruck"</string>
+    <string-array name="authenticator_array">
+        <item>"Simulierte Authentifizierungsperson"</item>
+        <item>"Beispiel-Authentifizierungsperson"</item>
+        <item>"Sichere Beispiel-Authentifizierungsperson"</item>
+        <item>"Auth. Beispiel-Erweiterg."</item>
+        <item>"Auth. sichere Erweiterg."</item>
+        <item>"Auth. Gerätestatus"</item>
+        <item>"Auth. Beispiel/Sicher IAuth2"</item>
+    </string-array>
+    <string-array name="fido_op_array">
+        <item>"Info"</item>
+        <item>"Registrieren"</item>
+        <item>"Registrierung entfernen"</item>
+        <item>"Einst. öffnen"</item>
+        <item>"Fehlerh. Ausnahme"</item>
+        <item>"Signieren (Auth)"</item>
+        <item>"Signieren (TX)"</item>
+    </string-array></resources>

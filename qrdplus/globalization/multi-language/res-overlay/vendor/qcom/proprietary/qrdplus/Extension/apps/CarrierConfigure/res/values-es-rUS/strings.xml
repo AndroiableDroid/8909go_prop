@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Configurar proveedor"</string>
+    <string name="multisim_category_text">"CONFIGURACIÓN MULTISIM"</string>
+    <string name="preset_category_text">"PROVEEDOR CHINO"</string>
+    <string name="preset_category_text_default">"Predeterminado"</string>
+    <string name="preset_category_text_china">"Proveedor China"</string>
+    <string name="preset_category_text_regional">"Regional"</string>
+    <string name="sim_ssss_text">"SIM única"</string>
+    <string name="sim_dsds_text">"SIM dual no simultáneas"</string>
+    <string name="sim_dsda_text">"SIM dual ambas activas"</string>
+    <string name="progress_wait">"Configurando..."</string>
+    <string name="alert_update_sim_mode_title">"Actualizar el modo de SIM"</string>
+    <string name="alert_update_sim_mode_text">"El cambio de modo de SIM se efectuará tras reiniciar el teléfono. ¿Deseas actualizar ahora?"</string>
+    <string name="alert_switch_title">"Cambiar el operador"</string>
+    <string name="alert_switch_text">"Esta acción borrará todos los datos incluyendo los datos de configuración multi sim."</string>
+    <string name="alert_switch_error">"Error al cambiar de operador, comprueba si hay suficiente espacio."</string>
+    <string name="notice_row_title">"Aviso"</string>
+    <string name="notice_row_text">"El teléfono se configuró para adaptar tu tarjeta SIM. Reinicia el teléfono para hacer efectiva la nueva configuración."</string>
+    <string name="notice_special_install_title">"Atención"</string>
+    <string name="notice_special_install_text">"Puedes configurar el teléfono para que adapte tu tarjeta SIM. Sin embargo, esta acción eliminará todos los datos, ¿deseas configurarlo ahora?"</string>
+    <string name="welcome_title">"Bienvenido"</string>
+    <string name="welcome_message">"Seleccionar idioma"</string>
+    <string name="start_text">"Iniciar"</string>
+    <string name="emergency_call_text">"Llamada de emergencia"</string>
+    <string name="trigger_title">"Configurar"</string>
+    <string name="trigger_message">"Seleccionar un paquete"</string>
+    <string name="trigger_uninstall_message">"Ningún paquete coincide con tu tarjeta SIM. El teléfono se puede volver a configurar al paquete anterior. n\n\Volver el teléfono a la configuración anterior:"</string>
+    <string name="trigger_no_text">"No configurar"</string>
+    <string name="trigger_yes_text">"Comenzar configuración"</string>
+    <string name="trigger_ask_text">"Preguntar más tarde"</string>
+    <string name="begin_config_text">"Comenzar configuración"</string>
+    <string name="alter_no_carrier_selected">"No hay ningún proveedor seleccionado, selecciona uno o más."</string>
+    <string name="download_ota_package_title">"Descargar archivos ota"</string>
+    <string name="download_ota_package_message">"Cargando ..."</string>
+    <string name="alter_network_state_error">"Comprueba el estado de la red."</string>
+    <string name="alter_file_not_found_error">"No se pudo almacenar el archivo ota, comprueba el estado de almacenamiento."</string>
+    <string name="carrier_clear_final_desc">"¿Deseas borrar tu información personal y configuración de proveedor? No puedes deshacer esta acción."</string>
+    <string name="carrier_clear_final_button_text">"Borrar todo"</string>
+    <string name="carrier_clear_no_default_pack">"No hay paquete predeterminado en dispositivo."</string>
+    <string name="carrier_clear_parsing_not_finish">"Buscando paquete predeterminado."</string></resources>

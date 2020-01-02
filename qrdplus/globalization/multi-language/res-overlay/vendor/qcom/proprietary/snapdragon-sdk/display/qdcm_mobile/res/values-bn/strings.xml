@@ -1,0 +1,82 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"Q Mobile"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"বৈশিষ্ট্যগুলি প্রদর্শন করুন"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"রঙ ভারসাম্য"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"বৈশিষ্ট্যগুলি প্রদর্শন করুন"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"সক্রিয় মোড"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"ফটো বাছুন"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"গ্যালারি থেকে একটি চিত্র যোগ করুন"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"ছবি সামঞ্জস্য সক্ষম করুন"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"আভা:"</string>
+    <add-resource type="string" name="hue"/>
+    <string name="hue">"আভা "</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"সম্পৃক্তি:"</string>
+    <add-resource type="string" name="saturation"/>
+    <string name="saturation">"সম্পৃক্তি "</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"তীব্রতা:"</string>
+    <add-resource type="string" name="intensity"/>
+    <string name="intensity">"তীব্রতা "</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"বৈসাদৃশ্য:"</string>
+    <add-resource type="string" name="contrast"/>
+    <string name="contrast">"বৈসাদৃশ্য "</string>
+    <add-resource type="string" name="memcolorskin"/>
+    <string name="memcolorskin">"মেমোরির রঙ: স্কিন সামঞ্জস্যতা"</string>
+    <add-resource type="string" name="memcolorskinbutton"/>
+    <string name="memcolorskinbutton">"মেম:স্কিন"</string>
+    <add-resource type="string" name="memcolorsky"/>
+    <string name="memcolorsky">"মেমোরির রঙ: আকাশ সামঞ্জস্যতা"</string>
+    <add-resource type="string" name="memcolorskybutton"/>
+    <string name="memcolorskybutton">"মেম:আকাশ"</string>
+    <add-resource type="string" name="memcolorfoliage"/>
+    <string name="memcolorfoliage">"মেমোরির রঙ: পল্লবগুচ্ছ সামঞ্জস্যতা"</string>
+    <add-resource type="string" name="memcolorfoliagebutton"/>
+    <string name="memcolorfoliagebutton">"মেম:পল্লবগুচ্ছ"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="color_temp_adjustment"/>
+    <string name="color_temp_adjustment">"রঙের তাপমাত্রা:"</string>
+    <add-resource type="string" name="colortemp"/>
+    <string name="colortemp">"রঙের তাপমাত্রা "</string>
+    <add-resource type="string" name="colortempbutton"/>
+    <string name="colortempbutton">"রঙ-তাপ"</string>
+    <add-resource type="string" name="warm"/>
+    <string name="warm">"উষ্ণ"</string>
+    <add-resource type="string" name="cool"/>
+    <string name="cool">"ঠান্ডা"</string>
+    <add-resource type="string" name="pic_adjustment"/>
+    <string name="pic_adjustment">"ছবি সামঞ্জস্যতা:"</string>
+    <add-resource type="string" name="picadjustment"/>
+    <string name="picadjustment">"ছবি সামঞ্জস্যতা"</string>
+    <add-resource type="string" name="picadjustmentbutton"/>
+    <string name="picadjustmentbutton">"চিত্র-সামঞ্জস্য"</string>
+    <add-resource type="string" name="cancel"/>
+    <string name="cancel">"বাতিল"</string>
+    <add-resource type="string" name="save"/>
+    <string name="save">"সংরক্ষণ করুন"</string>
+    <add-resource type="string" name="drawerOpen"/>
+    <string name="drawerOpen">"খুলুন"</string>
+    <add-resource type="string" name="drawerClose"/>
+    <string name="drawerClose">"বন্ধ করুন"</string>
+    <add-resource type="string" name="loadingContentMsg"/>
+    <string name="loadingContentMsg">"সামগ্রী লোড হচ্ছে ..."</string>
+    <add-resource type="string" name="displayModes"/>
+    <string name="displayModes">"মোডগুলি প্রদর্শন করুন"</string>
+    <add-resource type="string" name="defaultMode"/>
+    <string name="defaultMode">"* ডিফল্ট মোড"</string></resources>

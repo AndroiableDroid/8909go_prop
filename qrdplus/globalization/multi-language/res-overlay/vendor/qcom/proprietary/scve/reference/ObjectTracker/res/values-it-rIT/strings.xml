@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"Demo sistema di rilevazione oggetti"</string>
+    <string name="open_camera_failed">"Si è verificato un errore nell\'accesso alla fotocamera sul dispositivo.  Chiudere le altre app che utilizzano la fotocamera e avviare nuovamente l\'app."</string>
+    <string name="snapshot_failed">"Si è verificato un errore nell\'acquisizione di un\'istantanea. Per informazioni dettagliate sull\'errore, esaminare il logcat  ."</string>
+    <string name="video_recording_failed">"Si è verificato un errore durante la registrazione di un video. Per informazioni dettagliate sull\'errore, esaminare il logcat  ."</string>
+    <string name="settings">"Impostazioni"</string>
+    <string name="switch_camera">"Cambia fotocamera"</string>
+    <string name="switch_camera_mode">"Cambia modalità foto/video"</string></resources>

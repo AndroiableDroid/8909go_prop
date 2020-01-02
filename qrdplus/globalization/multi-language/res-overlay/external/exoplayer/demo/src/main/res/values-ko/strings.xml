@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- The user visible name of the application. [CHAR LIMIT=20] -->
+  <string name="application_name">"ExoPlayer 데모"</string>
+  <string name="enable_background_audio">"백그라운드에서 재생"</string>
+  <string name="video">"동영상"</string>
+  <string name="audio">"오디오"</string>
+  <string name="text">"텍스트"</string>
+  <string name="logging">"로깅"</string>
+  <string name="logging_normal">"보통"</string>
+  <string name="logging_verbose">"상세"</string>
+  <string name="retry">"다시 시도"</string>
+  <string name="off">"[사용 안 함]"</string>
+  <string name="error_drm_not_supported">"API 수준 18 아래에서는 보호된 콘텐츠가 지원되지 않습니다."</string>
+  <string name="error_drm_unsupported_scheme">"이 기기는 필요한 DRM 구성을 지원하지 않습니다."</string>
+  <string name="error_drm_unknown">"알 수 없는 DRM 오류가 발생했습니다."</string>
+  <string name="error_no_decoder">"이 기기는 <xliff:g id="mime_type">%1$s</xliff:g>에 대한 디코더를 제공하지 않습니다."</string>
+  <string name="error_no_secure_decoder">"이 기기는 <xliff:g id="mime_type">%1$s</xliff:g>에 대한 안전한 디코더를 제공하지 않습니다."</string>
+  <string name="error_querying_decoders">"기기 디코더를 쿼리할 수 없습니다."</string>
+  <string name="error_instantiating_decoder">"디코더 <xliff:g id="decoder_name">%1$s</xliff:g>을(를) 인스턴스화할 수 없습니다."</string>
+  <string name="storage_permission_denied">"저장소 액세스 권한이 거부되었습니다."</string></resources>

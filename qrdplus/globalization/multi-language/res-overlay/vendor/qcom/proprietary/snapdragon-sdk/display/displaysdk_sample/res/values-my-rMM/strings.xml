@@ -1,0 +1,148 @@
+<!--
+    Copyright (c) 2014-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <add-resource type="string" name="app_name"/>
+    <string name="app_name">"ပြသ SDK နမူနာ"</string>
+    <add-resource type="string" name="btn_display_features"/>
+    <string name="btn_display_features">"ပြသ အင်္ဂါရပ်များ"</string>
+    <add-resource type="string" name="btn_color_balance"/>
+    <string name="btn_color_balance">"အရောင် ချိန်ညှိ"</string>
+    <add-resource type="string" name="btn_mode_manager"/>
+    <string name="btn_mode_manager">"အနေအထား မန်နေဂျာ"</string>
+    <add-resource type="string" name="new_mode"/>
+    <string name="new_mode">"အနေအထား အသစ်"</string>
+    <add-resource type="string" name="delete_mode"/>
+    <string name="delete_mode">"ဖျက်မည့် အနေအထား"</string>
+    <add-resource type="string" name="edit_mode"/>
+    <string name="edit_mode">"တည်းဖြတ် အနေအထား"</string>
+    <add-resource type="string" name="cancel_delete"/>
+    <string name="cancel_delete">"ပယ်ဖျက်ပါ"</string>
+    <add-resource type="string" name="display_tuning_title"/>
+    <string name="display_tuning_title">"ပြသ အင်္ဂါရပ်များ"</string>
+    <add-resource type="string" name="activate_mode"/>
+    <string name="activate_mode">"အနေအထားကို သက်၀င်ပါစေ"</string>
+    <add-resource type="string" name="enter_mode_name"/>
+    <string name="enter_mode_name">"အနေအထား အမည်ထည့်ပါ"</string>
+    <add-resource type="string" name="save_mode"/>
+    <string name="save_mode">"အနေအထား သိမ်းပါ"</string>
+    <add-resource type="string" name="pick_photo"/>
+    <string name="pick_photo">"ဓါတ်ပုံ ရွေးပါ"</string>
+    <add-resource type="string" name="disp_unsupported_toast"/>
+    <string name="disp_unsupported_toast">"ပေးထားသော ပြသမှု အမျိုးအစားကို ထောက်ပံ့မပေးထားပါ။ ချိတ်ဆက်မှု() ကို တောင်းခံထားကြောင်း သေချာပါစေ"</string>
+    <add-resource type="string" name="disp_cb_toast"/>
+    <string name="disp_cb_toast">"အင်္ဂါရပ် အရောင် မျှခြေကို ထောက်ပံ့မပေးထားပါ"</string>
+    <add-resource type="string" name="disp_ab_toast"/>
+    <string name="disp_ab_toast">"အင်္ဂါရပ် ပြုပြင်နိ်ုင်သော နောက်ခံမီးကို ထောက်ပံ့မပေးထားပါ"</string>
+    <add-resource type="string" name="disp_mcfoliage_toast"/>
+    <string name="disp_mcfoliage_toast">"အင်္ဂါရပ် Memory Color Foliage ကို ထောက်ပံ့မပေးထားပါ"</string>
+    <add-resource type="string" name="disp_mcskin_toast"/>
+    <string name="disp_mcskin_toast">"အင်္ဂါရပ် Memory Color Skin ကို ထောက်ပံ့မပေးထားပါ"</string>
+    <add-resource type="string" name="disp_mcsky_toast"/>
+    <string name="disp_mcsky_toast">"အင်္ဂါရပ် Memory Color Sky ကို ထောက်ပံ့မပေးထားပါ"</string>
+    <add-resource type="string" name="disp_pa_toast"/>
+    <string name="disp_pa_toast">"အင်္ဂါရပ် ရုပ်ပုံ ညှိယူမှုကို ထောက်ပံ့မပေးထားပါ"</string>
+    <add-resource type="string" name="disp_svi_toast"/>
+    <string name="disp_svi_toast">"အင်္ဂါရပ် နေရောင်ခြည် မြင်နိုင်စွမ်းကို ထောက်ပံ့မပေးထားပါ"</string>
+    <add-resource type="string" name="err_new_mode_fail"/>
+    <string name="err_new_mode_fail">"အနေအထား အသစ်ကို မဖန်တီးနိုင်ပါ"</string>
+    <add-resource type="string" name="err_modify_mode_fail"/>
+    <string name="err_modify_mode_fail">"အနေအထားကို မပြုပြင်နိုင်ပါ"</string>
+    <add-resource type="string" name="image_picker_desc"/>
+    <string name="image_picker_desc">"ဓါတ်ပုံပြခန်းမှ ပုံထည့်ပါ"</string>
+    <add-resource type="string" name="btn_ok"/>
+    <string name="btn_ok">"အိုကေ"</string>
+    <add-resource type="string" name="btn_yes"/>
+    <string name="btn_yes">"ဟုတ်ကဲ့"</string>
+    <add-resource type="string" name="btn_no"/>
+    <string name="btn_no">"ဟင့်အင်း"</string>
+    <add-resource type="string" name="err_no_modes"/>
+    <string name="err_no_modes">"သင့်ကိရိယာတွင် မည်သည့် ပြသချက် အနေအထားမှ မရနိုင်ပါ"</string>
+    <add-resource type="string" name="err_mode_selection_na"/>
+    <string name="err_mode_selection_na">"FEATURE_COLOR_MODE_SELECTION ကို ထောက်ပံ့မပေးထားပါ"</string>
+    <add-resource type="string" name="err_mode_management_na"/>
+    <string name="err_mode_management_na">"FEATURE_COLOR_MODE_MANAGEMENT ကို ထောက်ပံ့မပေးထားပါ"</string>
+    <add-resource type="string" name="err_instance_na"/>
+    <string name="err_instance_na">"လိုအပ်သော ပြသချက် လက်တွေ့ကျမှု မရနိုင်ပါ"</string>
+    <add-resource type="string" name="err_delete_fail"/>
+    <string name="err_delete_fail">"ပြသချက် အနေအထား ဖျက်ခြင်း မအောင်မြင်ပါ"</string>
+    <add-resource type="string" name="err_activate_fail"/>
+    <string name="err_activate_fail">"ပြသချက် အနေအထား အသက်သွင်းခြင်း မအောင်မြင်ပါ"</string>
+    <add-resource type="string" name="err_default_fail"/>
+    <string name="err_default_fail">"ပြသချက် အနေအထားကို မူလအဖြစ် မသတ်မှတ်နိုင်ပါ"</string>
+    <add-resource type="string" name="err_select_mode"/>
+    <string name="err_select_mode">"အနေအထားကို အရင်ဆုံး ရွေးပါ"</string>
+    <add-resource type="string" name="save_dialog_title"/>
+    <string name="save_dialog_title">"အနေအထားအတွက် အမည်ထည့်ပါ"</string>
+    <add-resource type="string" name="new_mode_created"/>
+    <string name="new_mode_created">"အနေအထားသစ်ကို ဖန်တီးပြီးပါပြီ"</string>
+    <add-resource type="string" name="set_default_mode"/>
+    <string name="set_default_mode">"မူလကို သတ်မှတ်ပါ"</string>
+    <add-resource type="string" name="msg_system_mode_non_editable"/>
+    <string name="msg_system_mode_non_editable">"စနစ် အနေအထားဖြစ်သော ရွေးထားသည့် အနေအထားကို မပြုပြင်နိုင်ပါ။ ရွေးထားသည့် အနေအထားကို အခြေခံပြီး အနေအထားသစ်ကို ဖန်တီးလိုပါသလား?"</string>
+    <add-resource type="string" name="msg_system_mode_non_deletable"/>
+    <string name="msg_system_mode_non_deletable">"စနစ် အနေအထားဖြစ်သော ရွေးထားသည့် အနေအထားကို မဖျက်နိုင်ပါ"</string>
+    <add-resource type="string" name="err_service_connect_error"/>
+    <string name="err_service_connect_error">"လိုအပ်သော ပြသချက် ဝန်ဆောင်မှုကို မချိတ်ဆက်နိုင်ပါ"</string>
+    <add-resource type="string" name="mode_activated"/>
+    <string name="mode_activated">" အနေအထားကို အသက်သွင်းပြီးပြီ"</string>
+    <add-resource type="string" name="mode_deleted"/>
+    <string name="mode_deleted">" အနေအထားကို ဖျက်ပြီးပြီ"</string>
+    <add-resource type="string" name="cb_mode"/>
+    <string name="cb_mode">"အရောင် ချိန်ညှိ"</string>
+    <add-resource type="string" name="svi_mode"/>
+    <string name="svi_mode">"နေရောင် မြင်နိုင်စွမ်း"</string>
+    <add-resource type="string" name="pa_mode"/>
+    <string name="pa_mode">"ရုပ်ပုံ ညှိယူမှု"</string>
+    <add-resource type="string" name="mc_foliage_mode"/>
+    <string name="mc_foliage_mode">"Memcolor Foliage"</string>
+    <add-resource type="string" name="mc_hue"/>
+    <string name="mc_hue">"အရောင်အသွေး"</string>
+    <add-resource type="string" name="mc_saturation"/>
+    <string name="mc_saturation">"ပြည့်ဝခြင်း"</string>
+    <add-resource type="string" name="mc_intensity"/>
+    <string name="mc_intensity">"ပြင်းထန်မှု"</string>
+    <add-resource type="string" name="mc_skin_mode"/>
+    <string name="mc_skin_mode">"Memcolor Skin"</string>
+    <add-resource type="string" name="mc_sky_mode"/>
+    <string name="mc_sky_mode">"Memcolor Sky"</string>
+    <add-resource type="string" name="ab_mode"/>
+    <string name="ab_mode">" ပြုပြင်နိုင်သော နောက်ခံအလင်း"</string>
+    <add-resource type="string" name="svi_enable"/>
+    <string name="svi_enable">"SVI ကိုဖွင့်ပါ"</string>
+    <add-resource type="string" name="mcfoliage_enable"/>
+    <string name="mcfoliage_enable">"Memory color foliage ကိုဖွင့်ပါ"</string>
+    <add-resource type="string" name="mcskin_enable"/>
+    <string name="mcskin_enable">"Memory color skin ကိုဖွင့်ပါ"</string>
+    <add-resource type="string" name="mcsky_enable"/>
+    <string name="mcsky_enable">"Memory color sky ကိုဖွင့်ပါ"</string>
+    <add-resource type="string" name="pa_enable"/>
+    <string name="pa_enable">"ရုပ်ပုံ ညှိယူမှုကို ဖွင့်ပါ"</string>
+    <add-resource type="string" name="ab_enable"/>
+    <string name="ab_enable">"ပြုပြင်နိုင်သော နောက်ခံအလင်းကို ဖွင့်ပါ"</string>
+    <add-resource type="string" name="pa_desaturation_enable"/>
+    <string name="pa_desaturation_enable">"ရုပ်ပုံ ညှိယူမှု မပြည့်ဝစေခြင်းကို ဖွင့်ပါ"</string>
+    <add-resource type="string" name="pa_sat_thresh"/>
+    <string name="pa_sat_thresh">"ပြည့်ဝမှု သတ်မှတ်ချက်အဆင့်"</string>
+    <add-resource type="string" name="pa_hue"/>
+    <string name="pa_hue">"အရောင်အသွေး"</string>
+    <add-resource type="string" name="pa_saturation"/>
+    <string name="pa_saturation">"ပြည့်ဝခြင်း"</string>
+    <add-resource type="string" name="pa_intensity"/>
+    <string name="pa_intensity">"ပြင်းထန်မှု"</string>
+    <add-resource type="string" name="pa_contrast"/>
+    <string name="pa_contrast">"ခြားနားချက်"</string>
+    <add-resource type="string" name="default_image"/>
+    <string name="default_image">"default.jpg"</string>
+    <add-resource type="string" name="ab_high"/>
+    <string name="ab_high">"မြင့်မြင့်"</string>
+    <add-resource type="string" name="ab_medium"/>
+    <string name="ab_medium">"အလယ်အလတ်"</string>
+    <add-resource type="string" name="ab_low"/>
+    <string name="ab_low">"နိမ့်နိမ့်"</string>
+    <add-resource type="string" name="ab_auto"/>
+    <string name="ab_auto">"အလိုအလျောက်"</string>
+    <add-resource type="string" name="refresh_b"/>
+    <string name="refresh_b">"ပြန်လည်လုပ်ဆောင်ပါ"</string></resources>

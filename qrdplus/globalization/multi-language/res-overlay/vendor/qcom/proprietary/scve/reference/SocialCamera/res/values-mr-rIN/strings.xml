@@ -1,0 +1,39 @@
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">"सामाजिक कॅमेरा"</string>
+    <!-- StartupPermissionRequestActivity strings -->
+    <string name="startup_permission_request_error_failed">"आम्‍हाला सत्यापित करताना किंवा परवानग्यांची विनंती करताना त्रुटी आली. कृपया अधिक तपशीलासाठी लॉगकॅट तपासा."</string>
+    <!-- CameraPreviewActivity strings -->
+    <string name="camera_preview_send_faces">"पाठवा (%d)"</string>
+    <string name="camera_preview_error_camera_disconnected">"कॅमेर्‍याशी असलेले कनेक्शन गमावले"</string>
+    <string name="camera_preview_error_camera_error">"कॅमेर्‍याशी संबंधित त्रुटी: %s"</string>
+    <string name="camera_preview_error_still_image_capture_failed">"चित्र घेण्यात अयशस्‍वी झाले"</string>
+    <string name="camera_preview_error_still_image_save_failed">"आम्‍हाला आपल्या गॅलरीमध्ये चित्र जतन करताना त्रुटी आली"</string>
+    <!-- CameraSettingsActivity strings -->
+    <string name="camera_settings_title">"सेटिंग्ज"</string>
+    <string name="camera_settings_category_camera_settings">"कॅमेरा सेटिंग्‍स"</string>
+    <string name="camera_settings_category_fr_settings">"चेहरा ओळख सेटिंग्स"</string>
+    <string name="camera_settings_category_debug_settings">"डीबग सेटिंग्‍स"</string>
+    <string name="camera_settings_fr_database_cleared">"चेहरा ओळख डेटाबेस साफ करण्यात आला"</string>
+    <!-- PictureReviewActivity strings -->
+    <string name="picture_review_dismiss">"डिसमिस करा"</string>
+    <string name="picture_review_send_faces">"पाठवा (%d)"</string>
+    <string name="picture_review_no_faces">"या फोटोमध्ये कोणीही सापडले नाही"</string>
+    <string name="picture_review_error_face_recognition">"आम्‍हाला चेहरे ओळखताना त्रुटी आली"</string>
+    <string name="picture_review_error_face_enroll">"क्षमस्व, आम्हाला हा चेहरा जतन करताना त्रुटी आली. कृपया या सब्जेक्टचे अजून एक चित्र घ्या आणि पुन्हा प्रयत्न करा."</string>
+    <!-- FaceLayoutManager strings -->
+    <string name="facelayoutmanager_unrecognized_face_name"><b>+</b></string>
+    <string name="facelayoutmanager_enroll_other_user">"अन्य संपर्क\u2026"</string>
+    <!-- ShareSettingsDialog strings -->
+    <string name="fr_share_settings_title">"सहभागी करण्याचे सेटिंग्स"</string>
+    <string name="fr_share_settings_button_just_once">"केवळ एकदा"</string>
+    <string name="fr_share_settings_button_always">"नेहमी"</string>
+    <string name="fr_share_settings_share_method_sms">"संदेश"</string>
+    <string name="fr_share_settings_share_method_email">"ईमेल"</string>
+    <!-- SocialSharing strings -->
+    <string name="social_sharing_email_subject">"हे पाहा!"</string>
+    <string name="social_sharing_error_no_email_app">"आपल्याकडे असे अनुप्रयोग नाही जे ईमेल पाठवण्यास सक्षम आहे"</string></resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+    All Rights Reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="debug_pref_display_metrics">"Hiển thị số liệu gỡ lỗi"</string>
+    <bool name="debug_pref_display_metrics_default_value">false</bool>
+    <string name="debug_pref_save_pictures">"Lưu ảnh"</string>
+    <string name="debug_pref_save_pictures_desc">"Lưu ảnh đã chụp vào thẻ SD"</string>
+    <bool name="debug_pref_save_pictures_default_value">false</bool>
+    <string name="debug_pref_save_preview_frames">"Lưu khung ảnh xem trước"</string>
+    <string name="debug_pref_save_preview_frames_desc">"Lưu khung ảnh xem trước vào thẻ SD"</string>
+    <bool name="debug_pref_save_preview_frames_default_value">false</bool>
+    <string name="debug_pref_allow_drop_preview_frames">"Cho phép giảm khung ảnh xem trước"</string>
+    <string name="debug_pref_allow_drop_preview_frames_desc">"Khi lưu khung ảnh xem trước, cho phép giảm khung để duy trì tốc độ khung hình"</string>
+    <bool name="debug_pref_allow_drop_preview_frames_default_value">true</bool>
+    <string name="debug_pref_fr_verbose_logging">"Bật ghi nhật ký chi tiết nhận diện khuôn mặt"</string>
+    <bool name="debug_pref_fr_verbose_logging_default_value">false</bool></resources>

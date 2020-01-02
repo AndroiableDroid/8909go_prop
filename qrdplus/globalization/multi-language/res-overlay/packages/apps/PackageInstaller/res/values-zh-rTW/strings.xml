@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2015-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ *
+ * Not a Contribution.
+ * Apache license notifications and license are retained
+ * for attribution purposes only.
+ */
+-->
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"程式安裝器"</string>
+    <string name="next">"下一步"</string>
+    <string name="install">"安裝"</string>
+    <string name="done">"完成"</string>
+    <!-- TODO REMOVE LATER -->
+    <string name="security_settings_desc">"允許這個應用程式："</string>
+    <string name="cancel">"取消"</string>
+    <string name="unknown">"未知"</string>
+    <string name="installing">"安裝中\u2026"</string>
+    <string name="install_done">"已安裝應用程式。"</string>
+    <!-- Message for installing a new app that requires some permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question">"您要安裝這個應用程式嗎？應用程式將取得以下權限："</string>
+    <!-- Message for installing a new app that does not require permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_no_perms">"您要安裝這個應用程式嗎？應用程式不需任何特殊權限。"</string>
+    <!-- Message for updating an existing app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update">"您要為這個現有的應用程式安裝更新嗎？您的現有資料不會遺失，而更新後的應用程式將取得以下權限："</string>
+    <!-- Message for updating an existing system app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_system">"您要為這個內建的應用程式安裝更新嗎？您的現有資料不會遺失，而更新後的應用程式將取得以下權限："</string>
+    <!-- Message for updating an existing app, no permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_no_perms">"您要為這個現有的應用程式安裝更新嗎？您不會遺失現有的資料，且應用程式不需任何特殊權限。"</string>
+    <!-- Message for updating an existing system app, no permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_system_no_perms">"您要為這個現有的內建應用程式安裝更新嗎？您不會遺失現有的資料，且應用程式不需任何特殊權限。"</string>
+    <string name="install_failed">"未安裝應用程式。"</string>
+    <!-- Reason displayed when installation fails because the installation package itself is invalid
+        in some way (e.g., corrupt) [CHAR LIMIT=100] -->
+    <string name="install_failed_invalid_apk">"套件已毀損。"</string>
+    <!-- Reason displayed when installation fails because the package an existing package is
+        installed with a conflicting package author signature [CHAR LIMIT=100] -->
+    <string name="install_failed_inconsistent_certificates">"發生衝突，安裝套件所使用的簽名和現有套件的簽名相同。"</string>
+    <!-- Reason displayed when installation fails because the package specifies a minimum compatible
+        OS version that is newer than our current OS version. [CHAR LIMIT=100] -->
+    <string name="install_failed_older_sdk">"套件只能在較新版本的 Android 上運作。"</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">"這個應用程式與您的平板電腦不相容。"</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current TV doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tv">"這個應用程式與您的電視不相容。"</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current phone doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="default">"這個應用程式與您的手機不相容。"</string>
+    <!-- Reason displayed when installation fails because the package was deleted during the
+        installation process. [CHAR LIMIT=100] -->
+    <string name="install_failed_file_not_found">"指定套件在安裝程序完成之前遭到刪除。"</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        because the package verifier rejected it. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_failed">"這個套件未通過驗證，因此無法安裝。"</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        before the internal system timer expired. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_timeout">"嘗試驗證這個套件時發生逾時，請稍後再嘗試安裝。"</string>
+    <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tablet">"無法在您的平板電腦上安裝「<xliff:g id="APP_NAME">%1$s</xliff:g>」。"</string>
+    <!-- Message presented when an application could not be installed on the TV for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tv">"無法在您的電視上安裝「<xliff:g id="APP_NAME">%1$s</xliff:g>」。"</string>
+    <!-- Message presented when an application could not be installed on the phone for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="default">"無法在您的手機上安裝「<xliff:g id="APP_NAME">%1$s</xliff:g>」。"</string>
+    <string name="launch">"開啟"</string>
+    <string name="unknown_apps_dlg_title">"安裝遭封鎖。"</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tablet">"為保障安全，您的平板電腦已設定為不安裝來路不明的應用程式。"</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tv">"為了安全起見，您的電視已設定禁止安裝來源不明的應用程式。"</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="default">"為保障安全，您的手機已設定為不安裝來路不明的應用程式。"</string>
+    <!-- Message presented in a dialog box when the device administrator restricts the installation of apps from unknown sources. [CHAR LIMIT=none] -->
+    <string name="unknown_apps_admin_dlg_text">"管理員不允許安裝來源不明的應用程式。"</string>
+    <string name="ok">"確定"</string>
+    <string name="settings">"設定"</string>
+    <!-- Title of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_title">"應用程式的新來源"</string>
+    <!-- Message of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_text">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要安裝其他應用程式。\n\n您是否允許現在及日後都執行這項作業？"</string>
+    <string name="manage_applications">"管理應用程式"</string>
+    <string name="dlg_app_replacement_title">"取代應用程式？"</string>
+    <string name="dlg_app_replacement_statement">"您所要安裝的應用程式將取代其他應用程式。\n\n系統將儲存所有先前的使用者資料。"</string>
+    <!-- Dialog attributes when replacing system app -->
+    <string name="dlg_sys_app_replacement_statement">"這是系統應用程式。\n\n系統將儲存所有先前的使用者資料。"</string>
+    <string name="out_of_space_dlg_title">"空間不足"</string>
+    <string name="out_of_space_dlg_text">"無法安裝「<xliff:g id="APP_NAME">%1$s</xliff:g>」。請先釋出部分空間，然後再試一次。"</string>
+    <!-- strings related to uninstall activity -->
+    <string name="dlg_ok">"確定"</string>
+    <string name="app_not_found_dlg_title">"找不到應用程式"</string>
+    <string name="app_not_found_dlg_text">"在已安裝的應用程式清單中找不到這個應用程式。"</string>
+    <string name="uninstall_application_title">"解除安裝應用程式"</string>
+    <string name="uninstall_update_title">"解除安裝更新"</string>
+    <string name="uninstall_activity_text">"「<xliff:g id="ACTIVITY_NAME">%1$s</xliff:g>」屬於下列應用程式："</string>
+    <string name="uninstall_application_text">"您要解除安裝這個應用程式嗎?"</string>
+    <string name="uninstall_application_text_all_users">"您要為"<b>"所有"</b>"使用者解除安裝這個應用程式嗎？該應用程式及其資料會從裝置上的"<b>"所有"</b>"使用者設定檔移除。"</string>
+    <string name="uninstall_application_text_user">"您要為使用者 <xliff:g id="USERNAME">%1$s</xliff:g> 解除安裝這個應用程式嗎？"</string>
+    <string name="uninstall_update_text">"您要將這個應用程式重設成原廠設定嗎？"</string>
+    <string name="uninstalling">"解除安裝中\u2026"</string>
+    <string name="uninstall_done">"解除安裝完成。"</string>
+    <string name="uninstall_failed">"解除安裝失敗。"</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator [CHAR LIMIT=80] -->
+    <string name="uninstall_failed_device_policy_manager">"這個套件是目前的裝置管理員，因此無法解除安裝。"</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator for some user [CHAR LIMIT=100] -->
+    <string name="uninstall_failed_device_policy_manager_of_user">"這個套件是<xliff:g id="USERNAME">%1$s</xliff:g>目前使用中的裝置權限管理工具，因此無法解除安裝。"</string>
+    <!-- String presented to the user when uninstalling a package failed because a profile owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_profile_owner">"這是 Work 設定檔所需的應用程式，因此無法解除安裝。"</string>
+    <!-- String presented to the user when uninstalling a package failed because a device owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_device_owner">"這是您的裝置管理員要求安裝的應用程式，因此無法解除安裝。"</string>
+    <!-- String on a button that leads to the "device administrator" configuration setting where a
+        user will be able to disable the device administrator in order to uninstall
+        it. [CHAR LIMIT=50] -->
+    <string name="manage_device_administrators">"管理裝置管理員"</string>
+    <string name="uninstall_failed_msg">"無法解除安裝「<xliff:g id="APP_NAME">%1$s</xliff:g>」。"</string>
+    <!-- Dialog attributes to indicate parse errors -->
+    <string name="Parse_error_dlg_title">"剖析錯誤"</string>
+    <string name="Parse_error_dlg_text">"剖析套件時發生問題。"</string>
+    <!-- Tab label for new permissions being added to an existing app [CHAR LIMIT=20] -->
+    <string name="newPerms">"新增"</string>
+    <!-- Tab label for all permissions of an app being installed [CHAR LIMIT=20] -->
+    <string name="allPerms">"全部"</string>
+    <!-- Tab label for permissions related to user privacy [CHAR LIMIT=20] -->
+    <string name="privacyPerms">"隱私權"</string>
+    <!-- Tab label for permissions related to device behavior [CHAR LIMIT=20] -->
+    <string name="devicePerms">"裝置存取權"</string>
+    <!-- Body text for new tab when there are no new permissions [CHAR LIMIT=NONE] -->
+    <string name="no_new_perms">"這項更新不需新權限。"</string>
+    <string name="grant_confirm_question">"您要授予下列權限嗎？將會開放下列存取權："</string>
+    <!-- Title for the dialog button to allow a permission grant. -->
+    <string name="grant_dialog_button_allow">"允許"</string>
+    <!-- Title for the dialog button to deny a permission grant. -->
+    <string name="grant_dialog_button_deny">"拒絕"</string>
+    <!-- Template for the current permission from the total number of permissions. -->
+    <string name="current_permission_template">"<xliff:g id="CURRENT_PERMISSION_INDEX">%1$s</xliff:g>/<xliff:g id="PERMISSION_COUNT">%2$s</xliff:g>"</string>
+    <!-- Template for the warning message when an app requests a permission. -->
+    <string name="permission_warning_template">"允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」<xliff:g id="ACTION">%2$s</xliff:g>嗎？"</string>
+    <!-- Breadcrumb for page of managing application permissions [CHAR LIMIT=50] -->
+    <string name="app_permissions_breadcrumb">"應用程式"</string>
+    <!-- Title for page of managing application permissions -->
+    <string name="app_permissions">"應用程式權限"</string>
+    <!-- Checkbox that allows user to not be questioned about this permission
+         request again -->
+    <string name="never_ask_again">"不要再詢問我"</string>
+    <!-- Label when app requests no permissions -->
+    <string name="no_permissions">"沒有權限"</string>
+    <!-- Label for button that leads to more permissions [CHAR LIMIT=40] -->
+    <string name="additional_permissions">"其他權限"</string>
+    <!-- Description of how many more permissions to view on next page [CHAR LIMIT=30] -->
+    <plurals name="additional_permissions_more">
+        <item quantity="one">"還有 <xliff:g id="COUNT_0">%1$d</xliff:g> 項"</item>
+        <item quantity="other">"還有 <xliff:g id="COUNT_1">%1$d</xliff:g> 項"</item>
+    </plurals>
+    <!-- Warning for turning off permissions on older apps -->
+    <string name="old_sdk_deny_warning">"這個應用程式是為舊版 Android 所開發。拒絕授予權限可能導致應用程式無法正常運作。"</string>
+    <!-- The default description of a permission, i.e. what it does.  [CHAR LIMIT=40] -->
+    <string name="default_permission_description">"執行不明的動作"</string>
+    <!-- Summary of number of apps currently granted a single permission [CHAR LIMIT=45] -->
+   <string name="app_permissions_group_summary">"已授權 <xliff:g id="COUNT_0">%1$d</xliff:g> 個應用程式 (共 <xliff:g id="COUNT_1">%2$d</xliff:g> 個)"</string>
+   <!-- [CHAR LIMIT=NONE] Menu for manage permissions to control whether system apps are shown -->
+   <string name="menu_show_system">"顯示系統"</string>
+   <!-- [CHAR LIMIT=NONE] Menu for manage permissions to control whether system apps are hidden -->
+   <string name="menu_hide_system">"隱藏系統"</string>
+   <!-- [CHAR LIMIT=30] Title for page managing what apps have a permission granted -->
+   <string name="permission_title">"<xliff:g id="PERMISSION">%1$s</xliff:g>權限"</string>
+   <!-- [CHAR LIMIT=NONE] Label when no apps requesting this permission -->
+   <string name="no_apps">"沒有應用程式"</string>
+   <!-- [CHAR LIMIT=30] Title of button that leads to location settings -->
+   <string name="location_settings">"位置資訊設定"</string>
+   <!-- [CHAR LIMIT=NONE] Warning about how this app cannot have location permission disabled -->
+   <string name="location_warning">"<xliff:g id="APP_NAME">%1$s</xliff:g> 是這台裝置的定位服務供應商。您可以在位置資訊設定中修改位置資訊存取權。"</string>
+   <!-- [CHAR LIMIT=NONE] Warning message when turning off permission for system apps -->
+   <string name="system_warning">"如果您拒絕這項權限，裝置的基本功能可能無法正常運作。"</string>
+   <!-- [CHAR LIMIT=NONE] Summary of a permission switch when it's enforced by policy -->
+   <string name="permission_summary_enforced_by_policy">"依據政策規定執行"</string>
+   <!-- Text displayed until loading is done -->
+   <string name="loading">"載入中\u2026"</string>
+   <!-- [CHAR LIMIT=45] Title of all permissions settings -->
+   <string name="all_permissions">"所有權限"</string>
+   <!-- [CHAR LIMIT=45] Group of permissions granted to app automatically when installed. -->
+   <string name="other_permissions">"其他應用程式功能"</string>
+   <!-- Title of the permission dialog for accessibility purposes- spoken to the user. [CHAR LIMIT=none] -->
+   <string name="permission_request_title">"權限要求"</string>
+    <!-- Title for the dialog that warns the user they need to turn off screen overlays
+         before permissions can be changed. [CHAR LIMIT=NONE] -->
+   <string name="screen_overlay_title">"偵測到畫面重疊圖層"</string>
+   <!-- Message for the dialog that warns the user they need to turn off screen overlays
+        before permissions can be changed. The "Settings > Apps" conveys to the user to
+        go to Settings and click on apps, this may need updates in RTL languages. [CHAR LIMIT=NONE] -->
+   <string name="screen_overlay_message">"如要變更這項權限設定，您必須先依序前往 [設定] &gt; [應用程式]，關閉裝置畫面重疊圖層"</string>
+    <!-- Button for the dialog that warns the user they need to turn off screen overlays
+         before permissions can be changed. [CHAR LIMIT=NONE] -->
+    <string name="screen_overlay_button">"開啟設定"</string></resources>
